@@ -3,14 +3,25 @@ on:
   schedule:
     - cron: "15 8 * * *"
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   crawl:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
       - run: python crawler.py
         env:
           YT_API_KEYS: ${{ secrets.YT_API_KEYS }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MODE: all
+      - name: Save results back to repo
+        run: |
+          git config user.name "danceworld-crawler"
+          git config user.email "crawler@users.noreply.github.com"
+          git add -A
+          git commit -m "crawler results" || echo "nothing to commit"
+          git push
