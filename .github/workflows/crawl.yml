@@ -25,3 +25,10 @@ jobs:
           git add -A
           git commit -m "crawler results" || echo "nothing to commit"
           git push
+      - name: Score virals (windows all/year/month)
+        if: always()
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python score_virals.py
