@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 
 URL = os.environ["SUPABASE_URL"].rstrip("/")
 KEY = os.environ["SUPABASE_SERVICE_KEY"]
-H = {"all": None, "year": 90.0, "month": 10.0}
+H = {"all": None, "year": 540.0, "month": 120.0}  # interim half-lives on origin_date; v2 velocity restores 90/10
 W_EXT, W_CROWD = 0.55, 0.45
 M_PRIOR = 3.0
 
@@ -54,7 +54,7 @@ def main():
             crowd.append(sum(decay(v["created_at"], h) for v in vs))
         rec = [decay(c.get("origin_date") or "", h) for c in ch]
         ez, cz = zs(ext), zs(crowd)
-        raw = [W_EXT * e * rc + W_CROWD * c for e, c, rc in zip(ez, cz, rec)]
+        raw = [W_EXT * e * (1.0 if h is None else 0.10 + 0.90 * rc) + W_CROWD * c for e, c, rc in zip(ez, cz, rec)]
         gm = sum(raw) / len(raw)
         scored = []
         for c, r, cr in zip(ch, raw, crowd):
