@@ -25,6 +25,10 @@ def api(path, method="GET", body=None, prefer=None):
         return json.loads(t) if t else None
 
 def decay(ts, h):
+    if not ts:
+        return 1.0 if h is None else 0.0
+    if len(ts) == 10:
+        ts = ts + "T00:00:00+00:00"
     if h is None or not ts:
         return 1.0
     age = (datetime.now(timezone.utc) - datetime.fromisoformat(ts.replace("Z", "+00:00"))).total_seconds() / 86400.0
@@ -48,8 +52,9 @@ def main():
         for c in ch:
             vs = [v for v in votes if v["target_slug"] == c["slug"]]
             crowd.append(sum(decay(v["created_at"], h) for v in vs))
+        rec = [decay(c.get("origin_date") or "", h) for c in ch]
         ez, cz = zs(ext), zs(crowd)
-        raw = [W_EXT * e + W_CROWD * c for e, c in zip(ez, cz)]
+        raw = [W_EXT * e * rc + W_CROWD * c for e, c, rc in zip(ez, cz, rec)]
         gm = sum(raw) / len(raw)
         scored = []
         for c, r, cr in zip(ch, raw, crowd):
