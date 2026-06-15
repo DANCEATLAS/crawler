@@ -4,8 +4,8 @@ MODE=os.environ.get("MODE","all").lower()
 YT_KEYS=[k.strip() for k in os.environ.get("YT_API_KEYS","").split(",") if k.strip()]
 OPENAI_KEY=os.environ.get("OPENAI_API_KEY","").strip()
 LIST_PATH=os.environ.get("DANCE_LIST","dance_list.json")
-B_HERO=int(os.environ.get("BUDGET_HERO","40"))
-B_TUT=int(os.environ.get("BUDGET_TUTORIAL","12"))
+B_HERO=int(os.environ.get("BUDGET_HERO","400"))
+B_TUT=int(os.environ.get("BUDGET_TUTORIAL","400"))
 B_VIRAL=int(os.environ.get("BUDGET_VIRAL","24"))
 
 SACRED=set(json.loads(r'''["bharatanatyam","capoeira","hula","haka","sufi-whirling","odissi","kathakali","manipuri","mohiniyattam","bon-odori","apsara-dance","legong","saman","garba","ring-shout","chhau","danza-de-los-voladores","diablada","baris","kuchipudi","sattriya","kecak","candomble","calusari","gnawa","cham-dance","lakhon-khol","mongolian-tsam","mak-yong","sinulog","tinku","theyyam","ainu-dance","gule-wamkulu","burundi-royal-drum","intore","dhamal-sufi","matachines","padayani","hula-kahiko","mendiani","zinli","ingoma-mapiko","kumina","sakela-sili"]'''))
@@ -62,10 +62,26 @@ def api(path,params,keys):
             if tries<3: tries+=1; time.sleep(2*tries); continue
             raise
 
+def _ytdlp_search(q,n=20):
+    import subprocess,shutil
+    if not shutil.which("yt-dlp"): return []
+    try:
+        out=subprocess.run(["yt-dlp","ytsearch"+str(n)+":"+q,"--flat-playlist","--no-warnings","--print","id"],capture_output=True,text=True,timeout=90)
+        seen=set(); uniq=[]
+        for ln in out.stdout.splitlines():
+            i=ln.strip()
+            if i and i not in seen: seen.add(i); uniq.append(i)
+        return uniq[:n]
+    except Exception as e:
+        sys.stderr.write("ytdlp fail "+q+": "+str(e)+"\n"); return []
+
 def search_ids(q,keys,n=14):
-    keys.n+=1
-    sj=api("search",{"part":"snippet","type":"video","videoEmbeddable":"true","maxResults":str(n),"q":q},keys)
-    return [it["id"]["videoId"] for it in sj.get("items",[]) if it.get("id",{}).get("videoId")]
+    ids=_ytdlp_search(q,n=max(n,20))
+    if ids: return ids[:max(n,20)]
+    try:
+        sj=api("search",{"part":"snippet","type":"video","videoEmbeddable":"true","maxResults":str(min(n,50)),"q":q},keys)
+        return [it["id"]["videoId"] for it in sj.get("items",[]) if it.get("id",{}).get("videoId")]
+    except Exception: return []
 
 def videos(ids,keys):
     if not ids: return []
