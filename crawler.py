@@ -207,8 +207,12 @@ def main():
 
     if MODE in ("all","hero"):
         cache=jload("crawler_cache.json",{}); out=jload("hero_results.json",{}); done=0; wrote=0
-        todo=[d for d in dances if d.get("publish") and not d.get("has_hero") and d.get("slug") not in cache and d.get("wikipedia")]
-        todo+=[d for d in dances if not d.get("publish") and not d.get("has_hero") and d.get("slug") not in cache]
+        def _retry(d):
+            c=cache.get(d.get("slug"))
+            return (c is None) or (isinstance(c,dict) and not c.get("hero_video_youtube_id"))
+        todo=[d for d in dances if d.get("publish") and not d.get("has_hero") and _retry(d) and d.get("wikipedia")]
+        todo+=[d for d in dances if d.get("publish") and not d.get("has_hero") and _retry(d) and not d.get("wikipedia")]
+        todo+=[d for d in dances if not d.get("publish") and not d.get("has_hero") and _retry(d)]
         for d in todo:
             if done>=B_HERO: break
             try: res=pick_hero(d,keys); done+=1
