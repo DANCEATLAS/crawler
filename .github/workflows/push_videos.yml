@@ -1,5 +1,7 @@
 name: push_videos
 on:
+  schedule:
+    - cron: "45 8 * * *"
   workflow_dispatch:
 jobs:
   push:
