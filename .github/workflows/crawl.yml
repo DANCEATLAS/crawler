@@ -21,9 +21,9 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MODE: all
-          BUDGET_HERO: "400"
-          BUDGET_TUTORIAL: "400"
-          BUDGET_VIRAL: "24"
+          BUDGET_HERO: "600"
+          BUDGET_TUTORIAL: "0"
+          BUDGET_VIRAL: "0"
       - name: Save results back to repo
         run: |
           git config user.name "danceworld-crawler"
