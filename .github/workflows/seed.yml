@@ -1,0 +1,143 @@
+name: Seed Supabase from research JSON
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/seed.yml'
+      - 'danceworld_final_622.json'
+      - 'viral_challenges_verified.json'
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Seed dances + viral into Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.request, urllib.parse, sys
+
+          BASE = os.environ["SUPABASE_URL"].rstrip("/")
+          KEY  = os.environ["SUPABASE_SERVICE_KEY"]
+          H = {
+              "apikey": KEY,
+              "Authorization": "Bearer " + KEY,
+              "Content-Type": "application/json",
+          }
+
+          def req(method, path, body=None, headers=None, params=None):
+              url = BASE + "/rest/v1/" + path
+              if params:
+                  url += "?" + urllib.parse.urlencode(params, safe=",.*()")
+              data = json.dumps(body).encode() if body is not None else None
+              r = urllib.request.Request(url, data=data, method=method)
+              for k, v in {**H, **(headers or {})}.items():
+                  r.add_header(k, v)
+              try:
+                  with urllib.request.urlopen(r) as resp:
+                      raw = resp.read().decode()
+                      cr = resp.headers.get("content-range")
+                      return resp.status, raw, cr
+              except urllib.error.HTTPError as e:
+                  return e.code, e.read().decode()[:500], None
+
+          def count(table):
+              s, _, cr = req("GET", table, headers={"Prefer": "count=exact", "Range": "0-0"}, params={"select": "id"})
+              if cr and "/" in cr:
+                  return cr.split("/")[-1]
+              return "?"
+
+          def chunked(lst, n):
+              for i in range(0, len(lst), n):
+                  yield lst[i:i+n]
+
+          def upsert(table, rows, on_conflict, label):
+              if not rows:
+                  print(f"  {label}: nothing to send"); return
+              ok = 0; fail = 0
+              for batch in chunked(rows, 200):
+                  s, body, _ = req("POST", table,
+                                   body=batch,
+                                   headers={"Prefer": "resolution=merge-duplicates,return=minimal"},
+                                   params={"on_conflict": on_conflict})
+                  if s in (200, 201, 204):
+                      ok += len(batch)
+                  else:
+                      fail += len(batch)
+                      print(f"  {label} batch FAIL {s}: {body[:180]}")
+              print(f"  {label}: sent {ok} ok, {fail} failed")
+
+          CONF = {"high": 0.9, "medium": 0.6, "low": 0.3}
+          def slugify(s):
+              s = (s or "").lower().strip()
+              s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+              return s
+
+          dances = json.load(open("danceworld_final_622.json"))
+          print(f"Loaded {len(dances)} dances. dances before: {count('dances')}")
+          drows = []
+          for e in dances:
+              cc = e.get("country_code") or ""
+              cc = cc if len(str(cc)) == 2 else None
+              drows.append({
+                  "slug": e.get("slug"), "name": e.get("name"), "country": e.get("country"),
+                  "country_code": cc, "region": e.get("region"), "era": e.get("era"),
+                  "tagline": e.get("tagline"), "profile": e.get("profile"), "insight": e.get("insight"),
+                  "wikipedia_url": e.get("wikipedia_url") or None, "wikidata_qid": e.get("wikidata_qid") or None,
+                  "unesco": bool(e.get("unesco")), "lat": e.get("lat"), "lng": e.get("lng"),
+                  "confidence": CONF.get(str(e.get("confidence")), 0.5), "source_profile": "research_final_622",
+              })
+          upsert("dances", drows, "slug", "dances")
+          print(f"dances after: {count('dances')}")
+
+          s, body, _ = req("GET", "dances", headers={"Range": "0-9999"}, params={"select": "id,slug,name"})
+          idx = json.loads(body) if s == 200 else []
+          by_slug = {r["slug"]: r["id"] for r in idx}
+          by_name = {}
+          for r in idx:
+              by_name[(r.get("name") or "").strip().lower()] = r["id"]
+              by_name[slugify(r.get("name"))] = r["id"]
+
+          aliases, sources, edges = [], [], []
+          sa, ss, se = set(), set(), set()
+          for e in dances:
+              did = by_slug.get(e.get("slug"))
+              if not did: continue
+              for a in (e.get("aliases") or []):
+                  a = (a or "").strip()
+                  if a and (did,a) not in sa: sa.add((did,a)); aliases.append({"dance_id":did,"alias":a})
+              for src in (e.get("sources") or []):
+                  u = src.get("url") if isinstance(src,dict) else None
+                  if u and (did,u) not in ss: ss.add((did,u)); sources.append({"dance_id":did,"url":u,"label":(src.get("title") or src.get("publisher") or "")[:200]})
+              for rel in (e.get("related") or []):
+                  tid = by_name.get((rel or "").strip().lower()) or by_name.get(slugify(rel))
+                  if tid and tid!=did and (did,tid) not in se: se.add((did,tid)); edges.append({"src_id":did,"dst_id":tid,"relation":"related"})
+          upsert("dance_aliases", aliases, "dance_id,alias", "aliases")
+          upsert("dance_sources", sources, "dance_id,url", "sources")
+          upsert("dance_edges", edges, "src_id,dst_id,relation", "edges")
+          print(f"aliases={count('dance_aliases')} sources={count('dance_sources')} edges={count('dance_edges')}")
+
+          viral = json.load(open("viral_challenges_verified.json"))
+          def pd(d):
+              d=(d or "").strip(); import re as _r
+              if _r.match(r"\d{4}-\d{2}-\d{2}", d): return d[:10]
+              if _r.match(r"^\d{4}$", d): return d+"-01-01"
+              return None
+          vrows=[{"slug":e.get("slug"),"name":e.get("name"),"originator":e.get("originator"),"origin_date":pd(e.get("origin_date")),"song":e.get("song"),"description":e.get("originator_story")} for e in viral]
+          s,body,_=req("POST","viral_challenges",body=vrows[:1],headers={"Prefer":"resolution=merge-duplicates,return=minimal"},params={"on_conflict":"slug"})
+          if s in (200,201,204): upsert("viral_challenges", vrows, "slug", "viral")
+          else:
+              ok=0
+              for b in chunked(vrows,200):
+                  s2,b2,_=req("POST","viral_challenges",body=b,headers={"Prefer":"return=minimal"})
+                  if s2 in (200,201,204): ok+=len(b)
+                  else: print(f"  viral FAIL {s2}: {b2[:160]}")
+              print(f"  viral inserted {ok}")
+          print(f"viral after: {count('viral_challenges')}")
+          print("SEED COMPLETE.")
+          PY
