@@ -1,4 +1,4 @@
-import os, re, sys, json, time, urllib.parse, urllib.request, urllib.erro
+import os, re, sys, json, time, urllib.parse, urllib.request, urllib.error
 MODE=os.environ.get("MODE","all").lower()
 YT_KEYS=[k.strip() for k in os.environ.get("YT_API_KEYS","").split(",") if k.strip()]
 OPENAI_KEY=os.environ.get("OPENAI_API_KEY","").strip()
