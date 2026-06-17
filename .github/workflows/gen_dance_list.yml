@@ -1,0 +1,52 @@
+name: gen_dance_list
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Generate dance_list.json from Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          python - <<'PY'
+          import os, json, urllib.request, urllib.parse, urllib.error
+          BASE=os.environ['SUPABASE_URL'].rstrip('/')+'/rest/v1'
+          KEY=os.environ['SUPABASE_SERVICE_KEY']
+          H={'apikey':KEY,'Authorization':'Bearer '+KEY}
+          def get(path):
+              req=urllib.request.Request(BASE+path, headers=H)
+              with urllib.request.urlopen(req) as r: return json.loads(r.read().decode())
+          out=[]; offset=0; step=1000
+          while True:
+              rows=get('/dances?select=slug,name,country,wikipedia_url,hero_video_youtube_id,dance_aliases(alias)&order=slug.asc&limit='+str(step)+'&offset='+str(offset))
+              for d in rows:
+                  out.append({
+                      'slug': d['slug'],
+                      'name': d.get('name') or d['slug'],
+                      'aliases': [a['alias'] for a in (d.get('dance_aliases') or []) if a.get('alias')],
+                      'wikipedia': d.get('wikipedia_url') or '',
+                      'country': d.get('country') or '',
+                      'publish': True,
+                      'has_hero': bool((d.get('hero_video_youtube_id') or '').strip())
+                  })
+              if len(rows)<step: break
+              offset+=step
+          json.dump(out, open('dance_list.json','w'), ensure_ascii=False)
+          print('wrote dance_list.json entries:', len(out))
+          PY
+      - name: Commit dance_list.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/DANCEATLAS/crawler.git
+          git add dance_list.json
+          git commit -m "regen dance_list.json from Supabase" || echo "no changes"
+          git push
