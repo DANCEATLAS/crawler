@@ -8,26 +8,29 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
-      - name: Match UNESCO ICH refs into dances (exact name match only)
+      - name: Match UNESCO ICH refs into dances (exact title match, official API)
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: |
           python - <<'PY'
           import os, json, re, urllib.request, urllib.parse, urllib.error
-          req=urllib.request.Request('https://ich.unesco.org/dive/data/graph_en.json', headers={'User-Agent':'Mozilla/5.0'})
-          data=json.loads(urllib.request.urlopen(req, timeout=60).read().decode())
           def norm(s): return re.sub(r'[^a-z0-9]+',' ', (s or '').lower()).strip()
           unesco={}
-          for nid,node in data.get('nodes',{}).items():
-              if node.get('type')!='element': continue
-              label=node.get('label',''); meta=node.get('meta',{}); ref=None
-              ic=meta.get('icon',{}) or {}
-              for u in [ic.get('small',''), ic.get('large','')]:
-                  m=re.search(r'/(\d{5})-', u or '')
-                  if m: ref=m.group(1); break
-              if label and ref: unesco[norm(label)]=ref
-          print('UNESCO elements parsed:', len(unesco))
+          base='https://data.unesco.org/api/explore/v2.1/catalog/datasets/ich001/records'
+          off=0
+          while True:
+              u=base+'?limit=100&offset='+str(off)+'&select=ich_public_ref,title_en'
+              req=urllib.request.Request(u, headers={'User-Agent':'Mozilla/5.0'})
+              d=json.loads(urllib.request.urlopen(req, timeout=60).read().decode())
+              res=d.get('results',[])
+              if not res: break
+              for r in res:
+                  t=norm(r.get('title_en','')); ref=r.get('ich_public_ref')
+                  if t and ref is not None: unesco[t]=str(ref)
+              off+=100
+              if off>=d.get('total_count',0): break
+          print('UNESCO ich001 titles:', len(unesco))
           BASE=os.environ['SUPABASE_URL'].rstrip('/')+'/rest/v1'
           KEY=os.environ['SUPABASE_SERVICE_KEY']
           H={'apikey':KEY,'Authorization':'Bearer '+KEY}
@@ -35,14 +38,14 @@ jobs:
           dances=json.loads(urllib.request.urlopen(req, timeout=60).read().decode())
           HW={**H,'Content-Type':'application/json','Prefer':'return=minimal'}
           matched=0
-          for d in dances:
-              ref=unesco.get(norm(d.get('name','')))
-              if ref:
-                  url=BASE+'/dances?slug=eq.'+urllib.parse.quote(d['slug'])
-                  r=urllib.request.Request(url, data=json.dumps({'ich_ref':ref}).encode(), headers=HW, method='PATCH')
+          for dd in dances:
+              ref=unesco.get(norm(dd.get('name','')))
+              if ref is not None:
+                  url=BASE+'/dances?slug=eq.'+urllib.parse.quote(dd['slug'])
+                  rq=urllib.request.Request(url, data=json.dumps({'ich_ref':ref}).encode(), headers=HW, method='PATCH')
                   try:
-                      urllib.request.urlopen(r); matched+=1; print('MATCH', d['slug'], '->', ref)
+                      urllib.request.urlopen(rq); matched+=1; print('MATCH', dd['slug'], '->', ref)
                   except urllib.error.HTTPError as e:
-                      print('ERR', d['slug'], e.code)
+                      print('ERR', dd['slug'], e.code)
           print('TOTAL ich_ref matched:', matched, 'of', len(dances))
           PY
