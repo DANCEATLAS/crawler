@@ -1,0 +1,48 @@
+name: unesco_ich
+on:
+  workflow_dispatch:
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Match UNESCO ICH refs into dances (exact name match only)
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          python - <<'PY'
+          import os, json, re, urllib.request, urllib.parse, urllib.error
+          req=urllib.request.Request('https://ich.unesco.org/dive/data/graph_en.json', headers={'User-Agent':'Mozilla/5.0'})
+          data=json.loads(urllib.request.urlopen(req, timeout=60).read().decode())
+          def norm(s): return re.sub(r'[^a-z0-9]+',' ', (s or '').lower()).strip()
+          unesco={}
+          for nid,node in data.get('nodes',{}).items():
+              if node.get('type')!='element': continue
+              label=node.get('label',''); meta=node.get('meta',{}); ref=None
+              ic=meta.get('icon',{}) or {}
+              for u in [ic.get('small',''), ic.get('large','')]:
+                  m=re.search(r'/(\d{5})-', u or '')
+                  if m: ref=m.group(1); break
+              if label and ref: unesco[norm(label)]=ref
+          print('UNESCO elements parsed:', len(unesco))
+          BASE=os.environ['SUPABASE_URL'].rstrip('/')+'/rest/v1'
+          KEY=os.environ['SUPABASE_SERVICE_KEY']
+          H={'apikey':KEY,'Authorization':'Bearer '+KEY}
+          req=urllib.request.Request(BASE+'/dances?select=slug,name&limit=2000', headers=H)
+          dances=json.loads(urllib.request.urlopen(req, timeout=60).read().decode())
+          HW={**H,'Content-Type':'application/json','Prefer':'return=minimal'}
+          matched=0
+          for d in dances:
+              ref=unesco.get(norm(d.get('name','')))
+              if ref:
+                  url=BASE+'/dances?slug=eq.'+urllib.parse.quote(d['slug'])
+                  r=urllib.request.Request(url, data=json.dumps({'ich_ref':ref}).encode(), headers=HW, method='PATCH')
+                  try:
+                      urllib.request.urlopen(r); matched+=1; print('MATCH', d['slug'], '->', ref)
+                  except urllib.error.HTTPError as e:
+                      print('ERR', d['slug'], e.code)
+          print('TOTAL ich_ref matched:', matched, 'of', len(dances))
+          PY
