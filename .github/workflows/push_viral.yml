@@ -1,0 +1,49 @@
+name: push_viral
+on:
+  schedule:
+    - cron: "55 8 * * *"
+  workflow_dispatch:
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Push viral originator clips to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          python - <<'PY'
+          import os, json, urllib.request, urllib.parse, urllib.error
+          BASE=os.environ['SUPABASE_URL'].rstrip('/')+'/rest/v1'
+          KEY=os.environ['SUPABASE_SERVICE_KEY']
+          H={'apikey':KEY,'Authorization':'Bearer '+KEY,'Content-Type':'application/json','Prefer':'return=representation'}
+          def patch(table, slug, payload):
+              url=BASE+'/'+table+'?slug=eq.'+urllib.parse.quote(slug)
+              req=urllib.request.Request(url, data=json.dumps(payload).encode(), headers=H, method='PATCH')
+              try:
+                  with urllib.request.urlopen(req) as r:
+                      body=r.read().decode()
+                      try: return len(json.loads(body))
+                      except Exception: return 0
+              except urllib.error.HTTPError as e:
+                  print('ERR', table, slug, e.code, e.read()[:120]); return -1
+          try:
+              viral=json.load(open('viral_results.json'))
+          except Exception as ex:
+              print('no viral_results.json', ex); viral={}
+          ok=0; nomatch=0; err=0
+          for slug,res in viral.items():
+              vid=(res or {}).get('hero_video_youtube_id')
+              if not vid: continue
+              payload={'hero_video_youtube_id': vid}
+              if res.get('video_stack'): payload['video_stack']=res['video_stack']
+              n=patch('viral_challenges', slug, payload)
+              if n>0: ok+=1
+              elif n==0: nomatch+=1
+              else: err+=1
+          print('viral pushed ok=%d nomatch=%d err=%d' % (ok,nomatch,err))
+          PY
