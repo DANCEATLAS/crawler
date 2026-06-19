@@ -39,7 +39,7 @@ jobs:
           for slug,res in heroes.items():
               vid=(res or {}).get('hero_video_youtube_id')
               if not vid: continue
-              n=patch('dances', slug, {'hero_video_youtube_id': vid})
+              n=patch('dances', slug, {'hero_video_youtube_id': vid, **({'video_stack': res['video_stack']} if (res or {}).get('video_stack') else {})})
               if n>0: ok+=1
               elif n==0: nomatch+=1
               else: err+=1
