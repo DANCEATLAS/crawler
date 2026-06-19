@@ -1,7 +1,8 @@
 name: crawl
 on:
   schedule:
-    - cron: "15 8 * * *"
+    - cron: "15 8 * * *"→ Runs at 08:15
+
   workflow_dispatch:
 permissions:
   contents: write
@@ -22,8 +23,8 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MODE: all
           BUDGET_HERO: "600"
-          BUDGET_TUTORIAL: "0"
-          BUDGET_VIRAL: "0"
+          BUDGET_TUTORIAL: "600"
+          BUDGET_VIRAL: "300"
       - name: Save results back to repo
         run: |
           git config user.name "danceworld-crawler"
@@ -34,7 +35,3 @@ jobs:
       - name: Score virals (windows all/year/month)
         if: always()
         continue-on-error: true
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-        run: python score_virals.py
