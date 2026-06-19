@@ -1,3 +1,4 @@
+# crawler.py — quality v2 (HD + engagement-health gates across heroes/tutorials/viral; zero extra quota)
 import os, re, sys, json, time, urllib.parse, urllib.request, urllib.error
 MODE=os.environ.get("MODE","all").lower()
 YT_KEYS=[k.strip() for k in os.environ.get("YT_API_KEYS","").split(",") if k.strip()]
@@ -102,16 +103,18 @@ def comments(vid,keys,n=100):
 def evaluate(ids,names,keys):
     out=[]
     for it in videos(ids,keys):
-        sn=it.get("snippet",{}); st=it.get("statistics",{})
+        sn=it.get("snippet",{}); st=it.get("statistics",{}); cd=it.get("contentDetails",{})
         t=sn.get("title",""); desc=sn.get("description",""); ch=sn.get("channelTitle",""); cat=str(sn.get("categoryId",""))
         likes=int(st.get("likeCount",0) or 0); ncom=int(st.get("commentCount",0) or 0); views=int(st.get("viewCount",0) or 0)
-        D=isodur(it.get("contentDetails",{}).get("duration")); emb=bool(it.get("status",{}).get("embeddable"))
+        D=isodur(cd.get("duration")); emb=bool(it.get("status",{}).get("embeddable")); hd=(cd.get("definition")=="hd")
+        lvr=(likes/views) if views>0 else 0.0; healthy=(views<5000) or (lvr>=0.004)
         nt=norm(t); nd=norm(desc)
         relevant=name_in(nt,names) or name_in(nd,names)
-        ok=relevant and cat!="10" and not MOVIE.search(t+" "+ch) and not SONGHARD.search(t+" "+ch) and emb and 15<=D<=2000 and likes>50 and ncom>0
+        ok=relevant and cat!="10" and not MOVIE.search(t+" "+ch) and not SONGHARD.search(t+" "+ch) and emb and 15<=D<=2000 and likes>50 and ncom>0 and healthy
         own=name_in(nt,names); strong=bool(STRONG.search(t))
-        score=(ncom*12+likes+views*0.0005)*(1 if (strong or own) else 0.4)
-        if ok: out.append({"id":it["id"],"title":t,"channel":ch,"own":own,"score":score})
+        qual=(1.25 if hd else 1.0)*(1.0+min(lvr*8,0.6))
+        score=(ncom*12+likes+views*0.0005)*(1 if (strong or own) else 0.4)*qual
+        if ok: out.append({"id":it["id"],"title":t,"channel":ch,"own":own,"hd":hd,"lvr":round(lvr,4),"score":score})
     out.sort(key=lambda c:-c["score"]); return out
 
 def verify(name,cs):
@@ -142,16 +145,17 @@ def lesson_eval(dance,keys):
     ids=list(dict.fromkeys(ids))[:30]
     cands=[]
     for it in videos(ids,keys):
-        sn=it.get("snippet",{}); st=it.get("statistics",{})
+        sn=it.get("snippet",{}); st=it.get("statistics",{}); cd=it.get("contentDetails",{})
         t=sn.get("title",""); desc=sn.get("description",""); ch=sn.get("channelTitle",""); cat=str(sn.get("categoryId",""))
-        D=isodur(it.get("contentDetails",{}).get("duration")); emb=bool(it.get("status",{}).get("embeddable"))
-        likes=int(st.get("likeCount",0) or 0); ncom=int(st.get("commentCount",0) or 0)
+        D=isodur(cd.get("duration")); emb=bool(it.get("status",{}).get("embeddable")); hd=(cd.get("definition")=="hd")
+        likes=int(st.get("likeCount",0) or 0); ncom=int(st.get("commentCount",0) or 0); views=int(st.get("viewCount",0) or 0)
+        lvr=(likes/views) if views>0 else 0.0; healthy=(views<3000) or (lvr>=0.004)
         nt=norm(t); nd=norm(desc)
         relevant=name_in(nt,names) or name_in(nd,names)
         is_tut=bool(TUT_WORD.search(t)) or bool(TUT_WORD.search(desc[:200]))
-        ok=relevant and is_tut and cat!="10" and not SONGHARD.search(t+" "+ch) and not MOVIE.search(t+" "+ch) and emb and 60<=D<=4800 and ncom>0
-        if ok: cands.append({"id":it["id"],"title":t,"channel":ch,"likes":likes,"ncom":ncom})
-    cands.sort(key=lambda c:-(c["ncom"]*5+c["likes"]))
+        ok=relevant and is_tut and cat!="10" and not SONGHARD.search(t+" "+ch) and not MOVIE.search(t+" "+ch) and emb and 60<=D<=4800 and ncom>0 and healthy
+        if ok: cands.append({"id":it["id"],"title":t,"channel":ch,"likes":likes,"ncom":ncom,"hd":hd})
+    cands.sort(key=lambda c:-((c["ncom"]*5+c["likes"])*(1.2 if c.get("hd") else 1.0)))
     lessons=[]
     for c in cands[:6]:
         cs=comments(c["id"],keys,100); low=" \n ".join(cs).lower()
@@ -177,15 +181,16 @@ def viral_eval(seed,keys):
     ids=list(dict.fromkeys(ids))[:24]
     cands=[]
     for it in videos(ids,keys):
-        sn=it.get("snippet",{}); st=it.get("statistics",{})
+        sn=it.get("snippet",{}); st=it.get("statistics",{}); cd=it.get("contentDetails",{})
         t=sn.get("title",""); ch=sn.get("channelTitle","")
-        D=isodur(it.get("contentDetails",{}).get("duration")); emb=bool(it.get("status",{}).get("embeddable"))
+        D=isodur(cd.get("duration")); emb=bool(it.get("status",{}).get("embeddable")); hd=(cd.get("definition")=="hd")
         views=int(st.get("viewCount",0) or 0); likes=int(st.get("likeCount",0) or 0); ncom=int(st.get("commentCount",0) or 0)
+        lvr=(likes/views) if views>0 else 0.0
         nt=norm(t)
         rel=(norm(name) in nt) or (song and norm(song) in nt) or ("challenge" in nt) or ("tiktok" in nt) or ("dance" in nt)
         bad=re.search(r"(\blyric|audio\s*only|karaoke|official\s*music\s*video|sped\s*up|slowed|reverb)",t,re.I)
-        ok=rel and emb and not bad and 6<=D<=900 and views>10000
-        if ok: cands.append({"id":it["id"],"title":t[:140],"channel":ch,"views":views,"score":views+likes*20+ncom*50})
+        ok=rel and emb and not bad and 6<=D<=900 and views>10000 and lvr>=0.003
+        if ok: cands.append({"id":it["id"],"title":t[:140],"channel":ch,"views":views,"score":(views+likes*20+ncom*50)*(1.2 if hd else 1.0)})
     cands.sort(key=lambda c:-c["score"])
     if not cands: return None
     top=cands[0]
