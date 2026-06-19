@@ -205,6 +205,16 @@ def jload(p,d):
 def jsave(p,o):
     json.dump(o,open(p,"w",encoding="utf-8"),ensure_ascii=False,indent=1)
 
+def fetch_viral_targets():
+    url=os.environ.get("SUPABASE_URL","").rstrip("/"); key=os.environ.get("SUPABASE_SERVICE_KEY","")
+    if not url or not key: return []
+    try:
+        q=url+"/rest/v1/viral_challenges?select=slug,name,song&hero_video_youtube_id=is.null"
+        req=urllib.request.Request(q, headers={"apikey":key,"Authorization":"Bearer "+key})
+        with urllib.request.urlopen(req,timeout=30) as r: return json.loads(r.read().decode())
+    except Exception as e:
+        sys.stderr.write("viral targets fetch fail: "+str(e)+"\n"); return []
+
 def main():
     if not YT_KEYS: print("ERROR: set YT_API_KEYS"); sys.exit(1)
     keys=Keys(YT_KEYS)
@@ -250,6 +260,9 @@ def main():
         for nm in VIRAL_DISCOVERY:
             sl=slugify(nm)
             if sl not in seen: seeds.append({"slug":sl,"name":nm,"type":"challenge","platform":"tiktok","song":"","status":"discovered"}); seen.add(sl)
+        for t in fetch_viral_targets():
+            sl=t.get("slug")
+            if sl and sl not in seen: seeds.append({"slug":sl,"name":t.get("name") or sl,"song":t.get("song") or "","type":"challenge","platform":"tiktok","status":"db"}); seen.add(sl)
         todo=[s for s in seeds if s.get("slug") not in vcache]
         for s in todo:
             if done>=B_VIRAL: break
