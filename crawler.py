@@ -133,7 +133,9 @@ def pick_hero(dance,keys):
     for c in cands[:3]:
         if verify(name,comments(c["id"],keys,20)):
             status="crowd_wisdom_confident" if c["own"] else "crowd_wisdom_weak"
-            return {"status":status,"hero_video_youtube_id":c["id"],"title":c["title"],"channel":c["channel"],"crowd_score":round(c["score"]),"challengers":[x["id"] for x in cands if x["id"]!=c["id"]][:2]}
+            stack=[c]+[x for x in cands if x["id"]!=c["id"]]
+            video_stack=[{"youtube_id":s["id"],"role":("hero" if i==0 else "rendition"),"title":s["title"][:140],"channel":s["channel"],"hd":s.get("hd",False)} for i,s in enumerate(stack[:4])]
+            return {"status":status,"hero_video_youtube_id":c["id"],"title":c["title"],"channel":c["channel"],"crowd_score":round(c["score"]),"video_stack":video_stack,"challengers":[x["id"] for x in cands if x["id"]!=c["id"]][:2]}
     return {"status":"blank","reason":"failed" if cands else "all_filtered"}
 
 def lesson_eval(dance,keys):
