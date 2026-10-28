@@ -177,20 +177,48 @@ def sparql(query):
         rows.append({k: v.get("value") for k, v in b.items()})
     return rows
 
+NOT_DANCE_CLASS_WORDS = ("company", "compan", "film", "movie", "music", "festival", "competition", "contest", "song", "album", "school",
+                         "studio", "troupe", "ensemble", "award", "television", "tv ", "magazine", "event", "video game", "dancer",
+                         "choreograph", "organization", "organisation", "venue", "hall", "club", "band", "group", "championship",
+                         "musical", "opera", "ballet company", "theatre", "theater", "record", "label", "series", "show", "episode")
+
 def wikidata_dances(limit=5000):
-    """Items that are instances/subclasses of 'dance' with an English Wikipedia article."""
-    q = f"""
+    """Items that are a kind of dance with an English Wikipedia article.
+
+    Two passes: (1) every instance of a class whose English label mentions dance (dance style, folk dance,
+    social dance, ritual dance, ...) minus classes that are clearly not dances themselves (companies, films,
+    festivals, ...); (2) the strict subclass walk from 'dance' (Q11639) as a fallback / complement."""
+    excl = " && ".join(f'!CONTAINS(?cl, "{w}")' for w in NOT_DANCE_CLASS_WORDS)
+    q_wide = f"""
+    SELECT DISTINCT ?item ?itemLabel ?article ?countryLabel WHERE {{
+      ?item wdt:P31 ?cls .
+      ?cls rdfs:label ?clraw . FILTER(LANG(?clraw) = "en")
+      BIND(LCASE(STR(?clraw)) AS ?cl)
+      FILTER(CONTAINS(?cl, "dance") && {excl})
+      ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> .
+      OPTIONAL {{ ?item wdt:P495 ?country . }}
+      SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+    }} LIMIT {int(limit)}"""
+    q_strict = f"""
     SELECT DISTINCT ?item ?itemLabel ?article ?countryLabel WHERE {{
       ?item wdt:P31/wdt:P279* wd:Q11639 .
       ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> .
       OPTIONAL {{ ?item wdt:P495 ?country . }}
       SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
     }} LIMIT {int(limit)}"""
-    try:
-        return sparql(q)
-    except Exception as e:
-        warn("wikidata_dances", e)
-        return []
+    rows, seen = [], set()
+    for name, q in (("wide", q_wide), ("strict", q_strict)):
+        try:
+            got = sparql(q)
+            log(f"wikidata_dances: {name} query -> {len(got)} rows")
+        except Exception as e:
+            warn("wikidata_dances", name, e)
+            continue
+        for r in got:
+            k = r.get("item")
+            if k and k not in seen:
+                seen.add(k); rows.append(r)
+    return rows[:limit]
 
 # ----------------------------------------------------------------- Wikimedia Commons (licensed images)
 FREE_LICENSES = ("cc0", "cc by", "cc-by", "public domain", "pd-", "pd ", "gfdl", "attribution")

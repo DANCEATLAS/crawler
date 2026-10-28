@@ -12,6 +12,8 @@ pipeline_state/audit.json; put manual overrides in audit_overrides.json ({slug: 
 import os, json
 from collections import defaultdict
 from .common import LLM, log, warn, norm, similarity, now_iso, jload, load_state, save_state, Report
+
+MAX_JUDGE_RETIRE = int(os.environ.get("MAX_JUDGE_RETIRE", "25"))
 from .catalog import load_app_catalog, completeness
 from .taxonomy import COUNTRIES_N
 
@@ -53,7 +55,8 @@ def deterministic(styles, research):
                 if other == keep:
                     continue
                 sim = similarity(styles[other].get("name") or other, styles[keep].get("name") or keep)
-                if key == "wikidata_qid" or sim >= 0.75:
+                # a shared Wikidata item is strong evidence, a shared article weaker; very different names need a human either way
+                if (key == "wikidata_qid" and sim >= 0.5) or sim >= 0.75:
                     mark(other, "merge", f"shares {key} with {keep} (name similarity {sim:.2f})", keep)
                 else:
                     mark(other, "review", f"shares {key} with {keep} but names differ ({sim:.2f}) — check the data", keep)
@@ -107,6 +110,11 @@ def run(llm_budget=300):
                     continue
                 conf = float(r.get("confidence") or 0)
                 if (not r.get("is_dance")) and conf >= 0.8:
+                    # safety valve: a judge that wants to retire more than MAX_JUDGE_RETIRE entries in one run is sent to a human
+                    if rep.counters.get("judge_retire", 0) >= MAX_JUDGE_RETIRE:
+                        audit[s] = {"decision": "review", "reason": f"judge (over daily retire cap): {r.get('category')} — {r.get('note')}", "by": "judge", "judge": r, "at": now_iso()}
+                        rep.inc("judge_review_capped")
+                        continue
                     audit[s] = {"decision": "retire", "reason": f"judge: {r.get('category')} — {r.get('note')}", "by": "judge", "judge": r, "at": now_iso()}
                     rep.inc("judge_retire")
                 else:
