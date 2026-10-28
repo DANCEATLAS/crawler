@@ -1,0 +1,38 @@
+name: schema_dump
+# Prints the database tables and columns (no data, no secrets) so the pipeline can be matched to the real schema.
+on:
+  workflow_dispatch:
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Dump schema
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          python - <<'PY'
+          import os, json, urllib.request
+          u=os.environ['SUPABASE_URL'].rstrip('/')+'/rest/v1/'; k=os.environ['SUPABASE_SERVICE_KEY']
+          req=urllib.request.Request(u, headers={'apikey':k,'Authorization':'Bearer '+k})
+          spec=json.loads(urllib.request.urlopen(req,timeout=60).read().decode())
+          defs=spec.get('definitions') or {}
+          for t in sorted(defs):
+              props=defs[t].get('properties') or {}
+              req_=defs[t].get('required') or []
+              print(f"== {t} ({len(props)} cols)")
+              for c,v in props.items():
+                  print(f"   {c}: {v.get('format') or v.get('type')}" + ("  [required]" if c in req_ else "") + ("  PK" if 'Primary Key' in (v.get('description') or '') else ""))
+          print("== paths:", ", ".join(sorted(p.strip('/') for p in (spec.get('paths') or {}))))
+          # row counts
+          for t in sorted(defs):
+              try:
+                  req=urllib.request.Request(u+t+'?select=*', headers={'apikey':k,'Authorization':'Bearer '+k,'Prefer':'count=exact','Range':'0-0'})
+                  r=urllib.request.urlopen(req,timeout=60); print("count", t, r.headers.get('content-range'))
+              except Exception as e:
+                  print("count", t, "ERR", str(e)[:80])
+          PY

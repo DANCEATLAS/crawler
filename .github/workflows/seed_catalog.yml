@@ -1,0 +1,46 @@
+name: seed_catalog
+# Pulls the app's full catalogue (dw_app_v1 JSON) and seeds/fills Supabase `dances` without overwriting existing values.
+on:
+  workflow_dispatch:
+    inputs:
+      catalog_url:
+        description: "URL of dances.app.json"
+        default: "https://id-preview--f79f3666-564d-4799-befe-8b48d1f0a007.lovable.app/dances.app.json"
+      dry:
+        description: "dry run (true/false)"
+        default: "false"
+permissions:
+  contents: write
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Fetch catalogue
+        run: |
+          curl -sSL --fail -o app_catalog.json "${{ github.event.inputs.catalog_url }}" || echo "download failed; using committed app_catalog.json if present"
+          python - <<'PY'
+          import json
+          j=json.load(open('app_catalog.json'))
+          st=j.get('styles') if isinstance(j,dict) else j
+          n=len(st) if isinstance(st,(list,dict)) else 0
+          print('catalogue entries:', n, '| contract:', j.get('contract') if isinstance(j,dict) else None)
+          assert n>500, 'catalogue looks wrong'
+          PY
+      - name: Seed Supabase (fill-only)
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.dry }}" = "true" ]; then python -m pipeline.seed_catalog --dry; else python -m pipeline.seed_catalog; fi
+      - name: Commit catalogue snapshot
+        run: |
+          git config user.name "danceworld-crawler"
+          git config user.email "crawler@users.noreply.github.com"
+          git add -A
+          git commit -m "seed: app catalogue snapshot $(date -u +%F)" || echo "nothing to commit"
+          git pull --rebase --autostash origin main || true
+          git push || echo "push failed"

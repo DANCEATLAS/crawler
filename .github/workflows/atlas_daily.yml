@@ -1,0 +1,70 @@
+name: atlas_daily
+# Dancing Atlas content pipeline v3: discover -> research -> QC -> hero QC -> sync -> report.
+# Runs after the crawler chain (crawl 08:15, push_videos 08:45, push_tutorials 08:50, push_viral 08:55 UTC).
+on:
+  schedule:
+    - cron: "20 9 * * *"
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: "daily | bootstrap | audit | discover | research | qc | hero_qc | build | sync | report | selftest"
+        default: "daily"
+      research_new:
+        description: "new dances to research this run"
+        default: "15"
+      research_enrich:
+        description: "existing dances to deepen this run"
+        default: "15"
+      hero_qc_budget:
+        description: "hero videos to check this run"
+        default: "60"
+      discover_max_new:
+        description: "max new candidates to queue"
+        default: "40"
+      only:
+        description: "comma-separated slugs (optional)"
+        default: ""
+permissions:
+  contents: write
+concurrency:
+  group: atlas-pipeline
+  cancel-in-progress: false
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Install yt-dlp
+        run: pip install --upgrade yt-dlp
+      - name: Self-test (offline)
+        run: python -m pipeline.run selftest
+      - name: Run pipeline
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YT_API_KEYS: ${{ secrets.YT_API_KEYS }}
+          RESEARCH_NEW: ${{ github.event.inputs.research_new || '15' }}
+          RESEARCH_ENRICH: ${{ github.event.inputs.research_enrich || '15' }}
+          HERO_QC_BUDGET: ${{ github.event.inputs.hero_qc_budget || '60' }}
+          DISCOVER_MAX_NEW: ${{ github.event.inputs.discover_max_new || '40' }}
+          AUDIT_LLM_BUDGET: "300"
+          APP_CATALOG_URL: "https://id-preview--f79f3666-564d-4799-befe-8b48d1f0a007.lovable.app/dances.app.json"
+        run: |
+          STAGE="${{ github.event.inputs.stage || 'daily' }}"
+          ONLY="${{ github.event.inputs.only }}"
+          if [ -n "$ONLY" ]; then python -m pipeline.run "$STAGE" --only "$ONLY"; else python -m pipeline.run "$STAGE"; fi
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "danceworld-crawler"
+          git config user.email "crawler@users.noreply.github.com"
+          git add -A
+          git commit -m "pipeline: ${{ github.event.inputs.stage || 'daily' }} $(date -u +%F)" || echo "nothing to commit"
+          git pull --rebase --autostash origin main || true
+          git push || echo "push failed"
