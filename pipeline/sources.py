@@ -243,11 +243,24 @@ def commons_file_info(file_titles):
     return out
 
 # ----------------------------------------------------------------- UNESCO ICH
+# Field names verified against the live dataset (data.unesco.org, dataset ich001, Oct 2026):
+# uuid, ich_public_ref, inscription_year, title_en, description_en, type_of_element_en, type_acronym,
+# countries (ISO-2 list), http_url_en, concepts_primary_names, main_image_url, ...
+UNESCO_FIELDS = "ich_public_ref,inscription_year,title_en,description_en,type_of_element_en,type_acronym,countries,http_url_en,concepts_primary_names"
+
+def _iso_names():
+    from .taxonomy import COUNTRIES
+    out = {}
+    for name, (iso, _) in COUNTRIES.items():
+        out.setdefault(iso, name.title().replace("'S", "'s"))
+    return out
+
 def unesco_ich_index():
+    """Every ICH inscription: ref, title, countries (names), year, url, description, type, concepts."""
     def fetch():
-        idx, off = [], 0
+        idx, off, iso = [], 0, _iso_names()
         while True:
-            u = UNESCO_API + "?" + urllib.parse.urlencode({"limit": "100", "offset": str(off), "select": "ich_public_ref,title_en,countries_en,type_en,year"})
+            u = UNESCO_API + "?" + urllib.parse.urlencode({"limit": "100", "offset": str(off), "select": UNESCO_FIELDS})
             try:
                 d = get_json(u)
             except Exception as e:
@@ -257,12 +270,25 @@ def unesco_ich_index():
             if not res:
                 break
             for r in res:
-                idx.append({"ref": r.get("ich_public_ref"), "title": r.get("title_en"), "countries": r.get("countries_en"), "year": r.get("year")})
+                cs = r.get("countries") or []
+                if isinstance(cs, str):
+                    cs = [c.strip() for c in cs.split(",") if c.strip()]
+                names = [iso.get(c, c) for c in cs]
+                idx.append({"ref": r.get("ich_public_ref"), "title": r.get("title_en"), "countries": ", ".join(names), "country_codes": cs,
+                            "year": r.get("inscription_year"), "url": r.get("http_url_en") or f"https://ich.unesco.org/en/RL/{r.get('ich_public_ref')}",
+                            "description": r.get("description_en") or "", "type": r.get("type_of_element_en"), "list": r.get("type_acronym"),
+                            "concepts": r.get("concepts_primary_names") or []})
             off += 100
-            if off >= (d.get("total_count") or 0):
+            if off >= (d.get("total_count") or 0) or off > 5000:
                 break
+        if not idx:
+            raise RuntimeError("UNESCO index empty (API unreachable?)")
         return idx
-    return cached("unesco:index", fetch, ttl_days=30) or []
+    try:
+        return cached("unesco:index", fetch, ttl_days=30) or []
+    except Exception as e:
+        warn("unesco_ich_index", e)
+        return []
 
 # ----------------------------------------------------------------- MusicBrainz (album verification)
 def mb_search_release_group(artist, title):

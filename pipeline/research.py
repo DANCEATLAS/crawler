@@ -77,15 +77,25 @@ def gather_evidence(d):
                     warn("other-lang wiki", lang, t, e)
         if extra:
             ev["wikipedia_other"] = extra
-    # UNESCO
+    # UNESCO: exact (or near-exact) title match = the inscription itself; a whole-word hit = related inscription (evidence only)
     try:
+        from .common import similarity
         idx = S.unesco_ich_index()
         nn = norm(name)
-        hits = [e for e in idx if nn and (nn in norm(e.get("title")) or norm(e.get("title")) in nn) and len(nn) >= 5]
-        if hits:
-            h = hits[0]
+        best = None
+        for e in idx:
+            tt = norm(e.get("title"))
+            if not tt or not nn:
+                continue
+            if tt == nn or similarity(tt, nn) >= 0.85:
+                best = (e, True); break
+            if len(nn) >= 5 and re.search(r"\b" + re.escape(nn) + r"\b", tt) and best is None:
+                best = (e, False)
+        if best:
+            h, exact = best
             ev["unesco"] = {"ref": h.get("ref"), "title": h.get("title"), "countries": h.get("countries"), "year": h.get("year"),
-                            "url": f"https://ich.unesco.org/en/RL/{h.get('ref')}"}
+                            "url": h.get("url") or f"https://ich.unesco.org/en/RL/{h.get('ref')}", "description": h.get("description") or "",
+                            "type": h.get("type"), "exact": exact}
             ev["sources"].append(ev["unesco"]["url"])
     except Exception as e:
         warn("unesco match", e)
@@ -104,7 +114,8 @@ def _source_texts(ev):
     if ev.get("wikidata"):
         texts[ev["wikidata"]["url"]] = json.dumps(ev["wikidata"]["facts"], ensure_ascii=False) + " " + str(ev["wikidata"].get("description") or "") + " " + " ".join(ev["wikidata"].get("aliases") or [])
     if ev.get("unesco"):
-        texts[ev["unesco"]["url"]] = json.dumps(ev["unesco"], ensure_ascii=False)
+        u = ev["unesco"]
+        texts[u["url"]] = " ".join(str(x) for x in (u.get("title"), u.get("countries"), u.get("year"), u.get("type"), u.get("description")) if x)
     return texts
 
 def verify_claims(claims, ev):
@@ -196,7 +207,9 @@ def compose(d, ev, llm):
     if ev.get("wikidata"):
         src_blocks.append(f"SOURCE: {ev['wikidata']['url']}\nWikidata facts: {json.dumps(ev['wikidata']['facts'], ensure_ascii=False)}\nDescription: {ev['wikidata'].get('description')}\nAliases: {ev['wikidata'].get('aliases')}")
     if ev.get("unesco"):
-        src_blocks.append(f"SOURCE: {ev['unesco']['url']}\nUNESCO Intangible Cultural Heritage inscription: {json.dumps(ev['unesco'], ensure_ascii=False)}")
+        u = ev["unesco"]
+        kind = "this dance's own inscription" if u.get("exact") else "a RELATED inscription (not this dance itself; do not claim this dance is inscribed)"
+        src_blocks.append(f"SOURCE: {u['url']}\nUNESCO Intangible Cultural Heritage, {kind}: {u.get('title')} ({u.get('countries')}, {u.get('year')}, {u.get('type')})\n{u.get('description')}")
     if not src_blocks:
         return None
     existing = {k: d.get(k) for k in ("name", "country", "region", "era", "tagline", "insight", "profile", "aliases", "related") if d.get(k)}
@@ -232,6 +245,9 @@ def research_one(d, llm, sb=None):
     region = comp.get("region") if comp.get("region") in REGIONS else (region_guess or d.get("region"))
     fam = comp.get("family") if comp.get("family") in FAMILIES else None
     sacred_cue, cues = sacred_hint((comp.get("profile_long") or "") + " " + json.dumps(comp.get("sections") or {}))
+    # the UNESCO flag needs the inscription itself or a verified claim that says so
+    unesco_exact = bool((ev.get("unesco") or {}).get("exact"))
+    comp["unesco"] = unesco_exact or (bool(comp.get("unesco")) and any(c.get("supported") and "unesco" in norm(c.get("text") or "") for c in claims))
     rec.update({
         "status": "researched",
         "profile": {k: comp.get(k) for k in ("name", "tagline", "insight", "profile", "profile_long", "sections", "era", "country", "aliases", "related", "is_sacred", "sacred_note", "unesco", "teaching", "confidence", "gaps")},
@@ -242,7 +258,8 @@ def research_one(d, llm, sb=None):
         "sacred_cues": cues, "sacred_cue_flag": sacred_cue,
         "wikipedia_url": (ev.get("wikipedia") or {}).get("url") or d.get("wikipedia_url"),
         "wikidata_qid": (ev.get("wikidata") or {}).get("qid") or d.get("wikidata_qid"),
-        "unesco_ref": (ev.get("unesco") or {}).get("ref"),
+        "unesco_ref": (ev.get("unesco") or {}).get("ref") if (ev.get("unesco") or {}).get("exact") else None,
+        "unesco_related": None if (ev.get("unesco") or {}).get("exact", True) else {k: (ev.get("unesco") or {}).get(k) for k in ("ref", "title", "url")},
         "coords": next(iter((ev.get("wikidata") or {}).get("facts", {}).get("coordinates", [])), None),
         "llm_calls": llm.calls,
     })
