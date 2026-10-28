@@ -98,8 +98,8 @@ def run(llm_budget=300):
     todo = [s for s in styles if s not in audit or (audit[s].get("by") == "rule" and audit[s].get("decision") == "keep" and not audit[s].get("judge"))]
     todo = [s for s in todo if s not in rules][:llm_budget]
     if llm.enabled and todo:
-        for i in range(0, len(todo), 12):
-            batch = todo[i:i + 12]
+        for i in range(0, len(todo), 8):
+            batch = todo[i:i + 8]
             items = [{"slug": s, "name": styles[s].get("name"), "country": styles[s].get("country"), "tagline": styles[s].get("tagline"),
                       "profile": (styles[s].get("profile") or "")[:300], "wikipedia_url": styles[s].get("wikipedia_url")} for s in batch]
             res = llm.json(JUDGE, json.dumps(items, ensure_ascii=False), strong=False, temperature=0.0, max_tokens=2500)

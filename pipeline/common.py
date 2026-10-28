@@ -272,8 +272,11 @@ class LLM:
         self.dead = set()
         self.strikes = {}          # model -> consecutive failures; MAX_STRIKES in a row retires the model for this run
         self.MAX_STRIKES = int(os.environ.get("LLM_MAX_STRIKES", "2"))
-        self.timeout_fast = int(os.environ.get("LLM_TIMEOUT_FAST", "150"))
-        self.timeout_strong = int(os.environ.get("LLM_TIMEOUT_STRONG", "480"))
+        self.timeout_fast = int(os.environ.get("LLM_TIMEOUT_FAST", "120"))
+        self.timeout_strong = int(os.environ.get("LLM_TIMEOUT_STRONG", "420"))
+        self.think_fast = int(os.environ.get("GEMINI_THINKING_FAST", "0"))        # judge / classification calls: no thinking
+        self.think_strong = int(os.environ.get("GEMINI_THINKING_STRONG", "2048"))  # research composer: bounded thinking
+        self.no_thinking_cfg = set()
         self.calls = 0
         self.failures = 0
         self.dry = os.environ.get("PIPELINE_DRY_RUN") == "1"
@@ -373,27 +376,38 @@ class LLM:
                 "messages": [{"role": "system", "content": system}, {"role": "user", "content": content}]}
         try:
             st, txt, _ = http("https://api.openai.com/v1/chat/completions", method="POST", json_body=body,
-                              headers={"Authorization": "Bearer " + self.openai_key}, timeout=timeout, retries=1)
+                              headers={"Authorization": "Bearer " + self.openai_key}, timeout=timeout, retries=0)
         except HttpError as e:
             if e.code == 400 and ("max_tokens" in e.body or "temperature" in e.body):
                 body.pop("max_tokens", None); body.pop("temperature", None); body["max_completion_tokens"] = max_tokens
                 st, txt, _ = http("https://api.openai.com/v1/chat/completions", method="POST", json_body=body,
-                                  headers={"Authorization": "Bearer " + self.openai_key}, timeout=timeout, retries=1)
+                                  headers={"Authorization": "Bearer " + self.openai_key}, timeout=timeout, retries=0)
             else:
                 raise
         j = json.loads(txt)
         return j["choices"][0]["message"]["content"]
 
-    def _gemini(self, model, system, user, temperature=0.2, max_tokens=4000, image_b64=None, timeout=300):
+    def _gemini(self, model, system, user, temperature=0.2, max_tokens=4000, image_b64=None, timeout=300, strong=False):
         parts = [{"text": user}]
         if image_b64:
             parts.append({"inline_data": {"mime_type": "image/jpeg", "data": image_b64}})
-        body = {"system_instruction": {"parts": [{"text": system}]},
-                "contents": [{"role": "user", "parts": parts}],
-                "generationConfig": {"temperature": temperature, "maxOutputTokens": min(65536, max(8192, max_tokens * 3)),
-                                     "responseMimeType": "application/json"}}
+        gen = {"temperature": temperature, "maxOutputTokens": min(65536, max(8192, max_tokens * 3)), "responseMimeType": "application/json"}
+        # Bound the "thinking" phase: unbounded thinking is what made 12-item judge calls exceed the socket timeout.
+        # Models that reject the field (or a zero budget) are remembered and called without it.
+        if model not in self.no_thinking_cfg:
+            gen["thinkingConfig"] = {"thinkingBudget": self.think_strong if strong else self.think_fast}
+        body = {"system_instruction": {"parts": [{"text": system}]}, "contents": [{"role": "user", "parts": parts}], "generationConfig": gen}
         u = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={urllib.parse.quote(self.gemini_key)}"
-        st, txt, _ = http(u, method="POST", json_body=body, timeout=timeout, retries=1)
+        try:
+            st, txt, _ = http(u, method="POST", json_body=body, timeout=timeout, retries=0)
+        except HttpError as e:
+            if e.code == 400 and "thinking" in (e.body or "").lower() and "thinkingConfig" in gen:
+                warn(f"llm gemini/{model}: thinkingConfig rejected, retrying without it")
+                self.no_thinking_cfg.add(model)
+                gen.pop("thinkingConfig", None)
+                st, txt, _ = http(u, method="POST", json_body=body, timeout=timeout, retries=0)
+            else:
+                raise
         j = json.loads(txt)
         cand = (j.get("candidates") or [{}])[0]
         texts = [p.get("text") for p in ((cand.get("content") or {}).get("parts") or []) if p.get("text") and not p.get("thought")]
@@ -475,7 +489,7 @@ class LLM:
             try:
                 self.calls += 1
                 t0 = time.time()
-                txt = self._openai(model, system, user, temperature, max_tokens, image_b64, timeout) if prov == "openai" else self._gemini(model, system, user, temperature, max_tokens, image_b64, timeout)
+                txt = self._openai(model, system, user, temperature, max_tokens, image_b64, timeout) if prov == "openai" else self._gemini(model, system, user, temperature, max_tokens, image_b64, timeout, strong)
                 out = self.parse_json(txt)
                 self.strikes[model] = 0
                 return out
