@@ -1,0 +1,119 @@
+{
+ "slug": "tappa-dance",
+ "qc_at": "2026-10-28T06:35:47Z",
+ "version": "v3.0",
+ "publish_gate": "review",
+ "qc_score": 9.05,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Tappa dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "83"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "149"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "The dance derives its name from the 'pappa' hand drum, following a rhythmic arc "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "448"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "1329"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "4/4 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Nepal"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "2 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": true
+  },
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and strictly adheres to the provided evidence. While specific costume and formation details are missing from the source, the technical description of the 'accelerando' structure provides good teaching value for a beginner understanding the rhythm."
+ },
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "insight_concrete",
+  "profile_long_len",
+  "judge_score=9.05"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 4,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-28T06:33:46Z"
+}

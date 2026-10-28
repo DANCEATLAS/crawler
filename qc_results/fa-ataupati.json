@@ -1,0 +1,119 @@
+{
+ "slug": "fa-ataupati",
+ "qc_at": "2026-10-28T06:35:57Z",
+ "version": "v3.0",
+ "publish_gate": "review",
+ "qc_score": 8.5,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Fa’ataupati"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "68"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "164"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The dance originated in the 19th century as a rhythmic response to a mosquito in"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "454"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1668"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Samoa"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [
+    "It is the only all-male dance in Samoa"
+   ],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null
+  },
+  "insight_ok": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and aligns with the evidence. The claim that it is the 'only' all-male dance in Samoa is likely an overstatement, as other Samoan dances (like certain variations of the Siva Tau or specific ceremonial dances) are also male-exclusive. Otherwise, the cultural context and technical descriptions are accurate and respectful."
+ },
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "judge_score=8.5"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-28T06:35:19Z"
+}

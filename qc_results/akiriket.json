@@ -1,0 +1,120 @@
+{
+ "slug": "akiriket",
+ "qc_at": "2026-10-28T06:35:43Z",
+ "version": "v3.0",
+ "publish_gate": "reject",
+ "qc_score": 7.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Akiriket"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "83"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "182"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "During Akiriket, Karamojong boys in northeastern Uganda pass into adulthood thro"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "527"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "861"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/3 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Uganda"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "2 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ceremon', 'initiation']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 7,
+  "teaching_value": 2,
+  "is_a_dance": false,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": true,
+   "overall": 4,
+   "verdict": "reject",
+   "notes": "Akiriket is an initiation ceremony and sacred assembly, not a dance tradition itself. Furthermore, there is zero dance technique or movement instruction provided."
+  }
+ },
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "profile_long_len",
+  "judge_score=7.1",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 3,
+  "supported": 3,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-28T06:32:25Z"
+}

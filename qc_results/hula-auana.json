@@ -1,0 +1,121 @@
+{
+ "slug": "hula-auana",
+ "qc_at": "2026-10-28T06:35:51Z",
+ "version": "v3.0",
+ "publish_gate": "review",
+ "qc_score": 9.4,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Hula ʻauana"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "84"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "154"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Meaning 'to wander' or 'drift', this style replaced sacred drums with the melodi"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "451"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1909"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "USA (Hawaii)"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'temple', 'god', 'goddess', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 10,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [
+    "The claim that kī leaves were historically sacred to the forest goddess Laka is accurate, but the profile implies they are primarily used in 'auana, whereas they are more strictly associated with kahiko ritual protocols."
+   ],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": true,
+   "overall": 9,
+   "verdict": "publish",
+   "notes": "Excellent profile. It correctly distinguishes between the sacred kahiko and the melodic 'auana while maintaining the cultural weight of the 'mele'. The inclusion of specific footwork (kāholo, 'uwehe) provides high teaching value. The mention of the 1896 language ban provides necessary historical context for the 1960s resurgence."
+  }
+ },
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "country",
+  "judge_score=9.4",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-28T06:34:24Z"
+}

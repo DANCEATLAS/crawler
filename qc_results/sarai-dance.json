@@ -1,0 +1,117 @@
+{
+ "slug": "sarai-dance",
+ "qc_at": "2026-10-28T06:35:46Z",
+ "version": "v3.0",
+ "publish_gate": "review",
+ "qc_score": 9.3,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Sarai dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "70"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "127"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Devotees in western Nepal wield real khukuris and swords, clashing metal and cha"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "600"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2414"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Nepal"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'temple', 'deity', 'deities', 'god', 'goddess', 'worship', 'spirit', 'religious', 'offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": true
+  },
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and aligns perfectly with the evidence claims. It provides excellent geographical specificity (Gulmi, Arghakhanchi) and cultural context (Dashain, Panchebaja). The teaching value is good for a folk tradition, though naturally limited by the safety requirements of handling real weapons."
+ },
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.3",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-28T06:33:25Z"
+}

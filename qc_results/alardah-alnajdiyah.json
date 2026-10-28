@@ -1,0 +1,120 @@
+{
+ "slug": "alardah-alnajdiyah",
+ "qc_at": "2026-10-28T06:35:54Z",
+ "version": "v3.0",
+ "publish_gate": "review",
+ "qc_score": 9.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Alardah Alnajdiyah (Saudi Ardah)"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "83"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "164"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Once a pre-war display of tribal combat readiness, this dance is now the kingdom"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "437"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1960"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Saudi Arabia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Middle East"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'ceremon', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null
+  },
+  "insight_ok": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and aligns with UNESCO documentation. It avoids exoticism by framing the dance as a living cultural practice. The teaching section is clear and actionable for a beginner, focusing on the essential group synchronization required for the performance."
+ },
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "insight_concrete",
+  "sacred_handled",
+  "judge_score=9.1",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-28T06:34:59Z"
+}
