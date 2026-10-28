@@ -270,6 +270,10 @@ class LLM:
         self._gemini_avail = None
         self._openai_avail = None
         self.dead = set()
+        self.strikes = {}          # model -> consecutive failures; MAX_STRIKES in a row retires the model for this run
+        self.MAX_STRIKES = int(os.environ.get("LLM_MAX_STRIKES", "2"))
+        self.timeout_fast = int(os.environ.get("LLM_TIMEOUT_FAST", "150"))
+        self.timeout_strong = int(os.environ.get("LLM_TIMEOUT_STRONG", "480"))
         self.calls = 0
         self.failures = 0
         self.dry = os.environ.get("PIPELINE_DRY_RUN") == "1"
@@ -306,8 +310,6 @@ class LLM:
         out = [m for m in cfg if (not avail or m in avail)]
         if avail:
             alias = "gemini-pro-latest" if strong else "gemini-flash-latest"
-            if alias in avail:
-                out.append(alias)
             cands = []
             for n in avail:
                 low = n.lower()
@@ -319,8 +321,11 @@ class LLM:
                 preview = ("preview" in low) or re.search(r"-\d{2}-\d{2}$", low) is not None  # dated snapshots
                 cands.append((n, tier, preview, self._ver(low)))
             order = {"pro": 0, "flash": 1, "lite": 2} if strong else {"flash": 0, "lite": 1, "pro": 2}
-            cands.sort(key=lambda c: (order[c[1]], c[2], (-c[3][0], -c[3][1]), len(c[0])))
-            out += [c[0] for c in cands]
+            cands.sort(key=lambda c: (order[c[1]], -c[3][0], -c[3][1], c[2], len(c[0])))  # tier, newest version, stable before preview
+            ranked = [c[0] for c in cands]
+            if alias in avail:  # the rolling alias goes second: newest concrete model first, alias as the safety net
+                ranked.insert(1, alias)
+            out += ranked
         else:  # listing failed: last-known names, best effort
             out += ["gemini-flash-latest", "gemini-pro-latest", "gemini-2.5-flash"]
         seen, uniq = set(), []
@@ -359,7 +364,7 @@ class LLM:
         return uniq[:3]
 
     # ---- providers
-    def _openai(self, model, system, user, temperature=0.2, max_tokens=4000, image_b64=None):
+    def _openai(self, model, system, user, temperature=0.2, max_tokens=4000, image_b64=None, timeout=240):
         content = [{"type": "text", "text": user}]
         if image_b64:
             content.append({"type": "image_url", "image_url": {"url": "data:image/jpeg;base64," + image_b64, "detail": "low"}})
@@ -368,18 +373,18 @@ class LLM:
                 "messages": [{"role": "system", "content": system}, {"role": "user", "content": content}]}
         try:
             st, txt, _ = http("https://api.openai.com/v1/chat/completions", method="POST", json_body=body,
-                              headers={"Authorization": "Bearer " + self.openai_key}, timeout=240, retries=2)
+                              headers={"Authorization": "Bearer " + self.openai_key}, timeout=timeout, retries=1)
         except HttpError as e:
             if e.code == 400 and ("max_tokens" in e.body or "temperature" in e.body):
                 body.pop("max_tokens", None); body.pop("temperature", None); body["max_completion_tokens"] = max_tokens
                 st, txt, _ = http("https://api.openai.com/v1/chat/completions", method="POST", json_body=body,
-                                  headers={"Authorization": "Bearer " + self.openai_key}, timeout=240, retries=2)
+                                  headers={"Authorization": "Bearer " + self.openai_key}, timeout=timeout, retries=1)
             else:
                 raise
         j = json.loads(txt)
         return j["choices"][0]["message"]["content"]
 
-    def _gemini(self, model, system, user, temperature=0.2, max_tokens=4000, image_b64=None):
+    def _gemini(self, model, system, user, temperature=0.2, max_tokens=4000, image_b64=None, timeout=300):
         parts = [{"text": user}]
         if image_b64:
             parts.append({"inline_data": {"mime_type": "image/jpeg", "data": image_b64}})
@@ -388,13 +393,68 @@ class LLM:
                 "generationConfig": {"temperature": temperature, "maxOutputTokens": min(65536, max(8192, max_tokens * 3)),
                                      "responseMimeType": "application/json"}}
         u = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={urllib.parse.quote(self.gemini_key)}"
-        st, txt, _ = http(u, method="POST", json_body=body, timeout=300, retries=2)
+        st, txt, _ = http(u, method="POST", json_body=body, timeout=timeout, retries=1)
         j = json.loads(txt)
         cand = (j.get("candidates") or [{}])[0]
         texts = [p.get("text") for p in ((cand.get("content") or {}).get("parts") or []) if p.get("text") and not p.get("thought")]
         if not texts:
             raise RuntimeError(f"gemini empty answer (finishReason={cand.get('finishReason')}, block={(j.get('promptFeedback') or {}).get('blockReason')})")
         return "".join(texts)
+
+    @staticmethod
+    def parse_json(txt):
+        """Tolerant JSON: code fences, text around the object, trailing commas, // comments."""
+        t = (txt or "").strip()
+        if t.startswith("```"):
+            t = re.sub(r"^```(?:json)?\s*|\s*```$", "", t, flags=re.S).strip()
+        for attempt in range(4):
+            try:
+                return json.loads(t)
+            except Exception:
+                pass
+            if attempt == 0:
+                a, b = t.find("{"), t.rfind("}")
+                if a >= 0 and b > a:
+                    t = t[a:b + 1]
+            elif attempt == 1:
+                t = re.sub(r",\s*([}\]])", r"\1", t)
+            elif attempt == 2:
+                t = LLM._strip_comments(t)
+                t = re.sub(r",\s*([}\]])", r"\1", t)
+        return json.loads(t)  # raises with the real error
+
+    @staticmethod
+    def _strip_comments(t):
+        """Drop // comments that sit outside string literals (keeps URLs inside strings intact)."""
+        out, i, n, in_str, esc = [], 0, len(t), False, False
+        while i < n:
+            c = t[i]
+            if in_str:
+                out.append(c)
+                if esc:
+                    esc = False
+                elif c == "\\":
+                    esc = True
+                elif c == '"':
+                    in_str = False
+            else:
+                if c == '"':
+                    in_str = True; out.append(c)
+                elif c == "/" and i + 1 < n and t[i + 1] == "/":
+                    while i < n and t[i] != "\n":
+                        i += 1
+                    continue
+                else:
+                    out.append(c)
+            i += 1
+        return "".join(out)
+
+    def _strike(self, model):
+        self.failures += 1
+        self.strikes[model] = self.strikes.get(model, 0) + 1
+        if self.strikes[model] >= self.MAX_STRIKES:
+            self.dead.add(model)
+            warn(f"llm: {model} retired for this run after {self.strikes[model]} consecutive failures")
 
     def json(self, system, user, strong=False, temperature=0.2, max_tokens=4000, image_b64=None, prefer=None):
         """Return parsed JSON from the first provider/model that works. None if all fail."""
@@ -408,27 +468,30 @@ class LLM:
         if prefer == "openai":
             order = [o for o in order if o[0] == "openai"] + [o for o in order if o[0] != "openai"]
         system = system + "\nRespond with a single JSON object only."
+        timeout = self.timeout_strong if strong else self.timeout_fast
         for prov, model in order:
             if model in self.dead:
                 continue
             try:
                 self.calls += 1
-                txt = self._openai(model, system, user, temperature, max_tokens, image_b64) if prov == "openai" else self._gemini(model, system, user, temperature, max_tokens, image_b64)
-                txt = txt.strip()
-                if txt.startswith("```"):
-                    txt = re.sub(r"^```(?:json)?\s*|\s*```$", "", txt, flags=re.S)
-                return json.loads(txt)
+                t0 = time.time()
+                txt = self._openai(model, system, user, temperature, max_tokens, image_b64, timeout) if prov == "openai" else self._gemini(model, system, user, temperature, max_tokens, image_b64, timeout)
+                out = self.parse_json(txt)
+                self.strikes[model] = 0
+                return out
             except HttpError as e:
-                self.failures += 1
                 low = (e.body or "").lower()
                 if e.code == 404 or (e.code == 400 and ("not found" in low or "no longer available" in low or "not supported" in low)):
-                    self.dead.add(model)  # do not retry a missing model for the rest of the run
+                    self.dead.add(model)  # missing model: never again this run
+                    self.failures += 1
+                else:
+                    self._strike(model)
                 short = re.sub(r"\s+", " ", e.body or "")[:200]
-                warn(f"llm {prov}/{model} http {e.code}: {short}")
+                warn(f"llm {prov}/{model} http {e.code} after {time.time() - t0:.0f}s: {short}")
                 continue
             except Exception as e:
-                self.failures += 1
-                warn(f"llm {prov}/{model} failed: {str(e)[:200]}")
+                self._strike(model)
+                warn(f"llm {prov}/{model} failed after {time.time() - t0:.0f}s: {str(e)[:200]}")
                 continue
         return None
 
