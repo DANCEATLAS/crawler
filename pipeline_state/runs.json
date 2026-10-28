@@ -1,0 +1,111 @@
+[
+ {
+  "stage": "audit",
+  "started": "2026-10-28T03:40:58Z",
+  "finished": "2026-10-28T03:40:58Z",
+  "counters": {},
+  "notes": [],
+  "errors": [
+   "app_catalog.json missing"
+  ],
+  "version": "v3.0"
+ },
+ {
+  "stage": "discover",
+  "started": "2026-10-28T03:40:58Z",
+  "finished": "2026-10-28T03:53:47Z",
+  "counters": {
+   "harvested": 2082,
+   "dup_qid": 3,
+   "already_known": 166,
+   "dup_name": 168,
+   "deferred": 1674,
+   "dup_fuzzy": 7,
+   "not_dance_like": 11,
+   "queued_new": 20
+  },
+  "notes": [
+   "candidate queue: 20 queued, 27 tracked"
+  ],
+  "errors": [],
+  "version": "v3.0"
+ },
+ {
+  "stage": "research",
+  "started": "2026-10-28T03:53:47Z",
+  "finished": "2026-10-28T03:54:04Z",
+  "counters": {
+   "researched_llm_failed": 6,
+   "researched_no_sources": 2,
+   "llm_calls": 18,
+   "llm_failures": 18
+  },
+  "notes": [
+   "targets: 8 (llm enabled=True)"
+  ],
+  "errors": [],
+  "version": "v3.0"
+ },
+ {
+  "stage": "qc",
+  "started": "2026-10-28T03:54:04Z",
+  "finished": "2026-10-28T03:54:06Z",
+  "counters": {
+   "llm_calls": 0
+  },
+  "notes": [
+   "qc targets: 0 (judge enabled=True)"
+  ],
+  "errors": [],
+  "version": "v3.0"
+ },
+ {
+  "stage": "hero_qc",
+  "started": "2026-10-28T03:54:06Z",
+  "finished": "2026-10-28T03:54:16Z",
+  "counters": {
+   "videos_fetched": 42,
+   "verdict_pass": 15,
+   "llm_calls": 45
+  },
+  "notes": [
+   "hero qc targets: 15 of 1008 heroes (vision=True)"
+  ],
+  "errors": [],
+  "version": "v3.0"
+ },
+ {
+  "stage": "build",
+  "started": "2026-10-28T03:54:16Z",
+  "finished": "2026-10-28T03:54:16Z",
+  "counters": {},
+  "notes": [],
+  "errors": [
+   "app_catalog.json missing — run bootstrap first"
+  ],
+  "version": "v3.0"
+ },
+ {
+  "stage": "sync",
+  "started": "2026-10-28T03:54:16Z",
+  "finished": "2026-10-28T03:54:17Z",
+  "counters": {},
+  "notes": [
+   "dances columns known: 32; pipeline columns present: []",
+   "sync targets: 0"
+  ],
+  "errors": [],
+  "version": "v3.0"
+ },
+ {
+  "stage": "report",
+  "started": "2026-10-28T03:54:17Z",
+  "finished": "2026-10-28T03:54:19Z",
+  "counters": {
+   "review_items": 0
+  },
+  "notes": [],
+  "errors": [],
+  "version": "v3.0"
+ }
+]
