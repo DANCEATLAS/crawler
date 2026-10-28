@@ -1,0 +1,105 @@
+{
+ "slug": "nauru-frigate-bird-dance",
+ "qc_at": "2026-10-28T16:32:16Z",
+ "version": "v3.0",
+ "publish_gate": "review",
+ "qc_score": 0.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Frigate Bird Dance (Nauru)"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "64"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "138"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "On an island where traditional arts were largely eroded by colonial influence, t"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "335"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "838"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "4/4 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Nauru"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": null,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "insight_concrete",
+  "profile_long_len",
+  "sections_filled",
+  "no_judge"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 4,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-28T16:26:02Z"
+}

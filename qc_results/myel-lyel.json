@@ -1,0 +1,104 @@
+{
+ "slug": "myel-lyel",
+ "qc_at": "2026-10-28T16:32:13Z",
+ "version": "v3.0",
+ "publish_gate": "review",
+ "qc_score": 0.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Myel Lyel"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "58"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "131"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Dancers circle the burial site to transform grief into a communal rite, using th"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "392"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1663"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/3 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Uganda"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'funeral']"
+  }
+ ],
+ "judge": null,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "insight_concrete",
+  "no_judge",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 3,
+  "supported": 3,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-28T16:24:29Z"
+}

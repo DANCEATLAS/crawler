@@ -1,0 +1,104 @@
+{
+ "slug": "kapa-haka",
+ "qc_at": "2026-10-28T16:32:16Z",
+ "version": "v3.0",
+ "publish_gate": "review",
+ "qc_score": 0.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Kapa haka"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "82"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "137"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Performers wield tennis-ball sized poi on cords—modern ones fashioned from plast"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "392"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2373"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "New Zealand (Aotearoa)"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['trance']"
+  }
+ ],
+ "judge": null,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "country",
+  "no_judge",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-28T16:28:15Z"
+}

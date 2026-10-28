@@ -1,0 +1,117 @@
+{
+ "slug": "the-freddie",
+ "qc_at": "2026-10-28T16:32:08Z",
+ "version": "v3.0",
+ "publish_gate": "reject",
+ "qc_score": 0.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "The Freddie"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "56"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "162"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "A dance so simple it required only the rhythmic extension of legs and arms, it w"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "572"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2168"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United Kingdom"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ritual']"
+  }
+ ],
+ "judge": {
+  "accuracy_score": 10,
+  "respect_score": 10,
+  "specificity_score": 10,
+  "teaching_value_score": 9,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": true
+  },
+  "overall_score": 10,
+  "verdict": "publish",
+  "notes": "Excellent profile. Fully supported by evidence claims, well-written, respectful, and provides clear dance instructions."
+ },
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "judge_score=0.0"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-28T16:24:04Z"
+}
