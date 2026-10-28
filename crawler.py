@@ -124,12 +124,18 @@ def verify(name,cs):
     if ss>dc*2 and dc<2: return False
     return True
 
+HERO_BLOCKLIST=None
+
 def pick_hero(dance,keys):
+    global HERO_BLOCKLIST
+    if HERO_BLOCKLIST is None:
+        HERO_BLOCKLIST=jload("hero_blocklist.json",{}) or {}
     name=dance.get("name") or dance.get("slug")
     names=[norm(name)]+[norm(a) for a in dance.get("aliases",[])]; names=[x for x in names if x and len(x)>=3]
-    cands=evaluate(search_ids(name+" dance performance",keys),names,keys)
+    blocked=set((HERO_BLOCKLIST.get(dance.get("slug")) or {}).keys())  # videos rejected by hero QC (pipeline/hero_qc.py)
+    cands=[c for c in evaluate(search_ids(name+" dance performance",keys),names,keys) if c["id"] not in blocked]
     if not cands and dance.get("country"):
-        cands=evaluate(search_ids(name+" "+dance.get("country","")+" dance",keys),names,keys)
+        cands=[c for c in evaluate(search_ids(name+" "+dance.get("country","")+" dance",keys),names,keys) if c["id"] not in blocked]
     for c in cands[:3]:
         if verify(name,comments(c["id"],keys,20)):
             status="crowd_wisdom_confident" if c["own"] else "crowd_wisdom_weak"
