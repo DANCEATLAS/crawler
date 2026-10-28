@@ -423,7 +423,8 @@ class LLM:
                 low = (e.body or "").lower()
                 if e.code == 404 or (e.code == 400 and ("not found" in low or "no longer available" in low or "not supported" in low)):
                     self.dead.add(model)  # do not retry a missing model for the rest of the run
-                warn(f"llm {prov}/{model} http {e.code}: {re.sub(r'[\\s]+', ' ', e.body or '')[:200]}")
+                short = re.sub(r"\s+", " ", e.body or "")[:200]
+                warn(f"llm {prov}/{model} http {e.code}: {short}")
                 continue
             except Exception as e:
                 self.failures += 1
