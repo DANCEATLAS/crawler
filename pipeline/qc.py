@@ -106,14 +106,15 @@ def decide(gates, jd, dup, sacred):
 def qc_one(rec, idx, catalog_by_slug, llm):
     gates, dup, sacred = deterministic_gates(rec, idx, catalog_by_slug)
     jd = judge(rec, llm) if llm.enabled else None
+    reused = False
     if llm.enabled and not jd:
-        # the model was unavailable (quota, outage): an earlier judged verdict for the same research stands; retry next run
+        # the model is unavailable (quota, outage): an earlier judge reading of the SAME research is still valid, reuse it
         prev = jload(os.path.join(QC_DIR, rec["slug"] + ".json"))
         if prev and prev.get("judge") and prev.get("researched_at") == rec.get("researched_at"):
-            return dict(prev, judge_unavailable=True)
+            jd, reused = prev["judge"], True
     gate, score, reasons = decide(gates, jd, dup, sacred)
     out = {"slug": rec["slug"], "qc_at": now_iso(), "version": PIPELINE_VERSION, "publish_gate": gate, "qc_score": score,
-           "gates": gates, "judge": jd, "duplicate_of": dup, "is_sacred": sacred, "reasons": reasons,
+           "gates": gates, "judge": jd, "judge_reused": reused, "duplicate_of": dup, "is_sacred": sacred, "reasons": reasons,
            "citation": rec.get("citation"), "researched_at": rec.get("researched_at")}
     jsave(os.path.join(QC_DIR, rec["slug"] + ".json"), out)
     return out
@@ -146,7 +147,7 @@ def run(only=None, max_n=200):
         try:
             out = qc_one(rec, idx, by_slug, llm)
             # a record judged while the model was unavailable (quota, outage) is not locked in: it is re-judged on the next run
-            ver = "nojudge" if out.get("judge_unavailable") else (PIPELINE_VERSION if (out.get("judge") or not llm.enabled) else "nojudge")
+            ver = PIPELINE_VERSION if (out.get("judge") or not llm.enabled) else "nojudge"
             qindex[slug] = {"qc_at": out["qc_at"], "publish_gate": out["publish_gate"], "qc_score": out["qc_score"], "researched_at": rec.get("researched_at"), "version": ver, "reasons": out["reasons"][:8]}
             rep.inc("gate_" + out["publish_gate"])
             log(f"QC {slug}: {out['publish_gate']} score={out['qc_score']} reasons={out['reasons']}")
