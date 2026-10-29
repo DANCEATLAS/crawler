@@ -1,0 +1,124 @@
+{
+ "slug": "pique",
+ "qc_at": "2026-10-29T16:58:29Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 6.35,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Pique"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "81"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "117"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Ballet terminology is predominantly in French because the art form's formalized "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "355"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "819"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/3 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "France / Italy"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": false,
+   "detail": "the provided sources"
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 3,
+  "teaching_value": 2,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The provided sources document classical ballet terminology rather than a Trinidadian belé dance."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 4,
+  "verdict": "reject",
+  "notes": "The subject is a ballet term (Piqué) rather than a standalone dance, and the content consists of general ballet glossaries rather than dance history or technique. Teaching value is extremely low due to lack of actual dance descriptions."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "ai_tells",
+  "profile_long_len",
+  "banned_phrasing",
+  "judge_score=6.35",
+  "doubts=1",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 3,
+  "supported": 3,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-29T16:33:24Z"
+}

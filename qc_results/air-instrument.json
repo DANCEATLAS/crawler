@@ -1,0 +1,124 @@
+{
+ "slug": "air-instrument",
+ "qc_at": "2026-10-29T16:58:12Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 5.45,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Air instrument"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "91"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "154"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "An imaginary air piano can be transformed into a motion-controlled digital inter"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "341"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1528"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Global"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 4,
+  "respect": 10,
+  "specificity": 5,
+  "teaching_value": 2,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "Wikidata classifies this form of movement as a dance move.",
+   "The playing of air instruments has been documented through the 20th century, though historical sources do not exclude ancient private performances of instruments like the air flute or air lyre.",
+   "Traced through the 20th century and ancestral private performances of air flutes and lyres."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 3,
+  "verdict": "reject",
+  "notes": "Air instrument performance is a form of pantomime or gesture, not a dance tradition. The profile relies on a questionable Wikidata classification and speculative claims about 'ancient' origins that lack historical evidence. It fails to meet the criteria for a dance entry."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "country",
+  "insight_concrete",
+  "judge_score=5.45",
+  "doubts=3",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-29T16:32:54Z"
+}

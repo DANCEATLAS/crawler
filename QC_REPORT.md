@@ -1,26 +1,43 @@
 # QC review queue
-_Generated 2026-10-29T02:46:56Z_
+_Generated 2026-10-29T17:37:53Z_
 
 | slug | gate | score | reasons | duplicate of |
 |---|---|---|---|---|
+| aerial-cartwheel | reject | 9.55 | country, insight_concrete, judge_score=9.55, not_a_dance |  |
 | the-maid-of-cashmere | reject | 9.3 | banned_phrasing, sacred_handled, judge_score=9.3, not_a_dance, sacred |  |
 | thougal-jagoi | reject | 9.3 | ai_tells, insight_concrete, judge_score=9.3, sacred |  |
+| dip | reject | 9.05 | country, ai_tells, insight_concrete, judge_score=9.05, not_a_dance |  |
 | la-danza | reject | 8.95 | ai_tells, sacred_handled, judge_score=8.95, not_a_dance, sacred |  |
 | raffaella | reject | 8.8 | sacred_handled, judge_score=8.8, not_a_dance, sacred |  |
+| soeng | reject | 8.75 | citations, ai_tells, sections_filled, banned_phrasing, judge_score=8.75 |  |
 | party-of-the-people | reject | 8.65 | citations, ai_tells, profile_long_len, sections_filled, judge_score=8.65, not_a_dance |  |
 | maypole-dance-jamaica | reject | 8.65 | citations, ai_tells, profile_long_len, sections_filled, judge_score=8.65 |  |
 | lanigan-s-ball | reject | 8.5 | judge_score=8.5, doubts=1, not_a_dance |  |
 | hotty-toddy | reject | 8.4 | judge_score=8.4, not_a_dance |  |
 | javotte-ballet | reject | 8.4 | sections_filled, judge_score=8.4, not_a_dance |  |
 | fwemba | reject | 8.25 | ai_tells, sacred_handled, judge_score=8.25, sacred |  |
+| mari-folk-dance | reject | 7.75 | judge_score=7.75, doubts=1, not_a_dance, sacred |  |
+| maxie-ford | reject | 7.45 | country, profile_long_len, sections_filled, judge_score=7.45, not_a_dance |  |
 | akiriket | reject | 7.1 | citations, profile_long_len, judge_score=7.1, not_a_dance, sacred |  |
 | sudmalinas | reject | 6.4 | citations, ai_tells, profile_long_len, sections_filled, judge_score=6.4 |  |
+| pique | reject | 6.35 | citations, ai_tells, profile_long_len, banned_phrasing, judge_score=6.35, doubts=1, not_a_dance |  |
+| melpa-sing-sing | reject | 6.35 | citations, judge_score=6.35, doubts=1, not_a_dance |  |
+| air-instrument | reject | 5.45 | country, insight_concrete, judge_score=5.45, doubts=3, not_a_dance |  |
 | umushagiriro | reject | 4.05 | citations, profile_long_len, sections_filled, judge_score=4.05, doubts=2 |  |
 | rateliai | reject | 2.0 | citations, ai_tells, profile_long_len, sections_filled, judge_score=2.0, doubts=1 |  |
 | hula-kahiko | review | 10.0 | insight_concrete, banned_phrasing, judge_score=10.0, sacred |  |
 | alardah-alnajdiyah | review | 9.85 | insight_concrete, sacred_handled, judge_score=9.85, sacred |  |
+| jazz-dance | review | 9.5 | citations, banned_phrasing, judge_score=9.5 |  |
 | myel-lyel | review | 9.45 | citations, insight_concrete, judge_score=9.45, sacred |  |
+| surra-de-bunda | review | 9.3 | insight_concrete, profile_long_len, sections_filled, judge_score=9.3 |  |
+| yumsharol-jagoi | review | 8.85 | profile_long_len, sections_filled, judge_score=8.85, sacred |  |
+| ram-wong | review | 8.6 | citations, judge_score=8.6, doubts=1 |  |
 | tamena-ibuga | review | 8.4 | insight_concrete, sacred_handled, judge_score=8.4, sacred |  |
+| pukkumina | review | 7.75 | insight_concrete, judge_score=7.75, doubts=1, sacred |  |
+| ekiria-kiria | review | 7.45 | profile_long_len, judge_score=7.45 |  |
+| shamia-e-beqarit | review | 7.3 | profile_long_len, sections_filled, judge_score=7.3, sacred |  |
+| mordvin-dance | review | 7.3 | profile_long_len, sections_filled, judge_score=7.3 |  |
+| gaze-dance | review | 7.15 | profile_long_len, judge_score=7.15 |  |
 | nauru-frigate-bird-dance | review | 6.35 | insight_concrete, profile_long_len, sections_filled, judge_score=6.35 |  |
 | jamaican-quadrille | review | 6.1 | citations, profile_long_len, judge_score=6.1, doubts=1 |  |
 

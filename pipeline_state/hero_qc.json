@@ -619,7 +619,7 @@
   "history": []
  },
  "takamba": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:11:14Z",
   "hero": "JkCC-0xISTE",
   "verdict": "pass",
   "hard_fail": [],
@@ -634,9 +634,30 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 15,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Traditional Takamba dance performance outdoors with dancers and a gathering crowd in Mali."
+  },
   "history": []
  },
  "latin-dance": {
@@ -682,7 +703,7 @@
   "history": []
  },
  "tufo": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:12:32Z",
   "hero": "VF5wbGJ83MU",
   "verdict": "pass",
   "hard_fail": [],
@@ -695,9 +716,30 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 16,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Clear outdoor performance of Tufo dance with women kneeling in traditional matching capulanas and live musicians."
+  },
   "history": []
  },
  "guapacha": {
@@ -955,11 +997,13 @@
   "history": []
  },
  "guaracha": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:16:50Z",
   "hero": "X9N55-OwjKI",
   "verdict": "pass",
   "hard_fail": [],
-  "soft_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -968,16 +1012,39 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "unsure",
+   "quality": 7,
+   "reason": "Group of dancers performing in an urban setting, clear choreography and body visibility."
+  },
   "history": []
  },
  "sambai": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:19:02Z",
   "hero": "vr9AYPgOt6A",
-  "verdict": "pass",
-  "hard_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "not_poster"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -987,10 +1054,32 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": false,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 15,
+   "talking_head": false,
+   "text_poster_or_graphic": true,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Shows people gathered around a fire in Belize with drums and dancing, overlaid with title text."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "sandungueo": {
   "checked_at": "2026-10-28T06:40:20Z",
@@ -1430,11 +1519,16 @@
   "replaced_from": "qDvFdj-pFMc"
  },
  "sogdian-whirl-dance": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:19:31Z",
   "hero": "StM9iszreWE",
-  "verdict": "pass",
-  "hard_fail": [],
-  "soft_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
+  "soft_fail": [
+   "not_talking_head"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -1443,16 +1537,41 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": false,
+   "not_talking_head": false,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 5
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": false,
+   "people_count": 1,
+   "talking_head": true,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 5,
+   "reason": "Shows a person talking on a TV show, not dancing."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "romvong": {
-  "checked_at": "",
-  "hero": "hkYCd5iguPQ",
+  "checked_at": "2026-10-29T17:19:45Z",
+  "hero": "JoAiuidr-p0",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -1462,13 +1581,45 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 5,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Dancers performing traditional dance in costumes on stage."
+  },
+  "history": [
+   {
+    "replaced": "hkYCd5iguPQ",
+    "with": "JoAiuidr-p0",
+    "at": "2026-10-29T17:20:07Z",
+    "reason": [
+     "dance_visible",
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "hkYCd5iguPQ"
  },
  "balos": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:20:31Z",
   "hero": "EtKfru3fEWc",
   "verdict": "pass",
   "hard_fail": [],
@@ -1481,16 +1632,41 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 5
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "unsure",
+   "quality": 5,
+   "reason": "Shows lower body demonstrating dance steps on a wooden deck, but lacks context."
+  },
   "history": []
  },
  "barn-dance": {
-  "checked_at": "",
-  "hero": "LS7nOOBT0Hs",
+  "checked_at": "2026-10-29T17:20:52Z",
+  "hero": "20AzpUhcl_E",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "dance_visible",
+   "not_poster",
+   "looks_like_dance"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -1500,13 +1676,46 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 30,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Large group of people holding hands in a circle dancing a traditional barn dance."
+  },
+  "history": [
+   {
+    "replaced": "LS7nOOBT0Hs",
+    "with": "20AzpUhcl_E",
+    "at": "2026-10-29T17:21:10Z",
+    "reason": [
+     "dance_visible",
+     "not_poster",
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "LS7nOOBT0Hs"
  },
  "bulgarian-folk-dance": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:21:31Z",
   "hero": "YS0FnrVvOT8",
   "verdict": "pass",
   "hard_fail": [],
@@ -1519,13 +1728,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 7,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Performers in traditional Bulgarian folk costumes dancing with drums on stage."
+  },
   "history": []
  },
  "country-dance": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:21:51Z",
   "hero": "vOKpizJ_9RE",
   "verdict": "pass",
   "hard_fail": [],
@@ -1538,13 +1768,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 5,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Children in country dance costumes performing on stage."
+  },
   "history": []
  },
  "el-vito": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:22:08Z",
   "hero": "_vfEzrbG-bk",
   "verdict": "pass",
   "hard_fail": [],
@@ -1557,16 +1808,39 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Historical archival footage showing traditional Spanish dance El vito."
+  },
   "history": []
  },
  "egg-dance": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:22:53Z",
   "hero": "IS7fiea_dE4",
-  "verdict": "pass",
-  "hard_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "not_poster"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -1576,13 +1850,35 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": false,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": true,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Children performing an egg-themed costume dance on stage with heavy text overlay."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "fandango": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:23:13Z",
   "hero": "5KoIXCtz8j0",
   "verdict": "pass",
   "hard_fail": [],
@@ -1595,17 +1891,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Two dancers in traditional costumes performing a fandango in front of a banner."
+  },
   "history": []
  },
  "estonian-folk-dance": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:23:40Z",
   "hero": "7aujEEhCHHE",
   "verdict": "pass",
   "hard_fail": [],
-  "soft_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -1614,16 +1933,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Dancers performing Estonian folk dance Kaerajaan in traditional costumes."
+  },
   "history": []
  },
  "irish-dance": {
-  "checked_at": "",
-  "hero": "hKCHgwzMjhw",
+  "checked_at": "2026-10-29T17:23:52Z",
+  "hero": "z5e9MWfsnI4",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "dance_visible",
+   "looks_like_dance"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -1633,13 +1976,45 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 3,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Three young girls performing Irish dance in traditional costumes on stage."
+  },
+  "history": [
+   {
+    "replaced": "hKCHgwzMjhw",
+    "with": "z5e9MWfsnI4",
+    "at": "2026-10-29T17:24:10Z",
+    "reason": [
+     "dance_visible",
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "hKCHgwzMjhw"
  },
  "leventikos": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:24:19Z",
   "hero": "qe29yokZOiU",
   "verdict": "pass",
   "hard_fail": [],
@@ -1652,13 +2027,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "unsure",
+   "quality": 7,
+   "reason": "Shows a person demonstrating dance steps in a gym studio with a banner."
+  },
   "history": []
  },
  "jig": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:24:30Z",
   "hero": "ZYa52bTmpB8",
   "verdict": "pass",
   "hard_fail": [],
@@ -1671,17 +2067,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "Professional TV broadcast thumbnail clearly showing multiple dancers performing an energetic Irish jig."
+  },
   "history": []
  },
  "perinia": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:24:40Z",
   "hero": "NdT_Dj-WBEo",
   "verdict": "pass",
   "hard_fail": [],
-  "soft_fail": [],
+  "soft_fail": [
+   "not_talking_head"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -1690,17 +2109,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": false,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 20,
+   "talking_head": true,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Reaction video showing traditional Romanian dancers and a reactor with text overlay."
+  },
   "history": []
  },
  "sousta": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:24:51Z",
   "hero": "6RQnZyypGUs",
   "verdict": "pass",
   "hard_fail": [],
-  "soft_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -1709,16 +2151,39 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Group of people practicing a dance circle in a studio."
+  },
   "history": []
  },
  "tambourin": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:25:03Z",
   "hero": "alEYTfNksqs",
-  "verdict": "pass",
-  "hard_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "looks_like_dance"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -1728,17 +2193,41 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 8
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 8,
+   "reason": "Professional TV broadcast dance performance thumbnail featuring six male dancers."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "cabbage-patch": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:25:57Z",
   "hero": "iThvvymF-5o",
   "verdict": "pass",
   "hard_fail": [],
-  "soft_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -1747,13 +2236,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Two people performing the Cabbage Patch dance in a professional studio setting with overlaid clips."
+  },
   "history": []
  },
  "charme": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:26:11Z",
   "hero": "BKgBvDIDCww",
   "verdict": "pass",
   "hard_fail": [],
@@ -1766,16 +2276,39 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 12,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Clear group dance scene matching Charme style."
+  },
   "history": []
  },
  "footwork": {
-  "checked_at": "",
-  "hero": "BxOBhZBLOio",
+  "checked_at": "2026-10-29T17:26:21Z",
+  "hero": "hZkNqt-l8As",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "not_poster"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -1785,13 +2318,44 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "unsure",
+   "quality": 7,
+   "reason": "Professional dance show performance thumbnail featuring a dancer on stage with overlay graphics."
+  },
+  "history": [
+   {
+    "replaced": "BxOBhZBLOio",
+    "with": "hZkNqt-l8As",
+    "at": "2026-10-29T17:26:32Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "BxOBhZBLOio"
  },
  "d-efeitos": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:26:44Z",
   "hero": "CY4iyfybxU4",
   "verdict": "pass",
   "hard_fail": [],
@@ -1806,13 +2370,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 3,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Three dancers performing on a television talent show set."
+  },
   "history": []
  },
  "jerkin": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:26:56Z",
   "hero": "-bhPauFonp0",
   "verdict": "pass",
   "hard_fail": [],
@@ -1825,16 +2410,39 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Dancer performing Jerkin' style outdoors in Paris with another person watching."
+  },
   "history": []
  },
  "litefeet": {
-  "checked_at": "",
-  "hero": "xrM6IXjfI3w",
+  "checked_at": "2026-10-29T17:27:07Z",
+  "hero": "fpasBMvRR2E",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "not_poster"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -1844,13 +2452,44 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Clear street cypher setting capturing a dancer performing Litefeet in New York."
+  },
+  "history": [
+   {
+    "replaced": "xrM6IXjfI3w",
+    "with": "fpasBMvRR2E",
+    "at": "2026-10-29T17:27:26Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "xrM6IXjfI3w"
  },
  "turfing": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:28:09Z",
   "hero": "JQRRnAhmB58",
   "verdict": "pass",
   "hard_fail": [],
@@ -1863,13 +2502,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 4,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "Clear shot of Turf Feinz performing Turfing in an authentic street setting."
+  },
   "history": []
  },
  "rhythmic-circus": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:28:24Z",
   "hero": "riupQGCF5a8",
   "verdict": "pass",
   "hard_fail": [],
@@ -1882,13 +2542,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Rhythmic Circus ensemble performing on stage with band and dancers."
+  },
   "history": []
  },
  "fred-astaire-dance-studios": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:28:29Z",
   "hero": "vdRQJhY4hgY",
   "verdict": "pass",
   "hard_fail": [],
@@ -1901,13 +2582,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 10
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 10,
+   "reason": "Clear, high-quality shot of a couple performing a Country Western Two-Step in a dance studio setting."
+  },
   "history": []
  },
  "ballroom-dance": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:28:41Z",
   "hero": "zTciRj7UUlk",
   "verdict": "pass",
   "hard_fail": [],
@@ -1920,17 +2622,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 14,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "Dancers in white tie and ballgowns at a traditional Vienna ball."
+  },
   "history": []
  },
  "stanky-legg": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:28:50Z",
   "hero": "VMqyEFnxKTY",
   "verdict": "pass",
   "hard_fail": [],
-  "soft_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -1939,13 +2664,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 15,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Dancers performing in a studio setting with an audience."
+  },
   "history": []
  },
  "burn-the-floor": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:29:03Z",
   "hero": "RYZWXl-ymBE",
   "verdict": "pass",
   "hard_fail": [],
@@ -1958,17 +2704,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Professional stage performance of Burn the Floor with dancers in costume."
+  },
   "history": []
  },
  "blackpool-dance-festival": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:30:39Z",
   "hero": "FJZ3IVwh5cY",
   "verdict": "pass",
   "hard_fail": [],
-  "soft_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -1977,17 +2746,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 3,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Two children dancing ballroom dance in a competition setting with side blur."
+  },
   "history": []
  },
  "claro-que-baila": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:30:49Z",
   "hero": "NBXf0VY3za0",
   "verdict": "pass",
   "hard_fail": [],
-  "soft_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -1996,13 +2788,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Professional stage shot showing a dance lift performance."
+  },
   "history": []
  },
  "castle-walk": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:31:12Z",
   "hero": "yp1qZZ0_Hl8",
   "verdict": "pass",
   "hard_fail": [],
@@ -2017,13 +2830,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Two dancers performing the Castle Walk in a stage setting."
+  },
   "history": []
  },
  "byu-ballroom-dance-company": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:31:35Z",
   "hero": "crsfyb2upGY",
   "verdict": "pass",
   "hard_fail": [],
@@ -2036,13 +2870,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 20,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "BYU Ballroom Dance Company performing on stage with stage lighting."
+  },
   "history": []
  },
  "dancing-with-the-stars": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:31:49Z",
   "hero": "t8W4tyLo_oE",
   "verdict": "pass",
   "hard_fail": [],
@@ -2055,17 +2910,38 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "Professional broadcast still showing Derek Hough and Hayley Erbert in a dramatic Paso Doble pose."
+  },
   "history": []
  },
  "dana-dos-famosos": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:32:02Z",
   "hero": "DjrzUJYtlIY",
   "verdict": "pass",
-  "hard_fail": null,
-  "soft_fail": null,
+  "hard_fail": [],
+  "soft_fail": [],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -2074,9 +2950,30 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Professional TV broadcast of Daiane dos Santos performing Danca dos Famosos."
+  },
   "history": [
    {
     "replaced": "zYhDzXZ4Ofg",
@@ -2084,11 +2981,10 @@
     "at": "2026-10-28T16:32:52Z",
     "reason": null
    }
-  ],
-  "replaced_from": "zYhDzXZ4Ofg"
+  ]
  },
  "dancing-brasil-jnior": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:32:12Z",
   "hero": "c7EqjicOg_I",
   "verdict": "pass",
   "hard_fail": [],
@@ -2101,13 +2997,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Two children performing Samba on a professional stage with Dancing Brasil Junior branding."
+  },
   "history": []
  },
  "dancing-with-the-stars-juniors": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:32:44Z",
   "hero": "kvtIqpVyCoQ",
   "verdict": "pass",
   "hard_fail": [],
@@ -2120,13 +3037,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "A clear, professional shot of two dancers from Dancing with the Stars: Juniors performing a Foxtrot."
+  },
   "history": []
  },
  "one-step": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:32:56Z",
   "hero": "w_le0Q5D5IE",
   "verdict": "pass",
   "hard_fail": [],
@@ -2141,13 +3079,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Couple dancing a ragtime one-step variation indoors."
+  },
   "history": []
  },
  "new-vogue": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:33:08Z",
   "hero": "4RldSmDzb9Y",
   "verdict": "pass",
   "hard_fail": [],
@@ -2160,17 +3119,42 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "Clear professional dance demonstration photo showing New Vogue style ballroom dancing with dancers in pose."
+  },
   "history": []
  },
  "swing": {
-  "checked_at": "",
-  "hero": "mw2QbbD5rc8",
+  "checked_at": "2026-10-29T17:33:16Z",
+  "hero": "LQxHfEjBhh0",
   "verdict": "pass",
-  "hard_fail": [],
-  "soft_fail": [],
+  "hard_fail": [
+   "not_poster"
+  ],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -2179,17 +3163,52 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "Clear, high-quality footage of a couple performing West Coast Swing in a ballroom setting."
+  },
+  "history": [
+   {
+    "replaced": "mw2QbbD5rc8",
+    "with": "LQxHfEjBhh0",
+    "at": "2026-10-29T17:33:24Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "mw2QbbD5rc8"
  },
  "usa-dance": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:33:34Z",
   "hero": "NprlaqZUPbk",
-  "verdict": "pass",
-  "hard_fail": [],
-  "soft_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "looks_like_dance"
+  ],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -2198,13 +3217,35 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 6
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 6,
+   "reason": "People dancing in a supermarket aisle with phone framing and overlaid graphics."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "viennese-waltz": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:33:53Z",
   "hero": "mGxgm-Xo1GE",
   "verdict": "pass",
   "hard_fail": [],
@@ -2217,13 +3258,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 12,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Couples performing Viennese waltz in ballroom attire."
+  },
   "history": []
  },
  "world-dance-council": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:34:05Z",
   "hero": "-R3e2i6Klzc",
   "verdict": "pass",
   "hard_fail": [],
@@ -2236,13 +3298,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 12,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "Professional ballroom dance photo showing competition dancers in a waltz pose."
+  },
   "history": []
  },
  "world-ballroom-dance-champions": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:34:16Z",
   "hero": "_HFyCjenFUs",
   "verdict": "pass",
   "hard_fail": [],
@@ -2255,13 +3338,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 20,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "Professional ballroom Latin dancers performing on stage in competition."
+  },
   "history": []
  },
  "domkach": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:34:22Z",
   "hero": "v0irQQn05X0",
   "verdict": "pass",
   "hard_fail": [],
@@ -2274,13 +3378,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Two people performing a traditional dance on a stage with a sponsor banner in the background."
+  },
   "history": []
  },
  "conga-line": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:34:36Z",
   "hero": "UTjAqxmEUfA",
   "verdict": "pass",
   "hard_fail": [],
@@ -2293,13 +3418,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Group of dancers in a studio practicing line dance choreography."
+  },
   "history": []
  },
  "corridinho": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:34:47Z",
   "hero": "a9klDOiiv4Q",
   "verdict": "pass",
   "hard_fail": [],
@@ -2312,13 +3458,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Dancers performing traditional Corridinho in matching traditional attire on stage."
+  },
   "history": []
  },
  "dances-of-universal-peace": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:35:44Z",
   "hero": "AgZ__EBy4FM",
   "verdict": "pass",
   "hard_fail": [],
@@ -2331,17 +3498,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 9,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "People clearly dancing in a tent workshop; looks like a community Dances of Universal Peace setting."
+  },
   "history": []
  },
  "big-apple": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:35:48Z",
   "hero": "H1K5M5xluZs",
   "verdict": "pass",
   "hard_fail": [],
-  "soft_fail": [],
+  "soft_fail": [
+   "camera_ok"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -2350,17 +3540,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": false,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 20,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "shaky_or_blurry",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "A scene from the 1939 film Keep Punching showing a group performing the Big Apple dance."
+  },
   "history": []
  },
  "cachua": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:35:52Z",
   "hero": "D-z-5_R9xS4",
   "verdict": "pass",
   "hard_fail": [],
-  "soft_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -2369,13 +3582,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "A performer in traditional colonial-style costume dances in a church setting, accompanied by musicians."
+  },
   "history": []
  },
  "pop-goes-the-weasel": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:36:01Z",
   "hero": "1bDwpmLuaEs",
   "verdict": "pass",
   "hard_fail": [],
@@ -2388,17 +3622,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 10,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "Clear high-angle shot of dancers in period costumes performing a traditional dance in a ballroom setting."
+  },
   "history": []
  },
  "garba": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:36:05Z",
   "hero": "dAvdW96KAEw",
   "verdict": "pass",
-  "hard_fail": null,
-  "soft_fail": null,
+  "hard_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -2407,9 +3664,30 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 4,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "An elderly woman is clearly performing Garba in a traditional setting, captured in a vertical video format."
+  },
   "history": [
    {
     "replaced": "8JoMcs_nSNY",
@@ -2417,11 +3695,10 @@
     "at": "2026-10-28T16:32:59Z",
     "reason": null
    }
-  ],
-  "replaced_from": "8JoMcs_nSNY"
+  ]
  },
  "mardani-jhumar": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:36:16Z",
   "hero": "C1FQ5rrUbjk",
   "verdict": "pass",
   "hard_fail": [],
@@ -2434,13 +3711,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "A group of performers in traditional attire are dancing on a stage, consistent with Mardani Jhumar."
+  },
   "history": []
  },
  "maculel": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:36:19Z",
   "hero": "Hvs2Tf_aH1o",
   "verdict": "pass",
   "hard_fail": [],
@@ -2453,13 +3751,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 10
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 10,
+   "reason": "High-quality professional image showing two performers in traditional Maculelê attire with sticks."
+  },
   "history": []
  },
  "karikz": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:36:21Z",
   "hero": "KKzGTTrtzco",
   "verdict": "pass",
   "hard_fail": [],
@@ -2472,16 +3791,41 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 12,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "A clear, high-quality shot of a group performing a traditional Hungarian Karikázó dance on stage."
+  },
   "history": []
  },
  "manau": {
-  "checked_at": "",
-  "hero": "Xx8OsAZWvg0",
+  "checked_at": "2026-10-29T17:37:01Z",
+  "hero": "baNdVFjebVI",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "dance_visible",
+   "not_poster",
+   "looks_like_dance"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -2491,13 +3835,46 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 20,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Shows a large group of people performing the traditional Jingpo Manau dance in authentic attire."
+  },
+  "history": [
+   {
+    "replaced": "Xx8OsAZWvg0",
+    "with": "baNdVFjebVI",
+    "at": "2026-10-29T17:37:05Z",
+    "reason": [
+     "dance_visible",
+     "not_poster",
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "Xx8OsAZWvg0"
  },
  "malho": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T17:37:09Z",
   "hero": "lR5yewMyHkU",
   "verdict": "pass",
   "hard_fail": [],
@@ -2510,9 +3887,30 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 9
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 4,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 9,
+   "reason": "High-quality footage of dancers in traditional Portuguese folk costumes performing a Malhão."
+  },
   "history": []
  },
  "rom-kbach": {

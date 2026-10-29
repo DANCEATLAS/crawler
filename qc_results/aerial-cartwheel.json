@@ -1,0 +1,119 @@
+{
+ "slug": "aerial-cartwheel",
+ "qc_at": "2026-10-29T16:58:08Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 9.55,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Aerial Cartwheel"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "63"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "142"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Executed entirely without hand support, the aerial cartwheel relies on explosive"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "455"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1578"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 7,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 9,
+  "verdict": "reject",
+  "notes": "The profile is well-written and factually accurate according to the evidence, but it describes an acrobatic gymnastic movement (an aerial cartwheel) rather than a dance tradition or style, making it inappropriate for the Dancing Atlas."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "country",
+  "insight_concrete",
+  "judge_score=9.55",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-29T16:32:29Z"
+}

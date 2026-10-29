@@ -1,0 +1,116 @@
+{
+ "slug": "sprinkler-dance",
+ "qc_at": "2026-10-29T16:56:07Z",
+ "version": "v3.2",
+ "publish_gate": "publish",
+ "qc_score": 9.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Sprinkler dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "61"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "129"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 2024, breakdancer Rachael Gunn brought the garden sprinkler to the Paris Olym"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "465"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1787"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Australia / United Kingdom"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Solidly researched and well-supported profile of a novelty dance movement with clear instructions and specific historical references."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.6"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-29T16:30:26Z"
+}

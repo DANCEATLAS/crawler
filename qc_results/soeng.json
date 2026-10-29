@@ -1,0 +1,120 @@
+{
+ "slug": "soeng",
+ "qc_at": "2026-10-29T17:04:44Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 8.75,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Soeng"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "77"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "198"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Soeng is a vibrant, energetic folk dance from Upper Northeastern Thailand, disti"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "397"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1302"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,how_it_is_danced,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/3 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Thailand"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "codified,deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": false,
+   "detail": "the provided sources"
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 5,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "Accurate and well-supported profile based on evidence claims, though teaching and technical details are sparse due to source limitations."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "ai_tells",
+  "sections_filled",
+  "banned_phrasing",
+  "judge_score=8.75"
+ ],
+ "citation": {
+  "claims": 3,
+  "supported": 3,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-29T16:40:05Z"
+}

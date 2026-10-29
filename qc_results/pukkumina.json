@@ -1,0 +1,121 @@
+{
+ "slug": "pukkumina",
+ "qc_at": "2026-10-29T16:59:35Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 7.75,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Pukkumina (Pocomania)"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "74"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "170"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Practitioners enter a trance state called 'mayal' through circular, accelerating"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "511"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1800"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Jamaica"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Caribbean"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ceremon', 'trance', 'possession', 'spirit', 'religious', 'priest']"
+  }
+ ],
+ "judge": {
+  "accuracy": 7,
+  "respect": 9,
+  "specificity": 8,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Pukkumina (Pocomania) and Kumina are frequently treated in scholarship and by practitioners as distinct religious traditions/forms in Jamaica, rather than entirely synonymous terms as conflated in the profile."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Kumina",
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 7,
+  "verdict": "review",
+  "notes": "Good cultural depth and respect, but conflates Pukkumina/Pocomania with Kumina, which are ethnographically and historically distinct (though related) Afro-Jamaican religious complexes."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "insight_concrete",
+  "judge_score=7.75",
+  "doubts=1",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-29T16:33:55Z"
+}

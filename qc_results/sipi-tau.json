@@ -1,0 +1,117 @@
+{
+ "slug": "sipi-tau",
+ "qc_at": "2026-10-29T16:59:53Z",
+ "version": "v3.2",
+ "publish_gate": "publish",
+ "qc_score": 8.95,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Sipi Tau"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "59"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "143"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The Sipi Tau, penned by King Taufaʻahau Tupou IV in 1994, is a fierce war dance "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "352"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2097"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "13/15 rate=0.867"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Tonga"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['sacred', 'ceremon', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Profile is well-researched, historically grounded, and directly tracks the provided evidence claims regarding the Sipi Tau and its kailao origins."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=8.95",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 15,
+  "supported": 13,
+  "rate": 0.867
+ },
+ "researched_at": "2026-10-29T16:34:31Z"
+}

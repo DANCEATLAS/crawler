@@ -1,0 +1,120 @@
+{
+ "slug": "maxie-ford",
+ "qc_at": "2026-10-29T16:57:20Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 7.45,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Maxie Ford"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "82"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "141"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The professional variant of this tap step adds an extra pullback after the toe, "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "374"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "1187"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "how_it_is_danced,notable_figures,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Not specified in sources"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "2 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 4,
+  "teaching_value": 3,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 6,
+  "verdict": "reject",
+  "notes": "The subject is a specific tap dance step/break, not a dance tradition or style. While factually accurate according to the evidence, it fails the is_a_dance criterion."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "country",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=7.45",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-29T16:30:56Z"
+}

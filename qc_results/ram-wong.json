@@ -1,0 +1,120 @@
+{
+ "slug": "ram-wong",
+ "qc_at": "2026-10-29T17:04:28Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 8.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Wayang wong"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "80"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "165"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Actors perform as human embodiments of shadow puppets, enacting the Ramayana and"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "325"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1441"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "2/3 rate=0.667"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Indonesia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['temple']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Male performers use styles such as alus, gagah, kambeng, bapang, kasar, and gecul."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Strong, well-structured profile with minor citation nuance regarding character style categorizations."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "judge_score=8.6",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 3,
+  "supported": 2,
+  "rate": 0.667
+ },
+ "researched_at": "2026-10-29T16:38:38Z"
+}

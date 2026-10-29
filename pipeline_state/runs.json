@@ -759,5 +759,136 @@
   "notes": [],
   "errors": [],
   "version": "v3.2"
+ },
+ {
+  "stage": "audit",
+  "started": "2026-10-29T16:14:21Z",
+  "finished": "2026-10-29T16:14:21Z",
+  "counters": {
+   "retired_or_merged_total": 81
+  },
+  "notes": [
+   "audit: 81 entries retired/merged of 1014; judged so far 962"
+  ],
+  "errors": [],
+  "version": "v3.2"
+ },
+ {
+  "stage": "discover",
+  "started": "2026-10-29T16:14:21Z",
+  "finished": "2026-10-29T16:15:45Z",
+  "counters": {
+   "harvested": 3766,
+   "already_known": 767,
+   "dup_name": 102,
+   "dup_qid": 106,
+   "deferred": 1759,
+   "not_dance_like": 10,
+   "queued_new": 40
+  },
+  "notes": [
+   "candidate queue: 118 queued, 157 tracked"
+  ],
+  "errors": [],
+  "version": "v3.2"
+ },
+ {
+  "stage": "research",
+  "started": "2026-10-29T16:15:45Z",
+  "finished": "2026-10-29T16:40:16Z",
+  "counters": {
+   "researched_researched": 27,
+   "researched_no_sources": 3,
+   "llm_calls": 41,
+   "llm_failures": 14
+  },
+  "notes": [
+   "targets: 30 (llm enabled=True)"
+  ],
+  "errors": [],
+  "version": "v3.2"
+ },
+ {
+  "stage": "qc",
+  "started": "2026-10-29T16:40:16Z",
+  "finished": "2026-10-29T17:04:44Z",
+  "counters": {
+   "gate_publish": 10,
+   "gate_review": 9,
+   "gate_reject": 8,
+   "llm_calls": 35
+  },
+  "notes": [
+   "qc targets: 27 (judge enabled=True)"
+  ],
+  "errors": [],
+  "version": "v3.2"
+ },
+ {
+  "stage": "hero_qc",
+  "started": "2026-10-29T17:04:44Z",
+  "finished": "2026-10-29T17:37:09Z",
+  "counters": {
+   "videos_fetched": 140,
+   "verdict_pass": 48,
+   "verdict_fail": 12,
+   "evicted_for_recrawl": 5,
+   "replaced": 7,
+   "llm_calls": 87
+  },
+  "notes": [
+   "hero qc targets: 60 of 1103 heroes (vision=True)"
+  ],
+  "errors": [],
+  "version": "v3.2"
+ },
+ {
+  "stage": "build",
+  "started": "2026-10-29T17:37:09Z",
+  "finished": "2026-10-29T17:37:17Z",
+  "counters": {
+   "retired_by_audit": 81,
+   "new_rejected_hidden": 14,
+   "new_publish": 15,
+   "existing_research_rejected": 8,
+   "existing_reject": 8,
+   "existing_publish": 18,
+   "existing_review": 8,
+   "new_review_hidden": 7
+  },
+  "notes": [
+   "catalogue built: {'generated_at': '2026-10-29T17:37:17Z', 'count': 948, 'with_hero': 836, 'hero_qc_pass': 69, 'deep_profiles': 33, 'with_albums': 3, 'with_images': 14, 'with_tutorials': 64, 'content_ready': 562, 'new_from_pipeline': 15, 'retired': 81, 'counters': {'retired_by_audit': 81, 'new_rejected_hidden': 14, 'new_publish': 15, 'existing_research_rejected': 8, 'existing_reject': 8, 'existing_publish': 18, 'existing_review': 8, 'new_review_hidden': 7}, 'pipeline': 'v3.2'}"
+  ],
+  "errors": [],
+  "version": "v3.2"
+ },
+ {
+  "stage": "sync",
+  "started": "2026-10-29T17:37:17Z",
+  "finished": "2026-10-29T17:37:52Z",
+  "counters": {
+   "skipped_reject_new": 9,
+   "inserted_publish": 10,
+   "inserted_review": 9
+  },
+  "notes": [
+   "dances columns known: 32; pipeline columns present: []",
+   "sync targets: 28"
+  ],
+  "errors": [
+   "aliases urban-kiz: HTTP 500 https://maojpsywvbksrwkrxmjx.supabase.co/rest/v1/dance_aliases?on_conflict=dance_id,alias :: {\"code\":\"21000\",\"details\":null,\"hint\":\"Ensure that no rows proposed for insertion within the same command have duplicate constrained values.\",\"message\":\"ON CONF"
+  ],
+  "version": "v3.2"
+ },
+ {
+  "stage": "report",
+  "started": "2026-10-29T17:37:52Z",
+  "finished": "2026-10-29T17:37:53Z",
+  "counters": {
+   "review_items": 37
+  },
+  "notes": [],
+  "errors": [],
+  "version": "v3.2"
  }
 ]

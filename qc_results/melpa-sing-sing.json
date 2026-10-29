@@ -1,0 +1,121 @@
+{
+ "slug": "melpa-sing-sing",
+ "qc_at": "2026-10-29T17:03:30Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 6.35,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Melpa sing-sing"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "42"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "162"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "At the Mount Hagen Cultural Show, Melpa sing-sing groups wear elaborate feathere"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "449"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1354"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,costume_and_setting,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/5 rate=0.6"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Papua New Guinea"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 7,
+  "respect": 9,
+  "specificity": 6,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The profile treats 'sing-sing' as a specific named dance called 'Melpa sing-sing', whereas 'sing-sing' is a general Pidgin term for a tribal gathering or festival featuring song and dance in Papua New Guinea."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 5,
+  "verdict": "reject",
+  "notes": "Sing-sing is a generic cultural gathering/festival rather than a distinct individual dance tradition. Furthermore, teaching and technique fields are entirely empty due to lack of sources, making it unsuitable as a dance profile."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "judge_score=6.35",
+  "doubts=1",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 3,
+  "rate": 0.6
+ },
+ "researched_at": "2026-10-29T16:38:15Z"
+}

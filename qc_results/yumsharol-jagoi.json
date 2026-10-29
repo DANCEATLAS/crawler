@@ -1,0 +1,119 @@
+{
+ "slug": "yumsharol-jagoi",
+ "qc_at": "2026-10-29T16:54:07Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 8.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Yumsharol Jagoi"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "84"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "139"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Dancers use 'Yumsharol Khutthek'—precise hand gestures that mimic the physical a"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "437"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "867"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,how_it_is_danced,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "4/4 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'god', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 4,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "Accurate and respectful profile based strictly on evidence claims. Teaching value is low due to sparse source details on footwork/rhythm, but appropriately reflects available data."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=8.85",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 4,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-29T16:27:17Z"
+}

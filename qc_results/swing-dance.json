@@ -1,0 +1,116 @@
+{
+ "slug": "swing-dance",
+ "qc_at": "2026-10-29T17:00:32Z",
+ "version": "v3.2",
+ "publish_gate": "publish",
+ "qc_score": 9.5,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Swing dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "67"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "180"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Lindy Hop, born in Harlem in the early 1930s, remains the most iconic swing danc"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "509"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2567"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "12/13 rate=0.923"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United States"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Extremely thorough, well-structured, and accurate overview of the broad family of swing dances with strong historical grounding."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.5"
+ ],
+ "citation": {
+  "claims": 13,
+  "supported": 12,
+  "rate": 0.923
+ },
+ "researched_at": "2026-10-29T16:35:52Z"
+}
