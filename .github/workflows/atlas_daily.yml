@@ -53,7 +53,9 @@ jobs:
           RESEARCH_ENRICH: ${{ github.event.inputs.research_enrich || '15' }}
           HERO_QC_BUDGET: ${{ github.event.inputs.hero_qc_budget || '60' }}
           DISCOVER_MAX_NEW: ${{ github.event.inputs.discover_max_new || '40' }}
-          AUDIT_LLM_BUDGET: "300"
+          AUDIT_LLM_BUDGET: "150"
+          # OpenAI is the fallback when the free Gemini quota is gone; mini models keep a prepaid credit lasting months
+          OPENAI_STRONG_MODELS: "gpt-5-mini,gpt-4.1-mini,gpt-4o-mini"
           APP_CATALOG_URL: "https://id-preview--f79f3666-564d-4799-befe-8b48d1f0a007.lovable.app/dances.app.json"
         run: |
           STAGE="${{ github.event.inputs.stage || 'daily' }}"
