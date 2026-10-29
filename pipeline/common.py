@@ -325,7 +325,14 @@ class LLM:
                 cands.append((n, tier, preview, self._ver(low)))
             order = {"pro": 0, "flash": 1, "lite": 2} if strong else {"flash": 0, "lite": 1, "pro": 2}
             cands.sort(key=lambda c: (order[c[1]], -c[3][0], -c[3][1], c[2], len(c[0])))  # tier, newest version, stable before preview
-            ranked = [c[0] for c in cands]
+            # at most two models per tier, so a strong call still reaches a flash model when every pro quota is gone
+            # (the free tier gives pro previews almost nothing per day) and a fast call keeps a lite model as its last resort
+            per_tier = {}
+            ranked = []
+            for c in cands:
+                per_tier[c[1]] = per_tier.get(c[1], 0) + 1
+                if per_tier[c[1]] <= 2:
+                    ranked.append(c[0])
             if alias in avail:  # the rolling alias goes second: newest concrete model first, alias as the safety net
                 ranked.insert(1, alias)
             out += ranked
@@ -335,7 +342,7 @@ class LLM:
         for m in out:
             if m not in seen and m not in self.dead:
                 seen.add(m); uniq.append(m)
-        return uniq[:4]
+        return uniq[:6]
 
     def openai_available(self):
         if self._openai_avail is None:
