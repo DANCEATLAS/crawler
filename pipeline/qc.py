@@ -23,7 +23,16 @@ MIN_LONG = 1200         # characters of profile_long
 
 RUBRIC = """You are the fact-checker and cultural reviewer of the Dancing Atlas. Review the profile against the evidence claims.
 Score 1-10 on each: accuracy (every statement supported by the claims/quotes; penalise anything not traceable), respect (no exoticising, stereotyping or appropriation framing; sacred/restricted practices handled correctly), specificity (concrete people, places, dates, objects; no filler), teaching_value (the how_it_is_danced and teaching fields could guide a beginner).
-Also return is_a_dance (bool: the subject is a dance tradition or style, not a country, show, group, person, song or category) and flags: factual_doubt (list of sentences you believe unsupported or wrong), harm_or_disrespect (list), duplicate_suspicion (another dance name this seems to be the same as, or null), insight_ok (bool: the insight is one concrete hook, not abstract), album_doubt (list of album titles from ALBUMS that are not credibly central recordings for this dance's music — e.g. a pop album that merely mentions the dance), overall (1-10), verdict ("publish" | "review" | "reject"), notes (<= 60 words)."""
+Also return is_a_dance (bool: the subject is a dance tradition or style, not a country, show, group, person, song or category), factual_doubt (list of sentences you believe unsupported or wrong), harm_or_disrespect (list), duplicate_suspicion (another dance name this seems to be the same as, or null), insight_ok (bool: the insight is one concrete hook, not abstract), album_doubt (list of album titles from ALBUMS that are not credibly central recordings of this dance's own music — a pop, film or fusion album that merely features or mentions the dance belongs here), overall (1-10), verdict ("publish" | "review" | "reject"), notes (<= 60 words).
+Return ONE FLAT JSON object with exactly these keys at the top level (no nested "flags" object): accuracy, respect, specificity, teaching_value, is_a_dance, factual_doubt, harm_or_disrespect, duplicate_suspicion, insight_ok, album_doubt, overall, verdict, notes."""
+
+def flat_judge(jd):
+    """Older judge outputs nested the flag fields under "flags"; read them from either place."""
+    if isinstance(jd, dict) and isinstance(jd.get("flags"), dict):
+        jd = dict(jd)
+        for k, v in jd.pop("flags").items():
+            jd.setdefault(k, v)
+    return jd
 
 def _gate(name, ok, detail=""):
     return {"gate": name, "ok": bool(ok), "detail": str(detail)[:200]}
@@ -79,9 +88,10 @@ def judge(rec, llm):
     user = ("PROFILE JSON:\n" + json.dumps({k: p.get(k) for k in ("name", "tagline", "insight", "profile", "profile_long", "sections", "is_sacred", "sacred_note", "teaching", "country", "era")}, ensure_ascii=False)[:14000]
             + "\n\nALBUMS (verified to exist in MusicBrainz; judge their relevance):\n" + json.dumps([{"title": a.get("title"), "artist": a.get("artist"), "year": a.get("year")} for a in (rec.get("albums") or [])], ensure_ascii=False)[:1500]
             + "\n\nEVIDENCE CLAIMS (quote verified mechanically where supported=true):\n" + json.dumps(claims, ensure_ascii=False)[:8000])
-    return llm.json(RUBRIC, user, strong=False, temperature=0.1, max_tokens=1500)
+    return flat_judge(llm.json(RUBRIC, user, strong=False, temperature=0.1, max_tokens=1500))
 
 def decide(gates, jd, dup, sacred):
+    jd = flat_judge(jd)
     hard_fail = [g["gate"] for g in gates if not g["ok"] and g["gate"] in ("has_name", "citations", "sources", "country", "ai_tells", "not_duplicate")]
     soft_fail = [g["gate"] for g in gates if not g["ok"] and g["gate"] not in hard_fail]
     score = 0.0
@@ -111,7 +121,7 @@ def qc_one(rec, idx, catalog_by_slug, llm):
         # the model is unavailable (quota, outage): an earlier judge reading of the SAME research is still valid, reuse it
         prev = jload(os.path.join(QC_DIR, rec["slug"] + ".json"))
         if prev and prev.get("judge") and prev.get("researched_at") == rec.get("researched_at"):
-            jd, reused = prev["judge"], True
+            jd, reused = flat_judge(prev["judge"]), True
     gate, score, reasons = decide(gates, jd, dup, sacred)
     out = {"slug": rec["slug"], "qc_at": now_iso(), "version": PIPELINE_VERSION, "publish_gate": gate, "qc_score": score,
            "gates": gates, "judge": jd, "judge_reused": reused, "duplicate_of": dup, "is_sacred": sacred, "reasons": reasons,
