@@ -140,7 +140,9 @@ def run(only=None, max_n=200):
             continue
         try:
             out = qc_one(rec, idx, by_slug, llm)
-            qindex[slug] = {"qc_at": out["qc_at"], "publish_gate": out["publish_gate"], "qc_score": out["qc_score"], "researched_at": rec.get("researched_at"), "version": PIPELINE_VERSION, "reasons": out["reasons"][:8]}
+            # a record judged while the model was unavailable (quota, outage) is not locked in: it is re-judged on the next run
+            ver = PIPELINE_VERSION if (out.get("judge") or not llm.enabled) else "nojudge"
+            qindex[slug] = {"qc_at": out["qc_at"], "publish_gate": out["publish_gate"], "qc_score": out["qc_score"], "researched_at": rec.get("researched_at"), "version": ver, "reasons": out["reasons"][:8]}
             rep.inc("gate_" + out["publish_gate"])
             log(f"QC {slug}: {out['publish_gate']} score={out['qc_score']} reasons={out['reasons']}")
         except Exception as e:

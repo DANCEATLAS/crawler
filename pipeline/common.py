@@ -7,7 +7,7 @@ read from the environment only; nothing is ever written to disk.
 import os, re, sys, json, time, unicodedata, urllib.parse, urllib.request, urllib.error, base64, hashlib
 from datetime import datetime, timezone
 
-PIPELINE_VERSION = "v3.0"
+PIPELINE_VERSION = "v3.1"   # bump when QC gates change: every researched record is then re-judged with the new gates
 UA = "DancingAtlasPipeline/3.0 (https://github.com/DANCEATLAS/crawler; research pipeline)"
 STATE_DIR = os.environ.get("PIPELINE_STATE_DIR", "pipeline_state")
 os.makedirs(STATE_DIR, exist_ok=True)
