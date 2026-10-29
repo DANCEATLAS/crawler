@@ -1,9 +1,9 @@
 {
  "slug": "the-freddie",
- "qc_at": "2026-10-29T01:45:00Z",
- "version": "v3.1",
+ "qc_at": "2026-10-29T02:00:25Z",
+ "version": "v3.2",
  "publish_gate": "publish",
- "qc_score": 10.0,
+ "qc_score": 9.65,
  "gates": [
   {
    "gate": "has_name",
@@ -87,26 +87,25 @@
   }
  ],
  "judge": {
-  "accuracy": 10,
+  "accuracy": 9,
   "respect": 10,
   "specificity": 10,
   "teaching_value": 10,
   "is_a_dance": true,
-  "flags": {
-   "factual_doubt": [],
-   "harm_or_disrespect": [],
-   "duplicate_suspicion": null,
-   "insight_ok": true,
-   "album_doubt": []
-  },
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
   "overall": 10,
   "verdict": "publish",
-  "notes": "Thoroughly researched and accurately reflects the provided evidence claims and source material without hallucination."
+  "notes": "The profile is well-researched, accurate, and adheres to the Dancing Atlas format. It correctly identifies the dance as a 1960s novelty fad and provides clear, actionable instructions for the movements."
  },
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "judge_score=10.0"
+  "judge_score=9.65"
  ],
  "citation": {
   "claims": 5,

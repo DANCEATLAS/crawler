@@ -1,9 +1,9 @@
 {
  "slug": "tamena-ibuga",
- "qc_at": "2026-10-29T01:45:01Z",
- "version": "v3.1",
+ "qc_at": "2026-10-29T02:00:32Z",
+ "version": "v3.2",
  "publish_gate": "review",
- "qc_score": 8.0,
+ "qc_score": 8.4,
  "gates": [
   {
    "gate": "has_name",
@@ -89,26 +89,25 @@
  "judge": {
   "accuracy": 9,
   "respect": 10,
-  "specificity": 7,
-  "teaching_value": 4,
+  "specificity": 8,
+  "teaching_value": 5,
   "is_a_dance": true,
-  "flags": {
-   "factual_doubt": [],
-   "harm_or_disrespect": [],
-   "duplicate_suspicion": null,
-   "insight_ok": true,
-   "album_doubt": []
-  },
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
   "overall": 8,
-  "verdict": "review",
-  "notes": "Good cultural context and well-supported profile, but the 'how_it_is_danced' and 'teaching' sections lack specific technical details for beginners because the source material does not detail footwork patterns."
+  "verdict": "publish",
+  "notes": "The profile is well-researched and respectful. While the 'how_it_is_danced' section lacks technical detail, this is accurately attributed to the nature of the available sources. The origin story is clearly presented as oral tradition."
  },
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
   "insight_concrete",
   "sacred_handled",
-  "judge_score=8.0",
+  "judge_score=8.4",
   "sacred"
  ],
  "citation": {

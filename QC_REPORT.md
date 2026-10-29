@@ -1,26 +1,24 @@
 # QC review queue
-_Generated 2026-10-29T01:46:46Z_
+_Generated 2026-10-29T02:04:28Z_
 
 | slug | gate | score | reasons | duplicate of |
 |---|---|---|---|---|
-| raffaella | reject | 9.55 | sacred_handled, judge_score=9.55, not_a_dance, sacred |  |
-| the-maid-of-cashmere | reject | 8.95 | banned_phrasing, sacred_handled, judge_score=8.95, not_a_dance, sacred |  |
-| fwemba | reject | 8.7 | ai_tells, sacred_handled, judge_score=8.7, sacred |  |
-| thougal-jagoi | reject | 8.7 | ai_tells, insight_concrete, judge_score=8.7, sacred |  |
-| hotty-toddy | reject | 8.65 | judge_score=8.65, not_a_dance |  |
+| the-maid-of-cashmere | reject | 9.3 | banned_phrasing, sacred_handled, judge_score=9.3, not_a_dance, sacred |  |
+| thougal-jagoi | reject | 9.3 | ai_tells, insight_concrete, judge_score=9.3, sacred |  |
+| raffaella | reject | 8.8 | sacred_handled, judge_score=8.8, not_a_dance, sacred |  |
+| party-of-the-people | reject | 8.65 | citations, ai_tells, profile_long_len, sections_filled, judge_score=8.65, not_a_dance |  |
+| hotty-toddy | reject | 8.4 | judge_score=8.4, not_a_dance |  |
+| fwemba | reject | 8.25 | ai_tells, sacred_handled, judge_score=8.25, sacred |  |
 | akiriket | reject | 7.1 | citations, profile_long_len, judge_score=7.1, not_a_dance, sacred |  |
-| umushagiriro | reject | 4.3 | citations, profile_long_len, sections_filled, judge_score=4.3 |  |
-| party-of-the-people | reject | 3.25 | citations, ai_tells, profile_long_len, sections_filled, judge_score=3.25, not_a_dance |  |
-| alardah-alnajdiyah | review | 10.0 | insight_concrete, sacred_handled, judge_score=10.0, sacred |  |
+| umushagiriro | reject | 4.05 | citations, profile_long_len, sections_filled, judge_score=4.05, doubts=2 |  |
 | hula-kahiko | review | 10.0 | insight_concrete, banned_phrasing, judge_score=10.0, sacred |  |
-| sarai-dance | review | 9.3 | judge_score=9.3, sacred |  |
-| myel-lyel | review | 9.3 | citations, insight_concrete, judge_score=9.3, sacred |  |
-| tappa-dance | review | 9.05 | citations, insight_concrete, profile_long_len, judge_score=9.05 |  |
-| tamena-ibuga | review | 8.0 | insight_concrete, sacred_handled, judge_score=8.0, sacred |  |
+| alardah-alnajdiyah | review | 9.85 | insight_concrete, sacred_handled, judge_score=9.85, sacred |  |
+| myel-lyel | review | 9.45 | citations, insight_concrete, judge_score=9.45, sacred |  |
+| tamena-ibuga | review | 8.4 | insight_concrete, sacred_handled, judge_score=8.4, sacred |  |
 | nauru-frigate-bird-dance | review | 6.35 | insight_concrete, profile_long_len, sections_filled, judge_score=6.35 |  |
 | baalan-dance | review | 0.0 | no_judge, sacred |  |
 
-## Audit: possible duplicates kept live, need a human (42)
+## Audit: possible duplicates kept live, need a human (43)
 
 | slug | other | reason |
 |---|---|---|
@@ -43,6 +41,7 @@ _Generated 2026-10-29T01:46:46Z_
 | cong-chieng |  | judge (needs a human for this category): music_genre_only — Explicitly stated as a gong-music cultural space,  |
 | gnawa |  | judge (needs a human for this category): music_genre_only — Moroccan religious musical tradition with accompan |
 | halparke | govend | shares wikidata_qid with govend but names differ (0.14) — check the data |
+| highlife |  | judge (needs a human for this category): music_genre_only — Primarily a West African popular music genre rathe |
 | hutsul |  | judge (needs a human for this category): other — Refers to an East Slavic ethnic group, not a dance. |
 | inu-yupiaq |  | judge (over daily retire cap): group_or_company — This is a specific dance group, not a dance style. |
 | jota-leonesa | jota | shares wikipedia_url with jota but names differ (0.50) — check the data |
@@ -67,7 +66,7 @@ _Generated 2026-10-29T01:46:46Z_
 | world-dance-council |  | judge (over daily retire cap): group_or_company — This is an international governing body for dance, not a dan |
 | xs-latin |  | judge (over daily retire cap): group_or_company — A specific formation dance team. |
 
-## Retired or merged by the catalogue audit (78)
+## Retired or merged by the catalogue audit (79)
 
 | slug | decision | into | reason |
 |---|---|---|---|
@@ -110,6 +109,7 @@ _Generated 2026-10-29T01:46:46Z_
 | goleta-cultural-school | retire |  | judge: place — A multipurpose venue/building. |
 | greece | retire |  | name is a country |
 | haiti | retire |  | research notes: not a dance |
+| hava-nagila | retire |  | judge: song_or_album — Hebrew celebration song, though commonly danced to. |
 | house-dance-international | retire |  | judge: festival — An annual street dance festival based in New York City. |
 | il-canto-dei-sanfedisti | retire |  | judge: song_or_album — Italian patriotic hymn and folk song. |
 | international-latin-american-dance-champ | retire |  | judge: festival — Dance competition event, not a specific dance style. |

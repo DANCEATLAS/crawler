@@ -1,9 +1,9 @@
 {
  "slug": "fwemba",
- "qc_at": "2026-10-29T01:45:10Z",
- "version": "v3.1",
+ "qc_at": "2026-10-29T02:00:41Z",
+ "version": "v3.2",
  "publish_gate": "reject",
- "qc_score": 8.7,
+ "qc_score": 8.25,
  "gates": [
   {
    "gate": "has_name",
@@ -87,28 +87,27 @@
   }
  ],
  "judge": {
-  "accuracy": 10,
+  "accuracy": 9,
   "respect": 10,
-  "specificity": 9,
-  "teaching_value": 3,
+  "specificity": 8,
+  "teaching_value": 4,
   "is_a_dance": true,
-  "flags": {
-   "factual_doubt": [],
-   "harm_or_disrespect": [],
-   "duplicate_suspicion": null,
-   "insight_ok": true,
-   "album_doubt": []
-  },
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
   "overall": 8,
   "verdict": "publish",
-  "notes": "Well-sourced profile based on the provided evidence claims, accurately capturing the history and cultural context of Fwemba. Teaching value is low due to a lack of source detail on steps."
+  "notes": "The profile is well-researched and respectful. It accurately contextualizes Fwemba within the Tumbuka cultural landscape. While the 'teaching' section is sparse due to a lack of technical documentation in the provided evidence, the historical and cultural framing is excellent and highly specific."
  },
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
   "ai_tells",
   "sacred_handled",
-  "judge_score=8.7",
+  "judge_score=8.25",
   "sacred"
  ],
  "citation": {

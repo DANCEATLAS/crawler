@@ -1,9 +1,9 @@
 {
  "slug": "thougal-jagoi",
- "qc_at": "2026-10-29T01:45:18Z",
- "version": "v3.1",
+ "qc_at": "2026-10-29T02:00:58Z",
+ "version": "v3.2",
  "publish_gate": "reject",
- "qc_score": 8.7,
+ "qc_score": 9.3,
  "gates": [
   {
    "gate": "has_name",
@@ -87,28 +87,27 @@
   }
  ],
  "judge": {
-  "accuracy": 9,
+  "accuracy": 10,
   "respect": 10,
-  "specificity": 8,
+  "specificity": 9,
   "teaching_value": 7,
   "is_a_dance": true,
-  "flags": {
-   "factual_doubt": [],
-   "harm_or_disrespect": [],
-   "duplicate_suspicion": null,
-   "insight_ok": true,
-   "album_doubt": []
-  },
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
   "overall": 9,
   "verdict": "publish",
-  "notes": "The profile is well-researched and adheres to the provided evidence. It treats the sacred nature of the dance with appropriate gravity. The teaching section is limited by the lack of technical movement descriptions in the source, but it accurately reflects the ritual requirements."
+  "notes": "The profile is well-researched and adheres strictly to the provided evidence. It handles the sacred nature of the dance with appropriate gravity. While technical movement details are sparse due to the ritual nature of the dance, the profile provides a clear, respectful, and accurate overview."
  },
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
   "ai_tells",
   "insight_concrete",
-  "judge_score=8.7",
+  "judge_score=9.3",
   "sacred"
  ],
  "citation": {

@@ -1,9 +1,9 @@
 {
  "slug": "the-maid-of-cashmere",
- "qc_at": "2026-10-29T01:45:09Z",
- "version": "v3.1",
+ "qc_at": "2026-10-29T02:00:40Z",
+ "version": "v3.2",
  "publish_gate": "reject",
- "qc_score": 8.95,
+ "qc_score": 9.3,
  "gates": [
   {
    "gate": "has_name",
@@ -87,28 +87,27 @@
   }
  ],
  "judge": {
-  "accuracy": 9,
+  "accuracy": 10,
   "respect": 9,
   "specificity": 10,
   "teaching_value": 7,
   "is_a_dance": false,
-  "flags": {
-   "factual_doubt": [],
-   "harm_or_disrespect": [],
-   "duplicate_suspicion": "Le Dieu et la Bayadère",
-   "insight_ok": true,
-   "album_doubt": []
-  },
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Le Dieu et la Bayadère",
+  "insight_ok": true,
+  "album_doubt": [],
   "overall": 8,
   "verdict": "publish",
-  "notes": "The profile is historically accurate and well-researched. However, it is classified as a theatrical production/opéra-ballet rather than a standalone dance tradition or style, which impacts the 'is_a_dance' classification. The teaching section is descriptive of the historical performance rather than a practical guide for modern learners."
+  "notes": "The subject is an opéra-ballet production, not a dance tradition itself, but it is historically significant. The profile is highly accurate and well-researched. The 'is_a_dance' flag is false because this is a specific theatrical work, not a genre or folk tradition."
  },
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
   "banned_phrasing",
   "sacred_handled",
-  "judge_score=8.95",
+  "judge_score=9.3",
   "not_a_dance",
   "sacred"
  ],

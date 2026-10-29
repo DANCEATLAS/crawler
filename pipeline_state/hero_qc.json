@@ -38,7 +38,7 @@
   "history": []
  },
  "kuduro": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T02:01:40Z",
   "hero": "yRl4hJopuwU",
   "verdict": "pass",
   "hard_fail": [],
@@ -51,13 +51,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Group of dancers in a studio doing a Kuduro routine."
+  },
   "history": []
  },
  "puxada-de-rede": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T02:01:44Z",
   "hero": "-B8ACXfxhE0",
   "verdict": "pass",
   "hard_fail": [],
@@ -72,9 +93,30 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 12,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Group performing Puxada de Rede on a stage with traditional attire and a net."
+  },
   "history": []
  },
  "agbadza": {
@@ -118,10 +160,14 @@
   "history": []
  },
  "beni": {
-  "checked_at": "",
-  "hero": "m-hOI2QDbhU",
+  "checked_at": "2026-10-29T02:03:47Z",
+  "hero": "JadU6Buhu6g",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "dance_visible",
+   "not_poster",
+   "looks_like_dance"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -131,10 +177,43 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 5
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "unsure",
+   "quality": 5,
+   "reason": "Behind-the-scenes footage of people dancing on a stage under colorful lighting."
+  },
+  "history": [
+   {
+    "replaced": "m-hOI2QDbhU",
+    "with": "JadU6Buhu6g",
+    "at": "2026-10-29T02:03:57Z",
+    "reason": [
+     "dance_visible",
+     "not_poster",
+     "looks_like_dance"
+    ]
+   }
+  ],
+  "replaced_from": "m-hOI2QDbhU"
  },
  "coladeira": {
   "checked_at": "",

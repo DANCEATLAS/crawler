@@ -1,9 +1,9 @@
 {
  "slug": "umushagiriro",
- "qc_at": "2026-10-29T01:44:47Z",
- "version": "v3.1",
+ "qc_at": "2026-10-29T02:00:03Z",
+ "version": "v3.2",
  "publish_gate": "reject",
- "qc_score": 4.3,
+ "qc_score": 4.05,
  "gates": [
   {
    "gate": "has_name",
@@ -88,30 +88,31 @@
  ],
  "judge": {
   "accuracy": 4,
-  "respect": 9,
+  "respect": 8,
   "specificity": 2,
   "teaching_value": 1,
   "is_a_dance": true,
-  "flags": {
-   "factual_doubt": [
-    "Umushagiriro is recognized alongside Intore as a distinct traditional dance form of Rwanda."
-   ],
-   "harm_or_disrespect": [],
-   "duplicate_suspicion": null,
-   "insight_ok": false,
-   "album_doubt": []
-  },
+  "factual_doubt": [
+   "Umushagiriro is listed alongside Intore as a recognized pillar of Rwandan dance art based solely on a minimal list of names.",
+   "Specific details regarding its choreography, performance context, and musical accompaniment remain sparsely documented in the provided source records."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [],
   "overall": 3,
-  "verdict": "review",
-  "notes": "The profile relies heavily on filler because the evidence text is extremely sparse (just a bare name list). It needs more factual data to be publishable."
+  "verdict": "reject",
+  "notes": "The profile is based on an extremely sparse evidence claim that only lists the name 'Umushagiriro' alongside 'Intore'. Virtually all sections lack substantive information, resulting in a low score for specificity and teaching value."
  },
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "citations",
   "profile_long_len",
   "sections_filled",
-  "judge_score=4.3"
+  "judge_score=4.05",
+  "doubts=2"
  ],
  "citation": {
   "claims": 1,

@@ -1,9 +1,9 @@
 {
  "slug": "sarai-dance",
- "qc_at": "2026-10-28T06:35:46Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 9.3,
+ "qc_at": "2026-10-29T02:00:01Z",
+ "version": "v3.2",
+ "publish_gate": "publish",
+ "qc_score": 9.7,
  "gates": [
   {
    "gate": "has_name",
@@ -89,23 +89,23 @@
  "judge": {
   "accuracy": 10,
   "respect": 10,
-  "specificity": 9,
-  "teaching_value": 7,
+  "specificity": 10,
+  "teaching_value": 8,
   "is_a_dance": true,
-  "flags": {
-   "factual_doubt": [],
-   "harm_or_disrespect": [],
-   "duplicate_suspicion": null,
-   "insight_ok": true
-  },
-  "overall": 9,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 10,
   "verdict": "publish",
-  "notes": "The profile is highly accurate and aligns perfectly with the evidence claims. It provides excellent geographical specificity (Gulmi, Arghakhanchi) and cultural context (Dashain, Panchebaja). The teaching value is good for a folk tradition, though naturally limited by the safety requirements of handling real weapons."
+  "notes": "Extremely well-documented, specific, and culturally accurate profile of the Nepalese Sarai dance."
  },
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "judge_score=9.3",
+  "judge_score=9.7",
   "sacred"
  ],
  "citation": {

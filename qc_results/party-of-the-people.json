@@ -1,9 +1,9 @@
 {
  "slug": "party-of-the-people",
- "qc_at": "2026-10-29T01:44:54Z",
- "version": "v3.1",
+ "qc_at": "2026-10-29T02:00:14Z",
+ "version": "v3.2",
  "publish_gate": "reject",
- "qc_score": 3.25,
+ "qc_score": 8.65,
  "gates": [
   {
    "gate": "has_name",
@@ -87,22 +87,21 @@
   }
  ],
  "judge": {
-  "accuracy": 1,
+  "accuracy": 10,
   "respect": 10,
-  "specificity": 1,
+  "specificity": 10,
   "teaching_value": 1,
   "is_a_dance": false,
-  "flags": {
-   "factual_doubt": [],
-   "harm_or_disrespect": [],
-   "duplicate_suspicion": null,
-   "insight_ok": false,
-   "album_doubt": []
-  },
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
   "overall": 1,
   "verdict": "reject",
-  "notes": "The subject is a political party, not a dance. The profile correctly identifies this lack of information, but the entry must be rejected as it is not a dance tradition."
+  "notes": "The subject is a political party, not a dance. The profile correctly identifies this discrepancy based on the evidence claims, but the entry must be rejected as it is not a dance tradition."
  },
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
@@ -110,7 +109,7 @@
   "ai_tells",
   "profile_long_len",
   "sections_filled",
-  "judge_score=3.25",
+  "judge_score=8.65",
   "not_a_dance"
  ],
  "citation": {

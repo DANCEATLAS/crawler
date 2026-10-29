@@ -1,9 +1,9 @@
 {
  "slug": "kapa-haka",
- "qc_at": "2026-10-29T01:45:28Z",
- "version": "v3.1",
+ "qc_at": "2026-10-29T02:01:06Z",
+ "version": "v3.2",
  "publish_gate": "publish",
- "qc_score": 9.5,
+ "qc_score": 9.35,
  "gates": [
   {
    "gate": "has_name",
@@ -90,23 +90,22 @@
   "accuracy": 9,
   "respect": 10,
   "specificity": 10,
-  "teaching_value": 9,
+  "teaching_value": 8,
   "is_a_dance": true,
-  "flags": {
-   "factual_doubt": [],
-   "harm_or_disrespect": [],
-   "duplicate_suspicion": null,
-   "insight_ok": true,
-   "album_doubt": []
-  },
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
   "overall": 9,
   "verdict": "publish",
-  "notes": "The profile is highly accurate and respectful. It correctly identifies Kapa Haka as a complex performing arts suite rather than a single dance. The cultural context is handled with appropriate care regarding its sacred elements and community significance."
+  "notes": "The profile is highly accurate and respectful. It correctly identifies Kapa Haka as a complex performing arts suite rather than a single dance. The inclusion of the sacred nature of mōteatea and the cultural significance of Te Matatini provides excellent context. The teaching section is practical for a general overview."
  },
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "judge_score=9.5",
+  "judge_score=9.35",
   "sacred"
  ],
  "citation": {
