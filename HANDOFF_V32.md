@@ -1,4 +1,4 @@
-# DANCING ATLAS — HANDOFF V32 (28 Oct 2026)
+# DANCING ATLAS — HANDOFF V32 (29 Oct 2026)
 *(delta on V31: the content pipeline v3 — growth, depth and quality control as a daily, self-running system; the website reads the published catalogue. First real runs done; what they showed; what is still the owner's call.)*
 
 ## What changed
@@ -17,6 +17,12 @@
 - Hero QC: 47 videos checked, 15 pass, 5 fail, 3 replaced by a better challenger, 2 evicted for re-crawl.
 - Build + sync: `public/catalog/` published (1,014 → 947 live after audit), 9 new dances inserted into Supabase with `publish_gate = review`.
 
+## Runs #6–#8 (28–29 Oct) and what they fixed
+- #6 (first scheduled run; GitHub fired the 09:20 UTC cron almost seven hours late — that happens, the run is idempotent so it does not matter): 22 more profiles researched, but still 0 published under the old gates and 33 of 55 model calls lost to free-tier 429s.
+- #7 (recalibrated gates, v3.1): **17 profiles published** (hula ʻauana 10.0, zonaradiko, kailao, jatjatin, mbende-jerusarema, marchas populares, al-razfa, veerabhadra, kapa haka, luddi, taualuga, xibelani, country swing, bruckins, fa'ataupati, matachines, the Freddie), 8 review, 8 reject (raffaella, hotty-toddy, akiriket … not dances). `public/catalog/profiles_v2.json` carries their sections, teaching steps, verified claims and licensed images; the preview site shows "Catalogue updated".
+- Fixed after #6/#7: free-tier 429s are now read by quota type (per-minute → wait once and retry the same model; per-day → retire that model for the run, the next one has its own quota); a hero that passed without the vision check is re-queued instead of counting as checked for 120 days; a QC pass while the judge is unavailable reuses the earlier judge reading of the same research instead of carrying an old verdict; the judge's flag fields (harm, duplicate, insight, album doubt) were nested under "flags" by the model and silently ignored — flattened on read, rubric demands a flat object, every record re-judged (v3.2).
+- #8 (v3.2): all 34 researched records re-decided with the flags honoured — **20 published**, 6 review, 8 rejected; Elvis's *Blue Hawaii* dropped from hula ʻauana by the album check. Catalogue live at 941 dances, 20 with deep profiles. Still open: the research composer's pro-model quota — fixed right after (#8) by letting strong calls fall through to flash models.
+
 ## What the first pass taught the audit (fixed)
 - The judge retired three real dances it misread as something else: *sabar* ("instrument"), *khaleegi* ("other"), *disco* ("music genre"). Now: only country / place / TV show / company / person / song / festival / category-page verdicts may retire an entry (≤25 per run); music-genre, instrument and "other" verdicts go to `QC_REPORT.md` for a human, and the earlier ones are reopened automatically. `audit_overrides.json` pins the decisions already taken by hand (sabar, khaleegi, disco, reggaeton, gurewol, armenian-dance, pontic-greek-folk-dance kept; fado, muziki-wa-dansi and five non-dances retired).
 - A merge could point at an entry the judge had retired (armenian-line-dance → armenian-dance), hiding both; and two rules could merge A→B and B→A. Merges now always end at a live entry, cycles keep the more complete entry, and the judge never retires a merge target.
@@ -26,8 +32,8 @@
 08:15 crawl → 08:45 push_videos → 08:50 push_tutorials → 08:55 push_viral → 09:20 atlas_daily
 atlas_daily: bootstrap → audit → discover → research → qc → hero_qc → build → sync → report → commit
 ```
-Budgets per day (workflow inputs): research 15 new + 15 deepened, hero QC 60 videos, discovery 40 candidates, audit 300 judged.
-At that pace the rest of the catalogue is audited in ~3 days, every hero is checked in ~17 days, and every existing profile is deepened once in ~70 days while new dances arrive continuously.
+Budgets per day (workflow inputs): research 15 new + 15 deepened, hero QC 60 videos, discovery 40 candidates, audit 150 judged.
+At that pace the rest of the catalogue is audited in ~2 days, every hero is checked in ~17 days, and every existing profile is deepened once in ~70 days while new dances arrive continuously.
 
 ## Supabase
 - `dances` holds 624 rows (615 + the 9 new ones); the app ships 1,014. `seed_catalog` workflow = fill-only seed of all app dances (never overwrites values already there) — run it once to align.
@@ -35,7 +41,7 @@ At that pace the rest of the catalogue is audited in ~3 days, every hero is chec
 - `schema_dump` workflow prints tables/columns/counts to the run log (no secrets).
 
 ## Needs the owner (nothing else blocks autonomy)
-1. **Model quota.** `OPENAI_API_KEY` is set but empty, so everything runs on the Gemini key, which is on the free tier: run #5 hit HTTP 429 part-way (4 profiles and 3 judge calls failed and are retried next day). Either enable billing on the Gemini key (a few dollars a day at the current budgets) or paste a real OpenAI key into the secret — the code already falls back to it. Without one of these the daily run completes only partially.
+1. **Model quota — decided: no monthly bill.** The Gemini key stays on the free tier (the 429 handling makes it last a whole run, slower). Safety net: a **one-time prepaid OpenAI credit (≈ $10, auto-recharge off)** pasted into the `OPENAI_API_KEY` secret; OpenAI is only used when Gemini is out of quota, with mini models only (`OPENAI_STRONG_MODELS`), so the credit lasts months; when it is gone nothing breaks, the robot just grows slower.
 2. **Publish the Lovable app** (Publish button) so dancingatlas.lovable.app serves the daily catalogue. The preview already reads it.
 3. Optional: run `seed_catalog` once and the SQL migration so Supabase carries the deep profiles too.
 4. Read `QC_REPORT.md` after each of the first few runs; `audit_overrides.json` is the steering wheel (one line per decision).
