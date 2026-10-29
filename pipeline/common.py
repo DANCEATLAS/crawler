@@ -486,27 +486,42 @@ class LLM:
         for prov, model in order:
             if model in self.dead:
                 continue
-            try:
-                self.calls += 1
-                t0 = time.time()
-                txt = self._openai(model, system, user, temperature, max_tokens, image_b64, timeout) if prov == "openai" else self._gemini(model, system, user, temperature, max_tokens, image_b64, timeout, strong)
-                out = self.parse_json(txt)
-                self.strikes[model] = 0
-                return out
-            except HttpError as e:
-                low = (e.body or "").lower()
-                if e.code == 404 or (e.code == 400 and ("not found" in low or "no longer available" in low or "not supported" in low)):
-                    self.dead.add(model)  # missing model: never again this run
-                    self.failures += 1
-                else:
+            for attempt in (0, 1):
+                try:
+                    self.calls += 1
+                    t0 = time.time()
+                    txt = self._openai(model, system, user, temperature, max_tokens, image_b64, timeout) if prov == "openai" else self._gemini(model, system, user, temperature, max_tokens, image_b64, timeout, strong)
+                    out = self.parse_json(txt)
+                    self.strikes[model] = 0
+                    return out
+                except HttpError as e:
+                    low = (e.body or "").lower()
+                    short = re.sub(r"\s+", " ", e.body or "")[:200]
+                    if e.code == 429:
+                        # Free-tier quotas: a per-DAY quota is gone for the run (retire the model, the next one has its own quota);
+                        # a per-MINUTE limit is transient (wait for the advertised retryDelay once, then retry the same model).
+                        m = re.search(r'"retrydelay":\s*"(\d+)', low)
+                        delay = int(m.group(1)) if m else 0
+                        if "perday" in low or "per_day" in low or "insufficient_quota" in low or "billing" in low and not delay:
+                            self.dead.add(model); self.failures += 1
+                            warn(f"llm {prov}/{model}: quota exhausted, retired for this run: {short[:120]}")
+                            break
+                        if attempt == 0:
+                            wait = min(max(delay, 20), 70)
+                            warn(f"llm {prov}/{model}: rate limited, waiting {wait}s and retrying once")
+                            time.sleep(wait)
+                            continue
+                    if e.code == 404 or (e.code == 400 and ("not found" in low or "no longer available" in low or "not supported" in low)):
+                        self.dead.add(model)  # missing model: never again this run
+                        self.failures += 1
+                    else:
+                        self._strike(model)
+                    warn(f"llm {prov}/{model} http {e.code} after {time.time() - t0:.0f}s: {short}")
+                    break
+                except Exception as e:
                     self._strike(model)
-                short = re.sub(r"\s+", " ", e.body or "")[:200]
-                warn(f"llm {prov}/{model} http {e.code} after {time.time() - t0:.0f}s: {short}")
-                continue
-            except Exception as e:
-                self._strike(model)
-                warn(f"llm {prov}/{model} failed after {time.time() - t0:.0f}s: {str(e)[:200]}")
-                continue
+                    warn(f"llm {prov}/{model} failed after {time.time() - t0:.0f}s: {str(e)[:200]}")
+                    break
         return None
 
 # ----------------------------------------------------------------- run report
