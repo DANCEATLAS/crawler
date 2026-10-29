@@ -153,6 +153,13 @@ def run(budget=80, recheck_days=120, use_vision=True, only=None):
     cache = jload("crawler_cache.json", {}) or {}
     block = jload("hero_blocklist.json", {}) or {}
     hq = load_state("hero_qc.json", {})
+    # a hero that passed without the vision check (model unavailable at the time) does not count as checked:
+    # it comes back to the front of the queue until a run with a working model has looked at the frame
+    if use_vision and llm.enabled:
+        for s, e in hq.items():
+            if e.get("verdict") != "fail" and not e.get("vision") and e.get("checked_at"):
+                e["checked_at"] = ""
+                rep.inc("vision_pending_requeued")
     dances = {d.get("slug"): d for d in (jload("dance_list.json", []) or [])}
     from .catalog import load_app_catalog
     for d in load_app_catalog():
@@ -222,6 +229,9 @@ def run(budget=80, recheck_days=120, use_vision=True, only=None):
                 log(f"HERO-QC {s}: {vid} FAILED ({res.get('hard_fail') or res.get('soft_fail')}), no passing challenger -> re-crawl" + (" (hero removed)" if dead else ""))
         else:
             log(f"HERO-QC {s}: {vid} {res['verdict']} soft={res.get('soft_fail')}")
+        if use_vision and llm.enabled and entry.get("verdict") != "fail" and not entry.get("vision"):
+            entry["checked_at"] = ""   # metadata-only pass: re-check with the model next time
+            rep.inc("vision_pending")
         hq[s] = entry
         save_state("hero_qc.json", hq)
     jsave("hero_results.json", heroes)
