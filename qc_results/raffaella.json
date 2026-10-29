@@ -1,9 +1,9 @@
 {
  "slug": "raffaella",
- "qc_at": "2026-10-28T16:31:57Z",
- "version": "v3.0",
+ "qc_at": "2026-10-29T01:44:56Z",
+ "version": "v3.1",
  "publish_gate": "reject",
- "qc_score": 8.25,
+ "qc_score": 9.55,
  "gates": [
   {
    "gate": "has_name",
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "4/4 rate=1.0"
   },
   {
@@ -87,27 +87,27 @@
   }
  ],
  "judge": {
-  "accuracy": 8,
+  "accuracy": 10,
   "respect": 10,
   "specificity": 10,
-  "teaching_value": 3,
+  "teaching_value": 7,
   "is_a_dance": false,
   "flags": {
    "factual_doubt": [],
    "harm_or_disrespect": [],
    "duplicate_suspicion": null,
-   "insight_ok": true
+   "insight_ok": true,
+   "album_doubt": []
   },
-  "overall": 4,
+  "overall": 8,
   "verdict": "reject",
-  "notes": "This profile is about a specific individual ballet production/show ('Raffaella'), not a dance tradition, style, or genre. Per Dancing Atlas scope rules, specific narrative productions or shows are not dance traditions."
+  "notes": "The subject is a specific theatrical ballet production (a work), not a dance tradition, style, or folk form. While the text is well-researched, it fails the fundamental Dancing Atlas criterion that the entry must describe a dance style or tradition rather than a singular theatrical ballet piece."
  },
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "citations",
   "sacred_handled",
-  "judge_score=8.25",
+  "judge_score=9.55",
   "not_a_dance",
   "sacred"
  ],

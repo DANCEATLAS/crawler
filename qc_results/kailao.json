@@ -1,9 +1,9 @@
 {
  "slug": "kailao",
- "qc_at": "2026-10-28T06:35:55Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 9.1,
+ "qc_at": "2026-10-29T01:44:51Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
  "gates": [
   {
    "gate": "has_name",
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "5/5 rate=1.0"
   },
   {
@@ -87,26 +87,26 @@
   }
  ],
  "judge": {
-  "accuracy": 9,
+  "accuracy": 10,
   "respect": 10,
-  "specificity": 9,
-  "teaching_value": 8,
+  "specificity": 10,
+  "teaching_value": 9,
   "is_a_dance": true,
   "flags": {
    "factual_doubt": [],
    "harm_or_disrespect": [],
-   "duplicate_suspicion": null
+   "duplicate_suspicion": null,
+   "insight_ok": true,
+   "album_doubt": []
   },
-  "insight_ok": true,
-  "overall": 9,
+  "overall": 10,
   "verdict": "publish",
-  "notes": "The profile is well-researched and aligns with the provided evidence. It correctly distinguishes between the traditional silent Kailao and the modern vocalized Sipi Tau. The cultural context regarding the 'Uvean origins and the historical Tongan warrior code is handled with appropriate nuance."
+  "notes": "Profile is highly detailed, historically accurate, well-supported by evidence claims, and correctly formats teaching and dance metadata."
  },
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "citations",
-  "judge_score=9.1"
+  "judge_score=9.85"
  ],
  "citation": {
   "claims": 5,

@@ -1,9 +1,9 @@
 {
  "slug": "umushagiriro",
- "qc_at": "2026-10-28T06:35:49Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_at": "2026-10-29T01:44:47Z",
+ "version": "v3.1",
+ "publish_gate": "reject",
+ "qc_score": 4.3,
  "gates": [
   {
    "gate": "has_name",
@@ -86,14 +86,32 @@
    "detail": "sacred=False cues=[]"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 4,
+  "respect": 9,
+  "specificity": 2,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [
+    "Umushagiriro is recognized alongside Intore as a distinct traditional dance form of Rwanda."
+   ],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": false,
+   "album_doubt": []
+  },
+  "overall": 3,
+  "verdict": "review",
+  "notes": "The profile relies heavily on filler because the evidence text is extremely sparse (just a bare name list). It needs more factual data to be publishable."
+ },
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "citations",
   "profile_long_len",
   "sections_filled",
-  "no_judge"
+  "judge_score=4.3"
  ],
  "citation": {
   "claims": 1,

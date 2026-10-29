@@ -1,9 +1,9 @@
 {
  "slug": "tamena-ibuga",
- "qc_at": "2026-10-28T16:32:13Z",
- "version": "v3.0",
+ "qc_at": "2026-10-29T01:45:01Z",
+ "version": "v3.1",
  "publish_gate": "review",
- "qc_score": 8.2,
+ "qc_score": 8.0,
  "gates": [
   {
    "gate": "has_name",
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "5/5 rate=1.0"
   },
   {
@@ -87,28 +87,28 @@
   }
  ],
  "judge": {
-  "accuracy": 10,
+  "accuracy": 9,
   "respect": 10,
   "specificity": 7,
-  "teaching_value": 3,
+  "teaching_value": 4,
   "is_a_dance": true,
   "flags": {
    "factual_doubt": [],
    "harm_or_disrespect": [],
    "duplicate_suspicion": null,
    "insight_ok": true,
-   "overall": 8,
-   "verdict": "publish",
-   "notes": "Accurate and respectful profile fully supported by evidence. Specific movement patterns are missing from primary sources, resulting in low teaching value scores, but honesty regarding source limitations is appropriately maintained."
-  }
+   "album_doubt": []
+  },
+  "overall": 8,
+  "verdict": "review",
+  "notes": "Good cultural context and well-supported profile, but the 'how_it_is_danced' and 'teaching' sections lack specific technical details for beginners because the source material does not detail footwork patterns."
  },
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "citations",
   "insight_concrete",
   "sacred_handled",
-  "judge_score=8.2",
+  "judge_score=8.0",
   "sacred"
  ],
  "citation": {

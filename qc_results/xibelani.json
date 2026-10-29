@@ -1,9 +1,9 @@
 {
  "slug": "xibelani",
- "qc_at": "2026-10-28T16:32:16Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_at": "2026-10-29T01:45:37Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
+ "qc_score": 9.1,
  "gates": [
   {
    "gate": "has_name",
@@ -86,11 +86,27 @@
    "detail": "sacred=False cues=['ritual']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": true,
+   "album_doubt": []
+  },
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and culturally respectful. It successfully links the dance to its historical roots and modern evolution. The teaching section is concise and accurate to the physical requirements of the dance. No major factual errors found."
+ },
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "no_judge"
+  "judge_score=9.1"
  ],
  "citation": {
   "claims": 6,

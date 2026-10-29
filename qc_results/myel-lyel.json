@@ -1,9 +1,9 @@
 {
  "slug": "myel-lyel",
- "qc_at": "2026-10-28T16:32:13Z",
- "version": "v3.0",
+ "qc_at": "2026-10-29T01:45:03Z",
+ "version": "v3.1",
  "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_score": 9.3,
  "gates": [
   {
    "gate": "has_name",
@@ -86,13 +86,29 @@
    "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'funeral']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "album_doubt": []
+  },
+  "insight_ok": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Well-researched, highly respectful treatment of a sensitive sacred funeral dance tradition with solid adherence to evidence."
+ },
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
   "citations",
   "insight_concrete",
-  "no_judge",
+  "judge_score=9.3",
   "sacred"
  ],
  "citation": {

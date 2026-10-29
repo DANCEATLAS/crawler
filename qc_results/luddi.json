@@ -1,9 +1,9 @@
 {
  "slug": "luddi",
- "qc_at": "2026-10-28T16:32:16Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_at": "2026-10-29T01:45:26Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
+ "qc_score": 9.45,
  "gates": [
   {
    "gate": "has_name",
@@ -32,7 +32,7 @@
   },
   {
    "gate": "profile_long_len",
-   "ok": false,
+   "ok": true,
    "detail": "1219"
   },
   {
@@ -86,13 +86,28 @@
    "detail": "sacred=False cues=[]"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": true,
+   "album_doubt": []
+  },
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and adheres strictly to the provided evidence. It maintains a respectful tone and provides a clear, concise overview of the dance's cultural context and basic movements."
+ },
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "profile_long_len",
   "sections_filled",
-  "no_judge"
+  "judge_score=9.45"
  ],
  "citation": {
   "claims": 6,

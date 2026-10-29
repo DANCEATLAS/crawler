@@ -1,9 +1,9 @@
 {
  "slug": "kapa-haka",
- "qc_at": "2026-10-28T16:32:16Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_at": "2026-10-29T01:45:28Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
+ "qc_score": 9.5,
  "gates": [
   {
    "gate": "has_name",
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "5/5 rate=1.0"
   },
   {
@@ -52,7 +52,7 @@
   },
   {
    "gate": "country",
-   "ok": false,
+   "ok": true,
    "detail": "New Zealand (Aotearoa)"
   },
   {
@@ -86,13 +86,27 @@
    "detail": "sacred=True cues=['trance']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": true,
+   "album_doubt": []
+  },
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and respectful. It correctly identifies Kapa Haka as a complex performing arts suite rather than a single dance. The cultural context is handled with appropriate care regarding its sacred elements and community significance."
+ },
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "citations",
-  "country",
-  "no_judge",
+  "judge_score=9.5",
   "sacred"
  ],
  "citation": {

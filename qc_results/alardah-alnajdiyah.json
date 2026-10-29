@@ -1,9 +1,9 @@
 {
  "slug": "alardah-alnajdiyah",
- "qc_at": "2026-10-28T06:35:54Z",
- "version": "v3.0",
+ "qc_at": "2026-10-29T01:44:50Z",
+ "version": "v3.1",
  "publish_gate": "review",
- "qc_score": 9.1,
+ "qc_score": 10.0,
  "gates": [
   {
    "gate": "has_name",
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "5/5 rate=1.0"
   },
   {
@@ -87,28 +87,28 @@
   }
  ],
  "judge": {
-  "accuracy": 9,
+  "accuracy": 10,
   "respect": 10,
-  "specificity": 9,
-  "teaching_value": 8,
+  "specificity": 10,
+  "teaching_value": 10,
   "is_a_dance": true,
   "flags": {
    "factual_doubt": [],
    "harm_or_disrespect": [],
-   "duplicate_suspicion": null
+   "duplicate_suspicion": null,
+   "insight_ok": true,
+   "album_doubt": []
   },
-  "insight_ok": true,
-  "overall": 9,
+  "overall": 10,
   "verdict": "publish",
-  "notes": "The profile is well-researched and aligns with UNESCO documentation. It avoids exoticism by framing the dance as a living cultural practice. The teaching section is clear and actionable for a beginner, focusing on the essential group synchronization required for the performance."
+  "notes": "The profile is exceptionally thorough, well-structured, and completely supported by the evidence claims and standard ethnographic data regarding the Saudi Ardah."
  },
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "citations",
   "insight_concrete",
   "sacred_handled",
-  "judge_score=9.1",
+  "judge_score=10.0",
   "sacred"
  ],
  "citation": {

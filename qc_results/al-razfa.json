@@ -1,9 +1,9 @@
 {
  "slug": "al-razfa",
- "qc_at": "2026-10-28T06:35:52Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_at": "2026-10-29T01:44:49Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
+ "qc_score": 9.6,
  "gates": [
   {
    "gate": "has_name",
@@ -32,7 +32,7 @@
   },
   {
    "gate": "profile_long_len",
-   "ok": false,
+   "ok": true,
    "detail": "1415"
   },
   {
@@ -86,12 +86,27 @@
    "detail": "sacred=False cues=['ritual']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": true,
+   "album_doubt": []
+  },
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "Comprehensive and accurate profile closely adhering to provided evidence claims."
+ },
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "profile_long_len",
-  "no_judge"
+  "judge_score=9.6"
  ],
  "citation": {
   "claims": 7,

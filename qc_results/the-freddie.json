@@ -1,9 +1,9 @@
 {
  "slug": "the-freddie",
- "qc_at": "2026-10-28T16:32:08Z",
- "version": "v3.0",
- "publish_gate": "reject",
- "qc_score": 0.0,
+ "qc_at": "2026-10-29T01:45:00Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
+ "qc_score": 10.0,
  "gates": [
   {
    "gate": "has_name",
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "5/5 rate=1.0"
   },
   {
@@ -87,26 +87,26 @@
   }
  ],
  "judge": {
-  "accuracy_score": 10,
-  "respect_score": 10,
-  "specificity_score": 10,
-  "teaching_value_score": 9,
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 10,
   "is_a_dance": true,
   "flags": {
    "factual_doubt": [],
    "harm_or_disrespect": [],
    "duplicate_suspicion": null,
-   "insight_ok": true
+   "insight_ok": true,
+   "album_doubt": []
   },
-  "overall_score": 10,
+  "overall": 10,
   "verdict": "publish",
-  "notes": "Excellent profile. Fully supported by evidence claims, well-written, respectful, and provides clear dance instructions."
+  "notes": "Thoroughly researched and accurately reflects the provided evidence claims and source material without hallucination."
  },
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "citations",
-  "judge_score=0.0"
+  "judge_score=10.0"
  ],
  "citation": {
   "claims": 5,

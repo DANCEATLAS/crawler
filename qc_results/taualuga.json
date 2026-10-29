@@ -1,9 +1,9 @@
 {
  "slug": "taualuga",
- "qc_at": "2026-10-28T16:32:16Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_at": "2026-10-29T01:45:20Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
+ "qc_score": 9.1,
  "gates": [
   {
    "gate": "has_name",
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "5/5 rate=1.0"
   },
   {
@@ -86,13 +86,28 @@
    "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'spirit', 'religious']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": "Tau'olunga",
+   "insight_ok": true,
+   "album_doubt": []
+  },
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "An excellent, culturally sensitive profile. The distinction between the Taualuga and the Tongan Tau'olunga is correctly noted as a regional variant. The teaching section is appropriately framed around poise and protocol rather than just physical steps, reflecting the dance's social function."
+ },
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "citations",
   "insight_concrete",
-  "no_judge",
+  "judge_score=9.1",
   "sacred"
  ],
  "citation": {

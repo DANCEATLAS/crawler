@@ -1,9 +1,9 @@
 {
  "slug": "party-of-the-people",
- "qc_at": "2026-10-28T16:31:14Z",
- "version": "v3.0",
+ "qc_at": "2026-10-29T01:44:54Z",
+ "version": "v3.1",
  "publish_gate": "reject",
- "qc_score": 0.0,
+ "qc_score": 3.25,
  "gates": [
   {
    "gate": "has_name",
@@ -86,7 +86,23 @@
    "detail": "sacred=False cues=[]"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 1,
+  "respect": 10,
+  "specificity": 1,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": false,
+   "album_doubt": []
+  },
+  "overall": 1,
+  "verdict": "reject",
+  "notes": "The subject is a political party, not a dance. The profile correctly identifies this lack of information, but the entry must be rejected as it is not a dance tradition."
+ },
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
@@ -94,7 +110,8 @@
   "ai_tells",
   "profile_long_len",
   "sections_filled",
-  "no_judge"
+  "judge_score=3.25",
+  "not_a_dance"
  ],
  "citation": {
   "claims": 2,

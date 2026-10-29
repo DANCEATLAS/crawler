@@ -1,9 +1,9 @@
 {
  "slug": "fa-ataupati",
- "qc_at": "2026-10-28T06:35:57Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 8.5,
+ "qc_at": "2026-10-29T01:44:52Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
+ "qc_score": 8.35,
  "gates": [
   {
    "gate": "has_name",
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "5/5 rate=1.0"
   },
   {
@@ -88,27 +88,25 @@
  ],
  "judge": {
   "accuracy": 8,
-  "respect": 9,
-  "specificity": 9,
-  "teaching_value": 8,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 7,
   "is_a_dance": true,
   "flags": {
-   "factual_doubt": [
-    "It is the only all-male dance in Samoa"
-   ],
+   "factual_doubt": [],
    "harm_or_disrespect": [],
-   "duplicate_suspicion": null
+   "duplicate_suspicion": null,
+   "insight_ok": true,
+   "album_doubt": []
   },
-  "insight_ok": true,
   "overall": 8,
   "verdict": "publish",
-  "notes": "The profile is well-researched and aligns with the evidence. The claim that it is the 'only' all-male dance in Samoa is likely an overstatement, as other Samoan dances (like certain variations of the Siva Tau or specific ceremonial dances) are also male-exclusive. Otherwise, the cultural context and technical descriptions are accurate and respectful."
+  "notes": "Profile is well-written and aligns closely with the provided evidence claims. Good cultural context and clear descriptions."
  },
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "citations",
-  "judge_score=8.5"
+  "judge_score=8.35"
  ],
  "citation": {
   "claims": 5,

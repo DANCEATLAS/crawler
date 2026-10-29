@@ -1,9 +1,9 @@
 {
  "slug": "country-swing-dance",
- "qc_at": "2026-10-28T16:32:15Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_at": "2026-10-29T01:45:17Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
+ "qc_score": 9.0,
  "gates": [
   {
    "gate": "has_name",
@@ -32,7 +32,7 @@
   },
   {
    "gate": "profile_long_len",
-   "ok": false,
+   "ok": true,
    "detail": "1380"
   },
   {
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "5/5 rate=1.0"
   },
   {
@@ -86,13 +86,27 @@
    "detail": "sacred=False cues=[]"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": true,
+   "album_doubt": []
+  },
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-structured and accurately reflects the provided evidence. It clearly distinguishes Country Swing from traditional traveling dances and correctly identifies the terminology used for aerials. The teaching section is practical and accessible for beginners."
+ },
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "citations",
-  "profile_long_len",
-  "no_judge"
+  "judge_score=9.0"
  ],
  "citation": {
   "claims": 5,

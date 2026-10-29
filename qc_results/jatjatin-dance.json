@@ -1,9 +1,9 @@
 {
  "slug": "jatjatin-dance",
- "qc_at": "2026-10-28T16:32:06Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 9.45,
+ "qc_at": "2026-10-29T01:44:57Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
  "gates": [
   {
    "gate": "has_name",
@@ -89,23 +89,24 @@
  "judge": {
   "accuracy": 10,
   "respect": 10,
-  "specificity": 9,
-  "teaching_value": 8,
+  "specificity": 10,
+  "teaching_value": 9,
   "is_a_dance": true,
   "flags": {
    "factual_doubt": [],
    "harm_or_disrespect": [],
    "duplicate_suspicion": null,
-   "insight_ok": true
+   "insight_ok": true,
+   "album_doubt": []
   },
-  "overall": 9,
+  "overall": 10,
   "verdict": "publish",
-  "notes": "Accurate and well-supported profile. All claims made in the profile match the provided evidence directly, including details on instrumentation, narrative theme, and ritual context."
+  "notes": "Profile is exceptionally well-supported by evidence claims, culturally sensitive regarding sacred elements, specific in its regional and ritual details, and clear in its instructional description."
  },
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "judge_score=9.45",
+  "judge_score=9.85",
   "sacred"
  ],
  "citation": {

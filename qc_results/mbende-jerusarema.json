@@ -1,9 +1,9 @@
 {
  "slug": "mbende-jerusarema",
- "qc_at": "2026-10-28T16:32:16Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_at": "2026-10-29T01:45:41Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
  "gates": [
   {
    "gate": "has_name",
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "5/5 rate=1.0"
   },
   {
@@ -86,12 +86,27 @@
    "detail": "sacred=True cues=['ritual', 'funeral', 'religious', 'monk']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": true,
+   "album_doubt": []
+  },
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "The profile is exceptionally well-researched, accurate, and respectful. It clearly distinguishes between the historical origins and the modern UNESCO-recognized status. The teaching section provides clear, actionable physical descriptions that align with the cultural context provided."
+ },
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "citations",
-  "no_judge",
+  "judge_score=9.85",
   "sacred"
  ],
  "citation": {

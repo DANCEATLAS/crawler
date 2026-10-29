@@ -1,8 +1,8 @@
 {
  "slug": "marchas-populares",
- "qc_at": "2026-10-28T16:31:17Z",
- "version": "v3.0",
- "publish_gate": "review",
+ "qc_at": "2026-10-29T01:44:55Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
  "qc_score": 9.7,
  "gates": [
   {
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "5/5 rate=1.0"
   },
   {
@@ -96,16 +96,16 @@
    "factual_doubt": [],
    "harm_or_disrespect": [],
    "duplicate_suspicion": null,
-   "insight_ok": true
+   "insight_ok": true,
+   "album_doubt": []
   },
   "overall": 10,
   "verdict": "publish",
-  "notes": "Excellent profile. All historical facts, date specifics (June 12th), key figures (José Leitão de Barros), locations, and cultural contexts are well-supported by evidence claims and general knowledge. Clear dance and structural descriptions with high educational value."
+  "notes": "Extremely well-researched, accurate, and detailed profile of the Marchas Populares tradition in Lisbon. All historical dates, figures, and cultural context match the evidence and reality closely."
  },
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "citations",
   "sacred_handled",
   "judge_score=9.7",
   "sacred"

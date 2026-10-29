@@ -1,9 +1,9 @@
 {
  "slug": "hula-kahiko",
- "qc_at": "2026-10-28T16:32:16Z",
- "version": "v3.0",
+ "qc_at": "2026-10-29T01:45:23Z",
+ "version": "v3.1",
  "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_score": 10.0,
  "gates": [
   {
    "gate": "has_name",
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "5/5 rate=1.0"
   },
   {
@@ -52,7 +52,7 @@
   },
   {
    "gate": "country",
-   "ok": false,
+   "ok": true,
    "detail": "USA (Hawaii)"
   },
   {
@@ -86,15 +86,29 @@
    "detail": "sacred=True cues=['ritual', 'sacred', 'temple', 'god', 'goddess', 'prayer', 'spirit', 'religious', 'offering']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 10,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": true,
+   "album_doubt": []
+  },
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "An exemplary profile. It maintains high cultural sensitivity, provides clear technical definitions, and adheres strictly to the provided evidence. The distinction between hula kahiko and 'auana is handled with appropriate nuance."
+ },
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "citations",
-  "country",
   "insight_concrete",
   "banned_phrasing",
-  "no_judge",
+  "judge_score=10.0",
   "sacred"
  ],
  "citation": {

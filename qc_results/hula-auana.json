@@ -1,9 +1,9 @@
 {
  "slug": "hula-auana",
- "qc_at": "2026-10-28T06:35:51Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 9.4,
+ "qc_at": "2026-10-29T01:44:48Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
+ "qc_score": 10.0,
  "gates": [
   {
    "gate": "has_name",
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "5/5 rate=1.0"
   },
   {
@@ -52,7 +52,7 @@
   },
   {
    "gate": "country",
-   "ok": false,
+   "ok": true,
    "detail": "USA (Hawaii)"
   },
   {
@@ -87,29 +87,28 @@
   }
  ],
  "judge": {
-  "accuracy": 9,
+  "accuracy": 10,
   "respect": 10,
-  "specificity": 9,
+  "specificity": 10,
   "teaching_value": 10,
   "is_a_dance": true,
   "flags": {
-   "factual_doubt": [
-    "The claim that kī leaves were historically sacred to the forest goddess Laka is accurate, but the profile implies they are primarily used in 'auana, whereas they are more strictly associated with kahiko ritual protocols."
-   ],
+   "factual_doubt": [],
    "harm_or_disrespect": [],
    "duplicate_suspicion": null,
    "insight_ok": true,
-   "overall": 9,
-   "verdict": "publish",
-   "notes": "Excellent profile. It correctly distinguishes between the sacred kahiko and the melodic 'auana while maintaining the cultural weight of the 'mele'. The inclusion of specific footwork (kāholo, 'uwehe) provides high teaching value. The mention of the 1896 language ban provides necessary historical context for the 1960s resurgence."
-  }
+   "album_doubt": [
+    "Blue Hawaii"
+   ]
+  },
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "Exceptional cultural and technical precision. Elvis Presley album noted as pop/fusion rather than a central traditional recording, which is accurately framed in the text."
  },
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "citations",
-  "country",
-  "judge_score=9.4",
+  "judge_score=10.0",
   "sacred"
  ],
  "citation": {

@@ -1,9 +1,9 @@
 {
  "slug": "the-maid-of-cashmere",
- "qc_at": "2026-10-28T16:32:14Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_at": "2026-10-29T01:45:09Z",
+ "version": "v3.1",
+ "publish_gate": "reject",
+ "qc_score": 8.95,
  "gates": [
   {
    "gate": "has_name",
@@ -42,7 +42,7 @@
   },
   {
    "gate": "citations",
-   "ok": false,
+   "ok": true,
    "detail": "5/5 rate=1.0"
   },
   {
@@ -86,14 +86,30 @@
    "detail": "sacred=True cues=['temple', 'god', 'spirit']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 9,
+  "specificity": 10,
+  "teaching_value": 7,
+  "is_a_dance": false,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": "Le Dieu et la Bayadère",
+   "insight_ok": true,
+   "album_doubt": []
+  },
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is historically accurate and well-researched. However, it is classified as a theatrical production/opéra-ballet rather than a standalone dance tradition or style, which impacts the 'is_a_dance' classification. The teaching section is descriptive of the historical performance rather than a practical guide for modern learners."
+ },
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "citations",
   "banned_phrasing",
   "sacred_handled",
-  "no_judge",
+  "judge_score=8.95",
+  "not_a_dance",
   "sacred"
  ],
  "citation": {

@@ -359,5 +359,139 @@
   "notes": [],
   "errors": [],
   "version": "v3.0"
+ },
+ {
+  "stage": "audit",
+  "started": "2026-10-29T01:35:23Z",
+  "finished": "2026-10-29T01:42:48Z",
+  "counters": {
+   "judge_retire_reopened": 19,
+   "judge_keep": 278,
+   "judge_review_category": 6,
+   "judge_retire": 8,
+   "retired_or_merged_total": 78
+  },
+  "notes": [
+   "audit: 78 entries retired/merged of 1014; judged so far 742"
+  ],
+  "errors": [],
+  "version": "v3.1"
+ },
+ {
+  "stage": "discover",
+  "started": "2026-10-29T01:42:48Z",
+  "finished": "2026-10-29T01:44:07Z",
+  "counters": {
+   "harvested": 3764,
+   "already_known": 746,
+   "deferred": 1814,
+   "dup_name": 100,
+   "dup_qid": 106,
+   "dup_fuzzy": 1,
+   "not_dance_like": 10,
+   "queued_new": 5
+  },
+  "notes": [
+   "candidate queue: 68 queued, 102 tracked"
+  ],
+  "errors": [],
+  "version": "v3.1"
+ },
+ {
+  "stage": "research",
+  "started": "2026-10-29T01:44:07Z",
+  "finished": "2026-10-29T01:44:42Z",
+  "counters": {
+   "researched_llm_failed": 3,
+   "researched_researched": 1,
+   "llm_calls": 15,
+   "llm_failures": 14
+  },
+  "notes": [
+   "targets: 4 (llm enabled=True)"
+  ],
+  "errors": [],
+  "version": "v3.1"
+ },
+ {
+  "stage": "qc",
+  "started": "2026-10-29T01:44:42Z",
+  "finished": "2026-10-29T01:45:43Z",
+  "counters": {
+   "gate_reject": 8,
+   "gate_review": 8,
+   "gate_publish": 17,
+   "llm_calls": 49
+  },
+  "notes": [
+   "qc targets: 33 (judge enabled=True)"
+  ],
+  "errors": [],
+  "version": "v3.1"
+ },
+ {
+  "stage": "hero_qc",
+  "started": "2026-10-29T01:45:43Z",
+  "finished": "2026-10-29T01:45:51Z",
+  "counters": {
+   "vision_pending_requeued": 78,
+   "videos_fetched": 15,
+   "verdict_pass": 5,
+   "vision_pending": 4,
+   "llm_calls": 18
+  },
+  "notes": [
+   "hero qc targets: 5 of 1088 heroes (vision=True)"
+  ],
+  "errors": [],
+  "version": "v3.1"
+ },
+ {
+  "stage": "build",
+  "started": "2026-10-29T01:45:51Z",
+  "finished": "2026-10-29T01:46:08Z",
+  "counters": {
+   "retired_by_audit": 78,
+   "new_rejected_hidden": 7,
+   "new_review_hidden": 5,
+   "existing_research_rejected": 1,
+   "existing_reject": 1,
+   "existing_publish": 13,
+   "existing_review": 3,
+   "new_publish": 4
+  },
+  "notes": [
+   "catalogue built: {'generated_at': '2026-10-29T01:46:08Z', 'count': 940, 'with_hero': 823, 'hero_qc_pass': 76, 'deep_profiles': 17, 'with_albums': 2, 'with_images': 8, 'with_tutorials': 63, 'content_ready': 551, 'new_from_pipeline': 4, 'retired': 78, 'counters': {'retired_by_audit': 78, 'new_rejected_hidden': 7, 'new_review_hidden': 5, 'existing_research_rejected': 1, 'existing_reject': 1, 'existing_publish': 13, 'existing_review': 3, 'new_publish': 4}, 'pipeline': 'v3.1'}"
+  ],
+  "errors": [],
+  "version": "v3.1"
+ },
+ {
+  "stage": "sync",
+  "started": "2026-10-29T01:46:08Z",
+  "finished": "2026-10-29T01:46:44Z",
+  "counters": {
+   "patched": 21,
+   "patch_nomatch": 2,
+   "skipped_reject_new": 5,
+   "inserted_publish": 2
+  },
+  "notes": [
+   "dances columns known: 32; pipeline columns present: []",
+   "sync targets: 30"
+  ],
+  "errors": [],
+  "version": "v3.1"
+ },
+ {
+  "stage": "report",
+  "started": "2026-10-29T01:46:44Z",
+  "finished": "2026-10-29T01:46:46Z",
+  "counters": {
+   "review_items": 16
+  },
+  "notes": [],
+  "errors": [],
+  "version": "v3.1"
  }
 ]

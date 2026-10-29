@@ -1,9 +1,9 @@
 {
  "slug": "matachines",
- "qc_at": "2026-10-28T16:32:16Z",
- "version": "v3.0",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "qc_at": "2026-10-29T01:45:27Z",
+ "version": "v3.1",
+ "publish_gate": "publish",
+ "qc_score": 8.35,
  "gates": [
   {
    "gate": "has_name",
@@ -86,11 +86,27 @@
    "detail": "sacred=True cues=['sacred', 'ceremon', 'ancestor', 'religious', 'priest']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "flags": {
+   "factual_doubt": [],
+   "harm_or_disrespect": [],
+   "duplicate_suspicion": null,
+   "insight_ok": true,
+   "album_doubt": []
+  },
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and respectful of the sacred nature of the tradition. It correctly identifies the historical European roots while acknowledging the Indigenous adaptation. The teaching section is sparse, but this is appropriate given the ritual and often closed nature of the dance, which precludes public instruction."
+ },
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "no_judge",
+  "judge_score=8.35",
   "sacred"
  ],
  "citation": {

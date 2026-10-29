@@ -1,9 +1,9 @@
 {
  "slug": "hotty-toddy",
- "qc_at": "2026-10-28T16:30:55Z",
- "version": "v3.0",
+ "qc_at": "2026-10-29T01:44:53Z",
+ "version": "v3.1",
  "publish_gate": "reject",
- "qc_score": 8.4,
+ "qc_score": 8.65,
  "gates": [
   {
    "gate": "has_name",
@@ -89,23 +89,24 @@
  "judge": {
   "accuracy": 10,
   "respect": 10,
-  "specificity": 9,
+  "specificity": 10,
   "teaching_value": 1,
   "is_a_dance": false,
   "flags": {
    "factual_doubt": [],
    "harm_or_disrespect": [],
    "duplicate_suspicion": null,
-   "insight_ok": true
+   "insight_ok": true,
+   "album_doubt": []
   },
   "overall": 2,
   "verdict": "reject",
-  "notes": "Hotty Toddy is a collegiate chant and fan greeting, not a dance tradition or style. The profile itself acknowledges it is strictly a cheer."
+  "notes": "Hotty Toddy is a sports cheer and greeting, not a dance tradition. Therefore, it does not fit the criteria for the Dancing Atlas."
  },
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "judge_score=8.4",
+  "judge_score=8.65",
   "not_a_dance"
  ],
  "citation": {

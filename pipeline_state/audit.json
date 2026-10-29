@@ -357,8 +357,8 @@
   "at": "2026-10-28T05:44:50Z"
  },
  "bossa-nova": {
-  "decision": "retire",
-  "reason": "judge: music_genre_only — Brazilian music genre with no associated dance steps.",
+  "decision": "review",
+  "reason": "judge (needs a human for this category): music_genre_only — Brazilian music genre with no associated dance steps.",
   "by": "judge",
   "judge": {
    "slug": "bossa-nova",
@@ -838,17 +838,10 @@
   "at": "2026-10-28T05:49:23Z"
  },
  "reggaeton": {
-  "decision": "retire",
-  "reason": "judge: music_genre_only — Urban music genre; associated dance style is perreo.",
-  "by": "judge",
-  "judge": {
-   "slug": "reggaeton",
-   "is_dance": false,
-   "category": "music_genre_only",
-   "confidence": 0.95,
-   "note": "Urban music genre; associated dance style is perreo."
-  },
-  "at": "2026-10-28T05:49:23Z"
+  "decision": "keep",
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "marinera": {
   "decision": "keep",
@@ -930,16 +923,9 @@
  },
  "fado": {
   "decision": "retire",
-  "reason": "judge: music_genre_only — Portuguese expressive vocal music genre with no associated dance.",
-  "by": "judge",
-  "judge": {
-   "slug": "fado",
-   "is_dance": false,
-   "category": "music_genre_only",
-   "confidence": 1.0,
-   "note": "Portuguese expressive vocal music genre with no associated dance."
-  },
-  "at": "2026-10-28T05:49:23Z"
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "csardas": {
   "decision": "keep",
@@ -1176,17 +1162,10 @@
   "at": "2026-10-28T05:50:08Z"
  },
  "disco": {
-  "decision": "retire",
-  "reason": "judge: music_genre_only — Primarily a music genre and nightlife subculture rather than a dance.",
-  "by": "judge",
-  "judge": {
-   "slug": "disco",
-   "is_dance": false,
-   "category": "music_genre_only",
-   "confidence": 0.85,
-   "note": "Primarily a music genre and nightlife subculture rather than a dance."
-  },
-  "at": "2026-10-28T05:50:08Z"
+  "decision": "keep",
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "modern-dance": {
   "decision": "keep",
@@ -1371,17 +1350,10 @@
   "at": "2026-10-28T05:51:23Z"
  },
  "sabar": {
-  "decision": "retire",
-  "reason": "judge: instrument — Traditional Senegalese drum instrument, though associated with dancing.",
-  "by": "judge",
-  "judge": {
-   "slug": "sabar",
-   "is_dance": false,
-   "category": "instrument",
-   "confidence": 0.95,
-   "note": "Traditional Senegalese drum instrument, though associated with dancing."
-  },
-  "at": "2026-10-28T05:51:23Z"
+  "decision": "keep",
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "kuduro": {
   "decision": "keep",
@@ -1410,17 +1382,10 @@
   "at": "2026-10-28T05:51:23Z"
  },
  "khaleegi": {
-  "decision": "retire",
-  "reason": "judge: other — Disambiguation page for Gulf Arab regional identity, not specifically the dance.",
-  "by": "judge",
-  "judge": {
-   "slug": "khaleegi",
-   "is_dance": false,
-   "category": "other",
-   "confidence": 0.95,
-   "note": "Disambiguation page for Gulf Arab regional identity, not specifically the dance."
-  },
-  "at": "2026-10-28T05:51:23Z"
+  "decision": "keep",
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "jatjatin-dance": {
   "decision": "keep",
@@ -1501,17 +1466,10 @@
   "at": "2026-10-28T05:51:23Z"
  },
  "armenian-dance": {
-  "decision": "retire",
-  "reason": "judge: category_page — Broad overview and category page of Armenian dance traditions.",
-  "by": "judge",
-  "judge": {
-   "slug": "armenian-dance",
-   "is_dance": false,
-   "category": "category_page",
-   "confidence": 0.95,
-   "note": "Broad overview and category page of Armenian dance traditions."
-  },
-  "at": "2026-10-28T05:51:23Z"
+  "decision": "keep",
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "belly-dance": {
   "decision": "keep",
@@ -1800,17 +1758,10 @@
   "at": "2026-10-28T06:18:12Z"
  },
  "gurewol": {
-  "decision": "retire",
-  "reason": "judge: festival — Annual Wodaabe courtship ritual competition featuring dance.",
-  "by": "judge",
-  "judge": {
-   "slug": "gurewol",
-   "is_dance": false,
-   "category": "festival",
-   "confidence": 0.9,
-   "note": "Annual Wodaabe courtship ritual competition featuring dance."
-  },
-  "at": "2026-10-28T06:18:12Z"
+  "decision": "keep",
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "kwassa-kwassa": {
   "decision": "keep",
@@ -1931,16 +1882,9 @@
  },
  "muziki-wa-dansi": {
   "decision": "retire",
-  "reason": "judge: music_genre_only — Tanzanian popular music genre (dance-band music) without a distinct dance style.",
-  "by": "judge",
-  "judge": {
-   "slug": "muziki-wa-dansi",
-   "is_dance": false,
-   "category": "music_genre_only",
-   "confidence": 0.95,
-   "note": "Tanzanian popular music genre (dance-band music) without a distinct dance style."
-  },
-  "at": "2026-10-28T06:18:30Z"
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "mwanzele": {
   "decision": "keep",
@@ -2216,8 +2160,8 @@
   "at": "2026-10-28T06:21:07Z"
  },
  "peruvian-cumbia": {
-  "decision": "retire",
-  "reason": "judge: music_genre_only — Peruvian subgenre of cumbia music with no distinct standalone dance",
+  "decision": "review",
+  "reason": "judge (needs a human for this category): music_genre_only — Peruvian subgenre of cumbia music with no distinct standalone dance",
   "by": "judge",
   "judge": {
    "slug": "peruvian-cumbia",
@@ -2295,16 +2239,9 @@
  },
  "us-national-dancesport-champions": {
   "decision": "retire",
-  "reason": "judge: other — List of dance championship winners, not a dance style.",
-  "by": "judge",
-  "judge": {
-   "slug": "us-national-dancesport-champions",
-   "is_dance": false,
-   "category": "other",
-   "confidence": 0.95,
-   "note": "List of dance championship winners, not a dance style."
-  },
-  "at": "2026-10-28T06:21:10Z"
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "gombhira": {
   "decision": "keep",
@@ -2334,16 +2271,9 @@
  },
  "moon-water": {
   "decision": "retire",
-  "reason": "judge: other — Specific choreographed dance work, not a dance style.",
-  "by": "judge",
-  "judge": {
-   "slug": "moon-water",
-   "is_dance": false,
-   "category": "other",
-   "confidence": 0.95,
-   "note": "Specific choreographed dance work, not a dance style."
-  },
-  "at": "2026-10-28T06:21:10Z"
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "peacock-dance": {
   "decision": "keep",
@@ -2386,16 +2316,9 @@
  },
  "nine-songs": {
   "decision": "retire",
-  "reason": "judge: other — Refers to ancient Chinese ritual poetry, not an Indian dance form.",
-  "by": "judge",
-  "judge": {
-   "slug": "nine-songs",
-   "is_dance": false,
-   "category": "other",
-   "confidence": 0.95,
-   "note": "Refers to ancient Chinese ritual poetry, not an Indian dance form."
-  },
-  "at": "2026-10-28T06:21:13Z"
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "sanni-yakuma": {
   "decision": "keep",
@@ -2853,17 +2776,10 @@
   "at": "2026-10-28T06:21:25Z"
  },
  "pontic-greek-folk-dance": {
-  "decision": "retire",
-  "reason": "judge: category_page — A category page grouping over ninety different Pontic Greek dances.",
-  "by": "judge",
-  "judge": {
-   "slug": "pontic-greek-folk-dance",
-   "is_dance": false,
-   "category": "category_page",
-   "confidence": 0.9,
-   "note": "A category page grouping over ninety different Pontic Greek dances."
-  },
-  "at": "2026-10-28T06:21:25Z"
+  "decision": "keep",
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "step-dance": {
   "decision": "keep",
@@ -3348,16 +3264,9 @@
  },
  "an-american-ballroom-companion": {
   "decision": "retire",
-  "reason": "judge: other — An online collection of dance manuals.",
-  "by": "judge",
-  "judge": {
-   "slug": "an-american-ballroom-companion",
-   "is_dance": false,
-   "category": "other",
-   "confidence": 0.9,
-   "note": "An online collection of dance manuals."
-  },
-  "at": "2026-10-28T06:21:39Z"
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "stanky-legg": {
   "decision": "keep",
@@ -3439,16 +3348,9 @@
  },
  "cruise-ship-dance-host": {
   "decision": "retire",
-  "reason": "judge: other — A job role or position on cruise ships.",
-  "by": "judge",
-  "judge": {
-   "slug": "cruise-ship-dance-host",
-   "is_dance": false,
-   "category": "other",
-   "confidence": 0.9,
-   "note": "A job role or position on cruise ships."
-  },
-  "at": "2026-10-28T06:21:41Z"
+  "reason": "manual override",
+  "by": "override",
+  "at": "2026-10-29T01:42:48Z"
  },
  "claro-que-baila": {
   "decision": "retire",
@@ -5388,8 +5290,8 @@
   "at": "2026-10-28T16:10:08Z"
  },
  "hutsul": {
-  "decision": "retire",
-  "reason": "judge: other — Refers to an East Slavic ethnic group, not a dance.",
+  "decision": "review",
+  "reason": "judge (needs a human for this category): other — Refers to an East Slavic ethnic group, not a dance.",
   "by": "judge",
   "judge": {
    "slug": "hutsul",
@@ -5401,8 +5303,8 @@
   "at": "2026-10-28T16:10:08Z"
  },
  "assyrian-people": {
-  "decision": "retire",
-  "reason": "judge: other — Refers to an ethnic group, not a dance.",
+  "decision": "review",
+  "reason": "judge (needs a human for this category): other — Refers to an ethnic group, not a dance.",
   "by": "judge",
   "judge": {
    "slug": "assyrian-people",
@@ -5479,8 +5381,8 @@
   "at": "2026-10-28T16:10:27Z"
  },
  "pashtun-culture": {
-  "decision": "retire",
-  "reason": "judge: other — Broad ethnic culture topic, not a specific dance.",
+  "decision": "review",
+  "reason": "judge (needs a human for this category): other — Broad ethnic culture topic, not a specific dance.",
   "by": "judge",
   "judge": {
    "slug": "pashtun-culture",
@@ -6012,8 +5914,8 @@
   "at": "2026-10-28T16:11:13Z"
  },
  "museve": {
-  "decision": "retire",
-  "reason": "judge: music_genre_only — Description focuses on Zimbabwean music and instruments.",
+  "decision": "review",
+  "reason": "judge (needs a human for this category): music_genre_only — Description focuses on Zimbabwean music and instruments.",
   "by": "judge",
   "judge": {
    "slug": "museve",
@@ -6220,8 +6122,8 @@
   "at": "2026-10-28T16:11:19Z"
  },
  "mariachi": {
-  "decision": "retire",
-  "reason": "judge: music_genre_only — A musical ensemble and genre; dance (Zapateado) is separate from the music.",
+  "decision": "review",
+  "reason": "judge (needs a human for this category): music_genre_only — A musical ensemble and genre; dance (Zapateado) is separate from the music.",
   "by": "judge",
   "judge": {
    "slug": "mariachi",
@@ -6272,8 +6174,8 @@
   "at": "2026-10-28T16:11:19Z"
  },
  "kuthu": {
-  "decision": "retire",
-  "reason": "judge: other — The provided profile describes a 2004 Tamil film, not the dance style.",
+  "decision": "review",
+  "reason": "judge (needs a human for this category): other — The provided profile describes a 2004 Tamil film, not the dance style.",
   "by": "judge",
   "judge": {
    "slug": "kuthu",
@@ -6296,5 +6198,3801 @@
    "note": "A modern Japanese team dance style using naruko clappers."
   },
   "at": "2026-10-28T16:11:19Z"
+ },
+ "guapacha": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "guapacha",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Cuban social dance style variant of cha-cha-cha"
+  },
+  "at": "2026-10-29T01:39:05Z"
+ },
+ "charikawi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "charikawi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.98,
+   "note": "Traditional mimed dance of the Garifuna"
+  },
+  "at": "2026-10-29T01:39:05Z"
+ },
+ "beguine": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "beguine",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Antillean partner dance and musical form"
+  },
+  "at": "2026-10-29T01:39:05Z"
+ },
+ "lambado-cuiabano": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "lambado-cuiabano",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Couples dance and music genre from Mato Grosso, Brazil"
+  },
+  "at": "2026-10-29T01:39:05Z"
+ },
+ "danza": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "danza",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "19th-century Cuban ballroom dance"
+  },
+  "at": "2026-10-29T01:39:05Z"
+ },
+ "bachatango": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "bachatango",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.98,
+   "note": "Fusion partner dance combining bachata and tango"
+  },
+  "at": "2026-10-29T01:39:05Z"
+ },
+ "brazilian-zouk": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "brazilian-zouk",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.99,
+   "note": "Well-known Brazilian partner dance evolved from lambada"
+  },
+  "at": "2026-10-29T01:39:05Z"
+ },
+ "latin-jam-workout": {
+  "decision": "review",
+  "reason": "judge (needs a human for this category): other — Dance-fitness commercial workout program/brand, not a traditional dance style",
+  "by": "judge",
+  "judge": {
+   "slug": "latin-jam-workout",
+   "is_dance": false,
+   "category": "other",
+   "confidence": 0.9,
+   "note": "Dance-fitness commercial workout program/brand, not a traditional dance style"
+  },
+  "at": "2026-10-29T01:39:05Z"
+ },
+ "castle-walk": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "castle-walk",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.98,
+   "note": "A specific ragtime/ballroom dance introduced by Vernon and Irene Castle."
+  },
+  "at": "2026-10-29T01:40:42Z"
+ },
+ "british-dance-council": {
+  "decision": "retire",
+  "reason": "judge: group_or_company — A governing organization for ballroom dancing.",
+  "by": "judge",
+  "judge": {
+   "slug": "british-dance-council",
+   "is_dance": false,
+   "category": "group_or_company",
+   "confidence": 0.99,
+   "note": "A governing organization for ballroom dancing."
+  },
+  "at": "2026-10-29T01:40:42Z"
+ },
+ "byu-ballroom-dance-company": {
+  "decision": "retire",
+  "reason": "judge: group_or_company — A collegiate dance performance company.",
+  "by": "judge",
+  "judge": {
+   "slug": "byu-ballroom-dance-company",
+   "is_dance": false,
+   "category": "group_or_company",
+   "confidence": 0.99,
+   "note": "A collegiate dance performance company."
+  },
+  "at": "2026-10-29T01:40:42Z"
+ },
+ "goleta-cultural-school": {
+  "decision": "retire",
+  "reason": "judge: place — A multipurpose venue/building.",
+  "by": "judge",
+  "judge": {
+   "slug": "goleta-cultural-school",
+   "is_dance": false,
+   "category": "place",
+   "confidence": 0.99,
+   "note": "A multipurpose venue/building."
+  },
+  "at": "2026-10-29T01:40:42Z"
+ },
+ "international-standard-waltz": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "international-standard-waltz",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.99,
+   "note": "A specific ballroom dance style (English/slow waltz)."
+  },
+  "at": "2026-10-29T01:40:42Z"
+ },
+ "dancing-with-the-stars": {
+  "decision": "retire",
+  "reason": "judge: tv_show — A television competition series.",
+  "by": "judge",
+  "judge": {
+   "slug": "dancing-with-the-stars",
+   "is_dance": false,
+   "category": "tv_show",
+   "confidence": 1.0,
+   "note": "A television competition series."
+  },
+  "at": "2026-10-29T01:40:42Z"
+ },
+ "dancesport": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "dancesport",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.85,
+   "note": "Competitive ballroom and partner dance discipline/style category."
+  },
+  "at": "2026-10-29T01:40:42Z"
+ },
+ "english-amateur-dancesport-association": {
+  "decision": "retire",
+  "reason": "judge: group_or_company — A national dancers' association and governing organization.",
+  "by": "judge",
+  "judge": {
+   "slug": "english-amateur-dancesport-association",
+   "is_dance": false,
+   "category": "group_or_company",
+   "confidence": 0.99,
+   "note": "A national dancers' association and governing organization."
+  },
+  "at": "2026-10-29T01:40:42Z"
+ },
+ "jaipongan": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "jaipongan",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Popular Sundanese dance style from West Java, Indonesia."
+  },
+  "at": "2026-10-29T01:41:04Z"
+ },
+ "soran-bushi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "soran-bushi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Famous Japanese folk song with a well-known associated mime-like dance."
+  },
+  "at": "2026-10-29T01:41:04Z"
+ },
+ "contemporary-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "contemporary-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Major global genre of concert dance."
+  },
+  "at": "2026-10-29T01:41:04Z"
+ },
+ "jazz-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "jazz-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Major performing arts and social dance genre originating in the US."
+  },
+  "at": "2026-10-29T01:41:04Z"
+ },
+ "classical-indian-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "classical-indian-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Umbrella term for India's codified classical dance traditions."
+  },
+  "at": "2026-10-29T01:41:04Z"
+ },
+ "funana": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "funana",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Cape Verdean music and couple dance genre."
+  },
+  "at": "2026-10-29T01:41:04Z"
+ },
+ "kuchipudi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kuchipudi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Classical dance-drama tradition from Andhra Pradesh, India."
+  },
+  "at": "2026-10-29T01:41:04Z"
+ },
+ "sattriya": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "sattriya",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Classical dance tradition originating from Assam, India."
+  },
+  "at": "2026-10-29T01:41:04Z"
+ },
+ "kecak": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kecak",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.98,
+   "note": "Traditional Balinese drama and dance performance."
+  },
+  "at": "2026-10-29T01:41:19Z"
+ },
+ "candomble": {
+  "decision": "review",
+  "reason": "judge (needs a human for this category): other — Afro-Brazilian religion that includes ritual dance as a component.",
+  "by": "judge",
+  "judge": {
+   "slug": "candomble",
+   "is_dance": false,
+   "category": "other",
+   "confidence": 0.95,
+   "note": "Afro-Brazilian religion that includes ritual dance as a component."
+  },
+  "at": "2026-10-29T01:41:19Z"
+ },
+ "calusari": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "calusari",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.98,
+   "note": "Traditional Romanian ritual folk dance."
+  },
+  "at": "2026-10-29T01:41:19Z"
+ },
+ "bourree": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "bourree",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.98,
+   "note": "Traditional French folk dance and courtly dance form."
+  },
+  "at": "2026-10-29T01:41:19Z"
+ },
+ "kabuki": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kabuki",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.85,
+   "note": "Traditional Japanese theatre form heavily integrated with dance styles."
+  },
+  "at": "2026-10-29T01:41:19Z"
+ },
+ "pizzica": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "pizzica",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.98,
+   "note": "Traditional Italian folk dance from Salento."
+  },
+  "at": "2026-10-29T01:41:19Z"
+ },
+ "sega": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "sega",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Music and traditional dance performance art from the Indian Ocean."
+  },
+  "at": "2026-10-29T01:41:19Z"
+ },
+ "gnawa": {
+  "decision": "review",
+  "reason": "judge (needs a human for this category): music_genre_only — Moroccan religious musical tradition with accompanying trance rituals.",
+  "by": "judge",
+  "judge": {
+   "slug": "gnawa",
+   "is_dance": false,
+   "category": "music_genre_only",
+   "confidence": 0.85,
+   "note": "Moroccan religious musical tradition with accompanying trance rituals."
+  },
+  "at": "2026-10-29T01:41:19Z"
+ },
+ "cham-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "cham-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "Sacred masked Buddhist ritual dance tradition."
+  },
+  "at": "2026-10-29T01:41:22Z"
+ },
+ "pantsula": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "pantsula",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "South African township street dance style."
+  },
+  "at": "2026-10-29T01:41:22Z"
+ },
+ "lakhon-khol": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "lakhon-khol",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "Cambodian masked dance-drama tradition."
+  },
+  "at": "2026-10-29T01:41:22Z"
+ },
+ "pandanggo-sa-ilaw": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "pandanggo-sa-ilaw",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "Specific Filipino folk dance involving balanced lamps."
+  },
+  "at": "2026-10-29T01:41:22Z"
+ },
+ "yangko": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "yangko",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "Traditional Chinese folk dance style."
+  },
+  "at": "2026-10-29T01:41:22Z"
+ },
+ "mongolian-tsam": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mongolian-tsam",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "Mongolian variant of the Cham ritual dance."
+  },
+  "at": "2026-10-29T01:41:22Z"
+ },
+ "mak-yong": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mak-yong",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "Ancient Malay theatre-dance tradition."
+  },
+  "at": "2026-10-29T01:41:22Z"
+ },
+ "sinulog": {
+  "decision": "retire",
+  "reason": "judge: festival — Primarily a religious festival, though it features a specific dance.",
+  "by": "judge",
+  "judge": {
+   "slug": "sinulog",
+   "is_dance": false,
+   "category": "festival",
+   "confidence": 0.9,
+   "note": "Primarily a religious festival, though it features a specific dance."
+  },
+  "at": "2026-10-29T01:41:22Z"
+ },
+ "quadrille": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "quadrille",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "A historical ballroom dance for four couples in square formation."
+  },
+  "at": "2026-10-29T01:41:25Z"
+ },
+ "polonaise": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "polonaise",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "A Polish national processional walking dance."
+  },
+  "at": "2026-10-29T01:41:25Z"
+ },
+ "soca": {
+  "decision": "review",
+  "reason": "judge (needs a human for this category): music_genre_only — Primarily a music genre; dance movements are usually generic wining.",
+  "by": "judge",
+  "judge": {
+   "slug": "soca",
+   "is_dance": false,
+   "category": "music_genre_only",
+   "confidence": 0.9,
+   "note": "Primarily a music genre; dance movements are usually generic wining."
+  },
+  "at": "2026-10-29T01:41:25Z"
+ },
+ "calypso": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "calypso",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.9,
+   "note": "A foundational music and dance genre with specific hip articulations."
+  },
+  "at": "2026-10-29T01:41:25Z"
+ },
+ "chutney": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "chutney",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.9,
+   "note": "Indo-Caribbean dance combining Bhojpuri folk with Caribbean movements."
+  },
+  "at": "2026-10-29T01:41:25Z"
+ },
+ "caporales": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "caporales",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "A popular Bolivian folkloric dance created in 1969."
+  },
+  "at": "2026-10-29T01:41:25Z"
+ },
+ "saya": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "saya",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "An Afro-Bolivian polyrhythmic music and dance tradition."
+  },
+  "at": "2026-10-29T01:41:25Z"
+ },
+ "jota": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "jota",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "A widespread Spanish regional folk dance with castanets."
+  },
+  "at": "2026-10-29T01:41:25Z"
+ },
+ "muineira": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "muineira",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "Traditional folk dance and musical genre from Galicia."
+  },
+  "at": "2026-10-29T01:41:27Z"
+ },
+ "morris-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "morris-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "Centuries-old English ritual folk dance."
+  },
+  "at": "2026-10-29T01:41:27Z"
+ },
+ "maypole": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "maypole",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "Specific ritual dance involving weaving ribbons around a pole."
+  },
+  "at": "2026-10-29T01:41:27Z"
+ },
+ "ceilidh": {
+  "decision": "retire",
+  "reason": "judge: festival — A social gathering or event that includes dancing, not a single dance.",
+  "by": "judge",
+  "judge": {
+   "slug": "ceilidh",
+   "is_dance": false,
+   "category": "festival",
+   "confidence": 0.9,
+   "note": "A social gathering or event that includes dancing, not a single dance."
+  },
+  "at": "2026-10-29T01:41:27Z"
+ },
+ "kalbelia": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kalbelia",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "Serpentine folk dance of the Kalbelia community."
+  },
+  "at": "2026-10-29T01:41:27Z"
+ },
+ "lavani": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "lavani",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "Traditional song and dance genre from Maharashtra."
+  },
+  "at": "2026-10-29T01:41:27Z"
+ },
+ "ghoomar": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "ghoomar",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "Traditional Rajasthani twirling folk dance."
+  },
+  "at": "2026-10-29T01:41:27Z"
+ },
+ "frevo": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "frevo",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1,
+   "note": "Frenetic carnival dance and music style from Recife."
+  },
+  "at": "2026-10-29T01:41:27Z"
+ },
+ "coco": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "coco",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Afro-Brazilian circle dance-song tradition."
+  },
+  "at": "2026-10-29T01:41:29Z"
+ },
+ "reng": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "reng",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.9,
+   "note": "Lively instrumental dance piece in Persian music."
+  },
+  "at": "2026-10-29T01:41:29Z"
+ },
+ "tumba-francesa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "tumba-francesa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Afro-Haitian-Cuban dance, song, and drumming genre."
+  },
+  "at": "2026-10-29T01:41:29Z"
+ },
+ "theyyam": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "theyyam",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.9,
+   "note": "Ritual dance-theater tradition involving deity embodiment."
+  },
+  "at": "2026-10-29T01:41:29Z"
+ },
+ "beijing-opera": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "beijing-opera",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.8,
+   "note": "Theatrical art form incorporating significant dance and acrobatics."
+  },
+  "at": "2026-10-29T01:41:29Z"
+ },
+ "talchum": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "talchum",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Korean masked dance-drama."
+  },
+  "at": "2026-10-29T01:41:29Z"
+ },
+ "jarabe-tapatio": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "jarabe-tapatio",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "The Mexican Hat Dance, national courtship dance."
+  },
+  "at": "2026-10-29T01:41:29Z"
+ },
+ "ainu-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "ainu-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Indigenous Ainu circle and animal-mimicry dances."
+  },
+  "at": "2026-10-29T01:41:29Z"
+ },
+ "mongol-biyelgee": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mongol-biyelgee",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Mongolian folk dance genre."
+  },
+  "at": "2026-10-29T01:41:34Z"
+ },
+ "mbende-jerusarema": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mbende-jerusarema",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Zimbabwean courtship dance."
+  },
+  "at": "2026-10-29T01:41:34Z"
+ },
+ "gule-wamkulu": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "gule-wamkulu",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Chewa Nyau masked ritual dance."
+  },
+  "at": "2026-10-29T01:41:34Z"
+ },
+ "isukuti": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "isukuti",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Luhya celebratory drum dance."
+  },
+  "at": "2026-10-29T01:41:34Z"
+ },
+ "currulao": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "currulao",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Afro-Pacific marimba courtship dance."
+  },
+  "at": "2026-10-29T01:41:34Z"
+ },
+ "cuban-rumba": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "cuban-rumba",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Afro-Cuban secular dance and music complex."
+  },
+  "at": "2026-10-29T01:41:34Z"
+ },
+ "al-ayyala": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "al-ayyala",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional performing art and stick dance."
+  },
+  "at": "2026-10-29T01:41:34Z"
+ },
+ "al-razfa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "al-razfa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional performing art combining poetry and dance."
+  },
+  "at": "2026-10-29T01:41:34Z"
+ },
+ "burundi-royal-drum": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "burundi-royal-drum",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "UNESCO-recognized ritual drumming and dance tradition."
+  },
+  "at": "2026-10-29T01:41:35Z"
+ },
+ "nijemo-kolo": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "nijemo-kolo",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional silent circle dance of Croatia."
+  },
+  "at": "2026-10-29T01:41:35Z"
+ },
+ "alardah-alnajdiyah": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "alardah-alnajdiyah",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Saudi sword dance and performance."
+  },
+  "at": "2026-10-29T01:41:35Z"
+ },
+ "fa-ataupati": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "fa-ataupati",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Samoan slap dance."
+  },
+  "at": "2026-10-29T01:41:35Z"
+ },
+ "taualuga": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "taualuga",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Prestigious traditional Samoan solo dance."
+  },
+  "at": "2026-10-29T01:41:35Z"
+ },
+ "kailao": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kailao",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Tongan war dance."
+  },
+  "at": "2026-10-29T01:41:35Z"
+ },
+ "kete-akan": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kete-akan",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Asante royal court music and dance tradition."
+  },
+  "at": "2026-10-29T01:41:35Z"
+ },
+ "intore": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "intore",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Rwandan warrior dance."
+  },
+  "at": "2026-10-29T01:41:35Z"
+ },
+ "umushagiriro": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "umushagiriro",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Rwandan women's cow dance."
+  },
+  "at": "2026-10-29T01:41:38Z"
+ },
+ "xibelani": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "xibelani",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Indigenous Tsonga women's hip-shaking dance."
+  },
+  "at": "2026-10-29T01:41:38Z"
+ },
+ "cheraw": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "cheraw",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Mizo bamboo dance."
+  },
+  "at": "2026-10-29T01:41:38Z"
+ },
+ "dhamal-sufi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "dhamal-sufi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Devotional Sufi trance dance."
+  },
+  "at": "2026-10-29T01:41:38Z"
+ },
+ "casino-cuban": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "casino-cuban",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Cuban partner dance known as Cuban salsa."
+  },
+  "at": "2026-10-29T01:41:38Z"
+ },
+ "mapale": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mapale",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Fast Afro-Colombian Caribbean coastal dance."
+  },
+  "at": "2026-10-29T01:41:38Z"
+ },
+ "bullerengue": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "bullerengue",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Afro-Colombian sung drum dance."
+  },
+  "at": "2026-10-29T01:41:38Z"
+ },
+ "carimbo": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "carimbo",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Afro-Indigenous Brazilian circle dance and music genre."
+  },
+  "at": "2026-10-29T01:41:38Z"
+ },
+ "dai-peacock-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "dai-peacock-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Dai folk dance imitating a peacock."
+  },
+  "at": "2026-10-29T01:41:39Z"
+ },
+ "horon": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "horon",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Turkish regional group folk dances."
+  },
+  "at": "2026-10-29T01:41:39Z"
+ },
+ "halling": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "halling",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Vigorous Norwegian men's folk dance."
+  },
+  "at": "2026-10-29T01:41:39Z"
+ },
+ "zonaradiko": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "zonaradiko",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Greek line and circle folk dance."
+  },
+  "at": "2026-10-29T01:41:39Z"
+ },
+ "malambo": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "malambo",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Argentine solo gaucho competitive footwork dance."
+  },
+  "at": "2026-10-29T01:41:39Z"
+ },
+ "matachines": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "matachines",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Ritual dance fusing European and Indigenous elements."
+  },
+  "at": "2026-10-29T01:41:39Z"
+ },
+ "saltarello": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "saltarello",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Lively Italian leaping folk and historical dance."
+  },
+  "at": "2026-10-29T01:41:39Z"
+ },
+ "padayani": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "padayani",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Ritual folk dance and art of Kerala."
+  },
+  "at": "2026-10-29T01:41:39Z"
+ },
+ "hula-kahiko": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "hula-kahiko",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Hawaiian dance style."
+  },
+  "at": "2026-10-29T01:41:40Z"
+ },
+ "hula-auana": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "hula-auana",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Modern Hawaiian dance style."
+  },
+  "at": "2026-10-29T01:41:40Z"
+ },
+ "kapa-haka": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kapa-haka",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Maori performing arts suite including dance."
+  },
+  "at": "2026-10-29T01:41:40Z"
+ },
+ "nauru-frigate-bird-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "nauru-frigate-bird-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional dance of Nauru."
+  },
+  "at": "2026-10-29T01:41:40Z"
+ },
+ "baamaaya": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "baamaaya",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Dagbamba social dance."
+  },
+  "at": "2026-10-29T01:41:40Z"
+ },
+ "kazukuta": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kazukuta",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional dance of Luanda."
+  },
+  "at": "2026-10-29T01:41:40Z"
+ },
+ "kiba-dinaka": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kiba-dinaka",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Pedi musical and dance expression."
+  },
+  "at": "2026-10-29T01:41:40Z"
+ },
+ "mendiani": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mendiani",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Malinke social and initiation dance."
+  },
+  "at": "2026-10-29T01:41:40Z"
+ },
+ "bikutsi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "bikutsi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional musical and foot-stamping dance genre of Cameroon."
+  },
+  "at": "2026-10-29T01:41:42Z"
+ },
+ "zinli": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "zinli",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Fon funeral drum-dance from Benin."
+  },
+  "at": "2026-10-29T01:41:42Z"
+ },
+ "ingoma-mapiko": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "ingoma-mapiko",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Masked celebratory initiation dance of the Makonde."
+  },
+  "at": "2026-10-29T01:41:42Z"
+ },
+ "luddi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "luddi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Punjabi folk circle dance."
+  },
+  "at": "2026-10-29T01:41:42Z"
+ },
+ "kara-jorga": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kara-jorga",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Kazakh dance mimicking horse movements."
+  },
+  "at": "2026-10-29T01:41:42Z"
+ },
+ "chobi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "chobi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Iraqi group and line dance."
+  },
+  "at": "2026-10-29T01:41:42Z"
+ },
+ "sarandunga": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "sarandunga",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Afro-Dominican devotional drum-dance complex."
+  },
+  "at": "2026-10-29T01:41:42Z"
+ },
+ "sanjuanito": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "sanjuanito",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Indigenous and mestizo festive Andean dance-genre."
+  },
+  "at": "2026-10-29T01:41:42Z"
+ },
+ "festejo": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "festejo",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Afro-Peruvian festive music-and-dance tradition."
+  },
+  "at": "2026-10-29T01:41:43Z"
+ },
+ "kumina": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kumina",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Afro-Jamaican religion, dance, and drumming complex."
+  },
+  "at": "2026-10-29T01:41:43Z"
+ },
+ "bruckins": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "bruckins",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Creolized Emancipation dance commemorating abolition."
+  },
+  "at": "2026-10-29T01:41:43Z"
+ },
+ "xoe-thai": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "xoe-thai",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Vietnamese dance of the Thái people."
+  },
+  "at": "2026-10-29T01:41:43Z"
+ },
+ "tanchaz-method": {
+  "decision": "review",
+  "reason": "judge (needs a human for this category): other — A Hungarian method for teaching folk dance and music.",
+  "by": "judge",
+  "judge": {
+   "slug": "tanchaz-method",
+   "is_dance": false,
+   "category": "other",
+   "confidence": 0.95,
+   "note": "A Hungarian method for teaching folk dance and music."
+  },
+  "at": "2026-10-29T01:41:43Z"
+ },
+ "fakanau": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "fakanau",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Tuvaluan male dance-song."
+  },
+  "at": "2026-10-29T01:41:43Z"
+ },
+ "fakaseasea": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "fakaseasea",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Tuvaluan slow praise-song dance."
+  },
+  "at": "2026-10-29T01:41:43Z"
+ },
+ "jebwa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "jebwa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Marshallese men's stick dance."
+  },
+  "at": "2026-10-29T01:41:43Z"
+ },
+ "sofa-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "sofa-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Mandinka warrior dance of decolonization."
+  },
+  "at": "2026-10-29T01:41:44Z"
+ },
+ "qasemabadi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "qasemabadi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Gilaki women's rice-harvest dance from northern Iran."
+  },
+  "at": "2026-10-29T01:41:44Z"
+ },
+ "logari": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "logari",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Regional style of Afghan dance with surprise stops."
+  },
+  "at": "2026-10-29T01:41:44Z"
+ },
+ "sakela-sili": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "sakela-sili",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Ritual circle dance of the Kirat Rai."
+  },
+  "at": "2026-10-29T01:41:44Z"
+ },
+ "danza-de-tijeras": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "danza-de-tijeras",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Peru's acrobatic ritual scissors duel."
+  },
+  "at": "2026-10-29T01:41:44Z"
+ },
+ "itik-itik": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "itik-itik",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Philippine duck-mimicking folk dance."
+  },
+  "at": "2026-10-29T01:41:44Z"
+ },
+ "robam-trot": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "robam-trot",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Khmer deer-hunt New Year dance."
+  },
+  "at": "2026-10-29T01:41:44Z"
+ },
+ "montenegrin-oro": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "montenegrin-oro",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Montenegro's eagle circle dance."
+  },
+  "at": "2026-10-29T01:41:44Z"
+ },
+ "huli-sing-sing": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "huli-sing-sing",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Traditional ceremonial dance and gathering of the Huli people."
+  },
+  "at": "2026-10-29T01:41:46Z"
+ },
+ "fatele": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "fatele",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.98,
+   "note": "Traditional Tokelauan and Tuvaluan dance-song."
+  },
+  "at": "2026-10-29T01:41:46Z"
+ },
+ "suahongi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "suahongi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Traditional Bellonese ritual sung-dance."
+  },
+  "at": "2026-10-29T01:41:46Z"
+ },
+ "phathisi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "phathisi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.98,
+   "note": "Traditional leg-rattle dance of the Bakwena people."
+  },
+  "at": "2026-10-29T01:41:46Z"
+ },
+ "pamiri-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "pamiri-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Traditional dance form from the Pamir Mountains."
+  },
+  "at": "2026-10-29T01:41:46Z"
+ },
+ "sammi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "sammi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Traditional women's circle dance from Punjab."
+  },
+  "at": "2026-10-29T01:41:46Z"
+ },
+ "bidesia": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "bidesia",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.9,
+   "note": "Folk theatre form combining dance, drama, and music."
+  },
+  "at": "2026-10-29T01:41:46Z"
+ },
+ "chumba": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "chumba",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Garifuna polyrhythmic dance form."
+  },
+  "at": "2026-10-29T01:41:46Z"
+ },
+ "sekete": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "sekete",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Saramaka social dance to apinti drums."
+  },
+  "at": "2026-10-29T01:41:47Z"
+ },
+ "maglalatik": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "maglalatik",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "All-male Biñan mock-battle dance with coconut shells."
+  },
+  "at": "2026-10-29T01:41:47Z"
+ },
+ "amis-harvest-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "amis-harvest-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Amis malikoda harvest circle dance."
+  },
+  "at": "2026-10-29T01:41:47Z"
+ },
+ "mordvin-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mordvin-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Volga round dances of Erzya and Moksha."
+  },
+  "at": "2026-10-29T01:41:47Z"
+ },
+ "skolt-sami-quadrille": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "skolt-sami-quadrille",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Set dance of the Skolt Sami."
+  },
+  "at": "2026-10-29T01:41:47Z"
+ },
+ "melpa-sing-sing": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "melpa-sing-sing",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.9,
+   "note": "Traditional group gathering and dance ritual."
+  },
+  "at": "2026-10-29T01:41:47Z"
+ },
+ "te-kaimatoa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "te-kaimatoa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Kiribati standing dance testing physical endurance."
+  },
+  "at": "2026-10-29T01:41:47Z"
+ },
+ "te-buki": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "te-buki",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Kiribati women's hip-swaying dance."
+  },
+  "at": "2026-10-29T01:41:47Z"
+ },
+ "marshallese-jebwa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "marshallese-jebwa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Marshallese stick and line dance."
+  },
+  "at": "2026-10-29T01:41:49Z"
+ },
+ "mwinoghe": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mwinoghe",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Joyous instrumental processional dance of Malawi."
+  },
+  "at": "2026-10-29T01:41:49Z"
+ },
+ "indingala": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "indingala",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional warrior dance of northern Malawi."
+  },
+  "at": "2026-10-29T01:41:49Z"
+ },
+ "shexani": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "shexani",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Assyrian and Kurdish line dance."
+  },
+  "at": "2026-10-29T01:41:49Z"
+ },
+ "khorezm-lazgi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "khorezm-lazgi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Khorezm dance from Uzbekistan."
+  },
+  "at": "2026-10-29T01:41:49Z"
+ },
+ "pung-cholom": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "pung-cholom",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Classical Manipuri drum dance from India."
+  },
+  "at": "2026-10-29T01:41:49Z"
+ },
+ "morenada": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "morenada",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Andean dance from Bolivia."
+  },
+  "at": "2026-10-29T01:41:49Z"
+ },
+ "wanaragua": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "wanaragua",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Garifuna masked warrior dance from Belize."
+  },
+  "at": "2026-10-29T01:41:49Z"
+ },
+ "ram-wong": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "ram-wong",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Thai circle partner dance."
+  },
+  "at": "2026-10-29T01:41:50Z"
+ },
+ "fon-lep": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "fon-lep",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Northern Thai traditional fingernail dance."
+  },
+  "at": "2026-10-29T01:41:50Z"
+ },
+ "soeng": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "soeng",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Lively Isan folk prop dances from Thailand."
+  },
+  "at": "2026-10-29T01:41:50Z"
+ },
+ "kpanlogo": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kpanlogo",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Ga recreational drum-dance from Ghana."
+  },
+  "at": "2026-10-29T01:41:50Z"
+ },
+ "beni-ngoma": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "beni-ngoma",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Colonial-era East African competitive dance-society tradition."
+  },
+  "at": "2026-10-29T01:41:50Z"
+ },
+ "rapo": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "rapo",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Pamiri spiritual dance from Tajikistan."
+  },
+  "at": "2026-10-29T01:41:50Z"
+ },
+ "mascaro": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mascaro",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Honduran Garifuna masked dance."
+  },
+  "at": "2026-10-29T01:41:50Z"
+ },
+ "tondero": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "tondero",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Peruvian courtship dance."
+  },
+  "at": "2026-10-29T01:41:50Z"
+ },
+ "bedhaya-ketawang": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "bedhaya-ketawang",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Sacred traditional Javanese court dance."
+  },
+  "at": "2026-10-29T01:41:51Z"
+ },
+ "singkil": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "singkil",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Maranao royal bamboo dance."
+  },
+  "at": "2026-10-29T01:41:51Z"
+ },
+ "pangalay": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "pangalay",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Tausug fingernail dance."
+  },
+  "at": "2026-10-29T01:41:51Z"
+ },
+ "jota-aragonesa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "jota-aragonesa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Aragonese jota dance."
+  },
+  "at": "2026-10-29T01:41:51Z"
+ },
+ "moreska": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "moreska",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional sword dance from Korcula."
+  },
+  "at": "2026-10-29T01:41:51Z"
+ },
+ "tautoga": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "tautoga",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Formal ceremonial Rotuman dance style."
+  },
+  "at": "2026-10-29T01:41:51Z"
+ },
+ "pilou": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "pilou",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Kanak round-dance."
+  },
+  "at": "2026-10-29T01:41:51Z"
+ },
+ "gurage-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "gurage-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional athletic dance of the Gurage people."
+  },
+  "at": "2026-10-29T01:41:51Z"
+ },
+ "govend": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "govend",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Kurdish communal circle dance."
+  },
+  "at": "2026-10-29T01:41:53Z"
+ },
+ "merengue-tipico": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "merengue-tipico",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific regional style of merengue dance."
+  },
+  "at": "2026-10-29T01:41:53Z"
+ },
+ "qeej-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "qeej-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A Hmong acrobatic dance performed while playing the qeej."
+  },
+  "at": "2026-10-29T01:41:53Z"
+ },
+ "il-maltija": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "il-maltija",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Maltese folk dance."
+  },
+  "at": "2026-10-29T01:41:53Z"
+ },
+ "ura": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "ura",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Cook Islands drum dance."
+  },
+  "at": "2026-10-29T01:41:53Z"
+ },
+ "ta-me": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "ta-me",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Niuean song-dance."
+  },
+  "at": "2026-10-29T01:41:53Z"
+ },
+ "biit": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "biit",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.9,
+   "note": "A Marshallese song-dance tradition."
+  },
+  "at": "2026-10-29T01:41:53Z"
+ },
+ "gumboot-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "gumboot-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A percussive South African dance style."
+  },
+  "at": "2026-10-29T01:41:53Z"
+ },
+ "meshrep": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "meshrep",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "A traditional communal gathering featuring specific whirling circle dances."
+  },
+  "at": "2026-10-29T01:41:55Z"
+ },
+ "xianzi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "xianzi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific Tibetan folk song-and-dance tradition."
+  },
+  "at": "2026-10-29T01:41:55Z"
+ },
+ "yanvalou": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "yanvalou",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific sacred Haitian Vodou dance."
+  },
+  "at": "2026-10-29T01:41:55Z"
+ },
+ "tsamiko": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "tsamiko",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A well-defined Greek folk dance."
+  },
+  "at": "2026-10-29T01:41:55Z"
+ },
+ "calabrian-tarantella": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "calabrian-tarantella",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A regional variation of the Italian tarantella dance."
+  },
+  "at": "2026-10-29T01:41:55Z"
+ },
+ "hasapiko": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "hasapiko",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Greek folk dance."
+  },
+  "at": "2026-10-29T01:41:55Z"
+ },
+ "mari-folk-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mari-folk-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.9,
+   "note": "Refers to the specific folk dance traditions of the Mari people."
+  },
+  "at": "2026-10-29T01:41:55Z"
+ },
+ "udmurt-folk-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "udmurt-folk-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.9,
+   "note": "Refers to the specific folk dance traditions of the Udmurt people."
+  },
+  "at": "2026-10-29T01:41:55Z"
+ },
+ "chuvash-folk-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "chuvash-folk-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific regional folk dance tradition."
+  },
+  "at": "2026-10-29T01:41:57Z"
+ },
+ "rouf": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "rouf",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Kashmiri women's folk dance."
+  },
+  "at": "2026-10-29T01:41:57Z"
+ },
+ "al-ardha": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "al-ardha",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Saudi Arabian sword dance."
+  },
+  "at": "2026-10-29T01:41:57Z"
+ },
+ "maculele": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "maculele",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "An Afro-Brazilian stick-fighting dance."
+  },
+  "at": "2026-10-29T01:41:57Z"
+ },
+ "danza-de-la-botella": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "danza-de-la-botella",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific Paraguayan performance dance."
+  },
+  "at": "2026-10-29T01:41:57Z"
+ },
+ "tari-piring": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "tari-piring",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Minangkabau plate dance."
+  },
+  "at": "2026-10-29T01:41:57Z"
+ },
+ "zapin": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "zapin",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Malay dance style."
+  },
+  "at": "2026-10-29T01:41:57Z"
+ },
+ "lakalaka": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "lakalaka",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Tongan dance form."
+  },
+  "at": "2026-10-29T01:41:57Z"
+ },
+ "najdi-ardah": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "najdi-ardah",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Saudi Arabian sword dance."
+  },
+  "at": "2026-10-29T01:41:59Z"
+ },
+ "ayyalah": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "ayyalah",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Gulf folk dance involving canes."
+  },
+  "at": "2026-10-29T01:41:59Z"
+ },
+ "razfa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "razfa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Bedouin line dance."
+  },
+  "at": "2026-10-29T01:41:59Z"
+ },
+ "razha": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "razha",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Omani war dance."
+  },
+  "at": "2026-10-29T01:41:59Z"
+ },
+ "liwa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "liwa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional drum dance of East African origin."
+  },
+  "at": "2026-10-29T01:41:59Z"
+ },
+ "bara-a": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "bara-a",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Yemeni tribal dagger dance."
+  },
+  "at": "2026-10-29T01:41:59Z"
+ },
+ "lazgi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "lazgi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional dance from the Khorezm region."
+  },
+  "at": "2026-10-29T01:41:59Z"
+ },
+ "zeybek": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "zeybek",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Turkish folk dance style."
+  },
+  "at": "2026-10-29T01:41:59Z"
+ },
+ "kilic-kalkan": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kilic-kalkan",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Turkish sword-and-shield dance."
+  },
+  "at": "2026-10-29T01:42:17Z"
+ },
+ "karsilama": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "karsilama",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Turkish folk dance style."
+  },
+  "at": "2026-10-29T01:42:17Z"
+ },
+ "kasik-oyunu": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kasik-oyunu",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Turkish spoon dance."
+  },
+  "at": "2026-10-29T01:42:17Z"
+ },
+ "kartuli": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kartuli",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Georgian couple dance."
+  },
+  "at": "2026-10-29T01:42:17Z"
+ },
+ "khevsuruli": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "khevsuruli",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Georgian mountain dance."
+  },
+  "at": "2026-10-29T01:42:17Z"
+ },
+ "perkhuli": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "perkhuli",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Georgian round dance."
+  },
+  "at": "2026-10-29T01:42:17Z"
+ },
+ "simdi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "simdi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Ossetian/Georgian folk dance."
+  },
+  "at": "2026-10-29T01:42:17Z"
+ },
+ "shalakho": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "shalakho",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Caucasian competitive dance."
+  },
+  "at": "2026-10-29T01:42:17Z"
+ },
+ "tor-tor": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "tor-tor",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Batak ritual dance."
+  },
+  "at": "2026-10-29T01:42:20Z"
+ },
+ "hudoq": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "hudoq",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Dayak masked agricultural ritual dance."
+  },
+  "at": "2026-10-29T01:42:20Z"
+ },
+ "kipas-pakarena": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kipas-pakarena",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Traditional Makassar fan dance."
+  },
+  "at": "2026-10-29T01:42:20Z"
+ },
+ "cakalele": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "cakalele",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Moluccan war dance."
+  },
+  "at": "2026-10-29T01:42:20Z"
+ },
+ "likok-pulo": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "likok-pulo",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Acehnese seated group dance."
+  },
+  "at": "2026-10-29T01:42:20Z"
+ },
+ "banga": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "banga",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Kalinga pot-balancing dance."
+  },
+  "at": "2026-10-29T01:42:20Z"
+ },
+ "bendian": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "bendian",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "Ibaloi community circle dance."
+  },
+  "at": "2026-10-29T01:42:20Z"
+ },
+ "thang-ta": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "thang-ta",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.95,
+   "note": "Manipuri martial art and dance form."
+  },
+  "at": "2026-10-29T01:42:20Z"
+ },
+ "wangala": {
+  "decision": "retire",
+  "reason": "judge: festival — Primarily a harvest festival, though it includes dance.",
+  "by": "judge",
+  "judge": {
+   "slug": "wangala",
+   "is_dance": false,
+   "category": "festival",
+   "confidence": 0.95,
+   "note": "Primarily a harvest festival, though it includes dance."
+  },
+  "at": "2026-10-29T01:42:24Z"
+ },
+ "singhi-chham": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "singhi-chham",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific masked dance tradition."
+  },
+  "at": "2026-10-29T01:42:24Z"
+ },
+ "muchongoyo": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "muchongoyo",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific traditional stamping dance."
+  },
+  "at": "2026-10-29T01:42:24Z"
+ },
+ "mhande": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mhande",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific traditional song-dance."
+  },
+  "at": "2026-10-29T01:42:24Z"
+ },
+ "vimbuza": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "vimbuza",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific healing dance tradition."
+  },
+  "at": "2026-10-29T01:42:24Z"
+ },
+ "lamban": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "lamban",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific traditional dance."
+  },
+  "at": "2026-10-29T01:42:24Z"
+ },
+ "kuku": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kuku",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific traditional circle dance."
+  },
+  "at": "2026-10-29T01:42:24Z"
+ },
+ "bwiti-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "bwiti-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.9,
+   "note": "A ritual dance associated with a spiritual practice."
+  },
+  "at": "2026-10-29T01:42:24Z"
+ },
+ "danza-de-los-viejitos": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "danza-de-los-viejitos",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Mexican folk dance."
+  },
+  "at": "2026-10-29T01:42:29Z"
+ },
+ "danza-del-venado": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "danza-del-venado",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A sacred Yaqui ritual dance."
+  },
+  "at": "2026-10-29T01:42:29Z"
+ },
+ "los-voladores": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "los-voladores",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A ritual dance involving aerial performance."
+  },
+  "at": "2026-10-29T01:42:29Z"
+ },
+ "concheros": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "concheros",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Mexican ritual dance."
+  },
+  "at": "2026-10-29T01:42:29Z"
+ },
+ "huapango": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "huapango",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A Mexican folk dance style featuring zapateado."
+  },
+  "at": "2026-10-29T01:42:29Z"
+ },
+ "ote-a": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "ote-a",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Tahitian drum dance."
+  },
+  "at": "2026-10-29T01:42:29Z"
+ },
+ "siva-afi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "siva-afi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A Samoan fire dance tradition."
+  },
+  "at": "2026-10-29T01:42:29Z"
+ },
+ "meke": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "meke",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A Fijian traditional dance and song complex."
+  },
+  "at": "2026-10-29T01:42:29Z"
+ },
+ "gavotte": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "gavotte",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A historical French folk and Baroque court dance."
+  },
+  "at": "2026-10-29T01:42:32Z"
+ },
+ "farandole": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "farandole",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional open-chain community dance from Provence."
+  },
+  "at": "2026-10-29T01:42:32Z"
+ },
+ "springar": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "springar",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Norwegian couple dance."
+  },
+  "at": "2026-10-29T01:42:32Z"
+ },
+ "rachenitsa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "rachenitsa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Bulgarian folk dance."
+  },
+  "at": "2026-10-29T01:42:32Z"
+ },
+ "kopanitsa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kopanitsa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Bulgarian line dance."
+  },
+  "at": "2026-10-29T01:42:32Z"
+ },
+ "cocek": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "cocek",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A Balkan Romani dance style performed to brass music."
+  },
+  "at": "2026-10-29T01:42:32Z"
+ },
+ "cacak": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "cacak",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Serbian kolo dance."
+  },
+  "at": "2026-10-29T01:42:32Z"
+ },
+ "shota": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "shota",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Albanian/Kosovar couple dance."
+  },
+  "at": "2026-10-29T01:42:32Z"
+ },
+ "mbira-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mbira-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific ritual dance tradition associated with Shona mbira music."
+  },
+  "at": "2026-10-29T01:42:34Z"
+ },
+ "mbakumba": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mbakumba",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Karanga post-harvest dance."
+  },
+  "at": "2026-10-29T01:42:34Z"
+ },
+ "isitshikitsha": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "isitshikitsha",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Ndebele ceremonial dance."
+  },
+  "at": "2026-10-29T01:42:34Z"
+ },
+ "ngororombe": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "ngororombe",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional circle dance performed to panpipe music."
+  },
+  "at": "2026-10-29T01:42:34Z"
+ },
+ "mtiuluri": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "mtiuluri",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Georgian mountain dance."
+  },
+  "at": "2026-10-29T01:42:34Z"
+ },
+ "partsa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "partsa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A fast-paced traditional Georgian folk dance."
+  },
+  "at": "2026-10-29T01:42:34Z"
+ },
+ "parikaoba": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "parikaoba",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Georgian warrior sword dance."
+  },
+  "at": "2026-10-29T01:42:34Z"
+ },
+ "gandagana": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "gandagana",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Georgian folk dance from the Adjara region."
+  },
+  "at": "2026-10-29T01:42:34Z"
+ },
+ "harsnapar": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "harsnapar",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Armenian wedding dance."
+  },
+  "at": "2026-10-29T01:42:35Z"
+ },
+ "cayda-cira": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "cayda-cira",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Turkish folk dance involving candles."
+  },
+  "at": "2026-10-29T01:42:35Z"
+ },
+ "kolbasti": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kolbasti",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A popular Turkish street dance style."
+  },
+  "at": "2026-10-29T01:42:35Z"
+ },
+ "sinsin": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "sinsin",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Turkish bonfire dance."
+  },
+  "at": "2026-10-29T01:42:35Z"
+ },
+ "khutwa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "khutwa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional dance from the Asir region."
+  },
+  "at": "2026-10-29T01:42:35Z"
+ },
+ "dahha": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "dahha",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Bedouin chant and dance."
+  },
+  "at": "2026-10-29T01:42:35Z"
+ },
+ "sharh": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "sharh",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Yemeni couple dance."
+  },
+  "at": "2026-10-29T01:42:35Z"
+ },
+ "zafin": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "zafin",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional dance from Hadhramaut, Yemen."
+  },
+  "at": "2026-10-29T01:42:35Z"
+ },
+ "indang": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "indang",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Minangkabau Islamic dance."
+  },
+  "at": "2026-10-29T01:42:37Z"
+ },
+ "kancet-papatai": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kancet-papatai",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Dayak Kenyah war dance."
+  },
+  "at": "2026-10-29T01:42:37Z"
+ },
+ "khen-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "khen-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Hmong dance involving the khèn instrument."
+  },
+  "at": "2026-10-29T01:42:37Z"
+ },
+ "cong-chieng": {
+  "decision": "review",
+  "reason": "judge (needs a human for this category): music_genre_only — Explicitly stated as a gong-music cultural space, not a dance.",
+  "by": "judge",
+  "judge": {
+   "slug": "cong-chieng",
+   "is_dance": false,
+   "category": "music_genre_only",
+   "confidence": 1.0,
+   "note": "Explicitly stated as a gong-music cultural space, not a dance."
+  },
+  "at": "2026-10-29T01:42:37Z"
+ },
+ "lam-vong": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "lam-vong",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "The national folk and social circle dance of Laos."
+  },
+  "at": "2026-10-29T01:42:37Z"
+ },
+ "idaw": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "idaw",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Bontoc war dance."
+  },
+  "at": "2026-10-29T01:42:37Z"
+ },
+ "ragragsakan": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "ragragsakan",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Kalinga homecoming dance."
+  },
+  "at": "2026-10-29T01:42:37Z"
+ },
+ "subli": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "subli",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional devotional dance from Batangas."
+  },
+  "at": "2026-10-29T01:42:37Z"
+ },
+ "binasuan": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "binasuan",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Philippine folk dance involving balancing wine glasses."
+  },
+  "at": "2026-10-29T01:42:39Z"
+ },
+ "carinosa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "carinosa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A Philippine folk dance of Hispanic origin involving fans and handkerchiefs."
+  },
+  "at": "2026-10-29T01:42:39Z"
+ },
+ "kuratsa": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kuratsa",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional courtship dance popular in the Visayas region."
+  },
+  "at": "2026-10-29T01:42:39Z"
+ },
+ "sayaw-sa-bangko": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "sayaw-sa-bangko",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A Philippine folk dance performed on top of a narrow bench."
+  },
+  "at": "2026-10-29T01:42:39Z"
+ },
+ "sakuting": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "sakuting",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional dance featuring rhythmic stick movements."
+  },
+  "at": "2026-10-29T01:42:39Z"
+ },
+ "dugso": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "dugso",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A ritual dance performed by the Manobo people."
+  },
+  "at": "2026-10-29T01:42:39Z"
+ },
+ "asik": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "asik",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional solo dance performed by a female dancer."
+  },
+  "at": "2026-10-29T01:42:39Z"
+ },
+ "kappa-malong-malong": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "kappa-malong-malong",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A dance demonstrating various ways to wear a malong."
+  },
+  "at": "2026-10-29T01:42:39Z"
+ },
+ "tanovar": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "tanovar",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific lyrical dance tradition from the Ferghana region."
+  },
+  "at": "2026-10-29T01:42:45Z"
+ },
+ "shamsherbozi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "shamsherbozi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific Tajik sword dance tradition."
+  },
+  "at": "2026-10-29T01:42:45Z"
+ },
+ "chopi": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "chopi",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A collective line dance tradition in Iran."
+  },
+  "at": "2026-10-29T01:42:45Z"
+ },
+ "zar": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "zar",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 0.9,
+   "note": "A ritual healing practice involving dance and movement."
+  },
+  "at": "2026-10-29T01:42:45Z"
+ },
+ "yalli": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "yalli",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Azerbaijani collective chain dance."
+  },
+  "at": "2026-10-29T01:42:45Z"
+ },
+ "baba-karam": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "baba-karam",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A Persian character dance style."
+  },
+  "at": "2026-10-29T01:42:45Z"
+ },
+ "pericote": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "pericote",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Spanish folk dance from Asturias."
+  },
+  "at": "2026-10-29T01:42:45Z"
+ },
+ "corri-corri": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "corri-corri",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Spanish folk dance from Asturias."
+  },
+  "at": "2026-10-29T01:42:45Z"
+ },
+ "danza-prima": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "danza-prima",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional communal circle dance from Asturias."
+  },
+  "at": "2026-10-29T01:42:47Z"
+ },
+ "danza-de-ibio": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "danza-de-ibio",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific traditional war dance from Cantabria."
+  },
+  "at": "2026-10-29T01:42:47Z"
+ },
+ "hanter-dro": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "hanter-dro",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Breton chain dance."
+  },
+  "at": "2026-10-29T01:42:47Z"
+ },
+ "plinn": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "plinn",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Breton chain dance suite."
+  },
+  "at": "2026-10-29T01:42:47Z"
+ },
+ "laride": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "laride",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Breton dance style."
+  },
+  "at": "2026-10-29T01:42:47Z"
+ },
+ "rigaudon": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "rigaudon",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional dance from Provence and Baroque suite."
+  },
+  "at": "2026-10-29T01:42:47Z"
+ },
+ "rondeau": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "rondeau",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Gascon chain dance."
+  },
+  "at": "2026-10-29T01:42:47Z"
+ },
+ "furry-dance": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "furry-dance",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional processional dance from Helston, Cornwall."
+  },
+  "at": "2026-10-29T01:42:47Z"
+ },
+ "nantgarw-dances": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "nantgarw-dances",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific regional Morris dance tradition."
+  },
+  "at": "2026-10-29T01:42:48Z"
+ },
+ "polska": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "polska",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Swedish partner turning dance."
+  },
+  "at": "2026-10-29T01:42:48Z"
+ },
+ "slangpolska": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "slangpolska",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A specific regional variant of the Swedish polska."
+  },
+  "at": "2026-10-29T01:42:48Z"
+ },
+ "pols": {
+  "decision": "keep",
+  "reason": "judge: dance",
+  "by": "judge",
+  "judge": {
+   "slug": "pols",
+   "is_dance": true,
+   "category": "dance",
+   "confidence": 1.0,
+   "note": "A traditional Norwegian village turning dance."
+  },
+  "at": "2026-10-29T01:42:48Z"
  }
 }
