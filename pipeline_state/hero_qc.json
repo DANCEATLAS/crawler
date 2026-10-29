@@ -1,9 +1,11 @@
 {
  "manipuri": {
-  "checked_at": "",
-  "hero": "CtdnVH7YIKQ",
+  "checked_at": "2026-10-29T02:43:49Z",
+  "hero": "VfnwDXQbrnU",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "not_poster"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -13,13 +15,44 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 5
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 3,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 5,
+   "reason": "Three dancers in traditional Manipuri attire on stage, but with blurred side padding."
+  },
+  "history": [
+   {
+    "replaced": "CtdnVH7YIKQ",
+    "with": "VfnwDXQbrnU",
+    "at": "2026-10-29T02:44:31Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "CtdnVH7YIKQ"
  },
  "mohiniyattam": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T02:44:48Z",
   "hero": "Fl3g-RUYE3w",
   "verdict": "pass",
   "hard_fail": [],
@@ -32,9 +65,30 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 2,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Two dancers in traditional Mohiniyattam costumes performing outdoors by a pond."
+  },
   "history": []
  },
  "kuduro": {
@@ -216,10 +270,14 @@
   "replaced_from": "m-hOI2QDbhU"
  },
  "coladeira": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T02:45:11Z",
   "hero": "waJdXL8wNQU",
-  "verdict": "pass",
-  "hard_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "dance_visible",
+   "not_poster",
+   "looks_like_dance"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -229,16 +287,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": false,
+   "not_talking_head": true,
+   "not_poster": false,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 5
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": false,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": true,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 5,
+   "reason": "Music video thumbnail featuring a woman in a red dress with song text overlay."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "goli": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T02:46:01Z",
   "hero": "5owygRmBFEY",
-  "verdict": "pass",
-  "hard_fail": [],
+  "verdict": "fail",
+  "hard_fail": [
+   "looks_like_dance"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
@@ -248,18 +330,41 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": false,
+   "vision_quality": 6
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 8,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "no",
+   "quality": 6,
+   "reason": "Thumbnail shows a Haryanvi dance performance, not the Ivory Coast Goli dance."
+  },
+  "history": [],
+  "remove_from_db": false
  },
  "mopacho": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T02:46:19Z",
   "hero": "o1v6d9ZxkJk",
   "verdict": "pass",
   "hard_fail": [],
   "soft_fail": [
-   "named"
+   "named",
+   "not_vertical"
   ],
   "checks": {
    "exists": true,
@@ -269,13 +374,34 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": false
+   "named": false,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "unsure",
+   "quality": 6,
+   "reason": "Shows a woman dancing indoors in a casual setting."
+  },
   "history": []
  },
  "muchongoyo-dance": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T02:46:21Z",
   "hero": "rGvUxtc2QUs",
   "verdict": "pass",
   "hard_fail": [],
@@ -290,17 +416,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": false
+   "named": false,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": false,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Dancers performing traditional Muchongoyo dance with Zimbabwe flag overlay."
+  },
   "history": []
  },
  "punta": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T02:46:23Z",
   "hero": "XN4gkDDKE-I",
   "verdict": "pass",
   "hard_fail": [],
-  "soft_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -309,17 +458,40 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 6
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 1,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 6,
+   "reason": "Person dancing Punta in a vertical phone video with caption."
+  },
   "history": []
  },
  "ohangla": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T02:46:26Z",
   "hero": "Galyl5uDWOw",
   "verdict": "pass",
   "hard_fail": [],
-  "soft_fail": [],
+  "soft_fail": [
+   "not_vertical"
+  ],
   "checks": {
    "exists": true,
    "embeddable": true,
@@ -328,32 +500,86 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": false,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Group of dancers performing Ohangla dance outdoors in vertical video format."
+  },
   "history": []
  },
  "rebita": {
-  "checked_at": "",
-  "hero": "ivXFvWH56Hs",
+  "checked_at": "2026-10-29T02:46:29Z",
+  "hero": "xSF3Xm_eD00",
   "verdict": "pass",
-  "hard_fail": [],
+  "hard_fail": [
+   "not_poster"
+  ],
   "soft_fail": [],
   "checks": {
    "exists": true,
    "embeddable": true,
    "duration_ok": true,
-   "hd": true,
+   "hd": false,
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": false,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 7
   },
-  "vision": null,
-  "history": []
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": false,
+   "vertical_phone_video": true,
+   "camera_quality": "steady_amateur",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 7,
+   "reason": "Dancers performing Rebita in a TV studio setting."
+  },
+  "history": [
+   {
+    "replaced": "ivXFvWH56Hs",
+    "with": "xSF3Xm_eD00",
+    "at": "2026-10-29T02:46:32Z",
+    "reason": [
+     "not_poster"
+    ]
+   }
+  ],
+  "replaced_from": "ivXFvWH56Hs"
  },
  "seki-dance": {
-  "checked_at": "",
+  "checked_at": "2026-10-29T02:46:34Z",
   "hero": "cmD1Y1SsA0A",
   "verdict": "pass",
   "hard_fail": [],
@@ -366,9 +592,30 @@
    "not_music_video": true,
    "not_movie": true,
    "not_live": true,
-   "named": true
+   "named": true,
+   "dance_visible": true,
+   "not_talking_head": true,
+   "not_poster": true,
+   "not_vertical": true,
+   "camera_ok": true,
+   "safe": true,
+   "looks_like_dance": true,
+   "vision_quality": 8
   },
-  "vision": null,
+  "vision": {
+   "dance_visible": true,
+   "people_count": 6,
+   "talking_head": false,
+   "text_poster_or_graphic": false,
+   "music_video_or_concert_crowd": true,
+   "vertical_phone_video": false,
+   "camera_quality": "professional",
+   "traditional_or_authentic_context": true,
+   "unsafe_or_explicit": false,
+   "looks_like_named_dance": "yes",
+   "quality": 8,
+   "reason": "Seki Dance troupe performing on a stage with traditional costumes."
+  },
   "history": []
  },
  "takamba": {

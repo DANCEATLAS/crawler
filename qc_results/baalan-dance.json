@@ -1,9 +1,9 @@
 {
  "slug": "baalan-dance",
- "qc_at": "2026-10-29T02:00:00Z",
+ "qc_at": "2026-10-29T02:42:39Z",
  "version": "v3.2",
- "publish_gate": "review",
- "qc_score": 0.0,
+ "publish_gate": "publish",
+ "qc_score": 9.45,
  "gates": [
   {
    "gate": "has_name",
@@ -86,12 +86,26 @@
    "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'temple', 'deities', 'worship', 'spirit', 'religious', 'devotional', 'offering']"
   }
  ],
- "judge": null,
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Thoroughly verified profile with strong cultural context, accurate use of evidence claims, and appropriate handling of sacred traditions."
+ },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "no_judge",
+  "judge_score=9.45",
   "sacred"
  ],
  "citation": {

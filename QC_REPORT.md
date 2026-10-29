@@ -1,24 +1,30 @@
 # QC review queue
-_Generated 2026-10-29T02:04:28Z_
+_Generated 2026-10-29T02:46:56Z_
 
 | slug | gate | score | reasons | duplicate of |
 |---|---|---|---|---|
 | the-maid-of-cashmere | reject | 9.3 | banned_phrasing, sacred_handled, judge_score=9.3, not_a_dance, sacred |  |
 | thougal-jagoi | reject | 9.3 | ai_tells, insight_concrete, judge_score=9.3, sacred |  |
+| la-danza | reject | 8.95 | ai_tells, sacred_handled, judge_score=8.95, not_a_dance, sacred |  |
 | raffaella | reject | 8.8 | sacred_handled, judge_score=8.8, not_a_dance, sacred |  |
 | party-of-the-people | reject | 8.65 | citations, ai_tells, profile_long_len, sections_filled, judge_score=8.65, not_a_dance |  |
+| maypole-dance-jamaica | reject | 8.65 | citations, ai_tells, profile_long_len, sections_filled, judge_score=8.65 |  |
+| lanigan-s-ball | reject | 8.5 | judge_score=8.5, doubts=1, not_a_dance |  |
 | hotty-toddy | reject | 8.4 | judge_score=8.4, not_a_dance |  |
+| javotte-ballet | reject | 8.4 | sections_filled, judge_score=8.4, not_a_dance |  |
 | fwemba | reject | 8.25 | ai_tells, sacred_handled, judge_score=8.25, sacred |  |
 | akiriket | reject | 7.1 | citations, profile_long_len, judge_score=7.1, not_a_dance, sacred |  |
+| sudmalinas | reject | 6.4 | citations, ai_tells, profile_long_len, sections_filled, judge_score=6.4 |  |
 | umushagiriro | reject | 4.05 | citations, profile_long_len, sections_filled, judge_score=4.05, doubts=2 |  |
+| rateliai | reject | 2.0 | citations, ai_tells, profile_long_len, sections_filled, judge_score=2.0, doubts=1 |  |
 | hula-kahiko | review | 10.0 | insight_concrete, banned_phrasing, judge_score=10.0, sacred |  |
 | alardah-alnajdiyah | review | 9.85 | insight_concrete, sacred_handled, judge_score=9.85, sacred |  |
 | myel-lyel | review | 9.45 | citations, insight_concrete, judge_score=9.45, sacred |  |
 | tamena-ibuga | review | 8.4 | insight_concrete, sacred_handled, judge_score=8.4, sacred |  |
 | nauru-frigate-bird-dance | review | 6.35 | insight_concrete, profile_long_len, sections_filled, judge_score=6.35 |  |
-| baalan-dance | review | 0.0 | no_judge, sacred |  |
+| jamaican-quadrille | review | 6.1 | citations, profile_long_len, judge_score=6.1, doubts=1 |  |
 
-## Audit: possible duplicates kept live, need a human (43)
+## Audit: possible duplicates kept live, need a human (45)
 
 | slug | other | reason |
 |---|---|---|
@@ -34,11 +40,13 @@ _Generated 2026-10-29T02:04:28Z_
 | bomba-sica | bomba | shares wikipedia_url with bomba but names differ (0.67) — check the data |
 | bomba-yuba | bomba | shares wikipedia_url with bomba but names differ (0.67) — check the data |
 | bossa-nova |  | judge (needs a human for this category): music_genre_only — Brazilian music genre with no associated dance ste |
+| bougarabou |  | judge (needs a human for this category): instrument — Refers primarily to a set of drums and associated drummi |
 | caerdroia |  | judge (over daily retire cap): other — Refers to a turf maze structure, not a specific dance tradition. |
 | candomble |  | judge (needs a human for this category): other — Afro-Brazilian religion that includes ritual dance as a compo |
 | carol |  | judge (over daily retire cap): music_genre_only — Primarily a song form, though historically associated with d |
 | come-dancing |  | judge (over daily retire cap): tv_show — A British ballroom dancing competition television show. |
 | cong-chieng |  | judge (needs a human for this category): music_genre_only — Explicitly stated as a gong-music cultural space,  |
+| falak |  | judge (needs a human for this category): music_genre_only — Primarily a traditional musical genre, though some |
 | gnawa |  | judge (needs a human for this category): music_genre_only — Moroccan religious musical tradition with accompan |
 | halparke | govend | shares wikidata_qid with govend but names differ (0.14) — check the data |
 | highlife |  | judge (needs a human for this category): music_genre_only — Primarily a West African popular music genre rathe |
@@ -66,12 +74,13 @@ _Generated 2026-10-29T02:04:28Z_
 | world-dance-council |  | judge (over daily retire cap): group_or_company — This is an international governing body for dance, not a dan |
 | xs-latin |  | judge (over daily retire cap): group_or_company — A specific formation dance team. |
 
-## Retired or merged by the catalogue audit (79)
+## Retired or merged by the catalogue audit (81)
 
 | slug | decision | into | reason |
 |---|---|---|---|
 | adowa-dance | merge | adowa | shares wikidata_qid with adowa (name similarity 0.62) |
 | african-dance | retire |  | judge: category_page — Broad regional category page covering sub-Saharan dance traditions. |
+| alaarinjo | retire |  | judge: group_or_company — Traditional Yoruba dance-theatre troupe. |
 | an-american-ballroom-companion | retire |  | manual override |
 | arab-dance | retire |  | judge: category_page — Generic umbrella term/category page for various Arab folk dances. |
 | armenian-line-dance | merge | armenian-dance | shares wikipedia_url with armenian-dance (name similarity 0.85) |
@@ -149,6 +158,7 @@ _Generated 2026-10-29T02:04:28Z_
 | world-pump-festival | retire |  | research notes: not a dance |
 | yangge | merge | yangko | shares wikidata_qid with yangko (name similarity 0.67) |
 | zimbabwe | retire |  | judge: country — This is a sovereign nation, not a dance. |
+| zuvedra | retire |  | judge: group_or_company — Lithuanian dancesport formation dance team. |
 
 ## Possible duplicates found in discovery
 

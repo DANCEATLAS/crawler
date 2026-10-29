@@ -1,0 +1,120 @@
+{
+ "slug": "la-danza",
+ "qc_at": "2026-10-29T02:42:36Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 8.95,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "La Danza"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "54"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "186"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Composed by Rossini at a breakneck 152 dotted quarter notes per minute, this voc"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "482"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2211"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "12/12 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Italy"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": false,
+   "detail": "the provided sources"
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['sacred', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 3,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Tarantella",
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 6,
+  "verdict": "reject",
+  "notes": "Although accurately researched and beautifully written, the subject 'La Danza' is a vocal art song/patter song by Rossini, not a dance tradition itself. It violates the core rule that the subject must be a dance form."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "ai_tells",
+  "sacred_handled",
+  "judge_score=8.95",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 12,
+  "supported": 12,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-29T02:36:30Z"
+}

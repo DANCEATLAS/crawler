@@ -1,7 +1,7 @@
 {
  "contract": "dw_app_v1",
- "count": 941,
- "generated_at": "2026-10-29T02:04:05Z",
+ "count": 942,
+ "generated_at": "2026-10-29T02:46:45Z",
  "pipeline": "v3.2",
  "styles": {
   "son-cubano": {
@@ -10095,7 +10095,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Manipuri_dance",
    "wikidata_qid": "Q511116",
    "unesco": false,
-   "hero_video_youtube_id": "CtdnVH7YIKQ",
+   "hero_video_youtube_id": "VfnwDXQbrnU",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -10170,10 +10170,10 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
    "hero_qc": {
     "verdict": "pass",
-    "checked_at": "",
+    "checked_at": "2026-10-29T02:43:49Z",
     "soft_fail": []
    },
    "related_slugs": [
@@ -10286,7 +10286,7 @@
    "hero_source": "crawler:crowd_wisdom_confident",
    "hero_qc": {
     "verdict": "pass",
-    "checked_at": "",
+    "checked_at": "2026-10-29T02:44:48Z",
     "soft_fail": []
    },
    "related_slugs": [
@@ -12857,10 +12857,10 @@
    ],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
    "hero_qc": {
-    "verdict": "pass",
-    "checked_at": "",
+    "verdict": "fail",
+    "checked_at": "2026-10-29T02:45:11Z",
     "soft_fail": []
    },
    "related_slugs": [
@@ -13206,10 +13206,10 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
    "hero_qc": {
-    "verdict": "pass",
-    "checked_at": "",
+    "verdict": "fail",
+    "checked_at": "2026-10-29T02:46:01Z",
     "soft_fail": []
    },
    "related_slugs": [
@@ -13700,9 +13700,10 @@
    "hero_source": "crawler:crowd_wisdom_weak",
    "hero_qc": {
     "verdict": "pass",
-    "checked_at": "",
+    "checked_at": "2026-10-29T02:46:19Z",
     "soft_fail": [
-     "named"
+     "named",
+     "not_vertical"
     ]
    },
    "related_slugs": [
@@ -13754,7 +13755,7 @@
    "hero_source": "crawler:crowd_wisdom_weak",
    "hero_qc": {
     "verdict": "pass",
-    "checked_at": "",
+    "checked_at": "2026-10-29T02:46:21Z",
     "soft_fail": [
      "named"
     ]
@@ -14230,8 +14231,10 @@
    "hero_source": "crawler:crowd_wisdom_confident",
    "hero_qc": {
     "verdict": "pass",
-    "checked_at": "",
-    "soft_fail": []
+    "checked_at": "2026-10-29T02:46:23Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
    },
    "related_slugs": [
     "azonto",
@@ -14292,8 +14295,10 @@
    "hero_source": "crawler:crowd_wisdom_confident",
    "hero_qc": {
     "verdict": "pass",
-    "checked_at": "",
-    "soft_fail": []
+    "checked_at": "2026-10-29T02:46:26Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
    },
    "related_slugs": []
   },
@@ -14326,7 +14331,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Rebita",
    "wikidata_qid": "Q19899689",
    "unesco": false,
-   "hero_video_youtube_id": "ivXFvWH56Hs",
+   "hero_video_youtube_id": "xSF3Xm_eD00",
    "hero_image": null,
    "video_stack": [],
    "image_significance": null,
@@ -14338,10 +14343,10 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
    "hero_qc": {
     "verdict": "pass",
-    "checked_at": "",
+    "checked_at": "2026-10-29T02:46:29Z",
     "soft_fail": []
    },
    "related_slugs": [
@@ -14478,7 +14483,7 @@
    "hero_source": "crawler:crowd_wisdom_confident",
    "hero_qc": {
     "verdict": "pass",
-    "checked_at": "",
+    "checked_at": "2026-10-29T02:46:34Z",
     "soft_fail": []
    },
    "related_slugs": [
@@ -54279,6 +54284,10 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "research_gate": "review",
+   "qc_score": 6.1,
+   "last_researched_at": "2026-10-29T02:42:12Z",
+   "pipeline_version": "v3.2",
    "related_slugs": [
     "maypole-dance-jamaica",
     "pukkumina",
@@ -54325,6 +54334,10 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "research_gate": "reject",
+   "qc_score": 8.65,
+   "last_researched_at": "2026-10-29T02:42:22Z",
+   "pipeline_version": "v3.2",
    "related_slugs": [
     "jamaican-quadrille",
     "pukkumina",
@@ -57162,10 +57175,13 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "reject",
+   "qc_score": 2.0,
+   "last_researched_at": "2026-10-29T02:41:39Z",
+   "pipeline_version": "v3.2",
    "related_slugs": [
     "suktinis",
     "klumpakojis",
-    "zuvedra",
     "flamenco"
    ]
   },
@@ -57209,7 +57225,6 @@
    "related_slugs": [
     "rateliai",
     "klumpakojis",
-    "zuvedra",
     "flamenco"
    ]
   },
@@ -57252,7 +57267,6 @@
    "related_slugs": [
     "rateliai",
     "suktinis",
-    "zuvedra",
     "flamenco"
    ]
   },
@@ -57292,6 +57306,10 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "reject",
+   "qc_score": 6.4,
+   "last_researched_at": "2026-10-29T02:41:55Z",
+   "pipeline_version": "v3.2",
    "related_slugs": [
     "flamenco",
     "waltz",
@@ -58910,55 +58928,6 @@
     "shota"
    ]
   },
-  "alaarinjo": {
-   "slug": "alaarinjo",
-   "name": "Aláàrìnjó",
-   "country": "Nigeria",
-   "country_code": null,
-   "flag_emoji": null,
-   "region": "West Africa",
-   "family": null,
-   "era": "16th century",
-   "tagline": "Nigeria, 16th century — traditional dance-theatre troupe among the Yoruba",
-   "profile": "Aláàrìnjó (otherwise known as Apidàn) is a traditional dance-theatre troupe among the Yoruba.  The dance-theatre was developed in the 16th century. \nAccording to music historian Roger Blench, Aláàrìnjó dates back to the sixteenth century and probably developed from the Egúngún masquerade.",
-   "insight": "The Aláàrìnjó groups were also the inspiration for the ‘African Music Research Party’ founded by Chief Hubert Ogunde in 1945, the ancestor of modern professional theatre troupes in Nigeria.",
-   "aliases": [
-    "Alaarinjo"
-   ],
-   "related": [
-    "bolojo",
-    "fanga",
-    "gurewol",
-    "seki-dance",
-    "ohafia-war-dance"
-   ],
-   "sources": [],
-   "wikipedia_url": "https://en.wikipedia.org/wiki/Al%C3%A1%C3%A0r%C3%ACnj%C3%B3",
-   "wikidata_qid": "Q4738842",
-   "unesco": false,
-   "hero_video_youtube_id": null,
-   "hero_image": null,
-   "video_stack": [],
-   "image_significance": {
-    "status": "pending",
-    "captions": [],
-    "note": "awaiting per-image caption + relevance review (eyes-on)"
-   },
-   "lat": null,
-   "lng": null,
-   "tier": "needs_curation",
-   "updated_at": null,
-   "_albums": [],
-   "_gallery": [],
-   "_is_sacred": false,
-   "related_slugs": [
-    "bolojo",
-    "fanga",
-    "gurewol",
-    "seki-dance",
-    "ohafia-war-dance"
-   ]
-  },
   "spacirka": {
    "slug": "spacirka",
    "name": "Špacírka",
@@ -59005,54 +58974,6 @@
     "ambasse-bey",
     "egg-dance",
     "dutch-folk-dance"
-   ]
-  },
-  "zuvedra": {
-   "slug": "zuvedra",
-   "name": "Žuvėdra",
-   "country": "Lithuania",
-   "country_code": null,
-   "flag_emoji": null,
-   "region": "",
-   "family": null,
-   "era": "1995",
-   "tagline": "dancesport formation dance team since 1995 affiliated with Klaipėda University, Klaipėda, Lithuania",
-   "profile": "Klaipėda University DSC Žuvėdra (literally: tern) is a dancesport formation dance team since 1995 affiliated with Klaipėda University, Klaipėda, Lithuania.  It is a 7-time world champion and 9-time European champion.  It was founded in 1965 by ballroom dancer Ona Skaistutė Idzelevičienė.",
-   "insight": "In total, the team performed 14 different compositions (music by composer Audrius Balsys since 1997, costumes by Aina Zinčiukaitė since 1999).",
-   "aliases": [
-    "Zuvedra"
-   ],
-   "related": [
-    "rateliai",
-    "suktinis",
-    "klumpakojis",
-    "flamenco"
-   ],
-   "sources": [],
-   "wikipedia_url": "https://en.wikipedia.org/wiki/%C5%BDuv%C4%97dra",
-   "wikidata_qid": "Q1744254",
-   "unesco": false,
-   "hero_video_youtube_id": "hpYNOZ-Yv5o",
-   "hero_image": null,
-   "video_stack": [],
-   "image_significance": {
-    "status": "pending",
-    "captions": [],
-    "note": "awaiting per-image caption + relevance review (eyes-on)"
-   },
-   "lat": null,
-   "lng": null,
-   "tier": "needs_curation",
-   "updated_at": null,
-   "_albums": [],
-   "_gallery": [],
-   "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
-   "related_slugs": [
-    "rateliai",
-    "suktinis",
-    "klumpakojis",
-    "flamenco"
    ]
   },
   "lanytanc": {
@@ -60509,6 +60430,53 @@
    "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
+  "baalan-dance": {
+   "slug": "baalan-dance",
+   "name": "Baalan Dance",
+   "country": "Nepal",
+   "country_code": "NP",
+   "region": "South Asia",
+   "family": "folk-circle",
+   "flag_emoji": "🇳🇵",
+   "era": "Traditional",
+   "tagline": "Devotional storytelling and rhythmic dance of Nepal's Brahmin and Chhetri communities.",
+   "profile": "Baalan Dance is a traditional devotional dance form from Nepal, practiced primarily by the Brahmin and Chhetri (Kshatriya) communities. It features group singing of bhajans and dramatic reenactments of episodes from Hindu epics, including the Ramayana, Mahabharata, and Krishna Charitra. Accompanied by the rhythmic beats of the khaijadi drum, dancers perform during sacred occasions such as Satyanarayan Puja and Ekadashi, as well as during spontaneous gatherings in rural areas. The art form functions both as a spiritual offering and as a medium for preserving cultural narratives across generations.",
+   "insight": "Derived from concepts of divine childhood, Nepal's Baalan dance translates epics like the Ramayana into spontaneous village performances anchored by the khaijadi drum.",
+   "aliases": [
+    "Balan Dance",
+    "Balan Naach"
+   ],
+   "related": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Baalan_Dance",
+    "https://www.wikidata.org/wiki/Q136659443"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Baalan_Dance",
+   "wikidata_qid": "Q136659443",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-10-28",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.45,
+   "last_researched_at": "2026-10-28T06:33:02Z",
+   "pipeline_version": "v3.2",
+   "profile_long": "### Origins and History\nThe term 'Balan' is derived from the Sanskrit 'Balak' and the Nepali 'Bala', referring to childhood. Combined with 'Aayan' (similar to the structure of 'Ramayan'), the term signifies 'Balayan' or stories of divine childhood, serving as a source of joy in later life. Historically developed and maintained by the Brahmin and Chhetri (Kshatriya) communities in Nepal, Baalan acts as a living vessel for epic oral traditions. Dancers reenact sacred lore, passing down religious education and cultural lineage through communal performance.\n\n### How It Is Danced\nBaalan is performed collectively in group formations where participants dance and sing in rhythmic synchrony. The movement incorporates theatrical elements, with performers taking on the roles and embodying the implements of various deities and legendary characters. A beginner starts by learning the basic rhythmic steps aligned with the beating of the khaijadi drum while joining the chorus of devotional singing. While it requires structured practice to portray specific epics like the Dasabatar or Krishna Charitra, rural villagers also engage in spontaneous, informal performances during leisure hours.\n\n### Music and Instruments\nThe music of Baalan relies heavily on vocal bhajans dedicated to Hindu deities such as Vishnu, Ram, and Krishna. The primary instrumental foundation is provided by the khaijadi, a small traditional Nepali frame drum. Dancers and musicians sing in a call-and-response or unified group format, maintaining a steady, structured meter that coordinates the footwork and theatrical gestures.\n\n### Costume and Setting\nPerformers wear traditional attire suitable for ritual contexts, often carrying specific props or implements that symbolize the deities depicted in the narration. The dance is set in both sacred and informal spaces, ranging from family courtyards during private pujas to village gathering spots during major religious festivals.\n\n### Occasions and Meaning\nBaalan is intimately tied to the Hindu religious calendar of Nepal. It is performed during specific observances such as Ekadashi, Chandi Purnima, and Balachaturdashi, as well as during major religious rituals including Satyanarayan Puja, Bhagwat Puran, and Saptaha Puran. Beyond its calendar-based necessity, Baalan serves as a sacred offering (puja), a dramatic retelling of scripture, and a joyful recreational activity for rural agricultural communities.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "needs_eyes_on": true,
+   "sacred_note": "Performed as a religious offering during pujas and sacred festivals. Outsiders should observe respectfully during ritual ceremonies such as Satyanarayan Puja and avoid interrupting the devotional singing or sacred proceedings.",
+   "related_slugs": []
+  },
   "sarai-dance": {
    "slug": "sarai-dance",
    "name": "Sarai dance",
@@ -60839,6 +60807,134 @@
    "related_slugs": [
     "two-step",
     "west-coast-swing"
+   ]
+  },
+  "passinho-do-jamal": {
+   "slug": "passinho-do-jamal",
+   "name": "Passinho do Jamal",
+   "country": "Brazil",
+   "country_code": "BR",
+   "region": "South America",
+   "family": "street-urban",
+   "flag_emoji": "🇧🇷",
+   "era": "21st century",
+   "tagline": "A viral Brazilian urban dance from Recife blending syncopated footwork and arm gestures.",
+   "profile": "Passinho do Jamal is a Brazilian urban dance originating from the Santo Amaro neighborhood in Recife, Pernambuco. Created in 2020 by friends Romero Silva Oliveira Júnior (Jamal) and Pedro Henrique (Eo Chapa), the style draws from brega funk culture and popular street passinhos. Characterized by rapid footwork, a slight hip sway, and synchronized arm movements, it shifted from backyard rehearsals to global social media stardom in the mid-2020s.",
+   "insight": "Created in a backyard in Recife as a joke among friends, this syncopated urban dance marched from TikTok straight onto the FIFA World Cup stage.",
+   "aliases": [
+    "Passinho do Jamal"
+   ],
+   "related": [
+    "Brega funk"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Passinho_do_Jamal",
+    "https://www.wikidata.org/wiki/Q140274899",
+    "https://pt.wikipedia.org/wiki/Passinho_do_Jamal"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Passinho_do_Jamal",
+   "wikidata_qid": "Q140274899",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-10-29",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-10-29T02:40:47Z",
+   "pipeline_version": "v3.2",
+   "profile_long": "Passinho do Jamal emerged in 2020 in the Santo Amaro neighborhood of Recife, Pernambuco, created by childhood friends Romero Silva Oliveira Júnior, known as Jamal, and Pedro Henrique, known as Eo Chapa. Initially rehearsed in a private backyard as a playful pastime, the dance roots itself in brega funk culture and the local \"muvucão\" dance gatherings. Researcher Thiago Soares notes that brega funk represents a process of jovialization and coreographization geared toward digital platforms. Years after its creation, the dance went viral on TikTok and Instagram, sparking widespread international attention and public debates over digital attribution.\n\nThe choreography features a dynamic combination of rapid footwork, changes in direction, and a slight body sway set to syncopated rhythms. The foundational movement sequence relies on stepping to one side, stepping to the other, and taking three steps back, while the arms strictly accompany the movement of the feet. Unlike traditional brega funk styles that emphasize heavy hip isolation, Passinho do Jamal shifts the focus to arm and leg synchrony, creating a playful, marching aesthetic that remains accessible to reproduce visually.\n\nSet to the electronic beats of brega funk, the dance gained prominence through specific tracks such as \"Toma Botada\" by Eo Chapa and MC Rogê, which climbed the Spotify viral charts, and \"Taka La Dentro,\" which accompanied its arrival as a digital emote in video games like Fortnite. It is danced in diverse contexts, ranging from casual street settings and short-form video platforms to high-profile runways like Rio Fashion Week and global football celebrations.\n\nThe dance's cultural footprint expanded massively through digital media, reality television appearances on Big Brother Brasil 26, and international sports arenas during the 2026 FIFA World Cup. Players and national teams across the globe integrated the passinho into their goal and title celebrations, amplifying a cultural movement designed to elevate the visibility of brega funk despite historical local stigmas.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "Toma Botada",
+     "artist": "Eo Chapa and MC Rogê",
+     "source": "https://en.wikipedia.org/wiki/Passinho_do_Jamal",
+     "verified": false
+    }
+   ],
+   "images": [],
+   "related_slugs": []
+  },
+  "kaze-no-bon": {
+   "slug": "kaze-no-bon",
+   "name": "Kaze no bon",
+   "country": "Japan",
+   "country_code": "JP",
+   "region": "East Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇯🇵",
+   "era": "Genroku era (1688-1704) to present",
+   "tagline": "A 300-year-old night festival in Yatsuo where unmarried dancers hide their faces from typhoons.",
+   "profile": "Kaze-no-Bon, meaning \"Bon Dance of the Wind,\" is an annual Japanese festival held from September 1 to 3 in Yatsuo, Toyama, Japan. Tracing its history back more than 300 years to the Genroku era, the festival was originally created to appease typhoons and secure a bountiful rice harvest. At night, young unmarried men and women process through the steep, lantern-lit streets of the village, their faces concealed by flat straw hats. Accompanied by the melancholic tones of the kokyū vièle and the traditional shamisen, the dancers move in long parallel files representing the district's eleven quarters.",
+   "insight": "In the mountain village of Yatsuo, young unmarried dancers hide their faces beneath low-brimmed straw hats to appease the wrath of the wind gods.",
+   "aliases": [
+    "Owara Kaze no bon",
+    "Owara-Kaze-no-bon",
+    "Kaze-no-bon",
+    "Owara Kaze-no-bon",
+    "Kaze no Bon"
+   ],
+   "related": [
+    "Bon Odori"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kaze_no_bon",
+    "https://www.wikidata.org/wiki/Q2071242",
+    "https://fr.wikipedia.org/wiki/Kaze_no_bon"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Kaze_no_bon",
+   "wikidata_qid": "Q2071242",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-10-29",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.55,
+   "last_researched_at": "2026-10-29T02:41:14Z",
+   "pipeline_version": "v3.2",
+   "profile_long": "Kaze-no-Bon, meaning \"Bon Dance of the Wind,\" is a prominent Japanese festival held annually from September 1 to 3 in Yatsuo, a mountain village located in the extended municipality of Toyama on the western coast of Honshu's main island in Japan. The village of Yatsuo, which had 21,810 inhabitants in 2005, extends around three kilometers along the Ida river, nestled between two mountains. The festival takes place in the steep and cobbled streets of the village center, which are illuminated for the occasion by traditional paper lanterns. Having a history of about 300 years, Kaze-no-Bon has existed without interruption since the Genroku era, spanning from 1688 to 1704. Originally, the festival was held in order to appease Shinto divinities and typhoons, allowing for a bountiful harvest of rice during a period when hurricanes and storms are frequent across the Japanese archipelago.\n\nThe festival is uniquely held at night, creating an atmosphere that is sometimes described as eerie or mysterious by onlookers, drawing up to 200,000 visitors from across the archipelago. Long rows of young men and women progress slowly in parallel files, dancing simultaneously to a melancholic melody. Each dancing troupe represents one of the eleven districts of the Yatsuo municipal district. Among the performances, the most traditional dance style is the Kyu odori. Another style is the Shin odori, which was introduced later in 1920; in this newer style, the steps of the men and women differ distinctly, with the men's movements evoking the labor of agricultural field work.\n\nThe visual presentation of the dancers is defined by precise costuming. The female dancers are dressed in matching cotton kimonos known as yukata and wear flat straw hats called amigasa, which are heavily tilted to conceal their faces. Their male companions wear a short jacket along with a similar straw hat. These hats and matching kimonos cover the dancers' faces to hide them from the wrath of the god they hope to appease, stemming from the fear that the divine anger might otherwise fall upon them. Traditionally, all participating dancers are unmarried, a custom rooted in old ideas that performers might anger the gods and that the performance acts as a form of virginal self-sacrifice. However, modern interpretations also suggest social reasons, such as providing an opportunity for young unmarried people to meet.\n\nAt the rear of the night procession, an older female singer leads the traditional village song known as Ecchu Owara Bushi. This vocal line is accompanied by rare and traditional instruments, including the kokyū, a traditional stringed vièle, a traditional shamisen luth with three strings, and drums. This melancholic music is exceptionally unique to the region and was selected in 1996 by the Ministry of the Environment as one of the 100 soundscapes of Japan. In addition to the main street processions, dance groups perform structured demonstrations on stages scattered throughout the village, while private performances are given in local restaurants and private homes. In the middle of the night, once the tourists have departed, the local population of the town joins the dancers in costume, continuing the celebration sometimes until the break of dawn. Beyond the dance itself, the tiny shops lining the village streets offer games, trinkets, traditional foods, and special Japanese paper as popular souvenirs.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "Ecchu Owara Bushi",
+     "artist": "Traditional village singers",
+     "source": "https://fr.wikipedia.org/wiki/Kaze_no_bon",
+     "verified": false
+    }
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Kazenobon01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Kazenobon01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 800,
+     "height": 600,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Jinzuu / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKazenobon01.jpg",
+     "description": "A picture of the autumn festival, called \"Owara Kaze-no-Bon\" in Japan. 毎年9/1～9/3に富山県富山市八尾町で行われる祭り　”おわら　風の盆”の写真　：町流しでの男女踊り手（西町支部）　Konica Auto S2"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "Dancers cover their faces with flat straw hats to hide from the wrath of the wind gods, historically tied to ideas of virginal self-sacrifice.",
+   "related_slugs": [
+    "bon-odori"
    ]
   }
  }

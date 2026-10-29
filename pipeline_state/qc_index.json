@@ -14,13 +14,13 @@
   ]
  },
  "baalan-dance": {
-  "qc_at": "2026-10-29T02:00:00Z",
-  "publish_gate": "review",
-  "qc_score": 0.0,
+  "qc_at": "2026-10-29T02:42:39Z",
+  "publish_gate": "publish",
+  "qc_score": 9.45,
   "researched_at": "2026-10-28T06:33:02Z",
-  "version": "nojudge",
+  "version": "v3.2",
   "reasons": [
-   "no_judge",
+   "judge_score=9.45",
    "sacred"
   ]
  },
@@ -397,6 +397,121 @@
    "sacred_handled",
    "judge_score=9.85",
    "sacred"
+  ]
+ },
+ "la-danza": {
+  "qc_at": "2026-10-29T02:42:36Z",
+  "publish_gate": "reject",
+  "qc_score": 8.95,
+  "researched_at": "2026-10-29T02:36:30Z",
+  "version": "v3.2",
+  "reasons": [
+   "ai_tells",
+   "sacred_handled",
+   "judge_score=8.95",
+   "not_a_dance",
+   "sacred"
+  ]
+ },
+ "lanigan-s-ball": {
+  "qc_at": "2026-10-29T02:42:38Z",
+  "publish_gate": "reject",
+  "qc_score": 8.5,
+  "researched_at": "2026-10-29T02:40:23Z",
+  "version": "v3.2",
+  "reasons": [
+   "judge_score=8.5",
+   "doubts=1",
+   "not_a_dance"
+  ]
+ },
+ "passinho-do-jamal": {
+  "qc_at": "2026-10-29T02:42:40Z",
+  "publish_gate": "publish",
+  "qc_score": 10.0,
+  "researched_at": "2026-10-29T02:40:47Z",
+  "version": "v3.2",
+  "reasons": [
+   "judge_score=10.0"
+  ]
+ },
+ "javotte-ballet": {
+  "qc_at": "2026-10-29T02:42:54Z",
+  "publish_gate": "reject",
+  "qc_score": 8.4,
+  "researched_at": "2026-10-29T02:41:01Z",
+  "version": "v3.2",
+  "reasons": [
+   "sections_filled",
+   "judge_score=8.4",
+   "not_a_dance"
+  ]
+ },
+ "kaze-no-bon": {
+  "qc_at": "2026-10-29T02:42:55Z",
+  "publish_gate": "publish",
+  "qc_score": 9.55,
+  "researched_at": "2026-10-29T02:41:14Z",
+  "version": "v3.2",
+  "reasons": [
+   "judge_score=9.55",
+   "sacred"
+  ]
+ },
+ "rateliai": {
+  "qc_at": "2026-10-29T02:43:02Z",
+  "publish_gate": "reject",
+  "qc_score": 2.0,
+  "researched_at": "2026-10-29T02:41:39Z",
+  "version": "v3.2",
+  "reasons": [
+   "citations",
+   "ai_tells",
+   "profile_long_len",
+   "sections_filled",
+   "judge_score=2.0",
+   "doubts=1"
+  ]
+ },
+ "sudmalinas": {
+  "qc_at": "2026-10-29T02:43:03Z",
+  "publish_gate": "reject",
+  "qc_score": 6.4,
+  "researched_at": "2026-10-29T02:41:55Z",
+  "version": "v3.2",
+  "reasons": [
+   "citations",
+   "ai_tells",
+   "profile_long_len",
+   "sections_filled",
+   "judge_score=6.4"
+  ]
+ },
+ "jamaican-quadrille": {
+  "qc_at": "2026-10-29T02:43:04Z",
+  "publish_gate": "review",
+  "qc_score": 6.1,
+  "researched_at": "2026-10-29T02:42:12Z",
+  "version": "v3.2",
+  "reasons": [
+   "citations",
+   "profile_long_len",
+   "judge_score=6.1",
+   "doubts=1"
+  ]
+ },
+ "maypole-dance-jamaica": {
+  "qc_at": "2026-10-29T02:43:22Z",
+  "publish_gate": "reject",
+  "qc_score": 8.65,
+  "researched_at": "2026-10-29T02:42:22Z",
+  "version": "v3.2",
+  "reasons": [
+   "citations",
+   "ai_tells",
+   "profile_long_len",
+   "sections_filled",
+   "judge_score=8.65"
   ]
  }
 }

@@ -1,0 +1,120 @@
+{
+ "slug": "maypole-dance-jamaica",
+ "qc_at": "2026-10-29T02:43:22Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 8.65,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Maypole Dance (Jamaica)"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "30"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "165"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The provided sources detail Haitian performance traditions rather than the Jamai"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "412"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "587"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "0/0 rate=0.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Jamaica"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Caribbean"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": false,
+   "detail": "the provided sources"
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 2,
+  "verdict": "reject",
+  "notes": "The profile correctly identifies that the provided evidence corpus contains no information on the subject. As the content is entirely meta-commentary on the lack of data, it fails to provide a functional dance profile and should be rejected."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "ai_tells",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=8.65"
+ ],
+ "citation": {
+  "claims": 0,
+  "supported": 0,
+  "rate": 0.0
+ },
+ "researched_at": "2026-10-29T02:42:22Z"
+}
