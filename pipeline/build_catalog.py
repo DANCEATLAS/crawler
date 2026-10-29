@@ -130,7 +130,8 @@ def run(include_review=False):
             if not st.get("flag_emoji") and st.get("country_code"):
                 st["flag_emoji"] = _flag(st["country_code"])
             v2[slug] = {"sections": p.get("sections"), "teaching": p.get("teaching"), "claims": [{"text": c.get("text"), "source": c.get("source")} for c in (rec.get("claims") or []) if c.get("supported")][:60],
-                        "citation": rec.get("citation"), "albums": rec.get("albums"), "images": rec.get("images"), "gaps": p.get("gaps"), "confidence": p.get("confidence"),
+                        "citation": rec.get("citation"), "albums": [a for a in (rec.get("albums") or []) if norm(a.get("title") or "") not in {norm(t) for t in ((qc.get("judge") or {}).get("album_doubt") or []) if isinstance(t, str)}],
+                        "images": rec.get("images"), "gaps": p.get("gaps"), "confidence": p.get("confidence"),
                         "researched_at": rec.get("researched_at"), "qc_score": qc.get("qc_score")}
         styles[slug] = st
     # retired: existing app dances whose research+QC concluded duplicate/reject AND judge says reject (conservative: only explicit duplicates)

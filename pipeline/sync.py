@@ -40,7 +40,9 @@ def build_payload(rec, qc, existing):
         "qc_score": qc.get("qc_score"), "last_researched_at": rec.get("researched_at"), "pipeline_version": PIPELINE_VERSION,
     }
     if gate == "publish":
-        payload.update({"profile_long": p.get("profile_long"), "albums": rec.get("albums") or [], "album_candidates": rec.get("album_candidates") or [], "images": images})
+        doubt = {norm(t) for t in ((qc.get("judge") or {}).get("album_doubt") or []) if isinstance(t, str)}
+        albums = [a for a in (rec.get("albums") or []) if norm(a.get("title") or "") not in doubt]
+        payload.update({"profile_long": p.get("profile_long"), "albums": albums, "album_candidates": rec.get("album_candidates") or [], "images": images})
         upgrade = (existing is None) or (existing.get("tier") != "content_ready") or not (existing.get("profile") or "").strip()
         if upgrade:
             payload.update({"tagline": p.get("tagline"), "insight": p.get("insight"), "profile": p.get("profile"), "tier": "content_ready"})

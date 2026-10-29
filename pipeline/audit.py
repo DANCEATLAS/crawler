@@ -14,6 +14,7 @@ from collections import defaultdict
 from .common import LLM, log, warn, norm, similarity, now_iso, jload, load_state, save_state, Report
 
 MAX_JUDGE_RETIRE = int(os.environ.get("MAX_JUDGE_RETIRE", "25"))
+SAFE_RETIRE_CATEGORIES = {"country", "place", "tv_show", "group_or_company", "person", "song_or_album", "festival", "category_page"}
 from .catalog import load_app_catalog, completeness
 from .taxonomy import COUNTRIES_N
 
@@ -86,6 +87,13 @@ def run(llm_budget=300):
     research = {r.get("slug"): r for r in (jload("danceworld_final_622.json", []) or []) if isinstance(r, dict)}
     audit = load_state("audit.json", {})
     overrides = jload("audit_overrides.json", {}) or {}
+    # earlier runs let the judge retire entries in categories it proved unreliable on; hand those back to a human
+    for slug, d in audit.items():
+        cat = (d.get("judge") or {}).get("category") or "other"
+        if d.get("by") == "judge" and d.get("decision") == "retire" and cat not in SAFE_RETIRE_CATEGORIES:
+            d["decision"] = "review"
+            d["reason"] = "judge (needs a human for this category): " + str(d.get("reason") or "").replace("judge: ", "", 1)
+            rep.inc("judge_retire_reopened")
     rules = deterministic(styles, research)
     for slug, d in rules.items():
         if audit.get(slug, {}).get("by") == "override":
@@ -110,6 +118,16 @@ def run(llm_budget=300):
                     continue
                 conf = float(r.get("confidence") or 0)
                 if (not r.get("is_dance")) and conf >= 0.8:
+                    # categories where the judge proved unreliable (sabar = drum AND dance, disco, khaleegi...) go to a human
+                    if (r.get("category") or "other") not in SAFE_RETIRE_CATEGORIES:
+                        audit[s] = {"decision": "review", "reason": f"judge (needs a human for this category): {r.get('category')} — {r.get('note')}", "by": "judge", "judge": r, "at": now_iso()}
+                        rep.inc("judge_review_category")
+                        continue
+                    # never retire an entry other entries were merged into (the merge would otherwise point at a hidden page)
+                    if any(d.get("decision") == "merge" and d.get("into") == s for d in audit.values()):
+                        audit[s] = {"decision": "review", "reason": f"judge wants to retire a merge target: {r.get('category')} — {r.get('note')}", "by": "judge", "judge": r, "at": now_iso()}
+                        rep.inc("judge_review_merge_target")
+                        continue
                     # safety valve: a judge that wants to retire more than MAX_JUDGE_RETIRE entries in one run is sent to a human
                     if rep.counters.get("judge_retire", 0) >= MAX_JUDGE_RETIRE:
                         audit[s] = {"decision": "review", "reason": f"judge (over daily retire cap): {r.get('category')} — {r.get('note')}", "by": "judge", "judge": r, "at": now_iso()}
@@ -126,6 +144,30 @@ def run(llm_budget=300):
     for slug, dec in overrides.items():
         if dec in ("keep", "retire"):
             audit[slug] = {"decision": dec, "reason": "manual override", "by": "override", "at": now_iso()}
+    # consistency: a merge must end at a live entry. Chains are shortened, 2-way cycles (rule A says X->Y, rule B says Y->X)
+    # keep the more complete entry, and a merge into a retired entry goes to a human instead of hiding both.
+    for slug, d in list(audit.items()):
+        if d.get("decision") != "merge":
+            continue
+        target, seen = d.get("into"), [slug]
+        while target and target not in seen and audit.get(target, {}).get("decision") == "merge":
+            seen.append(target)
+            target = audit[target].get("into")
+        if target in seen:  # cycle
+            cyc = seen[seen.index(target):]
+            keep = max(cyc, key=lambda x: (completeness(styles.get(x) or {}), -len(x)))
+            for x in cyc:
+                if x == keep:
+                    audit[x] = {"decision": "keep", "reason": "merge cycle resolved: kept as the more complete entry", "by": "rule", "at": now_iso()}
+                else:
+                    audit[x] = {"decision": "merge", "reason": f"merge cycle resolved: duplicate of {keep}", "into": keep, "by": "rule", "at": now_iso()}
+            rep.inc("merge_cycle_resolved")
+        elif not target or target not in styles or audit.get(target, {}).get("decision") == "retire":
+            audit[slug] = {"decision": "review", "reason": f"merge target {target} is retired or missing — check the data", "into": target, "by": "rule", "at": now_iso()}
+            rep.inc("merge_target_hidden")
+        elif target != d.get("into"):
+            d["into"] = target
+            rep.inc("merge_chain_shortened")
     save_state("audit.json", audit)
     n_retire = sum(1 for v in audit.values() if v.get("decision") in ("retire", "merge"))
     rep.inc("retired_or_merged_total", n_retire)

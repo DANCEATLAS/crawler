@@ -401,8 +401,8 @@ class LLM:
         try:
             st, txt, _ = http(u, method="POST", json_body=body, timeout=timeout, retries=0)
         except HttpError as e:
-            if e.code == 400 and "thinking" in (e.body or "").lower() and "thinkingConfig" in gen:
-                warn(f"llm gemini/{model}: thinkingConfig rejected, retrying without it")
+            if e.code == 400 and "thinkingConfig" in gen:  # e.g. flash-lite answers a bare "invalid argument" for thinkingBudget
+                warn(f"llm gemini/{model}: 400 with thinkingConfig, retrying without it")
                 self.no_thinking_cfg.add(model)
                 gen.pop("thinkingConfig", None)
                 st, txt, _ = http(u, method="POST", json_body=body, timeout=timeout, retries=0)

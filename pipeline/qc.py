@@ -18,11 +18,12 @@ BANNED = ["foundational", "codified", "crystallised", "crystallized", "rich heri
           "arguably", "it is often said", "testament to", "deeply rooted", "steeped in", "time-honored", "time-honoured", "mesmerizing", "mesmerising",
           "exotic", "primitive", "tribal rhythms", "mystical east", "oriental", "savage", "uncivilized", "delve", "tapestry"]
 AI_TELLS = ["as an ai", "i cannot", "i can't", "i do not have access", "language model", "as of my knowledge", "the provided sources", "based on the sources provided", "in the sources provided"]
-MIN_CLAIMS = 6
+MIN_CLAIMS = 6          # or 4 claims at >= 90 % verified
+MIN_LONG = 1200         # characters of profile_long
 
 RUBRIC = """You are the fact-checker and cultural reviewer of the Dancing Atlas. Review the profile against the evidence claims.
 Score 1-10 on each: accuracy (every statement supported by the claims/quotes; penalise anything not traceable), respect (no exoticising, stereotyping or appropriation framing; sacred/restricted practices handled correctly), specificity (concrete people, places, dates, objects; no filler), teaching_value (the how_it_is_danced and teaching fields could guide a beginner).
-Also return is_a_dance (bool: the subject is a dance tradition or style, not a country, show, group, person, song or category) and flags: factual_doubt (list of sentences you believe unsupported or wrong), harm_or_disrespect (list), duplicate_suspicion (another dance name this seems to be the same as, or null), insight_ok (bool: the insight is one concrete hook, not abstract), overall (1-10), verdict ("publish" | "review" | "reject"), notes (<= 60 words)."""
+Also return is_a_dance (bool: the subject is a dance tradition or style, not a country, show, group, person, song or category) and flags: factual_doubt (list of sentences you believe unsupported or wrong), harm_or_disrespect (list), duplicate_suspicion (another dance name this seems to be the same as, or null), insight_ok (bool: the insight is one concrete hook, not abstract), album_doubt (list of album titles from ALBUMS that are not credibly central recordings for this dance's music — e.g. a pop album that merely mentions the dance), overall (1-10), verdict ("publish" | "review" | "reject"), notes (<= 60 words)."""
 
 def _gate(name, ok, detail=""):
     return {"gate": name, "ok": bool(ok), "detail": str(detail)[:200]}
@@ -39,10 +40,11 @@ def deterministic_gates(rec, idx, catalog_by_slug):
     concrete = bool(re.search(r"\b(1[0-9]{3}|20[0-2][0-9])\b", ins)) or len(re.findall(r"\b[A-Z][a-z]+", ins)) >= 2 or bool(re.search(r"\d", ins))
     gates.append(_gate("insight_concrete", concrete, ins[:80]))
     gates.append(_gate("profile_len", len(prof) >= 150, len(prof)))
-    gates.append(_gate("profile_long_len", len(long) >= 1500, len(long)))
+    gates.append(_gate("profile_long_len", len(long) >= MIN_LONG, len(long)))
     gates.append(_gate("sections_filled", len(nonempty) >= 4, ",".join(nonempty)))
     cit = rec.get("citation") or {}
-    gates.append(_gate("citations", (cit.get("claims") or 0) >= MIN_CLAIMS and (cit.get("rate") or 0) >= 0.75, f"{cit.get('supported')}/{cit.get('claims')} rate={cit.get('rate')}"))
+    n_cl, rate = (cit.get("claims") or 0), (cit.get("rate") or 0)
+    gates.append(_gate("citations", (n_cl >= MIN_CLAIMS and rate >= 0.75) or (n_cl >= 4 and rate >= 0.9), f"{cit.get('supported')}/{cit.get('claims')} rate={cit.get('rate')}"))
     gates.append(_gate("sources", len(rec.get("sources") or []) >= 2 and bool(rec.get("wikipedia_url")), len(rec.get("sources") or [])))
     iso, _ = country_lookup(p.get("country") or "")
     gates.append(_gate("country", bool(p.get("country")) and bool(iso or rec.get("country_code")), p.get("country")))
@@ -75,6 +77,7 @@ def judge(rec, llm):
     p = rec.get("profile") or {}
     claims = [{"text": c.get("text"), "quote": c.get("quote"), "supported": c.get("supported")} for c in (rec.get("claims") or [])][:40]
     user = ("PROFILE JSON:\n" + json.dumps({k: p.get(k) for k in ("name", "tagline", "insight", "profile", "profile_long", "sections", "is_sacred", "sacred_note", "teaching", "country", "era")}, ensure_ascii=False)[:14000]
+            + "\n\nALBUMS (verified to exist in MusicBrainz; judge their relevance):\n" + json.dumps([{"title": a.get("title"), "artist": a.get("artist"), "year": a.get("year")} for a in (rec.get("albums") or [])], ensure_ascii=False)[:1500]
             + "\n\nEVIDENCE CLAIMS (quote verified mechanically where supported=true):\n" + json.dumps(claims, ensure_ascii=False)[:8000])
     return llm.json(RUBRIC, user, strong=False, temperature=0.1, max_tokens=1500)
 
@@ -89,7 +92,11 @@ def decide(gates, jd, dup, sacred):
     not_dance = bool(jd) and (jd.get("is_a_dance") is False)
     if harm or not_dance or ("ai_tells" in hard_fail) or (jd and (jd.get("verdict") == "reject" or score < 4.5)):
         gate = "reject"
-    elif hard_fail or soft_fail or (not jd) or score < 7.5 or len(doubts) > 2 or (jd and not jd.get("insight_ok")) or dup:
+    elif hard_fail or (not jd) or score < 7.5 or len(doubts) > 2 or dup:
+        gate = "review"
+    elif soft_fail and not (len(soft_fail) <= 1 and score >= 8.5):   # one soft miss is tolerated when the judge is clearly happy
+        gate = "review"
+    elif jd.get("insight_ok") is False and score < 8.5:
         gate = "review"
     else:
         gate = "publish"

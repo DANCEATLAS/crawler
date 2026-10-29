@@ -177,40 +177,65 @@ def sparql(query):
         rows.append({k: v.get("value") for k, v in b.items()})
     return rows
 
-NOT_DANCE_CLASS_WORDS = ("company", "compan", "film", "movie", "music", "festival", "competition", "contest", "song", "album", "school",
-                         "studio", "troupe", "ensemble", "award", "television", "tv ", "magazine", "event", "video game", "dancer",
-                         "choreograph", "organization", "organisation", "venue", "hall", "club", "band", "group", "championship",
-                         "musical", "opera", "ballet company", "theatre", "theater", "record", "label", "series", "show", "episode")
+DANCE_CLASS_LABELS = ("dance style", "folk dance", "dance genre", "social dance", "ritual dance", "traditional dance",
+                      "ceremonial dance", "partner dance", "street dance", "circle dance", "line dance", "couple dance",
+                      "war dance", "sword dance", "court dance", "classical dance", "type of dance", "dance form", "group dance",
+                      "solo dance", "ballroom dance", "religious dance", "national dance", "regional dance", "dance move",
+                      "Latin dance", "African dance", "folk dance of India", "Indian classical dance", "masked dance", "fan dance")
+
+def wikidata_dance_classes():
+    """QIDs of the classes dances are usually instances of (looked up by English label, cached for the run)."""
+    def fetch():
+        out = {}
+        for label in DANCE_CLASS_LABELS:
+            params = {"action": "wbsearchentities", "search": label, "language": "en", "type": "item", "limit": "5", "format": "json"}
+            try:
+                j = get_json(WIKIDATA_API + "?" + urllib.parse.urlencode(params))
+            except Exception as e:
+                warn("wikidata class search", label, e)
+                continue
+            hits = j.get("search") or []
+            exact = [h for h in hits if (h.get("label") or "").lower() == label.lower()]
+            for h in (exact or hits[:1]):
+                if h.get("id"):
+                    out[h["id"]] = h.get("label")
+        return out
+    try:
+        return cached("wd:dance-classes", fetch, ttl_days=30) or {}
+    except Exception as e:
+        warn("wikidata_dance_classes", e)
+        return {}
 
 def wikidata_dances(limit=5000):
     """Items that are a kind of dance with an English Wikipedia article.
 
-    Two passes: (1) every instance of a class whose English label mentions dance (dance style, folk dance,
-    social dance, ritual dance, ...) minus classes that are clearly not dances themselves (companies, films,
-    festivals, ...); (2) the strict subclass walk from 'dance' (Q11639) as a fallback / complement."""
-    excl = " && ".join(f'!CONTAINS(?cl, "{w}")' for w in NOT_DANCE_CLASS_WORDS)
-    q_wide = f"""
+    Pass 1: instances of the usual dance classes (dance style, folk dance, social dance, ...; class ids looked up by label).
+    Pass 2: the strict subclass walk from 'dance' (Q11639). A global label scan over all classes was tried first
+    and times out on the query service (504), so the class list is bounded on purpose."""
+    classes = wikidata_dance_classes()
+    rows, seen = [], set()
+    queries = []
+    if classes:
+        values = " ".join("wd:" + q for q in classes)
+        queries.append(("classes", f"""
     SELECT DISTINCT ?item ?itemLabel ?article ?countryLabel WHERE {{
+      VALUES ?cls {{ {values} }}
       ?item wdt:P31 ?cls .
-      ?cls rdfs:label ?clraw . FILTER(LANG(?clraw) = "en")
-      BIND(LCASE(STR(?clraw)) AS ?cl)
-      FILTER(CONTAINS(?cl, "dance") && {excl})
       ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> .
       OPTIONAL {{ ?item wdt:P495 ?country . }}
       SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
-    }} LIMIT {int(limit)}"""
-    q_strict = f"""
+    }} LIMIT {int(limit)}"""))
+    queries.append(("strict", f"""
     SELECT DISTINCT ?item ?itemLabel ?article ?countryLabel WHERE {{
       ?item wdt:P31/wdt:P279* wd:Q11639 .
       ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> .
       OPTIONAL {{ ?item wdt:P495 ?country . }}
       SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
-    }} LIMIT {int(limit)}"""
-    rows, seen = [], set()
-    for name, q in (("wide", q_wide), ("strict", q_strict)):
+    }} LIMIT {int(limit)}"""))
+    for name, q in queries:
         try:
             got = sparql(q)
-            log(f"wikidata_dances: {name} query -> {len(got)} rows")
+            log(f"wikidata_dances: {name} query -> {len(got)} rows (classes={len(classes)})")
         except Exception as e:
             warn("wikidata_dances", name, e)
             continue

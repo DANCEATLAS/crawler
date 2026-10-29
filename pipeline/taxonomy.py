@@ -74,7 +74,7 @@ def country_lookup(name):
     raw = str(name or "")
     if not raw.strip():
         return None, None
-    parts = [raw] + [p for p in re.split(r",|/|;|\band\b|&", raw) if p.strip()]
+    parts = [raw] + [p for p in re.split(r",|/|;|\band\b|&|\(|\)", raw) if p.strip()]
     for part in parts:
         n = norm(part)
         if not n:
