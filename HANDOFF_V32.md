@@ -1,4 +1,6 @@
 # DANCING ATLAS — HANDOFF V32 (29 Oct 2026)
+**Any AI continuing this work: read `AI_BRIEF.md` first — the vision, the rules, the system map and how to operate without the owner.**
+
 *(delta on V31: the content pipeline v3 — growth, depth and quality control as a daily, self-running system; the website reads the published catalogue. First real runs done; what they showed; what is still the owner's call.)*
 
 ## What changed

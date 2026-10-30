@@ -1,4 +1,5 @@
 # Dancing Atlas content pipeline (v3)
+*(Start with `AI_BRIEF.md` for the vision and the operating rules; this file is the stage-by-stage reference.)*
 
 The pipeline turns this repository into a self-running system that **grows** the catalogue,
 **deepens** every profile over time and **gates** everything behind quality control before
