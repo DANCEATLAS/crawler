@@ -7,7 +7,7 @@ Deterministic signals (certain → retire/merge automatically):
   * exact normalised name/alias collision between two slugs
 Model signal (batched, cheap): "is this a dance tradition?" with a category; a confident
 "no" retires the entry and it is listed in QC_REPORT.md.  Decisions live in
-pipeline_state/audit.json; put manual overrides in audit_overrides.json ({slug: "keep"|"retire"}).
+pipeline_state/audit.json; put manual overrides in audit_overrides.json ({slug: "keep"|"retire"|"merge:<slug>"}).
 """
 import os, json
 from collections import defaultdict
@@ -144,6 +144,10 @@ def run(llm_budget=300):
     for slug, dec in overrides.items():
         if dec in ("keep", "retire"):
             audit[slug] = {"decision": dec, "reason": "manual override", "by": "override", "at": now_iso()}
+        elif isinstance(dec, str) and dec.startswith("merge:"):   # "merge:<slug>" folds this entry into another one
+            into = dec.split(":", 1)[1].strip()
+            if into in styles and into != slug:
+                audit[slug] = {"decision": "merge", "reason": f"manual override: duplicate of {into}", "into": into, "by": "override", "at": now_iso()}
     # consistency: a merge must end at a live entry. Chains are shortened, 2-way cycles (rule A says X->Y, rule B says Y->X)
     # keep the more complete entry, and a merge into a retired entry goes to a human instead of hiding both.
     for slug, d in list(audit.items()):
