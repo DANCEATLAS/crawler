@@ -67,9 +67,9 @@ def gather_evidence(d):
         ev["sources"].append(ev["wikidata"]["url"])
         # other-language articles for depth
         extra = []
-        for lang in ("es", "fr", "pt", "de", "it"):
+        for lang in ("es", "fr", "pt", "de", "it", "ru", "ja", "id", "tr", "ar", "hi", "pl", "nl", "fa", "zh", "ko", "vi", "th", "el", "he", "uk", "sv", "cs", "ro", "hu", "sw", "ta", "bn"):
             t = (wd.get("sitelinks") or {}).get(lang + "wiki")
-            if t and len(extra) < 2:
+            if t and len(extra) < 3:
                 try:
                     api = f"https://{lang}.wikipedia.org/w/api.php"
                     from urllib.parse import urlencode
@@ -106,10 +106,19 @@ def gather_evidence(d):
             ev["sources"].append(ev["unesco"]["url"])
     except Exception as e:
         warn("unesco match", e)
+    # digitised books (Internet Archive): passages around the dance's name, for depth beyond the encyclopedias
+    try:
+        aliases = list(d.get("aliases") or []) + list(((ev.get("wikidata") or {}).get("aliases") or [])[:3])
+        books = S.archive_passages(name, aliases=aliases) if len(norm(name)) >= 4 else []
+        if books:
+            ev["books"] = books
+            ev["sources"] += [b["url"] for b in books]
+    except Exception as e:
+        warn("archive passages", name, e)
     # Commons images (licensed)
     if ev.get("wikipedia"):
         ev["images"] = S.commons_images_for_page(ev["wikipedia"]["title"], limit=12)[:8]
-    ev["text_hash"] = sha1(json.dumps([ev.get("wikipedia", {}).get("text", ""), [x["text"] for x in ev.get("wikipedia_other", [])]]))
+    ev["text_hash"] = sha1(json.dumps([ev.get("wikipedia", {}).get("text", ""), [x["text"] for x in ev.get("wikipedia_other", [])], [b.get("passages") for b in ev.get("books", [])]]))
     return ev
 
 def _source_texts(ev):
@@ -123,6 +132,8 @@ def _source_texts(ev):
     if ev.get("unesco"):
         u = ev["unesco"]
         texts[u["url"]] = " ".join(str(x) for x in (u.get("title"), u.get("countries"), u.get("year"), u.get("type"), u.get("description")) if x)
+    for b in ev.get("books", []):
+        texts[b["url"]] = "\n".join(b.get("passages") or [])
     return texts
 
 def verify_claims(claims, ev):
@@ -225,7 +236,7 @@ def normalize(comp):
         c["confidence"] = 0.0
     return c
 
-def compose(d, ev, llm):
+def compose(d, ev, llm, prev_gaps=None):
     """Ask the model for the structured profile. Returns dict or None."""
     src_blocks = []
     if ev.get("wikipedia"):
@@ -238,10 +249,16 @@ def compose(d, ev, llm):
         u = ev["unesco"]
         kind = "this dance's own inscription" if u.get("exact") else "a RELATED inscription (not this dance itself; do not claim this dance is inscribed)"
         src_blocks.append(f"SOURCE: {u['url']}\nUNESCO Intangible Cultural Heritage, {kind}: {u.get('title')} ({u.get('countries')}, {u.get('year')}, {u.get('type')})\n{u.get('description')}")
+    for b in ev.get("books", []):
+        head = f"SOURCE: {b['url']}\nDigitised book: {b.get('title')} ({b.get('year') or 'year unknown'}); passages that mention the dance (quote only from these passages):"
+        src_blocks.append(head + "\n" + "\n[...]\n".join(b.get("passages") or []))
     if not src_blocks:
         return None
     existing = {k: d.get(k) for k in ("name", "country", "region", "era", "tagline", "insight", "profile", "aliases", "related") if d.get(k)}
-    user = (f"DANCE: {d.get('name') or d.get('slug')}\nSLUG: {d.get('slug')}\nEXISTING CATALOGUE ENTRY (may be thin or partly wrong; prefer the sources): {json.dumps(existing, ensure_ascii=False)[:1500]}\n\n"
+    gaps_note = ""
+    if prev_gaps:
+        gaps_note = "\nGAPS LEFT BY THE PREVIOUS PASS (fill them if, and only if, the sources now allow it): " + "; ".join(str(g) for g in prev_gaps[:12])
+    user = (f"DANCE: {d.get('name') or d.get('slug')}\nSLUG: {d.get('slug')}\nEXISTING CATALOGUE ENTRY (may be thin or partly wrong; prefer the sources): {json.dumps(existing, ensure_ascii=False)[:1500]}{gaps_note}\n\n"
             + "\n\n".join(src_blocks))
     system = EDITORIAL.format(regions=", ".join(REGIONS), families=", ".join(FAMILIES.keys()))
     return normalize(llm.json(system, user, strong=True, temperature=0.3, max_tokens=9000))
@@ -259,10 +276,14 @@ def research_one(d, llm, sb=None):
                 rec["evidence"][k] = {kk: vv for kk, vv in rec["evidence"][k].items() if kk != "text"}
             else:
                 rec["evidence"][k] = [{kk: vv for kk, vv in x.items() if kk != "text"} for x in rec["evidence"][k]]
+    if "books" in rec["evidence"]:
+        rec["evidence"]["books"] = [{kk: vv for kk, vv in b.items() if kk != "passages"} for b in rec["evidence"]["books"]]
     if not ev.get("wikipedia") and not ev.get("wikidata"):
         jsave(out_path, rec)
         return rec
-    comp = compose(d, ev, llm)
+    prev = jload(out_path) or {}
+    prev_gaps = list(((prev.get("profile") or {}).get("gaps") or [])[:8]) + [("class is missing: " + m) for m in ((prev.get("class_checklist") or {}).get("missing") or [])[:8]]
+    comp = compose(d, ev, llm, prev_gaps=prev_gaps)
     if not comp:
         rec["status"] = "llm_failed" if llm.enabled else "dry_run"
         jsave(out_path, rec)
@@ -280,7 +301,8 @@ def research_one(d, llm, sb=None):
         "status": "researched",
         "profile": {k: comp.get(k) for k in ("name", "tagline", "insight", "profile", "profile_long", "sections", "era", "country", "aliases", "related", "is_sacred", "sacred_note", "unesco", "teaching",
                                              "music_profile", "movement_profile", "episode_brief", "connections", "confidence", "gaps")},
-        "schema": RESEARCH_SCHEMA, "movie_ready": movie_ready(comp),
+        "schema": RESEARCH_SCHEMA, "movie_ready": movie_ready(comp), "class_checklist": class_checklist(comp, ev.get("images", []), verified_albums),
+        "books": [{k: b.get(k) for k in ("identifier", "title", "year", "url")} for b in ev.get("books", [])],
         "country_code": iso or d.get("country_code"), "region": region, "family": fam,
         "claims": claims, "citation": cstats,
         "albums": verified_albums, "album_candidates": unverified_albums,
@@ -295,6 +317,31 @@ def research_one(d, llm, sb=None):
     })
     jsave(out_path, rec)
     return rec
+
+CHECKLIST = ("footwork_with_counts", "posture", "arms_and_hands", "formation", "tempo_or_meter", "instruments", "sound_description",
+             "signature_moves", "lesson_ladder", "story_beats", "hooks", "costume", "occasions", "notable_figures", "recordings", "images", "connections")
+
+def class_checklist(comp, rec_images=(), albums=()):
+    """What a fun, teachable class still lacks for this dance. Missing items steer the next deepening pass."""
+    mp, mv, eb = comp.get("music_profile") or {}, comp.get("movement_profile") or {}, comp.get("episode_brief") or {}
+    secs = comp.get("sections") or {}
+    have = {
+        "footwork_with_counts": _said(mv.get("footwork")) and bool(re.search(r"\b(count|beat|1-2|one-two|step[s]?)\b", mv.get("footwork") or "", re.I)),
+        "posture": _said(mv.get("posture")), "arms_and_hands": _said(mv.get("arms_and_hands")), "formation": _said(mv.get("formation_and_space")),
+        "tempo_or_meter": bool((mp.get("tempo_bpm") or "").strip() or (mp.get("meter") or "").strip()) and not _said_not(mp.get("tempo_bpm")) ,
+        "instruments": bool(mp.get("instruments")), "sound_description": _said(mp.get("sound_description")),
+        "signature_moves": bool(mv.get("signature_moves")), "lesson_ladder": len(eb.get("lesson_ladder") or []) >= 3,
+        "story_beats": len(eb.get("beats") or []) >= 5, "hooks": _said(comp.get("insight")) and _said(eb.get("title_hook")),
+        "costume": _said(secs.get("costume_and_setting")), "occasions": _said(secs.get("occasions_and_meaning")),
+        "notable_figures": _said(secs.get("notable_figures")), "recordings": bool(albums) or bool(mp.get("reference_recordings")),
+        "images": len(rec_images or []) >= 3, "connections": bool(comp.get("connections")),
+    }
+    missing = [k for k in CHECKLIST if not have.get(k)]
+    return {"have": sum(1 for k in CHECKLIST if have.get(k)), "of": len(CHECKLIST), "missing": missing}
+
+def _said_not(v):
+    s = (v or "").strip().lower()
+    return "not described" in s or "not in sources" in s or s in ("", "null", "none", "unknown")
 
 def _said(v):
     """True when a movie-ready field carries real content rather than a 'not described' placeholder."""
@@ -355,6 +402,7 @@ def run(budget_new=20, budget_enrich=20, only=None):
         try:
             rec = research_one(d, llm, sb)
             index[slug] = {"researched_at": rec["researched_at"], "status": rec["status"], "kind": kind, "schema": rec.get("schema"), "movie_ready": rec.get("movie_ready"),
+                           "class_have": (rec.get("class_checklist") or {}).get("have"), "class_missing": (rec.get("class_checklist") or {}).get("missing"),
                            "citation_rate": (rec.get("citation") or {}).get("rate"), "albums": len(rec.get("albums") or []), "images": len(rec.get("images") or [])}
             rep.inc("researched_" + rec["status"])
             if kind == "new" and slug in cands:

@@ -66,6 +66,7 @@ def run():
               f"- Hero QC verdicts: {dict(hstat)} (checked {len(hq)})", "",
               "## Discovery → research → QC", f"- Candidates: {dict(cstat)}", f"- Research index: {dict(rstat)}",
               f"- Movie-ready (music DNA + movement DNA + episode brief from sources): {sum(1 for v in rindex.values() if v.get('movie_ready'))} of {sum(1 for v in rindex.values() if v.get('status') == 'researched')} researched",
+              "- What classes still lack most (count of researched pages missing it): " + ", ".join(f"{k} {n}" for k, n in Counter(m for v in rindex.values() for m in (v.get('class_missing') or [])).most_common(8)),
               f"- QC gates: {dict(qstat)}", "",
               "## Last runs"]
     for stage in ("audit", "discover", "research", "qc", "hero_qc", "build", "sync", "report"):

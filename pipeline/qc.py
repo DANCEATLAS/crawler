@@ -85,7 +85,7 @@ def deterministic_gates(rec, idx, catalog_by_slug):
 def judge(rec, llm):
     p = rec.get("profile") or {}
     claims = [{"text": c.get("text"), "quote": c.get("quote"), "supported": c.get("supported")} for c in (rec.get("claims") or [])][:40]
-    user = ("PROFILE JSON:\n" + json.dumps({k: p.get(k) for k in ("name", "tagline", "insight", "profile", "profile_long", "sections", "is_sacred", "sacred_note", "teaching", "country", "era")}, ensure_ascii=False)[:14000]
+    user = ("PROFILE JSON:\n" + json.dumps({k: p.get(k) for k in ("name", "tagline", "insight", "profile", "profile_long", "sections", "is_sacred", "sacred_note", "teaching", "music_profile", "movement_profile", "country", "era")}, ensure_ascii=False)[:17000]
             + "\n\nALBUMS (verified to exist in MusicBrainz; judge their relevance):\n" + json.dumps([{"title": a.get("title"), "artist": a.get("artist"), "year": a.get("year")} for a in (rec.get("albums") or [])], ensure_ascii=False)[:1500]
             + "\n\nEVIDENCE CLAIMS (quote verified mechanically where supported=true):\n" + json.dumps(claims, ensure_ascii=False)[:8000])
     return flat_judge(llm.json(RUBRIC, user, strong=False, temperature=0.1, max_tokens=1500))

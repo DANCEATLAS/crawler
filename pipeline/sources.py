@@ -344,6 +344,69 @@ def unesco_ich_index():
         return []
 
 # ----------------------------------------------------------------- MusicBrainz (album verification)
+ARCHIVE_SEARCH = "https://archive.org/advancedsearch.php"
+
+def _passages(text, name, window=1100, max_n=4):
+    """Windows of text around mentions of the dance name (whole word, case-insensitive), deduplicated."""
+    out, last_end = [], -1
+    for m in re.finditer(r"(?i)(?<![A-Za-z])" + re.escape(name) + r"(?![A-Za-z])", text):
+        if m.start() < last_end:
+            continue
+        a, b = max(0, m.start() - window // 2), min(len(text), m.end() + window // 2)
+        seg = re.sub(r"[ \t]+", " ", re.sub(r"-\n(?=[a-z])", "", text[a:b])).strip()
+        seg = re.sub(r"\n{2,}", "\n", seg)
+        out.append(seg); last_end = b
+        if len(out) >= max_n:
+            break
+    return out
+
+def archive_passages(name, aliases=(), max_books=3):
+    """Passages from digitised books on the Internet Archive that mention the dance (public texts only).
+
+    Metadata search first (title/description mentions the dance and a dance word), then the OCR text of
+    the best matches; only the windows around the dance's name are kept, so the quote check has the exact
+    text the model saw. Books under controlled lending have no public OCR and are skipped."""
+    key = "ia:" + norm(name)
+    def fetch():
+        q = f'("{name}") AND (dance OR danse OR danza OR baile OR tanz OR folk) AND mediatype:texts'
+        params = {"q": q, "fl[]": ["identifier", "title", "year", "language"], "rows": "12", "sort[]": "downloads desc", "output": "json"}
+        url = ARCHIVE_SEARCH + "?" + urllib.parse.urlencode(params, doseq=True)
+        try:
+            j = get_json(url, timeout=40, retries=1)
+        except Exception as e:
+            warn("archive search", name, e)
+            return []
+        docs = ((j or {}).get("response") or {}).get("docs") or []
+        found = []
+        names = [name] + [a for a in aliases if a and len(a) >= 4][:3]
+        for d in docs:
+            ident = d.get("identifier")
+            if not ident or len(found) >= max_books:
+                continue
+            txt_url = f"https://archive.org/download/{ident}/{ident}_djvu.txt"
+            try:
+                st, txt, _ = http(txt_url, headers={"Accept": "text/plain"}, timeout=60, retries=1)
+            except Exception as e:
+                continue   # no public OCR (lending-only) or a dead item
+            if not txt or len(txt) < 2000:
+                continue
+            txt = txt[:3_000_000]
+            segs = []
+            for n in names:
+                segs += _passages(txt, n)
+                if len(segs) >= 4:
+                    break
+            if not segs:
+                continue
+            found.append({"identifier": ident, "title": d.get("title"), "year": d.get("year"), "language": d.get("language"),
+                          "url": f"https://archive.org/details/{ident}", "passages": segs[:4]})
+        return found
+    try:
+        return cached(key, fetch, ttl_days=30) or []
+    except Exception as e:
+        warn("archive_passages", name, e)
+        return []
+
 def mb_search_release_group(artist, title):
     """Return the best-matching release group (album) or None. Respects MB rate limit (1 req/s)."""
     q = f'releasegroup:"{title}" AND artist:"{artist}"'
