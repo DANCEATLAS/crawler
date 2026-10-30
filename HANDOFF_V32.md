@@ -47,7 +47,9 @@ At that pace the rest of the catalogue is audited in ~2 days, every hero is chec
 3. Optional: run `seed_catalog` once and the SQL migration so Supabase carries the deep profiles too.
 4. `QC_REPORT.md` is the review queue; `audit_overrides.json` is the steering wheel (one line per decision). The owner asked to be involved only when something cannot be done without him.
 
-## Future (the vision)
-The per-dance `research` record (sections, teaching steps, verified albums, licensed images, claims with sources) is the input for generated episodes and, later, movement teaching. Next step for that road: a per-dance `episode_brief` (narration beats drawn from the sections) and step-level movement notation in `teaching`.
+## 30 Oct — the mission, as the owner stated it
+Data-building, in perpetuity: keep finding dances everywhere (and keep finding *more* about the ones we have), filter harshly (no doubles, no junk), research each to movie-ready depth, connect them, store everything free on GitHub so nothing is lost whatever happens to credits, never spend Lovable credits, and have the whole library ready to hand to an AI video/music generator the day the owner decides — no video work now, no launch (the site is reachable to show the vision; that is not a launch).
+Built for it on 30 Oct: research schema v4 (music DNA, movement DNA, episode brief, connections, class checklist), digitised books as a source, three extra-language articles, gaps carried into the next pass, merge overrides, 25 new dances a day, the 45 audit doubts decided by hand (overrides).
+Open dials (asked, awaiting answers): variants as separate pages or sections; teaching steps for sacred dances; breadth vs depth split.
 
 — end V32 —
