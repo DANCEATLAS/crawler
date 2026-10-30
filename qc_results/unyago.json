@@ -1,0 +1,120 @@
+{
+ "slug": "unyago",
+ "qc_at": "2026-10-30T18:06:27Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 7.35,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Unyago"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "84"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "154"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Unyago is both a multi-day initiation ritual for girls and a musical genre, wher"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "442"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1465"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,music_and_instruments,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/4 rate=0.75"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Tanzania, Kenya"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ceremon', 'initiation']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 8,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 7,
+  "verdict": "review",
+  "notes": "Well-written profile respecting cultural context. Teaching and movement data are sparse because sources lack technical descriptions, which lowers teaching value."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "insight_concrete",
+  "sections_filled",
+  "judge_score=7.35",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 3,
+  "rate": 0.75
+ },
+ "researched_at": "2026-10-30T16:27:12Z"
+}

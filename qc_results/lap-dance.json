@@ -1,0 +1,117 @@
+{
+ "slug": "lap-dance",
+ "qc_at": "2026-10-30T18:07:26Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 7.65,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "lap dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "72"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "160"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Born in 1970s New York and San Francisco strip clubs, the lap dance turned audie"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "351"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2136"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United States"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 8,
+  "teaching_value": 4,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 6,
+  "verdict": "reject",
+  "notes": "While well-researched, 'lap dance' is an adult entertainment activity and commercial sex practice rather than a folk, traditional, or stylistic dance form suited for the Dancing Atlas database."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=7.65",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-30T17:09:29Z"
+}

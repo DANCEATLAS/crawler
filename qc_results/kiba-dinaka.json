@@ -1,0 +1,120 @@
+{
+ "slug": "kiba-dinaka",
+ "qc_at": "2026-10-30T18:04:13Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 8.45,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Kiba / Dinaka"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "81"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "151"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In Balobedu communities, Dinaka serves as a generational bridge, where elderly m"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "508"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1924"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/3 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "South Africa"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": false,
+   "detail": "the provided sources"
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 8,
+  "verdict": "review",
+  "notes": "Accurate and respectful adherence to provided evidence, but teaching values are sparse due to lack of documented source details on technical steps."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "sources",
+  "ai_tells",
+  "sections_filled",
+  "judge_score=8.45"
+ ],
+ "citation": {
+  "claims": 3,
+  "supported": 3,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-30T17:38:41Z"
+}

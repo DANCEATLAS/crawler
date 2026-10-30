@@ -1,14 +1,18 @@
 {
  "slug": "pique",
  "name": "Pique",
- "researched_at": "2026-10-29T16:33:24Z",
+ "researched_at": "2026-10-30T17:49:00Z",
  "evidence": {
-  "fetched_at": "2026-10-29T16:33:22Z",
+  "fetched_at": "2026-10-30T17:41:00Z",
   "sources": [
    "https://en.wikipedia.org/wiki/Glossary_of_ballet",
    "https://www.wikidata.org/wiki/Q805240",
    "https://fr.wikipedia.org/wiki/Vocabulaire_de_la_danse_classique",
-   "https://de.wikipedia.org/wiki/Ballett-Glossar"
+   "https://de.wikipedia.org/wiki/Ballett-Glossar",
+   "https://it.wikipedia.org/wiki/Glossario_della_danza_classica",
+   "https://archive.org/details/LBT_20160713",
+   "https://archive.org/details/LLT_1924062401",
+   "https://archive.org/details/LBT_1993061101"
   ],
   "wikipedia": {
    "title": "Glossary of ballet",
@@ -65,9 +69,37 @@
     "lang": "de",
     "title": "Ballett-Glossar",
     "url": "https://de.wikipedia.org/wiki/Ballett-Glossar"
+   },
+   {
+    "lang": "it",
+    "title": "Glossario della danza classica",
+    "url": "https://it.wikipedia.org/wiki/Glossario_della_danza_classica"
    }
   ],
-  "text_hash": "6ceef625cd9d"
+  "books": [
+   {
+    "identifier": "LBT_20160713",
+    "title": "La liberté (2016-07-13)",
+    "year": 2016,
+    "language": "French",
+    "url": "https://archive.org/details/LBT_20160713"
+   },
+   {
+    "identifier": "LLT_1924062401",
+    "title": "La liberté (1924-06-24)",
+    "year": 1924,
+    "language": "French",
+    "url": "https://archive.org/details/LLT_1924062401"
+   },
+   {
+    "identifier": "LBT_1993061101",
+    "title": "La liberté (1993-06-11)",
+    "year": 1993,
+    "language": "French",
+    "url": "https://archive.org/details/LBT_1993061101"
+   }
+  ],
+  "text_hash": "e3cd7110689c"
  },
  "images": [
   {
@@ -178,64 +210,130 @@
  "status": "researched",
  "profile": {
   "name": "Pique",
-  "tagline": "Classical ballet terminology and vocabulary sourced from international glossaries",
-  "insight": "Ballet terminology is predominantly in French because the art form's formalized roots trace through Italy and France.",
-  "profile": "The provided sources document classical ballet terminology rather than a Trinidadian belé dance. Formalized movements and poses require years of daily training. Because history began in Italy and transitioned to France, most ballet terms retain French or Italian origins. Standardized glossaries catalog these foundational positions, steps, and exercises.",
-  "profile_long": "The provided reference materials consist of classical ballet glossaries in English, French, and German, along with general notes on ballet terminology. According to these sources, the movements and poses in ballet are highly formalised, requiring years of daily training to master. Because the history of ballet begins in Italy before passing to France, the majority of ballet terminology originates from French or Italian. Schools of ballet use slightly divergent terminology, and daily practice often incorporates abbreviations. Exercises are frequently performed at a sturdy horizontal bar placed at waist height, which serves as a tool for balance during warm-ups. Standard codified elements include slow movements like adagio, brisk motions like allegro, and specific body positions such as arabesque and attitude.",
+  "tagline": "No documented dance tradition found under this name in provided sources.",
+  "insight": "The provided sources contain no reference to a dance tradition named Pique, only mentions of community 'pique-niques' (picnics) in historical Manitoba newspapers.",
+  "profile": "There is no evidence in the provided sources to support the existence of a dance tradition called Pique. The term appears in the provided archives exclusively as 'pique-nique,' referring to social community gatherings and outdoor events in Manitoba, Canada.",
+  "profile_long": "The provided research materials do not contain any information regarding a dance tradition known as Pique. While the term 'Piqué' is a common technical term in classical ballet, it is absent from the provided ballet glossaries. The only occurrences of the word 'pique' within the source set are found in historical newspaper archives from La Liberté, where it is used as part of the French term 'pique-nique' (picnic). These sources describe community events, such as the 'pique-nique annuel de l'Union nationale métisse' held in June, which involved social gatherings, games, and outdoor activities. Consequently, it is not possible to construct an encyclopedia entry for a dance tradition under this name using the provided documentation.",
   "sections": {
-   "origins_and_history": "The history of ballet begins in Italy and subsequently transitions to France, which accounts for the predominance of French and Italian terminology in classical dance vocabulary.",
-   "how_it_is_danced": "Technique not described in sources beyond general codified positions, jumps (such as assemblé and cabriole), and movements performed at the barre or in the center.",
-   "music_and_instruments": "Not described in sources.",
-   "costume_and_setting": "Performed in training or performance settings utilizing a sturdy horizontal bar, approximately waist height, mounted on walls or portable.",
-   "occasions_and_meaning": "Not described in sources.",
-   "notable_figures": "Agrippina J. Vaganova, Michael Schulze, Gretchen Ward Warren, Darcey Bussell, Eliza Gaynor Minden, Robert Greskovic, Horst Koegler, Klaus Kieser.",
-   "regional_variants": "Ballet terminology is not entirely uniform; each of the major schools uses slightly divergent terms.",
-   "lineage": "Classical ballet"
+   "origins_and_history": "Not described in sources as a dance.",
+   "how_it_is_danced": "Not described in sources as a dance.",
+   "music_and_instruments": "Not described in sources as a dance.",
+   "costume_and_setting": "Not described in sources as a dance.",
+   "occasions_and_meaning": "The term 'pique-nique' refers to community social gatherings and outdoor events.",
+   "notable_figures": "Not described in sources.",
+   "regional_variants": "Not described in sources.",
+   "lineage": "Not described in sources."
   },
-  "era": "classical",
-  "country": "France / Italy",
+  "era": "Not applicable",
+  "country": "Not applicable",
   "aliases": [],
   "related": [],
   "is_sacred": false,
-  "sacred_note": "",
+  "sacred_note": "Not applicable",
   "unesco": false,
   "teaching": {
    "basic_steps": [],
-   "rhythm": "not described in sources",
-   "formation": "not described in sources",
-   "level_notes": "technique not described in sources"
+   "rhythm": "Not applicable",
+   "formation": "Not applicable",
+   "level_notes": "Not applicable"
   },
-  "confidence": 0.2,
+  "music_profile": {
+   "tempo_bpm": "Not applicable",
+   "meter": "Not applicable",
+   "rhythm_pattern": "Not applicable",
+   "instruments": [],
+   "vocal_style": "Not applicable",
+   "musical_form": "Not applicable",
+   "mood_keywords": [],
+   "reference_recordings": [],
+   "sound_description": "Not applicable"
+  },
+  "movement_profile": {
+   "posture": "Not applicable",
+   "footwork": "Not applicable",
+   "arms_and_hands": "Not applicable",
+   "hips_and_torso": "Not applicable",
+   "formation_and_space": "Not applicable",
+   "partnering": "Not applicable",
+   "tempo_feel": "Not applicable",
+   "signature_moves": [],
+   "levels_and_jumps": "Not applicable",
+   "difficulty": "Not applicable",
+   "what_to_avoid": "Not applicable"
+  },
+  "episode_brief": {
+   "title_hook": "Not applicable",
+   "logline": "Not applicable",
+   "beats": [],
+   "lesson_ladder": [],
+   "visual_motifs": [],
+   "instructor_persona": "Not applicable",
+   "music_cue": "Not applicable"
+  },
+  "connections": [],
+  "confidence": 0.0,
   "gaps": [
-   "Provided sources are ballet glossaries truncated at letters D and C, containing no entry for Pique or Piqué, nor any reference to Trinidad and Tobago or belé dances."
+   "No sources support the existence of a dance named Pique.",
+   "The ballet term 'Piqué' is not defined in any of the provided ballet glossaries.",
+   "The provided sources only support the usage of 'pique-nique' as a picnic."
   ]
  },
- "country_code": "FR",
- "region": "Europe",
- "family": "classical-court",
+ "schema": 4,
+ "movie_ready": false,
+ "class_checklist": {
+  "have": 3,
+  "of": 17,
+  "missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "formation",
+   "instruments",
+   "sound_description",
+   "signature_moves",
+   "lesson_ladder",
+   "story_beats",
+   "hooks",
+   "costume",
+   "notable_figures",
+   "recordings",
+   "connections"
+  ]
+ },
+ "books": [
+  {
+   "identifier": "LBT_20160713",
+   "title": "La liberté (2016-07-13)",
+   "year": 2016,
+   "url": "https://archive.org/details/LBT_20160713"
+  },
+  {
+   "identifier": "LLT_1924062401",
+   "title": "La liberté (1924-06-24)",
+   "year": 1924,
+   "url": "https://archive.org/details/LLT_1924062401"
+  },
+  {
+   "identifier": "LBT_1993061101",
+   "title": "La liberté (1993-06-11)",
+   "year": 1993,
+   "url": "https://archive.org/details/LBT_1993061101"
+  }
+ ],
+ "country_code": null,
+ "region": "Global",
+ "family": null,
  "claims": [
   {
-   "text": "Ballet history originates in Italy and moves to France, making French and Italian the primary languages of ballet terminology.",
-   "source": "https://de.wikipedia.org/wiki/Ballett-Glossar",
-   "quote": "Da die Geschichte des Balletts in Italien beginnt und dann auf Frankreich übergeht, sind noch heute die meisten Begriffe der Ballettsprache französischen oder seltener italienischen Ursprungs.",
-   "supported": true
-  },
-  {
-   "text": "A barre is a sturdy waist-high horizontal bar used for balance during ballet training.",
-   "source": "https://en.wikipedia.org/wiki/Glossary_of_ballet",
-   "quote": "A sturdy horizontal bar, approximately waist height, used during ballet warm-up exercises and training.",
-   "supported": true
-  },
-  {
-   "text": "Classical dance vocabulary encompasses codified terms and expressions used in the discipline.",
-   "source": "https://fr.wikipedia.org/wiki/Vocabulaire_de_la_danse_classique",
-   "quote": "Le vocabulaire de la danse classique comprend les termes et expressions utilisés en danse classique.",
+   "text": "The term 'pique-nique' in the provided sources refers to community social gatherings.",
+   "source": "https://archive.org/details/LBT_20160713",
+   "quote": "Le pique-nique annuel de l'Union nationale métisse tenu le 22 juin a attiré au-delà de 300 personnes!",
    "supported": true
   }
  ],
  "citation": {
-  "claims": 3,
-  "supported": 3,
+  "claims": 1,
+  "supported": 1,
   "rate": 1.0
  },
  "albums": [],
@@ -244,7 +342,11 @@
   "https://en.wikipedia.org/wiki/Glossary_of_ballet",
   "https://www.wikidata.org/wiki/Q805240",
   "https://fr.wikipedia.org/wiki/Vocabulaire_de_la_danse_classique",
-  "https://de.wikipedia.org/wiki/Ballett-Glossar"
+  "https://de.wikipedia.org/wiki/Ballett-Glossar",
+  "https://it.wikipedia.org/wiki/Glossario_della_danza_classica",
+  "https://archive.org/details/LBT_20160713",
+  "https://archive.org/details/LLT_1924062401",
+  "https://archive.org/details/LBT_1993061101"
  ],
  "sacred_cues": [],
  "sacred_cue_flag": false,
@@ -253,5 +355,5 @@
  "unesco_ref": null,
  "unesco_related": null,
  "coords": null,
- "llm_calls": 24
+ "llm_calls": 49
 }

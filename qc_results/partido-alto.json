@@ -1,0 +1,119 @@
+{
+ "slug": "partido-alto",
+ "qc_at": "2026-10-30T18:06:30Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 9.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "partido alto"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "73"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "160"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Rooted in the drum circles of Rio de Janeiro, partido alto pits poets against on"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "587"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2663"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Brazil"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['god', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 8,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 9,
+  "verdict": "review",
+  "notes": "Partido alto is primarily a musical subgenre and poetic competition style of samba rather than a distinct dance form, though it involves movement within the roda. The profile is exceptionally well-researched, but is_a_dance must be false."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "banned_phrasing",
+  "judge_score=9.7",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-30T16:43:09Z"
+}

@@ -1,9 +1,9 @@
 {
  "slug": "rateliai",
- "qc_at": "2026-10-29T02:43:02Z",
+ "qc_at": "2026-10-30T18:06:13Z",
  "version": "v3.2",
  "publish_gate": "reject",
- "qc_score": 2.0,
+ "qc_score": 2.75,
  "gates": [
   {
    "gate": "has_name",
@@ -13,37 +13,37 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "39"
+   "detail": "29"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "168"
+   "detail": "161"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "The provided reference sources classify general European folk music traditions w"
+   "detail": "Rateliai are identified as Lithuanian sung round dances, though specific histori"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "359"
+   "detail": "193"
   },
   {
    "gate": "profile_long_len",
    "ok": false,
-   "detail": "668"
+   "detail": "509"
   },
   {
    "gate": "sections_filled",
    "ok": false,
-   "detail": "origins_and_history"
+   "detail": ""
   },
   {
    "gate": "citations",
    "ok": false,
-   "detail": "2/2 rate=1.0"
+   "detail": "0/0 rate=0.0"
   },
   {
    "gate": "sources",
@@ -88,12 +88,12 @@
  ],
  "judge": {
   "accuracy": 1,
-  "respect": 5,
+  "respect": 8,
   "specificity": 1,
   "teaching_value": 1,
   "is_a_dance": true,
   "factual_doubt": [
-   "The profile contains no verifiable information about the dance itself, only meta-commentary on the lack of sources."
+   "Rateliai are identified as Lithuanian sung round dances, though specific historical and technical documentation remains absent from the provided source material."
   ],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
@@ -101,7 +101,7 @@
   "album_doubt": [],
   "overall": 1,
   "verdict": "reject",
-  "notes": "The profile fails to describe the dance due to a lack of source material. It should be rejected and rewritten when proper evidence is available."
+  "notes": "The profile contains no source evidence or actual content, consisting entirely of statements noting the absence of information. It cannot be published."
  },
  "judge_reused": false,
  "duplicate_of": null,
@@ -111,13 +111,13 @@
   "ai_tells",
   "profile_long_len",
   "sections_filled",
-  "judge_score=2.0",
+  "judge_score=2.75",
   "doubts=1"
  ],
  "citation": {
-  "claims": 2,
-  "supported": 2,
-  "rate": 1.0
+  "claims": 0,
+  "supported": 0,
+  "rate": 0.0
  },
- "researched_at": "2026-10-29T02:41:39Z"
+ "researched_at": "2026-10-30T17:39:20Z"
 }

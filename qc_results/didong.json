@@ -1,0 +1,118 @@
+{
+ "slug": "didong",
+ "qc_at": "2026-10-30T18:07:39Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 9.3,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Didong"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "82"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "170"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Fifteen men sit cross-legged or stand, using their own bodies, pillows, and pots"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "393"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "1108"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "how_it_is_danced,music_and_instruments,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "4/4 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Indonesia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Solidly supported by evidence. Accurately details the Gayo folk art of Didong from Aceh, capturing the vocal, percussive, and physical elements."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=9.3"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 4,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-30T17:36:58Z"
+}

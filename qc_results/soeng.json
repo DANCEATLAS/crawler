@@ -1,9 +1,9 @@
 {
  "slug": "soeng",
- "qc_at": "2026-10-29T17:04:44Z",
+ "qc_at": "2026-10-30T18:06:24Z",
  "version": "v3.2",
- "publish_gate": "reject",
- "qc_score": 8.75,
+ "publish_gate": "review",
+ "qc_score": 7.4,
  "gates": [
   {
    "gate": "has_name",
@@ -13,37 +13,37 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "77"
+   "detail": "57"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "198"
+   "detail": "115"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Soeng is a vibrant, energetic folk dance from Upper Northeastern Thailand, disti"
+   "detail": "Soeng dances burst with lively rhythms and often feature improvised movements du"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "397"
+   "detail": "416"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "1302"
+   "detail": "1369"
   },
   {
    "gate": "sections_filled",
-   "ok": false,
-   "detail": "origins_and_history,how_it_is_danced,occasions_and_meaning"
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
   },
   {
    "gate": "citations",
    "ok": false,
-   "detail": "3/3 rate=1.0"
+   "detail": "2/3 rate=0.667"
   },
   {
    "gate": "sources",
@@ -62,13 +62,13 @@
   },
   {
    "gate": "banned_phrasing",
-   "ok": false,
-   "detail": "codified,deeply rooted"
+   "ok": true,
+   "detail": ""
   },
   {
    "gate": "ai_tells",
-   "ok": false,
-   "detail": "the provided sources"
+   "ok": true,
+   "detail": ""
   },
   {
    "gate": "no_repetition",
@@ -82,39 +82,42 @@
   },
   {
    "gate": "sacred_handled",
-   "ok": true,
-   "detail": "sacred=False cues=['spirit']"
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'spirit']"
   }
  ],
  "judge": {
-  "accuracy": 10,
+  "accuracy": 8,
   "respect": 10,
-  "specificity": 8,
-  "teaching_value": 5,
+  "specificity": 6,
+  "teaching_value": 4,
   "is_a_dance": true,
-  "factual_doubt": [],
+  "factual_doubt": [
+   "The profile states 'Soeng' is a distinct standalone dance name, whereas it is actually a general prefix/category for various Isan folk dances (e.g., Soeng Bang Fai, Soeng Kra Chap).",
+   "Specific instrument accompaniment claims rely on generalized assumptions rather than exact source verification."
+  ],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
-  "overall": 8,
-  "verdict": "publish",
-  "notes": "Accurate and well-supported profile based on evidence claims, though teaching and technical details are sparse due to source limitations."
+  "overall": 7,
+  "verdict": "review",
+  "notes": "Good cultural framing and respect, but 'Soeng' is structurally a category/style descriptor rather than a single specific dance. Teaching and specific movement details are sparse."
  },
  "judge_reused": false,
  "duplicate_of": null,
- "is_sacred": false,
+ "is_sacred": true,
  "reasons": [
   "citations",
-  "ai_tells",
-  "sections_filled",
-  "banned_phrasing",
-  "judge_score=8.75"
+  "sacred_handled",
+  "judge_score=7.4",
+  "doubts=2",
+  "sacred"
  ],
  "citation": {
   "claims": 3,
-  "supported": 3,
-  "rate": 1.0
+  "supported": 2,
+  "rate": 0.667
  },
- "researched_at": "2026-10-29T16:40:05Z"
+ "researched_at": "2026-10-30T17:49:35Z"
 }

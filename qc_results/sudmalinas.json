@@ -1,9 +1,9 @@
 {
  "slug": "sudmalinas",
- "qc_at": "2026-10-29T02:43:03Z",
+ "qc_at": "2026-10-30T18:06:19Z",
  "version": "v3.2",
  "publish_gate": "reject",
- "qc_score": 6.4,
+ "qc_score": 2.6,
  "gates": [
   {
    "gate": "has_name",
@@ -13,37 +13,37 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "21"
+   "detail": "42"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "122"
+   "detail": "150"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "The provided sources contain no information regarding the history, technique, or"
+   "detail": "Sudmalinas, meaning 'little mill,' is a Latvian figure dance published in 1934, "
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "230"
+   "detail": "407"
   },
   {
    "gate": "profile_long_len",
-   "ok": false,
-   "detail": "679"
+   "ok": true,
+   "detail": "1459"
   },
   {
    "gate": "sections_filled",
    "ok": false,
-   "detail": ""
+   "detail": "origins_and_history,lineage"
   },
   {
    "gate": "citations",
    "ok": false,
-   "detail": "0/0 rate=0.0"
+   "detail": "0/2 rate=0.0"
   },
   {
    "gate": "sources",
@@ -67,8 +67,8 @@
   },
   {
    "gate": "ai_tells",
-   "ok": false,
-   "detail": "the provided sources"
+   "ok": true,
+   "detail": ""
   },
   {
    "gate": "no_repetition",
@@ -82,39 +82,42 @@
   },
   {
    "gate": "sacred_handled",
-   "ok": true,
-   "detail": "sacred=False cues=[]"
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'sacred']"
   }
  ],
  "judge": {
-  "accuracy": 10,
-  "respect": 10,
+  "accuracy": 2,
+  "respect": 6,
   "specificity": 1,
   "teaching_value": 1,
   "is_a_dance": true,
-  "factual_doubt": [],
+  "factual_doubt": [
+   "Sudmalinas is related to flamenco, waltz, sevillanas, and ballet."
+  ],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": false,
   "album_doubt": [],
   "overall": 2,
   "verdict": "reject",
-  "notes": "The profile lacks any substantive content due to a lack of evidence claims, rendering it unsuitable for publication as a dance guide."
+  "notes": "Profile contains almost no verifiable content, hallucinates unsupported dance relationships (flamenco, ballet), and lacks all teaching and movement details. Must be rejected."
  },
  "judge_reused": false,
  "duplicate_of": null,
- "is_sacred": false,
+ "is_sacred": true,
  "reasons": [
   "citations",
-  "ai_tells",
-  "profile_long_len",
   "sections_filled",
-  "judge_score=6.4"
+  "sacred_handled",
+  "judge_score=2.6",
+  "doubts=1",
+  "sacred"
  ],
  "citation": {
-  "claims": 0,
+  "claims": 2,
   "supported": 0,
   "rate": 0.0
  },
- "researched_at": "2026-10-29T02:41:55Z"
+ "researched_at": "2026-10-30T17:39:42Z"
 }

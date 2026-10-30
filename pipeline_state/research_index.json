@@ -248,18 +248,40 @@
   "images": 8
  },
  "mongol-biyelgee": {
-  "researched_at": "2026-10-28T16:25:45Z",
-  "status": "llm_failed",
+  "researched_at": "2026-10-30T17:37:57Z",
+  "status": "researched",
   "kind": "enrich",
-  "citation_rate": null,
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 10,
+  "class_missing": [
+   "footwork_with_counts",
+   "tempo_or_meter",
+   "lesson_ladder",
+   "hooks",
+   "notable_figures",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 0.75,
   "albums": 0,
   "images": 1
  },
  "intore": {
-  "researched_at": "2026-10-28T16:25:58Z",
-  "status": "llm_failed",
+  "researched_at": "2026-10-30T17:38:14Z",
+  "status": "researched",
   "kind": "enrich",
-  "citation_rate": null,
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 12,
+  "class_missing": [
+   "tempo_or_meter",
+   "lesson_ladder",
+   "recordings",
+   "images",
+   "connections"
+  ],
+  "citation_rate": 0.75,
   "albums": 0,
   "images": 1
  },
@@ -288,10 +310,23 @@
   "images": 0
  },
  "dhamal-sufi": {
-  "researched_at": "2026-10-28T16:26:40Z",
-  "status": "llm_failed",
+  "researched_at": "2026-10-30T17:38:31Z",
+  "status": "researched",
   "kind": "enrich",
-  "citation_rate": null,
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 9,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "formation",
+   "tempo_or_meter",
+   "lesson_ladder",
+   "recordings",
+   "images",
+   "connections"
+  ],
+  "citation_rate": 1.0,
   "albums": 0,
   "images": 1
  },
@@ -360,10 +395,27 @@
   "images": 0
  },
  "kiba-dinaka": {
-  "researched_at": "2026-10-29T01:44:41Z",
-  "status": "llm_failed",
+  "researched_at": "2026-10-30T17:38:41Z",
+  "status": "researched",
   "kind": "enrich",
-  "citation_rate": null,
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 5,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "formation",
+   "tempo_or_meter",
+   "signature_moves",
+   "lesson_ladder",
+   "story_beats",
+   "hooks",
+   "notable_figures",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
   "albums": 0,
   "images": 0
  },
@@ -376,10 +428,26 @@
   "images": 6
  },
  "metelytsia": {
-  "researched_at": "2026-10-29T01:59:56Z",
-  "status": "llm_failed",
+  "researched_at": "2026-10-30T17:38:58Z",
+  "status": "researched",
   "kind": "enrich",
-  "citation_rate": null,
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 6,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "formation",
+   "tempo_or_meter",
+   "lesson_ladder",
+   "hooks",
+   "costume",
+   "notable_figures",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
   "albums": 0,
   "images": 1
  },
@@ -408,10 +476,32 @@
   "images": 1
  },
  "rateliai": {
-  "researched_at": "2026-10-29T02:41:39Z",
+  "researched_at": "2026-10-30T17:39:20Z",
   "status": "researched",
   "kind": "enrich",
-  "citation_rate": 1.0,
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 0,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "formation",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "signature_moves",
+   "lesson_ladder",
+   "story_beats",
+   "hooks",
+   "costume",
+   "occasions",
+   "notable_figures",
+   "recordings",
+   "images",
+   "connections"
+  ],
+  "citation_rate": 0.0,
   "albums": 0,
   "images": 0
  },
@@ -424,9 +514,25 @@
   "images": 0
  },
  "sudmalinas": {
-  "researched_at": "2026-10-29T02:41:55Z",
+  "researched_at": "2026-10-30T17:39:42Z",
   "status": "researched",
   "kind": "enrich",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 6,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "formation",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "signature_moves",
+   "occasions",
+   "recordings",
+   "images"
+  ],
   "citation_rate": 0.0,
   "albums": 0,
   "images": 0
@@ -440,9 +546,30 @@
   "images": 2
  },
  "maypole-dance-jamaica": {
-  "researched_at": "2026-10-29T02:42:22Z",
+  "researched_at": "2026-10-30T17:40:52Z",
   "status": "researched",
   "kind": "enrich",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 1,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "formation",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "signature_moves",
+   "lesson_ladder",
+   "story_beats",
+   "hooks",
+   "costume",
+   "occasions",
+   "notable_figures",
+   "recordings",
+   "connections"
+  ],
   "citation_rate": 0.0,
   "albums": 0,
   "images": 6
@@ -576,9 +703,28 @@
   "images": 0
  },
  "pique": {
-  "researched_at": "2026-10-29T16:33:24Z",
+  "researched_at": "2026-10-30T17:49:00Z",
   "status": "researched",
   "kind": "enrich",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 3,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "formation",
+   "instruments",
+   "sound_description",
+   "signature_moves",
+   "lesson_ladder",
+   "story_beats",
+   "hooks",
+   "costume",
+   "notable_figures",
+   "recordings",
+   "connections"
+  ],
   "citation_rate": 1.0,
   "albums": 0,
   "images": 8
@@ -632,9 +778,20 @@
   "images": 2
  },
  "mari-folk-dance": {
-  "researched_at": "2026-10-29T16:36:32Z",
+  "researched_at": "2026-10-30T17:49:15Z",
   "status": "researched",
   "kind": "enrich",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 11,
+  "class_missing": [
+   "footwork_with_counts",
+   "tempo_or_meter",
+   "lesson_ladder",
+   "hooks",
+   "recordings",
+   "images"
+  ],
   "citation_rate": 1.0,
   "albums": 0,
   "images": 1
@@ -648,10 +805,24 @@
   "images": 0
  },
  "melpa-sing-sing": {
-  "researched_at": "2026-10-29T16:38:15Z",
+  "researched_at": "2026-10-30T17:49:26Z",
   "status": "researched",
   "kind": "enrich",
-  "citation_rate": 0.6,
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 8,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "tempo_or_meter",
+   "signature_moves",
+   "lesson_ladder",
+   "notable_figures",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
   "albums": 0,
   "images": 2
  },
@@ -680,11 +851,599 @@
   "images": 8
  },
  "soeng": {
-  "researched_at": "2026-10-29T16:40:05Z",
+  "researched_at": "2026-10-30T17:49:35Z",
   "status": "researched",
   "kind": "enrich",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 11,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "sound_description",
+   "signature_moves",
+   "costume",
+   "recordings"
+  ],
+  "citation_rate": 0.667,
+  "albums": 0,
+  "images": 8
+ },
+ "grapevine": {
+  "researched_at": "2026-10-30T16:11:34Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 5,
+  "class_missing": [
+   "footwork_with_counts",
+   "arms_and_hands",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "signature_moves",
+   "lesson_ladder",
+   "story_beats",
+   "hooks",
+   "costume",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "ball-change": {
+  "researched_at": "2026-10-30T16:17:09Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 4,
+  "class_missing": [
+   "posture",
+   "arms_and_hands",
+   "formation",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "lesson_ladder",
+   "story_beats",
+   "hooks",
+   "costume",
+   "notable_figures",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "unyago": {
+  "researched_at": "2026-10-30T16:27:12Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 5,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "formation",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "signature_moves",
+   "lesson_ladder",
+   "costume",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 0.75,
+  "albums": 0,
+  "images": 0
+ },
+ "courante": {
+  "researched_at": "2026-10-30T16:37:58Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": true,
+  "class_have": 15,
+  "class_missing": [
+   "tempo_or_meter",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 1
+ },
+ "competitive-dance": {
+  "researched_at": "2026-10-30T16:40:44Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 8,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "tempo_or_meter",
+   "signature_moves",
+   "lesson_ladder",
+   "notable_figures",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "partido-alto": {
+  "researched_at": "2026-10-30T16:43:09Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": true,
+  "class_have": 15,
+  "class_missing": [
+   "tempo_or_meter",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "melbourne-shuffle": {
+  "researched_at": "2026-10-30T16:43:36Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 13,
+  "class_missing": [
+   "posture",
+   "instruments",
+   "lesson_ladder",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 1,
+  "images": 0
+ },
+ "cheerleading": {
+  "researched_at": "2026-10-30T16:56:16Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": true,
+  "class_have": 16,
+  "class_missing": [
+   "recordings"
+  ],
   "citation_rate": 1.0,
   "albums": 0,
   "images": 8
+ },
+ "canary-dance": {
+  "researched_at": "2026-10-30T16:57:44Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": true,
+  "class_have": 14,
+  "class_missing": [
+   "footwork_with_counts",
+   "tempo_or_meter",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 1,
+  "images": 0
+ },
+ "giddha": {
+  "researched_at": "2026-10-30T17:01:06Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 9,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "formation",
+   "tempo_or_meter",
+   "signature_moves",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 1
+ },
+ "lap-dance": {
+  "researched_at": "2026-10-30T17:09:29Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 10,
+  "class_missing": [
+   "footwork_with_counts",
+   "arms_and_hands",
+   "tempo_or_meter",
+   "instruments",
+   "lesson_ladder",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 2
+ },
+ "lipsi": {
+  "researched_at": "2026-10-30T17:09:59Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": true,
+  "class_have": 15,
+  "class_missing": [
+   "tempo_or_meter",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 1,
+  "images": 0
+ },
+ "lock-step": {
+  "researched_at": "2026-10-30T17:10:27Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 3,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "formation",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "lesson_ladder",
+   "story_beats",
+   "costume",
+   "occasions",
+   "notable_figures",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "cordax": {
+  "researched_at": "2026-10-30T17:10:39Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": true,
+  "class_have": 12,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "tempo_or_meter",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "box-step": {
+  "researched_at": "2026-10-30T17:12:04Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 7,
+  "class_missing": [
+   "posture",
+   "arms_and_hands",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "lesson_ladder",
+   "costume",
+   "notable_figures",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "juba-dance": {
+  "researched_at": "2026-10-30T17:12:27Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 11,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "formation",
+   "tempo_or_meter",
+   "lesson_ladder",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 1,
+  "images": 1
+ },
+ "minuet-step": {
+  "researched_at": "2026-10-30T17:16:22Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 10,
+  "class_missing": [
+   "posture",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "costume",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "anchor-step": {
+  "researched_at": "2026-10-30T17:16:37Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 6,
+  "class_missing": [
+   "footwork_with_counts",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "signature_moves",
+   "lesson_ladder",
+   "hooks",
+   "costume",
+   "notable_figures",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "passacaglia": {
+  "researched_at": "2026-10-30T17:27:32Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": true,
+  "class_have": 15,
+  "class_missing": [
+   "footwork_with_counts",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 1,
+  "images": 0
+ },
+ "indian-dance": {
+  "researched_at": "2026-10-30T17:35:51Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": true,
+  "class_have": 14,
+  "class_missing": [
+   "footwork_with_counts",
+   "tempo_or_meter",
+   "recordings"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 8
+ },
+ "chicken-walks": {
+  "researched_at": "2026-10-30T17:36:11Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 6,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "lesson_ladder",
+   "costume",
+   "occasions",
+   "notable_figures",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "natural-and-reverse-turns": {
+  "researched_at": "2026-10-30T17:36:26Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 7,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "lesson_ladder",
+   "notable_figures",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "natural-spin-turn": {
+  "researched_at": "2026-10-30T17:36:45Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 5,
+  "class_missing": [
+   "posture",
+   "arms_and_hands",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "lesson_ladder",
+   "story_beats",
+   "hooks",
+   "costume",
+   "notable_figures",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "didong": {
+  "researched_at": "2026-10-30T17:36:58Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 8,
+  "class_missing": [
+   "footwork_with_counts",
+   "arms_and_hands",
+   "formation",
+   "tempo_or_meter",
+   "signature_moves",
+   "lesson_ladder",
+   "hooks",
+   "costume",
+   "recordings"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 6
+ },
+ "jazz-box": {
+  "researched_at": "2026-10-30T17:37:32Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 3,
+  "class_missing": [
+   "posture",
+   "arms_and_hands",
+   "formation",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "lesson_ladder",
+   "story_beats",
+   "hooks",
+   "costume",
+   "occasions",
+   "notable_figures",
+   "recordings",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "rapo": {
+  "researched_at": "2026-10-30T17:50:56Z",
+  "status": "researched",
+  "kind": "enrich",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 1,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "arms_and_hands",
+   "formation",
+   "tempo_or_meter",
+   "instruments",
+   "sound_description",
+   "signature_moves",
+   "lesson_ladder",
+   "story_beats",
+   "hooks",
+   "costume",
+   "occasions",
+   "notable_figures",
+   "recordings",
+   "connections"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 3
+ },
+ "singkil": {
+  "researched_at": "2026-10-30T17:51:04Z",
+  "status": "researched",
+  "kind": "enrich",
+  "schema": 4,
+  "movie_ready": false,
+  "class_have": 12,
+  "class_missing": [
+   "footwork_with_counts",
+   "posture",
+   "tempo_or_meter",
+   "lesson_ladder",
+   "recordings"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 3
+ },
+ "jota-aragonesa": {
+  "researched_at": "2026-10-30T17:52:20Z",
+  "status": "researched",
+  "kind": "enrich",
+  "schema": 4,
+  "movie_ready": true,
+  "class_have": 14,
+  "class_missing": [
+   "tempo_or_meter",
+   "hooks",
+   "images"
+  ],
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 2
  }
 }

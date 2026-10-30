@@ -655,16 +655,6 @@
   "is_sacred": false
  },
  {
-  "slug": "assyrian-people",
-  "name": "Assyrian people",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Assyrians",
-  "country": "Greece",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
   "slug": "asyik",
   "name": "Asyik",
   "aliases": [],
@@ -1117,28 +1107,14 @@
   "is_sacred": false
  },
  {
-  "slug": "bandari",
-  "name": "Bandari",
-  "aliases": [
-   "Bandari",
-   "Bandari dance",
-   "Raghs-e Bandari",
-   "Persian belly dance (misnomer)"
-  ],
-  "wikipedia": "https://en.wikipedia.org/wiki/Bandari_music",
-  "country": "Iran",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
   "slug": "bandari-dance",
   "name": "Bandari dance",
   "aliases": [
    "Bandari dance",
    "Bandari",
    "Raghs-e Bandari",
-   "Khaleeji-style Iranian dance"
+   "Khaleeji-style Iranian dance",
+   "Persian belly dance (misnomer)"
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Bandari_music",
   "country": "Iran",
@@ -1274,16 +1250,6 @@
   "aliases": [],
   "wikipedia": "https://en.wikipedia.org/wiki/Baton_twirling",
   "country": "USA",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "bboying",
-  "name": "BBoying",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Breakdancing",
-  "country": "United States",
   "publish": true,
   "has_hero": true,
   "is_sacred": false
@@ -1558,16 +1524,6 @@
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Bidesiya_(play)",
   "country": "India",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "bienal-de-flamenco",
-  "name": "Bienal de Flamenco",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Bienal_de_Flamenco",
-  "country": "Spain",
   "publish": true,
   "has_hero": true,
   "is_sacred": false
@@ -1961,18 +1917,6 @@
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Boston_(dance)",
   "country": "Spain",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "bougarabou",
-  "name": "Bougarabou",
-  "aliases": [
-   "Bougarabou"
-  ],
-  "wikipedia": "",
-  "country": "Senegal",
   "publish": true,
   "has_hero": true,
   "is_sacred": false
@@ -2389,16 +2333,6 @@
   "is_sacred": false
  },
  {
-  "slug": "caerdroia",
-  "name": "Caerdroia",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Caerdroia",
-  "country": "Italy",
-  "publish": true,
-  "has_hero": false,
-  "is_sacred": false
- },
- {
   "slug": "cakalele",
   "name": "Cakalele",
   "aliases": [
@@ -2482,6 +2416,21 @@
   "country": "Trinidad and Tobago",
   "publish": true,
   "has_hero": true,
+  "is_sacred": false
+ },
+ {
+  "slug": "canary-dance",
+  "name": "Canary dance",
+  "aliases": [
+   "canario",
+   "canarie",
+   "canaries",
+   "canarios"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Canary_dance",
+  "country": "Spain / France / Italy",
+  "publish": true,
+  "has_hero": false,
   "is_sacred": false
  },
  {
@@ -3046,18 +2995,6 @@
   "is_sacred": false
  },
  {
-  "slug": "come-dancing",
-  "name": "Come Dancing",
-  "aliases": [
-   "BBC"
-  ],
-  "wikipedia": "https://en.wikipedia.org/wiki/Come_Dancing",
-  "country": "Ireland",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
   "slug": "concheros",
   "name": "Concheros",
   "aliases": [
@@ -3067,19 +3004,6 @@
   "country": "Mexico",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "cong-chieng",
-  "name": "Cong Chieng (Gong Space)",
-  "aliases": [
-   "Cong Chieng (Gong Space)",
-   "Cong Chieng"
-  ],
-  "wikipedia": "",
-  "country": "Vietnam",
-  "publish": true,
-  "has_hero": false,
   "is_sacred": false
  },
  {
@@ -3110,6 +3034,20 @@
   "publish": true,
   "has_hero": true,
   "is_sacred": false
+ },
+ {
+  "slug": "cordax",
+  "name": "cordax",
+  "aliases": [
+   "kordax",
+   "cordace",
+   "motus ionici"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Cordax",
+  "country": "Greece",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
  },
  {
   "slug": "cornish-dance",
@@ -3178,6 +3116,20 @@
   "country": "Cote d'Ivoire",
   "publish": true,
   "has_hero": true,
+  "is_sacred": false
+ },
+ {
+  "slug": "courante",
+  "name": "Courante",
+  "aliases": [
+   "coranto",
+   "corant",
+   "corrente"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Courante",
+  "country": "France and Italy",
+  "publish": true,
+  "has_hero": false,
   "is_sacred": false
  },
  {
@@ -3675,8 +3627,10 @@
  {
   "slug": "dhamal-sufi",
   "name": "Dhamal",
-  "aliases": [],
-  "wikipedia": "",
+  "aliases": [
+   "Dhamail"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Dhamail",
   "country": "Pakistan",
   "publish": true,
   "has_hero": true,
@@ -3958,7 +3912,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Engolo",
   "country": "Angola",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -4030,18 +3984,6 @@
   "country": "Tuvalu",
   "publish": true,
   "has_hero": false,
-  "is_sacred": false
- },
- {
-  "slug": "falak",
-  "name": "Falak",
-  "aliases": [
-   "Falak"
-  ],
-  "wikipedia": "",
-  "country": "Tajikistan",
-  "publish": true,
-  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -4655,7 +4597,8 @@
    "Gowend",
    "Halparke",
    "Dilan",
-   "Helperke"
+   "Helperke",
+   "Hilperke"
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Kurdish_dance",
   "country": "Iraq",
@@ -4897,22 +4840,6 @@
   "aliases": [],
   "wikipedia": "",
   "country": "Norway",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "halparke",
-  "name": "Halparke",
-  "aliases": [
-   "Helperke",
-   "Hilperke",
-   "Halparke",
-   "Helperke",
-   "Govend"
-  ],
-  "wikipedia": "https://en.wikipedia.org/wiki/Kurdish_dance",
-  "country": "Iraq",
   "publish": true,
   "has_hero": true,
   "is_sacred": false
@@ -5365,16 +5292,6 @@
   "is_sacred": false
  },
  {
-  "slug": "hutsul",
-  "name": "Hutsul",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Hutsuls",
-  "country": "Romania",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
   "slug": "hutsulka",
   "name": "Hutsulka",
   "aliases": [
@@ -5500,16 +5417,6 @@
   "country": "Rwanda",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "inu-yupiaq",
-  "name": "Inu-Yupiaq",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Inu-Yupiaq",
-  "country": "",
-  "publish": true,
-  "has_hero": false,
   "is_sacred": false
  },
  {
@@ -5836,9 +5743,10 @@
   "slug": "jota-aragonesa",
   "name": "Jota Aragonesa",
   "aliases": [
-   "Jota Aragonesa"
+   "Jota Aragonesa",
+   "Jota"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Jota_(music)",
   "country": "Spain",
   "publish": true,
   "has_hero": true,
@@ -5857,6 +5765,21 @@
   "publish": true,
   "has_hero": false,
   "is_sacred": false
+ },
+ {
+  "slug": "juba-dance",
+  "name": "Juba dance",
+  "aliases": [
+   "Hambone",
+   "Pattin' Juba",
+   "Giouba",
+   "Djouba"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Juba_dance",
+  "country": "United States",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
  },
  {
   "slug": "juego-de-man",
@@ -6798,20 +6721,6 @@
   "is_sacred": false
  },
  {
-  "slug": "kuthu",
-  "name": "Kuthu",
-  "aliases": [
-   "transl. Punch",
-   "குத்து (திரைப்படம்)",
-   "ధీరుడు (2006 సినిమా)"
-  ],
-  "wikipedia": "https://en.wikipedia.org/wiki/Kuthu",
-  "country": "India",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
   "slug": "kwadril-gwadloup",
   "name": "Quadrille (Guadeloupean)",
   "aliases": [
@@ -6997,16 +6906,6 @@
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Latin_dance",
   "country": "Argentina",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "latin-jam-workout",
-  "name": "Latin Jam Workout",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Latin_Jam_Workout",
-  "country": "",
   "publish": true,
   "has_hero": true,
   "is_sacred": false
@@ -7561,25 +7460,6 @@
   "is_sacred": true
  },
  {
-  "slug": "mariachi",
-  "name": "Mariachi",
-  "aliases": [
-   "مارياتشي",
-   "মারিয়াচি",
-   "Μαριάτσι",
-   "ماریاچی",
-   "מריאצ'י",
-   "マリアッチ",
-   "마리아치",
-   "Марьячи"
-  ],
-  "wikipedia": "https://en.wikipedia.org/wiki/Mariachi",
-  "country": "Mexico",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
   "slug": "marinera",
   "name": "Marinera",
   "aliases": [
@@ -7814,18 +7694,6 @@
   "is_sacred": false
  },
  {
-  "slug": "medal-examinations",
-  "name": "Medal examinations",
-  "aliases": [
-   "ISTD"
-  ],
-  "wikipedia": "https://en.wikipedia.org/wiki/Medal_examinations_(dance)",
-  "country": "United States",
-  "publish": true,
-  "has_hero": false,
-  "is_sacred": false
- },
- {
   "slug": "meke",
   "name": "Meke",
   "aliases": [
@@ -7847,7 +7715,7 @@
    "Melpa sing-sing",
    "melpa sing sing"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Mount_Hagen",
   "country": "Papua New Guinea",
   "publish": true,
   "has_hero": false,
@@ -8289,16 +8157,6 @@
   "is_sacred": false
  },
  {
-  "slug": "museve",
-  "name": "Museve",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Music_of_Zimbabwe",
-  "country": "Zimbabwe",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
   "slug": "mwanzele",
   "name": "Mwanzele",
   "aliases": [
@@ -8347,7 +8205,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Nae_Nae",
   "country": "United States",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -8852,16 +8710,6 @@
   "is_sacred": false
  },
  {
-  "slug": "pashtun-culture",
-  "name": "Pashtun culture",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Pashtun_culture",
-  "country": "",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
   "slug": "paso-doble",
   "name": "Paso Doble",
   "aliases": [
@@ -9005,21 +8853,6 @@
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Perkhuli",
   "country": "Georgia",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "peruvian-cumbia",
-  "name": "Peruvian cumbia",
-  "aliases": [
-   "chicha",
-   "cumbia peruana",
-   "cumbia amazonica",
-   "Andean cumbia"
-  ],
-  "wikipedia": "https://en.wikipedia.org/wiki/Peruvian_cumbia",
-  "country": "Peru",
   "publish": true,
   "has_hero": true,
   "is_sacred": false
@@ -9299,16 +9132,6 @@
   "country": "Dominican Republic",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "professional-showdance-world-champions",
-  "name": "Professional Showdance World Champions",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Professional_Showdance_World_Champions",
-  "country": "Italy",
-  "publish": true,
-  "has_hero": false,
   "is_sacred": false
  },
  {
@@ -9864,20 +9687,6 @@
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Sabar",
   "country": "Senegal",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "sacred-dance",
-  "name": "Sacred dance",
-  "aliases": [
-   "Religious dance",
-   "Ritual dance",
-   "Devotional dance"
-  ],
-  "wikipedia": "",
-  "country": "India",
   "publish": true,
   "has_hero": true,
   "is_sacred": false
@@ -10503,7 +10312,7 @@
   "country": "Philippines",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "sinsin",
@@ -10682,7 +10491,7 @@
   "country": "Thailand",
   "publish": true,
   "has_hero": false,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "sofa-dance",
@@ -10928,7 +10737,7 @@
   "country": "Latvia",
   "publish": true,
   "has_hero": false,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "sufi-whirling",
@@ -10985,21 +10794,8 @@
  {
   "slug": "swing",
   "name": "Swing",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Swing_(dance)",
-  "country": "United States",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "swing-dance",
-  "name": "Swing dance",
   "aliases": [
-   "swing dancing",
-   "swing dances",
-   "rock'n' swing dance",
-   "jitterbug"
+   "Swing dance"
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Swing_(dance)",
   "country": "United States",
@@ -11145,16 +10941,6 @@
   "aliases": [],
   "wikipedia": "https://en.wikipedia.org/wiki/Tamzara",
   "country": "Greece",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "tanchaz-method",
-  "name": "Táncház method",
-  "aliases": [],
-  "wikipedia": "",
-  "country": "Hungary",
   "publish": true,
   "has_hero": true,
   "is_sacred": false
@@ -11372,7 +11158,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Freddie_(dance)",
   "country": "United Kingdom",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -11513,16 +11299,6 @@
   "country": "Guadeloupe",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "tower-ballroom-blackpool",
-  "name": "Tower Ballroom, Blackpool",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Blackpool_Tower",
-  "country": "France",
-  "publish": true,
-  "has_hero": false,
   "is_sacred": false
  },
  {
@@ -11763,18 +11539,6 @@
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Urban_Kiz",
   "country": "France",
-  "publish": true,
-  "has_hero": false,
-  "is_sacred": false
- },
- {
-  "slug": "usa-dance",
-  "name": "USA Dance",
-  "aliases": [
-   "USABDA"
-  ],
-  "wikipedia": "https://en.wikipedia.org/wiki/USA_Dance",
-  "country": "United States",
   "publish": true,
   "has_hero": true,
   "is_sacred": false
@@ -12020,42 +11784,6 @@
   "is_sacred": false
  },
  {
-  "slug": "world-10-dance-champions",
-  "name": "World 10 Dance Champions",
-  "aliases": [
-   "WDC"
-  ],
-  "wikipedia": "https://en.wikipedia.org/wiki/World_10_Dance_Champions",
-  "country": "",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "world-ballroom-dance-champions",
-  "name": "World Ballroom Dance Champions",
-  "aliases": [
-   "WDC"
-  ],
-  "wikipedia": "https://en.wikipedia.org/wiki/World_Ballroom_Dance_Champions",
-  "country": "France",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "world-dance-council",
-  "name": "World Dance Council",
-  "aliases": [
-   "WDC"
-  ],
-  "wikipedia": "https://en.wikipedia.org/wiki/World_Dance_Council",
-  "country": "Scotland",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
   "slug": "worship-dance",
   "name": "Worship dance",
   "aliases": [],
@@ -12115,16 +11843,6 @@
   "aliases": [],
   "wikipedia": "",
   "country": "Vietnam",
-  "publish": true,
-  "has_hero": true,
-  "is_sacred": false
- },
- {
-  "slug": "xs-latin",
-  "name": "XS Latin",
-  "aliases": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/XS_Latin",
-  "country": "UK",
   "publish": true,
   "has_hero": true,
   "is_sacred": false

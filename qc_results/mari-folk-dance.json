@@ -1,9 +1,9 @@
 {
  "slug": "mari-folk-dance",
- "qc_at": "2026-10-29T17:02:39Z",
+ "qc_at": "2026-10-30T18:06:22Z",
  "version": "v3.2",
  "publish_gate": "reject",
- "qc_score": 7.75,
+ "qc_score": 7.4,
  "gates": [
   {
    "gate": "has_name",
@@ -13,32 +13,32 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "83"
+   "detail": "80"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "189"
+   "detail": "179"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Ghumura dance, once a martial war dance used in ancient India, has evolved over "
+   "detail": "From the martial-inspired mock battles of Ruk Mar Nacha to the acrobatic tiger-m"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "484"
+   "detail": "406"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "1907"
+   "detail": "1692"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
   },
   {
    "gate": "citations",
@@ -63,7 +63,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": "deeply rooted"
+   "detail": ""
   },
   {
    "gate": "ai_tells",
@@ -73,7 +73,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "3 paras"
+   "detail": "1 paras"
   },
   {
    "gate": "not_duplicate",
@@ -83,32 +83,29 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=True cues=['ritual', 'temple', 'trance', 'god', 'worship', 'religious', 'devotional']"
+   "detail": "sacred=True cues=['temple', 'deities', 'worship', 'devotional']"
   }
  ],
  "judge": {
-  "accuracy": 7,
+  "accuracy": 8,
   "respect": 9,
-  "specificity": 8,
-  "teaching_value": 7,
+  "specificity": 7,
+  "teaching_value": 4,
   "is_a_dance": false,
-  "factual_doubt": [
-   "The profile treats multiple distinct Odishan folk dances under a single category entry ('Folk dance forms of Odisha'), which fails to adhere to single-dance entry conventions."
-  ],
+  "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
   "overall": 6,
   "verdict": "reject",
-  "notes": "The subject is a regional category of multiple dance traditions rather than a single individual dance, violating the is_a_dance criterion."
+  "notes": "Fails the is_a_dance test because 'Folk dance forms of Odisha' is a category/umbrella term for many distinct dances rather than a single specific dance style."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "judge_score=7.75",
-  "doubts=1",
+  "judge_score=7.4",
   "not_a_dance",
   "sacred"
  ],
@@ -117,5 +114,5 @@
   "supported": 4,
   "rate": 1.0
  },
- "researched_at": "2026-10-29T16:36:32Z"
+ "researched_at": "2026-10-30T17:49:15Z"
 }

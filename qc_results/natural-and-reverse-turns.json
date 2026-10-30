@@ -1,0 +1,119 @@
+{
+ "slug": "natural-and-reverse-turns",
+ "qc_at": "2026-10-30T18:07:37Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 9.05,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Natural and reverse turns"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "86"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "206"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "The term 'natural' persists because the standard ballroom closed position, where"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "348"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1447"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Global"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 7,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 8,
+  "verdict": "reject",
+  "notes": "While factually sound and well-written, the subject is specific ballroom movement figures/turns rather than an independent dance style or tradition, failing the is_a_dance criteria."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "country",
+  "insight_concrete",
+  "judge_score=9.05",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-30T17:36:26Z"
+}

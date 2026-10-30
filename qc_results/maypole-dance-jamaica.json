@@ -1,9 +1,9 @@
 {
  "slug": "maypole-dance-jamaica",
- "qc_at": "2026-10-29T02:43:22Z",
+ "qc_at": "2026-10-30T18:06:20Z",
  "version": "v3.2",
  "publish_gate": "reject",
- "qc_score": 8.65,
+ "qc_score": 3.25,
  "gates": [
   {
    "gate": "has_name",
@@ -13,32 +13,32 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "30"
+   "detail": "44"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "165"
+   "detail": "143"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "The provided sources detail Haitian performance traditions rather than the Jamai"
+   "detail": "The provided source material documents Haitian dance traditions exclusively and "
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "412"
+   "detail": "245"
   },
   {
    "gate": "profile_long_len",
    "ok": false,
-   "detail": "587"
+   "detail": "445"
   },
   {
    "gate": "sections_filled",
    "ok": false,
-   "detail": "origins_and_history"
+   "detail": ""
   },
   {
    "gate": "citations",
@@ -87,19 +87,21 @@
   }
  ],
  "judge": {
-  "accuracy": 10,
+  "accuracy": 1,
   "respect": 10,
-  "specificity": 10,
+  "specificity": 1,
   "teaching_value": 1,
   "is_a_dance": true,
-  "factual_doubt": [],
+  "factual_doubt": [
+   "The profile contains no actual information about the Maypole Dance in Jamaica and states that the provided sources only cover Haitian dance."
+  ],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
-  "insight_ok": true,
+  "insight_ok": false,
   "album_doubt": [],
-  "overall": 2,
+  "overall": 1,
   "verdict": "reject",
-  "notes": "The profile correctly identifies that the provided evidence corpus contains no information on the subject. As the content is entirely meta-commentary on the lack of data, it fails to provide a functional dance profile and should be rejected."
+  "notes": "Profile lacks source data entirely, containing only placeholder text stating information is unavailable. Must be rejected."
  },
  "judge_reused": false,
  "duplicate_of": null,
@@ -109,12 +111,13 @@
   "ai_tells",
   "profile_long_len",
   "sections_filled",
-  "judge_score=8.65"
+  "judge_score=3.25",
+  "doubts=1"
  ],
  "citation": {
   "claims": 0,
   "supported": 0,
   "rate": 0.0
  },
- "researched_at": "2026-10-29T02:42:22Z"
+ "researched_at": "2026-10-30T17:40:52Z"
 }

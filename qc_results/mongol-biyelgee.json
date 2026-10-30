@@ -1,0 +1,120 @@
+{
+ "slug": "mongol-biyelgee",
+ "qc_at": "2026-10-30T17:56:48Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 8.35,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Mongol Biyelgee"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "69"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "151"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Performed in the limited space before a hearth, Biyelgee dancers eschew footwork"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "445"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1771"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/4 rate=0.75"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Mongolia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Central Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The dance was inscribed by UNESCO in 2009 for urgent safeguarding."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "Accurate, respectful profile of Mongol Biyelgee. UNESCO inscription claim failed automated mechanical matching but is historically factual (inscribed in 2009 on the Urgent Safeguarding List). Detail on specific ethnic styles (Bayid, Zakhchin, Buryat) is solid."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "judge_score=8.35",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 3,
+  "rate": 0.75
+ },
+ "researched_at": "2026-10-30T17:37:57Z"
+}
