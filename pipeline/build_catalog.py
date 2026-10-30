@@ -132,7 +132,10 @@ def run(include_review=False):
             v2[slug] = {"sections": p.get("sections"), "teaching": p.get("teaching"), "claims": [{"text": c.get("text"), "source": c.get("source")} for c in (rec.get("claims") or []) if c.get("supported")][:60],
                         "citation": rec.get("citation"), "albums": [a for a in (rec.get("albums") or []) if norm(a.get("title") or "") not in {norm(t) for t in ((qc.get("judge") or {}).get("album_doubt") or []) if isinstance(t, str)}],
                         "images": rec.get("images"), "gaps": p.get("gaps"), "confidence": p.get("confidence"),
+                        "music_profile": p.get("music_profile"), "movement_profile": p.get("movement_profile"), "episode_brief": p.get("episode_brief"),
+                        "connections": p.get("connections"), "movie_ready": bool(rec.get("movie_ready")), "schema": rec.get("schema"),
                         "researched_at": rec.get("researched_at"), "qc_score": qc.get("qc_score")}
+            st["movie_ready"] = bool(rec.get("movie_ready"))
         styles[slug] = st
     # retired: existing app dances whose research+QC concluded duplicate/reject AND judge says reject (conservative: only explicit duplicates)
     for slug, q in qindex.items():
@@ -161,7 +164,8 @@ def run(include_review=False):
     jsave(os.path.join(CATALOG_DIR, "retired.json"), {"generated_at": gen, "retired": retired})
     stats = {"generated_at": gen, "count": len(styles), "with_hero": sum(1 for s in styles.values() if s.get("hero_video_youtube_id")),
              "hero_qc_pass": sum(1 for s in styles.values() if (s.get("hero_qc") or {}).get("verdict") == "pass"),
-             "deep_profiles": len(v2), "with_albums": sum(1 for s in styles.values() if s.get("albums")), "with_images": sum(1 for s in styles.values() if s.get("images")),
+             "deep_profiles": len(v2), "movie_ready": sum(1 for v in v2.values() if v.get("movie_ready")),
+             "with_albums": sum(1 for s in styles.values() if s.get("albums")), "with_images": sum(1 for s in styles.values() if s.get("images")),
              "with_tutorials": sum(1 for s in styles.values() if s.get("tutorials")), "content_ready": sum(1 for s in styles.values() if s.get("tier") == "content_ready"),
              "new_from_pipeline": sum(1 for s in styles.values() if s.get("origin") == "pipeline"), "retired": len(retired), "counters": dict(counters), "pipeline": PIPELINE_VERSION}
     jsave(os.path.join(CATALOG_DIR, "stats.json"), stats)

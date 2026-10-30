@@ -64,7 +64,9 @@ def run():
     lines += ["", "## Catalogue audit", f"- Retired/merged: {sum(1 for v in audit.values() if v.get('decision') in ('retire','merge'))} · judged: {sum(1 for v in audit.values() if v.get('judge'))} of {len(styles_total) if (styles_total := (jload('app_catalog.json', {}) or {}).get('styles') or {}) else '?'}"]
     lines += ["", "## Crawler", f"- Hero results on file: {len(heroes)} · statuses: {dict(Counter((v or {}).get('status') for v in heroes.values()))}",
               f"- Hero QC verdicts: {dict(hstat)} (checked {len(hq)})", "",
-              "## Discovery → research → QC", f"- Candidates: {dict(cstat)}", f"- Research index: {dict(rstat)}", f"- QC gates: {dict(qstat)}", "",
+              "## Discovery → research → QC", f"- Candidates: {dict(cstat)}", f"- Research index: {dict(rstat)}",
+              f"- Movie-ready (music DNA + movement DNA + episode brief from sources): {sum(1 for v in rindex.values() if v.get('movie_ready'))} of {sum(1 for v in rindex.values() if v.get('status') == 'researched')} researched",
+              f"- QC gates: {dict(qstat)}", "",
               "## Last runs"]
     for stage in ("audit", "discover", "research", "qc", "hero_qc", "build", "sync", "report"):
         r = last.get(stage)

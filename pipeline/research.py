@@ -12,6 +12,7 @@ from .taxonomy import FAMILIES, REGIONS, country_lookup, sacred_hint
 from . import sources as S
 
 RESULTS_DIR = os.environ.get("RESEARCH_DIR", "research_results")
+RESEARCH_SCHEMA = 4   # 4 = movie-ready fields (music_profile, movement_profile, episode_brief, connections); bump to re-deepen every record
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 EDITORIAL = """You are the senior editor of the Dancing Atlas, an encyclopedia of every living dance tradition, written to the standard of a major documentary studio.
@@ -24,7 +25,13 @@ RULES
 6. `how_it_is_danced` must be usable for teaching later: formation, who dances, basic footwork or body movement, rhythm/meter, typical tempo, key gestures, how a beginner would start. Only what sources support; if technique is not described in the sources, say "technique not described in sources".
 7. Albums: list recordings or artists that the sources name as central to this dance's music. Mark each with the source. Do not guess.
 8. Taxonomy: region must be one of {regions}; family one of {families}.
-Output JSON with keys: name, tagline (<=90 chars), insight (<=220 chars), profile (3-5 sentences), profile_long (600-1200 words of continuous prose using the sections), sections{{origins_and_history, how_it_is_danced, music_and_instruments, costume_and_setting, occasions_and_meaning, notable_figures, regional_variants, lineage}}, era (short, e.g. "19th century"), country, region, family, aliases[], related[] (names of other dances), is_sacred (bool), sacred_note, unesco (bool), teaching{{basic_steps[] (ordered, each one movement), rhythm, formation, level_notes}}, albums[] ({{title, artist, source}}), claims[] ({{text, source, quote}}), confidence (0-1), gaps[]."""
+9. MOVIE-READY DEPTH. The profile will later drive a studio-quality film episode and a dance lesson, so capture the DNA of the music and of the movement as precisely as the sources allow:
+   music_profile = what a composer needs to recreate the sound without copying any recording (tempo, meter, rhythm pattern, instruments, vocal style, form, mood, a 2-4 sentence sound description of what makes it recognisable);
+   movement_profile = what a choreographer or instructor needs (posture, footwork with counts, arms and hands, hips and torso, formation and spatial path, partnering, tempo feel, named signature moves with one-line descriptions, levels and jumps, difficulty, what to avoid for cultural or safety reasons);
+   episode_brief = how a 5-minute introduction episode would run (a title hook, a one-sentence logline, 5-8 ordered story beats that are concrete scenes, a 3-level lesson ladder with 3-5 drills each, visual motifs to show, a credible instructor persona, the music cue the soundtrack must follow);
+   connections = named links to other dances with a relation (parent, child, sibling, variant, influence, shares_music, same_region) and a short note.
+   Where the sources do not describe a detail, write "not described in sources" for that field rather than inventing it. Numbers (tempo, counts) only when a source gives them or the meter makes them unambiguous.
+Output JSON with keys: name, tagline (<=90 chars), insight (<=220 chars), profile (3-5 sentences), profile_long (600-1200 words of continuous prose using the sections), sections{{origins_and_history, how_it_is_danced, music_and_instruments, costume_and_setting, occasions_and_meaning, notable_figures, regional_variants, lineage}}, era (short, e.g. "19th century"), country, region, family, aliases[], related[] (names of other dances), is_sacred (bool), sacred_note, unesco (bool), teaching{{basic_steps[] (ordered, each one movement), rhythm, formation, level_notes}}, music_profile{{tempo_bpm, meter, rhythm_pattern, instruments[], vocal_style, musical_form, mood_keywords[], reference_recordings[] ({{title, artist}}), sound_description}}, movement_profile{{posture, footwork, arms_and_hands, hips_and_torso, formation_and_space, partnering, tempo_feel, signature_moves[] ({{name, description}}), levels_and_jumps, difficulty (beginner|intermediate|advanced), what_to_avoid}}, episode_brief{{title_hook, logline, beats[], lesson_ladder[] ({{level, goal, drills[]}}), visual_motifs[], instructor_persona, music_cue}}, connections[] ({{name, relation, note}}), albums[] ({{title, artist, source}}), claims[] ({{text, source, quote}}), confidence (0-1), gaps[]."""
 
 def _trim(txt, n):
     txt = re.sub(r"\n{3,}", "\n\n", txt or "")
@@ -189,6 +196,27 @@ def normalize(comp):
     for k in ("rhythm", "formation", "level_notes"):
         t[k] = _s(t.get(k), " ").strip()
     c["teaching"] = t
+    # movie-ready structures: keep dicts/lists in a predictable shape, strings trimmed, nothing invented
+    mp = c.get("music_profile") if isinstance(c.get("music_profile"), dict) else {}
+    for k in ("tempo_bpm", "meter", "rhythm_pattern", "vocal_style", "musical_form", "sound_description"):
+        mp[k] = _s(mp.get(k), " ").strip()
+    for k in ("instruments", "mood_keywords"):
+        v = mp.get(k); mp[k] = [str(x).strip() for x in v if str(x).strip()] if isinstance(v, list) else ([str(v).strip()] if v else [])
+    mp["reference_recordings"] = [x for x in (mp.get("reference_recordings") or []) if isinstance(x, dict)]
+    c["music_profile"] = mp
+    mv = c.get("movement_profile") if isinstance(c.get("movement_profile"), dict) else {}
+    for k in ("posture", "footwork", "arms_and_hands", "hips_and_torso", "formation_and_space", "partnering", "tempo_feel", "levels_and_jumps", "difficulty", "what_to_avoid"):
+        mv[k] = _s(mv.get(k), " ").strip()
+    mv["signature_moves"] = [x for x in (mv.get("signature_moves") or []) if isinstance(x, dict)]
+    c["movement_profile"] = mv
+    eb = c.get("episode_brief") if isinstance(c.get("episode_brief"), dict) else {}
+    for k in ("title_hook", "logline", "instructor_persona", "music_cue"):
+        eb[k] = _s(eb.get(k), " ").strip()
+    for k in ("beats", "visual_motifs"):
+        v = eb.get(k); eb[k] = [str(x).strip() for x in v if str(x).strip()] if isinstance(v, list) else ([str(v).strip()] if v else [])
+    eb["lesson_ladder"] = [x for x in (eb.get("lesson_ladder") or []) if isinstance(x, dict)]
+    c["episode_brief"] = eb
+    c["connections"] = [x for x in (c.get("connections") or []) if isinstance(x, dict) and x.get("name")]
     c["is_sacred"] = bool(c.get("is_sacred"))
     c["unesco"] = bool(c.get("unesco"))
     try:
@@ -216,7 +244,7 @@ def compose(d, ev, llm):
     user = (f"DANCE: {d.get('name') or d.get('slug')}\nSLUG: {d.get('slug')}\nEXISTING CATALOGUE ENTRY (may be thin or partly wrong; prefer the sources): {json.dumps(existing, ensure_ascii=False)[:1500]}\n\n"
             + "\n\n".join(src_blocks))
     system = EDITORIAL.format(regions=", ".join(REGIONS), families=", ".join(FAMILIES.keys()))
-    return normalize(llm.json(system, user, strong=True, temperature=0.3, max_tokens=6000))
+    return normalize(llm.json(system, user, strong=True, temperature=0.3, max_tokens=9000))
 
 def research_one(d, llm, sb=None):
     slug = d.get("slug") or slugify(d.get("name"))
@@ -250,7 +278,9 @@ def research_one(d, llm, sb=None):
     comp["unesco"] = unesco_exact or (bool(comp.get("unesco")) and any(c.get("supported") and "unesco" in norm(c.get("text") or "") for c in claims))
     rec.update({
         "status": "researched",
-        "profile": {k: comp.get(k) for k in ("name", "tagline", "insight", "profile", "profile_long", "sections", "era", "country", "aliases", "related", "is_sacred", "sacred_note", "unesco", "teaching", "confidence", "gaps")},
+        "profile": {k: comp.get(k) for k in ("name", "tagline", "insight", "profile", "profile_long", "sections", "era", "country", "aliases", "related", "is_sacred", "sacred_note", "unesco", "teaching",
+                                             "music_profile", "movement_profile", "episode_brief", "connections", "confidence", "gaps")},
+        "schema": RESEARCH_SCHEMA, "movie_ready": movie_ready(comp),
         "country_code": iso or d.get("country_code"), "region": region, "family": fam,
         "claims": claims, "citation": cstats,
         "albums": verified_albums, "album_candidates": unverified_albums,
@@ -266,17 +296,34 @@ def research_one(d, llm, sb=None):
     jsave(out_path, rec)
     return rec
 
+def _said(v):
+    """True when a movie-ready field carries real content rather than a 'not described' placeholder."""
+    s = (v or "").strip().lower()
+    return len(s) >= 25 and "not described" not in s and "not in sources" not in s
+
+def movie_ready(comp):
+    """A profile can drive an episode and a lesson when the music and movement DNA are both described from sources."""
+    mp, mv, eb = comp.get("music_profile") or {}, comp.get("movement_profile") or {}, comp.get("episode_brief") or {}
+    music = _said(mp.get("sound_description")) and (bool(mp.get("instruments")) or _said(mp.get("rhythm_pattern")))
+    move = _said(mv.get("footwork")) and (_said(mv.get("posture")) or _said(mv.get("arms_and_hands")) or bool(mv.get("signature_moves")))
+    story = len(eb.get("beats") or []) >= 5 and len(eb.get("lesson_ladder") or []) >= 2
+    return bool(music and move and story)
+
 def pick_enrichment_targets(catalog, n):
-    """Lowest completeness first, skipping ones researched in the last 60 days."""
+    """Lowest completeness first. A record researched in the last 60 days is skipped unless it predates the current
+    research schema (then it is re-deepened so every page reaches movie-ready depth once)."""
     done = load_state("research_index.json", {})
     gone = {k for k, v in load_state("audit.json", {}).items() if v.get("decision") in ("retire", "merge")}
     scored = []
     for d in catalog:
         if d["slug"] in gone:
             continue
-        last = (done.get(d["slug"]) or {}).get("researched_at", "")
-        if last and last[:10] >= _days_ago(60):
+        prev = done.get(d["slug"]) or {}
+        last = prev.get("researched_at", "")
+        if last and last[:10] >= _days_ago(60) and int(prev.get("schema") or 0) >= RESEARCH_SCHEMA:
             continue
+        if prev.get("status") == "no_sources" and last and last[:10] >= _days_ago(60):
+            continue   # nothing to read yet; try again in two months
         scored.append((completeness(d), d))
     scored.sort(key=lambda x: x[0])
     return [d for _, d in scored[:n]]
@@ -307,13 +354,13 @@ def run(budget_new=20, budget_enrich=20, only=None):
         slug = d.get("slug")
         try:
             rec = research_one(d, llm, sb)
-            index[slug] = {"researched_at": rec["researched_at"], "status": rec["status"], "kind": kind,
+            index[slug] = {"researched_at": rec["researched_at"], "status": rec["status"], "kind": kind, "schema": rec.get("schema"), "movie_ready": rec.get("movie_ready"),
                            "citation_rate": (rec.get("citation") or {}).get("rate"), "albums": len(rec.get("albums") or []), "images": len(rec.get("images") or [])}
             rep.inc("researched_" + rec["status"])
             if kind == "new" and slug in cands:
                 cands[slug]["status"] = "researched" if rec["status"] == "researched" else ("no_sources" if rec["status"] == "no_sources" else "queued")
                 cands[slug]["researched_at"] = rec["researched_at"]
-            log(f"RESEARCH {kind} {slug}: {rec['status']} claims={(rec.get('citation') or {}).get('claims')} rate={(rec.get('citation') or {}).get('rate')} albums={len(rec.get('albums') or [])} images={len(rec.get('images') or [])}")
+            log(f"RESEARCH {kind} {slug}: {rec['status']} claims={(rec.get('citation') or {}).get('claims')} rate={(rec.get('citation') or {}).get('rate')} albums={len(rec.get('albums') or [])} images={len(rec.get('images') or [])} movie_ready={rec.get('movie_ready')}")
         except Exception as e:
             rep.error(f"{slug}: {e}")
             index[slug] = {"researched_at": now_iso(), "status": "error", "error": str(e)[:200]}
