@@ -1,16 +1,29 @@
 # QC review queue
-_Generated 2026-10-30T18:22:07Z_
+_Generated 2026-10-31T16:46:46Z_
 
 | slug | gate | score | reasons | duplicate of |
 |---|---|---|---|---|
+| change-step | reject | 10.0 | country, insight_concrete, judge_score=10.0, not_a_dance |  |
+| double-reverse-spin | reject | 10.0 | citations, country, profile_long_len, region, judge_score=10.0, not_a_dance |  |
 | passacaglia | reject | 9.85 | ai_tells, judge_score=9.85 |  |
+| eurythmy | reject | 9.85 | insight_concrete, judge_score=9.85, not_a_dance, sacred |  |
+| feather-step | reject | 9.85 | citations, country, region, judge_score=9.85, not_a_dance |  |
+| fleckerl | reject | 9.85 | judge_score=9.85, not_a_dance |  |
 | partido-alto | reject | 9.7 | banned_phrasing, judge_score=9.7, not_a_dance, sacred |  |
+| right-and-left-grand | reject | 9.65 | insight_concrete, sacred_handled, judge_score=9.65, doubts=1, not_a_dance, sacred |  |
 | grapevine | reject | 9.6 | country, sections_filled, judge_score=9.6, not_a_dance |  |
+| coaster-step | reject | 9.6 | insight_concrete, banned_phrasing, judge_score=9.6, not_a_dance |  |
+| do-si-do | reject | 9.6 | insight_concrete, sacred_handled, judge_score=9.6, not_a_dance, sacred |  |
 | aerial-cartwheel | reject | 9.55 | country, insight_concrete, judge_score=9.55, not_a_dance |  |
 | indian-dance | reject | 9.55 | banned_phrasing, judge_score=9.55, not_a_dance, sacred |  |
+| pelvic-thrust | reject | 9.55 | country, judge_score=9.55, not_a_dance |  |
 | cheerleading | reject | 9.5 | judge_score=9.5, not_a_dance |  |
 | anchor-step | reject | 9.45 | country, insight_concrete, sections_filled, judge_score=9.45, not_a_dance |  |
 | chicken-walks | reject | 9.45 | country, insight_concrete, profile_long_len, sections_filled, judge_score=9.45, not_a_dance |  |
+| jazz-hands | reject | 9.45 | judge_score=9.45, not_a_dance |  |
+| pivot-turn | reject | 9.45 | judge_score=9.45, not_a_dance |  |
+| recaka | reject | 9.45 | judge_score=9.45, not_a_dance |  |
+| concert-dance | reject | 9.45 | country, insight_concrete, banned_phrasing, judge_score=9.45, not_a_dance, sacred |  |
 | the-maid-of-cashmere | reject | 9.3 | banned_phrasing, sacred_handled, judge_score=9.3, not_a_dance, sacred |  |
 | thougal-jagoi | reject | 9.3 | ai_tells, insight_concrete, judge_score=9.3, sacred |  |
 | dip | reject | 9.05 | country, ai_tells, insight_concrete, judge_score=9.05, not_a_dance |  |
@@ -22,11 +35,14 @@ _Generated 2026-10-30T18:22:07Z_
 | party-of-the-people | reject | 8.65 | citations, ai_tells, profile_long_len, sections_filled, judge_score=8.65, not_a_dance |  |
 | pique | reject | 8.65 | citations, country, ai_tells, profile_long_len, sections_filled, judge_score=8.65, not_a_dance |  |
 | lanigan-s-ball | reject | 8.5 | judge_score=8.5, doubts=1, not_a_dance |  |
+| al-ardha | reject | 8.5 | citations, sacred_handled, judge_score=8.5, doubts=2, harm, sacred |  |
 | kiba-dinaka | reject | 8.45 | citations, sources, ai_tells, sections_filled, judge_score=8.45 |  |
 | hotty-toddy | reject | 8.4 | judge_score=8.4, not_a_dance |  |
 | javotte-ballet | reject | 8.4 | sections_filled, judge_score=8.4, not_a_dance |  |
 | fwemba | reject | 8.25 | ai_tells, sacred_handled, judge_score=8.25, sacred |  |
 | ball-change | reject | 8.05 | citations, country, insight_concrete, sections_filled, judge_score=8.05, not_a_dance |  |
+| get-down | reject | 7.9 | judge_score=7.9, not_a_dance |  |
+| cuban-motion | reject | 7.75 | country, insight_concrete, profile_long_len, sections_filled, judge_score=7.75, not_a_dance |  |
 | lap-dance | reject | 7.65 | judge_score=7.65, not_a_dance |  |
 | maxie-ford | reject | 7.45 | country, profile_long_len, sections_filled, judge_score=7.45, not_a_dance |  |
 | natural-spin-turn | reject | 7.45 | country, profile_long_len, sections_filled, judge_score=7.45, not_a_dance |  |
@@ -36,7 +52,9 @@ _Generated 2026-10-30T18:22:07Z_
 | competitive-dance | reject | 6.45 | insight_concrete, judge_score=6.45, not_a_dance |  |
 | rapo | reject | 6.4 | citations, country, ai_tells, profile_long_len, sections_filled, judge_score=6.4, not_a_dance |  |
 | air-instrument | reject | 5.45 | country, insight_concrete, judge_score=5.45, doubts=3, not_a_dance |  |
+| biit | reject | 4.3 | citations, profile_long_len, sections_filled, judge_score=4.3, doubts=1 |  |
 | umushagiriro | reject | 4.05 | citations, profile_long_len, sections_filled, judge_score=4.05, doubts=2 |  |
+| udmurt-folk-dance | reject | 3.85 | citations, judge_score=3.85, doubts=3 |  |
 | maypole-dance-jamaica | reject | 3.25 | citations, ai_tells, profile_long_len, sections_filled, judge_score=3.25, doubts=1 |  |
 | rateliai | reject | 2.75 | citations, ai_tells, profile_long_len, sections_filled, judge_score=2.75, doubts=1 |  |
 | sudmalinas | reject | 2.6 | citations, sections_filled, sacred_handled, judge_score=2.6, doubts=1, sacred |  |
@@ -44,28 +62,40 @@ _Generated 2026-10-30T18:22:07Z_
 | box-step | review | 10.0 | country, judge_score=10.0 |  |
 | alardah-alnajdiyah | review | 9.85 | insight_concrete, sacred_handled, judge_score=9.85, sacred |  |
 | lipsi | review | 9.85 | country, judge_score=9.85 |  |
+| jacking | review | 9.85 | insight_concrete, sacred_handled, judge_score=9.85, sacred |  |
 | jazz-dance | review | 9.5 | citations, banned_phrasing, judge_score=9.5 |  |
 | melbourne-shuffle | review | 9.5 | citations, insight_concrete, banned_phrasing, judge_score=9.5, sacred |  |
+| rhumba | review | 9.5 | not_duplicate, judge_score=9.5 | rumba |
+| calabrian-tarantella | review | 9.5 | insight_concrete, sacred_handled, judge_score=9.5, sacred |  |
 | myel-lyel | review | 9.45 | citations, insight_concrete, judge_score=9.45, sacred |  |
+| pangalay | review | 9.35 | insight_concrete, sacred_handled, judge_score=9.35, sacred |  |
 | surra-de-bunda | review | 9.3 | insight_concrete, profile_long_len, sections_filled, judge_score=9.3 |  |
 | giddha | review | 9.3 | insight_concrete, banned_phrasing, judge_score=9.3 |  |
 | didong | review | 9.3 | profile_long_len, sections_filled, judge_score=9.3 |  |
 | singkil | review | 9.1 | citations, judge_score=9.1, sacred |  |
+| expressionist-dance | review | 9.1 | not_duplicate, sacred_handled, judge_score=9.1, sacred | allemande-germany |
 | intore | review | 8.95 | citations, judge_score=8.95 |  |
 | yumsharol-jagoi | review | 8.85 | profile_long_len, sections_filled, judge_score=8.85, sacred |  |
 | metelytsia | review | 8.75 | citations, insight_concrete, judge_score=8.75 |  |
 | ram-wong | review | 8.6 | citations, judge_score=8.6, doubts=1 |  |
+| tondero | review | 8.5 | insight_concrete, banned_phrasing, judge_score=8.5, doubts=2 |  |
 | tamena-ibuga | review | 8.4 | insight_concrete, sacred_handled, judge_score=8.4, sacred |  |
+| acrobatic-rock-n-roll | review | 8.4 | citations, judge_score=8.4, doubts=2 |  |
 | mongol-biyelgee | review | 8.35 | citations, judge_score=8.35, doubts=1 |  |
 | pukkumina | review | 7.75 | insight_concrete, judge_score=7.75, doubts=1, sacred |  |
+| chuvash-folk-dance | review | 7.65 | citations, judge_score=7.65 |  |
 | ekiria-kiria | review | 7.45 | profile_long_len, judge_score=7.45 |  |
 | soeng | review | 7.4 | citations, sacred_handled, judge_score=7.4, doubts=2, sacred |  |
 | unyago | review | 7.35 | citations, insight_concrete, sections_filled, judge_score=7.35, sacred |  |
 | shamia-e-beqarit | review | 7.3 | profile_long_len, sections_filled, judge_score=7.3, sacred |  |
 | mordvin-dance | review | 7.3 | profile_long_len, sections_filled, judge_score=7.3 |  |
 | gaze-dance | review | 7.15 | profile_long_len, judge_score=7.15 |  |
+| harlem-shuffle | review | 6.75 | citations, profile_long_len, judge_score=6.75, doubts=4 |  |
 | nauru-frigate-bird-dance | review | 6.35 | insight_concrete, profile_long_len, sections_filled, judge_score=6.35 |  |
 | jamaican-quadrille | review | 6.1 | citations, profile_long_len, judge_score=6.1, doubts=1 |  |
+| pilou | review | 5.9 | citations, judge_score=5.9, doubts=2, sacred |  |
+| il-maltija | review | 5.75 | citations, profile_long_len, judge_score=5.75, doubts=2 |  |
+| ta-me | review | 4.55 | citations, country, sacred_handled, judge_score=4.55, doubts=7, sacred |  |
 
 ## Audit: possible duplicates kept live, need a human (8)
 

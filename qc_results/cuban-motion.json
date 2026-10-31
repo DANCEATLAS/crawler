@@ -1,0 +1,121 @@
+{
+ "slug": "cuban-motion",
+ "qc_at": "2026-10-31T16:24:35Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 7.75,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Cuban motion"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "84"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "134"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Cuban motion is not a standalone dance, but a fundamental rhythmic rotation of t"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "376"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "707"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "how_it_is_danced,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "4/4 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Not described in sources"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Caribbean"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 4,
+  "teaching_value": 5,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 5,
+  "verdict": "reject",
+  "notes": "Cuban motion is a technique/movement element rather than a distinct dance style. Although the profile accurately reflects the provided evidence, it fails the is_a_dance criterion and lacks cultural context, history, and specific geographic grounding."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "country",
+  "insight_concrete",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=7.75",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 4,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-31T15:35:20Z"
+}

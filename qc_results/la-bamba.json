@@ -1,0 +1,121 @@
+{
+ "slug": "la-bamba",
+ "qc_at": "2026-10-31T16:26:57Z",
+ "version": "v3.2",
+ "publish_gate": "publish",
+ "qc_score": 9.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "La Bamba"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "101"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "167"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In La Bamba, dancers tie a large ribbon into a lover's knot with their feet, sym"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "468"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3364"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "15/15 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "6"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Mexico"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "6 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['sacred', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [
+   "La Bamba",
+   "La Bamba"
+  ],
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and aligns with the provided evidence. The album list correctly identifies pop/film recordings that are not central to the traditional son jarocho practice. The teaching section is practical and clear for a beginner."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sacred_handled",
+  "judge_score=9.1",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 15,
+  "supported": 15,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-31T16:06:57Z"
+}

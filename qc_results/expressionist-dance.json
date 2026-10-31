@@ -1,0 +1,123 @@
+{
+ "slug": "expressionist-dance",
+ "qc_at": "2026-10-31T16:26:26Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 9.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "expressionist dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "89"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "129"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Around 1900, Isadora Duncan danced barefoot, rejecting ballet shoes to unite bod"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "556"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2197"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "9/9 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Germany"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"allemande-germany\", \"score\": 1.0, \"via_alias\": \"German dance\"}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "modern dance",
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and aligns closely with the provided evidence. It correctly identifies Ausdruckstanz as a historical movement rather than a single codified technique, which is handled with appropriate nuance. The distinction between the historical movement and its legacy in modern dance is clear."
+ },
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "allemande-germany",
+  "score": 1.0,
+  "via_alias": "German dance"
+ },
+ "is_sacred": true,
+ "reasons": [
+  "not_duplicate",
+  "sacred_handled",
+  "judge_score=9.1",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 9,
+  "supported": 9,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-31T15:59:53Z"
+}

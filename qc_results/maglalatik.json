@@ -1,0 +1,120 @@
+{
+ "slug": "maglalatik",
+ "qc_at": "2026-10-31T16:28:04Z",
+ "version": "v3.2",
+ "publish_gate": "publish",
+ "qc_score": 8.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Maglalatik"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "43"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "135"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Shirtless men strike coconut shells strapped to their bodies and hands in a fast"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "312"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "1157"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "9/11 rate=0.818"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Philippines"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['sacred']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Maglalatik is a Philippine folk dance related to other traditional dances such as Tinikling, Sagayan, Pandanggo sa Ilaw, and Sinulog."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and accurate. The claim regarding the dance's 'lineage' or relation to other specific dances is not supported by the provided evidence, as the source merely lists them as 'see also' references. Otherwise, the description of the movement and cultural context is excellent."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "profile_long_len",
+  "judge_score=8.6",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 11,
+  "supported": 9,
+  "rate": 0.818
+ },
+ "researched_at": "2026-10-31T16:21:01Z"
+}

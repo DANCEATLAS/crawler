@@ -1,0 +1,117 @@
+{
+ "slug": "huaconada",
+ "qc_at": "2026-10-31T16:26:40Z",
+ "version": "v3.2",
+ "publish_gate": "publish",
+ "qc_score": 9.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Huaconada"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "93"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "170"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "For three days each January, masked huacones embody the village’s highest author"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "530"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1901"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "10/10 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Peru"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "An excellent, highly accurate profile. It correctly identifies the ritual, sacred nature of the Huaconada and provides clear, evidence-backed details on the social structure, costume, and performance context. The teaching section is appropriately framed as observational rather than instructional for outsiders."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.7",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 10,
+  "supported": 10,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-31T16:00:15Z"
+}

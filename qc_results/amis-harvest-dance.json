@@ -1,0 +1,117 @@
+{
+ "slug": "amis-harvest-dance",
+ "qc_at": "2026-10-31T16:28:06Z",
+ "version": "v3.2",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Amis harvest dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "40"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "162"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "At the Amis Harvest Festival, young men and women dance hand in hand around elde"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "377"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1513"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "12/12 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Taiwan"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ceremon', 'god', 'worship', 'ancestor', 'spirit', 'priest']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "The profile is exceptionally well-researched, accurately reflecting the cultural significance, social functions, and ritualistic nature of the Amis harvest dance. It adheres strictly to the provided evidence while maintaining a respectful tone regarding indigenous practices."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.85",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 12,
+  "supported": 12,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-31T16:21:21Z"
+}

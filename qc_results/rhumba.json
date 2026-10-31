@@ -1,0 +1,121 @@
+{
+ "slug": "rhumba",
+ "qc_at": "2026-10-31T16:24:36Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 9.5,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Rhumba"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "87"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "153"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The ballroom rhumba, named after Cuban rumba, is a distinct dance developed in 1"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "509"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "4644"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "14/15 rate=0.933"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "6"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United States"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "8 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"rumba\", \"score\": 1.0, \"via_alias\": \"rumba\"}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['sacred']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Extremely thorough, well-structured, and accurate profile adhering strictly to the evidence."
+ },
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "rumba",
+  "score": 1.0,
+  "via_alias": "rumba"
+ },
+ "is_sacred": false,
+ "reasons": [
+  "not_duplicate",
+  "judge_score=9.5"
+ ],
+ "citation": {
+  "claims": 15,
+  "supported": 14,
+  "rate": 0.933
+ },
+ "researched_at": "2026-10-31T15:43:23Z"
+}

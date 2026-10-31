@@ -1,0 +1,116 @@
+{
+ "slug": "danza-de-la-botella",
+ "qc_at": "2026-10-31T16:28:00Z",
+ "version": "v3.2",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Danza de la Botella"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "58"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "105"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Advanced dancers balance ten or more glass bottles stacked on their heads while "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "508"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1446"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "16/16 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Paraguay"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "The profile is exceptionally well-supported by the provided evidence. It accurately captures the technical and cultural aspects of the Danza de la Botella without exoticization. The teaching section provides a clear, safe, and logical progression for beginners."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.85"
+ ],
+ "citation": {
+  "claims": 16,
+  "supported": 16,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-31T16:20:19Z"
+}

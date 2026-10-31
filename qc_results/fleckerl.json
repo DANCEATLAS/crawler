@@ -1,0 +1,117 @@
+{
+ "slug": "fleckerl",
+ "qc_at": "2026-10-31T16:26:13Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Fleckerl"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "88"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "126"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The fleckerl spins in place on the dance floor with a six-step pattern, unlike o"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "543"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1287"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Austria"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and well-structured. It correctly identifies the fleckerl as a specific technical step within the Viennese waltz rather than a standalone dance, which is reflected in the 'is_a_dance' boolean. The technical instructions are clear and supported by evidence."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.85",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-31T15:51:48Z"
+}

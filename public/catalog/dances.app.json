@@ -1,7 +1,7 @@
 {
  "contract": "dw_app_v1",
- "count": 923,
- "generated_at": "2026-10-30T18:21:32Z",
+ "count": 928,
+ "generated_at": "2026-10-31T16:46:21Z",
  "pipeline": "v3.2",
  "styles": {
   "son-cubano": {
@@ -19941,7 +19941,8 @@
    "_gallery": [],
    "_is_sacred": false,
    "related_slugs": [
-    "dancehall"
+    "dancehall",
+    "tecktonik"
    ]
   },
   "punchdance": {
@@ -29616,6 +29617,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:33:29Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "legong",
     "kecak",
@@ -29667,6 +29673,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:39:32Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "an-dro",
     "assyrian-folk-dance",
@@ -29743,7 +29756,12 @@
    ],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-10-31T16:39:35Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "assyrian-folk-dance",
     "belly-dance",
@@ -29879,6 +29897,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:39:41Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
+   },
    "related_slugs": []
   },
   "bandari-dance": {
@@ -29998,6 +30023,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:39:44Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "khorovod",
     "lezginka",
@@ -30044,6 +30076,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:39:46Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "ballroom-dance",
     "hooping"
@@ -30101,6 +30138,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:39:49Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "allemande",
     "basse-danse",
@@ -30206,6 +30250,14 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:39:51Z",
+    "soft_fail": [
+     "not_vertical",
+     "camera_ok"
+    ]
+   },
    "related_slugs": [
     "dollu-kunitha"
    ]
@@ -30306,6 +30358,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:39:52Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "serimpi",
     "bedhaya-ketawang",
@@ -30409,6 +30466,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:39:58Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "salsa",
     "charleston",
@@ -30563,6 +30627,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:40:00Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "kochari",
     "yarkhushta",
@@ -30610,6 +30679,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:40:02Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "hopak",
     "odzemek",
@@ -30718,7 +30792,15 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-10-31T16:40:05Z",
+    "soft_fail": [
+     "not_talking_head",
+     "not_vertical"
+    ]
+   },
    "related_slugs": [
     "kuchipudi",
     "bharatanatyam"
@@ -30763,6 +30845,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:41:42Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "salsa",
     "charleston",
@@ -31002,6 +31089,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:43:56Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "flamenco",
     "sevillanas",
@@ -31163,6 +31255,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:43:58Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "agbadza",
     "highlife",
@@ -31374,6 +31471,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:11Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "dainichido-bugaku"
    ]
@@ -31487,6 +31589,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:13Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "salsa",
     "charleston",
@@ -31520,7 +31627,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Bugg",
    "wikidata_qid": "Q1002441",
    "unesco": false,
-   "hero_video_youtube_id": "klz8JMMC-hI",
+   "hero_video_youtube_id": "gJCkfkExuQ8",
    "hero_image": null,
    "video_stack": [],
    "image_significance": null,
@@ -31544,7 +31651,14 @@
    ],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:15Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
+   },
    "related_slugs": [
     "lindy-hop",
     "swing"
@@ -31591,7 +31705,15 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-10-31T16:44:19Z",
+    "soft_fail": [
+     "hd",
+     "camera_ok"
+    ]
+   },
    "related_slugs": [
     "an-dro",
     "hanter-dro"
@@ -31853,7 +31975,14 @@
    ],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-10-31T16:44:26Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
+   },
    "related_slugs": [
     "son-cubano",
     "cuban-rumba",
@@ -32122,7 +32251,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Kagura",
    "wikidata_qid": "Q1348260",
    "unesco": false,
-   "hero_video_youtube_id": "nqGR-H5yZtI",
+   "hero_video_youtube_id": "9RwqWhMS688",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -32204,7 +32333,14 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:34Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
+   },
    "related_slugs": [
     "noh",
     "bugaku"
@@ -32436,6 +32572,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:39Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "awa-odori",
     "soran-bushi",
@@ -32665,6 +32806,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:41Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "yosakoi",
     "bon-odori"
@@ -32702,7 +32848,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Contemporary_dance",
    "wikidata_qid": "Q186035",
    "unesco": false,
-   "hero_video_youtube_id": "IpVf5-aTgys",
+   "hero_video_youtube_id": "KD1yxRyFAZQ",
    "hero_image": null,
    "video_stack": [],
    "image_significance": null,
@@ -32714,7 +32860,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:42Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "modern-dance",
     "postmodern-dance",
@@ -32951,6 +33102,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:46Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
+   },
    "related_slugs": [
     "coladeira"
    ]
@@ -33068,6 +33226,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:47Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
+   },
    "related_slugs": [
     "bharatanatyam",
     "bhagavata-mela"
@@ -33103,7 +33268,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Sattriya",
    "wikidata_qid": "Q2724537",
    "unesco": false,
-   "hero_video_youtube_id": "q05_or-xdK4",
+   "hero_video_youtube_id": "iF-DkJZX_L8",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -33146,7 +33311,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:49Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "kecak": {
@@ -33388,6 +33558,13 @@
    "_is_sacred": true,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:53Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
+   },
    "related_slugs": [
     "roda",
     "maracatu"
@@ -33485,6 +33662,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:54Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "bourree": {
@@ -33682,6 +33864,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:56Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "ballet",
     "tarantella",
@@ -33774,6 +33961,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:44:58Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "gnawa": {
@@ -33855,6 +34047,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:00Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "taskiwin",
     "reggada",
@@ -33893,7 +34090,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Cham_dance",
    "wikidata_qid": "Q138567",
    "unesco": false,
-   "hero_video_youtube_id": "AYbdz9EQPbQ",
+   "hero_video_youtube_id": "H8Q-rjw0_9k",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -33932,7 +34129,14 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:01Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
+   },
    "related_slugs": []
   },
   "pantsula": {
@@ -33999,6 +34203,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:05Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "gumboot",
     "bobaraba",
@@ -34036,7 +34245,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Lakhon_Khol",
    "wikidata_qid": "Q61132934",
    "unesco": true,
-   "hero_video_youtube_id": "MBEFq2KLcz0",
+   "hero_video_youtube_id": "izHa_-Xv4vg",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -34075,7 +34284,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:06Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "royal-ballet-of-cambodia",
     "apsara-dance"
@@ -34112,7 +34326,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Pandanggo_sa_Ilaw",
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": "kTEDi39B4mg",
+   "hero_video_youtube_id": "14YxW3ROBA4",
    "hero_image": null,
    "video_stack": [],
    "image_significance": null,
@@ -34136,7 +34350,12 @@
    ],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:10Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "tinikling",
     "sagayan",
@@ -34292,6 +34511,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:15Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "biyelgee",
     "mongol-biyelgee",
@@ -34355,6 +34581,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:17Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "khon",
     "tinikling",
@@ -34393,7 +34624,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Adowa_dance",
    "wikidata_qid": "Q18209056",
    "unesco": false,
-   "hero_video_youtube_id": "okmQbOkJ_II",
+   "hero_video_youtube_id": "sBPomwXuK7c",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -34432,7 +34663,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:24Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "kete-akan"
    ]
@@ -34467,7 +34703,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Tinku",
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": "wc4A-aW7CWA",
+   "hero_video_youtube_id": "8wXNUmsl-kM",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -34513,7 +34749,14 @@
    ],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:28Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
+   },
    "related_slugs": [
     "diablada",
     "caporales",
@@ -34566,6 +34809,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:34Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "taualuga",
     "otea"
@@ -34601,7 +34849,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Coup%C3%A9-d%C3%A9cal%C3%A9",
    "wikidata_qid": "Q513357",
    "unesco": false,
-   "hero_video_youtube_id": "G1oIgoCC9jc",
+   "hero_video_youtube_id": "rIFSTWv-7Cs",
    "hero_image": null,
    "video_stack": [],
    "image_significance": null,
@@ -34630,7 +34878,14 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:36Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
+   },
    "related_slugs": [
     "ndombolo",
     "kwassa-kwassa",
@@ -34669,7 +34924,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Trepak",
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": "jo4tyxXymgc",
+   "hero_video_youtube_id": "1_vP7M0Cock",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -34711,7 +34966,12 @@
    ],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:40Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "hopak",
     "odzemek",
@@ -34797,6 +35057,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:43Z",
+    "soft_fail": [
+     "camera_ok"
+    ]
+   },
    "related_slugs": [
     "borborbor",
     "azonto"
@@ -34842,7 +35109,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Limbo_(dance)",
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": "5N-tDbjbqRo",
+   "hero_video_youtube_id": "zSKJrevtY0c",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -34902,7 +35169,14 @@
    ],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:46Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "calypso",
     "soca",
@@ -34997,6 +35271,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:51Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "chapelloise",
     "country-dance"
@@ -35073,6 +35352,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:53Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "mazurka",
     "hora",
@@ -35271,6 +35555,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:55Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
+   },
    "related_slugs": [
     "limbo",
     "soca",
@@ -35311,7 +35602,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Chutney_music",
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": "7lEExTelTjk",
+   "hero_video_youtube_id": "l0dvsd9UaX8",
    "hero_image": null,
    "video_stack": [],
    "image_significance": null,
@@ -35343,7 +35634,12 @@
    ],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:45:56Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "limbo",
     "soca",
@@ -35382,7 +35678,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Caporales",
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": "ue9K2P4UQjo",
+   "hero_video_youtube_id": "JLp4Ty-w-LQ",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -35424,7 +35720,14 @@
    ],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-10-31T16:46:02Z",
+    "soft_fail": [
+     "not_vertical"
+    ]
+   },
    "related_slugs": [
     "diablada",
     "tinku",
@@ -37704,9 +38007,17 @@
    "wikipedia_url": null,
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": null,
+   "hero_video_youtube_id": "xCMIj3A5tPQ",
    "hero_image": null,
-   "video_stack": [],
+   "video_stack": [
+    {
+     "youtube_id": "xCMIj3A5tPQ",
+     "role": "hero",
+     "title": "Lesson 2:  Steps for Umushagiriro( Umushayayo) Rwandan traditional dance tutorial  on  Isizaniro",
+     "channel": "ISIZANIRO by Thamar NIWEMUKIZA",
+     "hd": true
+    }
+   ],
    "image_significance": {
     "schema_version": 1,
     "status": "pending",
@@ -37720,6 +38031,7 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "hero_source": "crawler:crowd_wisdom_confident",
    "research_gate": "reject",
    "qc_score": 4.05,
    "last_researched_at": "2026-10-28T06:34:00Z",
@@ -40777,6 +41089,7 @@
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_weak",
    "related_slugs": [
+    "huaconada",
     "huayno"
    ]
   },
@@ -41529,10 +41842,10 @@
    "slug": "sekete",
    "name": "Sekete",
    "country": "Suriname",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "SR",
+   "flag_emoji": "🇸🇷",
    "region": "Caribbean",
-   "family": null,
+   "family": "ritual-sacred",
    "era": "colonial",
    "tagline": "Saramaka social dance to apinti drums.",
    "profile": "Saramaka Maroon Winti-linked song-and-dance; ankle rattles and kwakwa.",
@@ -41546,9 +41859,12 @@
     "pavane",
     "african-dance"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dance_in_Suriname",
+    "https://www.wikidata.org/wiki/Q107447246"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Dance_in_Suriname",
+   "wikidata_qid": "Q107447246",
    "unesco": false,
    "hero_video_youtube_id": null,
    "hero_image": null,
@@ -41564,6 +41880,107 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "publish",
+   "qc_score": 7.7,
+   "last_researched_at": "2026-10-31T16:20:42Z",
+   "pipeline_version": "v3.2",
+   "profile_long": "Sekete is a dance tradition practiced by the Saramaka Maroon community in Suriname, an Afro-Surinamese group descended from escaped enslaved Africans who established independent tribes in the rainforest. Rooted in the Winti religion, which blends West African spiritual practices with Christian and indigenous influences, Sekete is both a social and ritual expression. The dance involves the use of ankle rattles, known locally as kwakwa, which the dancers shake rhythmically to accompany the apinti drums. These drums provide the distinctive beat that guides the dancers' movements. Sekete is one of several original Winti dances, alongside others like awasa and songé among the Aukan Maroons. The dance is characterized by bending knees and rhythmic shaking, embodying the playful and sometimes mischievous nature of certain Winti spirits called indji-winti. Historically, Winti dances like Sekete were performed in community gatherings and spiritual ceremonies, sometimes with permission from plantation owners during the colonial period due to their aesthetic appeal. The dance remains a vital cultural practice among the Saramaka, preserving ancestral connections and spiritual identity. While the sources do not provide detailed descriptions of the dance technique or costume, the use of ankle rattles and apinti drums is central. Sekete exemplifies the survival and adaptation of African-derived dance and spirituality in Suriname's multicultural landscape.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kuda_Lumping_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kuda_Lumping_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1024,
+     "height": 714,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Gunawan Kartapranata / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKuda_Lumping_1.jpg",
+     "description": "Kuda Lumping also called \"Jaran Kepang\", is a traditional Javanese dance depicting a group of troops riding horses. The dance employs horse made from woven bamboo. This dance was performed on Malioboro street, Yogyakarta, during a festival."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Kathak_Duet_Performance_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Kathak_Duet_Performance_%287%29.jpg/1280px-Kathak_Duet_Performance_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2000,
+     "height": 1333,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Suyash Dwivedi / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKathak_Duet_Performance_%287%29.jpg",
+     "description": "Kathak Duet Performance"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Moengo_Festival_of_Theatre_%26_Dance%2C_2017_-_3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/14/Moengo_Festival_of_Theatre_%26_Dance%2C_2017_-_3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1280,
+     "height": 704,
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "attribution": "ATV-Networks Suriname / Wikimedia Commons / CC BY 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AMoengo_Festival_of_Theatre_%26_Dance%2C_2017_-_3.png",
+     "description": "Moengo Festival of Theatre &amp; Dance"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Dans%2C_Tembe_Art_Studio%2C_2019_-_3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/93/Dans%2C_Tembe_Art_Studio%2C_2019_-_3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1280,
+     "height": 720,
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "attribution": "ATV-Networks Suriname / Wikimedia Commons / CC BY 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADans%2C_Tembe_Art_Studio%2C_2019_-_3.png",
+     "description": "Tembe Art Studio"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Dans%2C_Tembe_Art_Studio%2C_2019_-_4.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Dans%2C_Tembe_Art_Studio%2C_2019_-_4.png/1280px-Dans%2C_Tembe_Art_Studio%2C_2019_-_4.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1920,
+     "height": 1080,
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "attribution": "ATV-Networks Suriname / Wikimedia Commons / CC BY 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADans%2C_Tembe_Art_Studio%2C_2019_-_4.png",
+     "description": "Tembe Art Studio"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Dans%2C_Tembe_Art_Studio%2C_2019_-_5.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Dans%2C_Tembe_Art_Studio%2C_2019_-_5.png/1280px-Dans%2C_Tembe_Art_Studio%2C_2019_-_5.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1920,
+     "height": 1080,
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "attribution": "ATV-Networks Suriname / Wikimedia Commons / CC BY 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADans%2C_Tembe_Art_Studio%2C_2019_-_5.png",
+     "description": "Tembe Art Studio"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Dans%2C_Tembe_Art_Studio%2C_2019_-_6.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Dans%2C_Tembe_Art_Studio%2C_2019_-_6.png/1280px-Dans%2C_Tembe_Art_Studio%2C_2019_-_6.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1920,
+     "height": 1080,
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "attribution": "ATV-Networks Suriname / Wikimedia Commons / CC BY 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADans%2C_Tembe_Art_Studio%2C_2019_-_6.png",
+     "description": "Tembe Art Studio"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Drageman_Dey_2019_-_11.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Drageman_Dey_2019_-_11.png/1280px-Drageman_Dey_2019_-_11.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1920,
+     "height": 1080,
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "attribution": "René Gompers, StarNieuws / Wikimedia Commons / CC BY 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADrageman_Dey_2019_-_11.png",
+     "description": "Drageman Dey 2019"
+    }
+   ],
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "Sekete is linked to the Winti religion and embodies spiritual practices; it is both social and sacred, and outsiders should respect its spiritual significance.",
+   "movie_ready": false,
    "related_slugs": [
     "zamba",
     "highland-fling",
@@ -41574,16 +41991,18 @@
    "slug": "maglalatik",
    "name": "Maglalatik",
    "country": "Philippines",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "PH",
+   "flag_emoji": "🇵🇭",
    "region": "Southeast Asia",
-   "family": null,
+   "family": "folk-circle",
    "era": "traditional",
    "tagline": "Coconut-shell armor clapped in mock battle.",
    "profile": "All-male Biñan dance; coconut shells strapped to body, Christian-Moro mock war.",
    "insight": "",
    "aliases": [
-    "Maglalatik"
+    "Maglalatik",
+    "Manlalatik",
+    "Magbabao"
    ],
    "related": [
     "tinikling",
@@ -41591,9 +42010,12 @@
     "pandanggo-sa-ilaw",
     "sinulog"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Maglalatik",
+    "https://www.wikidata.org/wiki/Q17077770"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Maglalatik",
+   "wikidata_qid": "Q17077770",
    "unesco": false,
    "hero_video_youtube_id": "KhDB9VQDmGk",
    "hero_image": null,
@@ -41639,6 +42061,27 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "research_gate": "publish",
+   "qc_score": 8.6,
+   "last_researched_at": "2026-10-31T16:21:01Z",
+   "pipeline_version": "v3.2",
+   "profile_long": "Maglalatik is a folk dance from the Philippines performed exclusively by shirtless male dancers who wear red clothing. The dancers have coconut shell halves fastened to their exposed torsos, including above the nipples, and on vests that hold four to six additional shells. They also hold coconut shells in their hands. The dancers create complex rhythms by striking the shells on their hands against those on their bodies or those worn by other dancers, all synchronized to a fast drumbeat. This percussive clapping of shells forms the core of the dance's musical and movement identity. Maglalatik is a mock battle dance representing a fight between Moros and Christians over latik, a coconut product used in Filipino cooking, from which the dance derives its name meaning \"latik-maker.\" The dance showcases the dancers' skill and agility, and in some Filipino Martial Arts circles, it is recognized as containing hidden trapping and boxing techniques within its choreography. The dance is a vivid cultural expression combining martial imagery, rhythmic percussion, and traditional costume elements, performed to impress audiences with dexterity and speed.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Folklore_of_the_popular_heritage_of_the_State_of_the_Philippines_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Folklore_of_the_popular_heritage_of_the_State_of_the_Philippines_18.jpg/1280px-Folklore_of_the_popular_heritage_of_the_State_of_the_Philippines_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 6016,
+     "height": 4000,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ahmed Younis Sif / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AFolklore_of_the_popular_heritage_of_the_State_of_the_Philippines_18.jpg",
+     "description": "This is an image from"
+    }
+   ],
+   "movie_ready": false,
    "related_slugs": [
     "tinikling",
     "sagayan",
@@ -41649,16 +42092,19 @@
    "slug": "amis-harvest-dance",
    "name": "Amis harvest dance",
    "country": "Taiwan",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "TW",
+   "flag_emoji": "🇹🇼",
    "region": "East Asia",
-   "family": null,
+   "family": "folk-circle",
    "era": "traditional",
    "tagline": "Interlinked arms in an ever-open circle.",
    "profile": "Amis/Pangcah malikoda at the Ilisin harvest festival; age-graded circle.",
    "insight": "",
    "aliases": [
-    "Amis harvest dance"
+    "Amis harvest dance",
+    "Ilisin",
+    "Malalikid",
+    "Kiloma'an"
    ],
    "related": [
     "awa-odori",
@@ -41666,9 +42112,12 @@
     "lion-dance",
     "buchaechum"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Amis_harvest_festivals",
+    "https://www.wikidata.org/wiki/Q21041633"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Amis_harvest_festivals",
+   "wikidata_qid": "Q21041633",
    "unesco": false,
    "hero_video_youtube_id": null,
    "hero_image": null,
@@ -41684,6 +42133,30 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "publish",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-10-31T16:21:21Z",
+   "pipeline_version": "v3.2",
+   "profile_long": "The Amis harvest dance is an integral part of the Ilisin Harvest Festival, celebrated by the Amis indigenous people of Taiwan, primarily in the Taitung and Hualien areas during lunar July and August. This festival marks the completion of the rice harvest, replacing the earlier millet harvest ceremonies. The dance is performed by men and women of all ages, who wear traditional festival costumes and form hand-in-hand circles around the elders seated at the center. The dance movements include walking, running, and jumping, with coastal tribes exhibiting more complex and variable steps than those in mountainous regions. Singing accompanies the dance, typically with a lead singer initiating a chorus that others follow, serving as a medium to communicate with ancestral spirits and gods. The dance also functions as a social mechanism for young Amis men and women to select partners, with girls actively joining boys they favor during the dance. Elders, who hold a respected status, observe the dance and select potential future tribe leaders through this ritual. The festival includes other important ceremonies such as the adult ceremony, which marks the transition of boys into adulthood through training and tests, including a running race. The priest, a knowledgeable figure responsible for agricultural rituals and communication with the gods, oversees the festival. The dance and festival are deeply connected to the agricultural calendar, ancestral worship, and social structure of the Amis community.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/2015%E5%B9%B4%E6%B0%B8%E5%92%8C%E5%8D%80%E8%81%AF%E5%90%88%E8%B1%90%E5%B9%B4%E7%A5%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/2015%E5%B9%B4%E6%B0%B8%E5%92%8C%E5%8D%80%E8%81%AF%E5%90%88%E8%B1%90%E5%B9%B4%E7%A5%AD.jpg/1280px-2015%E5%B9%B4%E6%B0%B8%E5%92%8C%E5%8D%80%E8%81%AF%E5%90%88%E8%B1%90%E5%B9%B4%E7%A5%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3629,
+     "height": 2523,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Danieltw93 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3A2015%E5%B9%B4%E6%B0%B8%E5%92%8C%E5%8D%80%E8%81%AF%E5%90%88%E8%B1%90%E5%B9%B4%E7%A5%AD.jpg",
+     "description": "​2015年永和區聯合豐年祭"
+    }
+   ],
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "The dance is part of sacred harvest ceremonies involving ancestral worship and rituals led by the priest; outsiders should respect the ritual context and not disrupt ceremonies.",
+   "movie_ready": true,
    "related_slugs": [
     "awa-odori",
     "bon-odori",
@@ -42979,6 +43452,10 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "research_gate": "review",
+   "qc_score": 8.5,
+   "last_researched_at": "2026-10-31T16:21:46Z",
+   "pipeline_version": "v3.2",
    "related_slugs": [
     "marinera",
     "cachua",
@@ -43219,6 +43696,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "research_gate": "review",
+   "qc_score": 9.35,
+   "last_researched_at": "2026-10-31T16:22:20Z",
+   "pipeline_version": "v3.2",
+   "is_sacred": true,
+   "needs_eyes_on": true,
    "related_slugs": [
     "tinikling",
     "sagayan",
@@ -43519,6 +44002,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_weak",
+   "research_gate": "review",
+   "qc_score": 5.9,
+   "last_researched_at": "2026-10-31T16:22:56Z",
+   "pipeline_version": "v3.2",
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "Pilou was a sacred dance within Kanak culture and was banned by French authorities; outsiders should respect its cultural significance and the reasons for its suppression.",
    "related_slugs": [
     "zamba",
     "highland-fling",
@@ -43828,6 +44318,10 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_weak",
+   "research_gate": "review",
+   "qc_score": 5.75,
+   "last_researched_at": "2026-10-31T16:16:43Z",
+   "pipeline_version": "v3.2",
    "related_slugs": [
     "zamba",
     "highland-fling",
@@ -43973,6 +44467,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "review",
+   "qc_score": 4.55,
+   "last_researched_at": "2026-10-31T16:19:01Z",
+   "pipeline_version": "v3.2",
+   "is_sacred": true,
+   "needs_eyes_on": true,
    "related_slugs": [
     "zamba",
     "highland-fling",
@@ -44018,6 +44518,10 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "reject",
+   "qc_score": 4.3,
+   "last_researched_at": "2026-10-31T16:23:17Z",
+   "pipeline_version": "v3.2",
    "related_slugs": [
     "marshallese-jebwa",
     "zamba",
@@ -44029,16 +44533,18 @@
    "slug": "gumboot-dance",
    "name": "Gumboot dance",
    "country": "South Africa",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "ZA",
+   "flag_emoji": "🇿🇦",
    "region": "Sub-Saharan Africa",
-   "family": null,
+   "family": "folk-circle",
    "era": "late 1800s",
    "tagline": "Boots that talk in the dark.",
    "profile": "Isicathulo percussive mine dance; coded criticism in Wellington boots.",
    "insight": "",
    "aliases": [
-    "Gumboot dance"
+    "Gumboot dance",
+    "Isicathulo",
+    "Gumboots"
    ],
    "related": [
     "kizomba",
@@ -44046,9 +44552,15 @@
     "gumboot",
     "adumu"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gumboot_dance",
+    "https://www.wikidata.org/wiki/Q1434111",
+    "https://es.wikipedia.org/wiki/Gumboot",
+    "https://fr.wikipedia.org/wiki/Gumboot_(danse)",
+    "https://de.wikipedia.org/wiki/Gummistiefel-Tanz"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Gumboot_dance",
+   "wikidata_qid": "Q1434111",
    "unesco": false,
    "hero_video_youtube_id": "fYYYymWvhAI",
    "hero_image": null,
@@ -44094,6 +44606,34 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "research_gate": "publish",
+   "qc_score": 9.25,
+   "last_researched_at": "2026-10-31T16:23:31Z",
+   "pipeline_version": "v3.2",
+   "profile_long": "The Gumboot dance, also known as Isicathulo in Zulu, originated in the late 19th century among black miners in the gold mines of South Africa, particularly around Johannesburg and the Witwatersrand region. These miners were subjected to harsh working conditions, including being chained, working in flooded tunnels, and a strict prohibition against speaking to each other under threat of severe punishment. To communicate, they developed a coded language using rhythmic slaps on their Wellington boots (gumboots), stamping, clapping, and rattling chains. The boots were often embellished with bells or bottle caps to enhance the sound, recalling the chains that once bound them.\n\nThis percussive dance form uses the body and boots as idiophones, creating complex polyrhythms and total body articulation derived from traditional African dances. Many routines parody the movements of mine officers and guards, serving as a subtle form of resistance and social commentary. Over time, gumboot dancing moved from the mines to the surface, becoming a popular cultural and social expression among miners and their communities. It evolved into a performance art with groups competing and performing in company amphitheaters and public spaces.\n\nToday, Gumboot dance is commonly seen in South African tourist areas such as the Victoria & Alfred Waterfront in Cape Town, performed by youth groups and professional troupes. It has also gained international recognition through music collaborations, such as Paul Simon's \"Gumboots\" on his album Graceland, and through folk groups like Zimbabwe's Black Umfolosi. The dance continues to evolve, incorporating modern elements while respecting its origins. Educational groups like the Gumboot Core Team at Pearson College UWC maintain the tradition authentically, and organizations like World of Step work to preserve its historical significance.\n\nThe dance's music often includes guitar, accordion, and violin accompaniment, though originally it was performed without instruments. The boots' sounds combined with body percussion create a distinctive rhythmic texture. The dance is both a cultural symbol of resilience and a vibrant artistic form, reflecting the miners' history and contemporary South African identity.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "Gumboot guitar. Zulu street guitar music from South Africa",
+     "artist": "Janet Topp Fargion, Albert Nene",
+     "source": "https://de.wikipedia.org/wiki/Gummistiefel-Tanz",
+     "verified": false
+    }
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Gumboot_dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/94/Gumboot_dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 835,
+     "height": 1484,
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0",
+     "attribution": "Michal Maňas / Wikimedia Commons / CC BY 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AGumboot_dancer.jpg",
+     "description": "Gumboot dancer. (Taken in Olomouc, The Czech Republic at the show about Zulu culture.)"
+    }
+   ],
+   "movie_ready": true,
    "related_slugs": [
     "kizomba",
     "semba",
@@ -44351,6 +44891,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "review",
+   "qc_score": 9.5,
+   "last_researched_at": "2026-10-31T16:19:15Z",
+   "pipeline_version": "v3.2",
+   "is_sacred": true,
+   "needs_eyes_on": true,
    "related_slugs": [
     "ballet",
     "tarantella",
@@ -44529,6 +45075,10 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_weak",
+   "research_gate": "reject",
+   "qc_score": 3.85,
+   "last_researched_at": "2026-10-31T16:19:46Z",
+   "pipeline_version": "v3.2",
    "related_slugs": [
     "lezginka",
     "russian-folk-dance",
@@ -44575,6 +45125,10 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "review",
+   "qc_score": 7.65,
+   "last_researched_at": "2026-10-31T16:20:00Z",
+   "pipeline_version": "v3.2",
    "related_slugs": [
     "lezginka",
     "russian-folk-dance",
@@ -44722,6 +45276,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "research_gate": "reject",
+   "qc_score": 8.5,
+   "last_researched_at": "2026-10-31T16:24:04Z",
+   "pipeline_version": "v3.2",
+   "is_sacred": true,
+   "needs_eyes_on": true,
    "related_slugs": [
     "raqs-sharqi",
     "hora",
@@ -44784,10 +45344,10 @@
    "slug": "danza-de-la-botella",
    "name": "Danza de la Botella",
    "country": "Paraguay",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "PY",
+   "flag_emoji": "🇵🇾",
    "region": "South America",
-   "family": null,
+   "family": "folk-circle",
    "era": "19th c.",
    "tagline": "Dancing with bottles stacked on the head.",
    "profile": "Paraguayan bottle dance; botelleras balance bottles to polka.",
@@ -44801,9 +45361,13 @@
     "tango",
     "candombe"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Paraguayan_bottle_dance",
+    "https://www.wikidata.org/wiki/Q96398402",
+    "https://es.wikipedia.org/wiki/Danza_de_la_botella"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Paraguayan_bottle_dance",
+   "wikidata_qid": "Q96398402",
    "unesco": false,
    "hero_video_youtube_id": "QMacCsP9Oy4",
    "hero_image": null,
@@ -44849,6 +45413,27 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_weak",
+   "research_gate": "publish",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-10-31T16:20:19Z",
+   "pipeline_version": "v3.2",
+   "profile_long": "Danza de la Botella is a traditional folk dance from Paraguay distinguished by performers balancing glass bottles on their heads. Female dancers typically wear ankle-length skirts reminiscent of 19th-century rural Paraguayan attire. The dance likely evolved from the galopa folk dance, which involved balancing jugs on the head, with bottles replacing jugs over time. Performances are accompanied by Paraguayan polka music, a lively genre that sets the rhythm and mood. The dance is largely improvised, with basic movements involving dancers extending their arms to hold the ruffles of their skirts, creating an illusion that no bottles are balanced atop their heads. The dance can be performed individually, in pairs, or groups, with each dancer balancing one or two bottles. More skilled dancers can balance ten or more bottles stacked. The bottles are often decorated with tricolored ribbons reflecting the Paraguayan flag or adorned with flowers. When multiple bottles are stacked, they are designed to attach to each other securely but not to the dancer’s head, ensuring safety and balance. The dance has appeared in popular culture, including tasks on The Amazing Race and performances on Got Talent España, highlighting its cultural significance and visual appeal. The dance’s improvisational nature and the technical skill required to balance multiple bottles while moving to polka music make it a striking and challenging folk tradition.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Danzas_Tradicionales_De_Paraguay_%28210378445%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Danzas_Tradicionales_De_Paraguay_%28210378445%29.jpeg/1280px-Danzas_Tradicionales_De_Paraguay_%28210378445%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1365,
+     "height": 2048,
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "attribution": "Manuel Martín Laguna / Wikimedia Commons / CC BY 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADanzas_Tradicionales_De_Paraguay_%28210378445%29.jpeg",
+     "description": "500px provided description: Actuaci?n de el grupo internacional de danza Jeroky Paraguay en la Feria de los Pueblo de Fuengirola, M?laga. [#Colors ,#Spain ,#Woman ,#Happy ,#Happiness ,#Dance ,#Paraguay ,#Dress ,#Malaga ,#Colorful ,#South America ,#Bottles ,#Traditional ,#Fair ,#International ,#Girls ,#Folk ,#Dancing ,#Group ,#Balance]"
+    }
+   ],
+   "movie_ready": false,
    "related_slugs": [
     "samba",
     "bossa-nova",
@@ -48918,6 +49503,7 @@
    "related_slugs": [
     "halay",
     "kochari",
+    "azerbaijani-folk-dance",
     "govend"
    ]
   },
@@ -51201,9 +51787,17 @@
    "wikipedia_url": "",
    "wikidata_qid": "",
    "unesco": false,
-   "hero_video_youtube_id": null,
+   "hero_video_youtube_id": "-bQiRvsqlX4",
    "hero_image": null,
-   "video_stack": [],
+   "video_stack": [
+    {
+     "youtube_id": "-bQiRvsqlX4",
+     "role": "hero",
+     "title": "New Year Lusheng Dance(舟溪芦笙舞)",
+     "channel": "Guizhou minority guy",
+     "hd": true
+    }
+   ],
    "image_significance": "Dance and play the reed-pipe at once. A representative image shows precise formation with fans, sleeves or masks and refined stagecraft — Guizhou (Miao), China.",
    "lat": 26.6,
    "lng": 107.9,
@@ -51213,6 +51807,7 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": [
     "long-drum-dance"
    ]
@@ -60700,8 +61295,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Courante",
    "wikidata_qid": "Q664056",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "GJFBf4G0zRI",
+   "video_stack": [
+    {
+     "youtube_id": "GJFBf4G0zRI",
+     "role": "hero",
+     "title": "Understanding Form: The Courante",
+     "channel": "Musica Universalis",
+     "hd": true
+    },
+    {
+     "youtube_id": "KdYoW6lhf6A",
+     "role": "rendition",
+     "title": "Courante",
+     "channel": "cpcontrapasso",
+     "hd": false
+    },
+    {
+     "youtube_id": "YFM3RHt128o",
+     "role": "rendition",
+     "title": "Baroque Dance   Courante",
+     "channel": "operascenes",
+     "hd": false
+    },
+    {
+     "youtube_id": "0dA8HYCnOXg",
+     "role": "rendition",
+     "title": "Renaissance Dance - Courante #shorts #renaissance #dance",
+     "channel": "Cortesia",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -60771,8 +61395,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Canary_dance",
    "wikidata_qid": "Q130919",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "gcivoSm5Ec4",
+   "video_stack": [
+    {
+     "youtube_id": "gcivoSm5Ec4",
+     "role": "hero",
+     "title": "Understanding Form: The Canary",
+     "channel": "Musica Universalis",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -60848,8 +61480,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Cordax",
    "wikidata_qid": "Q730233",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "U9gHiAHIrfo",
+   "video_stack": [
+    {
+     "youtube_id": "U9gHiAHIrfo",
+     "role": "hero",
+     "title": "Zorba, ¡enséñame a bailar! El baile final - Las Notas del Vino 2018",
+     "channel": "La Bodega de las Estrellas",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -60908,8 +61548,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Juba_dance",
    "wikidata_qid": "Q747043",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "hpNdQDWgy7I",
+   "video_stack": [
+    {
+     "youtube_id": "hpNdQDWgy7I",
+     "role": "hero",
+     "title": "JUBA DANCE: The dance of African slaves in American plantations",
+     "channel": "FREE STEP ITALIA OFFICIAL",
+     "hd": true
+    },
+    {
+     "youtube_id": "2k6aAX8xoNI",
+     "role": "rendition",
+     "title": "Juba Dance: Hidden Cultural Resistance Secrets Finally Revealed",
+     "channel": "Black History with Professor Darius",
+     "hd": true
+    },
+    {
+     "youtube_id": "raAwu-CF6mM",
+     "role": "rendition",
+     "title": "juba dance @amaqaqamusic5605",
+     "channel": "Amaqaqa music",
+     "hd": true
+    },
+    {
+     "youtube_id": "QVZMJrtTcXI",
+     "role": "rendition",
+     "title": "Pattin Juba",
+     "channel": "Donald Hamm",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -60945,6 +61614,402 @@
    "related_slugs": [
     "tap-dance"
    ]
+  },
+  "tecktonik": {
+   "slug": "tecktonik",
+   "name": "tecktonik",
+   "country": "France",
+   "country_code": "FR",
+   "region": "Europe",
+   "family": "street-urban",
+   "flag_emoji": "🇫🇷",
+   "era": "2000s",
+   "tagline": "A neon-lit Parisian street dance born in mega-clubs and viral internet videos.",
+   "profile": "Tecktonik, also known as electro dance or Milky Way, is a fast-paced street dance that emerged in the 2000s at the Metropolis nightclub in the southern suburbs of Paris. It combines elements of industrial dance, Moroccan chaabi, disco, vogue, waacking, hip-hop, and freehand glowsticking to fast-paced techno and electro house music. The movement exploded through early viral videos on YouTube and Dailymotion, backed by strict trademark enforcement from its creators Cyril Blanc and Alexandre Barouzdin. After peaking between 2006 and 2008, the style faded before experiencing a digital revival on TikTok in the mid-2020s.",
+   "insight": "Born as a brand of hardstyle club nights in a Parisian suburb, Tecktonik became one of history's first viral internet dance crazes.",
+   "aliases": [
+    "techtonic",
+    "tecktonick",
+    "tektonik",
+    "electro dance",
+    "milky way"
+   ],
+   "related": [
+    "hardstyle",
+    "jumpstyle",
+    "vogue",
+    "waacking",
+    "hip-hop",
+    "glowsticking"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Electro_dance",
+    "https://www.wikidata.org/wiki/Q754504",
+    "https://es.wikipedia.org/wiki/Tecktonik",
+    "https://fr.wikipedia.org/wiki/Tecktonik",
+    "https://pt.wikipedia.org/wiki/Tecktonik"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Electro_dance",
+   "wikidata_qid": "Q754504",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-10-31",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-10-31T15:28:36Z",
+   "pipeline_version": "v3.2",
+   "profile_long": "In 2002, inside the cavernous concrete halls of the Metropolis nightclub in Rungis, a southern suburb of Paris, organizers Cyril Blanc and Alexandre Barouzdin launched 'Tecktonik Killer' parties to import hardstyle and jumpstyle beats from Belgium and the Netherlands. Dancers on the sticky club floor fused upper-body arm patterns drawn from glowsticking—such as figure eights and leading hands—with disco-inspired angular poses and lower-body hip-hop toprock and shuffling steps. Clad in tight fluorescent clothing, metal fingerless gloves, and towering punk crests, youth gathered in Parisian streets for 'aprems' organized via early internet forums, while the brand expanded to sell energy drinks and compilation CDs. Propelled by some of history's earliest viral videos on YouTube and Dailymotion, and featured in music videos like Mondotek's 'Alive,' the dance captured mainstream French media before peaking at the 2007 Techno Parade. Following economic strains and a shift in club demographics, Metropolis dropped the themed nights in late 2008, yet the movement laid foundational digital footprints that re-emerged decades later on TikTok among Gen Z nostalgia waves.",
+   "albums": [
+    {
+     "title": "Alive",
+     "artist": "Mondotek",
+     "year": "2007",
+     "mbid": "29136169-a573-32aa-8623-15d6467aea0b",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/29136169-a573-32aa-8623-15d6467aea0b",
+     "type": "Single",
+     "source": "https://en.wikipedia.org/wiki/Electro_dance",
+     "verified": true
+    },
+    {
+     "title": "À cause des garçons",
+     "artist": "Yelle",
+     "year": "2007",
+     "mbid": "b345df49-5522-3f97-aa46-9b52c9ae147e",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/b345df49-5522-3f97-aa46-9b52c9ae147e",
+     "type": "Single",
+     "source": "https://en.wikipedia.org/wiki/Electro_dance",
+     "verified": true
+    }
+   ],
+   "album_candidates": [
+    {
+     "title": "Sucker",
+     "artist": "Dim Chris",
+     "source": "https://en.wikipedia.org/wiki/Electro_dance",
+     "verified": false
+    }
+   ],
+   "images": [],
+   "movie_ready": true,
+   "related_slugs": [
+    "vogueing",
+    "hip-hop"
+   ]
+  },
+  "azerbaijani-folk-dance": {
+   "slug": "azerbaijani-folk-dance",
+   "name": "Azerbaijani folk dance",
+   "country": "Azerbaijan",
+   "country_code": "AZ",
+   "region": "Middle East",
+   "family": "folk-circle",
+   "flag_emoji": "🇦🇿",
+   "era": "Ancient to modern",
+   "tagline": "Traditional dances of Azerbaijan known for quick tempos, expressive upper bodies, and ancient circle formations.",
+   "profile": "Azerbaijani folk dances encompass diverse forms—from energetic group circle dances like Yally to solo displays of humor, courtship, and martial skill. Characterized by quick tempos, they preserve traditional clothing and reflect the nation's culture and history. Rooted in ancient rituals, these dances are documented in Mesolithic rock carvings at Gobustan.",
+   "insight": "Mesolithic rock carvings in Gobustan depict ancient dancers, linking modern Azerbaijani folk dance to prehistoric rituals etched into stone.",
+   "aliases": [
+    "Azerbaijani dances",
+    "Azerbaijan xalq rəqsləri"
+   ],
+   "related": [
+    "Lezginka",
+    "Turkish dance",
+    "Iranian dance"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Azerbaijani_dances",
+    "https://www.wikidata.org/wiki/Q724234",
+    "https://es.wikipedia.org/wiki/Bailes_nacionales_de_Azerbaiyán",
+    "https://fr.wikipedia.org/wiki/Danses_azerbaïdjanaises",
+    "https://de.wikipedia.org/wiki/Aserbaidschanische_Volkstänze"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Azerbaijani_dances",
+   "wikidata_qid": "Q724234",
+   "unesco": true,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-10-31",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.5,
+   "last_researched_at": "2026-10-31T15:34:58Z",
+   "pipeline_version": "v3.2",
+   "profile_long": "Azerbaijani folk dances (Azərbaycan Rəqsləri) are traditional art forms developed across the Republic of Azerbaijan and Iranian Azerbaijan. The history of these dances spans centuries, supported by archaeological findings of Mesolithic rock carvings depicting dancing figures at sites in Gobustan and Nakhchivan. Historically, the earliest dances carried ritual and ceremonial functions, eventually branching into heroic, work, and domestic thematic categories. In terms of musical meter, these dances are typically structured in 6/8 and 3/4 time signatures, executed with quick tempos that showcase the nation's energetic spirit.\n\nThe execution of Azerbaijani dance diverges distinctly by gender. Women's dances emphasize upper-body grace, intricate hand movements, shoulder styling, head angles, and facial expressions, with smooth leg movements dictated by the traditional long skirt. Conversely, men's dances focus heavily on footwork and athleticism, requiring dancers to rise effortlessly onto their toes, drop quickly onto their knees, and perform with proud, upright postures reminiscent of Caucasian bravery and horsemanship. Group dances, particularly the Yally (or Yalli), involve participants holding hands or shoulders in large circles or lines to perform synchronized rhythmic movements. Types of Yally include Kochari, Uch ayaq, Tenzere, and Sharur.\n\nA vast repertoire of named folk dances exists, many tied to specific regions, weddings, and calendar festivals like Nowruz. Examples include Abayi, originating from Shaki and Zagatala and performed with exaggerated comedic movements by middle-aged people; Asma Kasma, an ancient wedding procession dance featuring jumps; Chichekler, an elegant women's flower-gathering dance created in 1910; and Zorkhana, a men's strength dance. Professionalization of the art began with the creation of the first professional dance group in 1938, followed by ensembles such as the 'Chinar' girls' dance group founded in 1959 under Amina Dilbazi. Prominent choreographers and dancers like Alibaba Abdullayev, Rosa Jalilova, and Afaq Melikova composed and staged numerous classical folk suites that remain foundational to the modern stage repertoire.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Khanchobany_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Khanchobany_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1167,
+     "height": 875,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Gulustan / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKhanchobany_dance.jpg",
+     "description": "Celebration Novruz in Azerbaijan 003"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Azerbaijani_dances%2C_Eurovision_Song_Contest_2012%2C_semi-final_allocation_draw_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Azerbaijani_dances%2C_Eurovision_Song_Contest_2012%2C_semi-final_allocation_draw_%282%29.jpg/1280px-Azerbaijani_dances%2C_Eurovision_Song_Contest_2012%2C_semi-final_allocation_draw_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2316,
+     "height": 2418,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Vugarİbadov / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAzerbaijani_dances%2C_Eurovision_Song_Contest_2012%2C_semi-final_allocation_draw_%282%29.jpg",
+     "description": "Azerbaijani dances"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Pht-Vugar_Ibadov_eurovision_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Pht-Vugar_Ibadov_eurovision_%285%29.jpg/1280px-Pht-Vugar_Ibadov_eurovision_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4145,
+     "height": 2815,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Vugarİbadov / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3APht-Vugar_Ibadov_eurovision_%285%29.jpg",
+     "description": "Азербайджанкие танцоры на сцене Baku Crystal Hall"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Azerbaijani_dancers_at_Eurovision_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Azerbaijani_dancers_at_Eurovision_2012.jpg/1280px-Azerbaijani_dancers_at_Eurovision_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2194,
+     "height": 1166,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Vugarİbadov / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAzerbaijani_dancers_at_Eurovision_2012.jpg",
+     "description": "Танцовщицы на сцене Baku Crystal Hall"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Stamps_of_Azerbaijan%2C_2014-1143-souvenir_sheet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/83/Stamps_of_Azerbaijan%2C_2014-1143-souvenir_sheet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 960,
+     "height": 789,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Post of Azerbaijan/Azermarka / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AStamps_of_Azerbaijan%2C_2014-1143-souvenir_sheet.jpg",
+     "description": "Europe 2014. National music instruments. \nN 1143 - 1 manat. There is pictured a Qaval on the stamp. There is pictured traditional Azerbaijani trio on souvenir sheet."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/%C5%9Ealaxo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1a/%C5%9Ealaxo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 747,
+     "height": 557,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "N.Ulkar / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3A%C5%9Ealaxo.png",
+     "description": "Танец \"Шалахо\" в исполнении азербайджанского танцора Ханлар Баширов"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "Certain dances evolved from ancient calendar and ritual ceremonies like Godu-Godu and Kosa-Kosa, though they are now widely performed at secular weddings and festivals.",
+   "movie_ready": false,
+   "related_slugs": [
+    "lezginka"
+   ]
+  },
+  "tobas": {
+   "slug": "tobas",
+   "name": "Tobas",
+   "country": "Bolivia",
+   "country_code": "BO",
+   "region": "South America",
+   "family": "folk-circle",
+   "flag_emoji": "🇧🇴",
+   "era": "early 20th century",
+   "tagline": "A high-energy Bolivian folk dance of warrior jumps and vibrant feathered costumes.",
+   "profile": "Tobas is a Bolivian folk dance created in Oruro around 1905, inspired by the Chunchos dancers of Tarija and named after the Toba warriors of the Chaco. It features acrobatic jumps and vigorous movements symbolizing warrior strength and hunting. The dancers wear elaborate feathered costumes with beadwork and cow hooves on their ankles. The music evolved from traditional Andean flutes to brass instruments by the 1960s. Tobas is performed at major Bolivian festivals like Carnaval de Oruro and Fiesta del Gran Poder, and recognized nationally since 2014 as cultural heritage.",
+   "insight": "Tobas originated in early 20th-century Oruro, inspired by the Chunchos dance, yet named after the fierce Toba tribe known from 19th-century explorer tales.",
+   "aliases": [
+    "Danza de Bolivia",
+    "Bolivia original"
+   ],
+   "related": [
+    "Chunchos (dance)"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tobas",
+    "https://www.wikidata.org/wiki/Q951315",
+    "https://es.wikipedia.org/wiki/Tobas_(danza)"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Tobas",
+   "wikidata_qid": "Q951315",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-10-31",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.7,
+   "last_researched_at": "2026-10-31T15:47:48Z",
+   "pipeline_version": "v3.2",
+   "profile_long": "The Tobas dance is a Bolivian folkloric tradition that emerged in the early 20th century in the city of Oruro. It was created by Tomás Cáceres Nava and his son Donato Cáceres Véliz, who after witnessing the dance of the Chunchos pilgrims during the San Roque festival in Tarija around 1905, sought to develop a comparsa inspired by that dance. Although the dance is named after the Toba tribe, known as fierce warriors from the Chaco region and infamous in 19th-century explorer Jules Crevaux's death story, Tobas has little direct relation to the tribe itself. Instead, it is an urban creation that reinterprets indigenous motifs and warrior imagery. \n\nThe dance is characterized by energetic, acrobatic jumps and rapid footwork that simulate hunting and combat actions, such as throwing spears and stalking prey. Each movement has a traditional name, including the Bolivar (fast regular jumps), Cambá (high jumps up to one meter), Chucu-chucu (rapid tiptoe steps), and Cullahui (distinctive jump). The dancers' costumes are striking, featuring full feathered headdresses adorned with jewels, colorful skirts and tops with beads and fringes, and anklets with sewn cow hooves that add rhythmic sounds. They also carry symbolic weapons like spears or hatchets and wear feather bracelets.\n\nMusically, the dance originally used traditional Andean wind instruments like pinquillos and quenas but transitioned to brass instruments by the 1960s, adding greater agility and energy to the sound. Tobas is performed primarily during religious and cultural festivals such as the Carnaval de Oruro and Fiesta del Gran Poder, as well as internationally in festivals in Chile, Peru, and Argentina. The Bolivian government declared Tobas a tangible and intangible national heritage in 2014, and January 24th is celebrated as the national day of the Tobas dance.\n\nThe dance embodies messages of indigenous identity preservation, respect for nature, and cultural diversity awareness. It is physically demanding, requiring strength, stamina, and coordination to perform the vigorous jumps and turns. Tobas groups, or comparsas, have evolved over the decades, with notable organizations founded in the mid-20th century to preserve and promote the dance. The dance remains a vibrant symbol of Bolivian cultural expression and indigenous heritage.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Danseur_dans_une_Tobas%2C_danse_traditionnelle_aymara_de_Bolivie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Danseur_dans_une_Tobas%2C_danse_traditionnelle_aymara_de_Bolivie.jpg/1280px-Danseur_dans_une_Tobas%2C_danse_traditionnelle_aymara_de_Bolivie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3174,
+     "height": 3128,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Pierre André Leclercq / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADanseur_dans_une_Tobas%2C_danse_traditionnelle_aymara_de_Bolivie.jpg",
+     "description": "Dancer on Tobas in show Origenes.- Sucre,  Bolivia. Tobas, a traditional Aymara dance from Bolivia, performed during religious festivals. The Tobas dance is a special representation of energy.  The dance and music of the Tobas has been reinterpreted by subsequent people of Bolivia like the Aymara and the Mestizos."
+    }
+   ],
+   "movie_ready": true,
+   "related_slugs": []
+  },
+  "huaconada": {
+   "slug": "huaconada",
+   "name": "Huaconada",
+   "country": "Peru",
+   "country_code": "PE",
+   "region": "South America",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇵🇪",
+   "era": "Pre-Hispanic origins, continuing to present",
+   "tagline": "Ritual masked dance of Mito, Peru, performed by elders as village authority in early January.",
+   "profile": "Huaconada is a ritual dance from Mito, Peru, performed annually on January 1–3 by masked men called huacones who represent the former council of elders. Two types of huacones appear: elders in traditional costumes with fearsome carved masks, and younger dancers in colorful modern dress with expressive masks. The dance is accompanied by the tinya, a small indigenous drum, and features choreographed and improvised movements reflecting moral authority. The tradition is inherited father to son, restricted to men of good conduct.",
+   "insight": "For three days each January, masked huacones embody the village’s highest authority, wielding whips and condor-beaked masks to dance respect and fear into Mito’s streets.",
+   "aliases": [],
+   "related": [
+    "Peruvian dances"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Huaconada",
+    "https://www.wikidata.org/wiki/Q604820",
+    "https://es.wikipedia.org/wiki/Huaconada",
+    "https://fr.wikipedia.org/wiki/Huaconada",
+    "https://ich.unesco.org/en/RL/00390"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Huaconada",
+   "wikidata_qid": "Q604820",
+   "unesco": true,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-10-31",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.7,
+   "last_researched_at": "2026-10-31T16:00:15Z",
+   "pipeline_version": "v3.2",
+   "profile_long": "Huaconada is a ritual dance performed in the village of Mito, located in the province of Concepción in the central Peruvian Andes. Each year, on the first three days of January, men known as huacones take to the village center to perform a series of choreographed dances. These huacones symbolize the ancient council of elders and assume the highest authority in the village during the festival. The huacones wear distinctive masks with prominent noses shaped like the beak of a condor, a sacred Andean symbol representing the spirit of the mountains. The dance features two categories of huacones: the elders who wear traditional costumes and finely carved masks that inspire respect and fear, and the younger huacones who wear colorful modern costumes and masks that express terror, sadness, or mockery. \n\nThe elder huacones have freedom to improvise steps and dance with greater liberty, while the younger dancers move in limited steps around them. The dance is accompanied by an orchestra led by the rhythm of the tinya, a small indigenous drum. The huacones carry whips called tronadores, symbolizing authority and the \"traversal of thunder.\" The costumes include traditional wool hats or chuco, serge garments, rustic leather sandals called llanques, and the masks are wooden with grotesque features. The dance is a fusion of pre-Hispanic Andean and Spanish elements, embodying moral values and social order. \n\nThe tradition is strictly hereditary, passed from father to son along with the masks and costumes, and only men of good moral conduct are permitted to perform as huacones. The dance is a living symbol of the community's identity and social cohesion, recognized by UNESCO in 2010 as an Intangible Cultural Heritage of Humanity. The Huaconada encapsulates a blend of tradition and modernity, ritual authority, and communal memory, performed with solemnity and respect in the high Andes.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Huaconada-Mito-Per%C3%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Huaconada-Mito-Per%C3%BA.jpg/1280px-Huaconada-Mito-Per%C3%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3564,
+     "height": 2016,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Alfredo Palacios / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AHuaconada-Mito-Per%C3%BA.jpg",
+     "description": "Huaconada is a ritual dance Wanka - Mito - Peru"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "Huaconada is a sacred ritual dance representing ancestral authority and moral order; only men of good conduct may perform, and the masks and costumes are inherited and respected.",
+   "movie_ready": true,
+   "related_slugs": []
+  },
+  "la-bamba": {
+   "slug": "la-bamba",
+   "name": "La Bamba",
+   "country": "Mexico",
+   "country_code": "MX",
+   "region": "North America",
+   "family": "folk-circle",
+   "flag_emoji": "🇲🇽",
+   "era": "Late 17th century to present",
+   "tagline": "Traditional Mexican son jarocho dance and song from Veracruz with vibrant footwork and improvisation.",
+   "profile": "La Bamba is a traditional Mexican folk dance and song from Veracruz, rooted in the son jarocho style blending Spanish, indigenous, and African influences. It features couples performing intricate zapateado footwork, often tying a ribbon into a knot with their feet as a symbolic gesture. The music uses harp, jarana, and requinto guitars with a fast binary rhythm and chord progression I-IV-V. Lyrics are frequently improvised, personalized to occasions like weddings.",
+   "insight": "In La Bamba, dancers tie a large ribbon into a lover's knot with their feet, symbolizing union, while lyrics are often improvised, sometimes sparking heated reactions.",
+   "aliases": [],
+   "related": [
+    "Son Jarocho",
+    "Bamba (Spanish dance)",
+    "Bambara dance"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/La_Bamba_(song)",
+    "https://www.wikidata.org/wiki/Q641677",
+    "https://es.wikipedia.org/wiki/La_bamba",
+    "https://fr.wikipedia.org/wiki/La_bamba",
+    "https://pt.wikipedia.org/wiki/La_Bamba_(canção_de_1958)",
+    "https://archive.org/details/ERIC_ED342705"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/La_Bamba_(song)",
+   "wikidata_qid": "Q641677",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-10-31",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.1,
+   "last_researched_at": "2026-10-31T16:06:57Z",
+   "pipeline_version": "v3.2",
+   "profile_long": "La Bamba originates from the Mexican state of Veracruz and is a prime example of the son jarocho musical and dance tradition, which combines Spanish (Andalusian), indigenous, Afro-Mexican, and Afro-Caribbean elements. The dance is traditionally performed by couples, typically a man and a woman, though some communities dance with multiple couples. The dancers maintain a straight and erect posture, with the man’s body posture compared to that of Irish jig dancers. The footwork is intricate and fast, emphasizing zapateado—stamping with the right heel as a foundation for the dance. A signature moment in the dance is when couples use their feet to tie a large ribbon into a lover's knot on the dance floor, symbolizing their union. This act is often the climax of the performance and may be followed by the ribbon being tossed into the air.\n\nMusically, La Bamba is played on traditional son jarocho instruments including one or two arpa jarochas (harps), the jarana jarocha (a small guitar), and the requinto jarocho (a four-string guitar). The harp, with its 39 strings, plays rapid arpeggios that accompany the dancers’ footwork. The rhythm is a fast binary meter, supported by an ostinato pattern that can be arpeggiated by the bass, guitars, or harp. The harmonic progression is based on the I-IV-V chords in a major key, often cycling through C, F, and G chords when in the key of C major. The song’s lyrics are highly variable and often improvised, especially during social occasions such as weddings where guests personalize verses for the newlyweds. This improvisation can be playful but sometimes leads to disputes if lyrics are deemed insulting.\n\nHistorically, La Bamba dates back to the late 17th century, originally satirizing the ineffective efforts of the Mexican viceroy to defend Veracruz from pirates. The dance and song have evolved over centuries, maintaining their cultural significance in Veracruz and beyond. The song gained international fame through Ritchie Valens’ 1958 rock and roll adaptation, which introduced La Bamba to a global audience. Subsequent popular versions by Los Lobos in 1987 further cemented its place in popular culture. Despite these adaptations, traditional performances remain important in Mexican cultural events and ballet folklórico shows.\n\nThe dance is performed in social and celebratory contexts, including weddings and folkloric festivals. The improvisational nature of the lyrics and the symbolic ribbon tying reflect the communal and participatory spirit of the tradition. Costumes and settings are not rigidly defined in the sources but typically align with regional folkloric attire. The dance is not described as sacred or restricted, but respect for its cultural origins is essential.\n\nNotable figures associated with La Bamba include Ritchie Valens, who popularized the song internationally, and traditional musicians like Álvaro Hernández Ortiz, who recorded the earliest known version in 1938. Regional variants exist within Veracruz, with differences in tempo and lyrical style, but the core elements of son jarocho and the dance’s symbolic footwork remain consistent.\n\nLa Bamba is classified within the folk-circle family of dances in North America, specifically Mexico. It is a living tradition that continues to inspire musicians and dancers worldwide, bridging folk heritage and popular music.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "The Secret Museum of Mankind Vol. 4",
+     "artist": "Álvaro Hernández Ortiz",
+     "source": "https://en.wikipedia.org/wiki/La_Bamba_(song)",
+     "verified": false
+    }
+   ],
+   "images": [],
+   "needs_eyes_on": true,
+   "movie_ready": true,
+   "related_slugs": []
   }
  }
 }

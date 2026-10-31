@@ -1,0 +1,129 @@
+{
+ "slug": "ta-me",
+ "qc_at": "2026-10-31T16:27:29Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 4.55,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Ta Me"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "25"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "108"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Ta Me is a Niuean group song-dance where women remain seated while men stand, ac"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "284"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1315"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "0/1 rate=0.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Niue"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['sacred', 'ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 2,
+  "respect": 8,
+  "specificity": 5,
+  "teaching_value": 4,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Ta Me is a traditional Niuean group song-dance characterized by women seated and men standing during the performance.",
+   "The dance is accompanied by the palau drum, a traditional percussion instrument.",
+   "It reflects communal participation with gender-specific roles in the dance formation.",
+   "Ta Me is a traditional dance form from Niue, an island country in the Pacific region.",
+   "Ta Me is performed in communal settings and is an expression of Niuean cultural identity, emphasizing participation and gender roles within the community.",
+   "The palau drum is the primary instrument accompanying Ta Me.",
+   "Beginners would likely start by learning the seated posture for women and standing posture for men, following the drum rhythm."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 3,
+  "verdict": "review",
+  "notes": "The profile is plausible but mostly unsupported by the single evidence claim, which is itself marked unsupported. Keep only what can be verified or clearly label as unconfirmed. Respectful tone is good, but the teaching section is too thin to guide a beginner."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "country",
+  "sacred_handled",
+  "judge_score=4.55",
+  "doubts=7",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 1,
+  "supported": 0,
+  "rate": 0.0
+ },
+ "researched_at": "2026-10-31T16:19:01Z"
+}

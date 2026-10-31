@@ -1,0 +1,121 @@
+{
+ "slug": "sekete",
+ "qc_at": "2026-10-31T16:28:02Z",
+ "version": "v3.2",
+ "publish_gate": "publish",
+ "qc_score": 7.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Sekete"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "76"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "136"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Sekete is a Saramaka Maroon dance where dancers shake ankle rattles to apinti dr"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "351"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1464"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "4/4 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Suriname"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Caribbean"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ceremon', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 7,
+  "teaching_value": 6,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that Sekete embodies 'indji-winti' (mischievous spirits) is not supported by the provided evidence claims.",
+   "The claim that Sekete was performed with permission from plantation owners during the colonial period is not supported by the provided evidence claims."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and respectful. While it includes some cultural context not explicitly in the provided evidence snippets, it remains grounded in the known traditions of the Saramaka. The teaching section is appropriately cautious given the lack of formal technical documentation."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=7.7",
+  "doubts=2",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 4,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-31T16:20:42Z"
+}

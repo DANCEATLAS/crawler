@@ -1,0 +1,120 @@
+{
+ "slug": "do-si-do",
+ "qc_at": "2026-10-31T16:25:10Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 9.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "do-si-do"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "90"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "150"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Do-si-do involves dancers passing right shoulders, moving back-to-back, then pas"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "505"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2585"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "39/39 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "France (origin of term), widely used in USA, UK, Scotland"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'sacred']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 9,
+  "verdict": "reject",
+  "notes": "The profile is comprehensive and accurate based on the evidence, but it describes a dance move/figure rather than an independent dance style or tradition, so is_a_dance is false and the verdict is reject."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "insight_concrete",
+  "sacred_handled",
+  "judge_score=9.6",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 39,
+  "supported": 39,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-31T15:49:08Z"
+}

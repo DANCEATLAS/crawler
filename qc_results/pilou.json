@@ -1,0 +1,122 @@
+{
+ "slug": "pilou",
+ "qc_at": "2026-10-31T16:28:52Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 5.9,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Pilou"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "40"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "110"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Pilou was a sacred Kanak round-dance banned by France, last reported in 1951, pe"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "318"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1513"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "1/4 rate=0.25"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "New Caledonia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'ancestor', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 6,
+  "respect": 10,
+  "specificity": 4,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that Pilou was 'banned by France' is a common historical oversimplification; while colonial policies suppressed many indigenous practices, 'Pilou' is often used as a generic term for Kanak festivals/dances rather than a single specific dance style.",
+   "The claim that it was 'last reported in 1951' is factually dubious as the term 'Pilou' continues to be used in contemporary Kanak cultural contexts."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 5,
+  "verdict": "review",
+  "notes": "The profile treats 'Pilou' as a specific dance, whereas ethnographically it is a broader term for Kanak festivals. The lack of technical detail makes it poor for teaching, though the respectful handling of its sacred status is commendable. Needs clarification on the term's usage."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "judge_score=5.9",
+  "doubts=2",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 1,
+  "rate": 0.25
+ },
+ "researched_at": "2026-10-31T16:22:56Z"
+}

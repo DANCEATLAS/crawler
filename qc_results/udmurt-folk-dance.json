@@ -1,0 +1,122 @@
+{
+ "slug": "udmurt-folk-dance",
+ "qc_at": "2026-10-31T16:27:53Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 3.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Udmurt folk dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "37"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "100"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Udmurt folk dance features the 'Krugen ekton' protective circle, a unique improv"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "252"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1277"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "0/1 rate=0.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Russia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['sacred']"
+  }
+ ],
+ "judge": {
+  "accuracy": 3,
+  "respect": 8,
+  "specificity": 2,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that Udmurt folk dance is primarily 'improvisational' is a generalization that lacks specific ethnographic evidence.",
+   "The term 'Krugen ekton' as a 'protective circle' is not a standard or widely documented term in Udmurt choreographic studies.",
+   "The assertion that it shares cultural connections with 'lezginka' is geographically and culturally tenuous, as lezginka is a Caucasian dance tradition."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 3,
+  "verdict": "review",
+  "notes": "The profile lacks sufficient evidence to support its claims. The term 'Krugen ekton' appears to be a neologism or a misinterpretation of Udmurt terminology. The comparison to Lezginka is culturally inaccurate. The profile relies heavily on stating what is 'not described' rather than providing verified ethnographic data."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "judge_score=3.85",
+  "doubts=3"
+ ],
+ "citation": {
+  "claims": 1,
+  "supported": 0,
+  "rate": 0.0
+ },
+ "researched_at": "2026-10-31T16:19:46Z"
+}

@@ -1,0 +1,124 @@
+{
+ "slug": "harlem-shuffle",
+ "qc_at": "2026-10-31T16:25:15Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 6.75,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Harlem Shuffle"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "65"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "136"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The Harlem Shuffle evolved from Harlem Renaissance dance clubs into a popular 19"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "340"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "1175"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "4/5 rate=0.8"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United States"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['sacred']"
+  }
+ ],
+ "judge": {
+  "accuracy": 6,
+  "respect": 8,
+  "specificity": 7,
+  "teaching_value": 6,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The Harlem Shuffle is a versatile dance maneuver originating from Harlem's dance culture during the Harlem Renaissance.",
+   "The Harlem Shuffle gained renewed recognition in the 1980s as a tribute to African-American artistic influence.",
+   "This gesture is emblematic and has become a signature aspect of the dance.",
+   "The Harlem Shuffle is performed as a social dance and as a tribute to the African-American artistic legacy of Harlem."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 6,
+  "verdict": "review",
+  "notes": "Core form claims are supported, but several broader historical and cultural statements go beyond the evidence. Good concrete movement detail, though sourcing for history is thin and the profile sometimes reads as explanatory rather than verified."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "profile_long_len",
+  "judge_score=6.75",
+  "doubts=4"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 4,
+  "rate": 0.8
+ },
+ "researched_at": "2026-10-31T15:50:25Z"
+}

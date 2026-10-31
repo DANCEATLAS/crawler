@@ -1,0 +1,122 @@
+{
+ "slug": "tondero",
+ "qc_at": "2026-10-31T16:28:44Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 8.5,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Tondero"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "65"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "135"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Tondero’s rhythm mimics a caravan’s mule steps and its dance enacts cockfights a"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "320"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2904"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "8/10 rate=0.8"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Peru"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "deeply rooted,primitive"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "6 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that the dance expresses 'the errant life of birds' as a specific theme is a slight misinterpretation of the etymological link to 'volandero' (flying/nomadic) rather than a literal bird-life theme.",
+   "The claim that the dance is traditionally performed barefoot is not fully supported by the provided evidence, which mentions it as a tradition but lacks broader consensus."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and captures the cultural essence of Tondero. Minor discrepancies between the provided evidence and the text regarding barefoot performance and bird-life themes were noted, but the overall quality is high and informative for a beginner."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "insight_concrete",
+  "banned_phrasing",
+  "judge_score=8.5",
+  "doubts=2"
+ ],
+ "citation": {
+  "claims": 10,
+  "supported": 8,
+  "rate": 0.8
+ },
+ "researched_at": "2026-10-31T16:21:46Z"
+}

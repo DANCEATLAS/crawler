@@ -1,0 +1,121 @@
+{
+ "slug": "double-reverse-spin",
+ "qc_at": "2026-10-31T16:25:11Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 10.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Double reverse spin"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "72"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "126"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The double reverse spin completes a full turn within one measure of music, blend"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "395"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "1171"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage,teaching,music_profile,movement_profile,episode_brief,connections,claims,gaps"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "0/0 rate=0.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "region",
+   "ok": false,
+   "detail": "None"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['sacred']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 10,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-constructed and fully backed by the source claims. However, 'is_a_dance' is set to false because the subject is a specific ballroom dance move/figure rather than an entire dance form."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "country",
+  "profile_long_len",
+  "region",
+  "judge_score=10.0",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 0,
+  "supported": 0,
+  "rate": 0.0
+ },
+ "researched_at": "2026-10-31T15:49:54Z"
+}

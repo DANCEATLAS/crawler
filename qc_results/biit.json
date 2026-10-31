@@ -1,0 +1,122 @@
+{
+ "slug": "biit",
+ "qc_at": "2026-10-31T16:29:13Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 4.3,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Biit"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "32"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "140"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Biit is a Marshallese Kurijmoj jepta song-dance whose choreography depicts daily"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "381"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "1015"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "0/2 rate=0.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Marshall Islands"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 4,
+  "respect": 8,
+  "specificity": 3,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Biit is related to other Marshallese dances such as marshallese-jebwa and shares some cultural context with dances like zamba, highland-fling, and pavane."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 3,
+  "verdict": "review",
+  "notes": "The profile lacks sufficient technical detail to be useful. The claim linking Biit to European dances like the Highland Fling or Pavane is highly speculative and lacks evidence. The entry relies heavily on stating that information is 'not described in sources,' which limits its value as a dance guide."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=4.3",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 2,
+  "supported": 0,
+  "rate": 0.0
+ },
+ "researched_at": "2026-10-31T16:23:17Z"
+}

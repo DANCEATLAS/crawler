@@ -1,0 +1,119 @@
+{
+ "slug": "eurythmy",
+ "qc_at": "2026-10-31T16:24:33Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Eurythmy"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "74"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "147"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Eurythmy treats vowels and consonants as physical air-gestures, making the spoke"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "376"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1841"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "6"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Switzerland"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 9,
+  "verdict": "review",
+  "notes": "Eurythmy is an expressive movement art/anthroposophic discipline rather than a traditional dance form, meaning is_a_dance should be false, but the profile quality and accuracy are otherwise extremely high."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "insight_concrete",
+  "judge_score=9.85",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-31T15:34:10Z"
+}

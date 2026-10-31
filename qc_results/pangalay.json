@@ -1,0 +1,121 @@
+{
+ "slug": "pangalay",
+ "qc_at": "2026-10-31T16:28:45Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 9.35,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Pangalay"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "61"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "150"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Pangalay dancers wear brass fingernail extensions and move shoulders, elbows, an"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "672"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2320"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "16/16 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Philippines"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [
+   "Dayang Dayang"
+  ],
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and well-researched. The inclusion of the specific origin of the song 'Kiriring Pakiriring' adds significant value. The 'Dayang Dayang' album is flagged as it is a pop cover that popularized the song rather than a central recording of the dance tradition itself."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "insight_concrete",
+  "sacred_handled",
+  "judge_score=9.35",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 16,
+  "supported": 16,
+  "rate": 1.0
+ },
+ "researched_at": "2026-10-31T16:22:20Z"
+}
