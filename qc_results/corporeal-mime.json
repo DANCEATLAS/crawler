@@ -1,0 +1,119 @@
+{
+ "slug": "corporeal-mime",
+ "qc_at": "2026-11-01T17:49:05Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 8.35,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "corporeal mime"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "78"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "180"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Corporeal mime treats the human torso as a sculptor’s clay, prioritizing the wei"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "419"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2040"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "France"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 3,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "Corporeal mime is a theatrical technique, not a dance tradition. While the profile is highly accurate and well-researched, it lacks teaching value for a beginner because the 'how_it_is_danced' and 'teaching' sections are empty. It is a valuable entry for a physical theater encyclopedia."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "insight_concrete",
+  "banned_phrasing",
+  "judge_score=8.35",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-01T17:22:33Z"
+}

@@ -1,0 +1,123 @@
+{
+ "slug": "malaguenas",
+ "qc_at": "2026-11-01T17:42:22Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 9.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Malagueñas"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "72"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "181"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Though born as a fast ternary folk dance, flamenco artists slowed the malagueña "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "708"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2596"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "8/8 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Spain"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,codified,primitive"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"fandango-spain\", \"score\": 1.0, \"via_alias\": \"Malague\\u00f1a\"}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['liturg']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "Exceptional, highly detailed profile accurately distinguishing between the free-meter vocal style and its folkloric/staged dance counterparts."
+ },
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "fandango-spain",
+  "score": 1.0,
+  "via_alias": "Malagueña"
+ },
+ "is_sacred": false,
+ "reasons": [
+  "not_duplicate",
+  "insight_concrete",
+  "banned_phrasing",
+  "judge_score=9.7"
+ ],
+ "citation": {
+  "claims": 8,
+  "supported": 8,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-01T16:07:46Z"
+}

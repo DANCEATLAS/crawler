@@ -1,0 +1,122 @@
+{
+ "slug": "cayda-cira",
+ "qc_at": "2026-11-01T17:49:35Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 7.35,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Çayda Çıra"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "51"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "172"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The emblem of the Elazığspor football club preserves the visual memory of this d"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "330"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "690"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "1/2 rate=0.5"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Turkey"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Middle East"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 7,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The dance is performed with candles in the hands."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 7,
+  "verdict": "publish",
+  "notes": "Core identity and emblem link are supported. One performance claim is unsupported by the provided evidence. The profile is respectful and specific enough, but teaching guidance is minimal because technique is not sourced."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=7.35",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 2,
+  "supported": 1,
+  "rate": 0.5
+ },
+ "researched_at": "2026-11-01T17:37:42Z"
+}

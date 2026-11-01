@@ -1,0 +1,127 @@
+{
+ "slug": "razha",
+ "qc_at": "2026-11-01T17:49:24Z",
+ "version": "v3.2",
+ "publish_gate": "reject",
+ "qc_score": 6.45,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Razha"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "47"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "172"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Razha is a traditional Omani dance formally recognized as part of the nation's c"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "234"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "782"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "1/1 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Oman"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Middle East"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": false,
+   "detail": "the provided sources"
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 4,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "It is listed among the country's cultural dance forms alongside others such as Ardah and Fann at-Tanbura.",
+   "The dance is categorized as a traditional practice within the Omani context.",
+   "It is recognized as a distinct cultural form within the region, appearing in academic and encyclopedic lists of Omani ethnic and folk dances.",
+   "It is grouped in regional indices alongside other Omani traditions such as Ardah, Fann at-Tanbura, Khaleegy, and Yowlah.",
+   "As a traditional practice, it represents a component of the broader Omani cultural landscape, though further ethnographic documentation is required to provide a comprehensive analysis of its movement, rhythm, or cultural significance."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Ardah",
+  "insight_ok": false,
+  "album_doubt": [],
+  "overall": 6,
+  "verdict": "review",
+  "notes": "Core claim that Razha is an Omani traditional dance is supported. Most added context is generic and unsourced, and the profile offers no usable movement or teaching detail. Respect is good; specificity and teaching value are weak."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "ai_tells",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=6.45",
+  "doubts=5"
+ ],
+ "citation": {
+  "claims": 1,
+  "supported": 1,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-01T17:34:06Z"
+}

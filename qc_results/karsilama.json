@@ -1,0 +1,123 @@
+{
+ "slug": "karsilama",
+ "qc_at": "2026-11-01T17:49:31Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 7.4,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Karşılama"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "86"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "211"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The name 'Karşılama' literally means 'encounter' or 'welcoming', defining a danc"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "322"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2004"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Turkey"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 6,
+  "respect": 9,
+  "specificity": 8,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "It is performed throughout the former Ottoman Empire, including Greece, Cyprus, and the Balkans.",
+   "Historically spread across the former Ottoman Empire, the dance is found today in diverse locales ranging from the Aegean islands of Greece to the regions of Thrace and Macedonia.",
+   "The dance originated in Northwest Turkey and was carried to Greece by Anatolian Greek immigrants.",
+   "It is a common musical form in the Balkans, sometimes associated with the kyuchek (köçekçe) musical form.",
+   "Includes Cyprus Antikrystos, Rumeli Balkan karsilamas, Thrace Antikrystos, Merzifon Karsılaması, Edirne Karsılaması, Komotini Karsilamas (Aptalikos), Giresun Karsılaması, Taraklı Karsılaması, Bilecik Karsılaması, Old Karsilamas, Pigi Karsilama, Ayşe Karsilama, and Asia Minor Karsilamas."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Karsilamas / karşılama / karsilamas",
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 7,
+  "verdict": "review",
+  "notes": "Core definition, meter, partner formation, and social context are supported. Several historical diffusion claims and many named variants exceed the provided evidence and should be toned down or sourced more carefully."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=7.4",
+  "doubts=5"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-01T17:36:58Z"
+}

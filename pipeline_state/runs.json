@@ -1146,5 +1146,137 @@
   "notes": [],
   "errors": [],
   "version": "v3.2"
+ },
+ {
+  "stage": "audit",
+  "started": "2026-11-01T16:06:35Z",
+  "finished": "2026-11-01T16:06:35Z",
+  "counters": {
+   "retired_or_merged_total": 110
+  },
+  "notes": [
+   "audit: 110 entries retired/merged of 1014; judged so far 929"
+  ],
+  "errors": [],
+  "version": "v3.2"
+ },
+ {
+  "stage": "discover",
+  "started": "2026-11-01T16:06:35Z",
+  "finished": "2026-11-01T16:07:34Z",
+  "counters": {
+   "harvested": 3766,
+   "dup_qid": 111,
+   "already_known": 887,
+   "dup_name": 106,
+   "deferred": 1630,
+   "not_dance_like": 10,
+   "queued_new": 40
+  },
+  "notes": [
+   "candidate queue: 173 queued, 277 tracked"
+  ],
+  "errors": [],
+  "version": "v3.2"
+ },
+ {
+  "stage": "research",
+  "started": "2026-11-01T16:07:34Z",
+  "finished": "2026-11-01T17:37:50Z",
+  "counters": {
+   "researched_researched": 38,
+   "researched_no_sources": 2,
+   "llm_calls": 48,
+   "llm_failures": 10
+  },
+  "notes": [
+   "targets: 40 (llm enabled=True)"
+  ],
+  "errors": [],
+  "version": "v3.2"
+ },
+ {
+  "stage": "qc",
+  "started": "2026-11-01T17:37:50Z",
+  "finished": "2026-11-01T17:49:35Z",
+  "counters": {
+   "gate_review": 13,
+   "gate_publish": 18,
+   "gate_reject": 7,
+   "llm_calls": 48
+  },
+  "notes": [
+   "qc targets: 38 (judge enabled=True)"
+  ],
+  "errors": [],
+  "version": "v3.2"
+ },
+ {
+  "stage": "hero_qc",
+  "started": "2026-11-01T17:49:35Z",
+  "finished": "2026-11-01T18:02:16Z",
+  "counters": {
+   "videos_fetched": 132,
+   "verdict_fail": 14,
+   "replaced": 8,
+   "verdict_pass": 46,
+   "evicted_for_recrawl": 6,
+   "llm_calls": 77
+  },
+  "notes": [
+   "hero qc targets: 60 of 1119 heroes (vision=True)"
+  ],
+  "errors": [],
+  "version": "v3.2"
+ },
+ {
+  "stage": "build",
+  "started": "2026-11-01T18:02:16Z",
+  "finished": "2026-11-01T18:02:29Z",
+  "counters": {
+   "retired_by_audit": 110,
+   "new_rejected_hidden": 47,
+   "new_publish": 39,
+   "existing_research_rejected": 15,
+   "existing_reject": 15,
+   "existing_publish": 28,
+   "existing_review": 26,
+   "new_review_hidden": 25
+  },
+  "notes": [
+   "catalogue built: {'generated_at': '2026-11-01T18:02:29Z', 'count': 943, 'with_hero': 829, 'hero_qc_pass': 199, 'deep_profiles': 67, 'movie_ready': 20, 'with_albums': 6, 'with_images': 40, 'with_tutorials': 65, 'content_ready': 579, 'new_from_pipeline': 39, 'retired': 110, 'counters': {'retired_by_audit': 110, 'new_rejected_hidden': 47, 'new_publish': 39, 'existing_research_rejected': 15, 'existing_reject': 15, 'existing_publish': 28, 'existing_review': 26, 'new_review_hidden': 25}, 'pipeline': 'v3.2'}"
+  ],
+  "errors": [],
+  "version": "v3.2"
+ },
+ {
+  "stage": "sync",
+  "started": "2026-11-01T18:02:29Z",
+  "finished": "2026-11-01T18:03:26Z",
+  "counters": {
+   "skipped_reject_new": 8,
+   "inserted_review": 13,
+   "inserted_publish": 18
+  },
+  "notes": [
+   "dances columns known: 32; pipeline columns present: []",
+   "sync targets: 39"
+  ],
+  "errors": [
+   "edges wheelchair-dancesport: HTTP 500 https://maojpsywvbksrwkrxmjx.supabase.co/rest/v1/dance_edges?on_conflict=src_id,dst_id,relation :: {\"code\":\"21000\",\"details\":null,\"hint\":\"Ensure that no rows proposed for insertion within the same command have duplicate constrained values.\",\"message\":\"ON CONF",
+   "edges zapin: HTTP 500 https://maojpsywvbksrwkrxmjx.supabase.co/rest/v1/dance_edges?on_conflict=src_id,dst_id,relation :: {\"code\":\"21000\",\"details\":null,\"hint\":\"Ensure that no rows proposed for insertion within the same command have duplicate constrained values.\",\"message\":\"ON CONF"
+  ],
+  "version": "v3.2"
+ },
+ {
+  "stage": "report",
+  "started": "2026-11-01T18:03:26Z",
+  "finished": "2026-11-01T18:03:27Z",
+  "counters": {
+   "review_items": 113
+  },
+  "notes": [],
+  "errors": [],
+  "version": "v3.2"
  }
 ]

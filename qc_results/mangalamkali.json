@@ -1,0 +1,120 @@
+{
+ "slug": "mangalamkali",
+ "qc_at": "2026-11-01T17:48:25Z",
+ "version": "v3.2",
+ "publish_gate": "review",
+ "qc_score": 6.65,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Mangalamkali"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "74"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "215"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Practiced by indigenous communities in southern India, related tribal forms such"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "552"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3063"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "10/10 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "6 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'funeral', 'spirit', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 7,
+  "respect": 9,
+  "specificity": 6,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The profile conflates Mangalamkali with Irula Nritham throughout, using evidence exclusively about Irula Nritham to describe Mangalamkali."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "overall": 6,
+  "verdict": "review",
+  "notes": "The profile relies heavily on information about 'Irula Nritham' to fill in the details for 'Mangalamkali' due to a lack of direct documentation, making some attributions technically mismatched against the provided evidence claims."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=6.65",
+  "doubts=1",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 10,
+  "supported": 10,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-01T16:24:36Z"
+}
