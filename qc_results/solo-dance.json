@@ -1,0 +1,130 @@
+{
+ "slug": "solo-dance",
+ "qc_at": "2026-11-02T21:13:57Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 4.45,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Solo Dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "64"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "136"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In Comparsas, male soloists spin large lantern-like artifacts on poles resting o"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "413"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "859"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "how_it_is_danced,music_and_instruments,costume_and_setting"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "not described in sources"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "2 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 4,
+  "respect": 8,
+  "specificity": 3,
+  "teaching_value": 2,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "Solo dance is not a specific dance tradition or style, but a category of performance.",
+   "Linking Sean-nós, Irish dance, and African-American stepping as 'regional variants' of a generic 'Solo Dance' is factually incorrect and misleading.",
+   "The claim that harp music like 'Butterflies' is the music for Comparsas soloists is unsupported and likely a hallucination."
+  ],
+  "harm_or_disrespect": [
+   "The profile conflates a generic performance category with specific cultural traditions (Comparsas), which risks erasing the cultural identity of the latter."
+  ],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 3,
+  "verdict": "reject",
+  "notes": "The profile incorrectly treats 'Solo Dance' as a specific dance tradition rather than a performance mode. It erroneously categorizes distinct cultural practices like Irish step dance and Comparsas as variants of this generic term. The music and lineage sections are highly inaccurate and lack credible evidence."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "country",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=4.45",
+  "doubts=3",
+  "harm",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-02T20:54:55Z"
+}

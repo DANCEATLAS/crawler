@@ -1,55 +1,51 @@
 # Dancing Atlas pipeline status
-_Generated 2026-11-02T14:53:45Z · pipeline v3.3_
+_Generated 2026-11-02T21:19:33Z · pipeline v3.3_
 
 ## Catalogue (Supabase)
-- Dances: **746** · with hero video: **646** · content_ready: 0 · publish gate: 0 · sacred: 0 · UNESCO refs: 18
+- Dances: **772** · with hero video: **674** · content_ready: 0 · publish gate: 0 · sacred: 0 · UNESCO refs: 19
 - Viral challenges: 154
 
 ## Catalogue audit
 - Retired/merged: 110 · judged: 929 of 1014
 
 ## Crawler
-- Hero results on file: 1119 · statuses: {'qc_replaced': 54, 'crowd_wisdom_confident': 917, 'qc_failed_pending_recrawl': 36, 'crowd_wisdom_weak': 112}
-- Hero QC verdicts: {'pass': 240, 'fail': 36} (checked 276)
+- Hero results on file: 1139 · statuses: {'qc_replaced': 65, 'crowd_wisdom_confident': 922, 'qc_failed_pending_recrawl': 46, 'crowd_wisdom_weak': 106}
+- Hero QC verdicts: {'pass': 290, 'fail': 46} (checked 336)
 
 ## Discovery → research → QC
-- Candidates: {'researched': 115, 'duplicate_of': 17, 'queued': 150}
-- Research index: {'researched': 183, 'llm_failed': 3, 'no_sources': 11}
-- Movie-ready (music DNA + movement DNA + episode brief from sources): 35 of 183 researched
-- What classes still lack most (count of researched pages missing it): images 97, tempo_or_meter 94, recordings 90, footwork_with_counts 84, posture 57, arms_and_hands 55, lesson_ladder 53, sound_description 47
-- QC gates: {'reject': 56, 'publish': 74, 'review': 54}
+- Candidates: {'researched': 140, 'duplicate_of': 17, 'queued': 158, 'screened_out': 7}
+- Research index: {'researched': 207, 'llm_failed': 3, 'no_sources': 17}
+- Movie-ready (music DNA + movement DNA + episode brief from sources): 42 of 207 researched
+- What classes still lack most (count of researched pages missing it): images 121, tempo_or_meter 108, footwork_with_counts 99, recordings 99, lesson_ladder 71, posture 69, arms_and_hands 63, sound_description 49
+- QC gates: {'reject': 60, 'publish': 87, 'review': 67}
 - Editor notes open: 0 · pages with editor-added sources: 0
 
 ## Closest to movie-ready (for the weekly editor pass: find the missing items, add sources to pipeline_state/sources_extra.json)
 
 - humppa (15/17): missing lesson_ladder, images
+- moshing (15/18): missing tempo_or_meter, lesson_ladder, hooks
 - pungmul (15/18): missing footwork_with_counts, tempo_or_meter, recordings
+- semah-alevi-bektasi-ritual (15/18): missing posture, lesson_ladder, recordings
 - fleckerl (14/17): missing sound_description, recordings, images
 - kurdish-dance (14/18): missing footwork_with_counts, tempo_or_meter, recordings, images
 - malaguenas (14/17): missing footwork_with_counts, arms_and_hands, images
+- morna (14/18): missing footwork_with_counts, lesson_ladder, costume, images
+- nightclub-two-step (14/18): missing lesson_ladder, costume, images, footage
+- schafflertanz (14/18): missing posture, tempo_or_meter, lesson_ladder, images
+- zafin (14/18): missing posture, arms_and_hands, lesson_ladder, recordings
 - azerbaijani-folk-dance (13/17): missing footwork_with_counts, tempo_or_meter, lesson_ladder, recordings
 - danza-de-la-botella (13/17): missing tempo_or_meter, sound_description, recordings, images
+- korean-dance (13/18): missing footwork_with_counts, arms_and_hands, tempo_or_meter, lesson_ladder, recordings
 - melbourne-shuffle (13/17): missing posture, instruments, lesson_ladder, images
-- american-tribal-style-belly-dance (12/17): missing footwork_with_counts, arms_and_hands, tempo_or_meter, recordings, images
-- clogging (12/17): missing footwork_with_counts, arms_and_hands, tempo_or_meter, lesson_ladder, recordings
-- intore (12/17): missing tempo_or_meter, lesson_ladder, recordings, images, connections
-- pangalay (12/17): missing footwork_with_counts, formation, tempo_or_meter, costume, images
-- right-and-left-grand (12/17): missing instruments, sound_description, notable_figures, recordings, images
-- sekete (12/17): missing footwork_with_counts, arms_and_hands, tempo_or_meter, costume, recordings
-- singkil (12/17): missing footwork_with_counts, posture, tempo_or_meter, lesson_ladder, recordings
 
-- Tradition status (schema 5 records): {'living': 4} · pages with reference footage links: 3
+- Tradition status (schema 5 records): {'living': 29, 'unknown': 4, 'historical': 4, 'revived': 1} · pages with reference footage links: 27
 
 ## Last runs
-- **audit** 2026-11-02T14:31:57Z · {"retired_or_merged_total": 110}
-- **discover** 2026-11-02T14:33:48Z · {"harvested": 3681, "already_known": 864, "dup_name": 107, "dup_qid": 112, "deferred": 1615, "not_dance_like": 10, "queued_new": 5}
-- **research** 2026-11-02T14:46:59Z · {"researched_researched": 4, "researched_no_sources": 1, "llm_calls": 13, "llm_failures": 9}
-- **qc** 2026-11-02T14:51:34Z · {"gate_reject": 55, "gate_publish": 74, "gate_review": 54, "llm_calls": 10}
-- **hero_qc** 2026-11-02T14:51:59Z · {"videos_fetched": 11, "verdict_fail": 2, "replaced": 2, "verdict_pass": 3, "llm_calls": 14}
-- **build** 2026-11-02T14:52:18Z · {"retired_by_audit": 110, "new_rejected_hidden": 44, "new_publish": 45, "new_review_hidden": 25, "existing_research_rejected": 12, "existing_reject": 12, "existing_publish": 28, "existing_review": 29}
-- **sync** 2026-11-02T14:53:44Z · {"skipped_reject_new": 52, "patched": 89, "patch_nomatch": 32, "inserted_review": 6, "inserted_publish": 4}
-- **report** 2026-11-01T18:03:27Z · {"review_items": 113}
-
-## Recent errors (last 12 runs)
-- edges wheelchair-dancesport: HTTP 500 https://maojpsywvbksrwkrxmjx.supabase.co/rest/v1/dance_edges?on_conflict=src_id,dst_id,relation :: {"code":"21000","details":null,"hint":"Ensure that no rows proposed for insertion within the same command have duplicate constrained values.","message":"ON CONF
-- edges zapin: HTTP 500 https://maojpsywvbksrwkrxmjx.supabase.co/rest/v1/dance_edges?on_conflict=src_id,dst_id,relation :: {"code":"21000","details":null,"hint":"Ensure that no rows proposed for insertion within the same command have duplicate constrained values.","message":"ON CONF
+- **audit** 2026-11-02T19:34:11Z · {"retired_or_merged_total": 110}
+- **discover** 2026-11-02T19:35:38Z · {"harvested": 3681, "dup_qid": 112, "already_known": 869, "dup_name": 107, "deferred": 1575, "not_dance_like": 10, "queued_new": 40}
+- **research** 2026-11-02T21:07:58Z · {"screened_out_move": 7, "researched_researched": 34, "researched_no_sources": 6, "llm_calls": 44, "llm_failures": 10}
+- **qc** 2026-11-02T21:14:15Z · {"gate_review": 13, "gate_reject": 8, "gate_publish": 13, "llm_calls": 45}
+- **hero_qc** 2026-11-02T21:18:26Z · {"videos_fetched": 134, "verdict_pass": 39, "verdict_fail": 21, "evicted_for_recrawl": 10, "replaced": 11, "llm_calls": 87}
+- **build** 2026-11-02T21:18:44Z · {"retired_by_audit": 110, "new_rejected_hidden": 50, "new_publish": 55, "new_review_hidden": 34, "existing_research_rejected": 10, "existing_reject": 10, "existing_publish": 31, "existing_review": 33}
+- **sync** 2026-11-02T21:19:31Z · {"inserted_review": 13, "skipped_reject_new": 8, "inserted_publish": 13}
+- **report** 2026-11-02T14:53:45Z · {"review_items": 110}

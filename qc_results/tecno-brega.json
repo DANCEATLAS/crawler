@@ -1,0 +1,120 @@
+{
+ "slug": "tecno-brega",
+ "qc_at": "2026-11-02T21:12:49Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "tecno brega"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "88"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "161"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Born in makeshift bedrooms and blasted from massive beach sound systems, tecno b"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "545"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1631"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Brazil"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 3,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "reject",
+  "notes": "Tecno brega is primarily a music genre and cultural movement with associated party dancing, rather than a distinct codified dance tradition. Therefore is_a_dance is false."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "insight_concrete",
+  "judge_score=8.7",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-02T19:35:59Z"
+}

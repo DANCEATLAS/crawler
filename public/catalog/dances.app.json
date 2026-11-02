@@ -1,7 +1,7 @@
 {
  "contract": "dw_app_v1",
- "count": 949,
- "generated_at": "2026-11-02T14:52:18Z",
+ "count": 959,
+ "generated_at": "2026-11-02T21:18:44Z",
  "pipeline": "v3.3",
  "styles": {
   "son-cubano": {
@@ -8805,6 +8805,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:14:46Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "cueca",
     "chacarera",
@@ -10020,6 +10027,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:14:48Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "pavane": {
@@ -21091,7 +21103,14 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "review",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-02T21:14:24Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "samba-de-gafieira",
     "charme"
@@ -21512,6 +21531,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:14:25Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "khorovod",
     "lezginka",
@@ -22357,6 +22381,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:14:27Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "domkach",
     "mardani-jhumar",
@@ -24496,7 +24525,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-02T21:14:30Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "marinera",
     "cachua",
@@ -26064,7 +26098,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Straight_dance",
    "wikidata_qid": "Q7621066",
    "unesco": false,
-   "hero_video_youtube_id": "5udQvpzxBRk",
+   "hero_video_youtube_id": "FQBb723CC9g",
    "hero_image": null,
    "video_stack": [],
    "image_significance": null,
@@ -26076,7 +26110,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:14:32Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "grass-dance",
     "fancy-dance",
@@ -26511,9 +26550,17 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Chozhikali",
    "wikidata_qid": "Q13112100",
    "unesco": false,
-   "hero_video_youtube_id": null,
+   "hero_video_youtube_id": "DayYB_kRvCo",
    "hero_image": null,
-   "video_stack": [],
+   "video_stack": [
+    {
+     "youtube_id": "DayYB_kRvCo",
+     "role": "hero",
+     "title": "തിരുവാതിരക്ക് വരുന്ന ചോഴിയെ കണ്ടിട്ടുണ്ടോ #thiruvathirachozhi #thiruvaethirva",
+     "channel": "Nishagandhi Vlogs",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": 10.7867,
    "lng": 76.6548,
@@ -26523,6 +26570,7 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": [
     "padayani"
    ]
@@ -29691,6 +29739,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:14:37Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "ballet",
     "tarantella",
@@ -30503,6 +30558,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:14:41Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "flamenco",
     "sevillanas",
@@ -33329,6 +33389,7 @@
     ]
    },
    "related_slugs": [
+    "morna",
     "coladeira"
    ]
   },
@@ -37551,6 +37612,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:14:50Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "currulao": {
@@ -37602,6 +37668,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:14:52Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "cuban-rumba": {
@@ -38092,6 +38163,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:15:00Z",
+    "soft_fail": []
+   },
    "research_gate": "publish",
    "qc_score": 9.35,
    "last_researched_at": "2026-10-28T16:25:18Z",
@@ -38149,6 +38225,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:15:12Z",
+    "soft_fail": []
+   },
    "research_gate": "publish",
    "qc_score": 9.85,
    "last_researched_at": "2026-10-28T06:35:09Z",
@@ -38294,7 +38375,7 @@
    "wikipedia_url": null,
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": "oHKM8nRSheY",
+   "hero_video_youtube_id": "C1bIp_W_4LM",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -38310,7 +38391,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:15:15Z",
+    "soft_fail": []
+   },
    "research_gate": "review",
    "qc_score": 8.95,
    "last_researched_at": "2026-10-30T17:38:14Z",
@@ -38414,6 +38500,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:15:21Z",
+    "soft_fail": []
+   },
    "tutorials": [
     {
      "youtube_id": "362T3sE2-qk",
@@ -38507,6 +38598,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:16:05Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "khuallam"
    ]
@@ -38731,6 +38827,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:16:08Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "bullerengue",
     "cumbia"
@@ -38767,7 +38868,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Bullerengue",
    "wikidata_qid": "Q4996773",
    "unesco": false,
-   "hero_video_youtube_id": "KvkfwJNbbR4",
+   "hero_video_youtube_id": "wKoL8fEOuEU",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -38784,7 +38885,14 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:16:11Z",
+    "soft_fail": [
+     "not_talking_head"
+    ]
+   },
    "related_slugs": [
     "mapale",
     "cumbia"
@@ -38949,6 +39057,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:16:17Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "sufi-whirling",
     "halay",
@@ -39146,7 +39259,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-02T21:16:21Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "chacarera",
     "gato",
@@ -39289,7 +39407,7 @@
    "wikipedia_url": null,
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": "PWMyb1UtlzE",
+   "hero_video_youtube_id": "BOG_IVJK22w",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -39305,7 +39423,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:16:27Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "ballet",
     "tarantella",
@@ -39666,7 +39789,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Kapa_haka",
    "wikidata_qid": "Q3192842",
    "unesco": false,
-   "hero_video_youtube_id": "A5_HmlSzpPo",
+   "hero_video_youtube_id": "KFx66XutcX4",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -39682,7 +39805,16 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:16:33Z",
+    "soft_fail": [
+     "named",
+     "not_talking_head",
+     "camera_ok"
+    ]
+   },
    "research_gate": "publish",
    "qc_score": 9.35,
    "last_researched_at": "2026-10-28T16:28:15Z",
@@ -40379,6 +40511,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:16:41Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "buyn-bi"
    ]
@@ -40531,7 +40670,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Sanjuanito",
    "wikidata_qid": "Q6120148",
    "unesco": false,
-   "hero_video_youtube_id": "Mfq8n5_CKQA",
+   "hero_video_youtube_id": "wxuZAvr2DUo",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -40548,7 +40687,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:16:43Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "passacaglia"
    ]
@@ -40594,6 +40738,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:16:47Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "marinera",
     "cachua",
@@ -40637,6 +40786,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:16:49Z",
+    "soft_fail": [
+     "camera_ok"
+    ]
+   },
    "related_slugs": []
   },
   "bruckins": {
@@ -40662,7 +40818,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Bruckins",
    "wikidata_qid": "Q4978584",
    "unesco": false,
-   "hero_video_youtube_id": "918NrDXAeNk",
+   "hero_video_youtube_id": "77G4IC2zhbo",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -40678,7 +40834,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:16:52Z",
+    "soft_fail": []
+   },
    "research_gate": "publish",
    "qc_score": 8.85,
    "last_researched_at": "2026-10-28T16:29:15Z",
@@ -40725,7 +40886,14 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-02T21:16:56Z",
+    "soft_fail": [
+     "named"
+    ]
+   },
    "related_slugs": []
   },
   "fakanau": {
@@ -41697,11 +41865,10 @@
    "_is_sacred": false,
    "research_gate": "reject",
    "qc_score": 7.7,
-   "last_researched_at": "2026-11-01T17:33:55Z",
+   "last_researched_at": "2026-11-02T20:57:23Z",
    "pipeline_version": "v3.3",
    "is_sacred": true,
    "needs_eyes_on": true,
-   "sacred_note": "Not described in sources as restricted, though they are described as traditional rituals.",
    "related_slugs": [
     "melpa-sing-sing",
     "kizomba",
@@ -43821,7 +43988,7 @@
    "hero_source": "crawler:crowd_wisdom_confident",
    "research_gate": "reject",
    "qc_score": 6.4,
-   "last_researched_at": "2026-10-30T17:50:56Z",
+   "last_researched_at": "2026-11-02T20:56:59Z",
    "pipeline_version": "v3.3",
    "related_slugs": [
     "pamiri-dance",
@@ -45013,8 +45180,8 @@
    "_gallery": [],
    "_is_sacred": false,
    "research_gate": "reject",
-   "qc_score": 4.3,
-   "last_researched_at": "2026-10-31T16:23:17Z",
+   "qc_score": 6.4,
+   "last_researched_at": "2026-11-02T20:57:07Z",
    "pipeline_version": "v3.3",
    "related_slugs": [
     "marshallese-jebwa",
@@ -45526,11 +45693,10 @@
    "_is_sacred": false,
    "research_gate": "reject",
    "qc_score": 7.4,
-   "last_researched_at": "2026-10-30T17:49:15Z",
+   "last_researched_at": "2026-11-02T20:56:56Z",
    "pipeline_version": "v3.3",
    "is_sacred": true,
    "needs_eyes_on": true,
-   "sacred_note": "not described in sources",
    "related_slugs": [
     "lezginka",
     "russian-folk-dance",
@@ -45588,7 +45754,7 @@
    "hero_source": "crawler:crowd_wisdom_weak",
    "research_gate": "reject",
    "qc_score": 3.85,
-   "last_researched_at": "2026-10-31T16:19:46Z",
+   "last_researched_at": "2026-11-02T20:57:01Z",
    "pipeline_version": "v3.3",
    "related_slugs": [
     "lezginka",
@@ -45789,7 +45955,7 @@
    "hero_source": "crawler:crowd_wisdom_confident",
    "research_gate": "reject",
    "qc_score": 8.5,
-   "last_researched_at": "2026-10-31T16:24:04Z",
+   "last_researched_at": "2026-11-02T20:57:20Z",
    "pipeline_version": "v3.3",
    "is_sacred": true,
    "needs_eyes_on": true,
@@ -46181,6 +46347,14 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:16:58Z",
+    "soft_fail": [
+     "hd",
+     "not_vertical"
+    ]
+   },
    "related_slugs": [
     "ardah",
     "alardah-alnajdiyah",
@@ -46225,7 +46399,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-02T21:17:00Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "raqs-sharqi",
     "hora",
@@ -46271,6 +46450,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:03Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "raqs-sharqi",
     "hora",
@@ -46314,7 +46498,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-02T21:17:05Z",
+    "soft_fail": []
+   },
    "research_gate": "review",
    "qc_score": 6.45,
    "last_researched_at": "2026-11-01T17:34:06Z",
@@ -46351,7 +46540,7 @@
    "wikipedia_url": "",
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": "KZGqfD9U2Xg",
+   "hero_video_youtube_id": "Ou8U8K6Vj_g",
    "hero_image": null,
    "video_stack": [],
    "image_significance": "East-African-rooted Gulf drum dance. A representative image shows a line or row formation, often with canes, swords or flowing veils — coast, UAE/Gulf.",
@@ -46362,7 +46551,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:05Z",
+    "soft_fail": null
+   },
    "research_gate": "review",
    "qc_score": 7.3,
    "last_researched_at": "2026-11-01T17:34:23Z",
@@ -46412,6 +46606,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:12Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "raqs-sharqi",
     "hora",
@@ -46456,6 +46657,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:14Z",
+    "soft_fail": []
+   },
    "research_gate": "review",
    "qc_score": 8.25,
    "last_researched_at": "2026-11-01T17:34:35Z",
@@ -46504,6 +46710,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:16Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "raqs-sharqi",
     "hora",
@@ -46550,6 +46761,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:19Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "raqs-sharqi",
     "hora",
@@ -46596,6 +46814,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:22Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "research_gate": "review",
    "qc_score": 7.4,
    "last_researched_at": "2026-11-01T17:36:58Z",
@@ -46646,6 +46871,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:25Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "raqs-sharqi",
     "hora",
@@ -46696,6 +46928,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:28Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "davluri",
     "khevsuruli",
@@ -46746,6 +46985,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:29Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "mtiuluri",
     "parikaoba",
@@ -46796,7 +47040,15 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-02T21:17:35Z",
+    "soft_fail": [
+     "hd",
+     "camera_ok"
+    ]
+   },
    "related_slugs": [
     "partsa",
     "khorumi"
@@ -46846,6 +47098,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:38Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "kartuli",
     "davluri"
@@ -46893,6 +47150,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:40Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "kochari",
     "lezginka"
@@ -46929,7 +47193,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Tortor",
    "wikidata_qid": "",
    "unesco": false,
-   "hero_video_youtube_id": "GqPLB50jd-o",
+   "hero_video_youtube_id": "lWF0gVFbUzg",
    "hero_image": null,
    "video_stack": [],
    "image_significance": "Batak ancestral ritual dance. A representative image shows ceremonial regalia in a ritual context — imagery should be handled respectfully, not as spectacle — N. Sumatra (Batak), Indonesia.",
@@ -46941,7 +47205,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:43Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "tari-piring",
     "indang",
@@ -46992,6 +47261,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:50Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "babukung",
     "kancet-papatai",
@@ -47043,6 +47317,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:17:52Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "jaipongan",
     "gambyong",
@@ -47093,7 +47372,15 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-02T21:17:54Z",
+    "soft_fail": [
+     "hd",
+     "camera_ok"
+    ]
+   },
    "related_slugs": [
     "kabasaran",
     "baris",
@@ -47144,6 +47431,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:18:01Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "saman",
     "indang",
@@ -47187,6 +47479,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:18:04Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "ragragsakan",
     "khon",
@@ -47219,7 +47516,7 @@
    "wikipedia_url": "",
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": "_2Sw9QoDENY",
+   "hero_video_youtube_id": "iNYM7I1HMWU",
    "hero_image": null,
    "video_stack": [],
    "image_significance": "Ibaloi victory/community circle dance. A representative image shows gilded costume, angular hand poses and a temple or court setting — Benguet (Ibaloi), Philippines.",
@@ -47230,7 +47527,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:18:05Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "khon",
     "tinikling",
@@ -47282,6 +47584,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:18:12Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "huiyen-lallong",
     "pung-cholom"
@@ -47329,7 +47636,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-02T21:18:17Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "maruni"
    ]
@@ -47371,6 +47683,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:18:19Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "kizomba",
     "semba",
@@ -47403,7 +47720,7 @@
    "wikipedia_url": "",
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": "TlBRpqbuGd0",
+   "hero_video_youtube_id": "wS_y-qSjNYM",
    "hero_image": null,
    "video_stack": [],
    "image_significance": "Karanga rainmaking song-dance. A representative image shows ceremonial regalia in a ritual context — imagery should be handled respectfully, not as spectacle — Midlands (Karanga), Zimbabwe.",
@@ -47414,7 +47731,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:18:21Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "kizomba",
     "semba",
@@ -47465,6 +47787,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-02T21:18:26Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "malipenga"
    ]
@@ -47902,16 +48231,18 @@
    "slug": "siva-afi",
    "name": "Siva Afi",
    "country": "Samoa",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "WS",
+   "flag_emoji": "🇼🇸",
    "region": "Samoa",
-   "family": null,
+   "family": "ritual-sacred",
    "era": "from ailao; fire 1946",
    "tagline": "Twirling fire on the nifo oti",
    "profile": "Twirling fire on the nifo oti — Siva Afi (Samoa, Samoa). Full sourced 9-field profile in research artifact; concise schema stub pending text expansion.",
    "insight": "",
    "aliases": [
-    "Siva Afi"
+    "Siva Afi",
+    "Ailao Afi",
+    "Fire knife dance"
    ],
    "related": [
     "taualuga",
@@ -47919,9 +48250,12 @@
     "haka",
     "otea"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Fire_knife",
+    "https://www.wikidata.org/wiki/Q5451612"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Fire_knife",
+   "wikidata_qid": "Q5451612",
    "unesco": false,
    "hero_video_youtube_id": "hlqSonapHtk",
    "hero_image": null,
@@ -47935,10 +48269,28 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
-   "research_gate": "reject",
-   "qc_score": 6.4,
-   "last_researched_at": "2026-11-01T17:37:27Z",
+   "research_gate": "publish",
+   "qc_score": 8.95,
+   "last_researched_at": "2026-11-02T20:57:25Z",
    "pipeline_version": "v3.3",
+   "profile_long": "Between 900 and 1200 AD, Samoan Toa warriors trained in hand-to-hand combat using the nifo oti, a serrated-edged war club featuring shark and swordfish teeth. These weapons were designed for close-quarter combat and served as the precursor to modern fire knife implements.\n\nDuring a historical birthday celebration for the Tongan ruler Tu'i Tonga Talakaifaiki in Aleipata, Samoan warriors concealed buried weapons in the sand while entertaining their guests with traditional ailao battle demonstrations. As night fell, they wrapped the ends of their war clubs with palm sennit, ignited them with fire, and launched a successful military overthrow.\n\nIn the mid-20th century, Tavita Vaoifi revived the Samoan ailao Siva Afi dance in the United States, initially performing with palm fronds and dry leaves before bringing the tradition back to Samoa. His pioneering efforts established the dance's modern presence in cultural shows and overseas exhibitions.\n\nToday, modern competitions are held annually at the Polynesian Cultural Center in Laie, Hawaii, to crown the World Fireknife Champion. Elite performers from Samoa, Hawaii, Tahiti, and beyond showcase high-speed rotations, acrobatics, and precise weapon handling before international audiences.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Fire_dancer.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Fire_dancer.JPG/1280px-Fire_dancer.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3008,
+     "height": 2000,
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "attribution": "Mynameisben123 / Wikimedia Commons / CC BY 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AFire_dancer.JPG",
+     "description": "Oahu, Hawaii \nAn Hawaiian Fire Knife dancer."
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
    "related_slugs": [
     "taualuga",
     "hula",
@@ -49108,6 +49460,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "research_gate": "review",
+   "qc_score": 9.1,
+   "last_researched_at": "2026-11-02T20:57:44Z",
+   "pipeline_version": "v3.3",
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "Originally performed exclusively for religious ceremonies and dhikr, though now widely practised as secular traditional entertainment.",
    "related_slugs": [
     "raqs-sharqi",
     "hora",
@@ -49361,6 +49720,10 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "research_gate": "review",
+   "qc_score": 7.55,
+   "last_researched_at": "2026-11-02T20:58:05Z",
+   "pipeline_version": "v3.3",
    "related_slugs": [
     "khon",
     "tinikling",
@@ -50587,16 +50950,23 @@
    "slug": "polska",
    "name": "Polska",
    "country": "Sweden",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "SE",
+   "flag_emoji": "🇸🇪",
    "region": "national",
-   "family": null,
+   "family": "folk-circle",
    "era": "17th c.",
    "tagline": "Sweden's national turning dance",
    "profile": "Sweden's national turning dance — Polska (Sweden, national). Full sourced 9-field profile in research artifact; concise schema stub pending text expansion.",
    "insight": "",
    "aliases": [
-    "Polska"
+    "Polska",
+    "polskor",
+    "polsk",
+    "pols",
+    "springleik",
+    "springar",
+    "slängpolska",
+    "bondepolska"
    ],
    "related": [
     "hambo",
@@ -50604,9 +50974,15 @@
     "waltz",
     "sevillanas"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Polska_(dance)",
+    "https://www.wikidata.org/wiki/Q1766836",
+    "https://fr.wikipedia.org/wiki/Polska_(danse)",
+    "https://archive.org/details/sztukaludowawpo00mokgoog",
+    "https://archive.org/details/cs.2718"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Polska_(dance)",
+   "wikidata_qid": "Q1766836",
    "unesco": false,
    "hero_video_youtube_id": "lRl1T7CAD0E",
    "hero_image": null,
@@ -50620,6 +50996,23 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "research_gate": "publish",
+   "qc_score": 9.1,
+   "last_researched_at": "2026-11-02T21:07:05Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The polska (Swedish plural polskor) represents a vast and diverse family of music and dance forms spread across the Nordic region, appearing as polsk in Denmark, polka or polska in Estonia, and under numerous local designations in Norway such as pols, springleik, and springar. The origins of the form are frequently connected to the cultural influence of the Polish court during the early 17th century, though some scholars trace elements back to earlier indigenous Nordic songs and triple-meter melodies that blended with incoming continental styles like the polonaise and minuet.\n\nIn Norway, the tradition remains strikingly alive in mountain regions and rural communities. Norwegian variants include the rhythmic pols of eastern valleys—characterized by promenades, counter-clockwise bakmes turns, and rapid clockwise pols turns—and the springar of western fjords, danced to the haunting, droning notes of the Hardanger fiddle (hardingfele). In Sweden, while instrumental fiddle traditions passed unbroken through generations, the actual dancing suffered heavily during 20th-century industrialization. Consequently, modern knowledge of Swedish polska largely derives from meticulous field research conducted in the 1940s, 50s, and 60s, capturing hundreds of regional variations across provinces like Dalarna and Småland.\n\nMusically and choreographically, polskas are generally categorized by rhythm style: sixteenth-note (semiquaver) polskas featuring smooth, even phrasing; eighth-note (quaver) polskas with distinctive asymmetrical beats where fiddlers tap only the first and third beats; and triplet polskas common in western borderlands. Couples navigate the dance floor through a continuous interplay of close-position rotation, open escort walking steps, and intricate underarm turns, making the polska a physically demanding and expressive partner tradition.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "Polska i Norden",
+     "artist": "Various artists / Nordic institutes",
+     "source": "https://en.wikipedia.org/wiki/Polska_(dance)",
+     "verified": false
+    }
+   ],
+   "images": [],
+   "movie_ready": true,
+   "tradition_status": "living",
    "related_slugs": [
     "hambo",
     "flamenco",
@@ -50631,10 +51024,10 @@
    "slug": "slangpolska",
    "name": "Slängpolska",
    "country": "Sweden",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "SE",
+   "flag_emoji": "🇸🇪",
    "region": "Östergötland",
-   "family": null,
+   "family": "folk-circle",
    "era": "traditional",
    "tagline": "The flinging polska",
    "profile": "The flinging polska — Slängpolska (Sweden, Östergötland). Full sourced 9-field profile in research artifact; concise schema stub pending text expansion.",
@@ -50649,9 +51042,12 @@
     "sevillanas",
     "ballet"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sl%C3%A4ngpolska",
+    "https://www.wikidata.org/wiki/Q7542473"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Sl%C3%A4ngpolska",
+   "wikidata_qid": "Q7542473",
    "unesco": false,
    "hero_video_youtube_id": "NrXWF7u7HmM",
    "hero_image": null,
@@ -50665,6 +51061,16 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "research_gate": "publish",
+   "qc_score": 9.1,
+   "last_researched_at": "2026-11-02T21:07:27Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Slängpolska, whose name stems from the Swedish word for toss, throw, or chuck, is a traditional Swedish folk dance with two major variations. The first type is typically danced by two or four people entirely or partially on the spot, with a strong focus on transitioning between different physical holds. Dancers execute a characteristic step consisting of four steps distributed over three beats: one long, two short, and one long, where beats one, two, and three carry almost equal stress and length. A typical sequence alternates between spinning around one another with crossed hands outstretched using centrifugal force and moving into a closer position holding shoulders and arms. Divisions between these holds are marked by spinning out, performing a solo spin with a hand clap, and returning to the hold. A free variant of this type involves walking and turning through a room in 3/4 time, though it can also be danced to 2/4 or 4/4 time like related Norwegian dances such as the gangar and bonde.\n\nThe second type of slängpolska is closely related to other Swedish polskas, featuring couples moving counterclockwise around the periphery of a room. Dancers may choose to rotate clockwise around an internal axis once per measure. This category is defined by its high tempo, which produces a tossing feeling, often emphasized by a jump or lift integrated into the step during every measure. Found from midwest Sweden's Värmland region up to the north, this variant displays wide regional diversity in character, unified primarily by its rapid tempo.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "movie_ready": true,
+   "tradition_status": "living",
    "related_slugs": [
     "flamenco",
     "waltz",
@@ -50709,6 +51115,10 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "research_gate": "review",
+   "qc_score": 9.1,
+   "last_researched_at": "2026-11-02T21:07:46Z",
+   "pipeline_version": "v3.3",
    "related_slugs": [
     "flamenco",
     "waltz",
@@ -54412,9 +54822,9 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
-   "research_gate": "reject",
-   "qc_score": 3.25,
-   "last_researched_at": "2026-10-30T17:40:52Z",
+   "research_gate": "review",
+   "qc_score": 6.55,
+   "last_researched_at": "2026-11-02T20:55:55Z",
    "pipeline_version": "v3.3",
    "related_slugs": [
     "jamaican-quadrille",
@@ -56134,8 +56544,8 @@
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
    "research_gate": "reject",
-   "qc_score": 8.65,
-   "last_researched_at": "2026-10-30T17:49:00Z",
+   "qc_score": 3.25,
+   "last_researched_at": "2026-11-02T20:56:45Z",
    "pipeline_version": "v3.3",
    "related_slugs": [
     "son-cubano",
@@ -57442,7 +57852,7 @@
    "_is_sacred": false,
    "research_gate": "reject",
    "qc_score": 2.6,
-   "last_researched_at": "2026-10-30T17:39:42Z",
+   "last_researched_at": "2026-11-02T20:55:52Z",
    "pipeline_version": "v3.3",
    "is_sacred": true,
    "needs_eyes_on": true,
@@ -61956,8 +62366,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Lipsi_(dance)",
    "wikidata_qid": "Q1411395",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "cwXs2XLAprM",
+   "video_stack": [
+    {
+     "youtube_id": "cwXs2XLAprM",
+     "role": "hero",
+     "title": "Gaby Decker tanzt im Lipsi Schritt 1998",
+     "channel": "fritz5145",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -62208,8 +62626,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Passacaglia",
    "wikidata_qid": "Q752329",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "3AICNrKts3A",
+   "video_stack": [
+    {
+     "youtube_id": "3AICNrKts3A",
+     "role": "hero",
+     "title": "Passacaglia",
+     "channel": "Arts ON AIR NYC",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -62530,8 +62956,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Ballroom_rumba",
    "wikidata_qid": "Q221438",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "I-kvGrHvWYE",
+   "video_stack": [
+    {
+     "youtube_id": "I-kvGrHvWYE",
+     "role": "hero",
+     "title": "Riccardo Cocchi - Yulia Zagoruychenko I Rumba I World Pro Latin 2019",
+     "channel": "Panache Star Dancesport ",
+     "hd": true
+    },
+    {
+     "youtube_id": "LCszIfVPdtM",
+     "role": "rendition",
+     "title": "Dance Legends 2014 - Slavik Kryklyvyy & Karina Smirnoff - Rumba",
+     "channel": "DanceLegendsNYC",
+     "hd": true
+    },
+    {
+     "youtube_id": "pAA0smGKCwM",
+     "role": "rendition",
+     "title": "RUMBA | Basic steps | The best 15th Russian dance couples 2021",
+     "channel": "DANCESPORT.RU",
+     "hd": true
+    },
+    {
+     "youtube_id": "PX9Avh3bpL4",
+     "role": "rendition",
+     "title": "Learn 7 Rumba Steps for Beginners",
+     "channel": "Social Dance Online",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -62714,8 +63169,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Expressionist_dance",
    "wikidata_qid": "Q778382",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "37sEaUhFzpI",
+   "video_stack": [
+    {
+     "youtube_id": "37sEaUhFzpI",
+     "role": "hero",
+     "title": "Mary Wigman - Dancer, Choreographer and Pioneer of Expressionist Dance 3",
+     "channel": "John Hall",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -62976,8 +63439,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Contact_improvisation",
    "wikidata_qid": "Q1128456",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "q4wUEiHowSU",
+   "video_stack": [
+    {
+     "youtube_id": "q4wUEiHowSU",
+     "role": "hero",
+     "title": "Embraced - Contact Improvisation",
+     "channel": "BeingMotion Irene Sposetti",
+     "hd": true
+    },
+    {
+     "youtube_id": "ED8hNoulZv4",
+     "role": "rendition",
+     "title": "Contact Improvisation - Moments of practice, with Irene Sposetti & Johan Nilsson",
+     "channel": "BeingMotion Irene Sposetti",
+     "hd": false
+    },
+    {
+     "youtube_id": "zQRF2sLK1vY",
+     "role": "rendition",
+     "title": "Contact Improvisation: Blake Nellis & Brando @ Earthdance",
+     "channel": "Aaron Brandes (Brando)",
+     "hd": true
+    },
+    {
+     "youtube_id": "NGf03Yg6fM0",
+     "role": "rendition",
+     "title": "Contact Improvisation - art of jamming - Sasha Dodo and Dolores Dewhurst Marks",
+     "channel": "Sasha Dodo",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -63069,8 +63561,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Irish_set_dancing",
    "wikidata_qid": "Q1425009",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "fIVLnXkfRHs",
+   "video_stack": [
+    {
+     "youtube_id": "fIVLnXkfRHs",
+     "role": "hero",
+     "title": "Paige Turilli World Champion Set Dance",
+     "channel": "m “walshm” walsh.m.797",
+     "hd": true
+    },
+    {
+     "youtube_id": "q5k6Jls5DM4",
+     "role": "rendition",
+     "title": "David Geaney Irish Dancing Competition Set Dance Medley",
+     "channel": "David Geaney",
+     "hd": true
+    },
+    {
+     "youtube_id": "-DjTOSpv9Lk",
+     "role": "rendition",
+     "title": "All-Ireland Champion set dancers from Kerry dance a polka in the pub",
+     "channel": "Joe Dunne",
+     "hd": true
+    },
+    {
+     "youtube_id": "D-pq1zde6XY",
+     "role": "rendition",
+     "title": "Irish Set Dancing Series - Glossary of Terms (Vol.1)",
+     "channel": "Celtic Note",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -63132,8 +63653,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Tanztheater",
    "wikidata_qid": "Q1425858",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "43L754iMmkI",
+   "video_stack": [
+    {
+     "youtube_id": "43L754iMmkI",
+     "role": "hero",
+     "title": "MOVEment: Prada x Dancers of Tanztheater Wuppertal",
+     "channel": "AnOther Magazine",
+     "hd": true
+    },
+    {
+     "youtube_id": "mWWHnQPgE0o",
+     "role": "rendition",
+     "title": "Pina Bausch's Tanztheater",
+     "channel": "Mackenzie Davenport",
+     "hd": true
+    },
+    {
+     "youtube_id": "N1ohT4_tSNs",
+     "role": "rendition",
+     "title": "Pina Bausch   Nelken   The man I love, dancer Hans Beenhakker at Wuppertaler Tanztheater",
+     "channel": "ana monção",
+     "hd": false
+    },
+    {
+     "youtube_id": "jbeOqyr7_gc",
+     "role": "rendition",
+     "title": "Tanztheater Wuppertal Pina Bausch – Vollmond. Ein Stück von Pina Bausch",
+     "channel": "ImPulsTanz",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -63186,8 +63736,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Shim_Sham",
    "wikidata_qid": "Q1428390",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "268jUcVRdoY",
+   "video_stack": [
+    {
+     "youtube_id": "268jUcVRdoY",
+     "role": "hero",
+     "title": "Shim Sham for Absolute Beginners",
+     "channel": "Peter & Lauren — Swing Dance Instructors",
+     "hd": true
+    },
+    {
+     "youtube_id": "BklRTYVvrUk",
+     "role": "rendition",
+     "title": "Learn the Shim Sham - for Lindy Hop and Swing Dance",
+     "channel": "Laura Glaess",
+     "hd": true
+    },
+    {
+     "youtube_id": "2cUPYkJQ29s",
+     "role": "rendition",
+     "title": "Lindyfest 2016 - Shim Sham",
+     "channel": "Houston Swing Dance Society - Lindyfest",
+     "hd": true
+    },
+    {
+     "youtube_id": "g2FyvoAi2ew",
+     "role": "rendition",
+     "title": "Shim Sham Shimmy featuring Frankie Manning & Erin Stevens",
+     "channel": "SwingcatVB",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -63270,8 +63849,30 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Logobi",
    "wikidata_qid": "Q373982",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "xU8SgMIoD0Y",
+   "video_stack": [
+    {
+     "youtube_id": "xU8SgMIoD0Y",
+     "role": "hero",
+     "title": "BATTLE DE LOGOBI avec KingChris (édition rentrée)",
+     "channel": "Evan",
+     "hd": true
+    },
+    {
+     "youtube_id": "R_zJ87Y1osE",
+     "role": "rendition",
+     "title": "LOGOBI GT DANSE 2",
+     "channel": "KenzoTV",
+     "hd": true
+    },
+    {
+     "youtube_id": "9UJ8Q9zJKcM",
+     "role": "rendition",
+     "title": "LOGOBI STYLE - ZIGUÉHI EN ACTION 3 - (BLACK-K - MON GBONHI)",
+     "channel": "La Dépêche d'Abidjan TV",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -63524,8 +64125,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Pachanga",
    "wikidata_qid": "Q367751",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "BwjN0t7eFPU",
+   "video_stack": [
+    {
+     "youtube_id": "BwjN0t7eFPU",
+     "role": "hero",
+     "title": "PACHANGA Eddie Torres and Grisel Ponce",
+     "channel": "Pasión Ashé Oficial",
+     "hd": false
+    },
+    {
+     "youtube_id": "jasYIUBWxL8",
+     "role": "rendition",
+     "title": "Eddie Torres - Pachanga WS - Shani & Carla",
+     "channel": "morningstarkoz",
+     "hd": true
+    },
+    {
+     "youtube_id": "Gs0cvzcBtXg",
+     "role": "rendition",
+     "title": "PACHANGA WORKSHOP Eddie Torres Jr, Lenin , Genesis and Srini AT LATIN FUSION FESTIVAL 2019",
+     "channel": "BAILANDO SE VIVE MEJOR OFICIAL",
+     "hd": true
+    },
+    {
+     "youtube_id": "qM4Pb4NzhZQ",
+     "role": "rendition",
+     "title": "Eddie Torres & Shani Talmor - Pachanga - Istanbul dance Festival 2013 music",
+     "channel": "VovkaPlus",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -63623,8 +64253,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Electric_boogaloo_(dance)",
    "wikidata_qid": "Q354363",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "twkQ4ToK5D0",
+   "video_stack": [
+    {
+     "youtube_id": "twkQ4ToK5D0",
+     "role": "hero",
+     "title": "Breakin' 2: Electric Boogaloo (1984) Ozone  Shabba Doo Turbo Michael Chambers Susie Coelho WARPITER",
+     "channel": "WarPiter López",
+     "hd": true
+    },
+    {
+     "youtube_id": "-w8_n0t9lLM",
+     "role": "rendition",
+     "title": "The Electric Boogaloos Solos",
+     "channel": "STYLES UPON STYLES (POPPING DANCE HEADQUARTERS)",
+     "hd": false
+    },
+    {
+     "youtube_id": "Un1yBxOOnW8",
+     "role": "rendition",
+     "title": "Soul Train Electric Boogaloo #OsPretoSãoZika",
+     "channel": "Roger Nunes",
+     "hd": false
+    },
+    {
+     "youtube_id": "6T1hy0nPlGM",
+     "role": "rendition",
+     "title": "Electric Boogaloos at Breakin' Convention 2005",
+     "channel": "Breakin' Convention BCTV",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -63697,8 +64356,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Galop",
    "wikidata_qid": "Q698092",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "NZaeTPXlKAg",
+   "video_stack": [
+    {
+     "youtube_id": "NZaeTPXlKAg",
+     "role": "hero",
+     "title": "Canon Galop Quadrille Performance",
+     "channel": "Richard Powers",
+     "hd": true
+    },
+    {
+     "youtube_id": "2Mqg8M1h8v4",
+     "role": "rendition",
+     "title": "Giselle act 1 galop",
+     "channel": "North Atlanta Dance Theatre",
+     "hd": true
+    },
+    {
+     "youtube_id": "ey8sorwT9Ko",
+     "role": "rendition",
+     "title": "Historic Victorian Galop Dance Tutorial | Learn This Nutcracker Classic",
+     "channel": "Adventures In Dance",
+     "hd": true
+    },
+    {
+     "youtube_id": "HNx7xswnu68",
+     "role": "rendition",
+     "title": "Nobiltà Sabauda - Galop",
+     "channel": "Salvatore Favazzi",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -63781,8 +64469,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Clogging",
    "wikidata_qid": "Q488656",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "NMA5kgajhEA",
+   "video_stack": [
+    {
+     "youtube_id": "NMA5kgajhEA",
+     "role": "hero",
+     "title": "TAP THIS! - \"Honey I'm Good\" Cloggers - Clogging Champions",
+     "channel": "Tap This!",
+     "hd": true
+    },
+    {
+     "youtube_id": "CGc5JEVTURw",
+     "role": "rendition",
+     "title": "\"Struck by Lightning\" @ Michigan Celtic Festival '24 - Appalachian clogging",
+     "channel": "Commonwealth Dance Collective",
+     "hd": true
+    },
+    {
+     "youtube_id": "zor8efwULf8",
+     "role": "rendition",
+     "title": "Clogging Nationals 1st Place! Bellhop",
+     "channel": "World Class Clogging",
+     "hd": true
+    },
+    {
+     "youtube_id": "7wSOk-2l6Wg",
+     "role": "rendition",
+     "title": "National Buck Dancing Champion Explains REAL Difference - Buck Dancing vs Clogging 🔥 Hillary Klug",
+     "channel": "Music Festival Channel",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -63873,8 +64590,23 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Soukous",
    "wikidata_qid": "Q1752683",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "XS4ErzpF9uw",
+   "video_stack": [
+    {
+     "youtube_id": "XS4ErzpF9uw",
+     "role": "hero",
+     "title": "Soukous Vibration Dancers - II",
+     "channel": "Musique Congolaise",
+     "hd": false
+    },
+    {
+     "youtube_id": "yNF6quZnCjA",
+     "role": "rendition",
+     "title": "AFRICA DANCE  SOUKOUS",
+     "channel": "Peter Egeonu",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -64032,8 +64764,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Sole%C3%A1",
    "wikidata_qid": "Q1617757",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "8LqbyPf5hU8",
+   "video_stack": [
+    {
+     "youtube_id": "8LqbyPf5hU8",
+     "role": "hero",
+     "title": "Flamenco - Solea - Sara baras 1997",
+     "channel": "AMiMeGustaElFlamenco",
+     "hd": false
+    },
+    {
+     "youtube_id": "LQcX7FgRvyM",
+     "role": "rendition",
+     "title": "Flamenco Dance Solea Upper Body Technique",
+     "channel": "Rina Orellana Flamenco",
+     "hd": true
+    },
+    {
+     "youtube_id": "jt_kPA_vVbQ",
+     "role": "rendition",
+     "title": "Soleá falseta for dance - flamenco guitar performance by Kai Narezo",
+     "channel": "Flamenco Explained",
+     "hd": true
+    },
+    {
+     "youtube_id": "uZA81L3O-Gw",
+     "role": "rendition",
+     "title": "Flamenco Dance- Rina Orellana, Soleá",
+     "channel": "Rina Orellana Flamenco",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -64104,8 +64865,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Cheoyongmu",
    "wikidata_qid": "Q498220",
    "unesco": true,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "DSWYr-FNmQ8",
+   "video_stack": [
+    {
+     "youtube_id": "DSWYr-FNmQ8",
+     "role": "hero",
+     "title": "Korean Sword Dances and Swastikas",
+     "channel": "Atlantean Gardens",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -64168,8 +64937,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Kamarinskaya",
    "wikidata_qid": "Q1055478",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "93UeF2JMxYg",
+   "video_stack": [
+    {
+     "youtube_id": "93UeF2JMxYg",
+     "role": "hero",
+     "title": "\"Камаринская\", Ансамбль Локтева. \"Kamarinskaya\", Loktev Ensemble.",
+     "channel": "Ансамбль Песни и Пляски имени В.С. Локтева",
+     "hd": true
+    },
+    {
+     "youtube_id": "aS--mUkdwzk",
+     "role": "rendition",
+     "title": "Русский танец. Камаринская. Пляс №6. Самопляс®. Танцы онлайн.",
+     "channel": "Самопляс ®",
+     "hd": true
+    },
+    {
+     "youtube_id": "Xpodc0wQYxM",
+     "role": "rendition",
+     "title": "Anastasiya Gerasimova (Age 11) - Kamarinskaya Variation (Vaganova Academy)",
+     "channel": "stretch ribbon",
+     "hd": true
+    },
+    {
+     "youtube_id": "vkoiNof17-I",
+     "role": "rendition",
+     "title": "\"Камаринская\", Ансамбль имени В. Локтева. \"Kamarinskaya\", Ensemble named after V. Loktev.",
+     "channel": "Ансамбль Песни и Пляски имени В.С. Локтева",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -64247,8 +65045,30 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Maloya",
    "wikidata_qid": "Q496929",
    "unesco": true,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "qML4wWf9KgE",
+   "video_stack": [
+    {
+     "youtube_id": "qML4wWf9KgE",
+     "role": "hero",
+     "title": "Yellowknife Multicultural Dance Gala 2019 - Maloya Sega",
+     "channel": "Geoff's Litrato",
+     "hd": true
+    },
+    {
+     "youtube_id": "sdZp3OUKz5Q",
+     "role": "rendition",
+     "title": "DANSE TON MALOYA !",
+     "channel": "Danse Péi",
+     "hd": true
+    },
+    {
+     "youtube_id": "qzzrR4vhoHA",
+     "role": "rendition",
+     "title": "Maloya",
+     "channel": "jean max Cazanove",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -64513,8 +65333,30 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Pungmul",
    "wikidata_qid": "Q497674",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "4oiODXIUkiY",
+   "video_stack": [
+    {
+     "youtube_id": "4oiODXIUkiY",
+     "role": "hero",
+     "title": "Korean Folk Village: Nongak (farmer’s music)",
+     "channel": "Strycenkay",
+     "hd": true
+    },
+    {
+     "youtube_id": "ClVbXZluAqA",
+     "role": "rendition",
+     "title": "20240301 Korean Folk Village Pungmul Hangarak Fan Dance Korean Dance world of dance korea",
+     "channel": "성영민람",
+     "hd": true
+    },
+    {
+     "youtube_id": "sGgmx0IuZe0",
+     "role": "rendition",
+     "title": "Pungmul 2016 4K - Hurtfilms",
+     "channel": "HURTFILMS",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -64627,6 +65469,908 @@
    "tradition_status": "living",
    "related_slugs": [
     "pung-cholom"
+   ]
+  },
+  "morna": {
+   "slug": "morna",
+   "name": "morna",
+   "country": "Cape Verde",
+   "country_code": "CV",
+   "region": "Africa",
+   "family": "ballroom-partner",
+   "flag_emoji": "🇨🇻",
+   "era": "18th to 19th century",
+   "tagline": "Cape Verde's national ballroom dance of slow sorrow, romance, and ocean longing.",
+   "profile": "The morna is the national music and ballroom dance of Cape Verde, characterized by a slow tempo, binary meter, and themes of saudade, love, and separation. Performed in pairs with a gentle embracing arm and hand-hold, dancers execute two synchronized body swings to one side per bar, shifting to the opposite side on the next. The genre blends acoustic instrumentation like the guitar, violin, and cavaquinho, and was proclaimed an UNESCO Intangible Cultural Heritage of Humanity in 2019.",
+   "insight": "In a Cape Verdean morna, a couple sways together twice to one side per bar, mirroring the melancholic pull of the ocean and the painful departure for foreign shores.",
+   "aliases": [
+    "morna (music)"
+   ],
+   "related": [
+    "coladeira",
+    "lundum"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Morna_(music)",
+    "https://www.wikidata.org/wiki/Q502535",
+    "https://es.wikipedia.org/wiki/Morna",
+    "https://fr.wikipedia.org/wiki/Morna",
+    "https://pt.wikipedia.org/wiki/Morna",
+    "https://ich.unesco.org/en/RL/01469",
+    "https://archive.org/details/WWS_1932110201"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Morna_(music)",
+   "wikidata_qid": "Q502535",
+   "unesco": true,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-02",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-11-02T19:46:59Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The morna is a traditional musical and choreographic practice originating from the islands of Cape Verde, widely regarded as the nation's profound cultural symbol. Historically rooted in the 18th century on Boa Vista Island—with some scholars linking its early rhythms to the lundum and local working songs called choros—the morna matured into a distinct artistic tradition by the 19th century. Initially a simpler genre often featuring satire or social commentary with a quicker tempo, it underwent a profound transformation in the early 20th century through poet and composer Eugénio Tavares on Brava Island, who infused it with deep romanticism, lyricism, and themes of love, departure, and saudade. Later, in the 1930s and 1940s, composer B. Leza introduced passing chords known as the 'meio-tom brasileiro' in São Vicente, enriching the traditional cycle-of-fifths harmonic structure. As a dance, the morna is an intimate ballroom genre performed in pairs. Dancers embrace their partner with one arm while holding hands with the other, executing a precise choreography of two body swings to one side during a musical bar, followed by two swings to the other side in the subsequent bar. Musically, it is defined by a lento tempo, binary meter, syncopated melodies, and acoustic chordophones such as the guitar (*violão*), ten-string guitar (*viola*), cavaquinho, and violin (*rabeca*). International recognition soared through iconic interpreters like Cesária Évora, culminating in its inscription as UNESCO Intangible Cultural Heritage of Humanity in December 2019.",
+   "albums": [
+    {
+     "title": "Voz",
+     "artist": "Tété Alhinho",
+     "year": "2005",
+     "mbid": "2324317e-31db-36f1-b2dd-866145cf262b",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/2324317e-31db-36f1-b2dd-866145cf262b",
+     "type": "Album",
+     "source": "https://en.wikipedia.org/wiki/Morna_(music)",
+     "verified": true
+    }
+   ],
+   "album_candidates": [
+    {
+     "title": "Eclipse",
+     "artist": "Chico Serra",
+     "source": "https://en.wikipedia.org/wiki/Morna_(music)",
+     "verified": false
+    }
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Morna_group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Morna_group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1000,
+     "height": 665,
+     "license": "CC BY-SA 3.0",
+     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "attribution": "Original uploader was Kotoviski at sv.wikipedia / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AMorna_group.jpg",
+     "description": "En typisk kapverdiansk musikgroup.\n\nBilden tagen av Henryk Kotowski i november 2005"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "coladeira"
+   ]
+  },
+  "semah-alevi-bektasi-ritual": {
+   "slug": "semah-alevi-bektasi-ritual",
+   "name": "Semah, Alevi-Bektaşi ritual",
+   "country": "Turkey",
+   "country_code": "TR",
+   "region": "Middle East",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇹🇷",
+   "era": "10th century to present",
+   "tagline": "A mystical, rhythmic dance of unity performed by Alevi-Bektaşi communities in Turkey.",
+   "profile": "Semah is a central ritual service within the Alevi-Bektaşi tradition, performed by men and women together to express unity with God and nature. Accompanied by the saz lute, dancers move in rhythmic, often circular patterns that mirror the cycles of the universe. It is a living tradition that serves as a primary vehicle for transmitting Alevi-Bektaşi culture, philosophy, and spiritual teachings across generations.",
+   "insight": "Semah is a ritual of 'selfless expression' where dancers, often imitating the crane, rotate in rhythmic harmony to symbolize the soul's journey from God and its eventual return to the divine.",
+   "aliases": [
+    "Sama"
+   ],
+   "related": [
+    "Sufi whirling",
+    "Qawwali",
+    "Hadhra"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sama_(Sufism)",
+    "https://www.wikidata.org/wiki/Q1437738",
+    "https://de.wikipedia.org/wiki/Semah",
+    "https://it.wikipedia.org/wiki/Semah",
+    "https://ich.unesco.org/en/RL/00384"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Sama_(Sufism)",
+   "wikidata_qid": "Q1437738",
+   "unesco": true,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-02",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.7,
+   "last_researched_at": "2026-11-02T19:56:55Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Semah is a profound mystical performance and a core component of the Alevi-Bektaşi belief system, which centers on devotion to Ali, the fourth caliph. Unlike some other Sufi practices that focus on individual whirling, the Alevi Semah is characterized by the participation of both men and women, who perform side by side in a display of communal and spiritual unity. The ritual is deeply symbolic, representing the soul's origin from God and its inevitable return to the divine, mirroring the natural cycles of the universe and the movement of planets. \n\nTechnically, the dance is defined by its rhythmic harmony and specific gestural language. Dancers often move in circular paths, alternating between slow and rapid steps. A signature posture involves the right hand held with the palm facing upward, while the left hand is held with the palm facing downward, signifying the connection between the heavens and the earth. Many forms of Semah, such as the 'turnalar semahı' (crane dance), incorporate movements that mimic the flight of the crane, a bird held in high regard as a symbolic mediator between lovers and between humanity and God. \n\nMusic is inseparable from the movement, with the 'saz'—a long-necked lute—serving as the primary instrument. The rhythmic structure is often dictated by the 'aksak' meter, which provides the pulse for the dancers' rotations and steps. The ritual is performed in two primary contexts: 'İçeri' Semahs, which occur strictly within the 'Cem' (spiritual assembly) as one of twelve essential services, and 'Dışarı' Semahs, which are performed in public or festival settings to share the tradition with younger generations and the wider public. Through these performances, the Alevi-Bektaşi community preserves its oral history, literature, and ethical teachings, ensuring the continuity of a tradition that emphasizes the inherent goodness in humanity.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Whirlingdervishes.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Whirlingdervishes.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 707,
+     "height": 500,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "myself / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AWhirlingdervishes.JPG",
+     "description": "Whirling Dervishes from Turkey. They belong to a Sufi Islamic sect called the Mevlevi founded by the famous philosopher Mevlana. Picture was taken from the top viewing gallery."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Balafon_Jamie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/80/Balafon_Jamie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 690,
+     "height": 1038,
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "attribution": "Jamie Price / Wikimedia Commons / CC BY 2.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ABalafon_Jamie.jpg",
+     "description": "And more love."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Sufis_Performing_Sama_before_Shaykh_Nizam_al-Din_Awliya_%28CBL_Per_163.6%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Sufis_Performing_Sama_before_Shaykh_Nizam_al-Din_Awliya_%28CBL_Per_163.6%29.jpg/1280px-Sufis_Performing_Sama_before_Shaykh_Nizam_al-Din_Awliya_%28CBL_Per_163.6%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4080,
+     "height": 6397,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Calligraphy by Muhammad-i Azhar / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASufis_Performing_Sama_before_Shaykh_Nizam_al-Din_Awliya_%28CBL_Per_163.6%29.jpg",
+     "description": "Sufis Performing Sama before Shaykh Nizam al-Din Awliya. From Khamsa (Five Poems) of Amir Khusrav Dihlavi. Herat, 1485. Chester Beatty Library Per 163.6"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Semah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Semah.jpg/1280px-Semah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 6000,
+     "height": 4000,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Hidayetgoktas / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASemah.jpg",
+     "description": "Semah, Alevi ve Bektaşiler tarafından inançları gereği cemlerde icra edilen semah, hizmet sahipleri olan zakirlerin çaldığı saz eşliğinde söylenen sözler ve müziğin ritmine uyarak yapılan mistik ve estetik hareketler ile Tanrı’ya ulaşma yoludur.\nTürkiye coğrafyasının genelinde canlı bir biçimde yaşayan semah, uygulayıcıları ve taşıyıcıları olan Alevi-Bektaşi toplulukların yaşadıkları coğrafi bölge"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Shaykh_Safi_dancing_in_a_sama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Shaykh_Safi_dancing_in_a_sama.jpg/1280px-Shaykh_Safi_dancing_in_a_sama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3669,
+     "height": 5007,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Unknown artistUnknown artist / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AShaykh_Safi_dancing_in_a_sama.jpg",
+     "description": "A watercolour painting in the Shirazi style depicting Shaykh Ṣafī al-Dīn dancing in a sama from illustrated copy of Ṣafvat al-Ṣafā, the life of Shaykh Ṣafī al-Dīn, by Ismāʿil bin Bazzāz, completed in Shaʿbān 990/September 1582 in Shirāz. It is notable that four women and a child are part of the circle, suggesting their initiation into the practices of the order."
+    }
+   ],
+   "ich_ref": "384",
+   "needs_eyes_on": true,
+   "sacred_note": "Semah is a religious service within the Alevi-Bektaşi tradition. Outsiders should observe with respect and follow local guidance regarding photography and participation in 'Cem' rituals.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "sufi-whirling"
+   ]
+  },
+  "moshing": {
+   "slug": "moshing",
+   "name": "moshing",
+   "country": "United States",
+   "country_code": "US",
+   "region": "North America",
+   "family": "street-urban",
+   "flag_emoji": "🇺🇸",
+   "era": "Late 20th century",
+   "tagline": "A high-contact, emergent crowd dance born in the late-1970s hardcore punk scene.",
+   "profile": "Moshing is a style of dance in which participants push, slam, or collide into each other inside an area called a mosh pit. Originating in the Southern California hardcore punk scene around 1978, it evolved from the British punk pogo style. Over subsequent decades, the practice spread from underground venues into heavy metal, grunge, hip-hop, and electronic dance music. Despite its widespread adoption in youth culture, it remains controversial due to severe injuries and occasional fatalities.",
+   "insight": "Around 95% of mosh pit circle pits rotate counter-clockwise, a spatial anomaly directly correlated with the human population's overwhelming right-hand preference.",
+   "aliases": [
+    "slam dancing",
+    "slamming",
+    "pogo",
+    "slam"
+   ],
+   "related": [
+    "pogo",
+    "skanking",
+    "stage diving"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Moshing",
+    "https://www.wikidata.org/wiki/Q1463560",
+    "https://es.wikipedia.org/wiki/Mosh",
+    "https://fr.wikipedia.org/wiki/Mosh",
+    "https://pt.wikipedia.org/wiki/Mosh"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Moshing",
+   "wikidata_qid": "Q1463560",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-02",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.7,
+   "last_researched_at": "2026-11-02T20:05:33Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Moshing, also known as slam dancing or slamming, is an energetic and high-contact dance form primarily performed to aggressive live music such as punk rock and heavy metal. Taking place in a designated or emergent area known as the mosh pit, participants push, shove, run, and collide with one another in response to fast tempos and heavy breakdowns. The direct predecessor to moshing was the pogo, a 1970s English punk dance where crowd members jumped up and down with their arms at their sides, reportedly invented by Sex Pistols bassist Sid Vicious in 1976.\n\nAs a prominent punk scene formed in Southern California in the late 1970s and early 1980s with bands like Fear and Black Flag, slam dancing developed as a physical modification of the pogo. Early participants introduced running, pushing, and a recognized ringed space. A foundational style emerged called the Huntington Beach Strut, attributed to former US marine Mike Marine in 1978, which involved strutting in a circle while swinging arms to hit nearby people. The term 'mosh' itself etymologically stems from a misunderstanding of 'mash'; during a 1979 or 1980 performance, Bad Brains vocalist H.R. shouted 'mash it—mash down Babylon!', which audience members heard through his Jamaican accent as 'mosh it'.\n\nThroughout the 1980s, the dance spread across North America, developing distinct regional variants. In Boston, dancers introduced 'Boston thrash' (incorporating punches below the neck) and 'pig piles' where individuals were knocked to the ground and buried by others. In New York City, hardcore scenes merged with heavy metal fans, incorporating exaggerated arm and leg movements. Figures like Scott Ian and Billy Milano of Stormtroopers of Death cemented the term 'mosh' with tracks like 'Milano Mosh' in 1985. Variations multiplied over time, including the circle pit, the Wall of Death (where the crowd splits into two halves and charges together), and specialized hardcore dancing styles like the two-step and floorpunching.\n\nIn the 1990s, the mainstream success of grunge and touring festivals like Lollapalooza introduced moshing to a global audience. The practice subsequently crossed over into hip-hop—championed by groups like Beastie Boys and Onyx and later modern rap artists who termed it 'raging'—as well as electronic dance music performances by acts like The Prodigy and Skrillex. Researchers studying mosh pits have noted fascinating emergent behaviors, finding that crowd dynamics mirror 2-D gases in equilibrium and that nearly all circle pits rotate counter-clockwise due to human right-hand dominance.\n\nDespite its role as a form of passionate fan expression, moshing has drawn intense criticism, venue bans, and legal controversy due to dangerous levels of violence. Tragic fatalities and injuries at concerts—including incidents at Smashing Pumpkins performances, the 2001 Big Day Out festival, and the 2021 Astroworld Festival—have led numerous bands, such as Fugazi and Consolidated, and prominent musicians to publicly condemn or actively oppose the practice.",
+   "albums": [
+    {
+     "title": "Speak English or Die",
+     "artist": "Stormtroopers of Death",
+     "year": "1985",
+     "mbid": "3026af35-f36e-3436-875b-ddfd2c0c7529",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/3026af35-f36e-3436-875b-ddfd2c0c7529",
+     "type": "Album",
+     "source": "https://en.wikipedia.org/wiki/Moshing",
+     "verified": true
+    }
+   ],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Moshpit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/90/Moshpit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 800,
+     "height": 800,
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "attribution": "[][tatu] from Porto Alegre, Brasil / Wikimedia Commons / CC BY 2.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AMoshpit2.jpg",
+     "description": "A man crowd surfing in a mosh pit, uploaded from Flickr"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/No_moshing_sign%2C_Bumbershoot_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/No_moshing_sign%2C_Bumbershoot_2010.jpg/1280px-No_moshing_sign%2C_Bumbershoot_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4288,
+     "height": 2848,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Joe Mabel / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ANo_moshing_sign%2C_Bumbershoot_2010.jpg",
+     "description": "\"No moshing\" sign, Bumbershoot 2010, Seattle Center, Seattle, Washington."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/La_Gente_Mosheando.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/La_Gente_Mosheando.JPG/1280px-La_Gente_Mosheando.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3872,
+     "height": 2592,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Seis Pasos Mas Abajo / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ALa_Gente_Mosheando.JPG",
+     "description": "el Mosh"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Onyx_live_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Onyx_live_2014.jpg/1280px-Onyx_live_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2048,
+     "height": 2048,
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "attribution": "EnglishLoverWillie at English Wikipedia / Wikimedia Commons / CC0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AOnyx_live_2014.jpg",
+     "description": "Onyx members Sticky Fingaz and Fredro Starr performing live in 2014"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/TH_-_Mosh_Pit_%285370150223%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/TH_-_Mosh_Pit_%285370150223%29.jpg/1280px-TH_-_Mosh_Pit_%285370150223%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4288,
+     "height": 2848,
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "attribution": "vxla from Chicago, US / Wikimedia Commons / CC BY 2.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATH_-_Mosh_Pit_%285370150223%29.jpg",
+     "description": "Toxic Holocaust live in Chicago, 2011"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "twist": {
+   "slug": "twist",
+   "name": "Twist",
+   "country": "United States",
+   "country_code": "US",
+   "region": "North America",
+   "family": "street-urban",
+   "flag_emoji": "🇺🇸",
+   "era": "1950s–1960s",
+   "tagline": "The 1960s global dance craze where dancers never touch, twisting like putting out a cigarette.",
+   "profile": "The twist is a solo or crowd dance inspired by rock and roll music that became a worldwide craze from 1959 through the early sixties. Popularized nationally by Chubby Checker on American television, the dance requires no physical contact between partners. Dancers rotate their hips, torso, and legs as a single unit while grinding the balls of their feet against the floor as if extinguishing a cigarette.",
+   "insight": "Teenagers invented it in the late fifties, adults made it passé by joining in, and a cigarette-stunting foot movement conquered the world's ballrooms.",
+   "aliases": [],
+   "related": [
+    "Jerk",
+    "Pony",
+    "Watusi",
+    "Mashed Potato",
+    "Monkey",
+    "Funky Chicken"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Twist_(dance)",
+    "https://www.wikidata.org/wiki/Q387916",
+    "https://es.wikipedia.org/wiki/Twist_(baile)",
+    "https://fr.wikipedia.org/wiki/Twist",
+    "https://pt.wikipedia.org/wiki/Twist"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Twist_(dance)",
+   "wikidata_qid": "Q387916",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-02",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-11-02T20:16:30Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The twist emerged as a monumental cultural phenomenon in the late 1950s and early 1960s, rooted in rock and roll music and drawing deep historical antecedents from African-American traditions. Having observed teenagers in Tampa, Florida, performing the movement, songwriter Hank Ballard composed 'The Twist' as a B-side in 1959. Recognizing the dance's immense youth appeal, television powerhouse Dick Clark urged Cameo Records to have the wholesome young artist Chubby Checker record a cover. Checker's rendition debuted on national television in August 1960 on The Dick Clark Show, sparking a massive craze that swept the United States and international markets alike.\n\nThe mechanics of the dance broke traditional social conventions of partnering by requiring zero physical contact between dancers. Performers stood with feet shoulder-width apart, knees slightly bent, and arms held out from the body at the elbow. Operating as a single unit, the hips, torso, and legs rotated continuously on the balls of the feet, creating a grinding motion likened to putting out a cigarette or rubbing oneself with a towel. Because the dance required minimal space and zero complex footwork instruction, it leveled social hierarchies on the dance floor, welcoming novices and poor dancers alongside seasoned enthusiasts.\n\nAs the craze peaked between 1961 and 1962, high-profile venues like New York City's Peppermint Lounge became temples of the twist, featuring house bands such as Joey Dee and the Starliters. Chart dominance was established through landmark recordings by Chubby Checker, Sam Cooke, the Isley Brothers, and Gary U.S. Bonds. The dance crossed international borders with fierce momentum, particularly in Latin America through Bill Haley & His Comets, and in France where yé-yé stars like Johnny Hallyday launched localized adaptations. Despite drawing parental criticism for its suggestive pelvic rotations, the twist firmly established rock and roll as an accessible, mass-market social phenomenon.",
+   "albums": [
+    {
+     "title": "Bo Diddley's a Twister",
+     "artist": "Bo Diddley",
+     "year": "1962",
+     "mbid": "810e06a0-40e8-4f36-8b17-9f6a94cfc3ff",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/810e06a0-40e8-4f36-8b17-9f6a94cfc3ff",
+     "type": "Album",
+     "source": "https://en.wikipedia.org/wiki/Twist_(dance)",
+     "verified": true
+    }
+   ],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bundesarchiv_Bild_183-C0517-0010-005%2C_Berlin%2C_Deutschlandtreffen%2C_tanzende_Jugendliche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bundesarchiv_Bild_183-C0517-0010-005%2C_Berlin%2C_Deutschlandtreffen%2C_tanzende_Jugendliche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 792,
+     "height": 736,
+     "license": "CC BY-SA 3.0 de",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "attribution": "Hochneder, Christa / Wikimedia Commons / CC BY-SA 3.0 de",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ABundesarchiv_Bild_183-C0517-0010-005%2C_Berlin%2C_Deutschlandtreffen%2C_tanzende_Jugendliche.jpg",
+     "description": "For documentary purposes the German Federal Archive often retained the original image captions, which may be erroneous, biased, obsolete or politically extreme. Zentralbild/Hochneder\n17.5.1964\nSonderdienst Deutschlandtreffen\nTanz am Pfingstsonnabendabend.\n\nEifrig wurde auf den Tanzflächen von der Karl-Marx-Allee bis Unter den Linden getwistet."
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "not described in sources",
+   "movie_ready": true,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "cakewalk": {
+   "slug": "cakewalk",
+   "name": "Cakewalk",
+   "country": "United States",
+   "country_code": "US",
+   "region": "North America",
+   "family": "african-diaspora",
+   "flag_emoji": "🇺🇸",
+   "era": "Mid-19th century to early 20th century",
+   "tagline": "A satirical plantation dance of high-kicking elegance that conquered Broadway.",
+   "profile": "The cakewalk emerged in the mid-19th century on Southern United States plantations as an enslaved community's satirical response to the formal dancing of white slaveholders. Dressed in discarded finery, couples strutted, slid, and executed high-stepping kicks with an erect upper body tilted backward. Winning contestants were awarded a prized cake during competitive community gatherings. The form later transitioned into minstrel shows, Broadway productions, and an international craze in the early 1900s.",
+   "insight": "Enslaved dancers covertly mocked slaveholders' stiff European manners with high kicks and solemn struts, winning prized corn-meal cakes right under their owners' noses.",
+   "aliases": [
+    "cake walk",
+    "chalkline-walk",
+    "walk-around"
+   ],
+   "related": [
+    "Ragtime",
+    "Tango",
+    "Two-step",
+    "Charleston",
+    "Lindy Hop"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cakewalk",
+    "https://www.wikidata.org/wiki/Q1026113",
+    "https://es.wikipedia.org/wiki/Cakewalk_(baile)",
+    "https://fr.wikipedia.org/wiki/Cake-walk",
+    "https://pt.wikipedia.org/wiki/Cakewalk",
+    "https://archive.org/details/manmoonmighttel00ship"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Cakewalk",
+   "wikidata_qid": "Q1026113",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-02",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-11-02T20:29:17Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The cakewalk developed from 'prize walks' held in the mid-19th century at gatherings of African Americans on plantations before and after emancipation in the Southern United States. Alternative names for the original form included the chalkline-walk and the walk-around. It was originally a processional partner dance performed with comical formality, featuring an erect upper body tilted backward, high-stepping kicks, struts, and slides. Enslaved people would dress in handed-down finery and comically exaggerate the poised movements of European minuets and waltzes, serving as a subtle mockery that plantation owners often misread as simple entertainment.\n\nFollowing an exhibition at the 1876 Centennial Exposition in Philadelphia, the cakewalk was adopted into minstrel shows, where it was danced exclusively by men until the 1890s. The inclusion of women on Broadway in productions like The Creole Show enabled major improvisations, transforming the processional walk into a grotesque and highly popular dance. Performers like Dora Dean and Charles E. Johnson achieved international fame cakewalking. By 1903, the dance sparked a massive craze in Paris following appearances by Eugénie Fougère.\n\nMusically, the cakewalk is characterized by a 2/4 time signature, oompah rhythms, syncopation, and polyrhythms. It heavily influenced and shared roots with ragtime, inspiring classical and popular composers such as Claude Debussy, John Philip Sousa, and Louis Moreau Gottschalk. Although commercialization and minstrel caricatures later distorted its historical perception, contemporary communities within the Lindy Hop tradition actively preserve and perform authentic early 1900s cakewalk steps.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "At the cakewalk last night",
+     "artist": "George Formby",
+     "source": "https://es.wikipedia.org/wiki/Cakewalk_(baile)",
+     "verified": false
+    }
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/EbonyEchoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ec/EbonyEchoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 600,
+     "height": 787,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Dan Walker / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AEbonyEchoes.jpg",
+     "description": "\"Ebony Echoes: A Good Old-Fashioned Cake-Walk\" by Dan Walker. New York, NY: Shapiro, Bernstein &amp; Co., 1915 sheet music cover.\n\n\nNote: Quite late for the publication of a Cake Walk"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Cake_walk_poster_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Cake_walk_poster_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 881,
+     "height": 646,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Strobridge Lithographing Co., Cincinnati &amp; New York / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ACake_walk_poster_1896.jpg",
+     "description": "\"Primrose &amp; West's Big Minstrels. Our great champion cake walk, open to all comers.\""
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Adrien_Barr%C3%A8re15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/22/Adrien_Barr%C3%A8re15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 830,
+     "height": 542,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Adrien Barrère / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAdrien_Barr%C3%A8re15.jpg",
+     "description": "\"La Revue des Folies Bergere\""
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Leo_Rauth_Cake-Walk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Leo_Rauth_Cake-Walk.jpg/1280px-Leo_Rauth_Cake-Walk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2067,
+     "height": 2058,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Leo Rauth / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ALeo_Rauth_Cake-Walk.jpg",
+     "description": "\"Cake-Walk\", rechts unten signiert Leo Rauth, Mischtechnik auf Papier, Blattgröße ca. 37 x 36 cm"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/In_Dahomey_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/07/In_Dahomey_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 600,
+     "height": 475,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Wisconsin Center for Film and Theater Research / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AIn_Dahomey_1903.jpg",
+     "description": "George Walker, Adah Overton Walker, and Bert Williams link arms and dance the cakewalk in the first Broadway musical to be written and performed by African Americans, \"In Dahomey.\""
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/William_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9b/William_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 974,
+     "height": 1400,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "William H. Johnson / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AWilliam_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg",
+     "description": "Artist: William H. Johnson, born Florence, SC 1901-died Central Islip, NY 1970\nType: Graphic Arts-Print\nDate: ca. 1941-1942\nTopic: Figure group\n     Ethnic\\African-American\n     Recreation\\dancing\n     Object\\musical instrument\\drum\n     Object\\musical instrument\\horn\nObject number: 1971.136\nMedium: serigraph on paper\nCredit Line: Smithsonian American Art Museum, Gift of Mrs. Douglas E. Younger\nPe"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Eli_Green%27s_cake-walk_%28NYPL_Hades-464080-1165854%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Eli_Green%27s_cake-walk_%28NYPL_Hades-464080-1165854%29.jpg/1280px-Eli_Green%27s_cake-walk_%28NYPL_Hades-464080-1165854%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 5412,
+     "height": 7216,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Scan by NYPL / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AEli_Green%27s_cake-walk_%28NYPL_Hades-464080-1165854%29.jpg",
+     "description": "* Summary:  In ethnic stereotyped language, the narrator describes African Americans enjoying dancing cakewalks.\nPage 7 has music for piano only labeled Cake Walk.\nCover includes drawing of an African American male and female couple, arm in arm, apparently doing a cake walk (their feet obscured by the woman's dress).  Illustrator's device at left below woman's dress.\nOn cover:  A red hot number.\nS"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Eug%C3%A9nie_Foug%C3%A8re_cover_Paris_qui_chante.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Eug%C3%A9nie_Foug%C3%A8re_cover_Paris_qui_chante.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1024,
+     "height": 1378,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AEug%C3%A9nie_Foug%C3%A8re_cover_Paris_qui_chante.jpg",
+     "description": "French music-hall artist Eugénie Fougère appeared on the 18 October 1903 cover of the weekly magazine 'Paris qui Chante' dancing to the song Oh ! ce cake-walk"
+    }
+   ],
+   "movie_ready": true,
+   "tradition_status": "revived",
+   "related_slugs": [
+    "tango",
+    "two-step",
+    "charleston",
+    "lindy-hop"
+   ]
+  },
+  "pogo": {
+   "slug": "pogo",
+   "name": "Pogo",
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "region": "Europe",
+   "family": "street-urban",
+   "flag_emoji": "🇬🇧",
+   "era": "1970s",
+   "tagline": "An anti-disco punk dance of frantic vertical jumps born in 1970s London.",
+   "profile": "The pogo is a high-energy dance characterized by dancers jumping up and down with a stiff torso and rigid arms, resembling the use of a pogo stick. Emerging in the mid-1970s London punk scene, it was reportedly invented by Sex Pistols bassist Sid Vicious to mock non-punk audience members. While it can appear violent with its thrashing and collisions, participants maintain a strong sense of solidarity, immediately helping fallen dancers. Over time, it evolved into various horizontal forms like moshing, circle pits, and wall of death variants across punk and heavy metal subcultures.",
+   "insight": "Born in 1976 London as a way to mock outsiders, the pogo turns frantic vertical jumping into an anti-disco rebellion.",
+   "aliases": [
+    "mosh",
+    "tangana",
+    "olla",
+    "pateo",
+    "foso",
+    "mocha",
+    "agite"
+   ],
+   "related": [
+    "Moshing",
+    "Slam dancing",
+    "Stage diving",
+    "Circle pit",
+    "Wall of death",
+    "Skanking"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pogo_(dance)",
+    "https://www.wikidata.org/wiki/Q840880",
+    "https://es.wikipedia.org/wiki/Pogo_(baile)",
+    "https://fr.wikipedia.org/wiki/Pogo_(danse)",
+    "https://de.wikipedia.org/wiki/Pogo"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Pogo_(dance)",
+   "wikidata_qid": "Q840880",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-02",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.1,
+   "last_researched_at": "2026-11-02T20:30:58Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The pogo is a dance that originated around 1976 within the alternative punk movement, functioning explicitly as an anti-disco statement against the uniform and predictable beats of the mainstream. According to accounts from figures like Sex Pistols bassist Sid Vicious, Shane MacGowan, and Viv Albertine, the dance started as a way to move frantically in cramped club spaces or mock those outside the punk movement. The basic movement involves jumping straight up and down on the spot or moving around, with options to keep the torso rigid or thrash about, hold arms stiffly or flail them, and keep legs close together or kick. \n\nOver the decades, the pogo expanded beyond its vertical roots into a wide variety of energetic sub-styles. As punk rock sped up and heavy metal evolved, the dance incorporated horizontal movements, heavy pushing, and body contact in what became known as the mosh pit or slam dancing. Despite the seemingly aggressive nature of these movements—which can result in bruises, split lips, or bloody elbows—participants operate under a strict unwritten code of solidarity. If a dancer falls, those nearby immediately pull them back up to prevent trampling. Regional and stylistic variants include the slam, stage diving, the wall of death, and the circle pit, cementing the pogo's legacy as a foundational pillar of underground rock culture worldwide.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "En concierto",
+     "artist": "Patricio Rey y sus Redonditos de Ricota",
+     "source": "https://es.wikipedia.org/wiki/Pogo_(baile)",
+     "verified": false
+    }
+   ],
+   "images": [],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "moshing"
+   ]
+  },
+  "seungmu": {
+   "slug": "seungmu",
+   "name": "Seungmu",
+   "country": "South Korea",
+   "country_code": "KR",
+   "region": "East Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇰🇷",
+   "era": "16th century to present",
+   "tagline": "A profound Korean solo dance of stillness and motion, featuring long, white sleeves.",
+   "profile": "Seungmu is a highly dignified and graceful Korean solo dance, recognized as an important intangible cultural asset. It is defined by the contrast between stillness and dynamic, sharp movements, often performed in a white hood and a robe with elongated sleeves. The dance integrates eight distinct rhythmic cycles that trace the lifecycle of the universe and human emotion.",
+   "insight": "Though historically associated with Buddhist monks, Seungmu evolved into a secular folk art form, famously characterized by the dancer's long, white sleeves that mimic the movements of the cosmos.",
+   "aliases": [
+    "승무",
+    "Monk's Dance"
+   ],
+   "related": [
+    "bubgo dance"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Seungmu",
+    "https://www.wikidata.org/wiki/Q625558",
+    "https://es.wikipedia.org/wiki/Seungmu"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Seungmu",
+   "wikidata_qid": "Q625558",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-02",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.5,
+   "last_researched_at": "2026-11-02T20:33:19Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Seungmu is one of the most celebrated traditional dances of Korea, characterized by its blend of serene stillness and powerful, expressive motion. While the dance is often called the 'monk's dance,' its origins remain a subject of scholarly debate; though it shares commonalities with Buddhist ritual gestures, it has historically functioned as a secular folk art, or 'minsok yesul.' The dance was notably refashioned for the stage in 1936 by Han Sŏngjun, moving it from the streets into a formal performance context. \n\nThe aesthetic of Seungmu is rooted in the dancer's ability to embody deep human emotions—ranging from resentment to ecstasy—through controlled, elegant movements. The costume is iconic: the dancer wears a 'jangsam' (a robe with long, white sleeves) and a 'gokkal' (a white hood). These sleeves are not merely clothing but are essential instruments of expression, used to trace the whirls of the galaxy, the blooming of flowers, or the harsh winds of life. The performance is structured around eight rhythmic cycles, including 'yeombul,' 'dodeuri,' and 'gutgeori,' which guide the dancer through a narrative arc representing the birth of the universe, the cycle of life, and the eventual return to an original state. \n\nCentral to the performance is the 'bubgo,' or drum, which serves as a focal point for the dancer's energy. As the rhythm shifts, the dancer alters their steps and mood, transitioning from slow, grounded movements to more sophisticated, rapid sequences. The dance is considered a pinnacle of Korean aesthetic tradition, valued for its ability to communicate complex philosophical concepts through the physical body. Today, it is preserved as a national treasure, with master dancers continuing to refine its form as a solo art.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Korean_dance-Seungmu-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Korean_dance-Seungmu-01.jpg/1280px-Korean_dance-Seungmu-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1704,
+     "height": 2272,
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+     "attribution": "Richy! / Wikimedia Commons / CC BY-SA 2.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKorean_dance-Seungmu-01.jpg",
+     "description": "Seungmu, a Korean Buddhist dance"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/KimMyoseonSeungMu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/KimMyoseonSeungMu.jpg/1280px-KimMyoseonSeungMu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4055,
+     "height": 6083,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Lychi / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKimMyoseonSeungMu.jpg",
+     "description": "Master Assistant Kim Myo Seon performing the Seungmu dance, in the traditional Changsam costume."
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "While it shares commonalities with Buddhist rituals, it is classified as folk art and is not a part of Buddhist traditions or institutions.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "siciliana": {
+   "slug": "siciliana",
+   "name": "siciliana",
+   "country": "Italy",
+   "country_code": "IT",
+   "region": "Europe",
+   "family": "classical-court",
+   "flag_emoji": "🇮🇹",
+   "era": "14th century origins, Baroque to 20th century",
+   "tagline": "A slow, lilting Baroque and Classical pastoral dance and musical genre.",
+   "profile": "The siciliana is a traditional dance and musical genre characterized by a slow 6/8 or 12/8 time signature with lilting, dotted iambic rhythms. Originating from Sicily, it evolved from 14th-century poetic-musical compositions inspired by folk songs before being codified into Baroque instrumental and operatic forms. It evokes a pastoral, melancholic mood and was widely utilized by masters from Alessandro Scarlatti to J. S. Bach, Mozart, and Fauré.",
+   "insight": "Though named for Sicily and rooted in 14th-century island poetry, the siciliana became a pan-European Baroque signifier of pastoral grief and melancholy.",
+   "aliases": [
+    "sicilienne",
+    "ciciliano",
+    "alla siciliana"
+   ],
+   "related": [
+    "giga",
+    "tarantella",
+    "barcarolle",
+    "pastorale"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Siciliana",
+    "https://www.wikidata.org/wiki/Q637696",
+    "https://es.wikipedia.org/wiki/Siciliana_(danza)",
+    "https://fr.wikipedia.org/wiki/Sicilienne_(danse)",
+    "https://pt.wikipedia.org/wiki/Siciliana"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Siciliana",
+   "wikidata_qid": "Q637696",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-02",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.0,
+   "last_researched_at": "2026-11-02T20:44:38Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The siciliana, also known as sicilienne or ciciliano, is a musical style and traditional dance form that gained widespread popularity across Europe between the late 17th and 18th centuries. Investigations into its roots trace the genre back to 14th-century poetic-musical compositions inspired by Sicilian folk songs, carrying an intense, pathetic passion that merged with the strambotto during the Renaissance. The first appearance of the term in reference to a dance is found in Garzoni's 1599 book 'La piazza universale di tutte le professioni del mondo'. Music theorists like Sébastien de Brossard and Johann Mattheson later described it as a slow type of giga with a melancholic character, frequently linked to the pastoral tradition of ancient Greek poetry.\n\nThroughout the Baroque era, the siciliana became firmly established as a signifier of pastoral context, particularly in the operas of Alessandro Scarlatti, who transmitted the musical influences of his native Palermo to the Neapolitan School. It also appeared extensively in instrumental works by J. S. Bach, Antonio Vivaldi, Arcangelo Corelli, and Giuseppe Tartini. In the Classical period, composers such as Joseph Haydn and Wolfgang Amadeus Mozart utilized the hesitating rhythm of the siciliana to portray grief and bucolic serenity, while Romantic and 20th-century composers—including Brahms, Fauré, Stravinsky, and Nino Rota—continued to incorporate its distinctive lilt into orchestral suites, piano variations, and film scores.\n\nMusically, the genre is defined by a slow compound meter in 6/8 or 12/8, predominantly set in a minor key. Its characteristic rhythm features a dotted figure on the first of a group of notes, creating a gently rocking, barcarolle-like accompaniment. While music treatises emphasize its simplicity and pastoral imitation of Sicilian shepherd dances, detailed physical dance steps and choreography are largely absent from surviving sources, leaving the tradition primarily preserved through its rich classical and historical repertoire.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "Concerto Grosso, Op. 3, No. 11",
+     "artist": "Antonio Vivaldi",
+     "source": "https://en.wikipedia.org/wiki/Siciliana",
+     "verified": false
+    }
+   ],
+   "images": [],
+   "movie_ready": false,
+   "tradition_status": "historical",
+   "related_slugs": [
+    "tarantella"
+   ]
+  },
+  "gainjeonmokdan": {
+   "slug": "gainjeonmokdan",
+   "name": "Gainjeonmokdan",
+   "country": "Korea",
+   "country_code": "KR",
+   "region": "East Asia",
+   "family": "classical-court",
+   "flag_emoji": "🇰🇷",
+   "era": "19th century",
+   "tagline": "A 19th-century Korean court dance where dancers circle a vase of peonies.",
+   "profile": "Gainjeonmokdan is a traditional Korean court dance, known as a jeongjae, which translates literally to \"beautiful people plucking peonies.\" Initiated and arranged by Crown Prince Hyomyeong in 1829, the dance was created to please his father, King Sunjo, and was first recorded in the Mujajinjak uiqwe in 1828. During a performance, a large vase of peonies is placed center stage while female dancers divided into two groups move around it. The dancers pick a peony one by one and perform in a calm movement accompanied by vocal verses known as Changsa.",
+   "insight": "Initiated by Crown Prince Hyomyeong in 1829 to please his father, dancers delicately pluck peonies from a central vase in calm, measured movements.",
+   "aliases": [],
+   "related": [
+    "Seungjeonmu",
+    "Geommu"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gainjeonmokdan",
+    "https://www.wikidata.org/wiki/Q645548"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Gainjeonmokdan",
+   "wikidata_qid": "Q645548",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-02",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 8.8,
+   "last_researched_at": "2026-11-02T20:55:12Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Gainjeonmokdan is a historical Korean court dance, classified under the genre of jeongjae. The title translates literally to \"beautiful people plucking peonies.\" The dance was initiated and arranged by Hyomyeong Seja, also known as Crown Prince Hyomyeong, in 1829 as a filial offering to please his father, King Sunjo. Early documentation of the performance appears in the historical text Mujajinjak uiqwe, published in 1828. \n\nPerformance staging centers around a large vase filled with peonies placed directly in the center of the stage. Female dancers are split into two groups that navigate around the central vase, anticipating the flowers before individually picking a peony. Following this gesture, the performers execute a calm sequence of movements. The performance is accompanied by Changsa, which consist of the verses of the accompanying song used for the dance and other traditional performing arts.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Korean.Dance-Muhee-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Korean.Dance-Muhee-01.jpg/1280px-Korean.Dance-Muhee-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2655,
+     "height": 1770,
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "attribution": "by m-louis / Wikimedia Commons / CC BY 2.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKorean.Dance-Muhee-01.jpg",
+     "description": "Muhee (dancer) are dancing probably “Gain jeon mokdan” (가인전목단)[1], one of the royal court dances under the Joseon Dynasty."
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "historical",
+   "related_slugs": []
+  },
+  "fouette": {
+   "slug": "fouette",
+   "name": "Fouetté",
+   "country": "Russia / Italy",
+   "country_code": "RU",
+   "region": "Europe",
+   "family": "classical-court",
+   "flag_emoji": "🇷🇺",
+   "era": "19th century",
+   "tagline": "The 32-turn classical ballet feat of strength, stamina, and precision.",
+   "profile": "The fouetté turn, or fouetté en tournant, is a brilliant classical ballet movement characterized by a whipping motion of the working leg that generates momentum for a 360-degree rotation. Originating in French terminology meaning 'whipped', it demands exceptional strength and balance as the dancer executes continuous turns on a single supporting foot. Its most famous incarnation is the execution of 32 consecutive fouettés, a bravura test introduced by Italian ballerina Pierina Legnani.",
+   "insight": "First performed 32 times consecutively by Pierina Legnani in 1893, counting them became an obsessive pastime for St. Petersburg audiences.",
+   "aliases": [
+    "32 fouettés en tournant",
+    "fouetté en tournant"
+   ],
+   "related": [
+    "Chaînés",
+    "Pirouette",
+    "Piqué",
+    "Attitude",
+    "Axel",
+    "Barrel roll",
+    "Illusion"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Turn_(dance_and_gymnastics)",
+    "https://www.wikidata.org/wiki/Q2669969",
+    "https://es.wikipedia.org/wiki/Fouetté_en_tournant",
+    "https://it.wikipedia.org/wiki/Fouettés_en_tournant"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Turn_(dance_and_gymnastics)",
+   "wikidata_qid": "Q2669969",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-02",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-11-02T20:55:27Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The fouetté turn, or fouetté en tournant, is a celebrated and highly demanding movement of classical ballet. Origins and History: The movement achieved legendary status on December 17, 1893, when Italian ballerina Pierina Legnani performed 32 consecutive fouettés during the premiere of the ballet Cinderella, choreographed by Lev Ivanov, Enrico Cecchetti, and Marius Petipa, with music by Baron Boris Vietinghoff-Scheel. Konstantin Skalkovski, the dance critic for the St. Petersburg Gazette, noted that Legnani performed the 32 turns without stopping and without traveling a single centimeter, turning the counting of the turns into an audience favorite. Legnani later repeated this feat as Odile in the Black Swan Pas de Deux of Swan Lake in 1895, cementing the 32 fouettés as a staple of classical repertoire. Other ballerinas, such as Mathilde Kschesinskaya and American prima ballerina Jeanne Devereaux—who held a record of 16 triple fouettés—further pushed the boundaries of this technical feat. How It Is Danced: A fouetté turn begins with the performer standing on one flat foot in plié with the knee bent. The working leg is extended and whipped around to the side to create the necessary angular momentum. Once extended to maximum turnout, the working leg is bent and pulled into a retiré or passé position, with the foot beating behind and then to the front of the supporting knee before extending back out. Simultaneously, the supporting foot transitions to relevé, rising to en pointe on toe tips in classical ballet. Music and Instruments: The music accompanying the historic introduction of the 32 fouettés in Cinderella was composed by Baron Boris Vietinghoff-Scheel, and the move is later integrated into grand pas sections of works like Swan Lake. Occasions and Meaning: Executing 32 consecutive fouettés is considered a supreme test of a ballerina's strength, stamina, and technique. It is notoriously difficult, with many dancers capable of performing the sequence on only one side, normally the right. Notable Figures: Pierina Legnani, Konstantin Skalkovski, Mathilde Kschesinskaya, and Jeanne Devereaux are central historical figures tied to the evolution and record-breaking execution of the movement. Lineage: As a core element of classical ballet, the fouetté stands as a pinnacle of technical mastery within the classical-court family of dance.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Flamenco_Dancer_2_%285514546691%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Flamenco_Dancer_2_%285514546691%29.jpg/1280px-Flamenco_Dancer_2_%285514546691%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1568,
+     "height": 2192,
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "attribution": "Tony Hisgett from Birmingham, UK / Wikimedia Commons / CC BY 2.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AFlamenco_Dancer_2_%285514546691%29.jpg",
+     "description": "Flamenco Dancer 2"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "pique"
    ]
   }
  }

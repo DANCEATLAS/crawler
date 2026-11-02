@@ -1,10 +1,10 @@
 {
  "slug": "siva-afi",
- "qc_at": "2026-11-02T14:49:11Z",
+ "qc_at": "2026-11-02T21:12:48Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "reject",
- "qc_score": 6.4,
+ "publish_gate": "publish",
+ "qc_score": 8.95,
  "gates": [
   {
    "gate": "has_name",
@@ -14,7 +14,7 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "86"
+   "detail": "75"
   },
   {
    "gate": "insight_len",
@@ -24,27 +24,27 @@
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "The 'nifo oti' weapon, often mistranslated as 'tooth of death,' likely refers to"
+   "detail": "Rooted in the ancient battle exhibitions of Samoan Toa warriors wielding the ser"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "445"
+   "detail": "461"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "1909"
+   "detail": "1249"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants"
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning"
   },
   {
    "gate": "citations",
-   "ok": false,
-   "detail": "3/3 rate=1.0"
+   "ok": true,
+   "detail": "5/5 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": "testament to"
+   "detail": ""
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "1 paras"
+   "detail": "4 paras"
   },
   {
    "gate": "not_duplicate",
@@ -88,55 +88,31 @@
   }
  ],
  "judge": {
-  "accuracy": 5,
-  "respect": 8,
-  "specificity": 7,
-  "teaching_value": 6,
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
   "is_a_dance": true,
-  "factual_doubt": [
-   "Historically, the dance utilized the 'nifo oti' club.",
-   "The weapon, which features a distinct hook, was used in combat and later in exhibitions to demonstrate the skill of the warrior.",
-   "Legend attributes the origins of the dance to the three brothers Savea, Tuna, and Fata, who led a campaign against the Tongan ruler Talakaifaiki.",
-   "During these historical conflicts, warriors used torches and clubs to signal and intimidate, eventually driving the Tongan forces from the island of Upolu.",
-   "In the mid-20th century, the dance saw a significant revival through the efforts of Tavita Vaoifi, who researched the practice and incorporated it into his performances in the United States before returning to Samoa.",
-   "Today, the dance is a staple of Polynesian cultural shows and is subject to intense international competition, most notably at the Polynesian Cultural Center.",
-   "Modern performers typically use a machete wrapped in towels or palm sennit, which is set ablaze.",
-   "The dance requires high levels of physical coordination, as performers must maintain the momentum of the spinning knife while executing acrobatic stunts.",
-   "The dance originated from the 'ailao,' a warrior demonstration of battle prowess using the 'nifo oti' club.",
-   "It gained prominence in Samoa between 1200 and 1250 AD.",
-   "The practice is linked to the historical expulsion of the Tongan ruler Talakaifaiki by Samoan warriors.",
-   "Performers twirl, throw, and catch a blade wrapped in flammable material.",
-   "The dance involves acrobatic stunts and requires constant motion to keep the fire burning and the implement under control.",
-   "The primary implement is a machete wrapped in towels or dry palm sennit.",
-   "Originally a display of warrior skill, it is now performed at luaus and annual competitions, such as the World Fireknife Championship held at the Polynesian Cultural Center.",
-   "The dance has been adopted by other Polynesian islands, including Tahiti, Hawaii, the Cook Islands, Fiji, and Tonga, often becoming homogenized within those local cultures.",
-   "Directly descended from the ancient 'ailao' warrior exhibition."
-  ],
-  "harm_or_disrespect": [
-   "The phrase 'warrior traditions of Upolu and Savai'i' is plausible but presented as a sweeping origin claim without support.",
-   "'Often becoming homogenized within those local cultures' frames other Polynesian traditions in a flattening, potentially disrespectful way.",
-   "'Ancient battle prowess' and 'historical martial traditions' are broad, valorizing claims that may overstate certainty."
-  ],
-  "duplicate_suspicion": "Fire knife dance",
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
-  "overall": 5,
-  "verdict": "review",
-  "notes": "Core identification is right, but many historical details are unsupported by the provided claims. Respect is mostly fine, though some wording flattens other Polynesian cultures. The teaching section is usable but still generic and safety-oriented rather than instructional."
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and accurately reflects the historical evolution of the Siva Afi from the ancient ailao. It maintains a respectful tone regarding its warrior origins and modern competitive status. The lack of specific musical or technical footwork data is correctly identified as 'not described in sources' rather than filled with conjecture."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "citations",
-  "judge_score=6.4",
-  "doubts=17",
-  "harm"
+  "judge_score=8.95"
  ],
  "citation": {
-  "claims": 3,
-  "supported": 3,
+  "claims": 5,
+  "supported": 5,
   "rate": 1.0
  },
- "researched_at": "2026-11-01T17:37:27Z"
+ "researched_at": "2026-11-02T20:57:25Z"
 }

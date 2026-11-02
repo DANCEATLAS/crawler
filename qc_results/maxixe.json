@@ -1,0 +1,123 @@
+{
+ "slug": "maxixe",
+ "qc_at": "2026-11-02T21:12:53Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "maxixe"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "82"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "151"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Once reviled as a banned dance of slaves and prostitutes, the maxixe entered hig"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "495"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2719"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "10/10 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "7"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Brazil"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"samba-de-gafieira\", \"score\": 1.0, \"via_alias\": \"Brazilian tango\"}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "Exceptional profile with complete factual grounding, strong cultural sensitivity, and precise historical detail."
+ },
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "samba-de-gafieira",
+  "score": 1.0,
+  "via_alias": "Brazilian tango"
+ },
+ "is_sacred": false,
+ "reasons": [
+  "not_duplicate",
+  "judge_score=9.85"
+ ],
+ "citation": {
+  "claims": 10,
+  "supported": 10,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-02T19:56:03Z"
+}

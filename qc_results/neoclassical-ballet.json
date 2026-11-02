@@ -1,0 +1,123 @@
+{
+ "slug": "neoclassical-ballet",
+ "qc_at": "2026-11-02T21:13:16Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.9,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Neoclassical Ballet"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "77"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "134"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Stripping away fairy-tale tutus and heavy narrative sets, Balanchine put dancers"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "497"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1878"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/5 rate=0.6"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United States and France"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim regarding Serge Lifar's 1930 renewal of the Paris Opera Ballet is not directly supported by the provided evidence quote.",
+   "The claim that neoclassical ballet incorporates 'broken joints' and 'parallel positions' is not supported by the provided evidence quote, which only mentions angular forms and broken joints in French."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is highly professional and accurate to the genre. Minor deductions were made because two specific claims in the text were not fully substantiated by the provided evidence snippets, though they are historically accurate in a broader context. The teaching and adaptation sections are excellent and safe."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "judge_score=8.9",
+  "doubts=2"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 3,
+  "rate": 0.6
+ },
+ "researched_at": "2026-11-02T20:32:57Z"
+}

@@ -1,0 +1,122 @@
+{
+ "slug": "slangpolska",
+ "qc_at": "2026-11-02T21:14:13Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Slängpolska"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "60"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "133"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Two couples spin with outstretched arms, suddenly breaking apart to clap solo be"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "429"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1560"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "4/4 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Sweden"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "2 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that free variants of slängpolska use 2/4 or 4/4 time like gangar and bonde is potentially confusing, as these are distinct dance families; while rhythmically related, they are not typically classified as slängpolska."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and accurately reflects the two primary categories of the dance. The distinction between the stationary 'hold-focused' style and the traveling 'high-tempo' style is clear. The teaching section provides a helpful breakdown of the rhythmic structure."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "insight_concrete",
+  "judge_score=9.1",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 4,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-02T21:07:27Z"
+}

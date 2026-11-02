@@ -1,0 +1,122 @@
+{
+ "slug": "gainjeonmokdan",
+ "qc_at": "2026-11-02T21:13:58Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.8,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Gainjeonmokdan"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "73"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "147"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Initiated by Crown Prince Hyomyeong in 1829 to please his father, dancers delica"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "552"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "912"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "4/4 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Korea"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "2 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 6,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The profile states the dance was initiated in 1829 but recorded in 1828; while the evidence supports these dates, the chronological sequence is logically contradictory and requires clarification."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and respectful. The chronological discrepancy regarding the 1828/1829 dates is a minor historical nuance that should be clarified for the reader, but the content is otherwise highly accurate and specific."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "profile_long_len",
+  "judge_score=8.8",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 4,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-02T20:55:12Z"
+}

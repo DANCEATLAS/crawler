@@ -1,0 +1,122 @@
+{
+ "slug": "duckwalk",
+ "qc_at": "2026-11-02T21:13:07Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 9.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Duckwalk"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "72"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "147"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Chuck Berry first used the duckwalk as a child to duck under a table for a ball,"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "595"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1907"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "8/8 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United States"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['trance']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The claim that the duckwalk is a 'dance tradition' is a stretch; it is a specific stage stunt or physical movement rather than a dance tradition or style."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The subject is a stage movement/stunt rather than a dance tradition, but it is well-documented in rock history and physical fitness contexts. The profile is accurate and respectful. The 'is_a_dance' flag is set to false because it is a singular movement, not a genre or tradition."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.1",
+  "doubts=1",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 8,
+  "supported": 8,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-02T20:31:24Z"
+}
