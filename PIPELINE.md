@@ -53,7 +53,7 @@ environment variables `SUPABASE_URL`, `SUPABASE_SERVICE_KEY`, `OPENAI_API_KEY`, 
 ## Models and quota
 The model layer discovers the Gemini models available to the key at run time (`gemini-3.x-flash`, `flash-latest`, `pro-latest`, …),
 ranks them (two per tier: pro, flash, lite, plus the rolling alias), reads free-tier 429s by quota type (per-minute: wait once and retry; per-day: retire that model for the run),
-retires a model after two consecutive other failures, and falls back to OpenAI (mini models only, see `OPENAI_STRONG_MODELS` in the workflow) when `OPENAI_API_KEY` is set.
+retires a model after two consecutive other failures, and falls back to OpenAI (`gpt-4.1-mini,gpt-4o-mini`, pinned by `OPENAI_MODELS` / `OPENAI_STRONG_MODELS` in the workflow — the gpt-5 minis return 404 "organization must be verified") when `OPENAI_API_KEY` is set.
 A daily run makes roughly 150–250 model calls (audit ≈40, research ≈30, QC ≈30, hero QC ≈60). On the **free** Gemini tier the
 quota is exhausted part-way through a run (HTTP 429 → `llm_failed` records that are retried the next day); with billing enabled
 on the key, or an OpenAI key as fallback, the run completes. Cost at the daily budgets is a few dollars a day at most.
