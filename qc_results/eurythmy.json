@@ -1,7 +1,8 @@
 {
  "slug": "eurythmy",
- "qc_at": "2026-10-31T16:24:33Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:10Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "reject",
  "qc_score": 9.85,
  "gates": [
@@ -101,7 +102,7 @@
   "verdict": "review",
   "notes": "Eurythmy is an expressive movement art/anthroposophic discipline rather than a traditional dance form, meaning is_a_dance should be false, but the profile quality and accuracy are otherwise extremely high."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [

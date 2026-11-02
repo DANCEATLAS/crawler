@@ -1,7 +1,8 @@
 {
  "slug": "la-danza",
- "qc_at": "2026-10-29T02:42:36Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:47:01Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "reject",
  "qc_score": 8.95,
  "gates": [
@@ -63,12 +64,12 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "the provided sources"
   },
   {
    "gate": "ai_tells",
-   "ok": false,
-   "detail": "the provided sources"
+   "ok": true,
+   "detail": ""
   },
   {
    "gate": "no_repetition",
@@ -101,11 +102,10 @@
   "verdict": "reject",
   "notes": "Although accurately researched and beautifully written, the subject 'La Danza' is a vocal art song/patter song by Rossini, not a dance tradition itself. It violates the core rule that the subject must be a dance form."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "ai_tells",
   "sacred_handled",
   "judge_score=8.95",
   "not_a_dance",

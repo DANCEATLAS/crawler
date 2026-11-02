@@ -1,7 +1,8 @@
 {
  "slug": "do-si-do",
- "qc_at": "2026-10-31T16:25:10Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:10Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "reject",
  "qc_score": 9.6,
  "gates": [
@@ -101,7 +102,7 @@
   "verdict": "reject",
   "notes": "The profile is comprehensive and accurate based on the evidence, but it describes a dance move/figure rather than an independent dance style or tradition, so is_a_dance is false and the verdict is reject."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [

@@ -1,7 +1,8 @@
 {
  "slug": "double-reverse-spin",
- "qc_at": "2026-10-31T16:25:11Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:10Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "reject",
  "qc_score": 10.0,
  "gates": [
@@ -101,7 +102,7 @@
   "verdict": "publish",
   "notes": "The profile is well-constructed and fully backed by the source claims. However, 'is_a_dance' is set to false because the subject is a specific ballroom dance move/figure rather than an entire dance form."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [

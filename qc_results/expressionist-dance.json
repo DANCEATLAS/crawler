@@ -1,8 +1,9 @@
 {
  "slug": "expressionist-dance",
- "qc_at": "2026-10-31T16:26:26Z",
- "version": "v3.2",
- "publish_gate": "review",
+ "qc_at": "2026-11-02T14:49:11Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
  "qc_score": 9.1,
  "gates": [
   {
@@ -77,8 +78,8 @@
   },
   {
    "gate": "not_duplicate",
-   "ok": false,
-   "detail": "{\"slug\": \"allemande-germany\", \"score\": 1.0, \"via_alias\": \"German dance\"}"
+   "ok": true,
+   "detail": ""
   },
   {
    "gate": "sacred_handled",
@@ -101,15 +102,10 @@
   "verdict": "publish",
   "notes": "The profile is well-researched and aligns closely with the provided evidence. It correctly identifies Ausdruckstanz as a historical movement rather than a single codified technique, which is handled with appropriate nuance. The distinction between the historical movement and its legacy in modern dance is clear."
  },
- "judge_reused": false,
- "duplicate_of": {
-  "slug": "allemande-germany",
-  "score": 1.0,
-  "via_alias": "German dance"
- },
+ "judge_reused": true,
+ "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "not_duplicate",
   "sacred_handled",
   "judge_score=9.1",
   "sacred"

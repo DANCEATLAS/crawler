@@ -1,7 +1,8 @@
 {
  "slug": "maxie-ford",
- "qc_at": "2026-10-29T16:57:20Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:08Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "reject",
  "qc_score": 7.45,
  "gates": [
@@ -62,8 +63,8 @@
   },
   {
    "gate": "banned_phrasing",
-   "ok": true,
-   "detail": "foundational"
+   "ok": false,
+   "detail": "foundational,the available sources"
   },
   {
    "gate": "ai_tells",
@@ -101,13 +102,14 @@
   "verdict": "reject",
   "notes": "The subject is a specific tap dance step/break, not a dance tradition or style. While factually accurate according to the evidence, it fails the is_a_dance criterion."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "country",
   "profile_long_len",
   "sections_filled",
+  "banned_phrasing",
   "judge_score=7.45",
   "not_a_dance"
  ],

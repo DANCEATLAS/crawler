@@ -1,8 +1,9 @@
 {
  "slug": "passacaglia",
- "qc_at": "2026-10-30T18:07:34Z",
- "version": "v3.2",
- "publish_gate": "reject",
+ "qc_at": "2026-11-02T14:49:10Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
  "qc_score": 9.85,
  "gates": [
   {
@@ -63,12 +64,12 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "the provided sources"
   },
   {
    "gate": "ai_tells",
-   "ok": false,
-   "detail": "the provided sources"
+   "ok": true,
+   "detail": ""
   },
   {
    "gate": "no_repetition",
@@ -101,11 +102,10 @@
   "verdict": "publish",
   "notes": "Extremely thorough and historically grounded profile connecting European baroque art forms with vibrant South American and Basque street traditions."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "ai_tells",
   "judge_score=9.85"
  ],
  "citation": {

@@ -1,8 +1,9 @@
 {
  "slug": "fwemba",
- "qc_at": "2026-10-29T02:00:41Z",
- "version": "v3.2",
- "publish_gate": "reject",
+ "qc_at": "2026-11-02T14:47:02Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
  "qc_score": 8.25,
  "gates": [
   {
@@ -63,12 +64,12 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "the provided sources"
   },
   {
    "gate": "ai_tells",
-   "ok": false,
-   "detail": "the provided sources"
+   "ok": true,
+   "detail": ""
   },
   {
    "gate": "no_repetition",
@@ -101,11 +102,10 @@
   "verdict": "publish",
   "notes": "The profile is well-researched and respectful. It accurately contextualizes Fwemba within the Tumbuka cultural landscape. While the 'teaching' section is sparse due to a lack of technical documentation in the provided evidence, the historical and cultural framing is excellent and highly specific."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "ai_tells",
   "sacred_handled",
   "judge_score=8.25",
   "sacred"

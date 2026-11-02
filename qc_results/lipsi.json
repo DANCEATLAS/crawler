@@ -1,8 +1,9 @@
 {
  "slug": "lipsi",
- "qc_at": "2026-10-30T18:07:27Z",
- "version": "v3.2",
- "publish_gate": "review",
+ "qc_at": "2026-11-02T14:49:09Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
  "qc_score": 9.85,
  "gates": [
   {
@@ -52,7 +53,7 @@
   },
   {
    "gate": "country",
-   "ok": false,
+   "ok": true,
    "detail": "East Germany"
   },
   {
@@ -101,11 +102,10 @@
   "verdict": "publish",
   "notes": "Extremely well-documented historical dance profile with precise details, strong adherence to evidence claims, and clear instructional and contextual formatting."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "country",
   "judge_score=9.85"
  ],
  "citation": {

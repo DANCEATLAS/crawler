@@ -1,7 +1,8 @@
 {
  "slug": "yumsharol-jagoi",
- "qc_at": "2026-10-29T16:54:07Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:08Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "review",
  "qc_score": 8.85,
  "gates": [
@@ -62,8 +63,8 @@
   },
   {
    "gate": "banned_phrasing",
-   "ok": true,
-   "detail": "foundational"
+   "ok": false,
+   "detail": "foundational,the available sources"
   },
   {
    "gate": "ai_tells",
@@ -101,12 +102,13 @@
   "verdict": "publish",
   "notes": "Accurate and respectful profile based strictly on evidence claims. Teaching value is low due to sparse source details on footwork/rhythm, but appropriately reflects available data."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
   "profile_long_len",
   "sections_filled",
+  "banned_phrasing",
   "judge_score=8.85",
   "sacred"
  ],

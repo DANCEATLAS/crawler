@@ -1,7 +1,8 @@
 {
  "slug": "sudmalinas",
- "qc_at": "2026-10-30T18:06:19Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:08Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "reject",
  "qc_score": 2.6,
  "gates": [
@@ -63,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "the available sources"
   },
   {
    "gate": "ai_tells",
@@ -103,7 +104,7 @@
   "verdict": "reject",
   "notes": "Profile contains almost no verifiable content, hallucinates unsupported dance relationships (flamenco, ballet), and lacks all teaching and movement details. Must be rejected."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [

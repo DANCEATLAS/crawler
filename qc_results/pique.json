@@ -1,7 +1,8 @@
 {
  "slug": "pique",
- "qc_at": "2026-10-30T18:06:21Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:09Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "reject",
  "qc_score": 8.65,
  "gates": [
@@ -63,12 +64,12 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "the provided sources"
   },
   {
    "gate": "ai_tells",
-   "ok": false,
-   "detail": "the provided sources"
+   "ok": true,
+   "detail": ""
   },
   {
    "gate": "no_repetition",
@@ -101,13 +102,12 @@
   "verdict": "reject",
   "notes": "The subject is not a dance tradition. The sources only reference 'pique-nique' (picnics) in historical Manitoba archives. This profile correctly identifies the absence of a dance tradition under this name and should be rejected for the atlas."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "citations",
   "country",
-  "ai_tells",
   "profile_long_len",
   "sections_filled",
   "judge_score=8.65",

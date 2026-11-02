@@ -1,7 +1,8 @@
 {
  "slug": "fleckerl",
- "qc_at": "2026-10-31T16:26:13Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:11Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "reject",
  "qc_score": 9.85,
  "gates": [
@@ -101,7 +102,7 @@
   "verdict": "publish",
   "notes": "The profile is highly accurate and well-structured. It correctly identifies the fleckerl as a specific technical step within the Viennese waltz rather than a standalone dance, which is reflected in the 'is_a_dance' boolean. The technical instructions are clear and supported by evidence."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [

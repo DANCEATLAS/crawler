@@ -1,7 +1,8 @@
 {
  "slug": "minuet-step",
- "qc_at": "2026-10-30T18:07:32Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:09Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "reject",
  "qc_score": 9.05,
  "gates": [
@@ -101,7 +102,7 @@
   "verdict": "review",
   "notes": "Profile is exceptionally well-researched and faithful to historical treatises, but is_a_dance is marked false because a 'Minuet step' is a component/step of a dance rather than the standalone dance itself (the minuet)."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [

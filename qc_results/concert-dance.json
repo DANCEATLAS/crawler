@@ -1,7 +1,8 @@
 {
  "slug": "concert-dance",
- "qc_at": "2026-10-31T16:27:00Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:11Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "reject",
  "qc_score": 9.45,
  "gates": [
@@ -77,8 +78,8 @@
   },
   {
    "gate": "not_duplicate",
-   "ok": true,
-   "detail": ""
+   "ok": false,
+   "detail": "{\"slug\": \"tanztheater\", \"score\": 1.0, \"via_alias\": \"dance theatre\"}"
   },
   {
    "gate": "sacred_handled",
@@ -101,11 +102,16 @@
   "verdict": "publish",
   "notes": "Concert dance is a broad category or genre rather than a specific dance style, which is accurately reflected in the profile. The content is well-supported by the provided evidence and maintains a neutral, informative tone."
  },
- "judge_reused": false,
- "duplicate_of": null,
+ "judge_reused": true,
+ "duplicate_of": {
+  "slug": "tanztheater",
+  "score": 1.0,
+  "via_alias": "dance theatre"
+ },
  "is_sacred": true,
  "reasons": [
   "country",
+  "not_duplicate",
   "insight_concrete",
   "banned_phrasing",
   "judge_score=9.45",

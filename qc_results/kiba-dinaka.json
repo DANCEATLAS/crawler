@@ -1,9 +1,10 @@
 {
  "slug": "kiba-dinaka",
- "qc_at": "2026-10-30T18:04:13Z",
- "version": "v3.2",
- "publish_gate": "reject",
- "qc_score": 8.45,
+ "qc_at": "2026-11-02T14:49:08Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 7.3,
  "gates": [
   {
    "gate": "has_name",
@@ -18,27 +19,27 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "151"
+   "detail": "117"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "In Balobedu communities, Dinaka serves as a generational bridge, where elderly m"
+   "detail": "Elderly men perform Dinaka as a musical composition using wooden flutes and drum"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "508"
+   "detail": "362"
   },
   {
    "gate": "profile_long_len",
-   "ok": true,
-   "detail": "1924"
+   "ok": false,
+   "detail": "677"
   },
   {
    "gate": "sections_filled",
-   "ok": false,
-   "detail": "occasions_and_meaning"
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning"
   },
   {
    "gate": "citations",
@@ -67,13 +68,13 @@
   },
   {
    "gate": "ai_tells",
-   "ok": false,
-   "detail": "the provided sources"
+   "ok": true,
+   "detail": ""
   },
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "3 paras"
+   "detail": "1 paras"
   },
   {
    "gate": "not_duplicate",
@@ -89,17 +90,18 @@
  "judge": {
   "accuracy": 10,
   "respect": 10,
-  "specificity": 8,
-  "teaching_value": 3,
+  "specificity": 4,
+  "teaching_value": 2,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
-  "overall": 8,
-  "verdict": "review",
-  "notes": "Accurate and respectful adherence to provided evidence, but teaching values are sparse due to lack of documented source details on technical steps."
+  "adaptations_safe": true,
+  "overall": 6,
+  "review": "review",
+  "notes": "Accurate to the limited evidence provided, but lacks concrete movement details and teaching instructions due to missing source data."
  },
  "judge_reused": false,
  "duplicate_of": null,
@@ -107,14 +109,13 @@
  "reasons": [
   "citations",
   "sources",
-  "ai_tells",
-  "sections_filled",
-  "judge_score=8.45"
+  "profile_long_len",
+  "judge_score=7.3"
  ],
  "citation": {
   "claims": 3,
   "supported": 3,
   "rate": 1.0
  },
- "researched_at": "2026-10-30T17:38:41Z"
+ "researched_at": "2026-11-02T14:46:41Z"
 }

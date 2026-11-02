@@ -1,8 +1,9 @@
 {
  "slug": "rhumba",
- "qc_at": "2026-10-31T16:24:36Z",
- "version": "v3.2",
- "publish_gate": "review",
+ "qc_at": "2026-11-02T14:49:10Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
  "qc_score": 9.5,
  "gates": [
   {
@@ -77,8 +78,8 @@
   },
   {
    "gate": "not_duplicate",
-   "ok": false,
-   "detail": "{\"slug\": \"rumba\", \"score\": 1.0, \"via_alias\": \"rumba\"}"
+   "ok": true,
+   "detail": ""
   },
   {
    "gate": "sacred_handled",
@@ -101,15 +102,10 @@
   "verdict": "publish",
   "notes": "Extremely thorough, well-structured, and accurate profile adhering strictly to the evidence."
  },
- "judge_reused": false,
- "duplicate_of": {
-  "slug": "rumba",
-  "score": 1.0,
-  "via_alias": "rumba"
- },
+ "judge_reused": true,
+ "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "not_duplicate",
   "judge_score=9.5"
  ],
  "citation": {

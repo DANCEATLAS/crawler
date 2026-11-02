@@ -1,7 +1,8 @@
 {
  "slug": "udmurt-folk-dance",
- "qc_at": "2026-10-31T16:27:53Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:11Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "reject",
  "qc_score": 3.85,
  "gates": [
@@ -63,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "the available sources"
   },
   {
    "gate": "ai_tells",
@@ -105,7 +106,7 @@
   "verdict": "review",
   "notes": "The profile lacks sufficient evidence to support its claims. The term 'Krugen ekton' appears to be a neologism or a misinterpretation of Udmurt terminology. The comparison to Lezginka is culturally inaccurate. The profile relies heavily on stating what is 'not described' rather than providing verified ethnographic data."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [

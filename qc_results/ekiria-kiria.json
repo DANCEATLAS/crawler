@@ -1,7 +1,8 @@
 {
  "slug": "ekiria-kiria",
- "qc_at": "2026-10-29T16:53:25Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:08Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "review",
  "qc_score": 7.45,
  "gates": [
@@ -63,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "the available sources"
   },
   {
    "gate": "ai_tells",
@@ -101,7 +102,7 @@
   "verdict": "review",
   "notes": "Accurate to the limited evidence provided, but lacks concrete specifics on choreography, costume, and music, resulting in low teaching value and specificity."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [

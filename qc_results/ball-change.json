@@ -1,7 +1,8 @@
 {
  "slug": "ball-change",
- "qc_at": "2026-10-30T18:06:26Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:09Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "reject",
  "qc_score": 8.05,
  "gates": [
@@ -101,7 +102,7 @@
   "reject": "reject",
   "notes": "The subject is a dance move (step component), not a standalone dance tradition or style, making it fail the is_a_dance criterion."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [

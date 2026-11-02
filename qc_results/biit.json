@@ -1,7 +1,8 @@
 {
  "slug": "biit",
- "qc_at": "2026-10-31T16:29:13Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:11Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "reject",
  "qc_score": 4.3,
  "gates": [
@@ -63,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "the available sources"
   },
   {
    "gate": "ai_tells",
@@ -103,7 +104,7 @@
   "verdict": "review",
   "notes": "The profile lacks sufficient technical detail to be useful. The claim linking Biit to European dances like the Highland Fling or Pavane is highly speculative and lacks evidence. The entry relies heavily on stating that information is 'not described in sources,' which limits its value as a dance guide."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [

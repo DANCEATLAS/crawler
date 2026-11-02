@@ -395,26 +395,32 @@
   "images": 0
  },
  "kiba-dinaka": {
-  "researched_at": "2026-10-30T17:38:41Z",
+  "researched_at": "2026-11-02T14:46:41Z",
   "status": "researched",
   "kind": "enrich",
-  "schema": 4,
+  "schema": 5,
   "movie_ready": false,
-  "class_have": 5,
+  "class_have": 3,
+  "class_of": 18,
   "class_missing": [
    "footwork_with_counts",
    "posture",
    "arms_and_hands",
    "formation",
    "tempo_or_meter",
+   "sound_description",
    "signature_moves",
    "lesson_ladder",
    "story_beats",
    "hooks",
    "notable_figures",
    "recordings",
-   "images"
+   "images",
+   "connections",
+   "footage"
   ],
+  "tradition_status": "living",
+  "footage": 0,
   "citation_rate": 1.0,
   "albums": 0,
   "images": 0
@@ -476,32 +482,17 @@
   "images": 1
  },
  "rateliai": {
-  "researched_at": "2026-10-30T17:39:20Z",
-  "status": "researched",
+  "researched_at": "2026-11-02T14:46:59Z",
+  "status": "no_sources",
   "kind": "enrich",
-  "schema": 4,
-  "movie_ready": false,
-  "class_have": 0,
-  "class_missing": [
-   "footwork_with_counts",
-   "posture",
-   "arms_and_hands",
-   "formation",
-   "tempo_or_meter",
-   "instruments",
-   "sound_description",
-   "signature_moves",
-   "lesson_ladder",
-   "story_beats",
-   "hooks",
-   "costume",
-   "occasions",
-   "notable_figures",
-   "recordings",
-   "images",
-   "connections"
-  ],
-  "citation_rate": 0.0,
+  "schema": null,
+  "movie_ready": null,
+  "class_have": null,
+  "class_of": null,
+  "class_missing": null,
+  "tradition_status": null,
+  "footage": 0,
+  "citation_rate": null,
   "albums": 0,
   "images": 0
  },
@@ -2998,5 +2989,64 @@
   "citation_rate": null,
   "albums": 0,
   "images": 0
+ },
+ "kurdish-dance": {
+  "researched_at": "2026-11-02T14:36:08Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 5,
+  "movie_ready": false,
+  "class_have": 14,
+  "class_of": 18,
+  "class_missing": [
+   "footwork_with_counts",
+   "tempo_or_meter",
+   "recordings",
+   "images"
+  ],
+  "tradition_status": "living",
+  "footage": 7,
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 0
+ },
+ "western-swing": {
+  "researched_at": "2026-11-02T14:45:45Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 5,
+  "movie_ready": true,
+  "class_have": 14,
+  "class_of": 18,
+  "class_missing": [
+   "posture",
+   "arms_and_hands",
+   "hooks",
+   "images"
+  ],
+  "tradition_status": "living",
+  "footage": 8,
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 2
+ },
+ "pungmul": {
+  "researched_at": "2026-11-02T14:46:15Z",
+  "status": "researched",
+  "kind": "new",
+  "schema": 5,
+  "movie_ready": false,
+  "class_have": 15,
+  "class_of": 18,
+  "class_missing": [
+   "footwork_with_counts",
+   "tempo_or_meter",
+   "recordings"
+  ],
+  "tradition_status": "living",
+  "footage": 8,
+  "citation_rate": 1.0,
+  "albums": 0,
+  "images": 8
  }
 }

@@ -1,7 +1,8 @@
 {
  "slug": "soeng",
- "qc_at": "2026-10-30T18:06:24Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:09Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "review",
  "qc_score": 7.4,
  "gates": [
@@ -63,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "the available sources"
   },
   {
    "gate": "ai_tells",
@@ -104,7 +105,7 @@
   "verdict": "review",
   "notes": "Good cultural framing and respect, but 'Soeng' is structurally a category/style descriptor rather than a single specific dance. Teaching and specific movement details are sparse."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [

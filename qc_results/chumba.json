@@ -1,7 +1,8 @@
 {
  "slug": "chumba",
- "qc_at": "2026-11-01T17:49:11Z",
- "version": "v3.2",
+ "qc_at": "2026-11-02T14:49:11Z",
+ "version": "v3.3",
+ "judge_version": "j3",
  "publish_gate": "review",
  "qc_score": 7.95,
  "gates": [
@@ -63,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "the available sources"
   },
   {
    "gate": "ai_tells",
@@ -101,7 +102,7 @@
   "verdict": "publish",
   "notes": "The profile is highly accurate based on the provided evidence. While it lacks technical depth due to limited source material, it is honest about these gaps and avoids speculation. It serves as a respectful, foundational entry for a lesser-documented tradition."
  },
- "judge_reused": false,
+ "judge_reused": true,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
