@@ -247,6 +247,49 @@ def wikidata_dances(limit=5000):
                 seen.add(k); rows.append(r)
     return rows[:limit]
 
+# ----------------------------------------------------------------- any web page (editor-supplied extra sources)
+SOURCE_TIERS = ("scholarly", "archive", "practitioner", "press", "other")
+
+def page_text(url, max_chars=12000):
+    """Plain text of an arbitrary HTML page (or a PDF's text when the server sends text), for sources an editor adds in
+    pipeline_state/sources_extra.json. Scripts, styles and navigation are dropped; whitespace is collapsed. Cached 14 days."""
+    def fetch():
+        from html.parser import HTMLParser
+        from .common import http
+        st, body, hdrs = http(url, headers={"Accept": "text/html,application/xhtml+xml,text/plain;q=0.9,*/*;q=0.5"}, timeout=40, retries=2)
+        if not body:
+            return ""
+        ctype = str((hdrs or {}).get("Content-Type") or "")
+        if "html" not in ctype and "<html" not in body[:2000].lower():
+            return re.sub(r"\s+", " ", body)[:max_chars]
+        class _T(HTMLParser):
+            def __init__(self):
+                super().__init__(); self.out = []; self.skip = 0
+            def handle_starttag(self, tag, attrs):
+                if tag in ("script", "style", "noscript", "nav", "header", "footer", "svg", "form"):
+                    self.skip += 1
+                elif tag in ("p", "br", "div", "li", "h1", "h2", "h3", "h4", "tr", "section", "article"):
+                    self.out.append("\n")
+            def handle_endtag(self, tag):
+                if tag in ("script", "style", "noscript", "nav", "header", "footer", "svg", "form") and self.skip:
+                    self.skip -= 1
+            def handle_data(self, data):
+                if not self.skip:
+                    self.out.append(data)
+        t = _T()
+        try:
+            t.feed(body)
+        except Exception:
+            pass
+        txt = re.sub(r"[ \t]+", " ", "".join(t.out))
+        txt = re.sub(r"\n\s*\n+", "\n", txt).strip()
+        return txt[:max_chars]
+    try:
+        return cached("page:" + url, fetch, ttl_days=14) or ""
+    except Exception as e:
+        warn("page_text", url, e)
+        return ""
+
 # ----------------------------------------------------------------- Wikimedia Commons (licensed images)
 FREE_LICENSES = ("cc0", "cc by", "cc-by", "public domain", "pd-", "pd ", "gfdl", "attribution")
 

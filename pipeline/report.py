@@ -67,8 +67,17 @@ def run():
               "## Discovery → research → QC", f"- Candidates: {dict(cstat)}", f"- Research index: {dict(rstat)}",
               f"- Movie-ready (music DNA + movement DNA + episode brief from sources): {sum(1 for v in rindex.values() if v.get('movie_ready'))} of {sum(1 for v in rindex.values() if v.get('status') == 'researched')} researched",
               "- What classes still lack most (count of researched pages missing it): " + ", ".join(f"{k} {n}" for k, n in Counter(m for v in rindex.values() for m in (v.get('class_missing') or [])).most_common(8)),
-              f"- QC gates: {dict(qstat)}", "",
-              "## Last runs"]
+              f"- QC gates: {dict(qstat)}"]
+    # the weekly editor's targets: pages one or two items short of movie-ready, and what each still lacks
+    close = sorted([(k, v) for k, v in rindex.items() if v.get("status") == "researched" and not v.get("movie_ready") and isinstance(v.get("class_have"), int)],
+                   key=lambda kv: (-(kv[1].get("class_have") or 0), kv[0]))[:15]
+    notes = load_state("editor_notes.json", {}) or {}
+    extra = load_state("sources_extra.json", {}) or {}
+    open_notes = [k for k, v in notes.items() if v.get("note") and not v.get("done_at")]
+    lines += [f"- Editor notes open: {len(open_notes)} · pages with editor-added sources: {len([k for k, v in extra.items() if v])}", "",
+              "## Closest to movie-ready (for the weekly editor pass: find the missing items, add sources to pipeline_state/sources_extra.json)", ""]
+    lines += [f"- {k} ({v.get('class_have')}/17): missing " + ", ".join((v.get("class_missing") or [])[:6]) for k, v in close] or ["- (none yet)"]
+    lines += ["", "## Last runs"]
     for stage in ("audit", "discover", "research", "qc", "hero_qc", "build", "sync", "report"):
         r = last.get(stage)
         if r:

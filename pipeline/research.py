@@ -165,6 +165,22 @@ def gather_evidence(d):
             ev["sources"] += [b["url"] for b in books]
     except Exception as e:
         warn("archive passages", name, e)
+    # sources an editor added by hand (pipeline_state/sources_extra.json): {slug: [{url, tier, note}]} — fetched as plain text
+    try:
+        extra = (load_state("sources_extra.json", {}) or {}).get(d.get("slug") or "", []) or []
+        got = []
+        for x in extra[:6]:
+            u = (x.get("url") or "").strip()
+            if not u or not u.startswith("http"):
+                continue
+            txt = S.page_text(u)
+            if txt and len(txt) > 300:
+                got.append({"url": u, "tier": (x.get("tier") or "other"), "note": (x.get("note") or "")[:200], "text": txt})
+                ev["sources"].append(u)
+        if got:
+            ev["extra"] = got
+    except Exception as e:
+        warn("sources_extra", d.get("slug"), e)
     # Commons images (licensed)
     if ev.get("wikipedia"):
         ev["images"] = S.commons_images_for_page(ev["wikipedia"]["title"], limit=12)[:8]
@@ -184,6 +200,8 @@ def _source_texts(ev):
         texts[u["url"]] = " ".join(str(x) for x in (u.get("title"), u.get("countries"), u.get("year"), u.get("type"), u.get("description")) if x)
     for b in ev.get("books", []):
         texts[b["url"]] = "\n".join(b.get("passages") or [])
+    for x in ev.get("extra", []):
+        texts[x["url"]] = x["text"]
     return texts
 
 def verify_claims(claims, ev):
@@ -331,12 +349,21 @@ def compose(d, ev, llm, prev_gaps=None):
     for b in ev.get("books", []):
         head = f"SOURCE: {b['url']}\nDigitised book: {b.get('title')} ({b.get('year') or 'year unknown'}); passages that mention the dance (quote only from these passages):"
         src_blocks.append(head + "\n" + "\n[...]\n".join(b.get("passages") or []))
+    for x in ev.get("extra", []):
+        tier = x.get("tier") or "other"
+        trust = {"scholarly": "peer-reviewed or academic: trust for facts and history", "archive": "museum, library or archive: trust for facts and history",
+                 "practitioner": "a teacher's or dance school's page: best for technique, counts, music and feel; weigh its history claims against the encyclopedias",
+                 "press": "journalism: good for people, dates and events; weigh its technique claims"}.get(tier, "unverified web page: use with care")
+        src_blocks.append(f"SOURCE: {x['url']}\nAdded by the editor ({tier} — {trust}). {x.get('note') or ''}\n{x['text']}")
     if not src_blocks:
         return None
     existing = {k: d.get(k) for k in ("name", "country", "region", "era", "tagline", "insight", "profile", "aliases", "related") if d.get(k)}
     gaps_note = ""
     if prev_gaps:
         gaps_note = "\nGAPS LEFT BY THE PREVIOUS PASS (fill them if, and only if, the sources now allow it): " + "; ".join(str(g) for g in prev_gaps[:12])
+    note = ((load_state("editor_notes.json", {}) or {}).get(d.get("slug") or "") or {}).get("note")
+    if note:
+        gaps_note += "\nEDITOR'S NOTE ON THE PREVIOUS VERSION (correct this; it overrides the existing entry): " + str(note)[:800]
     user = (f"DANCE: {d.get('name') or d.get('slug')}\nSLUG: {d.get('slug')}\nEXISTING CATALOGUE ENTRY (may be thin or partly wrong; prefer the sources): {json.dumps(existing, ensure_ascii=False)[:1500]}{gaps_note}\n\n"
             + "\n\n".join(src_blocks))
     system = EDITORIAL.format(regions=", ".join(REGIONS), families=", ".join(FAMILIES.keys()))
@@ -357,6 +384,8 @@ def research_one(d, llm, sb=None):
                 rec["evidence"][k] = [{kk: vv for kk, vv in x.items() if kk != "text"} for x in rec["evidence"][k]]
     if "books" in rec["evidence"]:
         rec["evidence"]["books"] = [{kk: vv for kk, vv in b.items() if kk != "passages"} for b in rec["evidence"]["books"]]
+    if "extra" in rec["evidence"]:
+        rec["evidence"]["extra"] = [{kk: vv for kk, vv in x.items() if kk != "text"} for x in rec["evidence"]["extra"]]
     if not ev.get("wikipedia") and not ev.get("wikidata"):
         jsave(out_path, rec)
         return rec
@@ -440,12 +469,24 @@ def pick_enrichment_targets(catalog, n):
     research schema (then it is re-deepened so every page reaches movie-ready depth once)."""
     done = load_state("research_index.json", {})
     gone = {k for k, v in load_state("audit.json", {}).items() if v.get("decision") in ("retire", "merge")}
+    notes = load_state("editor_notes.json", {}) or {}
+    extra = load_state("sources_extra.json", {}) or {}
+    def flagged(slug):
+        """An open editor note, or an extra source added after the last research pass, puts a page first in the queue."""
+        prev = done.get(slug) or {}
+        last = prev.get("researched_at", "")
+        n = notes.get(slug) or {}
+        if n.get("note") and not n.get("done_at"):
+            return True
+        return any((x.get("added") or "") > last[:10] for x in (extra.get(slug) or []) if isinstance(x, dict))
     scored = []
     for d in catalog:
         if d["slug"] in gone:
             continue
         prev = done.get(d["slug"]) or {}
         last = prev.get("researched_at", "")
+        if flagged(d["slug"]):
+            scored.append((-1, d)); continue
         if last and last[:10] >= _days_ago(60) and int(prev.get("schema") or 0) >= RESEARCH_SCHEMA:
             continue
         if prev.get("status") == "no_sources" and last and last[:10] >= _days_ago(60):
@@ -508,6 +549,11 @@ def run(budget_new=20, budget_enrich=20, only=None):
                            "class_have": (rec.get("class_checklist") or {}).get("have"), "class_missing": (rec.get("class_checklist") or {}).get("missing"),
                            "citation_rate": (rec.get("citation") or {}).get("rate"), "albums": len(rec.get("albums") or []), "images": len(rec.get("images") or [])}
             rep.inc("researched_" + rec["status"])
+            if rec["status"] == "researched":
+                notes = load_state("editor_notes.json", {}) or {}
+                if (notes.get(slug) or {}).get("note") and not (notes.get(slug) or {}).get("done_at"):
+                    notes[slug]["done_at"] = rec["researched_at"]
+                    save_state("editor_notes.json", notes)
             if kind == "new" and slug in cands:
                 cands[slug]["status"] = "researched" if rec["status"] == "researched" else ("no_sources" if rec["status"] == "no_sources" else "queued")
                 cands[slug]["researched_at"] = rec["researched_at"]
