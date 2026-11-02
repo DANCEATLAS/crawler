@@ -54,8 +54,11 @@ jobs:
           HERO_QC_BUDGET: ${{ github.event.inputs.hero_qc_budget || '60' }}
           DISCOVER_MAX_NEW: ${{ github.event.inputs.discover_max_new || '40' }}
           AUDIT_LLM_BUDGET: "150"
-          # OpenAI is the fallback when the free Gemini quota is gone; mini models keep a prepaid credit lasting months
-          OPENAI_STRONG_MODELS: "gpt-5-mini,gpt-4.1-mini,gpt-4o-mini"
+          # OpenAI is the fallback when the free Gemini quota is gone; mini models keep a prepaid credit lasting months.
+          # gpt-5* models answer 404 "organization must be verified" on this account, so the 4.x minis come first
+          # (a newer mini is still tried automatically if these fail).
+          OPENAI_MODELS: "gpt-4.1-mini,gpt-4o-mini"
+          OPENAI_STRONG_MODELS: "gpt-4.1-mini,gpt-4o-mini"
           APP_CATALOG_URL: "https://id-preview--f79f3666-564d-4799-befe-8b48d1f0a007.lovable.app/dances.app.json"
         run: |
           STAGE="${{ github.event.inputs.stage || 'daily' }}"
