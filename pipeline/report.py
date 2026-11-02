@@ -93,6 +93,9 @@ def run():
         q += ["", f"## Audit: possible duplicates kept live, need a human ({len(arev)})", "", "| slug | other | reason |", "|---|---|---|"] + [f"| {s} | {v.get('into') or ''} | {str(v.get('reason') or '')[:110]} |" for s, v in sorted(arev)[:300]]
     if gone:
         q += ["", f"## Retired or merged by the catalogue audit ({len(gone)})", "", "| slug | decision | into | reason |", "|---|---|---|---|"] + [f"| {s} | {v.get('decision')} | {v.get('into') or ''} | {str(v.get('reason') or '')[:100]} |" for s, v in sorted(gone)[:400]]
+    screened = [(s, v) for s, v in cands.items() if v.get("status") == "screened_out"]
+    if screened:
+        q += ["", f"## Screened out before research: dance moves, steps, figures ({len(screened)}) — not Atlas entries; to rescue one, set its status back to \"queued\" in pipeline_state/candidates.json", "", "| candidate | why |", "|---|---|"] + [f"| {s} | {str(v.get('screened_out') or '')[:110]} |" for s, v in sorted(screened, key=lambda x: x[1].get('screened_at') or '', reverse=True)[:200]]
     dups = [(s, v) for s, v in cands.items() if v.get("status") == "duplicate_of"]
     if dups:
         q += ["", "## Possible duplicates found in discovery", "", "| candidate | existing | score |", "|---|---|---|"] + [f"| {s} | {v.get('duplicate_of')} | {v.get('score')} |" for s, v in dups[:200]]

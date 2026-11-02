@@ -9,6 +9,7 @@ import re, os, json
 from .common import LLM, log, warn, norm, slugify, now_iso, jsave, jload, state_path, sha1, Report, load_state, save_state, Supabase
 from .catalog import load_catalog, NameIndex, completeness
 from .taxonomy import FAMILIES, REGIONS, country_lookup, sacred_hint
+from .discover import move_like
 from . import sources as S
 
 RESULTS_DIR = os.environ.get("RESEARCH_DIR", "research_results")
@@ -30,33 +31,82 @@ RULES
    movement_profile = what a choreographer or instructor needs (posture, footwork with counts, arms and hands, hips and torso, formation and spatial path, partnering, tempo feel, named signature moves with one-line descriptions, levels and jumps, difficulty, what to avoid for cultural or safety reasons);
    episode_brief = how a 5-minute introduction episode would run (a title hook, a one-sentence logline, 5-8 ordered story beats that are concrete scenes, a 3-level lesson ladder with 3-5 drills each, visual motifs to show, a credible instructor persona, the music cue the soundtrack must follow);
    connections = named links to other dances with a relation (parent, child, sibling, variant, influence, shares_music, same_region) and a short note.
-   Where the sources do not describe a detail, write "not described in sources" for that field rather than inventing it. Numbers (tempo, counts) only when a source gives them or the meter makes them unambiguous.
+   Where the sources do not describe a detail, write exactly "not described in sources" for that field rather than inventing it (that exact phrase; never "the provided sources", never a sentence about the sources inside prose). Numbers (tempo, counts) only when a source gives them or the meter makes them unambiguous.
 Output JSON with keys: name, tagline (<=90 chars), insight (<=220 chars), profile (3-5 sentences), profile_long (600-1200 words of continuous prose using the sections), sections{{origins_and_history, how_it_is_danced, music_and_instruments, costume_and_setting, occasions_and_meaning, notable_figures, regional_variants, lineage}}, era (short, e.g. "19th century"), country, region, family, aliases[], related[] (names of other dances), is_sacred (bool), sacred_note, unesco (bool), teaching{{basic_steps[] (ordered, each one movement), rhythm, formation, level_notes}}, music_profile{{tempo_bpm, meter, rhythm_pattern, instruments[], vocal_style, musical_form, mood_keywords[], reference_recordings[] ({{title, artist}}), sound_description}}, movement_profile{{posture, footwork, arms_and_hands, hips_and_torso, formation_and_space, partnering, tempo_feel, signature_moves[] ({{name, description}}), levels_and_jumps, difficulty (beginner|intermediate|advanced), what_to_avoid}}, episode_brief{{title_hook, logline, beats[], lesson_ladder[] ({{level, goal, drills[]}}), visual_motifs[], instructor_persona, music_cue}}, connections[] ({{name, relation, note}}), albums[] ({{title, artist, source}}), claims[] ({{text, source, quote}}), confidence (0-1), gaps[]."""
 
 def _trim(txt, n):
     txt = re.sub(r"\n{3,}", "\n\n", txt or "")
     return txt[:n]
 
+LIST_TITLE = re.compile(r"^(lists? of|category:|index of|outline of|glossary of|timeline of)\b", re.I)
+
+def page_fits(wp, name):
+    """A fetched article is evidence for this dance only when it is an article about it: not a disambiguation page,
+    not a list/overview page, and the dance's name is in the title or in the opening of the text. (A catalogue entry whose
+    wikipedia_url points at 'List of European folk music traditions' used to be 'researched' from that list page.)"""
+    if not wp or wp.get("disambiguation") or (wp.get("length") or 0) < 400:
+        return False
+    title = wp.get("title") or ""
+    if LIST_TITLE.search(title.strip()):
+        return False
+    nn = norm(name)
+    if not nn:
+        return True
+    from .common import similarity
+    nt = norm(title)
+    if nn in nt or nt in nn or similarity(nt, nn) >= 0.6:
+        return True
+    head = norm((wp.get("text") or "")[:8000])
+    return nn in head or (len(nn.split()) > 1 and nn.split()[0] in head.split() and len(nn.split()[0]) >= 5)
+
+PLACEHOLDER = "not described in sources"
+_PH_WHOLE = re.compile(r"^\s*(?:not|no|none|nothing|unknown|n/?a)\b[^.;]{0,90}\b(?:sources?|evidence|texts?|material|documentation|passages?)\b[^.;]{0,40}[.;]?\s*$", re.I)
+_PH_PHRASE = re.compile(r"\b(?:based on |in |from |within |according to |per )?the (?:(?:provided|given|available|supplied|cited|above|present) (?:sources?|evidence|texts?|material)|(?:sources?|evidence|texts?|material) (?:provided|given|available|supplied|cited|above))\b", re.I)
+
+def _reduce_source_talk(s):
+    """'based on the sources provided' -> 'based on the sources'; 'in the provided evidence' -> 'in the sources'."""
+    if not isinstance(s, str) or not s or not re.search(r"source|evidence|text|material", s, re.I):
+        return s
+    return _PH_PHRASE.sub(lambda m: m.group(0)[:m.group(0).lower().find("the ")] + "the sources", s)
+
+def canon_placeholder(s):
+    """The composer is told to write exactly "not described in sources" where the sources are silent; models still write
+    "Not detailed in the provided sources." and similar. Whole-field placeholders become the canonical phrase and
+    source-talk inside prose ("the provided sources") is reduced to "the sources", so QC's AI-tell gate (which rejects a
+    profile that talks about its prompt) is not tripped by an honest gap."""
+    if not isinstance(s, str) or not s:
+        return s
+    if _PH_WHOLE.match(s):
+        return PLACEHOLDER
+    return _reduce_source_talk(s)
+
 def gather_evidence(d):
     """d: catalogue entry or candidate. Returns evidence dict with fetched texts."""
     ev = {"fetched_at": now_iso(), "sources": []}
     name = d.get("name") or d.get("slug")
     wp = None
+    own_page_rejected = False
     if d.get("wikipedia_url"):
         wp = S.wiki_page(d["wikipedia_url"])
-    if (not wp or wp.get("disambiguation") or (wp.get("length") or 0) < 400):
-        for q in (name + " dance", name):
+        if wp and not page_fits(wp, name):
+            log(f"evidence {d.get('slug')}: own page '{wp.get('title')}' is not an article about the dance; searching instead")
+            own_page_rejected, wp = True, None
+    if not page_fits(wp, name):
+        wp = None
+        queries = [name + " dance", name] + [a for a in (d.get("aliases") or [])[:3] if isinstance(a, str) and norm(a) != norm(name)]
+        for q in queries:
             for r in S.wiki_search(q, limit=4):
                 cand = S.wiki_page(r["title"])
-                if cand and not cand.get("disambiguation") and (cand.get("length") or 0) >= 400 and re.search(r"danc", (cand.get("text") or "")[:3000], re.I):
+                if page_fits(cand, name) and re.search(r"danc", (cand.get("text") or "")[:3000], re.I):
                     wp = cand; break
-            if wp and not wp.get("disambiguation"):
+            if wp:
                 break
-    if wp and not wp.get("disambiguation"):
+    if wp:
         ev["wikipedia"] = {"title": wp["title"], "url": wp["url"], "qid": wp.get("qid"), "categories": wp.get("categories", [])[:30],
                            "text": _trim(wp["text"], 16000), "image": wp.get("image")}
         ev["sources"].append(wp["url"])
-    qid = d.get("wikidata_qid") or (wp or {}).get("qid")
+    # the entry's own QID is trusted unless its own page was rejected (then it probably points at the same wrong subject)
+    qid = ((wp or {}).get("qid") or d.get("wikidata_qid")) if own_page_rejected else (d.get("wikidata_qid") or (wp or {}).get("qid"))
     wd = S.wikidata_entity(qid) if qid else None
     if wd:
         labels = S.wikidata_labels([v for k in ("country_of_origin", "country", "heritage_designation", "instance_of", "subclass_of", "genre", "influenced_by", "location") for v in wd["claims"].get(k, []) if isinstance(v, str)])
@@ -234,6 +284,35 @@ def normalize(comp):
         c["confidence"] = float(c.get("confidence") or 0)
     except Exception:
         c["confidence"] = 0.0
+    # honest gaps in one canonical wording, everywhere a string can carry prose
+    for k in ("tagline", "insight", "profile", "profile_long", "sacred_note"):
+        c[k] = canon_placeholder(c[k])
+    c["sections"] = {k: canon_placeholder(v) for k, v in c["sections"].items()}
+    for k in ("rhythm", "formation", "level_notes"):
+        t[k] = canon_placeholder(t[k])
+    t["basic_steps"] = [canon_placeholder(x) for x in t["basic_steps"]]
+    def _clean_list(v):
+        out = []
+        for x in v:
+            if isinstance(x, str):
+                x = canon_placeholder(x)
+                if x and x != PLACEHOLDER:
+                    out.append(x)
+            elif isinstance(x, dict):
+                x = {kk: canon_placeholder(vv) if isinstance(vv, str) else vv for kk, vv in x.items()}
+                if (x.get("name") or x.get("title") or x.get("level") or "x") != PLACEHOLDER:
+                    out.append(x)
+            else:
+                out.append(x)
+        return out
+    for dct in (mp, mv, eb):
+        for k, v in list(dct.items()):
+            if isinstance(v, str):
+                dct[k] = canon_placeholder(v)
+            elif isinstance(v, list):
+                dct[k] = _clean_list(v)
+    c["connections"] = _clean_list(c["connections"])
+    c["gaps"] = [_reduce_source_talk(x) for x in c["gaps"]]   # gaps keep their wording (they steer the next pass)
     return c
 
 def compose(d, ev, llm, prev_gaps=None):
@@ -328,7 +407,7 @@ def class_checklist(comp, rec_images=(), albums=()):
     have = {
         "footwork_with_counts": _said(mv.get("footwork")) and bool(re.search(r"\b(count|beat|1-2|one-two|step[s]?)\b", mv.get("footwork") or "", re.I)),
         "posture": _said(mv.get("posture")), "arms_and_hands": _said(mv.get("arms_and_hands")), "formation": _said(mv.get("formation_and_space")),
-        "tempo_or_meter": bool((mp.get("tempo_bpm") or "").strip() or (mp.get("meter") or "").strip()) and not _said_not(mp.get("tempo_bpm")) ,
+        "tempo_or_meter": (not _said_not(mp.get("tempo_bpm"))) or (not _said_not(mp.get("meter"))),
         "instruments": bool(mp.get("instruments")), "sound_description": _said(mp.get("sound_description")),
         "signature_moves": bool(mv.get("signature_moves")), "lesson_ladder": len(eb.get("lesson_ladder") or []) >= 3,
         "story_beats": len(eb.get("beats") or []) >= 5, "hooks": _said(comp.get("insight")) and _said(eb.get("title_hook")),
@@ -394,7 +473,31 @@ def run(budget_new=20, budget_enrich=20, only=None):
     else:
         queued = [c for c in cands.values() if c.get("status") == "queued"]
         queued.sort(key=lambda c: (0 if c.get("wikidata_qid") else 1, c.get("found_at", "")))
-        targets += [("new", c) for c in queued[:budget_new]]
+        picked = []
+        for c in queued:
+            if len(picked) >= budget_new:
+                break
+            # screen: a dance move/step/figure (by article disambiguator or Wikidata description) is not researched
+            desc = c.get("description")
+            if not desc and c.get("wikidata_qid"):
+                try:
+                    desc = (S.wikidata_entity(c["wikidata_qid"]) or {}).get("description")
+                except Exception as e:
+                    warn("screen wikidata", c.get("slug"), e)
+            lead = None
+            if not move_like(c.get("name") or "", c.get("wikipedia_url"), desc) and c.get("wikipedia_url"):
+                try:   # the article is fetched anyway for research (cached); its first sentence settles most of the rest
+                    lead = ((S.wiki_page(c["wikipedia_url"]) or {}).get("text") or "")[:600]
+                except Exception as e:
+                    warn("screen wiki lead", c.get("slug"), e)
+            if move_like(c.get("name") or "", c.get("wikipedia_url"), desc, lead):
+                c["status"], c["screened_out"], c["screened_at"] = "screened_out", "dance move/step/figure: " + str(desc or (lead or "")[:100] or c.get("wikipedia_url"))[:120], now_iso()
+                rep.inc("screened_out_move")
+                log(f"RESEARCH screen {c.get('slug')}: not researched ({c['screened_out']})")
+                continue
+            picked.append(c)
+        save_state("candidates.json", cands)
+        targets += [("new", c) for c in picked]
         targets += [("enrich", d) for d in pick_enrichment_targets(catalog, budget_enrich)]
     rep.note(f"targets: {len(targets)} (llm enabled={llm.enabled})")
     for kind, d in targets:

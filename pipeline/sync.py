@@ -114,20 +114,31 @@ def run(only=None, max_n=300):
             did = (existing or {}).get("id")
             if did:
                 p = rec.get("profile") or {}
-                aliases = [{"dance_id": did, "alias": a.strip()} for a in (p.get("aliases") or []) if a and a.strip() and norm(a) != norm(p.get("name") or "")][:20]
+                # one row per conflict key: Postgres rejects a batch that hits the same (dance_id, alias) twice ("ON CONFLICT ... cannot affect row a second time")
+                aliases, seen = [], set()
+                for a in (p.get("aliases") or []):
+                    a = (a or "").strip()
+                    if not a or norm(a) == norm(p.get("name") or "") or a.lower() in seen: continue
+                    seen.add(a.lower()); aliases.append({"dance_id": did, "alias": a})
+                aliases = aliases[:20]
                 if aliases:
                     try: sb.upsert("dance_aliases", aliases, on_conflict="dance_id,alias")
                     except Exception as e: rep.error(f"aliases {slug}: {e}")
-                srcs = [{"dance_id": did, "url": u, "label": ("Wikipedia" if "wikipedia.org" in u else "Wikidata" if "wikidata.org" in u else "UNESCO" if "unesco.org" in u else "")} for u in (rec.get("sources") or [])][:12]
+                srcs, seen = [], set()
+                for u in (rec.get("sources") or []):
+                    u = (u or "").strip()
+                    if not u or u in seen: continue
+                    seen.add(u); srcs.append({"dance_id": did, "url": u, "label": ("Wikipedia" if "wikipedia.org" in u else "Wikidata" if "wikidata.org" in u else "UNESCO" if "unesco.org" in u else "")})
+                srcs = srcs[:12]
                 if srcs:
                     try: sb.upsert("dance_sources", srcs, on_conflict="dance_id,url")
                     except Exception as e: rep.error(f"sources {slug}: {e}")
-                edges = []
+                edges, seen = [], set()
                 for rel in (p.get("related") or [])[:12]:
                     f, score = idx.find(rel, threshold=0.93)
                     tid = (db_rows.get(f) or {}).get("id") if f else None
-                    if tid and tid != did:
-                        edges.append({"src_id": did, "dst_id": tid, "relation": "related"})
+                    if tid and tid != did and tid not in seen:
+                        seen.add(tid); edges.append({"src_id": did, "dst_id": tid, "relation": "related"})
                 if edges:
                     try: sb.upsert("dance_edges", edges, on_conflict="src_id,dst_id,relation")
                     except Exception as e: rep.error(f"edges {slug}: {e}")

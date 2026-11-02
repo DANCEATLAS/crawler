@@ -180,7 +180,7 @@ def sparql(query):
 DANCE_CLASS_LABELS = ("dance style", "folk dance", "dance genre", "social dance", "ritual dance", "traditional dance",
                       "ceremonial dance", "partner dance", "street dance", "circle dance", "line dance", "couple dance",
                       "war dance", "sword dance", "court dance", "classical dance", "type of dance", "dance form", "group dance",
-                      "solo dance", "ballroom dance", "religious dance", "national dance", "regional dance", "dance move",
+                      "solo dance", "ballroom dance", "religious dance", "national dance", "regional dance",
                       "Latin dance", "African dance", "folk dance of India", "Indian classical dance", "masked dance", "fan dance")
 
 def wikidata_dance_classes():
@@ -209,7 +209,9 @@ def wikidata_dance_classes():
 def wikidata_dances(limit=5000):
     """Items that are a kind of dance with an English Wikipedia article.
 
-    Pass 1: instances of the usual dance classes (dance style, folk dance, social dance, ...; class ids looked up by label).
+    Pass 1: instances of the usual dance classes (dance style, folk dance, social dance, ...; class ids looked up by label;
+    'dance move' is deliberately not among them - moves, steps and figures are vocabulary, not Atlas entries).
+    The item description travels with each row so discovery can drop "dance move"/"ballet step" items by description.
     Pass 2: the strict subclass walk from 'dance' (Q11639). A global label scan over all classes was tried first
     and times out on the query service (504), so the class list is bounded on purpose."""
     classes = wikidata_dance_classes()
@@ -218,7 +220,7 @@ def wikidata_dances(limit=5000):
     if classes:
         values = " ".join("wd:" + q for q in classes)
         queries.append(("classes", f"""
-    SELECT DISTINCT ?item ?itemLabel ?article ?countryLabel WHERE {{
+    SELECT DISTINCT ?item ?itemLabel ?itemDescription ?article ?countryLabel WHERE {{
       VALUES ?cls {{ {values} }}
       ?item wdt:P31 ?cls .
       ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> .
@@ -226,7 +228,7 @@ def wikidata_dances(limit=5000):
       SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
     }} LIMIT {int(limit)}"""))
     queries.append(("strict", f"""
-    SELECT DISTINCT ?item ?itemLabel ?article ?countryLabel WHERE {{
+    SELECT DISTINCT ?item ?itemLabel ?itemDescription ?article ?countryLabel WHERE {{
       ?item wdt:P31/wdt:P279* wd:Q11639 .
       ?article schema:about ?item ; schema:isPartOf <https://en.wikipedia.org/> .
       OPTIONAL {{ ?item wdt:P495 ?country . }}

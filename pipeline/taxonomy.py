@@ -65,6 +65,19 @@ COUNTRIES = {
  "cook islands":("CK","Oceania"),"new caledonia":("NC","Oceania"),"guam":("GU","Oceania"),"greenland":("GL","North America"),"reunion":("RE","Africa"),
  "martinique":("MQ","Caribbean"),"guadeloupe":("GP","Caribbean"),"curacao":("CW","Caribbean"),"aruba":("AW","Caribbean"),"bermuda":("BM","North America"),
  "cayman islands":("KY","Caribbean"),"faroe islands":("FO","Europe"),"western sahara":("EH","Africa"),"basque country":("ES","Europe"),"catalonia":("ES","Europe"),
+ # historical and alternative names the sources use (a dance born in East Germany or Persia still has a home on the map)
+ "east germany":("DE","Europe"),"german democratic republic":("DE","Europe"),"gdr":("DE","Europe"),"west germany":("DE","Europe"),"prussia":("DE","Europe"),
+ "soviet union":("RU","Europe"),"ussr":("RU","Europe"),"russian empire":("RU","Europe"),"yugoslavia":("RS","Europe"),"czechoslovakia":("CZ","Europe"),
+ "bohemia":("CZ","Europe"),"moravia":("CZ","Europe"),"austria-hungary":("AT","Europe"),"austria hungary":("AT","Europe"),"ottoman empire":("TR","Middle East"),
+ "persia":("IR","Middle East"),"siam":("TH","Southeast Asia"),"ceylon":("LK","South Asia"),"zaire":("CD","Africa"),"rhodesia":("ZW","Africa"),
+ "kingdom of hawaii":("US","Oceania"),"hawaiian kingdom":("US","Oceania"),"ancient greece":("GR","Europe"),"byzantine empire":("GR","Europe"),
+ "ancient rome":("IT","Europe"),"roman empire":("IT","Europe"),"holy roman empire":("DE","Europe"),"kingdom of france":("FR","Europe"),
+ "british india":("IN","South Asia"),"bengal":("BD","South Asia"),"punjab":("IN","South Asia"),"kurdistan":("IQ","Middle East"),"flanders":("BE","Europe"),
+ "brittany":("FR","Europe"),"occitania":("FR","Europe"),"andalusia":("ES","Europe"),"galicia":("ES","Europe"),"sicily":("IT","Europe"),"sardinia":("IT","Europe"),
+ "bavaria":("DE","Europe"),"tyrol":("AT","Europe"),"transylvania":("RO","Europe"),"crete":("GR","Europe"),"pontus":("TR","Middle East"),"zanzibar":("TZ","Africa"),
+ "okinawa":("JP","East Asia"),"bali":("ID","Southeast Asia"),"java":("ID","Southeast Asia"),"sumatra":("ID","Southeast Asia"),"borneo":("ID","Southeast Asia"),
+ "mindanao":("PH","Southeast Asia"),"kashmir":("IN","South Asia"),"rajasthan":("IN","South Asia"),"kerala":("IN","South Asia"),"tamil nadu":("IN","South Asia"),
+ "england and scotland":("GB","Europe"),"britain":("GB","Europe"),"great britain":("GB","Europe"),"ireland and scotland":("IE","Europe"),"north america":("US","North America"),
 }
 
 COUNTRIES_N = {norm(k): v for k, v in COUNTRIES.items()}

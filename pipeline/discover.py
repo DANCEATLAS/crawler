@@ -16,19 +16,49 @@ BAD_CATS = re.compile(r"(births|deaths|living people|films|albums|songs|singles|
 GOOD_CATS = re.compile(r"(dance|dances|dancing|choreograph|folklore|traditional music|ceremon|ritual|intangible cultural heritage)", re.I)
 DANCE_WORDS = re.compile(r"(dance|danza|danse|dans|baile|bailes|tanz|folk|ballet|choreo|raqs|odori|mai\b|nritya|natyam|attam|kolattam|tari\b|tarian|ngoma|bal\b|waltz|polka|mazurka|samba|rumba|cumbia|tango|hula|haka)", re.I)
 
+MOVE_URL = re.compile(r"\((?:dance[ _])?(?:move|step|steps|figure|position|technique|trick|hold|turn|lift)\)$", re.I)
+MOVE_DESC = re.compile(r"\b(dance (?:move|step|figure|position|technique|lift|trick|hold|movement)|ballet (?:step|position|technique|term|movement)|"
+                       r"(?:basic|ballroom|swing|tap|jazz|salsa|latin|standard) (?:step|figure|move|movement)|step in (?:ballroom|tap|jazz|swing|ballet|line)|"
+                       r"type of (?:step|turn|lift|dance step|dance move)|choreographic (?:element|figure)|figure in [a-z ]*danc|(?:step|figure|move) (?:used |performed |danced )?in (?:the )?[a-z -]*danc)", re.I)
+
+MOVE_DESC2 = re.compile(r"\b((?:acrobatic|gymnastic|athletic) (?:move|skill|element|trick)|(?:hand|arm|hip|head|foot|leg|body|pelvic) (?:position|movement|motion|gesture)s?|thrusting motion|dance maneuver|dance manoeuvre)\b", re.I)
+# the article's first sentence: "A coaster step is a dance step in which...", "Jazz hands are a ... position", "Cuban motion is a stylized hip movement"
+LEAD_MOVE = re.compile(r"^[^.]{0,140}?\b(?:is|are|refers to|was|were)\s+(?:an?|the)\s+(?:[\w'-]+\s+){0,4}?(?:dance\s+)?(?:move|moves|step|steps|figure|figures|position|positions|technique|techniques|maneuver|manoeuvre|movement|movements|gesture|gestures|turn|turns|spin|spins|lift|lifts|trick|tricks|motion|exercise)\b", re.I)
+
+def move_like(name, url=None, description=None, lead=None):
+    """A dance move, step, figure or position is vocabulary, not a dance: it is never researched as an Atlas entry
+    (the first v4 run spent 11 of 25 research slots on 'grapevine', 'ball change', 'box step', 'natural spin turn'...).
+    Signals: the article's disambiguator, the Wikidata description, and (when given) the article's opening sentence
+    ("is a dance step", "is a stylized hip movement"); "is a partner dance" does not match."""
+    if url and MOVE_URL.search(str(url)):
+        return True
+    d = str(description or "")
+    if d and (MOVE_DESC.search(d) or MOVE_DESC2.search(d)):
+        return True
+    if lead:
+        head = re.sub(r"\s+", " ", str(lead))[:400]
+        if LEAD_MOVE.search(head):
+            return True
+    return False
+
 def _candidate(name, url=None, qid=None, country=None, via=None):
     return {"name": name.strip(), "wikipedia_url": url, "wikidata_qid": qid, "country": country, "via": [via] if via else [],
             "status": "queued", "found_at": now_iso()}
 
 def harvest_wikidata(limit):
-    out = []
+    out, moves = [], 0
     for r in S.wikidata_dances(limit=limit):
         name = r.get("itemLabel") or ""
         qid = (r.get("item") or "").rsplit("/", 1)[-1]
         if not name or name == qid or BAD_TITLE.search(name):
             continue
-        out.append(_candidate(name, r.get("article"), qid, r.get("countryLabel"), "wikidata"))
-    log(f"discover: wikidata {len(out)} items")
+        if move_like(name, r.get("article"), r.get("itemDescription")):
+            moves += 1; continue
+        c = _candidate(name, r.get("article"), qid, r.get("countryLabel"), "wikidata")
+        if r.get("itemDescription"):
+            c["description"] = str(r["itemDescription"])[:160]
+        out.append(c)
+    log(f"discover: wikidata {len(out)} items ({moves} dance moves/steps skipped)")
     return out
 
 CATEGORY_ROOTS = ["Dances by country", "Folk dances", "Dance by genre", "Dance in Africa", "Dance in Asia", "Dance in Europe",
@@ -53,7 +83,7 @@ def harvest_wikipedia(max_cats=120):
             titles.setdefault(t, "list:" + lp)
     out = []
     for t, via in titles.items():
-        if not t or BAD_TITLE.search(t) or t.startswith(("List of", "Category:", "Template:", "Portal:", "Wikipedia:")):
+        if not t or BAD_TITLE.search(t) or t.startswith(("List of", "Category:", "Template:", "Portal:", "Wikipedia:")) or move_like(t, t):
             continue
         out.append(_candidate(t, "https://en.wikipedia.org/wiki/" + t.replace(" ", "_"), None, None, via))
     log(f"discover: wikipedia {len(out)} titles from {len(cats)} categories + lists")

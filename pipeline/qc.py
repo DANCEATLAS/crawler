@@ -16,8 +16,11 @@ os.makedirs(QC_DIR, exist_ok=True)
 
 BANNED = ["foundational", "codified", "crystallised", "crystallized", "rich heritage", "communal spirit", "rich tapestry", "vibrant tapestry",
           "arguably", "it is often said", "testament to", "deeply rooted", "steeped in", "time-honored", "time-honoured", "mesmerizing", "mesmerising",
-          "exotic", "primitive", "tribal rhythms", "mystical east", "oriental", "savage", "uncivilized", "delve", "tapestry"]
-AI_TELLS = ["as an ai", "i cannot", "i can't", "i do not have access", "language model", "as of my knowledge", "the provided sources", "based on the sources provided", "in the sources provided"]
+          "exotic", "primitive", "tribal rhythms", "mystical east", "oriental", "savage", "uncivilized", "delve", "tapestry",
+          # talking about the prompt instead of the dance is a style fault (one slip tolerated, more -> review), not a sign of fabrication
+          "the provided sources", "the sources provided", "the provided evidence", "the available sources", "the given sources"]
+AI_TELLS = ["as an ai", "i cannot", "i can't", "i do not have access", "language model", "as of my knowledge", "as an assistant"]
+JUDGE_VERSION = "j2"   # bump when RUBRIC changes: a judge reading of unchanged research is otherwise reused across pipeline versions
 MIN_CLAIMS = 6          # or 4 claims at >= 90 % verified
 MIN_LONG = 1200         # characters of profile_long
 
@@ -115,15 +118,19 @@ def decide(gates, jd, dup, sacred):
 
 def qc_one(rec, idx, catalog_by_slug, llm):
     gates, dup, sacred = deterministic_gates(rec, idx, catalog_by_slug)
-    jd = judge(rec, llm) if llm.enabled else None
-    reused = False
-    if llm.enabled and not jd:
-        # the model is unavailable (quota, outage): an earlier judge reading of the SAME research is still valid, reuse it
-        prev = jload(os.path.join(QC_DIR, rec["slug"] + ".json"))
-        if prev and prev.get("judge") and prev.get("researched_at") == rec.get("researched_at"):
+    prev = jload(os.path.join(QC_DIR, rec["slug"] + ".json")) or {}
+    prev_jv = prev.get("judge_version") or ("j2" if prev.get("version") == "v3.2" else None)
+    jd, reused = None, False
+    if prev.get("judge") and prev.get("researched_at") == rec.get("researched_at") and prev_jv == JUDGE_VERSION:
+        # same research, same rubric: the earlier judge reading stands; only the deterministic gates and the decision are redone
+        jd, reused = flat_judge(prev["judge"]), True
+    elif llm.enabled:
+        jd = judge(rec, llm)
+        if not jd and prev.get("judge") and prev.get("researched_at") == rec.get("researched_at"):
+            # the model is unavailable (quota, outage): an earlier judge reading of the SAME research is still valid, reuse it
             jd, reused = flat_judge(prev["judge"]), True
     gate, score, reasons = decide(gates, jd, dup, sacred)
-    out = {"slug": rec["slug"], "qc_at": now_iso(), "version": PIPELINE_VERSION, "publish_gate": gate, "qc_score": score,
+    out = {"slug": rec["slug"], "qc_at": now_iso(), "version": PIPELINE_VERSION, "judge_version": JUDGE_VERSION, "publish_gate": gate, "qc_score": score,
            "gates": gates, "judge": jd, "judge_reused": reused, "duplicate_of": dup, "is_sacred": sacred, "reasons": reasons,
            "citation": rec.get("citation"), "researched_at": rec.get("researched_at")}
     jsave(os.path.join(QC_DIR, rec["slug"] + ".json"), out)
