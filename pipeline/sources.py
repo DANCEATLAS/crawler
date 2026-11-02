@@ -378,14 +378,21 @@ def archive_films(name, limit=6):
         params = {"q": q, "fl[]": ["identifier", "title", "year", "licenseurl", "description"], "rows": str(limit * 2), "sort[]": "downloads desc", "output": "json"}
         j = get_json(ARCHIVE_SEARCH + "?" + urllib.parse.urlencode(params, doseq=True), timeout=40, retries=1)
         out = []
+        nn = norm(name)
         for d in ((j or {}).get("response") or {}).get("docs") or []:
             ident = d.get("identifier")
             if not ident:
                 continue
             desc = d.get("description")
             desc = " ".join(desc) if isinstance(desc, list) else str(desc or "")
+            title = str(d.get("title") or ident)
+            # relevance: the dance must be in the title, or the item must be about dancing and name the dance in its description
+            # (a concert recording that merely lists the style in its notes is not reference footage)
+            nt, nd = norm(title), norm(desc)
+            if not (nn in nt or (nn in nd and re.search(r"danc|tanz|danza|baile|danse", nt + " " + nd[:400]))):
+                continue
             lic = d.get("licenseurl") or ""
-            out.append({"title": str(d.get("title") or ident)[:200], "url": f"https://archive.org/details/{ident}", "year": d.get("year"),
+            out.append({"title": title[:200], "url": f"https://archive.org/details/{ident}", "year": d.get("year"),
                         "license": lic or "unknown (Internet Archive)", "license_url": lic or None, "attribution": "Internet Archive",
                         "description": re.sub(r"\s+", " ", desc)[:300], "source": "archive"})
             if len(out) >= limit:
