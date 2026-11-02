@@ -229,17 +229,29 @@ def main():
 
     if MODE in ("all","hero"):
         cache=jload("crawler_cache.json",{}); out=jload("hero_results.json",{}); done=0; wrote=0
+        RETRY_DAYS=21   # a dance whose candidates were all filtered is tried again after three weeks, not every day:
+        today=time.strftime("%Y-%m-%d")   # daily retries of ~100 known failures burned the YouTube quota before never-tried dances got a turn
         def _retry(d):
             c=cache.get(d.get("slug"))
-            return (c is None) or (isinstance(c,dict) and not c.get("hero_video_youtube_id"))
+            if c is None: return True
+            if not isinstance(c,dict) or c.get("hero_video_youtube_id"): return False
+            t=c.get("tried_at")
+            if not t: return True
+            try:
+                return (time.mktime(time.strptime(today,"%Y-%m-%d"))-time.mktime(time.strptime(t,"%Y-%m-%d")))/86400.0>=RETRY_DAYS
+            except Exception:
+                return True
         todo=[d for d in dances if d.get("publish") and not d.get("has_hero") and _retry(d) and d.get("wikipedia")]
         todo+=[d for d in dances if d.get("publish") and not d.get("has_hero") and _retry(d) and not d.get("wikipedia")]
         todo+=[d for d in dances if not d.get("publish") and not d.get("has_hero") and _retry(d)]
+        todo.sort(key=lambda d: 0 if cache.get(d.get("slug")) is None else 1)   # never-tried dances first
+        print("hero: "+str(len(todo))+" to try ("+str(sum(1 for d in todo if cache.get(d.get('slug')) is None))+" never tried)")
         for d in todo:
             if done>=B_HERO: break
             try: res=pick_hero(d,keys); done+=1
             except RuntimeError as e: print("hero stop: "+str(e)); break
             except Exception as e: res={"status":"error","reason":str(e)[:80]}
+            if isinstance(res,dict): res["tried_at"]=today
             cache[d["slug"]]=res
             if res.get("hero_video_youtube_id"): out[d["slug"]]=res; wrote+=1; print("HERO ok "+d["slug"]+" "+res["hero_video_youtube_id"])
             jsave("crawler_cache.json",cache); jsave("hero_results.json",out)
