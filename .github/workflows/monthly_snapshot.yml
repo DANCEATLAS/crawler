@@ -1,0 +1,50 @@
+name: monthly_snapshot
+# A second home for the library: on the 1st of every month the whole repository (code, research, QC, catalogue, state)
+# is frozen as a dated zip on a GitHub Release. Releases are immutable copies outside the working branch, so a bad commit,
+# a broken run or a deleted file can always be recovered from the last snapshot. Free; no model calls; nothing to maintain.
+on:
+  schedule:
+    - cron: "17 3 1 * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Build the snapshot
+        run: |
+          TAG="library-$(date -u +%Y-%m-%d)"
+          echo "TAG=$TAG" >> "$GITHUB_ENV"
+          mkdir -p /tmp/snap
+          git archive --format=zip -o "/tmp/snap/dancing-atlas-$TAG.zip" HEAD
+          python3 - > /tmp/snap/NOTES.md <<'EOF'
+          import json, glob
+          def load(p, d):
+              try: return json.load(open(p))
+              except Exception: return d
+          stats = load("public/catalog/stats.json", {})
+          ridx = load("pipeline_state/research_index.json", {})
+          qidx = load("pipeline_state/qc_index.json", {})
+          gates = {}
+          for v in qidx.values():
+              g = v.get("publish_gate"); gates[g] = gates.get(g, 0) + 1
+          print("# Dancing Atlas library snapshot\n")
+          print(f"- catalogue: {stats.get('count', stats.get('dances', '?'))} dances live")
+          print(f"- researched records: {len(ridx)} ({sum(1 for v in ridx.values() if v.get('movie_ready'))} movie-ready)")
+          print(f"- QC gates: {gates}")
+          print(f"- files: {len(glob.glob('research_results/*.json'))} research, {len(glob.glob('qc_results/*.json'))} QC")
+          print("\nContents: the full repository at this commit (pipeline code, research_results/, qc_results/, public/catalog/, pipeline_state/, reports).")
+          print("Restore: unzip, or `git checkout <tag>`. See AI_BRIEF.md inside for what everything is.")
+          EOF
+          cat /tmp/snap/NOTES.md
+      - name: Publish as a GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" /tmp/snap/*.zip --clobber
+          else
+            gh release create "$TAG" /tmp/snap/*.zip --title "Library snapshot $TAG" --notes-file /tmp/snap/NOTES.md
+          fi
