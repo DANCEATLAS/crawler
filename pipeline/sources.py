@@ -340,6 +340,76 @@ def commons_file_info(file_titles):
                         "attribution": (artist + " / Wikimedia Commons / " + lic).strip(" /")})
     return out
 
+# ----------------------------------------------------------------- reference footage (licensed video, for the future generator)
+def commons_videos(name, limit=6):
+    """Video files on Wikimedia Commons whose name or description mentions the dance, with free licences only."""
+    def fetch():
+        params = {"action": "query", "generator": "search", "gsrsearch": f'"{name}" filetype:video', "gsrnamespace": "6", "gsrlimit": str(limit * 3),
+                  "prop": "imageinfo", "iiprop": "url|extmetadata|size|mime", "format": "json", "formatversion": "2"}
+        j = get_json(COMMONS_API + "?" + urllib.parse.urlencode(params))
+        out = []
+        for pg in (j.get("query") or {}).get("pages") or []:
+            ii = (pg.get("imageinfo") or [{}])[0]
+            if not str(ii.get("mime") or "").startswith("video/"):
+                continue
+            em = ii.get("extmetadata") or {}
+            lic = (em.get("LicenseShortName") or {}).get("value") or (em.get("License") or {}).get("value") or ""
+            if not any(k in lic.lower() for k in FREE_LICENSES):
+                continue
+            desc = re.sub(r"<[^>]+>", "", (em.get("ImageDescription") or {}).get("value") or "").strip()
+            artist = re.sub(r"<[^>]+>", "", (em.get("Artist") or {}).get("value") or "").strip()
+            out.append({"title": pg.get("title"), "url": ii.get("url"), "license": lic, "license_url": (em.get("LicenseUrl") or {}).get("value"),
+                        "attribution": (artist + " / Wikimedia Commons / " + lic).strip(" /"), "description": desc[:300],
+                        "source_page": "https://commons.wikimedia.org/wiki/" + urllib.parse.quote((pg.get("title") or "").replace(" ", "_")), "source": "commons"})
+            if len(out) >= limit:
+                break
+        return out
+    try:
+        return cached("commons-video:" + norm(name), fetch) or []
+    except Exception as e:
+        warn("commons_videos", name, e)
+        return []
+
+def archive_films(name, limit=6):
+    """Films on the Internet Archive that mention the dance in their metadata. Licence is recorded when the item declares one
+    (licenseurl); otherwise it is 'unknown (Internet Archive)' - a lead for the future generator to clear, not a licence."""
+    def fetch():
+        q = f'("{name}") AND (dance OR danse OR danza OR baile OR tanz OR folk) AND mediatype:movies'
+        params = {"q": q, "fl[]": ["identifier", "title", "year", "licenseurl", "description"], "rows": str(limit * 2), "sort[]": "downloads desc", "output": "json"}
+        j = get_json(ARCHIVE_SEARCH + "?" + urllib.parse.urlencode(params, doseq=True), timeout=40, retries=1)
+        out = []
+        for d in ((j or {}).get("response") or {}).get("docs") or []:
+            ident = d.get("identifier")
+            if not ident:
+                continue
+            desc = d.get("description")
+            desc = " ".join(desc) if isinstance(desc, list) else str(desc or "")
+            lic = d.get("licenseurl") or ""
+            out.append({"title": str(d.get("title") or ident)[:200], "url": f"https://archive.org/details/{ident}", "year": d.get("year"),
+                        "license": lic or "unknown (Internet Archive)", "license_url": lic or None, "attribution": "Internet Archive",
+                        "description": re.sub(r"\s+", " ", desc)[:300], "source": "archive"})
+            if len(out) >= limit:
+                break
+        return out
+    try:
+        return cached("ia-film:" + norm(name), fetch) or []
+    except Exception as e:
+        warn("archive films", name, e)
+        return []
+
+def footage_for(name, aliases=(), limit=8):
+    """Reference footage links for one dance: Commons videos (free licences) first, then Internet Archive films."""
+    if len(norm(name)) < 4:
+        return []
+    seen, out = set(), []
+    for n in [name] + [a for a in (aliases or []) if isinstance(a, str) and len(a) >= 4][:2]:
+        for f in commons_videos(n) + archive_films(n):
+            if f.get("url") and f["url"] not in seen:
+                seen.add(f["url"]); out.append(f)
+        if len(out) >= limit:
+            break
+    return out[:limit]
+
 # ----------------------------------------------------------------- UNESCO ICH
 # Field names verified against the live dataset (data.unesco.org, dataset ich001, Oct 2026):
 # uuid, ich_public_ref, inscription_year, title_en, description_en, type_of_element_en, type_acronym,

@@ -13,7 +13,7 @@ from .discover import move_like
 from . import sources as S
 
 RESULTS_DIR = os.environ.get("RESEARCH_DIR", "research_results")
-RESEARCH_SCHEMA = 4   # 4 = movie-ready fields (music_profile, movement_profile, episode_brief, connections); bump to re-deepen every record
+RESEARCH_SCHEMA = 5   # 4 = movie-ready fields (music_profile, movement_profile, episode_brief, connections); 5 = tradition_status, adaptations for seniors and children, reference footage; bump to re-deepen every record
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 EDITORIAL = """You are the senior editor of the Dancing Atlas, an encyclopedia of every living dance tradition, written to the standard of a major documentary studio.
@@ -32,7 +32,9 @@ RULES
    episode_brief = how a 5-minute introduction episode would run (a title hook, a one-sentence logline, 5-8 ordered story beats that are concrete scenes, a 3-level lesson ladder with 3-5 drills each, visual motifs to show, a credible instructor persona, the music cue the soundtrack must follow);
    connections = named links to other dances with a relation (parent, child, sibling, variant, influence, shares_music, same_region) and a short note.
    Where the sources do not describe a detail, write exactly "not described in sources" for that field rather than inventing it (that exact phrase; never "the provided sources", never a sentence about the sources inside prose). Numbers (tempo, counts) only when a source gives them or the meter makes them unambiguous.
-Output JSON with keys: name, tagline (<=90 chars), insight (<=220 chars), profile (3-5 sentences), profile_long (600-1200 words of continuous prose using the sections), sections{{origins_and_history, how_it_is_danced, music_and_instruments, costume_and_setting, occasions_and_meaning, notable_figures, regional_variants, lineage}}, era (short, e.g. "19th century"), country, region, family, aliases[], related[] (names of other dances), is_sacred (bool), sacred_note, unesco (bool), teaching{{basic_steps[] (ordered, each one movement), rhythm, formation, level_notes}}, music_profile{{tempo_bpm, meter, rhythm_pattern, instruments[], vocal_style, musical_form, mood_keywords[], reference_recordings[] ({{title, artist}}), sound_description}}, movement_profile{{posture, footwork, arms_and_hands, hips_and_torso, formation_and_space, partnering, tempo_feel, signature_moves[] ({{name, description}}), levels_and_jumps, difficulty (beginner|intermediate|advanced), what_to_avoid}}, episode_brief{{title_hook, logline, beats[], lesson_ladder[] ({{level, goal, drills[]}}), visual_motifs[], instructor_persona, music_cue}}, connections[] ({{name, relation, note}}), albums[] ({{title, artist, source}}), claims[] ({{text, source, quote}}), confidence (0-1), gaps[]."""
+10. LIVING OR HISTORICAL. tradition_status = "living" (practised today by a community), "revived" (reconstructed or kept alive by folklore groups after a break), "historical" (documented but no longer practised) or "unknown" — from the sources, with the deciding sentence quoted in claims.
+11. ADAPTATIONS FOR SENIORS AND CHILDREN (the owner's long-term audiences). These are teaching material you DERIVE from the movement_profile and teaching fields, not facts about the dance, so they are allowed to go beyond the sources — but only as cautious, generic, physically safe adjustments of what the sources describe: for seniors a seated or supported version, reduced tempo and range, what to avoid (balance, knees, spine, jumps); for children a game version, a shorter duration, simplified counts, what to avoid. Be concrete (counts, body parts), never medical. If movement_profile.footwork is "not described in sources", write "not derivable yet" for every adaptation field. Never adapt a sacred or restricted dance: write "withheld (sacred or restricted dance)".
+Output JSON with keys: name, tagline (<=90 chars), insight (<=220 chars), profile (3-5 sentences), profile_long (600-1200 words of continuous prose using the sections), sections{{origins_and_history, how_it_is_danced, music_and_instruments, costume_and_setting, occasions_and_meaning, notable_figures, regional_variants, lineage}}, era (short, e.g. "19th century"), country, region, family, aliases[], related[] (names of other dances), is_sacred (bool), sacred_note, unesco (bool), teaching{{basic_steps[] (ordered, each one movement), rhythm, formation, level_notes}}, music_profile{{tempo_bpm, meter, rhythm_pattern, instruments[], vocal_style, musical_form, mood_keywords[], reference_recordings[] ({{title, artist}}), sound_description}}, movement_profile{{posture, footwork, arms_and_hands, hips_and_torso, formation_and_space, partnering, tempo_feel, signature_moves[] ({{name, description}}), levels_and_jumps, difficulty (beginner|intermediate|advanced), what_to_avoid}}, episode_brief{{title_hook, logline, beats[], lesson_ladder[] ({{level, goal, drills[]}}), visual_motifs[], instructor_persona, music_cue}}, connections[] ({{name, relation, note}}), tradition_status (living|revived|historical|unknown), adaptations{{seniors{{seated_version, standing_version, tempo_and_range, counts, avoid[]}}, children{{game_version, duration_minutes, counts, avoid[]}}}}, albums[] ({{title, artist, source}}), claims[] ({{text, source, quote}}), confidence (0-1), gaps[]."""
 
 def _trim(txt, n):
     txt = re.sub(r"\n{3,}", "\n\n", txt or "")
@@ -331,6 +333,19 @@ def normalize(comp):
                 dct[k] = _clean_list(v)
     c["connections"] = _clean_list(c["connections"])
     c["gaps"] = [_reduce_source_talk(x) for x in c["gaps"]]   # gaps keep their wording (they steer the next pass)
+    ts = str(c.get("tradition_status") or "").strip().lower()
+    c["tradition_status"] = ts if ts in ("living", "revived", "historical", "unknown") else "unknown"
+    ad = c.get("adaptations") if isinstance(c.get("adaptations"), dict) else {}
+    out_ad = {}
+    for who, keys in (("seniors", ("seated_version", "standing_version", "tempo_and_range", "counts")), ("children", ("game_version", "duration_minutes", "counts"))):
+        sub = ad.get(who) if isinstance(ad.get(who), dict) else {}
+        o = {k: canon_placeholder(_s(sub.get(k), " ").strip()) for k in keys}
+        o["avoid"] = _clean_list(sub.get("avoid") or []) if isinstance(sub.get("avoid"), list) else ([str(sub.get("avoid")).strip()] if sub.get("avoid") else [])
+        out_ad[who] = o
+    out_ad["derived"] = True   # teaching material derived from the movement profile, not a fact about the dance
+    if c["is_sacred"]:
+        out_ad = {"withheld": "sacred or restricted dance: no teaching adaptations", "derived": True}
+    c["adaptations"] = out_ad
     return c
 
 def compose(d, ev, llm, prev_gaps=None):
@@ -398,6 +413,10 @@ def research_one(d, llm, sb=None):
         return rec
     claims, cstats = verify_claims(comp.get("claims"), ev)
     verified_albums, unverified_albums = verify_albums(comp.get("albums"))
+    try:   # licensed reference footage for the future generator (links only; nothing is downloaded)
+        footage = S.footage_for(comp.get("name") or d.get("name") or slug, aliases=(comp.get("aliases") or [])[:3])
+    except Exception as e:
+        warn("footage", slug, e); footage = []
     iso, region_guess = country_lookup(comp.get("country") or d.get("country") or "")
     region = comp.get("region") if comp.get("region") in REGIONS else (region_guess or d.get("region"))
     fam = comp.get("family") if comp.get("family") in FAMILIES else None
@@ -408,8 +427,9 @@ def research_one(d, llm, sb=None):
     rec.update({
         "status": "researched",
         "profile": {k: comp.get(k) for k in ("name", "tagline", "insight", "profile", "profile_long", "sections", "era", "country", "aliases", "related", "is_sacred", "sacred_note", "unesco", "teaching",
-                                             "music_profile", "movement_profile", "episode_brief", "connections", "confidence", "gaps")},
-        "schema": RESEARCH_SCHEMA, "movie_ready": movie_ready(comp), "class_checklist": class_checklist(comp, ev.get("images", []), verified_albums),
+                                             "music_profile", "movement_profile", "episode_brief", "connections", "tradition_status", "adaptations", "confidence", "gaps")},
+        "footage": footage,
+        "schema": RESEARCH_SCHEMA, "movie_ready": movie_ready(comp), "class_checklist": class_checklist(comp, ev.get("images", []), verified_albums, footage),
         "books": [{k: b.get(k) for k in ("identifier", "title", "year", "url")} for b in ev.get("books", [])],
         "country_code": iso or d.get("country_code"), "region": region, "family": fam,
         "claims": claims, "citation": cstats,
@@ -427,9 +447,9 @@ def research_one(d, llm, sb=None):
     return rec
 
 CHECKLIST = ("footwork_with_counts", "posture", "arms_and_hands", "formation", "tempo_or_meter", "instruments", "sound_description",
-             "signature_moves", "lesson_ladder", "story_beats", "hooks", "costume", "occasions", "notable_figures", "recordings", "images", "connections")
+             "signature_moves", "lesson_ladder", "story_beats", "hooks", "costume", "occasions", "notable_figures", "recordings", "images", "connections", "footage")
 
-def class_checklist(comp, rec_images=(), albums=()):
+def class_checklist(comp, rec_images=(), albums=(), footage=()):
     """What a fun, teachable class still lacks for this dance. Missing items steer the next deepening pass."""
     mp, mv, eb = comp.get("music_profile") or {}, comp.get("movement_profile") or {}, comp.get("episode_brief") or {}
     secs = comp.get("sections") or {}
@@ -442,7 +462,7 @@ def class_checklist(comp, rec_images=(), albums=()):
         "story_beats": len(eb.get("beats") or []) >= 5, "hooks": _said(comp.get("insight")) and _said(eb.get("title_hook")),
         "costume": _said(secs.get("costume_and_setting")), "occasions": _said(secs.get("occasions_and_meaning")),
         "notable_figures": _said(secs.get("notable_figures")), "recordings": bool(albums) or bool(mp.get("reference_recordings")),
-        "images": len(rec_images or []) >= 3, "connections": bool(comp.get("connections")),
+        "images": len(rec_images or []) >= 3, "connections": bool(comp.get("connections")), "footage": bool(footage),
     }
     missing = [k for k in CHECKLIST if not have.get(k)]
     return {"have": sum(1 for k in CHECKLIST if have.get(k)), "of": len(CHECKLIST), "missing": missing}
@@ -546,7 +566,8 @@ def run(budget_new=20, budget_enrich=20, only=None):
         try:
             rec = research_one(d, llm, sb)
             index[slug] = {"researched_at": rec["researched_at"], "status": rec["status"], "kind": kind, "schema": rec.get("schema"), "movie_ready": rec.get("movie_ready"),
-                           "class_have": (rec.get("class_checklist") or {}).get("have"), "class_missing": (rec.get("class_checklist") or {}).get("missing"),
+                           "class_have": (rec.get("class_checklist") or {}).get("have"), "class_of": (rec.get("class_checklist") or {}).get("of"), "class_missing": (rec.get("class_checklist") or {}).get("missing"),
+                           "tradition_status": (rec.get("profile") or {}).get("tradition_status"), "footage": len(rec.get("footage") or []),
                            "citation_rate": (rec.get("citation") or {}).get("rate"), "albums": len(rec.get("albums") or []), "images": len(rec.get("images") or [])}
             rep.inc("researched_" + rec["status"])
             if rec["status"] == "researched":

@@ -76,7 +76,10 @@ def run():
     open_notes = [k for k, v in notes.items() if v.get("note") and not v.get("done_at")]
     lines += [f"- Editor notes open: {len(open_notes)} · pages with editor-added sources: {len([k for k, v in extra.items() if v])}", "",
               "## Closest to movie-ready (for the weekly editor pass: find the missing items, add sources to pipeline_state/sources_extra.json)", ""]
-    lines += [f"- {k} ({v.get('class_have')}/17): missing " + ", ".join((v.get("class_missing") or [])[:6]) for k, v in close] or ["- (none yet)"]
+    lines += [f"- {k} ({v.get('class_have')}/{v.get('class_of') or 17}): missing " + ", ".join((v.get("class_missing") or [])[:6]) for k, v in close] or ["- (none yet)"]
+    ts = Counter(v.get("tradition_status") for v in rindex.values() if v.get("status") == "researched" and v.get("tradition_status"))
+    if ts:
+        lines += ["", f"- Tradition status (schema 5 records): {dict(ts)} · pages with reference footage links: {sum(1 for v in rindex.values() if v.get('footage'))}"]
     lines += ["", "## Last runs"]
     for stage in ("audit", "discover", "research", "qc", "hero_qc", "build", "sync", "report"):
         r = last.get(stage)

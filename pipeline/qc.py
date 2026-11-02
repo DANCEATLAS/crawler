@@ -20,14 +20,14 @@ BANNED = ["foundational", "codified", "crystallised", "crystallized", "rich heri
           # talking about the prompt instead of the dance is a style fault (one slip tolerated, more -> review), not a sign of fabrication
           "the provided sources", "the sources provided", "the provided evidence", "the available sources", "the given sources"]
 AI_TELLS = ["as an ai", "i cannot", "i can't", "i do not have access", "language model", "as of my knowledge", "as an assistant"]
-JUDGE_VERSION = "j2"   # bump when RUBRIC changes: a judge reading of unchanged research is otherwise reused across pipeline versions
+JUDGE_VERSION = "j3"   # bump when RUBRIC changes: a judge reading of unchanged research is otherwise reused across pipeline versions (j3: adaptations_safe)
 MIN_CLAIMS = 6          # or 4 claims at >= 90 % verified
 MIN_LONG = 1200         # characters of profile_long
 
 RUBRIC = """You are the fact-checker and cultural reviewer of the Dancing Atlas. Review the profile against the evidence claims.
 Score 1-10 on each: accuracy (every statement supported by the claims/quotes; penalise anything not traceable), respect (no exoticising, stereotyping or appropriation framing; sacred/restricted practices handled correctly), specificity (concrete people, places, dates, objects; no filler), teaching_value (the how_it_is_danced and teaching fields could guide a beginner).
-Also return is_a_dance (bool: the subject is a dance tradition or style, not a country, show, group, person, song or category), factual_doubt (list of sentences you believe unsupported or wrong), harm_or_disrespect (list), duplicate_suspicion (another dance name this seems to be the same as, or null), insight_ok (bool: the insight is one concrete hook, not abstract), album_doubt (list of album titles from ALBUMS that are not credibly central recordings of this dance's own music — a pop, film or fusion album that merely features or mentions the dance belongs here), overall (1-10), verdict ("publish" | "review" | "reject"), notes (<= 60 words).
-Return ONE FLAT JSON object with exactly these keys at the top level (no nested "flags" object): accuracy, respect, specificity, teaching_value, is_a_dance, factual_doubt, harm_or_disrespect, duplicate_suspicion, insight_ok, album_doubt, overall, verdict, notes."""
+Also return is_a_dance (bool: the subject is a dance tradition or style, not a country, show, group, person, song or category), factual_doubt (list of sentences you believe unsupported or wrong), harm_or_disrespect (list), duplicate_suspicion (another dance name this seems to be the same as, or null), insight_ok (bool: the insight is one concrete hook, not abstract), album_doubt (list of album titles from ALBUMS that are not credibly central recordings of this dance's own music — a pop, film or fusion album that merely features or mentions the dance belongs here), adaptations_safe (bool: the ADAPTATIONS for seniors and children, if present, are physically cautious, generic and do not misrepresent the dance; true when absent or withheld), overall (1-10), verdict ("publish" | "review" | "reject"), notes (<= 60 words).
+Return ONE FLAT JSON object with exactly these keys at the top level (no nested "flags" object): accuracy, respect, specificity, teaching_value, is_a_dance, factual_doubt, harm_or_disrespect, duplicate_suspicion, insight_ok, album_doubt, adaptations_safe, overall, verdict, notes."""
 
 def flat_judge(jd):
     """Older judge outputs nested the flag fields under "flags"; read them from either place."""
@@ -88,7 +88,8 @@ def deterministic_gates(rec, idx, catalog_by_slug):
 def judge(rec, llm):
     p = rec.get("profile") or {}
     claims = [{"text": c.get("text"), "quote": c.get("quote"), "supported": c.get("supported")} for c in (rec.get("claims") or [])][:40]
-    user = ("PROFILE JSON:\n" + json.dumps({k: p.get(k) for k in ("name", "tagline", "insight", "profile", "profile_long", "sections", "is_sacred", "sacred_note", "teaching", "music_profile", "movement_profile", "country", "era")}, ensure_ascii=False)[:17000]
+    user = ("PROFILE JSON:\n" + json.dumps({k: p.get(k) for k in ("name", "tagline", "insight", "profile", "profile_long", "sections", "is_sacred", "sacred_note", "teaching", "music_profile", "movement_profile", "country", "era", "tradition_status")}, ensure_ascii=False)[:17000]
+            + "\n\nADAPTATIONS (derived teaching material for seniors and children, not facts about the dance; judge only safety and fidelity):\n" + json.dumps(p.get("adaptations") or {}, ensure_ascii=False)[:2500]
             + "\n\nALBUMS (verified to exist in MusicBrainz; judge their relevance):\n" + json.dumps([{"title": a.get("title"), "artist": a.get("artist"), "year": a.get("year")} for a in (rec.get("albums") or [])], ensure_ascii=False)[:1500]
             + "\n\nEVIDENCE CLAIMS (quote verified mechanically where supported=true):\n" + json.dumps(claims, ensure_ascii=False)[:8000])
     return flat_judge(llm.json(RUBRIC, user, strong=False, temperature=0.1, max_tokens=1500))
@@ -111,17 +112,21 @@ def decide(gates, jd, dup, sacred):
         gate = "review"
     elif jd.get("insight_ok") is False and score < 8.5:
         gate = "review"
+    elif jd.get("adaptations_safe") is False:
+        gate = "review"
     else:
         gate = "publish"
-    reasons = hard_fail + soft_fail + ([f"judge_score={score}"] if jd else ["no_judge"]) + ([f"doubts={len(doubts)}"] if doubts else []) + (["harm"] if harm else []) + (["not_a_dance"] if not_dance else []) + (["sacred"] if sacred else [])
+    reasons = hard_fail + soft_fail + ([f"judge_score={score}"] if jd else ["no_judge"]) + ([f"doubts={len(doubts)}"] if doubts else []) + (["harm"] if harm else []) + (["not_a_dance"] if not_dance else []) + (["sacred"] if sacred else []) + (["adaptations_unsafe"] if (jd or {}).get("adaptations_safe") is False else [])
     return gate, score, reasons
 
 def qc_one(rec, idx, catalog_by_slug, llm):
     gates, dup, sacred = deterministic_gates(rec, idx, catalog_by_slug)
     prev = jload(os.path.join(QC_DIR, rec["slug"] + ".json")) or {}
     prev_jv = prev.get("judge_version") or ("j2" if prev.get("version") == "v3.2" else None)
+    # j3 only added the adaptations check: a j2 reading of a record without adaptations is still complete
+    same_rubric = prev_jv == JUDGE_VERSION or (prev_jv == "j2" and not (rec.get("profile") or {}).get("adaptations"))
     jd, reused = None, False
-    if prev.get("judge") and prev.get("researched_at") == rec.get("researched_at") and prev_jv == JUDGE_VERSION:
+    if prev.get("judge") and prev.get("researched_at") == rec.get("researched_at") and same_rubric:
         # same research, same rubric: the earlier judge reading stands; only the deterministic gates and the decision are redone
         jd, reused = flat_judge(prev["judge"]), True
     elif llm.enabled:

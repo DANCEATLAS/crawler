@@ -134,8 +134,11 @@ def run(include_review=False):
                         "images": rec.get("images"), "gaps": p.get("gaps"), "confidence": p.get("confidence"),
                         "music_profile": p.get("music_profile"), "movement_profile": p.get("movement_profile"), "episode_brief": p.get("episode_brief"),
                         "connections": p.get("connections"), "movie_ready": bool(rec.get("movie_ready")), "schema": rec.get("schema"),
+                        "tradition_status": p.get("tradition_status"), "adaptations": p.get("adaptations"), "footage": rec.get("footage"),
                         "researched_at": rec.get("researched_at"), "qc_score": qc.get("qc_score")}
             st["movie_ready"] = bool(rec.get("movie_ready"))
+            if p.get("tradition_status"):
+                st["tradition_status"] = p.get("tradition_status")
         styles[slug] = st
     # retired: existing app dances whose research+QC concluded duplicate/reject AND judge says reject (conservative: only explicit duplicates)
     for slug, q in qindex.items():
