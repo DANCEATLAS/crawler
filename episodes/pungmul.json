@@ -1,0 +1,951 @@
+{
+ "slug": "pungmul",
+ "name": "Pungmul",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-11-02T14:46:15Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A grounded, energetic master percussionist blending cultural history with physical technique.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Pungmul",
+   "nongak",
+   "pungmul-nori"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Pungmul",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Thunder on the Village Square: The Power of Pungmul",
+     "This is Pungmul. Traditional / Ancient origins to present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (4oiODXIUkiY)",
+     "Title card: Pungmul · South Korea · Traditional / Ancient origins to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Pungmul is rooted in the dure collective labor farming culture, rural holidays, community-building events, and shamanistic rituals.",
+     "During the Japanese colonial era (1910–1945), colonial authorities promoted the term nongak to limit its scope and suppress its cultural meaning.",
+     "In the late 1960s and 1970s, it gained new life in political protests during the pro-democracy movement."
+    ],
+    "on_screen": [
+     "Map: South Korea · East Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Historically played during farm work, lunar holidays, village community events, shamanistic rituals, and fundraising.",
+     "In the late 20th century, it became an important artistic medium for political protest and expression during the pro-democracy movement.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Samulnori. Musiche e danze della Corea, compagnia PUNG-MU-AK: 6 novembre 2000 - Arena del Sole (https://archive.org/details/20001106.samulnori)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Most performances take place outdoors with dozens of players in constant motion, featuring group formations (jinpuri), solo performances by the lead gong player (Sangsoe Noleum), hat-streamer twirling (Sangmonori), hourglass drum solos (Suljanggu Noleum), small drum dances (Sogo Noleum), and satirical character skits (japsaek).",
+     "Watch for Sangmonori, Sogo Noleum."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (4oiODXIUkiY)",
+     "Captions name each signature move as it appears",
+     "Formation: Outdoor processions and dynamic group formations (jinpuri)"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Drumming is the central element of pungmul, utilizing five major instruments: the kkwaenggwari (small handheld gong), janggu (hourglass drum), buk (barrel drum), jing (gong), and sogo (small handle drum).",
+     "Wind instruments such as the taepyeongso (hojeok, senap, or nalari) also accompany the drummers.",
+     "Listen for the kkwaenggwari, janggu, buk, jing.",
+     "A thunderous, highly dynamic percussion landscape driven by the piercing metallic ring of the kkwaenggwari gong, the resonant low thud of the buk barrel drum, the complex pitch bends of the janggu hourglass drum, and the deep reverberation of the jing gong."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Jangdan (rhythmic patterns common to pungmul, sanjo, and pansori)"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers wear colorful costumes, most commonly featuring a flowery version of the Buddhist gokkal head-dress.",
+     "Advanced troupe members wear sangmo hats with long ribbons spun via knee bends.",
+     "Settings are traditionally outdoor village streets, fields, and community spaces."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Kim Duk-soo, Kim Yong-bae, Sim U-seong, Kim Swoo Geun, Kim Bong Jun, and Yi Jong-hun.",
+     "Recognized in five primary regional styles under South Korean cultural property designation: Jinju Samcheonpo nongak (yeongnam style), Pyeongtaek nongak (utdari style), Iri nongak (honam udo style), Gangneung nongak (yeongdong style), and Imsil Pilbong nongak (honam jwado style, known for rapid rhythms and varying formations).",
+     "Rooted in ancient agricultural and shamanistic traditions; gave rise to modern staged percussion genres like SamulNori and shares historical ties with itinerant Namsadang troupes."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Pungmul is child of SamulNori: Traditional percussion genre derived from multiple pungmul styles, performed seated.",
+     "Pungmul is sibling of Namsadang: Itinerant performance troupe having pungmul in its repertoire.",
+     "Pungmul is shares music of Pung cholom: A similar dance from Manipur, India."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. March in constant motion outdoors to drum beats",
+     "Bend knees rhythmically to power hat-streamer (sangmo) spins",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the thunderous drumming, dynamic ribbon-twirling, and agrarian roots of Korea's living percussion tradition.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn basic marching posture and rhythm pacing",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn basic marching posture and rhythm pacing.",
+      "Level: Beginner. Difficulty of the dance overall: advanced.",
+      "Your instructor: A grounded, energetic master percussionist blending cultural history with physical technique."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Constant motion, upright with dynamic knee bends",
+      "Playing instruments (sogo, drums, gongs) or holding ribbons"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Rhythm pattern: Jangdan (rhythmic patterns common to pungmul, sanjo, and pansori).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: March in constant motion outdoors to drum beats",
+      "Step 2: Bend knees rhythmically to power hat-streamer (sangmo) spins",
+      "Drill: Marching in place with steady rhythm"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute group formation shifts (jinpuri)",
+      "Step 4: Play basic sogo drum patterns while dancing",
+      "Drill: Clapping/playing basic jangdan patterns"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Simple upper body coordination"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated rhythm playing using hand drums or lap percussion, echoing the SamulNori performance style. · For children: Interactive call-and-response percussion game mimicking drum beats and simple processional marching."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated rhythm playing using hand drums or lap percussion, echoing the SamulNori performance style.",
+      "For children: Interactive call-and-response percussion game mimicking drum beats and simple processional marching."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn basic marching posture and rhythm pacing.",
+      "Historically played during farm work, lunar holidays, village community events, shamanistic rituals, and fundraising.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Integrate sogo drum handling and group formations",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Integrate sogo drum handling and group formations.",
+      "Level: Intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: A grounded, energetic master percussionist blending cultural history with physical technique."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Constant motion, upright with dynamic knee bends",
+      "Playing instruments (sogo, drums, gongs) or holding ribbons"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Rhythm pattern: Jangdan (rhythmic patterns common to pungmul, sanjo, and pansori).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: March in constant motion outdoors to drum beats",
+      "Step 2: Bend knees rhythmically to power hat-streamer (sangmo) spins",
+      "Drill: Walking formations (jinpuri)"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute group formation shifts (jinpuri)",
+      "Step 4: Play basic sogo drum patterns while dancing",
+      "Sangmonori: Hat-streamer twirling performance powered by knee bends",
+      "Sogo Noleum: Small drum with handle performance featuring acrobatic choreography",
+      "Drill: Sogo striking patterns"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Knee-bend pacing"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated rhythm playing using hand drums or lap percussion, echoing the SamulNori performance style. · For children: Interactive call-and-response percussion game mimicking drum beats and simple processional marching."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated rhythm playing using hand drums or lap percussion, echoing the SamulNori performance style.",
+      "For children: Interactive call-and-response percussion game mimicking drum beats and simple processional marching."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Outdoor processions and dynamic group formations (jinpuri)"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate sogo drum handling and group formations.",
+      "Kim Duk-soo, Kim Yong-bae, Sim U-seong, Kim Swoo Geun, Kim Bong Jun, and Yi Jong-hun.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute complex ribbon hat manipulation",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute complex ribbon hat manipulation.",
+      "Level: Advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: A grounded, energetic master percussionist blending cultural history with physical technique."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Constant motion, upright with dynamic knee bends",
+      "Playing instruments (sogo, drums, gongs) or holding ribbons"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Rhythm pattern: Jangdan (rhythmic patterns common to pungmul, sanjo, and pansori).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Execute group formation shifts (jinpuri)",
+      "Step 2: Play basic sogo drum patterns while dancing",
+      "Drill: Sangmo ribbon-spinning mechanics"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Sangmonori: Hat-streamer twirling performance powered by knee bends",
+      "Sogo Noleum: Small drum with handle performance featuring acrobatic choreography",
+      "Drill: Acrobatic footwork coordination"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Advanced solo rhythm execution"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated rhythm playing using hand drums or lap percussion, echoing the SamulNori performance style. · For children: Interactive call-and-response percussion game mimicking drum beats and simple processional marching."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated rhythm playing using hand drums or lap percussion, echoing the SamulNori performance style.",
+      "For children: Interactive call-and-response percussion game mimicking drum beats and simple processional marching."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Outdoor processions and dynamic group formations (jinpuri)"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute complex ribbon hat manipulation.",
+      "Rooted in ancient agricultural and shamanistic traditions; gave rise to modern staged percussion genres like SamulNori and shares historical ties with itinerant Namsadang troupes.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Jangdan (rhythmic patterns common to pungmul, sanjo, and pansori)",
+  "instruments": [
+   "kkwaenggwari",
+   "janggu",
+   "buk",
+   "jing",
+   "taepyeongso",
+   "hojeok",
+   "senap",
+   "nalari"
+  ],
+  "vocal_style": "Minyo (folksongs) and chants",
+  "musical_form": "Processional drumming with cyclical rhythms",
+  "mood": [
+   "energetic",
+   "festive",
+   "thunderous",
+   "communal"
+  ],
+  "sound_description": "A thunderous, highly dynamic percussion landscape driven by the piercing metallic ring of the kkwaenggwari gong, the resonant low thud of the buk barrel drum, the complex pitch bends of the janggu hourglass drum, and the deep reverberation of the jing gong.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Pungmul (South Korea). Rhythm pattern: Jangdan (rhythmic patterns common to pungmul, sanjo, and pansori). Instruments: kkwaenggwari, janggu, buk, jing, taepyeongso, hojeok, senap, nalari. Vocal style: Minyo (folksongs) and chants. Form: Processional drumming with cyclical rhythms. Mood: energetic, festive, thunderous, communal. It should sound like this: A thunderous, highly dynamic percussion landscape driven by the piercing metallic ring of the kkwaenggwari gong, the resonant low thud of the buk barrel drum, the complex pitch bends of the janggu hourglass drum, and the deep reverberation of the jing gong. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "4oiODXIUkiY",
+   "checked_by_vision_model": false,
+   "title": "Korean Folk Village: Nongak (farmer’s music)"
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performers wear colorful costumes, most commonly featuring a flowery version of the Buddhist gokkal head-dress. Advanced troupe members wear sangmo hats with long ribbons spun via knee bends. Settings are traditionally outdoor village streets, fields, and community spaces.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AThe_Fugong_Temple_Wooden_Pagoda.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AKorea-Ggaenggwari-01.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AKorean_music-Nongak-02.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/The_Fugong_Temple_Wooden_Pagoda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/The_Fugong_Temple_Wooden_Pagoda.jpg/1280px-The_Fugong_Temple_Wooden_Pagoda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Gisling / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AThe_Fugong_Temple_Wooden_Pagoda.jpg",
+    "description": "The Fogong Temple Wooden Pagoda of Ying county, Shanxi province, China (山西应县佛宫寺释迦木塔); this fully-wooden pagoda was built in 1056 AD during the Khitan-led Liao Dynasty of China."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Korea-Ggaenggwari-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Korea-Ggaenggwari-01.jpg/1280px-Korea-Ggaenggwari-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "by mary_gaston22 / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKorea-Ggaenggwari-01.jpg",
+    "description": "Ggaenggwari(꽹과리), Korean musical instrument."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Korean_music-Nongak-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Korean_music-Nongak-02.jpg/1280px-Korean_music-Nongak-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "leigh cooper / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKorean_music-Nongak-02.jpg",
+    "description": "Nongak, farmer's music"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Korean_music-Nongak-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Korean_music-Nongak-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "hojusaram / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKorean_music-Nongak-03.jpg",
+    "description": "Nongak performace, farmer's dance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Balafon_Jamie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/80/Balafon_Jamie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Jamie Price / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABalafon_Jamie.jpg",
+    "description": "And more love."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Tranditoinal_Korean_music_band-April_6_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Tranditoinal_Korean_music_band-April_6_2009.jpg/1280px-Tranditoinal_Korean_music_band-April_6_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Spc. Christen Best, USAG-Yongsan / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATranditoinal_Korean_music_band-April_6_2009.jpg",
+    "description": "Nongakdae, the Traditional Korean Folk Band presented their rhythmic performances and acrobatics at the 1st Heavy Brigade Combat Team Family Day April 3 at Camp Casey's Soldier Field."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/2008_Yongsan_Fall_Festival-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/2008_Yongsan_Fall_Festival-01.jpg/1280px-2008_Yongsan_Fall_Festival-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "David McNally, USAG-Yongsan / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A2008_Yongsan_Fall_Festival-01.jpg",
+    "description": "A Korean traditional female dancer smiles during the 2008 Yongsan Fall Festival Parade Oct. 11 on Yongsan Garrison, Seoul, Republic of Korea."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Pungmul_activity_regions_in_South_Korea.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Pungmul_activity_regions_in_South_Korea.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Arsonal / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APungmul_activity_regions_in_South_Korea.png",
+    "description": "Provincial map of South Korea showing the five activity regions of pungmul listed as Important Intangible Cultural Properties."
+   }
+  ],
+  "footage": [
+   {
+    "title": "Samulnori. Musiche e danze della Corea, compagnia PUNG-MU-AK: 6 novembre 2000 - Arena del Sole",
+    "url": "https://archive.org/details/20001106.samulnori",
+    "year": 2000,
+    "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "UCLA Ethnomusicology Spring Festival of World Music 2024: Music of Korea Ensemble",
+    "url": "https://archive.org/details/calauem_200201_omvf0000634b_ac",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "e_history_StreamRoot_DH_0500_19641226_01",
+    "url": "https://archive.org/details/e_history_StreamRoot_DH_0500_19641226_01",
+    "year": 1964,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Lowell Folk Fest 2024 - Korean Performing Arts Inst. of Chicago",
+    "url": "https://archive.org/details/stvma-Lowell_Folk_Fest_2024_-_Korean_Performing_Arts_Inst._of_Chicago",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "e_history_StreamRoot_DH_0493_19641107_01",
+    "url": "https://archive.org/details/e_history_StreamRoot_DH_0493_19641107_01",
+    "year": 1964,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "e_history_StreamRoot_DH_0342_19611130_01",
+    "url": "https://archive.org/details/e_history_StreamRoot_DH_0342_19611130_01",
+    "year": 1961,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "e_history_StreamRoot_DH_0382_19620915_01",
+    "url": "https://archive.org/details/e_history_StreamRoot_DH_0382_19620915_01",
+    "year": 1962,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "e_history_StreamRoot_DH_0333_19610930_01",
+    "url": "https://archive.org/details/e_history_StreamRoot_DH_0333_19610930_01",
+    "year": 1961,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Flowery gokkal head-dresses",
+   "Spinning white ribbons of sangmo hats",
+   "Hourglass janggu drums beaten in unison",
+   "Outdoor village processions"
+  ],
+  "costume_notes": "Performers wear colorful costumes, most commonly featuring a flowery version of the Buddhist gokkal head-dress. Advanced troupe members wear sangmo hats with long ribbons spun via knee bends. Settings are traditionally outdoor village streets, fields, and community spaces.",
+  "setting_notes": "Historically played during farm work, lunar holidays, village community events, shamanistic rituals, and fundraising. In the late 20th century, it became an important artistic medium for political protest and expression during the pro-democracy movement.",
+  "map": {
+   "country": "South Korea",
+   "region": "East Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pungmul",
+  "https://www.wikidata.org/wiki/Q497674",
+  "https://es.wikipedia.org/wiki/Pungmul",
+  "https://fr.wikipedia.org/wiki/Pungmul",
+  "https://de.wikipedia.org/wiki/Pungmul"
+ ],
+ "claims_verified": 5,
+ "claims": 5,
+ "polished": false,
+ "hero_checked": null
+}

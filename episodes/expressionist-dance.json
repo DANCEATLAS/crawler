@@ -1,0 +1,842 @@
+{
+ "slug": "expressionist-dance",
+ "name": "expressionist dance",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-10-31T15:59:53Z",
+ "qc_score": 9.1,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A passionate modern dance teacher with deep knowledge of Ausdruckstanz history and improvisational technique.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "expressionist dance",
+   "expressive dance",
+   "expressionistic dance",
+   "Ausdruckstanz",
+   "German dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet expressionist dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Barefoot Revolution: The Birth of Expressionist Dance",
+     "This is expressionist dance. early 20th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (37sEaUhFzpI)",
+     "Title card: expressionist dance · Germany · early 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Expressionist dance originated in early 20th-century Europe, particularly Germany and the USA, as a protest against the formalism of classical ballet.",
+     "Isadora Duncan, dancing barefoot around 1900, was a key early figure who sought to unite body, mind, and spirit, drawing on ancient art for inspiration.",
+     "Rudolf von Laban developed theoretical frameworks and notation for the dance, teaching at Monte Verità in Switzerland."
+    ],
+    "on_screen": [
+     "Map: Germany · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Expressionist dance was performed as an artistic statement and personal expression, often in solo or small group performances.",
+     "It was a form of protest against traditional ballet and societal norms, emphasizing individuality, emotion, and spiritual connection.",
+     "It also had feminist significance, with many women leading the movement."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for weight shift, floor contact."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (37sEaUhFzpI)",
+     "Captions name each signature move as it appears",
+     "Formation: solo or small groups, flexible spatial use"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music for expressionist dance ranges from classical pieces to percussion instruments such as drums, sistrums, and xylophones; some dances are performed without music.",
+     "Rhythm and expressive movement are central, with experimentation in musical accompaniment to enhance emotional impact.",
+     "Listen for the drums, sistrum, xylophone, percussion.",
+     "The pulse is variable.",
+     "Music ranges from classical to experimental percussion, often emphasizing rhythm and mood to support expressive, improvisational movement."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: often irregular or free rhythm; percussion-based"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Costumes are often minimal or naturalistic, reflecting the dance’s emphasis on natural movement and body expression.",
+     "Isadora Duncan famously danced barefoot and in simple tunics inspired by ancient Greek art.",
+     "The setting can vary but often includes studio or stage spaces conducive to improvisation and expressive movement."
+    ],
+    "on_screen": [
+     "Image gallery: 4 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Isadora Duncan, Rudolf von Laban, Mary Wigman, Gret Palucca, Harald Kreutzberg, Hanya Holm, Ruth St. Denis, Ted Shawn, Martha Graham, Liz Aggiss, Birgit Åkesson, Dore Hoyer, Jo Mihaly.",
+     "The movement was strongest in Germany and the USA, with schools in Dresden and the Denishawn School in the USA.",
+     "Expressionist dance evolved from late 19th-century efforts to free dance from classical constraints, influenced by the Delsarte system and early modern dancers like Loie Fuller and Isadora Duncan."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "expressionist dance is child of modern dance: Modern dance evolved from expressionist dance principles, especially in the USA.",
+     "expressionist dance is influence of Butoh: Japanese Butoh was inspired by German expressionist dance after WWII.",
+     "expressionist dance is shares music of dance-theatre: Expressionist dance is closely linked to Tanztheater, combining dance and theatrical elements."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Focus on natural breathing and relaxation",
+     "Explore weight shifts and floor contact",
+     "Count it: count the variable bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how early 20th-century dancers broke ballet’s chains to create a raw, emotional dance form that united body, mind, and spirit.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Connect breath and natural movement",
+   "level": "beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Connect breath and natural movement.",
+      "Level: beginner. Difficulty of the dance overall: beginner to intermediate.",
+      "Your instructor: A passionate modern dance teacher with deep knowledge of Ausdruckstanz history and improvisational technique."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "natural, relaxed, expressive",
+      "free, expressive gestures conveying emotion",
+      "engaged with weight shifts and tension/release"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the variable bar out loud, then in pairs of bars. The meter is variable.",
+      "Rhythm pattern: often irregular or free rhythm; percussion-based.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Focus on natural breathing and relaxation",
+      "Step 2: Explore weight shifts and floor contact",
+      "Footwork from the sources: not codified; includes barefoot dancing and floor contact",
+      "Drill: Breathing exercises with slow arm lifts"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the variable bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Use improvisation to express emotions",
+      "Step 4: Incorporate tension and release in movements",
+      "Drill: Weight shifting from one foot to the other"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the variable bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Simple floor contact exploration"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rigid, mechanical movements; do not treat as purely technical ballet steps."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the variable bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Connect breath and natural movement.",
+      "Expressionist dance was performed as an artistic statement and personal expression, often in solo or small group performances.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Express emotion through improvisation",
+   "level": "intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Express emotion through improvisation.",
+      "Level: intermediate. Difficulty of the dance overall: beginner to intermediate.",
+      "Your instructor: A passionate modern dance teacher with deep knowledge of Ausdruckstanz history and improvisational technique."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "natural, relaxed, expressive",
+      "free, expressive gestures conveying emotion",
+      "engaged with weight shifts and tension/release"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the variable bar out loud, then in pairs of bars. The meter is variable.",
+      "Rhythm pattern: often irregular or free rhythm; percussion-based.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Practice slow, deliberate gestures emphasizing feeling",
+      "Drill: Improvised movement responding to percussion rhythms"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the variable bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "weight shift: Deliberate transfer of body weight to express emotion and movement flow",
+      "floor contact: Use of the floor to ground movement and explore body weight",
+      "Drill: Exploring tension and release in torso and limbs"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the variable bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Using gestures to convey specific feelings"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rigid, mechanical movements; do not treat as purely technical ballet steps."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the variable bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: solo or small groups, flexible spatial use"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Express emotion through improvisation.",
+      "Isadora Duncan, Rudolf von Laban, Mary Wigman, Gret Palucca, Harald Kreutzberg, Hanya Holm, Ruth St. Denis, Ted Shawn, Martha Graham, Liz Aggiss, Birgit Åkesson, Dore Hoyer, Jo Mihaly.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Integrate expressionist techniques into choreography",
+   "level": "advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Integrate expressionist techniques into choreography.",
+      "Level: advanced. Difficulty of the dance overall: beginner to intermediate.",
+      "Your instructor: A passionate modern dance teacher with deep knowledge of Ausdruckstanz history and improvisational technique."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "natural, relaxed, expressive",
+      "free, expressive gestures conveying emotion",
+      "engaged with weight shifts and tension/release"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the variable bar out loud, then in pairs of bars. The meter is variable.",
+      "Rhythm pattern: often irregular or free rhythm; percussion-based.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Incorporate tension and release in movements",
+      "Step 2: Practice slow, deliberate gestures emphasizing feeling",
+      "Drill: Create a short solo with floor work and weight shifts"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the variable bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "weight shift: Deliberate transfer of body weight to express emotion and movement flow",
+      "floor contact: Use of the floor to ground movement and explore body weight",
+      "Drill: Experiment with mask use and dramatic facial expression"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the variable bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Combine rhythmic accompaniment with movement improvisation"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rigid, mechanical movements; do not treat as purely technical ballet steps."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the variable bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: solo or small groups, flexible spatial use"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate expressionist techniques into choreography.",
+      "Expressionist dance evolved from late 19th-century efforts to free dance from classical constraints, influenced by the Delsarte system and early modern dancers like Loie Fuller and Isadora Duncan.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "variable",
+  "rhythm_pattern": "often irregular or free rhythm; percussion-based",
+  "instruments": [
+   "drums",
+   "sistrum",
+   "xylophone",
+   "percussion",
+   "classical instruments"
+  ],
+  "vocal_style": null,
+  "musical_form": "varied; some dances performed without music",
+  "mood": [
+   "expressive",
+   "emotional",
+   "dramatic",
+   "natural",
+   "improvisational"
+  ],
+  "sound_description": "Music ranges from classical to experimental percussion, often emphasizing rhythm and mood to support expressive, improvisational movement.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of expressionist dance (Germany). Meter variable. Rhythm pattern: often irregular or free rhythm; percussion-based. Instruments: drums, sistrum, xylophone, percussion, classical instruments. Form: varied; some dances performed without music. Mood: expressive, emotional, dramatic, natural, improvisational. It should sound like this: Music ranges from classical to experimental percussion, often emphasizing rhythm and mood to support expressive, improvisational movement. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "37sEaUhFzpI",
+   "checked_by_vision_model": false,
+   "title": "Mary Wigman - Dancer, Choreographer and Pioneer of Expressionist Dance 3"
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Costumes are often minimal or naturalistic, reflecting the dance’s emphasis on natural movement and body expression. Isadora Duncan famously danced barefoot and in simple tunics inspired by ancient Greek art. The setting can vary but often includes studio or stage spaces conducive to improvisation and expressive movement.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ALoie_Fuller.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ABundesarchiv_Bild_102-09849%2C_Tanzschule_Laban_im_Strandbad_Wannsee.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ABundesarchiv_B_145_Bild-P047333%2C_Berlin%2C_Mary_Wigman-Studio.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Loie_Fuller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Loie_Fuller.jpg/1280px-Loie_Fuller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Frederick Whitman Glasier / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALoie_Fuller.jpg",
+    "description": "1902 portrait of modern dancer Loie Fuller in one of her signature costumes. Original title from library catalog: \"Loie Fuller, full-length portrait, standing, facing front; raising her very long gown in shape of butterfly\""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Bundesarchiv_Bild_102-09849%2C_Tanzschule_Laban_im_Strandbad_Wannsee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Bundesarchiv_Bild_102-09849%2C_Tanzschule_Laban_im_Strandbad_Wannsee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "UnknownUnknown / Wikimedia Commons / CC BY-SA 3.0 de",
+    "license": "CC BY-SA 3.0 de",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABundesarchiv_Bild_102-09849%2C_Tanzschule_Laban_im_Strandbad_Wannsee.jpg",
+    "description": "For documentary purposes the German Federal Archive often retained the original image captions, which may be erroneous, biased, obsolete or politically extreme. Die berühmte Laban-Tanzschule trainiert! Nach den modernsten Unterrichstmethoden werden die zukünftigen Tanzstars in der Labanschule ausgebildet. Unsere Bilder zeigen eine Morgenübung der berühmten Tanzschule Laban im Strandbad Wannsee bei"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Bundesarchiv_B_145_Bild-P047333%2C_Berlin%2C_Mary_Wigman-Studio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Bundesarchiv_B_145_Bild-P047333%2C_Berlin%2C_Mary_Wigman-Studio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Schütz, Klaus / Wikimedia Commons / CC BY-SA 3.0 de",
+    "license": "CC BY-SA 3.0 de",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABundesarchiv_B_145_Bild-P047333%2C_Berlin%2C_Mary_Wigman-Studio.jpg",
+    "description": "For documentary purposes the German Federal Archive often retained the original image captions, which may be erroneous, biased, obsolete or politically extreme. 23.1.1959\nWest-Berlin, Mary Wigman-Studio\n\nMitte: M. Wigman"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Trcka_Holger.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Trcka_Holger.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Josef Anton Trčka / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATrcka_Holger.jpeg",
+    "description": "Photography of Hilde Holger"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "bare feet",
+   "flowing tunics",
+   "dramatic shadows",
+   "floor contact",
+   "breath visible in movement"
+  ],
+  "costume_notes": "Costumes are often minimal or naturalistic, reflecting the dance’s emphasis on natural movement and body expression. Isadora Duncan famously danced barefoot and in simple tunics inspired by ancient Greek art. The setting can vary but often includes studio or stage spaces conducive to improvisation and expressive movement.",
+  "setting_notes": "Expressionist dance was performed as an artistic statement and personal expression, often in solo or small group performances. It was a form of protest against traditional ballet and societal norms, emphasizing individuality, emotion, and spiritual connection. It also had feminist significance, with many women leading the movement.",
+  "map": {
+   "country": "Germany",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "count the variable bar out loud, then in pairs of bars",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed reference footage",
+  "the how-it-is-danced section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Expressionist_dance",
+  "https://www.wikidata.org/wiki/Q778382",
+  "https://es.wikipedia.org/wiki/Danza_expresionista",
+  "https://fr.wikipedia.org/wiki/Danse_expressionniste",
+  "https://de.wikipedia.org/wiki/Ausdruckstanz"
+ ],
+ "claims_verified": 9,
+ "claims": 9,
+ "polished": false,
+ "hero_checked": null
+}

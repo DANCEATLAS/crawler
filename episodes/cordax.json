@@ -1,0 +1,351 @@
+{
+ "slug": "cordax",
+ "name": "cordax",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-10-30T17:10:39Z",
+ "qc_score": 9.55,
+ "status": "withheld-chapters",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A rigorous classical antiquity scholar with a passion for the unvarnished, earthy realities of ancient popular culture.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "cordax",
+   "kordax",
+   "cordace",
+   "motus ionici"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet cordax",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Scandalous Mask Dance Ancient Greece Tried to Hide",
+     "This is cordax. Ancient Greece / Antiquity."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (U9gHiAHIrfo)",
+     "Title card: cordax · Greece · Ancient Greece / Antiquity"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The cordax originated as a buffoonish dance of Lydian origin, later becoming a permanent fixture of ancient Attic comedy and private symposia.",
+     "It persisted through Roman literature via writers like Juvenal and Petronius, and continued to be referenced in medieval texts by Rabelais and others."
+    ],
+    "on_screen": [
+     "Map: Greece · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Associated with drunkenness, comic relief, and theatrical satire, the dance also held a sacred dimension, being dedicated to the goddess Artemis in Elis following a military victory."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance involved particular turns, staggers, and vulgar body movements.",
+     "Dancers engaged in lively, brio-filled steps that culminated in sinking to the ground with tremulous buttocks amid audience applause.",
+     "Watch for Tremulous sinking."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (U9gHiAHIrfo)",
+     "Captions name each signature move as it appears",
+     "Formation: theatrical stage or symposion banquet"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The musical accompaniment relied on percussion and wind instruments, specifically the clicking of castanets, finger cymbals, flutes, hand drums, and harps, forming a bouncing trochaic rhythm.",
+     "Listen for the flutes, hand drums, harps, castanets.",
+     "The pulse is trochaic.",
+     "Accompanied by the clicking of castanets, finger cymbals, flutes, hand drums, and harps, creating a bouncing, trochaic rhythm suited for drunken revelry and comic theater."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers wore theatrical masks and, in comedic contexts, oversized, red, erect artificial penises.",
+     "It was performed on theatrical comedy stages and during the symposion phase of banquets."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Aristophanes, Petronius, Juvenal, Trimalchio, Fortunata, Theophrastus, Pausanias, and Karl August Böttiger.",
+     "Transitioned from Lydian roots to ancient Greek comedy, Roman adaptations, and later theoretical links to European folk forms like the tarantella and fandango.",
+     "Linked by theorists to ancient Greek comedy, the worship of Artemis in Elis, and proposed as an ancient predecessor to modern belly dance, tsifteteli, fandango, and tarantella."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "cordax is variant of tsifteteli: Theorized modern Greek descendant of the ancient cordax.",
+     "cordax is sibling of komos: Ancient Greek ritual revelry associated with drunkenness and dance.",
+     "cordax is influence of fandango: Suggested by scholars as a modern descendant due to castanet accompaniment."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The cordax was dedicated to the goddess Artemis in Elis, where she held the cultic epithet kordax following a military victory."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the provocative and censored cordax, the ancient Greek comedy dance that scandalized philosophers and delighted banquet revelers.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "trochaic",
+  "rhythm_pattern": null,
+  "instruments": [
+   "flutes",
+   "hand drums",
+   "harps",
+   "castanets",
+   "finger cymbals"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "provocative",
+   "licentious",
+   "obscene",
+   "drunken",
+   "buffoonish"
+  ],
+  "sound_description": "Accompanied by the clicking of castanets, finger cymbals, flutes, hand drums, and harps, creating a bouncing, trochaic rhythm suited for drunken revelry and comic theater.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of cordax (Greece). Meter trochaic. Instruments: flutes, hand drums, harps, castanets, finger cymbals. Mood: provocative, licentious, obscene, drunken, buffoonish. It should sound like this: Accompanied by the clicking of castanets, finger cymbals, flutes, hand drums, and harps, creating a bouncing, trochaic rhythm suited for drunken revelry and comic theater. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "U9gHiAHIrfo",
+   "checked_by_vision_model": false,
+   "title": "Zorba, ¡enséñame a bailar! El baile final - Las Notas del Vino 2018"
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performers wore theatrical masks and, in comedic contexts, oversized, red, erect artificial penises. It was performed on theatrical comedy stages and during the symposion phase of banquets.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Ancient Greek theatrical masks",
+   "Terracotta vase paintings of comic actors",
+   "Clicking castanets and bronze finger cymbals"
+  ],
+  "costume_notes": "Performers wore theatrical masks and, in comedic contexts, oversized, red, erect artificial penises. It was performed on theatrical comedy stages and during the symposion phase of banquets.",
+  "setting_notes": "Associated with drunkenness, comic relief, and theatrical satire, the dance also held a sacred dimension, being dedicated to the goddess Artemis in Elis following a military victory.",
+  "map": {
+   "country": "Greece",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "count the trochaic bar out loud, then in pairs of bars",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Cordax",
+  "https://www.wikidata.org/wiki/Q730233",
+  "https://fr.wikipedia.org/wiki/Cordax",
+  "https://de.wikipedia.org/wiki/Cordax",
+  "https://it.wikipedia.org/wiki/Cordace"
+ ],
+ "claims_verified": 11,
+ "claims": 11,
+ "polished": false,
+ "hero_checked": null
+}

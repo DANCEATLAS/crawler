@@ -1,0 +1,809 @@
+{
+ "slug": "solea",
+ "name": "Soleá",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-11-01T17:16:37Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A seasoned flamenco dancer with deep knowledge of traditional forms.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Soleá",
+   "Solea",
+   "Soleares"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Soleá",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Sound of Solitude",
+     "This is Soleá. 19th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (8LqbyPf5hU8)",
+     "Title card: Soleá · Spain · 19th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Likely emerged in the mid-19th century among Romani communities in Cádiz and Seville.",
+     "Earliest mentions appear in 1862.",
+     "It evolved from earlier festive styles like 'jaleo' into a solemn, independent form."
+    ],
+    "on_screen": [
+     "Map: Spain · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Traditionally performed in cafés cantantes, festivals, and tablaos.",
+     "It conveys intimate pain, solemnity, and sometimes irony."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Performed as a solo, often by a woman.",
+     "It features expressive arm and torso movements, serious facial expressions, and rhythmic zapateado footwork.",
+     "The dancer interacts with the singer and guitarist, often using the 'compás' to dictate the rhythm.",
+     "Watch for Zapateado."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (8LqbyPf5hU8)",
+     "Captions name each signature move as it appears"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Accompanied by a single guitar and a singer.",
+     "The music is modal, typically in the Phrygian mode.",
+     "Listen for the Guitar, Voice.",
+     "The pulse is 12-beat compás.",
+     "A slow, heavy, and solemn sound characterized by the Phrygian mode, guitar accompaniment, and a voice that balances passion with restraint."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "La Andonda, Joaquín el de La Paula, La Serneta, Enrique el Mellizo, Juaniquí, Frijones.",
+     "Triana, Cádiz, Jerez, Alcalá, Utrera, Córdoba, Lebrija.",
+     "Related to Bulerías, Alegrías, and other palos in the Cantiñas group."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Soleá is sibling of Bulerías: Shares the same 12-beat compás but with a different, more festive character.",
+     "Soleá is parent of Jaleo: The Soleá likely evolved from the festive 'coplas de jaleo'."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Master the 12-beat compás rhythm.",
+     "Practice expressive arm movements.",
+     "Count it: count the 12-beat compás bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the Soleá, the 'mother of palos' that defines the soul of flamenco.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Understand the 12-beat compás",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Understand the 12-beat compás.",
+      "Level: Beginner. Difficulty of the dance overall: advanced.",
+      "Your instructor: A seasoned flamenco dancer with deep knowledge of traditional forms."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Expressive, fluid arm movements",
+      "Subtle, expressive movement"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 12-beat compás bar out loud, then in pairs of bars. The meter is 12-beat compás.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Master the 12-beat compás rhythm.",
+      "Step 2: Practice expressive arm movements.",
+      "Footwork from the sources: Zapateado (rhythmic footwork)",
+      "Drill: Clapping the 12-beat pattern"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12-beat compás bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute basic zapateado footwork patterns.",
+      "Step 4: Coordinate torso movement with the rhythm.",
+      "Drill: Walking to the rhythm"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12-beat compás bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 12-beat compás bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand the 12-beat compás.",
+      "Traditionally performed in cafés cantantes, festivals, and tablaos.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Basic arm coordination",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Basic arm coordination.",
+      "Level: Intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: A seasoned flamenco dancer with deep knowledge of traditional forms."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Expressive, fluid arm movements",
+      "Subtle, expressive movement"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 12-beat compás bar out loud, then in pairs of bars. The meter is 12-beat compás.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Master the 12-beat compás rhythm.",
+      "Step 2: Practice expressive arm movements.",
+      "Drill: Fluid arm circles"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12-beat compás bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute basic zapateado footwork patterns.",
+      "Step 4: Coordinate torso movement with the rhythm.",
+      "Zapateado: Rhythmic footwork used to punctuate the music.",
+      "Drill: Matching arms to the compás"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12-beat compás bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 12-beat compás bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Basic arm coordination.",
+      "La Andonda, Joaquín el de La Paula, La Serneta, Enrique el Mellizo, Juaniquí, Frijones.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Integrating zapateado",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Integrating zapateado.",
+      "Level: Advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: A seasoned flamenco dancer with deep knowledge of traditional forms."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Expressive, fluid arm movements",
+      "Subtle, expressive movement"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 12-beat compás bar out loud, then in pairs of bars. The meter is 12-beat compás.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Execute basic zapateado footwork patterns.",
+      "Step 2: Coordinate torso movement with the rhythm.",
+      "Drill: Simple footwork patterns"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12-beat compás bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Zapateado: Rhythmic footwork used to punctuate the music.",
+      "Drill: Combining arms and feet"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12-beat compás bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 12-beat compás bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrating zapateado.",
+      "Related to Bulerías, Alegrías, and other palos in the Cantiñas group.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "12-beat compás",
+  "rhythm_pattern": null,
+  "instruments": [
+   "Guitar",
+   "Voice"
+  ],
+  "vocal_style": "Serious, melismatic, microtonal, expressive",
+  "musical_form": "Stanzas of 3 or 4 lines (cuarteta romanceada)",
+  "mood": [
+   "solemn",
+   "melancholic",
+   "intimate",
+   "painful"
+  ],
+  "sound_description": "A slow, heavy, and solemn sound characterized by the Phrygian mode, guitar accompaniment, and a voice that balances passion with restraint.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Soleá (Spain). Meter 12-beat compás. Instruments: Guitar, Voice. Vocal style: Serious, melismatic, microtonal, expressive. Form: Stanzas of 3 or 4 lines (cuarteta romanceada). Mood: solemn, melancholic, intimate, painful. It should sound like this: A slow, heavy, and solemn sound characterized by the Phrygian mode, guitar accompaniment, and a voice that balances passion with restraint. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "8LqbyPf5hU8",
+   "checked_by_vision_model": false,
+   "title": "Flamenco - Solea - Sara baras 1997"
+  },
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ASolea_por_bulerias.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Solea_por_bulerias.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Solea_por_bulerias.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "büys / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASolea_por_bulerias.jpg",
+    "description": "solea.por.bulerias."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Shadows in a café",
+   "Close-up of guitar strings",
+   "Dancer's hands",
+   "Andalusian architecture"
+  ],
+  "costume_notes": null,
+  "setting_notes": "Traditionally performed in cafés cantantes, festivals, and tablaos. It conveys intimate pain, solemnity, and sometimes irony.",
+  "map": {
+   "country": "Spain",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "count the 12-beat compás bar out loud, then in pairs of bars",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the costume & setting section",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sole%C3%A1",
+  "https://www.wikidata.org/wiki/Q1617757",
+  "https://es.wikipedia.org/wiki/Soleá_(flamenco)",
+  "https://fr.wikipedia.org/wiki/Soleá",
+  "https://de.wikipedia.org/wiki/Soleá"
+ ],
+ "claims_verified": 5,
+ "claims": 5,
+ "polished": false,
+ "hero_checked": null
+}

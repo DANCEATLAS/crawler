@@ -1,0 +1,801 @@
+{
+ "slug": "la-bamba",
+ "name": "La Bamba",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-10-31T16:06:57Z",
+ "qc_score": 9.1,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A seasoned son jarocho dancer and musician from Veracruz, passionate about preserving tradition and teaching the cultural significance of La Bamba.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "La Bamba"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet La Bamba",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "La Bamba: The Dance That Ties Hearts and History",
+     "This is La Bamba. Late 17th century to present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (HwjkTH5xCTw)",
+     "Title card: La Bamba · Mexico · Late 17th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "La Bamba originated in the late 17th century in Veracruz, Mexico, as a son jarocho folk song and dance.",
+     "It initially satirized the late and ineffective defense efforts against pirates by the Mexican viceroy.",
+     "The earliest known recording is by Álvaro Hernández Ortiz in 1938."
+    ],
+    "on_screen": [
+     "Map: Mexico · North America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "La Bamba is performed at weddings and social celebrations where the improvisation of lyrics personalizes the event.",
+     "The ribbon tying symbolizes the union of the couple.",
+     "The dance’s origins as a satirical song about defense against pirates add historical depth."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Ribbon Knot Tying."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (HwjkTH5xCTw)",
+     "Captions name each signature move as it appears",
+     "Formation: Couples dancing together, sometimes multiple couples; spatially centered around ribbon tying"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is son jarocho style, typically played on one or two arpa jarochas (harps), jarana jarocha (small guitar), and requinto jarocho (four-string guitar).",
+     "The harp has 39 strings and plays rapid arpeggios matching the dancers’ footwork.",
+     "Listen for the Arpa jarocha (harp), Jarana jarocha (small guitar), Requinto jarocho (four-string guitar).",
+     "The pulse is Binary meter.",
+     "Bright harp arpeggios intertwine with rhythmic guitar strumming and lively vocals, driven by a fast, binary rhythm that mirrors the dancers’ energetic footwork."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: La Bamba — Álvaro Hernández Ortiz; La Bamba — Ritchie Valens; La Bamba — Los Lobos",
+     "Waveform or rhythm-pattern graphic: Ostinato arpeggiated pattern supporting zapateado footwork"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Costumes are not detailed in the sources but typically align with regional folkloric attire of Veracruz.",
+     "The dance is performed socially at weddings, folkloric festivals, and ballet folklórico shows.",
+     "Settings include community celebrations and staged performances."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Álvaro Hernández Ortiz recorded the earliest known version in 1938.",
+     "Ritchie Valens popularized the song internationally in 1958 with a rock and roll version.",
+     "Variations exist within Veracruz, including differences in tempo and lyrical style.",
+     "La Bamba belongs to the son jarocho tradition, which blends Spanish, indigenous, and African musical and dance elements."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "La Bamba is parent of Son Jarocho: La Bamba is a key example of the son jarocho musical and dance tradition from Veracruz.",
+     "La Bamba is shares music of Bamba (Spanish dance): The name and some rhythmic elements may relate to the Spanish dance called Bamba popular in the 17th century.",
+     "La Bamba is influence of Bambara dance: Possible African influence via the Bambara people, linked through the transatlantic slave trade."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand erect with straight posture",
+     "Begin with slow stamping of right heel (zapateado)",
+     "Count it: count the Binary meter bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore Veracruz’s iconic La Bamba, where vibrant footwork and improvised lyrics weave a living tradition of music, dance, and community.",
+     "Sources: 6 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn basic posture and heel stamping",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn basic posture and heel stamping.",
+      "Level: Beginner. Difficulty of the dance overall: Intermediate (due to fast footwork and ribbon tying).",
+      "Your instructor: A seasoned son jarocho dancer and musician from Veracruz, passionate about preserving tradition and teaching the cultural significance of La Bamba."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Straight and erect, similar to Irish jig dancers"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Binary meter bar out loud, then in pairs of bars. The meter is Binary meter.",
+      "Rhythm pattern: Ostinato arpeggiated pattern supporting zapateado footwork.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand erect with straight posture",
+      "Step 2: Begin with slow stamping of right heel (zapateado)",
+      "Footwork from the sources: Intricate zapateado emphasizing right heel stamping; fast and precise",
+      "Drill: Practice standing erect with straight posture"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Binary meter bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Increase tempo to fast binary rhythm",
+      "Step 4: Perform intricate footwork emphasizing heel taps",
+      "Drill: Slow stamping of right heel to simple beat"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Binary meter bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Basic foot taps in binary rhythm"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid insulting improvised lyrics in social settings to prevent conflicts"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Binary meter bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn basic posture and heel stamping.",
+      "La Bamba is performed at weddings and social celebrations where the improvisation of lyrics personalizes the event.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Master fast zapateado and coordination with partner",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Master fast zapateado and coordination with partner.",
+      "Level: Intermediate. Difficulty of the dance overall: Intermediate (due to fast footwork and ribbon tying).",
+      "Your instructor: A seasoned son jarocho dancer and musician from Veracruz, passionate about preserving tradition and teaching the cultural significance of La Bamba."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Straight and erect, similar to Irish jig dancers"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Binary meter bar out loud, then in pairs of bars. The meter is Binary meter.",
+      "Rhythm pattern: Ostinato arpeggiated pattern supporting zapateado footwork.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Use feet to tie a ribbon into a knot on the floor",
+      "Step 2: Toss the ribbon knot into the air to finish",
+      "Drill: Increase stamping speed maintaining precision"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Binary meter bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Ribbon Knot Tying: Couples use their feet to tie a large ribbon into a lover's knot on the dance floor, symbolizing union.",
+      "Drill: Practice footwork sequences with partner"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Binary meter bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Introduce simple ribbon handling on floor"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid insulting improvised lyrics in social settings to prevent conflicts"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Binary meter bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Couples dancing together, sometimes multiple couples; spatially centered around ribbon tying"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master fast zapateado and coordination with partner.",
+      "Álvaro Hernández Ortiz recorded the earliest known version in 1938.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform ribbon knot tying and lyrical improvisation",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform ribbon knot tying and lyrical improvisation.",
+      "Level: Advanced. Difficulty of the dance overall: Intermediate (due to fast footwork and ribbon tying).",
+      "Your instructor: A seasoned son jarocho dancer and musician from Veracruz, passionate about preserving tradition and teaching the cultural significance of La Bamba."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Straight and erect, similar to Irish jig dancers"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Binary meter bar out loud, then in pairs of bars. The meter is Binary meter.",
+      "Rhythm pattern: Ostinato arpeggiated pattern supporting zapateado footwork.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Use feet to tie a ribbon into a knot on the floor",
+      "Step 2: Toss the ribbon knot into the air to finish",
+      "Drill: Practice tying ribbon knot with feet smoothly"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Binary meter bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Ribbon Knot Tying: Couples use their feet to tie a large ribbon into a lover's knot on the dance floor, symbolizing union.",
+      "Drill: Improvise verses in traditional style"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Binary meter bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Combine footwork, ribbon tying, and lyrical delivery"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid insulting improvised lyrics in social settings to prevent conflicts"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Binary meter bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Couples dancing together, sometimes multiple couples; spatially centered around ribbon tying"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform ribbon knot tying and lyrical improvisation.",
+      "La Bamba belongs to the son jarocho tradition, which blends Spanish, indigenous, and African musical and dance elements.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "Binary meter",
+  "rhythm_pattern": "Ostinato arpeggiated pattern supporting zapateado footwork",
+  "instruments": [
+   "Arpa jarocha (harp)",
+   "Jarana jarocha (small guitar)",
+   "Requinto jarocho (four-string guitar)"
+  ],
+  "vocal_style": "Improvised lyrics, verse-chorus form",
+  "musical_form": null,
+  "mood": [
+   "lively",
+   "joyous",
+   "festive"
+  ],
+  "sound_description": "Bright harp arpeggios intertwine with rhythmic guitar strumming and lively vocals, driven by a fast, binary rhythm that mirrors the dancers’ energetic footwork.",
+  "listen_before_composing": [
+   "La Bamba — Álvaro Hernández Ortiz",
+   "La Bamba — Ritchie Valens",
+   "La Bamba — Los Lobos",
+   "La Bamba — Ritchie Valens (year unknown)",
+   "La Bamba — Los Lobos (2018)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of La Bamba (Mexico). Meter Binary meter. Rhythm pattern: Ostinato arpeggiated pattern supporting zapateado footwork. Instruments: Arpa jarocha (harp), Jarana jarocha (small guitar), Requinto jarocho (four-string guitar). Vocal style: Improvised lyrics, verse-chorus form. Mood: lively, joyous, festive. It should sound like this: Bright harp arpeggios intertwine with rhythmic guitar strumming and lively vocals, driven by a fast, binary rhythm that mirrors the dancers’ energetic footwork. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "HwjkTH5xCTw",
+   "checked_by_vision_model": false,
+   "title": "La Bamba: Ritchie Valens Performs La Bamba (Lou Diamond Phillips) HD Scene"
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Costumes are not detailed in the sources but typically align with regional folkloric attire of Veracruz. The dance is performed socially at weddings, folkloric festivals, and ballet folklórico shows. Settings include community celebrations and staged performances. No sacred or restricted status is noted.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Ribbon knot on floor",
+   "Hands strumming jarana",
+   "Harps with rapid finger movements",
+   "Couples in folkloric attire",
+   "Zapateado foot stamping"
+  ],
+  "costume_notes": "Costumes are not detailed in the sources but typically align with regional folkloric attire of Veracruz. The dance is performed socially at weddings, folkloric festivals, and ballet folklórico shows. Settings include community celebrations and staged performances. No sacred or restricted status is noted.",
+  "setting_notes": "La Bamba is performed at weddings and social celebrations where the improvisation of lyrics personalizes the event. The ribbon tying symbolizes the union of the couple. The dance’s origins as a satirical song about defense against pirates add historical depth. The improvisational lyrics can sometimes lead to disputes if offensive. It is a cultural emblem of Veracruz and Mexican identity.",
+  "map": {
+   "country": "Mexico",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "count the Binary meter bar out loud, then in pairs of bars",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the how-it-is-danced section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/La_Bamba_(song)",
+  "https://www.wikidata.org/wiki/Q641677",
+  "https://es.wikipedia.org/wiki/La_bamba",
+  "https://fr.wikipedia.org/wiki/La_bamba",
+  "https://pt.wikipedia.org/wiki/La_Bamba_(canção_de_1958)",
+  "https://archive.org/details/ERIC_ED342705"
+ ],
+ "claims_verified": 15,
+ "claims": 15,
+ "polished": false,
+ "hero_checked": null
+}

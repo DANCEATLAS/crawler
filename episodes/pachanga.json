@@ -1,0 +1,809 @@
+{
+ "slug": "pachanga",
+ "name": "pachanga",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-11-01T16:59:24Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A precise, energetic Latin dance historian and instructor who emphasizes grounding, rhythm timing, and historical context.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "pachanga",
+   "merenconga"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet pachanga",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Bronx Bounce: How Cuba's Gliding Dance Conquered New York",
+     "This is pachanga. 1950s-1960s."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (BwjN0t7eFPU)",
+     "Title card: pachanga · Cuba · 1950s-1960s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Pachanga originated in Cuba in the late 1950s, specifically catalyzed by composer Eduardo Davidson's 1959 creation of the song 'La Pachanga' recorded with Orquesta Sublime.",
+     "It gained massive popularity across the Caribbean before being brought to the United States by Cuban immigrants during post-World War II economic and social upheavals.",
+     "Settling heavily in New York City's South Bronx, the music and dance exploded in venues like the Caravana Club and the Triton After-Hours Club."
+    ],
+    "on_screen": [
+     "Map: Cuba · Caribbean",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally a social dance craze learned from friends and family in Cuban and New York Latin clubs, pachanga functioned as an expression of festive communal joy and cultural resilience among diaspora communities.",
+     "In the modern era, it serves as a performance showcase and technical training tool for advanced salsa and mambo dancers."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Pachanga is a grounded, happy-go-lucky dance featuring a Charleston-like flavor driven by the double bending and straightening of the knees.",
+     "Danced on the downbeat of four-four time to charanga instrumentation, the basic footwork mirrors mambo placement and weight shifts but incorporates a smooth glide instead of a tap.",
+     "A bounce originates in the knees, keeping them from ever completely straightening, while the upper body rocks and maintains posture.",
+     "Watch for Bronx Hop."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (BwjN0t7eFPU)",
+     "Captions name each signature move as it appears",
+     "Formation: Solo group shines or paired social dancing with transitions into individual showcase breaks."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Described as a mixture of son montuno and merengue (or conga), pachanga music is festive, lively, and marked by jocular, mischievous lyrics.",
+     "It is traditionally performed by charanga ensembles—orchestras utilizing violins, flutes, horns, piano, bass, and drums.",
+     "Listen for the violin, flute, horns, drums.",
+     "The pulse is four-four time.",
+     "A festive, lively blend of son montuno and merengue featuring charanga instrumentation of violins, flutes, piano, bass, and drums, sounding very similar to cha-cha-chá but marked by a notably stronger downbeat and playful accompaniment riffs."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: La Pachanga — Eduardo Davidson / Orquesta Sublime; Pachanga at the Caravana Club — Charlie Palmieri; Pachanga at the Caravana Club — Charlie Palmieri and His Duboney Orchestra (1961)",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Historic settings include packed Latin dance halls, after-hours clubs, and ballrooms in New York's South Bronx, such as the Caravana Club and the Triton Club.",
+     "Modern settings include international salsa congresses, dance studios, and stage showcases where practitioners perform solo shines or specialized choreography."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key historical figures include Eduardo Davidson (composer), José Fajardo, Johnny Pacheco (creator of the Bronx Hop), Charlie Palmieri, and Orlando 'Landy' Perez.",
+     "Modern torchbearers and instructors include Eddie Torres, Eddie Torres Jr., Shani Talmor, and Melissa Rosado.",
+     "While born in Cuba and heavily developed in New York City's Latin scene, the style migrated and adapted globally.",
+     "Pachanga developed as an offshoot of charanga music, fusing son montuno and merengue (or conga)."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "pachanga is sibling of cha-cha-chá: Very similar in sound and era, though pachanga features a notably stronger downbeat and gliding footwork.",
+     "pachanga is influence of mambo: Pachanga mimics basic mambo step foot placement and weight shifts while dancing to mambo offbeat music.",
+     "pachanga is parent of son montuno: Pachanga music is described as a mixture of son montuno and merengue.",
+     "pachanga is parent of merengue: Combined with son montuno to form the core musical identity of pachanga (also called merenconga)."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Maintain a grounded posture with knees softly bent, never fully straightening.",
+     "Step on the downbeat of four-four time, mirroring basic mambo foot placement.",
+     "Count it: count the four-four time bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover pachanga, the high-energy 1950s Cuban craze that combined charanga melodies with a knee-bouncing glide to shape modern salsa.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the grounded knee posture and the continuous knee bounce.",
+   "level": "Foundational",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the grounded knee posture and the continuous knee bounce..",
+      "Level: Foundational. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A precise, energetic Latin dance historian and instructor who emphasizes grounding, rhythm timing, and historical context."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Grounded posture with body connectivity maintained; knees remain softly bent and never completely straighten.",
+      "Upper body rocks naturally as a result of weight changes and a bounce originating in the knees."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the four-four time bar out loud, then in pairs of bars. The meter is four-four time.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Maintain a grounded posture with knees softly bent, never fully straightening.",
+      "Step 2: Step on the downbeat of four-four time, mirroring basic mambo foot placement.",
+      "Footwork from the sources: Mimics a basic mambo step in foot placement and weight shift while incorporating a smooth glide on weight transfer instead of a tap.",
+      "Drill: Soft knee bending and straightening without letting legs lock."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the four-four time bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute a weight transfer that glides smoothly across the floor rather than tapping.",
+      "Step 4: Allow a bounce originating in the knees to naturally rock the upper body.",
+      "Drill: Weight transfer isolation drills keeping energy channeled down into the floor."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the four-four time bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Completely straightening the knees during the dance."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the four-four time bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the grounded knee posture and the continuous knee bounce..",
+      "Originally a social dance craze learned from friends and family in Cuban and New York Latin clubs, pachanga functioned as an expression of festive communal joy and cultural resilience among diaspora communities.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute the mambo-based foot placement replacing taps with glides.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute the mambo-based foot placement replacing taps with glides..",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A precise, energetic Latin dance historian and instructor who emphasizes grounding, rhythm timing, and historical context."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Grounded posture with body connectivity maintained; knees remain softly bent and never completely straighten.",
+      "Upper body rocks naturally as a result of weight changes and a bounce originating in the knees."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the four-four time bar out loud, then in pairs of bars. The meter is four-four time.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Maintain a grounded posture with knees softly bent, never fully straightening.",
+      "Step 2: Step on the downbeat of four-four time, mirroring basic mambo foot placement.",
+      "Drill: Mambo step footwork practice focusing on downbeat timing in 4/4 meter."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the four-four time bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute a weight transfer that glides smoothly across the floor rather than tapping.",
+      "Step 4: Allow a bounce originating in the knees to naturally rock the upper body.",
+      "Bronx Hop: An improvised dance move introduced by Johnny Pacheco at the Triton Club that became central to the pachanga craze.",
+      "Drill: Gliding weight-transfer slide drills across the floor."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the four-four time bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Completely straightening the knees during the dance."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the four-four time bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Solo group shines or paired social dancing with transitions into individual showcase breaks."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the mambo-based foot placement replacing taps with glides..",
+      "Key historical figures include Eduardo Davidson (composer), José Fajardo, Johnny Pacheco (creator of the Bronx Hop), Charlie Palmieri, and Orlando 'Landy' Perez.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Integrate upper-body rocking and execute a solo shine sequence.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Integrate upper-body rocking and execute a solo shine sequence..",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A precise, energetic Latin dance historian and instructor who emphasizes grounding, rhythm timing, and historical context."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Grounded posture with body connectivity maintained; knees remain softly bent and never completely straighten.",
+      "Upper body rocks naturally as a result of weight changes and a bounce originating in the knees."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the four-four time bar out loud, then in pairs of bars. The meter is four-four time.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Execute a weight transfer that glides smoothly across the floor rather than tapping.",
+      "Step 2: Allow a bounce originating in the knees to naturally rock the upper body.",
+      "Drill: Upper-body connectivity and torso rock coordination with knee action."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the four-four time bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Bronx Hop: An improvised dance move introduced by Johnny Pacheco at the Triton Club that became central to the pachanga craze.",
+      "Drill: A short solo pachanga shine combining the glide and the Bronx Hop."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the four-four time bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Completely straightening the knees during the dance."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the four-four time bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Solo group shines or paired social dancing with transitions into individual showcase breaks."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate upper-body rocking and execute a solo shine sequence..",
+      "Pachanga developed as an offshoot of charanga music, fusing son montuno and merengue (or conga).",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "four-four time",
+  "rhythm_pattern": null,
+  "instruments": [
+   "violin",
+   "flute",
+   "horns",
+   "drums",
+   "piano",
+   "bass"
+  ],
+  "vocal_style": "jocular, mischievous lyrics",
+  "musical_form": null,
+  "mood": [
+   "festive",
+   "lively",
+   "jocular"
+  ],
+  "sound_description": "A festive, lively blend of son montuno and merengue featuring charanga instrumentation of violins, flutes, piano, bass, and drums, sounding very similar to cha-cha-chá but marked by a notably stronger downbeat and playful accompaniment riffs.",
+  "listen_before_composing": [
+   "La Pachanga — Eduardo Davidson / Orquesta Sublime",
+   "Pachanga at the Caravana Club — Charlie Palmieri",
+   "Pachanga at the Caravana Club — Charlie Palmieri and His Duboney Orchestra (1961)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of pachanga (Cuba). Meter four-four time. Instruments: violin, flute, horns, drums, piano, bass. Vocal style: jocular, mischievous lyrics. Mood: festive, lively, jocular. It should sound like this: A festive, lively blend of son montuno and merengue featuring charanga instrumentation of violins, flutes, piano, bass, and drums, sounding very similar to cha-cha-chá but marked by a notably stronger downbeat and playful accompaniment riffs. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "BwjN0t7eFPU",
+   "checked_by_vision_model": false,
+   "title": "PACHANGA Eddie Torres and Grisel Ponce"
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Historic settings include packed Latin dance halls, after-hours clubs, and ballrooms in New York's South Bronx, such as the Caravana Club and the Triton Club. Modern settings include international salsa congresses, dance studios, and stage showcases where practitioners perform solo shines or specialized choreography.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ALapic_and_johnson_salsa_shine.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Lapic_and_johnson_salsa_shine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Lapic_and_johnson_salsa_shine.jpg/1280px-Lapic_and_johnson_salsa_shine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Joel Riedesel / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALapic_and_johnson_salsa_shine.jpg",
+    "description": "Salsa dancers performing a shine"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Vintage album covers of charanga orchestras",
+   "Neon signs of Bronx dance halls from the 1960s",
+   "Close-up footwork shots highlighting the gliding weight transfer",
+   "Dancers performing synchronized shines under modern stage lights"
+  ],
+  "costume_notes": "Historic settings include packed Latin dance halls, after-hours clubs, and ballrooms in New York's South Bronx, such as the Caravana Club and the Triton Club. Modern settings include international salsa congresses, dance studios, and stage showcases where practitioners perform solo shines or specialized choreography.",
+  "setting_notes": "Originally a social dance craze learned from friends and family in Cuban and New York Latin clubs, pachanga functioned as an expression of festive communal joy and cultural resilience among diaspora communities. In the modern era, it serves as a performance showcase and technical training tool for advanced salsa and mambo dancers.",
+  "map": {
+   "country": "Cuba",
+   "region": "Caribbean",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "count the four-four time bar out loud, then in pairs of bars",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Pachanga",
+  "https://www.wikidata.org/wiki/Q367751",
+  "https://es.wikipedia.org/wiki/Pachanga_(música)",
+  "https://fr.wikipedia.org/wiki/Pachanga",
+  "https://de.wikipedia.org/wiki/Pachanga_(Genre)"
+ ],
+ "claims_verified": 5,
+ "claims": 5,
+ "polished": false,
+ "hero_checked": null
+}

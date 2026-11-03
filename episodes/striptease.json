@@ -1,0 +1,855 @@
+{
+ "slug": "striptease",
+ "name": "Striptease",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-11-01T16:56:54Z",
+ "qc_score": 9.35,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An experienced cabaret effeuilleuse and burlesque historian who balances sharp technical precision with charismatic theatrical flair.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Striptease",
+   "effeuillage",
+   "estriptis",
+   "burlesque striptease",
+   "exotic dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Striptease",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Art of the Reveal",
+     "This is Striptease. Late 19th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Striptease · France, United States, United Kingdom · Late 19th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The formal word 'striptease' was first documented in 1932, though public erotic disrobing dates back centuries.",
+     "Antiquity recorded instances such as ancient Greek auletrides, Roman Floralia festival dances, and the performances of 6th-century Byzantine Empress Theodora.",
+     "Early theatrical references emerged during the English Restoration in Aphra Behn's 1677 comedy The Rover and Thomas Otway's 1681 play The Soldier's Fortune."
+    ],
+    "on_screen": [
+     "Map: France, United States, United Kingdom · Global",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Striptease functions primarily as erotic entertainment, social spectacle, and adult nightlife, though it also appears as sexual play between partners and in private celebrations such as bachelor and bachelorette parties.",
+     "In 1957, semiotician Roland Barthes analyzed Parisian striptease in Mythologies as a reassuring ritual that dramatizes and exorcises erotic tension through glitz and theatrical distance."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The performance typically follows a classic burlesque structure: entering fully costumed, baring the upper body first, and progressing toward the lower body and pelvic reveal.",
+     "Movement is built around sensual pacing, hip isolations, shimmies, and the rhythmic removal of individual garments.",
+     "Performers prolong the tease by holding removed clothing or hands in front of freshly exposed areas, or wearing nested layers.",
+     "Watch for The Bump and Grind, The Shimmy, The Fan Concealment."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Solo performance occupying a linear stage path, floor circle, or vertical space around a pole or chair."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music provides the atmospheric frame and tempo for the dancer's physical expression.",
+     "In early vaudeville, burlesque, and British music halls, live pit bands played dramatic orchestrations, blues brass, and jazz beats tailored to the bump 'n grind.",
+     "Listen for the Tenor saxophone, Muted trumpet, Drum kit, Bass guitar.",
+     "The pulse is 4/4 at about 80 beats a minute.",
+     "A slow, low-register brass and saxophone groove accompanied by steady snare backbeats and walking basslines, creating a tension-and-release cadence that mirrors the performer's deliberate undressing."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: You Can Leave Your Hat On — Joe Cocker",
+     "Waveform or rhythm-pattern graphic: Heavy downbeat with syncopated blues shuffle or driving contemporary percussion accentuating hip thrusts and garment releases."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Costuming is fundamental to striptease because the dance cannot exist without clothes to discard.",
+     "Traditional costumes incorporate glitzy sequins, feathers, layered petticoats, gloves, stockings, and ornate corsetry, often referencing character archetypes like brides, nurses, or vintage showgirls."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Iconic figures include Dutch dancer Mata Hari, who debuted her progressive disrobing act at the Musée Guimet in 1905; American burlesque legends Gypsy Rose Lee, Sally Rand, and Georgia Sothern; French revue stars Germaine Aymos and Josephine Baker; British theatre producer Phyllis Dixey; San Francisco pioneer Carol Doda; modern burlesque revivalist Dita Von Teese; and male revue companies like the Chippendales.",
+     "In Britain, 1930s censorship forced London's Windmill Theatre to invent motionless tableaux vivants and fan dances, which evolved by the 1970s into pub striptease across London's East End where dancers collected fees in beer jugs.",
+     "Tracing lines through theatrical pantomime, Ottoman-era Ghawazee dances documented by French travelers, and 19th-century hoochie-coochie fairground shows, striptease evolved into early 20th-century American burlesque and Parisian cabaret effeuillage."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Striptease is parent of Burlesque: Classic American burlesque comedy and variety shows provided the primary stage circuit where striptease routines developed.",
+     "Striptease is child of Pole dance: Developed inside late 20th-century exotic dance clubs before expanding into an athletic and acrobatic discipline worldwide.",
+     "Striptease is variant of Lap dance: A modern personalized strip club variant popularized at venues like San Francisco's Mitchell Brothers O'Farrell Theatre in 1980.",
+     "Striptease is influence of Go-go dancing: Topless 1960s go-go dancing merged with burlesque traditions to birth modern commercial club striptease."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stately strut across the floor while establishing unbroken eye contact with the audience",
+     "Torso and shoulder roll to loosen outer garments such as coats, capes, or jackets",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how an act of slow, theatrical undressing evolved from 1890s Parisian cabarets and American burlesque into a global dance phenomenon.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master theatrical posture, eye contact, and the burlesque walk.",
+   "level": "Foundations",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master theatrical posture, eye contact, and the burlesque walk..",
+      "Level: Foundations. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An experienced cabaret effeuilleuse and burlesque historian who balances sharp technical precision with charismatic theatrical flair."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Arched spine, lifted chest, and controlled balance allowing hands freedom to manipulate fastenings and fabric.",
+      "Fluid, expressive arm framing around the head, neck, and torso, with precise fingers peeling fabric and hovering over bare skin.",
+      "Continuous pelvic circles, deep hip rolls, burlesque bumps, grinds, and torso shimmies."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Heavy downbeat with syncopated blues shuffle or driving contemporary percussion accentuating hip thrusts and garment releases..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 56 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stately strut across the floor while establishing unbroken eye contact with the audience",
+      "Step 2: Torso and shoulder roll to loosen outer garments such as coats, capes, or jackets",
+      "Footwork from the sources: Gliding theatrical walks, heel-to-toe struts, slow pivot turns, and grounded stances supporting hip movements.",
+      "Drill: Practice 8-count slow heel-to-toe stage walking with hands resting on hips."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Slow peel and removal of long gloves, pulling each finger rhythmically",
+      "Step 4: Rhythmic hip sway and pelvis isolation into a classic bump and grind movement",
+      "Drill: Hold unbroken gaze with a single focal point while executing slow shoulder rolls."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Perform standing pelvic tilts and lateral hip grinds to a 75 BPM rhythm."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Rushing garment removals; turning the act into hasty undressing rather than a theatrical dance of anticipation."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 80 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master theatrical posture, eye contact, and the burlesque walk..",
+      "Striptease functions primarily as erotic entertainment, social spectacle, and adult nightlife, though it also appears as sexual play between partners and in private celebrations such as bachelor and bachelorette parties.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Seamlessly integrate clothing removal into fluid physical movement.",
+   "level": "Garment Manipulation",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Seamlessly integrate clothing removal into fluid physical movement..",
+      "Level: Garment Manipulation. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An experienced cabaret effeuilleuse and burlesque historian who balances sharp technical precision with charismatic theatrical flair."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Arched spine, lifted chest, and controlled balance allowing hands freedom to manipulate fastenings and fabric.",
+      "Fluid, expressive arm framing around the head, neck, and torso, with precise fingers peeling fabric and hovering over bare skin.",
+      "Continuous pelvic circles, deep hip rolls, burlesque bumps, grinds, and torso shimmies."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Heavy downbeat with syncopated blues shuffle or driving contemporary percussion accentuating hip thrusts and garment releases..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 56 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Shimmy of the shoulders and bust to loosen chest fastenings or unfasten bodices",
+      "Step 2: Strategic delay posture, using detached garments or hands to veil exposed body contours",
+      "Drill: Execute the 4-count glove peel using opposite fingertips while maintaining an arched torso."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Transition down to a prop chair or floor level for slow leg extensions and stocking removal",
+      "The Bump and Grind: An exaggerated pelvic thrust followed by circular rotational grinding of the hips.",
+      "The Shimmy: Rapid alternating vibration of the shoulders and bust designed to agitate loose fabric.",
+      "Drill: Practice unbuttoning an outer jacket while performing slow hip circles."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Hold a piece of fabric in front of the torso, dropping and catching it on precise musical accents."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Rushing garment removals; turning the act into hasty undressing rather than a theatrical dance of anticipation."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Solo performance occupying a linear stage path, floor circle, or vertical space around a pole or chair."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 80 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Seamlessly integrate clothing removal into fluid physical movement..",
+      "Iconic figures include Dutch dancer Mata Hari, who debuted her progressive disrobing act at the Musée Guimet in 1905; American burlesque legends Gypsy Rose Lee, Sally Rand, and Georgia Sothern; French revue stars Germaine Aymos and Josephine Baker; British theatre producer Phyllis Dixey; San Francisco pioneer Carol Doda; modern burlesque revivalist Dita Von Teese; and male revue companies like the Chippendales.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Coordinate level changes, chair work, and deliberate tease delays.",
+   "level": "Floorwork and Concealment",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Coordinate level changes, chair work, and deliberate tease delays..",
+      "Level: Floorwork and Concealment. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An experienced cabaret effeuilleuse and burlesque historian who balances sharp technical precision with charismatic theatrical flair."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Arched spine, lifted chest, and controlled balance allowing hands freedom to manipulate fastenings and fabric.",
+      "Fluid, expressive arm framing around the head, neck, and torso, with precise fingers peeling fabric and hovering over bare skin.",
+      "Continuous pelvic circles, deep hip rolls, burlesque bumps, grinds, and torso shimmies."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Heavy downbeat with syncopated blues shuffle or driving contemporary percussion accentuating hip thrusts and garment releases..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 56 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Strategic delay posture, using detached garments or hands to veil exposed body contours",
+      "Step 2: Transition down to a prop chair or floor level for slow leg extensions and stocking removal",
+      "Drill: Descend gracefully to a seated chair position while sustaining leg extensions."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Fan Concealment: Manipulating large feather fans to alternately reveal and shield the nude body while holding static poses.",
+      "The Glove Peel: Slow, methodical removal of satin gloves using teeth or gentle fingertip tugs in time with the music.",
+      "Drill: Perform a burlesque shimmy while gradually loosening an inner strap or tie."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Transition from floor back to standing using a chair or prop without breaking performance rhythm."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Rushing garment removals; turning the act into hasty undressing rather than a theatrical dance of anticipation."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Solo performance occupying a linear stage path, floor circle, or vertical space around a pole or chair."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 80 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Coordinate level changes, chair work, and deliberate tease delays..",
+      "Tracing lines through theatrical pantomime, Ottoman-era Ghawazee dances documented by French travelers, and 19th-century hoochie-coochie fairground shows, striptease evolved into early 20th-century American burlesque and Parisian cabaret effeuillage.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": 80,
+  "meter": "4/4",
+  "rhythm_pattern": "Heavy downbeat with syncopated blues shuffle or driving contemporary percussion accentuating hip thrusts and garment releases.",
+  "instruments": [
+   "Tenor saxophone",
+   "Muted trumpet",
+   "Drum kit",
+   "Bass guitar",
+   "Brass section",
+   "Synthesizer"
+  ],
+  "vocal_style": "Sensual, raspy, or theatrical vocals, often absent during solo instrumental breaks.",
+  "musical_form": "Verse-chorus or 12-bar blues progression featuring distinct musical swells and climaxes aligned with costume reveals.",
+  "mood": [
+   "seductive",
+   "playful",
+   "taunting",
+   "rhythmic",
+   "theatrical"
+  ],
+  "sound_description": "A slow, low-register brass and saxophone groove accompanied by steady snare backbeats and walking basslines, creating a tension-and-release cadence that mirrors the performer's deliberate undressing.",
+  "listen_before_composing": [
+   "You Can Leave Your Hat On — Joe Cocker"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Striptease (France, United States, United Kingdom). Meter 4/4. Tempo about 80 bpm. Rhythm pattern: Heavy downbeat with syncopated blues shuffle or driving contemporary percussion accentuating hip thrusts and garment releases.. Instruments: Tenor saxophone, Muted trumpet, Drum kit, Bass guitar, Brass section, Synthesizer. Vocal style: Sensual, raspy, or theatrical vocals, often absent during solo instrumental breaks.. Form: Verse-chorus or 12-bar blues progression featuring distinct musical swells and climaxes aligned with costume reveals.. Mood: seductive, playful, taunting, rhythmic, theatrical. It should sound like this: A slow, low-register brass and saxophone groove accompanied by steady snare backbeats and walking basslines, creating a tension-and-release cadence that mirrors the performer's deliberate undressing. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 56
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 80
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Costuming is fundamental to striptease because the dance cannot exist without clothes to discard. Traditional costumes incorporate glitzy sequins, feathers, layered petticoats, gloves, stockings, and ornate corsetry, often referencing character archetypes like brides, nurses, or vintage showgirls. Settings range historically from opulent Parisian music halls and London Windmill Theatre tableaux to East End British pubs, Soho private clubs, and modern purpose-built strip clubs equipped with stages, vertical poles, and private lap-dancing booths.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AMata_Hari_15.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AStriptease.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ARita_Hayworth_as_Gilda_performing_%22Put_The_Blame_On_Mame%22_in_the_trailer_for_the_film_Gilda.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mata_Hari_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mata_Hari_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMata_Hari_15.jpg",
+    "description": "Mata Hari"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Striptease.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Striptease.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Michael Albov (aka mikegoat) / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AStriptease.jpg",
+    "description": "Lola Bel Aire, striptease from Miss Exotic World 2008, stripping, dancer, stripper, exotic, erotic, burlesque"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Rita_Hayworth_as_Gilda_performing_%22Put_The_Blame_On_Mame%22_in_the_trailer_for_the_film_Gilda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Rita_Hayworth_as_Gilda_performing_%22Put_The_Blame_On_Mame%22_in_the_trailer_for_the_film_Gilda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Columbia Pictures / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ARita_Hayworth_as_Gilda_performing_%22Put_The_Blame_On_Mame%22_in_the_trailer_for_the_film_Gilda.jpg",
+    "description": "Screenshot of Rita Hayworth as Gilda performing \"Put the Blame on Mame\" in the trailer for the film Gilda."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Windmill-Theatre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Windmill-Theatre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Self / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AWindmill-Theatre.jpg",
+    "description": "Windmill Theatre, Great Windmill Street, London."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/ChippendalesLasVegas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/ChippendalesLasVegas.jpg/1280px-ChippendalesLasVegas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "C Jill Reed / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AChippendalesLasVegas.jpg",
+    "description": "Chippendale Dancers, Las Vegas, 2008"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/1720_Der_spanische_teutsche_und_niederlaendische_Krieg_p238.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/1720_Der_spanische_teutsche_und_niederlaendische_Krieg_p238.png/1280px-1720_Der_spanische_teutsche_und_niederlaendische_Krieg_p238.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A1720_Der_spanische_teutsche_und_niederlaendische_Krieg_p238.png",
+    "description": "Perhaps the earliest depiction of a striptease, taken from the German illustrated 1720 edition of La Guerre d'Espagne (1707), reprinted and commented in Olaf Simons: Marteaus Europa oder der Roman, bevor er Literatur wurde: eine Untersuchung des deutschen und englischen Buchangebots der Jahre 1710-1720 (Amsterdam: Rodopi, 2001), p.631."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/La_Fontaine_-_Tales_and_Novels_in_verse_-_v2_p130.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/La_Fontaine_-_Tales_and_Novels_in_verse_-_v2_p130.jpg/1280px-La_Fontaine_-_Tales_and_Novels_in_verse_-_v2_p130.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Charles Dominique Joseph Eisen / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALa_Fontaine_-_Tales_and_Novels_in_verse_-_v2_p130.jpg",
+    "description": "Illustration of \"The Devil of Pope-Fig Island\", by Charles Eisen for part of Jean La Fontaine's Nouveaux Contes (1764).\n Illustration by Charles Eisen for The Devil of Pope-Fig Island by Jean de La Fontaine: Tales and Novels in Verse. Vol. 2 London 1896, p. 130"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Natalie_Wood_Gypsy_1962.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/63/Natalie_Wood_Gypsy_1962.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Warner Bros. / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANatalie_Wood_Gypsy_1962.jpg",
+    "description": "Publicity photo of Natalie Wood in the American musical film Gypsy (1962)."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Floating red ostrich feather fans sweeping across warm stage footlights.",
+   "Close-up of gloved fingers slowly unfastening vintage rhinestone corset hooks.",
+   "Mid-20th-century burlesque marquees and vintage neon signs glowing in the dark.",
+   "Glinting vertical chrome poles reflecting spotlight beams across an empty club floor."
+  ],
+  "costume_notes": "Costuming is fundamental to striptease because the dance cannot exist without clothes to discard. Traditional costumes incorporate glitzy sequins, feathers, layered petticoats, gloves, stockings, and ornate corsetry, often referencing character archetypes like brides, nurses, or vintage showgirls. Settings range historically from opulent Parisian music halls and London Windmill Theatre tableaux to East End British pubs, Soho private clubs, and modern purpose-built strip clubs equipped with stages, vertical poles, and private lap-dancing booths.",
+  "setting_notes": "Striptease functions primarily as erotic entertainment, social spectacle, and adult nightlife, though it also appears as sexual play between partners and in private celebrations such as bachelor and bachelorette parties. In 1957, semiotician Roland Barthes analyzed Parisian striptease in Mythologies as a reassuring ritual that dramatizes and exorcises erotic tension through glitz and theatrical distance. The late 20th-century New Burlesque revival repositioned striptease as an empowering, satirical performance art challenging narrow commercial beauty standards, recognized in December 2006 by a Norwegian court as a tax-exempt art form.",
+  "map": {
+   "country": "France, United States, United Kingdom",
+   "region": "Global",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a hero video",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Striptease",
+  "https://www.wikidata.org/wiki/Q152213",
+  "https://es.wikipedia.org/wiki/Striptease",
+  "https://fr.wikipedia.org/wiki/Striptease",
+  "https://pt.wikipedia.org/wiki/Striptease"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "hero_checked": null
+}

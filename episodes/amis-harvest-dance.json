@@ -1,0 +1,359 @@
+{
+ "slug": "amis-harvest-dance",
+ "name": "Amis harvest dance",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:30Z",
+ "researched_at": "2026-10-31T16:21:21Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An Amis elder or cultural expert who guides learners with respect and warmth",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Amis harvest dance",
+   "Ilisin",
+   "Malalikid",
+   "Kiloma'an",
+   "Amis harvest dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Amis harvest dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Circle of Life: The Amis Harvest Dance",
+     "This is Amis harvest dance. traditional."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Amis harvest dance · Taiwan · traditional"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Amis Harvest Festival, also called Ilisin, Malalikid, or Kiloma'an, is a traditional indigenous festival in Taiwan celebrated after the rice harvest, primarily in the Taitung and Hualien regions.",
+     "It evolved from earlier millet harvest ceremonies and is held between July and September according to the lunar calendar.",
+     "The festival lasts from one to seven days depending on the tribe and includes rituals to honor ancestral gods and pray for future prosperity."
+    ],
+    "on_screen": [
+     "Map: Taiwan · East Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed during the Ilisin Harvest Festival to celebrate the harvest, honor ancestors, and ensure future prosperity.",
+     "It also serves social functions such as partner selection among youth and the selection of future tribe leaders by elders.",
+     "The festival includes rites of passage like the adult ceremony for boys transitioning to manhood."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers form a hand-in-hand circle around elders seated in the center.",
+     "Movements include walking, running, and jumping, with coastal tribes performing more complex steps.",
+     "A lead singer initiates songs that the group follows.",
+     "Watch for Circle Walk, Running Step, Jumping Step."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Circle around seated elders; dancers move clockwise or counterclockwise"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music features a lead vocal line with a responsive chorus, creating a layered communal sound that supports the rhythmic walking, running, and jumping of the dancers."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Call-and-response singing led by a soloist with chorus"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Participants wear traditional festival clothes, including hats decorated with rooster feathers indicating status.",
+     "The dance takes place around a campfire during the festival nights, often under the full moon, creating a communal and ceremonial atmosphere."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The priest plays a central role, overseeing agricultural rituals and communication with the gods.",
+     "The priest must be knowledgeable about the calendar, weather, tribal history, dance, and spiritual communication.",
+     "The dance movements vary between coastal and mountainous tribes, with coastal dances being more complex.",
+     "The Amis harvest dance is a traditional indigenous dance of Taiwan, linked closely to agricultural cycles and ancestral worship."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Amis harvest dance is shares music of awa-odori: Both are communal circle dances with call-and-response singing in East Asia.",
+     "Amis harvest dance is shares music of bon-odori: Similar circle dance form performed during harvest-related festivals in Japan.",
+     "Amis harvest dance is shares region of lion-dance: Traditional East Asian dance, but with different ritual and performance context.",
+     "Amis harvest dance is shares region of buchaechum: Korean fan dance from East Asia, distinct in style and purpose."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The dance is part of sacred harvest ceremonies involving ancestral worship and rituals led by the priest; outsiders should respect the ritual context and not disrupt ceremonies."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how the Amis people of Taiwan celebrate their harvest with a dance that unites generations and chooses future leaders.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Call-and-response singing led by a soloist with chorus",
+  "instruments": [],
+  "vocal_style": "Lead singer initiates song, chorus follows; lyrics vary by age and tribe",
+  "musical_form": "Choral call-and-response",
+  "mood": [
+   "ceremonial",
+   "communal",
+   "respectful",
+   "joyful"
+  ],
+  "sound_description": "The music features a lead vocal line with a responsive chorus, creating a layered communal sound that supports the rhythmic walking, running, and jumping of the dancers.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Amis harvest dance (Taiwan). Rhythm pattern: Call-and-response singing led by a soloist with chorus. Vocal style: Lead singer initiates song, chorus follows; lyrics vary by age and tribe. Form: Choral call-and-response. Mood: ceremonial, communal, respectful, joyful. It should sound like this: The music features a lead vocal line with a responsive chorus, creating a layered communal sound that supports the rhythmic walking, running, and jumping of the dancers. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Participants wear traditional festival clothes, including hats decorated with rooster feathers indicating status. The dance takes place around a campfire during the festival nights, often under the full moon, creating a communal and ceremonial atmosphere.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3A2015%E5%B9%B4%E6%B0%B8%E5%92%8C%E5%8D%80%E8%81%AF%E5%90%88%E8%B1%90%E5%B9%B4%E7%A5%AD.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/2015%E5%B9%B4%E6%B0%B8%E5%92%8C%E5%8D%80%E8%81%AF%E5%90%88%E8%B1%90%E5%B9%B4%E7%A5%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/2015%E5%B9%B4%E6%B0%B8%E5%92%8C%E5%8D%80%E8%81%AF%E5%90%88%E8%B1%90%E5%B9%B4%E7%A5%AD.jpg/1280px-2015%E5%B9%B4%E6%B0%B8%E5%92%8C%E5%8D%80%E8%81%AF%E5%90%88%E8%B1%90%E5%B9%B4%E7%A5%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Danieltw93 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A2015%E5%B9%B4%E6%B0%B8%E5%92%8C%E5%8D%80%E8%81%AF%E5%90%88%E8%B1%90%E5%B9%B4%E7%A5%AD.jpg",
+    "description": "​2015年永和區聯合豐年祭"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Full moon over the village",
+   "Feathered festival hats",
+   "Hand-in-hand circle around elders",
+   "Campfire glow",
+   "Betel nut exchange"
+  ],
+  "costume_notes": "Participants wear traditional festival clothes, including hats decorated with rooster feathers indicating status. The dance takes place around a campfire during the festival nights, often under the full moon, creating a communal and ceremonial atmosphere.",
+  "setting_notes": "The dance is performed during the Ilisin Harvest Festival to celebrate the harvest, honor ancestors, and ensure future prosperity. It also serves social functions such as partner selection among youth and the selection of future tribe leaders by elders. The festival includes rites of passage like the adult ceremony for boys transitioning to manhood.",
+  "map": {
+   "country": "Taiwan",
+   "region": "East Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the music & instruments section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Amis_harvest_festivals",
+  "https://www.wikidata.org/wiki/Q21041633"
+ ],
+ "claims_verified": 12,
+ "claims": 12,
+ "polished": false,
+ "hero_checked": null
+}

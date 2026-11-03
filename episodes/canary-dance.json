@@ -1,0 +1,814 @@
+{
+ "slug": "canary-dance",
+ "name": "Canary dance",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-10-30T16:57:44Z",
+ "qc_score": 8.85,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A rigorous historical dance specialist who pairs scholarly precision with high-energy physical demonstration.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Canary dance",
+   "canario",
+   "canarie",
+   "canaries",
+   "canarios"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Canary dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Frog-Legged Court Craze",
+     "This is Canary dance. 16th–17th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (gcivoSm5Ec4)",
+     "Title card: Canary dance · Spain / France / Italy · 16th–17th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Rooted in the indigenous traditions of the Canary Islands, possibly related to the Tajaraste, the dance crossed to mainland Spain via enslaved people by 1552, where Diego Pisador noted it at funeral feasts.",
+     "By the late 16th and early 17th centuries, it captivated French, Italian, English, and Spanish courts, appearing in plays by William Shakespeare and dance manuals by Thoinot Arbeau (1589), Fabritio Caroso (1600), and Cesare Negri (1602)."
+    ],
+    "on_screen": [
+     "Map: Spain / France / Italy · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Initially functioning as a lively ballroom diversion or theatrical interlude within masques, the dance was framed around the dramaturgical theme of the 'sauvage' or indigenous wooing.",
+     "Spanish sources like Covarrubias noted its lineage from saltarello-style island dances, while contemporaries relished its bizarre, high-energy spectacle."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Choreographed primarily for a single couple, early versions featured rapid heel-and-toe stamps, deep jumps, and violent movements that earned it the nickname 'frogs legs.' Unlike rigid court steps of the galliarde, dancers engaged in free improvisation meant to mimic a playful 'savage' indigenous courtship.",
+     "By the 17th century in France, it incorporated elaborate cabrioles, turns, and battus in a fast ternary meter.",
+     "Watch for heel-and-toe stamp, frogs legs jump."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (gcivoSm5Ec4)",
+     "Captions name each signature move as it appears",
+     "Formation: single couple facing each other, or two opposing rows approaching and retreating"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Early descriptions like Arbeau's noted simple meters, while Baroque interpretations embraced fast 3/4, 6/8, and dotted rhythms akin to a rapid gigue.",
+     "Girolamo Kapsberger wrote a famous 1640 virtuoso piece for chitarrone over a three-note basso ostinato, and Gaspar Sanz published a popular version for the Spanish baroque guitar in 1674.",
+     "Listen for the chitarrone, Spanish baroque guitar, strings/violin, lute.",
+     "The pulse is binary (early) or ternary 3/4, 6/8, 6/4 (Baroque).",
+     "A rapid, driving instrumental movement driven by sharp, short bow strokes or plucked strings, defined by an energetic dotted rhythm and an insistent repeating melodic or bass cell."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Libro IV (Canario) — Girolamo Kapsberger; Instrucción de Música sobre la Guitarra Española (Canarios) — Gaspar Sanz; Instrucción de Música sobre la Guitarra Española (1674-75) — Gaspar Sanz (2000)",
+     "Waveform or rhythm-pattern graphic: dotted notes with an upbeat (anacrusis) consisting of a sixteenth and eighth, or eighth and quarter"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performed in Renaissance ballrooms, courtly masques, and theatrical stage productions, dancers wore contemporary court attire while enacting exoticized native themes.",
+     "The staging frequently highlighted the energetic, unconventional nature of the choreography against structured court environments."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Dance masters Thoinot Arbeau, Fabritio Caroso, Cesare Negri, Livio Lupi da Caravaggio, and Juan de Esquivel Navarro documented its steps.",
+     "Baroque composers including Girolamo Kapsberger, Gaspar Sanz, J.S. Bach, Henry Purcell, and Jean-Baptiste Lully cemented its rhythmic profile.",
+     "Manifested across Europe with distinct local flavors: Spanish guitar adaptations (Gaspar Sanz), Italian theatrical balletto sequences (Negri, Caroso), and refined French baroque variations emphasizing brilliant footwork and rapid tempos.",
+     "Rooted in Canary Islands indigenous movement traditions (such as the Tajaraste), influencing Baroque suite movements and sharing structural affinities with the gigue and saltarello."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Canary dance is variant of gigue: Often compared to the gigue, though considered faster and sharper in execution.",
+     "Canary dance is variant of saltarello: Covarrubias described the Canary dance as a type of saltarello originating from the Canary Islands."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. rapid heel-and-toe stamps",
+     "small jumps approaching and retreating",
+     "Count it: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "How an indigenous Canary Islands courtship dance morphed into the wildest, fastest craze of Renaissance and Baroque Europe.",
+     "Sources: 4 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the rhythmic foot stamping and basic weight shifts.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the rhythmic foot stamping and basic weight shifts..",
+      "Level: Beginner. Difficulty of the dance overall: advanced.",
+      "Your instructor: A rigorous historical dance specialist who pairs scholarly precision with high-energy physical demonstration."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "upright courtly carriage combined with vigorous, low-level bending for stamps and jumps",
+      "free improvisation representing a playful indigenous wooing game",
+      "energetic and violent movement contrasting standard court stiffness"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars. The meter is binary (early) or ternary 3/4, 6/8, 6/4 (Baroque).",
+      "Rhythm pattern: dotted notes with an upbeat (anacrusis) consisting of a sixteenth and eighth, or eighth and quarter.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: rapid heel-and-toe stamps",
+      "Step 2: small jumps approaching and retreating",
+      "Footwork from the sources: rapid heel-and-toe stamps, foot glides (glissements de pied), and in later French periods, cabrioles and battus",
+      "Drill: Slow heel-and-toe weight shifts on the beat"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: glissements de pied (foot glides)",
+      "Step 4: cabrioles and battus (in later French form)",
+      "Drill: Syncopated foot glides"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the rhythmic foot stamping and basic weight shifts..",
+      "Initially functioning as a lively ballroom diversion or theatrical interlude within masques, the dance was framed around the dramaturgical theme of the 'sauvage' or indigenous wooing.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Incorporate small jumps and partner-facing approaches.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Incorporate small jumps and partner-facing approaches..",
+      "Level: Intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: A rigorous historical dance specialist who pairs scholarly precision with high-energy physical demonstration."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "upright courtly carriage combined with vigorous, low-level bending for stamps and jumps",
+      "free improvisation representing a playful indigenous wooing game",
+      "energetic and violent movement contrasting standard court stiffness"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars. The meter is binary (early) or ternary 3/4, 6/8, 6/4 (Baroque).",
+      "Rhythm pattern: dotted notes with an upbeat (anacrusis) consisting of a sixteenth and eighth, or eighth and quarter.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: rapid heel-and-toe stamps",
+      "Step 2: small jumps approaching and retreating",
+      "Drill: Paired approaching and retreating steps"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: glissements de pied (foot glides)",
+      "Step 4: cabrioles and battus (in later French form)",
+      "heel-and-toe stamp: Rapid striking of the floor with heel and toe on the first beat of the measure.",
+      "frogs legs jump: High-energy vertical jumps with violent leg action.",
+      "Drill: Low-level stamping combinations"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: single couple facing each other, or two opposing rows approaching and retreating"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Incorporate small jumps and partner-facing approaches..",
+      "Dance masters Thoinot Arbeau, Fabritio Caroso, Cesare Negri, Livio Lupi da Caravaggio, and Juan de Esquivel Navarro documented its steps.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute Baroque-style speed, turns, and cabrioles.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute Baroque-style speed, turns, and cabrioles..",
+      "Level: Advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: A rigorous historical dance specialist who pairs scholarly precision with high-energy physical demonstration."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "upright courtly carriage combined with vigorous, low-level bending for stamps and jumps",
+      "free improvisation representing a playful indigenous wooing game",
+      "energetic and violent movement contrasting standard court stiffness"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars. The meter is binary (early) or ternary 3/4, 6/8, 6/4 (Baroque).",
+      "Rhythm pattern: dotted notes with an upbeat (anacrusis) consisting of a sixteenth and eighth, or eighth and quarter.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: glissements de pied (foot glides)",
+      "Step 2: cabrioles and battus (in later French form)",
+      "Drill: Fast dotted-rhythm footwork sequences"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "heel-and-toe stamp: Rapid striking of the floor with heel and toe on the first beat of the measure.",
+      "frogs legs jump: High-energy vertical jumps with violent leg action.",
+      "Drill: Vertical jumps with battus"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: single couple facing each other, or two opposing rows approaching and retreating"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute Baroque-style speed, turns, and cabrioles..",
+      "Rooted in Canary Islands indigenous movement traditions (such as the Tajaraste), influencing Baroque suite movements and sharing structural affinities with the gigue and saltarello.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "binary (early) or ternary 3/4, 6/8, 6/4 (Baroque)",
+  "rhythm_pattern": "dotted notes with an upbeat (anacrusis) consisting of a sixteenth and eighth, or eighth and quarter",
+  "instruments": [
+   "chitarrone",
+   "Spanish baroque guitar",
+   "strings/violin",
+   "lute",
+   "harpsichord"
+  ],
+  "vocal_style": null,
+  "musical_form": "instrumental suite section, balletto sequence, or ostinato variations",
+  "mood": [
+   "fiery",
+   "sprightly",
+   "energetic",
+   "brilliant",
+   "endless"
+  ],
+  "sound_description": "A rapid, driving instrumental movement driven by sharp, short bow strokes or plucked strings, defined by an energetic dotted rhythm and an insistent repeating melodic or bass cell.",
+  "listen_before_composing": [
+   "Libro IV (Canario) — Girolamo Kapsberger",
+   "Instrucción de Música sobre la Guitarra Española (Canarios) — Gaspar Sanz",
+   "Instrucción de Música sobre la Guitarra Española (1674-75) — Gaspar Sanz (2000)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Canary dance (Spain / France / Italy). Meter binary (early) or ternary 3/4, 6/8, 6/4 (Baroque). Rhythm pattern: dotted notes with an upbeat (anacrusis) consisting of a sixteenth and eighth, or eighth and quarter. Instruments: chitarrone, Spanish baroque guitar, strings/violin, lute, harpsichord. Form: instrumental suite section, balletto sequence, or ostinato variations. Mood: fiery, sprightly, energetic, brilliant, endless. It should sound like this: A rapid, driving instrumental movement driven by sharp, short bow strokes or plucked strings, defined by an energetic dotted rhythm and an insistent repeating melodic or bass cell. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "gcivoSm5Ec4",
+   "checked_by_vision_model": false,
+   "title": "Understanding Form: The Canary"
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Performed in Renaissance ballrooms, courtly masques, and theatrical stage productions, dancers wore contemporary court attire while enacting exoticized native themes. The staging frequently highlighted the energetic, unconventional nature of the choreography against structured court environments.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "A wooden floor echoing with heavy boot stamps",
+   "Intricate tablature pages from Kapsberger's 1640 manuscript",
+   "Silhouettes of dancers leaping in Baroque costume"
+  ],
+  "costume_notes": "Performed in Renaissance ballrooms, courtly masques, and theatrical stage productions, dancers wore contemporary court attire while enacting exoticized native themes. The staging frequently highlighted the energetic, unconventional nature of the choreography against structured court environments.",
+  "setting_notes": "Initially functioning as a lively ballroom diversion or theatrical interlude within masques, the dance was framed around the dramaturgical theme of the 'sauvage' or indigenous wooing. Spanish sources like Covarrubias noted its lineage from saltarello-style island dances, while contemporaries relished its bizarre, high-energy spectacle.",
+  "map": {
+   "country": "Spain / France / Italy",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Canary_dance",
+  "https://www.wikidata.org/wiki/Q130919",
+  "https://fr.wikipedia.org/wiki/Canarie_(danse)",
+  "https://de.wikipedia.org/wiki/Canarie"
+ ],
+ "claims_verified": 5,
+ "claims": 5,
+ "polished": false,
+ "hero_checked": null
+}

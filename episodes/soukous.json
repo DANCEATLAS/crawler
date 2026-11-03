@@ -1,0 +1,854 @@
+{
+ "slug": "soukous",
+ "name": "soukous",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-11-01T17:16:08Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Energetic, rhythmic, and culturally grounded.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "soukous",
+   "Soukouss",
+   "Sukus",
+   "Congo Music",
+   "Lingala"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet soukous",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Pulse of Kinshasa",
+     "This is soukous. 20th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (XS4ErzpF9uw)",
+     "Title card: soukous · Democratic Republic of the Congo · 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The genre traces its roots to the 1930s and 1940s, when Congolese musicians blended traditional rhythms with imported Cuban son and rumba.",
+     "By the 1960s, young musicians in Kinshasa and Brazzaville began speeding up these rhythms.",
+     "Orchestre Sinza Kotoko is credited with introducing the soukous style to Brazzaville nightlife around 1966, while bands like Zaïko Langa Langa later solidified the 'third school' of Congolese music with their fast-paced, free-form dance approach."
+    ],
+    "on_screen": [
+     "Map: Democratic Republic of the Congo · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "It is a pillar of Congolese social life, central to weddings, popular festivals, and nightlife.",
+     "It serves as a medium for social commentary, love, and philosophical musing, with lyrics often performed in Lingala, Kikongo, French, or Swahili."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Soukous is characterized by rapid, rhythmic hip movements and shifting body weight between the legs.",
+     "Dancers often engage in freestyle sections during the sebene, where the music intensifies.",
+     "The dance is highly energetic, requiring fluid torso control and precise footwork that matches the fast-paced percussion and guitar lines.",
+     "Watch for Sebene dance."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (XS4ErzpF9uw)",
+     "Captions name each signature move as it appears",
+     "Formation: Freestyle, individual or partnered."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music utilizes electric guitars, double bass, congas, and brass/woodwinds.",
+     "The lead guitar is central, known for speed and nimble fingerwork in the higher registers.",
+     "Listen for the Electric guitar, Double bass, Congas, Snare drum.",
+     "The pulse is 4/4 at about 128 beats a minute.",
+     "Bright, high-pitched electric guitar lines weaving through a fast, driving bassline and crisp percussion."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Kiri-Kiri Mabina Ya Sika — Docteur Nico; Suzana Coulibaly — African All Stars",
+     "Waveform or rhythm-pattern graphic: 16th-note bass cadence with offbeat guitar emphasis."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Soukous is primarily an urban dance performed in clubs, dance halls, and at large social gatherings like weddings and malakis.",
+     "Performers and dancers often emphasize elegance and fashion, a trend linked to the Sapeur movement, which prioritizes style even in difficult economic circumstances."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key figures include Franco Luambo and TPOK Jazz, Tabu Ley Rochereau, Docteur Nico, Papa Wemba, and Aurlus Mabélé.",
+     "Variants include the fast-paced ndombolo, the kiri-kiri dance style, and the Colombian champeta, which fuses soukous with local coastal culture.",
+     "Congolese rumba (parent) -> Soukous (child) -> Ndombolo/Champeta (variants)."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "soukous is parent of Congolese rumba: Soukous evolved from the slower rumba in the 1960s.",
+     "soukous is child of Champeta: Colombian variant influenced by soukous records."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Rhythmic hip swaying",
+     "Weight shifting between legs",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the electric energy of soukous, the dance that turned Congolese rumba into a global phenomenon.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Basic hip rhythm",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Basic hip rhythm.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Energetic, rhythmic, and culturally grounded."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and relaxed, allowing for fluid hip movement.",
+      "Fluid, expressive movements often following the rhythm of the guitar.",
+      "Central focus; rapid, rhythmic hip swaying and isolation."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: 16th-note bass cadence with offbeat guitar emphasis..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 89 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Rhythmic hip swaying",
+      "Step 2: Weight shifting between legs",
+      "Footwork from the sources: Small, rapid steps shifting weight between legs.",
+      "Drill: Side-to-side weight shift"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Small, rapid foot steps",
+      "Drill: Hip isolation"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Basic 4/4 step"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rigid, static posture; ensure hip movement is fluid."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 128 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Basic hip rhythm.",
+      "It is a pillar of Congolese social life, central to weddings, popular festivals, and nightlife.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Sebene flow",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Sebene flow.",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Energetic, rhythmic, and culturally grounded."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and relaxed, allowing for fluid hip movement.",
+      "Fluid, expressive movements often following the rhythm of the guitar.",
+      "Central focus; rapid, rhythmic hip swaying and isolation."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: 16th-note bass cadence with offbeat guitar emphasis..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 89 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Rhythmic hip swaying",
+      "Step 2: Weight shifting between legs",
+      "Drill: Increasing tempo"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Small, rapid foot steps",
+      "Sebene dance: High-energy, improvised movement during the instrumental bridge.",
+      "Drill: Adding arm fluidity"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Improvisation"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rigid, static posture; ensure hip movement is fluid."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Freestyle, individual or partnered."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 128 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Sebene flow.",
+      "Key figures include Franco Luambo and TPOK Jazz, Tabu Ley Rochereau, Docteur Nico, Papa Wemba, and Aurlus Mabélé.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Complex footwork",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Complex footwork.",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Energetic, rhythmic, and culturally grounded."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and relaxed, allowing for fluid hip movement.",
+      "Fluid, expressive movements often following the rhythm of the guitar.",
+      "Central focus; rapid, rhythmic hip swaying and isolation."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: 16th-note bass cadence with offbeat guitar emphasis..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 89 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Weight shifting between legs",
+      "Step 2: Small, rapid foot steps",
+      "Drill: Rapid weight transitions"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Sebene dance: High-energy, improvised movement during the instrumental bridge.",
+      "Drill: Syncopated hip movements"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rigid, static posture; ensure hip movement is fluid."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Freestyle, individual or partnered."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 128 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Complex footwork.",
+      "Congolese rumba (parent) -> Soukous (child) -> Ndombolo/Champeta (variants).",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": 128,
+  "meter": "4/4",
+  "rhythm_pattern": "16th-note bass cadence with offbeat guitar emphasis.",
+  "instruments": [
+   "Electric guitar",
+   "Double bass",
+   "Congas",
+   "Snare drum",
+   "Brass"
+  ],
+  "vocal_style": "Call-and-response, often in Lingala.",
+  "musical_form": "Alternation between vocal passages and the sebene (instrumental bridge).",
+  "mood": [
+   "Energetic",
+   "Festive",
+   "Hypnotic"
+  ],
+  "sound_description": "Bright, high-pitched electric guitar lines weaving through a fast, driving bassline and crisp percussion.",
+  "listen_before_composing": [
+   "Kiri-Kiri Mabina Ya Sika — Docteur Nico",
+   "Suzana Coulibaly — African All Stars"
+  ],
+  "prompt": "Original instrumental composition in the musical world of soukous (Democratic Republic of the Congo). Meter 4/4. Tempo about 128 bpm. Rhythm pattern: 16th-note bass cadence with offbeat guitar emphasis.. Instruments: Electric guitar, Double bass, Congas, Snare drum, Brass. Vocal style: Call-and-response, often in Lingala.. Form: Alternation between vocal passages and the sebene (instrumental bridge).. Mood: Energetic, Festive, Hypnotic. It should sound like this: Bright, high-pitched electric guitar lines weaving through a fast, driving bassline and crisp percussion. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 89
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 128
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "XS4ErzpF9uw",
+   "checked_by_vision_model": false,
+   "title": "Soukous Vibration Dancers - II"
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Soukous is primarily an urban dance performed in clubs, dance halls, and at large social gatherings like weddings and malakis. Performers and dancers often emphasize elegance and fashion, a trend linked to the Sapeur movement, which prioritizes style even in difficult economic circumstances.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ADocteur_Nico.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ALe_groupe_Loketo_en_concert%2C_en_1986.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ALe_groupe_Loketo.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Docteur_Nico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Docteur_Nico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "unknown, Ngoma / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADocteur_Nico.jpg",
+    "description": "Photograph of \"Docteur\" Nico Kasanda on the cover of a record single produced by Ngoma between 1963 and 1968"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Le_groupe_Loketo_en_concert%2C_en_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Le_groupe_Loketo_en_concert%2C_en_1986.jpg/1280px-Le_groupe_Loketo_en_concert%2C_en_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "BIB39 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALe_groupe_Loketo_en_concert%2C_en_1986.jpg",
+    "description": "Premier concert du groupe Loketo à Paris"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Le_groupe_Loketo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Le_groupe_Loketo.jpg/1280px-Le_groupe_Loketo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "BIB39 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALe_groupe_Loketo.jpg",
+    "description": "Le groupe Loketo, en studio, lors de l’enregistrement de leur premier album « Trouble »"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/A_posture_of_Pepe_Kalle_in_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d1/A_posture_of_Pepe_Kalle_in_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Mbokamosika / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AA_posture_of_Pepe_Kalle_in_1978.jpg",
+    "description": "Transporting us to a bygone era, this shot captures the heart of the iconic Congolese soukous musician, Pépé Kallé, in a vintage pose. With an air of elegance and charisma, Pépé Kallé’s presence is indeed fascinating, taking us on a nostalgic journey to a golden age of Congolese and African music in general. As a pioneering figure in the world of soukous music, he left an unforgettable impact on t"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Nyboma%2C_1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Nyboma%2C_1973.jpg/1280px-Nyboma%2C_1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Unknown author / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANyboma%2C_1973.jpg",
+    "description": "Une posture de Nyboma en 1973 lors de son triomphe avec son unique succès \"Kamale\""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Abeti_Masikini%2C_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Abeti_Masikini%2C_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Unknown author / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAbeti_Masikini%2C_1978.jpg",
+    "description": "L'artiste congolaise de soukous et de rumba Abeti Masikini prenant la pose après la sortie de son single à succès \"Singa Mwambe\""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Gaby_Lita_Bembo_jouant_du_piano_%C3%A0_la_fin_des_ann%C3%A9es_1970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/37/Gaby_Lita_Bembo_jouant_du_piano_%C3%A0_la_fin_des_ann%C3%A9es_1970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Unknown author / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGaby_Lita_Bembo_jouant_du_piano_%C3%A0_la_fin_des_ann%C3%A9es_1970.jpg",
+    "description": "Le chanteur de soukous congolais Gaby Lita Bembo jouant du piano à la fin des années 1970"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Club_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Club_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg/1280px-Club_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Lemvo Jean Abou Bakar Depara / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AClub_de_rumba_congolaise_%C3%A0_L%C3%A9opoldville.jpg",
+    "description": "Deux hommes se produisant dans un club de rumba congolaise à Léopoldville"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Neon club lights",
+   "Electric guitar fretboards",
+   "Dynamic hip movement",
+   "Urban Kinshasa streets"
+  ],
+  "costume_notes": "Soukous is primarily an urban dance performed in clubs, dance halls, and at large social gatherings like weddings and malakis. Performers and dancers often emphasize elegance and fashion, a trend linked to the Sapeur movement, which prioritizes style even in difficult economic circumstances.",
+  "setting_notes": "It is a pillar of Congolese social life, central to weddings, popular festivals, and nightlife. It serves as a medium for social commentary, love, and philosophical musing, with lyrics often performed in Lingala, Kikongo, French, or Swahili.",
+  "map": {
+   "country": "Democratic Republic of the Congo",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "the hero video's vision check",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Soukous",
+  "https://www.wikidata.org/wiki/Q1752683",
+  "https://es.wikipedia.org/wiki/Soukous",
+  "https://fr.wikipedia.org/wiki/Soukous",
+  "https://de.wikipedia.org/wiki/Soukous"
+ ],
+ "claims_verified": 4,
+ "claims": 4,
+ "polished": false,
+ "hero_checked": null
+}

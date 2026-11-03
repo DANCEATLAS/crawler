@@ -1,0 +1,931 @@
+{
+ "slug": "cakewalk",
+ "name": "Cakewalk",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:42Z",
+ "researched_at": "2026-11-02T20:29:17Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A precise, historically grounded vernacular jazz dancer who emphasizes the satirical origins of the movement.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Cakewalk",
+   "cake walk",
+   "chalkline-walk",
+   "walk-around"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Cakewalk",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The stolen dance that won the cake.",
+     "This is the cakewalk, spanning the mid-19th century to the early 20th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Cakewalk · United States · Mid-19th century to early 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The cakewalk develops from mid-19th-century prize walks on Southern plantations in the United States, and exhibits at the 1876 Centennial Exposition in Philadelphia.",
+     "It moves into minstrel shows and eventually onto Broadway, starring performers like Dora Dean and Charles E. Johnson, before becoming an international sensation in Paris in 1903."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "People perform it during Sunday gatherings and nighttime parties as a recreational pastime and a covert satire of white aristocratic European dances, while slaveholders award cakes to the winning couples.",
+     "Today, it is a revived tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Utah -- The Desert Paradise.webm (https://upload.wikimedia.org/wikipedia/commons/a/ac/Utah_--_The_Desert_Paradise.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "It is a lively partnered vernacular jazz dance featuring processional walking, high-stepping kicks, struts, slides, and an erect upper body tilted backward, alternating with frantic jumps and turns.",
+     "Watch for the high-stepping strut and the chalkline walk."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: couples in a processional circle or line, moving down a central space"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is notated in a 2/4 time signature with an oompah rhythm, incorporating syncopation, polyrhythms, and habanera rhythms.",
+     "Historically played with banjos and violins, it heavily shapes the development of ragtime.",
+     "Listen for the banjo and the violin.",
+     "The pulse is 2/4.",
+     "It is a lively 2/4 march with a heavy oompah beat, enriched by syncopated ragtime rhythms, banjos, and violins."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: At the cakewalk last night — George Formby",
+     "Waveform or rhythm-pattern graphic: oompah rhythm, syncopation, polyrhythm, and habanera rhythm"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear handed-down finery including top hats, swallow-tail coats, large bow ties, canes, and long ruffled hoop skirts.",
+     "Settings range from plantation yards to rented halls with banked spectator tiers."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key figures include Dora Dean, Charles E. Johnson, Tom Fletcher, Eugénie Fougère, Aida Overton Walker, and Will Marion Cook.",
+     "The dance spreads from Florida across Georgia, the Carolinas, Virginia, and New York, reaching international popularity in Paris and influencing early tango styles in Buenos Aires.",
+     "It is rooted in African American plantation culture, influenced by the ring shout, and serves as a direct precursor and sibling style to ragtime music."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "The cakewalk influences ragtime, as many early ragtime tunes are actually cakewalks that share identical musical antecedents.",
+     "The cakewalk shares music with the tango, since the arrival of the cakewalk and ragtime in Buenos Aires in 1903 influences early styles of tango.",
+     "The cakewalk is a variant of the lindy hop, with early 1900s cakewalk steps preserved and performed within the modern lindy hop community."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, try one step: a processional partner walk with erect posture.",
+     "Add high-stepping high kicks.",
+     "Count it: 1-2-3-4 then 5-6-7-8, covering eight counts across two bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how enslaved dancers turn the formal waltzes of their masters into a revolutionary Broadway craze.",
+     "Our sources include six references, with every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn the processional partner walk and erect posture.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 covers first steps. Today, you will learn the processional partner walk and erect posture.",
+      "The level is beginner, while the difficulty of the dance overall is intermediate.",
+      "Your instructor is a precise, historically grounded vernacular jazz dancer who emphasizes the satirical origins of the movement."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Hold an erect upper body tilted backward with comical formality.",
+      "Keep arms linked with your partner and use canes."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 2/4.",
+      "Rhythm pattern: oompah rhythm, syncopation, polyrhythm, and habanera rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1 is the processional partner walk with erect posture.",
+      "Step 2 introduces high-stepping high kicks.",
+      "Footwork from the sources includes high-stepping kicks, struts, slides, small pulos, and high steps in a circle.",
+      "Drill this with the erect posture walk."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3 is the strutting slide with the upper body tilted backward.",
+      "Drill this with the arm-in-arm couples march."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated upper-body strut and arm movements with erect posture. · For children: A playful walking contest where children dress up and win a paper prize cake."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated upper-body strut and arm movements with erect posture.",
+      "For children: A playful walking contest where children dress up and win a paper prize cake."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count in with 1-2-3-4 then 5-6-7-8 across eight counts and two bars.",
+      "Dance the whole sequence at full tempo, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn the processional partner walk and erect posture..",
+      "Performed during Sunday gatherings and nighttime parties as a recreational pastime and a covert satire of white aristocratic European dances, with slaveholders awarding cakes to winning couples.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Incorporate struts and high-stepping kicks.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 builds the dance. Today, you will incorporate struts and high-stepping kicks.",
+      "The level is intermediate, and the difficulty of the dance overall is intermediate.",
+      "Your instructor is a precise, historically grounded vernacular jazz dancer who emphasizes the satirical origins of the movement."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Keep an erect upper body tilted backward with comical formality.",
+      "Keep arms linked with your partner and use canes."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 2/4.",
+      "Rhythm pattern: oompah rhythm, syncopation, polyrhythm, and habanera rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1 is the processional partner walk with erect posture.",
+      "Step 2 is high-stepping high kicks.",
+      "Drill this with the high-step march."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3 is the strutting slide with the upper body tilted backward.",
+      "The high-stepping strut involves walking with an erect upper body tilted backward and exaggerated high kicks.",
+      "The chalkline walk is a straight walk along a marked path or line while maintaining posture.",
+      "Drill this with the syncopated slide and strut."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated upper-body strut and arm movements with erect posture. · For children: A playful walking contest where children dress up and win a paper prize cake."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated upper-body strut and arm movements with erect posture.",
+      "For children: A playful walking contest where children dress up and win a paper prize cake."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count in with 1-2-3-4 then 5-6-7-8 across eight counts and two bars.",
+      "Dance the whole sequence at full tempo, twice, in a formation of couples in a processional circle or line moving down a central space."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Incorporate struts and high-stepping kicks..",
+      "Dora Dean, Charles E. Johnson, Tom Fletcher, Eugénie Fougère, Aida Overton Walker, Will Marion Cook.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Add eccentric turns and rhythmic syncopation.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 dances the routine fully. Today, you will add eccentric turns and rhythmic syncopation.",
+      "The level is advanced, and the difficulty of the dance overall is intermediate.",
+      "Your instructor is a precise, historically grounded vernacular jazz dancer who emphasizes the satirical origins of the movement."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Maintain an erect upper body tilted backward with comical formality.",
+      "Keep arms linked with your partner and use canes."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 2/4.",
+      "Rhythm pattern: oompah rhythm, syncopation, polyrhythm, and habanera rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1 features high-stepping high kicks.",
+      "Step 2 is the strutting slide with the upper body tilted backward.",
+      "Drill this by alternating between frantic jumps and the procession."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The high-stepping strut involves walking with an erect upper body tilted backward and exaggerated high kicks.",
+      "The chalkline walk is a straight walk along a marked path or line while maintaining posture.",
+      "Drill this with performance styling using a top hat and cane."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated upper-body strut and arm movements with erect posture. · For children: A playful walking contest where children dress up and win a paper prize cake."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated upper-body strut and arm movements with erect posture.",
+      "For children: A playful walking contest where children dress up and win a paper prize cake."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count in with 1-2-3-4 then 5-6-7-8 across eight counts and two bars.",
+      "Dance the whole sequence at full tempo, twice, in a formation of couples in a processional circle or line moving down a central space."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Add eccentric turns and rhythmic syncopation..",
+      "Rooted in African American plantation culture, influenced by the ring shout, and serving as a direct precursor and sibling style to ragtime music.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "2/4",
+  "rhythm_pattern": "oompah rhythm, syncopation, polyrhythm, and habanera rhythm",
+  "instruments": [
+   "banjo",
+   "violin"
+  ],
+  "vocal_style": "call-and-response format, folk songs, minstrel tunes",
+  "musical_form": "ragtime, march and two-step",
+  "mood": [
+   "lively",
+   "comical",
+   "spirited",
+   "syncopated"
+  ],
+  "sound_description": "A lively 2/4 march with a heavy oompah beat, enriched by syncopated ragtime rhythms, banjos, and violins.",
+  "listen_before_composing": [
+   "At the cakewalk last night — George Formby"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Cakewalk (United States). Meter 2/4. Rhythm pattern: oompah rhythm, syncopation, polyrhythm, and habanera rhythm. Instruments: banjo, violin. Vocal style: call-and-response format, folk songs, minstrel tunes. Form: ragtime, march and two-step. Mood: lively, comical, spirited, syncopated. It should sound like this: A lively 2/4 march with a heavy oompah beat, enriched by syncopated ragtime rhythms, banjos, and violins. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Dancers wore handed-down finery including top hats, swallow-tail coats, large bow ties, canes, and long ruffled hoop skirts. Settings ranged from plantation yards to rented halls with banked spectator tiers.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AEbonyEchoes.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACake_walk_poster_1896.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AAdrien_Barr%C3%A8re15.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/EbonyEchoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ec/EbonyEchoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Dan Walker / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AEbonyEchoes.jpg",
+    "description": "\"Ebony Echoes: A Good Old-Fashioned Cake-Walk\" by Dan Walker. New York, NY: Shapiro, Bernstein &amp; Co., 1915 sheet music cover.\n\n\nNote: Quite late for the publication of a Cake Walk"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Cake_walk_poster_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Cake_walk_poster_1896.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Strobridge Lithographing Co., Cincinnati &amp; New York / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACake_walk_poster_1896.jpg",
+    "description": "\"Primrose &amp; West's Big Minstrels. Our great champion cake walk, open to all comers.\""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Adrien_Barr%C3%A8re15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/22/Adrien_Barr%C3%A8re15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Adrien Barrère / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAdrien_Barr%C3%A8re15.jpg",
+    "description": "\"La Revue des Folies Bergere\""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Leo_Rauth_Cake-Walk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Leo_Rauth_Cake-Walk.jpg/1280px-Leo_Rauth_Cake-Walk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Leo Rauth / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALeo_Rauth_Cake-Walk.jpg",
+    "description": "\"Cake-Walk\", rechts unten signiert Leo Rauth, Mischtechnik auf Papier, Blattgröße ca. 37 x 36 cm"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/In_Dahomey_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/07/In_Dahomey_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Wisconsin Center for Film and Theater Research / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AIn_Dahomey_1903.jpg",
+    "description": "George Walker, Adah Overton Walker, and Bert Williams link arms and dance the cakewalk in the first Broadway musical to be written and performed by African Americans, \"In Dahomey.\""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/William_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9b/William_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "William H. Johnson / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AWilliam_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg",
+    "description": "Artist: William H. Johnson, born Florence, SC 1901-died Central Islip, NY 1970\nType: Graphic Arts-Print\nDate: ca. 1941-1942\nTopic: Figure group\n     Ethnic\\African-American\n     Recreation\\dancing\n     Object\\musical instrument\\drum\n     Object\\musical instrument\\horn\nObject number: 1971.136\nMedium: serigraph on paper\nCredit Line: Smithsonian American Art Museum, Gift of Mrs. Douglas E. Younger\nPe"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Eli_Green%27s_cake-walk_%28NYPL_Hades-464080-1165854%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Eli_Green%27s_cake-walk_%28NYPL_Hades-464080-1165854%29.jpg/1280px-Eli_Green%27s_cake-walk_%28NYPL_Hades-464080-1165854%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Scan by NYPL / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AEli_Green%27s_cake-walk_%28NYPL_Hades-464080-1165854%29.jpg",
+    "description": "* Summary:  In ethnic stereotyped language, the narrator describes African Americans enjoying dancing cakewalks.\nPage 7 has music for piano only labeled Cake Walk.\nCover includes drawing of an African American male and female couple, arm in arm, apparently doing a cake walk (their feet obscured by the woman's dress).  Illustrator's device at left below woman's dress.\nOn cover:  A red hot number.\nS"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Eug%C3%A9nie_Foug%C3%A8re_cover_Paris_qui_chante.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Eug%C3%A9nie_Foug%C3%A8re_cover_Paris_qui_chante.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AEug%C3%A9nie_Foug%C3%A8re_cover_Paris_qui_chante.jpg",
+    "description": "French music-hall artist Eugénie Fougère appeared on the 18 October 1903 cover of the weekly magazine 'Paris qui Chante' dancing to the song Oh ! ce cake-walk"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Utah -- The Desert Paradise.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Utah_--_The_Desert_Paradise.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "Bill Blevins / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Cakewalk 1903.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Cakewalk_1903.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "American Mutoscope and Biograph Company. / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Le Cakewalk infernal (1903).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Le_Cakewalk_infernal_%281903%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Georges Méliès / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Les Elkes champions du cake-walk (1903).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Les_Elkes_champions_du_cake-walk_%281903%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Le Cakewalk infernal (clip, 1903).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Le_Cakewalk_infernal_%28clip%2C_1903%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Georges Méliès / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Le cake-walk au nouveau cirque.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Le_cake-walk_au_nouveau_cirque.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "unidentified director for the Lumière company / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "Kiddies Cakewalk",
+    "url": "https://archive.org/details/silent-kiddies-cakewalk",
+    "year": 1903,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "The Dog & Pony Show: Primera Temporada por Música de Producción (The Complete First Season of Production Music)",
+    "url": "https://archive.org/details/the-dog-pony-show-s-01-e-01-baile-de-la-basura-globomania-audio-latino",
+    "year": 2020,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Top hats and swallow-tail coats",
+   "A painted chalk line on a wooden floor",
+   "A golden corn-meal cake wrapped in cabbage leaves",
+   "Couples arm-in-arm strutting past critical judges"
+  ],
+  "costume_notes": "Dancers wore handed-down finery including top hats, swallow-tail coats, large bow ties, canes, and long ruffled hoop skirts. Settings ranged from plantation yards to rented halls with banked spectator tiers.",
+  "setting_notes": "Performed during Sunday gatherings and nighttime parties as a recreational pastime and a covert satire of white aristocratic European dances, with slaveholders awarding cakes to winning couples.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Cakewalk",
+  "https://www.wikidata.org/wiki/Q1026113",
+  "https://es.wikipedia.org/wiki/Cakewalk_(baile)",
+  "https://fr.wikipedia.org/wiki/Cake-walk",
+  "https://pt.wikipedia.org/wiki/Cakewalk",
+  "https://archive.org/details/manmoonmighttel00ship"
+ ],
+ "claims_verified": 5,
+ "claims": 5,
+ "polished": true,
+ "hero_checked": null,
+ "polish_kept_scenes": 28
+}

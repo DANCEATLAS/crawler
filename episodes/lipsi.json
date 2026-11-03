@@ -1,0 +1,793 @@
+{
+ "slug": "lipsi",
+ "name": "Lipsi",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-10-30T17:09:59Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A precise, historically grounded European dance archivist who treats the choreography with both technical rigor and sociological awareness.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Lipsi"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Lipsi",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The State-Sanctioned Step That Failed to Stop Elvis",
+     "This is Lipsi. 1950s."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (cwXs2XLAprM)",
+     "Title card: Lipsi · East Germany · 1950s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Lipsi was created in 1959 in East Germany by dance teachers Christa and Helmut Seifert as a communist alternative to Western rock and roll.",
+     "Promoted by the SED regime as a socialist social dance free of capitalist influence, it was officially introduced at a conference in Lauchhammer and patented worldwide by the state."
+    ],
+    "on_screen": [
+     "Map: East Germany · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The Lipsi was commissioned and deployed entirely as a political instrument of the East German state to shape youth culture and discourage Western influence.",
+     "It served as a propaganda tool during state-sanctioned balls, cultural conferences, and ideological campaigns until public rejection rendered it obsolete."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The Lipsi is a partner dance set in a 6/4 meter that begins in a classic ballroom hold.",
+     "The basic movement combines chassé steps, half-turns in waltz steps, and turns on both feet, incorporating figures from traditional folk dances such as the Ländler and Spinnradl.",
+     "The man controls turns and leans, while the woman executes stylized movements, including a traditional pose where she stands behind the man and looks over her shoulder.",
+     "Watch for Spinnradl Glance."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (cwXs2XLAprM)",
+     "Captions name each signature move as it appears",
+     "Formation: Partner dance formation across the ballroom floor"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music for the Lipsi was recorded by East German ensembles such as the Rundfunk-Tanzorchester Leipzig and vocalists like Helga Brauer, released on the Amiga label.",
+     "It features a 6/4 time signature designed to offer a steady, controlled alternative to syncopated Western rhythms.",
+     "Listen for the dance orchestra instrumentation.",
+     "The pulse is 6/4.",
+     "A mid-century orchestral dance sound in 6/4 time featuring steady rhythms, brass and string arrangements, and clean German pop vocals intended to provide a predictable, unsinful alternative to rock and roll."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Heute tanzen alle jungen Leute — Helga Brauer; Lipsi Nr 1 — Rundfunk-Tanzorchester Leipzig; Willibalds Lipsi — Martin Möhle Combo",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Danced in mid-century ballroom settings, participants wore standard European formal or semi-formal social dance attire of the 1950s.",
+     "The staging was heavily promoted in official dance halls, cultural clubs, and state-sponsored showcases across East Germany."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Christa and Helmut Seifert created the dance.",
+     "Helga Brauer was its best-known interpreting vocalist.",
+     "The dance was conceived primarily in Leipzig (derived from the Latin 'Lipsia'), with variations presented under titles like the Messe-Lipsi, but it failed to establish regional sub-genres due to its rapid public rejection and short lifespan.",
+     "The Lipsi traces its conceptual lineage to state-mandated socialist social dance directives in East Germany, drawing technical inspiration from traditional European folk dances like the Spinnradl and Ländler while opposing the lineage of American rock and roll."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Lipsi is influence of Spinnradl: Provided specific figures such as the woman standing with her back to the man and looking over her shoulder.",
+     "Lipsi is influence of Ländler: Contributed traditional folk elements integrated into the ballroom steps.",
+     "Lipsi is sibling of Berolina: Another newly invented East German propaganda dance from the same era."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Step with the left foot to the left",
+     "Tap with the right foot to the left",
+     "Count it: count the 6/4 bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "How East Germany invented a communist partner dance in 1959 to immunize its youth against rock and roll, sparking street protests and swift crackdowns.",
+     "Sources: 3 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic 6/4 side-step and tap sequence.",
+   "level": "Level 1: The Basic Footwork",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic 6/4 side-step and tap sequence..",
+      "Level: Level 1: The Basic Footwork. Difficulty of the dance overall: beginner.",
+      "Your instructor: A precise, historically grounded European dance archivist who treats the choreography with both technical rigor and sociological awareness."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Classic ballroom dance posture",
+      "Classic partner dance hold, transitioning into promenade positions",
+      "Controlled torso movements avoiding Western rock and roll gyrations"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 6/4 bar out loud, then in pairs of bars. The meter is 6/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step with the left foot to the left",
+      "Step 2: Tap with the right foot to the left",
+      "Footwork from the sources: Step left, tap right, step right, tap left, step left, step right to close",
+      "Drill: Step left, tap right solo footwork drill"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 6/4 bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Step with the right foot to the right",
+      "Step 4: Tap with the left foot to the right",
+      "Drill: Step right, tap left return drill"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 6/4 bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Closing step integration on 6/4 count"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Western rock and roll gyrations and individual improvisation"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 6/4 bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic 6/4 side-step and tap sequence..",
+      "The Lipsi was commissioned and deployed entirely as a political instrument of the East German state to shape youth culture and discourage Western influence.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Introduce classic ballroom hold and half-turn waltz steps.",
+   "level": "Level 2: Partner Frame & Turns",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Introduce classic ballroom hold and half-turn waltz steps..",
+      "Level: Level 2: Partner Frame & Turns. Difficulty of the dance overall: beginner.",
+      "Your instructor: A precise, historically grounded European dance archivist who treats the choreography with both technical rigor and sociological awareness."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Classic ballroom dance posture",
+      "Classic partner dance hold, transitioning into promenade positions",
+      "Controlled torso movements avoiding Western rock and roll gyrations"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 6/4 bar out loud, then in pairs of bars. The meter is 6/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step with the left foot to the left",
+      "Step 2: Step with the right foot to the left to close the feet",
+      "Drill: Establishing closed partner frame"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 6/4 bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Spinnradl Glance: Woman stands before the man, turns her back to him, and looks back over her shoulder.",
+      "Drill: Executing half-turns in 6/4 meter"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 6/4 bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Promenade position transition drill"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Western rock and roll gyrations and individual improvisation"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 6/4 bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Partner dance formation across the ballroom floor"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Introduce classic ballroom hold and half-turn waltz steps..",
+      "Christa and Helmut Seifert created the dance.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Incorporate the Spinnradl shoulder-glance figure safely.",
+   "level": "Level 3: Folk-Derived Flourishes",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Incorporate the Spinnradl shoulder-glance figure safely..",
+      "Level: Level 3: Folk-Derived Flourishes. Difficulty of the dance overall: beginner.",
+      "Your instructor: A precise, historically grounded European dance archivist who treats the choreography with both technical rigor and sociological awareness."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Classic ballroom dance posture",
+      "Classic partner dance hold, transitioning into promenade positions",
+      "Controlled torso movements avoiding Western rock and roll gyrations"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 6/4 bar out loud, then in pairs of bars. The meter is 6/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step with the left foot to the left",
+      "Step 2: Step with the right foot to the left to close the feet",
+      "Drill: Partner separation and positioning drill"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 6/4 bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Spinnradl Glance: Woman stands before the man, turns her back to him, and looks back over her shoulder.",
+      "Drill: Over-the-shoulder glance timing exercise"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 6/4 bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Full sequence run-through with orchestra music cue"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Western rock and roll gyrations and individual improvisation"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 6/4 bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Partner dance formation across the ballroom floor"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Incorporate the Spinnradl shoulder-glance figure safely..",
+      "The Lipsi traces its conceptual lineage to state-mandated socialist social dance directives in East Germany, drawing technical inspiration from traditional European folk dances like the Spinnradl and Ländler while opposing the lineage of American rock and roll.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "6/4",
+  "rhythm_pattern": null,
+  "instruments": [
+   "dance orchestra instrumentation"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "wholesome",
+   "controlled",
+   "propagandistic"
+  ],
+  "sound_description": "A mid-century orchestral dance sound in 6/4 time featuring steady rhythms, brass and string arrangements, and clean German pop vocals intended to provide a predictable, unsinful alternative to rock and roll.",
+  "listen_before_composing": [
+   "Heute tanzen alle jungen Leute — Helga Brauer",
+   "Lipsi Nr 1 — Rundfunk-Tanzorchester Leipzig",
+   "Willibalds Lipsi — Martin Möhle Combo",
+   "Lipsi Nr. 1 / Heute tanzen alle jungen Leute — Helga Brauer, Die Flamingos (1958)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Lipsi (East Germany). Meter 6/4. Instruments: dance orchestra instrumentation. Mood: wholesome, controlled, propagandistic. It should sound like this: A mid-century orchestral dance sound in 6/4 time featuring steady rhythms, brass and string arrangements, and clean German pop vocals intended to provide a predictable, unsinful alternative to rock and roll. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "cwXs2XLAprM",
+   "checked_by_vision_model": false,
+   "title": "Gaby Decker tanzt im Lipsi Schritt 1998"
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Danced in mid-century ballroom settings, participants wore standard European formal or semi-formal social dance attire of the 1950s. The staging was heavily promoted in official dance halls, cultural clubs, and state-sponsored showcases across East Germany.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Archival 1950s East German dance halls",
+   "Amiga vinyl records spinning on a turntable",
+   "Staged couples performing rigid ballroom holds",
+   "Historic street corners in Leipzig where youth protested"
+  ],
+  "costume_notes": "Danced in mid-century ballroom settings, participants wore standard European formal or semi-formal social dance attire of the 1950s. The staging was heavily promoted in official dance halls, cultural clubs, and state-sponsored showcases across East Germany.",
+  "setting_notes": "The Lipsi was commissioned and deployed entirely as a political instrument of the East German state to shape youth culture and discourage Western influence. It served as a propaganda tool during state-sanctioned balls, cultural conferences, and ideological campaigns until public rejection rendered it obsolete.",
+  "map": {
+   "country": "East Germany",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "count the 6/4 bar out loud, then in pairs of bars",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Lipsi_(dance)",
+  "https://www.wikidata.org/wiki/Q1411395",
+  "https://de.wikipedia.org/wiki/Lipsi_(Tanz)"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "hero_checked": null
+}

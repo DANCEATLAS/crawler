@@ -1,0 +1,828 @@
+{
+ "slug": "tobas",
+ "name": "Tobas",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-10-31T15:47:48Z",
+ "qc_score": 9.7,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Experienced Tobas dancer from Oruro, passionate about preserving indigenous heritage and teaching physical technique",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Tobas",
+   "Danza de Bolivia",
+   "Bolivia original"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Tobas",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Tobas: The Warrior Dance of Bolivia's Oruro",
+     "This is Tobas. early 20th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (-LGqf8TMNrU)",
+     "Title card: Tobas · Bolivia · early 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Tobas originated in Oruro, Bolivia, in the early 20th century when Tomás Cáceres Nava and his son Donato, inspired by the Chunchos dance seen at the San Roque festival in Tarija, created a comparsa around 1905.",
+     "The dance was named after the Toba tribe, feared warriors from the Chaco region, popularized by the mysterious death of explorer Jules Crevaux in 1882."
+    ],
+    "on_screen": [
+     "Map: Bolivia · South America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Tobas is performed at major Bolivian festivals including Carnaval de Oruro and Fiesta del Gran Poder, and internationally in festivals in Chile, Peru, and Argentina.",
+     "The dance conveys messages of indigenous identity preservation, respect for nature and biodiversity, and cultural diversity awareness.",
+     "It transmits ancestral and historical cultural legacy to future generations."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Bolivar, Cambá, Chucu-chucu."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (-LGqf8TMNrU)",
+     "Captions name each signature move as it appears",
+     "Formation: performed in group formations called comparsas during festivals"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Originally, Tobas music used traditional Andean wind instruments like pinquillos and quenas.",
+     "From the 1960s onward, brass instruments replaced these, creating a more agile and energetic sound.",
+     "Listen for the pinquillos, quenas, brass instruments.",
+     "The music transitioned from traditional Andean wind instruments to brass, creating a lively and agile sound that supports the vigorous jumps and rapid footwork of the dance."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear elaborate costumes featuring full feathered headdresses decorated with jewels, colorful skirts and tops adorned with beads and fringes, and anklets with sewn cow hooves that add rhythmic sounds.",
+     "They carry symbolic weapons such as spears or hatchets and wear feather bracelets.",
+     "The dance is performed outdoors during religious and cultural festivals like Carnaval de Oruro and Fiesta del Gran Poder, as well as international events in Chile, Peru, and Argentina."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Tomás Cáceres Nava and his son Donato Cáceres Véliz founded the original comparsa inspired by the Chunchos dance.",
+     "Cristóbal Franco founded the Comparsa Tobas Zona Central in 1945, promoting native dances for decades.",
+     "The dance is performed mainly in Oruro but also appears in festivals in other Bolivian regions such as Beni and La Paz, where the costume reflects Amazonian influences.",
+     "Tobas is a Bolivian folk dance inspired by the Chunchos dance of Tarija and named after the Toba tribe of the Chaco region."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Tobas is inspiration of Chunchos (dance): Tobas was inspired by the Chunchos dance of Tarija seen by the Cáceres family in 1905."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Bolivar: fast regular jumps",
+     "Cambá: high jumps up to one meter",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the origins, vibrant costumes, and acrobatic jumps of Bolivia's Tobas dance, born from indigenous inspiration and mining city creativity.",
+     "Sources: 3 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn basic jumps and posture",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn basic jumps and posture.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate to advanced.",
+      "Your instructor: Experienced Tobas dancer from Oruro, passionate about preserving indigenous heritage and teaching physical technique"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "upright, warrior-like",
+      "simulate throwing spears and hunting gestures",
+      "engaged to support jumps and turns"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Bolivar: fast regular jumps",
+      "Step 2: Cambá: high jumps up to one meter",
+      "Footwork from the sources: acrobatic jumps and rapid footwork with named steps like Bolivar and Cambá",
+      "Drill: Practice upright warrior posture"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Chucu-chucu: rapid tiptoe movements",
+      "Step 4: Cullahui: distinctive jump",
+      "Drill: Master Bolivar step with regular jumps"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Introduce arm movements simulating spear throwing"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn basic jumps and posture.",
+      "Tobas is performed at major Bolivian festivals including Carnaval de Oruro and Fiesta del Gran Poder, and internationally in festivals in Chile, Peru, and Argentina.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Develop stamina and rhythm",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Develop stamina and rhythm.",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate to advanced.",
+      "Your instructor: Experienced Tobas dancer from Oruro, passionate about preserving indigenous heritage and teaching physical technique"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "upright, warrior-like",
+      "simulate throwing spears and hunting gestures",
+      "engaged to support jumps and turns"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Bolivar: fast regular jumps",
+      "Step 2: Cambá: high jumps up to one meter",
+      "Drill: Perform Cambá high jumps safely"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Chucu-chucu: rapid tiptoe movements",
+      "Step 4: Cullahui: distinctive jump",
+      "Bolivar: fast regular jumps",
+      "Cambá: high jumps up to one meter",
+      "Drill: Combine Chucu-chucu rapid tiptoe steps with arm gestures"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice transitions between named steps"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: performed in group formations called comparsas during festivals"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Develop stamina and rhythm.",
+      "Tomás Cáceres Nava and his son Donato Cáceres Véliz founded the original comparsa inspired by the Chunchos dance.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute full choreography with energy",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute full choreography with energy.",
+      "Level: Advanced. Difficulty of the dance overall: intermediate to advanced.",
+      "Your instructor: Experienced Tobas dancer from Oruro, passionate about preserving indigenous heritage and teaching physical technique"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "upright, warrior-like",
+      "simulate throwing spears and hunting gestures",
+      "engaged to support jumps and turns"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Chucu-chucu: rapid tiptoe movements",
+      "Step 2: Cullahui: distinctive jump",
+      "Drill: Sustain continuous jumping sequences"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Chucu-chucu: rapid tiptoe movements",
+      "Cullahui: distinctive jump",
+      "Drill: Coordinate group formations in comparsa style"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Incorporate costume elements like anklets and feather bracelets"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: performed in group formations called comparsas during festivals"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute full choreography with energy.",
+      "Tobas is a Bolivian folk dance inspired by the Chunchos dance of Tarija and named after the Toba tribe of the Chaco region.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "pinquillos",
+   "quenas",
+   "brass instruments"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "energetic",
+   "agile",
+   "vigorous"
+  ],
+  "sound_description": "The music transitioned from traditional Andean wind instruments to brass, creating a lively and agile sound that supports the vigorous jumps and rapid footwork of the dance.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Tobas (Bolivia). Instruments: pinquillos, quenas, brass instruments. Mood: energetic, agile, vigorous. It should sound like this: The music transitioned from traditional Andean wind instruments to brass, creating a lively and agile sound that supports the vigorous jumps and rapid footwork of the dance. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "-LGqf8TMNrU",
+   "checked_by_vision_model": false,
+   "title": "Campeones Nacionales de Tobas 2017, Fraternidad Cultural Sayani Huajchas"
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Dancers wear elaborate costumes featuring full feathered headdresses decorated with jewels, colorful skirts and tops adorned with beads and fringes, and anklets with sewn cow hooves that add rhythmic sounds. They carry symbolic weapons such as spears or hatchets and wear feather bracelets. The dance is performed outdoors during religious and cultural festivals like Carnaval de Oruro and Fiesta del Gran Poder, as well as international events in Chile, Peru, and Argentina.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ADanseur_dans_une_Tobas%2C_danse_traditionnelle_aymara_de_Bolivie.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Danseur_dans_une_Tobas%2C_danse_traditionnelle_aymara_de_Bolivie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Danseur_dans_une_Tobas%2C_danse_traditionnelle_aymara_de_Bolivie.jpg/1280px-Danseur_dans_une_Tobas%2C_danse_traditionnelle_aymara_de_Bolivie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Pierre André Leclercq / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADanseur_dans_une_Tobas%2C_danse_traditionnelle_aymara_de_Bolivie.jpg",
+    "description": "Dancer on Tobas in show Origenes.- Sucre,  Bolivia. Tobas, a traditional Aymara dance from Bolivia, performed during religious festivals. The Tobas dance is a special representation of energy.  The dance and music of the Tobas has been reinterpreted by subsequent people of Bolivia like the Aymara and the Mestizos."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Feathered headdresses shimmering in sunlight",
+   "Cow hooves tied to ankles striking the ground",
+   "Dancers mid-air in high jumps",
+   "Colorful beadwork and fringes swaying",
+   "Brass instruments playing lively rhythms"
+  ],
+  "costume_notes": "Dancers wear elaborate costumes featuring full feathered headdresses decorated with jewels, colorful skirts and tops adorned with beads and fringes, and anklets with sewn cow hooves that add rhythmic sounds. They carry symbolic weapons such as spears or hatchets and wear feather bracelets. The dance is performed outdoors during religious and cultural festivals like Carnaval de Oruro and Fiesta del Gran Poder, as well as international events in Chile, Peru, and Argentina.",
+  "setting_notes": "Tobas is performed at major Bolivian festivals including Carnaval de Oruro and Fiesta del Gran Poder, and internationally in festivals in Chile, Peru, and Argentina. The dance conveys messages of indigenous identity preservation, respect for nature and biodiversity, and cultural diversity awareness. It transmits ancestral and historical cultural legacy to future generations.",
+  "map": {
+   "country": "Bolivia",
+   "region": "South America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tobas",
+  "https://www.wikidata.org/wiki/Q951315",
+  "https://es.wikipedia.org/wiki/Tobas_(danza)"
+ ],
+ "claims_verified": 16,
+ "claims": 16,
+ "polished": false,
+ "hero_checked": null
+}

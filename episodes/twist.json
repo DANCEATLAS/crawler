@@ -1,0 +1,883 @@
+{
+ "slug": "twist",
+ "name": "Twist",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-11-02T20:16:30Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An energetic mid-century dance historian with a lively, accessible teaching style.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Twist"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Twist",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Dance That Started a Global Craze Without Ever Touching",
+     "This is Twist. 1950s–1960s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Twist · United States · 1950s–1960s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The twist traces its stylistic lineage to African-American and African traditions, with historians Marshall and Jean Stearns noting that a pelvic dance motion called the twist came to America from the Congo during slavery.",
+     "Early iterations appeared in blackface minstrelsy with Joel Walker Sweeney's 'Vine Twist' and the early 20th-century craze 'Mess Around'.",
+     "Blues artists referenced the concept decades prior to the 1950s boom, including Bo Carter's 'Twist It Babe' in 1931 and Jelly Roll Morton's 'Winin' Boy Blues'."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Functioned as a spontaneous youth craze that bridged social divides, transforming rock music into a mass-market phenomenon while sparking generational debates over its suggestive pelvic motions.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Kettlebell Lunge and Twist.webm (https://upload.wikimedia.org/wikipedia/commons/2/21/Kettlebell_Lunge_and_Twist.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The twist is performed standing with feet approximately shoulder-width apart.",
+     "The hips, torso, and legs rotate on the balls of the feet as a single unit, with feet grinding back and forth on the floor as if putting out a cigarette.",
+     "Knees are bent slightly, and arms are held out from the body, bent at the elbow.",
+     "Watch for Cigarette Stomp, Towel Wipe."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: No-contact solo dancing requiring minimal space, performed individually, in rows, or in a crowd."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Driven by upbeat rock and roll instrumentation featuring electric guitars, drums, piano, and saxophone, alongside energetic vocal performances.",
+     "Hit recordings featured driving backbeats and call-and-response structures designed to propel continuous physical movement.",
+     "Listen for the electric guitar, drums, piano, saxophone.",
+     "An energetic rock and roll track featuring a driving drum backbeat, prominent electric guitars, and celebratory vocals commanding dancers to twist."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: The Twist — Chubby Checker; Let's Twist Again — Chubby Checker; Peppermint Twist (Part 1) — Joey Dee and the Starliters",
+     "Waveform or rhythm-pattern graphic: Rock and roll beat with a strong backbeat"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Danced in informal youth settings, discotheques, and television stages.",
+     "Costumes reflected early 1960s casual wear, ranging from teenage skirts and trousers to sophisticated club attire at venues like New York's Peppermint Lounge."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Chubby Checker, Hank Ballard, Dick Clark, Joey Dee, Bill Haley, Sam Cooke, Bo Diddley.",
+     "Exported internationally, yielding localized versions such as Mexico's 'Spanish Twist' and 'Florida Twist' by Bill Haley, French yé-yé adaptations by Johnny Hallyday and Eddy Mitchell, and British pop versions.",
+     "Influenced subsequent 1960s fad dances including the Jerk, the Pony, the Watusi, the Mashed Potato, the Monkey, and the Funky Chicken."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Twist is variant of Jerk: Inspired by the twist craze of the early 1960s.",
+     "Twist is variant of Pony: A novelty dance spawned during the twist era.",
+     "Twist is variant of Watusi: Follow-up solo dance craze of the early 1960s.",
+     "Twist is variant of Mashed Potato: Popular 1960s dance sharing structural lineage with the twist."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand with feet shoulder-width apart, knees slightly bent and arms bent at the elbows.",
+     "Rotate hips, torso, and legs on the balls of the feet as a single unit.",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a teenage dance craze from Tampa conquered the world in the 1960s through simple foot-grinding and pelvic rotation.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic stance and foot grind.",
+   "level": "Level 1: Foundation",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic stance and foot grind..",
+      "Level: Level 1: Foundation. Difficulty of the dance overall: beginner.",
+      "Your instructor: An energetic mid-century dance historian with a lively, accessible teaching style."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Low posture with knees bent slightly, torso squared or angled.",
+      "Held out from the body and bent at the elbow, staying relatively stationary or thrusting in coordination with hip movement.",
+      "Hips, torso, and legs rotate as a single unit, swiveling from side to side erotically."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Rhythm pattern: Rock and roll beat with a strong backbeat.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand with feet shoulder-width apart, knees slightly bent and arms bent at the elbows.",
+      "Step 2: Rotate hips, torso, and legs on the balls of the feet as a single unit.",
+      "Footwork from the sources: Feet remain in contact with the floor on the balls of the feet, grinding back and forth as if putting out a cigarette.",
+      "Drill: Shoulder-width footing drill"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Grind feet back and forth on the floor as if putting out a cigarette.",
+      "Step 4: Sway upper body forward and backward while swiveling hips from side to side.",
+      "Drill: Ball-of-foot weight shifting"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Cigarette-stunting foot grind"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Partner contact and high vertical jumps."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the hip swivel and arm movements while seated firmly in a chair. · For children: A freeze-dance game where children twist freely to rock and roll music and freeze when the music stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the hip swivel and arm movements while seated firmly in a chair.",
+      "For children: A freeze-dance game where children twist freely to rock and roll music and freeze when the music stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic stance and foot grind..",
+      "Functioned as a spontaneous youth craze that bridged social divides, transforming rock music into a mass-market phenomenon while sparking generational debates over its suggestive pelvic motions.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Integrate hip rotation and arm placement.",
+   "level": "Level 2: Coordination",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Integrate hip rotation and arm placement..",
+      "Level: Level 2: Coordination. Difficulty of the dance overall: beginner.",
+      "Your instructor: An energetic mid-century dance historian with a lively, accessible teaching style."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Low posture with knees bent slightly, torso squared or angled.",
+      "Held out from the body and bent at the elbow, staying relatively stationary or thrusting in coordination with hip movement.",
+      "Hips, torso, and legs rotate as a single unit, swiveling from side to side erotically."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Rhythm pattern: Rock and roll beat with a strong backbeat.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand with feet shoulder-width apart, knees slightly bent and arms bent at the elbows.",
+      "Step 2: Rotate hips, torso, and legs on the balls of the feet as a single unit.",
+      "Drill: Elbow bend and arm hold"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Grind feet back and forth on the floor as if putting out a cigarette.",
+      "Step 4: Sway upper body forward and backward while swiveling hips from side to side.",
+      "Cigarette Stomp: Grinding the balls of the feet back and forth on the floor as if extinguishing a cigarette.",
+      "Towel Wipe: Swiveling hips from side to side as if rubbing oneself with a towel.",
+      "Drill: Hip swivel matching upper body rotation"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Towel-wipe hip motion"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Partner contact and high vertical jumps."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the hip swivel and arm movements while seated firmly in a chair. · For children: A freeze-dance game where children twist freely to rock and roll music and freeze when the music stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the hip swivel and arm movements while seated firmly in a chair.",
+      "For children: A freeze-dance game where children twist freely to rock and roll music and freeze when the music stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: No-contact solo dancing requiring minimal space, performed individually, in rows, or in a crowd."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate hip rotation and arm placement..",
+      "Chubby Checker, Hank Ballard, Dick Clark, Joey Dee, Bill Haley, Sam Cooke, Bo Diddley.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Combine full-body rotation to rock and roll tempo.",
+   "level": "Level 3: Flow",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Combine full-body rotation to rock and roll tempo..",
+      "Level: Level 3: Flow. Difficulty of the dance overall: beginner.",
+      "Your instructor: An energetic mid-century dance historian with a lively, accessible teaching style."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Low posture with knees bent slightly, torso squared or angled.",
+      "Held out from the body and bent at the elbow, staying relatively stationary or thrusting in coordination with hip movement.",
+      "Hips, torso, and legs rotate as a single unit, swiveling from side to side erotically."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Rhythm pattern: Rock and roll beat with a strong backbeat.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Grind feet back and forth on the floor as if putting out a cigarette.",
+      "Step 2: Sway upper body forward and backward while swiveling hips from side to side.",
+      "Drill: Continuous solo twisting"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Cigarette Stomp: Grinding the balls of the feet back and forth on the floor as if extinguishing a cigarette.",
+      "Towel Wipe: Swiveling hips from side to side as if rubbing oneself with a towel.",
+      "Drill: Vertical height variation"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Stylized single leg lift"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Partner contact and high vertical jumps."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the hip swivel and arm movements while seated firmly in a chair. · For children: A freeze-dance game where children twist freely to rock and roll music and freeze when the music stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the hip swivel and arm movements while seated firmly in a chair.",
+      "For children: A freeze-dance game where children twist freely to rock and roll music and freeze when the music stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: No-contact solo dancing requiring minimal space, performed individually, in rows, or in a crowd."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Combine full-body rotation to rock and roll tempo..",
+      "Influenced subsequent 1960s fad dances including the Jerk, the Pony, the Watusi, the Mashed Potato, the Monkey, and the Funky Chicken.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Rock and roll beat with a strong backbeat",
+  "instruments": [
+   "electric guitar",
+   "drums",
+   "piano",
+   "saxophone"
+  ],
+  "vocal_style": "Enthusiastic vernacular pop and R&B vocals",
+  "musical_form": "Verse-chorus rock and roll song structure",
+  "mood": [
+   "energetic",
+   "hédoniste",
+   "festive",
+   "youthful"
+  ],
+  "sound_description": "An energetic rock and roll track featuring a driving drum backbeat, prominent electric guitars, and celebratory vocals commanding dancers to twist.",
+  "listen_before_composing": [
+   "The Twist — Chubby Checker",
+   "Let's Twist Again — Chubby Checker",
+   "Peppermint Twist (Part 1) — Joey Dee and the Starliters",
+   "Twistin' the Night Away — Sam Cooke",
+   "Bo Diddley's a Twister — Bo Diddley (1962)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Twist (United States). Rhythm pattern: Rock and roll beat with a strong backbeat. Instruments: electric guitar, drums, piano, saxophone. Vocal style: Enthusiastic vernacular pop and R&B vocals. Form: Verse-chorus rock and roll song structure. Mood: energetic, hédoniste, festive, youthful. It should sound like this: An energetic rock and roll track featuring a driving drum backbeat, prominent electric guitars, and celebratory vocals commanding dancers to twist. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Danced in informal youth settings, discotheques, and television stages. Costumes reflected early 1960s casual wear, ranging from teenage skirts and trousers to sophisticated club attire at venues like New York's Peppermint Lounge.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABundesarchiv_Bild_183-C0517-0010-005%2C_Berlin%2C_Deutschlandtreffen%2C_tanzende_Jugendliche.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bundesarchiv_Bild_183-C0517-0010-005%2C_Berlin%2C_Deutschlandtreffen%2C_tanzende_Jugendliche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bundesarchiv_Bild_183-C0517-0010-005%2C_Berlin%2C_Deutschlandtreffen%2C_tanzende_Jugendliche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Hochneder, Christa / Wikimedia Commons / CC BY-SA 3.0 de",
+    "license": "CC BY-SA 3.0 de",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABundesarchiv_Bild_183-C0517-0010-005%2C_Berlin%2C_Deutschlandtreffen%2C_tanzende_Jugendliche.jpg",
+    "description": "For documentary purposes the German Federal Archive often retained the original image captions, which may be erroneous, biased, obsolete or politically extreme. Zentralbild/Hochneder\n17.5.1964\nSonderdienst Deutschlandtreffen\nTanz am Pfingstsonnabendabend.\n\nEifrig wurde auf den Tanzflächen von der Karl-Marx-Allee bis Unter den Linden getwistet."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Kettlebell Lunge and Twist.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Kettlebell_Lunge_and_Twist.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Taco fleur / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:SkeptiCamp 2019 Skepardy! William Patterson.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/SkeptiCamp_2019_Skepardy%21_William_Patterson.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Sgerbic / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Age of Empires III- Definitive Edition - Knights of the Mediterranean Teaser.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Age_of_Empires_III-_Definitive_Edition_-_Knights_of_the_Mediterranean_Teaser.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "Age of Empires / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Police Bodycam Shows Man Lose Consciousness During Arrest.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Police_Bodycam_Shows_Man_Lose_Consciousness_During_Arrest.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "SLPD / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:The Last Case of Benedict Fox - Combat Gameplay Walkthrough.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/The_Last_Case_of_Benedict_Fox_-_Combat_Gameplay_Walkthrough.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "PLOT TWIST / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Link's Awakening Started as an Unofficial Fan Game.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Link%27s_Awakening_Started_as_an_Unofficial_Fan_Game.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "Video Game Story Time / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "PRINCESS OLANMA THE DANCER nigerian movies - Nollywood Latest Movies 2016 | Latest Nigerian Movies",
+    "url": "https://archive.org/details/youtube-geddAAhzswY",
+    "year": 2016,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "The Wiggles: Magical Adventure! (A Wiggly Movie) 2007 Warner Home Video DVD Rip",
+    "url": "https://archive.org/details/MAGICALADVENTURENTSCTitle2",
+    "year": 2019,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Vintage 1960s television broadcast screens",
+   "Close-up of shoes grinding on a wooden floor",
+   "Crowds twisting in tight spaces without touching"
+  ],
+  "costume_notes": "Danced in informal youth settings, discotheques, and television stages. Costumes reflected early 1960s casual wear, ranging from teenage skirts and trousers to sophisticated club attire at venues like New York's Peppermint Lounge.",
+  "setting_notes": "Functioned as a spontaneous youth craze that bridged social divides, transforming rock music into a mass-market phenomenon while sparking generational debates over its suggestive pelvic motions.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Twist_(dance)",
+  "https://www.wikidata.org/wiki/Q387916",
+  "https://es.wikipedia.org/wiki/Twist_(baile)",
+  "https://fr.wikipedia.org/wiki/Twist",
+  "https://pt.wikipedia.org/wiki/Twist"
+ ],
+ "claims_verified": 4,
+ "claims": 4,
+ "polished": false,
+ "hero_checked": null
+}

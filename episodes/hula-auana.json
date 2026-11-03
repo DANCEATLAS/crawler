@@ -1,0 +1,857 @@
+{
+ "slug": "hula-auana",
+ "name": "Hula ʻauana",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-10-28T06:34:24Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Hula ʻauana",
+   "Modern hula",
+   "Hula dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Hula ʻauana",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Meaning 'to wander' or 'drift', this style replaced sacred drums with the melodic harmony of guitars and ukuleles to tell stories of the post-1800s world.",
+     "This is Hula ʻauana. 19th–20th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (sw51ThkIvRM)",
+     "Title card: Hula ʻauana · USA (Hawaii) · 19th–20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Hula ʻauana developed in the 19th and 20th centuries as Hawaiian culture adapted to Western influences, specifically Christian morality and melodic harmony.",
+     "While hula was once banned or suppressed following the American overthrow of the Hawaiian Kingdom and the 1896 ban on the Hawaiian language in schools, a cultural resurgence in the late 1960s revitalized the practice."
+    ],
+    "on_screen": [
+     "Map: USA (Hawaii) · Oceania",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Hula ʻauana is performed to comment on significant people, places, or events, or to express emotions.",
+     "While it can be performed for entertainment at festivals like the Merrie Monarch (established 1971), it remains a vital method of preserving the Hawaiian language and oral history.",
+     "The concept of 'mana' (spiritual power) remains central to the poetry (mele), and performers are taught that they bear the consequences of the poetry they deliver."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance dramatizes the words of a mele (song) through complex hand motions and a library of basic foot and hip movements.",
+     "Hand gestures represent nature, such as waves or trees, or emotions like sadness.",
+     "Basic steps include the kāholo (side-to-side), kaʻo (swaying hips), kāwelu, hela (pointing foot forward), ʻuwehe (lifting heels and pushing knees forward), and ʻami (hip rotations)."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (sw51ThkIvRM)",
+     "Signature moves — MISSING"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Unlike ancient hula, ʻauana uses Western-influenced portable acoustic stringed instruments.",
+     "The primary ensemble includes the ʻukulele (rhythm or lead), the guitar (often played in 'slack key' or 'steel guitar' styles), and the double bass to maintain rhythm."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Blue Hawaii — Elvis Presley (1961)",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Regalia in hula ʻauana is generally less revealing than traditional styles, reflecting 19th-century Western influence.",
+     "Women often wear long dresses or skirts rather than the traditional topless pāʻū.",
+     "Dancers frequently wear lei in various forms: lei poʻo (headpieces), necklaces, and kupeʻe (bracelets or anklets)."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The 'kumu hula' is the source of knowledge and master teacher of the dance.",
+     "In the 20th century, Western artists like Elvis Presley popularized a fusion of hula and rock in the film 'Blue Hawaii' with the song 'Rock A Hula Baby', though this is distinct from traditional practice.",
+     "While related dances like the Tahitian 'ote'a or Maori haka exist across Polynesia, hula is unique to the Hawaiian Islands.",
+     "Hula ʻauana is the direct descendant of hula kahiko (ancient hula)."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Kāholo (Side-to-side traveling step)",
+     "Kaʻo (Swaying of the hips)",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Sources: 4 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "the first steps of Hula ʻauana",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: the first steps of Hula ʻauana.",
+      "Level: beginner. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Kāholo (Side-to-side traveling step)",
+      "Step 2: Kaʻo (Swaying of the hips)"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Hela (One foot is placed forward at an angle)",
+      "Step 4: ʻUwehe (Heels are lifted and knees pushed forward)"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the first steps of Hula ʻauana.",
+      "Hula ʻauana is performed to comment on significant people, places, or events, or to express emotions.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Hula ʻauana",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Hula ʻauana.",
+      "Level: intermediate. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: ʻAmi (Rotation of the hips)",
+      "Step 2: Hand gestures (Narrative movements representing nature or emotion)"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Hula ʻauana.",
+      "The 'kumu hula' is the source of knowledge and master teacher of the dance.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Hula ʻauana",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Hula ʻauana.",
+      "Level: advanced. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: ʻAmi (Rotation of the hips)",
+      "Step 2: Hand gestures (Narrative movements representing nature or emotion)"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Hula ʻauana.",
+      "Hula ʻauana is the direct descendant of hula kahiko (ancient hula).",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [],
+  "sound_description": null,
+  "listen_before_composing": [
+   "Blue Hawaii — Elvis Presley (1961)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Hula ʻauana (USA (Hawaii)). New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "sw51ThkIvRM",
+   "checked_by_vision_model": false,
+   "title": "2021 Miss Aloha Hula ʻAuana | Ashley Kilioulaninuiamamaohoʻopiʻiwahinekapualokeokalaniākea Lai"
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Regalia in hula ʻauana is generally less revealing than traditional styles, reflecting 19th-century Western influence. Women often wear long dresses or skirts rather than the traditional topless pāʻū. Dancers frequently wear lei in various forms: lei poʻo (headpieces), necklaces, and kupeʻe (bracelets or anklets). These may be made from materials gathered in the forest, such as kī leaves, which were historically sacred to the forest goddess Laka.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AKealii_Reichel_Hula_Halau_2005_01.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AHula_Kahiko_Hawaii_Volcanoes_National_Park_01.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AHula_Kahiko_Hawaii_Volcanoes_National_Park_02.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kealii_Reichel_Hula_Halau_2005_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kealii_Reichel_Hula_Halau_2005_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Charles Haynes / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKealii_Reichel_Hula_Halau_2005_01.jpg",
+    "description": "Keali'i Reichel and Hula Halau. Ninth Annual Kukahi Concert, February 12, 2005. Maui Arts &amp; Cultural Center"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Hula_Kahiko_Hawaii_Volcanoes_National_Park_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Hula_Kahiko_Hawaii_Volcanoes_National_Park_01.jpg/1280px-Hula_Kahiko_Hawaii_Volcanoes_National_Park_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ron Ardis / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHula_Kahiko_Hawaii_Volcanoes_National_Park_01.jpg",
+    "description": "Havaijilaista hula-kulttuuria."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Hula_Kahiko_Hawaii_Volcanoes_National_Park_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Hula_Kahiko_Hawaii_Volcanoes_National_Park_02.jpg/1280px-Hula_Kahiko_Hawaii_Volcanoes_National_Park_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ron Ardis / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHula_Kahiko_Hawaii_Volcanoes_National_Park_02.jpg",
+    "description": "Hula kahiko performance at the pa hula in Hawaii Volcanoes National Park"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Hula0081110.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/01/Hula0081110.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "This file was created by Thomas Tunsch. It is not in the public domain and use of this file outside of the licensing terms is a copyright violation.\nPlease credit authorship as follows:\n © CC BY-SA Thomas Tunsch / Hula0081110.jpg (Wikimedia Commons).\nSource attribution by linking to this file page (//commons.wikimedia.org/wiki/File:Hula0081110.jpg) is recommended.\n\nThe application Lizenzhinweisgenerator can help to reuse pictures from Wikipedia and the free media file repository easily and legally. / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHula0081110.jpg",
+    "description": "Tänzer mit ʻuliʻuli beim Hula kahiko, Merrie Monarch Festival 2003, Hilo, Hawaiʻi, USA; Pentax Z 20, Tamron Zoom AF/MF 3,8-5,6/28-200 mm aspherical"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Hula0080200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Hula0080200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "This file was created by Thomas Tunsch. It is not in the public domain and use of this file outside of the licensing terms is a copyright violation.\nPlease credit authorship as follows:\n © CC BY-SA Thomas Tunsch / Hula0080200.jpg (Wikimedia Commons).\nSource attribution by linking to this file page (//commons.wikimedia.org/wiki/File:Hula0080200.jpg) is recommended.\n\nThe application Lizenzhinweisgenerator can help to reuse pictures from Wikipedia and the free media file repository easily and legally. / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHula0080200.jpg",
+    "description": "Tänzerin beim Hula ʻauana im Wettbewerb \"Miss Aloha Hula\", Merrie Monarch Festival 2003, Hilo, Hawaiʻi, USA; Pentax Z 20, Tamron Zoom AF/MF 3,8-5,6/28-200 mm aspherical"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Old_Lahaina_Luau_2009-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Old_Lahaina_Luau_2009-07.jpg/1280px-Old_Lahaina_Luau_2009-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Luke H. Gordon from Greenwood Lake, NY, USA / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOld_Lahaina_Luau_2009-07.jpg",
+    "description": "Dancers At the Old Lahaina Luau"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Hula_dancers%2C_photograph_by_J._J._Williams_%28PPWD-6-4.027%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Hula_dancers%2C_photograph_by_J._J._Williams_%28PPWD-6-4.027%29.jpg/1280px-Hula_dancers%2C_photograph_by_J._J._Williams_%28PPWD-6-4.027%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "J. J. Williams / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHula_dancers%2C_photograph_by_J._J._Williams_%28PPWD-6-4.027%29.jpg",
+    "description": "Hawaiian hula dancers photographed in J. J. Williams' photo studio."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Hula_Ad_on_the_U.S._Mainland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Hula_Ad_on_the_U.S._Mainland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "The Democratic Banner (newspaper), November 08, 1921 / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHula_Ad_on_the_U.S._Mainland.jpg",
+    "description": "What do people outside of Hawaii usually think about the Aloha State? Haunted tikis? The gorgeous, sunny beaches with sparkly water? Coconut trees? Pineapples? People drinking maitais at a tiki bar? Or sensual hula dancers in coconut bras and grass skirts?\nHula has been commercialized for entertainment and to promote tourism in Hawaii. In the 1800s and 1900s, the Hula 'Auana, the westernized hula,"
+   }
+  ],
+  "footage": [],
+  "motifs": [],
+  "costume_notes": "Regalia in hula ʻauana is generally less revealing than traditional styles, reflecting 19th-century Western influence. Women often wear long dresses or skirts rather than the traditional topless pāʻū. Dancers frequently wear lei in various forms: lei poʻo (headpieces), necklaces, and kupeʻe (bracelets or anklets). These may be made from materials gathered in the forest, such as kī leaves, which were historically sacred to the forest goddess Laka.",
+  "setting_notes": "Hula ʻauana is performed to comment on significant people, places, or events, or to express emotions. While it can be performed for entertainment at festivals like the Merrie Monarch (established 1971), it remains a vital method of preserving the Hawaiian language and oral history. The concept of 'mana' (spiritual power) remains central to the poetry (mele), and performers are taught that they bear the consequences of the poetry they deliver.",
+  "map": {
+   "country": "USA (Hawaii)",
+   "region": "Oceania",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "the hero video's vision check",
+  "licensed reference footage",
+  "posture, arms and hands",
+  "signature moves",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hula",
+  "https://www.wikidata.org/wiki/Q866636",
+  "https://es.wikipedia.org/wiki/Hula_(danza)",
+  "https://fr.wikipedia.org/wiki/Hula"
+ ],
+ "claims_verified": 5,
+ "claims": 5,
+ "polished": false,
+ "hero_checked": null
+}

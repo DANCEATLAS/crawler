@@ -1,0 +1,359 @@
+{
+ "slug": "cheoyongmu",
+ "name": "Cheoyongmu",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-11-01T17:18:27Z",
+ "qc_score": 9.55,
+ "status": "withheld-chapters",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Cheoyongmu",
+   "처용무",
+   "Obang Cheoyongmu"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Cheoyongmu",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Dragon King's Son: A Dance Against Disease",
+     "This is Cheoyongmu. Unified Silla period to present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (DSWYr-FNmQ8)",
+     "Title card: Cheoyongmu · South Korea · Unified Silla period to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Originating in the Unified Silla period, Cheoyongmu is the oldest surviving Korean court dance.",
+     "It evolved from a solo performance into a five-person dance by the Joseon era.",
+     "It was historically used for exorcism rites and royal banquets."
+    ],
+    "on_screen": [
+     "Map: South Korea · East Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally a ritual to drive off evil spirits and smallpox, it was performed at royal banquets and New Year's Eve exorcisms to promote good fortune and tranquility."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed by five men who move with stateliness and vigor.",
+     "The performance is punctuated by lyrical song recitations and varies in tempo and style."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (DSWYr-FNmQ8)",
+     "Signature moves — MISSING",
+     "Formation: Five dancers arranged to represent the four cardinal directions and the center."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music includes lyrical song recitations and varies in style and tempo to accompany the dancers' movements.",
+     "Music is punctuated by various lyrical song recitations and varies in style and tempo."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear costumes in yellow, red, blue, white, and black.",
+     "They don light wine-colored masks with white teeth, tin earrings, lead bead necklaces, and black hats decorated with two peony blossoms and seven peaches."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Derived from the legend of Cheoyong, son of the Dragon King Yongwang."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Historically an exorcism rite; the mask and dance are intended to ward off evil and smallpox."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Five dancers in masks of wine and gold perform an ancient ritual to banish the spirit of smallpox.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": "lyrical song recitations",
+  "musical_form": null,
+  "mood": [
+   "majestic",
+   "vigorous"
+  ],
+  "sound_description": "Music is punctuated by various lyrical song recitations and varies in style and tempo.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Cheoyongmu (South Korea). Vocal style: lyrical song recitations. Mood: majestic, vigorous. It should sound like this: Music is punctuated by various lyrical song recitations and varies in style and tempo. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "DSWYr-FNmQ8",
+   "checked_by_vision_model": false,
+   "title": "Korean Sword Dances and Swastikas"
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers wear costumes in yellow, red, blue, white, and black. They don light wine-colored masks with white teeth, tin earrings, lead bead necklaces, and black hats decorated with two peony blossoms and seven peaches.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AThe_Fugong_Temple_Wooden_Pagoda.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/The_Fugong_Temple_Wooden_Pagoda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/The_Fugong_Temple_Wooden_Pagoda.jpg/1280px-The_Fugong_Temple_Wooden_Pagoda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Gisling / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AThe_Fugong_Temple_Wooden_Pagoda.jpg",
+    "description": "The Fogong Temple Wooden Pagoda of Ying county, Shanxi province, China (山西应县佛宫寺释迦木塔); this fully-wooden pagoda was built in 1056 AD during the Khitan-led Liao Dynasty of China."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Light wine-colored masks with white teeth",
+   "Five-colored costumes",
+   "Peony blossoms and peaches on black hats",
+   "The image of Cheoyong on a wooden gate"
+  ],
+  "costume_notes": "Dancers wear costumes in yellow, red, blue, white, and black. They don light wine-colored masks with white teeth, tin earrings, lead bead necklaces, and black hats decorated with two peony blossoms and seven peaches.",
+  "setting_notes": "Originally a ritual to drive off evil spirits and smallpox, it was performed at royal banquets and New Year's Eve exorcisms to promote good fortune and tranquility.",
+  "map": {
+   "country": "South Korea",
+   "region": "East Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "signature moves",
+  "notable figures",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Cheoyongmu",
+  "https://www.wikidata.org/wiki/Q498220",
+  "https://fr.wikipedia.org/wiki/Cheoyongmu",
+  "https://pt.wikipedia.org/wiki/Cheoyongmu",
+  "https://ich.unesco.org/en/RL/00189"
+ ],
+ "claims_verified": 4,
+ "claims": 4,
+ "polished": false,
+ "hero_checked": null
+}

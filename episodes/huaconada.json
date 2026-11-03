@@ -1,0 +1,365 @@
+{
+ "slug": "huaconada",
+ "name": "Huaconada",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-10-31T16:00:15Z",
+ "qc_score": 9.7,
+ "status": "withheld-chapters",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A respected elder huacon with deep knowledge of the dance’s moral and ritual significance",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Huaconada"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Huaconada",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Huaconada: The Dance of Ancestral Authority in the Andes",
+     "This is Huaconada. Pre-Hispanic origins, continuing to present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (PjjsCAnzXBU)",
+     "Title card: Huaconada · Peru · Pre-Hispanic origins, continuing to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Huaconada originates from the village of Mito in the province of Concepción, central Peruvian Andes.",
+     "It is a ritual dance with pre-Hispanic roots fused with Spanish colonial elements, symbolizing moral order and social authority.",
+     "The dance represents the ancient council of elders who governed the village, now enacted by the huacones during the festival."
+    ],
+    "on_screen": [
+     "Map: Peru · South America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Huaconada is performed annually on January 1–3, marking the start of the year.",
+     "The huacones embody the village’s highest authority during the festival, enforcing moral order.",
+     "The dance symbolizes the traversal of thunder and the power of the condor spirit, linking the community to Andean cosmology and social values."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Improvised elder steps, Circumscribed younger steps."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (PjjsCAnzXBU)",
+     "Captions name each signature move as it appears",
+     "Formation: Central village plaza; elders occupy central space with younger dancers moving around them"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is led by the tinya, a small indigenous drum that beats out the rhythm for the dance.",
+     "An orchestra accompanies the huacones, playing different rhythms.",
+     "Listen for the tinya (small indigenous drum).",
+     "The music centers on the steady beat of the tinya drum, providing a rhythmic foundation for the huacones' dance steps, accompanied by an orchestra playing varied rhythms that underscore the ritual's solemn and authoritative mood."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Not specified beyond tinya drum providing beat"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Elder huacones wear traditional attire including wool hats or chuco, serge garments such as a white cape (blanchet), black pants, white apron, wool socks, and rustic leather sandals called llanques.",
+     "Their wooden masks have grotesque features with prominent noses shaped like a condor's beak.",
+     "Younger huacones wear colorful modern costumes and masks expressing emotions like terror or sadness."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The dance is traditionally passed from father to son, but specific notable individuals are not named in the sources.",
+     "No regional variants are described; Huaconada is specific to Mito village in the Concepción province.",
+     "Huaconada is a folk dance with roots in Andean pre-Hispanic ritual combined with Spanish colonial influences."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Huaconada is shares region of Peruvian dances: Huaconada is part of the broader tradition of Peruvian ritual and folk dances."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Huaconada is a sacred ritual dance representing ancestral authority and moral order; only men of good conduct may perform, and the masks and costumes are inherited and respected."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how masked huacones in Mito, Peru, embody village power through a three-day ritual dance every January.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Not specified beyond tinya drum providing beat",
+  "instruments": [
+   "tinya (small indigenous drum)"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "solemn",
+   "authoritative",
+   "ritualistic"
+  ],
+  "sound_description": "The music centers on the steady beat of the tinya drum, providing a rhythmic foundation for the huacones' dance steps, accompanied by an orchestra playing varied rhythms that underscore the ritual's solemn and authoritative mood.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Huaconada (Peru). Rhythm pattern: Not specified beyond tinya drum providing beat. Instruments: tinya (small indigenous drum). Mood: solemn, authoritative, ritualistic. It should sound like this: The music centers on the steady beat of the tinya drum, providing a rhythmic foundation for the huacones' dance steps, accompanied by an orchestra playing varied rhythms that underscore the ritual's solemn and authoritative mood. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "PjjsCAnzXBU",
+   "checked_by_vision_model": false,
+   "title": "Danza de la Huaconada, presentado en la inauguración de la Feria del Libro Huancayo 2018"
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Elder huacones wear traditional attire including wool hats or chuco, serge garments such as a white cape (blanchet), black pants, white apron, wool socks, and rustic leather sandals called llanques. Their wooden masks have grotesque features with prominent noses shaped like a condor's beak. Younger huacones wear colorful modern costumes and masks expressing emotions like terror or sadness. The dance takes place in the central plaza of Mito village.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AHuaconada-Mito-Per%C3%BA.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Huaconada-Mito-Per%C3%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Huaconada-Mito-Per%C3%BA.jpg/1280px-Huaconada-Mito-Per%C3%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Alfredo Palacios / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHuaconada-Mito-Per%C3%BA.jpg",
+    "description": "Huaconada is a ritual dance Wanka - Mito - Peru"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Wooden masks with condor-beak noses",
+   "Whips (tronadores) in dancers’ hands",
+   "Colorful modern vs. traditional dark costumes",
+   "The tinya drum being played",
+   "Village plaza with assembled community"
+  ],
+  "costume_notes": "Elder huacones wear traditional attire including wool hats or chuco, serge garments such as a white cape (blanchet), black pants, white apron, wool socks, and rustic leather sandals called llanques. Their wooden masks have grotesque features with prominent noses shaped like a condor's beak. Younger huacones wear colorful modern costumes and masks expressing emotions like terror or sadness. The dance takes place in the central plaza of Mito village.",
+  "setting_notes": "Huaconada is performed annually on January 1–3, marking the start of the year. The huacones embody the village’s highest authority during the festival, enforcing moral order. The dance symbolizes the traversal of thunder and the power of the condor spirit, linking the community to Andean cosmology and social values. Only men of good conduct may participate, emphasizing ethical integrity.",
+  "map": {
+   "country": "Peru",
+   "region": "South America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Huaconada",
+  "https://www.wikidata.org/wiki/Q604820",
+  "https://es.wikipedia.org/wiki/Huaconada",
+  "https://fr.wikipedia.org/wiki/Huaconada",
+  "https://ich.unesco.org/en/RL/00390"
+ ],
+ "claims_verified": 10,
+ "claims": 10,
+ "polished": false,
+ "hero_checked": null
+}

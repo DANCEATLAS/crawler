@@ -1,0 +1,902 @@
+{
+ "slug": "moshing",
+ "name": "moshing",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-11-02T20:05:33Z",
+ "qc_score": 9.7,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A seasoned veteran of underground music shows emphasizing community safety, mutual aid, and spatial awareness.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "moshing",
+   "slam dancing",
+   "slamming",
+   "pogo",
+   "slam"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet moshing",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Around 95% of mosh pit circle pits rotate counter-clockwise, a spatial anomaly directly correlated with the human population's overwhelming right-hand preference.",
+     "This is moshing. Late 20th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: moshing · United States · Late 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Moshing originated in the southern California hardcore punk scene, particularly Huntington Beach and Long Beach around 1978, evolving from the 1970s English pogo.",
+     "Through the 1980s, it spread to Washington, D.C., Boston, and New York, where cross-pollination with heavy metal gave rise to the term 'mosh' via bands like Stormtroopers of Death and Anthrax."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Occurs during live music performances as a form of passionate fan feedback, release of energy, and underground cultural expression, though it has also been viewed by some as a manifestation of aggressive bullying.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:One-Step-Closer-Live-in-Philadelphia.webm (https://upload.wikimedia.org/wikipedia/commons/5/53/One-Step-Closer-Live-in-Philadelphia.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Participants push, slam, or run into each other inside a mosh pit.",
+     "Variations include the Huntington Beach Strut (strutting in a circle while swinging arms), the Wall of Death (two halves of the audience charging at each other), circle pits (running counter-clockwise in a circle), and hardcore dancing (two-stepping, floorpunching, and windmilling).",
+     "Watch for Huntington Beach Strut, Wall of Death, Two-step."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Fluid spatial formations including the mosh pit, circle pit, or Wall of Death."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Performed to aggressive styles of live music featuring electric guitars, bass guitars, drums, and aggressive vocals, spanning punk rock, heavy metal, grunge, hardcore, hip-hop, and electronic dance music.",
+     "Listen for the electric guitar, bass guitar, drums, vocals.",
+     "Aggressive live music characterized by fast tempos, distorted electric guitars, heavy drumbeats, and explosive rhythmic breakdowns that signal shifts in crowd movement."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Milano Mosh — Stormtroopers of Death; Caught in a Mosh — Anthrax; Slam — Onyx",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Typically performed in concert venues, festivals, and underground music clubs.",
+     "Participants generally wear casual street clothing, and sources note it is indispensable to avoid wearing glasses due to the high risk of eye injury."
+    ],
+    "on_screen": [
+     "Image gallery: 5 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key figures include Mike Marine (credited with the Huntington Beach Strut), H.R. of Bad Brains, Scott Ian and Billy Milano of Stormtroopers of Death, and artists associated with its mainstream spread like Billy Corgan and Travis Scott.",
+     "Variants include the Huntington Beach Strut in Southern California, Boston thrash and pig piles in Boston, New York hardcore style, psychobilly wrecking, and hip-hop pits which tend to feature jumping in unison rather than violent slamming.",
+     "Directly descended from the 1970s English punk pogo, subsequently branching into regional hardcore styles, heavy metal moshing, grunge pits, and modern hip-hop raging."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "moshing is parent of pogo: Direct predecessor invented in the 1970s English punk rock scene.",
+     "moshing is predecessor of skanking: Ska dance style that directly influenced the hardcore two-step."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Running or jogging in place or in a circular path",
+     "Swinging arms or extending elbows for protection",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the chaotic physics, regional evolution, and cultural controversies of moshing from 1978 California to global festival stages.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Understand spatial boundaries and safe energy release",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Understand spatial boundaries and safe energy release.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A seasoned veteran of underground music shows emphasizing community safety, mutual aid, and spatial awareness."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, leaning forward, or running with active upper-body engagement.",
+      "Swinging arms, extending elbows for protection, punching below the neck (in specific regional styles), or windmilling.",
+      "Engaged in lateral collisions, pushing, and absorbing impact from surrounding participants."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Running or jogging in place or in a circular path",
+      "Step 2: Swinging arms or extending elbows for protection",
+      "Footwork from the sources: Running, jumping, jogging in circles, or cross-stepping (two-step).",
+      "Drill: Practicing gentle unison jumping and bouncing in place"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Stepping and crossing legs during mid-tempo two-steps",
+      "Step 4: Colliding gently or absorbing impact from adjacent participants",
+      "Drill: Establishing the outer perimeter of the pit for non-participants"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Learning to recognize tempo shifts and breakdown cues"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid wearing glasses due to imminent eye injury risk; avoid excessive violence, crowd killing, and dangerous crushing."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated upper-body swaying and clapping in a steady 4/4 rhythm with zero physical contact. · For children: A safe tag or gentle bouncing circle game where children jump in unison without physical tackling or slamming."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated upper-body swaying and clapping in a steady 4/4 rhythm with zero physical contact.",
+      "For children: A safe tag or gentle bouncing circle game where children jump in unison without physical tackling or slamming."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand spatial boundaries and safe energy release.",
+      "Occurs during live music performances as a form of passionate fan feedback, release of energy, and underground cultural expression, though it has also been viewed by some as a manifestation of aggressive bullying.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of moshing",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of moshing.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A seasoned veteran of underground music shows emphasizing community safety, mutual aid, and spatial awareness."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, leaning forward, or running with active upper-body engagement.",
+      "Swinging arms, extending elbows for protection, punching below the neck (in specific regional styles), or windmilling.",
+      "Engaged in lateral collisions, pushing, and absorbing impact from surrounding participants."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Running or jogging in place or in a circular path",
+      "Step 2: Swinging arms or extending elbows for protection"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Stepping and crossing legs during mid-tempo two-steps",
+      "Step 4: Colliding gently or absorbing impact from adjacent participants",
+      "Huntington Beach Strut: Strutting around in a circle while swinging arms and hitting everyone within reach.",
+      "Wall of Death: Audience divides into two halves on either side of a venue before running and slamming into each other."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid wearing glasses due to imminent eye injury risk; avoid excessive violence, crowd killing, and dangerous crushing."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated upper-body swaying and clapping in a steady 4/4 rhythm with zero physical contact. · For children: A safe tag or gentle bouncing circle game where children jump in unison without physical tackling or slamming."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated upper-body swaying and clapping in a steady 4/4 rhythm with zero physical contact.",
+      "For children: A safe tag or gentle bouncing circle game where children jump in unison without physical tackling or slamming."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Fluid spatial formations including the mosh pit, circle pit, or Wall of Death."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of moshing.",
+      "Key figures include Mike Marine (credited with the Huntington Beach Strut), H.R. of Bad Brains, Scott Ian and Billy Milano of Stormtroopers of Death, and artists associated with its mainstream spread like Billy Corgan and Travis Scott.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of moshing",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of moshing.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A seasoned veteran of underground music shows emphasizing community safety, mutual aid, and spatial awareness."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, leaning forward, or running with active upper-body engagement.",
+      "Swinging arms, extending elbows for protection, punching below the neck (in specific regional styles), or windmilling.",
+      "Engaged in lateral collisions, pushing, and absorbing impact from surrounding participants."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stepping and crossing legs during mid-tempo two-steps",
+      "Step 2: Colliding gently or absorbing impact from adjacent participants"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Two-step: A running-in-place motion where legs cross over one another while the opposite arm punches downwards."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid wearing glasses due to imminent eye injury risk; avoid excessive violence, crowd killing, and dangerous crushing."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated upper-body swaying and clapping in a steady 4/4 rhythm with zero physical contact. · For children: A safe tag or gentle bouncing circle game where children jump in unison without physical tackling or slamming."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated upper-body swaying and clapping in a steady 4/4 rhythm with zero physical contact.",
+      "For children: A safe tag or gentle bouncing circle game where children jump in unison without physical tackling or slamming."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Fluid spatial formations including the mosh pit, circle pit, or Wall of Death."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of moshing.",
+      "Directly descended from the 1970s English punk pogo, subsequently branching into regional hardcore styles, heavy metal moshing, grunge pits, and modern hip-hop raging.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "electric guitar",
+   "bass guitar",
+   "drums",
+   "vocals"
+  ],
+  "vocal_style": "aggressive live vocals, screaming, and shouting",
+  "musical_form": null,
+  "mood": [
+   "aggressive",
+   "chaotic",
+   "energetic",
+   "intense"
+  ],
+  "sound_description": "Aggressive live music characterized by fast tempos, distorted electric guitars, heavy drumbeats, and explosive rhythmic breakdowns that signal shifts in crowd movement.",
+  "listen_before_composing": [
+   "Milano Mosh — Stormtroopers of Death",
+   "Caught in a Mosh — Anthrax",
+   "Slam — Onyx",
+   "Speak English or Die — Stormtroopers of Death (1985)",
+   "Why Do They Rock So Hard? — Reel Big Fish (1998)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of moshing (United States). Instruments: electric guitar, bass guitar, drums, vocals. Vocal style: aggressive live vocals, screaming, and shouting. Mood: aggressive, chaotic, energetic, intense. It should sound like this: Aggressive live music characterized by fast tempos, distorted electric guitars, heavy drumbeats, and explosive rhythmic breakdowns that signal shifts in crowd movement. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Typically performed in concert venues, festivals, and underground music clubs. Participants generally wear casual street clothing, and sources note it is indispensable to avoid wearing glasses due to the high risk of eye injury.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AMoshpit2.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ANo_moshing_sign%2C_Bumbershoot_2010.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ALa_Gente_Mosheando.JPG"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Moshpit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/90/Moshpit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "[][tatu] from Porto Alegre, Brasil / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMoshpit2.jpg",
+    "description": "A man crowd surfing in a mosh pit, uploaded from Flickr"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/No_moshing_sign%2C_Bumbershoot_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/No_moshing_sign%2C_Bumbershoot_2010.jpg/1280px-No_moshing_sign%2C_Bumbershoot_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Joe Mabel / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANo_moshing_sign%2C_Bumbershoot_2010.jpg",
+    "description": "\"No moshing\" sign, Bumbershoot 2010, Seattle Center, Seattle, Washington."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/La_Gente_Mosheando.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/La_Gente_Mosheando.JPG/1280px-La_Gente_Mosheando.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Seis Pasos Mas Abajo / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALa_Gente_Mosheando.JPG",
+    "description": "el Mosh"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Onyx_live_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Onyx_live_2014.jpg/1280px-Onyx_live_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "EnglishLoverWillie at English Wikipedia / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOnyx_live_2014.jpg",
+    "description": "Onyx members Sticky Fingaz and Fredro Starr performing live in 2014"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/TH_-_Mosh_Pit_%285370150223%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/TH_-_Mosh_Pit_%285370150223%29.jpg/1280px-TH_-_Mosh_Pit_%285370150223%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "vxla from Chicago, US / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATH_-_Mosh_Pit_%285370150223%29.jpg",
+    "description": "Toxic Holocaust live in Chicago, 2011"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:One-Step-Closer-Live-in-Philadelphia.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/One-Step-Closer-Live-in-Philadelphia.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Tyler Savitski / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": ".unpalatable Punk Rock Disco 2 @ Unaffiliated 777 (vid,audio,info)",
+    "url": "https://archive.org/details/unpalatable-unaffiliated-777",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Radio Clash 21-2-6_ToneChange, Ratrace, Zero One",
+    "url": "https://archive.org/details/radio-clash-21-2-6",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "File:Satellite Movie from NASA Shows Large Hurricane Irene Slamming East Coast.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Satellite_Movie_from_NASA_Shows_Large_Hurricane_Irene_Slamming_East_Coast.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "NASA Goddard Space Flight Center / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Part of the marching of the people during the Iranian Revolution 1979.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Part_of_the_marching_of_the_people_during_the_Iranian_Revolution_1979.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "mohammad paydari / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Ameristar 9363 elevator dynamic tests.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Ameristar_9363_elevator_dynamic_tests.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "National Transportation Safety Board / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Typhoon Mawar Barrels Across the North Pacific (NESDIS 2023-06-01 2023 06 01 TyphoonMawar NO TEXT).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Typhoon_Mawar_Barrels_Across_the_North_Pacific_%28NESDIS_2023-06-01_2023_06_01_TyphoonMawar_NO_TEXT%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "NOAA / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Tornado Slamming St. Louis Airport.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Tornado_Slamming_St._Louis_Airport.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain"
+   }
+  ],
+  "motifs": [
+   "A dense crowd surging inside a bounded circle pit",
+   "Arms swinging in slow motion during a heavy guitar breakdown",
+   "The split-second collision of a Wall of Death"
+  ],
+  "costume_notes": "Typically performed in concert venues, festivals, and underground music clubs. Participants generally wear casual street clothing, and sources note it is indispensable to avoid wearing glasses due to the high risk of eye injury.",
+  "setting_notes": "Occurs during live music performances as a form of passionate fan feedback, release of energy, and underground cultural expression, though it has also been viewed by some as a manifestation of aggressive bullying.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a hero video"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Moshing",
+  "https://www.wikidata.org/wiki/Q1463560",
+  "https://es.wikipedia.org/wiki/Mosh",
+  "https://fr.wikipedia.org/wiki/Mosh",
+  "https://pt.wikipedia.org/wiki/Mosh"
+ ],
+ "claims_verified": 5,
+ "claims": 5,
+ "polished": false,
+ "hero_checked": null
+}

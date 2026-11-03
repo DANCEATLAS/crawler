@@ -1,0 +1,351 @@
+{
+ "slug": "kaze-no-bon",
+ "name": "Kaze no bon",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-10-29T02:41:14Z",
+ "qc_score": 9.55,
+ "status": "withheld-chapters",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Kaze no bon",
+   "Owara Kaze no bon",
+   "Owara-Kaze-no-bon",
+   "Kaze-no-bon",
+   "Owara Kaze-no-bon"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Kaze no bon",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "In the mountain village of Yatsuo, young unmarried dancers hide their faces beneath low-brimmed straw hats to appease the wrath of the wind gods.",
+     "This is Kaze no bon. Genroku era (1688-1704) to present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (TjD2iodpyys)",
+     "Title card: Kaze no bon · Japan · Genroku era (1688-1704) to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Kaze-no-Bon has a history of about 300 years, existing without interruption since the Genroku era (1688-1704).",
+     "The original festival was held in order to honor Shinto divinities and appease typhoons so that they would spare the upcoming rice harvest in early September."
+    ],
+    "on_screen": [
+     "Map: Japan · East Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Held annually from September 1 to 3, the festival serves to appease wind and typhoon gods.",
+     "The dancers hide their faces to protect themselves from the wrath of the gods they hope to appease.",
+     "Traditionally, performers were strictly unmarried, rooted in ideas of virginal self-sacrifice to avoid angering the deities, though modern interpretations also view it as a chance for young people to meet."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Young men and women progress slowly in long parallel files through the streets, dancing simultaneously to a melody.",
+     "Each troupe represents one of the eleven districts of Yatsuo.",
+     "The traditional style is Kyu odori, while Shin odori was introduced in 1920, featuring distinct steps for men and women where the men's movements evoke agricultural field work."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (TjD2iodpyys)",
+     "Signature moves — MISSING"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "At the rear of the procession, a well-aged female voice sings Ecchu Owara Bushi, a traditional village song.",
+     "This voice is accompanied by rare instruments including the kokyū (a traditional stringed vièle), the traditional shamisen (a three-stringed lute), and drums."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The festival takes place at night in the steep, cobbled center of Yatsuo village, which spans the Ida river between two mountains.",
+     "The streets are decorated with paper lanterns.",
+     "Dancers wear matching cotton yukata and flat straw hats called amigasa, which are tilted to cover their faces."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "No individual notable figures are named in the source materials.",
+     "Each troupe represents one of the eleven districts of the village of Yatsuo, performing dances like the traditional Kyu odori and the later Shin odori.",
+     "Rooted in the Bon Dance tradition and Shinto rituals of the Genroku era."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Dancers cover their faces with flat straw hats to hide from the wrath of the wind gods, historically tied to ideas of virginal self-sacrifice."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Sources: 3 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [],
+  "sound_description": null,
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Kaze no bon (Japan). New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "TjD2iodpyys",
+   "checked_by_vision_model": false,
+   "title": "Owara kaze no Bon Festival Toyama city Yatsuo"
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The festival takes place at night in the steep, cobbled center of Yatsuo village, which spans the Ida river between two mountains. The streets are decorated with paper lanterns. Dancers wear matching cotton yukata and flat straw hats called amigasa, which are tilted to cover their faces. Male companions wear a short jacket and a similar hat.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AKazenobon01.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Kazenobon01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Kazenobon01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Jinzuu / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKazenobon01.jpg",
+    "description": "A picture of the autumn festival, called \"Owara Kaze-no-Bon\" in Japan. 毎年9/1～9/3に富山県富山市八尾町で行われる祭り　”おわら　風の盆”の写真　：町流しでの男女踊り手（西町支部）　Konica Auto S2"
+   }
+  ],
+  "footage": [],
+  "motifs": [],
+  "costume_notes": "The festival takes place at night in the steep, cobbled center of Yatsuo village, which spans the Ida river between two mountains. The streets are decorated with paper lanterns. Dancers wear matching cotton yukata and flat straw hats called amigasa, which are tilted to cover their faces. Male companions wear a short jacket and a similar hat.",
+  "setting_notes": "Held annually from September 1 to 3, the festival serves to appease wind and typhoon gods. The dancers hide their faces to protect themselves from the wrath of the gods they hope to appease. Traditionally, performers were strictly unmarried, rooted in ideas of virginal self-sacrifice to avoid angering the deities, though modern interpretations also view it as a chance for young people to meet.",
+  "map": {
+   "country": "Japan",
+   "region": "East Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "signature moves",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Kaze_no_bon",
+  "https://www.wikidata.org/wiki/Q2071242",
+  "https://fr.wikipedia.org/wiki/Kaze_no_bon"
+ ],
+ "claims_verified": 5,
+ "claims": 5,
+ "polished": false,
+ "hero_checked": null
+}

@@ -1,0 +1,821 @@
+{
+ "slug": "rhumba",
+ "name": "Rhumba",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T03:27:49Z",
+ "researched_at": "2026-10-31T15:43:23Z",
+ "qc_score": 9.5,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Experienced ballroom dance teacher with deep knowledge of Latin dance history and technique",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Rhumba",
+   "rumba",
+   "ballroom rumba",
+   "international rumba"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Rhumba",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Rhumba: The Ballroom Dance Born from Cuban Rhythms and American Big Bands",
+     "This is Rhumba. 1930s."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (I-kvGrHvWYE)",
+     "Title card: Rhumba · United States · 1930s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Rhumba originated in the 1930s on the East Coast of the United States, blending American big band music with Afro-Cuban rhythms like son cubano.",
+     "The 1930 recording of 'El manisero' by Don Azpiazú's Havana Casino Orchestra was pivotal, adapting Cuban son for ballroom audiences.",
+     "The rhumba craze spread internationally through Cuban artists and American big bands."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Rhumba is danced socially and competitively worldwide.",
+     "It expresses flirtation and sensual interaction between partners, with the woman’s movements signaling attraction and the man responding with desire and dominance.",
+     "It is not a sacred dance and has no noted cultural restrictions."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Box Step, Quick-Quick-Slow."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (I-kvGrHvWYE)",
+     "Captions name each signature move as it appears",
+     "Formation: Danced in closed ballroom hold as a couple, compact spatial pattern"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Rhumba music combines Afro-Cuban rhythms such as son cubano, conga, and rumba with American big band orchestration.",
+     "Instruments include saxophones, cornets, banjo, guitar, piano, violin, bass, and trap drums.",
+     "Listen for the saxophones, cornets, banjo, guitar.",
+     "The pulse is 4/4 at about 132 beats a minute.",
+     "A blend of Afro-Cuban rhythmic patterns with American big band orchestration, featuring melodic vocals and trumpet solos, producing a smooth yet rhythmically rich texture."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: El manisero (The Peanut Vendor) — Don Azpiazú and his Havana Casino Orchestra",
+     "Waveform or rhythm-pattern graphic: Derived from son cubano and bolero-son with Afro-Cuban rhythmic accents adapted to big band style"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Costumes are typical of Latin ballroom dance, emphasizing fluidity and sensuality; specific traditional or sacred attire is not mentioned.",
+     "The dance is performed in ballrooms, social dance venues, and international competitions."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Don Azpiazú, who recorded 'El manisero'; Monsieur Pierre (Pierre Zurcher-Margolle), who developed International style rhumba; Antonio Machín and Remberto Lara, vocalists and soloists on key recordings; bandleaders Xavier Cugat, Jimmy Dorsey, Nathaniel Shilkret, Leo Reisman, and Enric Madriguera.",
+     "American style rhumba features a box step danced to slow-quick-quick rhythm on beats 1, 3, and 4; International style rhumba uses a quick-quick-slow pattern on beats 2, 3, and 4, inspired by Cuban bolero-son.",
+     "Rhumba descends from Cuban son and bolero-son rhythms, adapted in the US big band context."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Rhumba is parent of Son cubano: Primary Afro-Cuban rhythm source for rhumba music.",
+     "Rhumba is shares music of Cuban rumba: Namesake but musically and choreographically distinct.",
+     "Rhumba is shares music of Conga: Rhythmic influence in early rhumba music.",
+     "Rhumba is sibling of Mambo: Another Latin ballroom dance developed from Cuban music."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. American style: slow step on beat 1, quick step on beat 3, quick step on beat 4 in a box pattern",
+     "International style: quick step on beat 2, quick step on beat 3, slow step on beat 4 in a quick-quick-slow pattern",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how rhumba transformed Afro-Cuban son into a slow, sensual ballroom dance that captivated the 20th century.",
+     "Sources: 6 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn basic box step (American) or quick-quick-slow pattern (International)",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn basic box step (American) or quick-quick-slow pattern (International).",
+      "Level: Beginner. Difficulty of the dance overall: Beginner to advanced depending on syllabus level.",
+      "Your instructor: Experienced ballroom dance teacher with deep knowledge of Latin dance history and technique"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright ballroom hold with compact steps and pronounced hip sway over standing leg",
+      "Free arm movements allowed, expressive and fluid",
+      "Pronounced hip sway over standing leg, no rise and fall"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Derived from son cubano and bolero-son with Afro-Cuban rhythmic accents adapted to big band style.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 92 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: American style: slow step on beat 1, quick step on beat 3, quick step on beat 4 in a box pattern",
+      "Step 2: International style: quick step on beat 2, quick step on beat 3, slow step on beat 4 in a quick-quick-slow pattern",
+      "Footwork from the sources: American style uses slow-quick-quick box step on beats 1,3,4; International style uses quick-quick-slow on beats 2,3,4",
+      "Drill: Step timing counts"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Hip sway exercises"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Basic partner hold and connection"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rise and fall movements; do not confuse with Cuban rumba which is a different dance"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 132 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn basic box step (American) or quick-quick-slow pattern (International).",
+      "Rhumba is danced socially and competitively worldwide.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Incorporate turns and arm styling",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Incorporate turns and arm styling.",
+      "Level: Intermediate. Difficulty of the dance overall: Beginner to advanced depending on syllabus level.",
+      "Your instructor: Experienced ballroom dance teacher with deep knowledge of Latin dance history and technique"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright ballroom hold with compact steps and pronounced hip sway over standing leg",
+      "Free arm movements allowed, expressive and fluid",
+      "Pronounced hip sway over standing leg, no rise and fall"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Derived from son cubano and bolero-son with Afro-Cuban rhythmic accents adapted to big band style.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 92 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: American style: slow step on beat 1, quick step on beat 3, quick step on beat 4 in a box pattern",
+      "Step 2: International style: quick step on beat 2, quick step on beat 3, slow step on beat 4 in a quick-quick-slow pattern",
+      "Drill: Simple turns"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Box Step: Basic American style step forming a box pattern with slow-quick-quick timing",
+      "Quick-Quick-Slow: International style basic step pattern emphasizing hip sway and timing on beats 2,3,4",
+      "Drill: Arm movement coordination"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Smooth transitions between steps"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rise and fall movements; do not confuse with Cuban rumba which is a different dance"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Danced in closed ballroom hold as a couple, compact spatial pattern"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 132 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Incorporate turns and arm styling.",
+      "Don Azpiazú, who recorded 'El manisero'; Monsieur Pierre (Pierre Zurcher-Margolle), who developed International style rhumba; Antonio Machín and Remberto Lara, vocalists and soloists on key recordings; bandleaders Xavier Cugat, Jimmy Dorsey, Nathaniel Shilkret, Leo Reisman, and Enric Madriguera.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Master competition figures and musicality",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Master competition figures and musicality.",
+      "Level: Advanced. Difficulty of the dance overall: Beginner to advanced depending on syllabus level.",
+      "Your instructor: Experienced ballroom dance teacher with deep knowledge of Latin dance history and technique"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright ballroom hold with compact steps and pronounced hip sway over standing leg",
+      "Free arm movements allowed, expressive and fluid",
+      "Pronounced hip sway over standing leg, no rise and fall"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Derived from son cubano and bolero-son with Afro-Cuban rhythmic accents adapted to big band style.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 92 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: American style: slow step on beat 1, quick step on beat 3, quick step on beat 4 in a box pattern",
+      "Step 2: International style: quick step on beat 2, quick step on beat 3, slow step on beat 4 in a quick-quick-slow pattern",
+      "Drill: Complex step patterns"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Box Step: Basic American style step forming a box pattern with slow-quick-quick timing",
+      "Quick-Quick-Slow: International style basic step pattern emphasizing hip sway and timing on beats 2,3,4",
+      "Drill: Musical interpretation"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Partner lead and follow refinement"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rise and fall movements; do not confuse with Cuban rumba which is a different dance"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Danced in closed ballroom hold as a couple, compact spatial pattern"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 132 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master competition figures and musicality.",
+      "Rhumba descends from Cuban son and bolero-son rhythms, adapted in the US big band context.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": 132,
+  "meter": "4/4",
+  "rhythm_pattern": "Derived from son cubano and bolero-son with Afro-Cuban rhythmic accents adapted to big band style",
+  "instruments": [
+   "saxophones",
+   "cornets",
+   "banjo",
+   "guitar",
+   "piano",
+   "violin",
+   "bass",
+   "trap drums"
+  ],
+  "vocal_style": "Melodic vocals with occasional trumpet solos",
+  "musical_form": "Big band arrangements of Afro-Cuban son-pregón and bolero-son",
+  "mood": [
+   "sensual",
+   "smooth",
+   "rhythmic",
+   "flirtatious"
+  ],
+  "sound_description": "A blend of Afro-Cuban rhythmic patterns with American big band orchestration, featuring melodic vocals and trumpet solos, producing a smooth yet rhythmically rich texture.",
+  "listen_before_composing": [
+   "El manisero (The Peanut Vendor) — Don Azpiazú and his Havana Casino Orchestra"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Rhumba (United States). Meter 4/4. Tempo about 132 bpm. Rhythm pattern: Derived from son cubano and bolero-son with Afro-Cuban rhythmic accents adapted to big band style. Instruments: saxophones, cornets, banjo, guitar, piano, violin, bass, trap drums. Vocal style: Melodic vocals with occasional trumpet solos. Form: Big band arrangements of Afro-Cuban son-pregón and bolero-son. Mood: sensual, smooth, rhythmic, flirtatious. It should sound like this: A blend of Afro-Cuban rhythmic patterns with American big band orchestration, featuring melodic vocals and trumpet solos, producing a smooth yet rhythmically rich texture. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 92
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 132
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "I-kvGrHvWYE",
+   "checked_by_vision_model": false,
+   "title": "Riccardo Cocchi - Yulia Zagoruychenko I Rumba I World Pro Latin 2019"
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Costumes are typical of Latin ballroom dance, emphasizing fluidity and sensuality; specific traditional or sacred attire is not mentioned. The dance is performed in ballrooms, social dance venues, and international competitions.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3A20151121_WDSF_Austrian_Open_2015_7166.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AThe_Rumba_on_Capitol_Hill.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/20151121_WDSF_Austrian_Open_2015_7166.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/20151121_WDSF_Austrian_Open_2015_7166.jpg/1280px-20151121_WDSF_Austrian_Open_2015_7166.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ailura / Wikimedia Commons / CC BY-SA 3.0 at",
+    "license": "CC BY-SA 3.0 at",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A20151121_WDSF_Austrian_Open_2015_7166.jpg",
+    "description": "2015 WDSF World DanceSport Championship Latin, 2015-11-21, Schwechat, Lower Austria"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/The_Rumba_on_Capitol_Hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/The_Rumba_on_Capitol_Hill.jpg/1280px-The_Rumba_on_Capitol_Hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dicklyon / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AThe_Rumba_on_Capitol_Hill.jpg",
+    "description": "Seattle's Capital Hill neighborhood has dance steps in the sidewalks on Broadway Ave.  This one shows Rumba steps."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Big band orchestra",
+   "Couple dancing close with hip sway",
+   "Vintage 1930s ballroom setting",
+   "Monsieur Pierre teaching in Cuba"
+  ],
+  "costume_notes": "Costumes are typical of Latin ballroom dance, emphasizing fluidity and sensuality; specific traditional or sacred attire is not mentioned. The dance is performed in ballrooms, social dance venues, and international competitions.",
+  "setting_notes": "Rhumba is danced socially and competitively worldwide. It expresses flirtation and sensual interaction between partners, with the woman’s movements signaling attraction and the man responding with desire and dominance. It is not a sacred dance and has no noted cultural restrictions.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
+  "videos_studied": 0,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "front view, then back view (student's perspective)",
+   "slow, then half tempo, then full tempo",
+   "three repetitions of every step before moving on"
+  ],
+  "cues": [
+   "say the count before the move",
+   "name the body part, then the direction",
+   "one correction at a time"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "welcome",
+   "body",
+   "count",
+   "step",
+   "step",
+   "combine",
+   "mistakes",
+   "music",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "teaching steps written out"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ballroom_rumba",
+  "https://www.wikidata.org/wiki/Q221438",
+  "https://es.wikipedia.org/wiki/Rumba_de_salón",
+  "https://fr.wikipedia.org/wiki/Rumba_(danse_de_salon)",
+  "https://pt.wikipedia.org/wiki/Rumba",
+  "https://archive.org/details/ERIC_ED146720"
+ ],
+ "claims_verified": 14,
+ "claims": 15,
+ "polished": false,
+ "hero_checked": null
+}
