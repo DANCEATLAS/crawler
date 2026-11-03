@@ -374,8 +374,11 @@ def compose(d, ev, llm, prev_gaps=None):
         return None
     existing = {k: d.get(k) for k in ("name", "country", "region", "era", "tagline", "insight", "profile", "aliases", "related") if d.get(k)}
     gaps_note = ""
+    lessons = (load_state("lessons_learned.json", {}) or {}).get("avoid") or []
+    if lessons:
+        gaps_note = "\nFAULTS THE QC JUDGE FOUND MOST OFTEN IN RECENT PAGES (avoid them): " + "; ".join(str(x) for x in lessons[:5])
     if prev_gaps:
-        gaps_note = "\nGAPS LEFT BY THE PREVIOUS PASS (fill them if, and only if, the sources now allow it): " + "; ".join(str(g) for g in prev_gaps[:12])
+        gaps_note = (gaps_note if lessons else "") + "\nGAPS LEFT BY THE PREVIOUS PASS (fill them if, and only if, the sources now allow it): " + "; ".join(str(g) for g in prev_gaps[:12])
     note = ((load_state("editor_notes.json", {}) or {}).get(d.get("slug") or "") or {}).get("note")
     if note:
         gaps_note += "\nEDITOR'S NOTE ON THE PREVIOUS VERSION (correct this; it overrides the existing entry): " + str(note)[:800]

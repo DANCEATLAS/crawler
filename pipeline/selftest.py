@@ -115,6 +115,8 @@ def run():
         from .translate import verify as _tv, episode1_ready
         check("translation keeps numbers and names", _tv(["Count 1-2-3-4 with Cakewalk."], ["Cuenta 1-2-3-4 con Cakewalk."], ["Cakewalk"]) and not _tv(["Count 1-2-3-4 with Cakewalk."], ["Cuenta 1-2-3 con Cakewalk."], ["Cakewalk"]) and not _tv(["Count 1-2-3-4 with Cakewalk."], ["Cuenta 1-2-3-4 con el paseo."], ["Cakewalk"]))
         check("episode 1 ready", episode1_ready(pack) and not episode1_ready({"episode_1": {"scenes": [{"needs": ["tempo"]}]}}))
+        from .health import GATE_ADVICE, GAP_ADVICE, FLOOR
+        check("health advice tables", "insight_concrete" in GATE_ADVICE and "tempo (bpm)" in GAP_ADVICE and 0.5 <= FLOOR < 1.0)
     except Exception as e:
         check("movie phase selftest", False, repr(e))
     return {"counters": {"failures": len(fails)}}

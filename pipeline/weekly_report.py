@@ -399,8 +399,26 @@ def render_md(now, week, month, start, labels, hist, when):
         for r in hist[-10:]:
             L.append(f"| {r['date']} | {r.get('dances_live', 0):,} | {r.get('published', 0)} | {r.get('movie_ready', 0)} | {r.get('class_complete', 0)} | {r.get('film_grade', 0)} | {r.get('episode_packs', 0)} |")
         L.append("")
-    # 8 health
-    L.append("## 8 · The machine")
+    # 8 where the machine is stuck — and what would help most (from pipeline_state/lessons_learned.json and tuning.json)
+    lessons = _j(os.path.join("pipeline_state", "lessons_learned.json"), {}) or {}
+    tuning = _j(os.path.join("pipeline_state", "tuning.json"), {}) or {}
+    L.append("## 8 · Where the machine is stuck — and what would help most")
+    L.append("")
+    hm = lessons.get("help_most") or []
+    if hm:
+        L.append("| What the scripts lack most | Pages | What would fix it |")
+        L.append("|---|---:|---|")
+        for x in hm[:6]:
+            L.append(f"| {x.get('gap')} | {x.get('pages')} | {x.get('what_helps')} |")
+        L.append("")
+    if lessons.get("avoid"):
+        L.append("The judge's most frequent objections in the last 30 days, now handed to the writer before every page: " + "; ".join(lessons["avoid"][:3]) + ".")
+        L.append("")
+    if tuning.get("reason"):
+        L.append(f"Self-tuning: {tuning['reason']}." + ((" **Alerts:** " + "; ".join(tuning.get("alerts") or [])) if tuning.get("alerts") else ""))
+        L.append("")
+    # 9 health
+    L.append("## 9 · The machine")
     L.append("")
     L.append(f"Daily run fired on **{h['days']} of 7** days · model calls this week **{h['calls']:,}** · errors logged **{h['errors']}** · "
              f"OpenAI balance {'**spent**' if h['quota'] else 'fine'} · {now['schema5']} of {now['researched']} profiles already at research schema 5 (the re-deepening finishes when this reaches all) · "
@@ -413,6 +431,37 @@ def render_md(now, week, month, start, labels, hist, when):
              "**episode packs** = the scene-by-scene scripts (Episode 1 + three chapters, music and visual briefs) in `episodes/`, written from the profile only (`MOVIE_PHASE.md`). "
              f"Deltas compare the repository as it was 7 days ago, 28 days ago and at {labels['start_long']}. Files: `WEEKLY_REPORT.md`, `STATUS.md`, `QC_REPORT.md` in github.com/{REPO}.*")
     return "\n".join(L) + "\n"
+
+def next_steps(now, lessons_path, when):
+    """NEXT_STEPS.md — maintained by the machine for whoever works on it next (the owner, an AI session): the bottlenecks
+    the data shows, ranked, with the concrete lever for each; the decisions still open; what not to touch."""
+    lessons = _j(lessons_path, {}) or {}
+    L = [f"# NEXT STEPS — written by the machine on {when.strftime('%Y-%m-%d')}", "",
+         "*Regenerated every Monday by the weekly report from the library's own numbers. Read `AI_BRIEF.md` first; this file says where to push.*", "",
+         "## What the numbers say to do first", ""]
+    i = 0
+    for x in (lessons.get("help_most") or [])[:5]:
+        i += 1
+        L.append(f"{i}. **{x.get('gap')}** is missing on {x.get('pages')} published pages — {x.get('what_helps')}.")
+    if now.get("with_hero", 0) < now.get("dances_live", 0):
+        i += 1
+        L.append(f"{i}. **{now['dances_live'] - now['with_hero']} dances have no hero video** — the crawler retries them every 21 days; an editor note with a channel or search phrase helps the stubborn ones.")
+    if now.get("gate_review"):
+        i += 1
+        L.append(f"{i}. **{now['gate_review']} pages wait in review** — each needs one decision in `audit_overrides.json` or one editor note (`WEEKLY_PASS.md`).")
+    if not now.get("film_grade"):
+        i += 1
+        L.append(f"{i}. **No page is film-grade yet** — the closest ones and what they lack are in `WEEKLY_REPORT.md` §6; the editor's approval is the last item on every one of them.")
+    L += ["", "## Decisions still open (the owner's)", "",
+          "- Video platform for the episodes (the packs are platform-neutral; one exporter when named).",
+          "- Music generator and voice-over tool (briefs and narration are ready; licences and cost are the owner's call).",
+          "- Showing the deep profiles and the episodes on the website (one Lovable paste, `LOVABLE_UI_PROMPT.md`).",
+          "- OpenAI top-up when the prepaid balance is spent (the run says so in `STATUS.md` and here).", "",
+          "## What not to touch", "",
+          "- The QC gates (`pipeline/qc.py`): fewer true pages beat more doubtful ones. The sacred rule. The no-invention rule in the scripts.",
+          "- The budgets in the workflow: the machine lowers them itself when the models fail and raises them back; raising them above the defaults costs quota, not quality.",
+          "- Lovable: content never goes through it; its AI is for layout only, once, with the prepared prompt.", ""]
+    return "\n".join(L)
 
 NUMCELL = re.compile(r"[\*\s]*[+−±]?[\d,\.%–—/]+(\s*\([\d\.%–]+\))?[\*\s]*")
 
@@ -523,6 +572,8 @@ def main(argv):
     md = render_md(now, week, month, start, labels, hist, when)
     with open("WEEKLY_REPORT.md", "w", encoding="utf-8") as f:
         f.write(md)
+    with open("NEXT_STEPS.md", "w", encoding="utf-8") as f:
+        f.write(next_steps(now, lessons_path=os.path.join("pipeline_state", "lessons_learned.json"), when=when))
     stem = os.path.join("reports", "weekly", when.strftime("%Y-%m-%d"))
     with open(stem + ".md", "w", encoding="utf-8") as f:
         f.write(md)
