@@ -40,6 +40,14 @@ def flat_judge(jd):
 def _gate(name, ok, detail=""):
     return {"gate": name, "ok": bool(ok), "detail": str(detail)[:200]}
 
+_OVR = None
+def _overrides():
+    """audit_overrides.json ({slug: keep|retire|merge:<slug>}), read once per run."""
+    global _OVR
+    if _OVR is None:
+        _OVR = jload("audit_overrides.json", {}) or {}
+    return _OVR
+
 def deterministic_gates(rec, idx, catalog_by_slug):
     p = rec.get("profile") or {}
     gates = []
@@ -69,10 +77,10 @@ def deterministic_gates(rec, idx, catalog_by_slug):
     # repetition: identical paragraphs
     paras = [norm(x) for x in re.split(r"\n\s*\n", long) if len(x) > 80]
     gates.append(_gate("no_repetition", len(paras) == len(set(paras)), f"{len(paras)} paras"))
-    # duplicates against catalogue (for new dances) and alias collisions
+    # duplicates against catalogue (for new dances) and alias collisions; an editor's "keep" in audit_overrides.json settles it
     slug = rec.get("slug")
     dup = None
-    if slug not in catalog_by_slug:
+    if slug not in catalog_by_slug and _overrides().get(slug) != "keep":
         found, score = idx.find(p.get("name") or slug)
         if found and found != slug:
             dup = {"slug": found, "score": round(score, 3)}
