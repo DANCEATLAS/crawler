@@ -1,0 +1,53 @@
+name: watchdog
+# The machine watches itself. GitHub sometimes drops or delays a scheduled run for hours; this job runs every six hours
+# and, if the daily run has not succeeded in the last 30 hours (and none is running or queued), starts it. On Tuesdays it
+# also checks that the weekly report went out (WEEKLY_REPORT.md younger than 8 days) and runs it if not. No model calls,
+# no secrets beyond the workflow token, nothing to maintain. Everything it does is visible in the Actions list.
+on:
+  schedule:
+    - cron: "41 */6 * * *"
+  workflow_dispatch:
+permissions:
+  actions: write
+  contents: read
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - name: Daily run — restart it when the schedule was dropped
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -e
+          LAST=$(gh run list --repo "$REPO" --workflow atlas_daily.yml --status success --limit 1 --json updatedAt --jq '.[0].updatedAt // empty')
+          ACTIVE=$(gh run list --repo "$REPO" --workflow atlas_daily.yml --limit 5 --json status --jq '[.[] | select(.status == "in_progress" or .status == "queued" or .status == "waiting")] | length')
+          NOW=$(date -u +%s)
+          if [ -n "$LAST" ]; then AGE=$(( (NOW - $(date -u -d "$LAST" +%s)) / 3600 )); else AGE=999; fi
+          echo "last successful daily run: ${LAST:-none} (${AGE} h ago); active runs: ${ACTIVE}"
+          if [ "$AGE" -ge 30 ] && [ "$ACTIVE" = "0" ]; then
+            echo "no successful daily run in ${AGE} h and nothing running: starting atlas_daily"
+            gh workflow run atlas_daily.yml --repo "$REPO" -f stage=daily
+          else
+            echo "daily run is fine"
+          fi
+      - name: Weekly report — run it when Monday's schedule was dropped
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -e
+          DOW=$(date -u +%u)   # 1 = Monday … 7 = Sunday
+          if [ "$DOW" != "2" ] && [ "$DOW" != "3" ]; then echo "not a check day"; exit 0; fi
+          STAMP=$(grep -m1 -oE 'weekly report · [A-Za-z]{3} [0-9]{2} [A-Za-z]{3} [0-9]{4}' WEEKLY_REPORT.md 2>/dev/null | sed 's/weekly report · //' || true)
+          if [ -z "$STAMP" ]; then echo "no report on file yet: running weekly_report"; gh workflow run weekly_report.yml --repo "$REPO"; exit 0; fi
+          AGE=$(( ( $(date -u +%s) - $(date -u -d "$STAMP" +%s) ) / 86400 ))
+          echo "last report: $STAMP (${AGE} days ago)"
+          if [ "$AGE" -ge 8 ]; then
+            ACTIVE=$(gh run list --repo "$REPO" --workflow weekly_report.yml --limit 3 --json status --jq '[.[] | select(.status == "in_progress" or .status == "queued")] | length')
+            if [ "$ACTIVE" = "0" ]; then echo "report is late: running weekly_report"; gh workflow run weekly_report.yml --repo "$REPO"; fi
+          else
+            echo "weekly report is fine"
+          fi
