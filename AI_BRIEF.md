@@ -98,7 +98,7 @@ Budgets (workflow env): `RESEARCH_NEW=25`, `RESEARCH_ENRICH=15`, `HERO_QC_BUDGET
 
 The machine cannot invent new features by itself, but it adapts in six ways, every day, with no credits:
 
-1. **Self-tuning budgets** (`pipeline/health.py`, `pipeline_state/tuning.json`): when more than 40 % of model calls failed in the last runs, the model-hungry budgets drop to 60 %; after three healthy runs they climb back, never above the workflow's values. It never spends more than the owner set, only less when spending would fail.
+1. **Self-tuning budgets** (`pipeline/health.py`, `pipeline_state/tuning.json`): when more than 40 % of the questions asked of the models went unanswered in the last runs (every model failed — a fallback that succeeded is not a failure), the model-hungry budgets drop to 60 %; after three healthy runs they climb back, never above the workflow's values. It never spends more than the owner set, only less when spending would fail.
 2. **Lessons from the judge** (`pipeline_state/lessons_learned.json`): the QC gates that failed most in 30 days are handed to the writer in plain words before every page ("the insight line was vague — put a person, a place, a year or a number in it"). The writer adapts to the judge instead of repeating the fault.
 3. **Scripts tell research what they need** (`pipeline_state/episode_gaps.json`): the gaps in each episode pack are asked for in the next deepening of that page.
 4. **The teaching playbook grows** (`ULTIMATE_TEACHER.md`): every studied lesson changes the counting, cues and mistakes the chapter scripts use.
