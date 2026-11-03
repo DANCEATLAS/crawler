@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       stage:
-        description: "daily | bootstrap | audit | discover | research | qc | hero_qc | build | sync | report | selftest"
+        description: "daily | bootstrap | audit | discover | research | qc | hero_qc | build | pedagogy | episodes | translate | sync | report | selftest"
         default: "daily"
       research_new:
         description: "new dances to research this run"
@@ -59,6 +59,13 @@ jobs:
           # (a newer mini is still tried automatically if these fail).
           OPENAI_MODELS: "gpt-4.1-mini,gpt-4o-mini"
           OPENAI_STRONG_MODELS: "gpt-4.1-mini,gpt-4o-mini"
+          # the movie phase (MOVIE_PHASE.md): tutorial videos studied per day (Gemini watches the public YouTube URL, free tier),
+          # and episode packs whose narration the model may polish per day (0 = assembled text only; polished text is verified)
+          PEDAGOGY_BUDGET: "6"
+          EPISODE_POLISH: "4"
+          # one narrator, every language: gap-free packs are translated scene by scene (TRANSLATE_BUDGET calls a day) into these languages
+          TRANSLATE_BUDGET: "6"
+          TRANSLATE_LANGS: "es,fr,de,pt,it,ja,zh,ko,ar,hi,ru,id"
           APP_CATALOG_URL: "https://id-preview--f79f3666-564d-4799-befe-8b48d1f0a007.lovable.app/dances.app.json"
         run: |
           STAGE="${{ github.event.inputs.stage || 'daily' }}"
