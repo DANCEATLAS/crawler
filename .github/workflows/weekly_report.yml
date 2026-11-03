@@ -1,0 +1,69 @@
+name: weekly_report
+# The owner's weekly report: growth, depth of every published profile, what the filters kept out, machine health —
+# this week, the last four weeks, since the start. Built by pipeline/weekly_report.py from the repository and its git
+# history (no model calls, nothing to pay). Delivered as a comment on the pinned issue "📬 Weekly library report":
+# the owner is assigned to that issue, so GitHub e-mails him every comment. Optional second channel: if the secrets
+# REPORT_SMTP_USER / REPORT_SMTP_PASSWORD / REPORT_TO exist, the same report is also e-mailed directly (HTML).
+on:
+  schedule:
+    - cron: "23 23 * * 0"   # Sunday 23:23 UTC = Monday morning for the owner (UTC+9); GitHub may delay it by hours
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: atlas-pipeline      # never runs while the daily pipeline is committing
+  cancel-in-progress: false
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0     # the comparisons read the tree as it was 7 / 28 days ago and at the start of the year
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Build the report
+        run: python -m pipeline.weekly_report > /dev/null
+      - name: Commit the report
+        run: |
+          git config user.name "danceworld-crawler"
+          git config user.email "crawler@users.noreply.github.com"
+          git add -A
+          git commit -m "weekly report $(date -u +%F)" || echo "nothing to commit"
+          git pull --rebase --autostash origin main || true
+          git push || echo "push failed"
+      - name: Deliver to the owner (issue thread → GitHub e-mail)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh label create weekly-report --repo "$REPO" --description "The owner's weekly library report" --color 4a7c59 2>/dev/null || true
+          N=$(gh issue list --repo "$REPO" --label weekly-report --state open --json number --jq '.[0].number // empty')
+          if [ -z "$N" ]; then
+            cat > /tmp/issue_body.md <<'EOF'
+          This thread is the **weekly report of the Dance Atlas library**. Every Monday morning the machine posts one comment here:
+          how many dances are live, how many deep profiles passed the filters, how many are movie-ready and film-grade, what each
+          profile contains, what was kept out, and whether the daily runs happened — this week, the last four weeks, and since the start.
+
+          You receive each comment by e-mail because you are assigned to this issue. The latest report is also the file
+          `WEEKLY_REPORT.md` in this repository; older ones are in `reports/weekly/`. The standard behind the numbers is `STANDARD.md`.
+
+          Nothing to do here. Keep the issue open; closing it only makes next week's run open a new one.
+          EOF
+            URL=$(gh issue create --repo "$REPO" --title "📬 Weekly library report" --label weekly-report --assignee "$OWNER" --body-file /tmp/issue_body.md \
+                  || gh issue create --repo "$REPO" --title "📬 Weekly library report" --label weekly-report --body-file /tmp/issue_body.md)
+            N=$(echo "$URL" | grep -o '[0-9]*$')
+            gh issue pin "$N" --repo "$REPO" 2>/dev/null || true
+          fi
+          echo "posting to issue #$N"
+          gh issue comment "$N" --repo "$REPO" --body-file WEEKLY_REPORT.md
+      - name: E-mail the report directly (only when the SMTP secrets exist)
+        env:
+          REPORT_SMTP_USER: ${{ secrets.REPORT_SMTP_USER }}
+          REPORT_SMTP_PASSWORD: ${{ secrets.REPORT_SMTP_PASSWORD }}
+          REPORT_TO: ${{ secrets.REPORT_TO }}
+        run: python -m pipeline.weekly_report --send
