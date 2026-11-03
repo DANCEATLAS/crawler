@@ -184,5 +184,5 @@ def run(only=None, max_n=200):
         except Exception as e:
             rep.error(f"{slug}: {e}")
         save_state("qc_index.json", qindex)
-    rep.inc("llm_calls", llm.calls)
+    llm.record(rep)
     return rep.finish()

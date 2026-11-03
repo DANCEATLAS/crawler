@@ -2,10 +2,12 @@
 
 Runs first in every daily run and writes two small files the other stages read:
 
-pipeline_state/tuning.json — budgets scaled to what the models could deliver recently. When more than 40 % of model calls
-  failed over the last two runs (quota, 503s), the model-hungry budgets drop to 60 %; when failures stay under 10 % for
-  three runs they climb back by 20 % a run, never above the workflow's defaults. The machine never spends more than the
-  owner set; it only spends less when spending would fail. `alerts` carries what needs a human (OpenAI balance gone).
+pipeline_state/tuning.json — budgets scaled to what the models could deliver recently. When more than 40 % of the
+  questions asked of the models went unanswered over the last runs (every model failed: quota, 503s), the model-hungry
+  budgets drop to 60 %; when unanswered questions stay under 10 % for three runs they climb back by 20 % a run, never
+  above the workflow's defaults. A fallback that succeeded is not a failure: only questions nobody answered count.
+  The machine never spends more than the owner set; it only spends less when spending would fail. `alerts` carries
+  what needs a human (OpenAI balance gone).
 
 pipeline_state/lessons_learned.json — what the QC judge keeps objecting to (soft-fail gates and the judge's recurring
   notes over the last 30 days). pipeline/research.py hands the top faults to the composer as "recent faults to avoid",
@@ -42,6 +44,8 @@ GAP_ADVICE = {"tempo (bpm)": "a source that states the tempo — a teacher's pag
               "signature moves": "a source that names the characteristic moves", "teaching steps written out": "a teaching source with the basic steps",
               "what to avoid / common mistakes": "a teaching source or a studied tutorial that names mistakes", "two or more connections": "sources that relate the dance to its relatives"}
 
+STAGES = ("research", "qc", "hero_qc", "pedagogy", "episodes", "translate")
+
 def _runs_by_day(runs, stage, n):
     out = []
     for r in reversed(runs):
@@ -51,27 +55,35 @@ def _runs_by_day(runs, stage, n):
             break
     return out
 
+def _asked_unanswered(r):
+    """(questions, unanswered) for a run record; older records only know attempts, and count a failed attempt as unanswered."""
+    c = r.get("counters") or {}
+    if c.get("llm_requests") is not None:
+        return int(c.get("llm_requests") or 0), int(c.get("llm_unanswered") or 0)
+    return int(c.get("llm_calls") or 0), int(c.get("llm_failures") or 0)
+
 def tune():
     runs = load_state("runs.json", []) or []
     prev = load_state("tuning.json", {}) or {}
     scale = float(prev.get("scale") or 1.0)
-    # failure rate over the last two research + qc + hero_qc runs
-    recent = _runs_by_day(runs, "research", 2) + _runs_by_day(runs, "qc", 2) + _runs_by_day(runs, "hero_qc", 2)
-    calls = sum(int((r.get("counters") or {}).get("llm_calls") or 0) for r in recent)
-    fails = sum(int((r.get("counters") or {}).get("llm_failures") or 0) for r in recent)
+    # unanswered rate over the last two runs of every model-using stage
+    recent = [r for st in STAGES for r in _runs_by_day(runs, st, 2)]
+    pairs = [_asked_unanswered(r) for r in recent]
+    calls = sum(a for a, _ in pairs)
+    fails = sum(u for _, u in pairs)
     rate = (fails / calls) if calls else 0.0
     streak = int(prev.get("good_streak") or 0)
     reason = ""
     if calls and rate >= FAIL_HIGH:
         new = max(FLOOR, round(scale * DROP, 2)); streak = 0
-        reason = f"{fails} of {calls} model calls failed in the last runs ({rate:.0%}): budgets scaled to {new:.0%}"
+        reason = f"{fails} of {calls} questions went unanswered by every model in the last runs ({rate:.0%}): budgets scaled to {new:.0%}"
     elif calls and rate <= FAIL_LOW:
         streak += 1
         new = min(1.0, round(scale + STEP_UP, 2)) if streak >= 3 and scale < 1.0 else scale
-        reason = (f"model calls healthy for {streak} run(s): budgets back to {new:.0%}" if new != scale else f"model calls healthy ({rate:.0%} failed); budgets at {scale:.0%}")
+        reason = (f"models healthy for {streak} run(s): budgets back to {new:.0%}" if new != scale else f"models healthy ({fails} of {calls} questions unanswered); budgets at {scale:.0%}")
     else:
         new = scale
-        reason = f"failure rate {rate:.0%} over {calls} calls; budgets stay at {scale:.0%}"
+        reason = f"{fails} of {calls} questions unanswered ({rate:.0%}); budgets stay at {scale:.0%}"
     alerts = []
     for r in runs[-40:]:
         for e in (r.get("errors") or []) + (r.get("notes") or []):

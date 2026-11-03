@@ -277,8 +277,10 @@ class LLM:
         self.think_fast = int(os.environ.get("GEMINI_THINKING_FAST", "0"))        # judge / classification calls: no thinking
         self.think_strong = int(os.environ.get("GEMINI_THINKING_STRONG", "2048"))  # research composer: bounded thinking
         self.no_thinking_cfg = set()
-        self.calls = 0
-        self.failures = 0
+        self.calls = 0             # attempts (every model tried counts)
+        self.failures = 0          # failed attempts (a fallback that then succeeded still counts here)
+        self.requests = 0          # questions asked
+        self.unanswered = 0        # questions no model could answer — the outcome the health stage tunes on
         self.dry = os.environ.get("PIPELINE_DRY_RUN") == "1"
 
     @property
@@ -487,6 +489,7 @@ class LLM:
         video_url: a public YouTube URL to be watched (Gemini only; OpenAI models are skipped for that call)."""
         if self.dry:
             return None
+        self.requests += 1
         order = []
         if self.gemini_key:
             order += [("gemini", m) for m in self.gemini_models(strong)]
@@ -535,7 +538,13 @@ class LLM:
                     self._strike(model)
                     warn(f"llm {prov}/{model} failed after {time.time() - t0:.0f}s: {str(e)[:200]}")
                     break
+        self.unanswered += 1
         return None
+
+    def record(self, rep):
+        """Write this LLM's counters into a stage Report (attempts, failed attempts, questions, unanswered questions)."""
+        rep.inc("llm_calls", self.calls); rep.inc("llm_failures", self.failures)
+        rep.inc("llm_requests", self.requests); rep.inc("llm_unanswered", self.unanswered)
 
 # ----------------------------------------------------------------- run report
 class Report:

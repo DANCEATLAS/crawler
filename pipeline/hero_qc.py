@@ -237,7 +237,7 @@ def run(budget=80, recheck_days=120, use_vision=True, only=None):
     jsave("hero_results.json", heroes)
     jsave("crawler_cache.json", cache)
     jsave("hero_blocklist.json", block)
-    rep.inc("llm_calls", llm.calls)
+    llm.record(rep)
     return rep.finish()
 
 def _days_ago(n):

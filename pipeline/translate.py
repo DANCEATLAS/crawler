@@ -123,5 +123,5 @@ def run(budget=6, only=None):
         idx["translations"] = sum(len(v.get("languages") or []) for v in idx["packs"].values())
         jsave(idx_path, idx)
         rep.note(f"translations on file for the current masters: {idx['translations']} across {len(langs)} languages")
-    rep.inc("llm_calls", llm.calls); rep.inc("llm_failures", llm.failures)
+    llm.record(rep)
     return rep.finish()

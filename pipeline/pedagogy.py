@@ -257,6 +257,6 @@ def run(budget=6, only=None):
         except Exception as e:
             rep.error(f"pedagogy {slug} {yid}: {e}")
     pt = aggregate()
-    rep.inc("llm_calls", llm.calls); rep.inc("llm_failures", llm.failures)
+    llm.record(rep)
     rep.note(f"playbook: {pt.get('videos_ok')} lessons across {(pt.get('global') or {}).get('dances')} dances")
     return rep.finish()

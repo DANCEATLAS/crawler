@@ -589,5 +589,5 @@ def run(budget_new=20, budget_enrich=20, only=None):
             index[slug] = {"researched_at": now_iso(), "status": "error", "error": str(e)[:200]}
         save_state("research_index.json", index)
         save_state("candidates.json", cands)
-    rep.inc("llm_calls", llm.calls); rep.inc("llm_failures", llm.failures)
+    llm.record(rep)
     return rep.finish()

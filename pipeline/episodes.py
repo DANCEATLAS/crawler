@@ -455,6 +455,6 @@ def run(polish_budget=0, only=None):
                                                               "packs": packs})
     save_state("episode_gaps.json", gaps_all)
     if llm:
-        rep.inc("llm_calls", llm.calls); rep.inc("llm_failures", llm.failures)
+        llm.record(rep)
     rep.note(f"episode packs: {len(packs)} ({sum(1 for v in packs.values() if v['status'] == 'complete')} complete, {sum(1 for v in packs.values() if v['polished'])} polished); gaps for {len(gaps_all)} packs")
     return rep.finish()
