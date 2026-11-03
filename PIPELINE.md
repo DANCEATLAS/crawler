@@ -43,6 +43,7 @@ the website shows it. It runs every morning in GitHub Actions right after the cr
 * `public/catalog/` — what the website loads (`https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/dances.app.json`)
 * `research_results/<slug>.json`, `qc_results/<slug>.json` — full evidence and verdicts per dance
 * `pipeline_state/` — candidate queue, indexes, hero QC verdicts, run history
+* `WEEKLY_REPORT.md`, `reports/weekly/` — the owner's weekly measurement against `STANDARD.md` (workflow `weekly_report`, `pipeline/weekly_report.py`; `python -m pipeline.weekly_report --root .` prints the numbers for any checkout)
 
 ## Running by hand
 Actions → **atlas_daily** → Run workflow: choose a stage (`daily`, `discover`, `research`, `qc`,
