@@ -32,6 +32,26 @@ So every profile must carry, from sources, what a film and a class would need:
 4. **Never connect Lovable to GitHub** (two-way sync) without the owner's explicit yes; it would create a second repo and sync surprises.
 5. **Truth over volume.** A page with less, all verified, beats a page with more, some invented. Fields the sources do not cover say "not described in sources".
 6. **Respect.** Cultures are described precisely and with dignity; sacred or restricted dances are flagged and handled as the sources ask.
+7. **No doubles, highest quality, best in class.** One page per tradition; variants are sections; moves, songs, festivals, companies and people are not entries. Everything is filtered before it is shown; the standard is `STANDARD.md`.
+8. **It runs without the owner and without his credits.** The owner's Claude plan may lapse at any time; nothing that keeps the library growing may depend on a Claude session or on Lovable credits. GitHub Actions and the free model tiers are the engine. A Claude session, when there is one, reads this brief and `NEXT_STEPS.md` and pushes where the numbers say.
+
+## 3b. Everything the owner has asked for — the complete list (in his words where it matters)
+
+Kept here so that no instruction is ever lost between sessions. Each line is binding until the owner changes it.
+
+- Make the content machine robust, autonomous, perpetually growing, harshly filtered; "movie-ready" depth (music DNA, movement DNA, episode brief, class checklist); no doubles; keep growing without him. (Oct 2026)
+- Involve him **only if the work cannot be done without him**; one mission at a time; large short messages with bold headers; do all you can on your own; "feel free to ask short questions that have meaningful impact". (Oct 2026)
+- Never type passwords, passkeys, API keys or tokens; secrets stay in GitHub Actions and are never printed; the owner pastes keys himself. Never sign in to GitHub in Claude's own browser pane; he does that if he wants. (Oct 2026)
+- Be mindful of Lovable credits; the machine never spends them; never connect Lovable to GitHub without an explicit yes. (Oct 2026)
+- "I will not launch, and I'm not authorizing you to launch"; no promotion; no monthly subscriptions or billing. (Oct 2026)
+- Use the remaining Claude credit on recurring processes and systems that support the mid- and long-term vision; "decide best results for the mid-term product" (the owner chose not to decide the scope questions himself). (2 Nov)
+- Verify that every content generator works exactly as it should; keep verifying that updates reach the website; keep the filter strict (doubles, quality, "best in class possible"). (2–3 Nov)
+- A weekly e-mail report of the library's growth, with a breakdown per topic inside a profile, after filtering, this week / month / year, in a layout a lay person reads in a minute; "define the standard" for movie-creation level, "pretty much an impossible standard"; the report goes to edan_h_miller@hotmail.com (GitHub currently mails his GitHub address; the two settings clicks were given to him). (3 Nov)
+- The website populates itself; Lovable's AI is used only for layout, once, with the prepared prompt (`LOVABLE_UI_PROMPT.md`); "check all the content growers" means: make the site show what the machine produces. (3 Nov)
+- The movie phase: scene-by-scene scripts from the profiles; Episode 1 (introduction: the story, the most beautiful dances and costumes, the music explained well) and Chapters 1–3 (basic → advanced), built on how the best online teachers teach ("the ultimate teacher", a cumulative build-up, not one teacher); one familiar formula across styles so people move between them comfortably; the conversion tells the research what content is still needed; copyright-free music with the same sensibility, aesthetic, proportions and legitimacy, created as an original work; narrator, voice-over, music, image, class structure managed as one system; an archive of scripts, interactive. (3 Nov, `MOVIE_PHASE.md`)
+- Decisions of 3 Nov: platform-neutral scripts; **one narrator for the whole atlas**, the same look and animation, a studio-grade native voice in **every language** the user can choose (the atlas is for the entire world); the narrator **changes into the costume or traditional apparel associated with the dance, with meticulous care, genuine and respectful**.
+- Make it "exceptionally independent": no Claude or Lovable credits needed for it to keep growing; "when we decide to move ahead, we're ready to move". (3 Nov)
+- Embed every element of the conversation in the handler files (this brief, `HANDOFF_V32.md`, `MOVIE_PHASE.md`); ensure all metrics, functions and systems are working, communicating, updating, monitoring, fixing, adjusting, becoming smarter and more supportive of the vision; make the process adaptive so it keeps innovating. (3 Nov — see §5b)
 
 ## 4. The system map (where everything lives)
 
@@ -41,7 +61,8 @@ So every profile must carry, from sources, what a film and a class would need:
 | **The daily runs** | GitHub Actions, workflow `atlas_daily` (`.github/workflows/atlas_daily.yml`), cron 09:20 UTC (GitHub may delay it by hours; harmless) | runs the whole content machine and commits results back | free |
 | **The monthly safety copy** | GitHub Actions, workflow `monthly_snapshot` (1st of the month) | freezes the whole repository as a dated zip on a GitHub Release (`library-YYYY-MM-DD`); restore = unzip or `git checkout <tag>` | free |
 | **The weekly report** | GitHub Actions, workflow `weekly_report` (Sunday 23:23 UTC = the owner's Monday morning), `pipeline/weekly_report.py` | measures the library against `STANDARD.md` (growth, the ladder, every piece of every published profile, what the filters kept out, machine health — this week / 4 weeks / since the start, from git history); writes `WEEKLY_REPORT.md` + `reports/weekly/`; posts it as a comment on the pinned issue "📬 Weekly library report", which GitHub e-mails to the owner (he is assigned). Optional direct e-mail if the secrets `REPORT_SMTP_USER/PASSWORD`, `REPORT_TO` exist | free |
-| **The movie phase** | `MOVIE_PHASE.md`; `pipeline/episodes.py` → `episodes/` + `public/catalog/episodes.json`; `pipeline/pedagogy.py` → `pedagogy/` + `ULTIMATE_TEACHER.md` | every published profile becomes an episode pack (Episode 1 + three chapters, one scene formula for every style, music and visual briefs, voice, gaps back to research); the best tutorial videos are studied daily into the teaching playbook the chapters follow; exporter, composer, voice and picture wait for the owner's platform choices | free (daily budgets `PEDAGOGY_BUDGET`, `EPISODE_POLISH`) |
+| **The movie phase** | `MOVIE_PHASE.md`; `pipeline/episodes.py` → `episodes/` + `public/catalog/episodes.json`; `pipeline/pedagogy.py` → `pedagogy/` + `ULTIMATE_TEACHER.md`; `pipeline/translate.py` → `episodes/i18n/` | every published profile becomes an episode pack (Episode 1 + three chapters, one scene formula for every style, music and visual briefs, one narrator for every language dressed from the sources, gaps back to research); the best tutorial videos are studied daily into the teaching playbook the chapters follow; gap-free packs are translated; exporter, composer, voice and picture wait for the owner's platform choices | free (daily budgets `PEDAGOGY_BUDGET`, `EPISODE_POLISH`, `TRANSLATE_BUDGET`) |
+| **The adaptive loops** | `pipeline/health.py`, `.github/workflows/watchdog.yml`, `NEXT_STEPS.md` | self-tuning budgets, lessons from the judge to the writer, the watchdog that restarts dropped schedules, the machine-written agenda (§5b) | free |
 | **The standard** | `STANDARD.md` | the ladder (listed → researched → published → movie-ready → class-complete → film-grade ★) and the film-grade items; the editor's approvals live in `pipeline_state/editor_approvals.json` | — |
 | **The weekly editor pass** | a scheduled Claude session every Monday, playbook `WEEKLY_PASS.md`, log `EDITORIAL_LOG.md` | reads the week's new pages like an editor-in-chief, decides doubles and the review queue, writes editor notes and extra tiered sources that the daily run acts on first, fixes systematic faults, tells the owner in five lines | the owner's Claude plan only |
 | **Models** | Gemini (free tier, key `GEMINI_API_KEY`) first; OpenAI (prepaid balance, key `OPENAI_API_KEY`, `gpt-4.1-mini` / `gpt-4o-mini` only — the gpt-5 minis answer 404 "organization must be verified" on this account) only when Gemini is out of quota | research composer, QC judge, audit judge, hero-video vision check | ≈ $0 normal day, ≤ $0.50 worst day |
@@ -55,7 +76,7 @@ So every profile must carry, from sources, what a film and a class would need:
 ## 5. The daily process (the living organism)
 
 ```
-bootstrap → audit → discover → research → qc → hero_qc → build → pedagogy → episodes → sync → report → commit
+bootstrap → health → audit → discover → research → qc → hero_qc → build → pedagogy → episodes → translate → sync → report → commit
 ```
 - **audit** — cleans what is already in the catalogue: deterministic rules (shared Wikidata id / article, country names, exact name collisions, research notes) + a model judge in batches of 8. The judge may only *retire* clear non-dances (country, place, TV show, company, person, song, festival, category page, ≤ 25 per run); music genres, instruments and "other" go to `QC_REPORT.md` for a human. Merges always end at a live entry; cycles are resolved. `audit_overrides.json` (`keep` / `retire` / `merge:<slug>`) always wins.
 - **discover** — harvests candidates from Wikidata (dance classes), Wikipedia dance categories and list pages, UNESCO titles; de-duplicates by slug, name, alias, Wikidata id and fuzzy name; queues `DISCOVER_MAX_NEW` a day (thousands remain deferred — breadth is not the bottleneck, research depth is). Dance *moves*, steps, figures and positions (grapevine, box step, natural spin turn…) are vocabulary, not entries: they are dropped at discovery and again when research picks its targets (`move_like` in `pipeline/discover.py`, by article disambiguator, Wikidata description and the article's first sentence; candidates get `status: screened_out` and are listed at the end of `QC_REPORT.md` — set one back to `queued` in `pipeline_state/candidates.json` to rescue it).
@@ -65,10 +86,26 @@ bootstrap → audit → discover → research → qc → hero_qc → build → p
 - **build** — writes `public/catalog/` (what the website loads) and `dance_list.json` (what the crawlers work from); refuses to publish if the catalogue would shrink by > 10 %.
 - **sync** — mirrors to Supabase. **report** — rewrites `STATUS.md` and `QC_REPORT.md`.
 
+- **health** — self-tuning and lessons learned (§5b); first in the run so the budgets and the writer's warnings are fresh.
 - **pedagogy** — watches `PEDAGOGY_BUDGET` of the best tutorial videos (Gemini reads the public YouTube URL; first 8 minutes; nothing downloaded) and extracts how the teacher teaches, with timestamps and verbatim quotes; aggregates everything into `pedagogy/teaching_patterns.json` and renders `ULTIMATE_TEACHER.md`.
 - **episodes** — rebuilds the episode pack of every published profile whose research changed (scene-by-scene scripts assembled from the profile only; `EPISODE_POLISH` narrations a day polished by the model and verified against the profile); writes `episodes/<slug>.json/.md`, `public/catalog/episodes.json`, and the pack's gaps to `pipeline_state/episode_gaps.json` for the next research pass. Sacred dances: Episode 1 only.
 
-Budgets (workflow env): `RESEARCH_NEW=25`, `RESEARCH_ENRICH=15`, `HERO_QC_BUDGET=60`, `DISCOVER_MAX_NEW=40`, `AUDIT_LLM_BUDGET=150`, `PEDAGOGY_BUDGET=6`, `EPISODE_POLISH=4`. ≈ 180 model calls a day.
+- **translate** — gap-free packs translated scene by scene into `TRANSLATE_LANGS` (one narrator, every language; names and numbers checked; marked machine-translated).
+
+Budgets (workflow env): `RESEARCH_NEW=25`, `RESEARCH_ENRICH=15`, `HERO_QC_BUDGET=60`, `DISCOVER_MAX_NEW=40`, `AUDIT_LLM_BUDGET=150`, `PEDAGOGY_BUDGET=6`, `EPISODE_POLISH=4`, `TRANSLATE_BUDGET=6`. ≈ 190 model calls a day, scaled down automatically when the models fail (§5b).
+
+## 5b. Adaptive loops — how the machine gets smarter without anyone
+
+The machine cannot invent new features by itself, but it adapts in six ways, every day, with no credits:
+
+1. **Self-tuning budgets** (`pipeline/health.py`, `pipeline_state/tuning.json`): when more than 40 % of model calls failed in the last runs, the model-hungry budgets drop to 60 %; after three healthy runs they climb back, never above the workflow's values. It never spends more than the owner set, only less when spending would fail.
+2. **Lessons from the judge** (`pipeline_state/lessons_learned.json`): the QC gates that failed most in 30 days are handed to the writer in plain words before every page ("the insight line was vague — put a person, a place, a year or a number in it"). The writer adapts to the judge instead of repeating the fault.
+3. **Scripts tell research what they need** (`pipeline_state/episode_gaps.json`): the gaps in each episode pack are asked for in the next deepening of that page.
+4. **The teaching playbook grows** (`ULTIMATE_TEACHER.md`): every studied lesson changes the counting, cues and mistakes the chapter scripts use.
+5. **The watchdog** (`.github/workflows/watchdog.yml`, every 6 h): restarts the daily run when GitHub dropped its schedule for 30 h, and the weekly report when Monday's was dropped. Nothing waits for a human to notice.
+6. **The machine writes its own agenda** (`NEXT_STEPS.md`, every Monday): the bottlenecks the numbers show, ranked, with the concrete lever for each; the owner's open decisions; what not to touch. A Claude session, the weekly editor, or the owner starts there.
+
+What the loops cannot do: change a rule, add a source type, or build a new stage. That is what a session is for, and `NEXT_STEPS.md` tells it where it would matter most.
 
 ## 6. Quality standard (what "harshly filtered" means here)
 
