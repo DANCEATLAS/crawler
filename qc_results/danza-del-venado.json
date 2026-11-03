@@ -1,0 +1,124 @@
+{
+ "slug": "danza-del-venado",
+ "qc_at": "2026-11-03T18:20:51Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 6.95,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Danza del Venado"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "60"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "210"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The Danza del Venado is a sacred ritual of the Yaqui and Mayo people in which th"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "343"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1833"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,music_and_instruments,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/5 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Mexico"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "testament to,deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'deity', 'god', 'spirit', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 7,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that the deer is associated with the mother of Quetzalcóatl and the wife of the Maya maize god is a broad Mesoamerican generalization that may not accurately reflect the specific cosmology of the Yaqui and Mayo people."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "verdict": "publish",
+  "notes": "The profile is respectful and acknowledges the sacred nature of the dance. However, it lacks technical detail regarding movement and music, which is expected given the sacred status. The historical connection to broader Mesoamerican mythology is slightly speculative and should be treated with caution regarding Yaqui-specific beliefs."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sections_filled",
+  "banned_phrasing",
+  "judge_score=6.95",
+  "doubts=1",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 5,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-03T18:15:43Z"
+}

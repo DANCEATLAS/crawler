@@ -1,0 +1,832 @@
+{
+ "slug": "ceroc",
+ "name": "Ceroc",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T18:43:26Z",
+ "researched_at": "2026-11-03T17:41:23Z",
+ "qc_score": 9.2,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An experienced Ceroc teacher with a focus on accessibility and social connection.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Ceroc",
+   "Modern Jive",
+   "LeRoc",
+   "Roc"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Ceroc",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "This is Ceroc. 20th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Ceroc · United Kingdom · 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Founded by James Cronin in 1980 in London, the dance originated from French rock and roll influences.",
+     "It was trademarked in the 1990s and expanded through a franchise model."
+    ],
+    "on_screen": [
+     "Map: United Kingdom · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Weekly classes, weekend 'Freestyles', and annual championships.",
+     "The dance is used for social interaction and competitive performance.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Grand Villa Casino showgirls learned to jive instantly, Famous Players cover band music (https://archive.org/details/JIVEDANCESHOWGIRLS9Mb_201902)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Classes are taught in rows.",
+     "Partners rotate every few minutes.",
+     "Beginners learn from a restricted set of moves, while intermediate dancers focus on more complex patterns and footwork.",
+     "Watch for Back Pass, Basket, Catapult."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Rows facing a stage."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music varies by room; main rooms play up-tempo tracks between 100 and 150 BPM, while 'Blues' or 'Chillout' rooms play slower music between 80 and 110 BPM.",
+     "The tempo sits around 115 beats a minute.",
+     "Music ranges from up-tempo tracks between 100 and 150 BPM for main rooms to slower, blues-influenced tracks between 80 and 110 BPM for chillout rooms."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "James Cronin, Sylvia Coleman, Michel Ange Lau, Mike Ellard, Robert Thompson.",
+     "UK (standardized franchise), Australia (focus on technique/bridging classes), New Zealand (23-move beginner repertoire).",
+     "Modern Jive, LeRoc, Rock and Roll, Swing, Lindy Hop, Salsa."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Ceroc is sibling of Modern Jive: A generic term for the dance form used by clubs not affiliated with Ceroc Enterprises.",
+     "Ceroc is variant of LeRoc: A name commonly used for the same dance style in independent venues."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Beginner moves are taught in a structured routine of three moves.",
+     "Partners rotate every few minutes.",
+     "Count it: 4-1-2-3-4.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the story of Ceroc, the 1980s London-born dance phenomenon that removed the barrier of needing a partner to hit the floor.",
+     "Sources: 3 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn the basic rotation and first three moves.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1. Today: Learn the basic rotation and first three moves.",
+      "Level: Beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced Ceroc teacher with a focus on accessibility and social connection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 4-1-2-3-4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 80 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Beginner moves are taught in a structured routine of three moves.",
+      "Step 2: Partners rotate every few minutes.",
+      "Footwork from the sources: Some intermediate moves contain footwork; Australian schools teach 'Step' footwork.",
+      "Drill: Basic step practice."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "4-1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Beginners practice with taxi dancers.",
+      "Step 4: Intermediate moves include more complex footwork and classic moves.",
+      "Drill: Partner rotation drill."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "4-1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: First move execution."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Aerials are not permitted during freestyle periods."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 4-1-2-3-4.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 115 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn the basic rotation and first three moves..",
+      "Weekly classes, weekend 'Freestyles', and annual championships.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Introduce classic moves and connection.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2. Today: Introduce classic moves and connection.",
+      "Level: Intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced Ceroc teacher with a focus on accessibility and social connection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 4-1-2-3-4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 80 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Beginner moves are taught in a structured routine of three moves.",
+      "Step 2: Partners rotate every few minutes.",
+      "Drill: Classic move sequence."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "4-1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Beginners practice with taxi dancers.",
+      "Step 4: Intermediate moves include more complex footwork and classic moves.",
+      "Back Pass: A beginner-level move in the New Zealand repertoire.",
+      "Basket: A beginner-level move in the New Zealand repertoire.",
+      "Drill: Connection and frame focus."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "4-1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Aerials are not permitted during freestyle periods."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 4-1-2-3-4.",
+      "Full tempo, the whole sequence, twice. Formation: Rows facing a stage."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 115 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Introduce classic moves and connection..",
+      "James Cronin, Sylvia Coleman, Michel Ange Lau, Mike Ellard, Robert Thompson.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Ceroc",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3. Today: Dance it fully.",
+      "Level: Advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced Ceroc teacher with a focus on accessibility and social connection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 4-1-2-3-4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 80 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Beginners practice with taxi dancers.",
+      "Step 2: Intermediate moves include more complex footwork and classic moves."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "4-1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Catapult: A beginner-level move in the New Zealand repertoire."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "4-1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Aerials are not permitted during freestyle periods."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 4-1-2-3-4.",
+      "Full tempo, the whole sequence, twice. Formation: Rows facing a stage."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 115 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Ceroc.",
+      "Modern Jive, LeRoc, Rock and Roll, Swing, Lindy Hop, Salsa.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": 115,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "up-tempo",
+   "chillout",
+   "musical"
+  ],
+  "sound_description": "Music ranges from up-tempo tracks between 100 and 150 BPM for main rooms to slower, blues-influenced tracks between 80 and 110 BPM for chillout rooms.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Ceroc (United Kingdom). Tempo about 115 bpm. Mood: up-tempo, chillout, musical. It should sound like this: Music ranges from up-tempo tracks between 100 and 150 BPM for main rooms to slower, blues-influenced tracks between 80 and 110 BPM for chillout rooms. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 80
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 115
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "Grand Villa Casino showgirls learned to jive instantly, Famous Players cover band music",
+    "url": "https://archive.org/details/JIVEDANCESHOWGIRLS9Mb_201902",
+    "year": 2019,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Grand Villa Casino showgirls with Famous Players cover band music",
+    "url": "https://archive.org/details/GrandVillaCasinoShowgirlsLearnedToJiveInstantly",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Ceroc Routine 3",
+    "url": "https://archive.org/details/Flickr-5150992093",
+    "year": 2010,
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Modern Jive intermediate dance lesson at the Octel Club. 10th November 2005.",
+    "url": "https://archive.org/details/Modern_Jive_intermediate_dance_lesson_at_the_Octel_Club._10th_November_2005.",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Modern Jive beginners lesson at Ellesmere Port British Legion, 3rd October 2005",
+    "url": "https://archive.org/details/Modern_Jive_beginners_lesson_at_Ellesmere_Port_British_Legion_3rd_October_2005",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Modern Jive freestyle at Ellesmere Port British Legion, October 3rd 2005",
+    "url": "https://archive.org/details/Modern_Jive_freestyle_at_Ellesmere_Port_British_Legion_October_3rd_2005",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Octel Club Jive Dancing 2005-09-20",
+    "url": "https://archive.org/details/Octel_Club_Jive_Dancing_20050920",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Modern Jive dancing at the Octel Club: 2005-09-20",
+    "url": "https://archive.org/details/Modern_Jive_dancing_at_the_Octel_Club_20050920",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Rows of dancers in a large hall",
+   "The constant movement of partners rotating",
+   "Close-ups of lead-follow connection"
+  ],
+  "costume_notes": null,
+  "setting_notes": "Weekly classes, weekend 'Freestyles', and annual championships. The dance is used for social interaction and competitive performance.",
+  "map": {
+   "country": "United Kingdom",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of the ballroom-partner family studied",
+  "videos_studied": 1,
+  "counting": "4-1-2-3-4",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "side replace close",
+   "rock replace side"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "mistakes"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "posture, arms and hands",
+  "the costume & setting section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ceroc",
+  "https://www.wikidata.org/wiki/Q859676",
+  "https://de.wikipedia.org/wiki/Ceroc"
+ ],
+ "claims_verified": 5,
+ "claims": 6,
+ "polished": true,
+ "hero_checked": null,
+ "polish_kept_scenes": 27
+}

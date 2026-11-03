@@ -1,0 +1,120 @@
+{
+ "slug": "kilic-kalkan",
+ "qc_at": "2026-11-03T18:20:48Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.3,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Kılıç Kalkan"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "63"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "176"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In Bursa, the Kılıç Kalkan is performed in total silence, save for the rhythmic "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "481"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1268"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "how_it_is_danced"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "2/2 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Turkey"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Middle East"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate based on the provided evidence. While it lacks technical teaching details, this is correctly attributed to the source material. The description is respectful and avoids exoticism. It is a solid, factual entry for a unique regional tradition."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "sections_filled",
+  "judge_score=8.3"
+ ],
+ "citation": {
+  "claims": 2,
+  "supported": 2,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-03T18:14:53Z"
+}

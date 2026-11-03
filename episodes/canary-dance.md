@@ -1,6 +1,6 @@
 # Canary dance — episode pack
 
-*Status: draft · built 2026-11-03 · judge 8.85 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-03 · judge 8.85 · 5/5 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
 
@@ -18,22 +18,22 @@ ON SCREEN: Title card: Canary dance · Spain / France / Italy · 16th–17th cen
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Rooted in the indigenous traditions of the Canary Islands, possibly related to the Tajaraste, the dance crossed to mainland Spain via enslaved people by 1552, where Diego Pisador noted it at funeral feasts.
-NARRATION: By the late 16th and early 17th centuries, it captivated French, Italian, English, and Spanish courts, appearing in plays by William Shakespeare and dance manuals by Thoinot Arbeau (1589), Fabritio Caroso (1600), and Cesare Negri (1602).
+NARRATION: The dance is rooted in the indigenous traditions of the Canary Islands, and is possibly related to the Tajaraste. It crossed to mainland Spain via enslaved people by 1552, where Diego Pisador noted it at funeral feasts.
+NARRATION: By the late sixteenth and early seventeenth centuries, it captivated French, Italian, English, and Spanish courts, appearing in plays by William Shakespeare and dance manuals by Thoinot Arbeau in 1589, Fabritio Caroso in 1600, and Cesare Negri in 1602.
 ON SCREEN: Map: Spain / France / Italy · Europe
 ON SCREEN: Image — MISSING
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Initially functioning as a lively ballroom diversion or theatrical interlude within masques, the dance was framed around the dramaturgical theme of the 'sauvage' or indigenous wooing.
-NARRATION: Spanish sources like Covarrubias noted its lineage from saltarello-style island dances, while contemporaries relished its bizarre, high-energy spectacle.
+NARRATION: The dance initially functions as a lively ballroom diversion or theatrical interlude within masques, framed around the dramaturgical theme of the sauvage or indigenous wooing.
+NARRATION: Spanish sources like Covarrubias note its lineage from saltarello-style island dances, while contemporaries relish its bizarre, high-energy spectacle.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Choreographed primarily for a single couple, early versions featured rapid heel-and-toe stamps, deep jumps, and violent movements that earned it the nickname 'frogs legs.' Unlike rigid court steps of the galliarde, dancers engaged in free improvisation meant to mimic a playful 'savage' indigenous courtship.
-NARRATION: By the 17th century in France, it incorporated elaborate cabrioles, turns, and battus in a fast ternary meter.
-NARRATION: Watch for heel-and-toe stamp, frogs legs jump.
+NARRATION: Choreographed primarily for a single couple, early versions feature rapid heel-and-toe stamps, deep jumps, and violent movements that earn it the nickname frogs legs. Unlike the rigid court steps of the galliarde, dancers engage in free improvisation meant to mimic a playful sauvage indigenous courtship.
+NARRATION: By the seventeenth century in France, it incorporates elaborate cabrioles, turns, and battus in a fast ternary meter.
+NARRATION: Watch for the heel-and-toe stamp and the frogs legs jump.
 ON SCREEN: Hero video full screen, 30–45 s (gcivoSm5Ec4)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: single couple facing each other, or two opposing rows approaching and retreating
@@ -60,24 +60,24 @@ MUSIC: underscore
 NEEDS: images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Dance masters Thoinot Arbeau, Fabritio Caroso, Cesare Negri, Livio Lupi da Caravaggio, and Juan de Esquivel Navarro documented its steps.
-NARRATION: Baroque composers including Girolamo Kapsberger, Gaspar Sanz, J.S. Bach, Henry Purcell, and Jean-Baptiste Lully cemented its rhythmic profile.
-NARRATION: Manifested across Europe with distinct local flavors: Spanish guitar adaptations (Gaspar Sanz), Italian theatrical balletto sequences (Negri, Caroso), and refined French baroque variations emphasizing brilliant footwork and rapid tempos.
-NARRATION: Rooted in Canary Islands indigenous movement traditions (such as the Tajaraste), influencing Baroque suite movements and sharing structural affinities with the gigue and saltarello.
+NARRATION: Dance masters Thoinot Arbeau, Fabritio Caroso, Cesare Negri, Livio Lupi da Caravaggio, and Juan de Esquivel Navarro document its steps.
+NARRATION: Baroque composers including Girolamo Kapsberger, Gaspar Sanz, J.S. Bach, Henry Purcell, and Jean-Baptiste Lully cement its rhythmic profile.
+NARRATION: The form manifests across Europe with distinct local flavors, including Spanish guitar adaptations by Gaspar Sanz, Italian theatrical balletto sequences by Negri and Caroso, and refined French baroque variations emphasizing brilliant footwork and rapid tempos.
+NARRATION: It is rooted in Canary Islands indigenous movement traditions such as the Tajaraste, influences Baroque suite movements, and shares structural affinities with the gigue and saltarello.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Canary dance is variant of gigue: Often compared to the gigue, though considered faster and sharper in execution.
-NARRATION: Canary dance is variant of saltarello: Covarrubias described the Canary dance as a type of saltarello originating from the Canary Islands.
+NARRATION: The Canary dance is a variant of the gigue. It is often compared to the gigue, though considered faster and sharper in execution.
+NARRATION: The Canary dance is a variant of the saltarello. Covarrubias describes the Canary dance as a type of saltarello originating from the Canary Islands.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. rapid heel-and-toe stamps
-NARRATION: small jumps approaching and retreating
-NARRATION: Count it: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars.
+NARRATION: Before we go, try one step: rapid heel-and-toe stamps.
+NARRATION: Add small jumps approaching and retreating.
+NARRATION: Count it: count the binary or ternary three-four, six-eight, and six-four bar out loud, then in pairs of bars.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -92,9 +92,9 @@ MUSIC: theme (20 s)
 ## Chapter 1 · First steps — Master the rhythmic foot stamping and basic weight shifts. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Master the rhythmic foot stamping and basic weight shifts..
-NARRATION: Level: Beginner. Difficulty of the dance overall: advanced.
-NARRATION: Your instructor: A rigorous historical dance specialist who pairs scholarly precision with high-energy physical demonstration.
+NARRATION: Chapter 1 covers first steps. Today, master the rhythmic foot stamping and basic weight shifts.
+NARRATION: The level is beginner, while the difficulty of the dance overall is advanced.
+NARRATION: Your instructor is a rigorous historical dance specialist who pairs scholarly precision with high-energy physical demonstration.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -116,40 +116,40 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: rapid heel-and-toe stamps
-NARRATION: Step 2: small jumps approaching and retreating
-NARRATION: Footwork from the sources: rapid heel-and-toe stamps, foot glides (glissements de pied), and in later French periods, cabrioles and battus
-NARRATION: Drill: Slow heel-and-toe weight shifts on the beat
+NARRATION: Step 1 uses rapid heel-and-toe stamps.
+NARRATION: Step 2 uses small jumps approaching and retreating.
+NARRATION: Footwork from the sources includes rapid heel-and-toe stamps, foot glides, and in later French periods, cabrioles and battus.
+NARRATION: Drill slow heel-and-toe weight shifts on the beat.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: glissements de pied (foot glides)
-NARRATION: Step 4: cabrioles and battus (in later French form)
-NARRATION: Drill: Syncopated foot glides
+NARRATION: Step 3 uses glissements de pied, or foot glides.
+NARRATION: Step 4 uses cabrioles and battus in the later French form.
+NARRATION: Drill syncopated foot glides.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Slow first.
-NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Combine Step A, then Step B, without stopping, moving slowly first.
+NARRATION: Now try half tempo, then full tempo.
+NARRATION: The instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
+NARRATION: The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars.
-NARRATION: Full tempo, the whole sequence, twice.
+NARRATION: Count in by counting the binary or ternary three-four, six-eight, and six-four bar out loud, then in pairs of bars.
+NARRATION: Dance the whole sequence at full tempo, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
@@ -165,9 +165,9 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — Incorporate small jumps and partner-facing approaches. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: Incorporate small jumps and partner-facing approaches..
-NARRATION: Level: Intermediate. Difficulty of the dance overall: advanced.
-NARRATION: Your instructor: A rigorous historical dance specialist who pairs scholarly precision with high-energy physical demonstration.
+NARRATION: Chapter 2 builds the dance. Today, incorporate small jumps and partner-facing approaches.
+NARRATION: The level is intermediate, and the overall difficulty of the dance is advanced.
+NARRATION: Your instructor is a rigorous historical dance specialist who pairs scholarly precision with high-energy physical demonstration.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -189,42 +189,42 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: rapid heel-and-toe stamps
-NARRATION: Step 2: small jumps approaching and retreating
-NARRATION: Drill: Paired approaching and retreating steps
+NARRATION: Step 1 uses rapid heel-and-toe stamps.
+NARRATION: Step 2 uses small jumps approaching and retreating.
+NARRATION: Drill paired approaching and retreating steps.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: glissements de pied (foot glides)
-NARRATION: Step 4: cabrioles and battus (in later French form)
-NARRATION: heel-and-toe stamp: Rapid striking of the floor with heel and toe on the first beat of the measure.
-NARRATION: frogs legs jump: High-energy vertical jumps with violent leg action.
-NARRATION: Drill: Low-level stamping combinations
+NARRATION: Step 3 uses glissements de pied, or foot glides.
+NARRATION: Step 4 uses cabrioles and battus in the later French form.
+NARRATION: Execute the heel-and-toe stamp with rapid striking of the floor with heel and toe on the first beat of the measure.
+NARRATION: Execute the frogs legs jump with high-energy vertical jumps and violent leg action.
+NARRATION: Drill low-level stamping combinations.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
 COUNTS: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Slow first.
-NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Combine Step A, then Step B, without stopping, moving slowly first.
+NARRATION: Now try half tempo, then full tempo.
+NARRATION: The instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
+NARRATION: The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars.
-NARRATION: Full tempo, the whole sequence, twice. Formation: single couple facing each other, or two opposing rows approaching and retreating
+NARRATION: Count in by counting the binary or ternary three-four, six-eight, and six-four bar out loud, then in pairs of bars.
+NARRATION: Dance the whole sequence at full tempo, twice, in a formation of a single couple facing each other, or two opposing rows approaching and retreating.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
@@ -240,9 +240,9 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — Execute Baroque-style speed, turns, and cabrioles. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: Execute Baroque-style speed, turns, and cabrioles..
-NARRATION: Level: Advanced. Difficulty of the dance overall: advanced.
-NARRATION: Your instructor: A rigorous historical dance specialist who pairs scholarly precision with high-energy physical demonstration.
+NARRATION: Chapter 3 dances it fully. Today, execute Baroque-style speed, turns, and cabrioles.
+NARRATION: The level is advanced, and the overall difficulty of the dance is advanced.
+NARRATION: Your instructor is a rigorous historical dance specialist who pairs scholarly precision with high-energy physical demonstration.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -264,40 +264,40 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: glissements de pied (foot glides)
-NARRATION: Step 2: cabrioles and battus (in later French form)
-NARRATION: Drill: Fast dotted-rhythm footwork sequences
+NARRATION: Step 1 uses glissements de pied, or foot glides.
+NARRATION: Step 2 uses cabrioles and battus in the later French form.
+NARRATION: Drill fast dotted-rhythm footwork sequences.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: heel-and-toe stamp: Rapid striking of the floor with heel and toe on the first beat of the measure.
-NARRATION: frogs legs jump: High-energy vertical jumps with violent leg action.
-NARRATION: Drill: Vertical jumps with battus
+NARRATION: Execute the heel-and-toe stamp with rapid striking of the floor with heel and toe on the first beat of the measure.
+NARRATION: Execute the frogs legs jump with high-energy vertical jumps and violent leg action.
+NARRATION: Drill vertical jumps with battus.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
 COUNTS: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Slow first.
-NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Combine Step A, then Step B, without stopping, moving slowly first.
+NARRATION: Now try half tempo, then full tempo.
+NARRATION: The instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
+NARRATION: The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the binary (early) or ternary 3/4, 6/8, 6/4 (Baroque) bar out loud, then in pairs of bars.
-NARRATION: Full tempo, the whole sequence, twice. Formation: single couple facing each other, or two opposing rows approaching and retreating
+NARRATION: Count in by counting the binary or ternary three-four, six-eight, and six-four bar out loud, then in pairs of bars.
+NARRATION: Dance the whole sequence at full tempo, twice, in a formation of a single couple facing each other, or two opposing rows approaching and retreating.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full

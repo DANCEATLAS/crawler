@@ -1,0 +1,808 @@
+{
+ "slug": "carnavalito",
+ "name": "carnavalito",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T18:43:18Z",
+ "researched_at": "2026-11-03T17:59:10Z",
+ "qc_score": 9.25,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A local community leader or traditional dancer from Jujuy or Santa Cruz.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "carnavalito",
+   "little carnival"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet carnavalito",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The carnavalito is a human bridge.",
+     "It stretches from pre-Hispanic roots to the present day."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: carnavalito · Bolivia, Argentina, Chile, Peru · Pre-Hispanic to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The carnavalito is a pre-Hispanic dance of the Altiplano.",
+     "It evolved through syncretism with Spanish colonial culture.",
+     "In eastern Bolivia, it consolidated as a symbol of national integration after 1952."
+    ],
+    "on_screen": [
+     "Map: Bolivia, Argentina, Chile, Peru · South America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "It is performed during religious festivities and community celebrations.",
+     "It is a joyful, innocent, and communal activity, often serving as a game among participants.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers move in rows, wheels, or serpentine lines.",
+     "A leader with a handkerchief directs the group.",
+     "Common figures include 'el puente' (the bridge), 'las alas' (the wings), and 'las calles' (the streets).",
+     "Watch for El puente, Las calles."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Rows, wheels, and serpentine lines"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is typically in a minor pentatonic mode.",
+     "Instruments include the quena, siku, charango, bombo, and caja chayera.",
+     "Listen for the quena, siku, charango, bombo.",
+     "The pulse is 3/4 in eastern variants; variable in Andean versions.",
+     "High-pitched Andean flutes blend with the percussive, rhythmic strumming of the charango, creating a bright and communal atmosphere."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: El humahuaqueño — Various; Palomita de Arrozal — Raúl Otero Reiche and Jorge Luna; Misa criolla — Ariel Ramírez (1966)",
+     "Waveform or rhythm-pattern graphic: Light, vivacious trot rhythm"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "In eastern Bolivia, women wear a colorful tipoy and flowers in their hair.",
+     "Men wear white shirts, trousers, and a 'sombrero de Sao'.",
+     "In the Andes, attire varies by local indigenous tradition."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Raúl Otero Reiche and Jorge Luna (composers of 'Palomita de Arrozal').",
+     "Ariel Ramírez (composer of the 'Gloria' in Misa Criolla).",
+     "Andean (Jujuy, Salta, Altiplano) vs. Eastern Bolivian (Santa Cruz, Beni, Pando).",
+     "Derived from indigenous Andean dance; shares roots with the huayno and is related to the taquirari."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "The carnavalito is a subclass of the huayno musical genre."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, try one step: a light trot in a line.",
+     "Form a circle or wheel.",
+     "Count it: 1-2-3, 2-2-3, marking three counts a bar.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the Andean dance that turns a community into a living, moving sculpture.",
+     "Sources include five references, with every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic trot",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 focuses on first steps and mastering the basic trot.",
+      "The level is beginner, and the overall difficulty of the dance is beginner.",
+      "Your instructor is a local community leader or traditional dancer from Jujuy or Santa Cruz."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Arms form bridges and wings, and the leader holds a handkerchief."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 in eastern variants; variable in Andean versions.",
+      "Rhythm pattern: Light, vivacious trot rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1 is a light trot in a line.",
+      "Step 2 is forming a circle or wheel.",
+      "Footwork from the sources involves a light trot and small jumps.",
+      "The drill is rhythmic walking in a line."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3 is passing through a 'street' formed by other dancers.",
+      "Step 4 is linking arms with a partner.",
+      "The drill requires holding a handkerchief while moving."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Perform Step A, then Step B, without stopping, starting slowly.",
+      "Move to half tempo, then full tempo.",
+      "Mirror the instructor as they face you so that your right matches theirs."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic trot.",
+      "It is performed during religious festivities and community celebrations.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of carnavalito",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 is about building the dance of the carnavalito.",
+      "The level is intermediate, and the overall difficulty of the dance is beginner.",
+      "Your instructor is a local community leader or traditional dancer from Jujuy or Santa Cruz."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Arms form bridges and wings, and the leader holds a handkerchief."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 in eastern variants; variable in Andean versions.",
+      "Rhythm pattern: Light, vivacious trot rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1 is a light trot in a line.",
+      "Step 2 is forming a circle or wheel."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3 is passing through a 'street' formed by other dancers.",
+      "Step 4 is linking arms with a partner.",
+      "In el puente, dancers form an arch with their arms for others to pass under.",
+      "In las calles, two lines of dancers create a corridor for other pairs to traverse."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Perform Step A, then Step B, without stopping, starting slowly.",
+      "Move to half tempo, then full tempo.",
+      "Mirror the instructor as they face you so that your right matches theirs."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
+      "Full tempo, the whole sequence, twice. Formation: Rows, wheels, and serpentine lines"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of carnavalito.",
+      "Raúl Otero Reiche and Jorge Luna (composers of 'Palomita de Arrozal').",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of carnavalito",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 covers dancing the carnavalito fully.",
+      "The level is advanced, and the overall difficulty of the dance is beginner.",
+      "Your instructor is a local community leader or traditional dancer from Jujuy or Santa Cruz."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Arms form bridges and wings, and the leader holds a handkerchief."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 in eastern variants; variable in Andean versions.",
+      "Rhythm pattern: Light, vivacious trot rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1 is passing through a 'street' formed by other dancers.",
+      "Step 2 is linking arms with a partner."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "In el puente, dancers form an arch with their arms for others to pass under.",
+      "In las calles, two lines of dancers create a corridor for other pairs to traverse."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Perform Step A, then Step B, without stopping, starting slowly.",
+      "Move to half tempo, then full tempo.",
+      "Mirror the instructor as they face you so that your right matches theirs."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
+      "Full tempo, the whole sequence, twice. Formation: Rows, wheels, and serpentine lines"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of carnavalito.",
+      "Derived from indigenous Andean dance; shares roots with the huayno and is related to the taquirari.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "3/4 in eastern variants; variable in Andean versions",
+  "rhythm_pattern": "Light, vivacious trot rhythm",
+  "instruments": [
+   "quena",
+   "siku",
+   "charango",
+   "bombo",
+   "caja chayera",
+   "guitar"
+  ],
+  "vocal_style": "Collective singing of verses or improvisations",
+  "musical_form": "Simple i-V harmony or minor pentatonic",
+  "mood": [
+   "joyful",
+   "festive",
+   "lively"
+  ],
+  "sound_description": "A blend of high-pitched Andean flutes (quena, siku) and the percussive, rhythmic strumming of the charango, creating a bright and communal atmosphere.",
+  "listen_before_composing": [
+   "El humahuaqueño — Various",
+   "Palomita de Arrozal — Raúl Otero Reiche and Jorge Luna",
+   "Misa criolla — Ariel Ramírez (1966)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of carnavalito (Bolivia, Argentina, Chile, Peru). Meter 3/4 in eastern variants; variable in Andean versions. Rhythm pattern: Light, vivacious trot rhythm. Instruments: quena, siku, charango, bombo, caja chayera, guitar. Vocal style: Collective singing of verses or improvisations. Form: Simple i-V harmony or minor pentatonic. Mood: joyful, festive, lively. It should sound like this: A blend of high-pitched Andean flutes (quena, siku) and the percussive, rhythmic strumming of the charango, creating a bright and communal atmosphere. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "In eastern Bolivia, women wear a colorful tipoy and flowers in their hair. Men wear white shirts, trousers, and a 'sombrero de Sao'. In the Andes, attire varies by local indigenous tradition.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Ribbon-adorned pennants",
+   "Andean mountain landscapes",
+   "Colorful tipoy dresses"
+  ],
+  "costume_notes": "In eastern Bolivia, women wear a colorful tipoy and flowers in their hair. Men wear white shirts, trousers, and a 'sombrero de Sao'. In the Andes, attire varies by local indigenous tradition.",
+  "setting_notes": "It is performed during religious festivities and community celebrations. It is a joyful, innocent, and communal activity, often serving as a game among participants.",
+  "map": {
+   "country": "Bolivia, Argentina, Chile, Peru",
+   "region": "South America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "7 tutorials across the atlas studied",
+  "videos_studied": 7,
+  "counting": "1-2-3, 2-2-3 (three counts a bar)",
+  "demonstration": [
+   "views used by most teachers: front, mirror, back",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "and one and three and five and seven",
+   "keep your feet together",
+   "relax your knees",
+   "punch to the side",
+   "pull your head down",
+   "pivot them on your elbows",
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "side replace close",
+   "rock replace side"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "mistakes"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Carnavalito",
+  "https://www.wikidata.org/wiki/Q1154911",
+  "https://es.wikipedia.org/wiki/Carnavalito",
+  "https://fr.wikipedia.org/wiki/Carnavalito",
+  "https://it.wikipedia.org/wiki/Carnavalito"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": true,
+ "hero_checked": null,
+ "polish_kept_scenes": 27
+}

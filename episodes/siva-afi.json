@@ -2,7 +2,7 @@
  "slug": "siva-afi",
  "name": "Siva Afi",
  "pack_version": "e1",
- "built_at": "2026-11-03T03:27:49Z",
+ "built_at": "2026-11-03T18:43:31Z",
  "researched_at": "2026-11-02T20:57:25Z",
  "qc_score": 8.95,
  "status": "draft",
@@ -269,7 +269,7 @@
       "Drill: rehearse rotation with practice batons or LED equipment"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -411,7 +411,7 @@
       "Step 2: throwing and catching"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -554,7 +554,7 @@
       "Step 2: acrobatic stunts"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -687,7 +687,7 @@
  "visual_brief": {
   "hero_video": {
    "youtube_id": "hlqSonapHtk",
-   "checked_by_vision_model": false,
+   "checked_by_vision_model": true,
    "title": null
   },
   "wardrobe": {
@@ -735,30 +735,36 @@
   ]
  },
  "teaching_formula": {
-  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
-  "videos_studied": 0,
+  "source": "7 tutorials across the atlas studied",
+  "videos_studied": 7,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "demonstration": [
-   "front view, then back view (student's perspective)",
-   "slow, then half tempo, then full tempo",
-   "three repetitions of every step before moving on"
+   "views used by most teachers: front, mirror, back",
+   "tempo progression: slow → full"
   ],
   "cues": [
-   "say the count before the move",
-   "name the body part, then the direction",
-   "one correction at a time"
+   "and one and three and five and seven",
+   "keep your feet together",
+   "relax your knees",
+   "punch to the side",
+   "pull your head down",
+   "pivot them on your elbows",
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "side replace close",
+   "rock replace side"
   ],
   "common_mistakes": [],
   "segment_order": [
-   "welcome",
-   "body",
-   "count",
-   "step",
-   "step",
-   "combine",
-   "mistakes",
-   "music",
-   "recap"
+   "intro",
+   "context",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "mistakes"
   ],
   "steps_as_taught": []
  },
@@ -767,7 +773,6 @@
   "meter",
   "instruments",
   "a verified recording to listen to",
-  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the how-it-is-danced section",
@@ -781,5 +786,5 @@
  "claims_verified": 5,
  "claims": 5,
  "polished": false,
- "hero_checked": null
+ "hero_checked": "pass"
 }

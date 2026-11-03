@@ -1,0 +1,120 @@
+{
+ "slug": "ecossaise",
+ "qc_at": "2026-11-03T18:20:19Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.8,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Écossaise"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": false,
+   "detail": "120"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "164"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Though named for Scotland, the Écossaise was a French invention of the late 18th"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "514"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2713"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "France"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 6,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Schottische",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and accurate. The claim regarding the 1951 arrival in Brazil is specific, though the evolution from 18th-century courtly Écossaise to modern Xote is a complex historical trajectory that could be nuanced further. Teaching value is limited by the lack of surviving specific step descriptions."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "tagline_len",
+  "sections_filled",
+  "judge_score=8.8"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-03T18:08:53Z"
+}

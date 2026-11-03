@@ -1,0 +1,797 @@
+{
+ "slug": "the-running-man",
+ "name": "The Running Man",
+ "pack_version": "e1",
+ "built_at": "2026-11-03T18:43:31Z",
+ "researched_at": "2026-11-03T17:51:38Z",
+ "qc_score": 9.25,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An experienced street dance educator with a focus on rhythm and body mechanics.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "The Running Man"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet The Running Man",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Stationary Sprint",
+     "This is The Running Man. 1980s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: The Running Man · United States · 1980s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Running Man emerged in the mid-1980s, with MC Hammer in Oakland, California, credited for its popularization.",
+     "A proto-version was documented in 1978 during a Fela Kuti concert in Berlin."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally a party dance, it evolved into a performance staple for concerts and music videos.",
+     "It serves as a display of rhythmic coordination and athletic style.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Run This Town SPOOF (https://archive.org/details/bliptv-20131012-221628-Alphacat-RunThisTownSPOOF892.)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dancer steps forward, then slides the front foot backward while moving fists horizontally in front of the body.",
+     "It mimics the motion of a stationary runner.",
+     "Watch for The Slide."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Stationary, performed in place."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Typically performed to 1980s and 1990s hip-hop and pop music.",
+     "The rhythm is usually a steady 4/4 beat that supports the repetitive nature of the sliding steps.",
+     "Listen for the Synthesizers, Drum machines, Electric bass.",
+     "The pulse is 4/4 at about 105 beats a minute.",
+     "Characterized by electronic percussion, heavy basslines, and a consistent, danceable pulse that emphasizes the downbeat."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Rhythm Nation — Janet Jackson; Party Rock Anthem — LMFAO; Rhythm Nation 1814 — Janet Jackson (1989)",
+     "Waveform or rhythm-pattern graphic: Steady, driving beat with a strong downbeat."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Associated with 1980s street fashion, including baggy pants, tracksuits, and sneakers.",
+     "It is performed in clubs, on concert stages, and in music videos."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "MC Hammer, Janet Jackson, Paula Abdul, Bobby Brown, Five Star, Selena, Milli Vanilli, Vanilla Ice, Britney Spears, Scarlett Johansson, LMFAO.",
+     "The Roger Rabbit, popularized by Bobby Brown, is a variant that functions as a 'backwards' version of the Running Man.",
+     "The Running Man is a core hip-hop dance that influenced the Melbourne shuffle and various novelty fad dances."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "The Running Man is variant of Roger Rabbit: A backward-shifting version of the Running Man.",
+     "The Running Man is influence of Melbourne shuffle: Shares similar shuffling and sliding mechanics."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand with feet together.",
+     "Lift one knee while sliding the standing foot backward.",
+     "Count it: 1-2-3-4-5-6.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a simple sliding step became the most recognizable move in hip-hop history.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the slide",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the slide.",
+      "Level: Beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced street dance educator with a focus on rhythm and body mechanics."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Slightly forward-leaning, athletic.",
+      "Fists move horizontally in front of the body.",
+      "Minimal movement, focus on leg and arm coordination."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Steady, driving beat with a strong downbeat..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 73 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand with feet together.",
+      "Step 2: Lift one knee while sliding the standing foot backward.",
+      "Footwork from the sources: Shuffling and sliding steps.",
+      "Drill: Practice sliding one foot back while standing."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Place the lifted foot down where the standing foot was.",
+      "Step 4: Repeat the motion with the opposite leg.",
+      "Drill: Add the knee lift."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Combine the slide and lift."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid losing balance by keeping the weight centered."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the instructor's sliding steps."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair.",
+      "For children: A 'follow the leader' game where children mimic the instructor's sliding steps."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 105 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the slide.",
+      "Originally a party dance, it evolved into a performance staple for concerts and music videos.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of The Running Man",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of The Running Man.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced street dance educator with a focus on rhythm and body mechanics."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Slightly forward-leaning, athletic.",
+      "Fists move horizontally in front of the body.",
+      "Minimal movement, focus on leg and arm coordination."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Steady, driving beat with a strong downbeat..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 73 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand with feet together.",
+      "Step 2: Lift one knee while sliding the standing foot backward."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Place the lifted foot down where the standing foot was.",
+      "Step 4: Repeat the motion with the opposite leg.",
+      "The Slide: The backward movement of the front foot that creates the illusion of running."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid losing balance by keeping the weight centered."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the instructor's sliding steps."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair.",
+      "For children: A 'follow the leader' game where children mimic the instructor's sliding steps."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice. Formation: Stationary, performed in place."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 105 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of The Running Man.",
+      "MC Hammer, Janet Jackson, Paula Abdul, Bobby Brown, Five Star, Selena, Milli Vanilli, Vanilla Ice, Britney Spears, Scarlett Johansson, LMFAO.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of The Running Man",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of The Running Man.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced street dance educator with a focus on rhythm and body mechanics."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Slightly forward-leaning, athletic.",
+      "Fists move horizontally in front of the body.",
+      "Minimal movement, focus on leg and arm coordination."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Steady, driving beat with a strong downbeat..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 73 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Place the lifted foot down where the standing foot was.",
+      "Step 2: Repeat the motion with the opposite leg."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Slide: The backward movement of the front foot that creates the illusion of running."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid losing balance by keeping the weight centered."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the instructor's sliding steps."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair.",
+      "For children: A 'follow the leader' game where children mimic the instructor's sliding steps."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice. Formation: Stationary, performed in place."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 105 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of The Running Man.",
+      "The Running Man is a core hip-hop dance that influenced the Melbourne shuffle and various novelty fad dances.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": 105,
+  "meter": "4/4",
+  "rhythm_pattern": "Steady, driving beat with a strong downbeat.",
+  "instruments": [
+   "Synthesizers",
+   "Drum machines",
+   "Electric bass"
+  ],
+  "vocal_style": "Rhythmic, often rap or pop-oriented.",
+  "musical_form": "Verse-chorus structure.",
+  "mood": [
+   "Energetic",
+   "Upbeat",
+   "Driving"
+  ],
+  "sound_description": "Characterized by electronic percussion, heavy basslines, and a consistent, danceable pulse that emphasizes the downbeat.",
+  "listen_before_composing": [
+   "Rhythm Nation — Janet Jackson",
+   "Party Rock Anthem — LMFAO",
+   "Rhythm Nation 1814 — Janet Jackson (1989)",
+   "Sorry for Party Rocking — LMFAO (2011)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of The Running Man (United States). Meter 4/4. Tempo about 105 bpm. Rhythm pattern: Steady, driving beat with a strong downbeat.. Instruments: Synthesizers, Drum machines, Electric bass. Vocal style: Rhythmic, often rap or pop-oriented.. Form: Verse-chorus structure.. Mood: Energetic, Upbeat, Driving. It should sound like this: Characterized by electronic percussion, heavy basslines, and a consistent, danceable pulse that emphasizes the downbeat. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 73
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 105
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Associated with 1980s street fashion, including baggy pants, tracksuits, and sneakers. It is performed in clubs, on concert stages, and in music videos.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "Run This Town SPOOF",
+    "url": "https://archive.org/details/bliptv-20131012-221628-Alphacat-RunThisTownSPOOF892.",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "PSTV Dance Of the Day",
+    "url": "https://archive.org/details/PSTV_Dance_Of_the_Day",
+    "year": 2020,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "City of Alexandria Running Man Challenge 2016",
+    "url": "https://archive.org/details/alextva-City_of_Alexandria_Running_Man_Challenge_2016",
+    "year": 2016,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Close-ups of feet sliding on smooth surfaces.",
+   "Archival 1980s concert footage.",
+   "Split-screen of the 1978 proto-version and modern performances."
+  ],
+  "costume_notes": "Associated with 1980s street fashion, including baggy pants, tracksuits, and sneakers. It is performed in clubs, on concert stages, and in music videos.",
+  "setting_notes": "Originally a party dance, it evolved into a performance staple for concerts and music videos. It serves as a display of rhythmic coordination and athletic style.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of the street-urban family studied",
+  "videos_studied": 1,
+  "counting": "1-2-3-4-5-6",
+  "demonstration": [
+   "views used by most teachers: front",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "punch to the side",
+   "pull your head down",
+   "pivot them on your elbows"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "breakdown",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Running_man_(dance)",
+  "https://www.wikidata.org/wiki/Q7761867"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "hero_checked": null
+}

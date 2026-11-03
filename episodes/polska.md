@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-03 · judge 9.1 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned Nordic folk dancer with deep knowledge of regional Swedish and Norwegian styles.
@@ -73,7 +73,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Promenade walk
 NARRATION: Bakmes counter-clockwise turn
-NARRATION: Count it: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -103,7 +103,7 @@ ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (with 2/4 and compound variations).
+NARRATION: Count: 5-6-7-8. The meter is 3/4 time (with 2/4 and compound variations).
 NARRATION: Rhythm pattern: Semiquaver, quaver, or triplet groupings with lengthened second beats in specific regional styles.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -116,10 +116,10 @@ NARRATION: Step 1: Promenade walk
 NARRATION: Step 2: Bakmes counter-clockwise turn
 NARRATION: Footwork from the sources: Walking promenade steps, stepping primarily on the first and third beat during resting phases
 NARRATION: Drill: Step on beat one and three
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Pols clockwise turn
@@ -127,7 +127,7 @@ NARRATION: Step 4: Resting step on beats one and three
 NARRATION: Drill: Promenade hold walking in a circle
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -146,7 +146,7 @@ OPTIONS: Seated or supported option: Seated upper-body rotation simulating bakme
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -178,7 +178,7 @@ ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (with 2/4 and compound variations).
+NARRATION: Count: 5-6-7-8. The meter is 3/4 time (with 2/4 and compound variations).
 NARRATION: Rhythm pattern: Semiquaver, quaver, or triplet groupings with lengthened second beats in specific regional styles.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -190,10 +190,10 @@ NEEDS: tempo
 NARRATION: Step 1: Promenade walk
 NARRATION: Step 2: Bakmes counter-clockwise turn
 NARRATION: Drill: Escort walking step
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Pols clockwise turn
@@ -204,7 +204,7 @@ NARRATION: Drill: Transitioning from walk to turn
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -223,7 +223,7 @@ OPTIONS: Seated or supported option: Seated upper-body rotation simulating bakme
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples traveling counter-clockwise around the periphery of the floor or stationary on a spot
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -255,7 +255,7 @@ ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (with 2/4 and compound variations).
+NARRATION: Count: 5-6-7-8. The meter is 3/4 time (with 2/4 and compound variations).
 NARRATION: Rhythm pattern: Semiquaver, quaver, or triplet groupings with lengthened second beats in specific regional styles.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -267,10 +267,10 @@ NEEDS: tempo
 NARRATION: Step 1: Pols clockwise turn
 NARRATION: Step 2: Resting step on beats one and three
 NARRATION: Drill: One turn per measure rotation
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Bakmes turn: Counter-clockwise couple rotation at a rate of one revolution per two measures
@@ -279,7 +279,7 @@ NARRATION: Drill: Bakmes counter-clockwise rotation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -298,7 +298,7 @@ OPTIONS: Seated or supported option: Seated upper-body rotation simulating bakme
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples traveling counter-clockwise around the periphery of the floor or stationary on a spot
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -325,7 +325,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Traditionally performed in regional Nordic folk costumes within community halls, village squares, and mountain settlements.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'lRl1T7CAD0E', 'checked_by_vision_model': False, 'title': None}
+Hero video: {'youtube_id': 'lRl1T7CAD0E', 'checked_by_vision_model': True, 'title': None}
 Images: 0 licensed
 Footage: File:Fort VIIa reconstruction Poznań Poland 800x480.webm — https://upload.wikimedia.org/wikipedia/commons/8/80/Fort_VIIa_reconstruction_Pozna%C5%84_Poland_800x480.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:PGA2014 fast video.webm — https://upload.wikimedia.org/wikipedia/commons/f/f9/PGA2014_fast_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Gates of Maramures VP8.webm — https://upload.wikimedia.org/wikipedia/commons/8/89/Gates_of_Maramures_VP8.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Latarnie-morskie-w-Polsce-04.webm — https://upload.wikimedia.org/wikipedia/commons/1/14/Latarnie-morskie-w-Polsce-04.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Zygmunt Bauman - Kultura ponad prawem.webm — https://upload.wikimedia.org/wikipedia/commons/3/37/Zygmunt_Bauman_-_Kultura_ponad_prawem.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:020211030 173324 VP8 Andrzej Mastalerz.webm — https://upload.wikimedia.org/wikipedia/commons/0/06/020211030_173324_VP8_Andrzej_Mastalerz.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; BEAUTY OF SLAVIC CULTURE — https://archive.org/details/youtube-yMc5b-V7mRI; Polonaise - Traditional Polish Dance (War and Peace 1968 Version) — https://archive.org/details/youtube-LC5yCpO8-gM
 Motifs: Fiddle bow crossing strings, Wooden dance floor in a Scandinavian barn, Traditional embroidered folk costumes swirling
@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 2 tutorial(s) of the folk-circle family studied · videos studied: 2
+Counting: 5-6-7-8
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control
 
 Sources (5): https://en.wikipedia.org/wiki/Polska_(dance); https://www.wikidata.org/wiki/Q1766836; https://fr.wikipedia.org/wiki/Polska_(danse); https://archive.org/details/sztukaludowawpo00mokgoog; https://archive.org/details/cs.2718

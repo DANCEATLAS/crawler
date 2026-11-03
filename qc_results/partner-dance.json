@@ -1,0 +1,120 @@
+{
+ "slug": "partner-dance",
+ "qc_at": "2026-11-03T18:19:46Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.2,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Partner Dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "91"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "145"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1023, the German poet Ruodlieb documented a couple dance defined by a specifi"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "471"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2257"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Global"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 6,
+  "teaching_value": 7,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "publish",
+  "notes": "The subject is a broad category rather than a specific dance tradition, which limits the specificity of the profile. However, the content is well-researched, respectful, and accurately cites the provided evidence. It functions as a useful overview of the mechanics of partner dancing."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "country",
+  "judge_score=8.2",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-03T17:53:07Z"
+}

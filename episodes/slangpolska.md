@@ -2,7 +2,7 @@
 
 *Status: draft · built 2026-11-03 · judge 9.1 · 4/4 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the occasions & meaning section; the costume & setting section; notable figures; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed images (3 needed); the occasions & meaning section; the costume & setting section; notable figures; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A traditional Swedish folk dance instructor with expertise in regional polska variations.
@@ -73,7 +73,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. One long step
 NARRATION: Two short steps
-NARRATION: Count it: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -101,7 +101,7 @@ ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (also 2/4 or 4/4 for free variants).
+NARRATION: Count: 5-6-7-8. The meter is 3/4 time (also 2/4 or 4/4 for free variants).
 NARRATION: Rhythm pattern: Sixteenth-note polska structure with four steps over three beats.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -114,17 +114,17 @@ NARRATION: Step 1: One long step
 NARRATION: Step 2: Two short steps
 NARRATION: Footwork from the sources: Four steps distributed over three beats: one long, two short, one long
 NARRATION: Drill: Step long, two short, one long on 3/4 time
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: One long step
 NARRATION: Drill: Practice weight distribution across equal beats
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -143,7 +143,7 @@ OPTIONS: Seated or supported option: Seated upper-body hold and arm extensions m
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -172,7 +172,7 @@ ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (also 2/4 or 4/4 for free variants).
+NARRATION: Count: 5-6-7-8. The meter is 3/4 time (also 2/4 or 4/4 for free variants).
 NARRATION: Rhythm pattern: Sixteenth-note polska structure with four steps over three beats.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -184,10 +184,10 @@ NEEDS: tempo
 NARRATION: Step 1: One long step
 NARRATION: Step 2: Two short steps
 NARRATION: Drill: Crossed-hand centrifugal spinning with a partner
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: One long step
@@ -197,7 +197,7 @@ NARRATION: Drill: Spinning out, solo spin with a clap, and returning to hold
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -216,7 +216,7 @@ OPTIONS: Seated or supported option: Seated upper-body hold and arm extensions m
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Stationary for two or four people, or traveling counterclockwise around the room periphery with clockwise rotation around an internal axis
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -245,7 +245,7 @@ ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (also 2/4 or 4/4 for free variants).
+NARRATION: Count: 5-6-7-8. The meter is 3/4 time (also 2/4 or 4/4 for free variants).
 NARRATION: Rhythm pattern: Sixteenth-note polska structure with four steps over three beats.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -257,10 +257,10 @@ NEEDS: tempo
 NARRATION: Step 1: Two short steps
 NARRATION: Step 2: One long step
 NARRATION: Drill: Counterclockwise room navigation
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Centrifugal Spin: Spinning around a partner while holding crossed hands outstretched with centrifugal force
@@ -269,7 +269,7 @@ NARRATION: Drill: Adding the per-measure jump or lift during rotation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -288,7 +288,7 @@ OPTIONS: Seated or supported option: Seated upper-body hold and arm extensions m
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Stationary for two or four people, or traveling counterclockwise around the room periphery with clockwise rotation around an internal axis
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -315,7 +315,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'NrXWF7u7HmM', 'checked_by_vision_model': False, 'title': None}
+Hero video: {'youtube_id': 'NrXWF7u7HmM', 'checked_by_vision_model': True, 'title': None}
 Images: 0 licensed
 Footage: File:Slängpolska från Mörkö - Nyckelharpa.webm — https://upload.wikimedia.org/wikipedia/commons/c/cb/Sl%C3%A4ngpolska_fr%C3%A5n_M%C3%B6rk%C3%B6_-_Nyckelharpa.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Outstretched arms with centrifugal tension, Hands clapping mid-spin, Couples rotating counterclockwise around a wooden hall
@@ -325,9 +325,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 2 tutorial(s) of the folk-circle family studied · videos studied: 2
+Counting: 5-6-7-8
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control
 
 Sources (2): https://en.wikipedia.org/wiki/Sl%C3%A4ngpolska; https://www.wikidata.org/wiki/Q7542473
