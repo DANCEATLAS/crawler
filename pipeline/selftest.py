@@ -117,6 +117,8 @@ def run():
         check("episode 1 ready", episode1_ready(pack) and not episode1_ready({"episode_1": {"scenes": [{"needs": ["tempo"]}]}}))
         from .health import GATE_ADVICE, GAP_ADVICE, FLOOR
         check("health advice tables", "insight_concrete" in GATE_ADVICE and "tempo (bpm)" in GAP_ADVICE and 0.5 <= FLOOR < 1.0)
+        from .weekly_report import _bar, _chip, mdbar, _inline
+        check("report e-mail pieces", "width='50%'" in _bar(5, 10) and "+2" in _chip(5, 3) and "−2" in _chip(3, 5) and mdbar(1, 2) == "`██████░░░░░░`" and "<strong>x</strong>" in _inline("**x**"))
     except Exception as e:
         check("movie phase selftest", False, repr(e))
     return {"counters": {"failures": len(fails)}}
