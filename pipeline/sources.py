@@ -341,6 +341,12 @@ def commons_file_info(file_titles):
     return out
 
 # ----------------------------------------------------------------- reference footage (licensed video, for the future generator)
+def footage_relevant(name, title, desc):
+    """A film counts as reference footage when the dance is in its title, or the item is about dancing and names the dance
+    in its description — never because the style is merely listed in a concert's notes."""
+    nn, nt, nd = norm(name), norm(title or ""), norm(desc or "")
+    return bool(nn) and (nn in nt or (nn in nd and bool(re.search(r"danc|tanz|danza|baile|danse|tanec|taniec", nt + " " + nd[:400]))))
+
 def commons_videos(name, limit=6):
     """Video files on Wikimedia Commons whose name or description mentions the dance, with free licences only."""
     def fetch():
@@ -357,6 +363,8 @@ def commons_videos(name, limit=6):
             if not any(k in lic.lower() for k in FREE_LICENSES):
                 continue
             desc = re.sub(r"<[^>]+>", "", (em.get("ImageDescription") or {}).get("value") or "").strip()
+            if not footage_relevant(name, pg.get("title"), desc):
+                continue
             artist = re.sub(r"<[^>]+>", "", (em.get("Artist") or {}).get("value") or "").strip()
             out.append({"title": pg.get("title"), "url": ii.get("url"), "license": lic, "license_url": (em.get("LicenseUrl") or {}).get("value"),
                         "attribution": (artist + " / Wikimedia Commons / " + lic).strip(" /"), "description": desc[:300],
@@ -378,7 +386,6 @@ def archive_films(name, limit=6):
         params = {"q": q, "fl[]": ["identifier", "title", "year", "licenseurl", "description"], "rows": str(limit * 2), "sort[]": "downloads desc", "output": "json"}
         j = get_json(ARCHIVE_SEARCH + "?" + urllib.parse.urlencode(params, doseq=True), timeout=40, retries=1)
         out = []
-        nn = norm(name)
         for d in ((j or {}).get("response") or {}).get("docs") or []:
             ident = d.get("identifier")
             if not ident:
@@ -386,10 +393,7 @@ def archive_films(name, limit=6):
             desc = d.get("description")
             desc = " ".join(desc) if isinstance(desc, list) else str(desc or "")
             title = str(d.get("title") or ident)
-            # relevance: the dance must be in the title, or the item must be about dancing and name the dance in its description
-            # (a concert recording that merely lists the style in its notes is not reference footage)
-            nt, nd = norm(title), norm(desc)
-            if not (nn in nt or (nn in nd and re.search(r"danc|tanz|danza|baile|danse", nt + " " + nd[:400]))):
+            if not footage_relevant(name, title, desc):   # a concert that merely lists the style in its notes is not reference footage
                 continue
             lic = d.get("licenseurl") or ""
             out.append({"title": title[:200], "url": f"https://archive.org/details/{ident}", "year": d.get("year"),

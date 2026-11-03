@@ -161,6 +161,9 @@ def measure(root):
     extra = _j(P("pipeline_state", "sources_extra.json"), {}) or {}
     approvals = _j(P("pipeline_state", "editor_approvals.json"), {}) or {}
     runs = _j(P("pipeline_state", "runs.json"), []) or []
+    epi_idx = _j(P("public", "catalog", "episodes.json"), {}) or {}
+    epi = epi_idx.get("packs") or {}
+    ped = _j(P("pedagogy", "teaching_patterns.json"), {}) or {}
     live = {s for s in styles if s not in retired}
     m = {"dances_live": len(live) if styles else int(stats.get("count") or 0),
          "with_hero": sum(1 for s in live if (styles[s].get("hero_video_youtube_id") or "").strip()) if styles else int(stats.get("with_hero") or 0),
@@ -174,6 +177,9 @@ def measure(root):
          "gate_publish": 0, "gate_review": 0, "gate_reject": 0,
          "researched": 0, "published": 0, "movie_ready": 0, "class_complete": 0, "film_grade": 0,
          "claims": 0, "claims_verified": 0, "schema5": 0,
+         "episode_packs": len(epi), "episode_complete": sum(1 for v in epi.values() if v.get("status") == "complete"), "episode_polished": sum(1 for v in epi.values() if v.get("polished")),
+         "lessons_studied": int(ped.get("videos_ok") or 0), "teachers_dances": int(((ped.get("global") or {}).get("dances")) or 0),
+         "translations": int(epi_idx.get("translations") or 0), "languages": len(epi_idx.get("languages") or []),
          "topics": {lab: 0 for lab, *_ in TOPICS}, "published_slugs": [], "film_slugs": [], "closest": [], "movie_slugs": [], "names": {}}
     for s, v in qidx.items():
         g = v.get("publish_gate")
@@ -311,7 +317,9 @@ def render_md(now, week, month, start, labels, hist, when):
     rows = [("Dances live on the site", "dances_live"), ("…with a hero video", "with_hero"), ("…hero video passed the vision check", "hero_checked"),
             ("…with tutorial videos", "with_tutorials"), ("Deep profiles researched", "researched"), ("Deep profiles published (passed QC)", "published"),
             ("Movie-ready profiles", "movie_ready"), ("Class-complete profiles (18 of 18)", "class_complete"), ("Film-grade ★ profiles", "film_grade"),
-            ("Verified claims in published profiles", "claims_verified"), ("Doubles / non-dances retired (total)", "retired")]
+            ("Verified claims in published profiles", "claims_verified"), ("Doubles / non-dances retired (total)", "retired"),
+            ("Episode packs written (intro + 3 chapters)", "episode_packs"), ("…complete, no gaps", "episode_complete"), ("…narration polished and verified", "episode_polished"),
+            ("…translated into other languages (pack × language)", "translations"), ("Tutorial lessons studied for the teaching playbook", "lessons_studied")]
     for lab, k in rows:
         L.append(f"| {lab} | **{now[k]:,}** | {delta(now[k], week and week[k])} | {delta(now[k], month and month[k])} | {delta(now[k], start and start[k])} |")
     L.append("")
@@ -386,21 +394,23 @@ def render_md(now, week, month, start, labels, hist, when):
     if len(hist) >= 2:
         L.append("## 7 · Week by week")
         L.append("")
-        L.append("| Week | Dances live | Published | Movie-ready | Class-complete | Film-grade |")
-        L.append("|---|---:|---:|---:|---:|---:|")
+        L.append("| Week | Dances live | Published | Movie-ready | Class-complete | Film-grade | Episode packs |")
+        L.append("|---|---:|---:|---:|---:|---:|---:|")
         for r in hist[-10:]:
-            L.append(f"| {r['date']} | {r['dances_live']:,} | {r['published']} | {r['movie_ready']} | {r['class_complete']} | {r['film_grade']} |")
+            L.append(f"| {r['date']} | {r.get('dances_live', 0):,} | {r.get('published', 0)} | {r.get('movie_ready', 0)} | {r.get('class_complete', 0)} | {r.get('film_grade', 0)} | {r.get('episode_packs', 0)} |")
         L.append("")
     # 8 health
     L.append("## 8 · The machine")
     L.append("")
     L.append(f"Daily run fired on **{h['days']} of 7** days · model calls this week **{h['calls']:,}** · errors logged **{h['errors']}** · "
-             f"OpenAI balance {'**spent**' if h['quota'] else 'fine'} · {now['schema5']} of {now['researched']} profiles already at research schema 5 (the re-deepening finishes when this reaches all).")
+             f"OpenAI balance {'**spent**' if h['quota'] else 'fine'} · {now['schema5']} of {now['researched']} profiles already at research schema 5 (the re-deepening finishes when this reaches all) · "
+             f"teaching playbook built from {now['lessons_studied']} lessons across {now['teachers_dances']} dances (`ULTIMATE_TEACHER.md`).")
     L.append("")
     L.append("---")
     L.append("*How to read this.* **Published** = passed every QC gate (sources, verified quotes, country, no AI tells, not a double) and a judge score; "
              "**movie-ready** = music DNA + movement DNA + an episode brief, all from sources; **class-complete** = all 18 things a teachable class needs; "
-             "**film-grade ★** = every line of `STANDARD.md`, including an editor's read — the bar is meant to be nearly impossible. "
+             "**film-grade ★** = every line of `STANDARD.md`, including an editor's read — the bar is meant to be nearly impossible; "
+             "**episode packs** = the scene-by-scene scripts (Episode 1 + three chapters, music and visual briefs) in `episodes/`, written from the profile only (`MOVIE_PHASE.md`). "
              f"Deltas compare the repository as it was 7 days ago, 28 days ago and at {labels['start_long']}. Files: `WEEKLY_REPORT.md`, `STATUS.md`, `QC_REPORT.md` in github.com/{REPO}.*")
     return "\n".join(L) + "\n"
 
@@ -495,7 +505,7 @@ def main(argv):
     # weekly history: one row per report; back-fill past Mondays from git the first time
     hist_path = os.path.join("pipeline_state", "weekly_history.json")
     hist = _j(hist_path, []) or []
-    keys = ("dances_live", "researched", "published", "movie_ready", "class_complete", "film_grade", "retired", "claims_verified")
+    keys = ("dances_live", "researched", "published", "movie_ready", "class_complete", "film_grade", "retired", "claims_verified", "episode_packs", "episode_complete", "lessons_studied", "translations")
     if not hist:
         monday = (when - dt.timedelta(days=when.weekday())).replace(hour=0, minute=0, second=0)
         for i in range(8, 0, -1):

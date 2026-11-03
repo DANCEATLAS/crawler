@@ -394,11 +394,16 @@ class LLM:
         j = json.loads(txt)
         return j["choices"][0]["message"]["content"]
 
-    def _gemini(self, model, system, user, temperature=0.2, max_tokens=4000, image_b64=None, timeout=300, strong=False):
+    def _gemini(self, model, system, user, temperature=0.2, max_tokens=4000, image_b64=None, timeout=300, strong=False, video_url=None, video_seconds=480):
         parts = [{"text": user}]
         if image_b64:
             parts.append({"inline_data": {"mime_type": "image/jpeg", "data": image_b64}})
+        if video_url:
+            # a public YouTube URL is read by Gemini itself (nothing is downloaded here); the first video_seconds only, low resolution
+            parts.append({"file_data": {"file_uri": video_url}, "video_metadata": {"start_offset": "0s", "end_offset": f"{int(video_seconds)}s"}})
         gen = {"temperature": temperature, "maxOutputTokens": min(65536, max(8192, max_tokens * 3)), "responseMimeType": "application/json"}
+        if video_url:
+            gen["mediaResolution"] = "MEDIA_RESOLUTION_LOW"
         # Bound the "thinking" phase: unbounded thinking is what made 12-item judge calls exceed the socket timeout.
         # Models that reject the field (or a zero budget) are remembered and called without it.
         if model not in self.no_thinking_cfg:
@@ -477,14 +482,15 @@ class LLM:
             self.dead.add(model)
             warn(f"llm: {model} retired for this run after {self.strikes[model]} consecutive failures")
 
-    def json(self, system, user, strong=False, temperature=0.2, max_tokens=4000, image_b64=None, prefer=None):
-        """Return parsed JSON from the first provider/model that works. None if all fail."""
+    def json(self, system, user, strong=False, temperature=0.2, max_tokens=4000, image_b64=None, prefer=None, video_url=None, video_seconds=480):
+        """Return parsed JSON from the first provider/model that works. None if all fail.
+        video_url: a public YouTube URL to be watched (Gemini only; OpenAI models are skipped for that call)."""
         if self.dry:
             return None
         order = []
         if self.gemini_key:
             order += [("gemini", m) for m in self.gemini_models(strong)]
-        if self.openai_key:
+        if self.openai_key and not video_url:
             order += [("openai", m) for m in self.openai_models(strong)]
         if prefer == "openai":
             order = [o for o in order if o[0] == "openai"] + [o for o in order if o[0] != "openai"]
@@ -497,7 +503,7 @@ class LLM:
                 try:
                     self.calls += 1
                     t0 = time.time()
-                    txt = self._openai(model, system, user, temperature, max_tokens, image_b64, timeout) if prov == "openai" else self._gemini(model, system, user, temperature, max_tokens, image_b64, timeout, strong)
+                    txt = self._openai(model, system, user, temperature, max_tokens, image_b64, timeout) if prov == "openai" else self._gemini(model, system, user, temperature, max_tokens, image_b64, timeout, strong, video_url, video_seconds)
                     out = self.parse_json(txt)
                     self.strikes[model] = 0
                     return out

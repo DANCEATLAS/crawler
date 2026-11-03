@@ -406,6 +406,8 @@ def research_one(d, llm, sb=None):
         return rec
     prev = jload(out_path) or {}
     prev_gaps = list(((prev.get("profile") or {}).get("gaps") or [])[:8]) + [("class is missing: " + m) for m in ((prev.get("class_checklist") or {}).get("missing") or [])[:8]]
+    # what the episode pack could not fill (pipeline/episodes.py) is asked for too — the script layer tells research what it needs
+    prev_gaps += [("the episode script is missing: " + g) for g in ((load_state("episode_gaps.json", {}) or {}).get(slug) or [])[:6] if isinstance(g, str)]
     comp = compose(d, ev, llm, prev_gaps=prev_gaps)
     if not comp:
         rec["status"] = "llm_failed" if llm.enabled else "dry_run"

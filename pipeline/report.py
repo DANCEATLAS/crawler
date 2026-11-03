@@ -74,7 +74,10 @@ def run():
     notes = load_state("editor_notes.json", {}) or {}
     extra = load_state("sources_extra.json", {}) or {}
     open_notes = [k for k, v in notes.items() if v.get("note") and not v.get("done_at")]
-    lines += [f"- Editor notes open: {len(open_notes)} · pages with editor-added sources: {len([k for k, v in extra.items() if v])}", "",
+    epi = (jload(os.path.join("public", "catalog", "episodes.json"), {}) or {})
+    ped = jload(os.path.join("pedagogy", "teaching_patterns.json"), {}) or {}
+    lines += [f"- Editor notes open: {len(open_notes)} · pages with editor-added sources: {len([k for k, v in extra.items() if v])}",
+              f"- Movie phase: episode packs {epi.get('count', 0)} ({epi.get('complete', 0)} complete, {epi.get('polished', 0)} polished) · translations {epi.get('translations', 0)} across {len(epi.get('languages') or [])} languages · teaching playbook from {ped.get('videos_ok', 0)} lessons (`ULTIMATE_TEACHER.md`, `MOVIE_PHASE.md`)", "",
               "## Closest to movie-ready (for the weekly editor pass: find the missing items, add sources to pipeline_state/sources_extra.json)", ""]
     lines += [f"- {k} ({v.get('class_have')}/{v.get('class_of') or 17}): missing " + ", ".join((v.get("class_missing") or [])[:6]) for k, v in close] or ["- (none yet)"]
     ts = Counter(v.get("tradition_status") for v in rindex.values() if v.get("status") == "researched" and v.get("tradition_status"))

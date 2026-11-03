@@ -8,7 +8,10 @@
   python -m pipeline.run report
   python -m pipeline.run bootstrap    # download app_catalog.json if missing (APP_CATALOG_URL)
   python -m pipeline.run build        # publish public/catalog/* (QC-gated) + regenerate dance_list.json
-  python -m pipeline.run daily        # bootstrap → audit → discover → research → qc → hero_qc → build → sync → report
+  python -m pipeline.run pedagogy [--budget N]   # study N tutorial videos: how the best teachers teach (pedagogy/, ULTIMATE_TEACHER.md)
+  python -m pipeline.run episodes [--only slug]  # episode packs for every published profile (episodes/, public/catalog/episodes.json)
+  python -m pipeline.run translate [--budget N]  # narration of gap-free packs into TRANSLATE_LANGS (episodes/i18n/<lang>/)
+  python -m pipeline.run daily        # bootstrap → audit → discover → research → qc → hero_qc → build → pedagogy → episodes → translate → sync → report
   python -m pipeline.run selftest     # offline checks, no network
 """
 import sys, os, argparse, json, traceback
@@ -31,7 +34,7 @@ def main(argv=None):
     a = ap.parse_args(argv)
     only = [s.strip() for s in a.only.split(",") if s.strip()] or None
     results = {}
-    stages = ["bootstrap", "audit", "discover", "research", "qc", "hero_qc", "build", "sync", "report"] if a.stage == "daily" else [a.stage]
+    stages = ["bootstrap", "audit", "discover", "research", "qc", "hero_qc", "build", "pedagogy", "episodes", "translate", "sync", "report"] if a.stage == "daily" else [a.stage]
     for st in stages:
         try:
             if st == "bootstrap":
@@ -48,6 +51,12 @@ def main(argv=None):
                 from . import qc; results[st] = qc.run(only=only)
             elif st == "hero_qc":
                 from . import hero_qc; results[st] = hero_qc.run(budget=a.budget, use_vision=not a.no_vision, only=only)
+            elif st == "pedagogy":
+                from . import pedagogy; results[st] = pedagogy.run(budget=_env_int("PEDAGOGY_BUDGET", 6) if a.stage == "daily" else min(a.budget, 12), only=only)
+            elif st == "episodes":
+                from . import episodes; results[st] = episodes.run(polish_budget=_env_int("EPISODE_POLISH", 0), only=only)
+            elif st == "translate":
+                from . import translate; results[st] = translate.run(budget=_env_int("TRANSLATE_BUDGET", 6) if a.stage == "daily" else min(a.budget, 12), only=only)
             elif st == "sync":
                 from . import sync; results[st] = sync.run(only=only)
             elif st == "report":
