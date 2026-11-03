@@ -13,13 +13,15 @@ needed for one thing only: when the site should **display a kind of content it h
 Rules from `AI_BRIEF.md` §4 still hold: one precise prompt, verify the data first, check the preview, publish; never "look into"
 things in Lovable chat, never fix data there (data is fixed in GitHub), never iterate on small things.
 
+**Later, for the episodes.** When the scripts should appear too, add one more block to the prompt: read `public/catalog/episodes.json` (`packs[slug]`: status, chapters, runtime, gaps) and `episodes/<slug>.json` (the scenes), and show an "Episodes" section with Episode 1 and the three chapters, scene titles and narration, the music brief as a card, the gaps as a muted line. Same placeholder and sacred rules.
+
 **How to use it.** When you decide the site should show the deep profiles: open this file on GitHub, copy everything below the line,
 paste it into the Lovable chat as one message, wait for the preview, check two dances (e.g. passacaglia and western swing), publish.
 Expect one prompt's worth of credits; if Lovable asks a question, answer it from this file rather than starting a new prompt.
 
 ---
 
-Add the deep "research profile" to the dance page. Make no other change: same design language, same navigation, no new dependencies,
+Add the deep "research profile" to the dance page (the `/style/<slug>` page, below its ABOUT section, before TUTORIALS). Make no other change: same design language, same navigation, no new dependencies,
 no backend, nothing stored except a session cache. All data is public static JSON in the GitHub repository DANCEATLAS/crawler, read
 exactly the way the app already reads `dances.app.json` and `retired.json` from raw.githubusercontent.com (keep that code as it is).
 

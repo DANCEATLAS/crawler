@@ -35,6 +35,7 @@ like an editor, deciding what the machine cannot decide, and finding what the ma
 
 ## 2. Gap hunt (~30 minutes, the biggest lever for the mid-term product)
 - `STATUS.md` → "Closest to movie-ready" lists pages one or two items short, with what each lacks (tempo/meter, footwork with counts, recordings, images…).
+- `pipeline_state/episode_gaps.json` lists, per published page, what its episode script could not fill (tempo, meter, instruments, a recording, images, footage, steps, what to avoid…); the same sources fix both.
 - For 8–10 of them, search the web for a source that actually contains the missing thing: a dance teacher's page with the counts, a conservatory or university
   page, a museum or archive, an ethnomusicology article, a reputable newspaper feature. Prefer pages that *describe* (text) over pages that only embed video.
 - Add them to `pipeline_state/sources_extra.json`:

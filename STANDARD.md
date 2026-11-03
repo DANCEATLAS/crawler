@@ -59,6 +59,10 @@ The approval counts only for the text the editor read: if the daily run re-resea
 - Doubles. Two entries for one tradition are merged (`audit_overrides.json`: `merge:<slug>`), variants become sections, not pages.
 - Dance moves, songs, festivals, companies and people as entries. They are screened out before research and retired if found later.
 
+## The script layer
+
+Every published page also gets an episode pack (`episodes/<slug>.json`, `MOVIE_PHASE.md`): Episode 1 and three chapters written from the profile only. A pack is **complete** when it has no gaps — the same items as film-grade's media, music and movement lines plus teaching steps and what to avoid. Packs do not change a page's level; the weekly report counts them separately (packs, complete, polished), and their gaps feed the research queue.
+
 ## Where the numbers come from
 
 `WEEKLY_REPORT.md` (and `reports/weekly/<date>.md`) lists, for every level and every item above, how many published pages have it now and how that changed over the last week, the last four weeks and since the start of the year. The "Closest to film-grade" table names the pages a few items short and what each still lacks, so the editor pass and the deepening pass know where to push. `STATUS.md` has the daily view; `QC_REPORT.md` the review queue.

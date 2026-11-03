@@ -25,6 +25,8 @@ the website shows it. It runs every morning in GitHub Actions right after the cr
 | hero_qc | every hero video within budget: still public and embeddable, HD, sane duration, not a music video/movie/lyric clip, title names the dance, and a vision check of the actual frame (people dancing, not a talking head / poster / vertical phone clip, camera steady). Failing heroes are blocklisted for the crawler and replaced by the best passing challenger; dead ones are removed and re-crawled | `HERO_QC_BUDGET=60` |
 | build | publishes `public/catalog/` — exactly what the website loads: `dances.app.json` (dw_app_v1 contract + new fields), `profiles_v2.json` (rich sections, teaching, verified claims, albums, images), `stats.json`, `retired.json`; refuses to publish if the catalogue would shrink by >10 %; regenerates `dance_list.json` (the crawler's work list, including new dances and heroes to re-crawl) so the crawler picks them up the next morning | `INCLUDE_REVIEW=false` |
 | sync | mirrors researched/QC'd material into Supabase (`dances` + aliases/sources/edges); only columns that exist are written (`pipeline/sql/001_pipeline_columns.sql` adds the rest) | — |
+| pedagogy | watches `PEDAGOGY_BUDGET` of the best tutorial videos (Gemini, public YouTube URL, first 8 min) and extracts how the teacher teaches — structure with timestamps, counting, cues, demonstration, mistakes, safety, steps with counts, quotes — into `pedagogy/videos/`, aggregated in `pedagogy/teaching_patterns.json` and rendered as `ULTIMATE_TEACHER.md` | `PEDAGOGY_BUDGET=6` |
+| episodes | an episode pack per published profile (Episode 1 + Chapters 1–3, one scene formula; narration from the profile only; music and visual briefs; voice; teaching formula from the playbook; gaps → `pipeline_state/episode_gaps.json` for the next research pass); `EPISODE_POLISH` narrations a day polished by the model and verified; `episodes/<slug>.json/.md`, `public/catalog/episodes.json`; sacred dances get Episode 1 only | `EPISODE_POLISH=4` |
 | report | `STATUS.md` (coverage, counts, last runs, errors) and `QC_REPORT.md` (everything in review/reject and why, possible duplicates) | — |
 
 ## Editorial standard enforced by QC
@@ -44,6 +46,7 @@ the website shows it. It runs every morning in GitHub Actions right after the cr
 * `research_results/<slug>.json`, `qc_results/<slug>.json` — full evidence and verdicts per dance
 * `pipeline_state/` — candidate queue, indexes, hero QC verdicts, run history
 * `WEEKLY_REPORT.md`, `reports/weekly/` — the owner's weekly measurement against `STANDARD.md` (workflow `weekly_report`, `pipeline/weekly_report.py`; `python -m pipeline.weekly_report --root .` prints the numbers for any checkout)
+* `episodes/`, `public/catalog/episodes.json`, `pedagogy/`, `ULTIMATE_TEACHER.md`, `MOVIE_PHASE.md` — the movie phase: scripts, the teaching playbook, the map of what waits for the owner's choices
 
 ## Running by hand
 Actions → **atlas_daily** → Run workflow: choose a stage (`daily`, `discover`, `research`, `qc`,
