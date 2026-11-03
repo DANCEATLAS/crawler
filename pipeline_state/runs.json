@@ -1572,5 +1572,19 @@
   ],
   "errors": [],
   "version": "v3.3"
+ },
+ {
+  "stage": "health",
+  "started": "2026-11-03T03:53:32Z",
+  "finished": "2026-11-03T03:53:32Z",
+  "counters": {
+   "scale_pct": 100
+  },
+  "notes": [
+   "tuning: 29 of 229 questions unanswered (13%); budgets stay at 100%",
+   "lessons: 214 QC records in 30 days; top gate failures [('insight_concrete', 48), ('citations', 47), ('sections_filled', 41)]; top script gaps [('tempo (bpm)', 79), ('licensed reference footage', 75), ('licensed images (3 needed)', 68)]"
+  ],
+  "errors": [],
+  "version": "v3.3"
  }
 ]
