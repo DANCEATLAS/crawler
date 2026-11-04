@@ -1,0 +1,120 @@
+{
+ "slug": "santo-daime-hymns",
+ "qc_at": "2026-11-04T18:37:53Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 7.8,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Santo Daime hymns"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "82"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "185"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the Santo Daime tradition, hymns are not written by the mind but 'received' f"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "553"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2139"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,music_and_instruments,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Brazil"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 4,
+  "verdict": "reject",
+  "notes": "Santo Daime hymns are a sacred religious and musical tradition, not a dance tradition. While ritual movement is involved, the subject is primarily a religious doctrine and hymnody rather than a distinct dance style suitable for the Dancing Atlas."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=7.8",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-04T17:25:16Z"
+}

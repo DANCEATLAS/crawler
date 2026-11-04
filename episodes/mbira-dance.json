@@ -1,0 +1,385 @@
+{
+ "slug": "mbira-dance",
+ "name": "Mbira Dance",
+ "pack_version": "e1",
+ "built_at": "2026-11-04T19:23:00Z",
+ "researched_at": "2026-11-04T18:26:50Z",
+ "qc_score": 8.7,
+ "status": "withheld-chapters",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Elder Shona dancer and mbira player, knowledgeable in ritual context and spiritual significance",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Mbira Dance",
+   "Mbira Dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Mbira Dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Mbira Dance: The Shona’s Call to the Ancestors",
+     "This is Mbira Dance. ancient."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (gYfuqCl19U8)",
+     "Title card: Mbira Dance · Zimbabwe · ancient"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Mbira Dance originates from the Shona people of Zimbabwe and is linked to ancient spiritual practices involving communication with ancestral spirits.",
+     "Archaeological evidence dates the mbira instrument back to the twelfth century, indicating the long-standing tradition of this dance.",
+     "It is passed down through generations, primarily performed by tribal elders during religious ceremonies."
+    ],
+    "on_screen": [
+     "Map: Zimbabwe · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed during religious rituals to lure spirits through spirit mediums, facilitating communication with ancestors.",
+     "It is a powerful spiritual practice within the Shona community, reflecting their beliefs about the spirit world and fertility.",
+     "The dance is not for entertainment but for communal spiritual expression.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Spirit Shuffle, Hip Swing."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (gYfuqCl19U8)",
+     "Captions name each signature move as it appears",
+     "Formation: Performed solo or in small groups, stationary or small circular patterns"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is accompanied by the mbira, a plucked lamellophone producing melodic patterns, supported by drums (ngomas) and hosho shakers.",
+     "The music is polyrhythmic, with interlocking patterns creating complex rhythms.",
+     "Listen for the mbira, ngoma drums, hosho shakers.",
+     "The pulse is polyrhythmic, layered interlocking patterns.",
+     "The mbira produces bright, melodic plucked tones layered over steady drum beats and rattling hosho shakers, creating a textured, polyrhythmic soundscape that supports trance and spirit invocation."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: complex interlocking mbira melodies supported by steady drum and hosho shaker rhythms"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The dance is traditionally performed by elders of the Shona tribes who serve as custodians of the spiritual and cultural knowledge embedded in the Mbira Dance.",
+     "Mbira Dance is specific to the Shona people of Zimbabwe.",
+     "Mbira Dance is part of the ritualistic category of Zimbabwean dances, alongside other spiritual dances like Dinhe and Mhande."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Mbira Dance is sibling of Jerusarema: Another Shona dance with polyrhythmic drumming but more acrobatic and performed at social events.",
+     "Mbira Dance is sibling of Dinhe: Religious dance also used to lure spirits, featuring war and joy movements.",
+     "Mbira Dance is sibling of Mhande: Midlands tribal dance with spiritual importance, sharing ritualistic context."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Mbira Dance is a sacred ritual performed to communicate with ancestral spirits and should not be performed outside its spiritual context or by outsiders without permission."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how the Shona people of Zimbabwe use the mbira and dance to bridge worlds and summon ancestral spirits.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "polyrhythmic, layered interlocking patterns",
+  "rhythm_pattern": "complex interlocking mbira melodies supported by steady drum and hosho shaker rhythms",
+  "instruments": [
+   "mbira",
+   "ngoma drums",
+   "hosho shakers"
+  ],
+  "vocal_style": "communal singing and call-and-response during rituals",
+  "musical_form": "cyclical patterns facilitating trance and spirit communication",
+  "mood": [
+   "spiritual",
+   "meditative",
+   "earthy",
+   "hypnotic"
+  ],
+  "sound_description": "The mbira produces bright, melodic plucked tones layered over steady drum beats and rattling hosho shakers, creating a textured, polyrhythmic soundscape that supports trance and spirit invocation.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Mbira Dance (Zimbabwe). Meter polyrhythmic, layered interlocking patterns. Rhythm pattern: complex interlocking mbira melodies supported by steady drum and hosho shaker rhythms. Instruments: mbira, ngoma drums, hosho shakers. Vocal style: communal singing and call-and-response during rituals. Form: cyclical patterns facilitating trance and spirit communication. Mood: spiritual, meditative, earthy, hypnotic. It should sound like this: The mbira produces bright, melodic plucked tones layered over steady drum beats and rattling hosho shakers, creating a textured, polyrhythmic soundscape that supports trance and spirit invocation. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "gYfuqCl19U8",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": null,
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AHarare_Carnival_Dancers.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AMbende_Dance.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AA_mbira_dance_group_doing_their_best_at_a_local_state_function_in_Harare.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Harare_Carnival_Dancers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Harare_Carnival_Dancers.jpg/1280px-Harare_Carnival_Dancers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "TJ Maposhere / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHarare_Carnival_Dancers.jpg",
+    "description": "This is an image from"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Mbende_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Mbende_Dance.jpg/1280px-Mbende_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Fidelis Manyange aka manfidza / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMbende_Dance.jpg",
+    "description": "Ndị na-agba egwu ọdịnala na-eme egwu a na-akpọ Mbende ma ọ bụ Jerusarema na Murehwa, Zimbabwe"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/A_mbira_dance_group_doing_their_best_at_a_local_state_function_in_Harare.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/A_mbira_dance_group_doing_their_best_at_a_local_state_function_in_Harare.jpg/1280px-A_mbira_dance_group_doing_their_best_at_a_local_state_function_in_Harare.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Gochazg / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AA_mbira_dance_group_doing_their_best_at_a_local_state_function_in_Harare.jpg",
+    "description": "This is an image with the theme \"Home + Habitat in Africa\" from:"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Close-ups of mbira keys and hands plucking",
+   "Feet shuffling on earth",
+   "Elders’ focused faces",
+   "Natural outdoor settings with trees and soil",
+   "Spirit mediums in trance"
+  ],
+  "costume_notes": null,
+  "setting_notes": "The dance is performed during religious rituals to lure spirits through spirit mediums, facilitating communication with ancestors. It is a powerful spiritual practice within the Shona community, reflecting their beliefs about the spirit world and fertility. The dance is not for entertainment but for communal spiritual expression.",
+  "map": {
+   "country": "Zimbabwe",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "13 tutorials across the atlas studied",
+  "videos_studied": 13,
+  "counting": "count the polyrhythmic, layered interlocking patterns bar out loud, then in pairs of bars",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and one and three and five and seven",
+   "keep your feet together",
+   "relax your knees",
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "punch to the side",
+   "pull your head down",
+   "pivot them on your elbows",
+   "left foot",
+   "right foot"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "mistakes",
+   "music_practice",
+   "layering"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "the costume & setting section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dance_in_Zimbabwe",
+  "https://www.wikidata.org/wiki/Q5215254"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "hero_checked": "pass"
+}

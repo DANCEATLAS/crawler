@@ -1,0 +1,118 @@
+{
+ "slug": "hakken",
+ "qc_at": "2026-11-04T18:42:12Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Hakken"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "75"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "127"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1990s Rotterdam stadiums, fans danced hakken like mounting horses, inspiring "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "352"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1807"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "10/10 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Netherlands"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Solid, well-documented profile of the Dutch rave dance Hakken with high factual alignment and clear pedagogical instructions."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.25"
+ ],
+ "citation": {
+  "claims": 10,
+  "supported": 10,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-04T18:03:25Z"
+}

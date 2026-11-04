@@ -1,0 +1,122 @@
+{
+ "slug": "group-dance",
+ "qc_at": "2026-11-04T18:42:24Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 7.45,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Group dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "78"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "103"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 18th-century Vienna, many couples performed the minuet simultaneously as a gr"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "420"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2376"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "13/14 rate=0.929"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "6"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Global"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['sacred', 'ceremon', 'offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 4,
+  "teaching_value": 3,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "verdict": "reject",
+  "notes": "Fails is_a_dance criterion because 'Group dance' is a category/genre rather than a specific dance tradition, style, or form."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "country",
+  "sacred_handled",
+  "judge_score=7.45",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 14,
+  "supported": 13,
+  "rate": 0.929
+ },
+ "researched_at": "2026-11-04T18:14:25Z"
+}

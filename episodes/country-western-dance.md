@@ -1,6 +1,6 @@
 # Country-western dance — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-03 · judge 9.85 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video
 
@@ -18,35 +18,35 @@ ON SCREEN: Title card: Country-western dance · United States · 18th century to
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: The tradition originated from British and European dances like the Virginia Reel and quadrilles, which were adapted by American settlers.
-NARRATION: Early 19th-century 'junkets' or 'heel-burners' were casual, all-night affairs.
-NARRATION: The influence of African musical traditions, such as 'patting juba' and the use of the banjo, was fundamental to the development of early American dance rhythms.
+NARRATION: The tradition originates from British and European dances like the Virginia Reel and quadrilles, adapted by American settlers.
+NARRATION: Early 19th-century junkets and heel-burners are casual, all-night affairs.
+NARRATION: African musical traditions, such as patting juba and the use of the banjo, provide the foundation for early American dance rhythms.
 ON SCREEN: Map: United States · North America
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Historically, dances were associated with communal work events called 'frolics.' They served as essential social gatherings for isolated frontier communities.
+NARRATION: Historically, dances accompany communal work events called frolics, serving as essential social gatherings for isolated frontier communities.
 NARRATION: Today, they remain social activities held in clubs, dance halls, and community centers.
-NARRATION: Today it is a living tradition.
+NARRATION: This is a living tradition.
 ON SCREEN: Footage: Let's Bootscoot 2 (https://archive.org/details/letsbootscoot2)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Dances are categorized into couple, group, and line formations.
 NARRATION: Couple dancing relies on a lead-and-follow dynamic where the man sets the pace.
-NARRATION: The movement is characterized by a flat-footed glide.
-NARRATION: Watch for Cowboy Waltz.
+NARRATION: The movement features a flat-footed glide.
+NARRATION: Watch for the Cowboy Waltz.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Couple, line, or square formations.
 MUSIC: diegetic (the video's own sound), underscore under narration
 
 ### 5. Listen (70 s) · `music`
-NARRATION: Music is primarily country-western, though it draws from pop and bluegrass.
-NARRATION: Historically, fiddles and banjos were central.
-NARRATION: Listen for the Fiddle, Banjo, Cotton hoe, Comb.
-NARRATION: Music is characterized by fiddle-led melodies, often incorporating rhythmic elements like patting juba or percussive sounds from improvised instruments.
+NARRATION: The music is primarily country-western, drawing elements from pop and bluegrass.
+NARRATION: Fiddles and banjos are historically central.
+NARRATION: Listen for the fiddle, banjo, cotton hoe, and comb.
+NARRATION: The music features fiddle-led melodies with rhythmic elements like patting juba and percussive sounds from improvised instruments.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -54,31 +54,31 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: The style is heavily influenced by the use of cowboy boots, which dictate the gliding, flat-footed movement.
-NARRATION: Historically, dances were held in large farmhouses, kitchens, town halls, or at ranch-based events.
+NARRATION: The style relies on cowboy boots, which dictate the gliding, flat-footed movement.
+NARRATION: Historically, dances take place in large farmhouses, kitchens, town halls, or at ranch-based events.
 NARRATION: Modern venues range from small lounges to massive nightclubs like the former Gilley's Club.
 ON SCREEN: Image gallery: 3 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 
 ### 7. The people (60 s) · `people`
-NARRATION: Skippy Blair is noted for her 1994 observation on the popularity of country dance.
-NARRATION: Bill C. Malone is cited as a music historian who described the early, mingled styles as a 'dance without a name.'
-NARRATION: Texas is known for 'kicker dancing.' West Texas ranch dances were large-scale community functions.
-NARRATION: The tradition descends from European reels, quadrilles, and cotillions, which were transformed by American frontier culture and African-American musical influences.
+NARRATION: Skippy Blair notes the popularity of country dance in a 1994 observation.
+NARRATION: Music historian Bill C. Malone describes the early, mingled styles as a dance without a name.
+NARRATION: Texas is known for kicker dancing, and West Texas ranch dances function as large-scale community events.
+NARRATION: The tradition descends from European reels, quadrilles, and cotillions, transformed by American frontier culture and African-American musical influences.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Country-western dance is variant of Square dance: Developed from quadrilles and cotillions.
-NARRATION: Country-western dance is variant of Clogging: Appalachian step dance associated with bluegrass.
+NARRATION: Country-western dance is a variant of square dance, which develops from quadrilles and cotillions.
+NARRATION: Country-western dance is a variant of clogging, an Appalachian step dance associated with bluegrass.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. Flat-footed glide
-NARRATION: Heel and toe touches
+NARRATION: Before we go, try one step: the flat-footed glide.
+NARRATION: Add heel and toe touches.
 NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
@@ -86,17 +86,17 @@ ON SCREEN: Count on screen
 MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Discover the history of the American country-western dance, from frontier frolics to the world's largest nightclubs.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Discover the history of American country-western dance, from frontier frolics to the world's largest nightclubs.
+NARRATION: Sources include 3 references, with every claim checked against its source.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
 ## Chapter 1 · First steps — Master the flat-footed glide · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Master the flat-footed glide.
-NARRATION: Level: Beginner. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor: A knowledgeable social dance historian with a focus on regional American styles.
+NARRATION: Chapter 1 covers first steps. Today, master the flat-footed glide.
+NARRATION: The level is beginner, and the overall dance difficulty is beginner.
+NARRATION: Your instructor is a knowledgeable social dance historian focusing on regional American styles.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -114,10 +114,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Flat-footed glide
-NARRATION: Step 2: Heel and toe touches
-NARRATION: Footwork from the sources: Flat-footed glide with heel and toe touches; neither foot is lifted completely from the ground.
-NARRATION: Drill: Weight transfer practice
+NARRATION: Step 1 is the flat-footed glide.
+NARRATION: Step 2 features heel and toe touches.
+NARRATION: Footwork requires a flat-footed glide with heel and toe touches, keeping neither foot lifted completely from the ground.
+NARRATION: Drill: Practice weight transfers.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -140,7 +140,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid 'toe type' dancing or lifting feet completely off the ground.
+NARRATION: Avoid toe-type dancing or lifting your feet completely off the ground.
 ON SCREEN: Side-by-side: wrong / right
 ON SCREEN: Options card: Seated or supported option: Focus on rhythmic foot tapping and upper body sway. · For children: A 'follow-the-leader' line dance game.
 MUSIC: silence
@@ -164,9 +164,9 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — the building the dance of Country-western dance · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: the building the dance of Country-western dance.
-NARRATION: Level: intermediate. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor: A knowledgeable social dance historian with a focus on regional American styles.
+NARRATION: Chapter 2 builds the dance. Today, continue building the country-western dance.
+NARRATION: The level is intermediate, and the overall dance difficulty is beginner.
+NARRATION: Your instructor is a knowledgeable social dance historian focusing on regional American styles.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -184,16 +184,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Flat-footed glide
-NARRATION: Step 2: Heel and toe touches
+NARRATION: Step 1 is the flat-footed glide.
+NARRATION: Step 2 features heel and toe touches.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Lead and follow stride adjustment
-NARRATION: Cowboy Waltz: Gliding steps consistent with wearing cowboy boots.
+NARRATION: Step 3 involves lead and follow stride adjustment.
+NARRATION: The Cowboy Waltz features gliding steps consistent with wearing cowboy boots.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -208,7 +208,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid 'toe type' dancing or lifting feet completely off the ground.
+NARRATION: Avoid toe-type dancing or lifting your feet completely off the ground.
 ON SCREEN: Side-by-side: wrong / right
 ON SCREEN: Options card: Seated or supported option: Focus on rhythmic foot tapping and upper body sway. · For children: A 'follow-the-leader' line dance game.
 MUSIC: silence
@@ -232,9 +232,9 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — the dancing it fully of Country-western dance · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: the dancing it fully of Country-western dance.
-NARRATION: Level: advanced. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor: A knowledgeable social dance historian with a focus on regional American styles.
+NARRATION: Chapter 3 dances it fully. Today, complete the dancing of country-western dance.
+NARRATION: The level is advanced, and the overall dance difficulty is beginner.
+NARRATION: Your instructor is a knowledgeable social dance historian focusing on regional American styles.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -252,15 +252,15 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Heel and toe touches
-NARRATION: Step 2: Lead and follow stride adjustment
+NARRATION: Step 1 features heel and toe touches.
+NARRATION: Step 2 involves lead and follow stride adjustment.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Cowboy Waltz: Gliding steps consistent with wearing cowboy boots.
+NARRATION: The Cowboy Waltz features gliding steps consistent with wearing cowboy boots.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -275,7 +275,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid 'toe type' dancing or lifting feet completely off the ground.
+NARRATION: Avoid toe-type dancing or lifting your feet completely off the ground.
 ON SCREEN: Side-by-side: wrong / right
 ON SCREEN: Options card: Seated or supported option: Focus on rhythmic foot tapping and upper body sway. · For children: A 'follow-the-leader' line dance game.
 MUSIC: silence

@@ -1,0 +1,118 @@
+{
+ "slug": "passamezzo",
+ "qc_at": "2026-11-04T18:41:35Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Passamezzo"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "81"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "108"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1561, Giacomo Gorzanis composed 24 passamezzi for lute, pairing 12 antico and"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "587"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3235"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "12/13 rate=0.923"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Italy"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "7 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "Comprehensive, highly accurate historical and musicological profile of the Passamezzo with rigorous source alignment."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.85"
+ ],
+ "citation": {
+  "claims": 13,
+  "supported": 12,
+  "rate": 0.923
+ },
+ "researched_at": "2026-11-04T17:59:21Z"
+}

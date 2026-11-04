@@ -1,0 +1,123 @@
+{
+ "slug": "serpent-dance",
+ "qc_at": "2026-11-04T18:39:15Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 9.45,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Serpent dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "74"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "132"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1845, Penzance boys and girls danced hand-in-hand through streets and over ta"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "439"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1446"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning,lineage,teaching,music_profile,movement_profile,episode_brief,adaptations,claims,gaps"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "0/0 rate=0.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "region",
+   "ok": false,
+   "detail": "None"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Profile is exceptionally well-aligned with the provided claims and historical references. Teaching and adaptation fields are handled safely."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "country",
+  "region",
+  "sacred_handled",
+  "judge_score=9.45",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 0,
+  "supported": 0,
+  "rate": 0.0
+ },
+ "researched_at": "2026-11-04T17:31:01Z"
+}

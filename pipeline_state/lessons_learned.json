@@ -1,88 +1,88 @@
 {
- "updated_at": "2026-11-03T17:08:39Z",
- "qc_records_considered": 214,
+ "updated_at": "2026-11-04T17:20:59Z",
+ "qc_records_considered": 250,
  "gate_failures": [
   [
    "insight_concrete",
-   48
-  ],
-  [
-   "citations",
-   47
+   52
   ],
   [
    "sections_filled",
-   41
+   50
+  ],
+  [
+   "citations",
+   49
   ],
   [
    "profile_long_len",
-   35
+   36
   ],
   [
    "country",
-   29
+   35
   ],
   [
    "banned_phrasing",
-   20
+   24
   ],
   [
    "sacred_handled",
-   20
+   21
   ],
   [
    "not_duplicate",
-   5
-  ],
-  [
-   "ai_tells",
-   2
+   6
   ],
   [
    "region",
+   2
+  ],
+  [
+   "ai_tells",
    2
   ]
  ],
  "reasons": [
   [
    "sacred",
-   74
+   85
   ],
   [
    "not_a_dance",
-   54
+   65
   ],
   [
    "insight_concrete",
-   48
-  ],
-  [
-   "citations",
-   47
+   52
   ],
   [
    "sections_filled",
-   41
+   50
+  ],
+  [
+   "citations",
+   49
   ],
   [
    "profile_long_len",
-   35
+   36
   ],
   [
    "country",
-   29
+   35
   ],
   [
    "banned_phrasing",
-   20
+   24
   ],
   [
    "sacred_handled",
-   20
+   21
   ],
   [
    "doubts=1",
-   17
+   21
   ]
  ],
  "judge_notes": [
@@ -91,11 +91,11 @@
    9
   ],
   [
-   "judge notes mention 'inaccura'",
+   "judge notes mention 'generic'",
    4
   ],
   [
-   "judge notes mention 'generic'",
+   "judge notes mention 'inaccura'",
    4
   ],
   [
@@ -107,15 +107,11 @@
    3
   ],
   [
-   "doubt: The Harlem Shuffle is a versatile dance maneuver originating from Harlem's dance culture during the Harlem Renaissance.",
+   "doubt: The claim that Pilou was 'banned by France' is a common historical oversimplification; while colonial policies suppresse",
    1
   ],
   [
-   "doubt: The Harlem Shuffle gained renewed recognition in the 1980s as a tribute to African-American artistic influence.",
-   1
-  ],
-  [
-   "doubt: This gesture is emblematic and has become a signature aspect of the dance.",
+   "doubt: The claim that it was 'last reported in 1951' is factually dubious as the term 'Pilou' continues to be used in contempor",
    1
   ],
   [
@@ -125,95 +121,99 @@
   [
    "doubt: The claim that Sekete was performed with permission from plantation owners during the colonial period is not supported b",
    1
+  ],
+  [
+   "doubt: It is listed among the country's cultural dance forms alongside others such as Ardah and Fann at-Tanbura.",
+   1
   ]
  ],
  "episode_gaps_top": [
   [
    "tempo (bpm)",
-   79
+   96
   ],
   [
    "licensed reference footage",
-   75
+   83
   ],
   [
    "licensed images (3 needed)",
-   68
+   79
   ],
   [
    "a verified recording to listen to",
-   57
-  ],
-  [
-   "the hero video's vision check",
-   56
+   70
   ],
   [
    "meter",
+   68
+  ],
+  [
+   "the hero video's vision check",
    55
   ],
   [
    "two or more connections",
-   47
-  ],
-  [
-   "instruments",
-   43
+   54
   ],
   [
    "what to avoid / common mistakes",
-   41
+   54
+  ],
+  [
+   "instruments",
+   46
   ],
   [
    "signature moves",
+   40
+  ],
+  [
+   "a hero video",
    36
   ],
   [
    "posture, arms and hands",
-   25
-  ],
-  [
-   "a hero video",
-   22
+   29
   ]
  ],
  "avoid": [
-  "the insight line was vague — put a person, a place, a year or a number in it (48 pages in 30 days)",
-  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (47 pages in 30 days)",
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (41 pages in 30 days)",
-  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (35 pages in 30 days)",
-  "banned phrasing slipped in — no hype, no 'the sources say', no AI talk (20 pages in 30 days)"
+  "the insight line was vague — put a person, a place, a year or a number in it (52 pages in 30 days)",
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (50 pages in 30 days)",
+  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (49 pages in 30 days)",
+  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (36 pages in 30 days)",
+  "banned phrasing slipped in — no hype, no 'the sources say', no AI talk (24 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "tempo (bpm)",
-   "pages": 79,
+   "pages": 96,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
    "gap": "licensed reference footage",
-   "pages": 75,
+   "pages": 83,
    "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
   },
   {
    "gap": "licensed images (3 needed)",
-   "pages": 68,
+   "pages": 79,
    "what_helps": "a Wikimedia Commons category or file link in an editor note"
   },
   {
    "gap": "a verified recording to listen to",
-   "pages": 57,
+   "pages": 70,
    "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
   },
   {
-   "gap": "the hero video's vision check",
-   "pages": 56,
-   "what_helps": "the vision model has not reached it yet — it will (60 a day)"
+   "gap": "meter",
+   "pages": 68,
+   "what_helps": "a source that states the time signature"
   },
   {
-   "gap": "meter",
+   "gap": "the hero video's vision check",
    "pages": 55,
-   "what_helps": "a source that states the time signature"
+   "what_helps": "the vision model has not reached it yet — it will (60 a day)"
   }
  ]
 }

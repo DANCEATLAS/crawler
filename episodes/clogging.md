@@ -1,6 +1,6 @@
 # Clogging — episode pack
 
-*Status: draft · built 2026-11-03 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-03 · judge 10.0 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed reference footage; two or more connections
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 NARRATION: Dancers strike the heel and toe against the floor to create percussive rhythms.
 NARRATION: The upper body is kept relatively still, focusing energy into the feet.
 NARRATION: It is performed solo, in groups, or as part of square dance teams.
-NARRATION: Watch for Shuffle.
+NARRATION: Watch for the shuffle.
 ON SCREEN: Hero video full screen, 30–45 s (NMA5kgajhEA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo or team square dance formations.
@@ -43,9 +43,9 @@ MUSIC: diegetic (the video's own sound), underscore under narration
 ### 5. Listen (70 s) · `music`
 NARRATION: The dance is traditionally performed to old-time and bluegrass music, which utilizes fiddle tunes and banjo melodies.
 NARRATION: The rhythm is typically driven by the downbeat.
-NARRATION: Listen for the Fiddle, Banjo.
+NARRATION: Listen for the fiddle and banjo.
 NARRATION: The pulse is 2/4 or 4/4.
-NARRATION: Fast-paced fiddle and banjo melodies providing a steady, driving rhythm for percussive footwork.
+NARRATION: Fast-paced fiddle and banjo melodies provide a steady, driving rhythm for percussive footwork.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -60,7 +60,7 @@ ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 
 MUSIC: underscore
 
 ### 7. The people (60 s) · `people`
-NARRATION: Bascom Lamar Lunsford, who organized the 1928 festival, and William Henry Lane, an influential dancer who integrated these steps into his performance.
+NARRATION: Bascom Lamar Lunsford organized the 1928 festival, and William Henry Lane was an influential dancer who integrated these steps into his performance.
 NARRATION: Variants include buck dancing, flatfooting, hoedowning, and jigging, which share the emphasis on percussive footwork.
 NARRATION: Clogging is a precursor to tap dance and shares roots with Irish Sean-nós, English, Scottish, German, and Cherokee step dances, as well as Black American buck dancing.
 ON SCREEN: Names on screen as they are spoken
@@ -68,15 +68,15 @@ ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Clogging is child of tap dance: Clogging is the direct ancestor of tap dance.
+NARRATION: Clogging is the direct ancestor of tap dance.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 NEEDS: connections
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. Shuffle: A quick forward and backward brush of the foot.
-NARRATION: Heel strike: Striking the heel against the floor on the downbeat.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Before we go, try one step. The shuffle is a quick forward and backward brush of the foot.
+NARRATION: The heel strike involves striking the heel against the floor on the downbeat.
+NARRATION: Count it: 1-2-3-4 then 5-6-7-8, spanning eight counts and two bars.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -84,21 +84,21 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how the Appalachian mountains turned human feet into a percussion instrument.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources include five references, with every claim checked against its source.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
 ## Chapter 1 · First steps — Master the downbeat heel strike. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Master the downbeat heel strike..
-NARRATION: Level: Beginner. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor: An experienced Appalachian folk dancer.
+NARRATION: Chapter 1 covers first steps. Today, master the downbeat heel strike.
+NARRATION: The level is beginner, and the difficulty of the dance overall is beginner.
+NARRATION: Your instructor is an experienced Appalachian folk dancer.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Relatively still upper body.
+NARRATION: Keep the upper body relatively still.
 ON SCREEN: Instructor front then side view; freeze-frame on posture
 ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
@@ -112,18 +112,18 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Shuffle: A quick forward and backward brush of the foot.
-NARRATION: Step 2: Heel strike: Striking the heel against the floor on the downbeat.
-NARRATION: Footwork from the sources: Heel and toe strikes against the floor.
-NARRATION: Drill: Rhythmic heel tapping
+NARRATION: Step 1 is the shuffle: a quick forward and backward brush of the foot.
+NARRATION: Step 2 is the heel strike: striking the heel against the floor on the downbeat.
+NARRATION: Footwork from the sources utilizes heel and toe strikes against the floor.
+NARRATION: Drill this with rhythmic heel tapping.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Toe strike: Striking the toe against the floor.
-NARRATION: Drill: Toe-heel weight shifts
+NARRATION: Step 3 is the toe strike: striking the toe against the floor.
+NARRATION: Drill with toe-heel weight shifts.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -137,7 +137,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Excessive upper body movement.
+NARRATION: Avoid excessive upper body movement.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 
@@ -159,14 +159,14 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — the building the dance of Clogging · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: the building the dance of Clogging.
-NARRATION: Level: intermediate. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor: An experienced Appalachian folk dancer.
+NARRATION: Chapter 2 focuses on building the dance. Today, we build the dance of clogging.
+NARRATION: The level is intermediate. The difficulty of the dance overall is beginner.
+NARRATION: Your instructor is an experienced Appalachian folk dancer.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Relatively still upper body.
+NARRATION: Keep the upper body relatively still.
 ON SCREEN: Instructor front then side view; freeze-frame on posture
 ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
@@ -180,16 +180,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Shuffle: A quick forward and backward brush of the foot.
-NARRATION: Step 2: Heel strike: Striking the heel against the floor on the downbeat.
+NARRATION: Step 1 is the shuffle: a quick forward and backward brush of the foot.
+NARRATION: Step 2 is the heel strike: striking the heel against the floor on the downbeat.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Toe strike: Striking the toe against the floor.
-NARRATION: Shuffle: A forward and backward brush of the foot.
+NARRATION: Step 3 is the toe strike: striking the toe against the floor.
+NARRATION: Add the shuffle: a forward and backward brush of the foot.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -198,13 +198,13 @@ COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: The instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Excessive upper body movement.
+NARRATION: Avoid excessive upper body movement.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 
@@ -226,14 +226,14 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — the dancing it fully of Clogging · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: the dancing it fully of Clogging.
-NARRATION: Level: advanced. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor: An experienced Appalachian folk dancer.
+NARRATION: Chapter 3 is about dancing it fully. Today, we dance clogging fully.
+NARRATION: The level is advanced. The difficulty of the dance overall is beginner.
+NARRATION: Your instructor is an experienced Appalachian folk dancer.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Relatively still upper body.
+NARRATION: Keep the upper body relatively still.
 ON SCREEN: Instructor front then side view; freeze-frame on posture
 ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
@@ -247,8 +247,8 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Heel strike: Striking the heel against the floor on the downbeat.
-NARRATION: Step 2: Toe strike: Striking the toe against the floor.
+NARRATION: Step 1 is the heel strike: striking the heel against the floor on the downbeat.
+NARRATION: Step 2 is the toe strike: striking the toe against the floor.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -264,13 +264,13 @@ COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: The instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Excessive upper body movement.
+NARRATION: Avoid excessive upper body movement.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 

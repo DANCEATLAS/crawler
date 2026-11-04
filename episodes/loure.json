@@ -1,0 +1,818 @@
+{
+ "slug": "loure",
+ "name": "loure",
+ "pack_version": "e1",
+ "built_at": "2026-11-04T19:23:00Z",
+ "researched_at": "2026-11-04T18:02:40Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A Baroque dance specialist with expertise in historical performance and theatrical choreography",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "loure",
+   "gigue lourée",
+   "gigue lente"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet loure",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Loure: The Slow Gigue of French Baroque Nobility",
+     "This is loure. late 17th to early 18th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: loure · France · late 17th to early 18th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The loure originated in Normandy, France, named after a local bagpipe called the loure.",
+     "It emerged as a theatrical dance in the late 17th and early 18th centuries, closely linked to French Baroque music and dance traditions.",
+     "It was introduced by composers like Lully and popularized by Rameau and Bach, evolving from a folk dance to a slow, ceremonious stage dance characterized by a dotted rhythm and emphasis on the first beat."
+    ],
+    "on_screen": [
+     "Map: France · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The loure was primarily a theatrical dance performed in ballets and operas of the late 17th and early 18th centuries.",
+     "It conveyed noble, majestic, and pastoral moods, often associated with ceremonial or courtly occasions.",
+     "It was not a social ballroom dance but a virtuosic stage performance.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: La Naissance de Vénus (https://archive.org/details/Naissance_de_Venus)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The loure is danced slowly or at a moderate tempo, often in compound duple meter (6/4) or simple triple meter (3/4).",
+     "It features two steps per measure with complex sequences and continuous ornamentation.",
+     "The first beat is strongly accented, preceded by an anacrusis.",
+     "Watch for Loure step, Elegant turn."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Performed solo or in couples on stage, with spatial patterns reflecting theatrical choreography"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The loure's music is characterized by a lilting dotted rhythm, often with an anacrusis of an eighth and a quarter note.",
+     "It is usually in compound duple or simple triple meter, with a slow or moderate tempo.",
+     "Listen for the Baroque strings, woodwinds, musette (bagpipe).",
+     "The pulse is compound duple (6/4) or simple triple (3/4).",
+     "The loure features a slow, lilting dotted rhythm with a strong downbeat preceded by a pickup note, creating a majestic and ceremonious sound. The music often includes contrapuntal textures and dynamic contrasts, with Baroque strings and woodwinds enriched by the musette's drone-like timbre."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Les Indes galantes — Jean-Philippe Rameau, Les Arts Florissants, William Christie; Castor et Pollux — Jean-Philippe Rameau, Les Arts Florissants, William Christie; French Suite No. 5 — Johann Sebastian Bach, various performers",
+     "Waveform or rhythm-pattern graphic: dotted rhythms with anacrusis (eighth note + quarter note)"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The loure was performed in theatrical and court settings during the Baroque era, with dancers wearing elaborate costumes appropriate for noble or pastoral themes.",
+     "Costumes would reflect the dignified and ceremonious character of the dance, often with flowing garments allowing elegant turns and movements."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key figures associated with the loure include Jean-Baptiste Lully, who introduced it in stage works like Alceste; Jean-Philippe Rameau, who composed numerous loures with imaginative orchestration; Johann Sebastian Bach, who included loures in his French Suite No. 5 and Partita No. 3 for violin; André Campra; Telemann; and Christoph Graupner.",
+     "The loure is a French dance with variants in German Baroque music and dance traditions.",
+     "The loure evolved from a French folk dance linked to the Norman bagpipe tradition into a Baroque theatrical dance form."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "loure is sibling of gigue: The loure is a slow variant of the gigue, sharing rhythmic and choreographic elements.",
+     "loure is sibling of forlane: The loure is closely related to the forlane, another French Baroque dance with similar rhythm.",
+     "loure is sibling of bourrée auvergnate: The loure shares characteristics with the bourrée auvergnate in rhythm and regional origin."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Begin with an anacrusis (pickup) leading into the first beat",
+     "Step emphasizing the first beat with a dotted rhythm",
+     "Count it: 2 counts off, 2 counts on.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the loure, a slow, ceremonious French Baroque dance named after a Norman bagpipe, blending noble grace with intricate rhythms.",
+     "Sources: 7 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic loure rhythm and two-step pattern",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic loure rhythm and two-step pattern.",
+      "Level: Beginner. Difficulty of the dance overall: Intermediate to advanced due to complex ornamentation and turns.",
+      "Your instructor: A Baroque dance specialist with expertise in historical performance and theatrical choreography"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, dignified, with controlled and ceremonious carriage",
+      "Graceful, often with flowing gestures complementing the noble character",
+      "Controlled, with subtle movements to maintain dignity"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 2 counts off, 2 counts on. The meter is compound duple (6/4) or simple triple (3/4).",
+      "Rhythm pattern: dotted rhythms with anacrusis (eighth note + quarter note).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Begin with an anacrusis (pickup) leading into the first beat",
+      "Step 2: Step emphasizing the first beat with a dotted rhythm",
+      "Footwork from the sources: Two steps per measure emphasizing the first beat with dotted rhythms; smooth transitions and elegant turns",
+      "Drill: Clap and count the dotted rhythm in 6/4"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Perform two steps per measure with smooth transitions",
+      "Step 4: Incorporate elegant turns and ornamented footwork",
+      "Drill: Practice the anacrusis leading into the first beat"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Step in place emphasizing the downbeat"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rushing the tempo; do not neglect the dotted rhythm and strong downbeat accent"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Practice arm movements and rhythm clapping while seated · For children: Clap and step to dotted rhythm, imitate turns without full rotation"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Practice arm movements and rhythm clapping while seated",
+      "For children: Clap and step to dotted rhythm, imitate turns without full rotation"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 2 counts off, 2 counts on.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic loure rhythm and two-step pattern.",
+      "The loure was primarily a theatrical dance performed in ballets and operas of the late 17th and early 18th centuries.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Incorporate elegant turns and smooth transitions",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Incorporate elegant turns and smooth transitions.",
+      "Level: Intermediate. Difficulty of the dance overall: Intermediate to advanced due to complex ornamentation and turns.",
+      "Your instructor: A Baroque dance specialist with expertise in historical performance and theatrical choreography"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, dignified, with controlled and ceremonious carriage",
+      "Graceful, often with flowing gestures complementing the noble character",
+      "Controlled, with subtle movements to maintain dignity"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 2 counts off, 2 counts on. The meter is compound duple (6/4) or simple triple (3/4).",
+      "Rhythm pattern: dotted rhythms with anacrusis (eighth note + quarter note).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Maintain dignified posture and slow tempo",
+      "Drill: Practice turning on the spot with balance"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Loure step: A two-step pattern per measure with a dotted rhythm and accent on the first step",
+      "Elegant turn: Graceful rotations integrated into the step sequences",
+      "Drill: Combine turns with two-step footwork"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Work on posture and arm fluidity"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rushing the tempo; do not neglect the dotted rhythm and strong downbeat accent"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Practice arm movements and rhythm clapping while seated · For children: Clap and step to dotted rhythm, imitate turns without full rotation"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Practice arm movements and rhythm clapping while seated",
+      "For children: Clap and step to dotted rhythm, imitate turns without full rotation"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 2 counts off, 2 counts on.",
+      "Full tempo, the whole sequence, twice. Formation: Performed solo or in couples on stage, with spatial patterns reflecting theatrical choreography"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Incorporate elegant turns and smooth transitions.",
+      "Key figures associated with the loure include Jean-Baptiste Lully, who introduced it in stage works like Alceste; Jean-Philippe Rameau, who composed numerous loures with imaginative orchestration; Johann Sebastian Bach, who included loures in his French Suite No. 5 and Partita No. 3 for violin; André Campra; Telemann; and Christoph Graupner.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform full loure choreography with ornamentation",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform full loure choreography with ornamentation.",
+      "Level: Advanced. Difficulty of the dance overall: Intermediate to advanced due to complex ornamentation and turns.",
+      "Your instructor: A Baroque dance specialist with expertise in historical performance and theatrical choreography"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, dignified, with controlled and ceremonious carriage",
+      "Graceful, often with flowing gestures complementing the noble character",
+      "Controlled, with subtle movements to maintain dignity"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 2 counts off, 2 counts on. The meter is compound duple (6/4) or simple triple (3/4).",
+      "Rhythm pattern: dotted rhythms with anacrusis (eighth note + quarter note).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Incorporate elegant turns and ornamented footwork",
+      "Step 2: Maintain dignified posture and slow tempo",
+      "Drill: Refine timing and accentuation of dotted rhythms"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Loure step: A two-step pattern per measure with a dotted rhythm and accent on the first step",
+      "Elegant turn: Graceful rotations integrated into the step sequences",
+      "Drill: Integrate complex footwork and ornamented steps"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Develop expressive arm and torso movements"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rushing the tempo; do not neglect the dotted rhythm and strong downbeat accent"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Practice arm movements and rhythm clapping while seated · For children: Clap and step to dotted rhythm, imitate turns without full rotation"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Practice arm movements and rhythm clapping while seated",
+      "For children: Clap and step to dotted rhythm, imitate turns without full rotation"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 2 counts off, 2 counts on.",
+      "Full tempo, the whole sequence, twice. Formation: Performed solo or in couples on stage, with spatial patterns reflecting theatrical choreography"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform full loure choreography with ornamentation.",
+      "The loure evolved from a French folk dance linked to the Norman bagpipe tradition into a Baroque theatrical dance form.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "compound duple (6/4) or simple triple (3/4)",
+  "rhythm_pattern": "dotted rhythms with anacrusis (eighth note + quarter note)",
+  "instruments": [
+   "Baroque strings",
+   "woodwinds",
+   "musette (bagpipe)"
+  ],
+  "vocal_style": "usually instrumental; some vocal loures exist in operas",
+  "musical_form": "binary dance suite form or rondo",
+  "mood": [
+   "noble",
+   "majestic",
+   "languid",
+   "ceremonious",
+   "pastoral"
+  ],
+  "sound_description": "The loure features a slow, lilting dotted rhythm with a strong downbeat preceded by a pickup note, creating a majestic and ceremonious sound. The music often includes contrapuntal textures and dynamic contrasts, with Baroque strings and woodwinds enriched by the musette's drone-like timbre.",
+  "listen_before_composing": [
+   "Les Indes galantes — Jean-Philippe Rameau, Les Arts Florissants, William Christie",
+   "Castor et Pollux — Jean-Philippe Rameau, Les Arts Florissants, William Christie",
+   "French Suite No. 5 — Johann Sebastian Bach, various performers",
+   "Les Indes Galantes — Jean‐Philippe Rameau, Les Arts Florissants, William Christie (1992)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of loure (France). Meter compound duple (6/4) or simple triple (3/4). Rhythm pattern: dotted rhythms with anacrusis (eighth note + quarter note). Instruments: Baroque strings, woodwinds, musette (bagpipe). Vocal style: usually instrumental; some vocal loures exist in operas. Form: binary dance suite form or rondo. Mood: noble, majestic, languid, ceremonious, pastoral. It should sound like this: The loure features a slow, lilting dotted rhythm with a strong downbeat preceded by a pickup note, creating a majestic and ceremonious sound. The music often includes contrapuntal textures and dynamic contrasts, with Baroque strings and woodwinds enriched by the musette's drone-like timbre. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The loure was performed in theatrical and court settings during the Baroque era, with dancers wearing elaborate costumes appropriate for noble or pastoral themes. Costumes would reflect the dignified and ceremonious character of the dance, often with flowing garments allowing elegant turns and movements.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "La Naissance de Vénus",
+    "url": "https://archive.org/details/Naissance_de_Venus",
+    "year": 2008,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Baroque costumes",
+   "Norman bagpipe (loure)",
+   "dotted rhythm notation",
+   "elegant turns",
+   "court theater stage"
+  ],
+  "costume_notes": "The loure was performed in theatrical and court settings during the Baroque era, with dancers wearing elaborate costumes appropriate for noble or pastoral themes. Costumes would reflect the dignified and ceremonious character of the dance, often with flowing garments allowing elegant turns and movements.",
+  "setting_notes": "The loure was primarily a theatrical dance performed in ballets and operas of the late 17th and early 18th centuries. It conveyed noble, majestic, and pastoral moods, often associated with ceremonial or courtly occasions. It was not a social ballroom dance but a virtuosic stage performance.",
+  "map": {
+   "country": "France",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of the classical-court family studied",
+  "videos_studied": 1,
+  "counting": "2 counts off, 2 counts on",
+  "demonstration": [
+   "views used by most teachers: front, side",
+   "tempo progression: slow"
+  ],
+  "cues": [
+   "hold your placement",
+   "stay straight as a board",
+   "lift up in your lower abs",
+   "change feet"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "mistakes",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Loure",
+  "https://www.wikidata.org/wiki/Q1205331",
+  "https://es.wikipedia.org/wiki/Loure",
+  "https://fr.wikipedia.org/wiki/Loure_(danse)",
+  "https://de.wikipedia.org/wiki/Loure",
+  "https://archive.org/details/b10334038",
+  "https://archive.org/details/classicromanticp01unse"
+ ],
+ "claims_verified": 10,
+ "claims": 10,
+ "polished": false,
+ "hero_checked": null
+}

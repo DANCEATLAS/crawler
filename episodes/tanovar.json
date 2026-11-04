@@ -1,0 +1,811 @@
+{
+ "slug": "tanovar",
+ "name": "Tanovar",
+ "pack_version": "e1",
+ "built_at": "2026-11-04T19:23:00Z",
+ "researched_at": "2026-11-04T18:29:56Z",
+ "qc_score": 9.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An experienced Uzbek dance artist with deep knowledge of Turgunbaeva's work and Uzbek folk traditions.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Tanovar",
+   "Tanovar"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Tanovar",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Tanovar: The Melancholy Dance of Ferghana",
+     "This is Tanovar. 1940s."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (tcAY_qEsnus)",
+     "Title card: Tanovar · Uzbekistan · 1940s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Tanovar was choreographed in the 1940s by Mukarram Turgunbaeva, an Uzbekistani dancer and choreographer born in 1913 in Shakhrikhan, Andijan Region.",
+     "She fused traditional Uzbek dance with western classical dance and set the standard choreography for Tanovar.",
+     "Turgunbaeva was instrumental in establishing Uzbekistan's first musical theater, Muqimi, in 1939 and founded the Bahor Ensemble in 1957, which continues to perform her works."
+    ],
+    "on_screen": [
+     "Map: Uzbekistan · Central Asia",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Tanovar is a melancholic lyrical dance performed by women, reflecting emotional expression from the Ferghana region.",
+     "It is part of the Uzbek cultural heritage and performed publicly, not restricted or sacred.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (tcAY_qEsnus)",
+     "Signature moves — MISSING"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Mukarram Turgunbaeva (1913–1978), choreographer and dancer who codified Tanovar and founded the Bahor Ensemble.",
+     "Tanovar is part of the Uzbek dance tradition, influenced by both traditional Uzbek and western classical dance styles through Turgunbaeva's choreography."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Tanovar is related of yarkhushta: Another traditional dance from the region, sharing cultural context.",
+     "Tanovar is related of kochari: A dance from the Caucasus region, noted in the same catalogue entry.",
+     "Tanovar is related of armenian-dance: Listed as related in the catalogue, indicating regional or stylistic links.",
+     "Tanovar is related of kushtdepdi: Another folk dance referenced alongside Tanovar."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow",
+    "needs": [
+     "teaching steps"
+    ]
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how Mukarram Turgunbaeva shaped the melancholic women's dance Tanovar into a lasting Uzbek tradition.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Familiarize with Tanovar's mood and basic posture",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Familiarize with Tanovar's mood and basic posture.",
+      "Level: Beginner. ",
+      "Your instructor: An experienced Uzbek dance artist with deep knowledge of Turgunbaeva's work and Uzbek folk traditions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Practice slow, expressive arm movements"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Explore melancholic facial expressions"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Learn simple foot placement and weight shifts"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Familiarize with Tanovar's mood and basic posture.",
+      "Tanovar is a melancholic lyrical dance performed by women, reflecting emotional expression from the Ferghana region.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Develop fluidity and lyrical movement quality",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Develop fluidity and lyrical movement quality.",
+      "Level: Intermediate. ",
+      "Your instructor: An experienced Uzbek dance artist with deep knowledge of Turgunbaeva's work and Uzbek folk traditions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Combine arm gestures with torso undulations"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Practice transitions between slow steps"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Introduce spatial awareness in solo formation"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Develop fluidity and lyrical movement quality.",
+      "Mukarram Turgunbaeva (1913–1978), choreographer and dancer who codified Tanovar and founded the Bahor Ensemble.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Master emotional storytelling through dance",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Master emotional storytelling through dance.",
+      "Level: Advanced. ",
+      "Your instructor: An experienced Uzbek dance artist with deep knowledge of Turgunbaeva's work and Uzbek folk traditions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture",
+      "Overlay: the hero video's posture for comparison"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Refine nuanced hand and finger movements"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Integrate subtle head and eye expressions"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Perform full Tanovar sequence with musical phrasing"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master emotional storytelling through dance.",
+      "Tanovar is part of the Uzbek dance tradition, influenced by both traditional Uzbek and western classical dance styles through Turgunbaeva's choreography.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "melancholic",
+   "lyrical"
+  ],
+  "sound_description": null,
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Tanovar (Uzbekistan). Mood: melancholic, lyrical. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "tcAY_qEsnus",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": null,
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Traditional Uzbek women's costumes",
+   "Soft, flowing arm movements",
+   "Melancholic facial expressions",
+   "Historic theater posters and photographs",
+   "Scenes of the Ferghana valley landscape"
+  ],
+  "costume_notes": null,
+  "setting_notes": "Tanovar is a melancholic lyrical dance performed by women, reflecting emotional expression from the Ferghana region. It is part of the Uzbek cultural heritage and performed publicly, not restricted or sacred.",
+  "map": {
+   "country": "Uzbekistan",
+   "region": "Central Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "3 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 3,
+  "counting": "5-6-7-8",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "keep those abs pulled in",
+   "engage all the muscles",
+   "keep those shoulders down",
+   "control control"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "count_in",
+   "breakdown",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "posture, arms and hands",
+  "the how-it-is-danced section",
+  "signature moves",
+  "the music & instruments section",
+  "the costume & setting section",
+  "teaching steps written out",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mukarram_Turgunbaeva",
+  "https://www.wikidata.org/wiki/Q4465832"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "hero_checked": "pass"
+}

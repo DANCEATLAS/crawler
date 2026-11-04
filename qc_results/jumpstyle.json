@@ -1,0 +1,123 @@
+{
+ "slug": "jumpstyle",
+ "qc_at": "2026-11-04T18:41:55Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Jumpstyle"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "77"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "115"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 2007, Scooter's album 'Jumping All Over the World' topped the UK charts, spot"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "508"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2709"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "9/10 rate=0.9"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Belgium, Netherlands"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['sacred', 'trance']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Jumpstyle dance styles include oldschool (5-touch basic steps), hardjump (6-touch steps), sidejump, hardfreestyle, ownstyle, and tekstyle."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Profile is well-supported, respectful, and detailed with clear teaching guidance. One minor doubt on the full list of dance styles due to lack of direct support. Adaptations are safe and appropriate."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sacred_handled",
+  "judge_score=9.25",
+  "doubts=1",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 10,
+  "supported": 9,
+  "rate": 0.9
+ },
+ "researched_at": "2026-11-04T18:00:46Z"
+}

@@ -1,0 +1,125 @@
+{
+ "slug": "corri-corri",
+ "qc_at": "2026-11-04T18:45:03Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 4.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Corri-corri"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "32"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "121"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Corri-corri is a traditional chase dance from Cabrales, Asturias, Spain, involvi"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "359"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1901"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "1/6 rate=0.167"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Spain"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'worship', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 4,
+  "respect": 8,
+  "specificity": 3,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Corri-corri is a traditional chase dance involving running and chasing with laurel branches (Corri-corri in Asturias is actually a very specific, slow, stylized processional/courtship dance with women carrying branches and men dancing around them, not a chaotic running chase).",
+   "The choreography is informal and improvisational (incorrect, it has specific stylized steps)."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 4,
+  "verdict": "review",
+  "notes": "The profile relies on a severe misconception of Corri-corri, describing it as a literal running chase game with laurel branches rather than the traditional Asturian ritual dance it actually is. Needs major factual correction."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "sacred_handled",
+  "judge_score=4.6",
+  "doubts=2",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 1,
+  "rate": 0.167
+ },
+ "researched_at": "2026-11-04T18:30:19Z"
+}

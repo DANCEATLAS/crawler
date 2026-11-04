@@ -1,6 +1,6 @@
 # Country Swing — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.0 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-03 · judge 9.0 · 5/5 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -11,7 +11,7 @@
 ## Episode 1 · Meet Country Swing · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Unlike the traveling Two-Step, Country Swing is a stationary, rotational dance designed for crowded bars, where simple footwork allows for complex, acrobatic 'lifts'.
+NARRATION: Unlike the traveling Two-Step, Country Swing is a stationary, rotational dance designed for crowded bars, where simple footwork allows for complex, acrobatic lifts.
 NARRATION: This is Country Swing. 20th to 21st century.
 ON SCREEN: Hero video, first 10 seconds (rP7vsrc5o8g)
 ON SCREEN: Title card: Country Swing · United States · 20th to 21st century
@@ -33,7 +33,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: The dance is performed in a small, stationary space.
-NARRATION: The footwork is a simplified 'quick, quick, slow' pattern.
+NARRATION: The footwork is a simplified quick, quick, slow pattern.
 NARRATION: It is a rotational dance where partners move around a central axis rather than traveling across the floor.
 ON SCREEN: Hero video full screen, 30–45 s (rP7vsrc5o8g)
 ON SCREEN: Signature moves — MISSING
@@ -42,7 +42,7 @@ NEEDS: signature_moves
 
 ### 5. Listen (70 s) · `music`
 NARRATION: The dance is primarily performed to Western swing music, though it is adaptable to various country-western genres.
-NARRATION: The rhythm typically supports the 'quick, quick, slow' stepping pattern.
+NARRATION: The rhythm typically supports the quick, quick, slow stepping pattern.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -87,7 +87,7 @@ MUSIC: theme (20 s)
 
 ### 1. Welcome (45 s) · `welcome`
 NARRATION: Chapter 1 — First steps. Today: the first steps of Country Swing.
-NARRATION: Level: beginner. 
+NARRATION: Level: beginner.
 NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
@@ -222,7 +222,7 @@ MUSIC: theme (10 s)
 
 ### 1. Welcome (45 s) · `welcome`
 NARRATION: Chapter 3 — Dancing it fully. Today: the dancing it fully of Country Swing.
-NARRATION: Level: advanced. 
+NARRATION: Level: advanced.
 NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence

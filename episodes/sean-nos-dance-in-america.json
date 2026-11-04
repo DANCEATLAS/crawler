@@ -1,0 +1,800 @@
+{
+ "slug": "sean-nos-dance-in-america",
+ "name": "Sean-nós dance in America",
+ "pack_version": "e1",
+ "built_at": "2026-11-04T19:23:00Z",
+ "researched_at": "2026-11-04T17:27:31Z",
+ "qc_score": 9.7,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An experienced practitioner from a community like Boston or Portland.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Sean-nós dance in America",
+   "Sean-nos dance in America"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Sean-nós dance in America",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Sound of the Feet",
+     "This is Sean-nós dance in America. 17th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Sean-nós dance in America · United States · 17th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance arrived with Irish immigrants during the early American Colonial period and during The Troubles.",
+     "It has since integrated with American vernacular solo dance forms, influenced by the 17th-century musical interactions between African and British cultures in the American South."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Practiced at Irish festivals, workshops, and small community gatherings in cities like Boston, Portland, and Washington D.C.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "It is a solo, non-contact dance characterized by low-to-the-ground footwork, free arm movement, and improvisation.",
+     "Dancers use a 'battering step' to create percussive sounds that follow the music's rhythm.",
+     "Watch for battering step."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: solo, no physical contact"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance follows the music closely, often utilizing the banjo and fiddle, a combination that emerged from 17th-century Anglo-African musical interaction.",
+     "Listen for the banjo, fiddle.",
+     "The music is characterized by the interaction between the European fiddle and the African banjo, creating a rhythmic foundation for percussive footwork."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: percussive, following the accented beat of the music"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Kieran Jordan, Maldon Meehan, and Shannon Dunne.",
+     "Derived from Irish traditional solo dance, with influences on American folk forms like flat-footing, hoofing, and buck dancing."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Sean-nós dance in America is influence of flat-footing: Sean-nós contributed to the development of this American vernacular form."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Maintain a low-to-the-ground posture.",
+     "Execute a battering step to accent the music's beat.",
+     "Count it: 5-6-7-8 and 1-2-3-4-5-6-7.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how Irish immigrants and American vernacular traditions merged to create the percussive, improvised world of Sean-nós dance.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn the basic battering step rhythm.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn the basic battering step rhythm..",
+      "Level: Beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced practitioner from a community like Boston or Portland."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8 and 1-2-3-4-5-6-7.",
+      "Rhythm pattern: percussive, following the accented beat of the music.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Maintain a low-to-the-ground posture.",
+      "Step 2: Execute a battering step to accent the music's beat.",
+      "Drill: Listen to the accented beat of a fiddle tune."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 and 1-2-3-4-5-6-7",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Improvise movement without pre-arranged choreography.",
+      "Step 4: Keep arms free and relaxed.",
+      "Drill: Practice tapping the floor to match the beat."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 and 1-2-3-4-5-6-7",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Incorporate a low-to-the-ground stance."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "pre-arranged choreography"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the battering step rhythm using the heels and toes while seated. · For children: A 'follow the rhythm' game where children mimic the teacher's percussive foot patterns."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the battering step rhythm using the heels and toes while seated.",
+      "For children: A 'follow the rhythm' game where children mimic the teacher's percussive foot patterns."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn the basic battering step rhythm..",
+      "Practiced at Irish festivals, workshops, and small community gatherings in cities like Boston, Portland, and Washington D.C.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Sean-nós dance in America",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Sean-nós dance in America.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced practitioner from a community like Boston or Portland."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8 and 1-2-3-4-5-6-7.",
+      "Rhythm pattern: percussive, following the accented beat of the music.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Maintain a low-to-the-ground posture.",
+      "Step 2: Execute a battering step to accent the music's beat."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 and 1-2-3-4-5-6-7",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Improvise movement without pre-arranged choreography.",
+      "Step 4: Keep arms free and relaxed.",
+      "battering step: a percussive step that sounds out the accented beat of the music"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 and 1-2-3-4-5-6-7",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "pre-arranged choreography"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the battering step rhythm using the heels and toes while seated. · For children: A 'follow the rhythm' game where children mimic the teacher's percussive foot patterns."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the battering step rhythm using the heels and toes while seated.",
+      "For children: A 'follow the rhythm' game where children mimic the teacher's percussive foot patterns."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.",
+      "Full tempo, the whole sequence, twice. Formation: solo, no physical contact"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Sean-nós dance in America.",
+      "Kieran Jordan, Maldon Meehan, and Shannon Dunne.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Sean-nós dance in America",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Sean-nós dance in America.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced practitioner from a community like Boston or Portland."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8 and 1-2-3-4-5-6-7.",
+      "Rhythm pattern: percussive, following the accented beat of the music.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Improvise movement without pre-arranged choreography.",
+      "Step 2: Keep arms free and relaxed."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 and 1-2-3-4-5-6-7",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "battering step: a percussive step that sounds out the accented beat of the music"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 and 1-2-3-4-5-6-7",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "pre-arranged choreography"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the battering step rhythm using the heels and toes while seated. · For children: A 'follow the rhythm' game where children mimic the teacher's percussive foot patterns."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the battering step rhythm using the heels and toes while seated.",
+      "For children: A 'follow the rhythm' game where children mimic the teacher's percussive foot patterns."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.",
+      "Full tempo, the whole sequence, twice. Formation: solo, no physical contact"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Sean-nós dance in America.",
+      "Derived from Irish traditional solo dance, with influences on American folk forms like flat-footing, hoofing, and buck dancing.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "percussive, following the accented beat of the music",
+  "instruments": [
+   "banjo",
+   "fiddle"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "spontaneous",
+   "rhythmic",
+   "informal"
+  ],
+  "sound_description": "The music is characterized by the interaction between the European fiddle and the African banjo, creating a rhythmic foundation for percussive footwork.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Sean-nós dance in America (United States). Rhythm pattern: percussive, following the accented beat of the music. Instruments: banjo, fiddle. Mood: spontaneous, rhythmic, informal. It should sound like this: The music is characterized by the interaction between the European fiddle and the African banjo, creating a rhythmic foundation for percussive footwork. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Close-up of feet on wooden floors",
+   "Fiddle and banjo players",
+   "Workshop settings in community centers"
+  ],
+  "costume_notes": null,
+  "setting_notes": "Practiced at Irish festivals, workshops, and small community gatherings in cities like Boston, Portland, and Washington D.C.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "3 tutorial(s) of the african-diaspora family studied",
+  "videos_studied": 3,
+  "counting": "5-6-7-8 and 1-2-3-4-5-6-7",
+  "demonstration": [
+   "views used by most teachers: back, front",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "left foot",
+   "right foot",
+   "step",
+   "touch",
+   "stomp off",
+   "push",
+   "5-6-7-8-hold",
+   "lets build it up",
+   "now put them together",
+   "stomp spank step",
+   "stomp spank ball change",
+   "step toe step hop step hop out in"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "layering",
+   "full_demo"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "posture, arms and hands",
+  "the costume & setting section",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sean-n%C3%B3s_dance_in_United_States",
+  "https://www.wikidata.org/wiki/Q7440794"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "hero_checked": null
+}

@@ -1,0 +1,816 @@
+{
+ "slug": "sequence-dance",
+ "name": "Sequence dance",
+ "pack_version": "e1",
+ "built_at": "2026-11-04T19:23:00Z",
+ "researched_at": "2026-11-04T17:28:43Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A seasoned ballroom dance teacher from a local dance club.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Sequence dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Sequence dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Empress Ballroom: Home of the Sequence",
+     "This is Sequence dance. 19th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Sequence dance · United Kingdom, Australia · 19th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Sequence dancing is older than modern ballroom dances.",
+     "With the exception of the waltz, all ballroom dances were sequence dances until the early 20th century."
+    ],
+    "on_screen": [
+     "Map: United Kingdom, Australia · Global",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Functions as both a competitive sport and a social pastime.",
+     "Competitions between teachers determine which new dances are officially adopted.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Latown Sequence Dance Group presents Shall We Dance? (VHS) (https://archive.org/details/ShallWeDance_201811)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers follow a preset pattern of movements that repeats every sixteenth bar.",
+     "The dance usually continues for five or six sequences in total.",
+     "Watch for RF Fwd in CBMP."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Progressive around the room"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music is predetermined and typically requires a strict tempo.",
+     "Ideally, it includes a four-bar introduction followed by sixteen-bar sequences.",
+     "Music is performed in strict tempo to match the 16-bar sequence structure of the dance."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performed in ballrooms, at Tea Dances, and in dance clubs.",
+     "The British Sequence Championships are held in the Empress Ballroom, Winter Gardens, Blackpool."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "John P. Bennett (author of 1995 paper on sequence dance for lifelong leisure).",
+     "New Vogue, developed in Australia in the 1930s, uses modern ballroom technique and includes fifteen competition dances.",
+     "Old Time (Classical), Modern, and Latin American."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Sequence dance is sibling of Modern Ballroom: Sequence dance is older; modern ballroom developed as a distinct style in the early 20th century."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Forward in CBMP (Contrary Body Movement Position)",
+     "Side step",
+     "Count it: 4-1-2-3-4.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "A look at the structured world of sequence dancing, from its 19th-century roots to the competitive stages of Blackpool.",
+     "Sources: 4 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn a basic 16-bar sequence",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn a basic 16-bar sequence.",
+      "Level: Beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: A seasoned ballroom dance teacher from a local dance club."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 4-1-2-3-4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Forward in CBMP (Contrary Body Movement Position)",
+      "Step 2: Side step",
+      "Footwork from the sources: Preset patterns following a 16-bar repeat structure",
+      "Drill: Footwork pattern practice"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "4-1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Close feet",
+      "Step 4: Backward step",
+      "Drill: Timing to 16-bar music"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "4-1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Floor progression"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 4-1-2-3-4.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn a basic 16-bar sequence.",
+      "Functions as both a competitive sport and a social pastime.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Sequence dance",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Sequence dance.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: A seasoned ballroom dance teacher from a local dance club."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 4-1-2-3-4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Forward in CBMP (Contrary Body Movement Position)",
+      "Step 2: Side step"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "4-1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Close feet",
+      "Step 4: Backward step",
+      "RF Fwd in CBMP: Right foot forward in contrary body movement position."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "4-1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 4-1-2-3-4.",
+      "Full tempo, the whole sequence, twice. Formation: Progressive around the room"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Sequence dance.",
+      "John P. Bennett (author of 1995 paper on sequence dance for lifelong leisure).",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Sequence dance",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Sequence dance.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: A seasoned ballroom dance teacher from a local dance club."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 4-1-2-3-4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Close feet",
+      "Step 2: Backward step"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "4-1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "RF Fwd in CBMP: Right foot forward in contrary body movement position."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "4-1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 4-1-2-3-4.",
+      "Full tempo, the whole sequence, twice. Formation: Progressive around the room"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Sequence dance.",
+      "Old Time (Classical), Modern, and Latin American.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": "16-bar sequences with a 4-bar introduction",
+  "mood": [
+   "strict tempo"
+  ],
+  "sound_description": "Music is performed in strict tempo to match the 16-bar sequence structure of the dance.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Sequence dance (United Kingdom, Australia). Form: 16-bar sequences with a 4-bar introduction. Mood: strict tempo. It should sound like this: Music is performed in strict tempo to match the 16-bar sequence structure of the dance. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Performed in ballrooms, at Tea Dances, and in dance clubs. The British Sequence Championships are held in the Empress Ballroom, Winter Gardens, Blackpool.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AQuadrille_set_five_person_set_colonial_ball_at_the_Albert_Hall.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Quadrille_set_five_person_set_colonial_ball_at_the_Albert_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Quadrille_set_five_person_set_colonial_ball_at_the_Albert_Hall.jpg/1280px-Quadrille_set_five_person_set_colonial_ball_at_the_Albert_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Johnscotaus / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AQuadrille_set_five_person_set_colonial_ball_at_the_Albert_Hall.jpg",
+    "description": "Set dancing at Colonial Ball at the Albert Hall, Canberra presented by the Monaro Folk Society Sepia setting (2016"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Latown Sequence Dance Group presents Shall We Dance? (VHS)",
+    "url": "https://archive.org/details/ShallWeDance_201811",
+    "year": 2001,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Latown Sequence Dance Group presents Dance On (VHS)",
+    "url": "https://archive.org/details/DanceOn",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Empress Ballroom architecture",
+   "Dance script notation",
+   "Couples moving in unison"
+  ],
+  "costume_notes": "Performed in ballrooms, at Tea Dances, and in dance clubs. The British Sequence Championships are held in the Empress Ballroom, Winter Gardens, Blackpool.",
+  "setting_notes": "Functions as both a competitive sport and a social pastime. Competitions between teachers determine which new dances are officially adopted.",
+  "map": {
+   "country": "United Kingdom, Australia",
+   "region": "Global",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "2 tutorial(s) of the ballroom-partner family studied",
+  "videos_studied": 2,
+  "counting": "4-1-2-3-4",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "side replace close",
+   "rock replace side",
+   "side with the left",
+   "bring it in",
+   "switch weight",
+   "change weight onto the left"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "mistakes"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "posture, arms and hands",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sequence_dance",
+  "https://www.wikidata.org/wiki/Q7452463",
+  "https://archive.org/details/ERIC_ED381525",
+  "https://archive.org/details/micro_IA41153623_0730"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "hero_checked": null
+}

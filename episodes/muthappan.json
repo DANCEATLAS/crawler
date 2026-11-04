@@ -1,0 +1,396 @@
+{
+ "slug": "muthappan",
+ "name": "Muthappan",
+ "pack_version": "e1",
+ "built_at": "2026-11-04T19:23:00Z",
+ "researched_at": "2026-11-04T18:26:19Z",
+ "qc_score": 9.3,
+ "status": "withheld-chapters",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable Thiyyar community member experienced in Theyyam ritual and storytelling",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Muthappan"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Muthappan",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Muthappan: The Living God of Northern Kerala",
+     "This is Muthappan. historical and ongoing."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Muthappan · India · historical and ongoing"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Muthappan worship originated in the northern Malabar region of Kerala, India, particularly in the village of Eruvessy in Kannur district.",
+     "The deity is believed to be a personification of two divine figures, Thiruvappan and Vellatom, representing Shiva and Vishnu.",
+     "The Thiyyar community of Malabar performs all rituals and rites for Muthappan, considering him their ancestral deity."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Muthappan Theyyam is performed year-round in northern Kerala.",
+     "The annual Ulsavam festival at Parassinikkadavu Madappura begins with a procession led by a male member of the Thayyil clan of the Thiyyar community.",
+     "The deity is worshipped with offerings including toddy and fish, reflecting local customs.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Muthappan blessings a baby.webm (https://upload.wikimedia.org/wikipedia/commons/5/54/Muthappan_blessings_a_baby.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Signature moves — MISSING"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The ritual Theyyam performance of Muthappan involves singing and drumming typical of northern Kerala's Theyyam tradition.",
+     "Instruments likely include traditional drums used in Theyyam, but specific instruments or musical forms for Muthappan are not detailed in the sources.",
+     "Listen for the traditional Theyyam drums (implied).",
+     "The music of Muthappan Theyyam features ritual drumming and singing typical of northern Kerala's Theyyam tradition, creating an intense, devotional atmosphere."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Muthappan Theyyam performers wear elaborate costumes and face paint characteristic of Theyyam ritual.",
+     "The Vellattam form uses a round-shaped throne made of hay.",
+     "Madappuras, the temples dedicated to Muthappan, do not have idols or temple flagstaffs but are open-air shrines where the Theyyam is performed."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The Thiyyar community plays a central role in Muthappan worship as ritual performers and priests.",
+     "The Thayyil clan leads the annual Ulsavam festival procession at Parassinikkadavu.",
+     "Muthappan temples and worship exist primarily in Kannur and Kasaragod districts of Kerala and Coorg district of Karnataka.",
+     "Muthappan is a syncretic deity embodying Shiva and Vishnu, represented as Thiruvappan (Valiya Muthappan) and Vellatom (Cheriya Muthappan)."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Muthappan is parent of Theyyam: Muthappan worship is expressed through Theyyam, a ritual dance form of northern Kerala."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Muthappan worship involves sacred Theyyam rituals performed by the Thiyyar community; the deity is not represented by idols but through ritual embodiment. Outsiders should respect temple customs and the sacred nature of the dance."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the year-round Theyyam ritual of Muthappan, a deity embodying Shiva and Vishnu, whose worship breaks caste barriers in Kerala.",
+     "Sources: 3 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "traditional Theyyam drums (implied)"
+  ],
+  "vocal_style": "ritual singing invoking the deity",
+  "musical_form": null,
+  "mood": [
+   "devotional",
+   "invocatory",
+   "festive"
+  ],
+  "sound_description": "The music of Muthappan Theyyam features ritual drumming and singing typical of northern Kerala's Theyyam tradition, creating an intense, devotional atmosphere.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Muthappan (India). Instruments: traditional Theyyam drums (implied). Vocal style: ritual singing invoking the deity. Mood: devotional, invocatory, festive. It should sound like this: The music of Muthappan Theyyam features ritual drumming and singing typical of northern Kerala's Theyyam tradition, creating an intense, devotional atmosphere. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Muthappan Theyyam performers wear elaborate costumes and face paint characteristic of Theyyam ritual. The Vellattam form uses a round-shaped throne made of hay. Madappuras, the temples dedicated to Muthappan, do not have idols or temple flagstaffs but are open-air shrines where the Theyyam is performed. Dogs are present in and around the temple, symbolizing the deity's companions.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AMuthappan_vellaattam.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ASree_Muthappan_Kalasam_dance.JPG",
+    "https://commons.wikimedia.org/wiki/File%3AThiruvappana_closeup_-_1.JPG"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Muthappan_vellaattam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Muthappan_vellaattam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "User:Challiyan / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMuthappan_vellaattam.jpg",
+    "description": "Theyyam or Theyyaattam is a pattern of hero worship performed in Kolathunaad, a territory comprising the present Cannanore District and Badagara Taluk of Kerala State (North Kerala). It is a ritual and a folk-dance form supported by a vast literature of folk songs. Theyyam is a corruption for Deyvam - ‘God’. 'Aattam' means dance. Thus 'Theyyaattam' means the God’s Dance. \n\nThis is the Muthappan ve"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Sree_Muthappan_Kalasam_dance.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Sree_Muthappan_Kalasam_dance.JPG/1280px-Sree_Muthappan_Kalasam_dance.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Sreejithk2000 / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASree_Muthappan_Kalasam_dance.JPG",
+    "description": "Sree Muthappan Kalasam dance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Thiruvappana_closeup_-_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Thiruvappana_closeup_-_1.JPG/1280px-Thiruvappana_closeup_-_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Sreejithk2000 / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AThiruvappana_closeup_-_1.JPG",
+    "description": "Thiruvappana closeup"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Muthappan blessings a baby.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Muthappan_blessings_a_baby.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC0",
+    "attribution": "雄奇 / Wikimedia Commons / CC0"
+   },
+   {
+    "title": "Padayani: A Folk Dance of Kerala (Vol. II)",
+    "url": "https://archive.org/details/dni.ncaa.IGNCA-38-VHS",
+    "year": null,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "dog sculptures",
+   "round hay throne",
+   "colorful face paint",
+   "palm toddy",
+   "fish offerings"
+  ],
+  "costume_notes": "Muthappan Theyyam performers wear elaborate costumes and face paint characteristic of Theyyam ritual. The Vellattam form uses a round-shaped throne made of hay. Madappuras, the temples dedicated to Muthappan, do not have idols or temple flagstaffs but are open-air shrines where the Theyyam is performed. Dogs are present in and around the temple, symbolizing the deity's companions.",
+  "setting_notes": "Muthappan Theyyam is performed year-round in northern Kerala. The annual Ulsavam festival at Parassinikkadavu Madappura begins with a procession led by a male member of the Thayyil clan of the Thiyyar community. The deity is worshipped with offerings including toddy and fish, reflecting local customs. Muthappan is regarded as a protector of marginalized communities and is worshipped inclusively, with temple entry open to all castes and religions, including Muslims who participate in festivals.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "13 tutorials across the atlas studied",
+  "videos_studied": 13,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and one and three and five and seven",
+   "keep your feet together",
+   "relax your knees",
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "punch to the side",
+   "pull your head down",
+   "pivot them on your elbows",
+   "left foot",
+   "right foot"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "mistakes",
+   "music_practice",
+   "layering"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "the how-it-is-danced section",
+  "signature moves",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Muthappan",
+  "https://www.wikidata.org/wiki/Q1955916",
+  "https://de.wikipedia.org/wiki/Muttapan"
+ ],
+ "claims_verified": 10,
+ "claims": 10,
+ "polished": false,
+ "hero_checked": null
+}

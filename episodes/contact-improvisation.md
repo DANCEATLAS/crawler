@@ -1,6 +1,6 @@
 # Contact Improvisation — episode pack
 
-*Status: draft · built 2026-11-03 · judge 10.0 · 12/12 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-03 · judge 10.0 · 12/12 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed reference footage
 
@@ -11,31 +11,31 @@
 ## Episode 1 · Meet Contact Improvisation · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Physics of Touch
-NARRATION: This is Contact Improvisation. 1970s (established 1972).
+NARRATION: The physics of touch drives this movement.
+NARRATION: This is Contact Improvisation, established in 1972.
 ON SCREEN: Hero video, first 10 seconds (q4wUEiHowSU)
 ON SCREEN: Title card: Contact Improvisation · United States · 1970s (established 1972)
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Contact Improvisation was originated in 1972 by American dancer and choreographer Steve Paxton.
-NARRATION: During a tour with the Grand Union collective at Oberlin College in January 1972, Paxton taught morning somatic sessions termed the 'Small Dance' alongside athletic afternoon rehearsals exploring disorientation, falls, rolls, and collisions.
-NARRATION: This work produced 'Magnesium', a seminal performance on gym mats featuring young male students throwing their bodies into unbalance.
+NARRATION: American dancer and choreographer Steve Paxton originates Contact Improvisation in 1972.
+NARRATION: During a tour with the Grand Union collective at Oberlin College in January 1972, Paxton teaches morning somatic sessions called the Small Dance alongside athletic afternoon rehearsals that explore disorientation, falls, rolls, and collisions.
+NARRATION: This work produces Magnesium, a seminal performance on gym mats where young male students throw their bodies into unbalance.
 ON SCREEN: Map: United States · North America
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Emerging in the counter-cultural aftermath of the late 1960s, CI was conceived as an egalitarian, anti-spectacular practice echoing Yvonne Rainer's 'No Manifesto'.
-NARRATION: Rejecting choreographic hierarchy, theatrical illusion, and gendered partnering roles, CI frames dance as real-time physical research and mutual listening.
-NARRATION: It is practised globally in weekly community jams, multi-day residential festivals (such as the Breitenbush Jam and Earthdance gatherings), educational conservatories, and performance art venues.
+NARRATION: Emerging in the counter-cultural aftermath of the late 1960s, contact improvisation is conceived as an egalitarian, anti-spectacular practice that echoes Yvonne Rainer's No Manifesto.
+NARRATION: Rejecting choreographic hierarchy, theatrical illusion, and gendered partnering roles, the form frames dance as real-time physical research and mutual listening.
+NARRATION: Practitioners dance globally in weekly community jams, multi-day residential festivals like the Breitenbush Jam and Earthdance gatherings, educational conservatories, and performance art venues.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: The practice is built around an ongoing physical dialogue between two or more movers governed by gravity, momentum, friction, and shared weight.
+NARRATION: An ongoing physical dialogue between two or more movers unfolds, governed by gravity, momentum, friction, and shared weight.
 NARRATION: Rather than counting beats or executing fixed choreographic phrases, dancers maintain continuous physical contact, listening kinesthetically through a rolling point of touch.
-NARRATION: Watch for Small Dance, Aikido Roll, Table-Top.
+NARRATION: Watch for the Small Dance, the Aikido Roll, and the Table-Top.
 ON SCREEN: Hero video full screen, 30–45 s (q4wUEiHowSU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Fluid multi-directional pathways across the floor, often operating inside a circular 'round robin' boundary.
@@ -43,8 +43,8 @@ MUSIC: diegetic (the video's own sound), underscore under narration
 
 ### 5. Listen (70 s) · `music`
 NARRATION: Sources do not describe a specific musical tradition, meter, or prescribed musical accompaniment for Contact Improvisation.
-NARRATION: Historically, early performances like 'Contact Improvisations' at the John Weber Gallery were presented alongside ambient gallery elements and a concurrent film screening (George Manupelli's Dr. Chicago).
-NARRATION: Contact Improvisation has no set instrumentation, score, or tempo described in primary sources. Jams and stagings frequently unfold in complete acoustic silence punctuated only by audible breath, feet sliding on wood, clothes brushing against canvas or skin, and the dull thuds of body weight dropping onto sprung floors or mats.
+NARRATION: Early performances like Contact Improvisations at the John Weber Gallery take place alongside ambient gallery elements and a concurrent film screening of George Manupelli's Dr. Chicago.
+NARRATION: Contact Improvisation has no set instrumentation, score, or tempo described in primary sources, while jams and stagings unfold in complete acoustic silence punctuated only by audible breath, feet sliding on wood, clothes brushing against canvas or skin, and the dull thuds of body weight dropping onto sprung floors or mats.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -53,55 +53,55 @@ NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Participants dance casually in comfortable, non-restrictive clothing such as sweatpants, tracksuits, leotards, or loose T-shirts chosen specifically to facilitate movement and friction while avoiding zippers or hard hardware.
-NARRATION: CI takes place in open studios, residential dance centers, art galleries, bookstores, and theaters, usually on sprung wooden floors, gym mats, or tatami.
+NARRATION: Contact improvisation takes place in open studios, residential dance centers, art galleries, bookstores, and theaters, usually on sprung wooden floors, gym mats, or tatami.
 NARRATION: The physical environment is informal and non-hierarchical, designed for uninhibited rolling and floor work.
 ON SCREEN: Image gallery: 3 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 
 ### 7. The people (60 s) · `people`
-NARRATION: Key originators and organizers include founder Steve Paxton; Nancy Stark Smith, who danced in the earliest performances, established the 'Contact Newsletter', co-edited 'Contact Quarterly', and developed the 'Underscore'; Lisa Nelson, pioneer of the 'Tuning Scores' and video documentation; Nita Little and Curt Siddall (early Oberlin and Bennington collaborators); Daniel Lepkoff; Mary Fulkerson; Barbara Dilley; and Nancy Topf.
-NARRATION: Following its Manhattan debut, the practice dispersed through regional North American centers including New York, Boston, San Francisco, and Montreal.
-NARRATION: Developed out of 1960s postmodern dance, the Judson Dance Theater, and the Grand Union collective.
+NARRATION: Key originators and organizers include founder Steve Paxton, along with Nancy Stark Smith, who dances in the earliest performances, establishes the Contact Newsletter, co-edits Contact Quarterly, and develops the Underscore; Lisa Nelson, pioneer of Tuning Scores and video documentation; early Oberlin and Bennington collaborators Nita Little and Curt Siddall; Daniel Lepkoff; Mary Fulkerson; Barbara Dilley; and Nancy Topf.
+NARRATION: Following its Manhattan debut, the practice disperses through regional North American centers including New York, Boston, San Francisco, and Montreal.
+NARRATION: The form develops out of 1960s postmodern dance, the Judson Dance Theater, and the Grand Union collective.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Contact Improvisation is influence of Aikido: Steve Paxton drew directly upon aikido falling and rolling techniques to ensure safety during momentum-driven collisions.
-NARRATION: Contact Improvisation is parent of Modern dance: Paxton developed the form following his professional training in the companies of Merce Cunningham and José Limón.
-NARRATION: Contact Improvisation is parent of Judson Dance Theater: Rooted in the 1960s experimental collective where Paxton, Barbara Dilley, and Yvonne Rainer questioned the conventions of dance.
+NARRATION: Steve Paxton draws directly upon aikido falling and rolling techniques to ensure safety during momentum-driven collisions.
+NARRATION: Paxton develops the form following his professional training in the companies of Merce Cunningham and José Limón.
+NARRATION: The practice remains rooted in the 1960s experimental collective where Paxton, Barbara Dilley, and Yvonne Rainer question the conventions of dance.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. Small Dance: Stand upright in stillness, eyes open or soft, noticing micro-weight shifts and postural adjustments along the vertical axis.
-NARRATION: Aikido Roll: Soften knees, curve the spine diagonally, and roll smoothly across the floor across the diagonal of the back without striking bony prominences.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Stand upright in stillness with eyes open or soft, noticing micro-weight shifts and postural adjustments along the vertical axis during the Small Dance.
+NARRATION: Soften your knees, curve your spine diagonally, and roll smoothly across the floor along the diagonal of the back without striking bony prominences in the Aikido Roll.
+NARRATION: Count 1-2-3-4 then 5-6-7-8 across eight counts and two bars.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
 MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Inside an empty loft in 1972, a group of radical dancers threw away choreography to let pure momentum and gravity guide their bodies.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Inside an empty loft in 1972, a group of radical dancers throws away choreography to let pure momentum and gravity guide their bodies.
+NARRATION: Five references inform these details, and every claim is checked against its source.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
 ## Chapter 1 · First steps — Cultivate internal postural awareness and smooth floor rolling. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Cultivate internal postural awareness and smooth floor rolling..
-NARRATION: Level: Level 1: Sensing Gravity. Difficulty of the dance overall: intermediate.
-NARRATION: Your instructor: An experienced somatic practitioner who speaks with quiet precision, focusing on physical sensations, anatomy, and balance rather than theatrical presentation.
+NARRATION: Chapter 1 explores first steps, focusing today on cultivating internal postural awareness and smooth floor rolling.
+NARRATION: This is Level 1: Sensing Gravity, with an intermediate overall difficulty.
+NARRATION: An experienced somatic practitioner instructs with quiet precision, focusing on physical sensations, anatomy, and balance rather than theatrical presentation.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Relaxed, alert, and grounded with softened joints, ready to yield to gravity or absorb a partner's weight.
-NARRATION: Used primarily as responsive sensors and structural supports rather than decorative gestures; grasping is minimized in favor of continuous rolling contact.
-NARRATION: The primary fulcrum for weight exchange; rolling along the ribcage, pelvis, and back to share and redirect gravitational mass.
+NARRATION: Keep your body relaxed, alert, and grounded with softened joints, ready to yield to gravity or absorb a partner's weight.
+NARRATION: Use limbs primarily as responsive sensors and structural supports rather than decorative gestures, minimizing grasping in favor of continuous rolling contact.
+NARRATION: The ribcage, pelvis, and back serve as primary fulcrums for weight exchange, rolling to share and redirect gravitational mass.
 ON SCREEN: Instructor front then side view; freeze-frame on posture
 ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
@@ -115,19 +115,19 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Small Dance: Stand upright in stillness, eyes open or soft, noticing micro-weight shifts and postural adjustments along the vertical axis.
-NARRATION: Step 2: Aikido Roll: Soften knees, curve the spine diagonally, and roll smoothly across the floor across the diagonal of the back without striking bony prominences.
-NARRATION: Footwork from the sources: Uncodified, shifting fluidly between barefoot floor contact, weight-bearing lunges, and suspended flight.
-NARRATION: Drill: Stand in the Small Dance for 3 minutes, tracking micro-sways in the feet.
+NARRATION: Step 1 is the Small Dance: stand upright in stillness with eyes open or soft, noticing micro-weight shifts and postural adjustments along the vertical axis.
+NARRATION: Step 2 is the Aikido Roll: soften your knees, curve your spine diagonally, and roll smoothly across the floor across the diagonal of the back without striking bony prominences.
+NARRATION: Footwork remains uncodified, shifting fluidly between barefoot floor contact, weight-bearing lunges, and suspended flight.
+NARRATION: Drill this by standing in the Small Dance for 3 minutes, tracking micro-sways in the feet.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Table-Top Support: Drop to hands and knees with a stable spine, allowing a partner to drape or roll their torso across the back.
-NARRATION: Step 4: Rolling Point of Contact: Make physical touch with a partner's arm, back, or shoulder; move together without sliding, rolling the contact point continuously across surfaces.
-NARRATION: Drill: Practice aikido shoulder rolls along diagonal lines across the mat.
+NARRATION: Step 3 is Table-Top Support: drop to hands and knees with a stable spine, allowing a partner to drape or roll their torso across your back.
+NARRATION: Step 4 is the Rolling Point of Contact: make physical touch with a partner's arm, back, or shoulder, moving together without sliding while rolling the contact point continuously across surfaces.
+NARRATION: Drill this by practicing aikido shoulder rolls along diagonal lines across the mat.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -142,21 +142,21 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid stiffening joints, clinging with gripping hands, forcing choreographic intentions, or neglecting the partner's balance and safety cues.
+NARRATION: Avoid stiffening joints, clinging with gripping hands, forcing choreographic intentions, or neglecting your partner's balance and safety cues.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
-NARRATION: Full tempo, the whole sequence, twice.
+NARRATION: Count in with 1-2-3-4 then 5-6-7-8 for eight counts and two bars.
+NARRATION: Perform the whole sequence at full tempo twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Cultivate internal postural awareness and smooth floor rolling..
-NARRATION: Emerging in the counter-cultural aftermath of the late 1960s, CI was conceived as an egalitarian, anti-spectacular practice echoing Yvonne Rainer's 'No Manifesto'.
-NARRATION: Next: Chapter 2.
+NARRATION: You can now cultivate internal postural awareness and smooth floor rolling.
+NARRATION: Contact improvisation emerges in the counter-cultural aftermath of the late 1960s as an egalitarian, anti-spectacular practice echoing Yvonne Rainer's No Manifesto.
+NARRATION: Next is Chapter 2.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
@@ -164,16 +164,16 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — Maintain continuous physical touch and dynamic weight sharing. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: Maintain continuous physical touch and dynamic weight sharing..
-NARRATION: Level: Level 2: The Rolling Point of Contact. Difficulty of the dance overall: intermediate.
-NARRATION: Your instructor: An experienced somatic practitioner who speaks with quiet precision, focusing on physical sensations, anatomy, and balance rather than theatrical presentation.
+NARRATION: Chapter 2 builds the dance, focusing today on maintaining continuous physical touch and dynamic weight sharing.
+NARRATION: This is Level 2: The Rolling Point of Contact, with an intermediate overall difficulty.
+NARRATION: An experienced somatic practitioner instructs with quiet precision, focusing on physical sensations, anatomy, and balance rather than theatrical presentation.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Relaxed, alert, and grounded with softened joints, ready to yield to gravity or absorb a partner's weight.
-NARRATION: Used primarily as responsive sensors and structural supports rather than decorative gestures; grasping is minimized in favor of continuous rolling contact.
-NARRATION: The primary fulcrum for weight exchange; rolling along the ribcage, pelvis, and back to share and redirect gravitational mass.
+NARRATION: Keep your body relaxed, alert, and grounded with softened joints, ready to yield to gravity or absorb a partner's weight.
+NARRATION: Use limbs primarily as responsive sensors and structural supports rather than decorative gestures, minimizing grasping in favor of continuous rolling contact.
+NARRATION: The ribcage, pelvis, and back serve as primary fulcrums for weight exchange, rolling to share and redirect gravitational mass.
 ON SCREEN: Instructor front then side view; freeze-frame on posture
 ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
@@ -187,17 +187,17 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Surfing: Lie prone or crawl slowly while the partner drapes across the back, transferring weight and sliding over your rolling form.
-NARRATION: Drill: Palm-to-shoulder connection drill: follow a moving contact point across three body surfaces.
+NARRATION: Step 1 is Surfing: lie prone or crawl slowly while a partner drapes across your back, transferring weight and sliding over your rolling form.
+NARRATION: Drill this with a palm-to-shoulder connection, following a moving contact point across three body surfaces.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Small Dance: Standing meditative exploration paying deep attention to micro-weight transfers and postural corrections.
-NARRATION: Aikido Roll: Spherical floor tumbling technique adapted from martial arts to dissipate impact safely.
-NARRATION: Drill: Table-top drill: one partner holds hands-and-knees while the other drapes over the back.
+NARRATION: Practice the Small Dance through standing meditative exploration, paying deep attention to micro-weight transfers and postural corrections.
+NARRATION: Practice the Aikido Roll using spherical floor tumbling adapted from martial arts to dissipate impact safely.
+NARRATION: Drill the Table-Top position where one partner holds a hands-and-knees stance while the other drapes over the back.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -213,21 +213,21 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid stiffening joints, clinging with gripping hands, forcing choreographic intentions, or neglecting the partner's balance and safety cues.
+NARRATION: Avoid stiffening joints, clinging with gripping hands, forcing choreographic intentions, or neglecting your partner's balance and safety cues.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
-NARRATION: Full tempo, the whole sequence, twice. Formation: Fluid multi-directional pathways across the floor, often operating inside a circular 'round robin' boundary.
+NARRATION: Count in with 1-2-3-4 then 5-6-7-8 for eight counts and two bars.
+NARRATION: Perform the whole sequence at full tempo twice using fluid multi-directional pathways across the floor, often operating inside a circular round robin boundary.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Maintain continuous physical touch and dynamic weight sharing..
-NARRATION: Key originators and organizers include founder Steve Paxton; Nancy Stark Smith, who danced in the earliest performances, established the 'Contact Newsletter', co-edited 'Contact Quarterly', and developed the 'Underscore'; Lisa Nelson, pioneer of the 'Tuning Scores' and video documentation; Nita Little and Curt Siddall (early Oberlin and Bennington collaborators); Daniel Lepkoff; Mary Fulkerson; Barbara Dilley; and Nancy Topf.
-NARRATION: Next: Chapter 3.
+NARRATION: You can now maintain continuous physical touch and dynamic weight sharing.
+NARRATION: Key originators and organizers include founder Steve Paxton, Nancy Stark Smith, Lisa Nelson, Nita Little, Curt Siddall, Daniel Lepkoff, Mary Fulkerson, Barbara Dilley, and Nancy Topf.
+NARRATION: Next is Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
@@ -235,16 +235,16 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — Integrate momentum and spontaneous lifts in fluid partnering. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: Integrate momentum and spontaneous lifts in fluid partnering..
-NARRATION: Level: Level 3: Duet Flight and Fall. Difficulty of the dance overall: intermediate.
-NARRATION: Your instructor: An experienced somatic practitioner who speaks with quiet precision, focusing on physical sensations, anatomy, and balance rather than theatrical presentation.
+NARRATION: Chapter 3 dances the form fully, focusing today on integrating momentum and spontaneous lifts in fluid partnering.
+NARRATION: This is Level 3: Duet Flight and Fall, with an intermediate overall difficulty.
+NARRATION: An experienced somatic practitioner instructs with quiet precision, focusing on physical sensations, anatomy, and balance rather than theatrical presentation.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Relaxed, alert, and grounded with softened joints, ready to yield to gravity or absorb a partner's weight.
-NARRATION: Used primarily as responsive sensors and structural supports rather than decorative gestures; grasping is minimized in favor of continuous rolling contact.
-NARRATION: The primary fulcrum for weight exchange; rolling along the ribcage, pelvis, and back to share and redirect gravitational mass.
+NARRATION: Keep your body relaxed, alert, and grounded with softened joints, ready to yield to gravity or absorb a partner's weight.
+NARRATION: Use limbs primarily as responsive sensors and structural supports rather than decorative gestures, minimizing grasping in favor of continuous rolling contact.
+NARRATION: The ribcage, pelvis, and back serve as primary fulcrums for weight exchange, rolling to share and redirect gravitational mass.
 ON SCREEN: Instructor front then side view; freeze-frame on posture
 ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
@@ -258,9 +258,9 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Rolling Point of Contact: Make physical touch with a partner's arm, back, or shoulder; move together without sliding, rolling the contact point continuously across surfaces.
-NARRATION: Step 2: Surfing: Lie prone or crawl slowly while the partner drapes across the back, transferring weight and sliding over your rolling form.
-NARRATION: Drill: Hip-to-hip lift utilizing partner momentum and continuous rolling.
+NARRATION: Step 1 is the Rolling Point of Contact: make physical touch with a partner's arm, back, or shoulder, moving together without sliding while rolling the contact point continuously across surfaces.
+NARRATION: Step 2 is Surfing: lie prone or crawl slowly while a partner drapes across your back, transferring weight and sliding over your rolling form.
+NARRATION: Drill this with a hip-to-hip lift utilizing partner momentum and continuous rolling.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -286,21 +286,21 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid stiffening joints, clinging with gripping hands, forcing choreographic intentions, or neglecting the partner's balance and safety cues.
+NARRATION: Avoid stiffening joints, clinging with gripping hands, forcing choreographic intentions, or neglecting your partner's balance and safety cues.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
-NARRATION: Full tempo, the whole sequence, twice. Formation: Fluid multi-directional pathways across the floor, often operating inside a circular 'round robin' boundary.
+NARRATION: Count in with 1-2-3-4 then 5-6-7-8 for eight counts and two bars.
+NARRATION: Perform the whole sequence at full tempo twice using fluid multi-directional pathways across the floor, often operating inside a circular round robin boundary.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Integrate momentum and spontaneous lifts in fluid partnering..
-NARRATION: Developed out of 1960s postmodern dance, the Judson Dance Theater, and the Grand Union collective.
-NARRATION: You know the dance. Go and dance it with people.
+NARRATION: You can now integrate momentum and spontaneous lifts in fluid partnering.
+NARRATION: The practice develops out of 1960s postmodern dance, the Judson Dance Theater, and the Grand Union collective.
+NARRATION: You know the dance, so go and dance it with people.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)

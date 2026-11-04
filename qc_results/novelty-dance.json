@@ -1,0 +1,122 @@
+{
+ "slug": "novelty-dance",
+ "qc_at": "2026-11-04T18:42:14Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.35,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Novelty Dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "68"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "123"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the 1950s-70s US cities like New York and Detroit saw weekly new novelty danc"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "522"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2974"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/7 rate=0.857"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "6"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United States (origin), global (spread)"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "6 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 7,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "Novelty dances were featured in community halls in the 1930s with orchestras and prizes, showing their role in social entertainment."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "verdict": "reject",
+  "notes": "Fails is_a_dance criterion. 'Novelty Dance' is a broad category, genre, or umbrella term for fad dances rather than a single distinct dance tradition. Therefore, it cannot be published as a dance profile."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=8.35",
+  "doubts=1",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 6,
+  "rate": 0.857
+ },
+ "researched_at": "2026-11-04T18:07:15Z"
+}
