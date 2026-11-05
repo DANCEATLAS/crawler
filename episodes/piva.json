@@ -1,0 +1,823 @@
+{
+ "slug": "piva",
+ "name": "Piva",
+ "pack_version": "e1",
+ "built_at": "2026-11-05T19:35:32Z",
+ "researched_at": "2026-11-05T18:05:40Z",
+ "qc_score": 9.55,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A musicologist specializing in Renaissance dance notation.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Piva"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Piva",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Fastest Dance of the Renaissance",
+     "This is Piva. 15th-16th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Piva · Italy · 15th-16th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Piva originated as a folk dance associated with bagpipes, later becoming a formal dance type in 15th-century Italian courts.",
+     "It is documented in the works of early dance masters like Antonio Cornazzano and Domenico da Piacenza.",
+     "By the 16th century, it was frequently adapted for the lute, notably in the 1508 collection by Joan Ambrosio Dalza."
+    ],
+    "on_screen": [
+     "Map: Italy · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The Piva served as the final, fastest movement in early dance suites, following the Padoana and the Saltarello.",
+     "Today it is a historical tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Piva river underwater. Bottom covered in rocks and gravel.webm (https://upload.wikimedia.org/wikipedia/commons/e/ec/Piva_river_underwater._Bottom_covered_in_rocks_and_gravel.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Signature moves — MISSING"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is characterized by a rapid tempo and a 6/8 meter, often utilizing a simple rhythmic sequence of quarter and eighth notes.",
+     "Lute compositions from the 16th century are the primary surviving musical records, though the dance's name and origins link it to the bagpipe.",
+     "Listen for the lute, bagpipe.",
+     "The pulse is 6/8 or quadruple time.",
+     "A rapid, repetitive instrumental sound characterized by a simple rhythmic pulse of quarter and eighth notes, historically associated with the bagpipe or the lute."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Lute collection (1508) — Joan Ambrosio Dalza",
+     "Waveform or rhythm-pattern graphic: Simple sequence of quarter and eighth notes."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dance was performed in both folk festival settings and the courts of the nobility during the 15th and 16th centuries."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Antonio Cornazzano, Domenico da Piacenza, Giovanni Ambrosio, and Joan Ambrosio Dalza.",
+     "The Piva is part of a lineage of early dance suites, acting as the final, fastest movement following the Padoana and the Saltarello."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Piva is parent of basse danse: The Piva is described as the fastest version of the basse danse.",
+     "Piva is sibling of saltarello: Both are fast dances that appear in early dance suites."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow",
+    "needs": [
+     "teaching steps"
+    ]
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the Piva, a high-speed Italian dance that moved from the village square to the royal court.",
+     "Sources: 3 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "the first steps of Piva",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: the first steps of Piva.",
+      "Level: beginner. ",
+      "Your instructor: A musicologist specializing in Renaissance dance notation."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 2 counts off, 2 counts on. The meter is 6/8 or quadruple time.",
+      "Rhythm pattern: Simple sequence of quarter and eighth notes..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 2 counts off, 2 counts on.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the first steps of Piva.",
+      "The Piva served as the final, fastest movement in early dance suites, following the Padoana and the Saltarello.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Piva",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Piva.",
+      "Level: intermediate. ",
+      "Your instructor: A musicologist specializing in Renaissance dance notation."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 2 counts off, 2 counts on. The meter is 6/8 or quadruple time.",
+      "Rhythm pattern: Simple sequence of quarter and eighth notes..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 2 counts off, 2 counts on.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Piva.",
+      "Antonio Cornazzano, Domenico da Piacenza, Giovanni Ambrosio, and Joan Ambrosio Dalza.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Piva",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Piva.",
+      "Level: advanced. ",
+      "Your instructor: A musicologist specializing in Renaissance dance notation."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 2 counts off, 2 counts on. The meter is 6/8 or quadruple time.",
+      "Rhythm pattern: Simple sequence of quarter and eighth notes..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 2 counts off, 2 counts on.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Piva.",
+      "The Piva is part of a lineage of early dance suites, acting as the final, fastest movement following the Padoana and the Saltarello.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "6/8 or quadruple time",
+  "rhythm_pattern": "Simple sequence of quarter and eighth notes.",
+  "instruments": [
+   "lute",
+   "bagpipe"
+  ],
+  "vocal_style": null,
+  "musical_form": "Repetitive instrumental piece.",
+  "mood": [
+   "fast",
+   "energetic",
+   "repetitive"
+  ],
+  "sound_description": "A rapid, repetitive instrumental sound characterized by a simple rhythmic pulse of quarter and eighth notes, historically associated with the bagpipe or the lute.",
+  "listen_before_composing": [
+   "Lute collection (1508) — Joan Ambrosio Dalza"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Piva (Italy). Meter 6/8 or quadruple time. Rhythm pattern: Simple sequence of quarter and eighth notes.. Instruments: lute, bagpipe. Form: Repetitive instrumental piece.. Mood: fast, energetic, repetitive. It should sound like this: A rapid, repetitive instrumental sound characterized by a simple rhythmic pulse of quarter and eighth notes, historically associated with the bagpipe or the lute. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "The dance was performed in both folk festival settings and the courts of the nobility during the 15th and 16th centuries.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "File:Piva river underwater. Bottom covered in rocks and gravel.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Piva_river_underwater._Bottom_covered_in_rocks_and_gravel.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Liquid Art / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Two graylings (Thymallus thymallus) swimming at the confluence of the Tara and Piva rivers.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Two_graylings_%28Thymallus_thymallus%29_swimming_at_the_confluence_of_the_Tara_and_Piva_rivers.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Liquid Art / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:A grayling (Thymallus thymallus) swimming at the confluence of the Tara and Piva rivers close up.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/A_grayling_%28Thymallus_thymallus%29_swimming_at_the_confluence_of_the_Tara_and_Piva_rivers_close_up.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Liquid Art / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Piva river with a hanging bridge in the background.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Piva_river_with_a_hanging_bridge_in_the_background.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Liquid Art / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Brown Trout (Salmo truta morpha fario) in Piva River high angle surface shot.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Brown_Trout_%28Salmo_truta_morpha_fario%29_in_Piva_River_high_angle_surface_shot.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Liquid Art / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Common minnow (Phoxinus phoxinus) searching for food at the confluence of the Tara and Piva rivers.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Common_minnow_%28Phoxinus_phoxinus%29_searching_for_food_at_the_confluence_of_the_Tara_and_Piva_rivers.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Liquid Art / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "15th-century Italian court paintings",
+   "Lute tablature manuscripts",
+   "Historical bagpipe illustrations"
+  ],
+  "costume_notes": "The dance was performed in both folk festival settings and the courts of the nobility during the 15th and 16th centuries.",
+  "setting_notes": "The Piva served as the final, fastest movement in early dance suites, following the Padoana and the Saltarello.",
+  "map": {
+   "country": "Italy",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "2 tutorial(s) of the classical-court family studied",
+  "videos_studied": 2,
+  "counting": "2 counts off, 2 counts on",
+  "demonstration": [
+   "views used by most teachers: front, side",
+   "tempo progression: slow"
+  ],
+  "cues": [
+   "hold your placement",
+   "stay straight as a board",
+   "lift up in your lower abs",
+   "change feet"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "mistakes",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)",
+  "posture, arms and hands",
+  "the how-it-is-danced section",
+  "signature moves",
+  "teaching steps written out",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Piva_(dance)",
+  "https://www.wikidata.org/wiki/Q2097439",
+  "https://de.wikipedia.org/wiki/Piva_(Tanz)"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "hero_checked": null
+}

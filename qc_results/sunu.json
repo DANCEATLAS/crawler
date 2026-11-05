@@ -1,0 +1,119 @@
+{
+ "slug": "sunu",
+ "qc_at": "2026-11-05T19:11:27Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 10.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Ganggangsullae"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "76"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "184"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Under the full moon of the Chuseok harvest, women once used this circle dance as"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "340"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2913"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "South Korea"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,testament to"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ritual']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 10,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "An exemplary profile. It provides excellent historical context, clear technical descriptions of the 'jangdan' rhythmic progression, and respectful handling of the gendered nature of the tradition. The pedagogical adaptations are safe and well-aligned with the physical requirements of the dance."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "banned_phrasing",
+  "judge_score=10.0"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-05T19:01:29Z"
+}

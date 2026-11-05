@@ -1,0 +1,816 @@
+{
+ "slug": "vallenato",
+ "name": "Vallenato",
+ "pack_version": "e1",
+ "built_at": "2026-11-05T19:35:32Z",
+ "researched_at": "2026-11-05T18:07:06Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A local musician or historian from Valledupar.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Vallenato",
+   "Cumbia vallenata"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Vallenato",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Heartbeat of the Valley",
+     "This is Vallenato. Late 19th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Vallenato · Colombia · Late 19th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The genre originated with 19th-century cattle farmers and minstrels (juglares) who traveled the Magdalena Grande region.",
+     "It evolved through the integration of the German-origin accordion with Indigenous flutes and African percussion."
+    ],
+    "on_screen": [
+     "Map: Colombia · South America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "It serves as a tool for storytelling, news transmission, and building regional identity, often used to interpret the world through songs that mix realism and fantasy.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Vallenato is traditionally performed in social settings like parrandas.",
+     "While the music is often for listening, it incorporates rhythmic footwork and body movement that reflects the syncopated nature of the four primary airs.",
+     "Watch for Piqueria improvisation."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Informal social space, often in close proximity to the musicians."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The core ensemble consists of the caja vallenata (a small hand-played drum), the guacharaca (a ribbed wooden stick scraped with a fork), and the three-line button accordion.",
+     "Listen for the Accordion, Caja vallenata, Guacharaca.",
+     "The pulse is 2/4 for son and paseo; 6/8 for merengue and puya..",
+     "A distinctive, bright, and often melancholic sound led by the accordion, underpinned by the dry, percussive scrape of the guacharaca and the steady, hand-played beat of the caja."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: La Gota Fría — Emiliano Zuleta/Carlos Vives; La Gota Fria — Carlos Vives (1993)",
+     "Waveform or rhythm-pattern graphic: Syncopated patterns driven by the caja drum and the scraping of the guacharaca."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Traditionally performed in informal, intimate settings known as parrandas, or in large-scale public festivals like the Vallenato Legend Festival in Valledupar."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key figures include Rafael Escalona, Emiliano Zuleta, Lorenzo Morales, Alejo Durán, and modern ambassadors like Carlos Vives.",
+     "Variants include the 'Nueva Ola' (New Wave) which fuses traditional sounds with pop, rock, and electronic elements.",
+     "A fusion of Spanish décima poetry, African rhythmic drumming, and Indigenous flute traditions."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Vallenato is shares music of Cumbia: Both are foundational Caribbean Colombian genres often performed together."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Step-touch with a slight hip sway to the rhythm of the caja.",
+     "Weight shift between feet to match the 2/4 or 6/8 meter.",
+     "Count it: 5-6-7-8.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a small accordion and a wooden scraper became the voice of a nation.",
+     "Sources: 6 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Understand the basic rhythm.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Understand the basic rhythm..",
+      "Level: Beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: A local musician or historian from Valledupar."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Relaxed, upright, natural movement.",
+      "Natural, relaxed, often used for gesturing during storytelling.",
+      "Subtle hip movement reflecting the syncopation of the music."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 2/4 for son and paseo; 6/8 for merengue and puya..",
+      "Rhythm pattern: Syncopated patterns driven by the caja drum and the scraping of the guacharaca..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step-touch with a slight hip sway to the rhythm of the caja.",
+      "Step 2: Weight shift between feet to match the 2/4 or 6/8 meter.",
+      "Footwork from the sources: Small, rhythmic weight shifts following the beat.",
+      "Drill: Clapping the 2/4 beat."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Small, rhythmic steps forward and backward while maintaining a relaxed posture.",
+      "Drill: Walking to the tempo of a paseo."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Listening to the guacharaca pattern."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Exaggerated or overly choreographed movements that distract from the narrative content of the song."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated rhythmic tapping and swaying to the music. · For children: Rhythmic call-and-response game mimicking the piqueria."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated rhythmic tapping and swaying to the music.",
+      "For children: Rhythmic call-and-response game mimicking the piqueria."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand the basic rhythm..",
+      "It serves as a tool for storytelling, news transmission, and building regional identity, often used to interpret the world through songs that mix realism and fantasy.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Vallenato",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Vallenato.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: A local musician or historian from Valledupar."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Relaxed, upright, natural movement.",
+      "Natural, relaxed, often used for gesturing during storytelling.",
+      "Subtle hip movement reflecting the syncopation of the music."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 2/4 for son and paseo; 6/8 for merengue and puya..",
+      "Rhythm pattern: Syncopated patterns driven by the caja drum and the scraping of the guacharaca..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step-touch with a slight hip sway to the rhythm of the caja.",
+      "Step 2: Weight shift between feet to match the 2/4 or 6/8 meter."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Small, rhythmic steps forward and backward while maintaining a relaxed posture.",
+      "Piqueria improvisation: A verbal and rhythmic challenge between two singers."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Exaggerated or overly choreographed movements that distract from the narrative content of the song."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated rhythmic tapping and swaying to the music. · For children: Rhythmic call-and-response game mimicking the piqueria."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated rhythmic tapping and swaying to the music.",
+      "For children: Rhythmic call-and-response game mimicking the piqueria."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Informal social space, often in close proximity to the musicians."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Vallenato.",
+      "Key figures include Rafael Escalona, Emiliano Zuleta, Lorenzo Morales, Alejo Durán, and modern ambassadors like Carlos Vives.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Vallenato",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Vallenato.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: A local musician or historian from Valledupar."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Relaxed, upright, natural movement.",
+      "Natural, relaxed, often used for gesturing during storytelling.",
+      "Subtle hip movement reflecting the syncopation of the music."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 2/4 for son and paseo; 6/8 for merengue and puya..",
+      "Rhythm pattern: Syncopated patterns driven by the caja drum and the scraping of the guacharaca..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Weight shift between feet to match the 2/4 or 6/8 meter.",
+      "Step 2: Small, rhythmic steps forward and backward while maintaining a relaxed posture."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Piqueria improvisation: A verbal and rhythmic challenge between two singers."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Exaggerated or overly choreographed movements that distract from the narrative content of the song."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated rhythmic tapping and swaying to the music. · For children: Rhythmic call-and-response game mimicking the piqueria."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated rhythmic tapping and swaying to the music.",
+      "For children: Rhythmic call-and-response game mimicking the piqueria."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Informal social space, often in close proximity to the musicians."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Vallenato.",
+      "A fusion of Spanish décima poetry, African rhythmic drumming, and Indigenous flute traditions.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "2/4 for son and paseo; 6/8 for merengue and puya.",
+  "rhythm_pattern": "Syncopated patterns driven by the caja drum and the scraping of the guacharaca.",
+  "instruments": [
+   "Accordion",
+   "Caja vallenata",
+   "Guacharaca"
+  ],
+  "vocal_style": "Narrative, storytelling, often nostalgic or humorous.",
+  "musical_form": "Strophic songs, often incorporating improvised verses (piqueria).",
+  "mood": [
+   "Nostalgic",
+   "Joyful",
+   "Sarcastic",
+   "Humorous"
+  ],
+  "sound_description": "A distinctive, bright, and often melancholic sound led by the accordion, underpinned by the dry, percussive scrape of the guacharaca and the steady, hand-played beat of the caja.",
+  "listen_before_composing": [
+   "La Gota Fría — Emiliano Zuleta/Carlos Vives",
+   "La Gota Fria — Carlos Vives (1993)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Vallenato (Colombia). Meter 2/4 for son and paseo; 6/8 for merengue and puya.. Rhythm pattern: Syncopated patterns driven by the caja drum and the scraping of the guacharaca.. Instruments: Accordion, Caja vallenata, Guacharaca. Vocal style: Narrative, storytelling, often nostalgic or humorous.. Form: Strophic songs, often incorporating improvised verses (piqueria).. Mood: Nostalgic, Joyful, Sarcastic, Humorous. It should sound like this: A distinctive, bright, and often melancholic sound led by the accordion, underpinned by the dry, percussive scrape of the guacharaca and the steady, hand-played beat of the caja. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Traditionally performed in informal, intimate settings known as parrandas, or in large-scale public festivals like the Vallenato Legend Festival in Valledupar.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABalafon_Jamie.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Balafon_Jamie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/80/Balafon_Jamie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Jamie Price / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABalafon_Jamie.jpg",
+    "description": "And more love."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "The Sierra Nevada mountains",
+   "The accordion bellows",
+   "The guacharaca scraper"
+  ],
+  "costume_notes": "Traditionally performed in informal, intimate settings known as parrandas, or in large-scale public festivals like the Vallenato Legend Festival in Valledupar.",
+  "setting_notes": "It serves as a tool for storytelling, news transmission, and building regional identity, often used to interpret the world through songs that mix realism and fantasy.",
+  "map": {
+   "country": "Colombia",
+   "region": "South America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "4 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 4,
+  "counting": "5-6-7-8",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "keep those abs pulled in",
+   "engage all the muscles",
+   "keep those shoulders down",
+   "control control",
+   "crazy train"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "count_in",
+   "breakdown",
+   "slow_practice",
+   "follow_along",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Vallenato",
+  "https://www.wikidata.org/wiki/Q1574985",
+  "https://es.wikipedia.org/wiki/Vallenato",
+  "https://fr.wikipedia.org/wiki/Vallenato",
+  "https://pt.wikipedia.org/wiki/Vallenato",
+  "https://ich.unesco.org/en/USL/01095"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "hero_checked": null
+}

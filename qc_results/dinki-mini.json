@@ -1,0 +1,130 @@
+{
+ "slug": "dinki-mini",
+ "qc_at": "2026-11-05T19:11:41Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 1.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Dinki Mini"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "24"
+  },
+  {
+   "gate": "insight_len",
+   "ok": false,
+   "detail": "24"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "not described in sources"
+  },
+  {
+   "gate": "profile_len",
+   "ok": false,
+   "detail": "24"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "24"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "0/0 rate=0.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Not described in sources."
+  },
+  {
+   "gate": "region",
+   "ok": false,
+   "detail": "St. Mary"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "0 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 1,
+  "respect": 1,
+  "specificity": 1,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The entire profile consists of placeholder text 'not described in sources'."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 1,
+  "verdict": "reject",
+  "notes": "The profile contains no actual information, consisting entirely of placeholder text. It fails to describe a dance tradition or provide any verifiable content."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "country",
+  "insight_len",
+  "insight_concrete",
+  "profile_len",
+  "profile_long_len",
+  "sections_filled",
+  "region",
+  "judge_score=1.0",
+  "doubts=1",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 0,
+  "supported": 0,
+  "rate": 0.0
+ },
+ "researched_at": "2026-11-05T19:05:25Z"
+}

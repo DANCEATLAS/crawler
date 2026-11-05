@@ -1,0 +1,118 @@
+{
+ "slug": "chiapanecas",
+ "qc_at": "2026-11-05T19:11:36Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Chiapanecas"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "56"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "207"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Composed in 1897 by Bulmaro López Fernández, this melody evolved from a private "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "399"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2795"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Mexico"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Central America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['possession']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is historically rigorous and well-sourced. However, it lacks practical teaching value because the actual dance steps are not documented in the provided evidence. It is a strong cultural profile but a weak instructional guide for a dancer."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=8.1"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-05T19:04:39Z"
+}

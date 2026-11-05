@@ -1,0 +1,119 @@
+{
+ "slug": "kalela",
+ "qc_at": "2026-11-05T19:11:29Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Kalela"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "74"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "198"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the Copperbelt of 1950s Zambia, mine workers transformed traditional dance in"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "438"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2273"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Zambia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ceremon', 'funeral']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "The profile is exceptionally well-researched, accurately reflecting J. Clyde Mitchell's seminal anthropological work on the Kalela dance. It maintains a respectful tone, avoids exoticism, and provides clear, actionable teaching guidance while acknowledging the limitations of available source material regarding costume and specific musical notation."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.85",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-05T19:01:47Z"
+}

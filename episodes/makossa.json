@@ -1,0 +1,816 @@
+{
+ "slug": "makossa",
+ "name": "makossa",
+ "pack_version": "e1",
+ "built_at": "2026-11-05T19:35:32Z",
+ "researched_at": "2026-11-05T17:53:16Z",
+ "qc_score": 8.7,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A Cameroonian music historian or dance practitioner",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "makossa"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet makossa",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Beat That Conquered the World",
+     "This is makossa. 20th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: makossa · Cameroon · 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Makossa originated in Douala in the 1950s, evolving from the traditional 'kossa' dance.",
+     "It was shaped by the confluence of local rhythms like ambasse bey and assiko with international genres such as highlife, merengue, and Congolese rumba."
+    ],
+    "on_screen": [
+     "Map: Cameroon · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally a social dance to stimulate energy and joy, it became a symbol of cultural sovereignty during the independence era.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Female Makossa Dancer - Enugu State - Nigeria.webm (https://upload.wikimedia.org/wikipedia/commons/d/de/Female_Makossa_Dancer_-_Enugu_State_-_Nigeria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance involves energetic and suggestive hip movements, particularly during the high-intensity 'secousse' section of the music.",
+     "Watch for Secousse."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music features a strong electric bass, prominent brass sections, guitars, and bottle percussion.",
+     "It is typically in 4/4 time with a tempo of 130-170 BPM.",
+     "Listen for the electric bass, guitar, brass section, bottle (idiophone).",
+     "The pulse is 4/4 at about 150 beats a minute.",
+     "A driving, bass-heavy sound characterized by tight brass arrangements, syncopated guitar picking, and the rhythmic use of a bottle as percussion."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Soul Makossa — Manu Dibango; Zamina mina (Zangalewa) — Golden Sounds; Soul Makossa — Manu Dibango (1994)",
+     "Waveform or rhythm-pattern graphic: Syncopated and jerky, influenced by assiko and rumba"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Historically associated with urban 'palm wine bars' and popular balls known as 'bol' in Douala."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Manu Dibango, Emmanuel Nelle Eyoum, Eboa Lotin, François Missé Ngoh, Ekambi Brillant, Sam Fan Thomas.",
+     "Makassi is a lighter, more commercial variation of makossa popularized in the 1980s.",
+     "Derived from the Duala dance 'kossa'; influenced by ambasse bey, assiko, highlife, Congolese rumba, funk, and disco."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "makossa is parent of assiko: Makossa is considered a slowed-down version of assiko.",
+     "makossa is sibling of soukous: Both genres share strong bass and brass elements."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow",
+    "needs": [
+     "teaching steps"
+    ]
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a simple shout in a Douala neighborhood became the most sampled rhythm in music history.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Understand the 4/4 rhythm",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Understand the 4/4 rhythm.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A Cameroonian music historian or dance practitioner"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Suggestive hip movements"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8 and 1-2-3-4-5-6-7. The meter is 4/4.",
+      "Rhythm pattern: Syncopated and jerky, influenced by assiko and rumba.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 105 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Clapping to the 4/4 beat"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 and 1-2-3-4-5-6-7",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Identifying the bass groove"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 and 1-2-3-4-5-6-7",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 150 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand the 4/4 rhythm.",
+      "Originally a social dance to stimulate energy and joy, it became a symbol of cultural sovereignty during the independence era.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of makossa",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of makossa.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A Cameroonian music historian or dance practitioner"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Suggestive hip movements"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8 and 1-2-3-4-5-6-7. The meter is 4/4.",
+      "Rhythm pattern: Syncopated and jerky, influenced by assiko and rumba.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 105 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 and 1-2-3-4-5-6-7",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Secousse: A frenzied part of the composition where dancers increase their fervency."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 and 1-2-3-4-5-6-7",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 150 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of makossa.",
+      "Manu Dibango, Emmanuel Nelle Eyoum, Eboa Lotin, François Missé Ngoh, Ekambi Brillant, Sam Fan Thomas.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of makossa",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of makossa.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A Cameroonian music historian or dance practitioner"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Suggestive hip movements"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8 and 1-2-3-4-5-6-7. The meter is 4/4.",
+      "Rhythm pattern: Syncopated and jerky, influenced by assiko and rumba.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 105 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 and 1-2-3-4-5-6-7",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Secousse: A frenzied part of the composition where dancers increase their fervency."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8 and 1-2-3-4-5-6-7",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 150 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of makossa.",
+      "Derived from the Duala dance 'kossa'; influenced by ambasse bey, assiko, highlife, Congolese rumba, funk, and disco.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": 150,
+  "meter": "4/4",
+  "rhythm_pattern": "Syncopated and jerky, influenced by assiko and rumba",
+  "instruments": [
+   "electric bass",
+   "guitar",
+   "brass section",
+   "bottle (idiophone)",
+   "drum set",
+   "synthesizers"
+  ],
+  "vocal_style": "Lead vocalist with a choir of backup singers",
+  "musical_form": "Verse-chorus with instrumental breaks (sebene)",
+  "mood": [
+   "energetic",
+   "frenzied",
+   "syncopated",
+   "joyful"
+  ],
+  "sound_description": "A driving, bass-heavy sound characterized by tight brass arrangements, syncopated guitar picking, and the rhythmic use of a bottle as percussion.",
+  "listen_before_composing": [
+   "Soul Makossa — Manu Dibango",
+   "Zamina mina (Zangalewa) — Golden Sounds",
+   "Soul Makossa — Manu Dibango (1994)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of makossa (Cameroon). Meter 4/4. Tempo about 150 bpm. Rhythm pattern: Syncopated and jerky, influenced by assiko and rumba. Instruments: electric bass, guitar, brass section, bottle (idiophone), drum set, synthesizers. Vocal style: Lead vocalist with a choir of backup singers. Form: Verse-chorus with instrumental breaks (sebene). Mood: energetic, frenzied, syncopated, joyful. It should sound like this: A driving, bass-heavy sound characterized by tight brass arrangements, syncopated guitar picking, and the rhythmic use of a bottle as percussion. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 105
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 150
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Historically associated with urban 'palm wine bars' and popular balls known as 'bol' in Douala.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AFemale_Makossa_Dancer_-_Enugu_State_-_Nigeria_-_01.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Female_Makossa_Dancer_-_Enugu_State_-_Nigeria_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Female_Makossa_Dancer_-_Enugu_State_-_Nigeria_-_01.jpg/1280px-Female_Makossa_Dancer_-_Enugu_State_-_Nigeria_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Arch-Angel Raphael the Artist / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AFemale_Makossa_Dancer_-_Enugu_State_-_Nigeria_-_01.jpg",
+    "description": "This is an image from"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Female Makossa Dancer - Enugu State - Nigeria.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Female_Makossa_Dancer_-_Enugu_State_-_Nigeria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Arch-Angel Raphael the Artist / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Male Makossa Dancer - Industrial Chemistry (ICH) Department Award Night Dance - Enugu State University of Science and Technology (ESUT) - Enugu State - Nigeria.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Male_Makossa_Dancer_-_Industrial_Chemistry_%28ICH%29_Department_Award_Night_Dance_-_Enugu_State_University_of_Science_and_Technology_%28ESUT%29_-_Enugu_State_-_Nigeria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Arch-Angel Raphael the Artist / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "MARLOZ DANCE VIDEO MIX VOL. 114 Disco & Funk!",
+    "url": "https://archive.org/details/MARLOZDANCEVIDEOMIXVOL.114DiscoFunk",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "AFRICA DANCE 5 (2005) – 24 CLIPS | Compilation Africaine – DVD COMPLET",
+    "url": "https://archive.org/details/africa-dance-5-complet",
+    "year": 2005,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Urban Douala streets",
+   "Vintage guitar equipment",
+   "Bottle percussion"
+  ],
+  "costume_notes": "Historically associated with urban 'palm wine bars' and popular balls known as 'bol' in Douala.",
+  "setting_notes": "Originally a social dance to stimulate energy and joy, it became a symbol of cultural sovereignty during the independence era.",
+  "map": {
+   "country": "Cameroon",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "3 tutorial(s) of the african-diaspora family studied",
+  "videos_studied": 3,
+  "counting": "5-6-7-8 and 1-2-3-4-5-6-7",
+  "demonstration": [
+   "views used by most teachers: back, front",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "left foot",
+   "right foot",
+   "step",
+   "touch",
+   "stomp off",
+   "push",
+   "5-6-7-8-hold",
+   "lets build it up",
+   "now put them together",
+   "stomp spank step",
+   "stomp spank ball change",
+   "step toe step hop step hop out in"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "layering",
+   "full_demo"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a hero video",
+  "licensed images (3 needed)",
+  "teaching steps written out",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Makossa",
+  "https://www.wikidata.org/wiki/Q1815364",
+  "https://es.wikipedia.org/wiki/Makossa",
+  "https://fr.wikipedia.org/wiki/Makossa",
+  "https://pt.wikipedia.org/wiki/Makossa"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "hero_checked": null
+}

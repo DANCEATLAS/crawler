@@ -1,0 +1,808 @@
+{
+ "slug": "letkajenkka",
+ "name": "Letkajenkka",
+ "pack_version": "e1",
+ "built_at": "2026-11-05T19:35:32Z",
+ "researched_at": "2026-11-05T17:59:37Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Energetic, clear, and focused on group coordination.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Letkajenkka",
+   "Letkis",
+   "Letkajenka"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Letkajenkka",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Letkis Craze: Finland's Global Line Dance",
+     "This is Letkajenkka. 1960s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Letkajenkka · Finland · 1960s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The letkajenkka originated in Finland in 1963, evolving from the traditional Jenkka folk dance.",
+     "Composers Erik Lindström and Rauno Lehtinen were instrumental in popularizing the genre by blending traditional structures with modern instrumentation.",
+     "The dance craze spread rapidly across Europe, reaching its height by 1965."
+    ],
+    "on_screen": [
+     "Map: Finland · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance served as a social novelty and a popular craze in the mid-1960s.",
+     "It was used for entertainment and group participation rather than ritual or sacred purposes.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Participants form a conga-style line, holding the shoulders or waist of the person in front.",
+     "The sequence involves kicking the left foot twice, the right foot twice, followed by a jump forward, a jump backward, and three jumps forward.",
+     "Watch for Side Kick, Forward/Backward Jump."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Conga line or circle."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is based on the Jenkka rhythm, typically in 4/4 time.",
+     "It features a mix of traditional folk elements and 1960s pop instrumentation, including electric guitars, bass, drums, and brass sections.",
+     "Listen for the Electric guitar, Bass, Drums, Brass.",
+     "The pulse is 4/4.",
+     "A blend of traditional folk melodies played with modern 1960s pop-rock instrumentation, characterized by a bouncy, skipping rhythm."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Letkajenkka — Erik Lindström; Letkis — Rauno Lehtinen",
+     "Waveform or rhythm-pattern graphic: Three quarter notes followed by a quarter rest or two quarter notes followed by a dotted quarter note."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "There is no specific traditional costume; dancers typically wore 1960s casual attire.",
+     "It was performed in clubs, schools, and public squares."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Erik Lindström (composer), Rauno Lehtinen (composer), Roberto Delgado (musician), Myriam Michelson (dancer/promoter).",
+     "Internationally known as 'Letkiss' or 'Let's Kiss'.",
+     "The letkajenkka is a descendant of the traditional Finnish Jenkka and shares structural similarities with the American Bunny Hop."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Letkajenkka is parent of Jenkka: Letkajenkka is a modern adaptation of this traditional Finnish folk dance.",
+     "Letkajenkka is influence of Bunny Hop: The choreography of the letkajenkka is based on the steps of the Bunny Hop."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Kick left foot to the left twice.",
+     "Kick right foot to the right twice.",
+     "Count it: 5-6-7-8.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a simple Finnish folk-pop hybrid became a worldwide sensation in the mid-1960s.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic kick sequence.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic kick sequence..",
+      "Level: Beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: Energetic, clear, and focused on group coordination."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, maintaining contact with the person in front.",
+      "Hands on the shoulders or waist of the person in front.",
+      "Minimal movement, focus on leg and foot action."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 4/4.",
+      "Rhythm pattern: Three quarter notes followed by a quarter rest or two quarter notes followed by a dotted quarter note..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Kick left foot to the left twice.",
+      "Step 2: Kick right foot to the right twice.",
+      "Footwork from the sources: Kicks to the side, jumps forward and backward.",
+      "Drill: Practice left/right kicks in place."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Jump forward with both feet.",
+      "Step 4: Jump backward with both feet.",
+      "Drill: Practice the jump sequence."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Combine kicks and jumps."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid breaking the line or losing rhythm with the group."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the kicks while seated, focusing on leg extensions. · For children: Play as a 'follow the leader' game in a line."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the kicks while seated, focusing on leg extensions.",
+      "For children: Play as a 'follow the leader' game in a line."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic kick sequence..",
+      "The dance served as a social novelty and a popular craze in the mid-1960s.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Letkajenkka",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Letkajenkka.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: Energetic, clear, and focused on group coordination."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, maintaining contact with the person in front.",
+      "Hands on the shoulders or waist of the person in front.",
+      "Minimal movement, focus on leg and foot action."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 4/4.",
+      "Rhythm pattern: Three quarter notes followed by a quarter rest or two quarter notes followed by a dotted quarter note..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Jump forward three times."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Side Kick: Kick to the side while balancing on the supporting leg.",
+      "Forward/Backward Jump: Synchronized jump with both feet together."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid breaking the line or losing rhythm with the group."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the kicks while seated, focusing on leg extensions. · For children: Play as a 'follow the leader' game in a line."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the kicks while seated, focusing on leg extensions.",
+      "For children: Play as a 'follow the leader' game in a line."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Conga line or circle."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Letkajenkka.",
+      "Erik Lindström (composer), Rauno Lehtinen (composer), Roberto Delgado (musician), Myriam Michelson (dancer/promoter).",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Letkajenkka",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Letkajenkka.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: Energetic, clear, and focused on group coordination."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, maintaining contact with the person in front.",
+      "Hands on the shoulders or waist of the person in front.",
+      "Minimal movement, focus on leg and foot action."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 4/4.",
+      "Rhythm pattern: Three quarter notes followed by a quarter rest or two quarter notes followed by a dotted quarter note..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Jump backward with both feet.",
+      "Step 2: Jump forward three times."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Side Kick: Kick to the side while balancing on the supporting leg.",
+      "Forward/Backward Jump: Synchronized jump with both feet together."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid breaking the line or losing rhythm with the group."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the kicks while seated, focusing on leg extensions. · For children: Play as a 'follow the leader' game in a line."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the kicks while seated, focusing on leg extensions.",
+      "For children: Play as a 'follow the leader' game in a line."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Conga line or circle."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Letkajenkka.",
+      "The letkajenkka is a descendant of the traditional Finnish Jenkka and shares structural similarities with the American Bunny Hop.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "4/4",
+  "rhythm_pattern": "Three quarter notes followed by a quarter rest or two quarter notes followed by a dotted quarter note.",
+  "instruments": [
+   "Electric guitar",
+   "Bass",
+   "Drums",
+   "Brass",
+   "Clarinet"
+  ],
+  "vocal_style": "Instrumental focus, though some versions include lyrics.",
+  "musical_form": "Consistent with traditional Jenkka structure.",
+  "mood": [
+   "Upbeat",
+   "Playful",
+   "Rhythmic"
+  ],
+  "sound_description": "A blend of traditional folk melodies played with modern 1960s pop-rock instrumentation, characterized by a bouncy, skipping rhythm.",
+  "listen_before_composing": [
+   "Letkajenkka — Erik Lindström",
+   "Letkis — Rauno Lehtinen"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Letkajenkka (Finland). Meter 4/4. Rhythm pattern: Three quarter notes followed by a quarter rest or two quarter notes followed by a dotted quarter note.. Instruments: Electric guitar, Bass, Drums, Brass, Clarinet. Vocal style: Instrumental focus, though some versions include lyrics.. Form: Consistent with traditional Jenkka structure.. Mood: Upbeat, Playful, Rhythmic. It should sound like this: A blend of traditional folk melodies played with modern 1960s pop-rock instrumentation, characterized by a bouncy, skipping rhythm. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "There is no specific traditional costume; dancers typically wore 1960s casual attire. It was performed in clubs, schools, and public squares.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Conga lines in 1960s footage",
+   "Vintage record covers",
+   "Modern group dancing"
+  ],
+  "costume_notes": "There is no specific traditional costume; dancers typically wore 1960s casual attire. It was performed in clubs, schools, and public squares.",
+  "setting_notes": "The dance served as a social novelty and a popular craze in the mid-1960s. It was used for entertainment and group participation rather than ritual or sacred purposes.",
+  "map": {
+   "country": "Finland",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "4 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 4,
+  "counting": "5-6-7-8",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "keep those abs pulled in",
+   "engage all the muscles",
+   "keep those shoulders down",
+   "control control",
+   "crazy train"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "count_in",
+   "breakdown",
+   "slow_practice",
+   "follow_along",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Letkajenkka",
+  "https://www.wikidata.org/wiki/Q1859644",
+  "https://fr.wikipedia.org/wiki/Letkiss",
+  "https://de.wikipedia.org/wiki/Letkiss",
+  "https://it.wikipedia.org/wiki/Letkiss"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "hero_checked": null
+}

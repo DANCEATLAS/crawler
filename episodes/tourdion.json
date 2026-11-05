@@ -1,0 +1,814 @@
+{
+ "slug": "tourdion",
+ "name": "Tourdion",
+ "pack_version": "e1",
+ "built_at": "2026-11-05T19:35:32Z",
+ "researched_at": "2026-11-05T17:52:57Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A historical dance specialist with a focus on Renaissance treatises.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Tourdion",
+   "tordion",
+   "tordiglione"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Tourdion",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Twist of the Renaissance",
+     "This is Tourdion. 16th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Tourdion · France · 16th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The tourdion originated in the Burgundian court in the mid-15th century and remained popular in France until the late-16th century.",
+     "It is documented in early treatises such as Antonius de Arena's 1519 Ad suos compagnos and Thoinot Arbeau's 1589 Orchésographie."
+    ],
+    "on_screen": [
+     "Map: France · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The tourdion served as a social court dance, often performed as the second part of a dance suite following a basse danse to provide a contrast in tempo.",
+     "Today it is a historical tradition."
+    ],
+    "on_screen": [
+     "Footage: Medieval Music vol.3 (1000-1450) (https://archive.org/details/youtube-I8CW7P4k7II)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is based on the 'cinq pas' (five-step) sequence.",
+     "It involves alternating between 'posture droit' and 'posture gauche,' utilizing 'pied en l'air' (kicks) and 'petit saut' (small hops), concluding with a 'saut moyen' to transition postures.",
+     "Watch for Cinq pas, Saut moyen."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Couple dance, moving through the space."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is in triple meter and is characterized by a rapid, light tempo.",
+     "It was frequently published for lute or as four-part vocal arrangements, most notably in the 1530 collections by Pierre Attaingnant.",
+     "Listen for the Lute, Voice.",
+     "The pulse is Triple meter.",
+     "A brisk, triple-meter melody that feels lighter and more concise than the galliard, often featuring repetitive, danceable phrases."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: La Magdalena — Pierre Attaingnant (collection)",
+     "Waveform or rhythm-pattern graphic: Rapid and light, often consisting of four motifs of six pulses."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Pierre Attaingnant (publisher), Thoinot Arbeau (theorist), Antonius de Arena (theorist), César Geoffray (arranger).",
+     "Known as 'tordiglione' or 'dordiglione' in Italy, where it featured more ornate, improvised footwork as documented by Caroso and Negri.",
+     "Related to the galliard, sharing similar musical airs but differing in the height and intensity of the steps."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Tourdion is sibling of Galliard: Shares the same musical air but differs in tempo and the height of the jumps.",
+     "Tourdion is shares music of Basse danse: Often paired with the tourdion due to their contrasting tempi."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Assume posture gauche (left foot forward, weight even).",
+     "Perform a pied en l'air droit (right foot kick) with a simultaneous petit saut (small hop) on the left foot.",
+     "Count it: 2 counts off, 2 counts on.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the rapid, low-to-the-ground dance that defined French court life before the galliard took center stage.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic weight shift.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic weight shift..",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A historical dance specialist with a focus on Renaissance treatises."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, with weight evenly distributed between feet."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 2 counts off, 2 counts on. The meter is Triple meter.",
+      "Rhythm pattern: Rapid and light, often consisting of four motifs of six pulses..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Assume posture gauche (left foot forward, weight even).",
+      "Step 2: Perform a pied en l'air droit (right foot kick) with a simultaneous petit saut (small hop) on the left foot.",
+      "Footwork from the sources: Cinq pas (five steps) involving small kicks (pied en l'air) and hops (petit saut).",
+      "Drill: Practice shifting weight between feet."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Perform a pied en l'air gauche (left foot kick) with a simultaneous petit saut on the right foot.",
+      "Step 4: Repeat the two kicks.",
+      "Drill: Small hops on one foot."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "High, heavy leaps; the movement should remain 'bas et par terre'."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the 'cinq pas' rhythm with feet and hands while seated. · For children: A 'follow-the-leader' game mimicking the small kicks and hops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 'cinq pas' rhythm with feet and hands while seated.",
+      "For children: A 'follow-the-leader' game mimicking the small kicks and hops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 2 counts off, 2 counts on.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic weight shift..",
+      "The tourdion served as a social court dance, often performed as the second part of a dance suite following a basse danse to provide a contrast in tempo.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Coordinate the 'cinq pas'.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Coordinate the 'cinq pas'..",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A historical dance specialist with a focus on Renaissance treatises."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, with weight evenly distributed between feet."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 2 counts off, 2 counts on. The meter is Triple meter.",
+      "Rhythm pattern: Rapid and light, often consisting of four motifs of six pulses..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Perform a saut moyen (small jump) to land in posture droit.",
+      "Drill: Combine kick and hop."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Cinq pas: A five-step sequence consisting of two kicks, two hops, and a final jump.",
+      "Saut moyen: A small jump that transitions the dancer into the opposite posture.",
+      "Drill: Sequence the four kicks."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "High, heavy leaps; the movement should remain 'bas et par terre'."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the 'cinq pas' rhythm with feet and hands while seated. · For children: A 'follow-the-leader' game mimicking the small kicks and hops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 'cinq pas' rhythm with feet and hands while seated.",
+      "For children: A 'follow-the-leader' game mimicking the small kicks and hops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 2 counts off, 2 counts on.",
+      "Full tempo, the whole sequence, twice. Formation: Couple dance, moving through the space."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Coordinate the 'cinq pas'..",
+      "Pierre Attaingnant (publisher), Thoinot Arbeau (theorist), Antonius de Arena (theorist), César Geoffray (arranger).",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Maintain speed and posture.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Maintain speed and posture..",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A historical dance specialist with a focus on Renaissance treatises."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, with weight evenly distributed between feet."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 2 counts off, 2 counts on. The meter is Triple meter.",
+      "Rhythm pattern: Rapid and light, often consisting of four motifs of six pulses..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Repeat the two kicks.",
+      "Step 2: Perform a saut moyen (small jump) to land in posture droit.",
+      "Drill: Perform the full cadence."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Cinq pas: A five-step sequence consisting of two kicks, two hops, and a final jump.",
+      "Saut moyen: A small jump that transitions the dancer into the opposite posture.",
+      "Drill: Transition between postures."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "2 counts off, 2 counts on",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "High, heavy leaps; the movement should remain 'bas et par terre'."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the 'cinq pas' rhythm with feet and hands while seated. · For children: A 'follow-the-leader' game mimicking the small kicks and hops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 'cinq pas' rhythm with feet and hands while seated.",
+      "For children: A 'follow-the-leader' game mimicking the small kicks and hops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 2 counts off, 2 counts on.",
+      "Full tempo, the whole sequence, twice. Formation: Couple dance, moving through the space."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Maintain speed and posture..",
+      "Related to the galliard, sharing similar musical airs but differing in the height and intensity of the steps.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "Triple meter",
+  "rhythm_pattern": "Rapid and light, often consisting of four motifs of six pulses.",
+  "instruments": [
+   "Lute",
+   "Voice"
+  ],
+  "vocal_style": "Four-voice polyphonic (in later arrangements)",
+  "musical_form": "Two or three repeated phrases",
+  "mood": [
+   "lively",
+   "rapid",
+   "light"
+  ],
+  "sound_description": "A brisk, triple-meter melody that feels lighter and more concise than the galliard, often featuring repetitive, danceable phrases.",
+  "listen_before_composing": [
+   "La Magdalena — Pierre Attaingnant (collection)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Tourdion (France). Meter Triple meter. Rhythm pattern: Rapid and light, often consisting of four motifs of six pulses.. Instruments: Lute, Voice. Vocal style: Four-voice polyphonic (in later arrangements). Form: Two or three repeated phrases. Mood: lively, rapid, light. It should sound like this: A brisk, triple-meter melody that feels lighter and more concise than the galliard, often featuring repetitive, danceable phrases. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "Medieval Music vol.3 (1000-1450)",
+    "url": "https://archive.org/details/youtube-I8CW7P4k7II",
+    "year": 2018,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Tudor and Renaissance Music vol.3 (1450-1600)",
+    "url": "https://archive.org/details/youtube-yIEF8Mf-FcI",
+    "year": 2018,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Tourdion (1530) French Renaissance Song",
+    "url": "https://archive.org/details/youtube-ArgDiJQ41Sg",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Le Tourdion - French Renaissance Song",
+    "url": "https://archive.org/details/le-tourdion-french-renaissance-song-farya",
+    "year": null,
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Renaissance lute manuscripts",
+   "Courtly attire of the 16th century",
+   "Close-ups of footwork on wooden floors"
+  ],
+  "costume_notes": null,
+  "setting_notes": "The tourdion served as a social court dance, often performed as the second part of a dance suite following a basse danse to provide a contrast in tempo.",
+  "map": {
+   "country": "France",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "2 tutorial(s) of the classical-court family studied",
+  "videos_studied": 2,
+  "counting": "2 counts off, 2 counts on",
+  "demonstration": [
+   "views used by most teachers: front, side",
+   "tempo progression: slow"
+  ],
+  "cues": [
+   "hold your placement",
+   "stay straight as a board",
+   "lift up in your lower abs",
+   "change feet"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "mistakes",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)",
+  "the costume & setting section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Tourdion",
+  "https://www.wikidata.org/wiki/Q2141850",
+  "https://es.wikipedia.org/wiki/Turdión",
+  "https://fr.wikipedia.org/wiki/Tourdion",
+  "https://pt.wikipedia.org/wiki/Tourdion"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "hero_checked": null
+}

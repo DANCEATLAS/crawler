@@ -1,0 +1,124 @@
+{
+ "slug": "zebola",
+ "qc_at": "2026-11-05T19:10:22Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Zebola"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "71"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "191"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1982, the chant 'Zebola ka zebola, zebola danse!' broadcast on television tra"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "441"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2513"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,music_and_instruments,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Democratic Republic of the Congo"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [
+   "Feux De L'Amour",
+   "Les Nouveaux Missiles",
+   "Loi"
+  ],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "review",
+  "notes": "Profile is well-researched and accurate to the evidence, but teaching value is low due to missing movement technical details ('not described in sources'). Album list contains popular Congolese albums rather than central recordings specifically dedicated to the Zebola dance or chant tradition."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sections_filled",
+  "judge_score=8.7",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-05T18:29:03Z"
+}

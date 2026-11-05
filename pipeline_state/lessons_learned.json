@@ -1,34 +1,34 @@
 {
- "updated_at": "2026-11-04T17:20:59Z",
- "qc_records_considered": 250,
+ "updated_at": "2026-11-05T17:27:53Z",
+ "qc_records_considered": 286,
  "gate_failures": [
   [
+   "citations",
+   54
+  ],
+  [
    "insight_concrete",
-   52
+   53
   ],
   [
    "sections_filled",
-   50
+   51
   ],
   [
-   "citations",
-   49
+   "country",
+   39
   ],
   [
    "profile_long_len",
    36
   ],
   [
-   "country",
-   35
+   "sacred_handled",
+   34
   ],
   [
    "banned_phrasing",
-   24
-  ],
-  [
-   "sacred_handled",
-   21
+   29
   ],
   [
    "not_duplicate",
@@ -36,7 +36,7 @@
   ],
   [
    "region",
-   2
+   4
   ],
   [
    "ai_tells",
@@ -46,49 +46,49 @@
  "reasons": [
   [
    "sacred",
-   85
+   106
   ],
   [
    "not_a_dance",
-   65
-  ],
-  [
-   "insight_concrete",
-   52
-  ],
-  [
-   "sections_filled",
-   50
+   72
   ],
   [
    "citations",
-   49
+   54
+  ],
+  [
+   "insight_concrete",
+   53
+  ],
+  [
+   "sections_filled",
+   51
+  ],
+  [
+   "country",
+   39
   ],
   [
    "profile_long_len",
    36
   ],
   [
-   "country",
-   35
+   "sacred_handled",
+   34
   ],
   [
    "banned_phrasing",
-   24
-  ],
-  [
-   "sacred_handled",
-   21
+   29
   ],
   [
    "doubts=1",
-   21
+   27
   ]
  ],
  "judge_notes": [
   [
    "judge notes mention 'thin'",
-   9
+   10
   ],
   [
    "judge notes mention 'generic'",
@@ -99,12 +99,12 @@
    4
   ],
   [
-   "judge notes mention 'unsupported'",
+   "judge notes mention 'missing'",
    4
   ],
   [
-   "judge notes mention 'missing'",
-   3
+   "judge notes mention 'unsupported'",
+   4
   ],
   [
    "doubt: The claim that Pilou was 'banned by France' is a common historical oversimplification; while colonial policies suppresse",
@@ -130,90 +130,90 @@
  "episode_gaps_top": [
   [
    "tempo (bpm)",
-   96
-  ],
-  [
-   "licensed reference footage",
-   83
+   112
   ],
   [
    "licensed images (3 needed)",
-   79
+   94
+  ],
+  [
+   "licensed reference footage",
+   93
   ],
   [
    "a verified recording to listen to",
-   70
+   83
   ],
   [
    "meter",
-   68
+   80
+  ],
+  [
+   "two or more connections",
+   61
+  ],
+  [
+   "what to avoid / common mistakes",
+   57
   ],
   [
    "the hero video's vision check",
    55
   ],
   [
-   "two or more connections",
-   54
-  ],
-  [
-   "what to avoid / common mistakes",
-   54
-  ],
-  [
    "instruments",
-   46
-  ],
-  [
-   "signature moves",
-   40
+   52
   ],
   [
    "a hero video",
-   36
+   51
+  ],
+  [
+   "signature moves",
+   42
   ],
   [
    "posture, arms and hands",
-   29
+   33
   ]
  ],
  "avoid": [
-  "the insight line was vague — put a person, a place, a year or a number in it (52 pages in 30 days)",
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (50 pages in 30 days)",
-  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (49 pages in 30 days)",
+  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (54 pages in 30 days)",
+  "the insight line was vague — put a person, a place, a year or a number in it (53 pages in 30 days)",
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (51 pages in 30 days)",
   "profile_long was too short — 600 to 1200 words of continuous prose from the sections (36 pages in 30 days)",
-  "banned phrasing slipped in — no hype, no 'the sources say', no AI talk (24 pages in 30 days)"
+  "a sacred dance had no sacred_note — add one (34 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "tempo (bpm)",
-   "pages": 96,
+   "pages": 112,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
-   "gap": "licensed reference footage",
-   "pages": 83,
-   "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
-  },
-  {
    "gap": "licensed images (3 needed)",
-   "pages": 79,
+   "pages": 94,
    "what_helps": "a Wikimedia Commons category or file link in an editor note"
   },
   {
+   "gap": "licensed reference footage",
+   "pages": 93,
+   "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
+  },
+  {
    "gap": "a verified recording to listen to",
-   "pages": 70,
+   "pages": 83,
    "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
   },
   {
    "gap": "meter",
-   "pages": 68,
+   "pages": 80,
    "what_helps": "a source that states the time signature"
   },
   {
-   "gap": "the hero video's vision check",
-   "pages": 55,
-   "what_helps": "the vision model has not reached it yet — it will (60 a day)"
+   "gap": "two or more connections",
+   "pages": 61,
+   "what_helps": "sources that relate the dance to its relatives"
   }
  ]
 }

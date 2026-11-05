@@ -1,0 +1,821 @@
+{
+ "slug": "queer-tango",
+ "name": "Queer Tango",
+ "pack_version": "e1",
+ "built_at": "2026-11-05T19:35:32Z",
+ "researched_at": "2026-11-05T17:29:05Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable queer tango dancer and activist who encourages openness and experimentation",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Queer Tango",
+   "Tango Queer",
+   "Open Role Tango",
+   "Same-Sex Tango"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Queer Tango",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Queer Tango: Dancing Beyond Gender",
+     "This is Queer Tango. Late 19th century origins, revived 2001 to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Queer Tango · Argentina · Late 19th century origins, revived 2001 to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Queer Tango traces back to early 20th-century Buenos Aires where men danced tango with men due to a shortage of women, especially in immigrant and brothel contexts.",
+     "This practice was suppressed as tango gained popularity in Europe and was re-imported as a heterosexual couple dance with fixed gender roles.",
+     "The modern Queer Tango movement began in 2001 in Hamburg with the first gay-lesbian milonga and the International Queer Tango Argentina Festival, reviving same-sex and open role dancing globally."
+    ],
+    "on_screen": [
+     "Map: Argentina · South America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Queer Tango is danced socially at milongas and festivals that celebrate gender diversity and inclusivity.",
+     "It provides a safe space for LGBTQIA+ dancers and others to explore tango free from heteronormative constraints.",
+     "The dance challenges traditional gender norms and promotes reflection on gender identity and expression.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Role Exchange."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Danced in pairs on social dance floors; partners may switch roles and positions fluidly"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Queer Tango uses traditional Argentine tango music, typically featuring bandoneón, violin, piano, double bass, and sometimes vocals.",
+     "The music is in a 2/4 or 4/4 meter with a moderate tempo, characterized by dramatic, melancholic melodies and rhythmic patterns that support improvisation.",
+     "Listen for the bandoneón, violin, piano, double bass.",
+     "The pulse is 2/4 or 4/4.",
+     "The music features the characteristic bandoneón-led melodies with rhythmic pulses and melancholic tones typical of Argentine tango, providing a rich emotional backdrop for improvisational dance."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Traditional Argentine tango rhythmic patterns supporting improvisation"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Costumes in Queer Tango vary widely, reflecting the inclusive and non-traditional nature of the dance.",
+     "Unlike traditional tango, which often features gendered attire, Queer Tango dancers wear clothing that suits their chosen roles or personal expression.",
+     "Settings include milongas, queer tango festivals, and social dance events worldwide, often organized by LGBTQIA+ communities or allies."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Augusto Balizano opened La Marshall, the first queer milonga in Buenos Aires in 2002.",
+     "Mariana Docampo started the weekly milonga Tango Queer in San Telmo in 2005.",
+     "Queer Tango scenes and festivals have developed internationally, including in Argentina, Germany, Denmark, Sweden, France, the United States, Uruguay, and Mexico.",
+     "Queer Tango descends from early same-sex tango dancing in Buenos Aires and the traditional Argentine tango couple dance."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Queer Tango is parent of Argentine Tango: Queer Tango is a variant of Argentine Tango that breaks traditional gender roles.",
+     "Queer Tango is shares music of Milonga: Queer Tango is danced socially at milongas, sharing the same music and social context.",
+     "Queer Tango is sibling of Tango Nuevo: Both are modern evolutions of Argentine tango emphasizing innovation and expression."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Assume any partner combination and choose leader or follower role",
+     "Establish connection with partner through embrace",
+     "Count it: 5-6-7-8.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how Queer Tango revives tango’s same-sex origins and breaks gender norms through role exchange.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Understand basic leader and follower roles and embrace",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Understand basic leader and follower roles and embrace.",
+      "Level: Beginner. Difficulty of the dance overall: Beginner to advanced, depending on improvisation skill and role flexibility.",
+      "Your instructor: A knowledgeable queer tango dancer and activist who encourages openness and experimentation"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 2/4 or 4/4.",
+      "Rhythm pattern: Traditional Argentine tango rhythmic patterns supporting improvisation.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Assume any partner combination and choose leader or follower role",
+      "Step 2: Establish connection with partner through embrace",
+      "Drill: Practice basic tango steps as leader and follower"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Communicate lead and follow through body signals",
+      "Step 4: Practice role exchange during the dance",
+      "Drill: Learn to recognize and give clear lead/follow signals"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Try simple role exchanges with a partner"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid enforcing traditional gender roles; respect partner’s chosen role and expression"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand basic leader and follower roles and embrace.",
+      "Queer Tango is danced socially at milongas and festivals that celebrate gender diversity and inclusivity.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Improve fluidity in role exchange and improvisation",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Improve fluidity in role exchange and improvisation.",
+      "Level: Intermediate. Difficulty of the dance overall: Beginner to advanced, depending on improvisation skill and role flexibility.",
+      "Your instructor: A knowledgeable queer tango dancer and activist who encourages openness and experimentation"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 2/4 or 4/4.",
+      "Rhythm pattern: Traditional Argentine tango rhythmic patterns supporting improvisation.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Improvise steps within traditional tango vocabulary",
+      "Drill: Practice switching roles mid-dance"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Role Exchange: Partners switch leader and follower roles during the dance, sometimes mid-tanda.",
+      "Drill: Explore open embrace and connection variations"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Improvise simple sequences with partner"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid enforcing traditional gender roles; respect partner’s chosen role and expression"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Danced in pairs on social dance floors; partners may switch roles and positions fluidly"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Improve fluidity in role exchange and improvisation.",
+      "Augusto Balizano opened La Marshall, the first queer milonga in Buenos Aires in 2002.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Master expressive communication and complex role dynamics",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Master expressive communication and complex role dynamics.",
+      "Level: Advanced. Difficulty of the dance overall: Beginner to advanced, depending on improvisation skill and role flexibility.",
+      "Your instructor: A knowledgeable queer tango dancer and activist who encourages openness and experimentation"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 2/4 or 4/4.",
+      "Rhythm pattern: Traditional Argentine tango rhythmic patterns supporting improvisation.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Practice role exchange during the dance",
+      "Step 2: Improvise steps within traditional tango vocabulary",
+      "Drill: Experiment with same-sex partnering"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Role Exchange: Partners switch leader and follower roles during the dance, sometimes mid-tanda.",
+      "Drill: Develop nuanced lead/follow cues"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Create spontaneous choreography with role reversal"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid enforcing traditional gender roles; respect partner’s chosen role and expression"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Danced in pairs on social dance floors; partners may switch roles and positions fluidly"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master expressive communication and complex role dynamics.",
+      "Queer Tango descends from early same-sex tango dancing in Buenos Aires and the traditional Argentine tango couple dance.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "2/4 or 4/4",
+  "rhythm_pattern": "Traditional Argentine tango rhythmic patterns supporting improvisation",
+  "instruments": [
+   "bandoneón",
+   "violin",
+   "piano",
+   "double bass",
+   "vocals"
+  ],
+  "vocal_style": "Not specifically described; traditional tango vocals may be used",
+  "musical_form": "Traditional tango forms with instrumental and vocal sections",
+  "mood": [
+   "dramatic",
+   "melancholic",
+   "expressive"
+  ],
+  "sound_description": "The music features the characteristic bandoneón-led melodies with rhythmic pulses and melancholic tones typical of Argentine tango, providing a rich emotional backdrop for improvisational dance.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Queer Tango (Argentina). Meter 2/4 or 4/4. Rhythm pattern: Traditional Argentine tango rhythmic patterns supporting improvisation. Instruments: bandoneón, violin, piano, double bass, vocals. Vocal style: Not specifically described; traditional tango vocals may be used. Form: Traditional tango forms with instrumental and vocal sections. Mood: dramatic, melancholic, expressive. It should sound like this: The music features the characteristic bandoneón-led melodies with rhythmic pulses and melancholic tones typical of Argentine tango, providing a rich emotional backdrop for improvisational dance. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Costumes in Queer Tango vary widely, reflecting the inclusive and non-traditional nature of the dance. Unlike traditional tango, which often features gendered attire, Queer Tango dancers wear clothing that suits their chosen roles or personal expression. Settings include milongas, queer tango festivals, and social dance events worldwide, often organized by LGBTQIA+ communities or allies.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ATango_NEP_postcard_1920s.JPG"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Tango_NEP_postcard_1920s.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Tango_NEP_postcard_1920s.JPG/1280px-Tango_NEP_postcard_1920s.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATango_NEP_postcard_1920s.JPG",
+    "description": "Tango. NEP private soviet postcard 1920s"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Embraces with role reversal",
+   "Same-sex couples dancing",
+   "Historic tango postcards",
+   "Festival crowds",
+   "Hands exchanging lead signals"
+  ],
+  "costume_notes": "Costumes in Queer Tango vary widely, reflecting the inclusive and non-traditional nature of the dance. Unlike traditional tango, which often features gendered attire, Queer Tango dancers wear clothing that suits their chosen roles or personal expression. Settings include milongas, queer tango festivals, and social dance events worldwide, often organized by LGBTQIA+ communities or allies.",
+  "setting_notes": "Queer Tango is danced socially at milongas and festivals that celebrate gender diversity and inclusivity. It provides a safe space for LGBTQIA+ dancers and others to explore tango free from heteronormative constraints. The dance challenges traditional gender norms and promotes reflection on gender identity and expression. It is also a form of activism against discrimination within the tango community.",
+  "map": {
+   "country": "Argentina",
+   "region": "South America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "4 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 4,
+  "counting": "5-6-7-8",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "keep those abs pulled in",
+   "engage all the muscles",
+   "keep those shoulders down",
+   "control control",
+   "crazy train"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "count_in",
+   "breakdown",
+   "slow_practice",
+   "follow_along",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "posture, arms and hands",
+  "the how-it-is-danced section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Queer_Tango",
+  "https://www.wikidata.org/wiki/Q526878",
+  "https://es.wikipedia.org/wiki/Tango_queer",
+  "https://fr.wikipedia.org/wiki/Tango_queer",
+  "https://de.wikipedia.org/wiki/Queer_Tango"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "hero_checked": null
+}
