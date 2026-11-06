@@ -1,0 +1,119 @@
+{
+ "slug": "wotagei",
+ "qc_at": "2026-11-06T18:38:35Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Wotagei"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "80"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "211"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 2004, an estimated 100 to 200 fans performed a synchronized routine to Miki F"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "487"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3369"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Japan"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,testament to"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "An excellent, well-researched profile. It clearly distinguishes between the historical fan-cheering origins and the modern, technical 'cyalume dance' evolution. The inclusion of specific terminology and professional groups adds significant value. The adaptations are safe and respect the physical nature of the dance."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "banned_phrasing",
+  "judge_score=9.25"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-06T17:53:48Z"
+}

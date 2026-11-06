@@ -1,0 +1,122 @@
+{
+ "slug": "paparuda",
+ "qc_at": "2026-11-06T18:38:17Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.95,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Paparuda"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "87"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "199"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "A young girl or boy, draped in fresh green vines and leaves until nearly unrecog"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "504"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3290"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Various (Balkans)"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'deity', 'god', 'goddess', 'prayer', 'offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Dodola/Perperuna",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Paparuda is a ritual complex rather than a formal dance style, but the profile handles this distinction well. It is highly accurate, respectful of the sacred nature of the practice, and avoids exoticism. The 'is_a_dance' flag is false because it is a ritual procession/performance, not a codified dance form."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "country",
+  "insight_concrete",
+  "judge_score=8.95",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-06T17:47:49Z"
+}

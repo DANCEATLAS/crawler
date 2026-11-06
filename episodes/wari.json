@@ -1,0 +1,384 @@
+{
+ "slug": "wari",
+ "name": "Wari",
+ "pack_version": "e1",
+ "built_at": "2026-11-06T19:02:16Z",
+ "researched_at": "2026-11-06T16:51:12Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable Huari elder or cultural practitioner with deep respect for ritual significance",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Wari",
+   "Huaridanza",
+   "Dance of the Knights of Huari",
+   "Waritaki"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Wari",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Wari: The Dance of Huari's Sacred Rain Ritual",
+     "This is Wari. 16th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Wari · Peru · 16th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Wari originates from the district of Huari in Peru's Áncash region, rooted in a pre-Inca agricultural festival called pocoy mita celebrating the first rains.",
+     "It evolved through syncretism with Spanish colonial religious festivals like the Exaltation of the Holy Cross and the Virgin of the Rosary.",
+     "The dance was recorded in 1570 by Cristóbal de Molina as Waritaki, reflecting its cultural transformation."
+    ],
+    "on_screen": [
+     "Map: Peru · South America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Performed during the Virgin of the Rosary festival, the Exaltation of the Holy Cross in Huari, and occasionally the Virgin of the Assumption in Chacas.",
+     "The dance marks the agricultural cycle's start of rains and reflects syncretism between indigenous and Christian traditions, embodying devotion and penitence.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, La Senda del Danzante.webm (https://upload.wikimedia.org/wikipedia/commons/f/f7/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_La_Senda_del_Danzante.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Traditionally performed by four dancers and two musicians, sometimes eight dancers plus a captain in urban areas.",
+     "The choreography has three main moments: circular formations with rhythmic support on the fourth beat, a light step called arrebato, and a strong zapateo foot stamping ending the dance.",
+     "Dancers move in circles, emphasizing rhythmic footwork and coordinated group patterns.",
+     "Watch for Arrebato, Zapateo."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Circular formation with four to eight dancers, moving together in coordinated patterns"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music is played by two cajeros using the pinkullo flute and wanqar drum.",
+     "The pinkullo is a wooden flute with four holes played with the left hand, made from waroma wood.",
+     "Listen for the pinkullo flute, wanqar drum.",
+     "The pulse is not explicitly described, implied steady rhythmic pattern with emphasis on fourth beat.",
+     "The music features a wooden pinkullo flute with a clear, piercing tone and a large wanqar drum providing deep, resonant beats. The rhythm emphasizes the fourth beat, creating a steady, ritualistic pulse typical of northern Peruvian highlands."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Traditional pattern with rhythmic support on the fourth beat; chuscadas played during general dances"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear formal blue or black suits with white shirts and ties, covered by floral shawls tied across the chest.",
+     "Embroidered velvet sashes with golden threads are worn at the waist.",
+     "The head is covered with a white cloth called uma paño, and the face with a pink mesh mask painted with facial features."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Variants exist in Pomabamba province and towns like Sihuas, Urpay, Taurija, and Pataz, differing in choreography and musical tempo from the Huari version.",
+     "Descended from pre-Inca agricultural dances linked to the pocoy mita festival, evolving through Spanish colonial influence and Christian religious festivals into the current Wari dance."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Wari is shares music of Huayno: Wari's zapateo step resembles a huayno escape step; chuscadas played during general dances are a regional huayno variant.",
+     "Wari is variant of Chuscada: Chuscada is a dance and song genre of the Ancash region, considered a regional version of huayno, performed during general dances in Wari."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Wari is a ritual dance with penitential symbolism, performed in religious festivals and embodying devotion to the Cross; outsiders should respect its sacred context and not appropriate its masks or costumes."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore Wari, a ritual dance from Peru blending pre-Inca and Spanish traditions to celebrate the first rains and devotion to the Cross.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "not explicitly described, implied steady rhythmic pattern with emphasis on fourth beat",
+  "rhythm_pattern": "Traditional pattern with rhythmic support on the fourth beat; chuscadas played during general dances",
+  "instruments": [
+   "pinkullo flute",
+   "wanqar drum"
+  ],
+  "vocal_style": null,
+  "musical_form": "Traditional pattern throughout dance; chuscadas for general dances",
+  "mood": [
+   "ritual",
+   "devotional",
+   "festive",
+   "penitential"
+  ],
+  "sound_description": "The music features a wooden pinkullo flute with a clear, piercing tone and a large wanqar drum providing deep, resonant beats. The rhythm emphasizes the fourth beat, creating a steady, ritualistic pulse typical of northern Peruvian highlands.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Wari (Peru). Meter not explicitly described, implied steady rhythmic pattern with emphasis on fourth beat. Rhythm pattern: Traditional pattern with rhythmic support on the fourth beat; chuscadas played during general dances. Instruments: pinkullo flute, wanqar drum. Form: Traditional pattern throughout dance; chuscadas for general dances. Mood: ritual, devotional, festive, penitential. It should sound like this: The music features a wooden pinkullo flute with a clear, piercing tone and a large wanqar drum providing deep, resonant beats. The rhythm emphasizes the fourth beat, creating a steady, ritualistic pulse typical of northern Peruvian highlands. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers wear formal blue or black suits with white shirts and ties, covered by floral shawls tied across the chest. Embroidered velvet sashes with golden threads are worn at the waist. The head is covered with a white cloth called uma paño, and the face with a pink mesh mask painted with facial features. Hats are white toquilla straw with colored ribbons and artificial flower crowns. Knee pads with 35-40 bells symbolize penitence. White gloves and a command baton with a dog head and leather whip complete the attire.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, La Senda del Danzante.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_La_Senda_del_Danzante.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 3.0 igo",
+    "attribution": "UNESCO / Wikimedia Commons / CC BY-SA 3.0 igo"
+   },
+   {
+    "title": "File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, Apu Onccoy una voz, un sueño en los Andes.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_Apu_Onccoy_una_voz%2C_un_sue%C3%B1o_en_los_Andes.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 3.0 igo",
+    "attribution": "UNESCO / Wikimedia Commons / CC BY-SA 3.0 igo"
+   },
+   {
+    "title": "File:Wari Chora.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Wari_Chora.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 4.0",
+    "attribution": "Wann Majaw / Wikimedia Commons / CC BY 4.0"
+   },
+   {
+    "title": "B.knight Video Durandall WARI F. M. C. T",
+    "url": "https://archive.org/details/b.knight-video-durandall-wari-f.-m.-c.-t",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Floral shawls and embroidered sashes",
+   "Pink mesh masks with painted faces",
+   "White toquilla straw hats with flower crowns",
+   "Large knee bells jingling",
+   "Pinkullo flute and wanqar drum"
+  ],
+  "costume_notes": "Dancers wear formal blue or black suits with white shirts and ties, covered by floral shawls tied across the chest. Embroidered velvet sashes with golden threads are worn at the waist. The head is covered with a white cloth called uma paño, and the face with a pink mesh mask painted with facial features. Hats are white toquilla straw with colored ribbons and artificial flower crowns. Knee pads with 35-40 bells symbolize penitence. White gloves and a command baton with a dog head and leather whip complete the attire.",
+  "setting_notes": "Performed during the Virgin of the Rosary festival, the Exaltation of the Holy Cross in Huari, and occasionally the Virgin of the Assumption in Chacas. The dance marks the agricultural cycle's start of rains and reflects syncretism between indigenous and Christian traditions, embodying devotion and penitence.",
+  "map": {
+   "country": "Peru",
+   "region": "South America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "23 tutorials across the atlas studied",
+  "videos_studied": 23,
+  "counting": "count the not explicitly described, implied steady rhythmic pattern with emphasis on fourth beat bar out loud, then in pairs of bars",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and one and three and five and seven",
+   "keep your feet together",
+   "relax your knees",
+   "side close side",
+   "step and point",
+   "turn turn turn",
+   "replace",
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "bend the knees"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "notable figures"
+ ],
+ "sources": [
+  "https://www.wikidata.org/wiki/Q30905489",
+  "https://es.wikipedia.org/wiki/Huaridanza"
+ ],
+ "claims_verified": 10,
+ "claims": 10,
+ "polished": false,
+ "hero_checked": null
+}

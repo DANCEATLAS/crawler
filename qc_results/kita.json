@@ -1,0 +1,123 @@
+{
+ "slug": "kita",
+ "qc_at": "2026-11-06T18:39:37Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.5,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Kita"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "67"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "180"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Kita is not a dance, but a Tagalog pronoun appearing in the titles of iconic 197"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "359"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1662"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Philippines"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 0,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [
+   "Dahil Mahal Kita",
+   "With Love"
+  ],
+  "adaptations_safe": true,
+  "overall": 1,
+  "verdict": "reject",
+  "notes": "The subject is a Tagalog pronoun and a band's song title, not a dance. It does not meet the criteria for inclusion in a dance atlas."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "sections_filled",
+  "judge_score=8.5",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-06T18:29:13Z"
+}

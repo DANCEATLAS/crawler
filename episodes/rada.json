@@ -1,0 +1,409 @@
+{
+ "slug": "rada",
+ "name": "Rada",
+ "pack_version": "e1",
+ "built_at": "2026-11-06T19:02:16Z",
+ "researched_at": "2026-11-06T18:33:53Z",
+ "qc_score": 9.1,
+ "status": "withheld-chapters",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable practitioner of Haitian dance traditions.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Rada",
+   "Yanvalou"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Rada",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Humble Plea: The Serpent's Dance",
+     "This is Rada. 18th-21st century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (rDd8I0F41yI)",
+     "Title card: Rada · Haiti · 18th-21st century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Yanvalou originates from the Fon and Mahi peoples of present-day Benin, West Africa, and was brought to Haiti as part of the Vodou tradition."
+    ],
+    "on_screen": [
+     "Map: Haiti · Caribbean",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Yanvalou is performed during Rada rituals to honor the lwa Damballah (serpent spirit of fertility) and Agwé (deity of the sea).",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Prime Minister delivers an address at the Verkhovna Rada of Ukraine.webm (https://upload.wikimedia.org/wikipedia/commons/3/3f/Prime_Minister_delivers_an_address_at_the_Verkhovna_Rada_of_Ukraine.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is characterized by a low center of gravity with bent knees.",
+     "The primary movement is a spinal undulation that flows from the head to the pelvis, often with hands placed on the knees.",
+     "Watch for Spinal Undulation."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (rDd8I0F41yI)",
+     "Captions name each signature move as it appears"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The rhythm is played on a set of three percussion instruments: the maman, the seconde (or segun), and the boula (or bass) drums, accompanied by an ogan (iron bell).",
+     "Listen for the maman drum, seconde drum, boula drum, ogan.",
+     "A slow, percussive ensemble featuring three drums of varying sizes and a metallic iron bell, creating a steady, wave-like pulse."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Slow and hypnotic rhythm."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Variations include Yanvalou Fran (base), Yanvalou debout (standing), Yanvalou des bas (squatting), Yanvalou z'epaules (shoulder dance), Yanvalou Gede (for the Festival of the Dead), and Yanvalou Maskowan (advanced).",
+     "Derived from the Fon and Mahi peoples of Benin."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Rada is shares music of Banda: Yanvalou Gede is a slower version of the Banda rhythm."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Yanvalou is a sacred dance performed during Rada rituals to honor specific lwa; outsiders should approach with respect for its religious significance."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the sacred Yanvalou, a dance of fluid undulations that connects the Haitian people to the spirits of the sea and fertility.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Slow and hypnotic rhythm.",
+  "instruments": [
+   "maman drum",
+   "seconde drum",
+   "boula drum",
+   "ogan"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "hypnotic",
+   "fluid",
+   "sacred"
+  ],
+  "sound_description": "A slow, percussive ensemble featuring three drums of varying sizes and a metallic iron bell, creating a steady, wave-like pulse.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Rada (Haiti). Rhythm pattern: Slow and hypnotic rhythm.. Instruments: maman drum, seconde drum, boula drum, ogan. Mood: hypnotic, fluid, sacred. It should sound like this: A slow, percussive ensemble featuring three drums of varying sizes and a metallic iron bell, creating a steady, wave-like pulse. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "rDd8I0F41yI",
+   "checked_by_vision_model": false,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": null,
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "File:Prime Minister delivers an address at the Verkhovna Rada of Ukraine.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Prime_Minister_delivers_an_address_at_the_Verkhovna_Rada_of_Ukraine.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "Justin Trudeau – Prime Minister of Canada / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "Divine Horseman The Living Gods Of Haiti - Maya Deren (1947-54)",
+    "url": "https://archive.org/details/divine-horseman-the-living-gods-of-haiti-maya-deren-1947-54",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Padre Pio - St. Pio of Pietrelcina - The Stigmatist Priest - Stigmata",
+    "url": "https://archive.org/details/youtube-93gqzbUsGzY",
+    "year": 2008,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "\"DMC Upside\": Concert Band",
+    "url": "https://archive.org/details/dmctvtx-DMC_Upside_-_Concert_Band",
+    "year": 2011,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Rada i Badja - Žikino Kolo (Жикино Коло) - 1920's",
+    "url": "https://archive.org/details/youtube-ivPJ-qNeAJo",
+    "year": 2010,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Jorgovan - Pesma Srpskih Sokolova (Isidor Bajić)",
+    "url": "https://archive.org/details/youtube-qQ8T8RUkX0g",
+    "year": 2013,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "2007 CubaCaribe Dance Festival",
+    "url": "https://archive.org/details/JoeyWilliams-2007CubaCaribeDanceFestival309",
+    "year": null,
+    "license": "http://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Yanvalou Drum and Dance Ensmble presents: Reyinyon",
+    "url": "https://archive.org/details/wpmma-Yanvalou_Drum_and_Dance_Ensmble_presents_-_Reyinyon",
+    "year": 2022,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Ocean waves",
+   "Serpent movement",
+   "Iron bell (ogan)"
+  ],
+  "costume_notes": null,
+  "setting_notes": "Yanvalou is performed during Rada rituals to honor the lwa Damballah (serpent spirit of fertility) and Agwé (deity of the sea).",
+  "map": {
+   "country": "Haiti",
+   "region": "Caribbean",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "23 tutorials across the atlas studied",
+  "videos_studied": 23,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and one and three and five and seven",
+   "keep your feet together",
+   "relax your knees",
+   "side close side",
+   "step and point",
+   "turn turn turn",
+   "replace",
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "bend the knees"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "the costume & setting section",
+  "notable figures",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Yanvalou",
+  "https://www.wikidata.org/wiki/Q10394560"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "hero_checked": "fail"
+}

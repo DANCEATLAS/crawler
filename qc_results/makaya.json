@@ -1,0 +1,124 @@
+{
+ "slug": "makaya",
+ "qc_at": "2026-11-06T18:39:36Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.65,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Makaya"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "72"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "173"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The sources do not describe a dance tradition, but identify Makaya McCraven as a"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "321"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "894"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "1/1 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "not described in sources"
+  },
+  {
+   "gate": "region",
+   "ok": false,
+   "detail": "Vodou Petwo"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 1,
+  "verdict": "reject",
+  "notes": "The subject is a jazz musician, not a dance tradition. The profile correctly identifies this and provides no false information about dance, but it does not belong in a dance atlas."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "country",
+  "profile_long_len",
+  "sections_filled",
+  "region",
+  "judge_score=8.65",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 1,
+  "supported": 1,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-06T18:28:41Z"
+}

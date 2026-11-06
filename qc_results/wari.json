@@ -1,0 +1,119 @@
+{
+ "slug": "wari",
+ "qc_at": "2026-11-06T18:35:34Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Wari"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "70"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "143"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1570, chronicler Cristóbal de Molina recorded the dance as Waritaki, marking "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "552"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3138"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "10/10 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Peru"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ancestor', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "Comprehensive, highly specific, and culturally respectful profile of Wari (Huaridanza) backed completely by provided claims."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.85",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 10,
+  "supported": 10,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-06T16:51:12Z"
+}

@@ -1,0 +1,119 @@
+{
+ "slug": "zambra",
+ "qc_at": "2026-11-06T18:38:43Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Zambra"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "71"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "187"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Once banned by the Spanish Inquisition in the 16th century for its perceived sen"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "308"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1938"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "6"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Spain"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 9,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and aligns with historical and cultural evidence. The distinction between the historical ritual and the modern tourist-oriented performance is handled with nuance. The teaching and movement descriptions are clear and respectful of the tradition's specific aesthetic."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=8.85",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-06T18:02:19Z"
+}

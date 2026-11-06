@@ -1,0 +1,836 @@
+{
+ "slug": "siguiriyas",
+ "name": "siguiriyas",
+ "pack_version": "e1",
+ "built_at": "2026-11-06T19:02:16Z",
+ "researched_at": "2026-11-06T17:06:57Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A rigorous flamenco historian emphasizing emotional gravity, historical respect, and rhythmic precision.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "siguiriyas",
+   "seguiriyas",
+   "siguerillas",
+   "siguirillas",
+   "seguidilla gitana"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet siguiriyas",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Dark Heart of Flamenco",
+     "This is siguiriyas. Late 18th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: siguiriyas · Spain · Late 18th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Siguiriyas dates back to the late 18th century as part of the cante jondo tradition in Andalusia, with origins firmly rooted in Romani (Calé) culture.",
+     "Early forms were performed a cappella like tonás, later developing guitar accompaniment.",
+     "Key historical figures like the 19th-century cantaor El Planeta and his disciple El Fillo shaped its early classics, while the 1922 Concurso de Cante Jondo in Granada helped preserve its archaic forms through performers like El Tenazas and Manolo Caracol."
+    ],
+    "on_screen": [
+     "Map: Spain · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Embodying the quintessence of jondura and cante puro, siguiriyas addresses profound human suffering, tragic love, imprisonment, and death.",
+     "Historically linked to wake settings and serious artistic presentations.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Introduced by Vicente Escudero in 1940, the dance is solemn, ceremonious, and pausado, lacking external ornamentation.",
+     "The formal progression moves from a guitar and singer introduction to an entrada, initial letra, escobilla, second letra, danced falseta, and a final escobilla.",
+     "Footwork and counter-rhythms interlock with the compás.",
+     "Watch for Escobilla."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Solo performance space focused on theatrical or traditional staging"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Played in A Phrygian with a 12-count compás featuring accents on beats 1, 3, 5, 8, and 11.",
+     "It utilizes guitar, palmas, and dancer footwork.",
+     "Listen for the guitar, palmas, footwork.",
+     "The pulse is 12-count compás.",
+     "A deep, agonizing vocal performance delivered with rubato flexibility, anchored by sharp guitar bass attacks, steady palmas, and intricate counter-rhythms."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Calabosito Oscuro — Juanito Valderrama; Si Acaso Muero — Camarón De La Isla",
+     "Waveform or rhythm-pattern graphic: 3/4 and 6/8 amalgama accented on 1, 3, 5, 8, 11"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "El Planeta (credited with the oldest style), El Fillo, Frasco el Colorao, La Niña de los Peines, Vicente Escudero (who introduced the dance in 1940), Paco La Luz, Silverio Franconetti, Diego Bermúdez Cala ('El Tenazas'), and Manolo Caracol.",
+     "Variants differ across Andalusian regions: Cádiz features simple, unornamented styles (El Planeta), while Triana offers highly ornate interpretations (Frasco el Colorao, La Niña de los Peines).",
+     "Derived from primitive tonás."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "siguiriyas is sibling of soleares: Shares a 12-beat framework with an inverted accent structure.",
+     "siguiriyas is parent of tonás: Oldest forms of siguiriyas derive directly from primitive tonás.",
+     "siguiriyas is variant of serranas: Rigorously governed by the compás propio de la seguiriya.",
+     "siguiriyas is variant of livianas: Operates under the same seguiriya compás style."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Guitar and singer introduction",
+     "Entrada (ceremonious entrance)",
+     "Count it: count the 12-count compás bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover siguiriyas, the solemn cante jondo palo born from Romani heritage and driven by a haunting 12-beat compás.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Understand the 12-count compás rhythm structure",
+   "level": "beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Understand the 12-count compás rhythm structure.",
+      "Level: beginner. Difficulty of the dance overall: advanced.",
+      "Your instructor: A rigorous flamenco historian emphasizing emotional gravity, historical respect, and rhythmic precision."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Solemn, ceremonious, and pausado"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 12-count compás bar out loud, then in pairs of bars. The meter is 12-count compás.",
+      "Rhythm pattern: 3/4 and 6/8 amalgama accented on 1, 3, 5, 8, 11.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Guitar and singer introduction",
+      "Step 2: Entrada (ceremonious entrance)",
+      "Footwork from the sources: Escobilla footwork creating interlocking counter-rhythms with the compás",
+      "Drill: Clapping the 1, 3, 5, 8, 11 accent pattern"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12-count compás bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Letra response",
+      "Step 4: Escobilla (footwork section)",
+      "Drill: Walking slowly on the primary beat"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12-count compás bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practicing basic palmas timing"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps · For children: Rhythmic clapping game following the 12-count accent pattern"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps",
+      "For children: Rhythmic clapping game following the 12-count accent pattern"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 12-count compás bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand the 12-count compás rhythm structure.",
+      "Embodying the quintessence of jondura and cante puro, siguiriyas addresses profound human suffering, tragic love, imprisonment, and death.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Align movement with the singer's letra",
+   "level": "intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Align movement with the singer's letra.",
+      "Level: intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: A rigorous flamenco historian emphasizing emotional gravity, historical respect, and rhythmic precision."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Solemn, ceremonious, and pausado"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 12-count compás bar out loud, then in pairs of bars. The meter is 12-count compás.",
+      "Rhythm pattern: 3/4 and 6/8 amalgama accented on 1, 3, 5, 8, 11.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Danced falseta",
+      "Drill: Stepping to the 6-6-11-6 verse meter"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12-count compás bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Escobilla: A dedicated footwork section performed by the dancer creating counter-rhythms.",
+      "Drill: Matching footwork timing with guitar strokes"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12-count compás bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps · For children: Rhythmic clapping game following the 12-count accent pattern"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps",
+      "For children: Rhythmic clapping game following the 12-count accent pattern"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 12-count compás bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Solo performance space focused on theatrical or traditional staging"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Align movement with the singer's letra.",
+      "El Planeta (credited with the oldest style), El Fillo, Frasco el Colorao, La Niña de los Peines, Vicente Escudero (who introduced the dance in 1940), Paco La Luz, Silverio Franconetti, Diego Bermúdez Cala ('El Tenazas'), and Manolo Caracol.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform the solemn entrance and escobilla",
+   "level": "advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform the solemn entrance and escobilla.",
+      "Level: advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: A rigorous flamenco historian emphasizing emotional gravity, historical respect, and rhythmic precision."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Solemn, ceremonious, and pausado"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the 12-count compás bar out loud, then in pairs of bars. The meter is 12-count compás.",
+      "Rhythm pattern: 3/4 and 6/8 amalgama accented on 1, 3, 5, 8, 11.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Escobilla (footwork section)",
+      "Step 2: Danced falseta",
+      "Drill: Executing the ceremonious entrada"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12-count compás bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Escobilla: A dedicated footwork section performed by the dancer creating counter-rhythms.",
+      "Drill: Interlocking footwork counter-rhythms"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the 12-count compás bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps · For children: Rhythmic clapping game following the 12-count accent pattern"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps",
+      "For children: Rhythmic clapping game following the 12-count accent pattern"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the 12-count compás bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Solo performance space focused on theatrical or traditional staging"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform the solemn entrance and escobilla.",
+      "Derived from primitive tonás.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "12-count compás",
+  "rhythm_pattern": "3/4 and 6/8 amalgama accented on 1, 3, 5, 8, 11",
+  "instruments": [
+   "guitar",
+   "palmas",
+   "footwork"
+  ],
+  "vocal_style": "Cante jondo, highly melismatic, featuring an introductory 'Ay' across multiple syllables",
+  "musical_form": "Verses of two short 6-syllable lines, an 11-syllable line, and a 6-syllable line (6-6-11-6)",
+  "mood": [
+   "tragic",
+   "somber",
+   "painful",
+   "solemn",
+   "expressive"
+  ],
+  "sound_description": "A deep, agonizing vocal performance delivered with rubato flexibility, anchored by sharp guitar bass attacks, steady palmas, and intricate counter-rhythms.",
+  "listen_before_composing": [
+   "Calabosito Oscuro — Juanito Valderrama",
+   "Si Acaso Muero — Camarón De La Isla"
+  ],
+  "prompt": "Original instrumental composition in the musical world of siguiriyas (Spain). Meter 12-count compás. Rhythm pattern: 3/4 and 6/8 amalgama accented on 1, 3, 5, 8, 11. Instruments: guitar, palmas, footwork. Vocal style: Cante jondo, highly melismatic, featuring an introductory 'Ay' across multiple syllables. Form: Verses of two short 6-syllable lines, an 11-syllable line, and a 6-syllable line (6-6-11-6). Mood: tragic, somber, painful, solemn, expressive. It should sound like this: A deep, agonizing vocal performance delivered with rubato flexibility, anchored by sharp guitar bass attacks, steady palmas, and intricate counter-rhythms. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AEnrique_Morente.jpg",
+    "https://commons.wikimedia.org/wiki/File%3APalmas-Flamenco.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Enrique_Morente.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Enrique_Morente.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Enrique_morente_3353510495_26547d0a8c_o.jpg: alterna2 https://www.alterna2.com/\nderivative work: Kadellar (talk) / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AEnrique_Morente.jpg",
+    "description": "Enrique Morente en el Palau de la Música Catalana el 13 de marzo de 2009."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Palmas-Flamenco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Palmas-Flamenco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "TheEaterofCorn / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APalmas-Flamenco.jpg",
+    "description": "Clapping of the hands used to accompany flamenco dancers, singers and guitarists."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "A lone guitarist striking deep bass notes under moody lighting",
+   "A dancer's shoes sharply tapping counter-rhythms against wooden boards",
+   "The raw, expressive face of a singer delivering an 'Ay' melisma"
+  ],
+  "costume_notes": null,
+  "setting_notes": "Embodying the quintessence of jondura and cante puro, siguiriyas addresses profound human suffering, tragic love, imprisonment, and death. Historically linked to wake settings and serious artistic presentations.",
+  "map": {
+   "country": "Spain",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "23 tutorials across the atlas studied",
+  "videos_studied": 23,
+  "counting": "count the 12-count compás bar out loud, then in pairs of bars",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and one and three and five and seven",
+   "keep your feet together",
+   "relax your knees",
+   "side close side",
+   "step and point",
+   "turn turn turn",
+   "replace",
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "bend the knees"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the costume & setting section",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Siguiriyas",
+  "https://www.wikidata.org/wiki/Q2339999",
+  "https://es.wikipedia.org/wiki/Seguiriya",
+  "https://fr.wikipedia.org/wiki/Seguiriya",
+  "https://de.wikipedia.org/wiki/Seguiriya"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "hero_checked": null
+}

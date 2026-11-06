@@ -1,8 +1,8 @@
 # Ma'ulu'ulu — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-06 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A community dancemaster who emphasizes precision and social respect.
@@ -116,7 +116,7 @@ NARRATION: Step 1: Sit cross-legged on the ground, right leg over left.
 NARRATION: Step 2: Execute haka (hand gestures) close to the body.
 NARRATION: Footwork from the sources: Not applicable (seated dance).
 NARRATION: Drill: Practice cross-legged seating.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -189,7 +189,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Sit cross-legged on the ground, right leg over left.
 NARRATION: Step 2: Execute haka (hand gestures) close to the body.
 NARRATION: Drill: Practice silent tafua timing.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -264,7 +264,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Follow the rhythm set by the nafa drum.
 NARRATION: Step 2: Transition between silent tafua and sung sections.
 NARRATION: Drill: Execute gestures at high speed.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -321,7 +321,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performed on special occasions like weddings or royal birthdays. Dancers are arranged in rows, often tiered by social status.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'THjLKkrD2fU', 'checked_by_vision_model': False, 'title': None}
+Hero video: {'youtube_id': 'THjLKkrD2fU', 'checked_by_vision_model': True, 'title': None}
 Images: 1 licensed — Tauʻolunga / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Tiered rows of dancers, The nafa drum, Close-up of hand gestures
@@ -331,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 7 tutorials across the atlas studied · videos studied: 7
+Source: 23 tutorials across the atlas studied · videos studied: 23
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full
-Cues: and one and three and five and seven; keep your feet together; relax your knees; punch to the side; pull your head down; pivot them on your elbows; and out and out and in and in; double double; and cross and cross; right slap left slap; side replace close; rock replace side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and one and three and five and seven; keep your feet together; relax your knees; side close side; step and point; turn turn turn; replace; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
 
 Sources (2): https://en.wikipedia.org/wiki/M%C4%81%CA%BBulu%CA%BBulu; https://www.wikidata.org/wiki/Q3711190

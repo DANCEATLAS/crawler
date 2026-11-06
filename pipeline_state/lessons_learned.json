@@ -1,94 +1,98 @@
 {
- "updated_at": "2026-11-05T17:27:53Z",
- "qc_records_considered": 286,
+ "updated_at": "2026-11-06T16:50:05Z",
+ "qc_records_considered": 323,
  "gate_failures": [
   [
+   "sections_filled",
+   63
+  ],
+  [
    "citations",
-   54
+   58
   ],
   [
    "insight_concrete",
-   53
-  ],
-  [
-   "sections_filled",
-   51
+   58
   ],
   [
    "country",
-   39
+   41
   ],
   [
    "profile_long_len",
-   36
+   41
   ],
   [
    "sacred_handled",
-   34
+   35
   ],
   [
    "banned_phrasing",
-   29
+   34
   ],
   [
    "not_duplicate",
-   6
+   7
   ],
   [
    "region",
-   4
+   5
   ],
   [
-   "ai_tells",
-   2
+   "sources",
+   4
   ]
  ],
  "reasons": [
   [
    "sacred",
-   106
+   118
   ],
   [
    "not_a_dance",
-   72
-  ],
-  [
-   "citations",
-   54
-  ],
-  [
-   "insight_concrete",
-   53
+   76
   ],
   [
    "sections_filled",
-   51
+   63
+  ],
+  [
+   "citations",
+   58
+  ],
+  [
+   "insight_concrete",
+   58
   ],
   [
    "country",
-   39
+   41
   ],
   [
    "profile_long_len",
-   36
+   41
   ],
   [
    "sacred_handled",
-   34
+   35
   ],
   [
    "banned_phrasing",
-   29
+   34
   ],
   [
    "doubts=1",
-   27
+   29
   ]
  ],
  "judge_notes": [
   [
    "judge notes mention 'thin'",
-   10
+   11
+  ],
+  [
+   "judge notes mention 'missing'",
+   5
   ],
   [
    "judge notes mention 'generic'",
@@ -96,10 +100,6 @@
   ],
   [
    "judge notes mention 'inaccura'",
-   4
-  ],
-  [
-   "judge notes mention 'missing'",
    4
   ],
   [
@@ -130,89 +130,89 @@
  "episode_gaps_top": [
   [
    "tempo (bpm)",
-   112
+   136
   ],
   [
    "licensed images (3 needed)",
-   94
+   112
   ],
   [
    "licensed reference footage",
-   93
+   104
   ],
   [
    "a verified recording to listen to",
-   83
+   97
   ],
   [
    "meter",
-   80
+   96
   ],
   [
    "two or more connections",
-   61
+   74
+  ],
+  [
+   "a hero video",
+   70
   ],
   [
    "what to avoid / common mistakes",
-   57
+   69
+  ],
+  [
+   "instruments",
+   60
   ],
   [
    "the hero video's vision check",
    55
   ],
   [
-   "instruments",
-   52
-  ],
-  [
-   "a hero video",
-   51
-  ],
-  [
    "signature moves",
-   42
+   50
   ],
   [
    "posture, arms and hands",
-   33
+   41
   ]
  ],
  "avoid": [
-  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (54 pages in 30 days)",
-  "the insight line was vague — put a person, a place, a year or a number in it (53 pages in 30 days)",
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (51 pages in 30 days)",
-  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (36 pages in 30 days)",
-  "a sacred dance had no sacred_note — add one (34 pages in 30 days)"
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (63 pages in 30 days)",
+  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (58 pages in 30 days)",
+  "the insight line was vague — put a person, a place, a year or a number in it (58 pages in 30 days)",
+  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (41 pages in 30 days)",
+  "a sacred dance had no sacred_note — add one (35 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "tempo (bpm)",
-   "pages": 112,
+   "pages": 136,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
    "gap": "licensed images (3 needed)",
-   "pages": 94,
+   "pages": 112,
    "what_helps": "a Wikimedia Commons category or file link in an editor note"
   },
   {
    "gap": "licensed reference footage",
-   "pages": 93,
+   "pages": 104,
    "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
   },
   {
    "gap": "a verified recording to listen to",
-   "pages": 83,
+   "pages": 97,
    "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
   },
   {
    "gap": "meter",
-   "pages": 80,
+   "pages": 96,
    "what_helps": "a source that states the time signature"
   },
   {
    "gap": "two or more connections",
-   "pages": 61,
+   "pages": 74,
    "what_helps": "sources that relate the dance to its relatives"
   }
  ]

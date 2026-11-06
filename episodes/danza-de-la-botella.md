@@ -1,6 +1,6 @@
 # Danza de la Botella — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.85 · 16/16 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-03 · judge 9.85 · 16/16 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the music & instruments section; two or more connections
 
@@ -11,7 +11,7 @@
 ## Episode 1 · Meet Danza de la Botella · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Balancing Acts: The Paraguayan Bottle Dance
+NARRATION: Balancing Acts: The Paraguayan Bottle Dance.
 NARRATION: This is Danza de la Botella. 19th century.
 ON SCREEN: Hero video, first 10 seconds (QMacCsP9Oy4)
 ON SCREEN: Title card: Danza de la Botella · Paraguay · 19th century
@@ -71,8 +71,8 @@ MUSIC: underscore
 NEEDS: connections
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. Stand upright with a glass bottle balanced on the head
-NARRATION: Extend arms to hold the ruffles of the skirt
+NARRATION: Before we go, one step. Stand upright with a glass bottle balanced on the head.
+NARRATION: Extend arms to hold the ruffles of the skirt.
 NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
@@ -95,9 +95,9 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Upright with head steady to balance bottles
-NARRATION: Arms extended holding skirt ruffles
-NARRATION: Controlled movements to maintain balance
+NARRATION: Upright with head steady to balance bottles.
+NARRATION: Arms extended holding skirt ruffles.
+NARRATION: Controlled movements to maintain balance.
 ON SCREEN: Instructor front then side view; freeze-frame on posture
 ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
@@ -111,19 +111,19 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Stand upright with a glass bottle balanced on the head
-NARRATION: Step 2: Extend arms to hold the ruffles of the skirt
-NARRATION: Footwork from the sources: Improvised basic steps matching polka rhythm
-NARRATION: Drill: Practice standing still with bottle on head
+NARRATION: Step 1: Stand upright with a glass bottle balanced on the head.
+NARRATION: Step 2: Extend arms to hold the ruffles of the skirt.
+NARRATION: Footwork from the sources: Improvised basic steps matching polka rhythm.
+NARRATION: Drill: Practice standing still with bottle on head.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Perform basic improvised steps to the rhythm of Paraguayan polka
-NARRATION: Step 4: Maintain steady posture and balance throughout
-NARRATION: Drill: Walk slowly while holding skirt ruffles
+NARRATION: Step 3: Perform basic improvised steps to the rhythm of Paraguayan polka.
+NARRATION: Step 4: Maintain steady posture and balance throughout.
+NARRATION: Drill: Walk slowly while holding skirt ruffles.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -132,13 +132,13 @@ COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Basic polka step without bottle
+NARRATION: Drill: Basic polka step without bottle.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid sudden head movements that may dislodge bottles
+NARRATION: Avoid sudden head movements that may dislodge bottles.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 
@@ -167,9 +167,9 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Upright with head steady to balance bottles
-NARRATION: Arms extended holding skirt ruffles
-NARRATION: Controlled movements to maintain balance
+NARRATION: Upright with head steady to balance bottles.
+NARRATION: Arms extended holding skirt ruffles.
+NARRATION: Controlled movements to maintain balance.
 ON SCREEN: Instructor front then side view; freeze-frame on posture
 ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
@@ -183,16 +183,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Advance to balancing multiple stacked bottles as skill improves
-NARRATION: Drill: Increase tempo of steps
+NARRATION: Step 1: Advance to balancing multiple stacked bottles as skill improves.
+NARRATION: Drill: Increase tempo of steps.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Bottle stacking: Balancing multiple bottles stacked atop each other on the head
-NARRATION: Drill: Practice arm movements holding skirt
+NARRATION: Bottle stacking: Balancing multiple bottles stacked atop each other on the head.
+NARRATION: Drill: Practice arm movements holding skirt.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -202,13 +202,13 @@ COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Balance two bottles stacked
+NARRATION: Drill: Balance two bottles stacked.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid sudden head movements that may dislodge bottles
+NARRATION: Avoid sudden head movements that may dislodge bottles.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 
@@ -232,14 +232,14 @@ MUSIC: theme (10 s)
 ### 1. Welcome (45 s) · `welcome`
 NARRATION: Chapter 3 — Dancing it fully. Today: Balance multiple stacked bottles and complex improvisation.
 NARRATION: Level: Advanced. Difficulty of the dance overall: Intermediate to advanced.
-NARRATION: Your instructor: Experienced Paraguayan folk dancer with expertise in bottle balancing
+NARRATION: Your instructor: Experienced Paraguayan folk dancer with expertise in bottle balancing.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Upright with head steady to balance bottles
-NARRATION: Arms extended holding skirt ruffles
-NARRATION: Controlled movements to maintain balance
+NARRATION: Upright with head steady to balance bottles.
+NARRATION: Arms extended holding skirt ruffles.
+NARRATION: Controlled movements to maintain balance.
 ON SCREEN: Instructor front then side view; freeze-frame on posture
 ON SCREEN: Overlay: the hero video's posture for comparison
 MUSIC: silence
@@ -253,17 +253,17 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Maintain steady posture and balance throughout
-NARRATION: Step 2: Advance to balancing multiple stacked bottles as skill improves
-NARRATION: Drill: Stack and balance up to ten bottles
+NARRATION: Step 1: Maintain steady posture and balance throughout.
+NARRATION: Step 2: Advance to balancing multiple stacked bottles as skill improves.
+NARRATION: Drill: Stack and balance up to ten bottles.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Bottle stacking: Balancing multiple bottles stacked atop each other on the head
-NARRATION: Drill: Perform complex footwork and turns
+NARRATION: Bottle stacking: Balancing multiple bottles stacked atop each other on the head.
+NARRATION: Drill: Perform complex footwork and turns.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -273,13 +273,13 @@ COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Practice group formations
+NARRATION: Drill: Practice group formations.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid sudden head movements that may dislodge bottles
+NARRATION: Avoid sudden head movements that may dislodge bottles.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 

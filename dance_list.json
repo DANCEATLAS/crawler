@@ -126,7 +126,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Aerial_dance",
   "country": "United States",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -1271,7 +1271,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Basque_dance",
   "country": "Spain and France",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -3049,7 +3049,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Classical_ballet",
   "country": "France, Italy, Russia",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -3311,7 +3311,7 @@
   "country": "USA",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "csardas",
@@ -3854,7 +3854,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Dihosana",
   "country": "Botswana",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -5179,6 +5179,16 @@
   "is_sacred": false
  },
  {
+  "slug": "hand-jive",
+  "name": "Hand Jive",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Hand_jive",
+  "country": "United Kingdom",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "hanter-dro",
   "name": "Hanter Dro",
   "aliases": [
@@ -5788,6 +5798,21 @@
   "publish": true,
   "has_hero": true,
   "is_sacred": false
+ },
+ {
+  "slug": "iranian-dance",
+  "name": "Iranian dance",
+  "aliases": [
+   "dance of Iran",
+   "Persian dance",
+   "dances in Iran",
+   "dance in Iran"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Iranian_dance",
+  "country": "Iran",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
  },
  {
   "slug": "irish-dance",
@@ -7274,9 +7299,11 @@
   "slug": "larakaraka",
   "name": "Larakaraka",
   "aliases": [
-   "Larakaraka"
+   "Larakaraka",
+   "Acholi Larakaraka Dance",
+   "Larakaraka Dance"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Larakaraka",
   "country": "Uganda",
   "publish": true,
   "has_hero": true,
@@ -7412,7 +7439,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Letkajenkka",
   "country": "Finland",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -7655,7 +7682,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Long_sword_dance",
   "country": "England",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -7809,7 +7836,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Makossa",
   "country": "Cameroon",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -8692,6 +8719,16 @@
   "is_sacred": false
  },
  {
+  "slug": "muliza",
+  "name": "Muliza",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Muliza",
+  "country": "Peru",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "musette",
   "name": "Musette (bal-musette)",
   "aliases": [
@@ -8773,11 +8810,11 @@
   "aliases": [
    "Nago"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Nago_lwa",
   "country": "Haiti",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "nago-haiti",
@@ -8882,13 +8919,14 @@
   "slug": "ngajat",
   "name": "Ngajat",
   "aliases": [
-   "Ngajat"
+   "Ngajat",
+   "Kajat"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Ngajat",
   "country": "Malaysia",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "ngororombe",
@@ -9493,6 +9531,19 @@
   "is_sacred": false
  },
  {
+  "slug": "peruvian-waltz",
+  "name": "Peruvian waltz",
+  "aliases": [
+   "vals criollo",
+   "vals peruano"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Peruvian_waltz",
+  "country": "Peru",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "petwo",
   "name": "Petwo",
   "aliases": [
@@ -9549,7 +9600,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Piva_(dance)",
   "country": "Italy",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -9642,6 +9693,16 @@
   "country": "United States",
   "publish": true,
   "has_hero": true,
+  "is_sacred": false
+ },
+ {
+  "slug": "polka-mazurka",
+  "name": "polka-mazurka",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Polka-mazurka",
+  "country": "Austria",
+  "publish": true,
+  "has_hero": false,
   "is_sacred": false
  },
  {
@@ -9983,16 +10044,18 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Queer_Tango",
   "country": "Argentina",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
   "slug": "rabbit-dance",
-  "name": "Rabbit Dance",
+  "name": "Locking",
   "aliases": [
-   "Rabbit Dance"
+   "Rabbit Dance",
+   "Campbellocking",
+   "Lock"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Locking_(dance)",
   "country": "USA",
   "publish": true,
   "has_hero": true,
@@ -10017,13 +10080,14 @@
   "slug": "rada",
   "name": "Rada",
   "aliases": [
-   "Rada"
+   "Rada",
+   "Yanvalou"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Yanvalou",
   "country": "Haiti",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "ragragsakan",
@@ -10326,6 +10390,16 @@
   "publish": true,
   "has_hero": true,
   "is_sacred": false
+ },
+ {
+  "slug": "romantic-ballet",
+  "name": "Romantic ballet",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Romantic_ballet",
+  "country": "France",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
  },
  {
   "slug": "rondeau",
@@ -10795,6 +10869,18 @@
   "is_sacred": false
  },
  {
+  "slug": "seann-triubhas",
+  "name": "Seann Triubhas",
+  "aliases": [
+   "Shauntreuse"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Seann_triubhas",
+  "country": "United Kingdom",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "sega",
   "name": "Sega",
   "aliases": [
@@ -11136,6 +11222,21 @@
   "is_sacred": true
  },
  {
+  "slug": "siguiriyas",
+  "name": "siguiriyas",
+  "aliases": [
+   "seguiriyas",
+   "siguerillas",
+   "siguirillas",
+   "seguidilla gitana"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Siguiriyas",
+  "country": "Spain",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "simdi",
   "name": "Simdi",
   "aliases": [
@@ -11279,7 +11380,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Skank_(dance)",
   "country": "Jamaica",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -11330,7 +11431,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Slide_(tune_type)",
   "country": "Ireland",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -11352,7 +11453,7 @@
    "Sneak-Up Dance",
    "sneak up dance"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Homework_(Remixes)",
   "country": "USA",
   "publish": true,
   "has_hero": false,
@@ -11581,6 +11682,16 @@
   "is_sacred": false
  },
  {
+  "slug": "st-louis-shag",
+  "name": "St. Louis shag",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/St._Louis_shag",
+  "country": "United States",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "stanky-legg",
   "name": "Stanky Legg",
   "aliases": [],
@@ -11612,7 +11723,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Stomp_dance",
   "country": "United States",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -12320,6 +12431,16 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Tourdion",
   "country": "France",
   "publish": true,
+  "has_hero": true,
+  "is_sacred": false
+ },
+ {
+  "slug": "traditional-square-dance",
+  "name": "Traditional Square Dance",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Traditional_square_dance",
+  "country": "United States and Canada",
+  "publish": true,
   "has_hero": false,
   "is_sacred": false
  },
@@ -12347,6 +12468,16 @@
   "country": "United Kingdom",
   "publish": true,
   "has_hero": true,
+  "is_sacred": false
+ },
+ {
+  "slug": "troika",
+  "name": "Troika",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Troika_(dance)",
+  "country": "Russia",
+  "publish": true,
+  "has_hero": false,
   "is_sacred": false
  },
  {
@@ -12509,6 +12640,19 @@
   "is_sacred": false
  },
  {
+  "slug": "umhlanga",
+  "name": "Umhlanga",
+  "aliases": [
+   "Reed Dance",
+   "Umkhosi woMhlanga"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Umhlanga_(ceremony)",
+  "country": "Eswatini, South Africa",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "umushagiriro",
   "name": "Umushagiriro",
   "aliases": [],
@@ -12576,6 +12720,18 @@
   "is_sacred": false
  },
  {
+  "slug": "uzundara",
+  "name": "Uzundara",
+  "aliases": [
+   "Ouzoundara"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Uzundara",
+  "country": "Armenia, Azerbaijan",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "vallenato",
   "name": "Vallenato",
   "aliases": [
@@ -12584,7 +12740,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Vallenato",
   "country": "Colombia",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -12606,13 +12762,14 @@
   "slug": "vannam",
   "name": "Vannam",
   "aliases": [
-   "Vannam"
+   "Vannam",
+   "Wannam"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Dance_in_Sri_Lanka",
   "country": "Sri Lanka",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "veerabhadra",
@@ -12779,6 +12936,20 @@
   "is_sacred": false
  },
  {
+  "slug": "wari",
+  "name": "Wari",
+  "aliases": [
+   "Huaridanza",
+   "Dance of the Knights of Huari",
+   "Waritaki"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Wari_(dance)",
+  "country": "Peru",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "weapon-dance",
   "name": "Weapon dance",
   "aliases": [],
@@ -12822,11 +12993,11 @@
   "aliases": [
    "Wititi"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Carnaval_de_Oruro",
   "country": "Peru",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "women-s-buckskin-dance",
@@ -12849,6 +13020,18 @@
   "country": "",
   "publish": true,
   "has_hero": true,
+  "is_sacred": false
+ },
+ {
+  "slug": "wotagei",
+  "name": "Wotagei",
+  "aliases": [
+   "otagei"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Wotagei",
+  "country": "Japan",
+  "publish": true,
+  "has_hero": false,
   "is_sacred": false
  },
  {
@@ -12920,6 +13103,21 @@
   "publish": true,
   "has_hero": true,
   "is_sacred": false
+ },
+ {
+  "slug": "yangju-byeolsandae-nori",
+  "name": "Yangju byeolsandae nori",
+  "aliases": [
+   "양주별산대놀이",
+   "sandi nori",
+   "sanji nori",
+   "sandu nori"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Yangju_byeolsandae_nori",
+  "country": "South Korea",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
  },
  {
   "slug": "yangko",
@@ -13114,6 +13312,18 @@
   "publish": true,
   "has_hero": true,
   "is_sacred": false
+ },
+ {
+  "slug": "zambra",
+  "name": "Zambra",
+  "aliases": [
+   "zambra mora"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Zambra_(dance)",
+  "country": "Spain",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
  },
  {
   "slug": "zandunga",

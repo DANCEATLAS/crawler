@@ -1,6 +1,6 @@
 # dangdut — episode pack
 
-*Status: draft · built 2026-11-03 · judge 8.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-03 · judge 8.1 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
 
@@ -11,7 +11,7 @@
 ## Episode 1 · Meet dangdut · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Beat of the Archipelago
+NARRATION: The beat of the archipelago.
 NARRATION: This is dangdut. 20th century.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: dangdut · Indonesia · 20th century
@@ -64,8 +64,8 @@ ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: dangdut is parent of Orkes Melayu: The collective sound tradition from which dangdut branched.
-NARRATION: dangdut is influence of Bollywood film music: Provided the harmonic and rhythmic basis for early dangdut.
+NARRATION: Dangdut is parent of Orkes Melayu: The collective sound tradition from which dangdut branched.
+NARRATION: Dangdut is influence of Bollywood film music: Provided the harmonic and rhythmic basis for early dangdut.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
@@ -84,14 +84,14 @@ MUSIC: theme (20 s)
 ## Chapter 1 · First steps — the first steps of dangdut · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: the first steps of dangdut.
-NARRATION: Level: beginner. 
+NARRATION: Chapter 1. First steps. Today: the first steps of dangdut.
+NARRATION: Level: beginner.
 NARRATION: Your instructor: An ethnomusicologist specializing in Southeast Asian popular music.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
+NARRATION: Posture notes are not in the sources yet. The instructor demonstrates neutral posture and the arm position seen in the hero video.
 ON SCREEN: Instructor front then side view; freeze-frame on posture
 MUSIC: silence
 NEEDS: posture
@@ -127,7 +127,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
+NARRATION: The sources do not list common mistakes yet. The instructor names the two most visible ones from the hero video.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 NEEDS: what_to_avoid
@@ -157,7 +157,7 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
+NARRATION: Posture notes are not in the sources yet. The instructor demonstrates neutral posture and the arm position seen in the hero video.
 ON SCREEN: Instructor front then side view; freeze-frame on posture
 MUSIC: silence
 NEEDS: posture
@@ -193,7 +193,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
+NARRATION: The sources do not list common mistakes yet. The instructor names the two most visible ones from the hero video.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 NEEDS: what_to_avoid
@@ -223,7 +223,7 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
+NARRATION: Posture notes are not in the sources yet. The instructor demonstrates neutral posture and the arm position seen in the hero video.
 ON SCREEN: Instructor front then side view; freeze-frame on posture
 MUSIC: silence
 NEEDS: posture
@@ -259,7 +259,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
+NARRATION: The sources do not list common mistakes yet. The instructor names the two most visible ones from the hero video.
 ON SCREEN: Side-by-side: wrong / right
 MUSIC: silence
 NEEDS: what_to_avoid

@@ -2220,5 +2220,216 @@
   "notes": [],
   "errors": [],
   "version": "v3.3"
+ },
+ {
+  "stage": "health",
+  "started": "2026-11-06T16:50:05Z",
+  "finished": "2026-11-06T16:50:05Z",
+  "counters": {
+   "scale_pct": 100
+  },
+  "notes": [
+   "tuning: models healthy (1 of 336 questions unanswered); budgets at 100%",
+   "lessons: 323 QC records in 30 days; top gate failures [('sections_filled', 63), ('citations', 58), ('insight_concrete', 58)]; top script gaps [('tempo (bpm)', 136), ('licensed images (3 needed)', 112), ('licensed reference footage', 104)]"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "audit",
+  "started": "2026-11-06T16:50:05Z",
+  "finished": "2026-11-06T16:50:05Z",
+  "counters": {
+   "retired_or_merged_total": 110
+  },
+  "notes": [
+   "audit: 110 entries retired/merged of 1014; judged so far 929"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "discover",
+  "started": "2026-11-06T16:50:05Z",
+  "finished": "2026-11-06T16:51:02Z",
+  "counters": {
+   "harvested": 3682,
+   "already_known": 1029,
+   "dup_name": 112,
+   "dup_qid": 114,
+   "deferred": 1408,
+   "not_dance_like": 10,
+   "queued_new": 40
+  },
+  "notes": [
+   "candidate queue: 218 queued, 482 tracked"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "research",
+  "started": "2026-11-06T16:51:02Z",
+  "finished": "2026-11-06T18:34:39Z",
+  "counters": {
+   "researched_researched": 38,
+   "researched_no_sources": 2,
+   "llm_calls": 49,
+   "llm_failures": 11,
+   "llm_requests": 38,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "targets: 40 (llm enabled=True)"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "qc",
+  "started": "2026-11-06T18:34:39Z",
+  "finished": "2026-11-06T18:39:43Z",
+  "counters": {
+   "gate_publish": 25,
+   "gate_review": 3,
+   "gate_reject": 10,
+   "llm_calls": 45,
+   "llm_failures": 7,
+   "llm_requests": 38,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "qc targets: 38 (judge enabled=True)"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "hero_qc",
+  "started": "2026-11-06T18:39:43Z",
+  "finished": "2026-11-06T18:54:37Z",
+  "counters": {
+   "videos_fetched": 148,
+   "verdict_pass": 45,
+   "verdict_fail": 15,
+   "replaced": 10,
+   "evicted_for_recrawl": 5,
+   "llm_calls": 92,
+   "llm_failures": 10,
+   "llm_requests": 82,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "hero qc targets: 60 of 1186 heroes (vision=True)"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "build",
+  "started": "2026-11-06T18:54:37Z",
+  "finished": "2026-11-06T18:54:55Z",
+  "counters": {
+   "retired_by_audit": 110,
+   "new_rejected_hidden": 75,
+   "new_publish": 119,
+   "new_review_hidden": 45,
+   "existing_research_rejected": 21,
+   "existing_reject": 21,
+   "existing_publish": 57,
+   "existing_review": 43
+  },
+  "notes": [
+   "catalogue built: {'generated_at': '2026-11-06T18:54:55Z', 'count': 1023, 'with_hero': 895, 'hero_qc_pass': 423, 'deep_profiles': 176, 'movie_ready': 53, 'with_albums': 22, 'with_images': 103, 'with_tutorials': 66, 'content_ready': 659, 'new_from_pipeline': 119, 'retired': 110, 'counters': {'retired_by_audit': 110, 'new_rejected_hidden': 75, 'new_publish': 119, 'new_review_hidden': 45, 'existing_research_rejected': 21, 'existing_reject': 21, 'existing_publish': 57, 'existing_review': 43}, 'pipeline': 'v3.3'}"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "pedagogy",
+  "started": "2026-11-06T18:54:55Z",
+  "finished": "2026-11-06T18:59:51Z",
+  "counters": {
+   "video_ok": 5,
+   "video_failed": 1,
+   "llm_calls": 15,
+   "llm_failures": 10,
+   "llm_requests": 6,
+   "llm_unanswered": 1
+  },
+  "notes": [
+   "lessons to study: 6 (budget 6)",
+   "playbook: 23 lessons across 16 dances"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "episodes",
+  "started": "2026-11-06T18:59:51Z",
+  "finished": "2026-11-06T19:02:16Z",
+  "counters": {
+   "unchanged": 148,
+   "status_draft": 137,
+   "status_withheld-chapters": 39,
+   "polished": 4,
+   "built": 28,
+   "llm_calls": 8,
+   "llm_failures": 4,
+   "llm_requests": 4,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "episode packs: 176 (0 complete, 20 polished); gaps for 176 packs"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "translate",
+  "started": "2026-11-06T19:02:16Z",
+  "finished": "2026-11-06T19:03:41Z",
+  "counters": {
+   "translated": 6,
+   "scenes_translated": 182,
+   "scenes_master_kept": 40,
+   "llm_calls": 11,
+   "llm_failures": 5,
+   "llm_requests": 6,
+   "llm_unanswered": 0
+  },
+  "notes": [
+   "languages: es,fr,de,pt,it,ja,zh,ko,ar,hi,ru,id · translations to make: 6 (budget 6)",
+   "translations on file for the current masters: 24 across 12 languages"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "sync",
+  "started": "2026-11-06T19:03:41Z",
+  "finished": "2026-11-06T19:04:20Z",
+  "counters": {
+   "skipped_reject_new": 12,
+   "inserted_publish": 25,
+   "inserted_review": 3
+  },
+  "notes": [
+   "dances columns known: 32; pipeline columns present: []",
+   "sync targets: 40"
+  ],
+  "errors": [],
+  "version": "v3.3"
+ },
+ {
+  "stage": "report",
+  "started": "2026-11-06T19:04:20Z",
+  "finished": "2026-11-06T19:04:22Z",
+  "counters": {
+   "review_items": 184
+  },
+  "notes": [],
+  "errors": [],
+  "version": "v3.3"
  }
 ]

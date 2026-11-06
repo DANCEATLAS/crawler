@@ -1,7 +1,7 @@
 {
  "contract": "dw_app_v1",
- "count": 1006,
- "generated_at": "2026-11-05T19:21:50Z",
+ "count": 1023,
+ "generated_at": "2026-11-06T18:54:55Z",
  "pipeline": "v3.3",
  "styles": {
   "son-cubano": {
@@ -821,6 +821,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:52:32Z",
+    "soft_fail": []
+   },
    "tutorials": [
     {
      "youtube_id": "oj-S6T4oZeU",
@@ -3654,7 +3659,8 @@
    ],
    "related_slugs": [
     "tango",
-    "candombe"
+    "candombe",
+    "peruvian-waltz"
    ]
   },
   "sevillanas": {
@@ -9149,6 +9155,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:52:57Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "cueca": {
@@ -10793,6 +10804,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:51:50Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "royal-ballet-of-cambodia",
     "lakhon-khol"
@@ -12471,6 +12489,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:46:29Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "contemporary-dance",
     "dancehall",
@@ -21431,6 +21454,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:51:52Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "circle-dance",
     "hopak",
@@ -22334,6 +22362,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:47:27Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "jhumair": {
@@ -24131,7 +24164,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Calinda",
    "wikidata_qid": "Q2741465",
    "unesco": false,
-   "hero_video_youtube_id": "e8ulETQPv4Q",
+   "hero_video_youtube_id": "gfWctshJaSk",
    "hero_image": null,
    "video_stack": [],
    "image_significance": null,
@@ -24155,7 +24188,14 @@
    ],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:47:36Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": []
   },
   "vishnumoorthy-theyyam": {
@@ -27506,6 +27546,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:47:49Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "gandagana",
     "davluri",
@@ -28162,6 +28207,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:51:41Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "hanter-dro",
     "laride"
@@ -47215,7 +47267,8 @@
    },
    "related_slugs": [
     "kochari",
-    "lezginka"
+    "lezginka",
+    "uzundara"
    ]
   },
   "tor-tor": {
@@ -55209,6 +55262,10 @@
     "checked_at": "2026-11-04T19:11:47Z",
     "soft_fail": []
    },
+   "research_gate": "reject",
+   "qc_score": 8.8,
+   "last_researched_at": "2026-11-06T18:09:01Z",
+   "pipeline_version": "v3.3",
    "related_slugs": [
     "son-cubano",
     "cuban-rumba",
@@ -55670,16 +55727,17 @@
    "slug": "ngajat",
    "name": "Ngajat",
    "country": "Malaysia",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "MY",
+   "flag_emoji": "🇲🇾",
    "region": "Sarawak (Iban)",
-   "family": null,
+   "family": "ritual-sacred",
    "era": "traditional",
    "tagline": "The headhunters' victory dance",
    "profile": "The headhunters' victory dance — Ngajat (Malaysia, Sarawak (Iban)). Full sourced 9-field A+ profile in research artifact W7; concise schema stub pending text expansion.",
    "insight": "",
    "aliases": [
-    "Ngajat"
+    "Ngajat",
+    "Kajat"
    ],
    "related": [
     "khon",
@@ -55687,9 +55745,12 @@
     "apsara-dance",
     "legong"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ngajat",
+    "https://www.wikidata.org/wiki/Q24937166"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Ngajat",
+   "wikidata_qid": "Q24937166",
    "unesco": false,
    "hero_video_youtube_id": "luVI7fwzuiI",
    "hero_image": null,
@@ -55708,6 +55769,53 @@
     "checked_at": "2026-11-04T19:15:28Z",
     "soft_fail": []
    },
+   "research_gate": "publish",
+   "qc_score": 9.2,
+   "last_researched_at": "2026-11-06T18:09:23Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Ngajat dance is a cornerstone of Iban cultural identity, deeply rooted in the history and environment of Sarawak, Malaysia. Its origins are traced to oral traditions where ancestors observed the natural world, specifically the common hill myna and the great argus. The rhythmic movements of the myna’s legs and the expansive, wing-like gestures of the argus were incorporated into the dance, forming the basis of 'Bungai Ajat' and 'Bunga Ajat'. While the exact date of its inception remains unknown, the dance is strongly associated with the Iban ethnic group since at least the 16th century. Historically, Ngajat served as a vital component of warrior culture, performed upon the return of headhunters to the longhouse, and as a celebratory act during the Gawai harvest festival. \n\nIn its traditional form, the dance is highly gendered and symbolic. Male dancers, often portraying warriors, wear elaborate 'gagung'—a thick, protective vest traditionally made of animal skin—and headdresses adorned with feathers. They carry traditional weapons such as the 'ilang' or 'jimpul' sword and the 'terabai' shield. Female dancers, known as 'Kumang', wear intricate 'ngepan' headdresses, chest hooks, and bracelets, often incorporating the 'Pua Kumbu' fabric into their performance. The dance is accompanied by a specific ensemble of musical instruments, including the 'tawak' and 'bebendai' gongs, the 'ketebung' drum, and the 'engkromong' small gongs. \n\nThere are numerous classifications of Ngajat, each serving a specific social or ritual purpose. 'Ngajat Bebunoh' replicates the movements of hunting or combat, while 'Ngajat Lesong' is a display of raw strength where a man lifts a heavy wooden rice mortar with his teeth. 'Ngajat Induk' or 'Ngajat Pua Kumbu' is performed by women during significant ceremonies like the Gawai Kelingkang, where they lead processions and perform rituals to welcome warriors. Other forms, such as 'Ngajat Ngalu Temuai', are used to welcome honored guests to the longhouse. In the modern era, the dance has evolved to include standardized versions like 'Ngajat Serakup', created in the 1980s to unite the Iban community through a common stage performance. Today, Ngajat continues to thrive, with young practitioners gaining international recognition at festivals in South Korea and the United States, ensuring the preservation of this intangible cultural heritage.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Argusianus_argus%2C_Khao_Sok%2C_Thailand_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Argusianus_argus%2C_Khao_Sok%2C_Thailand_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1024,
+     "height": 512,
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+     "attribution": "Francesco Veronesi from Italy / Wikimedia Commons / CC BY-SA 2.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AArgusianus_argus%2C_Khao_Sok%2C_Thailand_1.jpg",
+     "description": "Great Argus Argusianus argus, Khao Sok, Thailand."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Acridotheres_tristis00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Acridotheres_tristis00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 610,
+     "height": 848,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Gerrie van Vuuren / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAcridotheres_tristis00.jpg",
+     "description": "Acridotheres tristis (Linnaeus, 1766) - Common mynah, South Africa"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/NgajatofSarawak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/af/NgajatofSarawak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 972,
+     "height": 719,
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "attribution": "Menuaibansarawak / Wikimedia Commons / CC0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ANgajatofSarawak.jpg",
+     "description": "Ngajat Lesong is a traditional dance of Iban people in Sarawak."
+    }
+   ],
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "Certain rituals, such as those involving the Pua Kumbu and the welcoming of warriors, are deeply tied to ancestral offerings and spiritual protection; outsiders should observe with respect and avoid interrupting ritual processes.",
+   "movie_ready": false,
+   "tradition_status": "living",
    "related_slugs": [
     "khon",
     "tinikling",
@@ -55886,16 +55994,17 @@
    "slug": "vannam",
    "name": "Vannam",
    "country": "Sri Lanka",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "LK",
+   "flag_emoji": "🇱🇰",
    "region": "Kandyan",
-   "family": null,
+   "family": "classical-court",
    "era": "18th c.",
    "tagline": "Eighteen classical Kandyan dances",
    "profile": "Eighteen classical Kandyan dances — Vannam (Sri Lanka, Kandyan). Full sourced 9-field A+ profile in research artifact W7; concise schema stub pending text expansion.",
    "insight": "",
    "aliases": [
-    "Vannam"
+    "Vannam",
+    "Wannam"
    ],
    "related": [
     "bharatanatyam",
@@ -55903,9 +56012,13 @@
     "bhangra",
     "odissi"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dance_in_Sri_Lanka",
+    "https://www.wikidata.org/wiki/Q5215413",
+    "https://fr.wikipedia.org/wiki/Danses_au_Sri_Lanka"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Dance_in_Sri_Lanka",
+   "wikidata_qid": "Q5215413",
    "unesco": false,
    "hero_video_youtube_id": "O0yppnHxo_w",
    "hero_image": null,
@@ -55924,6 +56037,64 @@
     "checked_at": "2026-11-04T19:16:43Z",
     "soft_fail": []
    },
+   "research_gate": "publish",
+   "qc_score": 8.95,
+   "last_researched_at": "2026-11-06T18:09:35Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Vannam tradition represents a pinnacle of the Kandyan dance form, known as Uda Rata Natum. Unlike the ritualistic and exorcistic roots of other Kandyan dances, the Vannam are primarily descriptive, solo performances that translate the essence of nature, legend, and history into movement. The term 'Vannam' is derived from the Sinhala word 'varnana', which translates to 'descriptive praise'. Historically, these were not dances at all, but rather recitations or poetry sung to music. The transformation of these recitations into a structured dance form is largely attributed to the 18th-century Kandyan King Sri Weeraparakrama Narendrasinghe, who provided significant encouragement to the arts. Under his patronage, the court became a hub for song and poetry contests within a decorated arena known as the 'kavikara maduwa'. It is recorded that the poetry for the eighteen principal Vannam was composed by a sage named Ganithalankara, with assistance from a Buddhist priest from the Kandy temple. The repertoire is deeply connected to the natural world and the cultural landscape of Sri Lanka. Each of the eighteen Vannam is composed and interpreted in a specific 'rasaya', or sentiment, intended to evoke a particular mood. The subjects of these dances are diverse, ranging from the movements of animals—such as the elephant (Gajaga Wannama), the monkey (Hanuma Wannama), the eagle (Ukkussa Wannama), and the peacock (Mayura Wannama)—to more abstract or sacred concepts, such as the praise of the god Ganapathi or the majesty of the king. The process of learning these dances is rigorous. In the traditional pedagogical structure, a student of Kandyan dance is expected to master all eighteen of these Vannam before they are permitted to undergo the initiation to wear the 'ves' costume, which is the most prestigious attire in the Kandyan tradition. This requirement underscores the status of the Vannam as a foundational yet advanced component of the dancer's training. While the original eighteen are the most recognized, the tradition has expanded over time to include additional pieces such as the Samanala (butterfly) and Hansa (swan) Vannam. The performance of a Vannam is a solo endeavor, where the dancer uses their body to embody the character or creature described in the accompanying song. The music is provided by the Geta Bera, a drum that tapers on both sides, and the Thalampataa, a pair of small cymbals used to maintain the rhythm. The dancer’s performance is synchronized with these rhythmic patterns, which are essential to the 'nrtta' or pure dance aspect of the performance. Today, the Vannam continue to be performed in both traditional ritual contexts and modern cultural showcases, serving as a vital link to the agricultural and religious history of the Sinhalese people. They reflect a worldview that existed long before the 3rd century BC, where deities and demons were believed to influence the natural world, and where the observation of animal behavior was a primary source of artistic inspiration. The preservation of these dances is a testament to the endurance of Kandyan culture, which has adapted to modern stages while maintaining the core techniques and sentiments established centuries ago.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Mask_of_the_demon_Maha_Sohona_Yakka_from_Ambalangoda_Masks_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Mask_of_the_demon_Maha_Sohona_Yakka_from_Ambalangoda_Masks_Museum.jpg/1280px-Mask_of_the_demon_Maha_Sohona_Yakka_from_Ambalangoda_Masks_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4272,
+     "height": 2848,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Jan Benda / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AMask_of_the_demon_Maha_Sohona_Yakka_from_Ambalangoda_Masks_Museum.jpg",
+     "description": "Mask of the demon Maha Sohona Yakka from Ambalangoda Masks Museum (Sri Lanka). It is used in the Tovil healing ritual (the taming of the demons)."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Two_Women_in_Traditional_Kandyan_Dress_Laugh_While_Waiting_as_Secretary_Kerry_Meets_With_Sri_Lankan_Foreign_Minister_Samaraweera_%2816720359423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Two_Women_in_Traditional_Kandyan_Dress_Laugh_While_Waiting_as_Secretary_Kerry_Meets_With_Sri_Lankan_Foreign_Minister_Samaraweera_%2816720359423%29.jpg/1280px-Two_Women_in_Traditional_Kandyan_Dress_Laugh_While_Waiting_as_Secretary_Kerry_Meets_With_Sri_Lankan_Foreign_Minister_Samaraweera_%2816720359423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4142,
+     "height": 2755,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "U.S. Department of State from United States / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATwo_Women_in_Traditional_Kandyan_Dress_Laugh_While_Waiting_as_Secretary_Kerry_Meets_With_Sri_Lankan_Foreign_Minister_Samaraweera_%2816720359423%29.jpg",
+     "description": "Two women in traditional Kandyan dress laugh while waiting as U.S. Secretary of State John Kerry meets with Sri Lankan Foreign Minister Mangala Samaraweera at the Ministry of Foreign Affairs in Colombo, Sri Lanka, on May 2, 2015, before the Secretary met with President Maithripala Sirisena and Prime Minister Ranil Wickremesinghe. [State Department Photo/Public Domain]"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Kandyan_dance_performance_in_Kandy%2C_Sri_Lanka%2C_20260130_173303.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Kandyan_dance_performance_in_Kandy%2C_Sri_Lanka%2C_20260130_173303.jpg/1280px-Kandyan_dance_performance_in_Kandy%2C_Sri_Lanka%2C_20260130_173303.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1776,
+     "height": 2368,
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0",
+     "attribution": "Jakub Hałun / Wikimedia Commons / CC BY 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKandyan_dance_performance_in_Kandy%2C_Sri_Lanka%2C_20260130_173303.jpg",
+     "description": "Kandyan dance performance in Kandy, Sri Lanka"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/%E0%B6%B8%E0%B6%AB%E0%B7%8A%E0%B6%A9%E0%B7%92%E0%B6%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%E0%B6%B8%E0%B6%AB%E0%B7%8A%E0%B6%A9%E0%B7%92%E0%B6%BA.jpg/1280px-%E0%B6%B8%E0%B6%AB%E0%B7%8A%E0%B6%A9%E0%B7%92%E0%B6%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2400,
+     "height": 1792,
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "attribution": "Sachinisithara / Wikimedia Commons / CC0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3A%E0%B6%B8%E0%B6%AB%E0%B7%8A%E0%B6%A9%E0%B7%92%E0%B6%BA.jpg",
+     "description": "මණ්ඩිය හරි විදියට"
+    }
+   ],
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "While the Vannam are not inherently sacred in the same way as the Kohomba Kankariya ritual, they are deeply embedded in the sacred and courtly traditions of the Kandyan dance form.",
+   "movie_ready": false,
+   "tradition_status": "living",
    "related_slugs": [
     "bharatanatyam",
     "kathak",
@@ -55984,10 +56155,10 @@
    "slug": "sneak-up-dance",
    "name": "Sneak-Up Dance",
    "country": "USA",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "US",
+   "flag_emoji": "🇺🇸",
    "region": "Plains",
-   "family": null,
+   "family": "ritual-sacred",
    "era": "traditional",
    "tagline": "Powwow's stalking warrior dance",
    "profile": "Powwow's stalking warrior dance — Sneak-Up Dance (USA, Plains). Full sourced 9-field A+ profile in research artifact W8; concise schema stub pending text expansion.",
@@ -56002,9 +56173,13 @@
     "charleston",
     "lindy-hop"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Homework_(Remixes)",
+    "https://www.wikidata.org/wiki/Q118902384",
+    "https://archive.org/details/ERIC_ED451021"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Homework_(Remixes)",
+   "wikidata_qid": "Q118902384",
    "unesco": false,
    "hero_video_youtube_id": null,
    "hero_image": null,
@@ -56017,6 +56192,16 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "publish",
+   "qc_score": 9.6,
+   "last_researched_at": "2026-11-06T18:09:57Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Sneak-Up Dance is a central feature of the Pow Wow, a traditional gathering of dancers and singers. It is a highly structured performance that requires the dancer to interpret the changing rhythms of the drum. The dance is organized into four distinct renditions, each following a specific pattern of musical cues. During the first half of each rendition, the drum plays a series of rolls. During these rolls, the dancer shakes their bells and performs gestures that simulate the act of following or seeking out an enemy. This requires the dancer to maintain a high level of alertness and physical expression to convey the narrative of the dance. In the second half of each rendition, the music shifts to a standard Omaha beat. During this phase, the dancers perform the 'sneak-up' movement, which involves advancing toward the center of the arena. The dancers must stop precisely on the last beat of the song, with both feet firmly on the ground, before walking back to the perimeter of the dance area. The structure of the dance changes during the fourth rendition, which does not end like the first three but instead continues with three or four straight Omaha renditions. A key element of the dancer's performance is the management of their regalia, particularly the roach crest feathers. Dancers are expected to keep their heads moving in time with the drum, either nodding quickly or moving from side to side, to ensure the feathers remain spinning. Maintaining this constant motion is considered a hallmark of a skilled dancer. While the Omaha style is generally described as a freestyle form of dancing, the Sneak-Up Dance demands strict adherence to the drum's changing beat. The competition categories for this dance are divided into men, teen, junior, and little boys, reflecting its importance across different age groups within the community.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "movie_ready": true,
+   "tradition_status": "living",
    "related_slugs": [
     "butterfly-dance-plains",
     "salsa",
@@ -56068,6 +56253,13 @@
      "not_talking_head"
     ]
    },
+   "research_gate": "reject",
+   "qc_score": 8.65,
+   "last_researched_at": "2026-11-06T18:10:16Z",
+   "pipeline_version": "v3.3",
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "not described in sources",
    "related_slugs": [
     "salsa",
     "charleston",
@@ -56128,18 +56320,20 @@
   },
   "rabbit-dance": {
    "slug": "rabbit-dance",
-   "name": "Rabbit Dance",
+   "name": "Locking",
    "country": "USA",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "US",
+   "flag_emoji": "🇺🇸",
    "region": "Lakota",
-   "family": null,
+   "family": "street-urban",
    "era": "traditional",
    "tagline": "A Lakota couples social dance",
    "profile": "A Lakota couples social dance — Rabbit Dance (USA, Lakota). Full sourced 9-field A+ profile in research artifact W8; concise schema stub pending text expansion.",
    "insight": "",
    "aliases": [
-    "Rabbit Dance"
+    "Rabbit Dance",
+    "Campbellocking",
+    "Lock"
    ],
    "related": [
     "salsa",
@@ -56147,9 +56341,15 @@
     "lindy-hop",
     "hip-hop"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Locking_(dance)",
+    "https://www.wikidata.org/wiki/Q661609",
+    "https://es.wikipedia.org/wiki/Locking",
+    "https://fr.wikipedia.org/wiki/Locking",
+    "https://de.wikipedia.org/wiki/Locking_(Tanz)"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Locking_(dance)",
+   "wikidata_qid": "Q661609",
    "unesco": false,
    "hero_video_youtube_id": "Is9cPLjiFcw",
    "hero_image": null,
@@ -56170,6 +56370,35 @@
      "hd"
     ]
    },
+   "research_gate": "publish",
+   "qc_score": 9.5,
+   "last_researched_at": "2026-11-06T18:19:00Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Locking, originally known as Campbellocking, emerged in the late 1960s in Los Angeles, California. It was pioneered by Don Campbell, who accidentally created the foundational 'lock' while attempting to perform the 'Robot Shuffle.' Unable to remember the sequence, Campbell froze his arms, a mistake that audiences found amusing. Rather than retreating, Campbell embraced the laughter, pointing at the crowd and incorporating these spontaneous halts into his performances. This style evolved into a distinct funk dance, popularized by Campbell’s group, The Lockers, and television programs like Soul Train. The dance is defined by a strong contrast between fast, continuous movement and sudden, sharp freezes. Dancers often maintain a 'cool' or 'comical' demeanor, frequently smiling or interacting with the audience through gestures like high-fives or pointing. The technique relies on precise wrist rolls, arm twirls, and exaggerated pointing, often inspired by cultural icons like the 'Uncle Sam' recruitment poster. While improvisation is central to the form, it includes a set of signature moves developed by pioneers such as Jimmy 'Scoo B Doo' Foster, Alpha Anderson, and Anthony 'Skeeter Rabbit' Higgins. The dance is physically demanding, often requiring knee protection for acrobatic moves like the 'knee drop' or 'jazz split.' Historically, the attire associated with the dance—striped socks, pegged pants, bright satin shirts, and large hats—reflected the youth fashion of the 1960s and 70s. Although the dance saw a decline in the early 1990s, it was revived by dancers like Storm and groups like Out of Control, cementing its place as a cornerstone of the funk-style dance family. Today, it is practiced globally, often categorized under the broader umbrella of hip-hop culture, though practitioners prefer the term 'funkstyler' to emphasize its musical roots in traditional funk.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "not described in sources",
+     "artist": "James Brown",
+     "source": "https://en.wikipedia.org/wiki/Locking_(dance)",
+     "verified": false
+    }
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/William_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9b/William_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 974,
+     "height": 1400,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "William H. Johnson / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AWilliam_H._Johnson_-_Jitterbugs_%28V%29_-_Smithsonian_American_Art_Museum.jpg",
+     "description": "Artist: William H. Johnson, born Florence, SC 1901-died Central Islip, NY 1970\nType: Graphic Arts-Print\nDate: ca. 1941-1942\nTopic: Figure group\n     Ethnic\\African-American\n     Recreation\\dancing\n     Object\\musical instrument\\drum\n     Object\\musical instrument\\horn\nObject number: 1971.136\nMedium: serigraph on paper\nCredit Line: Smithsonian American Art Museum, Gift of Mrs. Douglas E. Younger\nPe"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
    "related_slugs": [
     "salsa",
     "charleston",
@@ -56381,6 +56610,10 @@
     "checked_at": "2026-11-05T19:15:12Z",
     "soft_fail": []
    },
+   "research_gate": "reject",
+   "qc_score": 7.95,
+   "last_researched_at": "2026-11-06T18:23:42Z",
+   "pipeline_version": "v3.3",
    "related_slugs": [
     "bruckins",
     "son-cubano",
@@ -56537,10 +56770,10 @@
    "slug": "nago",
    "name": "Nago",
    "country": "Haiti",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "HT",
+   "flag_emoji": "🇭🇹",
    "region": "Vodou",
-   "family": null,
+   "family": "ritual-sacred",
    "era": "Yoruba origin",
    "tagline": "Warrior salute to the Ogou spirits",
    "profile": "Warrior salute to the Ogou spirits — Nago (Haiti, Vodou). Full sourced 9-field A+ profile in research artifact W8; concise schema stub pending text expansion.",
@@ -56554,9 +56787,12 @@
     "nago-haiti",
     "son-cubano"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nago_lwa",
+    "https://www.wikidata.org/wiki/Q137360645"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Nago_lwa",
+   "wikidata_qid": "Q137360645",
    "unesco": false,
    "hero_video_youtube_id": "gI8Kdg4JAYo",
    "hero_image": null,
@@ -56575,6 +56811,19 @@
     "checked_at": "2026-11-05T19:16:24Z",
     "soft_fail": []
    },
+   "research_gate": "publish",
+   "qc_score": 8.6,
+   "last_researched_at": "2026-11-06T18:28:21Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Nago dance tradition is a core component of the Nago nanchon, a group of lwa within Haitian Vodou that emerged from the syncretization of Yoruba orisha and rites brought to the island during the Atlantic slave trade. The tradition is fundamentally militant and masculine, reflecting the nature of the spirits it honors. Unlike the 'cool' nature of the Rada lwa, the Nago are associated with the elements of earth, fire, and metal, demanding a physical expression that is both powerful and demanding. The leader of this nanchon is the lwa Loco, known as the 'king of the Nago' (wa Nago), while the most prominent spirits within the group are the Ogou, who manifest as warriors, statesmen, and bokor. \n\nThe dance itself is a muscularly-choreographed practice that serves as a ritual vehicle for these spirits. It is performed to the accompaniment of three Rada cowhide-head drums, which dictate the pace and intensity of the movement. The repertoire includes distinct rhythmic patterns such as the Nago Chaud, a fast-paced beat, and the Nago Grand Coup, a slow, heavy beat. Dancers engage in a series of movements that include strong thrusting, swaying, shoulder undulations, and pirouettes, all punctuated by fast footwork. This physical vocabulary is designed to reflect the militant nature of the Ogou, who are often syntheses of various Yoruba orisha, such as Ogou Batala or Ogou Yansan. \n\nRitual practice is marked by specific calls and material requirements. The ritual call 'Awo che Nago' is used to mark the beginning and end of ceremonies, while the 'Haut Chant Nago' serves as a welcoming song. A unique material requirement for Nago rites is the use of an iron zin—a ceremonial cooking pot—which replaces the typical clay vessel used in other Vodou traditions, further cementing the association with the element of metal. While the Nago nanchon has been increasingly absorbed into the larger Rada and Petwo rites, it retains a distinct ancestral identity, particularly in Northern Haiti, where it is venerated as a wholly separate nation. The dance remains a living tradition, embodying the resilience and historical syncretization of the Yoruba diaspora in Haiti.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "Nago is a religious practice within Haitian Vodou; outsiders should observe rituals with respect and follow the guidance of practitioners regarding participation and photography.",
+   "movie_ready": true,
+   "tradition_status": "living",
    "related_slugs": [
     "petwo",
     "rada",
@@ -56626,6 +56875,10 @@
      "not_vertical"
     ]
    },
+   "research_gate": "reject",
+   "qc_score": 8.65,
+   "last_researched_at": "2026-11-06T18:28:41Z",
+   "pipeline_version": "v3.3",
    "related_slugs": [
     "kita",
     "son-cubano",
@@ -56675,6 +56928,10 @@
     "checked_at": "2026-11-05T19:17:07Z",
     "soft_fail": []
    },
+   "research_gate": "reject",
+   "qc_score": 8.5,
+   "last_researched_at": "2026-11-06T18:29:13Z",
+   "pipeline_version": "v3.3",
    "related_slugs": [
     "makaya",
     "son-cubano",
@@ -56744,16 +57001,17 @@
    "slug": "rada",
    "name": "Rada",
    "country": "Haiti",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "HT",
+   "flag_emoji": "🇭🇹",
    "region": "Vodou",
-   "family": null,
+   "family": "ritual-sacred",
    "era": "Fon/Dahomey",
    "tagline": "The cool, benevolent rite of Vodou",
    "profile": "The cool, benevolent rite of Vodou — Rada (Haiti, Vodou). Full sourced 9-field A+ profile in research artifact W8; concise schema stub pending text expansion.",
    "insight": "",
    "aliases": [
-    "Rada"
+    "Rada",
+    "Yanvalou"
    ],
    "related": [
     "nago",
@@ -56761,9 +57019,12 @@
     "nago-haiti",
     "son-cubano"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Yanvalou",
+    "https://www.wikidata.org/wiki/Q10394560"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Yanvalou",
+   "wikidata_qid": "Q10394560",
    "unesco": false,
    "hero_video_youtube_id": "rDd8I0F41yI",
    "hero_image": null,
@@ -56782,6 +57043,19 @@
     "checked_at": "2026-11-05T19:17:17Z",
     "soft_fail": []
    },
+   "research_gate": "publish",
+   "qc_score": 9.1,
+   "last_researched_at": "2026-11-06T18:33:53Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Rada rite represents a core pillar of Haitian Vodou, serving as the primary vehicle for spiritual communication with the lwa, or deities. Within this ritual framework, the Yanvalou dance acts as a physical manifestation of the practitioner's devotion. The name 'Yanvalou' is derived from the Fon language, translating to 'humble plea,' which underscores the supplicatory nature of the dance. Historically, the tradition traces its roots to the Fon and Mahi peoples of present-day Benin, West Africa, having been carried across the Atlantic to Haiti. The dance is deeply connected to the lwa Damballah, the serpent spirit associated with fertility, and Agwé, the deity of the sea. The physical execution of Yanvalou is distinct for its slow, hypnotic quality. Practitioners maintain a low center of gravity with knees bent, often placing their hands directly on their knees to stabilize the body as they initiate movement. The core of the dance is the spinal undulation—a fluid, wave-like motion that travels from the head down to the pelvis. This movement is often described as 'boneless,' visually echoing the sinuous path of a serpent or the rhythmic rise and fall of ocean waves. Because the dance is performed in honor of specific deities, it is considered a sacred practice within the Vodou community. There are several variations of the dance, each serving different ritual purposes. 'Yanvalou Fran' serves as the base version, while others like 'Yanvalou debout' (standing) and 'Yanvalou des bas' (squatting) offer different physical orientations. 'Yanvalou z'epaules' focuses on the shoulders, while 'Yanvalou Gede' is a slower, specific version used during the 'Fet Gede' or Festival of the Dead. For more advanced practitioners, 'Yanvalou Maskowan' requires a higher level of rhythmic engagement and mastery of the preceding forms. The musical accompaniment is as vital as the movement, relying on a specific percussion ensemble consisting of three drums—the maman, the seconde (or segun), and the boula (or bass)—complemented by the metallic ring of an ogan, or iron bell. This ensemble creates the hypnotic, slow-tempo rhythm that sustains the dancers' undulations. As a living tradition, Yanvalou continues to be performed in Haitian Vodou rituals today, maintaining its ancestral connection to West Africa while serving the spiritual needs of the contemporary community.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "Yanvalou is a sacred dance performed during Rada rituals to honor specific lwa; outsiders should approach with respect for its religious significance.",
+   "movie_ready": false,
+   "tradition_status": "living",
    "related_slugs": [
     "nago",
     "petwo",
@@ -57248,10 +57522,10 @@
    "slug": "wititi",
    "name": "Wititi",
    "country": "Peru",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "PE",
+   "flag_emoji": "🇵🇪",
    "region": "Colca/Arequipa",
-   "family": null,
+   "family": "folk-circle",
    "era": "Inca-legend",
    "tagline": "Colca courtship; men in women's skirts",
    "profile": "Colca courtship; men in women's skirts — Wititi (Peru, Colca/Arequipa). Full sourced 9-field A+ profile in research artifact W8; concise schema stub pending text expansion.",
@@ -57265,9 +57539,17 @@
     "tango",
     "candombe"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Carnaval_de_Oruro",
+    "https://www.wikidata.org/wiki/Q1500828",
+    "https://es.wikipedia.org/wiki/Carnaval_de_Oruro",
+    "https://fr.wikipedia.org/wiki/Carnaval_d'Oruro",
+    "https://pt.wikipedia.org/wiki/Carnaval_de_Oruro",
+    "https://ich.unesco.org/en/RL/01056",
+    "https://archive.org/details/RCD45"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Carnaval_de_Oruro",
+   "wikidata_qid": "Q1500828",
    "unesco": true,
    "hero_video_youtube_id": "TjxTXV4QHwE",
    "hero_image": null,
@@ -57286,6 +57568,108 @@
     "checked_at": "2026-11-05T19:19:59Z",
     "soft_fail": []
    },
+   "research_gate": "publish",
+   "qc_score": 9.3,
+   "last_researched_at": "2026-11-06T18:34:16Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Wititi dance is a cornerstone of the cultural identity of the Colca Valley in Peru. It is traditionally performed by young people during religious festivities that coincide with the rainy season and the beginning of the agricultural production cycle. The dance is not merely a performance but a courtship ritual that consolidates social ties within the community. Villages in the Colca Valley compete to produce the most impressive ensembles, which helps to maintain the dance's traditional character while allowing for continuous renewal. The dance is learned through direct observation, as youth and children watch their elders in school settings and at private family gatherings such as christenings, birthdays, and weddings. \n\nCentral to the visual identity of the Wititi are the costumes. Female dancers wear finely embroidered garments featuring colorful natural motifs and distinctive hats. The male dancers wear a unique ensemble that includes overlapping women’s skirts, military shirts, and slings, topped with 'strong hats'. This cross-gendered aesthetic is a defining feature of the dance, often interpreted as a connection to ancestral warrior traditions. The dance is performed in troupes, with male and female couples arranged in rows. They perform a variety of steps to the rhythmic accompaniment of a live band. The movement is celebratory and serves as a public expression of love and social affirmation. Beyond the local context, the Wititi has gained recognition at the national level, where folk dance ensembles incorporate it into their repertoires. The dance is recognized by UNESCO as part of the Representative List of the Intangible Cultural Heritage of Humanity, highlighting its role in strengthening cultural identity and its importance as a living tradition that bridges generations. The Wititi represents a complex interplay of history, gender expression, and community bonding, serving as a vibrant, living testament to the heritage of the Colca Valley.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/CarnavalOruro1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/CarnavalOruro1.JPG/1280px-CarnavalOruro1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2268,
+     "height": 1480,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Consuelo Labra / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ACarnavalOruro1.JPG",
+     "description": "Imagen del Carnaval de Oruro, obtenida durante las celebraciones en el verano del año 2005."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/CarnavalOruro3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/CarnavalOruro3.JPG/1280px-CarnavalOruro3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2268,
+     "height": 1480,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Consuelo Labra / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ACarnavalOruro3.JPG",
+     "description": "Imagen del Carnaval de Oruro, obtenida durante las celebraciones en el verano del año 2005."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Carnaval_de_Oruro_dia_I_%2860%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Carnaval_de_Oruro_dia_I_%2860%29.JPG/1280px-Carnaval_de_Oruro_dia_I_%2860%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2576,
+     "height": 1932,
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "attribution": "Elemaki / Wikimedia Commons / CC BY 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ACarnaval_de_Oruro_dia_I_%2860%29.JPG",
+     "description": "Diablada en el Carnaval de Oruro"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Carnaval_de_Oruro_dia_I_%2861%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Carnaval_de_Oruro_dia_I_%2861%29.JPG/1280px-Carnaval_de_Oruro_dia_I_%2861%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2576,
+     "height": 1932,
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "attribution": "Elemaki / Wikimedia Commons / CC BY 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ACarnaval_de_Oruro_dia_I_%2861%29.JPG",
+     "description": "Diablada en el Carnaval de Oruro"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Caporales_San_Simon_B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Caporales_San_Simon_B.jpg/1280px-Caporales_San_Simon_B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1600,
+     "height": 1200,
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "attribution": "CassandraW1 / Wikimedia Commons / CC BY 2.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ACaporales_San_Simon_B.jpg",
+     "description": "Het Carnaval van Oruro, Bolivia, het staat sinds 2001 vermeld op de Lijst van Meesterwerken van het Orale en Immateriële Erfgoed van de Mensheid van UNESCO."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tarkeada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Tarkeada.jpg/1280px-Tarkeada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2294,
+     "height": 1714,
+     "license": "CC BY 2.5",
+     "license_url": "https://creativecommons.org/licenses/by/2.5",
+     "attribution": "http://www.arteyfotografia.com.ar/17265/perfil/ / Wikimedia Commons / CC BY 2.5",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATarkeada.jpg",
+     "description": "Una es:tarkeada en el es:Carnaval de Oruro de 2010."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Desfile_de_la_morenada._Carnaval_de_oruro_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Desfile_de_la_morenada._Carnaval_de_oruro_2012.JPG/1280px-Desfile_de_la_morenada._Carnaval_de_oruro_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2966,
+     "height": 1966,
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "attribution": "Alfredobi / Wikimedia Commons / CC BY 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADesfile_de_la_morenada._Carnaval_de_oruro_2012.JPG",
+     "description": "Desfile de la morenada. Carnaval de oruro 2012"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Lucifer_del_carnaval_de_Oruro.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Lucifer_del_carnaval_de_Oruro.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 682,
+     "height": 909,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Bismarckfg / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ALucifer_del_carnaval_de_Oruro.JPG",
+     "description": "Diablada Urus, danza que forma parte del carnaval de Oruro"
+    }
+   ],
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "not described in sources",
+   "movie_ready": false,
+   "tradition_status": "living",
    "related_slugs": [
     "samba",
     "bossa-nova",
@@ -57778,16 +58162,18 @@
    "slug": "larakaraka",
    "name": "Larakaraka",
    "country": "Uganda",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "UG",
+   "flag_emoji": "🇺🇬",
    "region": "Acholi",
-   "family": null,
+   "family": "folk-circle",
    "era": "traditional",
    "tagline": "Acholi calabash courtship dance",
    "profile": "Acholi calabash courtship dance — Larakaraka (Uganda, Acholi). Full sourced 9-field A+ profile in research artifact W8; concise schema stub pending text expansion.",
    "insight": "",
    "aliases": [
-    "Larakaraka"
+    "Larakaraka",
+    "Acholi Larakaraka Dance",
+    "Larakaraka Dance"
    ],
    "related": [
     "bwola",
@@ -57795,9 +58181,13 @@
     "semba",
     "gumboot"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Larakaraka",
+    "https://www.wikidata.org/wiki/Q124241594",
+    "https://fr.wikipedia.org/wiki/Larakaraka"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Larakaraka",
+   "wikidata_qid": "Q124241594",
    "unesco": false,
    "hero_video_youtube_id": "3stPR_Rlg8c",
    "hero_image": null,
@@ -57816,6 +58206,50 @@
     "checked_at": "2026-11-05T19:20:26Z",
     "soft_fail": []
    },
+   "research_gate": "publish",
+   "qc_score": 9.3,
+   "last_researched_at": "2026-11-06T18:34:27Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Larakaraka stands as a cornerstone of Acholi cultural expression in Northern Uganda. As one of more than 50 traditional dances within the Acholi repertoire, it is specifically categorized as a courtship dance, serving as a public forum for young men and women to interact and evaluate potential partners. Historically, the dance functioned as a rite of passage, where the ability to perform with strength and grace was directly linked to an individual's personal and social worth within the community. The performance is inherently competitive and romantic, designed to highlight the vitality of the dancers. Young men, in particular, utilize the space to exhibit their athleticism, hoping to catch the eye of a future spouse. The dance is not merely a social gathering but a structured display of artistry that reinforces the cultural heritage of the Acholi people. The physical demands of the dance are significant, requiring dancers to execute complex movements that demonstrate their endurance. During the performance, the atmosphere is charged with energy as dancers leap, spin, and move with agility. These acrobatic feats are central to the identity of the dance, distinguishing it from other Acholi traditions such as the Bwola or Otole. The music that drives the Larakaraka is equally vital, featuring a blend of drums, harps, and flutes that dictate the tempo and intensity of the movements. Because the dance is deeply rooted in the social fabric of the Acholi, it is most frequently performed during significant communal events, particularly weddings and other festive gatherings. By participating in the Larakaraka, young people engage in a time-honored tradition that balances individual talent with the collective goal of community continuity. The dance remains a living practice, reflecting the ongoing importance of traditional performance in contemporary Acholi life. It serves as a bridge between generations, ensuring that the values of strength, bravery, and cultural identity are passed down through the medium of movement. The precision required in the execution of the jumps and the coordination with the traditional ensemble underscore the discipline inherent in Acholi performance arts. As a rite of passage, it provides a structured environment for courtship, moving beyond simple social interaction into a sophisticated display of physical and cultural competence. The Larakaraka continues to be a vital part of the Acholi heritage, celebrated for its ability to combine entertainment with the serious business of social and romantic formation.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Larakaraka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Larakaraka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 720,
+     "height": 540,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Kalungi Nathan / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ALarakaraka.jpg",
+     "description": "This is an image from"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Uganda_Traditional_Dance_Performances_at_Ndere_Centre_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Uganda_Traditional_Dance_Performances_at_Ndere_Centre_22.jpg/1280px-Uganda_Traditional_Dance_Performances_at_Ndere_Centre_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4032,
+     "height": 2268,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Kateregga1 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AUganda_Traditional_Dance_Performances_at_Ndere_Centre_22.jpg",
+     "description": "The Ndere Cultural Centre in Kampala, Uganda offers a variety of traditional dance performances, including Amagunju, Bakisimba, Tamena, Olunyege, Ekitagururo, Ekalu, Adungu, Larakaraka, Amatimbo. \nThe Ndere Cultural Centre performances celebrate African culture through dance, poetry, and food. The Ndere Troupe is Uganda's oldest traditional performing arts troupe. The troupe's repertoire includes "
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Uganda_Traditional_Dance_Performances_at_Ndere_Centre_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Uganda_Traditional_Dance_Performances_at_Ndere_Centre_30.jpg/1280px-Uganda_Traditional_Dance_Performances_at_Ndere_Centre_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4032,
+     "height": 2268,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Kateregga1 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AUganda_Traditional_Dance_Performances_at_Ndere_Centre_30.jpg",
+     "description": "The Ndere Cultural Centre in Kampala, Uganda offers a variety of traditional dance performances, including Amagunju, Bakisimba, Tamena, Olunyege, Ekitagururo, Ekalu, Adungu, Larakaraka, Amatimbo. \nThe Ndere Cultural Centre performances celebrate African culture through dance, poetry, and food. The Ndere Troupe is Uganda's oldest traditional performing arts troupe. The troupe's repertoire includes "
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
    "related_slugs": [
     "bwola",
     "kizomba",
@@ -60060,6 +60494,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:41:32Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "saidi",
     "belly-dance"
@@ -60109,6 +60550,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:43:41Z",
+    "soft_fail": [
+     "named"
+    ]
+   },
    "related_slugs": [
     "raqs-sharqi"
    ]
@@ -60150,6 +60598,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:43:42Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "raqs-sharqi",
     "hora",
@@ -60263,6 +60716,14 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:43:44Z",
+    "soft_fail": [
+     "hd",
+     "named"
+    ]
+   },
    "tutorials": [
     {
      "youtube_id": "oEIYHTlbeLA",
@@ -60316,7 +60777,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Reog",
    "wikidata_qid": "",
    "unesco": true,
-   "hero_video_youtube_id": "hw6czUYUy1A",
+   "hero_video_youtube_id": "ZSQU5GFxIgo",
    "hero_image": null,
    "video_stack": [],
    "image_significance": "The peacock-tiger mask of Java. A representative image shows gilded costume, angular hand poses and a temple or court setting — East Java, Indonesia.",
@@ -60328,7 +60789,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:43:50Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "jaipongan"
    ]
@@ -60376,6 +60842,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:44:01Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "aparima",
     "hivinau",
@@ -60419,6 +60890,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:44:02Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "siva-tau",
     "hula",
@@ -60470,6 +60946,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:44:04Z",
+    "soft_fail": []
+   },
    "research_gate": "publish",
    "qc_score": 8.7,
    "last_researched_at": "2026-11-03T18:13:48Z",
@@ -60665,6 +61146,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:44:05Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "shalakho",
     "davluri",
@@ -60714,6 +61200,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:44:07Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "kartuli",
     "kintauri",
@@ -60764,6 +61255,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:44:23Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "raqs-sharqi"
    ]
@@ -60812,6 +61308,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:44:24Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "tahtib",
     "belly-dance"
@@ -60853,7 +61354,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-06T18:44:26Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "raqs-sharqi",
     "hora",
@@ -60957,6 +61463,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:45:11Z",
+    "soft_fail": [
+     "camera_ok"
+    ]
+   },
    "related_slugs": [
     "raqs-sharqi",
     "hora",
@@ -61007,6 +61520,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:45:31Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "sorsornet"
    ]
@@ -61054,6 +61572,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:45:33Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "sinte"
    ]
@@ -61102,6 +61627,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:45:45Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "bedhaya",
     "bedhaya-ketawang",
@@ -61139,7 +61669,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Gambyong",
    "wikidata_qid": "",
    "unesco": false,
-   "hero_video_youtube_id": "gjHLDrggUI8",
+   "hero_video_youtube_id": "7TJcyUpFvwk",
    "hero_image": null,
    "video_stack": [],
    "image_significance": "From rice-goddess ritual to court elegance. A representative image shows gilded costume, angular hand poses and a temple or court setting — Surakarta, Indonesia.",
@@ -61151,7 +61681,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:45:53Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "serimpi",
     "bedhaya",
@@ -61204,6 +61739,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:46:03Z",
+    "soft_fail": []
+   },
    "research_gate": "publish",
    "qc_score": 9.25,
    "last_researched_at": "2026-11-03T18:14:10Z",
@@ -61275,6 +61815,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:46:09Z",
+    "soft_fail": []
+   },
    "research_gate": "publish",
    "qc_score": 8.95,
    "last_researched_at": "2026-10-29T16:34:31Z",
@@ -61619,6 +62164,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-06T18:46:24Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "men-s-northern-traditional-dance": {
@@ -62740,7 +63290,12 @@
    "hero_video_youtube_id": "hln5pmiuqDE",
    "video_stack": [],
    "hero_image": null,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-06T18:54:29Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "bele",
     "kwadril-gwadloup",
@@ -64817,7 +65372,8 @@
    "sacred_note": "Certain dances evolved from ancient calendar and ritual ceremonies like Godu-Godu and Kosa-Kosa, though they are now widely performed at secular weddings and festivals.",
    "movie_ready": false,
    "related_slugs": [
-    "lezginka"
+    "lezginka",
+    "iranian-dance"
    ]
   },
   "rhumba": {
@@ -66734,7 +67290,8 @@
    ],
    "movie_ready": true,
    "related_slugs": [
-    "alegras"
+    "alegras",
+    "siguiriyas"
    ]
   },
   "cheoyongmu": {
@@ -71477,8 +72034,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Queer_Tango",
    "wikidata_qid": "Q526878",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "onynuHmBUmQ",
+   "video_stack": [
+    {
+     "youtube_id": "onynuHmBUmQ",
+     "role": "hero",
+     "title": "(Tango Queer)// A Don Agustín Bardi - Francisco y Lucrecio",
+     "channel": "Fran Lucre",
+     "hd": true
+    },
+    {
+     "youtube_id": "YDxHxxsOB6s",
+     "role": "rendition",
+     "title": "(Tango Queer) // 3º Gymnopédie - Francisco y Lucrecio",
+     "channel": "Fran Lucre",
+     "hd": true
+    },
+    {
+     "youtube_id": "UOo__CljGD0",
+     "role": "rendition",
+     "title": "URUGUAY: queer tango class at Teatro Solis in Montevideo",
+     "channel": "Nomadic Boys",
+     "hd": true
+    },
+    {
+     "youtube_id": "Owgw5Xy1Da8",
+     "role": "rendition",
+     "title": "Queer Tango in Russia",
+     "channel": "Marina Ventarron",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -71542,8 +72128,30 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Long_sword_dance",
    "wikidata_qid": "Q1762817",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "ke5kw7jjlzg",
+   "video_stack": [
+    {
+     "youtube_id": "ke5kw7jjlzg",
+     "role": "hero",
+     "title": "[No. 05] Korea's Traditional Sword Danceㅡ\"Gyeok Vigor\"",
+     "channel": "Korea IT Times",
+     "hd": true
+    },
+    {
+     "youtube_id": "Jk8wtdD_5fM",
+     "role": "rendition",
+     "title": "Yorkshire Long Sword Dance",
+     "channel": "Mazzy Bolero",
+     "hd": false
+    },
+    {
+     "youtube_id": "HCpXzn_Kiww",
+     "role": "rendition",
+     "title": "Cutting Edge Sword Longsword Dance",
+     "channel": "Jeffrey Bary",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -71643,8 +72251,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Slide_(tune_type)",
    "wikidata_qid": "Q2232258",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "MC6xjO1JoR8",
+   "video_stack": [
+    {
+     "youtube_id": "MC6xjO1JoR8",
+     "role": "hero",
+     "title": "Cha Cha Slide - SNL",
+     "channel": "Saturday Night Live",
+     "hd": true
+    },
+    {
+     "youtube_id": "x-3WYlJVOxU",
+     "role": "rendition",
+     "title": "Slide Step Irish Dance Company",
+     "channel": "Arrow Entertainment",
+     "hd": true
+    },
+    {
+     "youtube_id": "dv2qKpna3lM",
+     "role": "rendition",
+     "title": "How to Do the Electric Slide | Sexy Dance Moves",
+     "channel": "Howcast",
+     "hd": true
+    },
+    {
+     "youtube_id": "17ViCtd-dt4",
+     "role": "rendition",
+     "title": "Electric Slide Line Dance Instruction",
+     "channel": "Dirt Road Dancing",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -71699,8 +72336,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Tourdion",
    "wikidata_qid": "Q2141850",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "J-_ZJZhwC84",
+   "video_stack": [
+    {
+     "youtube_id": "J-_ZJZhwC84",
+     "role": "hero",
+     "title": "Culomba - Tourdion/Quand je bois du vin clairet (Anon. France, 16th Century)",
+     "channel": "Culomba Music",
+     "hd": true
+    },
+    {
+     "youtube_id": "P8RlYeu5GBs",
+     "role": "rendition",
+     "title": "Tourdion - French Renaissance",
+     "channel": "Dale Adamson",
+     "hd": true
+    },
+    {
+     "youtube_id": "CbzQpf8la_w",
+     "role": "rendition",
+     "title": "Saltatriculi - Tourdion",
+     "channel": "amadeusvr",
+     "hd": true
+    },
+    {
+     "youtube_id": "lubUvD6EMu0",
+     "role": "rendition",
+     "title": "Tanz Der Marktleute (Tourdion) - ROW2012",
+     "channel": "Maria",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -71761,8 +72427,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Makossa",
    "wikidata_qid": "Q1815364",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "bSserJ8WaUs",
+   "video_stack": [
+    {
+     "youtube_id": "bSserJ8WaUs",
+     "role": "hero",
+     "title": "Makossa / Master Class / @Daniel",
+     "channel": "1MILLION Dance Studio",
+     "hd": true
+    },
+    {
+     "youtube_id": "-NyJDecUdSE",
+     "role": "rendition",
+     "title": "Makossa Dance",
+     "channel": "Yabaso Dance Team",
+     "hd": true
+    },
+    {
+     "youtube_id": "9-EFrNF-xbk",
+     "role": "rendition",
+     "title": "Best Makossa dance",
+     "channel": "BEN EGAH",
+     "hd": true
+    },
+    {
+     "youtube_id": "4gh_MIVX3n4",
+     "role": "rendition",
+     "title": "SOUL MAKOSSA ( Yolanda Be Cool And BCUP ) I Wildthing TV I Dance Fitness I Dembow I",
+     "channel": "WildThing TV",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -71848,8 +72543,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Stomp_dance",
    "wikidata_qid": "Q2183272",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "mSRdqn2U-T8",
+   "video_stack": [
+    {
+     "youtube_id": "mSRdqn2U-T8",
+     "role": "hero",
+     "title": "Stomp Dancing",
+     "channel": "Wind Clan Ken: Native Voices and Lands",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -71903,8 +72606,23 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Letkajenkka",
    "wikidata_qid": "Q1859644",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "IDbIYXEsdx0",
+   "video_stack": [
+    {
+     "youtube_id": "IDbIYXEsdx0",
+     "role": "hero",
+     "title": "Letkajenkka",
+     "channel": "Colin Watt",
+     "hd": false
+    },
+    {
+     "youtube_id": "AZxL4rdeJ44",
+     "role": "rendition",
+     "title": "Letkajenkka",
+     "channel": "Porvoo - Borgå",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -71975,8 +72693,23 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Aerial_dance",
    "wikidata_qid": "Q507033",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "gLt_4CBdqlA",
+   "video_stack": [
+    {
+     "youtube_id": "gLt_4CBdqlA",
+     "role": "hero",
+     "title": "Kid Dancers MOVE JUDGES TO TEARS with EMOTIONAL AERIAL DANCE Performance!",
+     "channel": "Top Viral Talent",
+     "hd": true
+    },
+    {
+     "youtube_id": "IJhe7dXWyM4",
+     "role": "rendition",
+     "title": "Zurcaroh: Aerial Dance Group Spreads Their Wings With Epic Act - America's Got Talent 2018",
+     "channel": "bruhify pro max ultra",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -72082,8 +72815,30 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Piva_(dance)",
    "wikidata_qid": "Q2097439",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "zUpQrutawDI",
+   "video_stack": [
+    {
+     "youtube_id": "zUpQrutawDI",
+     "role": "hero",
+     "title": "Classical performance by “Piva Dance World”",
+     "channel": "Jithu villathoor",
+     "hd": true
+    },
+    {
+     "youtube_id": "XL3SDRQowxE",
+     "role": "rendition",
+     "title": "#ഓണം SPL ഡാൻസ് || PIVA DANCE WORLD||🌼🌸",
+     "channel": "Jithu villathoor",
+     "hd": true
+    },
+    {
+     "youtube_id": "4SJxrG9h3mA",
+     "role": "rendition",
+     "title": "PIVA# CLASSICAL-2# COMING SOON💃#",
+     "channel": "Jithu villathoor",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -72146,8 +72901,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Skank_(dance)",
    "wikidata_qid": "Q1801948",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "O4260OyOjd4",
+   "video_stack": [
+    {
+     "youtube_id": "O4260OyOjd4",
+     "role": "hero",
+     "title": "How To Skank",
+     "channel": "Mike Matza",
+     "hd": false
+    },
+    {
+     "youtube_id": "km6Zyw81pP4",
+     "role": "rendition",
+     "title": "DRUM N BASS DANCE DNB STEP/SKANK FREESTYLE",
+     "channel": "Amaury Libert",
+     "hd": true
+    },
+    {
+     "youtube_id": "NH7Bn0uN2Wg",
+     "role": "rendition",
+     "title": "BEST SKANK TUTORIAL!!!",
+     "channel": "Sea Dark",
+     "hd": false
+    },
+    {
+     "youtube_id": "-J7VtsrKukE",
+     "role": "rendition",
+     "title": "Just Dance 2 Rockafeller Skank",
+     "channel": "Family Friendly Gaming",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -72202,8 +72986,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Vallenato",
    "wikidata_qid": "Q1574985",
    "unesco": true,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "udQPylkKgbM",
+   "video_stack": [
+    {
+     "youtube_id": "udQPylkKgbM",
+     "role": "hero",
+     "title": "Cómo bailar VALLENATO | Top 1 ⬆️💃🏻",
+     "channel": "Lau Dance",
+     "hd": true
+    },
+    {
+     "youtube_id": "osDqYh9MaBc",
+     "role": "rendition",
+     "title": "Baila Vallenato   \"Paso1\"  Paseo Vallenato",
+     "channel": "Bumva",
+     "hd": false
+    },
+    {
+     "youtube_id": "syepntwoyeY",
+     "role": "rendition",
+     "title": "Cumbia, Salsa, Bachata, Merengue, Vallenato - in Colombia",
+     "channel": "Aden Films",
+     "hd": true
+    },
+    {
+     "youtube_id": "mdYBQ43w7J4",
+     "role": "rendition",
+     "title": "TIPS   TIPS PARA BAILAR VALLENATO PARTE 1 | TUBAILE.COM",
+     "channel": "TuBaile.com",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -72328,8 +73141,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Classical_ballet",
    "wikidata_qid": "Q2342373",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "0GsajWIF3ws",
+   "video_stack": [
+    {
+     "youtube_id": "0GsajWIF3ws",
+     "role": "hero",
+     "title": "Swan Lake – Dance of the cygnets (The Royal Ballet)",
+     "channel": "Royal Ballet and Opera",
+     "hd": true
+    },
+    {
+     "youtube_id": "077BgT3h6As",
+     "role": "rendition",
+     "title": "Swan Lake – Act II pas de deux (Francesca Hayward, Cesar Corrales; The Royal Ballet)",
+     "channel": "Royal Ballet and Opera",
+     "hd": true
+    },
+    {
+     "youtube_id": "We7KAkWJow8",
+     "role": "rendition",
+     "title": "Sylvia – Act III solo (Darcey Bussell, The Royal Ballet)",
+     "channel": "Royal Ballet and Opera",
+     "hd": true
+    },
+    {
+     "youtube_id": "rCP9Lj_29GA",
+     "role": "rendition",
+     "title": "Classical Ballet Solo: Charlene Quek Woo Nim (𝘊𝘩𝘰𝘳𝘦𝘰𝘨𝘳𝘢𝘱𝘩𝘦𝘥 𝘣𝘺 𝘔𝘴 𝘒𝘰𝘬 𝘏𝘶𝘪𝘴𝘩𝘪)",
+     "channel": "Dancepointe Academy Singapore",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -72416,7 +73258,9 @@
    ],
    "movie_ready": true,
    "tradition_status": "living",
-   "related_slugs": []
+   "related_slugs": [
+    "romantic-ballet"
+   ]
   },
   "dihosana": {
    "slug": "dihosana",
@@ -72441,8 +73285,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Dihosana",
    "wikidata_qid": "Q41669136",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "MD2oGbI_IA0",
+   "video_stack": [
+    {
+     "youtube_id": "MD2oGbI_IA0",
+     "role": "hero",
+     "title": "CULTURE SPEARS- HOSANA",
+     "channel": "CULTURE SPEARS",
+     "hd": true
+    },
+    {
+     "youtube_id": "Bje5Y00VMgY",
+     "role": "rendition",
+     "title": "Kalanga Hosana Dance",
+     "channel": "Bukalanga Tv",
+     "hd": false
+    },
+    {
+     "youtube_id": "006eggsaPDg",
+     "role": "rendition",
+     "title": "Tjilenje Tje Ngwao - Hosana Dance (Botswana)",
+     "channel": "Norman Mdzimiri",
+     "hd": false
+    },
+    {
+     "youtube_id": "LdTJnuwGIGM",
+     "role": "rendition",
+     "title": "Hosana traditional Kalanga music and dance, from the Northeastern part of the country Botswana",
+     "channel": "Tshokolo Kubakuba",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -72720,8 +73593,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Basque_dance",
    "wikidata_qid": "Q2250773",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "y-UhSAJBm9E",
+   "video_stack": [
+    {
+     "youtube_id": "y-UhSAJBm9E",
+     "role": "hero",
+     "title": "Basque Dances (Dantza zati bat Idiazabalen - Euskal Herriko dantzak)",
+     "channel": "Alexander Bilbo",
+     "hd": true
+    },
+    {
+     "youtube_id": "FN8ejuuZ1XU",
+     "role": "rendition",
+     "title": "Basque dancers",
+     "channel": "John Strylowski",
+     "hd": true
+    },
+    {
+     "youtube_id": "lPlopC_68No",
+     "role": "rendition",
+     "title": "Oinkari Basque Dancers of Boise at Alive After Five",
+     "channel": "Idaho Statesman",
+     "hd": true
+    },
+    {
+     "youtube_id": "_ZAbrNbI3Xo",
+     "role": "rendition",
+     "title": "Osipova, Vasiliev and Savin (Bolshoi Ballet) in the Basque Dance: Les Flammes de Paris",
+     "channel": "TheBalletGallery",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -72824,6 +73726,1223 @@
    "related_slugs": [
     "lyrical-ballet",
     "contemporary-dance"
+   ]
+  },
+  "wari": {
+   "slug": "wari",
+   "name": "Wari",
+   "country": "Peru",
+   "country_code": "PE",
+   "region": "South America",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇵🇪",
+   "era": "16th century to present",
+   "tagline": "Ritual dance of Huari, Peru, blending pre-Inca and Spanish traditions.",
+   "profile": "Wari, also called Huaridanza, is a ritual dance from Huari district in Peru's Áncash region. It evolved from a pre-Inca agricultural festival dance, blending indigenous and Spanish elements. Traditionally performed by four dancers and two musicians with flute and drum, the choreography includes circular formations and rhythmic footwork. Costumes feature formal suits with floral shawls, embroidered knee pads with bells, and distinctive masks. Music is led by pinkullo flute and wanqar drum, creating a pattern typical of northern Peruvian highlands.",
+   "insight": "In 1570, chronicler Cristóbal de Molina recorded the dance as Waritaki, marking its evolution amid Spanish cultural influence in Huari, Áncash.",
+   "aliases": [
+    "Huaridanza",
+    "Dance of the Knights of Huari",
+    "Waritaki"
+   ],
+   "related": [
+    "Huayno (shares_music)",
+    "Chuscada (variant)"
+   ],
+   "sources": [
+    "https://www.wikidata.org/wiki/Q30905489",
+    "https://es.wikipedia.org/wiki/Huaridanza"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Wari_(dance)",
+   "wikidata_qid": "Q30905489",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-11-06T16:51:12Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Wari, also known as Huaridanza or the dance of the knights of Huari, originates from the district of Huari in Peru's Áncash department. Its roots trace back to a pre-Inca agricultural festival called pocoy mita, which celebrated the arrival of the first rains between September and October. This festival included dances dedicated to huacas and ancestors, featuring deer skull wind instruments. With Spanish colonization, the dance syncretized with Christian celebrations such as the Exaltation of the Holy Cross and the Virgin of the Rosary, aligning with the agricultural calendar. The earliest recorded name, Waritaki, appears in 1570 by chronicler Cristóbal de Molina, reflecting the dance's evolution through cultural blending.\n\nThe dance is traditionally performed by four dancers accompanied by two musicians playing the pinkullo flute and wanqar drum. In urban Huari, groups may expand to eight dancers plus a captain or guide, sometimes joined by two Pallas from another local dance troupe. The choreography unfolds in three main phases: dancers form circles while executing rhythmic steps with a strong beat on the fourth count, a light step called arrebato, and a vigorous zapateo (foot stamping) resembling a huayno escape step, which concludes the performance.\n\nCostumes are formal and symbolic: dancers wear blue or black suits with white shirts and ties, covered by a floral shawl tied across the chest. A richly embroidered velvet sash with golden threads is worn at the waist. Two silk handkerchiefs match the shawl and adorn the jacket pockets. The head is covered with a white cloth called uma paño, sewn to the neck, leaving the face exposed but masked with a pink mesh featuring painted large eyes, eyebrows, mustache, and a small wool beard. The hat is a white toquilla straw with a raised front brim, decorated with a colored silk ribbon and an artificial flower crown mounted on wire. Knee pads embroidered with 35 to 40 bells each weigh heavily, symbolizing penitence and devotion to the Cross. White gloves and a command baton topped with a dog head and a leather whip complete the attire.\n\nMusically, the dance is accompanied by two cajeros playing the pinkullo, a wooden flute with four holes, and the wanqar, a large eucalyptus bark drum with animal skin heads. The pinkullo is held and played with the left hand, while the wanqar is carried on the left shoulder and struck with a stick in the right hand. The musicians often craft their own instruments, requiring deep material knowledge. The music follows traditional patterns throughout the dance, except during general dances when chuscadas—a local variant of huayno—are played.\n\nWari is performed during the Virgin of the Rosary festivities, the Exaltation of the Cross in Huari, and occasionally during the Virgin of the Assumption festival in Chacas. Variants exist in Pomabamba province and other northern Peruvian towns, differing in choreography and musical tempo. The dance is a living tradition, embodying the syncretism of indigenous and Spanish cultures and maintaining its ritual significance tied to agricultural cycles and religious devotion.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "needs_eyes_on": true,
+   "sacred_note": "Wari is a ritual dance with penitential symbolism, performed in religious festivals and embodying devotion to the Cross; outsiders should respect its sacred context and not appropriate its masks or costumes.",
+   "movie_ready": true,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "siguiriyas": {
+   "slug": "siguiriyas",
+   "name": "siguiriyas",
+   "country": "Spain",
+   "country_code": "ES",
+   "region": "Europe",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇪🇸",
+   "era": "Late 18th century",
+   "tagline": "A solemn, tragic cante jondo palo defined by a complex Romani 12-beat compás.",
+   "profile": "Siguiriyas is one of the oldest and most profound palos of flamenco music, belonging to the cante jondo category. Distinctly Romani in origin, its music is characterized by a complex 12-count compás, rubato expression, and tragic themes of suffering, imprisonment, and death. Though originally an unaccompanied vocal and guitar art form, its solemn and ceremonious dance was first introduced by Vicente Escudero in 1940. Today it remains a cornerstone of profound flamenco performance across Andalusia.",
+   "insight": "Introduced to the dance stage by Vicente Escudero in 1940, siguiriyas moves through a complex 12-beat pulse born from early Romani and Andalusian roots.",
+   "aliases": [
+    "seguiriyas",
+    "siguerillas",
+    "siguirillas",
+    "seguidilla gitana"
+   ],
+   "related": [
+    "soleares",
+    "tonás",
+    "serranas",
+    "livianas",
+    "cabales"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Siguiriyas",
+    "https://www.wikidata.org/wiki/Q2339999",
+    "https://es.wikipedia.org/wiki/Seguiriya",
+    "https://fr.wikipedia.org/wiki/Seguiriya",
+    "https://de.wikipedia.org/wiki/Seguiriya"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Siguiriyas",
+   "wikidata_qid": "Q2339999",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-11-06T17:06:57Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Siguiriyas, also known as seguiriyas, siguerillas, siguirillas, or seguidilla gitana, stands as a fundamental pillar of cante jondo, the deep and expressive style of flamenco. Unlike many other palos, siguiriyas is purely Romani (Calé) in origin. Emerging around the late 18th century, its historical roots trace back between Cádiz and Sevilla, with key focal points in Triana, Los Puertos, Jerez de la Frontera, and Sanlúcar de Barrameda. The earliest forms of siguiriyas were performed without musical accompaniment, akin to primitive tonás, and some historical accounts classify it as a baile de velorio. Over time, guitar accompaniment became standard, though the nuances of the cante make it one of the most difficult styles to interpret and accompany.\n\nMusically, siguiriyas is normally played in the key of A Phrygian. Each measure, known as the compás, consists of 12 counts with distinct accents falling on the 1st, 3rd, 5th, 8th, and 11th beats. This rhythm can be conceptualized by inverting the amalgama of compases of the soleá, shifting from a 6/8 and 3/4 structure to a 3/4 followed by 6/8 pattern. Because this counting method presents challenges, practitioners often simplify it into 5 beats comprising three short and two long beats, or count it as a soleá starting on beat 8. Performers frequently utilize rubato, allowing singers to increase and decrease tempo dynamically for dramatic effect. Furthermore, the compás incorporates counter rhythms played by the guitar, palmas, or dancer's footwork to create interlocking patterns.\n\nThe lyrical content of siguiriyas is intensely somber and tragic, dealing with themes of imprisonment, the death of loved ones, human suffering, and religious reflections. A hallmark of the vocal style is the introductory 'Ay' sung as a melisma across multiple syllables. Traditionally, verses follow a 6-6-11-6 syllabic structure consisting of two short six-syllable lines, a longer eleven-syllable line, and a final six-syllable line, though emotional intensity frequently overrides strict formal metrics, leading to variations such as 7-7-11-7 and 8-5-11-6.\n\nRegional variants reflect the personal stamps of legendary interpreters. In Cádiz, the cante by El Planeta is characterized by simplicity and a lack of ornamentation. In Triana, styles associated with Frasco el Colorao and La Niña de los Peines are notably more ornate. Other variants derived from or governed by the seguiriya compás include serranas, livianas, and cabales, the latter being siguiriyas performed in a major key.\n\nWhile the tradition began primarily as a vocal and guitar art, the dance for siguiriyas was first introduced by Vicente Escudero in 1940. Unlike fast-paced folk dances, the siguiriyas dance is ceremonious, pausado, solemn, and strictly unornamented. Its performance structure typically features a musical introduction by the guitar and singer, followed by an entrada, a letra dictated by the singer, an escobilla, a second letra, a danced falseta, and a concluding escobilla performed by the dancer.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "Calabosito Oscuro",
+     "artist": "Juanito Valderrama",
+     "source": "https://en.wikipedia.org/wiki/Siguiriyas",
+     "verified": false
+    },
+    {
+     "title": "Si Acaso Muero",
+     "artist": "Camarón De La Isla",
+     "source": "https://en.wikipedia.org/wiki/Siguiriyas",
+     "verified": false
+    }
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Enrique_Morente.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Enrique_Morente.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1199,
+     "height": 1654,
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "attribution": "Enrique_morente_3353510495_26547d0a8c_o.jpg: alterna2 https://www.alterna2.com/\nderivative work: Kadellar (talk) / Wikimedia Commons / CC BY 2.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AEnrique_Morente.jpg",
+     "description": "Enrique Morente en el Palau de la Música Catalana el 13 de marzo de 2009."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Palmas-Flamenco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Palmas-Flamenco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1280,
+     "height": 1229,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "TheEaterofCorn / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3APalmas-Flamenco.jpg",
+     "description": "Clapping of the hands used to accompany flamenco dancers, singers and guitarists."
+    }
+   ],
+   "needs_eyes_on": true,
+   "movie_ready": true,
+   "tradition_status": "living",
+   "related_slugs": [
+    "solea"
+   ]
+  },
+  "muliza": {
+   "slug": "muliza",
+   "name": "Muliza",
+   "country": "Peru",
+   "country_code": "PE",
+   "region": "South America",
+   "family": "folk-circle",
+   "flag_emoji": "🇵🇪",
+   "era": "18th century",
+   "tagline": "A traditional Peruvian music and dance born from 18th-century muleteers.",
+   "profile": "Muliza is a traditional music and dance style originating from Cerro de Pasco and Tarma in Peru. Emerging in the 18th century during the colonial era, its name derives from the muleros or muleteers who transported minerals across rugged terrain. Today, it is deeply linked to Andean carnivals and was officially declared a national cultural heritage of Peru in 2014.",
+   "insight": "Declared national cultural heritage in 2014, the muliza traces its roots back to 18th-century mule drivers carrying minerals across the Andes.",
+   "aliases": [],
+   "related": [
+    "Huayno",
+    "Vidalita"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Muliza",
+    "https://www.wikidata.org/wiki/Q9035712",
+    "https://es.wikipedia.org/wiki/Muliza"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Muliza",
+   "wikidata_qid": "Q9035712",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 8.3,
+   "last_researched_at": "2026-11-06T17:15:21Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Muliza is a traditional music and dance style deeply embedded in the cultural landscape of the Peruvian Andes, specifically associated with the highland cities of Cerro de Pasco and Tarma in the Junín region. Both cities historically dispute the exact cradle of the genre. The origins of the muliza trace back to the 18th century during the Viceroyalty of Peru, a period shaped significantly by the Spanish crown's exploitation of regional mines. The historical timeline of the muliza is closely tied to colonial developments, notably the 1778 implementation of Free Trade by King Charles III of Spain across the colonies, which intensified the commercial rush for minerals in locations like Cerro de Pasco and Huancavelica, an area mined since 1536. As mining became a vital pillar of the colonial economy, trade expanded rapidly, establishing the foundational routes for this unique artistic expression.\n\nHistorical accounts indicate that the name and essence of the muliza derive from 'muleros', the muleteers who transported minerals on the backs of mules from Cerro de Pasco toward trade routes and ports. Along these arduous journeys across the high Andes, these workers would sing of their joys, sorrows, and romantic longings along the travel routes. Researchers such as Rolando Casquero Alcántara and García propose an external origin rooted in the north of Argentina under the name 'vidalita', brought to Peru by Argentine mule drivers, arrieros, and emancipators who integrated their popular songs along the trade roads. Over more than a century of commercial and human interchange, the genre diffused widely throughout the central regions of the country, eventually expanding into the Mantaro Valley.\n\nOver time, distinct regional variants emerged, highlighting the shared yet contested heritage between Cerro de Pasco and Tarma. According to Morales's 2017 research, 'La Muliza Tarmeña: Testimonios del Carnaval Tarmeño', the oldest recorded Tarmeña muliza dates back to 1855, whereas the oldest cerreña muliza is documented from 1889. Morales's work catalogued 48 distinct mulizas, illustrating the deep repertoire preserved in the region. García's 1973 study, included in Raúl Nieves' compilation, similarly concluded that the genre took root and flourished permanently in Tarma after arriving via trade routes. In 1990, the Cultural House of Tarma assumed organization of the local carnival to prevent its decline, eventually transferring stewardship to the Provincial Municipality of Tarma. Further south, the Jaujina muliza developed as a lyrical musical expression characterized by a cadenced rhythm and a cheerful huayno escape, or fuga de huayno.\n\nMusically, the muliza is performed using guitars, an orquesta típica, or a traditional brass band. It has inspired numerous prominent performers and composers of Peruvian folk music, including Esmila Zevallos, Amanda Portales, Alicia Maguiña, and Juan Bolívar, known as the 'Zorzal jaujino', alongside literary figures such as Víctor Vera and Aníbal Motto Vivanco who composed verses inspired by its cadence. Today, the tradition remains actively linked to Andean carnival celebrations. Recognizing its immense cultural significance, the muliza was officially declared a national cultural heritage of Peru on January 27, 2014, through a ministerial resolution, cementing its status as an enduring pillar of Peruvian national identity.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Mulliza2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/07/Mulliza2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 642,
+     "height": 508,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Cesarlarasamaniego / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AMulliza2.jpg",
+     "description": "Representación de una pareja en la danza de la muliza"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "huayno"
+   ]
+  },
+  "yangju-byeolsandae-nori": {
+   "slug": "yangju-byeolsandae-nori",
+   "name": "Yangju byeolsandae nori",
+   "country": "South Korea",
+   "country_code": "KR",
+   "region": "East Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇰🇷",
+   "era": "Traditional",
+   "tagline": "Korea's premier designated traditional mask drama born from official defiance.",
+   "profile": "Yangju byeolsandae nori is a traditional Korean mask drama that originated in Yangju province when local officials took to producing their own shows after hired entertainers failed to arrive. Performed from evening until dawn in locations like Sagikgol north of Mount Bulgok, the tradition combines rhythmic dancing, miming, and prose dialogue. Accompanied by traditional instruments such as the piri, jeotdae, and janggu, it preserves a complex cast of characters across twenty-two distinct masks.",
+   "insight": "In Yangju, government officials forged their own mask drama after traveling actors from Hanyang repeatedly broke their performance promises in 19th-century Korea.",
+   "aliases": [
+    "양주별산대놀이",
+    "sandi nori",
+    "sanji nori",
+    "sandu nori"
+   ],
+   "related": [
+    "sandae gabhee",
+    "Bongsan Talchum"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Yangju_byeolsandae_nori",
+    "https://www.wikidata.org/wiki/Q8048597"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Yangju_byeolsandae_nori",
+   "wikidata_qid": "Q8048597",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.55,
+   "last_researched_at": "2026-11-06T17:15:39Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Yangju byeolsandae nori is Korea's traditional mask drama, registered as an Important Intangible Cultural Properties of Korea. The tradition traces its roots back to sandae gabhee, a welcoming ceremony for Chinese diplomats, and spread mainly from Seoul and Gyeonggi Province across various regions before settling into its distinctive local identity. According to historical accounts from the Korean official culture information service, Yangju byeolsandae nori was started by government officials working in Yangju province. In Yangju, a group of entertainers called Ttakttakyipae from Hanyang came to perform every April and May but they frequently broke their promise and failed to put on a show. Driven by this frustration, the officials in Yangju started to make their own mask drama and hold performances, with Lee Eul-chuk serving as the main organiser and the first producer of mask dramas in the area. At the time, Yangju was both a big town and transport hub, as well as a city populated by many officials, making it an ideal environment for this unique theatrical form.\n\nThe performances typically took place in April, May, July, and August, as well as occasionally during ceremonies praying for rain. Before the mask drama started, a ritual ceremony took place praying for a good performance, complete with traditional foods served to honor the occasion. These offerings included jora, tteok, and fruits organized in three colors, alongside the head of a beef and the leg of a pork. Wealthy residents and local merchants funded the costs of the show, while the performers themselves remained unpaid. The staging ground was Sagikgol, located to the north of Mount Bulgok, where a shaman house stood and the props needed for the show were stored. There were no rigid rules regarding the exact duration of performances; they usually started in the evening and continued all the way until dawn the following day, though they were occasionally shortened to three or four hours.\n\nThe performance itself is structured around dancing, miming, and drama featuring actors with set prose lines, setting it apart from traditions like Bongsan Talchum whose lines are typically in verse. The movement style is broadly divided into geodeureumsik and kkaekkisik. Musically, the performance relies on traditional Korean instruments, specifically two piri flutes, one jeotdae, one haegeum, one janggu drum, and one buk drum, with a kkwaenggari gong added when needed. Sometimes, players performed with only a piri and janggu, moving to the traditional rhythms of taryong or gutgurigok. While the overarching production involves thirty-two characters, masks are frequently repurposed, meaning only twenty-two physical masks are utilized during any given performance. These roles span a rich spectrum of traditional archetypes, including Sangjwa, lotus flowers, nunkkeumjjeokyi, waejangnyeo, aesadang, somu, veteran figures, monkeys, haesanmo, the podo Director, and miyal grandma.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "needs_eyes_on": true,
+   "sacred_note": "not described in sources",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "hand-jive": {
+   "slug": "hand-jive",
+   "name": "Hand Jive",
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "region": "Europe",
+   "family": "folk-circle",
+   "flag_emoji": "🇬🇧",
+   "era": "1950s",
+   "tagline": "A 1950s London-born dance using rhythmic hand and arm movements in confined spaces.",
+   "profile": "The hand jive is a rhythmic dance characterized by intricate hand, arm, and torso movements performed in a seated or standing position. Originating in the crowded coffee bars of 1950s London, it functions as a form of percussive accompaniment to rhythm and blues music. The dance relies on a sequence of thigh slaps, wrist crossings, and fist pounding, often synchronized to the steady, syncopated Bo Diddley beat.",
+   "insight": "In 1957 Soho, the hand jive emerged because The Cat's Whisker coffee bar was so crowded that teenagers had no room to move their feet, forcing them to dance entirely with their hands.",
+   "aliases": [],
+   "related": [
+    "Juba dance",
+    "Hambone",
+    "Manualism"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hand_jive",
+    "https://www.wikidata.org/wiki/Q2392517",
+    "https://fr.wikipedia.org/wiki/Hand_jive"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Hand_jive",
+   "wikidata_qid": "Q2392517",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-11-06T17:24:05Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The hand jive emerged as a distinct social dance in 1957 within the basement of The Cat's Whisker coffee bar in Soho, London. Invented by Leon Bell of the group Leon Bell and the Bell Cats, the dance was a pragmatic response to the spatial limitations of the venue. As contemporary accounts noted, the coffee bar was so densely packed with teenagers that there was no room for traditional footwork, necessitating a dance that could be performed entirely with the hands and arms. Filmmaker Ken Russell, then a freelance photographer, documented the scene, noting the jolly and wholesome atmosphere of the youth who were fascinated by this novel way of moving to music. The dance quickly transcended its local origins, becoming a staple of 1950s rhythm and blues culture.\n\nThe mechanics of the hand jive involve a complex, percussive sequence of movements. Dancers use their own bodies as instruments, performing patterns that include thigh slapping, crossing the wrists, fist pounding, and hand clapping. The movements are often punctuated by 'hitchhike' gestures, creating a visual rhythm that mirrors the percussive nature of the music. Because the dance is stationary, it is highly adaptable to various environments, from crowded dance floors to seated positions in theaters or classrooms. Its versatility has allowed it to persist in popular culture long after the 1950s, appearing in Broadway musicals, films, and even television game shows.\n\nMusically, the hand jive is inextricably linked to the Bo Diddley beat, a syncopated rhythm derived from Afro-Latin traditions. This rhythmic foundation was popularized in the United States through Johnny Otis’s 1958 hit, 'Willie and the Hand Jive.' The song served as a bridge between the British-originated hand dance and the American rhythm and blues scene. Throughout the following decades, the dance was referenced and reinterpreted by artists ranging from Eric Clapton to the band The Kills. In the theatrical world, the dance gained significant visibility through the musical 'Grease' and its subsequent film adaptation, where it was choreographed by Patricia Birch. While the dance was occasionally referred to by a more risqué name in its early days, the title 'hand jive' became the standard for family-oriented media. Today, the hand jive remains a recognizable cultural artifact, taught to audiences in large-scale productions like Disney's 'Festival of the Lion King' and performed as a spontaneous social activity.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "juba-dance"
+   ]
+  },
+  "traditional-square-dance": {
+   "slug": "traditional-square-dance",
+   "name": "Traditional Square Dance",
+   "country": "United States and Canada",
+   "country_code": "US",
+   "region": "North America",
+   "family": "folk-circle",
+   "flag_emoji": "🇺🇸",
+   "era": "19th century to present",
+   "tagline": "Pre-1950 American regional square dances preserved through community survival and revival networks.",
+   "profile": "Traditional square dance encompasses any style of American square dance existing before 1950, along with surviving and revived forms. Distinguished from modern Western square dancing by a limited number of basic movements learned through assimilation, it relies on live acoustic music and fixed or pre-called dance figures. Major regional traditions include the Northeastern cotillion descendants, the Southeastern visiting-couple dances, and Western settler blends.",
+   "insight": "In the southern Appalachians, fiddles race through the air at a breathless 130 to 150 beats per minute, ignoring musical phrasing entirely.",
+   "aliases": [],
+   "related": [
+    "contra dance",
+    "modern Western square dance"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Traditional_square_dance",
+    "https://www.wikidata.org/wiki/Q2447772",
+    "https://de.wikipedia.org/wiki/Traditional_Square_Dance"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Traditional_square_dance",
+   "wikidata_qid": "Q2447772",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.6,
+   "last_researched_at": "2026-11-06T17:36:16Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Traditional square dance is a generic American term for any style of American square dance other than modern Western. The tradition spans regional styles originating before around 1950, as well as surviving or revived forms practiced since. The Northeastern tradition descends directly from the 18th-century cotillion and the 19th-century quadrille, comprising figures initiated by a facing pair of couples. These Northeastern movements are tightly synchronized with musical phrases, allowing experienced communities to dance without a caller. Areas where Northeastern squares have been documented include New England, Upstate New York, Michigan, and parts of Canada such as Cape Breton Island, Newfoundland, and Quebec. In contrast, the Southeastern tradition features single couples visiting each other in turn, often in a large circle formation rather than a strict four-couple square. Southeastern figures are unique to specific dances and are generally not synchronized with musical phrases, though dancers move strictly in time with the beat. The Western tradition developed as settlers carried eastern dance forms westward, blending elements of quadrilles and visiting-couple traditions across states like Iowa, Nebraska, and Texas. Traditional square dance is almost always performed to live music featuring jigs in 6/8 time and reels in 2/4 time. Instrumentation varies regionally: New England relies heavily on the piano for rhythm, while the Southern Appalachians and western expansion routes favor portable instruments like the banjo and guitar, alongside the ubiquitous fiddle. Organizationally, these dances exist through 'survival' dances run by local communities and organizations, public 'revival' dances in cities and college towns, and casual 'fun nights' for novices.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "not described in sources",
+     "artist": "George Wade",
+     "source": "https://en.wikipedia.org/wiki/Traditional_square_dance",
+     "verified": false
+    }
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Square_dancing_at_the_John_C._Campbell_Folk_School_in_Brasstown%2C_North_Carolina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Square_dancing_at_the_John_C._Campbell_Folk_School_in_Brasstown%2C_North_Carolina.jpg/1280px-Square_dancing_at_the_John_C._Campbell_Folk_School_in_Brasstown%2C_North_Carolina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3269,
+     "height": 3669,
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0",
+     "attribution": "Harrison Keely / Wikimedia Commons / CC BY 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASquare_dancing_at_the_John_C._Campbell_Folk_School_in_Brasstown%2C_North_Carolina.jpg",
+     "description": "A square dance at the John C. Campbell Folk School in Brasstown, North Carolina"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "troika": {
+   "slug": "troika",
+   "name": "Troika",
+   "country": "Russia",
+   "country_code": "RU",
+   "region": "Europe",
+   "family": "folk-circle",
+   "flag_emoji": "🇷🇺",
+   "era": "20th century",
+   "tagline": "A Russian folk dance imitating the prancing of a three-horse team pulling a carriage.",
+   "profile": "Troika is a Russian performance dance that mimics the movement of a three-horse team pulling a carriage. Traditionally performed in groups of three, the dance involves intricate weaving patterns and circular movement. It has evolved from its 1948 stage debut into a staple of Russian ethnographic ensembles, with related forms found in Poland and among Cajun communities.",
+   "insight": "In the 1948 choreography by Nadezhda Nadezhdina, the central dancer of the trio is 'ejected' at the end of the sequence to join the trio ahead, creating a continuous, shifting chain of dancers.",
+   "aliases": [],
+   "related": [
+    "Trojak",
+    "Triolet"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Troika_(dance)",
+    "https://www.wikidata.org/wiki/Q2471215",
+    "https://fr.wikipedia.org/wiki/Troïka_(danse)",
+    "https://it.wikipedia.org/wiki/Trojka_(danza)"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Troika_(dance)",
+   "wikidata_qid": "Q2471215",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.1,
+   "last_researched_at": "2026-11-06T17:39:11Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Troika is a traditional Russian dance that draws its name and movement vocabulary from the 'troika,' a carriage or sled pulled by a team of three horses. The dance is performed in groups of three, typically consisting of one man and two women, though other gender combinations have been developed in later choreographies. The movement is designed to imitate the prancing of the horses as they pull a carriage. The dance is structured around a series of repeating phases performed in a circular formation, with the trios moving in a counter-clockwise direction. The first version of the dance for the stage was created by choreographer Nadezhda Nadezhdina in 1948 for the Beryozka ensemble. Since its introduction, the dance has become a standard part of the repertoire for virtually all Russian ethnographic dance ensembles. The structure of the dance is highly consistent, often divided into four distinct phases that repeat until the end of the musical piece. These phases include a trotting movement in a circle, a sequence of arm arches where dancers pass under each other's arms, and a circular round that rotates in both clockwise and counter-clockwise directions. A signature element of the dance involves the central dancer being 'ejected' at the end of the sequence to join the trio positioned immediately in front of them, ensuring the dance remains a continuous, shifting flow. Beyond Russia, the dance has parallels in other Slavic traditions, such as the Polish Trojak, and a version exists within the Cajun dance tradition, which some suggest may have originated when Russian Cossacks were stationed in Paris. A German contra dance known as the triolet, recorded in 1829, also features a similar trio structure of one man and two women. The dance serves as a performance piece that connects historical Russian transport imagery with a structured, social, and rhythmic group performance.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "trojak"
+   ]
+  },
+  "uzundara": {
+   "slug": "uzundara",
+   "name": "Uzundara",
+   "country": "Armenia, Azerbaijan",
+   "country_code": "AM",
+   "region": "South Asia",
+   "family": "folk-circle",
+   "flag_emoji": "🇦🇲",
+   "era": "19th century",
+   "tagline": "A lyrical, flowing dance of the South Caucasus depicting the departure of a bride.",
+   "profile": "Uzundara is a traditional lyrical dance performed primarily by women across Armenia and Azerbaijan. Characterized by smooth, circular movements and small, floating steps, it serves as a cultural bridge between the two nations, originating from the geography of the Karabakh region. The dance is structured in three parts, alternating between active sequences and gentle, rhythmic transitions. It remains a staple of wedding celebrations, symbolizing the transition of the bride from her ancestral home.",
+   "insight": "In the Armenian dialect, the name Uzundara translates to \"They wanted her, they took her,\" a poignant metaphor for a bride leaving her family home for a new life.",
+   "aliases": [
+    "Ouzoundara"
+   ],
+   "related": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Uzundara",
+    "https://www.wikidata.org/wiki/Q2508077"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Uzundara",
+   "wikidata_qid": "Q2508077",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-11-06T17:43:00Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Uzundara, also known as Ouzoundara, is a lyrical folk dance deeply embedded in the cultural fabric of the South Caucasus, specifically within Armenia and Azerbaijan. The dance is traditionally performed by women and is most famously associated with the wedding ceremony, where it serves as a symbolic representation of a bride’s departure from her family. The origins of the dance are a subject of historical discussion, with both Armenian and Azerbaijani traditions claiming its roots. Geographically, the dance is linked to the Uzundere valley located between Aghdam and Baş Qərvənd in the Karabakh region. Alternatively, some accounts suggest the dance was brought to the region by Armenians fleeing Erzurum during the Russian-Turkish war of 1828. The etymology of the name further reflects these distinct cultural interpretations. In the western Armenian dialect, 'Uzundara' translates to 'They wanted her, they took her,' emphasizing the metaphor of a bride being taken from her family. Conversely, in Azerbaijani, the term translates to 'long gorge' or 'long valley,' derived from the Old Turkic 'Uzun' (long) and the Persian 'Dara' (gorge or pit). \n\nThe performance of Uzundara is defined by its smooth, fluid quality. It is not a dance of sharp, aggressive movements, but rather one of grace and restraint. According to the observations of ethnographer Tamara Stepanovna Tkachenko, the dance follows a specific three-part structure. The outer sections of the dance are characterized by more active movement, while the middle section is notably smoother. The choreography relies on the alternation of three distinct elements: circular movements, 'syzme' (small, floating steps), and 'khyrdalyk' (small movements forward or from side to side). Tkachenko identified these as the core components of Azerbaijani female dance, while noting that 'syzme' is also an integral part of Armenian dance traditions. In the context of an Armenian wedding, the dance is typically performed after the more solemn dances of the matchmaker, parents, and groom, serving as a lyrical highlight of the event. The music accompanying the dance often utilizes melodies titled 'Uzundara,' 'Nunufar,' or 'Rangi.' The development of the melody is typically achieved through the variation of two-, three-, and four-bar motives. \n\nBecause the dance is deeply tied to the wedding ritual, its performance is often restricted to specific moments of the celebration. It is a dance of transition and emotion, requiring the performer to maintain a composed, lyrical demeanor throughout. The movements are coordinated with precision, ensuring that the lateral steps and circular strokes remain consistent with the rhythmic development of the music. As a living tradition, Uzundara continues to be performed in both Armenia and Azerbaijan, serving as a testament to the shared cultural history of the South Caucasus. While the origins remain a point of debate, the dance itself remains a celebrated expression of femininity and the emotional weight of marriage. The technical execution, as described by scholars like Tkachenko and Lisitsian, provides a framework for understanding how the dance has been preserved and transmitted across generations. Whether performed in a village setting or on a stage, Uzundara retains its character as a dance of the bride, a moment of beauty and melancholy that marks a significant life transition.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "Uzundara",
+     "artist": "Traditional",
+     "source": "https://en.wikipedia.org/wiki/Uzundara",
+     "verified": false
+    },
+    {
+     "title": "Nunufar",
+     "artist": "Traditional",
+     "source": "https://en.wikipedia.org/wiki/Uzundara",
+     "verified": false
+    },
+    {
+     "title": "Rangi",
+     "artist": "Traditional",
+     "source": "https://en.wikipedia.org/wiki/Uzundara",
+     "verified": false
+    }
+   ],
+   "images": [],
+   "needs_eyes_on": true,
+   "sacred_note": "Not applicable.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "umhlanga": {
+   "slug": "umhlanga",
+   "name": "Umhlanga",
+   "country": "Eswatini, South Africa",
+   "country_code": "SZ",
+   "region": "Africa",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇸🇿",
+   "era": "20th century",
+   "tagline": "An annual eight-day ceremony in Eswatini and South Africa celebrating female chastity.",
+   "profile": "Umhlanga is a ceremonial dance and tribute event held annually in Eswatini and among the Zulu people of South Africa. Young unmarried women gather to cut reeds, which are presented to the royal family to repair windbreaks at the royal village. The event serves to promote female solidarity, preserve chastity, and provide labor for the Queen Mother.",
+   "insight": "Tens of thousands of unmarried girls carry reeds to the Queen Mother's residence, a ritual where a broken reed is traditionally seen as a sign that a participant has engaged in sexual intercourse.",
+   "aliases": [
+    "Reed Dance",
+    "Umkhosi woMhlanga"
+   ],
+   "related": [
+    "Umcwasho"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Umhlanga_(ceremony)",
+    "https://www.wikidata.org/wiki/Q2382828",
+    "https://es.wikipedia.org/wiki/Umhlanga",
+    "https://fr.wikipedia.org/wiki/Umhlanga_(cérémonie)",
+    "https://pt.wikipedia.org/wiki/Umhlanga"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Umhlanga_(ceremony)",
+   "wikidata_qid": "Q2382828",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.3,
+   "last_researched_at": "2026-11-06T17:43:30Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Umhlanga, or Reed Dance, is a significant cultural event held annually in Eswatini and South Africa, typically occurring between late August and September. In Eswatini, the ceremony takes place at the Ludzidzini Royal Village, where tens of thousands of unmarried and childless young women congregate. The event spans eight days, beginning with the participants traveling from various chiefdoms to the royal residence. A central activity involves the women dispersing to surrounding areas to cut tall reeds, which are then bundled and brought back to the Queen Mother to repair the reed windbreaks surrounding the royal village. This practice is a modern adaptation of the older 'umcwasho' custom, which involved grouping young girls into age-regiments to ensure their virginity. In South Africa, the ceremony is known as Umkhosi woMhlanga and is held at the Enyokeni Royal Palace in Nongoma, the royal kraal of the Zulu king. Reintroduced in 1991 by King Goodwill Zwelithini, the South African iteration emphasizes the delay of sexual activity to limit HIV transmission. Participants in both countries must be unmarried and, in the South African context, are required to undergo virginity testing. The attire for the event is highly specific, consisting of bead necklaces, rattling anklets made from cocoons, sashes, and traditional skirts. In South Africa, sashes often feature colored appendages indicating a girl's betrothal status. During the main procession, the young women carry reeds above their heads; the condition of these reeds is symbolically significant, as a broken reed is interpreted as an indication that the participant has been sexually active. The ceremony concludes with singing and dancing before the royal family and dignitaries. While the event is a source of national pride and cultural preservation, it has faced international scrutiny regarding the public nature of the participants' bodies and the practice of virginity testing. Despite these controversies, the ceremony remains a vital institution for the royal families of Eswatini and the Zulu nation, serving as a platform for royal addresses and, occasionally, the selection of a new royal wife.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Princess_at_the_Reed_Dance_in_Eswatini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Princess_at_the_Reed_Dance_in_Eswatini.jpg/1280px-Princess_at_the_Reed_Dance_in_Eswatini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3008,
+     "height": 2000,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Amada44 / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3APrincess_at_the_Reed_Dance_in_Eswatini.jpg",
+     "description": "Princess Sikhanyiso Dlamini [left] and Temtsimba Dlamini [right] at the Reed dance festival in Swaziland 2006. She is the daughter of the first wife of the king of Eswatini."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Reed_Dance_Festival_2006-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Reed_Dance_Festival_2006-001.jpg/1280px-Reed_Dance_Festival_2006-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3008,
+     "height": 2000,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Amada44 / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AReed_Dance_Festival_2006-001.jpg",
+     "description": "The Reed Dance Festival (siSwati Umhlanga) in Eswatini"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Reed_Dance_Festival_2006-018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Reed_Dance_Festival_2006-018.jpg/1280px-Reed_Dance_Festival_2006-018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3008,
+     "height": 2000,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Amada44 / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AReed_Dance_Festival_2006-018.jpg",
+     "description": "The Reed Dance Festival 2006"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/South_africa_-_zulu_reed_dance_ceremony_%286563648943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/South_africa_-_zulu_reed_dance_ceremony_%286563648943%29.jpg/1280px-South_africa_-_zulu_reed_dance_ceremony_%286563648943%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4752,
+     "height": 3168,
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "attribution": "Retlaw Snellac from Belgium / Wikimedia Commons / CC BY 2.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASouth_africa_-_zulu_reed_dance_ceremony_%286563648943%29.jpg",
+     "description": "Zulu Reed Dance Ceremony. Once a year, in the heart of South Africa's Kingdom of the Zulu, thousands of people make the long journey to one of His Majesty’s, the King of the Zulu nation's royal residence at KwaNyokeni Palace. Here, in Nongoma, early every September month, young Zulu maidens will take part in a colourful cultural festival, the Royal Reed Dance festival - or Umkhosi woMhlanga in the"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "The ceremony is a traditional rite involving specific cultural protocols; outsiders must respect rules regarding photography and the privacy of the participants.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "st-louis-shag": {
+   "slug": "st-louis-shag",
+   "name": "St. Louis shag",
+   "country": "United States",
+   "country_code": "US",
+   "region": "North America",
+   "family": null,
+   "flag_emoji": "🇺🇸",
+   "era": "1930s",
+   "tagline": "A high-energy, closed-position swing dance born in 1930s Missouri.",
+   "profile": "St. Louis Shag is a high-tempo, closed-position swing dance that emerged in Missouri during the 1930s. It is characterized by its stationary 8-count footwork, which distinguishes it from the more expansive, traveling nature of other swing variants like the Lindy Hop. The dance incorporates rapid triple-steps, kicks, and stomps, often performed to jump blues, rock and roll, and boogie-woogie music. It remains a vital part of the swing dance lineage, preserved by practitioners who continue to teach its specific, rhythmic variations.",
+   "insight": "In the 1930s, St. Louis dancers developed a stationary 8-count rhythm that remains distinct from the traveling patterns of the Lindy Hop, relying on rapid triple-steps and kicks in a tight, closed embrace.",
+   "aliases": [],
+   "related": [
+    "Lindy Hop",
+    "Collegiate Shag",
+    "Charleston",
+    "Carolina shag"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/St._Louis_shag",
+    "https://www.wikidata.org/wiki/Q2276336"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/St._Louis_shag",
+   "wikidata_qid": "Q2276336",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-11-06T17:44:06Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "St. Louis Shag emerged in the 1930s as a distinct regional swing dance, rooted in the urban landscape of St. Louis, Missouri. Unlike many of its contemporaries that utilized the floor space for traveling patterns, the St. Louis Shag is defined by its stationary nature. It is a dance performed in a closed position, keeping the partners in a tight, intimate embrace that allows for rapid, intricate footwork. The dance evolved from a synthesis of Lindy Hop, Collegiate Shag, and Charleston, absorbing the rhythmic energy of these styles while carving out its own identity through a unique 8-count structure. Throughout the 1930s and 1940s, a dedicated group of dancers, including Tommy Russo, Dolores Shy, Virginia Shy, Mike Renda, Joe Renda, Eva Renda, Eddie Plunkett, Dottie Spokesfield, Jim Byrnes, and Lorraine Byrnes, established the foundational movements that would define the style for decades. As the musical landscape shifted from swing to rock and roll, jump blues, and R&B, the dance adapted, incorporating new rhythmic textures while maintaining its core characteristics. The 1950s and 1960s saw the dance spread beyond its Missouri origins, notably through the efforts of Kenny Wetzel, an East St. Louis native who relocated to Southern California. Wetzel’s influence helped codify specific variations of the basic step, ensuring the dance remained a living tradition. The footwork of St. Louis Shag is highly technical and varied. The most common basic is an 8-count pattern consisting of a triple-step, kick, triple-step, and kick. However, the tradition is not monolithic; variations exist, such as the version popularized by Wetzel, which utilizes a triple-step, kick, step-stomp, and run-run sequence. Another variation, attributed to Eddie Plunkett and Dottie Spokesfield, features a triple-step, kick, and double kick. These variations allow dancers to express themselves through rhythmic improvisation, incorporating elements like inside crosses—often referred to as 'over the tops'—and 'fall off the logs.' Dancers frequently transition between these shag steps and jitterbug movements, reflecting the fluid nature of the dance in social settings. The music accompanying the dance is typically up-tempo, focusing on stomp, jump, and boogie-woogie rhythms. The connection between the music and the movement is precise, with the kicks, taps, and holds serving as percussive accents to the beat. The preservation of St. Louis Shag relies on the continuity of these specific, documented steps and the ongoing practice of its rhythmic variations. It is a dance that demands both physical stamina and a deep understanding of the 8-count structure, making it a challenging yet rewarding style for those who pursue it. Today, the dance is kept alive by a community of practitioners who value its history and its unique place within the broader family of swing dances. By maintaining the integrity of the original 8-count basics while allowing for the customization of stomps and kicks, the St. Louis Shag remains a testament to the creativity of the 1930s St. Louis dance scene, continuing to influence and inspire dancers who seek a more stationary, rhythm-focused approach to swing.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "lindy-hop",
+    "charleston"
+   ]
+  },
+  "iranian-dance": {
+   "slug": "iranian-dance",
+   "name": "Iranian dance",
+   "country": "Iran",
+   "country_code": "IR",
+   "region": "Middle East",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇮🇷",
+   "era": "6th millennium BC to present",
+   "tagline": "A diverse spectrum of movement ranging from ancient ritual trance to refined courtly art.",
+   "profile": "Iranian dance encompasses a vast array of indigenous styles shaped by the country's diverse ethnic groups and historical epochs. These traditions range from sophisticated, improvisational court dances to energetic folk line dances and spiritual rituals. While the 1979 Revolution led to significant restrictions on public performance, these practices continue to thrive within private spheres and the global diaspora.",
+   "insight": "Archaeological evidence of dance in Iran, including depictions of performers, dates back to the 6th millennium BC, predating the rise of major empires.",
+   "aliases": [
+    "dance of Iran",
+    "Persian dance",
+    "dances in Iran",
+    "dance in Iran"
+   ],
+   "related": [
+    "Azerbaijani dances",
+    "Sufi whirling",
+    "Belly dance"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Iranian_dance",
+    "https://www.wikidata.org/wiki/Q2351372",
+    "https://es.wikipedia.org/wiki/Danza_persa",
+    "https://fr.wikipedia.org/wiki/Danses_d'Iran",
+    "https://pt.wikipedia.org/wiki/Dança_persa"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Iranian_dance",
+   "wikidata_qid": "Q2351372",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.7,
+   "last_researched_at": "2026-11-06T17:47:36Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Iranian dance is not a singular style but a complex tapestry of traditions reflecting the diverse ethnic and regional identities of the Iranian plateau. Historically, these dances have served as vital components of social life, religious ritual, and artistic expression. Archaeological excavations across sites such as Tepe Sialk and Susa have unearthed artifacts depicting dancers and performers dating back to the 6th millennium BC, confirming that movement has been central to the culture since prehistory. The evolution of these traditions has been marked by periods of courtly refinement, such as the Safavid and Qajar eras, and periods of suppression, most notably following the 1979 Iranian Revolution, which led to the dissolution of the national ballet company and the migration of many artists to the West.\n\nGenres of Iranian dance are broadly categorized into four types: chain or line dances, solo improvisational dance, war or combat dances, and ritual or spiritual dances. Chain dances, often associated with specific ethnic groups like the Kurds or Azerbaijanis, emphasize rhythmic footwork and communal connection, with dancers often holding hands or linking arms. In contrast, solo improvisational dance—frequently seen in urban settings and social gatherings—focuses on the expressive potential of the upper body, particularly the hands, arms, and facial expressions. This style is closely linked to the 'Tehrani' dance, which emphasizes soft, fluid movements and is a staple of contemporary celebrations.\n\nSpiritual and ritual dances, such as the Sufi 'sama', serve as vehicles for achieving unity with the Divine through listening to music and rhythmic movement. Other ritual forms, like the Baluchi 'le’b guati', are performed as healing practices to address psychological distress or perceived spiritual possession. Combat dances, such as those performed in the 'zurkhaneh' (House of Strength), bridge the gap between martial arts and rhythmic performance, utilizing movements that build physical vigor and discipline. Despite the political and social shifts that have challenged the visibility of these arts, the tradition remains a living, evolving practice, preserved by both the domestic population and a vibrant diaspora that continues to innovate within the framework of Persian aesthetics.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Raghs-isfahan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Raghs-isfahan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 800,
+     "height": 542,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ARaghs-isfahan.jpg",
+     "description": "Persian Women dancing. From a wall painting at \"Hasht Behesht Palace\" (Palace of 8 heavens), Isfahan, Iran."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/%D8%AC%D8%B4%D9%86_%D9%87%D8%A7%DB%8C_%D8%B9%D8%B1%D9%88%D8%B3%DB%8C_%D8%AF%D8%B1_%D8%B9%D8%B4%D8%A7%DB%8C%D8%B1%2C_%D8%B7%D8%A7%D9%87%D8%B1%DB%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6d/%D8%AC%D8%B4%D9%86_%D9%87%D8%A7%DB%8C_%D8%B9%D8%B1%D9%88%D8%B3%DB%8C_%D8%AF%D8%B1_%D8%B9%D8%B4%D8%A7%DB%8C%D8%B1%2C_%D8%B7%D8%A7%D9%87%D8%B1%DB%8C_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 720,
+     "height": 540,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "jtaheri41@gmail.com / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3A%D8%AC%D8%B4%D9%86_%D9%87%D8%A7%DB%8C_%D8%B9%D8%B1%D9%88%D8%B3%DB%8C_%D8%AF%D8%B1_%D8%B9%D8%B4%D8%A7%DB%8C%D8%B1%2C_%D8%B7%D8%A7%D9%87%D8%B1%DB%8C_-_panoramio.jpg",
+     "description": "جشن های عروسی در عشایر: طاهری"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Dancers_on_a_piece_of_ceramic_from_CheshmeAli%2C_Iran%2C_5000_BC%2C_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Dancers_on_a_piece_of_ceramic_from_CheshmeAli%2C_Iran%2C_5000_BC%2C_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1134,
+     "height": 1006,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Z9897 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADancers_on_a_piece_of_ceramic_from_CheshmeAli%2C_Iran%2C_5000_BC%2C_Louvre.jpg",
+     "description": "Dancers on a piece of ceramic from Cheshmeh-Ali, Iran, 5000 BC, Louvre"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Seal_with_a_Persian_Man_Dancing%2C_about_400_B.C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Seal_with_a_Persian_Man_Dancing%2C_about_400_B.C.jpg/1280px-Seal_with_a_Persian_Man_Dancing%2C_about_400_B.C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4214,
+     "height": 5067,
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "attribution": "Getty.edu / Wikimedia Commons / CC0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASeal_with_a_Persian_Man_Dancing%2C_about_400_B.C.jpg",
+     "description": "Scaraboid engraved with a Persian dancing. He wears a soft cap and tunic over a sleeved and trousered dress. His hands are clasped over his head.\nScaraboid; Pendants Group; about 400 B.C.; Mottled grey-white chalcedony; 0.9× 2.5 × 1.9 cm (3/8 × 1 × 3/4 in.); 81.AN.76.88; No Copyright - United States (http://rightsstatements.org/vocab/NoC-US/1.0/)\nCulture:\n\nAchaemenid (Persian)"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "Certain ritual dances, such as the Sufi 'sama' and the Baluchi 'le’b guati', are spiritual practices intended for healing or achieving unity with the Divine and should be approached with cultural sensitivity.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "azerbaijani-folk-dance",
+    "sufi-whirling",
+    "belly-dance"
+   ]
+  },
+  "seann-triubhas": {
+   "slug": "seann-triubhas",
+   "name": "Seann Triubhas",
+   "country": "United Kingdom",
+   "country_code": "GB",
+   "region": "Europe",
+   "family": "folk-circle",
+   "flag_emoji": "🇬🇧",
+   "era": "18th century to present",
+   "tagline": "A Scottish Highland dance representing the shedding of restrictive trousers for the kilt.",
+   "profile": "The Seann Triubhas is a competitive Highland dance characterized by a transition from slow, brushing movements to rapid, high-energy steps. Its name, meaning 'old trousers' in Scottish Gaelic, is tied to narratives of cultural resistance following the 1746 Act of Proscription. Dancers perform in full Highland dress, moving through a structured sequence of slow and quick time sections.",
+   "insight": "In 1805, Elizabeth Grant performed the dance in yellow slippers, reflecting its 19th-century history as a performance piece often taught by dancing masters.",
+   "aliases": [
+    "Shauntreuse"
+   ],
+   "related": [
+    "Highland Fling"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Seann_triubhas",
+    "https://www.wikidata.org/wiki/Q2262295",
+    "https://de.wikipedia.org/wiki/Seann_Triubhas"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Seann_triubhas",
+   "wikidata_qid": "Q2262295",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-11-06T17:48:06Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Seann Triubhas, pronounced approximately 'shown-TROOSS', is a cornerstone of the Scottish Highland dance tradition. The name is a Scottish Gaelic phrase meaning 'old trousers'. Historically, the dance is associated with the aftermath of the Jacobite Rebellion of 1745 and the subsequent Act of Proscription in 1746, which banned the wearing of traditional Highland kilt attire. The dance is widely interpreted as a symbolic rejection of the restrictive English-style breeches that Highlanders were forced to adopt, culminating in the triumphant return to the kilt. While some traditional narratives suggest the initial slow, brushing leg movements represent the physical act of shaking off these 'despicable' trews, scholars like D. G. MacLennan have noted that these specific movements were later compositions. The dance has evolved significantly from its origins, having been taught by 19th-century dancing masters who often instructed students to perform it in regular shoes with heels. Elizabeth Grant, in her 1805 memoirs, famously recounted performing the dance in yellow slippers purchased in Perth. Today, the dance is a staple of competitive Highland dance, performed in the standard kilt outfit at events ranging from beginner categories to the premier level. The structure of the dance is highly codified, typically following either a '3 & 1' pattern (three slow steps and one quick step) or a '4 & 2' pattern (four slow steps and two quick steps). The performance begins with a mandatory opening step, after which the dancer selects from a repertoire of movements. In modern competitions, the Royal Scottish Official Board of Highland Dancing (RSOBHD) mandates specific, annually changing sequences for championship levels. The music accompanying the dance has also shifted; while it was once performed to the fiddle tune 'Seann Triubhas Uilleachan'—also known as 'The De'il Stick the Minister'—it is now almost exclusively performed to the bagpipe tune 'Whistle O'er the Lave o't'. The dance is divided into two distinct tempos: a slow section, typically ranging from 94 to 104 beats per minute, and a quick section, ranging from 112 to 124 beats per minute. The transition between these sections is signaled by the dancer clapping, which prompts the piper to accelerate the tempo. The quick-time steps share a lineage with the Highland Fling, emphasizing agility and precision. Beyond the standard competitive form, regional variants have been documented, such as the percussive style recorded in 1957 by Frank Rhodes, which was performed by Margaret Gillis in Cape Breton, Nova Scotia. This version was occasionally danced to the 'Irish Washerwoman' jig. The dance remains a vital part of the Highland dance curriculum, featuring prominently in theory exams and global competitions, ensuring that the legacy of the 'old trousers' continues to be expressed through the precise, upright, and athletic movements of the modern Highland dancer.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "Whistle O'er the Lave o't",
+     "artist": "Traditional",
+     "source": "https://en.wikipedia.org/wiki/Seann_triubhas",
+     "verified": false
+    }
+   ],
+   "images": [],
+   "movie_ready": true,
+   "tradition_status": "living",
+   "related_slugs": [
+    "highland-fling"
+   ]
+  },
+  "polka-mazurka": {
+   "slug": "polka-mazurka",
+   "name": "polka-mazurka",
+   "country": "Austria",
+   "country_code": "AT",
+   "region": "Europe",
+   "family": "ballroom-partner",
+   "flag_emoji": "🇦🇹",
+   "era": "19th century",
+   "tagline": "A 19th-century ballroom hybrid blending the triple-meter elegance of the mazurka with polka.",
+   "profile": "The polka-mazurka is a 19th-century ballroom dance that emerged in the 1850s, combining the rhythmic structure of a mazurka with the movement style of a polka. It is characterized by its 3/4 time signature and a specific step sequence that spans two measures of music. Popularized by Viennese composers like Johann Strauss II, the dance was a staple of European salons, valued for its grace and romantic character.",
+   "insight": "Though named for the polka, the dance requires a 3/4 time signature, forcing dancers to navigate a rhythmic contradiction between the polka's quick energy and the mazurka's deliberate, accented triple beat.",
+   "aliases": [],
+   "related": [
+    "polka",
+    "mazurka",
+    "redowa",
+    "schottische",
+    "polska"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Polka-mazurka",
+    "https://www.wikidata.org/wiki/Q2745989",
+    "https://fr.wikipedia.org/wiki/Polka-mazurka",
+    "https://archive.org/details/danceman235",
+    "https://archive.org/details/danceman084",
+    "https://archive.org/details/dancesocietyacr00garmgoog"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Polka-mazurka",
+   "wikidata_qid": "Q2745989",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.1,
+   "last_researched_at": "2026-11-06T17:53:29Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The polka-mazurka emerged in the mid-19th century as a sophisticated cross-cultural hybrid, primarily flourishing in the salons of Vienna and Paris. Unlike the standard polka, which is performed in 2/4 time, the polka-mazurka is set to a 3/4 meter. This musical structure aligns it closely with the mazurka, yet its execution retains the lively, forward-moving spirit of the polka. The dance gained significant traction in the 1850s, with composers such as Johann Strauss II and Josef Strauss contributing numerous pieces to the repertoire, including the 1854 composition 'La Viennoise'. These works often aimed to evoke sensitivity and romanticism, sometimes reflecting the social concerns of the era.\n\nTechnically, the dance is a composite form. It requires the dancers to perform a sequence that spans two measures of music, totaling six counts. The movement involves a combination of glides, draws, and hops, often alternating between the left and right feet. In the ballroom, couples would move in waltz-like rotations or straight lines, depending on the available space. The dance was frequently taught alongside other popular salon dances of the period, such as the redowa and the schottische, and was noted for its 'morbide et langoureuse' (morbid and languorous) quality when performed correctly.\n\nBeyond its technical requirements, the polka-mazurka served as a social vehicle for elegance. It was not merely a set of steps but a performance of poise, requiring dancers to maintain a specific carriage and style. The music itself was expected to avoid unequal note values, ensuring that the three beats of the bar remained distinct and audible to the dancers. While the dance was a product of the 19th-century European salon culture, its influence extended into various regional variants, and it remains a documented historical form within the broader family of European round dances.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "La Viennoise op. 144",
+     "artist": "Johann Strauss II",
+     "source": "https://en.wikipedia.org/wiki/Polka-mazurka",
+     "verified": false
+    },
+    {
+     "title": "Sympathie op. 73",
+     "artist": "Josef Strauss",
+     "source": "https://en.wikipedia.org/wiki/Polka-mazurka",
+     "verified": false
+    },
+    {
+     "title": "Frauenherz op. 166",
+     "artist": "Josef Strauss",
+     "source": "https://en.wikipedia.org/wiki/Polka-mazurka",
+     "verified": false
+    }
+   ],
+   "images": [],
+   "movie_ready": true,
+   "tradition_status": "historical",
+   "related_slugs": [
+    "polka",
+    "mazurka",
+    "polska"
+   ]
+  },
+  "wotagei": {
+   "slug": "wotagei",
+   "name": "Wotagei",
+   "country": "Japan",
+   "country_code": "JP",
+   "region": "East Asia",
+   "family": "street-urban",
+   "flag_emoji": "🇯🇵",
+   "era": "20th and 21st century",
+   "tagline": "A high-energy performance art of rhythmic cheering and light-trail choreography.",
+   "profile": "Wotagei is a dynamic performance art originating from Japanese idol fan culture, characterized by synchronized cheering, rhythmic clapping, and complex arm movements often performed with glow sticks. Rooted in the ōendan cheering squads of the 1970s, it has evolved from simple audience participation into a sophisticated, highly technical dance form known as cyalume dance. Today, it is practiced globally, bridging the gap between concert-hall support and professional performance art.",
+   "insight": "In 2004, an estimated 100 to 200 fans performed a synchronized routine to Miki Fujimoto’s 'Romantic Ukare Mode' outside the Saitama Super Arena, transforming a concert parking lot into a viral performance space.",
+   "aliases": [
+    "otagei"
+   ],
+   "related": [
+    "ōendan",
+    "shin'eitai"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Wotagei",
+    "https://www.wikidata.org/wiki/Q2636818",
+    "https://es.wikipedia.org/wiki/Wotagei",
+    "https://fr.wikipedia.org/wiki/Wotagei",
+    "https://it.wikipedia.org/wiki/Wotagei"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Wotagei",
+   "wikidata_qid": "Q2636818",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.25,
+   "last_researched_at": "2026-11-06T17:53:48Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Wotagei, also known as otagei, represents a unique evolution of fan culture into a structured performance art. Originating in Japan during the 1970s and 1980s, the practice emerged from the shin'eitai, organized cheering squads that supported idol singers at concerts and public appearances. These early fans, known as wota, established the foundational elements of the practice by shouting rhythmic calls in unison and performing coordinated gestures. By the 1990s, this support evolved further with the introduction of the 'MIX,' a specific pattern of calls performed during song intros and instrumental breaks, which became a staple of the idol concert experience. The practice gained significant cultural momentum in the early 2000s, particularly among fans of the Hello! Project, with Miki Fujimoto’s 2002 single 'Romantic Ukare Mode' becoming the definitive anthem for the movement. The song’s choreography, which includes elements like dogeza, calls, mawari, and the sliding romeo, remains a cornerstone of the repertoire today. As the practice grew, it moved beyond the confines of concert venues, finding homes at anime conventions, street events, and online platforms like YouTube and Niconico Douga. This transition allowed for the development of 'cyalume dance,' a more performance-oriented style that emphasizes the visual trails created by glow sticks and penlights. Professional groups such as GinyuforcE, Kita no Uchishitachi, and Zero-uchi Restart have since pushed the boundaries of the art form, transforming it from spontaneous audience participation into a disciplined, highly technical dance style. The professionalization of wotagei has been supported by commercial partnerships with manufacturers like Lumica and the establishment of the Cyalume Dance World Battle, a global competition that has seen qualifiers in cities across Asia and North America. In 2019, the art form received formal recognition when Cyalume Dance was awarded a Minister of Education, Culture, Sports, Science and Technology Award in Japan. Despite its evolution into a professional performance, the core of wotagei remains rooted in the connection between the performer and the music. The practice is divided into two primary styles: cyalume-gei, which focuses on the light trails produced by glow sticks, and chikagei, which utilizes the entire body to interpret the music. These styles share a common lineage but offer distinct aesthetic experiences. Techniques are often tied to specific sections of a song; for instance, the A-melody might feature OAD (over action dolphin) and ni-hai-o-hai, while the chorus typically incorporates thundersnake, muramasa, and amaterasu. The complexity of these movements requires significant space and coordination, leading many practitioners to perform in designated areas at the back of venues or in dedicated practice spaces. The global spread of wotagei has been facilitated by the internet, with instructional DVDs and social media tutorials allowing fans worldwide to learn the intricate choreography. Today, the practice continues to thrive, with national competitions like Wotagei Kōshien fostering the next generation of performers. Whether performed in a crowded concert hall or on a stage at an international gaming expo, wotagei remains a testament to the creative power of fan communities to transform support into art.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "Romantic Ukare Mode",
+     "artist": "Miki Fujimoto",
+     "source": "https://en.wikipedia.org/wiki/Wotagei",
+     "verified": false
+    }
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Wotagei_in_Akihabara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Wotagei_in_Akihabara.jpg/1280px-Wotagei_in_Akihabara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4672,
+     "height": 3104,
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "attribution": "Ryo FUKAsawa / Wikimedia Commons / CC BY 2.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AWotagei_in_Akihabara.jpg",
+     "description": "Wotagei in Akihabara, Tokyo"
+    }
+   ],
+   "movie_ready": true,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "romantic-ballet": {
+   "slug": "romantic-ballet",
+   "name": "Romantic ballet",
+   "country": "France",
+   "country_code": "FR",
+   "region": "Europe",
+   "family": "classical-court",
+   "flag_emoji": "🇫🇷",
+   "era": "19th century",
+   "tagline": "A 19th-century dance movement defined by ethereal spirit women and pointe work.",
+   "profile": "Romantic ballet emerged in the early 19th century as a reaction against the rigid structures of the past, favoring themes of supernatural longing and unattainable love. It is defined by the rise of the ballerina as a central, idealized figure who appeared to float across the stage, often supported by the technical innovation of early pointe work. The era is characterized by the 'white act,' where dancers in long, tulle tutus embodied spirits like sylphs and wilis in moonlit, mysterious settings. This period, spanning roughly from 1815 to 1870, fundamentally shifted the aesthetic of ballet toward the lyrical and the magical.",
+   "insight": "In 1832, Marie Taglioni’s debut in La Sylphide transformed the ballerina into an ethereal, weightless spirit, forever changing the trajectory of classical dance through the invention of the Romantic tutu.",
+   "aliases": [],
+   "related": [
+    "Classical ballet"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Romantic_ballet",
+    "https://www.wikidata.org/wiki/Q2707421",
+    "https://es.wikipedia.org/wiki/Ballet_romántico",
+    "https://fr.wikipedia.org/wiki/Ballet_romantique",
+    "https://pt.wikipedia.org/wiki/Balé_romântico"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Romantic_ballet",
+   "wikidata_qid": "Q2707421",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.7,
+   "last_researched_at": "2026-11-06T18:01:28Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Romantic ballet era represents a distinct period in dance history, spanning approximately from 1815 to 1870, primarily centered at the Théâtre de l'Académie Royale de Musique in Paris and Her Majesty's Theatre in London. Influenced by the broader Romantic movement in literature and art, this style moved away from the classical myths of ancient Greece, favoring instead the mysterious, supernatural folklore of Norse mythology, populated by elves, wilis, and ghosts. This shift in subject matter reflected a desire for a revolutionary art form that was lyrical, exotic, and magical, distancing itself from the traditions of the Ancien Régime. The era is often divided into three phases: a zenith from 1830 to 1840, a decline from 1850 to 1880, and a revival in the 1890s. The debut of Marie Taglioni in 'La Sylphide' in 1832 is widely considered the beginning of this movement, while Arthur Saint-Léon’s 1870 ballet 'Coppélia' marks its conclusion.\n\nTechnically, the era was defined by the rise of the ballerina as the central figure of the stage. While men had previously dominated ballet, the Romantic period saw the female dancer elevated to a status of celebrity and idealization. This 'cult of the ballerina' was characterized by a specific movement style: soft, rounded arms and a forward tilt in the upper body, which created a flowery, willowy appearance. The invention of pointe work—initially performed in soft shoes with darning for padding—allowed ballerinas to appear as if they were floating, reinforcing the illusion of weightlessness. Because the male dancer was increasingly relegated to the role of a 'porteur' or partner, there was a rise in female 'travesty' dancers who performed male roles, a practice that gained high status during this time.\n\nDesign and scenography were crucial to the Romantic aesthetic. The signature costume, the Romantic tutu, was a full, white, multi-layered skirt made of tulle. This costume, combined with the invention of gas lighting, allowed for subtle dimming and mysterious effects that enhanced the 'ballet-blanc' or 'white act'—a staple of the second acts of these ballets, where the corps de ballet appeared as spirits in the moonlight. The invention of the bobbinet machine in 1808 made the production of these tulle costumes more feasible, allowing for the large-scale, ethereal visual identity that defined the era. Illusion was further heightened by the use of wires and trap doors, which allowed dancers to 'fly' across the stage.\n\nMusically, the Romantic ballet saw a transition from the use of pastiche scores to specially written music. Composers like Adolphe Adam began to introduce the leitmotif, a recurring musical theme associated with specific characters or emotions, as seen in the 1841 production of 'Giselle'. This development paved the way for later composers such as Léo Delibes and Pyotr Ilyich Tchaikovsky, who elevated the status of ballet music. Despite the artistic advancements, the era remained firmly rooted in the patriarchal social structures of the 19th century, with many ballets reflecting a male-centric view of femininity that emphasized both the innocence and the exploitation of women. The legacy of the Romantic ballet remains a cornerstone of the classical repertoire, having established the technical and aesthetic foundations that would eventually evolve into the classical ballet of the late 19th century.",
+   "albums": [
+    {
+     "title": "Giselle",
+     "artist": "Adolphe Adam",
+     "year": "2012",
+     "mbid": "50438b01-0a22-4e25-8497-25f32716177d",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/50438b01-0a22-4e25-8497-25f32716177d",
+     "type": "Album",
+     "source": "https://fr.wikipedia.org/wiki/Ballet_romantique",
+     "verified": true
+    },
+    {
+     "title": "Coppelia - Ballet Music",
+     "artist": "Léo Delibes",
+     "year": null,
+     "mbid": "a8cda054-c137-4dba-bc32-1ae882bde726",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/a8cda054-c137-4dba-bc32-1ae882bde726",
+     "type": "Album",
+     "source": "https://fr.wikipedia.org/wiki/Ballet_romantique",
+     "verified": true
+    }
+   ],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Three_Grces_-Charles_Challon.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Three_Grces_-Charles_Challon.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 900,
+     "height": 1127,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Alfred Edward Chalon (1780-1860) / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AThree_Grces_-Charles_Challon.JPG",
+     "description": "ballerinas (from left to right) Marie Taglioni (1804-1884) in the choreographer Filippo Taglioni (1777-1871) and composer Jean-Madeleine Schneitzhoeffer's (1785-1852) 1832 ballet \"La Sylphide\"; Fanny Elssler (1810-1884) in the Danse nationale \"La Cachucha\" from the choreographer Jean Coralli (1779-1854) and composer Casimir Gide's (1804-1868) 1836 ballet \"Le Diable boiteux\"; and Carlotta Grisi (18"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "not described in sources",
+   "movie_ready": false,
+   "tradition_status": "historical",
+   "related_slugs": [
+    "classical-ballet"
+   ]
+  },
+  "peruvian-waltz": {
+   "slug": "peruvian-waltz",
+   "name": "Peruvian waltz",
+   "country": "Peru",
+   "country_code": "PE",
+   "region": "South America",
+   "family": "folk-circle",
+   "flag_emoji": "🇵🇪",
+   "era": "19th-20th century",
+   "tagline": "A creolized adaptation of the European waltz, born in the coastal neighborhoods of Lima.",
+   "profile": "The Peruvian waltz, or vals criollo, is a musical genre and dance that emerged in the coastal regions of Peru, particularly Lima, during the 19th and 20th centuries. It represents a synthesis of European waltz structures with Afro-Peruvian and indigenous rhythmic influences, evolving from colonial-era social gatherings into a national cultural symbol. The genre is defined by its use of the guitar and the cajón, with lyrics often exploring themes of love, fatalism, and urban social life. Today, it remains a living tradition, recognized for its unique harmonic complexity and its role in shaping the musical identity of Peru.",
+   "insight": "Born in the Malambo district of Lima, this creolized waltz evolved from European roots into a symbol of Peruvian identity, famously captured in the unofficial anthem of the capital, 'La flor de la canela.'",
+   "aliases": [
+    "vals criollo",
+    "vals peruano"
+   ],
+   "related": [
+    "Tango",
+    "Bolero",
+    "Mazurka"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Peruvian_waltz",
+    "https://www.wikidata.org/wiki/Q2509521",
+    "https://es.wikipedia.org/wiki/Vals_peruano",
+    "https://fr.wikipedia.org/wiki/Valse_péruvienne",
+    "https://pt.wikipedia.org/wiki/Valsa_peruana"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Peruvian_waltz",
+   "wikidata_qid": "Q2509521",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 8.7,
+   "last_researched_at": "2026-11-06T18:01:49Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Peruvian waltz, known locally as the vals criollo, stands as a foundational pillar of Peruvian musical identity. Emerging from the coastal regions of Peru, particularly within the vibrant social fabric of Lima, the genre represents a distinct cultural synthesis. Its origins trace back to the colonial era, where the European waltz, brought by Spanish settlers, encountered the rhythmic sensibilities of Afro-Peruvian and indigenous populations. By the mid-19th century, this imported form had begun to transform, shedding its rigid European constraints to better suit the local aesthetic preferences of the Criollo people. The Malambo district in the Rimac area of Lima is frequently cited as the cradle of this evolution, a space where the music was nurtured in private homes, social gatherings known as jaranas, and neighborhood festivities.\n\nThe history of the genre is often divided into distinct eras, most notably the 'Guardia Vieja' or 'Old Guard' period, spanning approximately 1900 to 1920. During this time, the music solidified its place in the urban working class, serving as a medium for expressing cultural personality, social conflicts, and value systems. The instrumentation evolved alongside the genre; while early iterations relied heavily on guitars, hand clapping, and vocal accompaniment, the mid-20th century saw the definitive incorporation of the cajón, an Afro-Peruvian percussion instrument that provided a new rhythmic foundation. This period also saw the rise of legendary composers like Felipe Pinglo Alva, whose work in the 1930s introduced complex harmonies and influences from North American genres like the fox-trot and blues, further distancing the vals criollo from its European ancestor.\n\nAs the 20th century progressed, the genre gained international recognition, particularly in Argentina, where it influenced local tango styles. Iconic figures such as Chabuca Granda elevated the vals criollo to a national symbol, with her composition 'La flor de la canela' becoming an unofficial anthem for Lima. The music is characterized by its use of triple meter, though it occasionally incorporates compound duple time, and its lyrical structure typically follows a strophic form with intercalated choruses. Themes of love, pain, fatalism, and hope dominate the repertoire, reflecting the emotional depth of the coastal Peruvian experience. Despite the modernization of the genre, which has led to softer and less traditional arrangements in contemporary times, the vals criollo remains a widely practiced and celebrated symbol of Peruvian culture, continuing to resonate through the work of both historical masters and modern performers.",
+   "albums": [
+    {
+     "title": "La flor de la canela",
+     "artist": "Chabuca Granda",
+     "year": "1998",
+     "mbid": "cbba75d3-ee14-4754-8149-ccb46f0a7968",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/cbba75d3-ee14-4754-8149-ccb46f0a7968",
+     "type": "Album",
+     "source": "https://en.wikipedia.org/wiki/Peruvian_waltz",
+     "verified": true
+    }
+   ],
+   "album_candidates": [
+    {
+     "title": "El plebeyo",
+     "artist": "Felipe Pinglo Alva",
+     "source": "https://es.wikipedia.org/wiki/Vals_peruano",
+     "verified": false
+    }
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Chabuca_Granda_monumento.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Chabuca_Granda_monumento.JPG/1280px-Chabuca_Granda_monumento.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1920,
+     "height": 2560,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Manuel González Olaechea y Franco / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AChabuca_Granda_monumento.JPG",
+     "description": "Estatua de Chabuca Granda situada en Barranco, Lima"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "tango",
+    "bolero",
+    "mazurka"
+   ]
+  },
+  "zambra": {
+   "slug": "zambra",
+   "name": "Zambra",
+   "country": "Spain",
+   "country_code": "ES",
+   "region": "Europe",
+   "family": "folk-circle",
+   "flag_emoji": "🇪🇸",
+   "era": "16th century to present",
+   "tagline": "A rhythmic, barefoot flamenco tradition rooted in the caves of Granada.",
+   "profile": "Zambra is a flamenco style originating from the Romani communities of Granada and Almería, Spain. It is characterized by its barefoot execution, use of finger cymbals, and distinct arabizing melodies. Historically linked to wedding rituals, it remains a living tradition performed in the caves of Sacromonte.",
+   "insight": "Once banned by the Spanish Inquisition in the 16th century for its perceived sensuality, the Zambra survived in clandestine cave gatherings before becoming a staple of Sacromonte tourism.",
+   "aliases": [
+    "zambra mora"
+   ],
+   "related": [
+    "tango",
+    "flamenco"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Zambra_(dance)",
+    "https://www.wikidata.org/wiki/Q2572946",
+    "https://es.wikipedia.org/wiki/Zambra_(palo_flamenco)",
+    "https://fr.wikipedia.org/wiki/Zambra",
+    "https://pt.wikipedia.org/wiki/Zambra",
+    "https://archive.org/details/friendshipsoffer00unse_2"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Zambra_(dance)",
+   "wikidata_qid": "Q2572946",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-06",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 8.85,
+   "last_researched_at": "2026-11-06T18:02:19Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Zambra, or zambra mora, is a style of flamenco dance deeply rooted in the Romani communities of Granada and Almería, Spain. Its name derives from the Andalusi Arabic term 'zamra', which itself stems from the classical Arabic 'zamr'. Historical evidence suggests the dance is a continuation of earlier Morisco styles, practiced by Spanish Muslims forced to convert to Christianity in 1502. During the 16th century, the dance was prohibited in Spain by the Inquisition under Philip II, who sought to eliminate non-Catholic cultural traces; however, the tradition persisted in clandestine settings. In the 20th and 21st centuries, the dance gained prominence through the performances of influential figures such as Carmen Amaya, Lola Flores, and Manolo Caracol. Traditionally, the Zambra was a central component of Romani wedding ceremonies, divided into specific sub-genres including the alboreá, cachucha, and mosca. Today, the dance is most famously associated with the caves of the Sacromonte hill in Granada and the caves of Almería, where it is performed both as a cultural practice and as an attraction for visitors. The dance is noted for its slow, deliberate rhythm, often compared to a slow tango, and its distinctively arabizing musical melodies. Performers dance barefoot, wearing a blouse tied under the bust and a long skirt secured at the hips with wide pleats that allow the fabric to flow. The musical accompaniment typically features the guitar and the rhythmic clatter of finger cymbals, known as sonajas. While it has evolved from its origins as a ritualistic wedding dance into a theatrical and tourist-oriented performance, the Zambra retains its unique connection to the history of the Morisco and Romani populations of Andalusia. It remains a significant, if sometimes controversial, element of the Spanish flamenco landscape, bridging the gap between historical clandestine practice and modern stage performance.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "La zambra flamenca",
+     "artist": "José María Velázquez-Gaztelu",
+     "source": "https://es.wikipedia.org/wiki/Zambra_(palo_flamenco)",
+     "verified": false
+    }
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Anthologie_du_chant_et_du_ballet_flamenco._Ballet_Zambra_de_Madrid._Th%C3%A9%C3%A2tre_de_Lut%C3%A8ce._1961_-_btv1b9001748v_%2831_of_62%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Anthologie_du_chant_et_du_ballet_flamenco._Ballet_Zambra_de_Madrid._Th%C3%A9%C3%A2tre_de_Lut%C3%A8ce._1961_-_btv1b9001748v_%2831_of_62%29.jpg/1280px-Anthologie_du_chant_et_du_ballet_flamenco._Ballet_Zambra_de_Madrid._Th%C3%A9%C3%A2tre_de_Lut%C3%A8ce._1961_-_btv1b9001748v_%2831_of_62%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3600,
+     "height": 2365,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Pic, Roger (1920-2001). Photographe / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAnthologie_du_chant_et_du_ballet_flamenco._Ballet_Zambra_de_Madrid._Th%C3%A9%C3%A2tre_de_Lut%C3%A8ce._1961_-_btv1b9001748v_%2831_of_62%29.jpg",
+     "description": "Sujet : Flamenco (danse)\nAppartient à l’ensemble documentaire : PhoSpec1\nPhotographie\nLangue : sans contenu linguistique\n\nÉditeur : Roger Pic (Paris)"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "not described in sources",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "tango",
+    "flamenco"
    ]
   }
  }

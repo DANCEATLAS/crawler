@@ -1,0 +1,129 @@
+{
+ "slug": "medieval-dance",
+ "qc_at": "2026-11-06T18:38:12Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Medieval dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "83"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "175"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 14th-century Siena, frescos depict women performing a 'bridge' figure while a"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "659"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1997"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "7"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Europe"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"kolo-serbia\", \"score\": 1.0, \"via_alias\": \"Kolo\"}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['religious', 'monastery']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 7,
+  "teaching_value": 7,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "Medieval dance is treated as a single unified entity rather than a broad historical era spanning diverse cultures and centuries."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "reject",
+  "notes": "Fails the is_a_dance criterion because 'Medieval dance' is a historical era/category covering numerous distinct European traditions rather than a specific dance style."
+ },
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "kolo-serbia",
+  "score": 1.0,
+  "via_alias": "Kolo"
+ },
+ "is_sacred": true,
+ "reasons": [
+  "country",
+  "not_duplicate",
+  "judge_score=8.1",
+  "doubts=1",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-06T17:42:19Z"
+}

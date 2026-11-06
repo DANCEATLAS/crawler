@@ -1,0 +1,124 @@
+{
+ "slug": "crow-hop",
+ "qc_at": "2026-11-06T18:39:18Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.65,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Crow Hop"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "79"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "151"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "While 'Crow Hop' is the title of a 2008 album by Apsáalooke artist Supaman, the "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "426"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1346"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/4 rate=0.75"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "USA"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [
+   "Crow Hop"
+  ],
+  "adaptations_safe": true,
+  "overall": 2,
+  "verdict": "reject",
+  "notes": "The subject is not a dance, but an album title. The profile correctly identifies that no dance tradition of this name exists in the provided evidence. It should not be included in a dance encyclopedia."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "sections_filled",
+  "judge_score=8.65",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 3,
+  "rate": 0.75
+ },
+ "researched_at": "2026-11-06T18:10:16Z"
+}

@@ -1,0 +1,848 @@
+{
+ "slug": "traditional-square-dance",
+ "name": "Traditional Square Dance",
+ "pack_version": "e1",
+ "built_at": "2026-11-06T19:02:16Z",
+ "researched_at": "2026-11-06T17:36:16Z",
+ "qc_score": 9.6,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A seasoned regional caller who teaches by walking dancers through steps rather than formal lessons.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Traditional Square Dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Traditional Square Dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Living Roots of American Square Dancing",
+     "This is Traditional Square Dance. 19th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Traditional Square Dance · United States and Canada · 19th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Traditional square dance descends from 18th-century cotillions and 19th-century quadrilles brought by settlers.",
+     "It encompasses pre-1950 regional styles across North America, evolving through Northeastern, Southeastern, and Western branches."
+    ],
+    "on_screen": [
+     "Map: United States and Canada · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Functioning as community gatherings, survival dances are sponsored by local churches, fire departments, or Granges where attendees mostly know one another.",
+     "Revival dances and fun nights open the floor to the public with casual attire and frequent partner changes.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Alliance for Appalachia blockades Obama's Council on Environmental Quality over MTR coal mining (https://archive.org/details/MTRAppalachiaCD992014540p)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Danced using a limited number of basic movements or 'calls' that enable average dancers to join by assimilation rather than formal lessons.",
+     "Figures are executed in set orders or chosen from local repertoires by a prompter or caller, with regional variations appearing primarily in hand and arm positions.",
+     "Watch for ladies chain, right and left, Bird in the Cage."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Four-couple square formation or large circle where a single couple visits other couples in turn"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Danced almost exclusively to live music derived from Scottish and Irish jigs in 6/8 time and reels in 2/4 time.",
+     "Fiddles serve as the primary lead instrument, supported regionally by pianos in New England, banjos and guitars in the South, double basses, accordions in Quebec and Newfoundland, and hammered dulcimers in Michigan.",
+     "Listen for the fiddle, piano, banjo, guitar.",
+     "The pulse is 6/8 time (jigs) and 2/4 time (reels) at about 130 beats a minute.",
+     "Acoustic folk music driven by a lead fiddle playing brisk Scottish and Irish tunes, anchored by a regional rhythm section of piano, banjo, or guitar."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Binary form AABB pattern with 8 measures (16 downbeats) per part"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Events take place in community spaces, local halls, or revival venues.",
+     "Dancers wear casual attire or dress up slightly, without requiring standardized square-dance-specific costumes."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Ted Sannella, Lloyd Shaw, and George Wade.",
+     "Classified into Northeastern, Southeastern, and Western types, with documented roots across New England, the southern Appalachian Mountains, the Ozarks, and eastern Canada.",
+     "Descended from the 18th-century cotillion and the 19th-century quadrille; serves as the precursor to modern Western square dance."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Traditional Square Dance is parent of modern Western square dance: Modern Western style developed out of a blend of regional traditional square dance styles after 1950.",
+     "Traditional Square Dance is sibling of contra dance: Frequently featured alongside traditional squares at public revival dance events."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Join hands in a square or circle formation with other couples",
+     "Execute basic movements such as 'ladies chain' or 'right and left' upon hearing the call",
+     "Count it: 5-6-7-8.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the pre-1950 regional traditional square dances preserved through community networks, live fiddle tunes, and calls learned by assimilation.",
+     "Sources: 3 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Join a square set and walk through basic regional calls",
+   "level": "beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Join a square set and walk through basic regional calls.",
+      "Level: beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: A seasoned regional caller who teaches by walking dancers through steps rather than formal lessons."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Regional variations in hand or arm position during basic movements like 'do-si-do'"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 6/8 time (jigs) and 2/4 time (reels).",
+      "Rhythm pattern: Binary form AABB pattern with 8 measures (16 downbeats) per part.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 91 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Join hands in a square or circle formation with other couples",
+      "Step 2: Execute basic movements such as 'ladies chain' or 'right and left' upon hearing the call",
+      "Drill: Form a four-couple square formation on the floor"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Walk through dance figures step-by-step prior to dancing to live music",
+      "Drill: Walk through basic Northeastern figures without music"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice listening to the caller's pre-determined sequence"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform hand gestures, arm swings, and upper body turns while seated in a circle formation. · For children: A simplified circle game where children follow a caller's spoken directions to change partners."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform hand gestures, arm swings, and upper body turns while seated in a circle formation.",
+      "For children: A simplified circle game where children follow a caller's spoken directions to change partners."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 130 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Join a square set and walk through basic regional calls.",
+      "Functioning as community gatherings, survival dances are sponsored by local churches, fire departments, or Granges where attendees mostly know one another.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Traditional Square Dance",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Traditional Square Dance.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: A seasoned regional caller who teaches by walking dancers through steps rather than formal lessons."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Regional variations in hand or arm position during basic movements like 'do-si-do'"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 6/8 time (jigs) and 2/4 time (reels).",
+      "Rhythm pattern: Binary form AABB pattern with 8 measures (16 downbeats) per part.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 91 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Join hands in a square or circle formation with other couples",
+      "Step 2: Execute basic movements such as 'ladies chain' or 'right and left' upon hearing the call"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Walk through dance figures step-by-step prior to dancing to live music",
+      "ladies chain: A basic movement common across the Northeastern repertoire where women chain across the square.",
+      "right and left: A foundational movement shared across Northeastern figure sets."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform hand gestures, arm swings, and upper body turns while seated in a circle formation. · For children: A simplified circle game where children follow a caller's spoken directions to change partners."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform hand gestures, arm swings, and upper body turns while seated in a circle formation.",
+      "For children: A simplified circle game where children follow a caller's spoken directions to change partners."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Four-couple square formation or large circle where a single couple visits other couples in turn"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 130 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Traditional Square Dance.",
+      "Ted Sannella, Lloyd Shaw, and George Wade.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Traditional Square Dance",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Traditional Square Dance.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: A seasoned regional caller who teaches by walking dancers through steps rather than formal lessons."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Regional variations in hand or arm position during basic movements like 'do-si-do'"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 6/8 time (jigs) and 2/4 time (reels).",
+      "Rhythm pattern: Binary form AABB pattern with 8 measures (16 downbeats) per part.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 91 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Execute basic movements such as 'ladies chain' or 'right and left' upon hearing the call",
+      "Step 2: Walk through dance figures step-by-step prior to dancing to live music"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Bird in the Cage: A unique Southeastern figure composed of movements that appear in no other dance."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform hand gestures, arm swings, and upper body turns while seated in a circle formation. · For children: A simplified circle game where children follow a caller's spoken directions to change partners."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform hand gestures, arm swings, and upper body turns while seated in a circle formation.",
+      "For children: A simplified circle game where children follow a caller's spoken directions to change partners."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Four-couple square formation or large circle where a single couple visits other couples in turn"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 130 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Traditional Square Dance.",
+      "Descended from the 18th-century cotillion and the 19th-century quadrille; serves as the precursor to modern Western square dance.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": 130,
+  "meter": "6/8 time (jigs) and 2/4 time (reels)",
+  "rhythm_pattern": "Binary form AABB pattern with 8 measures (16 downbeats) per part",
+  "instruments": [
+   "fiddle",
+   "piano",
+   "banjo",
+   "guitar",
+   "double bass",
+   "accordion",
+   "hammered dulcimer"
+  ],
+  "vocal_style": "Singing calls where callers substitute dance directions for lyrics during fiddle-tune-structured songs",
+  "musical_form": null,
+  "mood": [
+   "lively",
+   "energetic",
+   "folk",
+   "rhythmic"
+  ],
+  "sound_description": "Acoustic folk music driven by a lead fiddle playing brisk Scottish and Irish tunes, anchored by a regional rhythm section of piano, banjo, or guitar.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Traditional Square Dance (United States and Canada). Meter 6/8 time (jigs) and 2/4 time (reels). Tempo about 130 bpm. Rhythm pattern: Binary form AABB pattern with 8 measures (16 downbeats) per part. Instruments: fiddle, piano, banjo, guitar, double bass, accordion, hammered dulcimer. Vocal style: Singing calls where callers substitute dance directions for lyrics during fiddle-tune-structured songs. Mood: lively, energetic, folk, rhythmic. It should sound like this: Acoustic folk music driven by a lead fiddle playing brisk Scottish and Irish tunes, anchored by a regional rhythm section of piano, banjo, or guitar. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 91
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 130
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Events take place in community spaces, local halls, or revival venues. Dancers wear casual attire or dress up slightly, without requiring standardized square-dance-specific costumes.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ASquare_dancing_at_the_John_C._Campbell_Folk_School_in_Brasstown%2C_North_Carolina.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Square_dancing_at_the_John_C._Campbell_Folk_School_in_Brasstown%2C_North_Carolina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Square_dancing_at_the_John_C._Campbell_Folk_School_in_Brasstown%2C_North_Carolina.jpg/1280px-Square_dancing_at_the_John_C._Campbell_Folk_School_in_Brasstown%2C_North_Carolina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Harrison Keely / Wikimedia Commons / CC BY 4.0",
+    "license": "CC BY 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASquare_dancing_at_the_John_C._Campbell_Folk_School_in_Brasstown%2C_North_Carolina.jpg",
+    "description": "A square dance at the John C. Campbell Folk School in Brasstown, North Carolina"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Alliance for Appalachia blockades Obama's Council on Environmental Quality over MTR coal mining",
+    "url": "https://archive.org/details/MTRAppalachiaCD992014540p",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Two Lady Around Figures",
+    "url": "https://archive.org/details/two-lady-around-figures",
+    "year": null,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Dip & Dive Square",
+    "url": "https://archive.org/details/dip-dive-square",
+    "year": null,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "The Tunnel Square Dance",
+    "url": "https://archive.org/details/the-tunnel-square-dance",
+    "year": null,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Life On An Ocean Wave",
+    "url": "https://archive.org/details/life-on-an-ocean-wave",
+    "year": null,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Split The Sides Of The Square",
+    "url": "https://archive.org/details/split-the-sides-of-the-square",
+    "year": null,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "A fiddler drawing a bow across strings under warm hall lighting",
+   "Four couples forming a square on wooden floorboards",
+   "A caller speaking into a microphone before a live string band"
+  ],
+  "costume_notes": "Events take place in community spaces, local halls, or revival venues. Dancers wear casual attire or dress up slightly, without requiring standardized square-dance-specific costumes.",
+  "setting_notes": "Functioning as community gatherings, survival dances are sponsored by local churches, fire departments, or Granges where attendees mostly know one another. Revival dances and fun nights open the floor to the public with casual attire and frequent partner changes.",
+  "map": {
+   "country": "United States and Canada",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "6 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 6,
+  "counting": "5-6-7-8",
+  "demonstration": [
+   "views used by most teachers: back, front, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "keep those abs pulled in",
+   "engage all the muscles",
+   "keep those shoulders down",
+   "control control",
+   "step to the right"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "count_in",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
+   "follow_along",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Traditional_square_dance",
+  "https://www.wikidata.org/wiki/Q2447772",
+  "https://de.wikipedia.org/wiki/Traditional_Square_Dance"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "hero_checked": null
+}

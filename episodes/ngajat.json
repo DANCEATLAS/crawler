@@ -1,0 +1,383 @@
+{
+ "slug": "ngajat",
+ "name": "Ngajat",
+ "pack_version": "e1",
+ "built_at": "2026-11-06T19:02:16Z",
+ "researched_at": "2026-11-06T18:09:23Z",
+ "qc_score": 9.2,
+ "status": "withheld-chapters",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An Iban cultural practitioner from Sarawak.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Ngajat",
+   "Kajat"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Ngajat",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Dance of the Hornbill and the Warrior",
+     "This is Ngajat. 16th century to present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (luVI7fwzuiI)",
+     "Title card: Ngajat · Malaysia · 16th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated from Iban ancestors observing the common hill myna and the great argus, leading to the creation of 'Bungai Ajat' and 'Bunga Ajat' movements.",
+     "It is believed to be associated with the Iban ethnic group since the 16th century."
+    ],
+    "on_screen": [
+     "Map: Malaysia · Southeast Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Ngajat is performed for Gawai harvest festivals, to welcome guests, and historically to celebrate the return of warriors.",
+     "It serves as a manifestation of masculinity, strength, and community identity.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is characterized by graceful, bird-like movements.",
+     "Male dancers perform with shields and swords, often swinging their bodies.",
+     "Female dancers use the Pua Kumbu fabric as a central display.",
+     "Watch for Bungai Ajat, Ngajat Lesong."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (luVI7fwzuiI)",
+     "Captions name each signature move as it appears",
+     "Formation: Dancers stand in a circle or move in a procession."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The musical ensemble includes large and medium gongs (tawak and bebendai), drums (ketebung/dumba), a set of small gongs (engkromong), and the belikan string instrument.",
+     "Listen for the tawak, bebendai, ketebung, dumba.",
+     "The music is driven by the interplay of large and medium gongs (tawak and bebendai) providing a deep, resonant foundation, punctuated by the rhythmic beat of drums (ketebung/dumba) and the melodic, high-pitched ringing of the engkromong small gongs."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Male dancers wear 'gagung' (thick vests of animal skin) and feathered headdresses.",
+     "Female dancers wear 'ngepan' headdresses, chest hooks, and bracelets.",
+     "Performances often take place on the 'tanju' (outer platform) of a longhouse or on a stage."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Dion Das Louis, an eight-year-old dancer from Sarawak who won two gold medals at the 2024 World Performing Arts Championships.",
+     "Variants include Ngajat Serakup (standardized stage version), Ngajat Bebunoh (warrior/hunting replication), Ngajat Lesong (strength display), Ngajat Induk (female-led ritual), and Ngajat Ngalu Temuai (welcome dance).",
+     "The dance is a traditional Iban practice, with modern stage versions like Ngajat Serakup developed by the Dayak Dance and Cultural Association."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Ngajat is related of khon: Mentioned as a related dance form in the catalogue."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Certain rituals, such as those involving the Pua Kumbu and the welcoming of warriors, are deeply tied to ancestral offerings and spiritual protection; outsiders should observe with respect and avoid interrupting ritual processes."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the Ngajat, a centuries-old Iban tradition that transforms the movements of the jungle into a powerful display of warrior spirit and cultural pride.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "tawak",
+   "bebendai",
+   "ketebung",
+   "dumba",
+   "engkromong",
+   "belikan"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "ceremonial",
+   "rhythmic",
+   "warrior-like"
+  ],
+  "sound_description": "The music is driven by the interplay of large and medium gongs (tawak and bebendai) providing a deep, resonant foundation, punctuated by the rhythmic beat of drums (ketebung/dumba) and the melodic, high-pitched ringing of the engkromong small gongs.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Ngajat (Malaysia). Instruments: tawak, bebendai, ketebung, dumba, engkromong, belikan. Mood: ceremonial, rhythmic, warrior-like. It should sound like this: The music is driven by the interplay of large and medium gongs (tawak and bebendai) providing a deep, resonant foundation, punctuated by the rhythmic beat of drums (ketebung/dumba) and the melodic, high-pitched ringing of the engkromong small gongs. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "luVI7fwzuiI",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Male dancers wear 'gagung' (thick vests of animal skin) and feathered headdresses. Female dancers wear 'ngepan' headdresses, chest hooks, and bracelets. Performances often take place on the 'tanju' (outer platform) of a longhouse or on a stage.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AArgusianus_argus%2C_Khao_Sok%2C_Thailand_1.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AAcridotheres_tristis00.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ANgajatofSarawak.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Argusianus_argus%2C_Khao_Sok%2C_Thailand_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Argusianus_argus%2C_Khao_Sok%2C_Thailand_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Francesco Veronesi from Italy / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AArgusianus_argus%2C_Khao_Sok%2C_Thailand_1.jpg",
+    "description": "Great Argus Argusianus argus, Khao Sok, Thailand."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Acridotheres_tristis00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Acridotheres_tristis00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Gerrie van Vuuren / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAcridotheres_tristis00.jpg",
+    "description": "Acridotheres tristis (Linnaeus, 1766) - Common mynah, South Africa"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/NgajatofSarawak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/af/NgajatofSarawak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Menuaibansarawak / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANgajatofSarawak.jpg",
+    "description": "Ngajat Lesong is a traditional dance of Iban people in Sarawak."
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Feathered headdresses",
+   "Intricate Pua Kumbu fabric",
+   "Traditional gongs",
+   "Longhouse architecture"
+  ],
+  "costume_notes": "Male dancers wear 'gagung' (thick vests of animal skin) and feathered headdresses. Female dancers wear 'ngepan' headdresses, chest hooks, and bracelets. Performances often take place on the 'tanju' (outer platform) of a longhouse or on a stage.",
+  "setting_notes": "Ngajat is performed for Gawai harvest festivals, to welcome guests, and historically to celebrate the return of warriors. It serves as a manifestation of masculinity, strength, and community identity.",
+  "map": {
+   "country": "Malaysia",
+   "region": "Southeast Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "23 tutorials across the atlas studied",
+  "videos_studied": 23,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and one and three and five and seven",
+   "keep your feet together",
+   "relax your knees",
+   "side close side",
+   "step and point",
+   "turn turn turn",
+   "replace",
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "bend the knees"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "licensed reference footage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ngajat",
+  "https://www.wikidata.org/wiki/Q24937166"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "hero_checked": "pass"
+}

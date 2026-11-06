@@ -1,6 +1,6 @@
 # daggering — episode pack
 
-*Status: draft · built 2026-11-03 · judge 8.4 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-03 · judge 8.4 · 8/8 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; licensed images (3 needed); the how-it-is-danced section
 

@@ -1,0 +1,126 @@
+{
+ "slug": "hinde",
+ "qc_at": "2026-11-06T18:38:06Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 1.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "hinde"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "74"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "114"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Released in March 1979 in Studio City, California, the disco album Dancing Up a "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "334"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "1034"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "music_and_instruments,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Canada / United States"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 1,
+  "respect": 1,
+  "specificity": 1,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The subject is not a dance tradition, but a music producer and a disco album."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [
+   "Dancing Up a Storm"
+  ],
+  "adaptations_safe": true,
+  "overall": 1,
+  "verdict": "reject",
+  "notes": "The subject is not a dance, but a music producer and an album. It should be rejected as a non-dance entry."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=1.0",
+  "doubts=1",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-06T17:16:21Z"
+}

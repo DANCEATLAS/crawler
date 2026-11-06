@@ -1,0 +1,833 @@
+{
+ "slug": "zambra",
+ "name": "Zambra",
+ "pack_version": "e1",
+ "built_at": "2026-11-06T19:02:16Z",
+ "researched_at": "2026-11-06T18:02:19Z",
+ "qc_score": 8.85,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A local flamenco historian or dancer from Granada",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Zambra",
+   "zambra mora"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Zambra",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Secret Dance of the Sacromonte Caves",
+     "This is Zambra. 16th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Zambra · Spain · 16th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated from the Romani people of Granada and Almería, evolving from earlier Morisco dance styles.",
+     "It was suppressed during the 16th-century Inquisition but continued to be practiced in secret."
+    ],
+    "on_screen": [
+     "Map: Spain · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Historically, the Zambra was a staple of Romani wedding ceremonies.",
+     "It is now frequently performed as a cultural attraction in the caves of Granada.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: VID 20201020120321 (https://archive.org/details/vid-20201020120321)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers perform barefoot, utilizing finger cymbals.",
+     "The movement is characterized by a slow, heavy rhythm with similarities to belly dancing, focusing on the fluidity of the skirt.",
+     "Watch for Hip-led movement."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Small, intimate spaces like caves"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is typically a slow, binary-meter flamenco style, often described as a slow tango.",
+     "Key instruments include the guitar and sonajas (finger cymbals).",
+     "Listen for the guitar, sonajas (finger cymbals).",
+     "The pulse is 2/4 or 4/4.",
+     "A slow, heavy flamenco rhythm characterized by arabizing melodies and the metallic clatter of finger cymbals."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: La zambra flamenca — José María Velázquez-Gaztelu",
+     "Waveform or rhythm-pattern graphic: Slow tango-like rhythm"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers wear a blouse tied under the bust and a long skirt fitted at the hips with wide pleats.",
+     "It is traditionally performed in the caves of Sacromonte."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Carmen Amaya, Lola Flores, Manolo Caracol, La Chunga, and Pilar López Júlvez are recognized for adopting and popularizing the style.",
+     "The dance is primarily associated with the Sacromonte district in Granada and the cave dwellings of Almería.",
+     "The dance is considered a descendant of Morisco dance traditions, later assimilated by Romani groups."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Zambra is shares music of Tango: The Zambra is often described as a slow, heavy form of tango."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Barefoot stance with weight centered",
+     "Hip-focused movement with fluid arm gestures",
+     "Count it: 5-6-7-8.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the resilient history of the Zambra, a dance that survived the Inquisition to become the heartbeat of Granada.",
+     "Sources: 6 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Understand the rhythm",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Understand the rhythm.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A local flamenco historian or dancer from Granada"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with weight focused on the hips",
+      "Fluid, expressive gestures with finger cymbals",
+      "Sensual, fluid movement similar to belly dance"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 2/4 or 4/4.",
+      "Rhythm pattern: Slow tango-like rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Barefoot stance with weight centered",
+      "Step 2: Hip-focused movement with fluid arm gestures",
+      "Footwork from the sources: Barefoot, grounded steps",
+      "Drill: Clapping the 2/4 rhythm"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Rhythmic use of finger cymbals",
+      "Drill: Basic hip swaying"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform arm and hip movements while seated · For children: Rhythmic clapping game using finger cymbals"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm and hip movements while seated",
+      "For children: Rhythmic clapping game using finger cymbals"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand the rhythm.",
+      "Historically, the Zambra was a staple of Romani wedding ceremonies.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Zambra",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Zambra.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A local flamenco historian or dancer from Granada"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with weight focused on the hips",
+      "Fluid, expressive gestures with finger cymbals",
+      "Sensual, fluid movement similar to belly dance"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 2/4 or 4/4.",
+      "Rhythm pattern: Slow tango-like rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Barefoot stance with weight centered",
+      "Step 2: Hip-focused movement with fluid arm gestures"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Rhythmic use of finger cymbals",
+      "Hip-led movement: Fluid, rhythmic movement of the hips and torso"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform arm and hip movements while seated · For children: Rhythmic clapping game using finger cymbals"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm and hip movements while seated",
+      "For children: Rhythmic clapping game using finger cymbals"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Small, intimate spaces like caves"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Zambra.",
+      "Carmen Amaya, Lola Flores, Manolo Caracol, La Chunga, and Pilar López Júlvez are recognized for adopting and popularizing the style.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Zambra",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Zambra.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A local flamenco historian or dancer from Granada"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with weight focused on the hips",
+      "Fluid, expressive gestures with finger cymbals",
+      "Sensual, fluid movement similar to belly dance"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 2/4 or 4/4.",
+      "Rhythm pattern: Slow tango-like rhythm.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Hip-focused movement with fluid arm gestures",
+      "Step 2: Rhythmic use of finger cymbals"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Hip-led movement: Fluid, rhythmic movement of the hips and torso"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform arm and hip movements while seated · For children: Rhythmic clapping game using finger cymbals"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm and hip movements while seated",
+      "For children: Rhythmic clapping game using finger cymbals"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Small, intimate spaces like caves"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Zambra.",
+      "The dance is considered a descendant of Morisco dance traditions, later assimilated by Romani groups.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "2/4 or 4/4",
+  "rhythm_pattern": "Slow tango-like rhythm",
+  "instruments": [
+   "guitar",
+   "sonajas (finger cymbals)"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "arabizing",
+   "slow",
+   "sensual"
+  ],
+  "sound_description": "A slow, heavy flamenco rhythm characterized by arabizing melodies and the metallic clatter of finger cymbals.",
+  "listen_before_composing": [
+   "La zambra flamenca — José María Velázquez-Gaztelu"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Zambra (Spain). Meter 2/4 or 4/4. Rhythm pattern: Slow tango-like rhythm. Instruments: guitar, sonajas (finger cymbals). Mood: arabizing, slow, sensual. It should sound like this: A slow, heavy flamenco rhythm characterized by arabizing melodies and the metallic clatter of finger cymbals. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performers wear a blouse tied under the bust and a long skirt fitted at the hips with wide pleats. It is traditionally performed in the caves of Sacromonte.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AAnthologie_du_chant_et_du_ballet_flamenco._Ballet_Zambra_de_Madrid._Th%C3%A9%C3%A2tre_de_Lut%C3%A8ce._1961_-_btv1b9001748v_%2831_of_62%29.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Anthologie_du_chant_et_du_ballet_flamenco._Ballet_Zambra_de_Madrid._Th%C3%A9%C3%A2tre_de_Lut%C3%A8ce._1961_-_btv1b9001748v_%2831_of_62%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Anthologie_du_chant_et_du_ballet_flamenco._Ballet_Zambra_de_Madrid._Th%C3%A9%C3%A2tre_de_Lut%C3%A8ce._1961_-_btv1b9001748v_%2831_of_62%29.jpg/1280px-Anthologie_du_chant_et_du_ballet_flamenco._Ballet_Zambra_de_Madrid._Th%C3%A9%C3%A2tre_de_Lut%C3%A8ce._1961_-_btv1b9001748v_%2831_of_62%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Pic, Roger (1920-2001). Photographe / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAnthologie_du_chant_et_du_ballet_flamenco._Ballet_Zambra_de_Madrid._Th%C3%A9%C3%A2tre_de_Lut%C3%A8ce._1961_-_btv1b9001748v_%2831_of_62%29.jpg",
+    "description": "Sujet : Flamenco (danse)\nAppartient à l’ensemble documentaire : PhoSpec1\nPhotographie\nLangue : sans contenu linguistique\n\nÉditeur : Roger Pic (Paris)"
+   }
+  ],
+  "footage": [
+   {
+    "title": "VID 20201020120321",
+    "url": "https://archive.org/details/vid-20201020120321",
+    "year": 2020,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Cave walls",
+   "Flowing skirts",
+   "Finger cymbals"
+  ],
+  "costume_notes": "Performers wear a blouse tied under the bust and a long skirt fitted at the hips with wide pleats. It is traditionally performed in the caves of Sacromonte.",
+  "setting_notes": "Historically, the Zambra was a staple of Romani wedding ceremonies. It is now frequently performed as a cultural attraction in the caves of Granada.",
+  "map": {
+   "country": "Spain",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "6 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 6,
+  "counting": "5-6-7-8",
+  "demonstration": [
+   "views used by most teachers: back, front, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "keep those abs pulled in",
+   "engage all the muscles",
+   "keep those shoulders down",
+   "control control",
+   "step to the right"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "count_in",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
+   "follow_along",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Zambra_(dance)",
+  "https://www.wikidata.org/wiki/Q2572946",
+  "https://es.wikipedia.org/wiki/Zambra_(palo_flamenco)",
+  "https://fr.wikipedia.org/wiki/Zambra",
+  "https://pt.wikipedia.org/wiki/Zambra",
+  "https://archive.org/details/friendshipsoffer00unse_2"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "hero_checked": null
+}
