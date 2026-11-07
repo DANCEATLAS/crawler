@@ -1,0 +1,891 @@
+{
+ "slug": "robot",
+ "name": "robot",
+ "pack_version": "e1",
+ "built_at": "2026-11-07T17:43:35Z",
+ "researched_at": "2026-11-07T16:54:52Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A seasoned street dance historian and popper who teaches with surgical geometric precision and historical clarity.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "robot",
+   "mannequin",
+   "dancing machine",
+   "robotics",
+   "manichino"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet robot",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Man Who Froze Time on Soul Train",
+     "This is robot. Late 1960s to 1970s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: robot · United States · Late 1960s to 1970s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Pantomime traditions of imitating mannequins and mechanical figures date back to the 1920s, mirroring the rise of the industrial machine age.",
+     "In the late 1960s, street mime Robert Shields performed mechanical man illusions at the Hollywood Wax Museum in Los Angeles, inspiring urban dancers to integrate rigid isolations into soul and funk environments."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally staged as theatrical street mime and later shared as a popular novelty social dance at parties, clubs, and television specials.",
+     "The movement reflects artistic fascination with automation, robotics, and industrial technology, translating mechanical rigidity into athletic urban expression.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Robot Monster trailer (1953).webm (https://upload.wikimedia.org/wikipedia/commons/5/5d/Robot_Monster_trailer_%281953%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dancer holds a rigid, upright posture and isolates individual limbs, rotating or shifting joints along strict geometric planes.",
+     "Each motion begins and ends with a dimestop—a sudden, absolute freeze—or a locking pause that gives the illusion of mechanical gears engaging and halting.",
+     "Practitioners may add muscular pops on the rhythmic beat while preserving a stiff, automated silhouette.",
+     "Watch for dimestop, pop on beat."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Linear pathways, spot turns, or fixed-station mime presentation in solo, partner, or line setups."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The robot is danced to music with distinct, steady rhythms, particularly funk, soul, electrofunk, and robo trance.",
+     "Performers also dance to songs themed around robotics, such as Styx's 'Mr. Roboto', or perform a cappella, generating their own robotic motor sound effects, clicks, and beatbox percussion.",
+     "Listen for the synthesizer, drum machine, electric bass, electric guitar.",
+     "The pulse is 4/4.",
+     "Distinct, highly regular rhythmic pulses driven by heavy bass lines, crisp snare hits, and electric synthesizer accents. Music often incorporates electrofunk grooves or sparse funk breaks where physical stops align with sudden percussive strikes and simulated machine clicks."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Dancing Machine — The Jackson 5; Mr. Roboto — Styx; Get Up Offa That Thing — James Brown",
+     "Waveform or rhythm-pattern graphic: Heavy, distinct syncopated beat with sharp accents suitable for robotic stops."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Historically performed in everyday street clothes, social party attire, or formal stage costumes worn by musical groups on television broadcasts.",
+     "Performers also dance in theatrical robot outfits or character costumes, such as in music videos or street theatre outside tourist venues like the Hollywood Wax Museum.",
+     "The dance occurs in street squares, social dance clubs, television studios, and stage arenas."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Robert Shields, Charles 'Robot' Washington, Robot Ann, Michael Jackson, Damita Jo Freeman, Don Campbell, James Brown, and James Higgins (Skeeter Rabbit).",
+     "Social couple dancing in Californian funk clubs; solo street theatre pantomime in Los Angeles; synchronised ensemble routines developed internationally for stage and world record events.",
+     "Evolved from early 20th-century theatrical mime, puppeting, and mechanical doll pantomime; merged into African American funk and soul social dancing in the late 1960s; later cross-pollinated with popping and locking."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "robot is variant of popping: Poppers regularly incorporate the robot into routines by punctuating automaton illusions with muscular pops.",
+     "robot is influence of locking: Robot movements routinely use locking halts to signal the starting and stopping of mechanical motors.",
+     "robot is influence of puppeting: Shares historical lineage with jazz-era pantomime where dancers mimicked wind-up musical box dolls."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Assume a rigid, upright neutral stance with feet planted and core engaged.",
+     "Initiate a single-limb isolation along an angular plane, moving at a constant rate.",
+     "Count it: 1-2-3-4-5-6.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "How street mime pantomime in 1960s California collided with funk rhythm to birth the world's most enduring mechanical dance.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the abrupt start-stop mechanic in isolation.",
+   "level": "Level 1: The Dimestop",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the abrupt start-stop mechanic in isolation..",
+      "Level: Level 1: The Dimestop. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A seasoned street dance historian and popper who teaches with surgical geometric precision and historical clarity."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Rigid, upright posture held throughout the performance, with controlled muscle tone to maintain the illusion of mechanical parts.",
+      "Segmented arm extensions and angular elbow bends that move independently and freeze with abrupt dimestops.",
+      "Isolated torso tilts and rotational freezes, avoiding fluid pelvic rolling or natural body waves."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Heavy, distinct syncopated beat with sharp accents suitable for robotic stops..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Assume a rigid, upright neutral stance with feet planted and core engaged.",
+      "Step 2: Initiate a single-limb isolation along an angular plane, moving at a constant rate.",
+      "Footwork from the sources: Stilted, stepped foot placements that start and halt sharply on rigid angles without fluid weight shifts.",
+      "Drill: Extend one forearm outward along a flat plane and halt abruptly on count 1."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute a dimestop, abruptly freezing the limb to simulate a motor shutting down.",
+      "Step 4: Optionally add a rhythmic pop on the musical pulse while preserving the rigid silhouette.",
+      "Drill: Hold the arm motionless for count 2, maintaining rigid tension."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Rotate the wrist 90 degrees on count 3 and dimestop instantly on count 4."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid fluid, continuous body rolls or casual slouching, which instantly break the illusion of an automaton."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform isolated 90-degree arm and forearm extensions from a sturdy chair, focusing on sharp wrist turns and hand dimestops without standing. · For children: Play 'Musical Automaton', where children march like wind-up toys to music and must dimestop into solid statues the moment the beat cuts out."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform isolated 90-degree arm and forearm extensions from a sturdy chair, focusing on sharp wrist turns and hand dimestops without standing.",
+      "For children: Play 'Musical Automaton', where children march like wind-up toys to music and must dimestop into solid statues the moment the beat cuts out."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the abrupt start-stop mechanic in isolation..",
+      "Originally staged as theatrical street mime and later shared as a popular novelty social dance at parties, clubs, and television specials.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Disassociate head turning from torso movement with robotic stillness.",
+   "level": "Level 2: Head and Torso Isolation",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Disassociate head turning from torso movement with robotic stillness..",
+      "Level: Level 2: Head and Torso Isolation. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A seasoned street dance historian and popper who teaches with surgical geometric precision and historical clarity."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Rigid, upright posture held throughout the performance, with controlled muscle tone to maintain the illusion of mechanical parts.",
+      "Segmented arm extensions and angular elbow bends that move independently and freeze with abrupt dimestops.",
+      "Isolated torso tilts and rotational freezes, avoiding fluid pelvic rolling or natural body waves."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Heavy, distinct syncopated beat with sharp accents suitable for robotic stops..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Repeat the sequence across the head, neck, arms, or torso sequentially rather than fluidly.",
+      "Drill: Turn the head 45 degrees to the right in one sharp count, stopping dead on the click."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "dimestop: A very abrupt stop executed at the start or completion of a movement to simulate a motor starting and stopping.",
+      "pop on beat: A sharp muscular contraction hitting the musical beat while holding a rigid mechanical silhouette.",
+      "Drill: Follow by turning the torso 45 degrees on the next count while keeping the neck stationary."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Combine head nods and chest shifts in segmented 4-count cycles."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid fluid, continuous body rolls or casual slouching, which instantly break the illusion of an automaton."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform isolated 90-degree arm and forearm extensions from a sturdy chair, focusing on sharp wrist turns and hand dimestops without standing. · For children: Play 'Musical Automaton', where children march like wind-up toys to music and must dimestop into solid statues the moment the beat cuts out."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform isolated 90-degree arm and forearm extensions from a sturdy chair, focusing on sharp wrist turns and hand dimestops without standing.",
+      "For children: Play 'Musical Automaton', where children march like wind-up toys to music and must dimestop into solid statues the moment the beat cuts out."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice. Formation: Linear pathways, spot turns, or fixed-station mime presentation in solo, partner, or line setups."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Disassociate head turning from torso movement with robotic stillness..",
+      "Robert Shields, Charles 'Robot' Washington, Robot Ann, Michael Jackson, Damita Jo Freeman, Don Campbell, James Brown, and James Higgins (Skeeter Rabbit).",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Travel across space while integrating pops and mechanical stops.",
+   "level": "Level 3: Stepping and Popping",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Travel across space while integrating pops and mechanical stops..",
+      "Level: Level 3: Stepping and Popping. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A seasoned street dance historian and popper who teaches with surgical geometric precision and historical clarity."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Rigid, upright posture held throughout the performance, with controlled muscle tone to maintain the illusion of mechanical parts.",
+      "Segmented arm extensions and angular elbow bends that move independently and freeze with abrupt dimestops.",
+      "Isolated torso tilts and rotational freezes, avoiding fluid pelvic rolling or natural body waves."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Heavy, distinct syncopated beat with sharp accents suitable for robotic stops..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Optionally add a rhythmic pop on the musical pulse while preserving the rigid silhouette.",
+      "Step 2: Repeat the sequence across the head, neck, arms, or torso sequentially rather than fluidly.",
+      "Drill: Step forward with the right heel on count 1, locking the knee sharply."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "dimestop: A very abrupt stop executed at the start or completion of a movement to simulate a motor starting and stopping.",
+      "pop on beat: A sharp muscular contraction hitting the musical beat while holding a rigid mechanical silhouette.",
+      "Drill: Follow with the left foot on count 2, finishing with an instant dimestop."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Add a popping pulse through the arms and chest on every even beat while advancing."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid fluid, continuous body rolls or casual slouching, which instantly break the illusion of an automaton."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform isolated 90-degree arm and forearm extensions from a sturdy chair, focusing on sharp wrist turns and hand dimestops without standing. · For children: Play 'Musical Automaton', where children march like wind-up toys to music and must dimestop into solid statues the moment the beat cuts out."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform isolated 90-degree arm and forearm extensions from a sturdy chair, focusing on sharp wrist turns and hand dimestops without standing.",
+      "For children: Play 'Musical Automaton', where children march like wind-up toys to music and must dimestop into solid statues the moment the beat cuts out."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice. Formation: Linear pathways, spot turns, or fixed-station mime presentation in solo, partner, or line setups."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Travel across space while integrating pops and mechanical stops..",
+      "Evolved from early 20th-century theatrical mime, puppeting, and mechanical doll pantomime; merged into African American funk and soul social dancing in the late 1960s; later cross-pollinated with popping and locking.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "4/4",
+  "rhythm_pattern": "Heavy, distinct syncopated beat with sharp accents suitable for robotic stops.",
+  "instruments": [
+   "synthesizer",
+   "drum machine",
+   "electric bass",
+   "electric guitar",
+   "brass section",
+   "vocal beatbox"
+  ],
+  "vocal_style": "Soulful lead vocals, spoken automaton lines, or a cappella mouth clicks and beatbox mechanical sounds.",
+  "musical_form": "Verse-chorus funk arrangement with instrumental breaks tailored for solo dance demonstration.",
+  "mood": [
+   "mechanical",
+   "funky",
+   "syncopated",
+   "precise",
+   "futuristic"
+  ],
+  "sound_description": "Distinct, highly regular rhythmic pulses driven by heavy bass lines, crisp snare hits, and electric synthesizer accents. Music often incorporates electrofunk grooves or sparse funk breaks where physical stops align with sudden percussive strikes and simulated machine clicks.",
+  "listen_before_composing": [
+   "Dancing Machine — The Jackson 5",
+   "Mr. Roboto — Styx",
+   "Get Up Offa That Thing — James Brown",
+   "Dancing Machine — The Jacksons (1974)",
+   "Kilroy Was Here — Styx (1983)",
+   "Get Up Offa That Thing — James Brown (1976)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of robot (United States). Meter 4/4. Rhythm pattern: Heavy, distinct syncopated beat with sharp accents suitable for robotic stops.. Instruments: synthesizer, drum machine, electric bass, electric guitar, brass section, vocal beatbox. Vocal style: Soulful lead vocals, spoken automaton lines, or a cappella mouth clicks and beatbox mechanical sounds.. Form: Verse-chorus funk arrangement with instrumental breaks tailored for solo dance demonstration.. Mood: mechanical, funky, syncopated, precise, futuristic. It should sound like this: Distinct, highly regular rhythmic pulses driven by heavy bass lines, crisp snare hits, and electric synthesizer accents. Music often incorporates electrofunk grooves or sparse funk breaks where physical stops align with sudden percussive strikes and simulated machine clicks. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Historically performed in everyday street clothes, social party attire, or formal stage costumes worn by musical groups on television broadcasts. Performers also dance in theatrical robot outfits or character costumes, such as in music videos or street theatre outside tourist venues like the Hollywood Wax Museum. The dance occurs in street squares, social dance clubs, television studios, and stage arenas.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3APopping.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Popping.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/15/Popping.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Stefan Bootin / Wikimedia Commons / CC BY-SA 2.5",
+    "license": "CC BY-SA 2.5",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APopping.jpg",
+    "description": "From a popping performance choreographed and performed by Stefan Bootin."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Robot Monster trailer (1953).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Robot_Monster_trailer_%281953%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Phil Tucker / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Waarom hebben we nog steeds geen robot als BFF- - Het LAB -4.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Waarom_hebben_we_nog_steeds_geen_robot_als_BFF-_-_Het_LAB_-4.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "Universiteit van Nederland / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:The Iris Robot of the Bureau of Fire Protection.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/The_Iris_Robot_of_the_Bureau_of_Fire_Protection.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Rhk111 / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Window cleaning robot in action seen through window.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Window_cleaning_robot_in_action_seen_through_window.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Pittigrilli / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Hand-made robotic arm with Arduino.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Hand-made_robotic_arm_with_Arduino.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Giacomo Alessandroni / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Will robots outsmart us.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Will_robots_outsmart_us.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "University of the Netherlands / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "Sony Robot Dances",
+    "url": "https://archive.org/details/Sony_Robot_Dances",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "File:Wikimedia Conference 2017 – Mannequin Challenge 01.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Wikimedia_Conference_2017_%E2%80%93_Mannequin_Challenge_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Oscar Costero / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "Segmented clockwork and motor gears",
+   "The glowing Soul Train studio stage",
+   "Mirrored dancer reflections freezing in exact unison",
+   "Architectural wax museum exterior"
+  ],
+  "costume_notes": "Historically performed in everyday street clothes, social party attire, or formal stage costumes worn by musical groups on television broadcasts. Performers also dance in theatrical robot outfits or character costumes, such as in music videos or street theatre outside tourist venues like the Hollywood Wax Museum. The dance occurs in street squares, social dance clubs, television studios, and stage arenas.",
+  "setting_notes": "Originally staged as theatrical street mime and later shared as a popular novelty social dance at parties, clubs, and television specials. The movement reflects artistic fascination with automation, robotics, and industrial technology, translating mechanical rigidity into athletic urban expression.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "5 tutorial(s) of the street-urban family studied",
+  "videos_studied": 5,
+  "counting": "1-2-3-4-5-6",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 2"
+  ],
+  "cues": [
+   "punch to the side",
+   "pull your head down",
+   "pivot them on your elbows",
+   "up and down",
+   "sit in your hip",
+   "flex your muscles",
+   "lift your foot",
+   "then kick your leg",
+   "stay smooth",
+   "get a feeling for it",
+   "then get faster",
+   "make sure you really bend those knees"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "breakdown",
+   "music_practice",
+   "context",
+   "layering"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Robot_(dance)",
+  "https://www.wikidata.org/wiki/Q2725666",
+  "https://pt.wikipedia.org/wiki/Robô_(dança)",
+  "https://it.wikipedia.org/wiki/Robot_(danza)",
+  "https://archive.org/details/smash-hits-1979-12-13"
+ ],
+ "claims_verified": 9,
+ "claims": 9,
+ "polished": false,
+ "hero_checked": null
+}

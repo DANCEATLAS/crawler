@@ -1,0 +1,822 @@
+{
+ "slug": "zydeco",
+ "name": "Zydeco",
+ "pack_version": "e1",
+ "built_at": "2026-11-07T17:43:35Z",
+ "researched_at": "2026-11-07T16:05:53Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An experienced Southwest Louisiana Creole social dancer who emphasizes floor connection, relaxed knees, and playing within the syncopated gaps of the music.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Zydeco",
+   "Zarico"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Zydeco",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Down to the Floor: The Louisiana Creole Shuffle",
+     "This is Zydeco. Early 20th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Zydeco · United States · Early 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Zydeco originated in the beginning of the 20th century among the Francophone Creole peoples of south central and southwest Louisiana as a folk dance style linked to heavily syncopated zydeco music."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance serves as a social gathering practice and an avenue for personal improvisation and self-expression within Creole culture.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Bear in the Big Blue House LIVE! ON TOUR: The Crossover V2 (https://archive.org/details/bear-in-the-big-blue-house-live-on-tour-the-crossover-v2_202501)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Zydeco is danced as a partner dance where the follower usually mirrors the leader's steps, though figures allow for self-expression and improvisation.",
+     "Dancers execute small sidewise steps with a relatively steady upper body, keeping the physical feel directed downward into the floor without hip wiggling, swinging, or jumping.",
+     "The eight-beat basic cycle is organized as two mirrored four-beat sections ('SPSS SPSS', meaning step-pause-step-step, or slow-quick-quick).",
+     "Watch for SPSS Basic Step, Eat-a-Beat, Pulse / Butt Drop."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Partner dance in open or closed frame, shuffling in place or rotating together, usually clockwise"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The pulse is 4/4.",
+     "Zydeco music is defined by rapid, lively syncopation that drives continuous footwork. The rhythm delivers a pronounced accent on the second and sixth beats of an eight-beat phrase, pulling dancers down into the beat rather than lifting them upward."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Syncopated 8-beat cycle with strong musical accents on counts 2 and 6"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Zydeco evolved from Creole folk dance roots into a distinctive partner dance characterized by a downward feel opposite to swing or ballroom styles."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Zydeco is sibling of Cajun dance: Shares dance schedules and geographic proximity across southwest Louisiana social venues.",
+     "Zydeco is influence of Swing: Contrasts directly with Zydeco; while swing moves upward with lifts, Zydeco directs energy down into the floor."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Step onto the left foot on count 1 and hold weight through count 2 (slow)",
+     "Shift weight onto the right foot on count 3 (quick)",
+     "Count it: 1-2-3-4.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Step inside Louisiana Creole dance halls to discover Zydeco, a grounded partner dance where syncopated pauses explode into lightning-fast footwork.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the 8-count weight transfers in place",
+   "level": "Foundation",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the 8-count weight transfers in place.",
+      "Level: Foundation. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced Southwest Louisiana Creole social dancer who emphasizes floor connection, relaxed knees, and playing within the syncopated gaps of the music."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Grounded downward orientation into the floor with a relatively steady upper body; no hip swinging, wiggling, or jumping",
+      "Steady upper body without hip wiggling; butt drops or knee flexes occur on accented beats 2 and 6"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4. The meter is 4/4.",
+      "Rhythm pattern: Syncopated 8-beat cycle with strong musical accents on counts 2 and 6.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step onto the left foot on count 1 and hold weight through count 2 (slow)",
+      "Step 2: Shift weight onto the right foot on count 3 (quick)",
+      "Footwork from the sources: Small sidewise steps, in-place shuffles, and weight shifts structured on an 8-beat rhythm (slow on 1-2, quick on 3, quick on 4; slow on 5-6, quick on 7, quick on 8)",
+      "Drill: Count out loud 'slow, quick, quick' (1-2, 3, 4 and 5-6, 7, 8) while transferring weight from left to right"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Shift weight back onto the left foot on count 4 (quick)",
+      "Step 4: Step onto the right foot on count 5 and hold weight through count 6 (slow)",
+      "Drill: Practice the SPSS step-pause-step-step sequence solo without upper body sway"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Maintain a steady, grounded stance with slightly flexed knees"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid vertical bouncing, jumping, excessive upper-body movement, and hip swinging or wiggling"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform weight transfers by tapping alternating feet on the floor: left foot taps and holds on counts 1-2, right foot taps on 3, left foot taps on 4, repeating with right foot lead on counts 5-8. · For children: 'Catch the Beat': Children dance the slow-quick-quick pattern and freeze on counts 2 and 6, or shout 'Eat a Beat!' while kicking or tapping their free foot."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform weight transfers by tapping alternating feet on the floor: left foot taps and holds on counts 1-2, right foot taps on 3, left foot taps on 4, repeating with right foot lead on counts 5-8.",
+      "For children: 'Catch the Beat': Children dance the slow-quick-quick pattern and freeze on counts 2 and 6, or shout 'Eat a Beat!' while kicking or tapping their free foot."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the 8-count weight transfers in place.",
+      "The dance serves as a social gathering practice and an avenue for personal improvisation and self-expression within Creole culture.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Dance the basic pattern with a partner while moving sideways and turning",
+   "level": "Partnering and Travel",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Dance the basic pattern with a partner while moving sideways and turning.",
+      "Level: Partnering and Travel. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced Southwest Louisiana Creole social dancer who emphasizes floor connection, relaxed knees, and playing within the syncopated gaps of the music."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Grounded downward orientation into the floor with a relatively steady upper body; no hip swinging, wiggling, or jumping",
+      "Steady upper body without hip wiggling; butt drops or knee flexes occur on accented beats 2 and 6"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4. The meter is 4/4.",
+      "Rhythm pattern: Syncopated 8-beat cycle with strong musical accents on counts 2 and 6.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Shift weight onto the left foot on count 7 (quick)",
+      "Step 2: Shift weight back onto the right foot on count 8 (quick)",
+      "Drill: Connect in partner frame and execute mirrored SPSS weight transfers together"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "SPSS Basic Step: An eight-count basic pattern of step-pause-step-step mirrored across two four-beat segments",
+      "Eat-a-Beat: Syncopated embellishments executed on beats 2 and 6 using unweighted kicks, heel taps, toe taps, flicks, brushes, or supporting-foot twists",
+      "Drill: Incorporate small lateral steps to shuffle gently sideways across the floor"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Initiate a steady clockwise rotation over two full 8-count cycles"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid vertical bouncing, jumping, excessive upper-body movement, and hip swinging or wiggling"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform weight transfers by tapping alternating feet on the floor: left foot taps and holds on counts 1-2, right foot taps on 3, left foot taps on 4, repeating with right foot lead on counts 5-8. · For children: 'Catch the Beat': Children dance the slow-quick-quick pattern and freeze on counts 2 and 6, or shout 'Eat a Beat!' while kicking or tapping their free foot."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform weight transfers by tapping alternating feet on the floor: left foot taps and holds on counts 1-2, right foot taps on 3, left foot taps on 4, repeating with right foot lead on counts 5-8.",
+      "For children: 'Catch the Beat': Children dance the slow-quick-quick pattern and freeze on counts 2 and 6, or shout 'Eat a Beat!' while kicking or tapping their free foot."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4.",
+      "Full tempo, the whole sequence, twice. Formation: Partner dance in open or closed frame, shuffling in place or rotating together, usually clockwise"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Dance the basic pattern with a partner while moving sideways and turning.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Replace pauses on beats 2 and 6 with dynamic rhythmic footwork",
+   "level": "Eat-a-Beat Syncopation",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Replace pauses on beats 2 and 6 with dynamic rhythmic footwork.",
+      "Level: Eat-a-Beat Syncopation. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced Southwest Louisiana Creole social dancer who emphasizes floor connection, relaxed knees, and playing within the syncopated gaps of the music."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Grounded downward orientation into the floor with a relatively steady upper body; no hip swinging, wiggling, or jumping",
+      "Steady upper body without hip wiggling; butt drops or knee flexes occur on accented beats 2 and 6"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4. The meter is 4/4.",
+      "Rhythm pattern: Syncopated 8-beat cycle with strong musical accents on counts 2 and 6.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Shift weight onto the left foot on count 7 (quick)",
+      "Step 2: Shift weight back onto the right foot on count 8 (quick)",
+      "Drill: Practice dropping weight with a subtle knee bend or butt drop on beats 2 and 6"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Pulse / Butt Drop: Bending the knees or dropping the butt on counts 2 and 6 to accent the musical syncopation downward",
+      "Drill: Execute free-foot heel taps and toe taps on counts 2 and 6 during the slow step"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Add quick brushes, flicks, and twists into partner rotation without breaking frame"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid vertical bouncing, jumping, excessive upper-body movement, and hip swinging or wiggling"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform weight transfers by tapping alternating feet on the floor: left foot taps and holds on counts 1-2, right foot taps on 3, left foot taps on 4, repeating with right foot lead on counts 5-8. · For children: 'Catch the Beat': Children dance the slow-quick-quick pattern and freeze on counts 2 and 6, or shout 'Eat a Beat!' while kicking or tapping their free foot."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform weight transfers by tapping alternating feet on the floor: left foot taps and holds on counts 1-2, right foot taps on 3, left foot taps on 4, repeating with right foot lead on counts 5-8.",
+      "For children: 'Catch the Beat': Children dance the slow-quick-quick pattern and freeze on counts 2 and 6, or shout 'Eat a Beat!' while kicking or tapping their free foot."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4.",
+      "Full tempo, the whole sequence, twice. Formation: Partner dance in open or closed frame, shuffling in place or rotating together, usually clockwise"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Replace pauses on beats 2 and 6 with dynamic rhythmic footwork.",
+      "Zydeco evolved from Creole folk dance roots into a distinctive partner dance characterized by a downward feel opposite to swing or ballroom styles.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "4/4",
+  "rhythm_pattern": "Syncopated 8-beat cycle with strong musical accents on counts 2 and 6",
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "syncopated",
+   "lively",
+   "energetic",
+   "rhythmic"
+  ],
+  "sound_description": "Zydeco music is defined by rapid, lively syncopation that drives continuous footwork. The rhythm delivers a pronounced accent on the second and sixth beats of an eight-beat phrase, pulling dancers down into the beat rather than lifting them upward.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Zydeco (United States). Meter 4/4. Rhythm pattern: Syncopated 8-beat cycle with strong musical accents on counts 2 and 6. Mood: syncopated, lively, energetic, rhythmic. It should sound like this: Zydeco music is defined by rapid, lively syncopation that drives continuous footwork. The rhythm delivers a pronounced accent on the second and sixth beats of an eight-beat phrase, pulling dancers down into the beat rather than lifting them upward. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "Bear in the Big Blue House LIVE! ON TOUR: The Crossover V2",
+    "url": "https://archive.org/details/bear-in-the-big-blue-house-live-on-tour-the-crossover-v2_202501",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "The El Cajon Summer Concert Series Featuring the Bayou Brothers",
+    "url": "https://archive.org/details/TheElCajonSummerConcertSeriesFeaturingTheBayouBrothers_913",
+    "year": null,
+    "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Studio Session - Andre Thierry and Zydeco Magic",
+    "url": "https://archive.org/details/Studio_Session_-_Andre_Thierry_and_Zydeco_Magic",
+    "year": 2012,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "A Cajun Christmas Jay B and the Zydeco Posse)",
+    "url": "https://archive.org/details/A_Cajun_Christmas_Jay_B_and_the_Zydeco_Posse",
+    "year": 2013,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Dust kicking off polished wood floorboards under low-heeled shoes",
+   "Side profiles emphasizing a steady torso while knees flex downward",
+   "Tight overhead frames of paired feet tracing clockwise circles"
+  ],
+  "costume_notes": null,
+  "setting_notes": "The dance serves as a social gathering practice and an avenue for personal improvisation and self-expression within Creole culture.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "4 tutorial(s) of the african-diaspora family studied",
+  "videos_studied": 4,
+  "counting": "1-2-3-4",
+  "demonstration": [
+   "views used by most teachers: back, front, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "left foot",
+   "right foot",
+   "step",
+   "touch",
+   "stomp off",
+   "push",
+   "make sure that you are wearing comfortable shoes",
+   "stand properly",
+   "don't do that",
+   "5-6-7-8-hold",
+   "lets build it up",
+   "now put them together"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "layering",
+   "full_demo"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "the music & instruments section",
+  "the costume & setting section",
+  "notable figures"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Zydeco_(dance)",
+  "https://www.wikidata.org/wiki/Q8075739"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "hero_checked": null
+}

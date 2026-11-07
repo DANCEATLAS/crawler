@@ -1,0 +1,130 @@
+{
+ "slug": "kyrgyzstani-dance",
+ "qc_at": "2026-11-07T17:29:30Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 1.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Kyrgyzstani dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "37"
+  },
+  {
+   "gate": "insight_len",
+   "ok": false,
+   "detail": "37"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "Information not described in sources."
+  },
+  {
+   "gate": "profile_len",
+   "ok": false,
+   "detail": "37"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "37"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Kyrgyzstan"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Central Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "0 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 1,
+  "respect": 1,
+  "specificity": 1,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The profile contains no information and does not describe a dance tradition."
+  ],
+  "harm_or_disrespect": [
+   "The entry is empty and fails to provide any cultural context for Kyrgyzstan."
+  ],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 1,
+  "verdict": "reject",
+  "notes": "The profile is entirely empty and provides no information about a dance tradition. The provided evidence claims relate only to the name 'Dinara' and do not support the existence or description of a 'Kyrgyzstani dance' style."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "insight_len",
+  "insight_concrete",
+  "profile_len",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=1.0",
+  "doubts=1",
+  "harm",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-07T17:21:53Z"
+}

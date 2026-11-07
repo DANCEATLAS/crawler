@@ -1,0 +1,855 @@
+{
+ "slug": "waacking",
+ "name": "Waacking",
+ "pack_version": "e1",
+ "built_at": "2026-11-07T17:43:35Z",
+ "researched_at": "2026-11-07T16:11:11Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A sharp, charismatic street-dance historian and master waacker who insists on dramatic musical intention and historical respect.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Waacking",
+   "Whacking",
+   "Waackin",
+   "Punking",
+   "Wacking"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Waacking",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "When a Slur Became a Symphony of Arms",
+     "This is Waacking. 1970s to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Waacking · United States · 1970s to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Waacking originated in Los Angeles during the early 1970s inside LGBTQ+ nightclubs, created primarily by African American and Latino dancers.",
+     "It began as punking, a name derived from a derogatory slur aimed at gay men, which performers inverted into an expressive, narrative dance style.",
+     "Dancers moved to underground and imported disco music that DJs sped up to produce an intense, energetic atmosphere."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "In its original gay club context, punking and waacking served as an outlet of creative liberation, sensual expression, and self-definition for marginalized queer, Black, and Latino dancers facing social hostility.",
+     "The dance provided a theatrical space to emulate glamorous Hollywood divas and enact personal stories through heightened physicality.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Waacking: Psychedelic Flow! (https://archive.org/details/psychedelic-flow)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The style is executed through rapid, rotational arm sweeps, explosive rhythmic strikes, and theatrical poses coordinated with music.",
+     "Dancers whip their forearms and wrists around and behind the head and across the shoulder line, isolating sharp gestures while maintaining rhythmic syncopation.",
+     "A key technical element is posing, in which dancers freeze into glamorous, heightened diva stances inspired by Hollywood movie figures.",
+     "Watch for The Whack, Posing, Rotational Arm Rolls."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Solo cypher center, moving dynamically within an intimate personal sphere or across a performance stage"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Waacking was founded on 1970s disco and funk, specifically underground and imported disco records that were often sped up on club turntables to increase dance floor energy.",
+     "Over subsequent decades, the dance adapted to 1980s post-disco, electro sounds, and modern music varieties, though disco remains its historical and primary sonic foundation.",
+     "Listen for the Drum kit, Electric bass, Rhythm guitar, String section.",
+     "The pulse is 4/4 at about 127 beats a minute.",
+     "High-octane 1970s disco and post-disco characterized by a relentless four-on-the-floor beat, syncopated basslines, and soaring orchestral strings. The music delivers dramatic brass accents and vocal peaks that cue sharp, sudden arm hits and frozen poses."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Apeshit — The Carters (Beyoncé and Jay-Z)",
+     "Waveform or rhythm-pattern graphic: Driving four-on-the-floor kick with upbeat open hi-hats and accented syncopated brass and string stabs"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Originally performed in dimly lit LGBTQ+ nightclubs of 1970s Los Angeles, waacking was framed by social freedom and theatrical display.",
+     "Dancers drew visual and sartorial inspiration from classic Hollywood screen stars such as Marlene Dietrich, Lauren Bacall, and James Dean, adopting vintage diva attitudes, tailored silhouettes, and stylized garments."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key historical and contemporary figures include Jeffrey Daniel, who added the 'g' to the name; Tyrone Proctor (1953–2020), a pioneering Los Angeles creator and Soul Train dancer; Brian 'Footwork' Green, who initiated the 2003 global revival through workshops; Kumari Suraj, who choreographed a milestone 2011 routine on So You Think You Can Dance; and French waacker Josépha Madoki, who danced in the 2018 'Apeshit' music video by Beyoncé and Jay-Z. Other notable practitioners named in sources include Bruno Marignan, Sandrine Sainte Croix, Lil Kiss, Princess Lockeroo, Mariana Benenge, Mounia Nassangar, Habibitch, Boubou, choreographer Axelle Munezero, and Olympic champions Gabriella Papadakis and Guillaume Cizeron.",
+     "Waacking originated in Los Angeles, California, developing alongside New York City's parallel ballroom voguing culture on the East Coast of the United States.",
+     "Waacking evolved directly out of punking in 1970s Los Angeles gay clubs, absorbing stylistic and physical principles from jazz dance, gymnastics, martial arts, and Hollywood screen performance."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Waacking is sibling of Locking: Developed in Los Angeles clubs during the same early 1970s era, sharing fast arm dynamics but created in funk club culture rather than queer disco spaces.",
+     "Waacking is sibling of Vogue: Developed in parallel during the 1970s within queer ballroom communities on the East Coast of the United States."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Arm Whack: rhythmic strike bringing forearm and hand sharply over the head",
+     "Rotational Overhead Sweep: continuous circular winding of arms around the crown and neck",
+     "Count it: 1-2-3-4-5-6.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Inside the underground queer clubs of 1970s Los Angeles, persecuted dancers took classic Hollywood glamour, accelerated disco, and explosive overhead arm strikes to invent waacking.",
+     "Sources: 5 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic arm roll and overhead whack on half-time counts",
+   "level": "Level 1: Foundations",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic arm roll and overhead whack on half-time counts.",
+      "Level: Level 1: Foundations. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A sharp, charismatic street-dance historian and master waacker who insists on dramatic musical intention and historical respect."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, proud, theatrical spine with an open chest, projecting diva glamour and continuous eye contact",
+      "Rapid rotational arm movements, wrist isolations, and over-the-head whacks coordinated with musical accents",
+      "Sensual, dynamic torso lines with rhythmic rib isolations and fluid hip shifts"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Driving four-on-the-floor kick with upbeat open hi-hats and accented syncopated brass and string stabs.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 88 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Arm Whack: rhythmic strike bringing forearm and hand sharply over the head",
+      "Step 2: Rotational Overhead Sweep: continuous circular winding of arms around the crown and neck",
+      "Footwork from the sources: Rhythmic stepping and weight shifts supporting torso orientation, influenced by jazz and club social steps",
+      "Drill: Single-arm wrist circle over the crown on beats 1 and 3"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Hollywood Diva Pose: sudden frozen stylized silhouette imitating classic film screen actors",
+      "Step 4: Rhythmic Extension: extending arms explosively outward to music accents before returning to overhead rotation",
+      "Drill: Alternating two-arm overhead pass with locked core"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Half-tempo strike and freeze to develop control"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Do not execute arm rolls without shoulder warming; avoid disconnecting arm movement from musical phrasing or facial expression"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair. · For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair.",
+      "For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 127 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic arm roll and overhead whack on half-time counts.",
+      "In its original gay club context, punking and waacking served as an outlet of creative liberation, sensual expression, and self-definition for marginalized queer, Black, and Latino dancers facing social hostility.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Connect arm rotations with rhythmic foot stepping at disco tempo (120 BPM)",
+   "level": "Level 2: Transitions & Speed",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Connect arm rotations with rhythmic foot stepping at disco tempo (120 BPM).",
+      "Level: Level 2: Transitions & Speed. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A sharp, charismatic street-dance historian and master waacker who insists on dramatic musical intention and historical respect."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, proud, theatrical spine with an open chest, projecting diva glamour and continuous eye contact",
+      "Rapid rotational arm movements, wrist isolations, and over-the-head whacks coordinated with musical accents",
+      "Sensual, dynamic torso lines with rhythmic rib isolations and fluid hip shifts"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Driving four-on-the-floor kick with upbeat open hi-hats and accented syncopated brass and string stabs.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 88 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Arm Whack: rhythmic strike bringing forearm and hand sharply over the head",
+      "Step 2: Rotational Overhead Sweep: continuous circular winding of arms around the crown and neck",
+      "Drill: Continuous forward-and-back arm wrapping while stepping side-to-side"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Hollywood Diva Pose: sudden frozen stylized silhouette imitating classic film screen actors",
+      "Step 4: Rhythmic Extension: extending arms explosively outward to music accents before returning to overhead rotation",
+      "The Whack: An explosive movement of the forearm and hand driving up and over the head in strict musical rhythm",
+      "Posing: Dramatic, frozen attitudes channeling vintage Hollywood film stars with stylized hand and head placement",
+      "Drill: Double-time arm rotation into a 1-beat freeze pose"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Directional level changes: drop to lunge while sustaining overhead rolls"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Do not execute arm rolls without shoulder warming; avoid disconnecting arm movement from musical phrasing or facial expression"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair. · For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair.",
+      "For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice. Formation: Solo cypher center, moving dynamically within an intimate personal sphere or across a performance stage"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 127 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Connect arm rotations with rhythmic foot stepping at disco tempo (120 BPM).",
+      "Key historical and contemporary figures include Jeffrey Daniel, who added the 'g' to the name; Tyrone Proctor (1953–2020), a pioneering Los Angeles creator and Soul Train dancer; Brian 'Footwork' Green, who initiated the 2003 global revival through workshops; Kumari Suraj, who choreographed a milestone 2011 routine on So You Think You Can Dance; and French waacker Josépha Madoki, who danced in the 2018 'Apeshit' music video by Beyoncé and Jay-Z. Other notable practitioners named in sources include Bruno Marignan, Sandrine Sainte Croix, Lil Kiss, Princess Lockeroo, Mariana Benenge, Mounia Nassangar, Habibitch, Boubou, choreographer Axelle Munezero, and Olympic champions Gabriella Papadakis and Guillaume Cizeron.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Express theatrical Hollywood drama through spontaneous cypher battles",
+   "level": "Level 3: Narrative & Freestyle",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Express theatrical Hollywood drama through spontaneous cypher battles.",
+      "Level: Level 3: Narrative & Freestyle. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A sharp, charismatic street-dance historian and master waacker who insists on dramatic musical intention and historical respect."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, proud, theatrical spine with an open chest, projecting diva glamour and continuous eye contact",
+      "Rapid rotational arm movements, wrist isolations, and over-the-head whacks coordinated with musical accents",
+      "Sensual, dynamic torso lines with rhythmic rib isolations and fluid hip shifts"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Driving four-on-the-floor kick with upbeat open hi-hats and accented syncopated brass and string stabs.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 88 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Hollywood Diva Pose: sudden frozen stylized silhouette imitating classic film screen actors",
+      "Step 2: Rhythmic Extension: extending arms explosively outward to music accents before returning to overhead rotation",
+      "Drill: 3-pose character sequence interpreting an emotional song lyric"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Rotational Arm Rolls: Continuous circular loops of the forearms around the head, shoulders, and chest without breaking tempo",
+      "Drill: Continuous battle entry: 8-count travel, 8-count rapid whacks, dramatic exit freeze"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Rhythmic syncopation challenge over unexpected disco breaks"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Do not execute arm rolls without shoulder warming; avoid disconnecting arm movement from musical phrasing or facial expression"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair. · For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair.",
+      "For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice. Formation: Solo cypher center, moving dynamically within an intimate personal sphere or across a performance stage"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 127 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Express theatrical Hollywood drama through spontaneous cypher battles.",
+      "Waacking evolved directly out of punking in 1970s Los Angeles gay clubs, absorbing stylistic and physical principles from jazz dance, gymnastics, martial arts, and Hollywood screen performance.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": 127,
+  "meter": "4/4",
+  "rhythm_pattern": "Driving four-on-the-floor kick with upbeat open hi-hats and accented syncopated brass and string stabs",
+  "instruments": [
+   "Drum kit",
+   "Electric bass",
+   "Rhythm guitar",
+   "String section",
+   "Horns",
+   "Synthesizer"
+  ],
+  "vocal_style": "Dramatic, soulful disco vocals and diva hooks, expressive and high-energy",
+  "musical_form": "Verse-chorus structure with extended instrumental dance breaks and dynamic percussion builds",
+  "mood": [
+   "electric",
+   "glamorous",
+   "driving",
+   "theatrical",
+   "euphoric"
+  ],
+  "sound_description": "High-octane 1970s disco and post-disco characterized by a relentless four-on-the-floor beat, syncopated basslines, and soaring orchestral strings. The music delivers dramatic brass accents and vocal peaks that cue sharp, sudden arm hits and frozen poses.",
+  "listen_before_composing": [
+   "Apeshit — The Carters (Beyoncé and Jay-Z)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Waacking (United States). Meter 4/4. Tempo about 127 bpm. Rhythm pattern: Driving four-on-the-floor kick with upbeat open hi-hats and accented syncopated brass and string stabs. Instruments: Drum kit, Electric bass, Rhythm guitar, String section, Horns, Synthesizer. Vocal style: Dramatic, soulful disco vocals and diva hooks, expressive and high-energy. Form: Verse-chorus structure with extended instrumental dance breaks and dynamic percussion builds. Mood: electric, glamorous, driving, theatrical, euphoric. It should sound like this: High-octane 1970s disco and post-disco characterized by a relentless four-on-the-floor beat, syncopated basslines, and soaring orchestral strings. The music delivers dramatic brass accents and vocal peaks that cue sharp, sudden arm hits and frozen poses. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 88
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 127
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Originally performed in dimly lit LGBTQ+ nightclubs of 1970s Los Angeles, waacking was framed by social freedom and theatrical display. Dancers drew visual and sartorial inspiration from classic Hollywood screen stars such as Marlene Dietrich, Lauren Bacall, and James Dean, adopting vintage diva attitudes, tailored silhouettes, and stylized garments. In modern practice, waacking appears in international dance battles, television studios, university theatre departments, music videos, and competitive ice rinks, where performers continue to wear expressive, high-fashion, and dramatic attire.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "Waacking: Psychedelic Flow!",
+    "url": "https://archive.org/details/psychedelic-flow",
+    "year": 2020,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Waacking: Flute Cover!",
+    "url": "https://archive.org/details/flute-cover",
+    "year": 2020,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Rockwell - 'Somebody's Watching Me' | Waacking Freestyle (Berfu)",
+    "url": "https://archive.org/details/rockwell-somebodys-watching-me-waacking-freestyle-berfu",
+    "year": 2020,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "WAACKING: PINK PARADE | ICONIC EDITION - The Royal Family Waacking Virtual Experience!",
+    "url": "https://archive.org/details/pink-parade-iconic-edition-the-royal-family-virtual-experience",
+    "year": 2021,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Elahood Waacking - ¡Danza!",
+    "url": "https://archive.org/details/elahood-waacking",
+    "year": 2019,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Lên sàn | Jack đen | Phong cách tự do Waacking Vogue | Kẹp 02 | 2010",
+    "url": "https://archive.org/details/get-on-the-floor-black-jack-freestyle-waacking-vogue-clip-02-2010",
+    "year": 2010,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Aversión al agua | Garay | Whacking.",
+    "url": "https://archive.org/details/aversion-al-agua-garay-whacking",
+    "year": 2021,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Spun disco balls reflecting fractured light across spinning forearms",
+   "Vintage black-and-white Hollywood movie stills intercut with modern club cyphers",
+   "Slow-motion captures of wrists wrapping around the crown of the head"
+  ],
+  "costume_notes": "Originally performed in dimly lit LGBTQ+ nightclubs of 1970s Los Angeles, waacking was framed by social freedom and theatrical display. Dancers drew visual and sartorial inspiration from classic Hollywood screen stars such as Marlene Dietrich, Lauren Bacall, and James Dean, adopting vintage diva attitudes, tailored silhouettes, and stylized garments. In modern practice, waacking appears in international dance battles, television studios, university theatre departments, music videos, and competitive ice rinks, where performers continue to wear expressive, high-fashion, and dramatic attire.",
+  "setting_notes": "In its original gay club context, punking and waacking served as an outlet of creative liberation, sensual expression, and self-definition for marginalized queer, Black, and Latino dancers facing social hostility. The dance provided a theatrical space to emulate glamorous Hollywood divas and enact personal stories through heightened physicality. Today, waacking is performed at competitive street dance battles, theatre showcases, university dance curricula, pop concerts, and global sports ceremonies, retaining its ethos of unapologetic self-expression and dramatic presence.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "5 tutorial(s) of the street-urban family studied",
+  "videos_studied": 5,
+  "counting": "1-2-3-4-5-6",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 2"
+  ],
+  "cues": [
+   "punch to the side",
+   "pull your head down",
+   "pivot them on your elbows",
+   "up and down",
+   "sit in your hip",
+   "flex your muscles",
+   "lift your foot",
+   "then kick your leg",
+   "stay smooth",
+   "get a feeling for it",
+   "then get faster",
+   "make sure you really bend those knees"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "breakdown",
+   "music_practice",
+   "context",
+   "layering"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Waacking",
+  "https://www.wikidata.org/wiki/Q2600651",
+  "https://fr.wikipedia.org/wiki/Waacking",
+  "https://pt.wikipedia.org/wiki/Whacking",
+  "https://de.wikipedia.org/wiki/Waacking"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "hero_checked": null
+}

@@ -1,42 +1,42 @@
 {
- "updated_at": "2026-11-06T16:50:05Z",
- "qc_records_considered": 323,
+ "updated_at": "2026-11-07T15:43:56Z",
+ "qc_records_considered": 361,
  "gate_failures": [
   [
    "sections_filled",
-   63
+   71
   ],
   [
    "citations",
-   58
+   61
   ],
   [
    "insight_concrete",
-   58
+   59
   ],
   [
    "country",
-   41
+   44
   ],
   [
    "profile_long_len",
-   41
-  ],
-  [
-   "sacred_handled",
-   35
+   43
   ],
   [
    "banned_phrasing",
-   34
+   40
+  ],
+  [
+   "sacred_handled",
+   36
   ],
   [
    "not_duplicate",
-   7
+   10
   ],
   [
    "region",
-   5
+   6
   ],
   [
    "sources",
@@ -46,49 +46,49 @@
  "reasons": [
   [
    "sacred",
-   118
+   135
   ],
   [
    "not_a_dance",
-   76
+   86
   ],
   [
    "sections_filled",
-   63
+   71
   ],
   [
    "citations",
-   58
+   61
   ],
   [
    "insight_concrete",
-   58
+   59
   ],
   [
    "country",
-   41
+   44
   ],
   [
    "profile_long_len",
-   41
-  ],
-  [
-   "sacred_handled",
-   35
+   43
   ],
   [
    "banned_phrasing",
-   34
+   40
+  ],
+  [
+   "sacred_handled",
+   36
   ],
   [
    "doubts=1",
-   29
+   32
   ]
  ],
  "judge_notes": [
   [
    "judge notes mention 'thin'",
-   11
+   13
   ],
   [
    "judge notes mention 'missing'",
@@ -115,105 +115,105 @@
    1
   ],
   [
+   "doubt: Medieval dance is treated as a single unified entity rather than a broad historical era spanning diverse cultures and ce",
+   1
+  ],
+  [
    "doubt: The claim that Sekete embodies 'indji-winti' (mischievous spirits) is not supported by the provided evidence claims.",
    1
   ],
   [
    "doubt: The claim that Sekete was performed with permission from plantation owners during the colonial period is not supported b",
    1
-  ],
-  [
-   "doubt: It is listed among the country's cultural dance forms alongside others such as Ardah and Fann at-Tanbura.",
-   1
   ]
  ],
  "episode_gaps_top": [
   [
    "tempo (bpm)",
-   136
+   159
   ],
   [
    "licensed images (3 needed)",
-   112
+   131
   ],
   [
    "licensed reference footage",
-   104
+   118
   ],
   [
    "a verified recording to listen to",
-   97
+   113
   ],
   [
    "meter",
-   96
-  ],
-  [
-   "two or more connections",
-   74
+   112
   ],
   [
    "a hero video",
-   70
+   88
+  ],
+  [
+   "two or more connections",
+   87
   ],
   [
    "what to avoid / common mistakes",
-   69
+   85
   ],
   [
    "instruments",
-   60
+   66
   ],
   [
    "the hero video's vision check",
-   55
+   56
   ],
   [
    "signature moves",
-   50
+   55
   ],
   [
    "posture, arms and hands",
-   41
+   51
   ]
  ],
  "avoid": [
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (63 pages in 30 days)",
-  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (58 pages in 30 days)",
-  "the insight line was vague — put a person, a place, a year or a number in it (58 pages in 30 days)",
-  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (41 pages in 30 days)",
-  "a sacred dance had no sacred_note — add one (35 pages in 30 days)"
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (71 pages in 30 days)",
+  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (61 pages in 30 days)",
+  "the insight line was vague — put a person, a place, a year or a number in it (59 pages in 30 days)",
+  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (43 pages in 30 days)",
+  "banned phrasing slipped in — no hype, no 'the sources say', no AI talk (40 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "tempo (bpm)",
-   "pages": 136,
+   "pages": 159,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
    "gap": "licensed images (3 needed)",
-   "pages": 112,
+   "pages": 131,
    "what_helps": "a Wikimedia Commons category or file link in an editor note"
   },
   {
    "gap": "licensed reference footage",
-   "pages": 104,
+   "pages": 118,
    "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
   },
   {
    "gap": "a verified recording to listen to",
-   "pages": 97,
+   "pages": 113,
    "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
   },
   {
    "gap": "meter",
-   "pages": 96,
+   "pages": 112,
    "what_helps": "a source that states the time signature"
   },
   {
-   "gap": "two or more connections",
-   "pages": 74,
-   "what_helps": "sources that relate the dance to its relatives"
+   "gap": "a hero video",
+   "pages": 88,
+   "what_helps": "the crawler found no usable video — a different search phrase or a channel to trust, via an editor note"
   }
  ]
 }

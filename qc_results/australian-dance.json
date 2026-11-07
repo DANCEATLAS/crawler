@@ -1,0 +1,124 @@
+{
+ "slug": "australian-dance",
+ "qc_at": "2026-11-07T17:29:18Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 7.4,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Australian dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "79"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "162"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1928, a marathon dancer named Don Young danced for 14.5 miles from Hurstville"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "512"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2869"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Australia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Oceania"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "codified,tapestry"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'god', 'offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 7,
+  "teaching_value": 4,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The profile describes 'Australian dance' as a single tradition, whereas it is a national category containing disparate, unrelated styles."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "verdict": "review",
+  "notes": "The subject is a national category, not a specific dance tradition, which makes the profile inherently broad. While the individual components (Shuffle, New Vogue, etc.) are accurate, they are distinct styles rather than a unified 'Australian dance'. The insight is a specific, verifiable historical anecdote."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "banned_phrasing",
+  "judge_score=7.4",
+  "doubts=1",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-07T17:20:28Z"
+}

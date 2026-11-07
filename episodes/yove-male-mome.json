@@ -1,0 +1,811 @@
+{
+ "slug": "yove-male-mome",
+ "name": "Yove male mome",
+ "pack_version": "e1",
+ "built_at": "2026-11-07T17:43:35Z",
+ "researched_at": "2026-11-07T16:32:47Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An exacting, warm Balkan dance master who makes asymmetric compound meters accessible through clear rhythmic chanting and solid belt-hold alignment.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Yove male mome",
+   "Jove male mome",
+   "Jove malaj mome",
+   "Povela e Yova",
+   "Йове мале моме"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Yove male mome",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The 18-Count Rhythm of Shopluk",
+     "This is Yove male mome. 20th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Yove male mome · Bulgaria · 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Yove male mome, also known as Povela e Yova, originates from the traditional dance Jove from the Shopluk region of Bulgaria.",
+     "In 1966, US folk dance instructor Dennis Boxell introduced its choreography outside of Bulgaria at an event in Stockton, California.",
+     "Following this introduction, the dance became widely popular among international folk dancers across the globe."
+    ],
+    "on_screen": [
+     "Map: Bulgaria · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Traditionally danced to communal folk songs in the Shopluk region, the dance is tied to the lyrical narrative of Yova watering horses—giving clear water to her beloved's horse and murky water to her brother's horse.",
+     "Today, it is widely performed at folk dance clubs, workshops, and recreational Balkan dance gatherings worldwide.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: 1992 Houston International Folk Dancers Bulgarian TX Folklife Festival (https://archive.org/details/1992HoustonInternationalFolkDancersBulgarian)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed as a fast, complicated line dance arranged in a curved line or open circle.",
+     "Dancers link together by holding their neighbours by the belt, or by the hands if belts are not worn.",
+     "Structurally, one common version consists of seven patterns containing four bars each.",
+     "Watch for Belt-hold line travel, Seven-pattern sequence."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Curved line or open circle travelling as an ensemble."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Musical renditions of Yove male mome are played in an 18/16 compound meter (7+11/16), incorporating alternating sub-bars of common chetvorno (7/16) and kopanitsa (11/16) rhythms.",
+     "The melody and accompaniment often feature the traditional Bulgarian gaida (bagpipe).",
+     "Listen for the gaida.",
+     "The pulse is 18/16 (7/16 + 11/16).",
+     "A rapid, driving compound meter combining a 7/16 chetvorno rhythm and an 11/16 kopanitsa rhythm. The acoustic landscape is anchored by the droning reeds and ornamentation of the Bulgarian gaida over an asymmetric pulsing pulse of slow and quick subdivisions."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Povela e Yova — Hristina Boteva",
+     "Waveform or rhythm-pattern graphic: 3+2+2 / 2+2+3+2+2 (SQQ-QQSQQ)"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dance takes place in social and recreational settings in a curved line or open circle.",
+     "In traditional contexts, dancers wear belts, which are essential for the traditional grip where each dancer holds their neighbours by the belt; handholds are used when belts are absent."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "US folk dance instructor Dennis Boxell played a pivotal role in disseminating the dance by introducing its choreography outside Bulgaria in Stockton, California, in 1966.",
+     "Folklorist Manol Todorov documented the song's lyrics in his 1976 work Balgarska narodna muzika, and Bulgarian singer Hristina Boteva is known for performing the song.",
+     "The dance originates from the Shopluk region of Bulgaria under the traditional name Jove.",
+     "Yove male mome derives directly from the regional Shopluk dance Jove."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Yove male mome is parent of Jove: Traditional dance from Shopluk from which Yove male mome originates.",
+     "Yove male mome is influence of Chetvorno: Supplies the 7/16 rhythmic component of the 18/16 compound meter.",
+     "Yove male mome is influence of Kopanitsa: Supplies the 11/16 rhythmic component of the 18/16 compound meter."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Grasp neighbouring dancers firmly by the belt or link hands if belts are not available.",
+     "Stand in an open circle or curved line facing slightly along the line of direction.",
+     "Count it: 5-6-7-8.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a complex Bulgarian village dance driven by an 18/16 meter travelled from the Shopluk region to dance halls around the world.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Internalise the 18/16 compound meter rhythmically",
+   "level": "Level 1: Meter and Rhythm",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Internalise the 18/16 compound meter rhythmically.",
+      "Level: Level 1: Meter and Rhythm. Difficulty of the dance overall: advanced.",
+      "Your instructor: An exacting, warm Balkan dance master who makes asymmetric compound meters accessible through clear rhythmic chanting and solid belt-hold alignment."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Neighbouring dancers hold each other by the belt, or hold hands if belts are not available."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 18/16 (7/16 + 11/16).",
+      "Rhythm pattern: 3+2+2 / 2+2+3+2+2 (SQQ-QQSQQ).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Grasp neighbouring dancers firmly by the belt or link hands if belts are not available.",
+      "Step 2: Stand in an open circle or curved line facing slightly along the line of direction.",
+      "Footwork from the sources: Complicated fast footwork moving along a curved line or open circle, organized into seven patterns of four bars each matching 3-2-2, 2-2-3-2-2 counts.",
+      "Drill: Clap the 7/16 subdivision using slow-quick-quick (3-2-2)."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute the 7/16 sub-bar with a slow step on count 1 (three pulses) followed by two quick steps on counts 2 and 3 (two pulses each).",
+      "Step 4: Execute the 11/16 sub-bar with two quick steps on counts 1 and 2 (two pulses each), one slow step on count 3 (three pulses), and two quick steps on counts 4 and 5 (two pulses each).",
+      "Drill: Clap the 11/16 subdivision using quick-quick-slow-quick-quick (2-2-3-2-2)."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Speak and vocalise the full phrase SQQ-QQSQQ continuously."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Breaking the belt hold or losing the asymmetric SQQ-QQSQQ rhythmic cadence."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the 3-2-2, 2-2-3-2-2 meter by tapping alternating feet on the floor while seated securely in a sturdy chair, holding hands with neighbours to maintain communal connection. · For children: Follow the Horse Leader: dancers hold hands in a snake line pretending to lead horses to water as in the folk song lyrics, matching foot stamps to the slow and quick counts."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 3-2-2, 2-2-3-2-2 meter by tapping alternating feet on the floor while seated securely in a sturdy chair, holding hands with neighbours to maintain communal connection.",
+      "For children: Follow the Horse Leader: dancers hold hands in a snake line pretending to lead horses to water as in the folk song lyrics, matching foot stamps to the slow and quick counts."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Internalise the 18/16 compound meter rhythmically.",
+      "Traditionally danced to communal folk songs in the Shopluk region, the dance is tied to the lyrical narrative of Yova watering horses—giving clear water to her beloved's horse and murky water to her brother's horse.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Coordinate stepping with neighbours using belt or hand hold",
+   "level": "Level 2: The Belt Hold and Step Mechanics",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Coordinate stepping with neighbours using belt or hand hold.",
+      "Level: Level 2: The Belt Hold and Step Mechanics. Difficulty of the dance overall: advanced.",
+      "Your instructor: An exacting, warm Balkan dance master who makes asymmetric compound meters accessible through clear rhythmic chanting and solid belt-hold alignment."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Neighbouring dancers hold each other by the belt, or hold hands if belts are not available."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 18/16 (7/16 + 11/16).",
+      "Rhythm pattern: 3+2+2 / 2+2+3+2+2 (SQQ-QQSQQ).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Progress through the seven choreographic patterns of four bars each while maintaining the line curvature.",
+      "Drill: Adopt the belt hold in an open line with neutral weight."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Belt-hold line travel: Fast collective progression through a curved line with dancers holding adjacent belts.",
+      "Seven-pattern sequence: A choreographic structure consisting of seven distinct movement patterns of four bars each.",
+      "Drill: Step in place matching foot strikes to the SQQ-QQSQQ pattern."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Travel slowly in line of direction along a curved pathway."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Breaking the belt hold or losing the asymmetric SQQ-QQSQQ rhythmic cadence."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the 3-2-2, 2-2-3-2-2 meter by tapping alternating feet on the floor while seated securely in a sturdy chair, holding hands with neighbours to maintain communal connection. · For children: Follow the Horse Leader: dancers hold hands in a snake line pretending to lead horses to water as in the folk song lyrics, matching foot stamps to the slow and quick counts."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 3-2-2, 2-2-3-2-2 meter by tapping alternating feet on the floor while seated securely in a sturdy chair, holding hands with neighbours to maintain communal connection.",
+      "For children: Follow the Horse Leader: dancers hold hands in a snake line pretending to lead horses to water as in the folk song lyrics, matching foot stamps to the slow and quick counts."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Curved line or open circle travelling as an ensemble."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Coordinate stepping with neighbours using belt or hand hold.",
+      "US folk dance instructor Dennis Boxell played a pivotal role in disseminating the dance by introducing its choreography outside Bulgaria in Stockton, California, in 1966.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute the dance at full speed through all variations",
+   "level": "Level 3: Full Seven-Pattern Sequence",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute the dance at full speed through all variations.",
+      "Level: Level 3: Full Seven-Pattern Sequence. Difficulty of the dance overall: advanced.",
+      "Your instructor: An exacting, warm Balkan dance master who makes asymmetric compound meters accessible through clear rhythmic chanting and solid belt-hold alignment."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Neighbouring dancers hold each other by the belt, or hold hands if belts are not available."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is 18/16 (7/16 + 11/16).",
+      "Rhythm pattern: 3+2+2 / 2+2+3+2+2 (SQQ-QQSQQ).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Execute the 11/16 sub-bar with two quick steps on counts 1 and 2 (two pulses each), one slow step on count 3 (three pulses), and two quick steps on counts 4 and 5 (two pulses each).",
+      "Step 2: Progress through the seven choreographic patterns of four bars each while maintaining the line curvature.",
+      "Drill: Rehearse pattern one and two transitions across four-bar cycles."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Belt-hold line travel: Fast collective progression through a curved line with dancers holding adjacent belts.",
+      "Seven-pattern sequence: A choreographic structure consisting of seven distinct movement patterns of four bars each.",
+      "Drill: Build endurance through patterns three to five maintaining line shape."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Perform all seven patterns continuously to live or recorded gaida music."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Breaking the belt hold or losing the asymmetric SQQ-QQSQQ rhythmic cadence."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the 3-2-2, 2-2-3-2-2 meter by tapping alternating feet on the floor while seated securely in a sturdy chair, holding hands with neighbours to maintain communal connection. · For children: Follow the Horse Leader: dancers hold hands in a snake line pretending to lead horses to water as in the folk song lyrics, matching foot stamps to the slow and quick counts."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 3-2-2, 2-2-3-2-2 meter by tapping alternating feet on the floor while seated securely in a sturdy chair, holding hands with neighbours to maintain communal connection.",
+      "For children: Follow the Horse Leader: dancers hold hands in a snake line pretending to lead horses to water as in the folk song lyrics, matching foot stamps to the slow and quick counts."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Curved line or open circle travelling as an ensemble."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the dance at full speed through all variations.",
+      "Yove male mome derives directly from the regional Shopluk dance Jove.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "18/16 (7/16 + 11/16)",
+  "rhythm_pattern": "3+2+2 / 2+2+3+2+2 (SQQ-QQSQQ)",
+  "instruments": [
+   "gaida"
+  ],
+  "vocal_style": "Bulgarian traditional folk song singing",
+  "musical_form": "Alternating sub-bars of chetvorno and kopanitsa rhythm patterns",
+  "mood": [
+   "driving",
+   "energetic",
+   "asymmetric",
+   "fast",
+   "rhythmic"
+  ],
+  "sound_description": "A rapid, driving compound meter combining a 7/16 chetvorno rhythm and an 11/16 kopanitsa rhythm. The acoustic landscape is anchored by the droning reeds and ornamentation of the Bulgarian gaida over an asymmetric pulsing pulse of slow and quick subdivisions.",
+  "listen_before_composing": [
+   "Povela e Yova — Hristina Boteva"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Yove male mome (Bulgaria). Meter 18/16 (7/16 + 11/16). Rhythm pattern: 3+2+2 / 2+2+3+2+2 (SQQ-QQSQQ). Instruments: gaida. Vocal style: Bulgarian traditional folk song singing. Form: Alternating sub-bars of chetvorno and kopanitsa rhythm patterns. Mood: driving, energetic, asymmetric, fast, rhythmic. It should sound like this: A rapid, driving compound meter combining a 7/16 chetvorno rhythm and an 11/16 kopanitsa rhythm. The acoustic landscape is anchored by the droning reeds and ornamentation of the Bulgarian gaida over an asymmetric pulsing pulse of slow and quick subdivisions. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "The dance takes place in social and recreational settings in a curved line or open circle. In traditional contexts, dancers wear belts, which are essential for the traditional grip where each dancer holds their neighbours by the belt; handholds are used when belts are absent.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "1992 Houston International Folk Dancers Bulgarian TX Folklife Festival",
+    "url": "https://archive.org/details/1992HoustonInternationalFolkDancersBulgarian",
+    "year": null,
+    "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Close-up of fingers gripping woven traditional belts",
+   "Serpentine curve of the open circle viewed from above",
+   "The vibrating chanter and drone of the gaida bagpipe"
+  ],
+  "costume_notes": "The dance takes place in social and recreational settings in a curved line or open circle. In traditional contexts, dancers wear belts, which are essential for the traditional grip where each dancer holds their neighbours by the belt; handholds are used when belts are absent.",
+  "setting_notes": "Traditionally danced to communal folk songs in the Shopluk region, the dance is tied to the lyrical narrative of Yova watering horses—giving clear water to her beloved's horse and murky water to her brother's horse. Today, it is widely performed at folk dance clubs, workshops, and recreational Balkan dance gatherings worldwide.",
+  "map": {
+   "country": "Bulgaria",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "8 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 8,
+  "counting": "5-6-7-8",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "keep those abs pulled in",
+   "engage all the muscles",
+   "keep those shoulders down",
+   "control control",
+   "tuck your elbows into your sides"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "music_practice",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Yove_male_mome",
+  "https://www.wikidata.org/wiki/Q8059399"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "hero_checked": null
+}

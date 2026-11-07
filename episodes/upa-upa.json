@@ -1,0 +1,815 @@
+{
+ "slug": "upa-upa",
+ "name": "'upa'upa",
+ "pack_version": "e1",
+ "built_at": "2026-11-07T17:43:35Z",
+ "researched_at": "2026-11-07T15:45:14Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An authoritative Polynesian cultural historian and dance master who emphasizes precise pelvic mechanics and proud cultural endurance.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "'upa'upa",
+   "upa upa",
+   "upa-upa",
+   "upaupa"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet 'upa'upa",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Dance That Defied the Crown and the Cloth",
+     "This is 'upa'upa. Pre-colonial to 19th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: 'upa'upa · French Polynesia · Pre-colonial to 19th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The 'upa'upa originated in Tahiti, where the term broadly designated dance in Tahitian dictionaries.",
+     "Early accounts closely link it to the Arioi, a wandering brotherhood devoted to the sacred pig deities Orotetefa and Urutetefa who traveled between islands staging pantomimes, songs, and dances.",
+     "Following the 1797 arrival of London Missionary Society missionaries, the dance was condemned, and the Pōmare Code of 1819 formally banned it as immoral."
+    ],
+    "on_screen": [
+     "Map: French Polynesia · Oceania",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance was performed during Arioi touring spectacles, public celebrations, and major social rites such as weddings, where festivities commenced on the eve of the nuptials and extended across multiple days and nights.",
+     "Beyond theatrical entertainment representing mythological and romantic narratives, the dance functioned as a communal expression of joy and celebration.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Performances typically feature groups of paired boys and girls executing movements described in historical accounts as sexually oriented or passionate mime.",
+     "The dance was traditionally directed by a leader or game master.",
+     "It begins on a slow, measured cadence accompanied by distinct gestures, gradually accelerating and amplifying in volume and tempo toward a state of high excitement.",
+     "Watch for Whirling of the reins, Partner embrace."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Coupled pairs of boys and girls interacting in close proximity within an open communal space or garden."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music for the 'upa'upa relies primarily on human voice, flutes, and drums (tam-tam).",
+     "Accounts describe the instrumental accompaniment as a driving, rhythmic accompaniment of flute and drum, which supported vocal chants led by a performance master over many continuous hours.",
+     "Listen for the flute, drums, voice.",
+     "A repetitive, hypnotic acoustic texture driven by wooden or skin drums and melodic flute lines, overlaid with rhythmic leader-led chanting that shifts from restrained phrasing into urgent, percussive vocalizations."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Historic Arioi presentations were recorded as occurring with naked performers and onlookers.",
+     "In 1872, Pierre Loti recorded dancers performing barefoot in royal palace gardens wearing festive gowns and flower crowns.",
+     "By 1900, dancers incorporated traditional materials into garments resembling ponchos or mother Hubbard dresses."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key historical figures include Queen Pōmare IV, who enacted legal bans in 1842; missionary William Ellis, who documented Arioi spectacles in 1829; writer Pierre Loti, who witnessed garden performances in 1872; Antoine Mathivet (Monchoisy), who published detailed movement descriptions in 1888; and Madeleine Mou'a, who founded the troupe Heiva in 1956 under the patronage of Princesses Teri'i and Takau.",
+     "The dance flourished in Tahiti and extended across the Society Islands, including the Leeward Islands, which mirrored Tahiti's legal restrictions.",
+     "The 'upa'upa is the historical predecessor of the modern Tahitian tāmūrē and directly informed the repertoire revived by Madeleine Mou'a in the mid-twentieth century."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "'upa'upa is child of tāmūrē: 'Upa'upa is recognized as the direct ancestor of modern tāmūrē.",
+     "'upa'upa is sibling of hula: Related Polynesian traditional dance form sharing narrative gesturing and rhythmic hip movement."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand barefoot with knees softly bent and weight grounded.",
+     "Isolate the pelvis and thighs to initiate a rapid, whirling rotation of the knees, thighs, and lower back.",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Banned by missionaries and criminalized by codes, the sensual 'upa'upa survived in Tahiti's shadows before blossoming into modern Polynesian dance.",
+     "Sources: 3 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Establish the barefoot posture and knee elasticity needed for Tahitian movement.",
+   "level": "Level 1: Grounding and Stance",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Establish the barefoot posture and knee elasticity needed for Tahitian movement..",
+      "Level: Level 1: Grounding and Stance. Difficulty of the dance overall: advanced.",
+      "Your instructor: An authoritative Polynesian cultural historian and dance master who emphasizes precise pelvic mechanics and proud cultural endurance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Grounded, upright posture danced barefoot with softened knees to facilitate rapid lower-body oscillation.",
+      "Gestures conveying pantomime and dramatic narrative, supporting the rhythmic movement of the body.",
+      "Rapid, whirling movements of the thighs, knees, and loins/reins, accompanied by continuous shaking of the torso and whole body."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand barefoot with knees softly bent and weight grounded.",
+      "Step 2: Isolate the pelvis and thighs to initiate a rapid, whirling rotation of the knees, thighs, and lower back.",
+      "Footwork from the sources: Barefoot weight shifts maintaining grounded connection to the earth while supporting rapid knee and thigh movements.",
+      "Drill: Barefoot parallel stance with deep knee bend and pelvic alignment."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Coordinate full-body shaking while maintaining grounded contact through the feet.",
+      "Step 4: Pair with a partner facing closely, syncing hip and thigh rotations in time with drum cadences.",
+      "Drill: Slow rhythmic weight transfers from foot to foot."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Controlled pelvic tilting without moving the upper torso."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiff knees or isolated upper-body tension that disrupts the natural rotational mechanics of the pelvis."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform hip oscillations and upper-body expressive gestures while seated firmly on a sturdy armless chair with feet flat on the floor. · For children: Play a game where children dance slowly like gentle ocean waves and speed up their knee bounces when the drum beats faster, freezing in place on command."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform hip oscillations and upper-body expressive gestures while seated firmly on a sturdy armless chair with feet flat on the floor.",
+      "For children: Play a game where children dance slowly like gentle ocean waves and speed up their knee bounces when the drum beats faster, freezing in place on command."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Establish the barefoot posture and knee elasticity needed for Tahitian movement..",
+      "The dance was performed during Arioi touring spectacles, public celebrations, and major social rites such as weddings, where festivities commenced on the eve of the nuptials and extended across multiple days and nights.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Build continuous circular movement in the thighs and lower back.",
+   "level": "Level 2: Rotational Dynamics",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Build continuous circular movement in the thighs and lower back..",
+      "Level: Level 2: Rotational Dynamics. Difficulty of the dance overall: advanced.",
+      "Your instructor: An authoritative Polynesian cultural historian and dance master who emphasizes precise pelvic mechanics and proud cultural endurance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Grounded, upright posture danced barefoot with softened knees to facilitate rapid lower-body oscillation.",
+      "Gestures conveying pantomime and dramatic narrative, supporting the rhythmic movement of the body.",
+      "Rapid, whirling movements of the thighs, knees, and loins/reins, accompanied by continuous shaking of the torso and whole body."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand barefoot with knees softly bent and weight grounded.",
+      "Step 2: Isolate the pelvis and thighs to initiate a rapid, whirling rotation of the knees, thighs, and lower back.",
+      "Drill: Slow circular rotations of the hips and knees on a steady beat."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Coordinate full-body shaking while maintaining grounded contact through the feet.",
+      "Step 4: Pair with a partner facing closely, syncing hip and thigh rotations in time with drum cadences.",
+      "Whirling of the reins: Rapid circular and vibrating movements of the pelvis, thighs, and knees.",
+      "Partner embrace: Culminating dramatic hold between paired male and female dancers.",
+      "Drill: Speed increments matching flute-and-drum cadences."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Sustained full-body shaking drills maintaining balance."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiff knees or isolated upper-body tension that disrupts the natural rotational mechanics of the pelvis."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform hip oscillations and upper-body expressive gestures while seated firmly on a sturdy armless chair with feet flat on the floor. · For children: Play a game where children dance slowly like gentle ocean waves and speed up their knee bounces when the drum beats faster, freezing in place on command."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform hip oscillations and upper-body expressive gestures while seated firmly on a sturdy armless chair with feet flat on the floor.",
+      "For children: Play a game where children dance slowly like gentle ocean waves and speed up their knee bounces when the drum beats faster, freezing in place on command."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Coupled pairs of boys and girls interacting in close proximity within an open communal space or garden."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Build continuous circular movement in the thighs and lower back..",
+      "Key historical figures include Queen Pōmare IV, who enacted legal bans in 1842; missionary William Ellis, who documented Arioi spectacles in 1829; writer Pierre Loti, who witnessed garden performances in 1872; Antoine Mathivet (Monchoisy), who published detailed movement descriptions in 1888; and Madeleine Mou'a, who founded the troupe Heiva in 1956 under the patronage of Princesses Teri'i and Takau.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Integrate coupled miming and dynamic acceleration.",
+   "level": "Level 3: Partner Coordination",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Integrate coupled miming and dynamic acceleration..",
+      "Level: Level 3: Partner Coordination. Difficulty of the dance overall: advanced.",
+      "Your instructor: An authoritative Polynesian cultural historian and dance master who emphasizes precise pelvic mechanics and proud cultural endurance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Grounded, upright posture danced barefoot with softened knees to facilitate rapid lower-body oscillation.",
+      "Gestures conveying pantomime and dramatic narrative, supporting the rhythmic movement of the body.",
+      "Rapid, whirling movements of the thighs, knees, and loins/reins, accompanied by continuous shaking of the torso and whole body."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Coordinate full-body shaking while maintaining grounded contact through the feet.",
+      "Step 2: Pair with a partner facing closely, syncing hip and thigh rotations in time with drum cadences.",
+      "Drill: Facing partner drills maintaining eye contact and synchronized hip rotations."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Whirling of the reins: Rapid circular and vibrating movements of the pelvis, thighs, and knees.",
+      "Partner embrace: Culminating dramatic hold between paired male and female dancers.",
+      "Drill: Accelerando runs building tempo from slow cadence to peak speed."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Staged pantomimic gestures resolving into final paired holds."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiff knees or isolated upper-body tension that disrupts the natural rotational mechanics of the pelvis."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform hip oscillations and upper-body expressive gestures while seated firmly on a sturdy armless chair with feet flat on the floor. · For children: Play a game where children dance slowly like gentle ocean waves and speed up their knee bounces when the drum beats faster, freezing in place on command."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform hip oscillations and upper-body expressive gestures while seated firmly on a sturdy armless chair with feet flat on the floor.",
+      "For children: Play a game where children dance slowly like gentle ocean waves and speed up their knee bounces when the drum beats faster, freezing in place on command."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Coupled pairs of boys and girls interacting in close proximity within an open communal space or garden."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate coupled miming and dynamic acceleration..",
+      "The 'upa'upa is the historical predecessor of the modern Tahitian tāmūrē and directly informed the repertoire revived by Madeleine Mou'a in the mid-twentieth century.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "flute",
+   "drums",
+   "voice"
+  ],
+  "vocal_style": "Chanted verse led by a soloist or leader, escalating from measured delivery to heightened vocalizations and inarticulate cries.",
+  "musical_form": "Continuous progressive acceleration from a slow, measured introduction to an intense, sustained climax.",
+  "mood": [
+   "passionate",
+   "frenzied",
+   "rhythmic",
+   "joyous",
+   "ecstatic"
+  ],
+  "sound_description": "A repetitive, hypnotic acoustic texture driven by wooden or skin drums and melodic flute lines, overlaid with rhythmic leader-led chanting that shifts from restrained phrasing into urgent, percussive vocalizations.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of 'upa'upa (French Polynesia). Instruments: flute, drums, voice. Vocal style: Chanted verse led by a soloist or leader, escalating from measured delivery to heightened vocalizations and inarticulate cries.. Form: Continuous progressive acceleration from a slow, measured introduction to an intense, sustained climax.. Mood: passionate, frenzied, rhythmic, joyous, ecstatic. It should sound like this: A repetitive, hypnotic acoustic texture driven by wooden or skin drums and melodic flute lines, overlaid with rhythmic leader-led chanting that shifts from restrained phrasing into urgent, percussive vocalizations. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Historic Arioi presentations were recorded as occurring with naked performers and onlookers. In 1872, Pierre Loti recorded dancers performing barefoot in royal palace gardens wearing festive gowns and flower crowns. By 1900, dancers incorporated traditional materials into garments resembling ponchos or mother Hubbard dresses. Around 1920, raffia strips were integrated, evolving into the characteristic skirt known as the moré, made from hibiscus fibers. Male dancers were subsequently permitted bare torsos.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Bare feet pressing into volcanic soil and dew-covered grass.",
+   "Hibiscus fiber moré skirts swaying in rapid blur.",
+   "Contrast between missionary black robes and lush floral crowns."
+  ],
+  "costume_notes": "Historic Arioi presentations were recorded as occurring with naked performers and onlookers. In 1872, Pierre Loti recorded dancers performing barefoot in royal palace gardens wearing festive gowns and flower crowns. By 1900, dancers incorporated traditional materials into garments resembling ponchos or mother Hubbard dresses. Around 1920, raffia strips were integrated, evolving into the characteristic skirt known as the moré, made from hibiscus fibers. Male dancers were subsequently permitted bare torsos.",
+  "setting_notes": "The dance was performed during Arioi touring spectacles, public celebrations, and major social rites such as weddings, where festivities commenced on the eve of the nuptials and extended across multiple days and nights. Beyond theatrical entertainment representing mythological and romantic narratives, the dance functioned as a communal expression of joy and celebration.",
+  "map": {
+   "country": "French Polynesia",
+   "region": "Oceania",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "28 tutorials across the atlas studied",
+  "videos_studied": 28,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and one and three and five and seven",
+   "keep your feet together",
+   "relax your knees",
+   "side close side",
+   "step and point",
+   "turn turn turn",
+   "replace",
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "bend the knees"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/%27upa%27upa",
+  "https://www.wikidata.org/wiki/Q2804862",
+  "https://fr.wikipedia.org/wiki/'Upa_'upa"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "hero_checked": null
+}

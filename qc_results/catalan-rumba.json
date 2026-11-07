@@ -1,0 +1,124 @@
+{
+ "slug": "catalan-rumba",
+ "qc_at": "2026-11-07T17:28:25Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 9.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Catalan rumba"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "77"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "153"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "At the 1992 Summer Olympics closing ceremony, 13 Catalan rumba songs filled Barc"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "613"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2798"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Spain"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"rhumba\", \"score\": 1.0, \"via_alias\": \"rumba\"}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Extremely well-sourced, historically accurate, and culturally respectful profile of Catalan rumba."
+ },
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "rhumba",
+  "score": 1.0,
+  "via_alias": "rumba"
+ },
+ "is_sacred": true,
+ "reasons": [
+  "not_duplicate",
+  "judge_score=9.7",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-07T15:51:52Z"
+}

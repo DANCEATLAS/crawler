@@ -1,0 +1,124 @@
+{
+ "slug": "sopka",
+ "qc_at": "2026-11-07T17:28:32Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 4.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Šopka"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "41"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "117"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Documented as a distinct subclass of the Macedonian oro, Šopka anchors communal "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "403"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2557"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "2/6 rate=0.333"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "North Macedonia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "tapestry"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ritual']"
+  }
+ ],
+ "judge": {
+  "accuracy": 4,
+  "respect": 9,
+  "specificity": 3,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The profile describes general Macedonian oro characteristics rather than specific details for Šopka, while explicitly stating in multiple sections that specific details for Šopka are not described in sources."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 4,
+  "verdict": "review",
+  "notes": "The profile relies heavily on general Macedonian oro descriptions because specific data for Šopka is absent. While respectful, its low specificity and lack of concrete teaching content mean it needs refinement or better source mapping."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "sources",
+  "sections_filled",
+  "judge_score=4.7",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 2,
+  "rate": 0.333
+ },
+ "researched_at": "2026-11-07T16:28:20Z"
+}

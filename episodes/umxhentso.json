@@ -1,0 +1,373 @@
+{
+ "slug": "umxhentso",
+ "name": "Umxhentso",
+ "pack_version": "e1",
+ "built_at": "2026-11-07T17:43:35Z",
+ "researched_at": "2026-11-07T17:22:50Z",
+ "qc_score": 9.1,
+ "status": "withheld-chapters",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable Xhosa cultural practitioner.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Umxhentso",
+   "Umxhentso"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Umxhentso",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Pulse of the Transkei",
+     "This is Umxhentso. traditional."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (dt6uRc_T8S4)",
+     "Title card: Umxhentso · South Africa · traditional"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Umxhentso originates from the Xhosa people of South Africa, with its roots deeply tied to the Transkei homeland in the Eastern Cape.",
+     "It has historically served as a central component of Xhosa ceremonies and the work of traditional healers."
+    ],
+    "on_screen": [
+     "Map: South Africa · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Umxhentso is performed at weddings (Umdudo), initiation ceremonies for healers (Intlombe), rites of passage for boys (Umguyo), and ritual ceremonies for women (Umngqungqo).",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:AmaXhosa traditional dance.webm (https://upload.wikimedia.org/wikipedia/commons/b/bc/AmaXhosa_traditional_dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance involves barefoot stomping and vigorous upper-body movement.",
+     "A key technique is ukutyityimba, which involves shaking the thoracic region and the upper body.",
+     "It is often accompanied by rhythmic clapping.",
+     "Watch for Ukutyityimba."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (dt6uRc_T8S4)",
+     "Captions name each signature move as it appears"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music includes the Uhadi musical bow, drum beats, and the use of a whistle called an Impempe, made from Ingcongolo reed.",
+     "Vocal accompaniment is provided through the composition and singing of theme songs called ukombela.",
+     "Listen for the Uhadi musical bow, Drum, Impempe (reed whistle).",
+     "The music is characterized by the resonant twang of the Uhadi bow, the steady beat of drums, and the piercing, high-pitched sound of the Ingcongolo reed whistle, all layered under rhythmic clapping and vocal chanting."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Rhythmic pulse provided by clapping and drums."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers wear beaded garments called umbhaco.",
+     "Dancers often paint their bodies prior to performance.",
+     "The dance is primarily performed in the Transkei homeland in the Eastern Cape."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The dance varies by context: Umngqungqo (women's ritual), Umdudo (weddings), Intlombe (healer initiation), and Umguyo (boys' initiation)."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures",
+     "lineage"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Umxhentso is variant of Umngqungqo: A dignified, ancient form of Umxhentso performed by women.",
+     "Umxhentso is variant of Umdudo: A wedding-specific form of Umxhentso involving spinning."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Umxhentso is used in initiation ceremonies and by traditional healers (Amagqirha) for spiritual work; outsiders should respect the ritual nature of these performances."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "An exploration of the sacred and social rhythms of the Xhosa people through the dance of Umxhentso.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Rhythmic pulse provided by clapping and drums.",
+  "instruments": [
+   "Uhadi musical bow",
+   "Drum",
+   "Impempe (reed whistle)"
+  ],
+  "vocal_style": "Ukombela (slow vocal music/theme songs)",
+  "musical_form": null,
+  "mood": [
+   "dignified",
+   "ritual",
+   "rhythmic"
+  ],
+  "sound_description": "The music is characterized by the resonant twang of the Uhadi bow, the steady beat of drums, and the piercing, high-pitched sound of the Ingcongolo reed whistle, all layered under rhythmic clapping and vocal chanting.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Umxhentso (South Africa). Rhythm pattern: Rhythmic pulse provided by clapping and drums.. Instruments: Uhadi musical bow, Drum, Impempe (reed whistle). Vocal style: Ukombela (slow vocal music/theme songs). Mood: dignified, ritual, rhythmic. It should sound like this: The music is characterized by the resonant twang of the Uhadi bow, the steady beat of drums, and the piercing, high-pitched sound of the Ingcongolo reed whistle, all layered under rhythmic clapping and vocal chanting. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "dt6uRc_T8S4",
+   "checked_by_vision_model": false,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performers wear beaded garments called umbhaco. Dancers often paint their bodies prior to performance. The dance is primarily performed in the Transkei homeland in the Eastern Cape.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AAmaggqirha.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Amaggqirha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Amaggqirha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Mabindla / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAmaggqirha.jpg",
+    "description": "Amagqirha are Xhosa traditional women healers\nUmxhentso is their dance."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:AmaXhosa traditional dance.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/AmaXhosa_traditional_dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Sanda Nozizwe Madikane / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "Beaded umbhaco garments",
+   "Bare feet on earth",
+   "The Ingcongolo reed whistle"
+  ],
+  "costume_notes": "Performers wear beaded garments called umbhaco. Dancers often paint their bodies prior to performance. The dance is primarily performed in the Transkei homeland in the Eastern Cape.",
+  "setting_notes": "Umxhentso is performed at weddings (Umdudo), initiation ceremonies for healers (Intlombe), rites of passage for boys (Umguyo), and ritual ceremonies for women (Umngqungqo).",
+  "map": {
+   "country": "South Africa",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "28 tutorials across the atlas studied",
+  "videos_studied": 28,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and one and three and five and seven",
+   "keep your feet together",
+   "relax your knees",
+   "side close side",
+   "step and point",
+   "turn turn turn",
+   "replace",
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "bend the knees"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "notable figures",
+  "lineage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Umxhentso",
+  "https://www.wikidata.org/wiki/Q20982044"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "hero_checked": "fail"
+}

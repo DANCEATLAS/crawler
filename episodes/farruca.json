@@ -1,0 +1,832 @@
+{
+ "slug": "farruca",
+ "name": "Farruca",
+ "pack_version": "e1",
+ "built_at": "2026-11-07T17:43:35Z",
+ "researched_at": "2026-11-07T16:25:50Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An exacting, seasoned flamenco maestro who demands intense rhythmic discipline, absolute physical stillness, and zero unnecessary flourish.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Farruca",
+   "Danse du meunier"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Farruca",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Silence, Strike, Defiance: The Farruca Solo",
+     "This is Farruca. Early 20th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Farruca · Spain · Early 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The farruca developed as a flamenco style in the late nineteenth and early twentieth centuries.",
+     "The word relates to 'farruco', an Andalusian term applied to immigrants from Galicia or Asturias, as well as a familiar nickname for Francisco.",
+     "While lyric references to Galician bagpipes and landscape led many to claim a northern origin, musicologists note this has not been scientifically proven."
+    ],
+    "on_screen": [
+     "Map: Spain · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Farruca carries an austere, dramatic, and sombre character linked symbolically to valor and restraint.",
+     "Unlike communal festive palos, it is primarily a theatrical and concert performance form.",
+     "Its dramatic gravity was spotlighted in major theatrical works, including Manuel de Falla's 1919 ballet El sombrero de tres picos (as the Miller's Dance / Danse du meunier) choreographed by Léonide Massine, and Carlos Saura's film Carmen featuring Antonio Gades.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Men Dancing 10 (https://archive.org/details/csfpal_000160)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The farruca is danced as a dramatic solo characterized by upright posture, sharp footwork (zapateado), held poses, sudden pauses, turns, and abrupt directional changes.",
+     "Performed within an eight-beat compás consisting of two 4/4 bars with accents on 1, 3, 5, and 7, it begins at a moderate, articulated tempo.",
+     "Choreographies proceed from an entrance (salida) into marked compás, llamadas, remates, and extended escobillas.",
+     "Watch for Llamada, Escobilla, Remate."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Solo stage performance utilizing abrupt changes of direction and level."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Farruca music is grounded in binary or quadruple meter (two measures of 4/4) with strong accents on counts 1, 3, 5, and 7.",
+     "The primary accompanying instrument is the flamenco guitar, traditionally played in A minor or E minor, characterized by alternation between E7 and A minor, rasgueados, falsetas, and golpes.",
+     "Listen for the Flamenco guitar, Palmas, Voice.",
+     "The pulse is 4/4 (two measures of 4/4 forming an 8-count compás).",
+     "A serious minor-key flamenco guitar structure driven by alternating E7 and A minor chords. Sharp rasgueados and percussive strikes punctuate sustained melodic falsetas, characterized by dramatic silences that resolve into rapid acoustic footwork."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Toques Flamenco (Farruca) — Paco Peña; Danse du meunier (Farruca from El sombrero de tres picos) — Manuel de Falla; El sombrero de tres picos — Manuel de Falla, Orquesta Filarmónica de Gran Canaria, Pedro Halffter Caro (2007)",
+     "Waveform or rhythm-pattern graphic: [1] 2 [3] 4 [5] 6 [7] 8 with strong accents on odd beats"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dance emerged within theatrical spaces, varieté, and cafés cantantes before transitioning to concert halls and ballet stages.",
+     "Performers wear attire that accentuates vertical line and sharp posture, traditionally consisting of high-waisted trousers, fitted waistcoats, and flamenco boots suitable for virtuosic footwork.",
+     "Historical descriptions document the use of a cape during early male stage performances."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Dancer Faíco (Francisco Mendoza Ríos) and guitarist Ramón Montoya are recognized as the primary architects of the modern dance and guitar structure.",
+     "Dancers El Gato, Antonio de Bilbao, Manolito la Rosa, El Batato, Antonio Gades, El Güito, Mario Maya, and Manolete further codified its stage aesthetic.",
+     "Farruca belongs to the aflamencado group of non-Andalusian folkloric forms along with the garrotín."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Farruca is sibling of Garrotín: Both are early twentieth-century aflamencado palos derived from non-Andalusian folkloric roots and shaped by Faíco.",
+     "Farruca is parent of Tangos: Shares the foundational binary compás structure, though farruca adopts a minor key and dramatic, sober mood.",
+     "Farruca is sibling of Tientos: Shares the measured four-beat rhythmic framework and gravity of expression.",
+     "Farruca is influence of Tanguillo: Shares tempo characteristics and sometimes provides rhythmic material for the farruca's closing stretta."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Marcaje: Stand upright with severe posture, stepping through a controlled four-count pulse marking counts 1, 3, 5, and 7.",
+     "Llamada: Strike a sharp heel-toe combination ending with an abrupt stop to signal musical changes to the guitarist.",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Step inside the austere world of flamenco's most theatrical solo, born in early 1900s music halls from sharp heel strikes and absolute stillness.",
+     "Sources: 7 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Internalize the basic 8-beat compás and upright stance.",
+   "level": "Level 1: The Binary Frame",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Internalize the basic 8-beat compás and upright stance..",
+      "Level: Level 1: The Binary Frame. Difficulty of the dance overall: advanced.",
+      "Your instructor: An exacting, seasoned flamenco maestro who demands intense rhythmic discipline, absolute physical stillness, and zero unnecessary flourish."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, proud, defiant, and severe vertical alignment with contained carriage.",
+      "Contained arm movement and occasional bursts of filigrana ornamental gestures.",
+      "Linear and restrained torso with sharp pauses, held poses, and minimal hip displacement."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 (two measures of 4/4 forming an 8-count compás).",
+      "Rhythm pattern: [1] 2 [3] 4 [5] 6 [7] 8 with strong accents on odd beats.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Marcaje: Stand upright with severe posture, stepping through a controlled four-count pulse marking counts 1, 3, 5, and 7.",
+      "Step 2: Llamada: Strike a sharp heel-toe combination ending with an abrupt stop to signal musical changes to the guitarist.",
+      "Footwork from the sources: Forceful zapateado featuring heel-and-toe strikes, contratiempos, and double-time rhythmic subdivisions across an 8-beat cycle.",
+      "Drill: Stand tall with core engaged and hands resting steady on the hips."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Zapateado Escobilla: Execute heel-and-toe strikes utilizing contratiempos and double-time subdivisions against the slow 8-count pulse.",
+      "Step 4: Giro y Remate: Snap through a sharp spot turn and freeze into a low, held pose on the final closing beat.",
+      "Drill: Step in place on counts 1, 3, 5, and 7 to lock in the primary accents."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Coordinate quiet steps on evens (2, 4, 6, 8) with accented footfalls on odds."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid loose, wavy torso motions or excessive hip swaying, which undermine the palo's strict linear aesthetic."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates. · For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates.",
+      "For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Internalize the basic 8-beat compás and upright stance..",
+      "Farruca carries an austere, dramatic, and sombre character linked symbolically to valor and restraint.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute clean heel drops and abrupt stops without losing balance.",
+   "level": "Level 2: The Llamada and Freeze",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute clean heel drops and abrupt stops without losing balance..",
+      "Level: Level 2: The Llamada and Freeze. Difficulty of the dance overall: advanced.",
+      "Your instructor: An exacting, seasoned flamenco maestro who demands intense rhythmic discipline, absolute physical stillness, and zero unnecessary flourish."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, proud, defiant, and severe vertical alignment with contained carriage.",
+      "Contained arm movement and occasional bursts of filigrana ornamental gestures.",
+      "Linear and restrained torso with sharp pauses, held poses, and minimal hip displacement."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 (two measures of 4/4 forming an 8-count compás).",
+      "Rhythm pattern: [1] 2 [3] 4 [5] 6 [7] 8 with strong accents on odd beats.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Marcaje: Stand upright with severe posture, stepping through a controlled four-count pulse marking counts 1, 3, 5, and 7.",
+      "Step 2: Llamada: Strike a sharp heel-toe combination ending with an abrupt stop to signal musical changes to the guitarist.",
+      "Drill: Practice alternating heel-toe strikes in an even four-count rhythm."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Zapateado Escobilla: Execute heel-and-toe strikes utilizing contratiempos and double-time subdivisions against the slow 8-count pulse.",
+      "Step 4: Giro y Remate: Snap through a sharp spot turn and freeze into a low, held pose on the final closing beat.",
+      "Llamada: A sharp percussive call sequence signalling section changes and musical stops.",
+      "Escobilla: An extended, accelerating rhythmic footwork passage displaying complex zapateado.",
+      "Drill: Execute a four-beat llamada pattern ending with an instantaneous motionless freeze."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Incorporate a sharp head snap over the lead shoulder on count 7."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid loose, wavy torso motions or excessive hip swaying, which undermine the palo's strict linear aesthetic."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates. · For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates.",
+      "For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Solo stage performance utilizing abrupt changes of direction and level."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute clean heel drops and abrupt stops without losing balance..",
+      "Dancer Faíco (Francisco Mendoza Ríos) and guitarist Ramón Montoya are recognized as the primary architects of the modern dance and guitar structure.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Deliver clean double-time footwork while increasing tempo.",
+   "level": "Level 3: The Escobilla Acceleration",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Deliver clean double-time footwork while increasing tempo..",
+      "Level: Level 3: The Escobilla Acceleration. Difficulty of the dance overall: advanced.",
+      "Your instructor: An exacting, seasoned flamenco maestro who demands intense rhythmic discipline, absolute physical stillness, and zero unnecessary flourish."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, proud, defiant, and severe vertical alignment with contained carriage.",
+      "Contained arm movement and occasional bursts of filigrana ornamental gestures.",
+      "Linear and restrained torso with sharp pauses, held poses, and minimal hip displacement."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 (two measures of 4/4 forming an 8-count compás).",
+      "Rhythm pattern: [1] 2 [3] 4 [5] 6 [7] 8 with strong accents on odd beats.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Zapateado Escobilla: Execute heel-and-toe strikes utilizing contratiempos and double-time subdivisions against the slow 8-count pulse.",
+      "Step 2: Giro y Remate: Snap through a sharp spot turn and freeze into a low, held pose on the final closing beat.",
+      "Drill: Subdivide basic beats into continuous eighth notes using clean heel stamps."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Remate: An abrupt, freezing percussive close terminating a movement phrase in sudden stillness.",
+      "Drill: Shift from straight counts to contratiempo heel taps on the offbeats."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Perform a progressive subida accelerating smoothly into a clean cierre."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid loose, wavy torso motions or excessive hip swaying, which undermine the palo's strict linear aesthetic."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates. · For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates.",
+      "For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Solo stage performance utilizing abrupt changes of direction and level."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Deliver clean double-time footwork while increasing tempo..",
+      "Farruca belongs to the aflamencado group of non-Andalusian folkloric forms along with the garrotín.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": "4/4 (two measures of 4/4 forming an 8-count compás)",
+  "rhythm_pattern": "[1] 2 [3] 4 [5] 6 [7] 8 with strong accents on odd beats",
+  "instruments": [
+   "Flamenco guitar",
+   "Palmas",
+   "Voice"
+  ],
+  "vocal_style": "Austere, often descending melodic lines on final vowels, utilizing vocables like 'tran tran tran treiro'",
+  "musical_form": "Falseta introduction, marked compás, llamada, optional sung letra, escobilla with accelerations (subida), and cierre",
+  "mood": [
+   "Austere",
+   "Sombre",
+   "Dramatic",
+   "Defiant",
+   "Controlled"
+  ],
+  "sound_description": "A serious minor-key flamenco guitar structure driven by alternating E7 and A minor chords. Sharp rasgueados and percussive strikes punctuate sustained melodic falsetas, characterized by dramatic silences that resolve into rapid acoustic footwork.",
+  "listen_before_composing": [
+   "Toques Flamenco (Farruca) — Paco Peña",
+   "Danse du meunier (Farruca from El sombrero de tres picos) — Manuel de Falla",
+   "El sombrero de tres picos — Manuel de Falla, Orquesta Filarmónica de Gran Canaria, Pedro Halffter Caro (2007)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Farruca (Spain). Meter 4/4 (two measures of 4/4 forming an 8-count compás). Rhythm pattern: [1] 2 [3] 4 [5] 6 [7] 8 with strong accents on odd beats. Instruments: Flamenco guitar, Palmas, Voice. Vocal style: Austere, often descending melodic lines on final vowels, utilizing vocables like 'tran tran tran treiro'. Form: Falseta introduction, marked compás, llamada, optional sung letra, escobilla with accelerations (subida), and cierre. Mood: Austere, Sombre, Dramatic, Defiant, Controlled. It should sound like this: A serious minor-key flamenco guitar structure driven by alternating E7 and A minor chords. Sharp rasgueados and percussive strikes punctuate sustained melodic falsetas, characterized by dramatic silences that resolve into rapid acoustic footwork. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "The dance emerged within theatrical spaces, varieté, and cafés cantantes before transitioning to concert halls and ballet stages. Performers wear attire that accentuates vertical line and sharp posture, traditionally consisting of high-waisted trousers, fitted waistcoats, and flamenco boots suitable for virtuosic footwork. Historical descriptions document the use of a cape during early male stage performances. Early female dancers frequently performed the dance dressed in male clothing.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "Men Dancing 10",
+    "url": "https://archive.org/details/csfpal_000160",
+    "year": 1991,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Bailes Tipicos Españoles Angelita Y Mª Del Carmen Romero ( 1984) LP Completo",
+    "url": "https://archive.org/details/BailesTipicosEspaolesAngelitaYMDelCarmenRomero1984LPCompleto",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "The Art Of Guitar Flamenco By Pepe Romero Spanish Dance, Zorrongo, Farruca Y Rumba .. ( Ct.rc..)",
+    "url": "https://archive.org/details/the-art-of-guitar-flamenco-by-pepe-romero-spanish-dance-zorrongo-farruca-y-rumba-..-ct.rc..",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "High-contrast chiaroscuro lighting on black tailored trousers and polished flamenco boots.",
+   "Extreme close-up shots of guitar fingers damping strings into total silence.",
+   "Wide silhouettes pausing in stark geometric postures."
+  ],
+  "costume_notes": "The dance emerged within theatrical spaces, varieté, and cafés cantantes before transitioning to concert halls and ballet stages. Performers wear attire that accentuates vertical line and sharp posture, traditionally consisting of high-waisted trousers, fitted waistcoats, and flamenco boots suitable for virtuosic footwork. Historical descriptions document the use of a cape during early male stage performances. Early female dancers frequently performed the dance dressed in male clothing.",
+  "setting_notes": "Farruca carries an austere, dramatic, and sombre character linked symbolically to valor and restraint. Unlike communal festive palos, it is primarily a theatrical and concert performance form. Its dramatic gravity was spotlighted in major theatrical works, including Manuel de Falla's 1919 ballet El sombrero de tres picos (as the Miller's Dance / Danse du meunier) choreographed by Léonide Massine, and Carlos Saura's film Carmen featuring Antonio Gades.",
+  "map": {
+   "country": "Spain",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of the stage-contemporary family studied",
+  "videos_studied": 1,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "demonstration": [
+   "views used by most teachers: front, side",
+   "tempo progression: full"
+  ],
+  "cues": [
+   "knees to chest",
+   "straightening my legs",
+   "bringing my body up",
+   "bend both legs",
+   "opening my left arm",
+   "straightening my left leg",
+   "bringing my top leg down"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "breakdown"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Farruca",
+  "https://www.wikidata.org/wiki/Q2557688",
+  "https://fr.wikipedia.org/wiki/Farruca",
+  "https://de.wikipedia.org/wiki/Farruca",
+  "https://it.wikipedia.org/wiki/Farruca",
+  "https://archive.org/details/elsombrerodetres00fall_0",
+  "https://archive.org/details/31761034898247"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "hero_checked": null
+}

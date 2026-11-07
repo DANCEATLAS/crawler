@@ -1,0 +1,782 @@
+{
+ "slug": "wolosso",
+ "name": "Wolosso",
+ "pack_version": "e1",
+ "built_at": "2026-11-07T17:43:35Z",
+ "researched_at": "2026-11-07T15:46:49Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An energetic West African street dancer focusing on grounded rhythmic timing and anatomical safety during pelvic isolations.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Wolosso"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Wolosso",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Beat That Shook the Street",
+     "This is Wolosso. 2006."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Wolosso · Ivory Coast · 2006"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Wolosso arose in 2006 in Ivory Coast as a popular dance style that rapidly spread throughout West Africa.",
+     "Historically, the style represents a synthesis of traditional African folk dances and Western pop dance culture."
+    ],
+    "on_screen": [
+     "Map: Ivory Coast · Africa",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance functions as a contemporary social dance.",
+     "In predominantly Muslim countries of West Africa, Wolosso has stirred strong public offense due to movements perceived as lascivious.",
+     "Stripped of their original ritual and folk contexts, these bodily articulations are frequently identified with decadent Western culture.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: AFRICA DANCE 5 (2005) – 24 CLIPS | Compilation Africaine – DVD COMPLET (https://archive.org/details/africa-dance-5-complet)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed through isolated circular hip movements.",
+     "Female dancers periodically lower the upper body, placing heavy emphasis on the buttocks.",
+     "The movement operates over an offbeat-accented 4/4 meter, at moderate to fast musical pacing between 40 and 70 bpm.",
+     "Watch for Isolated hip roll, Torso drop accent."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Social dance floor or urban space"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance relies on an offbeat-emphasized 4/4 rhythm that is often layered with polyrhythmic counters typical of African folk traditions.",
+     "The musical tempo is positioned between 40 and 70 bpm.",
+     "The pulse is 4/4 at about 55 beats a minute.",
+     "Characterized by an offbeat-accented 4/4 beat operating at a deliberate tempo between 40 and 70 bpm, overlaid with complex polyrhythmic counters characteristic of African popular and folk music traditions."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Offbeat-accented 4/4 meter overlaid with polyrhythmic counters"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Wolosso belongs to contemporary urban popular culture and secular social dancing.",
+     "Over time, the term broadened to designate revealing, permissive styles of dress and unconventional lifestyles, especially among women."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Wolosso descends from a fusion of historical African folk dances and modern Western popular dance trends."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Wolosso is parent of African folk dances: Wolosso is a synthesis of traditional African folk dances and Western pop culture."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand with knees softly bent to prepare for pelvic isolation",
+     "Engage an offbeat rhythm in 4/4 meter",
+     "Count it: 1-2-3-4-5-6.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Born in 2006 Abidjan, Wolosso turned traditional hip isolations into a regional dance explosion and a lightning rod for cultural debate.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Establish the 4/4 offbeat weight shift and knee flexion",
+   "level": "Level 1: Pulse and Alignment",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Establish the 4/4 offbeat weight shift and knee flexion.",
+      "Level: Level 1: Pulse and Alignment. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic West African street dancer focusing on grounded rhythmic timing and anatomical safety during pelvic isolations."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright stance shifting into a forward-hinged, lowered torso",
+      "Isolated circular hip rotations coupled with lowering of the torso to emphasize the buttocks"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Offbeat-accented 4/4 meter overlaid with polyrhythmic counters.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 38 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand with knees softly bent to prepare for pelvic isolation",
+      "Step 2: Engage an offbeat rhythm in 4/4 meter",
+      "Drill: Count the 4/4 pulse highlighting the offbeats at 55 bpm"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute continuous, isolated circular movements of the hips",
+      "Step 4: Lower the torso forward while maintaining the rolling hip circles to emphasize the buttocks",
+      "Drill: Knee softening and weight transfer drill without pelvic rotation"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Standing stationary hip isolations left and right"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid uncontrolled lower back arching during the torso lowering"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 55 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Establish the 4/4 offbeat weight shift and knee flexion.",
+      "The dance functions as a contemporary social dance.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute continuous circular hip rotation in time",
+   "level": "Level 2: The Pelvic Roll",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute continuous circular hip rotation in time.",
+      "Level: Level 2: The Pelvic Roll. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic West African street dancer focusing on grounded rhythmic timing and anatomical safety during pelvic isolations."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright stance shifting into a forward-hinged, lowered torso",
+      "Isolated circular hip rotations coupled with lowering of the torso to emphasize the buttocks"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Offbeat-accented 4/4 meter overlaid with polyrhythmic counters.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 38 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Return the torso upright while keeping the circular pelvic rhythm uninterrupted",
+      "Drill: Four-point pelvic compass isolation (front, right, back, left)"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Isolated hip roll: Continuous, isolated circular rotations of the pelvis",
+      "Torso drop accent: Lowering the upper body forward while keeping the hip rotations active to accentuate the rear",
+      "Drill: Smoothing the four points into a continuous rolling circle"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Sustaining the roll across eight consecutive 4/4 bars"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid uncontrolled lower back arching during the torso lowering"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice. Formation: Social dance floor or urban space"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 55 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute continuous circular hip rotation in time.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Lower the upper body forward while sustaining the hip rotation",
+   "level": "Level 3: The Torso Drop",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Lower the upper body forward while sustaining the hip rotation.",
+      "Level: Level 3: The Torso Drop. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic West African street dancer focusing on grounded rhythmic timing and anatomical safety during pelvic isolations."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright stance shifting into a forward-hinged, lowered torso",
+      "Isolated circular hip rotations coupled with lowering of the torso to emphasize the buttocks"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Offbeat-accented 4/4 meter overlaid with polyrhythmic counters.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 38 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Lower the torso forward while maintaining the rolling hip circles to emphasize the buttocks",
+      "Step 2: Return the torso upright while keeping the circular pelvic rhythm uninterrupted",
+      "Drill: Hinging the upper body forward 45 degrees with a neutral spine"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Isolated hip roll: Continuous, isolated circular rotations of the pelvis",
+      "Torso drop accent: Lowering the upper body forward while keeping the hip rotations active to accentuate the rear",
+      "Drill: Initiating the hip roll from the hinged torso position"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4-5-6",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Transitioning dynamically between upright and lowered torso during continuous rolls"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid uncontrolled lower back arching during the torso lowering"
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice. Formation: Social dance floor or urban space"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 55 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Lower the upper body forward while sustaining the hip rotation.",
+      "Wolosso descends from a fusion of historical African folk dances and modern Western popular dance trends.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": 55,
+  "meter": "4/4",
+  "rhythm_pattern": "Offbeat-accented 4/4 meter overlaid with polyrhythmic counters",
+  "instruments": [],
+  "vocal_style": "Pop vocals, noted in sources for provocative lyrics",
+  "musical_form": null,
+  "mood": [
+   "syncopated",
+   "provocative",
+   "energetic",
+   "rhythmic"
+  ],
+  "sound_description": "Characterized by an offbeat-accented 4/4 beat operating at a deliberate tempo between 40 and 70 bpm, overlaid with complex polyrhythmic counters characteristic of African popular and folk music traditions.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Wolosso (Ivory Coast). Meter 4/4. Tempo about 55 bpm. Rhythm pattern: Offbeat-accented 4/4 meter overlaid with polyrhythmic counters. Vocal style: Pop vocals, noted in sources for provocative lyrics. Mood: syncopated, provocative, energetic, rhythmic. It should sound like this: Characterized by an offbeat-accented 4/4 beat operating at a deliberate tempo between 40 and 70 bpm, overlaid with complex polyrhythmic counters characteristic of African popular and folk music traditions. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 38
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 55
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Wolosso belongs to contemporary urban popular culture and secular social dancing. Over time, the term broadened to designate revealing, permissive styles of dress and unconventional lifestyles, especially among women.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "AFRICA DANCE 5 (2005) – 24 CLIPS | Compilation Africaine – DVD COMPLET",
+    "url": "https://archive.org/details/africa-dance-5-complet",
+    "year": 2005,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Close-up of rolling pelvic isolations against street backdrop",
+   "Offbeat bass pulse visualization",
+   "Contrasting modern urban club dance with rural folk origins"
+  ],
+  "costume_notes": "Wolosso belongs to contemporary urban popular culture and secular social dancing. Over time, the term broadened to designate revealing, permissive styles of dress and unconventional lifestyles, especially among women.",
+  "setting_notes": "The dance functions as a contemporary social dance. In predominantly Muslim countries of West Africa, Wolosso has stirred strong public offense due to movements perceived as lascivious. Stripped of their original ritual and folk contexts, these bodily articulations are frequently identified with decadent Western culture.",
+  "map": {
+   "country": "Ivory Coast",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "5 tutorial(s) of the street-urban family studied",
+  "videos_studied": 5,
+  "counting": "1-2-3-4-5-6",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 2"
+  ],
+  "cues": [
+   "punch to the side",
+   "pull your head down",
+   "pivot them on your elbows",
+   "up and down",
+   "sit in your hip",
+   "flex your muscles",
+   "lift your foot",
+   "then kick your leg",
+   "stay smooth",
+   "get a feeling for it",
+   "then get faster",
+   "make sure you really bend those knees"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "breakdown",
+   "music_practice",
+   "context",
+   "layering"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "notable figures",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://www.wikidata.org/wiki/Q2592787",
+  "https://de.wikipedia.org/wiki/Wolosso"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "hero_checked": null
+}

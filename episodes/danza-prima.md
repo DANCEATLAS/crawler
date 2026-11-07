@@ -1,6 +1,6 @@
 # Danza Prima — episode pack
 
-*Status: draft · built 2026-11-04 · judge 9.85 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-04 · judge 9.85 · 5/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
@@ -11,15 +11,15 @@
 ## Episode 1 · Meet Danza Prima · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Danza Prima: Asturias's Ancient Circle Dance
-NARRATION: This is Danza Prima. ancient.
+NARRATION: Danza Prima: Asturias's ancient circle dance.
+NARRATION: This is Danza Prima. Ancient.
 ON SCREEN: Hero video, first 10 seconds (qVE87NPAALc)
 ON SCREEN: Title card: Danza Prima · Spain · ancient
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
 NARRATION: Danza Prima is an ancient dance from Asturias, Spain, with possible Celtic linguistic roots and martial-religious origins.
-NARRATION: It has been preserved as a communal circle dance accompanied by heroic ballads and the Celtic bagpipe.
+NARRATION: It is preserved as a communal circle dance accompanied by heroic ballads and the Celtic bagpipe.
 NARRATION: Historically, dancers used sticks resembling battle maces, suggesting a connection to warrior rituals.
 ON SCREEN: Map: Spain · Europe
 ON SCREEN: Image — MISSING
@@ -64,7 +64,7 @@ MUSIC: underscore
 NEEDS: images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Danza Prima is preserved mainly in Asturias but similar stick dances and circle dances exist in northern Spain and Galicia, where they are known by different names such as 'muñeira'.
+NARRATION: Danza Prima is preserved mainly in Asturias, but similar stick dances and circle dances exist in northern Spain and Galicia, where they are known by different names such as 'muñeira'.
 NARRATION: Danza Prima likely descends from ancient Celtic and Roman influences in northern Spain, combining martial, religious, and communal elements into a folk dance form.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
@@ -72,7 +72,7 @@ MUSIC: underscore
 NEEDS: notable_figures
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Danza Prima is regional variant of muñeira: Similar stick and circle dances in northern Spain and Galicia sharing rhythmic and formation traits.
+NARRATION: Danza Prima is a regional variant of muñeira: Similar stick and circle dances in northern Spain and Galicia sharing rhythmic and formation traits.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 NEEDS: connections
@@ -95,7 +95,7 @@ MUSIC: theme (20 s)
 ## Chapter 1 · First steps — Learn basic forward and backward steps and arm swings. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Learn basic forward and backward steps and arm swings..
+NARRATION: Chapter 1 — First steps. Today: Learn basic forward and backward steps and arm swings.
 NARRATION: Level: Beginner. Difficulty of the dance overall: Beginner.
 NARRATION: Your instructor: A knowledgeable local elder with deep respect for tradition and patient teaching style.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
@@ -160,7 +160,7 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Learn basic forward and backward steps and arm swings..
+NARRATION: You can now: Learn basic forward and backward steps and arm swings.
 NARRATION: Danza Prima is a communal dance that brings together all members of the community, from the elderly to the young.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
@@ -234,7 +234,7 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Maintain steady rhythm and add stick movements..
+NARRATION: You can now: Maintain steady rhythm and add stick movements.
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -243,7 +243,7 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — Perform full dance with singing and group coordination. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: Perform full dance with singing and group coordination..
+NARRATION: Chapter 3 — Dancing it fully. Today: Perform full dance with singing and group coordination.
 NARRATION: Level: Advanced. Difficulty of the dance overall: Beginner.
 NARRATION: Your instructor: A knowledgeable local elder with deep respect for tradition and patient teaching style.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
@@ -308,7 +308,7 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Perform full dance with singing and group coordination..
+NARRATION: You can now: Perform full dance with singing and group coordination.
 NARRATION: Danza Prima likely descends from ancient Celtic and Roman influences in northern Spain, combining martial, religious, and communal elements into a folk dance form.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts

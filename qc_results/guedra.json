@@ -1,0 +1,126 @@
+{
+ "slug": "guedra",
+ "qc_at": "2026-11-07T17:30:16Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 5.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Guedra"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "72"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "163"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Guedra takes its name from the humble earthen cooking pot that, when covered wit"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "450"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3314"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Morocco"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "testament to,tapestry"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 6,
+  "respect": 8,
+  "specificity": 4,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The profile repeatedly asserts that Guedra is a Tuareg tradition, whereas it is primarily associated with the Sahrawi people (specifically the Reguibat and other tribes) in the southern Moroccan Sahara, not the Tuareg."
+  ],
+  "harm_or_disrespect": [
+   "Misattribution of a specific cultural practice to the wrong ethnic group (Tuareg vs. Sahrawi) is a significant cultural error."
+  ],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 4,
+  "verdict": "review",
+  "notes": "The profile contains a major factual error regarding the ethnic origin of the dance. Guedra is a Sahrawi tradition, not Tuareg. The profile is also extremely thin on actual dance description, providing no information on movement, posture, or performance context, making it currently unsuitable for a dance atlas."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "sections_filled",
+  "banned_phrasing",
+  "judge_score=5.25",
+  "doubts=1",
+  "harm"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-07T17:24:59Z"
+}

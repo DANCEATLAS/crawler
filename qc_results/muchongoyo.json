@@ -1,0 +1,119 @@
+{
+ "slug": "muchongoyo",
+ "qc_at": "2026-11-07T17:30:20Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Muchongoyo"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "83"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "201"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In Muchongoyo, a lead dancer called the chikopo initiates the performance with a"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "527"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3548"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Zimbabwe"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ceremon', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Muchongolo",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "An exceptionally well-researched and structured profile. The inclusion of specific terminology (chikopo, Mungeneso, chibhubhubhu) and historical context regarding the transition from warrior culture to modern festival performance provides high teaching value. The adaptations are physically appropriate and respect the dance's core mechanics."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.85",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-07T17:25:55Z"
+}
