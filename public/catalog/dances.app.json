@@ -1,7 +1,7 @@
 {
  "contract": "dw_app_v1",
- "count": 1039,
- "generated_at": "2026-11-07T17:42:17Z",
+ "count": 1054,
+ "generated_at": "2026-11-08T17:22:54Z",
  "pipeline": "v3.3",
  "styles": {
   "son-cubano": {
@@ -1657,6 +1657,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:20:46Z",
+    "soft_fail": []
+   },
    "tutorials": [
     {
      "youtube_id": "iF60SihuJqk",
@@ -3536,6 +3541,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:20:48Z",
+    "soft_fail": []
+   },
    "tutorials": [
     {
      "youtube_id": "SGI8bkmTOyw",
@@ -6183,6 +6193,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:22:35Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "hula-kahiko",
     "hula-auana"
@@ -6843,6 +6858,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:22:19Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "ukrainian-dance",
     "ballet",
@@ -7116,6 +7136,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:21:58Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "cibi",
     "hoko",
@@ -17577,6 +17602,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:20:59Z",
+    "soft_fail": [
+     "named"
+    ]
+   },
    "related_slugs": [
     "ballet",
     "tarantella",
@@ -21795,6 +21827,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:19:48Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "kopanitsa"
    ]
@@ -22753,6 +22790,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:21:59Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "assyrian-folk-dance",
     "attan",
@@ -39227,6 +39269,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:22:01Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "zonaradiko": {
@@ -44917,6 +44964,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:21:38Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "halay",
     "dabke",
@@ -45753,6 +45805,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:22:06Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "tutorials": [
     {
      "youtube_id": "3OKRx3e5xjc",
@@ -50605,10 +50664,10 @@
    "slug": "carinosa",
    "name": "Cariñosa",
    "country": "Philippines",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "PH",
+   "flag_emoji": "🇵🇭",
    "region": "Panay/Visayas",
-   "family": null,
+   "family": "folk-circle",
    "era": "16th c.",
    "tagline": "Fan-and-hanky hide-and-seek courtship",
    "profile": "Fan-and-hanky hide-and-seek courtship — Cariñosa (Philippines, Panay/Visayas). Full sourced 9-field profile in research artifact; concise schema stub pending text expansion.",
@@ -50623,9 +50682,12 @@
     "apsara-dance",
     "legong"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cari%C3%B1osa",
+    "https://www.wikidata.org/wiki/Q5039735"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Cari%C3%B1osa",
+   "wikidata_qid": "Q5039735",
    "unesco": false,
    "hero_video_youtube_id": "jaszm_kuY7I",
    "hero_image": null,
@@ -50644,6 +50706,28 @@
     "checked_at": "2026-11-03T18:28:37Z",
     "soft_fail": []
    },
+   "research_gate": "publish",
+   "qc_score": 8.85,
+   "last_researched_at": "2026-11-08T16:52:46Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Cariñosa, a term meaning 'loving' or 'affectionate', stands as a prominent example of the Maria Clara suite of Philippine folk dances. Its origins are traced to Panay Island, emerging during the period of Spanish colonization. The dance is historically linked to European and Latin American influences, sharing structural similarities with the Spanish bolero and the Mexican jarabe tapatio, also known as the Mexican hat dance. The dance functions as a courtship narrative, utilizing props—specifically a fan and a handkerchief—to facilitate a 'hide-and-seek' interaction between the partners. This romantic scenario is central to the performance, defining the character of the dance as an expression of affection. \n\nDocumentation of the Cariñosa was significantly advanced by the work of Francisca Reyes-Aquino, a Filipino folk dancer and cultural researcher. Her publication, 'Philippine Folk Dances, Volume 2', provides critical insight into regional variations, most notably the version found in the Bicol Region. In this specific variant, the traditional use of a fan and a single handkerchief is altered; instead, dancers employ two handkerchiefs. The Bicolano execution involves holding the handkerchiefs by the corners, pointing the foot forward, and raising the arms. This version is noted for its complexity and remains a fixture in festivals and social gatherings throughout the Bicol Region. \n\nCostuming for the Cariñosa reflects its colonial history and the evolution of Philippine national identity. Traditionally, the dance is performed in the María Clara gown for women and the barong tagalog for men, reflecting the Spanish influence of the era. However, to emphasize a more localized or nationalist aesthetic, performers may also wear the patadyong kimona, a dress associated with the Visayan people, or the camisa de chino. The male attire may also include colored pants paired with the barong tagalog. \n\nDespite its widespread recognition and cultural significance, the Cariñosa does not hold the status of an official national dance of the Philippines. While there have been legislative attempts to formalize this status, such as the 2014 bill introduced by House Representative Rene Relampagos, these efforts have not resulted in law. Nevertheless, the dance persists as a living tradition, maintained by local communities and cultural groups who continue to perform it during social events and public celebrations. The dance serves as a bridge between the colonial past and contemporary Philippine cultural expression, preserved through the efforts of researchers like Reyes-Aquino and the ongoing participation of local dancers.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Philippine_culture_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Philippine_culture_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1218,
+     "height": 1893,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Markytour777 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3APhilippine_culture_dance.jpg",
+     "description": "Filipino culture reflected to dance"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
    "related_slugs": [
     "khon",
     "tinikling",
@@ -50693,6 +50777,13 @@
     "checked_at": "2026-11-03T18:28:40Z",
     "soft_fail": []
    },
+   "research_gate": "review",
+   "qc_score": 5.7,
+   "last_researched_at": "2026-11-08T16:53:11Z",
+   "pipeline_version": "v3.3",
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "Not applicable.",
    "related_slugs": [
     "khon",
     "tinikling",
@@ -51547,16 +51638,18 @@
    "slug": "plinn",
    "name": "Plinn",
    "country": "France",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "FR",
+   "flag_emoji": "🇫🇷",
    "region": "Brittany (Kreiz Breizh)",
-   "family": null,
+   "family": "folk-circle",
    "era": "codified 1945-60",
    "tagline": "The flat-footed Pays Fañch chain suite",
    "profile": "The flat-footed Pays Fañch chain suite — Plinn (France, Brittany (Kreiz Breizh)). Full sourced 9-field profile in research artifact; concise schema stub pending text expansion.",
    "insight": "",
    "aliases": [
-    "Plinn"
+    "Plinn",
+    "Dañs Plinn",
+    "Pop-Plinn"
    ],
    "related": [
     "flamenco",
@@ -51564,9 +51657,13 @@
     "sevillanas",
     "ballet"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pop_Plinn",
+    "https://www.wikidata.org/wiki/Q3397878",
+    "https://fr.wikipedia.org/wiki/Pop_Plinn"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Pop_Plinn",
+   "wikidata_qid": "Q3397878",
    "unesco": true,
    "hero_video_youtube_id": "5JrqcsbHQ2c",
    "hero_image": null,
@@ -51587,6 +51684,28 @@
      "camera_ok"
     ]
    },
+   "research_gate": "publish",
+   "qc_score": 8.85,
+   "last_researched_at": "2026-11-08T16:56:26Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Plinn is a traditional dance form originating from the Pays Fañch, a region located in the southern part of the Côtes-d'Armor in Brittany, France. This area is frequently referred to as the 'pays Plinn' to distinguish the specific style of dance and music that emerged there. Historically, the dance is deeply rooted in the social fabric of the region, often performed at festoù-noz, which are traditional Breton evening festivals. The dance is noted for its physical intensity and the repetitive, hypnotic quality of its rhythm.\n\nTechnically, the Plinn is a chain dance. Dancers form a line or circle, holding the arms of their neighbors to maintain the connection. The movement is defined by its speed and the execution of two small, precise jumps. Practitioners often describe the experience of dancing the Plinn as a 'tribal trance,' a state achieved by maintaining the same relentless, hammering rhythm for extended periods. This rhythmic consistency is often supported by the traditional kan ha diskan style of singing, a form of call-and-response where two singers alternate verses to keep the dancers moving.\n\nIn the 20th century, the Plinn gained a new dimension through the work of musician Alan Stivell. In 1971, Stivell transformed the traditional Plinn air into a pop-rock composition titled 'Pop-Plinn.' This arrangement, which featured the electric guitar work of Dan Ar Braz, introduced the traditional Breton melody to a wider, international audience. The composition incorporated elements of the traditional biniou and bombarde alongside modern instrumentation like the organ, bass, and drums. This fusion was significant not only for its musical innovation but also for shifting the perception of Breton music as a living, modern tradition rather than a static relic of the past.\n\nThe dance remains a living tradition, preserved by local communities and practitioners who continue to perform it at festivals and gatherings. It shares a cultural lineage with other dances from the region, such as those found in the Pays Fisel, and is often studied by those interested in the intersection of Celtic musicology and folk dance. The preservation of the Plinn involves both the physical mastery of the steps and the maintenance of the musical context, particularly the use of traditional instruments and the kan ha diskan vocal technique.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/FIL_2012_-_Dan_ar_Braz_Celebration_concert_41.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/FIL_2012_-_Dan_ar_Braz_Celebration_concert_41.JPG/1280px-FIL_2012_-_Dan_ar_Braz_Celebration_concert_41.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 5184,
+     "height": 3456,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "XIIIfromTOKYO / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AFIL_2012_-_Dan_ar_Braz_Celebration_concert_41.JPG",
+     "description": "Dan Ar Braz et Alan Stivell lors de son concert inaugural de la tournée liée à la promotion de l'album Celebration, lors du Festival Interceltique de Lorient 2012."
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
    "related_slugs": [
     "flamenco",
     "waltz",
@@ -52934,6 +53053,10 @@
      "camera_ok"
     ]
    },
+   "research_gate": "review",
+   "qc_score": 7.1,
+   "last_researched_at": "2026-11-08T16:56:55Z",
+   "pipeline_version": "v3.3",
    "related_slugs": [
     "flamenco",
     "waltz",
@@ -53121,6 +53244,13 @@
     "checked_at": "2026-11-04T19:02:18Z",
     "soft_fail": []
    },
+   "research_gate": "reject",
+   "qc_score": 9.0,
+   "last_researched_at": "2026-11-08T16:57:11Z",
+   "pipeline_version": "v3.3",
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "The Dama is a sacred ritual and part of the Dogon's spiritual belief system; outsiders should be mindful of the community's concerns regarding the commercialization of their spiritual art.",
    "related_slugs": [
     "kizomba",
     "semba",
@@ -54274,12 +54404,12 @@
   },
   "danza-de-los-diablos": {
    "slug": "danza-de-los-diablos",
-   "name": "Danza de los Diablos",
+   "name": "Danza de los Diablos (Diablada)",
    "country": "Mexico",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "BO",
+   "flag_emoji": "🇧🇴",
    "region": "Costa Chica (Afro-Mexican)",
-   "family": null,
+   "family": "ritual-sacred",
    "era": "colonial",
    "tagline": "The Afro-Mexican devil dance",
    "profile": "The Afro-Mexican devil dance — Danza de los Diablos (Mexico, Costa Chica (Afro-Mexican)). Full sourced 9-field profile in research artifact; concise schema stub pending text expansion.",
@@ -54293,9 +54423,15 @@
     "lindy-hop",
     "hip-hop"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Diablada",
+    "https://www.wikidata.org/wiki/Q17080921",
+    "https://es.wikipedia.org/wiki/Diablada",
+    "https://fr.wikipedia.org/wiki/Diablada",
+    "https://pt.wikipedia.org/wiki/Diablada"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Diablada",
+   "wikidata_qid": "Q17080921",
    "unesco": false,
    "hero_video_youtube_id": "IIQfU7N84gw",
    "hero_image": null,
@@ -54314,6 +54450,42 @@
     "checked_at": "2026-11-04T19:06:21Z",
     "soft_fail": []
    },
+   "research_gate": "publish",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-11-08T16:57:51Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Diablada, or Danza de los Diablos, is a complex ritual performance rooted in the Andean Altiplano. Its origins are traced by historians to the Uru civilization, specifically the Llama llama dance, which honored the deity Tiw, a protector of caves, lakes, and rivers. Following the Spanish conquest, these indigenous traditions underwent a process of syncretism. Andean divinities were often concealed behind Christian icons, and the ancient rituals were adapted into the framework of colonial autos sacramentales. The dance eventually became a central feature of the Carnaval de Oruro in Bolivia, which was declared a Masterpiece of the Oral and Intangible Heritage of Humanity by UNESCO in 2001.\n\nThe choreography is structured as a dramatic confrontation between two opposing camps: the forces of the devil and the forces of the angels. The demonic side includes Lucifer, Satan, and the China Supay, or devil women, followed by the personified seven deadly sins. The angelic side is led by Saint Michael, who is typically dressed in a blouse, short skirt, sword, and shield. The dancers move continuously, forming intricate geometric patterns such as crosses and circles. The tension of the performance culminates when Saint Michael appears to defeat the devil, symbolizing the triumph of good over evil. This movement is physically demanding, as the costumes—featuring masks made of wood or other materials and capes sewn with gold thread—can weigh over 30 kilograms.\n\nMusic for the Diablada has evolved from the traditional use of the siku (a panpipe played by Sikuris) to modern orchestral arrangements. The musical structure typically consists of two distinct parts: the March and the Devil's Mecapaqueña. While the dance is performed in public streets and squares during festivals like the Carnaval de Oruro, the Fiesta de la Candelaria in Peru, and the Fiesta de La Tirana in Chile, it retains a deep connection to the spiritual and historical identity of the Altiplano. The dance is not merely a performance but a living tradition that reflects the history of the region, from the labor struggles of miners in Potosí and Oruro to the ongoing dialogue between indigenous Andean cosmology and post-colonial theology.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Carnaval_de_Oruro_dia_I_%2860%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Carnaval_de_Oruro_dia_I_%2860%29.JPG/1280px-Carnaval_de_Oruro_dia_I_%2860%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2576,
+     "height": 1932,
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "attribution": "Elemaki / Wikimedia Commons / CC BY 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ACarnaval_de_Oruro_dia_I_%2860%29.JPG",
+     "description": "Diablada en el Carnaval de Oruro"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Fiesta_de_los_Collasuyos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Fiesta_de_los_Collasuyos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 830,
+     "height": 1183,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Felipe Guamán Poma de Ayala / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AFiesta_de_los_Collasuyos.jpg",
+     "description": "Depiction of the party of the Collasuyos presented in the 17th century book El Primer Nueva coronica y buen gobierno of Felipe Guamán Poma de Ayala."
+    }
+   ],
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "The dance is a ritualized religious performance involving sacred figures and syncretic Andean-Christian theology.",
+   "movie_ready": false,
+   "tradition_status": "living",
    "related_slugs": [
     "salsa",
     "charleston",
@@ -54584,6 +54756,10 @@
     "checked_at": "2026-11-04T19:08:20Z",
     "soft_fail": []
    },
+   "research_gate": "reject",
+   "qc_score": 8.2,
+   "last_researched_at": "2026-11-08T16:58:12Z",
+   "pipeline_version": "v3.3",
    "related_slugs": [
     "salsa",
     "charleston",
@@ -62858,6 +63034,13 @@
    "video_stack": [],
    "hero_image": null,
    "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:20:55Z",
+    "soft_fail": [
+     "named"
+    ]
+   },
    "related_slugs": [
     "quadrille",
     "galop"
@@ -62988,6 +63171,13 @@
    "video_stack": [],
    "hero_image": null,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:21:26Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "jig",
     "allemande",
@@ -63074,6 +63264,11 @@
    "video_stack": [],
    "hero_image": null,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:22:15Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "paoa",
     "aparima"
@@ -63252,6 +63447,11 @@
    "video_stack": [],
    "hero_image": null,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:20:02Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "foxtrot",
     "swing"
@@ -63429,6 +63629,13 @@
    "video_stack": [],
    "hero_image": null,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-08T17:21:52Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "lewoz",
     "toumblak",
@@ -75057,6 +75264,7 @@
    "tradition_status": "living",
    "related_slugs": [
     "lindy-hop",
+    "collegiate-shag",
     "charleston"
    ]
   },
@@ -75834,8 +76042,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Wolosso",
    "wikidata_qid": "Q2592787",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "pR9RHZGLat0",
+   "video_stack": [
+    {
+     "youtube_id": "pR9RHZGLat0",
+     "role": "hero",
+     "title": "Dollar R DJ Wolosso Clip Officiel",
+     "channel": "Formatteur007Diallo",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -75885,8 +76101,30 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Zydeco_(dance)",
    "wikidata_qid": "Q8075739",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "mgv8tQ-15MA",
+   "video_stack": [
+    {
+     "youtube_id": "mgv8tQ-15MA",
+     "role": "hero",
+     "title": "Zydeco Dance in Houston: Black Cowboys, Trail Rides and Creole Roots | If Cities Could Dance",
+     "channel": "KQED Arts",
+     "hd": true
+    },
+    {
+     "youtube_id": "CDgbEOnaksE",
+     "role": "rendition",
+     "title": "Basic Zydeco Dance Lesson - Part 1",
+     "channel": "gbenusa",
+     "hd": false
+    },
+    {
+     "youtube_id": "lG-7Qftch6A",
+     "role": "rendition",
+     "title": "Zydeco dancing - Erin Brandt & AJ Gibbs at Gator by the Bay 2008",
+     "channel": "Erin M. Brandt",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -75944,8 +76182,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Waacking",
    "wikidata_qid": "Q2600651",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "zuIPARqaNsg",
+   "video_stack": [
+    {
+     "youtube_id": "zuIPARqaNsg",
+     "role": "hero",
+     "title": "Khwab Dekhe | Monali Thakur | Neeraj Shridhar | Waacking Choreography | Nritya Shakti",
+     "channel": "Nritya Shakti",
+     "hd": true
+    },
+    {
+     "youtube_id": "tCDqCnOqOas",
+     "role": "rendition",
+     "title": "Lip J - WAACKING showcase at KOD // .stance",
+     "channel": "stance",
+     "hd": true
+    },
+    {
+     "youtube_id": "fgzzDq9l0mA",
+     "role": "rendition",
+     "title": "the difference between waacking and voguing❤️ #waacking #voguing #voguedance #reels #dancevideo",
+     "channel": "WAACKING DANCE",
+     "hd": false
+    },
+    {
+     "youtube_id": "0X-gs2EzHJw",
+     "role": "rendition",
+     "title": "Bruno Mars - Treasure / ITsMe waacking choreography dance",
+     "channel": "MOVE Dance Studio",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -76011,8 +76278,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Ballet_de_cour",
    "wikidata_qid": "Q2881262",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "ahtN4XSsTcs",
+   "video_stack": [
+    {
+     "youtube_id": "ahtN4XSsTcs",
+     "role": "hero",
+     "title": "#OS34 - História da ópera: A ópera na França – Ballet de Cour",
+     "channel": "Ópera com Sandra",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -76105,8 +76380,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Farruca",
    "wikidata_qid": "Q2557688",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "3j5IRvgQAS8",
+   "video_stack": [
+    {
+     "youtube_id": "3j5IRvgQAS8",
+     "role": "hero",
+     "title": "Pablo Egea - Farruca",
+     "channel": "Pablo Egea",
+     "hd": true
+    },
+    {
+     "youtube_id": "pziQ1VcL740",
+     "role": "rendition",
+     "title": "\"Farruca\", Ivan Vargas & Kasandra \"La China\", flamenco dancers",
+     "channel": "Kasandra Flamenco",
+     "hd": true
+    },
+    {
+     "youtube_id": "91cF2kfN7X4",
+     "role": "rendition",
+     "title": "Farruca - Coreografía Flamenco - Cristina Cañizares - | Musicaula",
+     "channel": "Musicaula",
+     "hd": true
+    },
+    {
+     "youtube_id": "5x5IjDtHIQI",
+     "role": "rendition",
+     "title": "Farruca Full Dance",
+     "channel": "Valerie Scannura",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -76236,8 +76540,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Tribal_Fusion",
    "wikidata_qid": "Q2743437",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "8XGIRLwcw4o",
+   "video_stack": [
+    {
+     "youtube_id": "8XGIRLwcw4o",
+     "role": "hero",
+     "title": "WOW Arabic Belly Dance Sword Dance \"Justice\" by Irina Akulenko | Tribal Fusion World Dance Heritage",
+     "channel": "World Dance New York",
+     "hd": true
+    },
+    {
+     "youtube_id": "Rh_82EHdD0E",
+     "role": "rendition",
+     "title": "Sara Lyn performs Tribal Fusion Belly Dance in FISSION",
+     "channel": "The Massive Spectacular!",
+     "hd": true
+    },
+    {
+     "youtube_id": "TB6j0H3GEQc",
+     "role": "rendition",
+     "title": "Zoe Jakes Fusion Belly Dance performed at The Massive Spectacular! 2013",
+     "channel": "The Massive Spectacular!",
+     "hd": true
+    },
+    {
+     "youtube_id": "9o-ZB1Ce22w",
+     "role": "rendition",
+     "title": "10. Durga @ Tribal Fusion Show \"Apsaras' Breath\" (Tribal Autumn in Lviv 2016)",
+     "channel": "Kira Lebedeva",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -76348,8 +76681,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Robot_(dance)",
    "wikidata_qid": "Q2725666",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "wt_nbTRzYrk",
+   "video_stack": [
+    {
+     "youtube_id": "wt_nbTRzYrk",
+     "role": "hero",
+     "title": "Amazing Robot Dance Battle | Robot Vall",
+     "channel": "Robot Vall | Валерий Робот Вэлл Черновский",
+     "hd": true
+    },
+    {
+     "youtube_id": "mUmlv814aJo",
+     "role": "rendition",
+     "title": "Martial arts robots dazzle at 2026 Spring Festival Gala #CoolChina #springfestival2026 #kungfu",
+     "channel": "CGTN",
+     "hd": true
+    },
+    {
+     "youtube_id": "diBeYXb4wLM",
+     "role": "rendition",
+     "title": "ROBOT DANCE - SALAH (FRANCE) BOTY 2006 SHOWCASE SPECIAL [OFFICIAL HD VERSION BOTY TV]",
+     "channel": "Battle Of The Year",
+     "hd": true
+    },
+    {
+     "youtube_id": "4YJ3BTKMILw",
+     "role": "rendition",
+     "title": "insane robot dance",
+     "channel": "phil23",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -76559,8 +76921,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Rejang_dance",
    "wikidata_qid": "Q12519987",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "GjV3VxHoHKg",
+   "video_stack": [
+    {
+     "youtube_id": "GjV3VxHoHKg",
+     "role": "hero",
+     "title": "\"Tari Rejang Dewa\" - Amazing Traditional Balinese Dance",
+     "channel": "Bali Culture",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -76684,8 +77054,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Pyrrhichios",
    "wikidata_qid": "Q3065041",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "2AYrLtLW5bU",
+   "video_stack": [
+    {
+     "youtube_id": "2AYrLtLW5bU",
+     "role": "hero",
+     "title": "Pyrrhichios Serra Pontic Dance",
+     "channel": "Penelope Eleni",
+     "hd": true
+    },
+    {
+     "youtube_id": "cYelSpTWVUw",
+     "role": "rendition",
+     "title": "Greek War Dance, Bloody & Violent (Pyrrhic Dance)",
+     "channel": "Arms Control Center",
+     "hd": true
+    },
+    {
+     "youtube_id": "vJbzez0uJIM",
+     "role": "rendition",
+     "title": "Pontian \"Serra\" Pyrrhic Dance, Athens 2004 Summer Olympics Closing Ceremony",
+     "channel": "The Pappas Post",
+     "hd": false
+    },
+    {
+     "youtube_id": "3wYiJa5JGUs",
+     "role": "rendition",
+     "title": "Ancient Greek Pyrrhic Dance",
+     "channel": "Living Antiquity with Adam Godfrey",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -76749,8 +77148,30 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Israeli_folk_dance",
    "wikidata_qid": "Q2911039",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "dU3YgNln8ho",
+   "video_stack": [
+    {
+     "youtube_id": "dU3YgNln8ho",
+     "role": "hero",
+     "title": "5 Iconic Jewish Dances From Around The World",
+     "channel": "Unpacked",
+     "hd": true
+    },
+    {
+     "youtube_id": "qu-LaDQtwMg",
+     "role": "rendition",
+     "title": "Israeli folk dance with Israeli Dance Institute (Fitness, Faith & Feeling Good)",
+     "channel": "The Faith & Belief Forum",
+     "hd": true
+    },
+    {
+     "youtube_id": "30cb08-Ii1Q",
+     "role": "rendition",
+     "title": "MA NAVU Israeli Folk Dance   Choreographed by Raya Spivak 1957  Ira Weisburd",
+     "channel": "Ira Weisburd",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -76799,8 +77220,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Ukusina",
    "wikidata_qid": "Q119806199",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "3i4KnI4gNfg",
+   "video_stack": [
+    {
+     "youtube_id": "3i4KnI4gNfg",
+     "role": "hero",
+     "title": "Zulu Maidens Traditional dance -  part 2 | ingoma yezintombi | ukugida/ukusina, amaculo.",
+     "channel": "Ayanda Mlah",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -76861,8 +77290,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Ke_Mu_San",
    "wikidata_qid": "Q124362129",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "Rwb54NW8CcU",
+   "video_stack": [
+    {
+     "youtube_id": "Rwb54NW8CcU",
+     "role": "hero",
+     "title": "China's \"wacky\" dance breaks barriers, unites the world",
+     "channel": "Fridayeveryday",
+     "hd": true
+    },
+    {
+     "youtube_id": "Bup3XZOW4hA",
+     "role": "rendition",
+     "title": "科目三创始人 广西柳州朱开红 The Original \"Ke Mu San\" Dance",
+     "channel": "Little Qiao Life Lens",
+     "hd": true
+    },
+    {
+     "youtube_id": "ujboxNu3DjY",
+     "role": "rendition",
+     "title": "Viral Addictive TikTok Dance Haidilao Kemusan 'Subject Three'  抖音神曲 科目三一笑江湖混剪版 (抖音AI孫燕姿)",
+     "channel": "風間 ジャニオ j.kazama",
+     "hd": true
+    },
+    {
+     "youtube_id": "qoyBFOT2GKQ",
+     "role": "rendition",
+     "title": "Ke Mu San: Ethnic Style Compilation || Lunar New Year Dance Performances “科目三”民族舞版《一笑江湖》",
+     "channel": "Chinese Dance Company of Southern California",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -76889,6 +77347,1181 @@
    "images": [],
    "needs_eyes_on": true,
    "sacred_note": "not applicable",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "ekikibi": {
+   "slug": "ekikibi",
+   "name": "Ekikibi",
+   "country": "Uganda",
+   "country_code": "UG",
+   "region": "Africa",
+   "family": "folk-circle",
+   "flag_emoji": "🇺🇬",
+   "era": "Centuries-old ancestral tradition",
+   "tagline": "A Bakonzo bridal dance from the Rwenzori peaks tracing the darting movement of fish.",
+   "profile": "Ekikibi is a traditional courtship and bridal dance practiced by the Bakonzo people across the Rwenzori Mountains of western Uganda and eastern Democratic Republic of the Congo. Performed primarily during weddings and festive celebrations, the dance honors the bond between the bride, groom, and their uniting families. A classic ensemble features four men dancing in an outer ring around four women in an inner circle, synchronizing their steps to praise songs, drums, flutes, and rattles. The dancers weave rhythmic footwork, jumps, twists, and turns that evoke the swift, undulating movements of fish in mountain waters.",
+   "insight": "High in the Rwenzori Mountains across Kasese and Bundibugyo, four men encircle four women to mimic river fish swimming in water, sealing the love between bride and groom.",
+   "aliases": [
+    "Ekikibi dance"
+   ],
+   "related": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ekikibi",
+    "https://www.wikidata.org/wiki/Q124250794",
+    "https://pt.wikipedia.org/wiki/Ekikibi"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Ekikibi",
+   "wikidata_qid": "Q124250794",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-11-08T16:03:42Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "In the mist-covered heights of the Rwenzori Mountains spanning western Uganda and the eastern borderlands of the Democratic Republic of the Congo, the Bakonzo people cultivate the Ekikibi dance as a living testament to courtship, marital union, and communal continuity. Settled across rugged districts including Kasese, Bundibugyo, Bunyangabu, and Ntoroko, the Bakonzo developed this expressive tradition over centuries of living in the mountainous landscape. The core movement vocabulary of Ekikibi draws direct inspiration from nature, specifically the gliding, darting patterns of fish maneuvering through alpine streams. Passed down through successive generations, the dance serves as a defining cultural symbol of Bakonzo ethnic identity, encapsulating both their deep affinity with the montane environment and their reverence for marital ties.\n\nThe physical staging of Ekikibi follows a balanced spatial pattern typically assembled from four men and four women. The performers arrange themselves into concentric circular rings: the women maintain the interior circle while the men dance along the perimeter. Dressed in vivid, multicolored attire and decorative body adornments, the performers step into dynamic sequences composed of rhythmic foot patterns, sudden vertical jumps, sharp torso twists, and rolling turns. These rapid changes in direction and fluid body articulations deliberately mirror the evasive, undulating arcs of fish swimming in fresh currents. Partner interaction across the concentric circles relies on active non-verbal communication, with dancers continually trading expressive hand gestures and sustained eye contact to communicate romance, affection, and mutual respect.\n\nMusic serves as the driving engine for Ekikibi, providing both rhythmic cadence and narrative praise for the unfolding social union. The dance unfolds to the sound of specialized love songs sung to honor the bride and groom, celebrating their personal virtues and the joining of their lineages. Acoustic accompaniment centers on a percussive foundation driven by tuned drums and crisp rattles, counterbalanced by melodic phrases carried by flutes. The interlocking layers of flute melodies and rattling pulses create a bright, driving atmosphere suited to festive matrimonial assemblies, guiding the dancers through accelerations and sudden leaps.\n\nSocially and spiritually, Ekikibi fulfills a vital role within Bakonzo wedding ceremonies and community feasts. Beyond entertaining the gathering, the performance formalizes the emotional bond and harmonious alignment between the newlyweds while binding their extended families in shared celebration. The dance acts as an invocational conduit to honor ancestral spirits and traditional deities, who are asked to bestow protection, fertility, and lasting blessings upon the couple. Rooted in the ancestral valleys and high ridges of Central Africa, the dance remains a vital source of pride and aesthetic distinction across Bakonzo communities in Uganda and the Democratic Republic of the Congo.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "needs_eyes_on": true,
+   "sacred_note": "While performed socially at weddings, the dance carries an invocational dimension honoring ancestors and deities to bless and protect the couple.",
+   "movie_ready": true,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "ballet-feerie": {
+   "slug": "ballet-feerie",
+   "name": "ballet-féerie",
+   "country": "Russia",
+   "country_code": "RU",
+   "region": "Europe",
+   "family": "classical-court",
+   "flag_emoji": "🇷🇺",
+   "era": "19th century",
+   "tagline": "A 19th-century Russian fairy-tale ballet genre defined by spectacle and transformation.",
+   "profile": "The ballet-féerie is a 19th-century Russian theatrical dance genre that merged French fairy-tale plots with the Italian ballo grande style. It prioritized ensemble choreography, elaborate stage machinery, and magical transformations over traditional solo ballerina virtuosity. The genre is characterized by its dreamlike, episodic structure and its reliance on visual spectacle to depict supernatural forces.",
+   "insight": "While critics dismissed it as commercial, the ballet-féerie provided the structural framework for Tchaikovsky's The Sleeping Beauty and The Nutcracker, shifting focus from solo virtuosity to ensemble magic.",
+   "aliases": [
+    "fairy ballet"
+   ],
+   "related": [
+    "féerie",
+    "ballet de cour",
+    "ballo grande",
+    "mélodrame"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/F%C3%A9erie",
+    "https://www.wikidata.org/wiki/Q123578591",
+    "https://fr.wikipedia.org/wiki/Ballet-féerie"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/F%C3%A9erie",
+   "wikidata_qid": "Q123578591",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 8.7,
+   "last_researched_at": "2026-11-08T16:07:55Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The ballet-féerie emerged in Russia during the late 19th century as a hybrid form, taking its name from the French theatrical genre of the same name while adopting the technical dance characteristics of the Italian ballo grande. Unlike the classical ballets of the era that centered on the technical prowess and solo virtuosity of a prima ballerina, the ballet-féerie shifted the focus toward the collective. It emphasized ensemble dances, intricate stage pictures, and the use of movement and color to create a cohesive, magical atmosphere. The genre was deeply rooted in the concept of the 'fairy play,' where the narrative served primarily as a vehicle for spectacular visual effects and supernatural occurrences.\n\nTechnically, the ballet-féerie relied heavily on the innovations of 19th-century stagecraft. Transformations—scenes that changed in full view of the audience—were a hallmark of the style, often facilitated by trapdoors, wires, and complex lighting effects like limelight. These elements were designed to evoke a sense of wonder and dreamlike logic, where the plot could be secondary to the visual experience. The narrative content typically drew from fairy tales, folklore, and mythological subjects, embodying the battle between good and evil through characters such as witches, gnomes, and fairies. \n\nDespite its immense popularity with audiences, the genre faced significant criticism from contemporary Russian intellectuals and traditionalists, who viewed it as a commercialized, foreign threat to the integrity of national ballet traditions. Critics often labeled it as 'lower-class' entertainment due to its reliance on artifice and spectacle. Nevertheless, the ballet-féerie proved to be a vital creative vessel. Pyotr Ilyich Tchaikovsky utilized the form to compose some of his most enduring works, including The Sleeping Beauty and The Nutcracker. In these masterpieces, the ballet-féerie's requirement for shifting tableaux and ensemble-driven storytelling allowed for a new level of symphonic and choreographic integration, proving that the genre’s potential for poetic imagination was far greater than its detractors suggested. By the end of the 19th century, the genre began to fall into desuetude, yet its influence remains embedded in the structure of the modern grand ballet.",
+   "albums": [
+    {
+     "title": "The Sleeping Beauty",
+     "artist": "Пётр Ильич Чайковский, Koninklijk Concertgebouworkest, Antal Doráti",
+     "year": "1995",
+     "mbid": "b8a96203-bfd9-30fc-b946-d268f6f5ed43",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/b8a96203-bfd9-30fc-b946-d268f6f5ed43",
+     "type": "Album",
+     "source": "https://en.wikipedia.org/wiki/F%C3%A9erie",
+     "verified": true
+    },
+    {
+     "title": "The Nutcracker",
+     "artist": "Пётр Ильич Чайковский",
+     "year": null,
+     "mbid": "26caa193-194b-469f-af12-d9b5c89f2ebd",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/26caa193-194b-469f-af12-d9b5c89f2ebd",
+     "type": null,
+     "source": "https://en.wikipedia.org/wiki/F%C3%A9erie",
+     "verified": true
+    }
+   ],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ambigu-Comique-Le_Monstre_et_le_Magicien-1861.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ambigu-Comique-Le_Monstre_et_le_Magicien-1861.jpg/1280px-Ambigu-Comique-Le_Monstre_et_le_Magicien-1861.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 9852,
+     "height": 7140,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Hoster, lithographe / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAmbigu-Comique-Le_Monstre_et_le_Magicien-1861.jpg",
+     "description": "Théâtre de L'Ambigu comique... Aujourd'hui samedi 22 juin 1861... Représentations de M. François Ravel, mime américain, rôle du monstre. Rentrée de M. Castellano, rôle de Zametti le magicien. Première représentation : Le Monstre et le magicien. Drame fantastique à grand spectacle, cinq actes et onze tableaux...[de Ferdinand Dugué] affiche"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Set_design_Act2_of_Androm%C3%A8de_by_P_Corneille_1650_-_Gallica_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Set_design_Act2_of_Androm%C3%A8de_by_P_Corneille_1650_-_Gallica_2010.jpg/1280px-Set_design_Act2_of_Androm%C3%A8de_by_P_Corneille_1650_-_Gallica_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4926,
+     "height": 3498,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Giacomo Torelli / François Chauveau / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASet_design_Act2_of_Androm%C3%A8de_by_P_Corneille_1650_-_Gallica_2010.jpg",
+     "description": "Set design for Act 2 of Pierre Corneille's Andromède as first performed on 1 February 1650 by the Troupe Royale at the Petit-Bourbon in Paris"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Leopoldo_Metlicovitz%2C_1907_-_Pirlimpinpin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Leopoldo_Metlicovitz%2C_1907_-_Pirlimpinpin.jpg/1280px-Leopoldo_Metlicovitz%2C_1907_-_Pirlimpinpin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1800,
+     "height": 1298,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Leopoldo Metlicovitz / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ALeopoldo_Metlicovitz%2C_1907_-_Pirlimpinpin.jpg",
+     "description": "Poster by Leopoldo Metlicovitz. La polvere di Pirlimpinpin : féerie in tre atti e 16 quadri / di Carlo Vizzotto. - Milano"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Voyage_%C3%A0_travers_l%27impossible_L%27Illustration_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Voyage_%C3%A0_travers_l%27impossible_L%27Illustration_cropped.jpg/1280px-Voyage_%C3%A0_travers_l%27impossible_L%27Illustration_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3456,
+     "height": 4120,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Fernand Auguste Besnier (18??–1927) / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AVoyage_%C3%A0_travers_l%27impossible_L%27Illustration_cropped.jpg",
+     "description": "Drawing by Besnier for L'Illustration (Vol. LXXX, No. 2075, 2 December 1882, page 1), showing scenes from the play Voyage à travers l'impossible. More information about this engraving here."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Pezon_et_ses_six_lions_%281874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Pezon_et_ses_six_lions_%281874%29.jpg/1280px-Pezon_et_ses_six_lions_%281874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4626,
+     "height": 3718,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Paul Hadol / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3APezon_et_ses_six_lions_%281874%29.jpg",
+     "description": "Affiche : Théâtre du Chatelet. Les Pilules du diable. Tous les soirs Pezon et ses six lions"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/JulesCh%C3%A9ret%2C_Affiche_de_la_biche_au_bois%2C_1876.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/JulesCh%C3%A9ret%2C_Affiche_de_la_biche_au_bois%2C_1876.JPEG/1280px-JulesCh%C3%A9ret%2C_Affiche_de_la_biche_au_bois%2C_1876.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1456,
+     "height": 968,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Jules Chéret / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AJulesCh%C3%A9ret%2C_Affiche_de_la_biche_au_bois%2C_1876.JPEG",
+     "description": "Jules Chéret, Affiche de la biche au bois, 1876."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Fred_R._Hamlin%27s_musical_extravaganza%2C_The_wizard_of_Oz_LCCN2014636750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Fred_R._Hamlin%27s_musical_extravaganza%2C_The_wizard_of_Oz_LCCN2014636750.jpg/1280px-Fred_R._Hamlin%27s_musical_extravaganza%2C_The_wizard_of_Oz_LCCN2014636750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 7307,
+     "height": 10699,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "U.S. Lithograph Co.; Hamlin, Fred R. / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AFred_R._Hamlin%27s_musical_extravaganza%2C_The_wizard_of_Oz_LCCN2014636750.jpg",
+     "description": "Title: Fred R. Hamlin's musical extravaganza, The wizard of Oz\nAbstract/medium: 1 print : color lithograph ; sheet 105 x 70 cm. (poster format)"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Les_Pilules_du_diable_st%C3%A9r%C3%A9oscope_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/21/Les_Pilules_du_diable_st%C3%A9r%C3%A9oscope_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 615,
+     "height": 600,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Unknown (probably French, fl. 1870) / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ALes_Pilules_du_diable_st%C3%A9r%C3%A9oscope_2.jpg",
+     "description": "Hand-coloured stereoscope image, circa 1870, of a scene from the popular French féerie (fairy play) Les Pilules du diable."
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "historical",
+   "related_slugs": [
+    "ballet-de-cour"
+   ]
+  },
+  "orunyege-ntogoro": {
+   "slug": "orunyege-ntogoro",
+   "name": "Orunyege-Ntogoro",
+   "country": "Uganda",
+   "country_code": "UG",
+   "region": "Africa",
+   "family": "folk-circle",
+   "flag_emoji": "🇺🇬",
+   "era": "Pre-colonial to present",
+   "tagline": "Courtship dance of western Uganda testing stamina with dried gourd rattles",
+   "profile": "Orunyege-Ntogoro is a traditional courtship dance practiced by the Batooro and Banyoro communities of western Uganda's Bunyoro and Tooro kingdoms. It unites the energetic, acrobatic Orunyege originating from Hoima and Fort Portal districts with the graceful, elegant Ntogoro from Masindi district. Accompanied by drums, flutes, and xylophones, male dancers shake dried gourd rattles tied to their legs while female dancers accentuate hip movements using beaded waist rings.",
+   "insight": "In western Uganda, young men strap dried gourd rattles to their legs to dance in an endurance trial where the first suitor to tire loses the bride.",
+   "aliases": [
+    "Orunyege",
+    "Entogoro",
+    "Runyege",
+    "Orunyege-Ntogoro dance"
+   ],
+   "related": [
+    "Baakisimba"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Orunyege-Ntogoro",
+    "https://www.wikidata.org/wiki/Q124251084"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Orunyege-Ntogoro",
+   "wikidata_qid": "Q124251084",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-11-08T16:15:31Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Dating back to the pre-colonial era of the powerful Bunyoro-Kitara and Tooro kingdoms, Orunyege-Ntogoro emerged as both a communal celebration and a rigorous social mechanism for courtship. Originating across the western Ugandan districts of Hoima, Fort Portal, and Masindi, the form merges two complementary traditions. Orunyege contributes an athletic, acrobatic discipline honed in Hoima and Fort Portal, while Ntogoro provides graceful, fluid movements rooted in Masindi. Historically gathered under the moonlight, young Banyoro and Batooro used these gatherings to socialize, demonstrate stamina, and display affection under the watchful gaze of elders and peers.\n\nAt the center of the dance is a trial of endurance and marital suitability. Oral accounts describe courtship contests where multiple suitors competed for the hand of a single woman before community elders. Because an able husband was expected to provide for and protect a household during severe hardships such as drought or famine, stamina was paramount: the first dancer to succumb to exhaustion was eliminated, and the suitor who demonstrated the greatest physical control won approval. Through these public displays, physical agility directly signaled marital readiness.\n\nThe performance unfolds through two distinct groups: male dancers (abakwongezi) and female dancers (abakwetegerezi). Male dancers strap ebinyege—rattles made from dried gourds or calabashes—tightly to their lower legs. As they execute rapid, high-stamina footwork, jumps, and spins, the ebinyege project sharp acoustic percussive patterns that interlock directly with the drumbeats. In contrast, female dancers wear long skirts, blouses, and entogoro—specialized waist rings constructed from beads or cowrie shells. These rings visually amplify nuanced hip isolations, balancing the male dancers' explosive leaps with controlled, fluid grace.\n\nMusical accompaniment is provided by an ensemble of drummers, flutists, and xylophonists. Drummers vary their rhythmic patterns and speed to dictate shifts in mood and tempo, while flutes and xylophones provide interlocking melodic counterpoints. The performance is guided by a master of ceremonies, designated as omukama, who directs the choreography, coordinates transitions between circular, linear, and paired formations, and chants praises, announcements, and humorous commentary to engage both performers and onlookers.\n\nBeyond weddings and courtship rituals, Orunyege-Ntogoro is embedded in communal milestones such as Empaako praise-name ceremonies, youth initiation rites, and seasonal festivals. In contemporary Uganda, the dance remains vibrant in school-based cultural competitions, civic celebrations, and stage repertoires, where traditional movement vocabularies are preserved alongside evolving choreography.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Dancers_from_bunyoro.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Dancers_from_bunyoro.JPG/1280px-Dancers_from_bunyoro.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3452,
+     "height": 2476,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ngumenawe / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADancers_from_bunyoro.JPG",
+     "description": "This is an image of Cultural Fashion or Adornment from"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Drums_from_western_Uganda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Drums_from_western_Uganda.jpg/1280px-Drums_from_western_Uganda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2896,
+     "height": 1944,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Nyakairuj / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADrums_from_western_Uganda.jpg",
+     "description": "This is an image from"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Orunyege.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Orunyege.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 678,
+     "height": 452,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ian.musinguzi / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AOrunyege.jpg",
+     "description": "Orunyege is a Traditional dance of the Banyoro tribe in Western Uganda."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Preserving_Culture_in_Schools.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Preserving_Culture_in_Schools.jpg/1280px-Preserving_Culture_in_Schools.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 6240,
+     "height": 4160,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Sagiomhza / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3APreserving_Culture_in_Schools.jpg",
+     "description": "Culture, Dance, Art, Music, Folklore"
+    }
+   ],
+   "needs_eyes_on": true,
+   "movie_ready": true,
+   "tradition_status": "living",
+   "related_slugs": [
+    "bakisimba"
+   ]
+  },
+  "entogoro": {
+   "slug": "entogoro",
+   "name": "Entogoro",
+   "country": "Uganda",
+   "country_code": "UG",
+   "region": "Africa",
+   "family": "folk-circle",
+   "flag_emoji": "🇺🇬",
+   "era": "Pre-colonial to present",
+   "tagline": "A courtship dance of Western Uganda powered by leg rattles and beaded waist rings.",
+   "profile": "Entogoro, closely paired with Orunyege as Orunyege-Ntogoro, is a traditional courtship dance of the Batooro and Banyoro peoples of western Uganda. Historically traced to the pre-colonial Bunyoro-Kitara and Tooro kingdoms, the dance served as an athletic arena where young adults demonstrated stamina, agility, and grace to win prospective marriage partners. Male dancers shake dried calabash leg rattles called ebinyege while female dancers accentuate hip movements using beaded waist rings called entogoro. Today, the form thrives at weddings, initiation rites, Empaako naming ceremonies, and national school festivals.",
+   "insight": "In Western Uganda, suitors danced until exhausted: men strapped dried gourd rattles to their legs while women wore beaded waist rings to prove physical stamina and partner suitability.",
+   "aliases": [
+    "Orunyege-Ntogoro",
+    "Orunyege",
+    "Ntogoro",
+    "Ntogoro dance",
+    "Entogoro dance"
+   ],
+   "related": [
+    "Runyege",
+    "Baakisimba"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Orunyege-Ntogoro",
+    "https://www.wikidata.org/wiki/Q124251128"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Orunyege-Ntogoro",
+   "wikidata_qid": "Q124251128",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-11-08T16:17:33Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Orunyege-Ntogoro, also referred to simply as Entogoro or Orunyege, is a customary courtship dance originating among the Batooro and Banyoro communities across western Uganda. Rooted in the pre-colonial eras of the Bunyoro-Kitara and Tooro kingdoms, the dance emerged as a communal mechanism for celebrating regional culture and courtship. In historic practice, young people gathered in the cool air under moonlight to socialize, court, and compete. Oral accounts trace the tradition to public marital contests: when several suitors pursued the same woman, village elders arranged a public dance competition where the first man to fatigue lost his suit, and the victor proved his endurance to provide for and protect a household through drought or hardship.\n\nThe dance represents an integration of two sister traditions originating in distinct districts: Orunyege stems from the Hoima and Fort Portal districts, while Ntogoro originates from the Masindi district. Although the two share historical lineage and core stylistic markers, Orunyege is known for energetic, acrobatic leaps, while Ntogoro emphasizes elegance, poise, and fluid restraint. Together, they create a balanced dialogue between masculine athleticism and feminine grace, preserved through generations across both kingdom territories.\n\nA full performance of Entogoro relies on two distinct groups of performers: the male dancers, known as abakwongezi, and the female dancers, called abakwetegerezi. The male participants dress in shirts and shorts, fastening ebinyege—rattles made from dried gourds or calabashes—tightly around their lower legs. As they strike their feet against the earth, these rattles produce crisp, high-volume percussion that locks into the drumming. The female participants wear long skirts and blouses, accented around the hips by entogoro, thick rings crafted from beads or cowrie shells. These rings draw the eye directly to the rhythmic shifting and shaking of the hips, counterpointing the vigorous stomping and jumping of the men.\n\nPerformances develop through dynamic group formations, transitioning smoothly between circles, facing lines, and partnered pairs. Dancers move in tight synchrony while watching for cues from the lead musicians and the master of ceremonies, known as the omukama. Between structured ensemble figures, dancers step forward to showcase individual improvisations, including rapid spinning, high jumps, and rhythmic shivering of the torso and limbs. The male dancers deliver feats of stamina, while the female dancers answer with intricate hip articulations and poised arm movements.\n\nMusic for Entogoro is provided by an acoustic ensemble comprising tuned drums, flutes, and xylophones. The drummers shift rhythmic patterns and tempi to match the intensity and mood of each section, while flutists and xylophonists interweave melodic lines and supporting harmonies. Presiding over the entire gathering is the master of ceremonies (omukama), who guides the choreography, sings praises, and banters with both dancers and onlookers to maintain collective energy.\n\nBeyond courtship, Entogoro features prominently in traditional life passages, including wedding feasts, initiation ceremonies, and the revered Empaako naming rites of western Uganda. Today, the tradition maintains a living presence across tourism showcases, community centers, and school-based cultural competitions, where choreographed ensembles perform on formal stages while sustaining the rhythmic mastery of the Bunyoro and Tooro kingdoms.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Dancers_from_bunyoro.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Dancers_from_bunyoro.JPG/1280px-Dancers_from_bunyoro.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3452,
+     "height": 2476,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ngumenawe / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADancers_from_bunyoro.JPG",
+     "description": "This is an image of Cultural Fashion or Adornment from"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Drums_from_western_Uganda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Drums_from_western_Uganda.jpg/1280px-Drums_from_western_Uganda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2896,
+     "height": 1944,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Nyakairuj / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADrums_from_western_Uganda.jpg",
+     "description": "This is an image from"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Orunyege.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Orunyege.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 678,
+     "height": 452,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ian.musinguzi / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AOrunyege.jpg",
+     "description": "Orunyege is a Traditional dance of the Banyoro tribe in Western Uganda."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Preserving_Culture_in_Schools.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Preserving_Culture_in_Schools.jpg/1280px-Preserving_Culture_in_Schools.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 6240,
+     "height": 4160,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Sagiomhza / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3APreserving_Culture_in_Schools.jpg",
+     "description": "Culture, Dance, Art, Music, Folklore"
+    }
+   ],
+   "needs_eyes_on": true,
+   "movie_ready": true,
+   "tradition_status": "living",
+   "related_slugs": [
+    "orunyege-ntogoro",
+    "bakisimba"
+   ]
+  },
+  "naleyo": {
+   "slug": "naleyo",
+   "name": "Naleyo",
+   "country": "Uganda",
+   "country_code": "UG",
+   "region": "Africa",
+   "family": "african-diaspora",
+   "flag_emoji": "🇺🇬",
+   "era": "Traditional",
+   "tagline": "Karamajong post-harvest courtship dance of facing lines and high leaps",
+   "profile": "Naleyo is a traditional courtship dance performed by the Karamajong people of North Eastern Uganda. Staged annually following the harvest season, the dance features men and women facing each other in two parallel lines. It serves as a social space where women choose their dance partners and youth seek prospective suitors. Both lines execute vigorous vertical jumps accompanied by traditional instruments including the adungu, ngoma, and ekitirikiti.",
+   "insight": "Facing in two opposing lines across North Eastern Uganda, Karamajong women select their courtship partners as dancers spring into high vertical leaps to the pulse of the ngoma.",
+   "aliases": [
+    "Naleyo dance",
+    "Naleyo Dance"
+   ],
+   "related": [
+    "Courtship dance"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Naleyo",
+    "https://www.wikidata.org/wiki/Q124339531"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Naleyo",
+   "wikidata_qid": "Q124339531",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-11-08T16:22:00Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Naleyo, also known as Naleyo Dance, is a traditional courtship dance rooted in the pastoral culture of the Karamajong people in North Eastern Uganda. The Karamajong live an agro-pastoral herding lifestyle and speak NgaKarimojong, an Eastern Nilotic language. Embedded within the agricultural and pastoral cycle, the dance is held as a yearly tradition following the harvest season, providing a communal forum where young people meet, display vitality, and celebrate their shared heritage.\n\nThe spatial structure of Naleyo is defined by two opposing, parallel lines, positioning men on one side and women directly opposite them. As the ensemble begins to play, the two lines dance facing each other. The defining physical hallmark of Naleyo is the high jumping executed by both men and women. Facing their counterparts across the open floor, dancers spring vertically off the ground. In this arena, women exercise courtship agency by actively selecting their dancing partners, transforming the paired lines into an energetic dialogue of romantic interest and physical prowess.\n\nMusic for the dance relies on an ensemble of traditional instruments that lay down an insistent acoustic foundation. The accompaniment features the adungu, an arched harp, the resonant beat of the ngoma drum, and the rattling percussion of the ekitirikiti. The interlocking melodies of the adungu and the driving percussive cadence of the drums fuel the rhythm, matching the momentum required for repeated, airborne elevations.\n\nAttire plays an integral role in the visual presentation of Naleyo. Men dance wearing a headdress crafted from animal skin, paired with an animal hide skirt and a decorative belt assembled from beads. Women wear skirts fashioned from animal hide and complement their garments with beaded necklaces. These hide garments and beaded ornaments reflect the pastoral material culture of the Karamajong, swaying and accentuating the vertical rise and descent of each leap under the open sky of post-harvest celebrations.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "movie_ready": true,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "vasoorimala": {
+   "slug": "vasoorimala",
+   "name": "Vasoorimala",
+   "country": "India",
+   "country_code": "IN",
+   "region": "South Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇮🇳",
+   "era": "Ancient to present",
+   "tagline": "Ritual Theyyam manifestation invoking the deity of smallpox and healing.",
+   "profile": "Vasoorimala is a sacred ritual dance tradition manifested as Vasoorimala Theyyam across temples in North Kerala and Kodagu. Rooted in regional mythology detailed in Kottarathil Sankunni's Aithihyamala, the deity represents Manodari, the wife of the Asura Darikan, transformed into a companion of Bhadrakali. Originating historically during smallpox outbreaks when communities sought relief from pestilence, the performance functions as a ritual plea for protection against contagious diseases. Today, the Theyyam continues to be performed in sacred shrine groves and temples to seek healing and ward off measles, chickenpox, and other illnesses.",
+   "insight": "Named after a literal chain of pox pustules, Vasoorimala is invoked in North Kerala temples as a Theyyam to turn the terror of smallpox into healing.",
+   "aliases": [
+    "Vasurimala",
+    "Vasoorimala Theyyam",
+    "Manodari"
+   ],
+   "related": [
+    "Theyyam"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Vasoorimala",
+    "https://www.wikidata.org/wiki/Q31700303",
+    "https://pt.wikipedia.org/wiki/Vasurimala"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Vasoorimala",
+   "wikidata_qid": "Q31700303",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.7,
+   "last_researched_at": "2026-11-08T16:27:37Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Vasoorimala Theyyam is a sacred ritual dance tradition rooted in the sacred landscapes of North Kerala and the Kodagu region of Karnataka. Etymologically derived from the Malayalam word vasoori, denoting smallpox, the name translates literally as a chain of pox pustules. In regional understanding, illnesses were historically interpreted as physical manifestations of divine wrath or cosmological imbalance. Communities turned to deities who commanded communicable contagions, entreating both the forces that sowed sickness and the power that could cure it. Across temple complexes and sacred groves, Vasoorimala is venerated as an Upa Devata, or sub-deity, primarily within shrines dedicated to Bhadrakali or Shiva.\n\nThe mythic framework of the dance draws extensively from folklore recorded in the classic text Aithihyamala by Kottarathil Sankunni, intertwined with traditions of the Markandeya Purana. During the mythic cosmic war where goddess Bhadrakali emerged from Shiva's third eye to vanquish the demon king Darikan, Darikan's wife Manodari sought intervention. Approaching Mount Kailasa, Manodari undertook fierce penance to propitiate Shiva. Pleased by her devotion, Shiva wiped perspiration from his divine body and gifted the drops to her, promising that spraying this water would compel humans to yield whatever sustenance she required. However, upon returning to find Bhadrakali bearing Darikan's severed head, an enraged Manodari flung the sweat drops onto Bhadrakali, instantly covering the goddess in smallpox pustules. In retribution, Bhadrakali blinded Manodari, renamed her Vasoorimala, and bound her as an eternal subordinate companion. Parallel regional myths recount Vasoorimala emerging directly from Shiva's consciousness when the god contracted smallpox, or acting as an ally of Kurumba during the vanquishing of Darika.\n\nHistorically, when devastating smallpox epidemics swept across coastal and forested settlements, communities manifested the disease itself into physical reality through Theyyam. By embodying the deity of pox in the ritual arena, performers sought to pacify her wrath and bring an end to contagion. The performance of Vasoorimala Theyyam remains an act of communal propitiation rather than theatrical recreation. It is conducted in shrines such as the Kodungallur Bhagavathy Temple, Sri Porkili Kavu, Valiyakulangara Devi Temple in Mahadevikad, and the Vasoorimala Devi Temple in Mavelikara, as well as northern sacred kavus where the living Theyyam tradition persists.\n\nWithin the sacred performance space, the ritual dancer undergoes an elaborate transformation, ceasing to be an ordinary individual and becoming the living presence of the deity. Although specific choreography, talas, and bodily kinetics are passed down strictly through hereditary practitioner lineages and remain undocumented in surviving written accounts, the ritual structure centers upon healing and divine communion. Devotees assemble before the manifesting Theyyam seeking blessings, release from fever, and protection against chickenpox, measles, and infectious ailments. Rooted firmly within the traditional bounds of hereditary temple rituals, Vasoorimala Theyyam endures as an intense living bridge between historical epidemic trauma and sacred restorative worship.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Vasoorimala_theyyam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Vasoorimala_theyyam.jpg/1280px-Vasoorimala_theyyam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1920,
+     "height": 2560,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Mithunrajkeekkamkot / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AVasoorimala_theyyam.jpg",
+     "description": ""
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Vasoorimala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Vasoorimala.jpg/1280px-Vasoorimala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3587,
+     "height": 5381,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "KaustubhShrm / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AVasoorimala.jpg",
+     "description": "Vasoorimala is the goddess of disease. The theyyam represents the belief that diseases were the wrath of the Gods. She is depicted as an angry theyyam but is always portrayed by a male performer."
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "Vasoorimala Theyyam is a sacred ritual embodiment of a Hindu deity conducted in temple precincts for the healing of communicable diseases. It is not an open social or performance dance and should not be casually imitated or treated as recreational entertainment.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "theyyam"
+   ]
+  },
+  "khiamniungan-folk-dance": {
+   "slug": "khiamniungan-folk-dance",
+   "name": "Khiamniungan folk dance",
+   "country": "India",
+   "country_code": "IN",
+   "region": "South Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇮🇳",
+   "era": "Contemporary",
+   "tagline": "Traditional dances of the Khiamniungan Naga tribe, rooted in festivals and social life.",
+   "profile": "The Khiamniungan folk dances, known as Tsuikuap, are integral to the cultural identity of the Khiamniungan Naga people of Nagaland. These performances range from celebratory harvest festivals and feasts of merit to solemn war rituals and peace treaty receptions. Dancers typically perform in full traditional attire, often carrying weapons such as spears, shields, and the Dao sword. Each dance serves a distinct social or spiritual function, marking the agricultural cycle, honoring the divine, or preparing warriors for combat.",
+   "insight": "During the Kheulak ritual, six warriors place their Dao swords on the ground before the Morung and jump with temerity to pledge victory before battle.",
+   "aliases": [],
+   "related": [
+    "Naga folk dances"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Khiamniungan_folk_dances",
+    "https://www.wikidata.org/wiki/Q121718360"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Khiamniungan_folk_dances",
+   "wikidata_qid": "Q121718360",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 8.7,
+   "last_researched_at": "2026-11-08T16:33:07Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Tsuikuap, or folk dances of the Khiamniungan Naga tribe, serve as a primary vehicle for cultural expression and social cohesion in Nagaland. These dances are not merely aesthetic performances but are deeply embedded in the community's identity, marking the passage of the agricultural year and the significant milestones of tribal life. The dances are performed in full traditional regalia, including the Ahangküha, and often incorporate the use of traditional weaponry such as spears, shields, and the Dao—a distinctive Naga sword. The setting for these performances is frequently the Morung, the traditional village dormitory and community center, which serves as the focal point for both social gatherings and ritual preparations.\n\nFestivals such as Miu and Tsoukum provide the primary context for communal dancing. The Langnyu-Khiamjangje dance is performed during these two interconnected festivals, which are central to the Khiamniungan calendar. Similarly, the Hoi-ie-tsui dance is a post-harvest celebration held during the Tsoukum festival in October. Gratitude for the harvest and divine blessing is expressed through the Khāutsāuhsîe dance, performed during the Khāutsāuhsîe Sümai festival in January. This dance is accompanied by songs that invoke the Barbet bird and celebrate the abundance of the land, as symbolized by snow-covered mountains. Beyond harvest celebrations, the Jamhang dance serves as a 'Feast of Merit,' a significant social event within the tribe.\n\nWarfare and conflict resolution have historically shaped the repertoire of Khiamniungan dance. The Kheulak is a ritual performed on the eve of battle, where six warriors, fully armed, jump with courage before the Morung, having placed their Dao swords on the ground as a pledge of victory. The Shikuoh, or war dance, involves male dancers replicating combat movements while shouting battle cries to protect the village. In preparation for war, the Tsouchong dance is performed by able-bodied men, whose movements mimic the ferocity of tigers and bears to psych themselves up for combat. Conversely, the I-li-tsuihang, or victory dance, was historically performed upon the return of warriors to the village, signifying strength and the successful defense of the community. In times of peace, the Noknap-ie-tsuikuap serves as a formal reception dance for peace treaties, typically held in January when agricultural labor is minimal, symbolizing the mutual desire for coexistence. Social occasions are also marked by the Shapautaithiu, a welcome dance where performers move backward while facing the guest of honor. These dances, taken together, form a comprehensive record of the Khiamniungan people's relationship with their environment, their history, and their spiritual beliefs.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "needs_eyes_on": true,
+   "sacred_note": "The dances are deeply rooted in cultural identity and traditional rituals; outsiders should observe with respect and follow local protocols regarding participation.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "ekitaguriro": {
+   "slug": "ekitaguriro",
+   "name": "Ekitaguriro",
+   "country": "Uganda",
+   "country_code": "UG",
+   "region": "Africa",
+   "family": "folk-circle",
+   "flag_emoji": "🇺🇬",
+   "era": "Traditional",
+   "tagline": "A celebratory folk dance from the Ankole region of Uganda mimicking cattle movements.",
+   "profile": "Ekitaguriro, often called the Cow Dance, is a traditional folk dance from the Ankole region of southwestern Uganda. It serves as a celebratory expression of gratitude for cattle, performed during significant life milestones like births, marriages, and harvests. The dance involves men imitating the walking gait of cows while women use their arms to represent the iconic long-horned cattle of the region.",
+   "insight": "In the Ankole region, men open the Ekitaguriro by performing 'Okwevuga,' a form of poetry where they narrate their life's achievements before imitating the gait of cows.",
+   "aliases": [
+    "Kitaguriro",
+    "Ekitaguriro dance",
+    "Ankole Cow Dance",
+    "Cow Dance",
+    "ekitaguliro"
+   ],
+   "related": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ekitaguriro",
+    "https://www.wikidata.org/wiki/Q124333764"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Ekitaguriro",
+   "wikidata_qid": "Q124333764",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.45,
+   "last_researched_at": "2026-11-08T16:41:02Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Ekitaguriro, also known as the Cow Dance, originates from the Ankole region in southwestern Uganda. This region, historically formed through the amalgamation of the Nkore kingdom with the chiefdoms of Sheema, Buhweju, and Igara, provides the cultural backdrop for this tradition. The society of the Ankole kingdom was historically divided into two distinct factions: the Bahima, who were nobles and pastoralists, and the Bairu, who were agriculturalists and peasants. Despite these social distinctions, the Ekitaguriro serves as a unifying cultural practice performed by both men and women. The dance is deeply intertwined with the significance of cattle in the region, acting as a medium to convey narratives, communicate essential cultural knowledge, and celebrate the prosperity of the community. It is performed during major life events, including births, marriages, and the celebration of abundant harvests. The performance structure is distinct, beginning with a segment called 'Okwevuga,' where men perform poetry to narrate their personal achievements. This oral tradition sets the stage for the physical movement that follows. In the dance, men imitate the movement of cows walking by stepping from one leg to another, while women sway from side to side, spreading their hands across and above their heads to represent the long-horned cattle. The dancers wear traditional attire known as 'bitambi' or 'lessu,' which is tightly tied around the waist with a lighter cloth draped over the shoulders. Women often adorn themselves with African-themed jewelry, while men wear shackle-like beads that emphasize their foot movements and add an auditory layer to the performance. The music is provided by a variety of instruments, including flutes, the Engalabi drum, shakers, and hand clapping. The dance is a living tradition, serving as an integral part of social gatherings and events in the region. It functions not only as entertainment but as a symbolic representation of the deep-rooted cultural importance of cattle to the people of Ankole. The movements are deliberate and rhythmic, reflecting the pastoral lifestyle that has shaped the history of the region. As a performance, it requires coordination between the dancers to maintain the imagery of the cattle, with the men focusing on the gait and the women focusing on the silhouette of the horns. The use of 'bitambi' and 'lessu' fabrics creates a visual uniformity that enhances the communal nature of the dance. The auditory accompaniment, ranging from the percussive sounds of the Engalabi to the melodic input of flutes, creates a soundscape that is recognizable within the context of Ugandan folk traditions. The Ekitaguriro remains a vital expression of identity, linking the contemporary community to the historical practices of the Ankole kingdom.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/%22ekitaguriro%22_lcal_dance_name.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2b/%22ekitaguriro%22_lcal_dance_name.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1024,
+     "height": 576,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Aubry Arihona / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3A%22ekitaguriro%22_lcal_dance_name.png",
+     "description": "This is an image from"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Traditional_dancers_from_Ankole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Traditional_dancers_from_Ankole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 750,
+     "height": 423,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Owobusingye / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATraditional_dancers_from_Ankole.jpg",
+     "description": "Traditional dancers from Ankole"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Ndere_Troupe_performing_the_Ekitaguriro_cultural_dance_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Ndere_Troupe_performing_the_Ekitaguriro_cultural_dance_01.jpg/1280px-Ndere_Troupe_performing_the_Ekitaguriro_cultural_dance_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4032,
+     "height": 2268,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Kateregga1 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ANdere_Troupe_performing_the_Ekitaguriro_cultural_dance_01.jpg",
+     "description": "Ekitaguriro aka Cow Dance is a traditional dance originating from Nkore or Ankole region which is located in South Western Uganda. It is a celebratory dance that is performed by both men and women as an expression of gratitude for their cattle and to showcase local prosperity such as birth, marriage and abundant harvest. It is an integral part of social gatherings and events in the region, symboli"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "siddavesa": {
+   "slug": "siddavesa",
+   "name": "Siddavesa",
+   "country": "India",
+   "country_code": "IN",
+   "region": "South Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇮🇳",
+   "era": "Traditional",
+   "tagline": "A sacred, all-night mythological folk dance performed by the Arebhahse people of Sullia.",
+   "profile": "Siddavesa is a traditional, religious folk dance performed by the Arebhahse community in Sullia during the full moon of the Suggi month. The performance lasts from sunset until dawn, involving mythological mimicry, singing, and dancing as performers visit local homes. Central characters like the Sanyasi, Bhatru, and Dasayye embody specific archetypes, interacting with the public to enact stories rooted in Natha Pantha influences.",
+   "insight": "During the Suggi month, the Sanyasi character roams courtyards carrying a symbolic phallus of tied wooden sticks, using provocative language to engage residents in a ritual of mythological mimicry.",
+   "aliases": [],
+   "related": [
+    "Suggi Nalike",
+    "Chennu Nalike"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Siddavesa",
+    "https://www.wikidata.org/wiki/Q31830689"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Siddavesa",
+   "wikidata_qid": "Q31830689",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.55,
+   "last_researched_at": "2026-11-08T16:41:14Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Siddavesa is a profound, nocturnal ritual dance tradition maintained by the Arebhahse people of Sullia. It is inextricably linked to the agricultural and lunar cycle, specifically occurring during the full moon of the Suggi month on the Tulu calendar. The performance is not merely an entertainment but a complex, all-night enactment of mythological farce that serves to connect the performers with the households of their community. The tradition is deeply rooted in the philosophy and practices of the Natha Pantha, a religious movement that informs the characters and the symbolic nature of the performance. As the sun sets, the troupe gathers at a designated holy site, often the Daivradhane Chavadi or a Guttu house, to prepare for the night ahead. This preparation is marked by a ritual prayer led by the eldest members of the group, who invoke the blessings of Kadri Manjunatha, local spirits, and the ancestors of the community. Once the prayers are concluded, the performers don their costumes, which are often fashioned from locally available materials, and begin their journey from house to house. The arrival of the troupe is announced by a loud, rhythmic chant of 'Ḍimbisāle, Ḍimbisāle,' a signal that alerts the residents of the approaching performance. This chant also serves a protective function, as the performers believe that an accidental encounter with the Chennu Nalike dance, performed by the Mera community, constitutes a bad omen. Upon reaching a house, the troupe initiates a specific sequence of events. The Sanyasi, the central figure of the performance, is sent into hiding near the house while the other members enter the courtyard to rouse the residents. A lamp is placed at the center of the performance space, often near the Tuḷasi Kaṭṭe, and the dancers move around it while singing traditional verses. The performance is highly interactive, with characters such as the Bhatru, the village priest, and the Dasayye, a devotee, engaging with the public. The Sanyasi, once he emerges, roams the courtyard carrying a symbolic phallus constructed from four or five wooden sticks tied together. His presence is characterized by the use of unusual and provocative language, which contrasts with the more structured roles of the other performers. The costumes are highly specific to the characters portrayed. The Bhatru wears a white dhoti and a sacred thread (janivara) with a large knot, his body smeared with sandalwood paste. The Dasayya is dressed in a white dhoti and red shawl, carrying a conch and a drum, with a long nama marked on his forehead. The Sanyasi is perhaps the most striking, wearing an outfit of dried camouflage leaves. Other characters, such as the Koraga, who covers his body in dark paint, or the Byari, who wears a traditional hat and a checked dhoti, add to the diversity of the performance. The entire night is a cycle of movement, song, and mimicry that continues until the morning, reflecting a deep-seated commitment to the preservation of these mythological archetypes within the social fabric of the Arebhahse people.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Siddhavesha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Siddhavesha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1280,
+     "height": 960,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Vishwanatha Badikana / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASiddhavesha.JPG",
+     "description": "Siddhavesha Nlike"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "The dance is a religious and traditional folk performance involving prayers to local spirits and ancestors; outsiders should respect the ritual nature of the performance and the sanctity of the Guttu house or Daivradhane Chavadi.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "chennu-nalike"
+   ]
+  },
+  "hayachine-kagura": {
+   "slug": "hayachine-kagura",
+   "name": "Hayachine Kagura",
+   "country": "Japan",
+   "country_code": "JP",
+   "region": "East Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇯🇵",
+   "era": "14th-15th century",
+   "tagline": "A series of twelve masked ritual dances performed at Hayachine Shrine, Japan.",
+   "profile": "Hayachine Kagura is a series of twelve masked ritual dances performed annually at the Hayachine Shrine in Hanamaki, Iwate, Japan. The cycle begins with six ritualistic dances, followed by five dances depicting medieval Japanese history and deities, and concludes with a performance by a shishi, a lion-like creature representing the mountain god. Originally performed by shrine officials, the tradition is now maintained by lay community members as a vital expression of local identity.",
+   "insight": "On August 1st, a performer dons a shishi mask to embody the mountain deity of Mount Hayachine, concluding a five-hour cycle of twelve ritual dances that have been performed since the 14th or 15th century.",
+   "aliases": [],
+   "related": [
+    "Noh"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hayachine_kagura",
+    "https://www.wikidata.org/wiki/Q11511418",
+    "https://es.wikipedia.org/wiki/Kagura_de_Hayachine",
+    "https://fr.wikipedia.org/wiki/Kagura_d'Hayachine",
+    "https://ich.unesco.org/en/RL/00272"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Hayachine_kagura",
+   "wikidata_qid": "Q11511418",
+   "unesco": true,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": 39.532111,
+   "lng": 141.417139,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 8.35,
+   "last_researched_at": "2026-11-08T16:41:55Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Hayachine Kagura is a ritual performance tradition centered at the Hayachine Shrine in Hanamaki, Iwate Prefecture. Dating back to the 14th or 15th century, the practice emerged from the worship of Mount Hayachine as a divine entity. Historically, these dances were the exclusive domain of holy shrine officers, who performed them to demonstrate the power of the mountain deity and to bestow blessings upon the local population. Over time, the performance transitioned into a community-led tradition, now maintained by lay practitioners who take pride in their cultural heritage. The full cycle of Hayachine Kagura consists of twelve distinct dances and spans approximately five hours. The sequence is structured into three thematic parts: the first six dances are strictly ritualistic, the next five recount medieval Japanese history and the stories of various deities, and the final dance features a performer dressed as a shishi, an imaginary lion-like creature that serves as the personification of the mountain god. The dancers wear masks throughout the performance, which is accompanied by an ensemble playing drums, cymbals, and flutes. While the primary performance occurs annually on August 1st at the Hayachine Shrine, the dances are also presented at other times of the year and in various locations throughout the Iwate Prefecture. These performances, often referred to as 'discipleship' shows, serve to transmit the tradition and reinforce the collective identity of the community. Scholars have noted potential influences from the practices of the yamabushi—Buddhist ascetics who lived in the mountains—and have explored possible historical connections between this kagura and the development of Noh theater. In 2009, UNESCO recognized the significance of this tradition by inscribing it on the Representative List of the Intangible Cultural Heritage of Humanity, acknowledging its role in celebrating mountain deities and preserving Japanese history.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "ich_ref": "272",
+   "needs_eyes_on": true,
+   "sacred_note": "The dance is a ritual performed in Shinto ceremonies in honor of the deity Seoritsu.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "noh"
+   ]
+  },
+  "gojinjo-taiko": {
+   "slug": "gojinjo-taiko",
+   "name": "Gojinjo Taiko",
+   "country": "Japan",
+   "country_code": "JP",
+   "region": "East Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇯🇵",
+   "era": "16th century",
+   "tagline": "A percussive war ritual from Nafune village, designed to terrify invaders.",
+   "profile": "Gojinjo Taiko is a Japanese drum tradition originating from the village of Nafune in Wajima City. It is a ritualized performance characterized by the use of ferocious masks and deep, resonant drumming. Historically rooted in military defense, the practice remains a protected cultural heritage of Ishikawa Prefecture. Performance is restricted to the residents of Nafune, ensuring the tradition remains localized and rare.",
+   "insight": "In 1577, the residents of Nafune village repelled the invading army of Uesugi Kenshin by wearing devil masks and beating drums to mimic the sound of a rumbling earthquake.",
+   "aliases": [
+    "Gojinjo-daiko"
+   ],
+   "related": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gojinjo-daiko",
+    "https://www.wikidata.org/wiki/Q126021047"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Gojinjo-daiko",
+   "wikidata_qid": "Q126021047",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.25,
+   "last_researched_at": "2026-11-08T16:47:37Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The tradition of Gojinjo Taiko is deeply embedded in the history of Noto Province, specifically within the small village of Nafune in Wajima City. The practice emerged in 1577 during a period of intense military conflict when the warlord Uesugi Kenshin invaded the region. Lacking conventional weaponry, the local population devised a psychological defense strategy to protect their homes. They utilized war drums to create a low, resonant sound that mimicked the rumbling of the earth, an auditory tactic intended to disorient and intimidate the invading forces. \n\nTo further enhance the psychological impact of their resistance, the villagers donned ferocious-looking devil masks. These masks were constructed using natural materials, specifically seaweed and bark, to create a terrifying appearance. The combination of the deep, earth-shaking drum beats and the sight of the masked villagers proved effective, causing Uesugi Kenshin and his soldiers to retreat. This historical event serves as the foundation for the modern performance of Gojinjo Taiko. \n\nToday, the tradition is recognized as a significant cultural asset. It was designated as part of Wajima City’s cultural heritage in 1961 and as an intangible cultural heritage of Ishikawa Prefecture in 1963. Despite its status as a cultural treasure, the practice remains highly exclusive. Performance is strictly restricted to the residents of Nafune, a village with a population of approximately 250 people. Because of these strict community-based restrictions, live performances of Gojinjo Taiko are rare, preserving the tradition within its original geographic and social context. The dance is classified as a type of drum dance, though specific technical details regarding the choreography, rhythm patterns, and musical notation are not described in sources.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "needs_eyes_on": true,
+   "sacred_note": "Playing gojinjo-daiko is strictly restricted to residents of Nafune.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "collegiate-shag": {
+   "slug": "collegiate-shag",
+   "name": "Collegiate Shag",
+   "country": "United States",
+   "country_code": "US",
+   "region": "North America",
+   "family": null,
+   "flag_emoji": "🇺🇸",
+   "era": "1930s",
+   "tagline": "A high-energy partner dance defined by a constant, upright bounce and rapid footwork.",
+   "profile": "Collegiate Shag is a high-tempo partner dance from the American swing era, characterized by a constant vertical pulse and intricate, rapid footwork. Emerging in the 1920s within African American communities in the Carolinas, it became a staple of the 1930s collegiate social scene. Today, it is maintained by a global community of swing enthusiasts who dance to uptempo jazz and pre-swing music.",
+   "insight": "Danced at speeds often exceeding 250 beats per minute, Collegiate Shag requires partners to maintain a tight, offset chest-to-chest connection while their feet perform a rapid, shuffling rhythm.",
+   "aliases": [
+    "shag"
+   ],
+   "related": [
+    "Lindy Hop",
+    "Balboa",
+    "Carolina Shag",
+    "St. Louis Shag"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Collegiate_shag",
+    "https://www.wikidata.org/wiki/Q9302770",
+    "https://pt.wikipedia.org/wiki/Collegiate_shag",
+    "https://de.wikipedia.org/wiki/Shag_(Tanz)"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Collegiate_shag",
+   "wikidata_qid": "Q9302770",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.25,
+   "last_researched_at": "2026-11-08T16:47:52Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Collegiate Shag, often referred to simply as 'shag', is a partner dance that emerged within the African American communities of the Carolinas during the 1920s. By the 1930s, the dance had spread across the United States, becoming a popular fixture among the college-aged youth of the swing era. The dance is defined by its high-energy, uptempo nature, typically performed to music ranging from 185 to over 250 beats per minute. Unlike many other swing-era dances, the shag is characterized by a consistent vertical pulse, where dancers maintain a 'bounce' or 'hop' on the balls of their feet to match every beat of the music.\n\nThe basic rhythmic structure of the most popular form, double-rhythm shag, follows a 'slow, slow, quick, quick' pattern over six counts. In this basic, the 'slow' steps involve a weight shift and a hop, while the 'quick' steps are shuffling movements. Partners typically dance in a closed, face-to-face position, though they are offset so that their feet do not collide, resembling the teeth of a zipper. A distinctive visual feature of the dance is the high arm position, where the lead's left hand and the follow's right hand are held high in the air, sometimes pointed straight up depending on the height of the partners. The follow's left arm often rests on the lead's shoulder or is draped around their neck.\n\nHistorically, the term 'shag' was a broad designation for a family of jitterbug dances, leading to significant confusion in historical records. Many dances shared the name but were unrelated, such as the Carolina Shag and the St. Louis Shag. The 'collegiate' prefix was added in the 1930s to distinguish this specific style from other regional variations, reflecting its popularity on university campuses. Despite its widespread adoption, the dance was not initially taught in formal studios, but rather evolved as a street dance. It was later standardized by institutions like the Arthur Murray studios in the late 1930s.\n\nToday, the dance is experiencing a revival, with active communities in cities such as Barcelona, Warsaw, Vilnius, and Los Angeles. Modern practitioners study the dance through historical films and instruction from both first-generation dancers and contemporary experts. The dance is frequently performed alongside other swing dances like the Lindy Hop and Balboa, often to Dixieland or Gypsy-Jazz music. The modern scene is supported by both historical recordings and new compositions from contemporary swing bands, ensuring that the high-energy spirit of the 1930s continues to be practiced by a new generation of dancers.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "not described in sources",
+     "artist": "California Feetwarmers",
+     "source": "https://de.wikipedia.org/wiki/Shag_(Tanz)",
+     "verified": false
+    },
+    {
+     "title": "not described in sources",
+     "artist": "Dizzy Birds",
+     "source": "https://de.wikipedia.org/wiki/Shag_(Tanz)",
+     "verified": false
+    }
+   ],
+   "images": [],
+   "movie_ready": true,
+   "tradition_status": "living",
+   "related_slugs": [
+    "lindy-hop",
+    "balboa",
+    "st-louis-shag"
+   ]
+  },
+  "tambor-de-crioula": {
+   "slug": "tambor-de-crioula",
+   "name": "Tambor de Crioula",
+   "country": "Brazil",
+   "country_code": "BR",
+   "region": "South America",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇧🇷",
+   "era": "19th century to present",
+   "tagline": "A vibrant Afro-Brazilian circular dance from Maranhão honoring Saint Benedict.",
+   "profile": "Tambor de Crioula is a traditional Afro-Brazilian dance from the state of Maranhão, characterized by a circular formation, rhythmic percussion, and the distinctive 'punga' gesture. Practiced by descendants of enslaved Africans, it serves as both a social celebration and a religious tribute to Saint Benedict. The dance is performed without fixed schedules or rehearsals, often occurring in public squares or private terreiros. It is recognized as Brazilian Intangible Cultural Heritage.",
+   "insight": "In a ritual of connection, a dancer invites another by performing the 'punga'—a sudden, rhythmic belly-to-belly bump that signals the exchange of the dance's central role.",
+   "aliases": [
+    "Tambor de punga"
+   ],
+   "related": [
+    "Bumba-meu-boi",
+    "Cacuriá"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tambor_de_Crioula",
+    "https://www.wikidata.org/wiki/Q10378015",
+    "https://es.wikipedia.org/wiki/Tambor_de_crioula",
+    "https://fr.wikipedia.org/wiki/Tambour_de_crioula",
+    "https://pt.wikipedia.org/wiki/Tambor_de_crioula"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Tambor_de_Crioula",
+   "wikidata_qid": "Q10378015",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-11-08T16:48:16Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Tambor de Crioula is a profound expression of Afro-Brazilian identity, rooted in the history of enslaved populations in the state of Maranhão. While its precise origins are difficult to date, historical records trace the practice back to at least 1818, where it was documented as a 'batuque' involving drumming and singing. Today, it is recognized as a vital component of Brazil's intangible cultural heritage, officially registered by IPHAN in 2007. The dance functions as a space for social cohesion, celebration, and religious devotion, particularly in honor of Saint Benedict, the 'black saint' highly revered in the region.\n\nThe dance is performed in a circular formation, where the coreiras (female dancers) move with grace and energy. The choreography is not rehearsed; it is spontaneous and fluid. A central feature of the dance is the 'punga' or 'umbigada,' a gesture where a dancer in the center invites another from the circle to take her place by performing a rhythmic belly-to-belly bump. This exchange is the heartbeat of the performance, maintaining the energy of the circle. The dancers are accompanied by the coureiros, men who play a set of three handmade drums known as 'parelhas.' These drums—the crivador, the meião, and the roncador—are crafted from hollowed-out logs and covered in animal leather. To achieve the perfect pitch, the coureiros tune the drums by heating them over an open fire before and during the performance.\n\nMusic is central to the experience, featuring call-and-response singing led by a primary improviser. The lyrics often address daily life, satires, farewells, or praise for saints. The instrumentation is completed by the pandeiro and matracas, which provide a rhythmic pulse. The aesthetic of the dance is as vibrant as the music; women typically wear wide, colorful skirts with lace, blouses, and turbans adorned with flowers and jewelry. Men often wear white pants, patterned shirts, and straw hats. \n\nPracticed throughout the year, the dance is especially frequent during Carnival and the June festivities. It is not tied to a specific location or schedule, occurring in public squares, terreiros, or as part of social gatherings like birthdays or the arrival of friends. In 2018, the Casa do Tambor de Crioula was established in São Luís to serve as a center for research, documentation, and the preservation of this tradition, ensuring that the memory and techniques of the dance continue to be passed down to future generations.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Casa_do_Tambor_de_Crioula_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Casa_do_Tambor_de_Crioula_-_01.jpg/1280px-Casa_do_Tambor_de_Crioula_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3264,
+     "height": 2448,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ajmcbarreto / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ACasa_do_Tambor_de_Crioula_-_01.jpg",
+     "description": "Parte exterior e exposições da Casa do Tambor de Crioula, espaço cultural destinado à preservação memória das manifestações populares de origem afro-brasileiras da cidade São Luís, MA"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Casa_do_Tambor_de_Crioula_-_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Casa_do_Tambor_de_Crioula_-_09.jpg/1280px-Casa_do_Tambor_de_Crioula_-_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3264,
+     "height": 2448,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ajmcbarreto / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ACasa_do_Tambor_de_Crioula_-_09.jpg",
+     "description": "Parte exterior e exposições da Casa do Tambor de Crioula, espaço cultural destinado à preservação memória das manifestações populares de origem afro-brasileiras da cidade São Luís, MA"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "Practiced in praise of Saint Benedict; involves religious devotion.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "chakkirako": {
+   "slug": "chakkirako",
+   "name": "Chakkirako",
+   "country": "Japan",
+   "country_code": "JP",
+   "region": "East Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇯🇵",
+   "era": "Edo period to present",
+   "tagline": "A New Year ritual dance from Miura, Japan, performed by girls for fishing prosperity.",
+   "profile": "Chakkirako is a traditional Japanese ritual dance performed annually on January 15th in the city of Miura. It features a group of ten to twenty girls aged five to twelve who dance in colorful kimono to invoke prosperity and successful fishing. The performance is accompanied by an a cappella choir of older women and involves rhythmic clicking of bamboo strips.",
+   "insight": "The name 'Chakkirako' is an onomatopoeia derived from the sharp, rhythmic clicking sound of bamboo strips held by young girls as they dance for a bountiful fishing season in Miura.",
+   "aliases": [
+    "チャッキラコ"
+   ],
+   "related": [
+    "Furyu-odori"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chakkirako",
+    "https://www.wikidata.org/wiki/Q11318123",
+    "https://fr.wikipedia.org/wiki/Chakkirako"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Chakkirako",
+   "wikidata_qid": "Q11318123",
+   "unesco": true,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": 35.14261111,
+   "lng": 139.61880556,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.7,
+   "last_researched_at": "2026-11-08T16:48:56Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Chakkirako is a distinctive ritual dance centered in the coastal city of Miura, Kanagawa Prefecture, Japan. Historically rooted in the Edo period, the dance emerged through the cultural exchange between local residents and visiting sailors. By the mid-eighteenth century, it had solidified its place as a community showcase for young girls, serving as a spiritual mechanism to ensure good fortune and abundant harvests for the local fishing industry. The dance is performed annually on January 15th, marking the New Year celebrations. The performers are exclusively young girls between the ages of 5 and 12, typically numbering between ten and twenty. Dressed in vibrant, colorful kimono, these dancers move in structured formations—either in two facing rows or in a circle—within the grounds of local shrines or in front of community homes. The auditory landscape of the performance is unique; the dancers hold bamboo strips in their hands, striking them together to create a rhythmic clicking sound. This specific sound, described as 'chakkirako,' provides the name for the tradition itself. The dancers do not sing; instead, they are accompanied by a choir of five to ten older women who provide the musical foundation through a cappella singing. The dance is deeply embedded in the social fabric of Miura, acting as a bridge between generations and a vessel for community identity. In 1976, the Japanese government recognized the dance as an intangible cultural heritage. Internationally, it gained significant recognition when it was inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity in 2009. In 2022, the dance was incorporated into the broader category of Furyu-odori, a collective designation for Japanese folk performing arts that involve singing, dancing, and musical accompaniment. Despite these administrative shifts, the core practice remains a living tradition, maintained by the local community to preserve their heritage and continue the prayers for prosperity that have defined the dance for centuries. The performance is not merely a spectacle but a functional ritual, designed to bring the community together at the start of the year and reinforce the cultural bonds that sustain the fishing village of Miura.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "needs_eyes_on": true,
+   "sacred_note": "not described in sources",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "melinting-dance": {
+   "slug": "melinting-dance",
+   "name": "Melinting dance",
+   "country": "Indonesia",
+   "country_code": "ID",
+   "region": "Southeast Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇮🇩",
+   "era": "16th century",
+   "tagline": "A 16th-century royal dance from Lampung, Indonesia, symbolizing gratitude and majesty.",
+   "profile": "The Melinting dance is a traditional performance from the Lampung province of Indonesia, originating in the 16th century under the reign of Ratu Melinting II. Originally a restricted royal ritual, the dance serves to express gratitude and demonstrate the majesty of the Melinting kingdom. Today, it is performed by eight dancers—four men and four women—who navigate through specific rounds including the opening, the kugowo queen, the floating kenui, and the closing. The dance is characterized by its distinct costume, which incorporates Islamic influences alongside traditional Lampung elements like tapis cloth and gold headgear.",
+   "insight": "In 1965, President Sukarno renamed the 16th-century 'Cetik Kipas' dance to 'Melinting,' marking its transition from a private royal ritual of the Lampung nobility to a national stage performance.",
+   "aliases": [
+    "Melinting"
+   ],
+   "related": [
+    "Gending Sriwijaya"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Melinting",
+    "https://www.wikidata.org/wiki/Q56249212"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Melinting",
+   "wikidata_qid": "Q56249212",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-08",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 8.65,
+   "last_researched_at": "2026-11-08T16:49:05Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Melinting dance stands as a significant cultural relic of the Melinting Kingdom in the Lampung province of Indonesia. Historically, the dance was created by Ratu Melinting II during the 16th century, a period thought to coincide with the expansion of Islamic influence within the region. For centuries, the dance remained a closely guarded tradition, exclusively owned and performed by the royal family and the nobility of the Melinting court. It served as a formal expression of gratitude for prosperity and a visual representation of the authority and majesty of the Ratu. Before the mid-20th century, the dance was rarely seen outside of the royal circle, maintaining its status as a sacred or restricted practice reserved for the elite.\n\nThe evolution of the dance into the public sphere began in 1930, when it was performed in Teluk Betung at the invitation of the Resident of Lampung to the Pesirah Marga. However, its most significant transformation occurred in 1965. President Sukarno, recognizing the cultural value of the performance, proposed a name change from its original title, 'Cetik Kipas,' to 'Melinting.' He requested that the Central Lampung Regional Government perform the dance at Istora Senayan in Jakarta on August 17, 1965, effectively elevating the dance from a regional royal tradition to a national symbol. Despite this exposure, the dance remains relatively obscure even among the broader population of Lampung, preserving a sense of its original exclusivity.\n\nThe performance structure of the Melinting dance is highly organized, involving a group of eight dancers, split evenly between four men and four women. The choreography is divided into four distinct rounds: the opening round (Pembuka), the kugowo queen round, the floating kenui round, and the closing round (Penutup). Each round serves a specific purpose, whether it is to welcome guests, signify respect, or accompany the dancers into the performance arena. The movements are gender-specific, reflecting the traditional roles and aesthetics of the Melinting court.\n\nThe visual presentation of the dance is heavily influenced by Islamic traditions, which have shaped the properties and costumes used by the performers. Male dancers are adorned in tapis cloth, a belanga shirt, and a gold skullcap, accented by seretei feathers (Bulu seretei) and a fan. Female dancers wear a tapis pepadun, a long-sleeved white kebaya, and a yellow veil, accessorized with a bun, jukum fruit, and a ruwi bracelet. The use of fans by both genders is a central element of the performance. Furthermore, the application of make-up is considered essential, as it is believed to influence the atmosphere and the overall impact of the performance on the audience.\n\nMusical accompaniment is integral to the Melinting dance, utilizing instruments traditional to the Lampung people. The ensemble typically includes the Kalo Bala, kendang, gongs, gamelan, and fiddle. These instruments work in concert to provide the necessary rhythm for the dancers' movements and to signal the different phases of the performance. The music serves not only as a rhythmic guide but also as a sign of respect for the guests present at traditional events. While the dance has undergone refinements—most notably in 1958—it continues to function as a bridge between the historical majesty of the Melinting Kingdom and contemporary Indonesian cultural identity.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Bali-Danse_0710a.jpg/1280px-Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3504,
+     "height": 2336,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+     "description": "bali ubud danseur"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Tari_Melinting_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Tari_Melinting_2.jpg/1280px-Tari_Melinting_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4000,
+     "height": 2667,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Madereza / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Melinting_2.jpg",
+     "description": "Tari Melinting yang berasal dari Lampung saat pembukaan Temu Karya PMI di Purwakarta (17/09)"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Tari_Melinting_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Tari_Melinting_3.jpg/1280px-Tari_Melinting_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4000,
+     "height": 2667,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Madereza / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Melinting_3.jpg",
+     "description": "Melinting Dance from Lampung being performed in Purwakarta (17/09)"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Tari_Melinting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tari_Melinting.jpg/1280px-Tari_Melinting.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4000,
+     "height": 2667,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Madereza / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Melinting.jpg",
+     "description": "Tari Melinting yang berasal dari Lampung saat pembukaan Temu Karya PMI di Purwakarta (17/09)"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Tari_Melinting_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Tari_Melinting_4.jpg/1280px-Tari_Melinting_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4000,
+     "height": 2667,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Madereza / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Melinting_4.jpg",
+     "description": "Tari Melinting yang berasal dari Lampung saat pembukaan Temu Karya PMI di Purwakarta (17/09)"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tari_Lengger.jpg/1280px-Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3704,
+     "height": 2479,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Haridi123 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Lengger.jpg",
+     "description": "kesenian khas kabupaten wonosobo salah satunya adalah Tari lengger. kesenian ini hampir dimainkan di dalam berbagai acara budaya di setiap daerah di Wonosobo"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Seni_Tari_Piring.jpg/1280px-Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3648,
+     "height": 2432,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASeni_Tari_Piring.jpg",
+     "description": "Seni Tari Piring"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg/1280px-Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 6000,
+     "height": 4000,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASendratari_gandrung_sewu_banyuwangi.jpg",
+     "description": "Tari Gandrung sendiri merupakan tarian khas Banyuwangi yang telah ditetapkan sebagai Warisan Budaya Tak Benda Indonesia. Disebut Gandrung Sewu karena dibawakan oleh seribu lebih penari Gandrung. \nEvent ini masuk dalam \"10 Best Calendar of Event Wonderful Indonesia\" Kemenpar. Artinya, Gandrung Sewu dinilai layak menjadi satu dari 10 terbaik atraksi wisata Indonesia.\nPada saat ini Gandrung Sewu suda"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "Originally owned by the royal family and restricted to the Queen's family or nobles.",
    "movie_ready": false,
    "tradition_status": "living",
    "related_slugs": []

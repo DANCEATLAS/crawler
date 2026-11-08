@@ -1,0 +1,120 @@
+{
+ "slug": "narrative-ballet",
+ "qc_at": "2026-11-08T17:11:26Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.45,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "narrative ballet"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "84"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "174"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "In narrative ballet, the absence of spoken language forces the dancer to communi"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "467"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2146"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Global"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "review": "publish",
+  "notes": "Accurate profile of narrative ballet. Teaching value is low due to lack of source material for basic steps and rhythm, which is acceptable given the nature of structured ballet training."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "country",
+  "insight_concrete",
+  "judge_score=8.45"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-08T16:42:06Z"
+}

@@ -1,0 +1,128 @@
+{
+ "slug": "husachok",
+ "qc_at": "2026-11-08T17:11:28Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 4.05,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Husachok"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "42"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "106"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The Husachok is an East-Slavic ritual dance-game, traditionally performed in a m"
+  },
+  {
+   "gate": "profile_len",
+   "ok": false,
+   "detail": "138"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "1018"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/5 rate=0.6"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Not described in sources"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ritual']"
+  }
+ ],
+ "judge": {
+  "accuracy": 4,
+  "respect": 9,
+  "specificity": 1,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "It is a subclass of Russian folk dance.",
+   "Gusaczok is an alias for the dance."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 2,
+  "verdict": "reject",
+  "notes": "Profile is almost entirely empty ('not described in sources') due to lack of source documentation, making it uninformative for teaching or cultural understanding."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "sources",
+  "country",
+  "profile_len",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=4.05",
+  "doubts=2"
+ ],
+ "citation": {
+  "claims": 5,
+  "supported": 3,
+  "rate": 0.6
+ },
+ "researched_at": "2026-11-08T16:42:37Z"
+}

@@ -1,0 +1,123 @@
+{
+ "slug": "zensko-berance",
+ "qc_at": "2026-11-08T17:12:47Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 7.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Žensko Berance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "76"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "162"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The dance is defined by a complex 12/8 meter, traditionally counted as 3+2+2+3+2"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "320"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "886"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "music_and_instruments"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "North Macedonia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 6,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The dance is classified as a type of hora, sharing structural characteristics with other regional dances such as Bufčansko."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "verdict": "review",
+  "notes": "The profile is accurate regarding musical structure but lacks sufficient descriptive content for a dance entry. The claim that it is a 'hora' is not supported by the provided evidence. The teaching and movement sections are empty, providing no value for a beginner."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=7.1",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-08T16:56:55Z"
+}

@@ -1,0 +1,856 @@
+{
+ "slug": "orunyege-ntogoro",
+ "name": "Orunyege-Ntogoro",
+ "pack_version": "e1",
+ "built_at": "2026-11-08T17:28:40Z",
+ "researched_at": "2026-11-08T16:15:31Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An experienced master dancer from western Uganda who embodies both the stamina of Orunyege and the poise of Ntogoro, balancing discipline with humor.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Orunyege-Ntogoro",
+   "Orunyege",
+   "Entogoro",
+   "Runyege",
+   "Orunyege-Ntogoro dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Orunyege-Ntogoro",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Gourd Rattle Courtship of Western Uganda",
+     "This is Orunyege-Ntogoro. Pre-colonial to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Orunyege-Ntogoro · Uganda · Pre-colonial to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Orunyege-Ntogoro originated in the pre-colonial era within the Bunyoro-Kitara and Tooro kingdoms of western Uganda.",
+     "Historically, young people gathered under the moonlight to socialize, celebrate communal identity, and express romantic affection.",
+     "The dance is an intentional synthesis of two distinct traditions: Orunyege, an acrobatic and energetic dance originating in Hoima and Fort Portal districts, and Ntogoro, a graceful, elegant style hailing from Masindi district."
+    ],
+    "on_screen": [
+     "Map: Uganda · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Traditionally functioning as a primary courtship ritual, Orunyege-Ntogoro allowed young adults of the Bunyoro and Tooro communities to evaluate prospective partners on the basis of physical endurance, agility, and grace.",
+     "It continues to be an integral part of traditional weddings, initiation rites, and Empaako naming ceremonies, as well as seasonal community celebrations.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Africa2U - Orunyege (Sample) - A dance from Uganda (https://archive.org/details/actonma-Africa2U_-_Orunyege_Sample_-_A_dance_from_Uganda)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The performance is carried out by two distinct groups: male dancers known as abakwongezi and female dancers known as abakwetegerezi.",
+     "The ensemble shifts dynamically across circular, linear, and paired formations under the direction of a master of ceremonies (omukama) and musical cues from the lead drummers.",
+     "Dancers execute synchronized sequences punctuated by individual demonstrations of virtuosity, including high leaps, rapid spinning, and full-body shaking.",
+     "Watch for Ebinyege Stamping, Entogoro Hip Accentuation, Courting Solo Jumps."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Fluid transitions between circular processions, opposing lines of male and female dancers, and paired face-to-face courtship formations."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The musical foundation of Orunyege-Ntogoro relies on a live ensemble of drums, flutes, and xylophones.",
+     "The drummers drive the performance, altering tempo, intensity, and rhythmic phrasing to steer the dancers through varying phases of endurance.",
+     "Listen for the Drums, Flutes, Xylophones, Ebinyege (dried gourd leg rattles).",
+     "A dense, driving percussive texture generated by acoustic drum patterns and punctuated by the sharp, dry shake of gourd rattles bound to the male dancers' legs. Layered over this rhythmic bed are the melodic counterpoints of traditional wooden flutes and resonant xylophones, punctuated by call-and-response chants, vocal praises, and jokes delivered by the master of ceremonies."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Costumes are designed to serve both acoustic and visual functions.",
+     "Male dancers wear shirts and shorts, leaving the lower legs free to securely fasten ebinyege, which are rattles fashioned from dried gourds or calabashes.",
+     "Female dancers wear long skirts and blouses, accented around the hips by entogoro—ornamental rings crafted from beads or cowrie shells that magnify the sway and rotation of the pelvis."
+    ],
+    "on_screen": [
+     "Image gallery: 4 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Ethnomusicologist Linda Cimardi has documented runyege as a wide performance genre encompassing singing, instrumentation, dance, and acting in western Uganda.",
+     "The dance unites two distinct regional styles of western Uganda: the Orunyege component, which developed in the Hoima and Fort Portal districts and is known for its intense, athletic, and acrobatic character; and the Ntogoro component, which emerged from Masindi district and is defined by graceful, elegant movements.",
+     "Orunyege-Ntogoro belongs to the runyege performance genre of the Banyoro and Batooro peoples, rooted in the heritage of the Bunyoro-Kitara and Tooro kingdoms."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Orunyege-Ntogoro is same region of Baakisimba: A traditional Ugandan dance form from the neighboring Baganda community sharing traditional royal court contexts."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Fast rhythmic foot stamping to activate the ebinyege leg rattles in synchronization with the drum rhythm.",
+     "Isolated rhythmic hip swaying and rotational shaking to move the entogoro waist ring.",
+     "Count it: 5-6-7-8.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the kingdoms of Bunyoro and Tooro, suitors strap gourds to their calves in a relentless dance contest where physical stamina determines the right to wed.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic leg stamp and rattle articulation",
+   "level": "Foundations",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic leg stamp and rattle articulation.",
+      "Level: Foundations. Difficulty of the dance overall: advanced.",
+      "Your instructor: An experienced master dancer from western Uganda who embodies both the stamina of Orunyege and the poise of Ntogoro, balancing discipline with humor."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, athletic posture for male dancers with knees primed for explosive leaps; grounded, balanced posture for female dancers facilitating fluid pelvic articulation.",
+      "Accented hip isolations, rotations, and shaking emphasized by beaded waist rings, contrasted with dynamic upper-body control during jumps and spins."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Fast rhythmic foot stamping to activate the ebinyege leg rattles in synchronization with the drum rhythm.",
+      "Step 2: Isolated rhythmic hip swaying and rotational shaking to move the entogoro waist ring.",
+      "Footwork from the sources: Rhythmic, continuous stamping and stepping that sounds leg-mounted rattles, executed in counts coordinated with live drum cues.",
+      "Drill: Practice rhythmic single-leg stamping without rattles to align with basic drum pulse."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Synchronized circular and linear group travel following the calls of the omukama.",
+      "Step 4: Improvised individual solo displays featuring rapid spins and elevation jumps.",
+      "Drill: Strap rattles to calves and perform continuous alternate-foot stepping to achieve clear acoustic clarity."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Integrate walking steps in circular patterns while maintaining unbroken rhythmic rattle strikes."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid sluggish foot contact that mutes or mistimes the leg rattles; avoid rigid hip posture that prevents the natural movement of the waist rings."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform seated rhythmic heel-and-toe taps to activate lighter handheld rattles, accompanied by gentle seated torso swaying and seated hip shifts. · For children: Play a suitor stamina freeze game: children stamp their feet with light shakers tied to their ankles, freezing instantly when the drum stops to see who maintains balance."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform seated rhythmic heel-and-toe taps to activate lighter handheld rattles, accompanied by gentle seated torso swaying and seated hip shifts.",
+      "For children: Play a suitor stamina freeze game: children stamp their feet with light shakers tied to their ankles, freezing instantly when the drum stops to see who maintains balance."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic leg stamp and rattle articulation.",
+      "Traditionally functioning as a primary courtship ritual, Orunyege-Ntogoro allowed young adults of the Bunyoro and Tooro communities to evaluate prospective partners on the basis of physical endurance, agility, and grace.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Develop pelvic fluidity and waist ring movement",
+   "level": "Isolations and Accents",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Develop pelvic fluidity and waist ring movement.",
+      "Level: Isolations and Accents. Difficulty of the dance overall: advanced.",
+      "Your instructor: An experienced master dancer from western Uganda who embodies both the stamina of Orunyege and the poise of Ntogoro, balancing discipline with humor."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, athletic posture for male dancers with knees primed for explosive leaps; grounded, balanced posture for female dancers facilitating fluid pelvic articulation.",
+      "Accented hip isolations, rotations, and shaking emphasized by beaded waist rings, contrasted with dynamic upper-body control during jumps and spins."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Fast rhythmic foot stamping to activate the ebinyege leg rattles in synchronization with the drum rhythm.",
+      "Step 2: Isolated rhythmic hip swaying and rotational shaking to move the entogoro waist ring.",
+      "Drill: Execute isolated lateral hip shifts while maintaining grounded, flexed knees."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Synchronized circular and linear group travel following the calls of the omukama.",
+      "Step 4: Improvised individual solo displays featuring rapid spins and elevation jumps.",
+      "Ebinyege Stamping: Rapid, high-impact foot strikes designed to make the calabash leg rattles crack rhythmically in time with the drums.",
+      "Entogoro Hip Accentuation: Controlled circular and shaking hip isolations that mobilize beaded waist rings to demonstrate poise and grace.",
+      "Drill: Practice continuous pelvic figure-eight rotations in coordination with xylophone melodies."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Combine hip articulations with forward travel steps in linear formation."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid sluggish foot contact that mutes or mistimes the leg rattles; avoid rigid hip posture that prevents the natural movement of the waist rings."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform seated rhythmic heel-and-toe taps to activate lighter handheld rattles, accompanied by gentle seated torso swaying and seated hip shifts. · For children: Play a suitor stamina freeze game: children stamp their feet with light shakers tied to their ankles, freezing instantly when the drum stops to see who maintains balance."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform seated rhythmic heel-and-toe taps to activate lighter handheld rattles, accompanied by gentle seated torso swaying and seated hip shifts.",
+      "For children: Play a suitor stamina freeze game: children stamp their feet with light shakers tied to their ankles, freezing instantly when the drum stops to see who maintains balance."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Fluid transitions between circular processions, opposing lines of male and female dancers, and paired face-to-face courtship formations."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Develop pelvic fluidity and waist ring movement.",
+      "Ethnomusicologist Linda Cimardi has documented runyege as a wide performance genre encompassing singing, instrumentation, dance, and acting in western Uganda.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute the full courtship call-and-response with high-energy jumps and spins",
+   "level": "Partnering and Endurance",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute the full courtship call-and-response with high-energy jumps and spins.",
+      "Level: Partnering and Endurance. Difficulty of the dance overall: advanced.",
+      "Your instructor: An experienced master dancer from western Uganda who embodies both the stamina of Orunyege and the poise of Ntogoro, balancing discipline with humor."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, athletic posture for male dancers with knees primed for explosive leaps; grounded, balanced posture for female dancers facilitating fluid pelvic articulation.",
+      "Accented hip isolations, rotations, and shaking emphasized by beaded waist rings, contrasted with dynamic upper-body control during jumps and spins."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Synchronized circular and linear group travel following the calls of the omukama.",
+      "Step 2: Improvised individual solo displays featuring rapid spins and elevation jumps.",
+      "Drill: Perform continuous 2-minute high-tempo stamping intervals to build physical stamina."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Courting Solo Jumps: High vertical leaps and rotational spins executed by male suitors to demonstrate strength, stamina, and agility.",
+      "Drill: Execute sudden vertical jumps and landing spins on specific drum signals."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Pair male acrobatics and female hip isolations face-to-face following omukama vocal cues."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid sluggish foot contact that mutes or mistimes the leg rattles; avoid rigid hip posture that prevents the natural movement of the waist rings."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform seated rhythmic heel-and-toe taps to activate lighter handheld rattles, accompanied by gentle seated torso swaying and seated hip shifts. · For children: Play a suitor stamina freeze game: children stamp their feet with light shakers tied to their ankles, freezing instantly when the drum stops to see who maintains balance."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform seated rhythmic heel-and-toe taps to activate lighter handheld rattles, accompanied by gentle seated torso swaying and seated hip shifts.",
+      "For children: Play a suitor stamina freeze game: children stamp their feet with light shakers tied to their ankles, freezing instantly when the drum stops to see who maintains balance."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Fluid transitions between circular processions, opposing lines of male and female dancers, and paired face-to-face courtship formations."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the full courtship call-and-response with high-energy jumps and spins.",
+      "Orunyege-Ntogoro belongs to the runyege performance genre of the Banyoro and Batooro peoples, rooted in the heritage of the Bunyoro-Kitara and Tooro kingdoms.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "Drums",
+   "Flutes",
+   "Xylophones",
+   "Ebinyege (dried gourd leg rattles)"
+  ],
+  "vocal_style": "Chanted praises, sung refrains, and humorous spoken banter led by the master of ceremonies (omukama)",
+  "musical_form": "Call-and-response driven by the omukama and lead drummers, shifting through variable tempo and intensity sections",
+  "mood": [
+   "Energetic",
+   "Celebratory",
+   "Competitive",
+   "Acrobatic",
+   "Percussive"
+  ],
+  "sound_description": "A dense, driving percussive texture generated by acoustic drum patterns and punctuated by the sharp, dry shake of gourd rattles bound to the male dancers' legs. Layered over this rhythmic bed are the melodic counterpoints of traditional wooden flutes and resonant xylophones, punctuated by call-and-response chants, vocal praises, and jokes delivered by the master of ceremonies.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Orunyege-Ntogoro (Uganda). Instruments: Drums, Flutes, Xylophones, Ebinyege (dried gourd leg rattles). Vocal style: Chanted praises, sung refrains, and humorous spoken banter led by the master of ceremonies (omukama). Form: Call-and-response driven by the omukama and lead drummers, shifting through variable tempo and intensity sections. Mood: Energetic, Celebratory, Competitive, Acrobatic, Percussive. It should sound like this: A dense, driving percussive texture generated by acoustic drum patterns and punctuated by the sharp, dry shake of gourd rattles bound to the male dancers' legs. Layered over this rhythmic bed are the melodic counterpoints of traditional wooden flutes and resonant xylophones, punctuated by call-and-response chants, vocal praises, and jokes delivered by the master of ceremonies. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Costumes are designed to serve both acoustic and visual functions. Male dancers wear shirts and shorts, leaving the lower legs free to securely fasten ebinyege, which are rattles fashioned from dried gourds or calabashes. Female dancers wear long skirts and blouses, accented around the hips by entogoro—ornamental rings crafted from beads or cowrie shells that magnify the sway and rotation of the pelvis. Historically danced outdoors on bare earth in evening moonlight, the tradition is now commonly staged in school halls, cultural festivals, tourism venues, and ceremonial grounds.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ADancers_from_bunyoro.JPG",
+    "https://commons.wikimedia.org/wiki/File%3ADrums_from_western_Uganda.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AOrunyege.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Dancers_from_bunyoro.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Dancers_from_bunyoro.JPG/1280px-Dancers_from_bunyoro.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ngumenawe / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADancers_from_bunyoro.JPG",
+    "description": "This is an image of Cultural Fashion or Adornment from"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Drums_from_western_Uganda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Drums_from_western_Uganda.jpg/1280px-Drums_from_western_Uganda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Nyakairuj / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADrums_from_western_Uganda.jpg",
+    "description": "This is an image from"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Orunyege.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Orunyege.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Ian.musinguzi / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOrunyege.jpg",
+    "description": "Orunyege is a Traditional dance of the Banyoro tribe in Western Uganda."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Preserving_Culture_in_Schools.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Preserving_Culture_in_Schools.jpg/1280px-Preserving_Culture_in_Schools.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Sagiomhza / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APreserving_Culture_in_Schools.jpg",
+    "description": "Culture, Dance, Art, Music, Folklore"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Africa2U - Orunyege (Sample) - A dance from Uganda",
+    "url": "https://archive.org/details/actonma-Africa2U_-_Orunyege_Sample_-_A_dance_from_Uganda",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Close-ups of dried calabashes vibrating on moving ankles",
+   "Beaded entogoro waist rings swinging against bright fabrics",
+   "Bare earth kicking up under energetic foot strikes",
+   "The gesturing omukama conducting dancers and audience"
+  ],
+  "costume_notes": "Costumes are designed to serve both acoustic and visual functions. Male dancers wear shirts and shorts, leaving the lower legs free to securely fasten ebinyege, which are rattles fashioned from dried gourds or calabashes. Female dancers wear long skirts and blouses, accented around the hips by entogoro—ornamental rings crafted from beads or cowrie shells that magnify the sway and rotation of the pelvis. Historically danced outdoors on bare earth in evening moonlight, the tradition is now commonly staged in school halls, cultural festivals, tourism venues, and ceremonial grounds.",
+  "setting_notes": "Traditionally functioning as a primary courtship ritual, Orunyege-Ntogoro allowed young adults of the Bunyoro and Tooro communities to evaluate prospective partners on the basis of physical endurance, agility, and grace. It continues to be an integral part of traditional weddings, initiation rites, and Empaako naming ceremonies, as well as seasonal community celebrations. Ethnomusicologist Linda Cimardi notes that runyege serves as a vital medium for staging local culture, reinforcing traditional gender norms while also offering performers a space to negotiate personal expression.",
+  "map": {
+   "country": "Uganda",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "9 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 9,
+  "counting": "5-6-7-8",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "keep those abs pulled in"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "count_in",
+   "breakdown",
+   "music_practice",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Orunyege-Ntogoro",
+  "https://www.wikidata.org/wiki/Q124251084"
+ ],
+ "claims_verified": 10,
+ "claims": 10,
+ "polished": false,
+ "hero_checked": null
+}

@@ -1,0 +1,119 @@
+{
+ "slug": "zandunga",
+ "qc_at": "2026-11-08T17:13:00Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.2,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Zandunga"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "51"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "199"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1853, Máximo Ramón Ortiz composed this melody while mourning his mother; toda"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "427"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2518"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Mexico"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 2,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "review",
+  "notes": "Zandunga is primarily a musical composition and song, not a distinct dance style with its own codified steps. While it is danced to, the profile correctly identifies that specific dance steps are not documented. The content is accurate but lacks teaching value due to the absence of movement data."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=8.2",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-08T16:58:12Z"
+}

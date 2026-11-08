@@ -1,0 +1,123 @@
+{
+ "slug": "kakalika",
+ "qc_at": "2026-11-08T17:11:24Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Kakalika"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "84"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "161"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Originating in Nima in 2012, the dance—whose name means 'cockroach' in Ga—explod"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "432"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2574"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,music_and_instruments,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Ghana"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The profile claims PSG players celebrated a victory over Bayern Munich in the UEFA Champions League using the Kakalika song in May 2026, which is a future-dated/unverifiable claim.",
+   "The profile claims FC Barcelona players utilized the track to celebrate their 2025/26 La Liga title win, which is a future-dated/unverifiable claim."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "publish",
+  "notes": "The profile is well-researched regarding its cultural origins and recent viral spread. However, it includes several specific claims about events in 2026 that are speculative or unverifiable at the time of writing. The teaching value is low due to the lack of technical documentation, which is honestly acknowledged."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "sections_filled",
+  "judge_score=8.0",
+  "doubts=2"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-08T16:41:28Z"
+}

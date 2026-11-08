@@ -1,0 +1,807 @@
+{
+ "slug": "ekikibi",
+ "name": "Ekikibi",
+ "pack_version": "e1",
+ "built_at": "2026-11-08T17:28:40Z",
+ "researched_at": "2026-11-08T16:03:42Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A warm, authoritative Bakonzo cultural dancer and community leader who emphasizes ancestral respect, lyrical movement, and focused partner connection.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Ekikibi",
+   "Ekikibi dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Ekikibi",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Fish of the Rwenzori",
+     "This is Ekikibi. Centuries-old ancestral tradition."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Ekikibi · Uganda · Centuries-old ancestral tradition"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Ekikibi originated among the Bakonzo, a Bantu ethnic community inhabiting the Rwenzori mountain range spanning western Uganda and eastern Democratic Republic of the Congo, predominantly across Kasese, Bundibugyo, Bunyangabu, and Ntoroko districts.",
+     "The dance was conceived through the close observation and admiration of fish swimming in mountain streams, translating aquatic locomotion into human choreography."
+    ],
+    "on_screen": [
+     "Map: Uganda · Africa",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Staged principally during weddings and communal festive gatherings, Ekikibi celebrates love, marriage, and domestic happiness.",
+     "It articulates harmony and mutual respect between bride and groom as well as their respective families.",
+     "In addition to social celebration, the dance honors ancestors and deities, invoking their blessings and spiritual protection over the newly forged marital union.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed by an ensemble usually consisting of four men and four women arrayed in concentric circles, with the men charting an outer path and women holding the inner ring.",
+     "Performers execute rhythmic steps, vertical jumps, twists, and complete turns designed to mimic the agile motion of fish in water.",
+     "As the concentric formations rotate, the dancers continuously exchange focused eye contact and expressive hand gestures to convey emotional intimacy, affection, and mutual joy.",
+     "Watch for Fish mimicry twist, Concentric jump turn."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Concentric rings with four men along the outer perimeter and four women within the inner perimeter."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Ekikibi is accompanied by vocal love songs specifically composed to praise the character and union of the bride and groom.",
+     "The instrumental backing is anchored by drums providing percussive cadence, supplemented by rattles for sharp rhythmic texture and flutes carrying melodic phrases.",
+     "Listen for the drums, flutes, rattles.",
+     "The sonic texture is characterized by driving drum patterns intertwined with continuous shaken rattle pulses and melodic flute interludes. Over this percussive tapestry, vocalists deliver celebratory love songs dedicated to the couple, creating a bright, uplifting atmosphere appropriate for marital rites."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed in festive outdoor village clearings, ceremonial reception spaces, or wedding venues across the Rwenzori foothills.",
+     "Performers wear vibrant, colorful traditional costumes accompanied by decorative adornments that highlight the visual flair of rapid turns and aquatic mimicry."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "A Bantu cultural tradition preserved within Bakonzo communities across Kasese, Bundibugyo, Bunyangabu, and Ntoroko in Uganda and contiguous areas of eastern Democratic Republic of the Congo, transmitted through family and community lines during wedding rituals."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Inner-outer circle formation setup: four women form the center circle facing outward, four men form an exterior concentric ring facing inward.",
+     "Rhythmic forward traveling step maintaining the circular trajectory around the space.",
+     "Count it: 5-6-7-8.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "High on the forested slopes of the Rwenzori Mountains, eight Bakonzo dancers weave concentric circles to turn aquatic movements into a bridal blessing of enduring love.",
+     "Sources: 3 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the spatial geometry of the nested circle and directional stepping.",
+   "level": "Level 1: Concentric Foundations",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the spatial geometry of the nested circle and directional stepping..",
+      "Level: Level 1: Concentric Foundations. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A warm, authoritative Bakonzo cultural dancer and community leader who emphasizes ancestral respect, lyrical movement, and focused partner connection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Expressive gestures exchanged between dancers to communicate romantic affection and emotional rapport.",
+      "Dynamic twists and rotations designed to imitate the undulating swimming motion of fish in water."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Inner-outer circle formation setup: four women form the center circle facing outward, four men form an exterior concentric ring facing inward.",
+      "Step 2: Rhythmic forward traveling step maintaining the circular trajectory around the space.",
+      "Footwork from the sources: Rhythmic stepping sequences interspersed with coordinated jumps and directional turns.",
+      "Drill: Establish circular perimeter walking in four-beat phrases."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Aquatic torso twist: rotating the upper body from side to side to simulate swimming motions.",
+      "Step 4: Elevation jump: executing small vertical jumps accented by percussive drum hits.",
+      "Drill: Coordinate the outer ring (men) moving counter to the inner ring (women)."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice holding steady spacing while looking across the boundary to an assigned partner."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Breaking eye contact with partners or drifting out of concentric alignment between the inner and outer rings."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the concentric dance seated in two nested circles of chairs, executing rhythmic heel-toe taps and fluid upper-torso twists while mirroring hand gestures across the aisle. · For children: 'Follow the River Fish' game where children in outer and inner rings mimic the movements of a designated lead fish, alternating between swimming twists, gentle hops, and freeze-poses."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the concentric dance seated in two nested circles of chairs, executing rhythmic heel-toe taps and fluid upper-torso twists while mirroring hand gestures across the aisle.",
+      "For children: 'Follow the River Fish' game where children in outer and inner rings mimic the movements of a designated lead fish, alternating between swimming twists, gentle hops, and freeze-poses."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the spatial geometry of the nested circle and directional stepping..",
+      "Staged principally during weddings and communal festive gatherings, Ekikibi celebrates love, marriage, and domestic happiness.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Integrate fish-like torso twists and communicative gestures into the stepping.",
+   "level": "Level 2: The Aquatic Undulation",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Integrate fish-like torso twists and communicative gestures into the stepping..",
+      "Level: Level 2: The Aquatic Undulation. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A warm, authoritative Bakonzo cultural dancer and community leader who emphasizes ancestral respect, lyrical movement, and focused partner connection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Expressive gestures exchanged between dancers to communicate romantic affection and emotional rapport.",
+      "Dynamic twists and rotations designed to imitate the undulating swimming motion of fish in water."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Turn and focus: performing a sharp pivot or full spin while re-establishing direct eye contact with the dancing partner.",
+      "Drill: Isolate upper-body twists from side to side in stationary stance."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Fish mimicry twist: A fluid twisting motion of the body that mimics the undulating navigation of fish in water.",
+      "Concentric jump turn: A leaping rotation executed while maintaining spatial placement in the nested circular formation.",
+      "Drill: Combine traveling footwork with rhythmic torso twists simulating fish in water."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Incorporate traditional hand gestures of affection directed toward the partner."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Breaking eye contact with partners or drifting out of concentric alignment between the inner and outer rings."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the concentric dance seated in two nested circles of chairs, executing rhythmic heel-toe taps and fluid upper-torso twists while mirroring hand gestures across the aisle. · For children: 'Follow the River Fish' game where children in outer and inner rings mimic the movements of a designated lead fish, alternating between swimming twists, gentle hops, and freeze-poses."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the concentric dance seated in two nested circles of chairs, executing rhythmic heel-toe taps and fluid upper-torso twists while mirroring hand gestures across the aisle.",
+      "For children: 'Follow the River Fish' game where children in outer and inner rings mimic the movements of a designated lead fish, alternating between swimming twists, gentle hops, and freeze-poses."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Concentric rings with four men along the outer perimeter and four women within the inner perimeter."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate fish-like torso twists and communicative gestures into the stepping..",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute vertical jumps and pivot turns without losing formation rhythm.",
+   "level": "Level 3: Full Performance Cadence",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute vertical jumps and pivot turns without losing formation rhythm..",
+      "Level: Level 3: Full Performance Cadence. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A warm, authoritative Bakonzo cultural dancer and community leader who emphasizes ancestral respect, lyrical movement, and focused partner connection."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Expressive gestures exchanged between dancers to communicate romantic affection and emotional rapport.",
+      "Dynamic twists and rotations designed to imitate the undulating swimming motion of fish in water."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Elevation jump: executing small vertical jumps accented by percussive drum hits.",
+      "Step 2: Turn and focus: performing a sharp pivot or full spin while re-establishing direct eye contact with the dancing partner.",
+      "Drill: Execute coordinated vertical hops landing cleanly on the downbeat."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Fish mimicry twist: A fluid twisting motion of the body that mimics the undulating navigation of fish in water.",
+      "Concentric jump turn: A leaping rotation executed while maintaining spatial placement in the nested circular formation.",
+      "Drill: Execute half and full turns, immediately snapping eye contact back to partner."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Complete an unbroken sequence linking steps, twists, jumps, and turns in time with live drumming."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Breaking eye contact with partners or drifting out of concentric alignment between the inner and outer rings."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform the concentric dance seated in two nested circles of chairs, executing rhythmic heel-toe taps and fluid upper-torso twists while mirroring hand gestures across the aisle. · For children: 'Follow the River Fish' game where children in outer and inner rings mimic the movements of a designated lead fish, alternating between swimming twists, gentle hops, and freeze-poses."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the concentric dance seated in two nested circles of chairs, executing rhythmic heel-toe taps and fluid upper-torso twists while mirroring hand gestures across the aisle.",
+      "For children: 'Follow the River Fish' game where children in outer and inner rings mimic the movements of a designated lead fish, alternating between swimming twists, gentle hops, and freeze-poses."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Concentric rings with four men along the outer perimeter and four women within the inner perimeter."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute vertical jumps and pivot turns without losing formation rhythm..",
+      "A Bantu cultural tradition preserved within Bakonzo communities across Kasese, Bundibugyo, Bunyangabu, and Ntoroko in Uganda and contiguous areas of eastern Democratic Republic of the Congo, transmitted through family and community lines during wedding rituals.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "drums",
+   "flutes",
+   "rattles"
+  ],
+  "vocal_style": "Love songs praising the bride and groom",
+  "musical_form": null,
+  "mood": [
+   "celebratory",
+   "joyful",
+   "affectionate",
+   "reverent",
+   "lively"
+  ],
+  "sound_description": "The sonic texture is characterized by driving drum patterns intertwined with continuous shaken rattle pulses and melodic flute interludes. Over this percussive tapestry, vocalists deliver celebratory love songs dedicated to the couple, creating a bright, uplifting atmosphere appropriate for marital rites.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Ekikibi (Uganda). Instruments: drums, flutes, rattles. Vocal style: Love songs praising the bride and groom. Mood: celebratory, joyful, affectionate, reverent, lively. It should sound like this: The sonic texture is characterized by driving drum patterns intertwined with continuous shaken rattle pulses and melodic flute interludes. Over this percussive tapestry, vocalists deliver celebratory love songs dedicated to the couple, creating a bright, uplifting atmosphere appropriate for marital rites. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The dance is performed in festive outdoor village clearings, ceremonial reception spaces, or wedding venues across the Rwenzori foothills. Performers wear vibrant, colorful traditional costumes accompanied by decorative adornments that highlight the visual flair of rapid turns and aquatic mimicry.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Swift mountain waters rushing through the rocky Rwenzori landscape.",
+   "Concentric circular paths tracing the ground like ripples in a pool.",
+   "Vibrant fabric adornments snapping on sharp jumps and rotations."
+  ],
+  "costume_notes": "The dance is performed in festive outdoor village clearings, ceremonial reception spaces, or wedding venues across the Rwenzori foothills. Performers wear vibrant, colorful traditional costumes accompanied by decorative adornments that highlight the visual flair of rapid turns and aquatic mimicry.",
+  "setting_notes": "Staged principally during weddings and communal festive gatherings, Ekikibi celebrates love, marriage, and domestic happiness. It articulates harmony and mutual respect between bride and groom as well as their respective families. In addition to social celebration, the dance honors ancestors and deities, invoking their blessings and spiritual protection over the newly forged marital union.",
+  "map": {
+   "country": "Uganda",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "9 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 9,
+  "counting": "5-6-7-8",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "keep those abs pulled in"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "count_in",
+   "breakdown",
+   "music_practice",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "notable figures",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ekikibi",
+  "https://www.wikidata.org/wiki/Q124250794",
+  "https://pt.wikipedia.org/wiki/Ekikibi"
+ ],
+ "claims_verified": 11,
+ "claims": 11,
+ "polished": false,
+ "hero_checked": null
+}

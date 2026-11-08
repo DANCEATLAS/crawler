@@ -1,0 +1,125 @@
+{
+ "slug": "temuraga",
+ "qc_at": "2026-11-08T17:11:31Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 3.8,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Temuraga"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "70"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "120"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Temuraga is a folk dance tradition documented across the Eastern Anatolia region"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "162"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "594"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/4 rate=0.75"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Turkey"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Middle East"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 4,
+  "respect": 8,
+  "specificity": 1,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "It is classified as a type of Bar dance."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 3,
+  "verdict": "reject",
+  "notes": "Insufficient documentation available to create a meaningful profile. Most fields are filled with 'not described in sources'."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "sources",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=3.8",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 3,
+  "rate": 0.75
+ },
+ "researched_at": "2026-11-08T16:43:02Z"
+}

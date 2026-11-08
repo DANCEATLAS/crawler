@@ -1,0 +1,855 @@
+{
+ "slug": "entogoro",
+ "name": "Entogoro",
+ "pack_version": "e1",
+ "built_at": "2026-11-08T17:28:40Z",
+ "researched_at": "2026-11-08T16:17:33Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An energetic cultural educator from Fort Portal who balances strict rhythmic discipline with infectious joy.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Entogoro",
+   "Orunyege-Ntogoro",
+   "Orunyege",
+   "Ntogoro",
+   "Ntogoro dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Entogoro",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Rattles on the Shins, Rings on the Hips",
+     "This is Entogoro. Pre-colonial to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Entogoro · Uganda · Pre-colonial to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Orunyege-Ntogoro dates to the pre-colonial era of the Bunyoro-Kitara and Tooro kingdoms in western Uganda, where it served as both a social gathering and an athletic courtship contest.",
+     "Young people convened during evening social gatherings to dance under moonlight.",
+     "Oral traditions recount that when several suitors sought the hand of the same bride, community elders organized an open dance competition."
+    ],
+    "on_screen": [
+     "Map: Uganda · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Entogoro functions as a courtship showcase, community celebration, and instructional medium for transmitting social etiquette.",
+     "It is traditionally performed during weddings, youth initiation ceremonies, social gatherings, and Empaako naming rituals.",
+     "The dance serves as an educational vehicle, instructing younger generations on community standards regarding courtship, resilience, and mutual respect between partners.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Africa2U - Orunyege (Sample) - A dance from Uganda (https://archive.org/details/actonma-Africa2U_-_Orunyege_Sample_-_A_dance_from_Uganda)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed by two ensembles: male dancers (abakwongezi) and female dancers (abakwetegerezi).",
+     "Dancers assemble in circles, lines, and paired arrangements, responding to musical cues from the drummers and the omukama (master of ceremonies).",
+     "Men execute energetic foot stomps, spins, and jumps that activate their leg rattles, while women perform graceful hip movements that oscillate their beaded waist rings.",
+     "Watch for Ebinyege rattle strike, Entogoro hip oscillation, Courting leap."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Circular staging transitioning into opposing gender lines and advancing couple pairings."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Musical accompaniment is provided by an ensemble of drums, traditional flutes, and xylophones.",
+     "The drummers dictate transitions, shifting rhythmic density and tempo in response to the dance's dramatic arc.",
+     "Listen for the drums, flutes, xylophones, ebinyege (dried gourd leg rattles).",
+     "A dense, driving acoustic texture defined by the sharp, percussive crack of dried gourd leg rattles locked to low- and mid-toned traditional drums. Above the percussive base, wooden xylophone bars and aerophone flutes weave bright counter-melodies, punctuated by dynamic vocal calls, praises, and crowd cheers from the omukama."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Male dancers wear shirts and shorts, with ebinyege—rattles fashioned from dried gourds or calabashes—fastened securely to their legs.",
+     "Female dancers wear long skirts and blouses, girded at the waist with entogoro rings made of cowrie shells or beads designed to accentuate hip articulations.",
+     "Traditionally performed outdoors on bare earth under moonlight, contemporary performances take place at cultural festivals, wedding receptions, tourism exhibitions, and school auditoriums."
+    ],
+    "on_screen": [
+     "Image gallery: 4 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The master of ceremonies, designated as the omukama, serves as the central artistic director of the performance, steering the musicians and dancers through vocal calls.",
+     "Ethnomusicologist Linda Cimardi has documented and analyzed the wider runyege performance genre in western Uganda, examining its role in cultural preservation and gender dynamics.",
+     "The dance synthesizes two regional forms: Orunyege, hailing from the Hoima and Fort Portal districts, which features highly energetic and acrobatic movements; and Ntogoro, originating from the Masindi district, which emphasizes graceful, fluid, and elegant posturing.",
+     "Originating within the ancestral courts and rural settlements of the Bunyoro-Kitara and Tooro kingdoms, the dance is sustained by the Batooro and Banyoro communities."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Entogoro is variant of Orunyege: The athletic, acrobatic half of the composite dance tradition originating from Hoima and Fort Portal.",
+     "Entogoro is same region of Baakisimba: A traditional Ugandan drum and dance form from the neighboring Baganda cultural sphere."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stomp the right foot into the floor to sound the leg rattle (ebinyege) on the downbeat.",
+     "Transfer weight smoothly to the left foot while engaging a quick rebound strike.",
+     "Count it: 5-6-7-8.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In western Uganda, young dancers test their heart, stamina, and marital prospects through the thunderous percussive steps of Entogoro.",
+     "Sources: 2 references, every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the downward percussive rattle stomp in tempo.",
+   "level": "Level 1: Groundwork",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the downward percussive rattle stomp in tempo..",
+      "Level: Level 1: Groundwork. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic cultural educator from Fort Portal who balances strict rhythmic discipline with infectious joy."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright yet grounded torso with slightly bent knees to absorb ground impacts and facilitate rapid leg shaking.",
+      "Open, expressive gestures framing the torso, balanced outward for stability during jumping and spinning.",
+      "Rhythmic hip rotations, lateral oscillations, and torso shivering designed to activate waist rings."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stomp the right foot into the floor to sound the leg rattle (ebinyege) on the downbeat.",
+      "Step 2: Transfer weight smoothly to the left foot while engaging a quick rebound strike.",
+      "Footwork from the sources: Percussive downward stomps, rapid heel-toe shakes, weight shifts, and grounded pivots designed to sound leg rattles.",
+      "Drill: Practice stationary right-foot downbeat stomps with bent knees."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Isolate and circle the hips rhythmically so the waist ring (entogoro) swings laterally.",
+      "Step 4: Execute an explosive vertical hop, landing simultaneously on both feet to produce a unified rattle crash.",
+      "Drill: Alternate four stomps on the right with four on the left."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Add soft hand claps to internalize the drum accent."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiffening the knees or landing flat-footed when wearing rattles to protect the joints during high jumps."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform rhythmic heel and toe taps while seated upright in a sturdy armless chair to recreate rattle sounds without bearing full weight. · For children: Play 'Stamina Challenge' where dancers shake ankle rattles or shakers in a circle, freezing into statue poses whenever the master drummer stops playing."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform rhythmic heel and toe taps while seated upright in a sturdy armless chair to recreate rattle sounds without bearing full weight.",
+      "For children: Play 'Stamina Challenge' where dancers shake ankle rattles or shakers in a circle, freezing into statue poses whenever the master drummer stops playing."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the downward percussive rattle stomp in tempo..",
+      "Entogoro functions as a courtship showcase, community celebration, and instructional medium for transmitting social etiquette.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Coordinate rhythmic hip rotations while maintaining a steady base.",
+   "level": "Level 2: Waist Articulation",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Coordinate rhythmic hip rotations while maintaining a steady base..",
+      "Level: Level 2: Waist Articulation. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic cultural educator from Fort Portal who balances strict rhythmic discipline with infectious joy."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright yet grounded torso with slightly bent knees to absorb ground impacts and facilitate rapid leg shaking.",
+      "Open, expressive gestures framing the torso, balanced outward for stability during jumping and spinning.",
+      "Rhythmic hip rotations, lateral oscillations, and torso shivering designed to activate waist rings."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Perform a controlled spin on the ball of the foot while sustaining continuous hip rotation.",
+      "Drill: Isolate lateral hip shifts side to side on alternating counts."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Ebinyege rattle strike: A sharp, downward foot stamp that causes dried calabash leg rattles to snap rhythmically against the lower calf.",
+      "Entogoro hip oscillation: A fluid circular or side-to-side hip movement that accentuates the beaded waist ring.",
+      "Drill: Execute full circular hip rotations while keeping shoulders level."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Combine hip swaying with alternating foot steps."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiffening the knees or landing flat-footed when wearing rattles to protect the joints during high jumps."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform rhythmic heel and toe taps while seated upright in a sturdy armless chair to recreate rattle sounds without bearing full weight. · For children: Play 'Stamina Challenge' where dancers shake ankle rattles or shakers in a circle, freezing into statue poses whenever the master drummer stops playing."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform rhythmic heel and toe taps while seated upright in a sturdy armless chair to recreate rattle sounds without bearing full weight.",
+      "For children: Play 'Stamina Challenge' where dancers shake ankle rattles or shakers in a circle, freezing into statue poses whenever the master drummer stops playing."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Circular staging transitioning into opposing gender lines and advancing couple pairings."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Coordinate rhythmic hip rotations while maintaining a steady base..",
+      "The master of ceremonies, designated as the omukama, serves as the central artistic director of the performance, steering the musicians and dancers through vocal calls.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Integrate jumps, spins, and partnered call-and-response figures.",
+   "level": "Level 3: Courting Dialogue",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Integrate jumps, spins, and partnered call-and-response figures..",
+      "Level: Level 3: Courting Dialogue. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic cultural educator from Fort Portal who balances strict rhythmic discipline with infectious joy."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright yet grounded torso with slightly bent knees to absorb ground impacts and facilitate rapid leg shaking.",
+      "Open, expressive gestures framing the torso, balanced outward for stability during jumping and spinning.",
+      "Rhythmic hip rotations, lateral oscillations, and torso shivering designed to activate waist rings."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Execute an explosive vertical hop, landing simultaneously on both feet to produce a unified rattle crash.",
+      "Step 2: Perform a controlled spin on the ball of the foot while sustaining continuous hip rotation.",
+      "Drill: Execute a two-footed vertical leap landing directly on the downbeat."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Courting leap: An acrobatic vertical jump executed by male dancers to showcase supreme physical stamina to partners and elders.",
+      "Drill: Complete a 360-degree pivot turn over four continuous rattle shakes."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Dance face-to-face in pairs matching rhythm and posture."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiffening the knees or landing flat-footed when wearing rattles to protect the joints during high jumps."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right",
+      "Options card: Seated or supported option: Perform rhythmic heel and toe taps while seated upright in a sturdy armless chair to recreate rattle sounds without bearing full weight. · For children: Play 'Stamina Challenge' where dancers shake ankle rattles or shakers in a circle, freezing into statue poses whenever the master drummer stops playing."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform rhythmic heel and toe taps while seated upright in a sturdy armless chair to recreate rattle sounds without bearing full weight.",
+      "For children: Play 'Stamina Challenge' where dancers shake ankle rattles or shakers in a circle, freezing into statue poses whenever the master drummer stops playing."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Circular staging transitioning into opposing gender lines and advancing couple pairings."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate jumps, spins, and partnered call-and-response figures..",
+      "Originating within the ancestral courts and rural settlements of the Bunyoro-Kitara and Tooro kingdoms, the dance is sustained by the Batooro and Banyoro communities.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "drums",
+   "flutes",
+   "xylophones",
+   "ebinyege (dried gourd leg rattles)"
+  ],
+  "vocal_style": "Chanted praise singing, call-and-response vocalizations, and spoken comedic banter led by the master of ceremonies.",
+  "musical_form": "Episodic and responsive structure governed by drum breaks, flute melodies, and cues from the master of ceremonies.",
+  "mood": [
+   "exuberant",
+   "competitive",
+   "celebratory",
+   "rhythmic",
+   "dynamic"
+  ],
+  "sound_description": "A dense, driving acoustic texture defined by the sharp, percussive crack of dried gourd leg rattles locked to low- and mid-toned traditional drums. Above the percussive base, wooden xylophone bars and aerophone flutes weave bright counter-melodies, punctuated by dynamic vocal calls, praises, and crowd cheers from the omukama.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Entogoro (Uganda). Instruments: drums, flutes, xylophones, ebinyege (dried gourd leg rattles). Vocal style: Chanted praise singing, call-and-response vocalizations, and spoken comedic banter led by the master of ceremonies.. Form: Episodic and responsive structure governed by drum breaks, flute melodies, and cues from the master of ceremonies.. Mood: exuberant, competitive, celebratory, rhythmic, dynamic. It should sound like this: A dense, driving acoustic texture defined by the sharp, percussive crack of dried gourd leg rattles locked to low- and mid-toned traditional drums. Above the percussive base, wooden xylophone bars and aerophone flutes weave bright counter-melodies, punctuated by dynamic vocal calls, praises, and crowd cheers from the omukama. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Male dancers wear shirts and shorts, with ebinyege—rattles fashioned from dried gourds or calabashes—fastened securely to their legs. Female dancers wear long skirts and blouses, girded at the waist with entogoro rings made of cowrie shells or beads designed to accentuate hip articulations. Traditionally performed outdoors on bare earth under moonlight, contemporary performances take place at cultural festivals, wedding receptions, tourism exhibitions, and school auditoriums.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ADancers_from_bunyoro.JPG",
+    "https://commons.wikimedia.org/wiki/File%3ADrums_from_western_Uganda.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AOrunyege.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Dancers_from_bunyoro.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Dancers_from_bunyoro.JPG/1280px-Dancers_from_bunyoro.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ngumenawe / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADancers_from_bunyoro.JPG",
+    "description": "This is an image of Cultural Fashion or Adornment from"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Drums_from_western_Uganda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Drums_from_western_Uganda.jpg/1280px-Drums_from_western_Uganda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Nyakairuj / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADrums_from_western_Uganda.jpg",
+    "description": "This is an image from"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Orunyege.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Orunyege.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Ian.musinguzi / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOrunyege.jpg",
+    "description": "Orunyege is a Traditional dance of the Banyoro tribe in Western Uganda."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Preserving_Culture_in_Schools.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Preserving_Culture_in_Schools.jpg/1280px-Preserving_Culture_in_Schools.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Sagiomhza / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APreserving_Culture_in_Schools.jpg",
+    "description": "Culture, Dance, Art, Music, Folklore"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Africa2U - Orunyege (Sample) - A dance from Uganda",
+    "url": "https://archive.org/details/actonma-Africa2U_-_Orunyege_Sample_-_A_dance_from_Uganda",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Close-up of dried gourd ebinyege rattles vibrating against calf muscles.",
+   "Beaded entogoro waist rings swaying in rhythmic syncopation.",
+   "Bare feet stamping fine red dust off the dance ground.",
+   "The master of ceremonies laughing and gesturing with a carved staff."
+  ],
+  "costume_notes": "Male dancers wear shirts and shorts, with ebinyege—rattles fashioned from dried gourds or calabashes—fastened securely to their legs. Female dancers wear long skirts and blouses, girded at the waist with entogoro rings made of cowrie shells or beads designed to accentuate hip articulations. Traditionally performed outdoors on bare earth under moonlight, contemporary performances take place at cultural festivals, wedding receptions, tourism exhibitions, and school auditoriums.",
+  "setting_notes": "Entogoro functions as a courtship showcase, community celebration, and instructional medium for transmitting social etiquette. It is traditionally performed during weddings, youth initiation ceremonies, social gatherings, and Empaako naming rituals. The dance serves as an educational vehicle, instructing younger generations on community standards regarding courtship, resilience, and mutual respect between partners.",
+  "map": {
+   "country": "Uganda",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "9 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 9,
+  "counting": "5-6-7-8",
+  "demonstration": [
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "side side side side",
+   "rock step rock step",
+   "have fun",
+   "keep those abs pulled in"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "count_in",
+   "breakdown",
+   "music_practice",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Orunyege-Ntogoro",
+  "https://www.wikidata.org/wiki/Q124251128"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "hero_checked": null
+}

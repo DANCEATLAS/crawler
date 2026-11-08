@@ -1,0 +1,865 @@
+{
+ "slug": "ballet-feerie",
+ "name": "ballet-féerie",
+ "pack_version": "e1",
+ "built_at": "2026-11-08T17:28:16Z",
+ "researched_at": "2026-11-08T16:07:55Z",
+ "qc_score": 8.7,
+ "status": "draft",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "ballet-féerie",
+   "fairy ballet"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet ballet-féerie",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Step behind the curtain.",
+     "This is ballet-féerie, from the 19th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: ballet-féerie · Russia · 19th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The ballet-féerie originates in Russia as a synthesis of the French féerie theatrical genre and the Italian ballo grande dance style.",
+     "It evolves from a long history of European spectacle, including the Renaissance ballet de cour and 17th-century pièces à machines, which rely on the engineering of architects like Nicola Sabbatini.",
+     "In the 19th century, these influences merge with the Russian interest in narrative ballet, creating a genre that prioritizes visual transformation and ensemble performance."
+    ],
+    "on_screen": [
+     "Map: Russia · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The ballet-féerie serves as a popular, often commercialized form of entertainment that aims to provide a dreamlike experience for the audience.",
+     "It functions as a morality play, depicting the triumph of good over evil through the use of magic talismans and supernatural intervention.",
+     "Today it is a historical tradition."
+    ],
+    "on_screen": [
+     "Footage: The Nutcracker (https://archive.org/details/mecm-The_Nutcracker)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Signature moves — MISSING"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music of the ballet-féerie is characterized by its symphonic scale and ability to support narrative transformations.",
+     "Tchaikovsky’s works are the primary examples, utilizing full orchestral arrangements to underscore the magical and supernatural elements of the plot.",
+     "Listen for the full orchestra."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: The Sleeping Beauty — Pyotr Ilyich Tchaikovsky; The Nutcracker — Pyotr Ilyich Tchaikovsky; The Sleeping Beauty — Пётр Ильич Чайковский, Koninklijk Concertgebouworkest, Antal Doráti (1995)",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Settings are defined by lavish, mechanically worked stage effects including trapdoors, smoke machines, and quickly changeable sets.",
+     "Costumes are designed to be brilliant and dazzling, often representing supernatural creatures like gnomes, witches, and fairies to heighten the moral tone of the production."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Pyotr Ilyich Tchaikovsky is the most significant figure associated with the genre, having composed The Sleeping Beauty and The Nutcracker within this framework.",
+     "The genre originates in France as a theatrical fairy play, or féerie, before being adapted into the Russian ballet-féerie. Other variants include the English fairy extravaganza and the Spanish comedia de magia.",
+     "The genre descends from the French féerie and the Italian ballo grande, serving as a precursor to modern spectacular stage productions."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Ballet-féerie is parent of féerie, the French theatrical genre that provides the name and narrative structure.",
+     "Ballet-féerie is an influence of ballo grande, the Italian style that provides the dance characteristics."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow",
+    "needs": [
+     "teaching steps"
+    ]
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how the forgotten ballet-féerie genre gives birth to the world's most famous ballets.",
+     "Sources include 3 references, with every claim checked against its source."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "the first steps of ballet-féerie",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 covers first steps. Today features the first steps of ballet-féerie.",
+      "Level is beginner.",
+      "Your instructor is a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet, so the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Do Step A, then Step B, without stopping. Keep it slow first.",
+      "Now shift to half tempo. Now full tempo.",
+      "Mirror the instructor as they face you, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the first steps of ballet-féerie.",
+      "The ballet-féerie served as a popular, often commercialized form of entertainment that aimed to provide a 'dreamlike' experience for the audience.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of ballet-féerie",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 covers building the dance. Today focuses on building the dance of ballet-féerie.",
+      "Level is intermediate.",
+      "Your instructor is a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet, so the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Do Step A, then Step B, without stopping. Keep it slow first.",
+      "Now shift to half tempo. Now full tempo.",
+      "Mirror the instructor as they face you, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of ballet-féerie.",
+      "Pyotr Ilyich Tchaikovsky is the most significant figure associated with the genre, having composed The Sleeping Beauty and The Nutcracker within this framework.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of ballet-féerie",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 covers dancing it fully. Today focuses on dancing ballet-féerie fully.",
+      "Level is advanced.",
+      "Your instructor is a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Posture notes are not in the sources yet, so the instructor demonstrates neutral posture and the arm position seen in the hero video."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on posture"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Do Step A, then Step B, without stopping. Keep it slow first.",
+      "Now shift to half tempo. Now full tempo.",
+      "Mirror the instructor as they face you, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video."
+     ],
+     "on_screen": [
+      "Side-by-side: wrong / right"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of ballet-féerie.",
+      "The genre descends from the French féerie and the Italian ballo grande, serving as a precursor to modern spectacular stage productions.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "full orchestra"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "dreamlike",
+   "magical",
+   "spectacular"
+  ],
+  "sound_description": null,
+  "listen_before_composing": [
+   "The Sleeping Beauty — Pyotr Ilyich Tchaikovsky",
+   "The Nutcracker — Pyotr Ilyich Tchaikovsky",
+   "The Sleeping Beauty — Пётр Ильич Чайковский, Koninklijk Concertgebouworkest, Antal Doráti (1995)",
+   "The Nutcracker — Пётр Ильич Чайковский (year unknown)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of ballet-féerie (Russia). Instruments: full orchestra. Mood: dreamlike, magical, spectacular. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Settings were defined by lavish, mechanically worked stage effects including trapdoors, smoke machines, and quickly changeable sets. Costumes were designed to be brilliant and dazzling, often representing supernatural creatures like gnomes, witches, and fairies to heighten the moral tone of the production.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AAmbigu-Comique-Le_Monstre_et_le_Magicien-1861.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ASet_design_Act2_of_Androm%C3%A8de_by_P_Corneille_1650_-_Gallica_2010.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ALeopoldo_Metlicovitz%2C_1907_-_Pirlimpinpin.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ambigu-Comique-Le_Monstre_et_le_Magicien-1861.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ambigu-Comique-Le_Monstre_et_le_Magicien-1861.jpg/1280px-Ambigu-Comique-Le_Monstre_et_le_Magicien-1861.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Hoster, lithographe / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAmbigu-Comique-Le_Monstre_et_le_Magicien-1861.jpg",
+    "description": "Théâtre de L'Ambigu comique... Aujourd'hui samedi 22 juin 1861... Représentations de M. François Ravel, mime américain, rôle du monstre. Rentrée de M. Castellano, rôle de Zametti le magicien. Première représentation : Le Monstre et le magicien. Drame fantastique à grand spectacle, cinq actes et onze tableaux...[de Ferdinand Dugué] affiche"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Set_design_Act2_of_Androm%C3%A8de_by_P_Corneille_1650_-_Gallica_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Set_design_Act2_of_Androm%C3%A8de_by_P_Corneille_1650_-_Gallica_2010.jpg/1280px-Set_design_Act2_of_Androm%C3%A8de_by_P_Corneille_1650_-_Gallica_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Giacomo Torelli / François Chauveau / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ASet_design_Act2_of_Androm%C3%A8de_by_P_Corneille_1650_-_Gallica_2010.jpg",
+    "description": "Set design for Act 2 of Pierre Corneille's Andromède as first performed on 1 February 1650 by the Troupe Royale at the Petit-Bourbon in Paris"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Leopoldo_Metlicovitz%2C_1907_-_Pirlimpinpin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Leopoldo_Metlicovitz%2C_1907_-_Pirlimpinpin.jpg/1280px-Leopoldo_Metlicovitz%2C_1907_-_Pirlimpinpin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Leopoldo Metlicovitz / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALeopoldo_Metlicovitz%2C_1907_-_Pirlimpinpin.jpg",
+    "description": "Poster by Leopoldo Metlicovitz. La polvere di Pirlimpinpin : féerie in tre atti e 16 quadri / di Carlo Vizzotto. - Milano"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Voyage_%C3%A0_travers_l%27impossible_L%27Illustration_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Voyage_%C3%A0_travers_l%27impossible_L%27Illustration_cropped.jpg/1280px-Voyage_%C3%A0_travers_l%27impossible_L%27Illustration_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Fernand Auguste Besnier (18??–1927) / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVoyage_%C3%A0_travers_l%27impossible_L%27Illustration_cropped.jpg",
+    "description": "Drawing by Besnier for L'Illustration (Vol. LXXX, No. 2075, 2 December 1882, page 1), showing scenes from the play Voyage à travers l'impossible. More information about this engraving here."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Pezon_et_ses_six_lions_%281874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Pezon_et_ses_six_lions_%281874%29.jpg/1280px-Pezon_et_ses_six_lions_%281874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Paul Hadol / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APezon_et_ses_six_lions_%281874%29.jpg",
+    "description": "Affiche : Théâtre du Chatelet. Les Pilules du diable. Tous les soirs Pezon et ses six lions"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/JulesCh%C3%A9ret%2C_Affiche_de_la_biche_au_bois%2C_1876.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/JulesCh%C3%A9ret%2C_Affiche_de_la_biche_au_bois%2C_1876.JPEG/1280px-JulesCh%C3%A9ret%2C_Affiche_de_la_biche_au_bois%2C_1876.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Jules Chéret / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJulesCh%C3%A9ret%2C_Affiche_de_la_biche_au_bois%2C_1876.JPEG",
+    "description": "Jules Chéret, Affiche de la biche au bois, 1876."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Fred_R._Hamlin%27s_musical_extravaganza%2C_The_wizard_of_Oz_LCCN2014636750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Fred_R._Hamlin%27s_musical_extravaganza%2C_The_wizard_of_Oz_LCCN2014636750.jpg/1280px-Fred_R._Hamlin%27s_musical_extravaganza%2C_The_wizard_of_Oz_LCCN2014636750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "U.S. Lithograph Co.; Hamlin, Fred R. / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AFred_R._Hamlin%27s_musical_extravaganza%2C_The_wizard_of_Oz_LCCN2014636750.jpg",
+    "description": "Title: Fred R. Hamlin's musical extravaganza, The wizard of Oz\nAbstract/medium: 1 print : color lithograph ; sheet 105 x 70 cm. (poster format)"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Les_Pilules_du_diable_st%C3%A9r%C3%A9oscope_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/21/Les_Pilules_du_diable_st%C3%A9r%C3%A9oscope_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Unknown (probably French, fl. 1870) / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALes_Pilules_du_diable_st%C3%A9r%C3%A9oscope_2.jpg",
+    "description": "Hand-coloured stereoscope image, circa 1870, of a scene from the popular French féerie (fairy play) Les Pilules du diable."
+   }
+  ],
+  "footage": [
+   {
+    "title": "The Nutcracker",
+    "url": "https://archive.org/details/mecm-The_Nutcracker",
+    "year": 2021,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "trapdoors",
+   "limelight",
+   "shifting stage tableaux"
+  ],
+  "costume_notes": "Settings were defined by lavish, mechanically worked stage effects including trapdoors, smoke machines, and quickly changeable sets. Costumes were designed to be brilliant and dazzling, often representing supernatural creatures like gnomes, witches, and fairies to heighten the moral tone of the production.",
+  "setting_notes": "The ballet-féerie served as a popular, often commercialized form of entertainment that aimed to provide a 'dreamlike' experience for the audience. It functioned as a morality play, depicting the triumph of good over evil through the use of magic talismans and supernatural intervention.",
+  "map": {
+   "country": "Russia",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "3 tutorial(s) of the classical-court family studied",
+  "videos_studied": 3,
+  "counting": "5-6-7-8",
+  "demonstration": [
+   "views used by most teachers: front, side",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "keep length in both sides of the waist",
+   "keep the supporting leg strong and stable",
+   "keep the spine long",
+   "hold your placement",
+   "stay straight as a board",
+   "lift up in your lower abs",
+   "change feet"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "mistakes",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a hero video",
+  "posture, arms and hands",
+  "the how-it-is-danced section",
+  "signature moves",
+  "teaching steps written out",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/F%C3%A9erie",
+  "https://www.wikidata.org/wiki/Q123578591",
+  "https://fr.wikipedia.org/wiki/Ballet-féerie"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": true,
+ "hero_checked": null,
+ "polish_kept_scenes": 20
+}
