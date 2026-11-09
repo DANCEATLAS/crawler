@@ -1,8 +1,8 @@
 # Rejang dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-07 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; signature moves; the music & instruments section; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; signature moves; the music & instruments section; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Balinese temple elder or community guardian explaining the devotional mindset of ngayah.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Offering of Ngayah
 NARRATION: This is Rejang dance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (GjV3VxHoHKg)
 ON SCREEN: Title card: Rejang dance · Indonesia · not described in sources
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ MUSIC: underscore
 NARRATION: The dance takes the form of a harmonious procession.
 NARRATION: Participants undergo no prior formal training, believing that the spirit of ngayah guides their bodies to move in complete unison.
 NARRATION: Girls as young as two or three years old join the communal line, moving together under shared devotion.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (GjV3VxHoHKg)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Procession through temple grounds and the village hall of Bale Agung.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -78,7 +78,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: In the courtyards of Balinese temples, young girls and women greet descending deities in a sacred ritual where spiritual devotion replaces formal choreography.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -97,7 +97,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'GjV3VxHoHKg', 'checked_by_vision_model': False, 'title': '"Tari Rejang Dewa" - Amazing Traditional Balinese Dance'}
 Images: 6 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); EGimaging / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain (Public domain); Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: BlocBoy JB on the ‘Shoot’ Dance, Collabs w/ Drake & A$AP Rocky, & His ‘SIMI’ Mixtape 💿 | MTV News — https://archive.org/details/youtube-IkijaS1rUAo; 四月最后一个视频咯 五月也要编更多好看的舞～宝们可以评论区推推歌～歌荒了😩#抖音潮流舞蹈地图 #爵士基础 #simi编舞 #一学就会系列 #shapeofyou编舞 — https://archive.org/details/Douyin-7499118922937306404
 Motifs: Bale Agung communal hall architecture, Temple courtyards of Klungkung and Karangasem, Young toddlers walking in communal temple processions
@@ -107,9 +107,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 28 tutorials across the atlas studied · videos studied: 28
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
+Source: 40 tutorials across the atlas studied · videos studied: 40
+Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; side close side; step and point; turn turn turn; replace; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
+Cues: side close side; rock step; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; and one and three and five and seven; keep your feet together; relax your knees; step and point; turn turn turn; replace
 
 Sources (2): https://en.wikipedia.org/wiki/Rejang_dance; https://www.wikidata.org/wiki/Q12519987

@@ -1,8 +1,8 @@
 # Ekitaguriro — episode pack
 
-*Status: draft · built 2026-11-08 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; notable figures; lineage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local cultural practitioner from the Ankole region.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Cow Dance of Ankole
 NARRATION: This is Ekitaguriro. Traditional.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (Mgo05aUl0_Y)
 ON SCREEN: Title card: Ekitaguriro · Uganda · Traditional
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 NARRATION: Men imitate the walking gait of cows by stepping from one leg to another.
 NARRATION: Women sway from side to side while spreading their hands across and above their heads to represent the long-horned cattle.
 NARRATION: Watch for Cow Gait, Horn Representation.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (Mgo05aUl0_Y)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -68,7 +68,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Men: Step from one leg to another to imitate cow walking.
 NARRATION: Women: Sway from side to side.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -76,7 +76,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the Ekitaguriro, a Ugandan tradition where movement and poetry honor the cattle that define a culture.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -92,11 +92,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Women spread hands across and above their heads to represent long-horned cattle.
 NARRATION: Women sway from side to side.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -111,14 +111,12 @@ NARRATION: Drill: Practice rhythmic side-to-side weight transfer.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Women: Spread hands across and above the head to represent horns.
 NARRATION: Drill: Practice raising arms to form the horn shape.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -130,15 +128,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the arm gestures while seated, focusing on the horn shape. · For children: A 'follow the cow' game where children mimic the gait and horn shapes.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm gestures while seated, focusing on the horn shape. · For children: A 'follow the cow' game where children mimic the gait and horn shapes. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -164,11 +161,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Women spread hands across and above their heads to represent long-horned cattle.
 NARRATION: Women sway from side to side.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -181,7 +178,6 @@ NARRATION: Step 2: Women: Sway from side to side.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Women: Spread hands across and above the head to represent horns.
@@ -190,7 +186,6 @@ NARRATION: Horn Representation: Women spread their hands across and above their 
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -201,15 +196,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the arm gestures while seated, focusing on the horn shape. · For children: A 'follow the cow' game where children mimic the gait and horn shapes.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm gestures while seated, focusing on the horn shape. · For children: A 'follow the cow' game where children mimic the gait and horn shapes. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -234,11 +228,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Women spread hands across and above their heads to represent long-horned cattle.
 NARRATION: Women sway from side to side.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -251,7 +245,6 @@ NARRATION: Step 2: Women: Spread hands across and above the head to represent ho
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Cow Gait: Men step from one leg to another to imitate the walking of cows.
@@ -259,7 +252,6 @@ NARRATION: Horn Representation: Women spread their hands across and above their 
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -270,15 +262,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the arm gestures while seated, focusing on the horn shape. · For children: A 'follow the cow' game where children mimic the gait and horn shapes.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm gestures while seated, focusing on the horn shape. · For children: A 'follow the cow' game where children mimic the gait and horn shapes. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -304,7 +295,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear 'bitambi' or 'lessu' cloth tied around the waist with a lighter cloth draped over the shoulders. Women wear African-themed jewelry, and men wear shackle-like beads on their legs.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'Mgo05aUl0_Y', 'checked_by_vision_model': False, 'title': 'ekitaguriro rwankunionio'}
 Images: 3 licensed — Aubry Arihona / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Owobusingye / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Kateregga1 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Ekitaguriro dance.webm — https://upload.wikimedia.org/wikipedia/commons/b/b9/Ekitaguriro_dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Ekitaguriro dance..webm — https://upload.wikimedia.org/wikipedia/commons/e/ee/Ekitaguriro_dance..webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Africa2U: Ekitaguriro Dance — https://archive.org/details/actonma-Africa2U_-_Ekitaguriro_Dance; A dance from Ankore - Ekitaguriro — https://archive.org/details/actonma-A_dance_from_Ankore_-_Ekitaguriro
 Motifs: Long-horned Ankole cattle, Traditional bitambi cloth, Engalabi drums
@@ -314,9 +305,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 9 tutorial(s) of the folk-circle family studied · videos studied: 9
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; side side side side; rock step rock step; have fun; keep those abs pulled in
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (2): https://en.wikipedia.org/wiki/Ekitaguriro; https://www.wikidata.org/wiki/Q124333764

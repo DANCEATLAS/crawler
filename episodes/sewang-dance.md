@@ -1,8 +1,8 @@
 # Pendet dance — episode pack
 
-*Status: draft · built 2026-11-04 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed reference footage; the music & instruments section
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed reference footage; the music & instruments section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A patient Balinese dance teacher experienced in temple rituals and tourism performances.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Pendet: Bali’s Dance of Floral Welcome
 NARRATION: This is Pendet dance. 20th century (codified 1950s, expanded 1960s).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (5qd2l_1Ol4E)
 ON SCREEN: Title card: Pendet dance · Indonesia · 20th century (codified 1950s, expanded 1960s)
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Pendet is performed by 4-5 young girls carrying small silver bowls de
 NARRATION: The dancers move from shrine to shrine within temple yards, sprinkling petals to welcome gods and guests.
 NARRATION: Movements are simple, foundational Balinese dance steps learned by imitation, suitable for beginners.
 NARRATION: Watch for Petal Sprinkle.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (5qd2l_1Ol4E)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Dancers move in procession from shrine to shrine within temple yards, maintaining close spacing.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -74,7 +74,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Hold a small silver bowl decorated with young palm leaves in the right hand.
 NARRATION: Walk gracefully from one shrine to another within the temple yard.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -82,7 +82,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how young Balinese girls use petals and grace to invite gods and guests into their sacred temples.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -99,11 +99,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Graceful, upright posture with gentle head and eye movements.
 NARRATION: Right hand holds the bowl; fingers gently sprinkle petals; arm movements are soft and flowing.
 NARRATION: Subtle torso movements aligned with the flow of the dance; hips move gently with steps.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -117,7 +117,6 @@ NARRATION: Drill: Practice holding the bowl steadily in the right hand.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: At intervals, sprinkle flower petals into the air from the bowl.
@@ -125,7 +124,6 @@ NARRATION: Step 4: Use simple hand and arm gestures to present offerings.
 NARRATION: Drill: Simulate sprinkling petals with gentle finger movements.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -138,13 +136,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid abrupt or harsh movements; maintain respectfulness in gestures.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice arm and hand movements while seated, holding a bowl with petals. · For children: Pretend to hold bowls and sprinkle petals while walking in a circle.
 MUSIC: silence
 OPTIONS: Seated or supported option: Practice arm and hand movements while seated, holding a bowl with petals. · For children: Pretend to hold bowls and sprinkle petals while walking in a circle. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -171,11 +169,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Graceful, upright posture with gentle head and eye movements.
 NARRATION: Right hand holds the bowl; fingers gently sprinkle petals; arm movements are soft and flowing.
 NARRATION: Subtle torso movements aligned with the flow of the dance; hips move gently with steps.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -188,7 +186,6 @@ NARRATION: Drill: Walk in a small group maintaining spacing.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Petal Sprinkle: Casting flower petals into the air from the bowl to welcome guests and gods.
@@ -196,7 +193,6 @@ NARRATION: Drill: Practice moving from one spot to another smoothly.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -209,13 +205,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid abrupt or harsh movements; maintain respectfulness in gestures.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice arm and hand movements while seated, holding a bowl with petals. · For children: Pretend to hold bowls and sprinkle petals while walking in a circle.
 MUSIC: silence
 OPTIONS: Seated or supported option: Practice arm and hand movements while seated, holding a bowl with petals. · For children: Pretend to hold bowls and sprinkle petals while walking in a circle. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancers move in procession from shrine to shrine within temple yards, maintaining close spacing.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -242,11 +238,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Graceful, upright posture with gentle head and eye movements.
 NARRATION: Right hand holds the bowl; fingers gently sprinkle petals; arm movements are soft and flowing.
 NARRATION: Subtle torso movements aligned with the flow of the dance; hips move gently with steps.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -260,7 +256,6 @@ NARRATION: Drill: Combine all movements fluidly.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Petal Sprinkle: Casting flower petals into the air from the bowl to welcome guests and gods.
@@ -268,7 +263,6 @@ NARRATION: Drill: Practice transitions between shrines.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -281,13 +275,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid abrupt or harsh movements; maintain respectfulness in gestures.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice arm and hand movements while seated, holding a bowl with petals. · For children: Pretend to hold bowls and sprinkle petals while walking in a circle.
 MUSIC: silence
 OPTIONS: Seated or supported option: Practice arm and hand movements while seated, holding a bowl with petals. · For children: Pretend to hold bowls and sprinkle petals while walking in a circle. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancers move in procession from shrine to shrine within temple yards, maintaining close spacing.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -314,7 +308,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '5qd2l_1Ol4E', 'checked_by_vision_model': False, 'title': 'Ciaaattt...Pendet dance at 20th anniversary of pairi daiza'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Christopher Michel from San Francisco, USA / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Silver bowls with flower petals, Yellow janur palm leaf decorations, Temple shrines, Young girls in traditional Balinese attire, Petals falling in slow motion
@@ -324,9 +318,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the folk-circle family studied · videos studied: 3
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (3): https://en.wikipedia.org/wiki/Pendet_dance; https://www.wikidata.org/wiki/Q3034630; https://pt.wikipedia.org/wiki/Pendet

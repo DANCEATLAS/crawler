@@ -1,8 +1,8 @@
 # Entogoro — episode pack
 
-*Status: draft · built 2026-11-08 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic cultural educator from Fort Portal who balances strict rhythmic discipline with infectious joy.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Rattles on the Shins, Rings on the Hips
 NARRATION: This is Entogoro. Pre-colonial to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (H_2lVBWAH3U)
 ON SCREEN: Title card: Entogoro · Uganda · Pre-colonial to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The dance is performed by two ensembles: male dancers (abakwongezi) a
 NARRATION: Dancers assemble in circles, lines, and paired arrangements, responding to musical cues from the drummers and the omukama (master of ceremonies).
 NARRATION: Men execute energetic foot stomps, spins, and jumps that activate their leg rattles, while women perform graceful hip movements that oscillate their beaded waist rings.
 NARRATION: Watch for Ebinyege rattle strike, Entogoro hip oscillation, Courting leap.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (H_2lVBWAH3U)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circular staging transitioning into opposing gender lines and advancing couple pairings.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -80,7 +80,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stomp the right foot into the floor to sound the leg rattle (ebinyege) on the downbeat.
 NARRATION: Transfer weight smoothly to the left foot while engaging a quick rebound strike.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -88,7 +88,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: In western Uganda, young dancers test their heart, stamina, and marital prospects through the thunderous percussive steps of Entogoro.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -105,11 +105,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright yet grounded torso with slightly bent knees to absorb ground impacts and facilitate rapid leg shaking.
 NARRATION: Open, expressive gestures framing the torso, balanced outward for stability during jumping and spinning.
 NARRATION: Rhythmic hip rotations, lateral oscillations, and torso shivering designed to activate waist rings.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -124,7 +124,6 @@ NARRATION: Drill: Practice stationary right-foot downbeat stomps with bent knees
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Isolate and circle the hips rhythmically so the waist ring (entogoro) swings laterally.
@@ -132,7 +131,6 @@ NARRATION: Step 4: Execute an explosive vertical hop, landing simultaneously on 
 NARRATION: Drill: Alternate four stomps on the right with four on the left.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -145,13 +143,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid stiffening the knees or landing flat-footed when wearing rattles to protect the joints during high jumps.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform rhythmic heel and toe taps while seated upright in a sturdy armless chair to recreate rattle sounds without bearing full weight. · For children: Play 'Stamina Challenge' where dancers shake ankle rattles or shakers in a circle, freezing into statue poses whenever the master drummer stops playing.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform rhythmic heel and toe taps while seated upright in a sturdy armless chair to recreate rattle sounds without bearing full weight. · For children: Play 'Stamina Challenge' where dancers shake ankle rattles or shakers in a circle, freezing into statue poses whenever the master drummer stops playing. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -178,11 +176,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright yet grounded torso with slightly bent knees to absorb ground impacts and facilitate rapid leg shaking.
 NARRATION: Open, expressive gestures framing the torso, balanced outward for stability during jumping and spinning.
 NARRATION: Rhythmic hip rotations, lateral oscillations, and torso shivering designed to activate waist rings.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -195,7 +193,6 @@ NARRATION: Drill: Isolate lateral hip shifts side to side on alternating counts.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Ebinyege rattle strike: A sharp, downward foot stamp that causes dried calabash leg rattles to snap rhythmically against the lower calf.
@@ -204,7 +201,6 @@ NARRATION: Drill: Execute full circular hip rotations while keeping shoulders le
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -217,13 +213,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid stiffening the knees or landing flat-footed when wearing rattles to protect the joints during high jumps.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform rhythmic heel and toe taps while seated upright in a sturdy armless chair to recreate rattle sounds without bearing full weight. · For children: Play 'Stamina Challenge' where dancers shake ankle rattles or shakers in a circle, freezing into statue poses whenever the master drummer stops playing.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform rhythmic heel and toe taps while seated upright in a sturdy armless chair to recreate rattle sounds without bearing full weight. · For children: Play 'Stamina Challenge' where dancers shake ankle rattles or shakers in a circle, freezing into statue poses whenever the master drummer stops playing. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circular staging transitioning into opposing gender lines and advancing couple pairings.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -250,11 +246,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright yet grounded torso with slightly bent knees to absorb ground impacts and facilitate rapid leg shaking.
 NARRATION: Open, expressive gestures framing the torso, balanced outward for stability during jumping and spinning.
 NARRATION: Rhythmic hip rotations, lateral oscillations, and torso shivering designed to activate waist rings.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -268,7 +264,6 @@ NARRATION: Drill: Execute a two-footed vertical leap landing directly on the dow
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Courting leap: An acrobatic vertical jump executed by male dancers to showcase supreme physical stamina to partners and elders.
@@ -276,7 +271,6 @@ NARRATION: Drill: Complete a 360-degree pivot turn over four continuous rattle s
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -289,13 +283,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid stiffening the knees or landing flat-footed when wearing rattles to protect the joints during high jumps.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform rhythmic heel and toe taps while seated upright in a sturdy armless chair to recreate rattle sounds without bearing full weight. · For children: Play 'Stamina Challenge' where dancers shake ankle rattles or shakers in a circle, freezing into statue poses whenever the master drummer stops playing.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform rhythmic heel and toe taps while seated upright in a sturdy armless chair to recreate rattle sounds without bearing full weight. · For children: Play 'Stamina Challenge' where dancers shake ankle rattles or shakers in a circle, freezing into statue poses whenever the master drummer stops playing. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circular staging transitioning into opposing gender lines and advancing couple pairings.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -322,7 +316,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'H_2lVBWAH3U', 'checked_by_vision_model': False, 'title': 'ORUNYEGE DANCE PERFOMED BY KABALEGA ROYAL TROUPE HOIMA'}
 Images: 4 licensed — Ngumenawe / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Nyakairuj / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ian.musinguzi / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Sagiomhza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Africa2U - Orunyege (Sample) - A dance from Uganda — https://archive.org/details/actonma-Africa2U_-_Orunyege_Sample_-_A_dance_from_Uganda
 Motifs: Close-up of dried gourd ebinyege rattles vibrating against calf muscles., Beaded entogoro waist rings swaying in rhythmic syncopation., Bare feet stamping fine red dust off the dance ground., The master of ceremonies laughing and gesturing with a carved staff.
@@ -332,9 +326,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 9 tutorial(s) of the folk-circle family studied · videos studied: 9
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; side side side side; rock step rock step; have fun; keep those abs pulled in
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (2): https://en.wikipedia.org/wiki/Orunyege-Ntogoro; https://www.wikidata.org/wiki/Q124251128

@@ -1,8 +1,8 @@
 # Wotagei — episode pack
 
-*Status: draft · built 2026-11-06 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); licensed reference footage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced cyalume dance performer with a background in idol fan culture.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Art of the Fan: Wotagei
 NARRATION: This is Wotagei. 20th and 21st century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (MuvJR2Pc9Vc)
 ON SCREEN: Title card: Wotagei · Japan · 20th and 21st century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Performers, known as uchishi, use glow sticks or penlights to create 
 NARRATION: Techniques are divided into chorus-based moves like thundersnake, muramasa, and amaterasu, and non-chorus moves like OAD and PPPH.
 NARRATION: Movements involve jumping, clapping, and arm-waving.
 NARRATION: Watch for Thundersnake, Romance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (MuvJR2Pc9Vc)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Requires significant space; often performed at the back of venues.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -78,7 +78,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. PPPH: A rhythmic sequence of claps and calls ('Pan, papan, hyu!').
 NARRATION: OAD: Swinging the body side to side while clapping.
-NARRATION: Count it: 1-2-3-4-5-6.
+NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -86,7 +86,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how Japanese idol fans transformed concert cheering into a global performance art.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -103,11 +103,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, dynamic, and ready for movement.
 NARRATION: Extensive use of arms to create light trails with glow sticks; specific gestures for different techniques.
 NARRATION: Body swings and side-to-side torso movement.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: High-energy pop rhythm with distinct instrumental breaks for calls..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -120,10 +120,10 @@ NARRATION: Step 1: PPPH: A rhythmic sequence of claps and calls ('Pan, papan, hy
 NARRATION: Step 2: OAD: Swinging the body side to side while clapping.
 NARRATION: Footwork from the sources: Jumping, side-to-side swaying, and occasional sliding.
 NARRATION: Drill: Practice the PPPH rhythm.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Romance: Swinging the body side to side while pointing upward.
@@ -131,7 +131,7 @@ NARRATION: Step 4: Thundersnake: A complex arm movement sequence used during the
 NARRATION: Drill: Learn basic arm swings.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -143,13 +143,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid performing in crowded seated areas where space is limited.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform arm movements while seated, focusing on rhythmic arm swings. · For children: A 'follow the leader' game using glow sticks to mimic simple arm patterns.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform arm movements while seated, focusing on rhythmic arm swings. · For children: A 'follow the leader' game using glow sticks to mimic simple arm patterns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -176,11 +176,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, dynamic, and ready for movement.
 NARRATION: Extensive use of arms to create light trails with glow sticks; specific gestures for different techniques.
 NARRATION: Body swings and side-to-side torso movement.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: High-energy pop rhythm with distinct instrumental breaks for calls..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -192,10 +192,10 @@ NEEDS: tempo
 NARRATION: Step 1: PPPH: A rhythmic sequence of claps and calls ('Pan, papan, hyu!').
 NARRATION: Step 2: OAD: Swinging the body side to side while clapping.
 NARRATION: Drill: Coordinate arm swings with torso movement.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Romance: Swinging the body side to side while pointing upward.
@@ -206,7 +206,7 @@ NARRATION: Drill: Practice timing with a 4/4 beat.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -218,13 +218,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid performing in crowded seated areas where space is limited.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform arm movements while seated, focusing on rhythmic arm swings. · For children: A 'follow the leader' game using glow sticks to mimic simple arm patterns.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform arm movements while seated, focusing on rhythmic arm swings. · For children: A 'follow the leader' game using glow sticks to mimic simple arm patterns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Requires significant space; often performed at the back of venues.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -251,11 +251,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, dynamic, and ready for movement.
 NARRATION: Extensive use of arms to create light trails with glow sticks; specific gestures for different techniques.
 NARRATION: Body swings and side-to-side torso movement.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: High-energy pop rhythm with distinct instrumental breaks for calls..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -267,10 +267,10 @@ NEEDS: tempo
 NARRATION: Step 1: Romance: Swinging the body side to side while pointing upward.
 NARRATION: Step 2: Thundersnake: A complex arm movement sequence used during the chorus.
 NARRATION: Drill: Chain thundersnake and romance.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Thundersnake: A complex arm-waving technique used primarily in the chorus.
@@ -279,7 +279,7 @@ NARRATION: Drill: Maintain synchronization with a group.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -291,13 +291,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid performing in crowded seated areas where space is limited.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform arm movements while seated, focusing on rhythmic arm swings. · For children: A 'follow the leader' game using glow sticks to mimic simple arm patterns.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform arm movements while seated, focusing on rhythmic arm swings. · For children: A 'follow the leader' game using glow sticks to mimic simple arm patterns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Requires significant space; often performed at the back of venues.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -326,7 +326,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performers often use glow sticks (cyalume) or penlights. Performances occur at concerts, anime conventions, and dedicated street spaces. Some fans wear specialized gear like decorated coats or headbands.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'MuvJR2Pc9Vc', 'checked_by_vision_model': False, 'title': 'Butter-Fly / 和田光司 ヲタ芸で表現してみた｜Digimon op Butter-Fly Light Dance [北の打ち師達×有志×DJ和]'}
 Images: 1 licensed — Ryo FUKAsawa / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: Light trails from glow sticks in a dark room., Synchronized jumping in a crowd., Close-ups of hand movements.
@@ -336,9 +336,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the street-urban family studied · videos studied: 3
-Counting: 1-2-3-4-5-6
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full
-Cues: punch to the side; pull your head down; pivot them on your elbows; lift your foot; then kick your leg; stay smooth; get a feeling for it; then get faster; tabletop position; split the line; land flat footed; perch up
+Source: 9 tutorial(s) of the street-urban family studied · videos studied: 9
+Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; punch to the side; pull your head down; pivot them on your elbows; swing stop; lean forward; arm up; elbow up; up and down
 
 Sources (5): https://en.wikipedia.org/wiki/Wotagei; https://www.wikidata.org/wiki/Q2636818; https://es.wikipedia.org/wiki/Wotagei; https://fr.wikipedia.org/wiki/Wotagei; https://it.wikipedia.org/wiki/Wotagei

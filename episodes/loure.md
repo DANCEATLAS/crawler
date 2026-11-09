@@ -1,8 +1,8 @@
 # loure — episode pack
 
-*Status: draft · built 2026-11-04 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Baroque dance specialist with expertise in historical performance and theatrical choreography
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Loure: The Slow Gigue of French Baroque Nobility
 NARRATION: This is loure. late 17th to early 18th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (dOGGI7qeEOs)
 ON SCREEN: Title card: loure · France · late 17th to early 18th century
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The loure is danced slowly or at a moderate tempo, often in compound 
 NARRATION: It features two steps per measure with complex sequences and continuous ornamentation.
 NARRATION: The first beat is strongly accented, preceded by an anacrusis.
 NARRATION: Watch for Loure step, Elegant turn.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (dOGGI7qeEOs)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Performed solo or in couples on stage, with spatial patterns reflecting theatrical choreography
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -81,7 +81,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Begin with an anacrusis (pickup) leading into the first beat
 NARRATION: Step emphasizing the first beat with a dotted rhythm
-NARRATION: Count it: 2 counts off, 2 counts on.
+NARRATION: Count it: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -89,7 +89,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the loure, a slow, ceremonious French Baroque dance named after a Norman bagpipe, blending noble grace with intricate rhythms.
-NARRATION: Sources: 7 references, every claim checked against its source.
+NARRATION: Sources: 7 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -106,11 +106,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, dignified, with controlled and ceremonious carriage
 NARRATION: Graceful, often with flowing gestures complementing the noble character
 NARRATION: Controlled, with subtle movements to maintain dignity
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 2 counts off, 2 counts on. The meter is compound duple (6/4) or simple triple (3/4).
+NARRATION: Count: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars. The meter is compound duple (6/4) or simple triple (3/4).
 NARRATION: Rhythm pattern: dotted rhythms with anacrusis (eighth note + quarter note).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -126,7 +126,7 @@ NARRATION: Drill: Clap and count the dotted rhythm in 6/4
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Perform two steps per measure with smooth transitions
@@ -134,7 +134,7 @@ NARRATION: Step 4: Incorporate elegant turns and ornamented footwork
 NARRATION: Drill: Practice the anacrusis leading into the first beat
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -147,13 +147,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rushing the tempo; do not neglect the dotted rhythm and strong downbeat accent
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice arm movements and rhythm clapping while seated · For children: Clap and step to dotted rhythm, imitate turns without full rotation
 MUSIC: silence
 OPTIONS: Seated or supported option: Practice arm movements and rhythm clapping while seated · For children: Clap and step to dotted rhythm, imitate turns without full rotation (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 2 counts off, 2 counts on.
+NARRATION: Count-in: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -180,11 +180,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, dignified, with controlled and ceremonious carriage
 NARRATION: Graceful, often with flowing gestures complementing the noble character
 NARRATION: Controlled, with subtle movements to maintain dignity
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 2 counts off, 2 counts on. The meter is compound duple (6/4) or simple triple (3/4).
+NARRATION: Count: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars. The meter is compound duple (6/4) or simple triple (3/4).
 NARRATION: Rhythm pattern: dotted rhythms with anacrusis (eighth note + quarter note).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -198,7 +198,7 @@ NARRATION: Drill: Practice turning on the spot with balance
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Loure step: A two-step pattern per measure with a dotted rhythm and accent on the first step
@@ -207,7 +207,7 @@ NARRATION: Drill: Combine turns with two-step footwork
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -220,13 +220,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rushing the tempo; do not neglect the dotted rhythm and strong downbeat accent
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice arm movements and rhythm clapping while seated · For children: Clap and step to dotted rhythm, imitate turns without full rotation
 MUSIC: silence
 OPTIONS: Seated or supported option: Practice arm movements and rhythm clapping while seated · For children: Clap and step to dotted rhythm, imitate turns without full rotation (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 2 counts off, 2 counts on.
+NARRATION: Count-in: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Performed solo or in couples on stage, with spatial patterns reflecting theatrical choreography
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -253,11 +253,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, dignified, with controlled and ceremonious carriage
 NARRATION: Graceful, often with flowing gestures complementing the noble character
 NARRATION: Controlled, with subtle movements to maintain dignity
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 2 counts off, 2 counts on. The meter is compound duple (6/4) or simple triple (3/4).
+NARRATION: Count: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars. The meter is compound duple (6/4) or simple triple (3/4).
 NARRATION: Rhythm pattern: dotted rhythms with anacrusis (eighth note + quarter note).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -272,7 +272,7 @@ NARRATION: Drill: Refine timing and accentuation of dotted rhythms
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Loure step: A two-step pattern per measure with a dotted rhythm and accent on the first step
@@ -281,7 +281,7 @@ NARRATION: Drill: Integrate complex footwork and ornamented steps
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -294,13 +294,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rushing the tempo; do not neglect the dotted rhythm and strong downbeat accent
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice arm movements and rhythm clapping while seated · For children: Clap and step to dotted rhythm, imitate turns without full rotation
 MUSIC: silence
 OPTIONS: Seated or supported option: Practice arm movements and rhythm clapping while seated · For children: Clap and step to dotted rhythm, imitate turns without full rotation (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 2 counts off, 2 counts on.
+NARRATION: Count-in: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Performed solo or in couples on stage, with spatial patterns reflecting theatrical choreography
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -329,7 +329,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'dOGGI7qeEOs', 'checked_by_vision_model': False, 'title': 'Understanding Form: The Loure'}
 Images: 0 licensed
 Footage: La Naissance de Vénus — https://archive.org/details/Naissance_de_Venus
 Motifs: Baroque costumes, Norman bagpipe (loure), dotted rhythm notation, elegant turns, court theater stage
@@ -339,9 +339,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of the classical-court family studied · videos studied: 1
-Counting: 2 counts off, 2 counts on
-Demonstration: views used by most teachers: front, side; tempo progression: slow
-Cues: hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Source: 3 tutorial(s) of the classical-court family studied · videos studied: 3
+Counting: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; hold your placement; stay straight as a board; lift up in your lower abs; change feet
 
 Sources (7): https://en.wikipedia.org/wiki/Loure; https://www.wikidata.org/wiki/Q1205331; https://es.wikipedia.org/wiki/Loure; https://fr.wikipedia.org/wiki/Loure_(danse); https://de.wikipedia.org/wiki/Loure; https://archive.org/details/b10334038; https://archive.org/details/classicromanticp01unse

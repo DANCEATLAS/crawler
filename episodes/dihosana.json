@@ -1,11 +1,12 @@
 {
  "slug": "dihosana",
  "name": "Dihosana",
- "pack_version": "e1",
- "built_at": "2026-11-05T19:35:32Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-05T18:28:51Z",
  "qc_score": 8.95,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -64,7 +65,7 @@
      "This is Dihosana. Traditional/Historical."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (MD2oGbI_IA0)",
      "Title card: Dihosana · Botswana · Traditional/Historical"
     ],
     "music": "theme (30 s)"
@@ -101,7 +102,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (MD2oGbI_IA0)",
      "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -185,7 +186,7 @@
     "duration_s": 25,
     "narration": [
      "An exploration of the sacred rain-making rituals of the Kalanga people in Botswana.",
-     "Sources: 2 references, every claim checked against its source."
+     "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -197,7 +198,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": null,
@@ -243,7 +246,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "MD2oGbI_IA0",
+   "checked_by_vision_model": false,
+   "title": "CULTURE SPEARS- HOSANA"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -339,38 +346,27 @@
   ]
  },
  "teaching_formula": {
-  "source": "18 tutorials across the atlas studied",
-  "videos_studied": 18,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
   ],
   "cues": [
-   "and one and three and five and seven",
-   "keep your feet together",
-   "relax your knees",
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
-   "bend the knees",
-   "change the weight",
-   "turn on the heels",
-   "keep it small",
-   "punch to the side"
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "context",
    "full_demo",
+   "context",
    "breakdown",
-   "slow_practice",
-   "mistakes",
-   "music_practice",
-   "layering"
+   "slow_practice"
   ],
   "steps_as_taught": []
  },
@@ -379,7 +375,7 @@
   "meter",
   "instruments",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed reference footage",
   "the how-it-is-danced section",
   "signature moves",
@@ -393,5 +389,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
+ "input_fingerprint": "f15afd432511fa2b05aed003bee82da081455482d2fdf7bd462080c69089250c",
  "hero_checked": null
 }

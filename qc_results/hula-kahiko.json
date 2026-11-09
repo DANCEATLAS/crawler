@@ -1,9 +1,9 @@
 {
  "slug": "hula-kahiko",
- "qc_at": "2026-11-02T14:47:02Z",
+ "qc_at": "2026-11-09T21:18:43Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
+ "publish_gate": "publish",
  "qc_score": 10.0,
  "gates": [
   {
@@ -14,27 +14,27 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "84"
+   "detail": "89"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "151"
+   "detail": "145"
   },
   {
    "gate": "insight_concrete",
-   "ok": false,
-   "detail": "In sacred hula, even a minor performance error was believed to invalidate the ri"
+   "ok": true,
+   "detail": "In ancient hula kahiko, dancers were ritually secluded under goddess Laka’s prot"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "409"
+   "detail": "392"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2274"
+   "detail": "2997"
   },
   {
    "gate": "sections_filled",
@@ -44,12 +44,12 @@
   {
    "gate": "citations",
    "ok": true,
-   "detail": "5/5 rate=1.0"
+   "detail": "10/10 rate=1.0"
   },
   {
    "gate": "sources",
    "ok": true,
-   "detail": "4"
+   "detail": "5"
   },
   {
    "gate": "country",
@@ -63,8 +63,8 @@
   },
   {
    "gate": "banned_phrasing",
-   "ok": false,
-   "detail": "foundational,deeply rooted"
+   "ok": true,
+   "detail": "foundational"
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "3 paras"
+   "detail": "6 paras"
   },
   {
    "gate": "not_duplicate",
@@ -84,7 +84,7 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=True cues=['ritual', 'sacred', 'temple', 'god', 'goddess', 'prayer', 'spirit', 'religious', 'offering']"
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'god', 'goddess', 'prayer', 'ancestor', 'spirit', 'religious', 'offering']"
   }
  ],
  "judge": {
@@ -98,23 +98,22 @@
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
+  "adaptations_safe": true,
   "overall": 10,
   "verdict": "publish",
-  "notes": "An exemplary profile. It accurately distinguishes hula kahiko from 'auana, respects the spiritual protocols of the hālau, and provides concrete technical details regarding instrumentation and footwork. The inclusion of the 'oli kāhea protocol adds significant cultural depth."
+  "notes": "Extremely thorough, highly respectful, perfectly factual profile adhering tightly to all evidence claims."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "insight_concrete",
-  "banned_phrasing",
   "judge_score=10.0",
   "sacred"
  ],
  "citation": {
-  "claims": 5,
-  "supported": 5,
+  "claims": 10,
+  "supported": 10,
   "rate": 1.0
  },
- "researched_at": "2026-10-28T16:25:31Z"
+ "researched_at": "2026-11-09T20:44:18Z"
 }

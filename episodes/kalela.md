@@ -1,6 +1,6 @@
 # Kalela — episode pack
 
-*Status: draft · built 2026-11-05 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the costume & setting section; lineage; two or more connections; what to avoid / common mistakes
 
@@ -70,7 +70,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Form two or three lines.
 NARRATION: Step forward in unison to the drumbeat.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -78,7 +78,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how Zambian mine workers turned a rhythmic drill into a powerful tool for social commentary.
-NARRATION: Sources: 4 references, every claim checked against its source.
+NARRATION: Sources: 4 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -92,14 +92,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -111,10 +109,9 @@ NARRATION: Step 1: Form two or three lines.
 NARRATION: Step 2: Step forward in unison to the drumbeat.
 NARRATION: Footwork from the sources: Forwards and backwards movement in lines.
 NARRATION: Drill: Walking in a straight line to a steady 4/4 beat.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Step backward in unison to the drumbeat.
@@ -122,7 +119,6 @@ NARRATION: Step 4: Lead dancers move around the central drums.
 NARRATION: Drill: Coordinating forward steps with the group.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -134,15 +130,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the rhythmic arm movements and vocal parts while seated. · For children: A follow-the-leader game where children move in lines mimicking the lead dancer.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the rhythmic arm movements and vocal parts while seated. · For children: A follow-the-leader game where children move in lines mimicking the lead dancer. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -166,14 +161,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -183,10 +176,9 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Form two or three lines.
 NARRATION: Step 2: Step forward in unison to the drumbeat.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Step backward in unison to the drumbeat.
@@ -196,7 +188,6 @@ NARRATION: Drum Circle: Lead dancers circling the central drums.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -207,15 +198,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the rhythmic arm movements and vocal parts while seated. · For children: A follow-the-leader game where children move in lines mimicking the lead dancer.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the rhythmic arm movements and vocal parts while seated. · For children: A follow-the-leader game where children move in lines mimicking the lead dancer. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Two or three lines moving in a drill formation around central drums.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -239,14 +229,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -256,10 +244,9 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Step backward in unison to the drumbeat.
 NARRATION: Step 2: Lead dancers move around the central drums.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Line Drill: Coordinated forward and backward movement in two or three lines.
@@ -267,7 +254,6 @@ NARRATION: Drum Circle: Lead dancers circling the central drums.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -278,15 +264,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the rhythmic arm movements and vocal parts while seated. · For children: A follow-the-leader game where children move in lines mimicking the lead dancer.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the rhythmic arm movements and vocal parts while seated. · For children: A follow-the-leader game where children move in lines mimicking the lead dancer. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Two or three lines moving in a drill formation around central drums.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -322,9 +307,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorials across the atlas studied · videos studied: 18
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees; change the weight; turn on the heels; keep it small; punch to the side
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (4): https://en.wikipedia.org/wiki/J._Clyde_Mitchell; https://www.wikidata.org/wiki/Q1676299; https://de.wikipedia.org/wiki/J._Clyde_Mitchell; https://ich.unesco.org/en/RL/01698

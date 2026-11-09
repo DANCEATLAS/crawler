@@ -1,6 +1,6 @@
 # Laridé — episode pack
 
-*Status: draft · built 2026-11-05 · judge 8.55 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 8.55 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; the how-it-is-danced section; signature moves; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -69,7 +69,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Form a line with other dancers.
 NARRATION: Link hands or little fingers with neighbors.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -77,7 +77,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the Laridé, a traditional Breton dance that connects dancers through a simple, rhythmic line.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -92,12 +92,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Linked hands or little fingers.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -111,13 +110,11 @@ NARRATION: Drill: Practice standing in a line.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Practice linking little fingers with neighbors.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -129,13 +126,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -160,12 +156,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Linked hands or little fingers.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -178,12 +173,10 @@ NARRATION: Step 2: Link hands or little fingers with neighbors.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -195,13 +188,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -225,12 +217,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Linked hands or little fingers.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -243,12 +234,10 @@ NARRATION: Step 2: Link hands or little fingers with neighbors.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -260,13 +249,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -303,9 +291,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the folk-circle family studied · videos studied: 4
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; crazy train
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (5): https://en.wikipedia.org/wiki/Balfolk; https://www.wikidata.org/wiki/Q804560; https://fr.wikipedia.org/wiki/Bal_folk; https://de.wikipedia.org/wiki/Bal_Folk; https://it.wikipedia.org/wiki/Balfolk

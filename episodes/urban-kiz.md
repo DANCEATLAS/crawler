@@ -1,6 +1,6 @@
 # Urban Kiz — episode pack
 
-*Status: draft · built 2026-11-03 · judge 10.0 · 11/11 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 11/11 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
 
@@ -73,14 +73,14 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Establish an upright partner frame with straight legs and body tension
 NARRATION: Initiate a forward or backward step using the &-principle by placing a light tap with 10 to 20 percent of body weight
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
 MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -94,14 +94,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -111,17 +109,15 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Establish an upright partner frame with straight legs and body tension
 NARRATION: Step 2: Initiate a forward or backward step using the &-principle by placing a light tap with 10 to 20 percent of body weight
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Gradually complete the bodyweight transfer onto the stepping foot
 NARRATION: Step 4: Travel along a straight linear path rather than circular curves
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -132,13 +128,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -162,14 +157,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -179,16 +172,14 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Change direction sharply at a perpendicular angle or reverse along the line
 NARRATION: Step 2: Perform stops, foot taps, and upper-body isolations matching musical breaks
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Execute pivots or pirouettes for the follower during open or linear transitions
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -199,13 +190,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -229,14 +219,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -246,15 +234,13 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Perform stops, foot taps, and upper-body isolations matching musical breaks
 NARRATION: Step 2: Execute pivots or pirouettes for the follower during open or linear transitions
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -266,13 +252,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -309,9 +294,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 9 tutorial(s) of the street-urban family studied · videos studied: 9
+Counting: 
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; punch to the side; pull your head down; pivot them on your elbows; swing stop; lean forward; arm up; elbow up; up and down
 
 Sources (2): https://en.wikipedia.org/wiki/Urban_Kiz; https://www.wikidata.org/wiki/Q30674423

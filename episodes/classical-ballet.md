@@ -1,8 +1,8 @@
 # Classical Ballet — episode pack
 
-*Status: draft · built 2026-11-05 · judge 10.0 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-09 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A professional ballet master with a focus on technical precision and historical context.
@@ -11,16 +11,16 @@
 ## Episode 1 · Meet Classical Ballet · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The architecture of grace.
-NARRATION: This is classical ballet, spanning from the 17th century to the present.
-ON SCREEN: Hero video — MISSING
+NARRATION: The Architecture of Grace
+NARRATION: This is Classical Ballet. 17th century to present.
+ON SCREEN: Hero video, first 10 seconds (0GsajWIF3ws)
 ON SCREEN: Title card: Classical Ballet · France, Italy, Russia · 17th century to present
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Classical ballet originates in Italian Renaissance courts and moves to France in the 16th century.
-NARRATION: King Louis XIV founds the Académie Royale de Danse in 1661, where Pierre Beauchamp codifies the five positions of the feet.
-NARRATION: Marius Petipa defines the classical era by combining Romantic storytelling with Russian athletic technique.
+NARRATION: Classical ballet originated in Italian Renaissance courts, moving to France in the 16th century.
+NARRATION: King Louis XIV founded the Académie Royale de Danse in 1661, and Pierre Beauchamp codified the five positions of the feet.
+NARRATION: The classical era was later defined by Marius Petipa, who combined Romantic storytelling with Russian athletic technique.
 ON SCREEN: Map: France, Italy, Russia · Europe
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
@@ -28,24 +28,24 @@ MUSIC: underscore
 ### 3. When it is danced (60 s) · `occasion`
 NARRATION: Ballet is a theatrical art form performed for audiences.
 NARRATION: It serves as a discipline for professional dancers and a rigorous physical practice for students.
-NARRATION: Today, it remains a living tradition.
+NARRATION: Today it is a living tradition.
 ON SCREEN: Footage: Cuba: Bay of Pigs (1964) (https://archive.org/details/cubabayofpigs)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Dancers utilize turnout, five positions of the feet, and precise arm movements.
-NARRATION: Technique includes jumps known as ballon, turns using spotting, and pointe work for advanced female dancers.
+NARRATION: Technique includes jumps (ballon), turns using spotting, and pointe work for advanced female dancers.
 NARRATION: Training emphasizes core strength and flexibility.
-NARRATION: Watch for pointe work and turnout.
-ON SCREEN: Hero video — MISSING
+NARRATION: Watch for Pointe work, Turnout.
+ON SCREEN: Hero video full screen, 30–45 s (0GsajWIF3ws)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Standardized layouts for stage and studio reference points.
 MUSIC: diegetic (the video's own sound), underscore under narration
 
 ### 5. Listen (70 s) · `music`
-NARRATION: Historically, a teacher plays the violin for accompaniment.
+NARRATION: Historically accompanied by a violin played by the teacher.
 NARRATION: In modern times, the piano is the standard instrument for class, with musicians often improvising to match the tempo and mood of the exercises.
-NARRATION: Listen for the piano and violin.
+NARRATION: Listen for the Piano, Violin.
 NARRATION: Music for ballet class is typically played on piano, with the musician improvising or selecting repertoire to match the specific rhythm and energy of the teacher's exercises.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
@@ -54,7 +54,7 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Female dancers wear leotards, tights, and soft or pointe shoes.
+NARRATION: Female dancers wear leotards, tights, and soft shoes (or pointe shoes).
 NARRATION: Male dancers wear tights and fitted shirts.
 NARRATION: Settings include dance studios with mirrors and stages for performance.
 ON SCREEN: Image gallery: 6 licensed images with attribution
@@ -70,15 +70,15 @@ ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Classical ballet is the parent of Romantic ballet, as it evolved from the storytelling and aesthetic foundations of that era.
-NARRATION: Classical ballet is the child of Neoclassical ballet, a development that builds upon classical technique.
+NARRATION: Classical Ballet is parent of Romantic ballet: Classical ballet evolved from the storytelling and aesthetic foundations of Romantic ballet.
+NARRATION: Classical Ballet is child of Neoclassical ballet: A development that builds upon classical ballet technique.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, try one step: the first position of the feet.
-NARRATION: Now, the second position of the feet.
-NARRATION: Count it: two counts off, two counts on.
+NARRATION: Before we go, one step. First position of the feet
+NARRATION: Second position of the feet
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -86,16 +86,16 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the rigorous history and precise technique that transformed courtly dance into the global art of classical ballet.
-NARRATION: Sources: 4 references, every claim checked against its source.
+NARRATION: Sources: 4 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
 ## Chapter 1 · First steps — Understanding the five positions · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 covers first steps and understanding the five positions.
-NARRATION: This is a beginner level, though the overall dance difficulty is advanced.
-NARRATION: Your instructor is a professional ballet master focused on technical precision and historical context.
+NARRATION: Chapter 1 — First steps. Today: Understanding the five positions.
+NARRATION: Level: Beginner. Difficulty of the dance overall: advanced.
+NARRATION: Your instructor: A professional ballet master with a focus on technical precision and historical context.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -103,11 +103,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, aligned, with turnout emanating from the hips.
 NARRATION: Five positions of the arms, standardized to complement the feet.
 NARRATION: Strong core engagement; turnout originates from the hip joint.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 2 counts off, 2 counts on.
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -115,48 +115,48 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: First position of the feet.
-NARRATION: Step 2: Second position of the feet.
-NARRATION: Footwork is based on five fundamental positions performed with turnout.
-NARRATION: Drill: First position alignment.
+NARRATION: Step 1: First position of the feet
+NARRATION: Step 2: Second position of the feet
+NARRATION: Footwork from the sources: Based on five fundamental positions of the feet, performed with turnout.
+NARRATION: Drill: First position alignment
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Third position of the feet.
-NARRATION: Step 4: Fourth position of the feet.
-NARRATION: Drill: Second position stance.
+NARRATION: Step 3: Third position of the feet
+NARRATION: Step 4: Fourth position of the feet
+NARRATION: Drill: Second position stance
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Perform Step A and Step B without stopping, starting slowly.
-NARRATION: Now move to half tempo, then full tempo.
-NARRATION: The instructor faces you and mirrors the movements so your right is your right.
-NARRATION: Drill: Introduction to turnout.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
+NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Drill: Introduction to turnout
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid premature pointe work before feet are fully developed, typically before age 12.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Premature pointe work before feet are fully developed (typically before age 12).
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Barre exercises performed while seated to maintain alignment and turnout. · For children: Games focusing on identifying the five positions and basic arm movements.
 MUSIC: silence
 OPTIONS: Seated or supported option: Barre exercises performed while seated to maintain alignment and turnout. · For children: Games focusing on identifying the five positions and basic arm movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 2 counts off, 2 counts on.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now understand the five positions.
+NARRATION: You can now: Understanding the five positions.
 NARRATION: Ballet is a theatrical art form performed for audiences.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
@@ -166,9 +166,9 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — Core stability and spotting · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 focuses on building the dance through core stability and spotting.
-NARRATION: This is an intermediate level, though the overall dance difficulty is advanced.
-NARRATION: Your instructor is a professional ballet master focused on technical precision and historical context.
+NARRATION: Chapter 2 — Building the dance. Today: Core stability and spotting.
+NARRATION: Level: Intermediate. Difficulty of the dance overall: advanced.
+NARRATION: Your instructor: A professional ballet master with a focus on technical precision and historical context.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -176,11 +176,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, aligned, with turnout emanating from the hips.
 NARRATION: Five positions of the arms, standardized to complement the feet.
 NARRATION: Strong core engagement; turnout originates from the hip joint.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 2 counts off, 2 counts on.
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -188,48 +188,48 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Fifth position of the feet.
-NARRATION: Drill: Spotting technique for turns.
+NARRATION: Step 1: Fifth position of the feet
+NARRATION: Drill: Spotting technique for turns
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Pointe work involves supporting body weight on the tips of fully extended feet in pointe shoes.
-NARRATION: Turnout is the outward rotation of the legs and feet from the hip.
-NARRATION: Drill: Core engagement exercises.
+NARRATION: Pointe work: Supporting body weight on the tips of fully extended feet in pointe shoes.
+NARRATION: Turnout: Outward rotation of the legs and feet from the hip.
+NARRATION: Drill: Core engagement exercises
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Perform Step A and Step B without stopping, starting slowly.
-NARRATION: Now move to half tempo, then full tempo.
-NARRATION: The instructor faces you and mirrors the movements so your right is your right.
-NARRATION: Drill: Basic port de bras.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
+NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Drill: Basic port de bras
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid premature pointe work before feet are fully developed, typically before age 12.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Premature pointe work before feet are fully developed (typically before age 12).
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Barre exercises performed while seated to maintain alignment and turnout. · For children: Games focusing on identifying the five positions and basic arm movements.
 MUSIC: silence
 OPTIONS: Seated or supported option: Barre exercises performed while seated to maintain alignment and turnout. · For children: Games focusing on identifying the five positions and basic arm movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 2 counts off, 2 counts on.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Standardized layouts for stage and studio reference points.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now demonstrate core stability and spotting.
-NARRATION: Key figures include Marius Petipa, Anna Pavlova, Margot Fonteyn, Rudolf Nureyev, Enrico Cecchetti, Agrippina Vaganova, Nikolai Legat, and August Bournonville.
+NARRATION: You can now: Core stability and spotting.
+NARRATION: Marius Petipa, Anna Pavlova, Margot Fonteyn, Rudolf Nureyev, Enrico Cecchetti, Agrippina Vaganova, Nikolai Legat, August Bournonville.
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -238,9 +238,9 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — Pointe work and partnering · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 covers dancing fully through pointe work and partnering.
-NARRATION: This is an advanced level, and the overall dance difficulty is advanced.
-NARRATION: Your instructor is a professional ballet master focused on technical precision and historical context.
+NARRATION: Chapter 3 — Dancing it fully. Today: Pointe work and partnering.
+NARRATION: Level: Advanced. Difficulty of the dance overall: advanced.
+NARRATION: Your instructor: A professional ballet master with a focus on technical precision and historical context.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -248,11 +248,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, aligned, with turnout emanating from the hips.
 NARRATION: Five positions of the arms, standardized to complement the feet.
 NARRATION: Strong core engagement; turnout originates from the hip joint.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 2 counts off, 2 counts on.
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -260,49 +260,49 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Fourth position of the feet.
-NARRATION: Step 2: Fifth position of the feet.
-NARRATION: Drill: Pointe shoe preparation.
+NARRATION: Step 1: Fourth position of the feet
+NARRATION: Step 2: Fifth position of the feet
+NARRATION: Drill: Pointe shoe preparation
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Pointe work involves supporting body weight on the tips of fully extended feet in pointe shoes.
-NARRATION: Turnout is the outward rotation of the legs and feet from the hip.
-NARRATION: Drill: Advanced jumps.
+NARRATION: Pointe work: Supporting body weight on the tips of fully extended feet in pointe shoes.
+NARRATION: Turnout: Outward rotation of the legs and feet from the hip.
+NARRATION: Drill: Advanced jumps
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Perform Step A and Step B without stopping, starting slowly.
-NARRATION: Now move to half tempo, then full tempo.
-NARRATION: The instructor faces you and mirrors the movements so your right is your right.
-NARRATION: Drill: Partnered lifts.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
+NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Drill: Partnered lifts
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid premature pointe work before feet are fully developed, typically before age 12.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Premature pointe work before feet are fully developed (typically before age 12).
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Barre exercises performed while seated to maintain alignment and turnout. · For children: Games focusing on identifying the five positions and basic arm movements.
 MUSIC: silence
 OPTIONS: Seated or supported option: Barre exercises performed while seated to maintain alignment and turnout. · For children: Games focusing on identifying the five positions and basic arm movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 2 counts off, 2 counts on.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Standardized layouts for stage and studio reference points.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now perform pointe work and partnering.
-NARRATION: The form evolved from Renaissance court dances, through the Romantic era, into the classical era defined by Petipa.
+NARRATION: You can now: Pointe work and partnering.
+NARRATION: Evolved from Renaissance court dances, through the Romantic era, into the classical era defined by Petipa.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -321,7 +321,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Female dancers wear leotards, tights, and soft shoes (or pointe shoes). Male dancers wear tights and fitted shirts. Settings include dance studios with mirrors and stages for performance.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '0GsajWIF3ws', 'checked_by_vision_model': False, 'title': 'Swan Lake – Dance of the cygnets (The Royal Ballet)'}
 Images: 6 licensed — Alfred Edward Chalon (1780–1860) (artist)
 Lane, Richard James (A.R.A.) (1800–1872) (lithographer)
 
@@ -343,9 +343,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the classical-court family studied · videos studied: 2
-Counting: 2 counts off, 2 counts on
-Demonstration: views used by most teachers: front, side; tempo progression: slow
-Cues: hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 5-6-7-8
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long
 
 Sources (4): https://en.wikipedia.org/wiki/Classical_ballet; https://www.wikidata.org/wiki/Q2342373; https://es.wikipedia.org/wiki/Ballet_clásico; https://it.wikipedia.org/wiki/Danza_accademica

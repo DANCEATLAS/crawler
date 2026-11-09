@@ -1,6 +1,6 @@
 # Gojinjo Taiko — episode pack
 
-*Status: withheld-chapters · built 2026-11-08 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; lineage; two or more connections
 
@@ -71,7 +71,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: In a village of 250, a 16th-century war tactic survives as a rare, protected drum ritual.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -101,7 +101,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
-Counting: 1-2-3-4-5
+Counting: 
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 

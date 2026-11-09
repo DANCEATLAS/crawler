@@ -1,8 +1,8 @@
 # Melinting dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-08 · judge 8.65 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 8.65 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; the how-it-is-danced section; signature moves; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; the how-it-is-danced section; signature moves; lineage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Royal Dance of Lampung
 NARRATION: This is Melinting dance. 16th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (FL2dxHKipq8)
 ON SCREEN: Title card: Melinting dance · Indonesia · 16th century
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (FL2dxHKipq8)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Divided into four rounds: opening, kugowo queen, floating kenui, and closing.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -76,7 +76,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the 16th-century Melinting dance, a royal tradition transformed by a president's decree.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -95,7 +95,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'FL2dxHKipq8', 'checked_by_vision_model': False, 'title': 'Tari MELINTING - Hari Tari Dunia 2021'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Madereza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Madereza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Madereza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Madereza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Tapis cloth patterns, Gold skullcaps, Traditional fans, Gamelan instruments
@@ -106,7 +106,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
-Counting: 1-2-3-4-5
+Counting: 
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 

@@ -1,8 +1,8 @@
 # Finnish tango — episode pack
 
-*Status: draft · built 2026-11-04 · judge 9.5 · 7/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.5 · 7/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); licensed reference footage; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Finnish tango dancer with deep knowledge of music and cultural history
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Finnish Tango: Melancholy in Motion
 NARRATION: This is Finnish tango. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (Xbj5IOB0PK8)
 ON SCREEN: Title card: Finnish tango · Finland · 20th century
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Finnish tango is danced in close contact with emphasis on pelvis, upp
 NARRATION: The basic step sequence is SSQQ (slow, slow, quick, quick), with variations like QQS or SQQ to match rhythm changes.
 NARRATION: Movements are low and horizontal with optional rises and falls, frequent dips, and rotations.
 NARRATION: Watch for Dip, Rotation.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (Xbj5IOB0PK8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Danced as couples in close embrace; requires ample space for long steps and fluid movement
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Step forward with heel (slow)
 NARRATION: Step forward with heel (slow)
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -86,7 +86,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore how Finland transformed Argentine tango into a distinct, melancholic dance and music tradition celebrated by thousands annually.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -102,11 +102,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Close contact with pelvis, upper thighs, and upper body; low dance position with bent supporting leg
 NARRATION: Close contact and coordinated movement; frequent dips and rotations
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is not explicitly described; rhythm follows ballroom tango with habanera and beguine influences.
+NARRATION: Count: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars. The meter is not explicitly described; rhythm follows ballroom tango with habanera and beguine influences.
 NARRATION: Rhythm pattern: Typical Finnish rhythm pattern with habanera; chorus sections switch to beguine rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -122,7 +122,7 @@ NARRATION: Drill: Practice slow heel leads forward
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Step side with quick step
@@ -130,7 +130,7 @@ NARRATION: Step 4: Close feet with quick step
 NARRATION: Drill: Practice backward heel push-offs
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -143,11 +143,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: kicks aerials high steps
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -173,11 +173,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Close contact with pelvis, upper thighs, and upper body; low dance position with bent supporting leg
 NARRATION: Close contact and coordinated movement; frequent dips and rotations
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is not explicitly described; rhythm follows ballroom tango with habanera and beguine influences.
+NARRATION: Count: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars. The meter is not explicitly described; rhythm follows ballroom tango with habanera and beguine influences.
 NARRATION: Rhythm pattern: Typical Finnish rhythm pattern with habanera; chorus sections switch to beguine rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -191,7 +191,7 @@ NARRATION: Drill: Practice QQS and SQQ step variations
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Dip: Follower slightly raises left leg while dipping
@@ -200,7 +200,7 @@ NARRATION: Drill: Add dips with slight leg raise
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -213,11 +213,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: kicks aerials high steps
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced as couples in close embrace; requires ample space for long steps and fluid movement
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -243,11 +243,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Close contact with pelvis, upper thighs, and upper body; low dance position with bent supporting leg
 NARRATION: Close contact and coordinated movement; frequent dips and rotations
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is not explicitly described; rhythm follows ballroom tango with habanera and beguine influences.
+NARRATION: Count: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars. The meter is not explicitly described; rhythm follows ballroom tango with habanera and beguine influences.
 NARRATION: Rhythm pattern: Typical Finnish rhythm pattern with habanera; chorus sections switch to beguine rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -262,7 +262,7 @@ NARRATION: Drill: Improvise step timing to match melody
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Dip: Follower slightly raises left leg while dipping
@@ -271,7 +271,7 @@ NARRATION: Drill: Explore dynamic rises and falls
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -284,11 +284,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: kicks aerials high steps
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced as couples in close embrace; requires ample space for long steps and fluid movement
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -317,7 +317,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'Xbj5IOB0PK8', 'checked_by_vision_model': False, 'title': 'FINNISH TANGO NIGHT by Markku Lahdesmaki'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: close embrace, accordion player, Seinäjoki festival crowds, autumn Finnish nature, black and white archival photos
@@ -327,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the folk-circle family studied · videos studied: 3
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (5): https://en.wikipedia.org/wiki/Finnish_tango; https://www.wikidata.org/wiki/Q1762761; https://es.wikipedia.org/wiki/Tango_de_Finlandia; https://fr.wikipedia.org/wiki/Tango_finlandais; https://pt.wikipedia.org/wiki/Tango_finlandês

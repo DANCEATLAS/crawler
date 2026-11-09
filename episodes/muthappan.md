@@ -1,6 +1,6 @@
 # Muthappan — episode pack
 
-*Status: withheld-chapters · built 2026-11-04 · judge 9.3 · 10/10 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 9.3 · 10/10 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; the how-it-is-danced section; signature moves; two or more connections
 
@@ -80,7 +80,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the year-round Theyyam ritual of Muthappan, a deity embodying Shiva and Vishnu, whose worship breaks caste barriers in Kerala.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -109,9 +109,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorials across the atlas studied · videos studied: 13
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; punch to the side; pull your head down; pivot them on your elbows; left foot; right foot
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (3): https://en.wikipedia.org/wiki/Muthappan; https://www.wikidata.org/wiki/Q1955916; https://de.wikipedia.org/wiki/Muttapan

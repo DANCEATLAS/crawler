@@ -1,6 +1,6 @@
 # Ceroc — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.2 · 5/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-09 · judge 9.2 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; the costume & setting section
 
@@ -11,6 +11,7 @@
 ## Episode 1 · Meet Ceroc · 9 min
 
 ### 1. Cold open (35 s) · `hook`
+NARRATION: The London Revolution: How Ceroc Changed Social Dance
 NARRATION: This is Ceroc. 20th century.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Ceroc · United Kingdom · 20th century
@@ -73,7 +74,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Beginner moves are taught in a structured routine of three moves.
 NARRATION: Partners rotate every few minutes.
-NARRATION: Count it: 4-1-2-3-4.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -81,27 +82,26 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the story of Ceroc, the 1980s London-born dance phenomenon that removed the barrier of needing a partner to hit the floor.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
 ## Chapter 1 · First steps — Learn the basic rotation and first three moves. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1. Today: Learn the basic rotation and first three moves.
+NARRATION: Chapter 1 — First steps. Today: Learn the basic rotation and first three moves..
 NARRATION: Level: Beginner. Difficulty of the dance overall: beginner.
 NARRATION: Your instructor: An experienced Ceroc teacher with a focus on accessibility and social connection.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 4-1-2-3-4.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome at 80 bpm
@@ -112,36 +112,34 @@ NEEDS: meter
 NARRATION: Step 1: Beginner moves are taught in a structured routine of three moves.
 NARRATION: Step 2: Partners rotate every few minutes.
 NARRATION: Footwork from the sources: Some intermediate moves contain footwork; Australian schools teach 'Step' footwork.
-NARRATION: Drill: Basic step practice.
+NARRATION: Drill: Basic step practice
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Beginners practice with taxi dancers.
 NARRATION: Step 4: Intermediate moves include more complex footwork and classic moves.
-NARRATION: Drill: Partner rotation drill.
+NARRATION: Drill: Partner rotation drill
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: First move execution.
+NARRATION: Drill: First move execution
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Aerials are not permitted during freestyle periods.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 4-1-2-3-4.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 115 bpm
@@ -158,20 +156,19 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — Introduce classic moves and connection. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2. Today: Introduce classic moves and connection.
+NARRATION: Chapter 2 — Building the dance. Today: Introduce classic moves and connection..
 NARRATION: Level: Intermediate. Difficulty of the dance overall: beginner.
 NARRATION: Your instructor: An experienced Ceroc teacher with a focus on accessibility and social connection.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 4-1-2-3-4.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome at 80 bpm
@@ -181,22 +178,20 @@ NEEDS: meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Beginner moves are taught in a structured routine of three moves.
 NARRATION: Step 2: Partners rotate every few minutes.
-NARRATION: Drill: Classic move sequence.
+NARRATION: Drill: Classic move sequence
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Beginners practice with taxi dancers.
 NARRATION: Step 4: Intermediate moves include more complex footwork and classic moves.
 NARRATION: Back Pass: A beginner-level move in the New Zealand repertoire.
 NARRATION: Basket: A beginner-level move in the New Zealand repertoire.
-NARRATION: Drill: Connection and frame focus.
+NARRATION: Drill: Connection and frame focus
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -208,11 +203,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Aerials are not permitted during freestyle periods.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 4-1-2-3-4.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Rows facing a stage.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 115 bpm
@@ -229,20 +224,19 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — the dancing it fully of Ceroc · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3. Today: Dance it fully.
-NARRATION: Level: Advanced. Difficulty of the dance overall: beginner.
+NARRATION: Chapter 3 — Dancing it fully. Today: the dancing it fully of Ceroc.
+NARRATION: Level: advanced. Difficulty of the dance overall: beginner.
 NARRATION: Your instructor: An experienced Ceroc teacher with a focus on accessibility and social connection.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 4-1-2-3-4.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome at 80 bpm
@@ -255,14 +249,12 @@ NARRATION: Step 2: Intermediate moves include more complex footwork and classic 
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Catapult: A beginner-level move in the New Zealand repertoire.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -274,11 +266,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Aerials are not permitted during freestyle periods.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 4-1-2-3-4.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Rows facing a stage.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 115 bpm
@@ -315,9 +307,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of the ballroom-partner family studied · videos studied: 1
-Counting: 4-1-2-3-4
+Source: 4 tutorial(s) of the ballroom-partner family studied · videos studied: 4
+Counting: 
 Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: side replace close; rock replace side
+Cues: side close side; step and point; turn turn turn; replace; side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot
 
 Sources (3): https://en.wikipedia.org/wiki/Ceroc; https://www.wikidata.org/wiki/Q859676; https://de.wikipedia.org/wiki/Ceroc

@@ -1,11 +1,12 @@
 {
  "slug": "seungjeonmu",
  "name": "Seungjeonmu",
- "pack_version": "e1",
- "built_at": "2026-11-04T19:23:00Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-04T17:31:24Z",
  "qc_score": 9.85,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -197,7 +198,7 @@
     "duration_s": 25,
     "narration": [
      "Discover the 2000-year-old ritual dance that fueled the morale of Admiral Yi Sun-shin’s legendary naval fleet.",
-     "Sources: 2 references, every claim checked against its source."
+     "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -209,7 +210,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": "3-advances and 3-retreats",
@@ -295,38 +298,27 @@
   ]
  },
  "teaching_formula": {
-  "source": "13 tutorials across the atlas studied",
-  "videos_studied": 13,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
+   "views used by most teachers: front, back",
    "tempo progression: slow → full",
-   "repetitions per step: about 4"
+   "repetitions per step: about 5"
   ],
   "cues": [
-   "and one and three and five and seven",
-   "keep your feet together",
-   "relax your knees",
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
-   "punch to the side",
-   "pull your head down",
-   "pivot them on your elbows",
-   "left foot",
-   "right foot"
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "context",
    "full_demo",
+   "context",
    "breakdown",
-   "slow_practice",
-   "mistakes",
-   "music_practice",
-   "layering"
+   "slow_practice"
   ],
   "steps_as_taught": []
  },
@@ -345,5 +337,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
+ "input_fingerprint": "43f9108fb9a7dd9ca894b69208493b6a09946f6697914d79440e028e90333202",
  "hero_checked": null
 }

@@ -1,6 +1,6 @@
 # Set Dance — episode pack
 
-*Status: draft · built 2026-11-03 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
 
@@ -88,7 +88,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: How rural Irish communities turned Napoleonic court quadrilles into an underground kitchen percussion tradition that survived state and church bans.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -105,8 +105,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, grounded torso with arms held loosely or in couple ballroom hold; low center of gravity without stiff arching.
 NARRATION: Partner holds during couple movement; loose natural carriage at sides or linked arms during figures.
 NARRATION: Torso remains upright and relatively steady while the legs produce percussive foot rhythms.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -123,7 +122,7 @@ NARRATION: Step 1: Square formation: Arrange four couples along the edges of a s
 NARRATION: Step 2: Identification: Identify First Tops (back to band), Second Tops (opposite), First Sides, and Second Sides.
 NARRATION: Footwork from the sources: Flat-footed traveling and percussive battering steps kept low to the floor.
 NARRATION: Drill: Walk the perimeter square and return to home station
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -147,7 +146,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Do not leap or kick high off the floor; avoid relying on a caller as choreography is predefined by the set's name.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -178,8 +177,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, grounded torso with arms held loosely or in couple ballroom hold; low center of gravity without stiff arching.
 NARRATION: Partner holds during couple movement; loose natural carriage at sides or linked arms during figures.
 NARRATION: Torso remains upright and relatively steady while the legs produce percussive foot rhythms.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -195,7 +193,7 @@ NEEDS: tempo
 NARRATION: Step 1: Chorus figure: Dance the opening repeated sequence simultaneously with all four couples.
 NARRATION: Step 2: Couple feature: First Tops dance the core figure, followed in order by First Sides, Second Tops, and Second Sides.
 NARRATION: Drill: Low-to-the-floor gliding steps across the set
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -220,7 +218,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Do not leap or kick high off the floor; avoid relying on a caller as choreography is predefined by the set's name.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -251,8 +249,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, grounded torso with arms held loosely or in couple ballroom hold; low center of gravity without stiff arching.
 NARRATION: Partner holds during couple movement; loose natural carriage at sides or linked arms during figures.
 NARRATION: Torso remains upright and relatively steady while the legs produce percussive foot rhythms.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -268,7 +265,7 @@ NEEDS: tempo
 NARRATION: Step 1: Chorus figure: Dance the opening repeated sequence simultaneously with all four couples.
 NARRATION: Step 2: Couple feature: First Tops dance the core figure, followed in order by First Sides, Second Tops, and Second Sides.
 NARRATION: Drill: Basic low battering tap drills on accented counts
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -293,7 +290,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Do not leap or kick high off the floor; avoid relying on a caller as choreography is predefined by the set's name.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -334,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (5): https://en.wikipedia.org/wiki/Irish_set_dancing; https://www.wikidata.org/wiki/Q1425009; https://fr.wikipedia.org/wiki/Set_dance; https://de.wikipedia.org/wiki/Set_Dance; https://archive.org/details/AncientIrishMusic

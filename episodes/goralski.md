@@ -1,6 +1,6 @@
 # Goralski — episode pack
 
-*Status: draft · built 2026-11-07 · judge 9.15 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.15 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; posture, arms and hands; the costume & setting section; notable figures; what to avoid / common mistakes
 
@@ -72,7 +72,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. ozwodnom
 NARRATION: zwyrtanom
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -80,7 +80,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the technical mastery and mountain spirit of the Polish Goralski dance.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -94,13 +94,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -114,7 +113,6 @@ NARRATION: Drill: Observe the pair formation
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: obijanom
@@ -122,7 +120,6 @@ NARRATION: Step 4: grzybowom
 NARRATION: Drill: Listen to the rhythmic structure
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -133,13 +130,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -163,13 +159,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -182,7 +177,6 @@ NARRATION: Step 2: po śtyry
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: ozwodnom: a technical figure in the Goralski dance
@@ -190,7 +184,6 @@ NARRATION: bokem: a technical figure in the Goralski dance
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -201,13 +194,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: pair dances together as well as apart
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -230,13 +222,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -249,7 +240,6 @@ NARRATION: Step 2: po śtyry
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: zwyrtanom: a technical figure in the Goralski dance
@@ -258,7 +248,6 @@ NARRATION: drobnom: a technical figure in the Goralski dance
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -269,13 +258,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: pair dances together as well as apart
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -312,9 +300,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the folk-circle family studied · videos studied: 8
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; tuck your elbows into your sides
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (3): https://en.wikipedia.org/wiki/Polish_folk_dances; https://www.wikidata.org/wiki/Q3015675; https://fr.wikipedia.org/wiki/Danses_polonaises

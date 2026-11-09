@@ -1,6 +1,6 @@
 # Bwola — episode pack
 
-*Status: draft · built 2026-11-07 · judge 9.3 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-09 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; signature moves; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
@@ -41,8 +41,8 @@ MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: signature_moves
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The music is driven by the Larakaraka, which is a calabash, and the Jagi, which is a cylindrical drum.
-NARRATION: Listen for the Larakaraka and the Jagi.
+NARRATION: The music is driven by the Larakaraka (a calabash) and the Jagi (a cylindrical drum).
+NARRATION: Listen for the Larakaraka (calabash), Jagi (cylindrical drum).
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -66,36 +66,36 @@ MUSIC: underscore
 NEEDS: connections
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, try one step.
-NARRATION: Step in a circular path and maintain a rhythmic foot pattern.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8, spanning eight counts and two bars.
+NARRATION: Before we go, one step. Step in a circular path
+NARRATION: Maintain a rhythmic foot pattern
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
 MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: This is an exploration of the Bwola dance, the traditional royal performance of Northern Uganda.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: An exploration of the Bwola dance, the traditional royal performance of Northern Uganda.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
 ## Chapter 1 · First steps — the first steps of Bwola · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 focuses on the first steps of Bwola at a beginner level.
-NARRATION: Your instructor counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes.
+NARRATION: Chapter 1 — First steps. Today: the first steps of Bwola.
+NARRATION: Level: beginner. 
+NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Upper body remains still.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+NARRATION: Upper body remains still
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -103,35 +103,32 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Step in a circular path.
-NARRATION: Step 2: Maintain a rhythmic foot pattern.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+NARRATION: Step 1: Step in a circular path
+NARRATION: Step 2: Maintain a rhythmic foot pattern
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Keep the upper body still.
+NARRATION: Step 3: Keep the upper body still
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Perform Step A, then Step B, without stopping, starting slow.
-NARRATION: Now move to half tempo, then full tempo.
-NARRATION: The instructor faces you and mirrors your movements so your right is your right.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
+NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -148,19 +145,19 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — the building the dance of Bwola · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 focuses on building the Bwola dance at an intermediate level.
-NARRATION: Your instructor counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes.
+NARRATION: Chapter 2 — Building the dance. Today: the building the dance of Bwola.
+NARRATION: Level: intermediate. 
+NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Upper body remains still.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+NARRATION: Upper body remains still
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -168,35 +165,32 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Step in a circular path.
-NARRATION: Step 2: Maintain a rhythmic foot pattern.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+NARRATION: Step 1: Step in a circular path
+NARRATION: Step 2: Maintain a rhythmic foot pattern
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Keep the upper body still.
+NARRATION: Step 3: Keep the upper body still
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Perform Step A, then Step B, without stopping, starting slow.
-NARRATION: Now move to half tempo, then full tempo.
-NARRATION: The instructor faces you and mirrors your movements so your right is your right.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
+NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circular, men clockwise, women anti-clockwise
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -212,19 +206,19 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — the dancing it fully of Bwola · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 focuses on dancing Bwola fully at an advanced level.
-NARRATION: Your instructor counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes.
+NARRATION: Chapter 3 — Dancing it fully. Today: the dancing it fully of Bwola.
+NARRATION: Level: advanced. 
+NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Upper body remains still.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+NARRATION: Upper body remains still
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -232,35 +226,32 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Maintain a rhythmic foot pattern.
-NARRATION: Step 2: Keep the upper body still.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+NARRATION: Step 1: Maintain a rhythmic foot pattern
+NARRATION: Step 2: Keep the upper body still
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Perform Step A, then Step B, without stopping, starting slow.
-NARRATION: Now move to half tempo, then full tempo.
-NARRATION: The instructor faces you and mirrors your movements so your right is your right.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
+NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circular, men clockwise, women anti-clockwise
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -296,9 +287,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 28 tutorials across the atlas studied · videos studied: 28
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; side close side; step and point; turn turn turn; replace; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (2): https://en.wikipedia.org/wiki/Bwola; https://www.wikidata.org/wiki/Q124214913

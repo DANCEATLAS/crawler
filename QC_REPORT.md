@@ -1,5 +1,5 @@
 # QC review queue
-_Generated 2026-11-08T17:31:28Z_
+_Generated 2026-11-09T21:56:24Z_
 
 | slug | gate | score | reasons | duplicate of |
 |---|---|---|---|---|
@@ -21,6 +21,7 @@ _Generated 2026-11-08T17:31:28Z_
 | coaster-step | reject | 9.6 | insight_concrete, banned_phrasing, judge_score=9.6, not_a_dance |  |
 | do-si-do | reject | 9.6 | insight_concrete, sacred_handled, judge_score=9.6, not_a_dance, sacred |  |
 | headbanging | reject | 9.6 | country, judge_score=9.6, not_a_dance, sacred |  |
+| kaze-no-bon | reject | 9.55 | sacred_handled, judge_score=9.55, not_a_dance, sacred |  |
 | aerial-cartwheel | reject | 9.55 | country, insight_concrete, judge_score=9.55, not_a_dance |  |
 | indian-dance | reject | 9.55 | banned_phrasing, judge_score=9.55, not_a_dance, sacred |  |
 | pelvic-thrust | reject | 9.55 | country, judge_score=9.55, not_a_dance |  |
@@ -38,6 +39,7 @@ _Generated 2026-11-08T17:31:28Z_
 | the-maid-of-cashmere | reject | 9.3 | banned_phrasing, sacred_handled, judge_score=9.3, not_a_dance, sacred |  |
 | austrian-folk-dance | reject | 9.3 | judge_score=9.3, not_a_dance |  |
 | duckwalk | reject | 9.1 | judge_score=9.1, doubts=1, not_a_dance |  |
+| japanese-traditional-dance | reject | 9.1 | judge_score=9.1, not_a_dance, sacred |  |
 | dip | reject | 9.05 | country, insight_concrete, judge_score=9.05, not_a_dance |  |
 | lock-step | reject | 9.05 | citations, country, insight_concrete, sections_filled, judge_score=9.05, not_a_dance |  |
 | minuet-step | reject | 9.05 | banned_phrasing, judge_score=9.05, not_a_dance |  |
@@ -47,14 +49,17 @@ _Generated 2026-11-08T17:31:28Z_
 | divertissement | reject | 8.95 | judge_score=8.95, not_a_dance |  |
 | tea-dance | reject | 8.95 | judge_score=8.95, not_a_dance |  |
 | paparuda | reject | 8.95 | country, insight_concrete, judge_score=8.95, not_a_dance, sacred |  |
+| jharkhand-folk-dance | reject | 8.95 | judge_score=8.95, not_a_dance |  |
 | raffaella | reject | 8.8 | sacred_handled, judge_score=8.8, not_a_dance, sacred |  |
 | banda | reject | 8.8 | judge_score=8.8, not_a_dance |  |
 | tecno-brega | reject | 8.7 | insight_concrete, judge_score=8.7, not_a_dance |  |
 | sun-dance | reject | 8.7 | insight_concrete, judge_score=8.7, not_a_dance, sacred |  |
+| vietnamese-dance | reject | 8.7 | banned_phrasing, judge_score=8.7, not_a_dance, sacred |  |
 | party-of-the-people | reject | 8.65 | citations, profile_long_len, sections_filled, judge_score=8.65, not_a_dance |  |
 | crow-hop | reject | 8.65 | citations, sections_filled, judge_score=8.65, not_a_dance, sacred |  |
 | makaya | reject | 8.65 | citations, country, profile_long_len, sections_filled, region, judge_score=8.65, not_a_dance |  |
 | ciuleandra | reject | 8.65 | citations, profile_long_len, sections_filled, judge_score=8.65, not_a_dance |  |
+| vallenato | reject | 8.6 | citations, judge_score=8.6, not_a_dance |  |
 | corroboree | reject | 8.55 | judge_score=8.55, not_a_dance, sacred |  |
 | lanigan-s-ball | reject | 8.5 | judge_score=8.5, doubts=1, not_a_dance |  |
 | al-ardha | reject | 8.5 | citations, sacred_handled, judge_score=8.5, doubts=2, harm, sacred |  |
@@ -73,6 +78,7 @@ _Generated 2026-11-08T17:31:28Z_
 | nritya | reject | 7.85 | sections_filled, banned_phrasing, judge_score=7.85, not_a_dance, sacred |  |
 | petwo | reject | 7.8 | sections_filled, judge_score=7.8, not_a_dance, sacred |  |
 | santo-daime-hymns | reject | 7.8 | judge_score=7.8, not_a_dance, sacred |  |
+| ecstatic-dance | reject | 7.8 | citations, country, region, sacred_handled, judge_score=7.8, doubts=2, harm, sacred |  |
 | cuban-motion | reject | 7.75 | country, insight_concrete, profile_long_len, sections_filled, judge_score=7.75, not_a_dance |  |
 | huli-sing-sing | reject | 7.7 | judge_score=7.7, not_a_dance, sacred |  |
 | smoke-dance | reject | 7.7 | judge_score=7.7, doubts=1, harm, not_a_dance |  |
@@ -91,6 +97,7 @@ _Generated 2026-11-08T17:31:28Z_
 | rapo | reject | 6.4 | citations, country, profile_long_len, sections_filled, judge_score=6.4, not_a_dance |  |
 | biit | reject | 6.4 | citations, country, profile_long_len, sections_filled, judge_score=6.4, not_a_dance |  |
 | rondeau | reject | 6.4 | citations, profile_long_len, sections_filled, judge_score=6.4 |  |
+| machomane | reject | 6.4 | citations, sources, country, sections_filled, judge_score=6.4 |  |
 | rainmaking-rites | reject | 6.15 | country, judge_score=6.15, doubts=3, harm, not_a_dance, sacred |  |
 | headroll-dance | reject | 6.1 | citations, sources, country, insight_concrete, profile_long_len, sections_filled, judge_score=6.1, doubts=1 |  |
 | youz-bir | reject | 5.7 | citations, sources, profile_long_len, sections_filled, judge_score=5.7, doubts=2 |  |
@@ -106,13 +113,13 @@ _Generated 2026-11-08T17:31:28Z_
 | temuraga | reject | 3.8 | citations, sources, profile_long_len, sections_filled, judge_score=3.8, doubts=1 |  |
 | pique | reject | 3.25 | citations, profile_long_len, sections_filled, judge_score=3.25, not_a_dance |  |
 | kambara-dance | reject | 3.25 | citations, profile_len, profile_long_len, sections_filled, judge_score=3.25, doubts=1, not_a_dance |  |
+| ndazola | reject | 3.1 | citations, sources, profile_long_len, sacred_handled, judge_score=3.1, doubts=5, sacred |  |
 | rateliai | reject | 2.75 | citations, ai_tells, profile_long_len, sections_filled, judge_score=2.75, doubts=1 |  |
 | sudmalinas | reject | 2.6 | citations, sections_filled, sacred_handled, judge_score=2.6, doubts=1, sacred |  |
 | zervodexios | reject | 2.0 | citations, sources, profile_long_len, sections_filled, judge_score=2.0, doubts=3 |  |
 | dinki-mini | reject | 1.0 | citations, country, insight_len, insight_concrete, profile_len, profile_long_len, sections_filled, region |  |
 | hinde | reject | 1.0 | profile_long_len, sections_filled, judge_score=1.0, doubts=1, not_a_dance |  |
 | kyrgyzstani-dance | reject | 1.0 | insight_len, insight_concrete, profile_len, profile_long_len, sections_filled, judge_score=1.0, doubts=1, harm |  |
-| hula-kahiko | review | 10.0 | insight_concrete, banned_phrasing, judge_score=10.0, sacred |  |
 | box-step | review | 10.0 | country, judge_score=10.0 |  |
 | nightclub-two-step | review | 10.0 | not_duplicate, judge_score=10.0 | two-step |
 | modern-jive | review | 10.0 | not_duplicate, judge_score=10.0 | ceroc |
@@ -123,14 +130,13 @@ _Generated 2026-11-08T17:31:28Z_
 | american-tribal-style-belly-dance | review | 9.85 | insight_concrete, banned_phrasing, judge_score=9.85 |  |
 | wheelchair-dancesport | review | 9.85 | country, judge_score=9.85 |  |
 | maxixe | review | 9.85 | not_duplicate, judge_score=9.85 | samba-de-gafieira |
-| rueda-de-casino | review | 9.85 | citations, judge_score=9.85 |  |
 | pole-dance | review | 9.85 | country, banned_phrasing, judge_score=9.85 |  |
 | malaguenas | review | 9.7 | insight_concrete, banned_phrasing, judge_score=9.7 |  |
 | kurdish-dance | review | 9.7 | not_duplicate, judge_score=9.7 | govend |
 | catalan-rumba | review | 9.7 | not_duplicate, judge_score=9.7, sacred | rhumba |
 | sher | review | 9.6 | country, insight_concrete, judge_score=9.6 |  |
+| malappulayattam | review | 9.6 | citations, country, region, banned_phrasing, sacred_handled, judge_score=9.6, sacred |  |
 | diablada-de-oruro | review | 9.55 | not_duplicate, judge_score=9.55, sacred | diablada |
-| jazz-dance | review | 9.5 | citations, banned_phrasing, judge_score=9.5 |  |
 | melbourne-shuffle | review | 9.5 | citations, insight_concrete, banned_phrasing, judge_score=9.5, sacred |  |
 | calabrian-tarantella | review | 9.5 | insight_concrete, sacred_handled, judge_score=9.5, sacred |  |
 | myel-lyel | review | 9.45 | citations, insight_concrete, judge_score=9.45, sacred |  |
@@ -139,15 +145,15 @@ _Generated 2026-11-08T17:31:28Z_
 | tappa-dance | review | 9.3 | insight_concrete, banned_phrasing, judge_score=9.3 |  |
 | thougal-jagoi | review | 9.3 | insight_concrete, banned_phrasing, judge_score=9.3, sacred |  |
 | surra-de-bunda | review | 9.3 | insight_concrete, profile_long_len, sections_filled, judge_score=9.3 |  |
-| giddha | review | 9.3 | insight_concrete, banned_phrasing, judge_score=9.3 |  |
 | didong | review | 9.3 | profile_long_len, sections_filled, judge_score=9.3 |  |
 | schafflertanz | review | 9.25 | citations, insight_concrete, judge_score=9.25, sacred |  |
+| hacha-a | review | 9.25 | not_duplicate, judge_score=9.25 | iraqi-chobi |
+| borankana | review | 9.15 | not_duplicate, judge_score=9.15 | phathisi |
 | singkil | review | 9.1 | citations, judge_score=9.1, sacred |  |
-| zapin | review | 9.1 | citations, judge_score=9.1, sacred |  |
 | zafin | review | 9.1 | country, judge_score=9.1, sacred |  |
 | pols | review | 9.1 | citations, sections_filled, judge_score=9.1 |  |
-| circassian-dance | review | 9.1 | not_duplicate, insight_concrete, judge_score=9.1, sacred | lezginka |
 | slow-dance | review | 9.0 | country, banned_phrasing, judge_score=9.0 |  |
+| social-dance | review | 9.0 | country, judge_score=9.0 |  |
 | intore | review | 8.95 | citations, judge_score=8.95 |  |
 | garrotin | review | 8.95 | citations, judge_score=8.95 |  |
 | neoclassical-ballet | review | 8.9 | citations, judge_score=8.9, doubts=2 |  |
@@ -158,12 +164,15 @@ _Generated 2026-11-08T17:31:28Z_
 | hoochie-coochie | review | 8.7 | not_duplicate, judge_score=8.7 | belly-dance |
 | sanghyang | review | 8.7 | citations, insight_concrete, judge_score=8.7, sacred |  |
 | ram-wong | review | 8.6 | citations, judge_score=8.6, doubts=1 |  |
+| electric-techno-neon-gods | review | 8.6 | citations, sacred_handled, judge_score=8.6, doubts=2, sacred |  |
 | tondero | review | 8.5 | insight_concrete, banned_phrasing, judge_score=8.5, doubts=2 |  |
 | kalinka | review | 8.45 | profile_long_len, judge_score=8.45 |  |
 | narrative-ballet | review | 8.45 | country, insight_concrete, judge_score=8.45 |  |
+| huaylia | review | 8.45 | profile_long_len, judge_score=8.45 |  |
 | tamena-ibuga | review | 8.4 | insight_concrete, sacred_handled, judge_score=8.4, sacred |  |
 | acrobatic-rock-n-roll | review | 8.4 | citations, judge_score=8.4, doubts=2 |  |
 | cajun-jig | review | 8.4 | sections_filled, judge_score=8.4, doubts=2 |  |
+| music-of-prince-qin-breaking-up-the-enemy-s-front | review | 8.4 | sections_filled, judge_score=8.4, sacred |  |
 | mongol-biyelgee | review | 8.35 | citations, judge_score=8.35, doubts=1 |  |
 | razfa | review | 8.35 | sections_filled, judge_score=8.35, doubts=1 |  |
 | byung-shin-chum | review | 8.3 | sections_filled, judge_score=8.3 |  |
@@ -215,26 +224,20 @@ _Generated 2026-11-08T17:31:28Z_
 | corri-corri | review | 4.6 | citations, sacred_handled, judge_score=4.6, doubts=2, sacred |  |
 | ta-me | review | 4.55 | citations, country, sacred_handled, judge_score=4.55, doubts=7, sacred |  |
 
-## Audit: possible duplicates kept live, need a human (8)
+## Audit: possible duplicates kept live, need a human (1)
 
 | slug | other | reason |
 |---|---|---|
-| albore |  | judge (over daily retire cap): music_genre_only — Described primarily as a singing style, not a dance. |
-| asma-kasma | agir-karadagi | shares wikipedia_url with agir-karadagi but names differ (0.43) — check the data |
-| assyrian-folk-dance | shexani | shares wikidata_qid with shexani but names differ (0.23) — check the data |
 | bedhaya | bedhaya-ketawang | shares wikipedia_url with bedhaya-ketawang but names differ (0.61) — check the data |
-| bomba-holandes | bomba | shares wikipedia_url with bomba but names differ (0.53) — check the data |
-| bomba-sica | bomba | shares wikipedia_url with bomba but names differ (0.67) — check the data |
-| bomba-yuba | bomba | shares wikipedia_url with bomba but names differ (0.67) — check the data |
-| jota-leonesa | jota | shares wikipedia_url with jota but names differ (0.50) — check the data |
 
-## Retired or merged by the catalogue audit (110)
+## Retired or merged by the catalogue audit (137)
 
 | slug | decision | into | reason |
 |---|---|---|---|
 | adowa-dance | merge | adowa | shares wikidata_qid with adowa (name similarity 0.62) |
 | african-dance | retire |  | judge: category_page — Broad regional category page covering sub-Saharan dance traditions. |
 | alaarinjo | retire |  | judge: group_or_company — Traditional Yoruba dance-theatre troupe. |
+| albore | retire |  | manual override |
 | an-american-ballroom-companion | retire |  | manual override |
 | arab-dance | retire |  | judge: category_page — Generic umbrella term/category page for various Arab folk dances. |
 | armenian-line-dance | merge | armenian-dance | shares wikipedia_url with armenian-dance (name similarity 0.85) |
@@ -245,12 +248,17 @@ _Generated 2026-11-08T17:31:28Z_
 | ballroom-bootcamp | retire |  | judge: tv_show — An American reality television series. |
 | bandari | merge | bandari-dance | manual override: duplicate of bandari-dance |
 | bboying | merge | breaking | manual override: duplicate of breaking |
+| bedhaya-ketawang | merge | bedhaya | manual override: duplicate of bedhaya |
 | beni | merge | beni-ngoma | shares wikidata_qid with beni-ngoma (name similarity 0.57) |
 | bergamo | retire |  | judge: place — A city in the Lombardy region of Italy. |
 | bienal-de-flamenco | retire |  | manual override |
 | blackpool-dance-festival | retire |  | judge: festival — An annual ballroom dance competition. |
+| bomba-holandes | merge | bomba | manual override: duplicate of bomba |
+| bomba-sica | merge | bomba | manual override: duplicate of bomba |
+| bomba-yuba | merge | bomba | manual override: duplicate of bomba |
 | boombal | retire |  | judge: festival — Social dance event or party phenomenon rather than a specific dance style. |
 | bougarabou | retire |  | manual override |
+| box-step | retire |  | manual override |
 | bransle | merge | branle | shares wikipedia_url with branle (name similarity 0.92) |
 | brazil | retire |  | research notes: not a dance |
 | british-dance-council | retire |  | judge: group_or_company — A governing organization for ballroom dancing. |
@@ -274,6 +282,7 @@ _Generated 2026-11-08T17:31:28Z_
 | dancing-with-the-stars | retire |  | judge: tv_show — A television competition series. |
 | dancing-with-the-stars-juniors | retire |  | judge: tv_show — Television dance competition series. |
 | dc-mara | retire |  | research notes: not a dance |
+| diablada-de-oruro | merge | diablada | manual override: duplicate of diablada |
 | english-amateur-dancesport-association | retire |  | judge: group_or_company — A national dancers' association and governing organization. |
 | fado | retire |  | manual override |
 | falak | retire |  | manual override |
@@ -283,25 +292,34 @@ _Generated 2026-11-08T17:31:28Z_
 | haiti | retire |  | research notes: not a dance |
 | halparke | merge | govend | manual override: duplicate of govend |
 | hava-nagila | retire |  | judge: song_or_album — Hebrew celebration song, though commonly danced to. |
+| hoochie-coochie | merge | belly-dance | manual override: duplicate of belly-dance |
 | house-dance-international | retire |  | judge: festival — An annual street dance festival based in New York City. |
 | hutsul | retire |  | manual override |
 | il-canto-dei-sanfedisti | retire |  | judge: song_or_album — Italian patriotic hymn and folk song. |
 | international-latin-american-dance-champ | retire |  | judge: festival — Dance competition event, not a specific dance style. |
 | inu-yupiaq | retire |  | manual override |
 | jhumur | merge | jhumair | shares wikipedia_url with jhumair (name similarity 0.77) |
+| jota-leonesa | merge | jota | manual override: duplicate of jota |
 | k-cimi-i-tropojes | merge | vallja-e-tropojes | research notes: duplicate |
+| kalinka | retire |  | manual override |
 | karikazo | merge | karikz | shares wikidata_qid with karikz (name similarity 1.00) |
+| kurdish-dance | merge | govend | manual override: duplicate of govend |
 | kuthu | retire |  | manual override |
 | latin-jam-workout | retire |  | manual override |
+| lazgi | merge | khorezm-lazgi | manual override: duplicate of khorezm-lazgi |
 | louisiana | retire |  | judge: place — A U.S. state, not a dance tradition. |
 | maculel | merge | maculele | research notes: duplicate |
+| marchas-populares | retire |  | manual override |
 | mariachi | retire |  | manual override |
 | masquerade-ceremony | retire |  | judge: category_page — Generic descriptive category for masked ritual performances, not a specific d |
 | medal-examinations | retire |  | manual override |
 | moon-water | retire |  | manual override |
 | moribayassa | merge | moribayasa | shares wikidata_qid with moribayasa (name similarity 0.95) |
 | museve | retire |  | manual override |
+| muthappan | merge | theyyam | manual override: duplicate of theyyam |
 | muziki-wa-dansi | retire |  | manual override |
+| nae-nae | merge | hip-hop | manual override: duplicate of hip-hop |
+| narrative-ballet | merge | ballet | manual override: duplicate of ballet |
 | ngoma-music | retire |  | judge: category_page — Broad African umbrella term for drum, dance, and celebration events. |
 | nine-songs | retire |  | manual override |
 | odisha | merge | odissi | shares wikidata_qid with odissi (name similarity 0.67) |
@@ -312,19 +330,27 @@ _Generated 2026-11-08T17:31:28Z_
 | pontian-dances | merge | pontic-greek-folk-dance | shares wikidata_qid with pontic-greek-folk-dance (name similarity 0.67) |
 | powwow | retire |  | judge: festival — A social gathering and event featuring various specific dance styles. |
 | professional-showdance-world-champions | retire |  | manual override |
+| rabbit-dance | merge | locking | manual override: duplicate of locking |
+| razfa | merge | al-razfa | manual override: duplicate of al-razfa |
 | rhythmic-circus | retire |  | judge: group_or_company — A percussive tap-dance and musical ensemble troupe. |
 | romvong | merge | lam-vong | shares wikidata_qid with lam-vong (name similarity 0.67) |
 | rumba | merge | cuban-rumba | research notes: duplicate |
 | sacred-dance | retire |  | manual override |
 | sardinia | retire |  | judge: place — Autonomous region and island of Italy. |
 | sinulog | retire |  | judge: festival — Primarily a religious festival, though it features a specific dance. |
+| slow-dance | retire |  | manual override |
+| sprinkler-dance | retire |  | manual override |
 | stepping-out | retire |  | judge: tv_show — British television dance series. |
 | storyboard-p | retire |  | judge: person — An American street dancer. |
 | strictly-come-dancing | retire |  | judge: tv_show — British dance contest television show. |
+| striptease | retire |  | manual override |
+| sunu | merge | ganggangsullae | manual override: duplicate of ganggangsullae |
 | sur-le-pont-davignon | retire |  | judge: song_or_album — Famous 15th-century French song about a dance. |
 | sweden | retire |  | judge: country — A Nordic country in Northern Europe. |
 | swing-dance | merge | swing | manual override: duplicate of swing |
 | tanchaz-method | retire |  | manual override |
+| the-running-man | merge | hip-hop | manual override: duplicate of hip-hop |
+| throwouts | merge | balboa | manual override: duplicate of balboa |
 | tofo-tofo-dance-group | retire |  | judge: group_or_company — Dance group/troupe rather than a specific dance style. |
 | tower-ballroom-blackpool | retire |  | manual override |
 | turkey | retire |  | judge: country — Sovereign nation in West Asia and Southeast Europe. |
@@ -332,6 +358,8 @@ _Generated 2026-11-08T17:31:28Z_
 | twmpath | retire |  | judge: festival — A Welsh social event or barn dance gathering, not a specific style. |
 | us-national-dancesport-champions | retire |  | manual override |
 | usa-dance | retire |  | manual override |
+| vasoorimala | merge | theyyam | manual override: duplicate of theyyam |
+| vishnumoorthy-theyyam | merge | theyyam | manual override: duplicate of theyyam |
 | wangala | retire |  | judge: festival — Primarily a harvest festival, though it includes dance. |
 | world-10-dance-champions | retire |  | manual override |
 | world-ballroom-dance-champions | retire |  | manual override |
@@ -340,13 +368,15 @@ _Generated 2026-11-08T17:31:28Z_
 | world-pump-festival | retire |  | research notes: not a dance |
 | xs-latin | retire |  | manual override |
 | yangge | merge | yangko | shares wikidata_qid with yangko (name similarity 0.67) |
+| zafin | merge | zapin | manual override: duplicate of zapin |
 | zimbabwe | retire |  | judge: country — This is a sovereign nation, not a dance. |
 | zuvedra | retire |  | judge: group_or_company — Lithuanian dancesport formation dance team. |
 
-## Screened out before research: dance moves, steps, figures (32) — not Atlas entries; to rescue one, set its status back to "queued" in pipeline_state/candidates.json
+## Screened out before research: dance moves, steps, figures (33) — not Atlas entries; to rescue one, set its status back to "queued" in pipeline_state/candidates.json
 
 | candidate | why |
 |---|---|
+| zapin-api | dance move/step/figure: Indonesian traditional dance |
 | shimmy | dance move/step/figure: type of dance |
 | orange-justice | dance move/step/figure: Dance move |
 | griddy | dance move/step/figure: break dance move |

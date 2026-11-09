@@ -1,8 +1,8 @@
 # Tambor de Crioula — episode pack
 
-*Status: withheld-chapters · built 2026-11-08 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local practitioner from Maranhão.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Heartbeat of Maranhão
 NARRATION: This is Tambor de Crioula. 19th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (mFLhyKpG4ok)
 ON SCREEN: Title card: Tambor de Crioula · Brazil · 19th century to present
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ NARRATION: The dance is performed in a circle.
 NARRATION: Women (coreiras) dance individually in the center, inviting others via the 'punga' (a belly-to-belly bump).
 NARRATION: Men (coureiros) play drums and lead the singing.
 NARRATION: Watch for Punga.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (mFLhyKpG4ok)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -80,7 +80,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the rhythmic, circular world of Tambor de Crioula, a dance of resistance and devotion.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -99,7 +99,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'mFLhyKpG4ok', 'checked_by_vision_model': False, 'title': 'Danças Brasileiras - Tambor de Crioula (2 de 3)'}
 Images: 2 licensed — Ajmcbarreto / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ajmcbarreto / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Patrimônio Cultural do Brasil, Tambor de Crioula do Maranhão envolve dança, canto e percussão.webm — https://upload.wikimedia.org/wikipedia/commons/3/3d/Patrim%C3%B4nio_Cultural_do_Brasil%2C_Tambor_de_Crioula_do_Maranh%C3%A3o_envolve_dan%C3%A7a%2C_canto_e_percuss%C3%A3o.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Colorful skirts, Fire tuning the drums, The circular motion of the dancers
@@ -110,7 +110,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
-Counting: 1-2-3-4-5
+Counting: 
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 

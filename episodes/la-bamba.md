@@ -1,6 +1,6 @@
 # La Bamba — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.1 · 15/15 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.1 · 15/15 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section
 
@@ -88,7 +88,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore Veracruz’s iconic La Bamba, where vibrant footwork and improvised lyrics weave a living tradition of music, dance, and community.
-NARRATION: Sources: 6 references, every claim checked against its source.
+NARRATION: Sources: 6 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -103,8 +103,7 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Straight and erect, similar to Irish jig dancers
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -121,7 +120,7 @@ NARRATION: Step 1: Stand erect with straight posture
 NARRATION: Step 2: Begin with slow stamping of right heel (zapateado)
 NARRATION: Footwork from the sources: Intricate zapateado emphasizing right heel stamping; fast and precise
 NARRATION: Drill: Practice standing erect with straight posture
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Binary meter bar out loud, then in pairs of bars · repetitions: 3
@@ -145,7 +144,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid insulting improvised lyrics in social settings to prevent conflicts
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -174,8 +173,7 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Straight and erect, similar to Irish jig dancers
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -191,7 +189,7 @@ NEEDS: tempo
 NARRATION: Step 1: Use feet to tie a ribbon into a knot on the floor
 NARRATION: Step 2: Toss the ribbon knot into the air to finish
 NARRATION: Drill: Increase stamping speed maintaining precision
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Binary meter bar out loud, then in pairs of bars · repetitions: 3
@@ -215,7 +213,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid insulting improvised lyrics in social settings to prevent conflicts
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -244,8 +242,7 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Straight and erect, similar to Irish jig dancers
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -261,7 +258,7 @@ NEEDS: tempo
 NARRATION: Step 1: Use feet to tie a ribbon into a knot on the floor
 NARRATION: Step 2: Toss the ribbon knot into the air to finish
 NARRATION: Drill: Practice tying ribbon knot with feet smoothly
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Binary meter bar out loud, then in pairs of bars · repetitions: 3
@@ -285,7 +282,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid insulting improvised lyrics in social settings to prevent conflicts
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -328,9 +325,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
 Counting: count the Binary meter bar out loud, then in pairs of bars
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (6): https://en.wikipedia.org/wiki/La_Bamba_(song); https://www.wikidata.org/wiki/Q641677; https://es.wikipedia.org/wiki/La_bamba; https://fr.wikipedia.org/wiki/La_bamba; https://pt.wikipedia.org/wiki/La_Bamba_(canção_de_1958); https://archive.org/details/ERIC_ED342705

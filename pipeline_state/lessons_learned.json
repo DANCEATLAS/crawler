@@ -1,26 +1,26 @@
 {
- "updated_at": "2026-11-08T16:02:09Z",
- "qc_records_considered": 397,
+ "updated_at": "2026-11-09T19:53:33Z",
+ "qc_records_considered": 429,
  "gate_failures": [
   [
    "sections_filled",
-   80
+   89
   ],
   [
    "citations",
-   66
+   71
   ],
   [
    "insight_concrete",
-   60
+   63
   ],
   [
    "profile_long_len",
-   47
+   51
   ],
   [
    "country",
-   44
+   46
   ],
   [
    "banned_phrasing",
@@ -28,15 +28,15 @@
   ],
   [
    "sacred_handled",
-   38
+   40
   ],
   [
    "not_duplicate",
-   13
+   15
   ],
   [
    "sources",
-   6
+   8
   ],
   [
    "region",
@@ -46,43 +46,43 @@
  "reasons": [
   [
    "sacred",
-   150
+   167
   ],
   [
    "not_a_dance",
-   90
+   94
   ],
   [
    "sections_filled",
-   80
+   89
   ],
   [
    "citations",
-   66
+   71
   ],
   [
    "insight_concrete",
-   60
+   63
   ],
   [
    "profile_long_len",
-   47
+   51
   ],
   [
    "country",
-   44
+   46
   ],
   [
    "banned_phrasing",
    44
   ],
   [
-   "sacred_handled",
-   38
+   "doubts=1",
+   40
   ],
   [
-   "doubts=1",
-   36
+   "sacred_handled",
+   40
   ]
  ],
  "judge_notes": [
@@ -91,20 +91,20 @@
    15
   ],
   [
+   "judge notes mention 'generic'",
+   5
+  ],
+  [
+   "judge notes mention 'inaccura'",
+   5
+  ],
+  [
    "judge notes mention 'missing'",
    5
   ],
   [
-   "judge notes mention 'generic'",
-   4
-  ],
-  [
-   "judge notes mention 'inaccura'",
-   4
-  ],
-  [
    "judge notes mention 'unsupported'",
-   4
+   5
   ],
   [
    "doubt: The claim that Pilou was 'banned by France' is a common historical oversimplification; while colonial policies suppresse",
@@ -115,104 +115,104 @@
    1
   ],
   [
+   "doubt: The claim that Deverattam is currently performed using swords and spears is highly questionable; contemporary Deverattam",
+   1
+  ],
+  [
+   "doubt: The etymology provided is speculative and lacks linguistic consensus.",
+   1
+  ],
+  [
    "doubt: Medieval dance is treated as a single unified entity rather than a broad historical era spanning diverse cultures and ce",
-   1
-  ],
-  [
-   "doubt: The claim that Sekete embodies 'indji-winti' (mischievous spirits) is not supported by the provided evidence claims.",
-   1
-  ],
-  [
-   "doubt: The claim that Sekete was performed with permission from plantation owners during the colonial period is not supported b",
    1
   ]
  ],
  "episode_gaps_top": [
   [
    "tempo (bpm)",
-   179
+   196
   ],
   [
    "licensed images (3 needed)",
-   147
-  ],
-  [
-   "a verified recording to listen to",
-   129
+   160
   ],
   [
    "meter",
-   128
+   145
+  ],
+  [
+   "a verified recording to listen to",
+   145
   ],
   [
    "licensed reference footage",
-   127
+   136
   ],
   [
    "a hero video",
-   106
+   121
   ],
   [
    "two or more connections",
-   95
+   108
   ],
   [
    "what to avoid / common mistakes",
-   95
+   101
   ],
   [
    "instruments",
-   72
+   75
   ],
   [
    "signature moves",
-   58
+   63
   ],
   [
    "the hero video's vision check",
-   58
+   59
   ],
   [
    "posture, arms and hands",
-   56
+   58
   ]
  ],
  "avoid": [
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (80 pages in 30 days)",
-  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (66 pages in 30 days)",
-  "the insight line was vague — put a person, a place, a year or a number in it (60 pages in 30 days)",
-  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (47 pages in 30 days)",
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (89 pages in 30 days)",
+  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (71 pages in 30 days)",
+  "the insight line was vague — put a person, a place, a year or a number in it (63 pages in 30 days)",
+  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (51 pages in 30 days)",
   "banned phrasing slipped in — no hype, no 'the sources say', no AI talk (44 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "tempo (bpm)",
-   "pages": 179,
+   "pages": 196,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
    "gap": "licensed images (3 needed)",
-   "pages": 147,
+   "pages": 160,
    "what_helps": "a Wikimedia Commons category or file link in an editor note"
   },
   {
-   "gap": "a verified recording to listen to",
-   "pages": 129,
-   "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
-  },
-  {
    "gap": "meter",
-   "pages": 128,
+   "pages": 145,
    "what_helps": "a source that states the time signature"
   },
   {
+   "gap": "a verified recording to listen to",
+   "pages": 145,
+   "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
+  },
+  {
    "gap": "licensed reference footage",
-   "pages": 127,
+   "pages": 136,
    "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
   },
   {
    "gap": "a hero video",
-   "pages": 106,
+   "pages": 121,
    "what_helps": "the crawler found no usable video — a different search phrase or a channel to trust, via an editor note"
   }
  ]

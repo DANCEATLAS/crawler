@@ -1,8 +1,8 @@
 # Gandrung — episode pack
 
-*Status: draft · built 2026-11-03 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; notable figures; lineage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; notable figures; lineage; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local practitioner from Banyuwangi.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dance of Love: Banyuwangi's Gandrung
 NARRATION: This is Gandrung. Traditional.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (-dxcamTUIsw)
 ON SCREEN: Title card: Gandrung · Indonesia · Traditional
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: The dancer begins at the side of the stage, moves to the center with hip thrusts, and invites an audience member to dance by throwing a shawl to them.
 NARRATION: Watch for Shawl Invitation.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (-dxcamTUIsw)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Dancer moves from the side of the stage to the center; in some regions, it is performed in a circle.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -72,7 +72,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Start at the side of the stage.
 NARRATION: Move to the center stage using hip thrusts.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -80,7 +80,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the evolution of Gandrung from a sacred rice ritual to a vibrant social dance of courtship.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -96,11 +96,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Uses a fan and a shawl.
 NARRATION: The dancer moves with hip thrusts.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -111,17 +111,15 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Start at the side of the stage.
 NARRATION: Step 2: Move to the center stage using hip thrusts.
 NARRATION: Drill: Practice rhythmic hip movements.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Throw a shawl to an audience member to invite them to dance.
 NARRATION: Drill: Practice the gesture of throwing a shawl.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -133,15 +131,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform hip movements while seated. · For children: Use a scarf to invite friends to dance in a circle.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip movements while seated. · For children: Use a scarf to invite friends to dance in a circle. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -167,11 +164,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Uses a fan and a shawl.
 NARRATION: The dancer moves with hip thrusts.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -181,10 +178,9 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Start at the side of the stage.
 NARRATION: Step 2: Move to the center stage using hip thrusts.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Throw a shawl to an audience member to invite them to dance.
@@ -192,7 +188,6 @@ NARRATION: Shawl Invitation: The dancer throws her shawl to an audience member t
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -203,15 +198,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform hip movements while seated. · For children: Use a scarf to invite friends to dance in a circle.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip movements while seated. · For children: Use a scarf to invite friends to dance in a circle. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancer moves from the side of the stage to the center; in some regions, it is performed in a circle.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -236,11 +230,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Uses a fan and a shawl.
 NARRATION: The dancer moves with hip thrusts.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -250,17 +244,15 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Move to the center stage using hip thrusts.
 NARRATION: Step 2: Throw a shawl to an audience member to invite them to dance.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Shawl Invitation: The dancer throws her shawl to an audience member to bring him to the stage.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -271,15 +263,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform hip movements while seated. · For children: Use a scarf to invite friends to dance in a circle.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip movements while seated. · For children: Use a scarf to invite friends to dance in a circle. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancer moves from the side of the stage to the center; in some regions, it is performed in a circle.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -305,7 +296,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dancer is dressed in traditional costume, with a fan, shawl, and ornamental headgear. It is usually performed in an all-night performance that begins sometime around 9 p.m. and ends just before dawn.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '-dxcamTUIsw', 'checked_by_vision_model': False, 'title': 'Tari Gama Gandrung by Wiryatama (Banyuwangi Traditional Dance)'}
 Images: 4 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Unknown authorUnknown author / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Candra Firmansyah / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Rvianry / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: UCLA Ethnomusicology Spring Festival of World Music 2025: Music of Java Ensemble — https://archive.org/details/calauem_200201_omvf0000672_pt1_ac
 Motifs: Ornate headgear, Traditional fans, Gamelan instruments
@@ -315,9 +306,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the folk-circle family studied · videos studied: 2
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (2): https://en.wikipedia.org/wiki/Gandrung; https://www.wikidata.org/wiki/Q797450

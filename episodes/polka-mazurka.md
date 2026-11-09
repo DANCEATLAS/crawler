@@ -1,8 +1,8 @@
 # polka-mazurka — episode pack
 
-*Status: draft · built 2026-11-06 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A dance historian with a focus on 19th-century social etiquette.
@@ -77,7 +77,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Glide left foot sidewise to 2nd position (count one)
 NARRATION: Draw right foot to 1st position (count two)
-NARRATION: Count it: 1-2-3-4.
+NARRATION: Count it: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -85,7 +85,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the 19th-century ballroom dance that defied the polka's rhythm.
-NARRATION: Sources: 6 references, every claim checked against its source.
+NARRATION: Sources: 6 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -99,13 +99,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4. The meter is 3/4.
+NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.
 NARRATION: Rhythm pattern: Emphasis on the first beat of the bar.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -121,7 +120,7 @@ NARRATION: Drill: Clapping the 1-2-3 beat
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Place left foot in 2nd position with no weight (count three)
@@ -129,7 +128,7 @@ NARRATION: Step 4: Hop on right foot (count four)
 NARRATION: Drill: Walking in 3/4 time
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -140,13 +139,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -170,13 +168,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4. The meter is 3/4.
+NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.
 NARRATION: Rhythm pattern: Emphasis on the first beat of the bar.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -190,7 +187,7 @@ NARRATION: Drill: Glide-draw-hop sequence
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Polka-Mazurka Step: A combination of a glide, draw, and hop spanning two measures.
@@ -198,7 +195,7 @@ NARRATION: Drill: Partner mirroring
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -209,13 +206,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples dance in rotation or straight lines.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -239,13 +235,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4. The meter is 3/4.
+NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.
 NARRATION: Rhythm pattern: Emphasis on the first beat of the bar.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -259,14 +254,14 @@ NARRATION: Step 2: Repeat sequence with opposite foot for counts five and six
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Polka-Mazurka Step: A combination of a glide, draw, and hop spanning two measures.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -277,13 +272,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples dance in rotation or straight lines.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -323,7 +317,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 4 tutorial(s) of the ballroom-partner family studied · videos studied: 4
-Counting: 1-2-3-4
+Counting: 1-2-3, 2-2-3 (three counts a bar)
 Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
 Cues: side close side; step and point; turn turn turn; replace; side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot
 

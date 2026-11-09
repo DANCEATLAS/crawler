@@ -1,8 +1,8 @@
 # Traditional Square Dance — episode pack
 
-*Status: draft · built 2026-11-06 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); what to avoid / common mistakes
+**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed images (3 needed); what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned regional caller who teaches by walking dancers through steps rather than formal lessons.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Living Roots of American Square Dancing
 NARRATION: This is Traditional Square Dance. 19th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (ZWuQK0WFE44)
 ON SCREEN: Title card: Traditional Square Dance · United States and Canada · 19th century to present
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: Danced using a limited number of basic movements or 'calls' that enable average dancers to join by assimilation rather than formal lessons.
 NARRATION: Figures are executed in set orders or chosen from local repertoires by a prompter or caller, with regional variations appearing primarily in hand and arm positions.
 NARRATION: Watch for ladies chain, right and left, Bird in the Cage.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (ZWuQK0WFE44)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Four-couple square formation or large circle where a single couple visits other couples in turn
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -76,7 +76,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Join hands in a square or circle formation with other couples
 NARRATION: Execute basic movements such as 'ladies chain' or 'right and left' upon hearing the call
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -84,7 +84,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the pre-1950 regional traditional square dances preserved through community networks, live fiddle tunes, and calls learned by assimilation.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -99,11 +99,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Regional variations in hand or arm position during basic movements like 'do-si-do'
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 6/8 time (jigs) and 2/4 time (reels).
+NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 time (jigs) and 2/4 time (reels).
 NARRATION: Rhythm pattern: Binary form AABB pattern with 8 measures (16 downbeats) per part.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -117,14 +117,14 @@ NARRATION: Drill: Form a four-couple square formation on the floor
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Walk through dance figures step-by-step prior to dancing to live music
 NARRATION: Drill: Walk through basic Northeastern figures without music
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -136,15 +136,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform hand gestures, arm swings, and upper body turns while seated in a circle formation. · For children: A simplified circle game where children follow a caller's spoken directions to change partners.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hand gestures, arm swings, and upper body turns while seated in a circle formation. · For children: A simplified circle game where children follow a caller's spoken directions to change partners. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 130 bpm
@@ -169,11 +168,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Regional variations in hand or arm position during basic movements like 'do-si-do'
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 6/8 time (jigs) and 2/4 time (reels).
+NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 time (jigs) and 2/4 time (reels).
 NARRATION: Rhythm pattern: Binary form AABB pattern with 8 measures (16 downbeats) per part.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -186,7 +185,7 @@ NARRATION: Step 2: Execute basic movements such as 'ladies chain' or 'right and 
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Walk through dance figures step-by-step prior to dancing to live music
@@ -195,7 +194,7 @@ NARRATION: right and left: A foundational movement shared across Northeastern fi
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -206,15 +205,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform hand gestures, arm swings, and upper body turns while seated in a circle formation. · For children: A simplified circle game where children follow a caller's spoken directions to change partners.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hand gestures, arm swings, and upper body turns while seated in a circle formation. · For children: A simplified circle game where children follow a caller's spoken directions to change partners. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Four-couple square formation or large circle where a single couple visits other couples in turn
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 130 bpm
@@ -239,11 +237,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Regional variations in hand or arm position during basic movements like 'do-si-do'
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 6/8 time (jigs) and 2/4 time (reels).
+NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 time (jigs) and 2/4 time (reels).
 NARRATION: Rhythm pattern: Binary form AABB pattern with 8 measures (16 downbeats) per part.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -256,14 +254,14 @@ NARRATION: Step 2: Walk through dance figures step-by-step prior to dancing to l
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Bird in the Cage: A unique Southeastern figure composed of movements that appear in no other dance.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -274,15 +272,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform hand gestures, arm swings, and upper body turns while seated in a circle formation. · For children: A simplified circle game where children follow a caller's spoken directions to change partners.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hand gestures, arm swings, and upper body turns while seated in a circle formation. · For children: A simplified circle game where children follow a caller's spoken directions to change partners. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Four-couple square formation or large circle where a single couple visits other couples in turn
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 130 bpm
@@ -309,7 +306,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Events take place in community spaces, local halls, or revival venues. Dancers wear casual attire or dress up slightly, without requiring standardized square-dance-specific costumes.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'ZWuQK0WFE44', 'checked_by_vision_model': False, 'title': 'The Ninepin square dance'}
 Images: 1 licensed — Harrison Keely / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
 Footage: Alliance for Appalachia blockades Obama's Council on Environmental Quality over MTR coal mining — https://archive.org/details/MTRAppalachiaCD992014540p; Two Lady Around Figures — https://archive.org/details/two-lady-around-figures; Dip & Dive Square — https://archive.org/details/dip-dive-square; The Tunnel Square Dance — https://archive.org/details/the-tunnel-square-dance; Life On An Ocean Wave — https://archive.org/details/life-on-an-ocean-wave; Split The Sides Of The Square — https://archive.org/details/split-the-sides-of-the-square
 Motifs: A fiddler drawing a bow across strings under warm hall lighting, Four couples forming a square on wooden floorboards, A caller speaking into a microphone before a live string band
@@ -319,9 +316,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 6 tutorial(s) of the folk-circle family studied · videos studied: 6
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: back, front, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; step to the right
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (3): https://en.wikipedia.org/wiki/Traditional_square_dance; https://www.wikidata.org/wiki/Q2447772; https://de.wikipedia.org/wiki/Traditional_Square_Dance

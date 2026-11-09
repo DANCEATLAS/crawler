@@ -1,11 +1,12 @@
 {
  "slug": "sigalegale",
  "name": "Sigalegale",
- "pack_version": "e1",
- "built_at": "2026-11-04T19:23:00Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-04T17:55:12Z",
  "qc_score": 9.55,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -65,7 +66,7 @@
      "This is Sigalegale. early 20th century documented."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (tqn0eFDEca0)",
      "Title card: Sigalegale · Indonesia · early 20th century documented"
     ],
     "music": "theme (30 s)"
@@ -108,7 +109,7 @@
      "Watch for Weeping dance."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (tqn0eFDEca0)",
      "Captions name each signature move as it appears",
      "Formation: Puppet on wheeled platform, moved alongside dancing relatives"
     ],
@@ -195,7 +196,7 @@
     "duration_s": 25,
     "narration": [
      "Explore the haunting Sigalegale puppet dance of the Batak people, a ritual honoring childless deceased through a life-sized weeping puppet.",
-     "Sources: 2 references, every claim checked against its source."
+     "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -207,7 +208,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": null,
@@ -254,7 +257,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "tqn0eFDEca0",
+   "checked_by_vision_model": false,
+   "title": "Mossak &  Tortor Sigale Gale"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -352,38 +359,27 @@
   ]
  },
  "teaching_formula": {
-  "source": "13 tutorials across the atlas studied",
-  "videos_studied": 13,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
+   "views used by most teachers: front, back",
    "tempo progression: slow → full",
-   "repetitions per step: about 4"
+   "repetitions per step: about 5"
   ],
   "cues": [
-   "and one and three and five and seven",
-   "keep your feet together",
-   "relax your knees",
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
-   "punch to the side",
-   "pull your head down",
-   "pivot them on your elbows",
-   "left foot",
-   "right foot"
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "context",
    "full_demo",
+   "context",
    "breakdown",
-   "slow_practice",
-   "mistakes",
-   "music_practice",
-   "layering"
+   "slow_practice"
   ],
   "steps_as_taught": []
  },
@@ -392,7 +388,7 @@
   "meter",
   "instruments",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed reference footage",
   "the how-it-is-danced section",
   "the music & instruments section",
@@ -405,5 +401,6 @@
  "claims_verified": 10,
  "claims": 10,
  "polished": false,
+ "input_fingerprint": "53be3a3dcab625172f3ee49d645f6afa89600ea671fc7484e52832a5fc22ead1",
  "hero_checked": null
 }

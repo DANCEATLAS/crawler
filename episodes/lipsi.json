@@ -1,11 +1,12 @@
 {
  "slug": "lipsi",
  "name": "Lipsi",
- "pack_version": "e1",
- "built_at": "2026-11-03T03:27:49Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-10-30T17:09:59Z",
  "qc_score": 9.85,
  "status": "draft",
+ "release_status": "not_validated",
  "sacred": false,
  "chapters_note": null,
  "formula": {
@@ -202,7 +203,7 @@
     "duration_s": 25,
     "narration": [
      "How East Germany invented a communist partner dance in 1959 to immunize its youth against rock and roll, sparking street protests and swift crackdowns.",
-     "Sources: 3 references, every claim checked against its source."
+     "Sources: 3 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -243,8 +244,7 @@
       "Controlled torso movements avoiding Western rock and roll gyrations"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -276,7 +276,7 @@
       "Drill: Step left, tap right solo footwork drill"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -323,7 +323,7 @@
       "Western rock and roll gyrations and individual improvisation"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -390,8 +390,7 @@
       "Controlled torso movements avoiding Western rock and roll gyrations"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -422,7 +421,7 @@
       "Drill: Establishing closed partner frame"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -469,7 +468,7 @@
       "Western rock and roll gyrations and individual improvisation"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -536,8 +535,7 @@
       "Controlled torso movements avoiding Western rock and roll gyrations"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -568,7 +566,7 @@
       "Drill: Partner separation and positioning drill"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -615,7 +613,7 @@
       "Western rock and roll gyrations and individual improvisation"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -654,7 +652,9 @@
   }
  ],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": "6/4",
   "rhythm_pattern": null,
@@ -748,30 +748,35 @@
   ]
  },
  "teaching_formula": {
-  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
-  "videos_studied": 0,
+  "source": "4 tutorial(s) of the ballroom-partner family studied",
+  "videos_studied": 4,
   "counting": "count the 6/4 bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "front view, then back view (student's perspective)",
-   "slow, then half tempo, then full tempo",
-   "three repetitions of every step before moving on"
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full"
   ],
   "cues": [
-   "say the count before the move",
-   "name the body part, then the direction",
-   "one correction at a time"
+   "side close side",
+   "step and point",
+   "turn turn turn",
+   "replace",
+   "side replace close",
+   "rock replace side",
+   "side with the left",
+   "bring it in",
+   "switch weight",
+   "change weight onto the left",
+   "step to side on 4-1",
+   "crossover with your left foot"
   ],
   "common_mistakes": [],
   "segment_order": [
-   "welcome",
-   "body",
-   "count",
-   "step",
-   "step",
-   "combine",
-   "mistakes",
-   "music",
-   "recap"
+   "intro",
+   "context",
+   "full_demo",
+   "breakdown",
+   "mistakes"
   ],
   "steps_as_taught": []
  },
@@ -789,5 +794,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
+ "input_fingerprint": "b8e0156634cb34abab70a56afcc795a08daba9f118f0514f60a8b77425d7c23a",
  "hero_checked": null
 }

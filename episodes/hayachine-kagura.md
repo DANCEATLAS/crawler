@@ -1,8 +1,8 @@
 # Hayachine Kagura — episode pack
 
-*Status: withheld-chapters · built 2026-11-08 · judge 8.35 · 5/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 8.35 · 5/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: On August 1st, a performer dons a shishi mask to embody the mountain deity of Mount Hayachine, concluding a five-hour cycle of twelve ritual dances that have been performed since the 14th or 15th century.
 NARRATION: This is Hayachine Kagura. 14th-15th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (FkDXHdhkUiI)
 ON SCREEN: Title card: Hayachine Kagura · Japan · 14th-15th century
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Shishi dance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (FkDXHdhkUiI)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced
@@ -79,7 +79,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: A look at the twelve ritual dances of Hayachine Kagura, a centuries-old tradition from the mountains of Iwate.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -98,7 +98,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'FkDXHdhkUiI', 'checked_by_vision_model': False, 'title': 'Japón - Hayachine Kagura "Yama no Kami Mai" Danza del Dios de la Montaña /Mountain God Dance - Japan'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Masks, Shrine architecture, Drums and flutes
@@ -109,7 +109,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
-Counting: 1-2-3-4-5
+Counting: 
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 

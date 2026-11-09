@@ -1,8 +1,8 @@
 # Farruca — episode pack
 
-*Status: draft · built 2026-11-07 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An exacting, seasoned flamenco maestro who demands intense rhythmic discipline, absolute physical stillness, and zero unnecessary flourish.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Silence, Strike, Defiance: The Farruca Solo
 NARRATION: This is Farruca. Early 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (3j5IRvgQAS8)
 ON SCREEN: Title card: Farruca · Spain · Early 20th century
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The farruca is danced as a dramatic solo characterized by upright pos
 NARRATION: Performed within an eight-beat compás consisting of two 4/4 bars with accents on 1, 3, 5, and 7, it begins at a moderate, articulated tempo.
 NARRATION: Choreographies proceed from an entrance (salida) into marked compás, llamadas, remates, and extended escobillas.
 NARRATION: Watch for Llamada, Escobilla, Remate.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (3j5IRvgQAS8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo stage performance utilizing abrupt changes of direction and level.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -90,7 +90,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Step inside the austere world of flamenco's most theatrical solo, born in early 1900s music halls from sharp heel strikes and absolute stillness.
-NARRATION: Sources: 7 references, every claim checked against its source.
+NARRATION: Sources: 7 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -107,7 +107,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, proud, defiant, and severe vertical alignment with contained carriage.
 NARRATION: Contained arm movement and occasional bursts of filigrana ornamental gestures.
 NARRATION: Linear and restrained torso with sharp pauses, held poses, and minimal hip displacement.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -148,7 +148,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid loose, wavy torso motions or excessive hip swaying, which undermine the palo's strict linear aesthetic.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates. · For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates. · For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops. (options are derived teaching suggestions, not facts from the sources)
@@ -181,7 +181,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, proud, defiant, and severe vertical alignment with contained carriage.
 NARRATION: Contained arm movement and occasional bursts of filigrana ornamental gestures.
 NARRATION: Linear and restrained torso with sharp pauses, held poses, and minimal hip displacement.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -224,7 +224,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid loose, wavy torso motions or excessive hip swaying, which undermine the palo's strict linear aesthetic.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates. · For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates. · For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops. (options are derived teaching suggestions, not facts from the sources)
@@ -257,7 +257,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, proud, defiant, and severe vertical alignment with contained carriage.
 NARRATION: Contained arm movement and occasional bursts of filigrana ornamental gestures.
 NARRATION: Linear and restrained torso with sharp pauses, held poses, and minimal hip displacement.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -297,7 +297,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid loose, wavy torso motions or excessive hip swaying, which undermine the palo's strict linear aesthetic.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates. · For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates. · For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops. (options are derived teaching suggestions, not facts from the sources)
@@ -332,7 +332,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance emerged within theatrical spaces, varieté, and cafés cantantes before transitioning to concert halls and ballet stages. Performers wear attire that accentuates vertical line and sharp posture, traditionally consisting of high-waisted trousers, fitted waistcoats, and flamenco boots suitable for virtuosic footwork. Historical descriptions document the use of a cape during early male stage performances. Early female dancers frequently performed the dance dressed in male clothing.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '3j5IRvgQAS8', 'checked_by_vision_model': False, 'title': 'Pablo Egea - Farruca'}
 Images: 0 licensed
 Footage: Men Dancing 10 — https://archive.org/details/csfpal_000160; Bailes Tipicos Españoles Angelita Y Mª Del Carmen Romero ( 1984) LP Completo — https://archive.org/details/BailesTipicosEspaolesAngelitaYMDelCarmenRomero1984LPCompleto; The Art Of Guitar Flamenco By Pepe Romero Spanish Dance, Zorrongo, Farruca Y Rumba .. ( Ct.rc..) — https://archive.org/details/the-art-of-guitar-flamenco-by-pepe-romero-spanish-dance-zorrongo-farruca-y-rumba-..-ct.rc..
 Motifs: High-contrast chiaroscuro lighting on black tailored trousers and polished flamenco boots., Extreme close-up shots of guitar fingers damping strings into total silence., Wide silhouettes pausing in stark geometric postures.
@@ -342,9 +342,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of the stage-contemporary family studied · videos studied: 1
+Source: 3 tutorial(s) of the stage-contemporary family studied · videos studied: 3
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side; tempo progression: full
-Cues: knees to chest; straightening my legs; bringing my body up; bend both legs; opening my left arm; straightening my left leg; bringing my top leg down
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
+Cues: short verbal cue the teacher repeats  8 words; deep slow hip circles; hips to one side in little pulses; breathe in arms come up; roll through the spine; belly rolls both directions; knees to chest; straightening my legs; bringing my body up; bend both legs; opening my left arm; straightening my left leg
 
 Sources (7): https://en.wikipedia.org/wiki/Farruca; https://www.wikidata.org/wiki/Q2557688; https://fr.wikipedia.org/wiki/Farruca; https://de.wikipedia.org/wiki/Farruca; https://it.wikipedia.org/wiki/Farruca; https://archive.org/details/elsombrerodetres00fall_0; https://archive.org/details/31761034898247

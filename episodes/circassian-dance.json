@@ -1,0 +1,846 @@
+{
+ "slug": "circassian-dance",
+ "name": "Circassian dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
+ "researched_at": "2026-11-09T20:35:45Z",
+ "qc_score": 9.5,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A Circassian dance master with decades of teaching experience, emphasizing cultural respect and technical precision",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Circassian dance",
+   "Islamey",
+   "Kafkas",
+   "Lezginka",
+   "Qafa"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Circassian dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Circassian Dance: The Martial Ballet of the Caucasus",
+     "This is Circassian dance. 19th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Circassian dance · Russia (North Caucasus), Turkey, Jordan, Israel · 19th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Circassian dance originates from the North Caucasus, home to the Circassian people before the 19th-century Circassian genocide.",
+     "It reflects the martial lifestyle and social customs of the region, with historical records from the 19th century describing competition dances that served as physical training and social display.",
+     "The tradition continues today in diaspora communities in Turkey, Jordan, Israel, and Russia, preserved through festivals and education."
+    ],
+    "on_screen": [
+     "Map: Russia (North Caucasus), Turkey, Jordan, Israel · Central Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Circassian dances are performed at weddings, social gatherings, national festivals, and ritual occasions.",
+     "They serve as social communication, courtship, and displays of martial skill and endurance.",
+     "Some dances have ritual origins honoring deities or marking seasonal events.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Circassian dances include mass circle formations (Wuj), slow partner dances (Qafa), and fast-paced pair dances (Islamey).",
+     "Men often dance on the tips of their toes wearing special leather boots, performing agile leaps and turned-in foot positions with hands behind their backs in competition styles.",
+     "Women glide lightly with motionless upper bodies and heads, moving smoothly on half-toes without touching partners in Qafa.",
+     "Watch for Zakladka, Toe dancing, Do-za-do."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Mass circle dances moving counter-clockwise; partner dances maintain respectful distance without touching; solo male performances in center"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Circassian dance music features instruments such as the pshine accordion, pkhachich clappers (wood blocks), bereban drum (dhol), pkhetaw (wood-strike), shichepshin fiddle (horse-tail violin), apa-pshine lute, and qamil flute.",
+     "Rhythms are typically in 4/4 or 8/4 meters, with pieces like Qaashuo and Zefauk in 4/4 time.",
+     "Listen for the pshine accordion, pkhachich clappers, bereban drum, pkhetaw wood-strike.",
+     "The pulse is 4/4 8/4 at about 70 beats a minute.",
+     "The music features a blend of accordion melodies, rhythmic clapping on wooden blocks, deep drum beats, and high-pitched fiddle lines, creating a dynamic soundscape that supports both slow, dignified dances and fast, energetic performances."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Kabardinka — Hapcha Zaodin; Islamey — Traditional Circassian melody",
+     "Waveform or rhythm-pattern graphic: Rhythms include steady 4/4 beats with accented off-beats; some dances use rondel-type repeating phrases every eight measures"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Men wear the cherkes, a black military-style outfit with an imposing coat and bullet cartridges across the chest, often carrying a dagger or sword incorporated into dances.",
+     "Women wear elegant dresses that emphasize grace and lightness of movement.",
+     "Performances occur at national festivals, weddings, and cultural celebrations, often on flat indoor or outdoor stages suitable for circle and partner formations."
+    ],
+    "on_screen": [
+     "Image gallery: 5 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Notable Circassian musicians and composers include Hapcha Zaodin, Hasan Sokov, Aslan Leiv (Aslan Dudar), and Aslan Tlebzu.",
+     "Diaspora artists include Saeed Bazoqa and Ahmad Aiy.",
+     "Variants include the Kabardian and Bzhedug versions of Islamey, differing in tempo and style.",
+     "Circassian dance influenced neighboring cultures, notably Cossack dance."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Circassian dance is sibling of Lezginka: Distinct but related Caucasian dance; Circassian dance influenced and differs from Lezginka, which is from the Lezghi people.",
+     "Circassian dance is influence of Cossack dance: Circassian dance traditions historically influenced the development of Cossack dance."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Glide smoothly on half-toes with minimal upper body movement",
+     "Men practice dancing on tips of toes in leather boots",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the disciplined elegance and martial spirit of Circassian dance, where toe dancing men and gliding women embody centuries of tradition.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn basic gliding steps and arm positions",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn basic gliding steps and arm positions.",
+      "Level: Beginner. Difficulty of the dance overall: Intermediate to advanced.",
+      "Your instructor: A Circassian dance master with decades of teaching experience, emphasizing cultural respect and technical precision"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Men maintain erect posture, often with hands behind back in competition dances; women keep upper bodies and heads motionless, gliding lightly",
+      "Men often hold hands behind back or fold one arm at chest; women delicately pose fingertips with arms slightly open or at sides",
+      "Minimal torso movement, especially for women; men use controlled, restrained torso movements reflecting martial discipline"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 8/4.",
+      "Rhythm pattern: Rhythms include steady 4/4 beats with accented off-beats; some dances use rondel-type repeating phrases every eight measures.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 49 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Glide smoothly on half-toes with minimal upper body movement",
+      "Step 2: Men practice dancing on tips of toes in leather boots",
+      "Footwork from the sources: Men dance on tips of toes in leather boots with turned-in foot positions and agile leaps; women move smoothly on half-toes without touching partners",
+      "Drill: Practice smooth half-toe glides in place"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Maintain respectful distance between partners without touching",
+      "Step 4: Perform basic arm positions with hands often behind back",
+      "Drill: Hold arms gently at sides with relaxed fingers"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Walk in a circle counter-clockwise maintaining spacing"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Men turning backs to partners or breaking eye contact; touching partners in dances where prohibited; excessive upper body movement for women"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 70 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn basic gliding steps and arm positions.",
+      "Circassian dances are performed at weddings, social gatherings, national festivals, and ritual occasions.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Introduce toe dancing and partner etiquette",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Introduce toe dancing and partner etiquette.",
+      "Level: Intermediate. Difficulty of the dance overall: Intermediate to advanced.",
+      "Your instructor: A Circassian dance master with decades of teaching experience, emphasizing cultural respect and technical precision"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Men maintain erect posture, often with hands behind back in competition dances; women keep upper bodies and heads motionless, gliding lightly",
+      "Men often hold hands behind back or fold one arm at chest; women delicately pose fingertips with arms slightly open or at sides",
+      "Minimal torso movement, especially for women; men use controlled, restrained torso movements reflecting martial discipline"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 8/4.",
+      "Rhythm pattern: Rhythms include steady 4/4 beats with accented off-beats; some dances use rondel-type repeating phrases every eight measures.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 49 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Practice simple circular formations moving counter-clockwise",
+      "Drill: Balance on tips of toes in boots or shoes"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Zakladka: Arm gesture symbolizing dodging a sword strike",
+      "Toe dancing: Men dance on tips of toes in boots, demonstrating balance and agility",
+      "Drill: Practice do-za-do partner passing on left side"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Maintain eye contact and respectful distance"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Men turning backs to partners or breaking eye contact; touching partners in dances where prohibited; excessive upper body movement for women"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Mass circle dances moving counter-clockwise; partner dances maintain respectful distance without touching; solo male performances in center"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 70 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Introduce toe dancing and partner etiquette.",
+      "Notable Circassian musicians and composers include Hapcha Zaodin, Hasan Sokov, Aslan Leiv (Aslan Dudar), and Aslan Tlebzu.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform small leaps and zakladka gestures",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform small leaps and zakladka gestures.",
+      "Level: Advanced. Difficulty of the dance overall: Intermediate to advanced.",
+      "Your instructor: A Circassian dance master with decades of teaching experience, emphasizing cultural respect and technical precision"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Men maintain erect posture, often with hands behind back in competition dances; women keep upper bodies and heads motionless, gliding lightly",
+      "Men often hold hands behind back or fold one arm at chest; women delicately pose fingertips with arms slightly open or at sides",
+      "Minimal torso movement, especially for women; men use controlled, restrained torso movements reflecting martial discipline"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4 8/4.",
+      "Rhythm pattern: Rhythms include steady 4/4 beats with accented off-beats; some dances use rondel-type repeating phrases every eight measures.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 49 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Perform basic arm positions with hands often behind back",
+      "Step 2: Practice simple circular formations moving counter-clockwise",
+      "Drill: Execute small agile leaps with controlled landings"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Do-za-do: Partners pass each other on the left side to present themselves",
+      "Drill: Practice arm movements mimicking sword dodging"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Combine toe dancing with partner interaction"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Men turning backs to partners or breaking eye contact; touching partners in dances where prohibited; excessive upper body movement for women"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Mass circle dances moving counter-clockwise; partner dances maintain respectful distance without touching; solo male performances in center"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 70 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform small leaps and zakladka gestures.",
+      "Circassian dance influenced neighboring cultures, notably Cossack dance.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 70,
+  "meter": "4/4 8/4",
+  "rhythm_pattern": "Rhythms include steady 4/4 beats with accented off-beats; some dances use rondel-type repeating phrases every eight measures",
+  "instruments": [
+   "pshine accordion",
+   "pkhachich clappers",
+   "bereban drum",
+   "pkhetaw wood-strike",
+   "shichepshin fiddle",
+   "apa-pshine lute",
+   "qamil flute"
+  ],
+  "vocal_style": null,
+  "musical_form": "Dance music often structured in repeated phrases with variations matching dance figures",
+  "mood": [
+   "martial",
+   "graceful",
+   "dignified",
+   "energetic",
+   "restrained"
+  ],
+  "sound_description": "The music features a blend of accordion melodies, rhythmic clapping on wooden blocks, deep drum beats, and high-pitched fiddle lines, creating a dynamic soundscape that supports both slow, dignified dances and fast, energetic performances.",
+  "listen_before_composing": [
+   "Kabardinka — Hapcha Zaodin",
+   "Islamey — Traditional Circassian melody"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Circassian dance (Russia (North Caucasus), Turkey, Jordan, Israel). Meter 4/4 8/4. Tempo about 70 bpm. Rhythm pattern: Rhythms include steady 4/4 beats with accented off-beats; some dances use rondel-type repeating phrases every eight measures. Instruments: pshine accordion, pkhachich clappers, bereban drum, pkhetaw wood-strike, shichepshin fiddle, apa-pshine lute, qamil flute. Form: Dance music often structured in repeated phrases with variations matching dance figures. Mood: martial, graceful, dignified, energetic, restrained. It should sound like this: The music features a blend of accordion melodies, rhythmic clapping on wooden blocks, deep drum beats, and high-pitched fiddle lines, creating a dynamic soundscape that supports both slow, dignified dances and fast, energetic performances. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 49
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 70
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Men wear the cherkes, a black military-style outfit with an imposing coat and bullet cartridges across the chest, often carrying a dagger or sword incorporated into dances. Women wear elegant dresses that emphasize grace and lightness of movement. Performances occur at national festivals, weddings, and cultural celebrations, often on flat indoor or outdoor stages suitable for circle and partner formations.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ACaucasian_dancer_Alexander_Dzusov.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AUSSHER%281865%29_p183_CIRCASSIAN_DANCE.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AIllustration_of_a_Circassian_dance_party_in_a_circle_by_Mechislav_Dalkevich.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Caucasian_dancer_Alexander_Dzusov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Caucasian_dancer_Alexander_Dzusov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Ragim West at Russian Wikipedia / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACaucasian_dancer_Alexander_Dzusov.jpg",
+    "description": "Caucasian dancer Alexander Dzusov"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/USSHER%281865%29_p183_CIRCASSIAN_DANCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/USSHER%281865%29_p183_CIRCASSIAN_DANCE.jpg/1280px-USSHER%281865%29_p183_CIRCASSIAN_DANCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AUSSHER%281865%29_p183_CIRCASSIAN_DANCE.jpg",
+    "description": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Illustration_of_a_Circassian_dance_party_in_a_circle_by_Mechislav_Dalkevich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Illustration_of_a_Circassian_dance_party_in_a_circle_by_Mechislav_Dalkevich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Mechislav Dalkevich / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AIllustration_of_a_Circassian_dance_party_in_a_circle_by_Mechislav_Dalkevich.jpg",
+    "description": "Illustration of a Circassian dance party in a circle by Mechislav Dalkevich"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/The_Circassians_dancing%2C_1812.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/The_Circassians_dancing%2C_1812.jpg/1280px-The_Circassians_dancing%2C_1812.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Yegor Karneyev / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AThe_Circassians_dancing%2C_1812.jpg",
+    "description": "Circassian Dance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Bay_of_Semez_-_John_A._Longworth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Bay_of_Semez_-_John_A._Longworth.jpg/1280px-Bay_of_Semez_-_John_A._Longworth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "John Augustus Longworth / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABay_of_Semez_-_John_A._Longworth.jpg",
+    "description": "Bay of Semez (Tsemez)"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Leather boots and bullet cartridge belts",
+   "Gliding women in flowing dresses",
+   "Circle formations and partner bows",
+   "Hands behind back and precise arm gestures",
+   "Dagger and sword props"
+  ],
+  "costume_notes": "Men wear the cherkes, a black military-style outfit with an imposing coat and bullet cartridges across the chest, often carrying a dagger or sword incorporated into dances. Women wear elegant dresses that emphasize grace and lightness of movement. Performances occur at national festivals, weddings, and cultural celebrations, often on flat indoor or outdoor stages suitable for circle and partner formations.",
+  "setting_notes": "Circassian dances are performed at weddings, social gatherings, national festivals, and ritual occasions. They serve as social communication, courtship, and displays of martial skill and endurance. Some dances have ritual origins honoring deities or marking seasonal events. Dance ability is important for social standing and marriage prospects, with children taught from a young age.",
+  "map": {
+   "country": "Russia (North Caucasus), Turkey, Jordan, Israel",
+   "region": "Central Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "11 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 11,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "side side side side"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Circassian_dance",
+  "https://www.wikidata.org/wiki/Q55607663",
+  "https://en.wikipedia.org/wiki/Circassian_music"
+ ],
+ "claims_verified": 7,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "9c3c01a5499c5fdb59103206c46892763f09d9ccf37c3688d69b10e9e2421950",
+ "hero_checked": null
+}

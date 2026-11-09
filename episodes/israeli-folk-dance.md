@@ -1,8 +1,8 @@
 # Israeli folk dance — episode pack
 
-*Status: draft · built 2026-11-07 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a hero video; licensed images (3 needed); teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A community folk dance leader grounded in the recreational and historical tradition.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Dancing the Pioneers' Dream
 NARRATION: This is Israeli folk dance. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (dU3YgNln8ho)
 ON SCREEN: Title card: Israeli folk dance · Israel · 20th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Dances feature fixed choreographies matched to specific musical piece
 NARRATION: Formations include circles, couples, trios, short lines, and group line formations.
 NARRATION: Movement is highly varied, incorporating the Tza'ad Temani, Horah, and dabke.
 NARRATION: Watch for Tza'ad Temani, Horah.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (dU3YgNln8ho)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: circle, couples, trios, or short lines, as well as group/line formation
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -75,7 +75,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Tza'ad Temani: a three-step sequence in place with a short pause on the final step (quick, quick, slow)
 NARRATION: Horah circle step with arms around flanking dancers' shoulders
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -83,7 +83,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore how Zionist pioneers and choreographers forged a brand-new national culture through circle and line dances.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -98,11 +98,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: arms around the shoulders of those flanking him
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -117,13 +117,11 @@ NARRATION: Drill: Practice the quick-quick-slow weight shift in place
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Join hands in a basic circle formation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -136,15 +134,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the Tza'ad Temani upper-body and weight shifts while seated. · For children: A simplified circle game following simple caller instructions.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the Tza'ad Temani upper-body and weight shifts while seated. · For children: A simplified circle game following simple caller instructions. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -169,11 +166,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: arms around the shoulders of those flanking him
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -186,7 +183,6 @@ NARRATION: Step 2: Horah circle step with arms around flanking dancers' shoulder
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Tza'ad Temani: a three-step sequence executed in place with a short pause on the final step
@@ -194,7 +190,6 @@ NARRATION: Horah: circle dance with arms around shoulders spinning at a fast pac
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -205,15 +200,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the Tza'ad Temani upper-body and weight shifts while seated. · For children: A simplified circle game following simple caller instructions.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the Tza'ad Temani upper-body and weight shifts while seated. · For children: A simplified circle game following simple caller instructions. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: circle, couples, trios, or short lines, as well as group/line formation
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -238,11 +232,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: arms around the shoulders of those flanking him
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -255,7 +249,6 @@ NARRATION: Step 2: Horah circle step with arms around flanking dancers' shoulder
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Tza'ad Temani: a three-step sequence executed in place with a short pause on the final step
@@ -263,7 +256,6 @@ NARRATION: Horah: circle dance with arms around shoulders spinning at a fast pac
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -274,15 +266,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the Tza'ad Temani upper-body and weight shifts while seated. · For children: A simplified circle game following simple caller instructions.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the Tza'ad Temani upper-body and weight shifts while seated. · For children: A simplified circle game following simple caller instructions. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: circle, couples, trios, or short lines, as well as group/line formation
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -311,7 +302,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dances are performed publicly in towns and cities, notably on beachfronts and promenades (tayelets), as well as at kibbutzim, festivals, and communal gatherings.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'dU3YgNln8ho', 'checked_by_vision_model': False, 'title': '5 Iconic Jewish Dances From Around The World'}
 Images: 0 licensed
 Footage: Ensemble ADAR-KRAMIM — https://archive.org/details/EnsembleAdar-kramim_958; Jewish Hora Nirkoda Sixth Grade — https://archive.org/details/jewish-hora-nirkoda-sixth-grade; 5 Iconic Jewish Dances From Around The World — https://archive.org/details/youtube-dU3YgNln8ho
 Motifs: Dancers in a tight circle with arms over shoulders, Kibbutz gatherings and beachfront tayelets, Festival crowds in Galilee
@@ -321,9 +312,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the folk-circle family studied · videos studied: 8
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; tuck your elbows into your sides
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (2): https://en.wikipedia.org/wiki/Israeli_folk_dance; https://www.wikidata.org/wiki/Q2911039

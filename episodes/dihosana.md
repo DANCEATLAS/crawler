@@ -1,8 +1,8 @@
 # Dihosana — episode pack
 
-*Status: withheld-chapters · built 2026-11-05 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed reference footage; the how-it-is-danced section; signature moves; the music & instruments section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed reference footage; the how-it-is-danced section; signature moves; the music & instruments section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A veteran elder from the Makobo community
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Calling of the Rain
 NARRATION: This is Dihosana. Traditional/Historical.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (MD2oGbI_IA0)
 ON SCREEN: Title card: Dihosana · Botswana · Traditional/Historical
 MUSIC: theme (30 s)
 
@@ -30,7 +30,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (MD2oGbI_IA0)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -67,7 +67,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: An exploration of the sacred rain-making rituals of the Kalanga people in Botswana.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -86,7 +86,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'MD2oGbI_IA0', 'checked_by_vision_model': False, 'title': 'CULTURE SPEARS- HOSANA'}
 Images: 7 licensed — Mompati Dikunwane / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Mompati Dikunwane / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Mompati Dikunwane / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Mompati Dikunwane / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Mompati Dikunwane / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Black skirts, Red, black, and white beadwork, The landscape of Ka Mwale hill
@@ -96,9 +96,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorials across the atlas studied · videos studied: 18
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees; change the weight; turn on the heels; keep it small; punch to the side
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (2): https://en.wikipedia.org/wiki/Dihosana; https://www.wikidata.org/wiki/Q41669136

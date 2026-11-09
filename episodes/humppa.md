@@ -1,8 +1,8 @@
 # Humppa — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.1 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.1 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local Finnish dance hall veteran
@@ -76,7 +76,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Step on the first beat (hump)
 NARRATION: Step on the second beat (pa)
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -84,7 +84,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the Finnish social dance that turned a German tuba sound into a national obsession.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -101,11 +101,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, social dance posture
 NARRATION: Closed position or open hand-holds
 NARRATION: Bouncing motion following the bass
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 2/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
 NARRATION: Rhythm pattern: Strong bass on the first beat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -117,17 +117,17 @@ NARRATION: Step 1: Step on the first beat (hump)
 NARRATION: Step 2: Step on the second beat (pa)
 NARRATION: Footwork from the sources: Step on each beat for one-step; slow-slow-quick-quick for Nilkku
 NARRATION: Drill: Step-touch with a bounce
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Maintain a bounce following the bass line
 NARRATION: Drill: Finding the bass beat
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -139,13 +139,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 120 bpm
@@ -172,11 +171,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, social dance posture
 NARRATION: Closed position or open hand-holds
 NARRATION: Bouncing motion following the bass
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 2/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
 NARRATION: Rhythm pattern: Strong bass on the first beat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -186,10 +185,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Step on the first beat (hump)
 NARRATION: Step 2: Step on the second beat (pa)
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Maintain a bounce following the bass line
@@ -197,7 +196,7 @@ NARRATION: Nilkku step: A limping gait based on a slow, slow, quick, quick rhyth
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -208,13 +207,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Progressing in the direction of dance
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 120 bpm
@@ -241,11 +239,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, social dance posture
 NARRATION: Closed position or open hand-holds
 NARRATION: Bouncing motion following the bass
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 2/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
 NARRATION: Rhythm pattern: Strong bass on the first beat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -255,17 +253,17 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Step on the second beat (pa)
 NARRATION: Step 2: Maintain a bounce following the bass line
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Nilkku step: A limping gait based on a slow, slow, quick, quick rhythm.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -276,13 +274,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Progressing in the direction of dance
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 120 bpm
@@ -321,9 +318,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (5): https://en.wikipedia.org/wiki/Humppa; https://www.wikidata.org/wiki/Q1051575; https://es.wikipedia.org/wiki/Humppa; https://fr.wikipedia.org/wiki/Humppa; https://de.wikipedia.org/wiki/Humppa

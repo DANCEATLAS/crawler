@@ -1,8 +1,8 @@
 # Seungmu — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.5 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.5 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A formal, respectful practitioner of Korean traditional dance.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Sleeves of the Universe
 NARRATION: This is Seungmu. 16th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (cutUivfBScc)
 ON SCREEN: Title card: Seungmu · South Korea · 16th century to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance is performed solo.
 NARRATION: It begins with the dancer crouched on the ground, slowly expanding their motion.
 NARRATION: The dancer uses long, white sleeves to create expressive shapes in the air.
 NARRATION: Watch for Sleeve expansion.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (cutUivfBScc)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo performance; utilizes space to represent the four azimuths.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -78,7 +78,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Crouched start on the ground
 NARRATION: Slow expansion of motion
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -86,7 +86,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how a dance once linked to monks became a masterpiece of Korean folk art.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -102,11 +102,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Dignified and graceful, moving between stillness and sharp, dynamic motion.
 NARRATION: Long, white sleeves are used to create expressive shapes, mimicking the galaxy, blooming flowers, and wind.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Eight cycles including yeombul, dodeuri, taryeong, jajin taryeong, gutgeori, dwit gutgeori, gujeong nori, and saesanjo..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -118,10 +118,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Crouched start on the ground
 NARRATION: Step 2: Slow expansion of motion
 NARRATION: Drill: Stillness practice
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Rhythmic sleeve movements
@@ -129,7 +128,6 @@ NARRATION: Step 4: Drum-driven footwork transitions
 NARRATION: Drill: Basic sleeve extension
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -140,15 +138,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Focus on upper body and sleeve movements while seated. · For children: Sleeve-tracing game mimicking nature.
 MUSIC: silence
 OPTIONS: Seated or supported option: Focus on upper body and sleeve movements while seated. · For children: Sleeve-tracing game mimicking nature. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -174,11 +171,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Dignified and graceful, moving between stillness and sharp, dynamic motion.
 NARRATION: Long, white sleeves are used to create expressive shapes, mimicking the galaxy, blooming flowers, and wind.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Eight cycles including yeombul, dodeuri, taryeong, jajin taryeong, gutgeori, dwit gutgeori, gujeong nori, and saesanjo..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -189,10 +186,9 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Crouched start on the ground
 NARRATION: Step 2: Slow expansion of motion
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Rhythmic sleeve movements
@@ -201,7 +197,6 @@ NARRATION: Sleeve expansion: Using long white sleeves to trace shapes like the g
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -212,15 +207,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Focus on upper body and sleeve movements while seated. · For children: Sleeve-tracing game mimicking nature.
 MUSIC: silence
 OPTIONS: Seated or supported option: Focus on upper body and sleeve movements while seated. · For children: Sleeve-tracing game mimicking nature. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo performance; utilizes space to represent the four azimuths.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -246,11 +240,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Dignified and graceful, moving between stillness and sharp, dynamic motion.
 NARRATION: Long, white sleeves are used to create expressive shapes, mimicking the galaxy, blooming flowers, and wind.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Eight cycles including yeombul, dodeuri, taryeong, jajin taryeong, gutgeori, dwit gutgeori, gujeong nori, and saesanjo..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -261,17 +255,15 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Rhythmic sleeve movements
 NARRATION: Step 2: Drum-driven footwork transitions
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Sleeve expansion: Using long white sleeves to trace shapes like the galaxy or blooming flowers.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -282,15 +274,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Focus on upper body and sleeve movements while seated. · For children: Sleeve-tracing game mimicking nature.
 MUSIC: silence
 OPTIONS: Seated or supported option: Focus on upper body and sleeve movements while seated. · For children: Sleeve-tracing game mimicking nature. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo performance; utilizes space to represent the four azimuths.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -317,7 +308,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dancer wears a 'jangsam' (a robe with long, white sleeves) and a 'gokkal' (a white hood). The costume is described as radiant with elegant lines.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'cutUivfBScc', 'checked_by_vision_model': False, 'title': 'SEUNGMU (僧舞, KOREAN BUDDHIST DANCE)'}
 Images: 2 licensed — Richy! / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Lychi / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: White sleeves against a dark background, The bubgo drum, Slow-motion captures of sleeve whirls
@@ -327,9 +318,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (3): https://en.wikipedia.org/wiki/Seungmu; https://www.wikidata.org/wiki/Q625558; https://es.wikipedia.org/wiki/Seungmu

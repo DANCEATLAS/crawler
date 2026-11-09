@@ -1,0 +1,476 @@
+{
+ "slug": "hula-kahiko",
+ "name": "Hula kahiko",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
+ "researched_at": "2026-11-09T20:44:18Z",
+ "qc_score": 10.0,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A respected kumu hula, patient and knowledgeable, emphasizing spiritual respect and precise technique.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Hula kahiko",
+   "Ancient hula",
+   "Traditional hula"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Hula kahiko",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Hula Kahiko: Dance of the Sacred Chant",
+     "This is Hula kahiko. Pre-1894."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (8LkJsw9-ypg)",
+     "Title card: Hula kahiko · USA (Hawaii) · Pre-1894"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Hula kahiko developed in the Hawaiian Islands before Western contact, embodying oral histories through chant and dance.",
+     "It predates 1894 and excludes Western instruments.",
+     "The dance was integral to religious ceremonies and chiefly entertainment, with strict protocols to avoid errors that could bring misfortune."
+    ],
+    "on_screen": [
+     "Map: USA (Hawaii) · Oceania",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Hula kahiko was performed for chiefly entertainment, religious ceremonies, and honoring Hawaiian gods.",
+     "It was a form of fealty and spiritual expression.",
+     "Performances required flawless execution to avoid bad luck.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Sailors and Sirens (https://archive.org/details/SailorsAndSirens)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Hula kahiko is performed standing (luna) or sitting (noho).",
+     "Dancers use complex hand gestures to interpret the mele's words, representing nature and emotions.",
+     "Footwork relies on a core set of steps: kāholo, kaʻo, kāwelu, hela, ʻuwehe, and ʻami.",
+     "Watch for ʻAmi, Kāholo."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (8LkJsw9-ypg)",
+     "Captions name each signature move as it appears",
+     "Formation: Performed solo or in groups; dancers maintain spacing to allow clear hand gesture visibility; spatial path varies by choreography."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music consists of oli (vocal chant) without melodic instruments, using varied vocal styles such as olioli (melodic) and kepakepa (rapid speech).",
+     "Percussion includes the pahu (sacred sharkskin drum), ipu (single gourd drum), ipu heke (double gourd drum), pūniu (small knee drum), ʻiliʻili (lava stone castanets), ʻulīʻulī (feathered gourd rattles), pūʻili (split bamboo sticks), and kālaʻau (rhythm sticks).",
+     "Listen for the pahu (sharkskin drum), ipu (single gourd drum), ipu heke (double gourd drum), pūniu (small knee drum).",
+     "The sound is dominated by deep, resonant pahu drum beats and hollow, rhythmic ipu percussion, punctuated by sharp ʻiliʻili stones and feathered ʻulīʻulī rattles, underpinning the chanting voice that varies from rapid speech to melodic vibrato."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Percussion rhythms align with chant phrasing; pahu drum and ipu gourd provide foundational beats."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Women traditionally wore pāʻū skirts, sometimes very long and topless historically, adorned with lei made from sacred forest materials.",
+     "Men wore malo loincloths and similar adornments.",
+     "Costumes and lei were considered sacred and left as offerings after performances."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The kumu hula (master teacher) is central to teaching hula kahiko, guiding students through ritual and technique.",
+     "The goddess Laka is revered as the spiritual protector of hula dancers.",
+     "Hula kahiko includes various styles such as ʻālaʻapapa, haʻa, and ʻōlapa.",
+     "Hula kahiko is the ancestor of modern hula ʻauana, which incorporates Western instruments and influences."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Hula kahiko is child of Hula ʻauana: Modern evolution of hula incorporating Western instruments and melodic songs.",
+     "Hula kahiko is variant of Ai Kahiko: 20th and 21st-century hula composed in the ancient kahiko style."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Hula kahiko is performed to oli (chant) which carries mana (spiritual power). The kumu hula (teacher) and students observe strict protocols including ritual permission chants and seclusion during learning to honor the dance's sacred nature."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the ancient Hawaiian dance that weaves chant, percussion, and gesture into a living history.",
+     "Sources: 5 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Percussion rhythms align with chant phrasing; pahu drum and ipu gourd provide foundational beats.",
+  "instruments": [
+   "pahu (sharkskin drum)",
+   "ipu (single gourd drum)",
+   "ipu heke (double gourd drum)",
+   "pūniu (small knee drum)",
+   "ʻiliʻili (lava stone castanets)",
+   "ʻulīʻulī (feathered gourd rattles)",
+   "pūʻili (split bamboo sticks)",
+   "kālaʻau (rhythm sticks)"
+  ],
+  "vocal_style": "Oli chant styles including olioli (melodic), kepakepa (rapid speech), kawele (sustained syllables), ho'āeae (sustained pitches), ho'ouweuwe (laments).",
+  "musical_form": "Chant-driven with strophic mele repeated with rhythmic interludes.",
+  "mood": [
+   "solemn",
+   "reverent",
+   "narrative",
+   "spiritual"
+  ],
+  "sound_description": "The sound is dominated by deep, resonant pahu drum beats and hollow, rhythmic ipu percussion, punctuated by sharp ʻiliʻili stones and feathered ʻulīʻulī rattles, underpinning the chanting voice that varies from rapid speech to melodic vibrato.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Hula kahiko (USA (Hawaii)). Rhythm pattern: Percussion rhythms align with chant phrasing; pahu drum and ipu gourd provide foundational beats.. Instruments: pahu (sharkskin drum), ipu (single gourd drum), ipu heke (double gourd drum), pūniu (small knee drum), ʻiliʻili (lava stone castanets), ʻulīʻulī (feathered gourd rattles), pūʻili (split bamboo sticks), kālaʻau (rhythm sticks). Vocal style: Oli chant styles including olioli (melodic), kepakepa (rapid speech), kawele (sustained syllables), ho'āeae (sustained pitches), ho'ouweuwe (laments).. Form: Chant-driven with strophic mele repeated with rhythmic interludes.. Mood: solemn, reverent, narrative, spiritual. It should sound like this: The sound is dominated by deep, resonant pahu drum beats and hollow, rhythmic ipu percussion, punctuated by sharp ʻiliʻili stones and feathered ʻulīʻulī rattles, underpinning the chanting voice that varies from rapid speech to melodic vibrato. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "8LkJsw9-ypg",
+   "checked_by_vision_model": false,
+   "title": "2013 Merrie Monarch Winners- Hula Kahiko (Kāne Division)"
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Women traditionally wore pāʻū skirts, sometimes very long and topless historically, adorned with lei made from sacred forest materials. Men wore malo loincloths and similar adornments. Costumes and lei were considered sacred and left as offerings after performances. Performances took place in hālau (schools) or during ceremonies honoring chiefs or gods, often with ritual seriousness.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AKealii_Reichel_Hula_Halau_2005_01.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AHula_Kahiko_Hawaii_Volcanoes_National_Park_01.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AHula_Kahiko_Hawaii_Volcanoes_National_Park_02.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kealii_Reichel_Hula_Halau_2005_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kealii_Reichel_Hula_Halau_2005_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Charles Haynes / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKealii_Reichel_Hula_Halau_2005_01.jpg",
+    "description": "Keali'i Reichel and Hula Halau. Ninth Annual Kukahi Concert, February 12, 2005. Maui Arts &amp; Cultural Center"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Hula_Kahiko_Hawaii_Volcanoes_National_Park_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Hula_Kahiko_Hawaii_Volcanoes_National_Park_01.jpg/1280px-Hula_Kahiko_Hawaii_Volcanoes_National_Park_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ron Ardis / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHula_Kahiko_Hawaii_Volcanoes_National_Park_01.jpg",
+    "description": "Havaijilaista hula-kulttuuria."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Hula_Kahiko_Hawaii_Volcanoes_National_Park_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Hula_Kahiko_Hawaii_Volcanoes_National_Park_02.jpg/1280px-Hula_Kahiko_Hawaii_Volcanoes_National_Park_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ron Ardis / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHula_Kahiko_Hawaii_Volcanoes_National_Park_02.jpg",
+    "description": "Hula kahiko performance at the pa hula in Hawaii Volcanoes National Park"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Hula0081110.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/01/Hula0081110.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "This file was created by Thomas Tunsch. It is not in the public domain and use of this file outside of the licensing terms is a copyright violation.\nPlease credit authorship as follows:\n © CC BY-SA Thomas Tunsch / Hula0081110.jpg (Wikimedia Commons).\nSource attribution by linking to this file page (//commons.wikimedia.org/wiki/File:Hula0081110.jpg) is recommended.\n\nThe application Lizenzhinweisgenerator can help to reuse pictures from Wikipedia and the free media file repository easily and legally. / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHula0081110.jpg",
+    "description": "Tänzer mit ʻuliʻuli beim Hula kahiko, Merrie Monarch Festival 2003, Hilo, Hawaiʻi, USA; Pentax Z 20, Tamron Zoom AF/MF 3,8-5,6/28-200 mm aspherical"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Hula0080200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Hula0080200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "This file was created by Thomas Tunsch. It is not in the public domain and use of this file outside of the licensing terms is a copyright violation.\nPlease credit authorship as follows:\n © CC BY-SA Thomas Tunsch / Hula0080200.jpg (Wikimedia Commons).\nSource attribution by linking to this file page (//commons.wikimedia.org/wiki/File:Hula0080200.jpg) is recommended.\n\nThe application Lizenzhinweisgenerator can help to reuse pictures from Wikipedia and the free media file repository easily and legally. / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHula0080200.jpg",
+    "description": "Tänzerin beim Hula ʻauana im Wettbewerb \"Miss Aloha Hula\", Merrie Monarch Festival 2003, Hilo, Hawaiʻi, USA; Pentax Z 20, Tamron Zoom AF/MF 3,8-5,6/28-200 mm aspherical"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Old_Lahaina_Luau_2009-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Old_Lahaina_Luau_2009-07.jpg/1280px-Old_Lahaina_Luau_2009-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Luke H. Gordon from Greenwood Lake, NY, USA / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOld_Lahaina_Luau_2009-07.jpg",
+    "description": "Dancers At the Old Lahaina Luau"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Hula_dancers%2C_photograph_by_J._J._Williams_%28PPWD-6-4.027%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Hula_dancers%2C_photograph_by_J._J._Williams_%28PPWD-6-4.027%29.jpg/1280px-Hula_dancers%2C_photograph_by_J._J._Williams_%28PPWD-6-4.027%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "J. J. Williams / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHula_dancers%2C_photograph_by_J._J._Williams_%28PPWD-6-4.027%29.jpg",
+    "description": "Hawaiian hula dancers photographed in J. J. Williams' photo studio."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Hula_Ad_on_the_U.S._Mainland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Hula_Ad_on_the_U.S._Mainland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "The Democratic Banner (newspaper), November 08, 1921 / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHula_Ad_on_the_U.S._Mainland.jpg",
+    "description": "What do people outside of Hawaii usually think about the Aloha State? Haunted tikis? The gorgeous, sunny beaches with sparkly water? Coconut trees? Pineapples? People drinking maitais at a tiki bar? Or sensual hula dancers in coconut bras and grass skirts?\nHula has been commercialized for entertainment and to promote tourism in Hawaii. In the 1800s and 1900s, the Hula 'Auana, the westernized hula,"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Sailors and Sirens",
+    "url": "https://archive.org/details/SailorsAndSirens",
+    "year": 1937,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "SAILORS AND SIRENS 1930s PEARL HARBOR HAWAII 20274a",
+    "url": "https://archive.org/details/20274aCineArtSailorsAndSirens",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "1930S HONOLULU HAWAII TRIP HOME MOVIES COCONUT GROVE & HULA DANCE BY LYDIA DUSSON (REEL 11) 5944",
+    "url": "https://archive.org/details/BLvGzRyirdPkIG8Ui4CpRRMWmf7OCF",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Native Hawaiian Hula Dancing at the 2023 Smithsonian Folklife Festival",
+    "url": "https://archive.org/details/mctvafmd-Native_Hawaiian_Hula_Dancing_at_the_2023_Smithsonian_Folklife_Festival",
+    "year": 2023,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "1930S HONOLULU HAWAII TRIP HOME MOVIES COCONUT GROVE & HULA DANCE BY LYDIA DUSSON (REEL 11) 5944",
+    "url": "https://archive.org/details/mGdl2EeP6Nh7hDtsaA1wyEcPo3MRcA",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Sacred pahu drum",
+   "Lei offerings",
+   "Goddess Laka imagery",
+   "Traditional pāʻū skirts",
+   "Hālau entrance chant"
+  ],
+  "costume_notes": "Women traditionally wore pāʻū skirts, sometimes very long and topless historically, adorned with lei made from sacred forest materials. Men wore malo loincloths and similar adornments. Costumes and lei were considered sacred and left as offerings after performances. Performances took place in hālau (schools) or during ceremonies honoring chiefs or gods, often with ritual seriousness.",
+  "setting_notes": "Hula kahiko was performed for chiefly entertainment, religious ceremonies, and honoring Hawaiian gods. It was a form of fealty and spiritual expression. Performances required flawless execution to avoid bad luck. Learning dancers were secluded and protected by rituals. Today, it is performed at cultural festivals and hālau, preserving Hawaiian history and spirituality.",
+  "map": {
+   "country": "USA (Hawaii)",
+   "region": "Oceania",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "11 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 11,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "side side side side"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "the hero video's vision check"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hula",
+  "https://www.wikidata.org/wiki/Q866636",
+  "https://es.wikipedia.org/wiki/Hula_(danza)",
+  "https://fr.wikipedia.org/wiki/Hula",
+  "https://pt.wikipedia.org/wiki/Hula"
+ ],
+ "claims_verified": 10,
+ "claims": 10,
+ "polished": false,
+ "input_fingerprint": "b616431d56ff8babe2caa244e52b154834bf991deef7cd1bf05196e0abe56815",
+ "hero_checked": null
+}

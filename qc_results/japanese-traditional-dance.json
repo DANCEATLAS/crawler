@@ -1,0 +1,120 @@
+{
+ "slug": "japanese-traditional-dance",
+ "qc_at": "2026-11-09T21:24:07Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 9.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Japanese traditional dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "88"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "181"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the 17th century, the term 'kabuki' described those who swaggered on the stre"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "428"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1946"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Japan"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['deities', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is excellent, though technically 'Japanese traditional dance' is a category rather than a single dance style. The content is highly accurate, respectful of the sacred nature of these traditions, and provides clear, actionable insights for a beginner."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.1",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-09T20:11:03Z"
+}

@@ -1,8 +1,8 @@
 # Inai — episode pack
 
-*Status: withheld-chapters · built 2026-11-04 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; the costume & setting section; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; the costume & setting section; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Malay court dance expert with knowledge of royal traditions and ceremonial context
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Inai: The Royal Dance of Malay Circumcision Ceremonies
 NARRATION: This is Inai. Traditional, ongoing.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (WTtMqS4BCvE)
 ON SCREEN: Title card: Inai · Malaysia · Traditional, ongoing
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Bending.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (WTtMqS4BCvE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Performed in pairs or circular groups depending on variant
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -79,7 +79,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the rare Inai dance, a Malay court tradition performed during royal circumcisions, blending martial arts and acrobatics.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -98,7 +98,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'WTtMqS4BCvE', 'checked_by_vision_model': False, 'title': '【Raya Dance】Jong Jong Inai'}
 Images: 0 licensed
 Footage: File:Rio 2012- os Bens Comuns, nosso direito ao futuro. Inai ê Fulni ô.webm — https://upload.wikimedia.org/wikipedia/commons/c/c0/Rio_2012-_os_Bens_Comuns%2C_nosso_direito_ao_futuro._Inai_%C3%AA_Fulni_%C3%B4.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Intricate hand gestures close-up, Slow circular footwork, Bending posture silhouette, Traditional palace interiors, Henna leaf picking in garden
@@ -108,9 +108,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of the classical-court family studied · videos studied: 1
-Counting: 2 counts off, 2 counts on
-Demonstration: views used by most teachers: front, side; tempo progression: slow
-Cues: hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Source: 3 tutorial(s) of the classical-court family studied · videos studied: 3
+Counting: 
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; hold your placement; stay straight as a board; lift up in your lower abs; change feet
 
 Sources (2): https://en.wikipedia.org/wiki/Inai_(dance); https://www.wikidata.org/wiki/Q7447155

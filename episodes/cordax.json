@@ -1,11 +1,12 @@
 {
  "slug": "cordax",
  "name": "cordax",
- "pack_version": "e1",
- "built_at": "2026-11-03T03:27:49Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-10-30T17:10:39Z",
  "qc_score": 9.55,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -197,7 +198,7 @@
     "duration_s": 25,
     "narration": [
      "Explore the provocative and censored cordax, the ancient Greek comedy dance that scandalized philosophers and delighted banquet revelers.",
-     "Sources: 5 references, every claim checked against its source."
+     "Sources: 5 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -209,7 +210,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": "trochaic",
   "rhythm_pattern": null,
@@ -303,30 +306,27 @@
   ]
  },
  "teaching_formula": {
-  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
-  "videos_studied": 0,
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
   "counting": "count the trochaic bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "front view, then back view (student's perspective)",
-   "slow, then half tempo, then full tempo",
-   "three repetitions of every step before moving on"
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
   ],
   "cues": [
-   "say the count before the move",
-   "name the body part, then the direction",
-   "one correction at a time"
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
   ],
   "common_mistakes": [],
   "segment_order": [
-   "welcome",
-   "body",
-   "count",
-   "step",
-   "step",
-   "combine",
-   "mistakes",
-   "music",
-   "recap"
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice"
   ],
   "steps_as_taught": []
  },
@@ -347,5 +347,6 @@
  "claims_verified": 11,
  "claims": 11,
  "polished": false,
+ "input_fingerprint": "5f7e556c636df9102116954e4ea85ed47f63433b5da55ea896d68ee96f704ca3",
  "hero_checked": null
 }

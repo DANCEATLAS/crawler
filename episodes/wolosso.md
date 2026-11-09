@@ -1,8 +1,8 @@
 # Wolosso — episode pack
 
-*Status: draft · built 2026-11-07 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): instruments; a verified recording to listen to; a hero video; licensed images (3 needed); notable figures; two or more connections
+**Gaps** (handed to the research queue): instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic West African street dancer focusing on grounded rhythmic timing and anatomical safety during pelvic isolations.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Beat That Shook the Street
 NARRATION: This is Wolosso. 2006.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (pR9RHZGLat0)
 ON SCREEN: Title card: Wolosso · Ivory Coast · 2006
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance is performed through isolated circular hip movements.
 NARRATION: Female dancers periodically lower the upper body, placing heavy emphasis on the buttocks.
 NARRATION: The movement operates over an offbeat-accented 4/4 meter, at moderate to fast musical pacing between 40 and 70 bpm.
 NARRATION: Watch for Isolated hip roll, Torso drop accent.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (pR9RHZGLat0)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Social dance floor or urban space
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -75,7 +75,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand with knees softly bent to prepare for pelvic isolation
 NARRATION: Engage an offbeat rhythm in 4/4 meter
-NARRATION: Count it: 1-2-3-4-5-6.
+NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -83,7 +83,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Born in 2006 Abidjan, Wolosso turned traditional hip isolations into a regional dance explosion and a lightning rod for cultural debate.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -99,11 +99,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright stance shifting into a forward-hinged, lowered torso
 NARRATION: Isolated circular hip rotations coupled with lowering of the torso to emphasize the buttocks
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Offbeat-accented 4/4 meter overlaid with polyrhythmic counters.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -114,10 +114,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Stand with knees softly bent to prepare for pelvic isolation
 NARRATION: Step 2: Engage an offbeat rhythm in 4/4 meter
 NARRATION: Drill: Count the 4/4 pulse highlighting the offbeats at 55 bpm
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Execute continuous, isolated circular movements of the hips
@@ -125,7 +125,7 @@ NARRATION: Step 4: Lower the torso forward while maintaining the rolling hip cir
 NARRATION: Drill: Knee softening and weight transfer drill without pelvic rotation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -138,11 +138,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid uncontrolled lower back arching during the torso lowering
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 55 bpm
@@ -168,11 +168,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright stance shifting into a forward-hinged, lowered torso
 NARRATION: Isolated circular hip rotations coupled with lowering of the torso to emphasize the buttocks
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Offbeat-accented 4/4 meter overlaid with polyrhythmic counters.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -182,10 +182,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Return the torso upright while keeping the circular pelvic rhythm uninterrupted
 NARRATION: Drill: Four-point pelvic compass isolation (front, right, back, left)
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Isolated hip roll: Continuous, isolated circular rotations of the pelvis
@@ -194,7 +194,7 @@ NARRATION: Drill: Smoothing the four points into a continuous rolling circle
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -207,11 +207,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid uncontrolled lower back arching during the torso lowering
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Social dance floor or urban space
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 55 bpm
@@ -236,11 +236,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright stance shifting into a forward-hinged, lowered torso
 NARRATION: Isolated circular hip rotations coupled with lowering of the torso to emphasize the buttocks
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Offbeat-accented 4/4 meter overlaid with polyrhythmic counters.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -251,10 +251,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Lower the torso forward while maintaining the rolling hip circles to emphasize the buttocks
 NARRATION: Step 2: Return the torso upright while keeping the circular pelvic rhythm uninterrupted
 NARRATION: Drill: Hinging the upper body forward 45 degrees with a neutral spine
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Isolated hip roll: Continuous, isolated circular rotations of the pelvis
@@ -263,7 +263,7 @@ NARRATION: Drill: Initiating the hip roll from the hinged torso position
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -276,11 +276,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid uncontrolled lower back arching during the torso lowering
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Social dance floor or urban space
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 55 bpm
@@ -307,7 +307,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'pR9RHZGLat0', 'checked_by_vision_model': False, 'title': 'Dollar R DJ Wolosso Clip Officiel'}
 Images: 0 licensed
 Footage: AFRICA DANCE 5 (2005) – 24 CLIPS | Compilation Africaine – DVD COMPLET — https://archive.org/details/africa-dance-5-complet
 Motifs: Close-up of rolling pelvic isolations against street backdrop, Offbeat bass pulse visualization, Contrasting modern urban club dance with rural folk origins
@@ -317,9 +317,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 5 tutorial(s) of the street-urban family studied · videos studied: 5
-Counting: 1-2-3-4-5-6
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 2
-Cues: punch to the side; pull your head down; pivot them on your elbows; up and down; sit in your hip; flex your muscles; lift your foot; then kick your leg; stay smooth; get a feeling for it; then get faster; make sure you really bend those knees
+Source: 9 tutorial(s) of the street-urban family studied · videos studied: 9
+Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; punch to the side; pull your head down; pivot them on your elbows; swing stop; lean forward; arm up; elbow up; up and down
 
 Sources (2): https://www.wikidata.org/wiki/Q2592787; https://de.wikipedia.org/wiki/Wolosso

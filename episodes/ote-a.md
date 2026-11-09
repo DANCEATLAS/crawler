@@ -1,6 +1,6 @@
 # Ōte'a — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; what to avoid / common mistakes
 
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. fa'arapu (hip-shaking for women)
 NARRATION: pa'oti (scissor-like leg movement for men)
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -87,7 +87,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the high-energy, drum-driven dance of Tahiti that transformed from a war ritual into a global symbol of Polynesian culture.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -104,12 +104,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, with knees slightly bent
 NARRATION: Gestural movements that are abstract but thematic
 NARRATION: Rapid hip-shaking (fa'arapu) for women
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Fast, percussive, synchronized with hip movements.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -122,10 +121,9 @@ NARRATION: Step 1: fa'arapu (hip-shaking for women)
 NARRATION: Step 2: pa'oti (scissor-like leg movement for men)
 NARRATION: Footwork from the sources: Scissor-like leg movements (pa'oti) for men
 NARRATION: Drill: Maintain upright posture
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: varu (hip movement)
@@ -133,7 +131,6 @@ NARRATION: Step 4: ami (hip movement)
 NARRATION: Drill: Basic knee-shaking rhythm
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -144,15 +141,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform hip and arm movements while seated in a sturdy chair. · For children: Focus on mimicking nature-themed gestures like butterflies.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip and arm movements while seated in a sturdy chair. · For children: Focus on mimicking nature-themed gestures like butterflies. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -179,12 +175,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, with knees slightly bent
 NARRATION: Gestural movements that are abstract but thematic
 NARRATION: Rapid hip-shaking (fa'arapu) for women
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Fast, percussive, synchronized with hip movements.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -195,10 +190,9 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: otamu (hip movement)
 NARRATION: Drill: Practice fa'arapu
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: fa'arapu: Rapid hip-shaking motion performed by women.
@@ -207,7 +201,6 @@ NARRATION: Drill: Practice pa'oti
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -218,15 +211,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform hip and arm movements while seated in a sturdy chair. · For children: Focus on mimicking nature-themed gestures like butterflies.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip and arm movements while seated in a sturdy chair. · For children: Focus on mimicking nature-themed gestures like butterflies. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancers in several rows
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -252,12 +244,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, with knees slightly bent
 NARRATION: Gestural movements that are abstract but thematic
 NARRATION: Rapid hip-shaking (fa'arapu) for women
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Fast, percussive, synchronized with hip movements.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -269,10 +260,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: ami (hip movement)
 NARRATION: Step 2: otamu (hip movement)
 NARRATION: Drill: Row-based synchronization
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: fa'arapu: Rapid hip-shaking motion performed by women.
@@ -281,7 +271,6 @@ NARRATION: Drill: Integrating narrative hand gestures
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -292,15 +281,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform hip and arm movements while seated in a sturdy chair. · For children: Focus on mimicking nature-themed gestures like butterflies.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip and arm movements while seated in a sturdy chair. · For children: Focus on mimicking nature-themed gestures like butterflies. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancers in several rows
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -337,9 +325,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 7 tutorials across the atlas studied · videos studied: 7
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full
-Cues: and one and three and five and seven; keep your feet together; relax your knees; punch to the side; pull your head down; pivot them on your elbows; and out and out and in and in; double double; and cross and cross; right slap left slap; side replace close; rock replace side
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (3): https://en.wikipedia.org/wiki/%27ote%27a; https://www.wikidata.org/wiki/Q3357584; https://fr.wikipedia.org/wiki/Otea

@@ -1,8 +1,8 @@
 # Khiamniungan folk dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-08 · judge 8.7 · 8/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 8.7 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; the music & instruments section; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; the music & instruments section; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A community elder or cultural practitioner from the Khiamniungan tribe.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Warriors of the Morung
 NARRATION: This is Khiamniungan folk dance. Contemporary.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (2L62Xv-9gRU)
 ON SCREEN: Title card: Khiamniungan folk dance · India · Contemporary
 MUSIC: theme (30 s)
 
@@ -31,7 +31,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Kheulak jump, Shapautaithiu backward movement.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (2L62Xv-9gRU)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced
@@ -70,7 +70,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the Tsuikuap, the traditional dances of the Khiamniungan Naga tribe that bridge the gap between harvest celebration and the intensity of war.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -89,7 +89,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '2L62Xv-9gRU', 'checked_by_vision_model': False, 'title': 'Khiamniungan folk dance at wui village (hua sanso)   NNC'}
 Images: 0 licensed
 Footage: File:Patsho Khiamniungan folk dance (Ahang).webm — https://upload.wikimedia.org/wikipedia/commons/3/3a/Patsho_Khiamniungan_folk_dance_%28Ahang%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: The Morung architecture, Traditional Ahangküha textiles, The Dao sword, Mountain landscapes of Nagaland
@@ -100,7 +100,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
-Counting: 1-2-3-4-5
+Counting: 
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 

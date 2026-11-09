@@ -1,8 +1,8 @@
 # Passamezzo — episode pack
 
-*Status: draft · built 2026-11-04 · judge 9.85 · 12/13 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.85 · 12/13 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); the how-it-is-danced section; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A historically informed dance specialist with expertise in Renaissance court dances and music
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Passamezzo: The Renaissance Dance of Steps and Chords
 NARRATION: This is Passamezzo. 16th to early 17th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (A7AzGhMV1T8)
 ON SCREEN: Title card: Passamezzo · Italy · 16th to early 17th century
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Step and a Half.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (A7AzGhMV1T8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Couples in procession or courtly line, moving forward or in place
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Begin with a measured walking step in binary rhythm
 NARRATION: Maintain upright posture with steady, graceful movement
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -87,7 +87,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the Italian passamezzo, a 16th-century dance defined by its iconic chord progressions and graceful binary rhythm.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -102,11 +102,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, poised, steady
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 2/2 or 4/4 (binary rhythm).
+NARRATION: Count: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars. The meter is 2/2 or 4/4 (binary rhythm).
 NARRATION: Rhythm pattern: Ostinato chord progression repeated continuously.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -122,7 +122,7 @@ NARRATION: Drill: Walking steps in 2/2 rhythm
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Repeat step sequences in place or progressing forward
@@ -130,7 +130,7 @@ NARRATION: Step 4: Incorporate variations resembling pavane steps and galliard m
 NARRATION: Drill: Counting and clapping the passamezzo chord progression
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -143,11 +143,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: No jumps or fast movements; maintain measured pace and grace
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -172,11 +172,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, poised, steady
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 2/2 or 4/4 (binary rhythm).
+NARRATION: Count: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars. The meter is 2/2 or 4/4 (binary rhythm).
 NARRATION: Rhythm pattern: Ostinato chord progression repeated continuously.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -190,7 +190,7 @@ NARRATION: Drill: Step and a half figure practice
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step and a Half: A possible figure involving a step plus a half-step, origin of the dance’s name
@@ -198,7 +198,7 @@ NARRATION: Drill: Couple procession formation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -211,11 +211,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: No jumps or fast movements; maintain measured pace and grace
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples in procession or courtly line, moving forward or in place
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -240,11 +240,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, poised, steady
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 2/2 or 4/4 (binary rhythm).
+NARRATION: Count: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars. The meter is 2/2 or 4/4 (binary rhythm).
 NARRATION: Rhythm pattern: Ostinato chord progression repeated continuously.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -259,7 +259,7 @@ NARRATION: Drill: Syncing steps with chord progression repeats
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step and a Half: A possible figure involving a step plus a half-step, origin of the dance’s name
@@ -267,7 +267,7 @@ NARRATION: Drill: Incorporating galliard-like movements
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -280,11 +280,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: No jumps or fast movements; maintain measured pace and grace
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples in procession or courtly line, moving forward or in place
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -313,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'A7AzGhMV1T8', 'checked_by_vision_model': False, 'title': 'Passamezzo'}
 Images: 0 licensed
 Footage: Jordi Savall, La Capella Reial De Catalunya & Hespèrion XXI： Chancons, Villancico's & Danza's From The Neapolitan Renaissance Under Aragón (Songs From Cancionero De Montecassino) — https://archive.org/details/jordi-savall-la-capella-reial-de-catalunya-hesperion-xxi-chancons-villancicos-da
 Motifs: Renaissance court costumes, Lute and keyboard instruments, Manuscript pages with dance notation, Couples in procession, Chalk or wooden floor of a palace hall
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the folk-circle family studied · videos studied: 3
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (5): https://en.wikipedia.org/wiki/Passamezzo; https://www.wikidata.org/wiki/Q1294481; https://es.wikipedia.org/wiki/Passamezzo; https://fr.wikipedia.org/wiki/Passamezzo; https://de.wikipedia.org/wiki/Passamezzo

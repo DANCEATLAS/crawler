@@ -1,6 +1,6 @@
 # Azerbaijani folk dance — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.5 · 5/5 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-09 · judge 9.5 · 5/5 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed reference footage; two or more connections; what to avoid / common mistakes
 
@@ -77,7 +77,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Hold hands or shoulders in a circle for Yally formation.
 NARRATION: Execute synchronous rhythmic steps moving up and down.
-NARRATION: Count it: 1-2-3-4-5-6, or quick-quick-slow across the bar.
+NARRATION: Count it: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -85,7 +85,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the vibrant folk dances of Azerbaijan, from prehistoric rock carvings to energetic village circle dances.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -102,12 +102,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Proud head, upright posture.
 NARRATION: Intricate hand movements, complex spins, and synchronized up-and-down arm movements in circle dances.
 NARRATION: Upper body, shoulders, and facial expressions emphasize emotion in women's dances.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6, or quick-quick-slow across the bar. The meter is 6/8 and 3/4.
+NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 and 3/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -119,10 +118,10 @@ NARRATION: Step 1: Hold hands or shoulders in a circle for Yally formation.
 NARRATION: Step 2: Execute synchronous rhythmic steps moving up and down.
 NARRATION: Footwork from the sources: Women's leg movements are smooth, determined by skirt length; men's footwork includes rising on toes and quick knee drops.
 NARRATION: Drill: Hand-in-hand circle holding.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6, or quick-quick-slow across the bar · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Perform graceful hand and upper-body movements for women's dances.
@@ -130,7 +129,7 @@ NARRATION: Step 4: Execute athletic footwork featuring toe rises and quick knee 
 NARRATION: Drill: Synchronous up-and-down stepping.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6, or quick-quick-slow across the bar · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -142,13 +141,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6, or quick-quick-slow across the bar.
+NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -175,12 +173,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Proud head, upright posture.
 NARRATION: Intricate hand movements, complex spins, and synchronized up-and-down arm movements in circle dances.
 NARRATION: Upper body, shoulders, and facial expressions emphasize emotion in women's dances.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6, or quick-quick-slow across the bar. The meter is 6/8 and 3/4.
+NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 and 3/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -190,10 +187,10 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Hold hands or shoulders in a circle for Yally formation.
 NARRATION: Step 2: Execute synchronous rhythmic steps moving up and down.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6, or quick-quick-slow across the bar · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Perform graceful hand and upper-body movements for women's dances.
@@ -202,7 +199,7 @@ NARRATION: Yally circle movement: Dancers hold hands or shoulders in a circle, p
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6, or quick-quick-slow across the bar · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -213,13 +210,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6, or quick-quick-slow across the bar.
+NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circles, triangles, and lines; dancers holding hands or shoulders
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -246,12 +242,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Proud head, upright posture.
 NARRATION: Intricate hand movements, complex spins, and synchronized up-and-down arm movements in circle dances.
 NARRATION: Upper body, shoulders, and facial expressions emphasize emotion in women's dances.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6, or quick-quick-slow across the bar. The meter is 6/8 and 3/4.
+NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 and 3/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -261,17 +256,17 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Perform graceful hand and upper-body movements for women's dances.
 NARRATION: Step 2: Execute athletic footwork featuring toe rises and quick knee drops for men's dances.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6, or quick-quick-slow across the bar · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Yally circle movement: Dancers hold hands or shoulders in a circle, performing synchronous rhythmic movements up and down.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6, or quick-quick-slow across the bar · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -282,13 +277,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6, or quick-quick-slow across the bar.
+NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circles, triangles, and lines; dancers holding hands or shoulders
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -325,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: 1-2-3-4-5-6, or quick-quick-slow across the bar
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (5): https://en.wikipedia.org/wiki/Azerbaijani_dances; https://www.wikidata.org/wiki/Q724234; https://es.wikipedia.org/wiki/Bailes_nacionales_de_Azerbaiyán; https://fr.wikipedia.org/wiki/Danses_azerbaïdjanaises; https://de.wikipedia.org/wiki/Aserbaidschanische_Volkstänze

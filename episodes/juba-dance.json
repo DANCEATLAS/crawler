@@ -1,11 +1,12 @@
 {
  "slug": "juba-dance",
  "name": "Juba dance",
- "pack_version": "e1",
- "built_at": "2026-11-03T03:27:49Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-10-30T17:12:27Z",
  "qc_score": 9.85,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -197,7 +198,7 @@
     "duration_s": 25,
     "narration": [
      "Discover how enslaved people in the American South turned their own bodies into instruments to preserve a sacred Kongo rhythm.",
-     "Sources: 4 references, every claim checked against its source."
+     "Sources: 4 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -209,7 +210,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": null,
@@ -312,30 +315,37 @@
   ]
  },
  "teaching_formula": {
-  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
-  "videos_studied": 0,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "source": "5 tutorial(s) of the african-diaspora family studied",
+  "videos_studied": 5,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "front view, then back view (student's perspective)",
-   "slow, then half tempo, then full tempo",
-   "three repetitions of every step before moving on"
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
-   "say the count before the move",
-   "name the body part, then the direction",
-   "one correction at a time"
+   "shift",
+   "slow",
+   "quick quick slow",
+   "rock step",
+   "left foot",
+   "right foot",
+   "step",
+   "touch",
+   "stomp off",
+   "push",
+   "make sure that you are wearing comfortable shoes",
+   "stand properly"
   ],
   "common_mistakes": [],
   "segment_order": [
-   "welcome",
-   "body",
-   "count",
-   "step",
-   "step",
-   "combine",
-   "mistakes",
-   "music",
-   "recap"
+   "intro",
+   "context",
+   "full_demo",
+   "breakdown",
+   "music_practice",
+   "layering"
   ],
   "steps_as_taught": []
  },
@@ -355,5 +365,6 @@
  "claims_verified": 5,
  "claims": 5,
  "polished": false,
+ "input_fingerprint": "77040851685a2ba1e5c17e7ab36346ee1eebc702a627dec2de0e4aa70c38e04d",
  "hero_checked": null
 }

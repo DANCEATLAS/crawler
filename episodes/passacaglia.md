@@ -1,6 +1,6 @@
 # passacaglia — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.85 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.85 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed); licensed reference footage
 
@@ -87,7 +87,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how a humble 17th-century Spanish street interlude evolved into Europe's most rigorous baroque variation and South America's most beloved civic march.
-NARRATION: Sources: 6 references, every claim checked against its source.
+NARRATION: Sources: 6 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -103,8 +103,7 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Gravitational and upright in European court styles; relaxed and upright for marching in South American street traditions.
 NARRATION: Linked hands forming human chains in street processions (kalejira); unrecorded or stylized in court settings.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -120,7 +119,7 @@ NARRATION: Step 1: Walk or march in time with the underlying bass ostinato or st
 NARRATION: Step 2: Form human chains with other participants in street settings (as in the Basque kalejira).
 NARRATION: Footwork from the sources: Walking, marching, or stepping in time with the recurring bass or percussion pulse.
 NARRATION: Drill: Listen to a 4-bar ground bass loop.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -143,7 +142,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Do not treat the historical European form and the Andean popular form as identical choreographically; respect the specific regional context.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -173,8 +172,7 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Gravitational and upright in European court styles; relaxed and upright for marching in South American street traditions.
 NARRATION: Linked hands forming human chains in street processions (kalejira); unrecorded or stylized in court settings.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -189,7 +187,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Walk or march in time with the underlying bass ostinato or street band rhythm.
 NARRATION: Step 2: Form human chains with other participants in street settings (as in the Basque kalejira).
 NARRATION: Drill: Compare a Baroque organ passacaglia with an Andean brass pasacalle.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -213,7 +211,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Do not treat the historical European form and the Andean popular form as identical choreographically; respect the specific regional context.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -243,8 +241,7 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Gravitational and upright in European court styles; relaxed and upright for marching in South American street traditions.
 NARRATION: Linked hands forming human chains in street processions (kalejira); unrecorded or stylized in court settings.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -259,7 +256,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Form human chains with other participants in street settings (as in the Basque kalejira).
 NARRATION: Step 2: Execute periodic stops during street processions to engage in secondary folk dances like the fandango.
 NARRATION: Drill: Identify structural variations in Bach and Brahms.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -282,7 +279,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Do not treat the historical European form and the Andean popular form as identical choreographically; respect the specific regional context.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -325,9 +322,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 3 tutorial(s) of the classical-court family studied · videos studied: 3
 Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; hold your placement; stay straight as a board; lift up in your lower abs; change feet
 
 Sources (6): https://en.wikipedia.org/wiki/Passacaglia; https://www.wikidata.org/wiki/Q752329; https://es.wikipedia.org/wiki/Pasacalle; https://fr.wikipedia.org/wiki/Passacaille; https://de.wikipedia.org/wiki/Passacaglia; https://archive.org/details/31761034841437

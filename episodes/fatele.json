@@ -1,11 +1,12 @@
 {
  "slug": "fatele",
  "name": "Fatele",
- "pack_version": "e1",
- "built_at": "2026-11-03T03:27:49Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-01T17:30:47Z",
  "qc_score": 9.1,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -200,7 +201,7 @@
     "duration_s": 25,
     "narration": [
      "Discover the Tuvaluan fatele, a dance-song tradition that transforms community gatherings into a rhythmic, accelerating climax.",
-     "Sources: 3 references, every claim checked against its source."
+     "Sources: 3 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -212,7 +213,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": "Gradually repeating and quickening",
@@ -322,29 +325,39 @@
   ]
  },
  "teaching_formula": {
-  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
-  "videos_studied": 0,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "source": "11 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 11,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "front view, then back view (student's perspective)",
-   "slow, then half tempo, then full tempo",
-   "three repetitions of every step before moving on"
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
-   "say the count before the move",
-   "name the body part, then the direction",
-   "one correction at a time"
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "side side side side"
   ],
   "common_mistakes": [],
   "segment_order": [
-   "welcome",
-   "body",
-   "count",
-   "step",
-   "step",
-   "combine",
-   "mistakes",
-   "music",
+   "intro",
+   "context",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
    "recap"
   ],
   "steps_as_taught": []
@@ -367,5 +380,6 @@
  "claims_verified": 5,
  "claims": 5,
  "polished": false,
+ "input_fingerprint": "8d1e013283c5eddd0e00df6af20995b345763141e607189838c0ffc1e81391d8",
  "hero_checked": null
 }

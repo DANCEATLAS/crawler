@@ -1,9 +1,9 @@
 {
  "slug": "kaze-no-bon",
- "qc_at": "2026-11-02T14:49:08Z",
+ "qc_at": "2026-11-09T21:22:48Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "publish",
+ "publish_gate": "reject",
  "qc_score": 9.55,
  "gates": [
   {
@@ -19,32 +19,32 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "145"
+   "detail": "162"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "In the mountain village of Yatsuo, young unmarried dancers hide their faces bene"
+   "detail": "In Yatsuo's steep lantern-lit streets, young unmarried dancers conceal their fac"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "603"
+   "detail": "686"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "3420"
+   "detail": "2805"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "5/5 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "mesmerizing"
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "4 paras"
+   "detail": "6 paras"
   },
   {
    "gate": "not_duplicate",
@@ -83,8 +83,8 @@
   },
   {
    "gate": "sacred_handled",
-   "ok": true,
-   "detail": "sacred=True cues=['ritual', 'deities', 'god']"
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'deities', 'god', 'spirit']"
   }
  ],
  "judge": {
@@ -92,27 +92,30 @@
   "respect": 10,
   "specificity": 10,
   "teaching_value": 7,
-  "is_a_dance": true,
+  "is_a_dance": false,
   "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
+  "adaptations_safe": true,
   "overall": 9,
-  "verdict": "publish",
-  "notes": "Well-researched, accurate profile of a traditional Japanese dance/festival. Teaching value is slightly constrained by the secretive/sacred nature of the movement, but appropriately described."
+  "verdict": "reject",
+  "notes": "Subject is a festival (Kaze no bon), not an independent dance tradition, failing the is_a_dance check."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
+  "sacred_handled",
   "judge_score=9.55",
+  "not_a_dance",
   "sacred"
  ],
  "citation": {
-  "claims": 5,
-  "supported": 5,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-10-29T02:41:14Z"
+ "researched_at": "2026-11-09T20:54:52Z"
 }

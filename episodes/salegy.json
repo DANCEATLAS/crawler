@@ -1,0 +1,835 @@
+{
+ "slug": "salegy",
+ "name": "Salegy",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
+ "researched_at": "2026-11-09T20:23:21Z",
+ "qc_score": 9.6,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A Malagasy musician and dancer fluent in salegy tradition, blending historical knowledge with practical teaching",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Salegy"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Salegy",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Salegy: Madagascar’s Electrified Dance Pulse",
+     "This is Salegy. 1950s to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Salegy · Madagascar · 1950s to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Salegy originated in the 1950s in northwestern Madagascar as an electrified form of the traditional antsa music performed by Betsimisaraka and Tsimihety peoples during possession rituals.",
+     "It evolved from Sub-Saharan African folk roots and was modernized with electric guitars and synthesizers.",
+     "Eusèbe Jaojoby, a Sakalava singer, was a key figure in popularizing salegy internationally."
+    ],
+    "on_screen": [
+     "Map: Madagascar · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Salegy is performed at social celebrations, nightclubs, and parties throughout Madagascar.",
+     "It derives from ritual music used in possession rites to invoke spirits but today is a popular dance music form symbolizing Malagasy identity and communal joy.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Folaka hand clapping, Mbiwy dance."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Solo or group dancing in open spaces or circles; no partnering described"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Salegy music features ringing electric guitars with high-life style lines, real or synthesized accordion, heavy electric bass, and a percussion section including a Western drum kit, djembe, and shakers.",
+     "The rhythm is syncopated and polyrhythmic in 6/8 or 12/4 time with accents on the 3rd or 7th beat, typically around 290 BPM.",
+     "Listen for the electric guitar, accordion (real or synthesized), electric bass, drum kit.",
+     "The pulse is 6/8 or 12/4.",
+     "Salegy features fast, ringing electric guitars with high-life melodies, layered with synthesized accordion lines and heavy bass. The percussion drives a rapid, syncopated polyrhythm with djembe and drum kit accents, while polyphonic vocals engage in call-and-response, creating an energetic and danceable soundscape."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Salegy hits — Eusèbe Jaojoby; Modern Salegy — Vaiavy Chila",
+     "Waveform or rhythm-pattern graphic: Syncopated polyrhythmic beat with accents on 3rd or 7th beat"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Costumes and settings vary but salegy is commonly heard in nightclubs, cabarets, parties, and dance floors across Madagascar.",
+     "Traditional dances like mbiwy are performed by women in the north.",
+     "No specific costume details described in sources."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Eusèbe Jaojoby is known as the 'King of Salegy' and a pioneer of the genre.",
+     "Other important artists include Ninie Doniah, Vaiavy Chila, Dr. J.B. and the Jaguars, Wawa, and Aly Mourad.",
+     "Salegy is part of a family of northern Malagasy musical styles including tsapiky (south), basesa (east), goma (north), kawitry (north), malesa (northwest), antosy (northwest), bahoejy (northwest), salesa (northwest), alalaosy (northwest), mgodro (Mayotte), and salegue (La Réunion).",
+     "Salegy descends from the traditional antsa music of Betsimisaraka and Tsimihety peoples, itself rooted in Sub-Saharan African folk traditions."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Salegy is parent of antsa: Traditional ritual music from which salegy evolved.",
+     "Salegy is regional variant of tsapiky: Southern Malagasy dance music related to salegy.",
+     "Salegy is regional variant of basesa: Eastern Malagasy dance music with stylistic links.",
+     "Salegy is regional variant of goma: Northern Malagasy style related to salegy."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Begin with a steady bounce matching the rapid 6/8 or 12/4 rhythm",
+     "Incorporate foot taps or steps on accented beats (3rd or 7th)",
+     "Count it: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a 1950s coastal folk rhythm evolved into Madagascar’s fastest, most energetic dance music, uniting tradition and modernity.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Feel the basic salegy rhythm and bounce",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Feel the basic salegy rhythm and bounce.",
+      "Level: Beginner. Difficulty of the dance overall: Beginner to intermediate for basic steps; advanced for polyrhythmic hand clapping and vocal interaction.",
+      "Your instructor: A Malagasy musician and dancer fluent in salegy tradition, blending historical knowledge with practical teaching"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and energetic, with a steady bounce matching the rhythm",
+      "Polyrhythmic hand clapping during folaka section; women perform mbiwy hand rhythms in some regions"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 or 12/4.",
+      "Rhythm pattern: Syncopated polyrhythmic beat with accents on 3rd or 7th beat.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Begin with a steady bounce matching the rapid 6/8 or 12/4 rhythm",
+      "Step 2: Incorporate foot taps or steps on accented beats (3rd or 7th)",
+      "Footwork from the sources: Foot taps or steps on accented beats (3rd or 7th) within a rapid 6/8 or 12/4 meter",
+      "Drill: Bounce steadily to 6/8 rhythm"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Add hand clapping in polyrhythmic patterns during folaka section",
+      "Step 4: Practice call-and-response vocal phrases if singing",
+      "Drill: Step on accented beats (3rd and 7th)"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Simple hand clapping on downbeats"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid attempting sacred or ritual versions of antsa without cultural permission"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated bounce to rhythm with hand clapping on downbeats · For children: Call-and-response clapping game with simple stepping"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated bounce to rhythm with hand clapping on downbeats",
+      "For children: Call-and-response clapping game with simple stepping"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Feel the basic salegy rhythm and bounce.",
+      "Salegy is performed at social celebrations, nightclubs, and parties throughout Madagascar.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Add polyrhythmic hand clapping and call-and-response vocals",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Add polyrhythmic hand clapping and call-and-response vocals.",
+      "Level: Intermediate. Difficulty of the dance overall: Beginner to intermediate for basic steps; advanced for polyrhythmic hand clapping and vocal interaction.",
+      "Your instructor: A Malagasy musician and dancer fluent in salegy tradition, blending historical knowledge with practical teaching"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and energetic, with a steady bounce matching the rhythm",
+      "Polyrhythmic hand clapping during folaka section; women perform mbiwy hand rhythms in some regions"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 or 12/4.",
+      "Rhythm pattern: Syncopated polyrhythmic beat with accents on 3rd or 7th beat.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Women may perform mbiwy hand rhythms alongside footwork",
+      "Drill: Practice folaka hand clapping patterns"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Folaka hand clapping: Intricate polyrhythmic hand clapping during the instrumental folaka section to encourage energetic dancing",
+      "Mbiwy dance: A traditional women's dance involving specific hand rhythms called rombo manofo, performed in northern Madagascar and Mayotte",
+      "Drill: Respond vocally to simple call phrases"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Coordinate foot taps with hand rhythms"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid attempting sacred or ritual versions of antsa without cultural permission"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated bounce to rhythm with hand clapping on downbeats · For children: Call-and-response clapping game with simple stepping"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated bounce to rhythm with hand clapping on downbeats",
+      "For children: Call-and-response clapping game with simple stepping"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Solo or group dancing in open spaces or circles; no partnering described"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Add polyrhythmic hand clapping and call-and-response vocals.",
+      "Eusèbe Jaojoby is known as the 'King of Salegy' and a pioneer of the genre.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform full salegy dance with intricate rhythms and group interaction",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform full salegy dance with intricate rhythms and group interaction.",
+      "Level: Advanced. Difficulty of the dance overall: Beginner to intermediate for basic steps; advanced for polyrhythmic hand clapping and vocal interaction.",
+      "Your instructor: A Malagasy musician and dancer fluent in salegy tradition, blending historical knowledge with practical teaching"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and energetic, with a steady bounce matching the rhythm",
+      "Polyrhythmic hand clapping during folaka section; women perform mbiwy hand rhythms in some regions"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 or 12/4.",
+      "Rhythm pattern: Syncopated polyrhythmic beat with accents on 3rd or 7th beat.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Practice call-and-response vocal phrases if singing",
+      "Step 2: Women may perform mbiwy hand rhythms alongside footwork",
+      "Drill: Master complex polyrhythmic clapping"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Folaka hand clapping: Intricate polyrhythmic hand clapping during the instrumental folaka section to encourage energetic dancing",
+      "Mbiwy dance: A traditional women's dance involving specific hand rhythms called rombo manofo, performed in northern Madagascar and Mayotte",
+      "Drill: Lead call-and-response singing"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Integrate mbiwy hand rhythms (for women)"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid attempting sacred or ritual versions of antsa without cultural permission"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated bounce to rhythm with hand clapping on downbeats · For children: Call-and-response clapping game with simple stepping"
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated bounce to rhythm with hand clapping on downbeats",
+      "For children: Call-and-response clapping game with simple stepping"
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Solo or group dancing in open spaces or circles; no partnering described"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform full salegy dance with intricate rhythms and group interaction.",
+      "Salegy descends from the traditional antsa music of Betsimisaraka and Tsimihety peoples, itself rooted in Sub-Saharan African folk traditions.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "6/8 or 12/4",
+  "rhythm_pattern": "Syncopated polyrhythmic beat with accents on 3rd or 7th beat",
+  "instruments": [
+   "electric guitar",
+   "accordion (real or synthesized)",
+   "electric bass",
+   "drum kit",
+   "djembe",
+   "shakers"
+  ],
+  "vocal_style": "Polyphonic call-and-response singing",
+  "musical_form": "Includes a middle instrumental section called folaka",
+  "mood": [
+   "funky",
+   "energetic",
+   "driving",
+   "danceable"
+  ],
+  "sound_description": "Salegy features fast, ringing electric guitars with high-life melodies, layered with synthesized accordion lines and heavy bass. The percussion drives a rapid, syncopated polyrhythm with djembe and drum kit accents, while polyphonic vocals engage in call-and-response, creating an energetic and danceable soundscape.",
+  "listen_before_composing": [
+   "Salegy hits — Eusèbe Jaojoby",
+   "Modern Salegy — Vaiavy Chila"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Salegy (Madagascar). Meter 6/8 or 12/4. Rhythm pattern: Syncopated polyrhythmic beat with accents on 3rd or 7th beat. Instruments: electric guitar, accordion (real or synthesized), electric bass, drum kit, djembe, shakers. Vocal style: Polyphonic call-and-response singing. Form: Includes a middle instrumental section called folaka. Mood: funky, energetic, driving, danceable. It should sound like this: Salegy features fast, ringing electric guitars with high-life melodies, layered with synthesized accordion lines and heavy bass. The percussion drives a rapid, syncopated polyrhythm with djembe and drum kit accents, while polyphonic vocals engage in call-and-response, creating an energetic and danceable soundscape. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Costumes and settings vary but salegy is commonly heard in nightclubs, cabarets, parties, and dance floors across Madagascar. Traditional dances like mbiwy are performed by women in the north. No specific costume details described in sources.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AJaojoby_concert.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Jaojoby_concert.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/09/Jaojoby_concert.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "The original uploader was Lemurbaby at English Wikipedia. / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJaojoby_concert.jpg",
+    "description": "Jaojoby, the king of salegy (a contemporary musical style popular in Madagascar) performs in concert at the Olympia in Paris.\nLemurbaby (talk) 06:34, 6 November 2010 (UTC)"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Electric guitars glowing under stage lights",
+   "Hands clapping in rapid polyrhythms",
+   "Dancers bouncing energetically",
+   "Accordion synthesizer panels",
+   "Nightclub dance floors in Madagascar"
+  ],
+  "costume_notes": "Costumes and settings vary but salegy is commonly heard in nightclubs, cabarets, parties, and dance floors across Madagascar. Traditional dances like mbiwy are performed by women in the north. No specific costume details described in sources.",
+  "setting_notes": "Salegy is performed at social celebrations, nightclubs, and parties throughout Madagascar. It derives from ritual music used in possession rites to invoke spirits but today is a popular dance music form symbolizing Malagasy identity and communal joy.",
+  "map": {
+   "country": "Madagascar",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "11 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 11,
+  "counting": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "side side side side"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the how-it-is-danced section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Salegy",
+  "https://www.wikidata.org/wiki/Q3032090",
+  "https://fr.wikipedia.org/wiki/Salegy"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "50654f491896da519e80e21f78cf66d4ee283870bb96ad59141fc2bc7bd3eb3d",
+ "hero_checked": null
+}

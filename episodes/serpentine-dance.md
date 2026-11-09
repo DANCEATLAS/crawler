@@ -1,8 +1,8 @@
 # Serpentine dance — episode pack
 
-*Status: draft · built 2026-11-04 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; the music & instruments section
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; the music & instruments section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A dance historian and performer specializing in early modern dance and theatrical lighting.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Loïe Fuller’s Serpentine Dance: Silk, Light, and the Birth of Modern Stage Magic
 NARRATION: This is Serpentine dance. 1890s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (sNXNfcEo5dQ)
 ON SCREEN: Title card: Serpentine dance · United States · 1890s
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Spiral wave, Billowing arcs.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (sNXNfcEo5dQ)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo dancer uses circular and spiral arm movements to fill surrounding space with fabric.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -73,7 +73,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Hold the silk fabric rods firmly in both hands.
 NARRATION: Begin with arms extended to the sides at shoulder height.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -81,7 +81,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how a Brooklyn actress’s accidental silk dance in 1892 transformed theatrical performance and early cinema with light and motion.
-NARRATION: Sources: 6 references, every claim checked against its source.
+NARRATION: Sources: 6 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -98,11 +98,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright with arms extended, shoulders relaxed.
 NARRATION: Arms hold rods concealed in fabric, moving slowly and continuously to create flowing shapes.
 NARRATION: Minimal hip movement; torso remains mostly stable to emphasize fabric motion.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -113,10 +113,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Hold the silk fabric rods firmly in both hands.
 NARRATION: Step 2: Begin with arms extended to the sides at shoulder height.
 NARRATION: Drill: Practice holding rods and extending arms smoothly.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Slowly wave the arms upward and inward to create spirals.
@@ -124,7 +123,6 @@ NARRATION: Step 4: Sweep the fabric in wide arcs around the body.
 NARRATION: Drill: Create simple waves with fabric.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -137,13 +135,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Abrupt or jerky arm movements that disrupt fabric flow Overly fast tempo that prevents fabric from billowing
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice arm and fabric waving motions while seated to reduce balance demands. · For children: Use small scarves to mimic fabric waves; play 'follow the leader' with arm movements.
 MUSIC: silence
 OPTIONS: Seated or supported option: Practice arm and fabric waving motions while seated to reduce balance demands. · For children: Use small scarves to mimic fabric waves; play 'follow the leader' with arm movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -170,11 +168,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright with arms extended, shoulders relaxed.
 NARRATION: Arms hold rods concealed in fabric, moving slowly and continuously to create flowing shapes.
 NARRATION: Minimal hip movement; torso remains mostly stable to emphasize fabric motion.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -184,10 +182,9 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Use continuous, flowing arm movements to maintain fabric motion.
 NARRATION: Drill: Combine upward and inward arm spirals.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Spiral wave: Arms move in spirals causing the silk to swirl around the dancer.
@@ -196,7 +193,6 @@ NARRATION: Drill: Practice wide sweeping arcs with fabric.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -209,13 +205,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Abrupt or jerky arm movements that disrupt fabric flow Overly fast tempo that prevents fabric from billowing
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice arm and fabric waving motions while seated to reduce balance demands. · For children: Use small scarves to mimic fabric waves; play 'follow the leader' with arm movements.
 MUSIC: silence
 OPTIONS: Seated or supported option: Practice arm and fabric waving motions while seated to reduce balance demands. · For children: Use small scarves to mimic fabric waves; play 'follow the leader' with arm movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo dancer uses circular and spiral arm movements to fill surrounding space with fabric.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -242,11 +238,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright with arms extended, shoulders relaxed.
 NARRATION: Arms hold rods concealed in fabric, moving slowly and continuously to create flowing shapes.
 NARRATION: Minimal hip movement; torso remains mostly stable to emphasize fabric motion.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -257,10 +253,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Sweep the fabric in wide arcs around the body.
 NARRATION: Step 2: Use continuous, flowing arm movements to maintain fabric motion.
 NARRATION: Drill: Synchronize arm movements with colored light cues.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Spiral wave: Arms move in spirals causing the silk to swirl around the dancer.
@@ -269,7 +264,6 @@ NARRATION: Drill: Create complex shapes and transitions.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -282,13 +276,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Abrupt or jerky arm movements that disrupt fabric flow Overly fast tempo that prevents fabric from billowing
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice arm and fabric waving motions while seated to reduce balance demands. · For children: Use small scarves to mimic fabric waves; play 'follow the leader' with arm movements.
 MUSIC: silence
 OPTIONS: Seated or supported option: Practice arm and fabric waving motions while seated to reduce balance demands. · For children: Use small scarves to mimic fabric waves; play 'follow the leader' with arm movements. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo dancer uses circular and spiral arm movements to fill surrounding space with fabric.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -315,7 +309,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The costume consists of hundreds of yards of lightweight China silk sewn into a large conical skirt, attached to the dancer’s shoulders or head. Aluminum rods sewn invisibly into the fabric extend the dancer’s arms, allowing her to manipulate the silk expansively. The dance is performed on stage with multi-colored lighting designed by Fuller to project onto the silk, creating shifting patterns and illusions of fire, flowers, and butterflies. The setting is theatrical, often in vaudeville or variety theaters and early film studios.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'sNXNfcEo5dQ', 'checked_by_vision_model': False, 'title': 'Annabelle - Serpentine Dance (1894, silent, DVD) [Edison]'}
 Images: 1 licensed — Frederick Whitman Glasier / Wikimedia Commons / Public domain (Public domain)
 Footage: File:Serpentine Dance (1895) - yt.webm — https://upload.wikimedia.org/wikipedia/commons/d/d0/Serpentine_Dance_%281895%29_-_yt.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Butterfly dance (1895).webm — https://upload.wikimedia.org/wikipedia/commons/2/25/Butterfly_dance_%281895%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Lumière Brothers - The Serpentine Dance (c.1899).webm — https://upload.wikimedia.org/wikipedia/commons/4/4f/Lumi%C3%A8re_Brothers_-_The_Serpentine_Dance_%28c.1899%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Danse serpentine (Lumière, 1897).webm — https://upload.wikimedia.org/wikipedia/commons/1/11/Danse_serpentine_%28Lumi%C3%A8re%2C_1897%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Annabelle Dances and Dances (1894-1897).webm — https://upload.wikimedia.org/wikipedia/commons/8/81/Annabelle_Dances_and_Dances_%281894-1897%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Serpentine Dance — https://archive.org/details/dance1895; Loie Fuller — https://archive.org/details/LoieFuller; Miss Lina Esbrard, danseuse cosmopolitaine et serpentine AKA Serpentine Dance — https://archive.org/details/silent-miss-lina-esbrard-danseuse-cosmopolitaine-et-serpentine-aka-serpentine-dance
 Motifs: Flowing silk fabric, Colored stage lights, Spiral and wave shapes, Belle Époque costumes, Early film footage
@@ -325,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorials across the atlas studied · videos studied: 13
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; punch to the side; pull your head down; pivot them on your elbows; left foot; right foot
+Source: 3 tutorial(s) of the stage-contemporary family studied · videos studied: 3
+Counting: 
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
+Cues: short verbal cue the teacher repeats  8 words; deep slow hip circles; hips to one side in little pulses; breathe in arms come up; roll through the spine; belly rolls both directions; knees to chest; straightening my legs; bringing my body up; bend both legs; opening my left arm; straightening my left leg
 
 Sources (6): https://en.wikipedia.org/wiki/Serpentine_dance; https://www.wikidata.org/wiki/Q7455127; https://fr.wikipedia.org/wiki/Danse_serpentine; https://pt.wikipedia.org/wiki/Dança_serpentina; https://de.wikipedia.org/wiki/Serpentinentanz; https://archive.org/details/NPTG18941018

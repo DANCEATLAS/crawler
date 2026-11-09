@@ -1,8 +1,8 @@
 # makossa — episode pack
 
-*Status: draft · built 2026-11-05 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed); teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed); teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Cameroonian music historian or dance practitioner
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Beat That Conquered the World
 NARRATION: This is makossa. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (bSserJ8WaUs)
 ON SCREEN: Title card: makossa · Cameroon · 20th century
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: The dance involves energetic and suggestive hip movements, particularly during the high-intensity 'secousse' section of the music.
 NARRATION: Watch for Secousse.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (bSserJ8WaUs)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -77,7 +77,7 @@ NEEDS: teaching steps
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how a simple shout in a Douala neighborhood became the most sampled rhythm in music history.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -92,11 +92,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Suggestive hip movements
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Syncopated and jerky, influenced by assiko and rumba.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -105,17 +105,17 @@ MUSIC: lesson_slow (clicks only until the step lands)
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Drill: Clapping to the 4/4 beat
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Identifying the bass groove
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -127,13 +127,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 150 bpm
@@ -158,11 +157,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Suggestive hip movements
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Syncopated and jerky, influenced by assiko and rumba.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -170,10 +169,10 @@ ON SCREEN: Metronome at 105 bpm
 MUSIC: lesson_slow (clicks only until the step lands)
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
@@ -181,7 +180,7 @@ NARRATION: Secousse: A frenzied part of the composition where dancers increase t
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -192,13 +191,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 150 bpm
@@ -223,11 +221,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Suggestive hip movements
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Syncopated and jerky, influenced by assiko and rumba.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -235,10 +233,10 @@ ON SCREEN: Metronome at 105 bpm
 MUSIC: lesson_slow (clicks only until the step lands)
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
@@ -246,7 +244,7 @@ NARRATION: Secousse: A frenzied part of the composition where dancers increase t
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -257,13 +255,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 150 bpm
@@ -292,7 +289,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historically associated with urban 'palm wine bars' and popular balls known as 'bol' in Douala.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'bSserJ8WaUs', 'checked_by_vision_model': False, 'title': 'Makossa / Master Class / @Daniel'}
 Images: 1 licensed — Arch-Angel Raphael the Artist / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Female Makossa Dancer - Enugu State - Nigeria.webm — https://upload.wikimedia.org/wikipedia/commons/d/de/Female_Makossa_Dancer_-_Enugu_State_-_Nigeria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Male Makossa Dancer - Industrial Chemistry (ICH) Department Award Night Dance - Enugu State University of Science and Technology (ESUT) - Enugu State - Nigeria.webm — https://upload.wikimedia.org/wikipedia/commons/2/2e/Male_Makossa_Dancer_-_Industrial_Chemistry_%28ICH%29_Department_Award_Night_Dance_-_Enugu_State_University_of_Science_and_Technology_%28ESUT%29_-_Enugu_State_-_Nigeria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; MARLOZ DANCE VIDEO MIX VOL. 114 Disco & Funk! — https://archive.org/details/MARLOZDANCEVIDEOMIXVOL.114DiscoFunk; AFRICA DANCE 5 (2005) – 24 CLIPS | Compilation Africaine – DVD COMPLET — https://archive.org/details/africa-dance-5-complet
 Motifs: Urban Douala streets, Vintage guitar equipment, Bottle percussion
@@ -302,9 +299,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the african-diaspora family studied · videos studied: 3
-Counting: 5-6-7-8 and 1-2-3-4-5-6-7
-Demonstration: views used by most teachers: back, front; tempo progression: slow → full
-Cues: left foot; right foot; step; touch; stomp off; push; 5-6-7-8-hold; lets build it up; now put them together; stomp spank step; stomp spank ball change; step toe step hop step hop out in
+Source: 5 tutorial(s) of the african-diaspora family studied · videos studied: 5
+Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: shift; slow; quick quick slow; rock step; left foot; right foot; step; touch; stomp off; push; make sure that you are wearing comfortable shoes; stand properly
 
 Sources (5): https://en.wikipedia.org/wiki/Makossa; https://www.wikidata.org/wiki/Q1815364; https://es.wikipedia.org/wiki/Makossa; https://fr.wikipedia.org/wiki/Makossa; https://pt.wikipedia.org/wiki/Makossa

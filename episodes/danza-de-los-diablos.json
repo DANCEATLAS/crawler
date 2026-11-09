@@ -1,11 +1,12 @@
 {
  "slug": "danza-de-los-diablos",
  "name": "Danza de los Diablos (Diablada)",
- "pack_version": "e1",
- "built_at": "2026-11-08T17:28:40Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-08T16:57:51Z",
  "qc_score": 9.85,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -202,7 +203,7 @@
     "duration_s": 25,
     "narration": [
      "A look at the syncretic ritual where Andean deities and Christian archangels battle for the soul of the Altiplano.",
-     "Sources: 5 references, every claim checked against its source."
+     "Sources: 5 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -214,7 +215,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": "March and Mecapaqueña",
@@ -333,7 +336,8 @@
  "teaching_formula": {
   "source": "1 tutorial(s) of the ritual-sacred family studied",
   "videos_studied": 1,
-  "counting": "1-2-3-4-5",
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back",
    "tempo progression: slow → full",
@@ -371,5 +375,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
+ "input_fingerprint": "64f55a1fba267801e77f2d15c78f4f3206c207a813bc8b572abcc20d9f840746",
  "hero_checked": "pass"
 }

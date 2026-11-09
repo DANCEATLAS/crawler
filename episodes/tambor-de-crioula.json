@@ -1,11 +1,12 @@
 {
  "slug": "tambor-de-crioula",
  "name": "Tambor de Crioula",
- "pack_version": "e1",
- "built_at": "2026-11-08T17:28:40Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-08T16:48:16Z",
  "qc_score": 9.85,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -64,7 +65,7 @@
      "This is Tambor de Crioula. 19th century to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (mFLhyKpG4ok)",
      "Title card: Tambor de Crioula · Brazil · 19th century to present"
     ],
     "music": "theme (30 s)"
@@ -107,7 +108,7 @@
      "Watch for Punga."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (mFLhyKpG4ok)",
      "Captions name each signature move as it appears"
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
@@ -201,7 +202,7 @@
     "duration_s": 25,
     "narration": [
      "Discover the rhythmic, circular world of Tambor de Crioula, a dance of resistance and devotion.",
-     "Sources: 5 references, every claim checked against its source."
+     "Sources: 5 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -213,7 +214,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": "Driven by three drums (parelhas) and matracas.",
@@ -266,7 +269,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "mFLhyKpG4ok",
+   "checked_by_vision_model": false,
+   "title": "Danças Brasileiras - Tambor de Crioula (2 de 3)"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -331,7 +338,8 @@
  "teaching_formula": {
   "source": "1 tutorial(s) of the ritual-sacred family studied",
   "videos_studied": 1,
-  "counting": "1-2-3-4-5",
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back",
    "tempo progression: slow → full",
@@ -356,7 +364,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "notable figures",
   "two or more connections"
@@ -371,5 +379,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
+ "input_fingerprint": "a3d777a4c5535e77679aa974e2464ced8ec75bde31f30c0edc411a7178d78281",
  "hero_checked": null
 }

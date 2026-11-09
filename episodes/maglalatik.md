@@ -1,6 +1,6 @@
 # Maglalatik — episode pack
 
-*Status: draft · built 2026-11-03 · judge 8.6 · 9/11 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 8.6 · 9/11 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the how-it-is-danced section
 
@@ -83,7 +83,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the fast-paced Filipino folk dance where men strike coconut shells in a rhythmic mock battle.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -100,8 +100,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, shirtless, with shells strapped to torso and hands
 NARRATION: Hold coconut shells and strike them against torso shells and other dancers' shells
 NARRATION: Torso exposed with shells above nipples; movement involves striking shells on torso
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -117,7 +116,7 @@ NEEDS: tempo
 NARRATION: Step 1: Stand shirtless wearing red with coconut shells strapped to torso and hands
 NARRATION: Step 2: Hold coconut shells in hands ready to strike
 NARRATION: Drill: Practice holding shells correctly
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the not specified bar out loud, then in pairs of bars · repetitions: 3
@@ -141,7 +140,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: No cultural restrictions noted; respect the martial and cultural significance
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -171,8 +170,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, shirtless, with shells strapped to torso and hands
 NARRATION: Hold coconut shells and strike them against torso shells and other dancers' shells
 NARRATION: Torso exposed with shells above nipples; movement involves striking shells on torso
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -187,7 +185,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Maintain fast tempo in sync with drumbeat
 NARRATION: Drill: Practice striking shells worn by partner
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the not specified bar out loud, then in pairs of bars · repetitions: 3
@@ -211,7 +209,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: No cultural restrictions noted; respect the martial and cultural significance
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -242,8 +240,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, shirtless, with shells strapped to torso and hands
 NARRATION: Hold coconut shells and strike them against torso shells and other dancers' shells
 NARRATION: Torso exposed with shells above nipples; movement involves striking shells on torso
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -259,7 +256,7 @@ NEEDS: tempo
 NARRATION: Step 1: Strike hand shells against shells worn by other dancers
 NARRATION: Step 2: Maintain fast tempo in sync with drumbeat
 NARRATION: Drill: Master fast tempo striking
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the not specified bar out loud, then in pairs of bars · repetitions: 3
@@ -283,7 +280,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: No cultural restrictions noted; respect the martial and cultural significance
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -324,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: count the not specified bar out loud, then in pairs of bars
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
+Demonstration: views used by most teachers: front; tempo progression: full
 Cues: say the count before the move; name the body part, then the direction; one correction at a time
 
 Sources (2): https://en.wikipedia.org/wiki/Maglalatik; https://www.wikidata.org/wiki/Q17077770

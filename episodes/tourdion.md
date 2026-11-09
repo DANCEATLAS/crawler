@@ -1,8 +1,8 @@
 # Tourdion — episode pack
 
-*Status: draft · built 2026-11-05 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A historical dance specialist with a focus on Renaissance treatises.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Twist of the Renaissance
 NARRATION: This is Tourdion. 16th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (J-_ZJZhwC84)
 ON SCREEN: Title card: Tourdion · France · 16th century
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 NARRATION: The dance is based on the 'cinq pas' (five-step) sequence.
 NARRATION: It involves alternating between 'posture droit' and 'posture gauche,' utilizing 'pied en l'air' (kicks) and 'petit saut' (small hops), concluding with a 'saut moyen' to transition postures.
 NARRATION: Watch for Cinq pas, Saut moyen.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (J-_ZJZhwC84)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Couple dance, moving through the space.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -74,7 +74,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Assume posture gauche (left foot forward, weight even).
 NARRATION: Perform a pied en l'air droit (right foot kick) with a simultaneous petit saut (small hop) on the left foot.
-NARRATION: Count it: 2 counts off, 2 counts on.
+NARRATION: Count it: count the Triple meter bar out loud, then in pairs of bars.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -82,7 +82,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the rapid, low-to-the-ground dance that defined French court life before the galliard took center stage.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -97,11 +97,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, with weight evenly distributed between feet.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 2 counts off, 2 counts on. The meter is Triple meter.
+NARRATION: Count: count the Triple meter bar out loud, then in pairs of bars. The meter is Triple meter.
 NARRATION: Rhythm pattern: Rapid and light, often consisting of four motifs of six pulses..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -117,7 +117,7 @@ NARRATION: Drill: Practice shifting weight between feet.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: count the Triple meter bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Perform a pied en l'air gauche (left foot kick) with a simultaneous petit saut on the right foot.
@@ -125,7 +125,7 @@ NARRATION: Step 4: Repeat the two kicks.
 NARRATION: Drill: Small hops on one foot.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: count the Triple meter bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -137,13 +137,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: High, heavy leaps; the movement should remain 'bas et par terre'.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the 'cinq pas' rhythm with feet and hands while seated. · For children: A 'follow-the-leader' game mimicking the small kicks and hops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 'cinq pas' rhythm with feet and hands while seated. · For children: A 'follow-the-leader' game mimicking the small kicks and hops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 2 counts off, 2 counts on.
+NARRATION: Count-in: count the Triple meter bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -168,11 +168,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, with weight evenly distributed between feet.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 2 counts off, 2 counts on. The meter is Triple meter.
+NARRATION: Count: count the Triple meter bar out loud, then in pairs of bars. The meter is Triple meter.
 NARRATION: Rhythm pattern: Rapid and light, often consisting of four motifs of six pulses..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -186,7 +186,7 @@ NARRATION: Drill: Combine kick and hop.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: count the Triple meter bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Cinq pas: A five-step sequence consisting of two kicks, two hops, and a final jump.
@@ -195,7 +195,7 @@ NARRATION: Drill: Sequence the four kicks.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: count the Triple meter bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -207,13 +207,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: High, heavy leaps; the movement should remain 'bas et par terre'.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the 'cinq pas' rhythm with feet and hands while seated. · For children: A 'follow-the-leader' game mimicking the small kicks and hops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 'cinq pas' rhythm with feet and hands while seated. · For children: A 'follow-the-leader' game mimicking the small kicks and hops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 2 counts off, 2 counts on.
+NARRATION: Count-in: count the Triple meter bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couple dance, moving through the space.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -238,11 +238,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, with weight evenly distributed between feet.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 2 counts off, 2 counts on. The meter is Triple meter.
+NARRATION: Count: count the Triple meter bar out loud, then in pairs of bars. The meter is Triple meter.
 NARRATION: Rhythm pattern: Rapid and light, often consisting of four motifs of six pulses..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -257,7 +257,7 @@ NARRATION: Drill: Perform the full cadence.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: count the Triple meter bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Cinq pas: A five-step sequence consisting of two kicks, two hops, and a final jump.
@@ -266,7 +266,7 @@ NARRATION: Drill: Transition between postures.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: count the Triple meter bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -278,13 +278,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: High, heavy leaps; the movement should remain 'bas et par terre'.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the 'cinq pas' rhythm with feet and hands while seated. · For children: A 'follow-the-leader' game mimicking the small kicks and hops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 'cinq pas' rhythm with feet and hands while seated. · For children: A 'follow-the-leader' game mimicking the small kicks and hops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 2 counts off, 2 counts on.
+NARRATION: Count-in: count the Triple meter bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couple dance, moving through the space.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -313,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'J-_ZJZhwC84', 'checked_by_vision_model': False, 'title': 'Culomba - Tourdion/Quand je bois du vin clairet (Anon. France, 16th Century)'}
 Images: 0 licensed
 Footage: Medieval Music vol.3 (1000-1450) — https://archive.org/details/youtube-I8CW7P4k7II; Tudor and Renaissance Music vol.3 (1450-1600) — https://archive.org/details/youtube-yIEF8Mf-FcI; Tourdion (1530) French Renaissance Song — https://archive.org/details/youtube-ArgDiJQ41Sg; Le Tourdion - French Renaissance Song — https://archive.org/details/le-tourdion-french-renaissance-song-farya
 Motifs: Renaissance lute manuscripts, Courtly attire of the 16th century, Close-ups of footwork on wooden floors
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the classical-court family studied · videos studied: 2
-Counting: 2 counts off, 2 counts on
-Demonstration: views used by most teachers: front, side; tempo progression: slow
-Cues: hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Source: 3 tutorial(s) of the classical-court family studied · videos studied: 3
+Counting: count the Triple meter bar out loud, then in pairs of bars
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; hold your placement; stay straight as a board; lift up in your lower abs; change feet
 
 Sources (5): https://en.wikipedia.org/wiki/Tourdion; https://www.wikidata.org/wiki/Q2141850; https://es.wikipedia.org/wiki/Turdión; https://fr.wikipedia.org/wiki/Tourdion; https://pt.wikipedia.org/wiki/Tourdion

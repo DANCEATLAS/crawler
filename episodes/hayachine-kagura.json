@@ -1,11 +1,12 @@
 {
  "slug": "hayachine-kagura",
  "name": "Hayachine Kagura",
- "pack_version": "e1",
- "built_at": "2026-11-08T17:28:40Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-08T16:41:55Z",
  "qc_score": 8.35,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -63,7 +64,7 @@
      "This is Hayachine Kagura. 14th-15th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (FkDXHdhkUiI)",
      "Title card: Hayachine Kagura · Japan · 14th-15th century"
     ],
     "music": "theme (30 s)"
@@ -105,7 +106,7 @@
      "Watch for Shishi dance."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (FkDXHdhkUiI)",
      "Captions name each signature move as it appears"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -201,7 +202,7 @@
     "duration_s": 25,
     "narration": [
      "A look at the twelve ritual dances of Hayachine Kagura, a centuries-old tradition from the mountains of Iwate.",
-     "Sources: 5 references, every claim checked against its source."
+     "Sources: 5 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -213,7 +214,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": null,
@@ -263,7 +266,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "FkDXHdhkUiI",
+   "checked_by_vision_model": false,
+   "title": "Japón - Hayachine Kagura \"Yama no Kami Mai\" Danza del Dios de la Montaña /Mountain God Dance - Japan"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -303,7 +310,8 @@
  "teaching_formula": {
   "source": "1 tutorial(s) of the ritual-sacred family studied",
   "videos_studied": 1,
-  "counting": "1-2-3-4-5",
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back",
    "tempo progression: slow → full",
@@ -328,7 +336,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the how-it-is-danced section",
@@ -345,5 +353,6 @@
  "claims_verified": 5,
  "claims": 6,
  "polished": false,
+ "input_fingerprint": "cf9db0529949604152a88c3ebe6bb00cf49637dd2784c18c63d9b1d971576152",
  "hero_checked": null
 }

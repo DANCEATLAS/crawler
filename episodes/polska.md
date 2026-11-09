@@ -1,6 +1,6 @@
 # Polska — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.1 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.1 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); what to avoid / common mistakes
 
@@ -73,7 +73,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Promenade walk
 NARRATION: Bakmes counter-clockwise turn
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -81,7 +81,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the high-speed couple dances and driving fiddle tunes of the Nordic polska.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -98,12 +98,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upper body facing as a couple, maintaining a close embrace or escort position
 NARRATION: close hold escort position underarm turns
 NARRATION: Rotating counter-clockwise in bakmes and clockwise in pols rotations
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 3/4 time (with 2/4 and compound variations).
+NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (with 2/4 and compound variations).
 NARRATION: Rhythm pattern: Semiquaver, quaver, or triplet groupings with lengthened second beats in specific regional styles.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -116,10 +115,10 @@ NARRATION: Step 1: Promenade walk
 NARRATION: Step 2: Bakmes counter-clockwise turn
 NARRATION: Footwork from the sources: Walking promenade steps, stepping primarily on the first and third beat during resting phases
 NARRATION: Drill: Step on beat one and three
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Pols clockwise turn
@@ -127,7 +126,7 @@ NARRATION: Step 4: Resting step on beats one and three
 NARRATION: Drill: Promenade hold walking in a circle
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -138,15 +137,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Seated upper-body rotation simulating bakmes and pols turns with arm movements. · For children: Partner walking game moving in a circle to 3/4 music, switching partners on phrase changes.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated upper-body rotation simulating bakmes and pols turns with arm movements. · For children: Partner walking game moving in a circle to 3/4 music, switching partners on phrase changes. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -173,12 +171,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upper body facing as a couple, maintaining a close embrace or escort position
 NARRATION: close hold escort position underarm turns
 NARRATION: Rotating counter-clockwise in bakmes and clockwise in pols rotations
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 3/4 time (with 2/4 and compound variations).
+NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (with 2/4 and compound variations).
 NARRATION: Rhythm pattern: Semiquaver, quaver, or triplet groupings with lengthened second beats in specific regional styles.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -190,10 +187,10 @@ NEEDS: tempo
 NARRATION: Step 1: Promenade walk
 NARRATION: Step 2: Bakmes counter-clockwise turn
 NARRATION: Drill: Escort walking step
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Pols clockwise turn
@@ -204,7 +201,7 @@ NARRATION: Drill: Transitioning from walk to turn
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -215,15 +212,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Seated upper-body rotation simulating bakmes and pols turns with arm movements. · For children: Partner walking game moving in a circle to 3/4 music, switching partners on phrase changes.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated upper-body rotation simulating bakmes and pols turns with arm movements. · For children: Partner walking game moving in a circle to 3/4 music, switching partners on phrase changes. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples traveling counter-clockwise around the periphery of the floor or stationary on a spot
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -250,12 +246,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upper body facing as a couple, maintaining a close embrace or escort position
 NARRATION: close hold escort position underarm turns
 NARRATION: Rotating counter-clockwise in bakmes and clockwise in pols rotations
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 3/4 time (with 2/4 and compound variations).
+NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (with 2/4 and compound variations).
 NARRATION: Rhythm pattern: Semiquaver, quaver, or triplet groupings with lengthened second beats in specific regional styles.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -267,10 +262,10 @@ NEEDS: tempo
 NARRATION: Step 1: Pols clockwise turn
 NARRATION: Step 2: Resting step on beats one and three
 NARRATION: Drill: One turn per measure rotation
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Bakmes turn: Counter-clockwise couple rotation at a rate of one revolution per two measures
@@ -279,7 +274,7 @@ NARRATION: Drill: Bakmes counter-clockwise rotation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -290,15 +285,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Seated upper-body rotation simulating bakmes and pols turns with arm movements. · For children: Partner walking game moving in a circle to 3/4 music, switching partners on phrase changes.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated upper-body rotation simulating bakmes and pols turns with arm movements. · For children: Partner walking game moving in a circle to 3/4 music, switching partners on phrase changes. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couples traveling counter-clockwise around the periphery of the floor or stationary on a spot
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -335,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the folk-circle family studied · videos studied: 2
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 1-2-3, 2-2-3 (three counts a bar)
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (5): https://en.wikipedia.org/wiki/Polska_(dance); https://www.wikidata.org/wiki/Q1766836; https://fr.wikipedia.org/wiki/Polska_(danse); https://archive.org/details/sztukaludowawpo00mokgoog; https://archive.org/details/cs.2718

@@ -1,8 +1,8 @@
 # logobi — episode pack
 
-*Status: draft · built 2026-11-03 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic urban street dancer from Abidjan who balances sharp martial discipline with infectious, charismatic humor.
@@ -86,7 +86,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Born from the martial arts codes of Ivorian street gangs, logobi transformed urban survival into a high-octane dance phenomenon spanning West Africa and Paris.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -103,8 +103,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Grounded, athletic, and ready to spring, with flexed knees and forward-tilted torso evoking martial arts readiness.
 NARRATION: Violent, rapid arm thrusts, boxing parries, flexed bicep displays ('gros bras'), and coded gang signals.
 NARRATION: Tightly coiled core with sharp torso twists and periodic provocative or sexual hip overtures.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -120,7 +119,7 @@ NARRATION: Step 1: Stance: Adopt a balanced, grounded street posture with knees 
 NARRATION: Step 2: Gros Bras Pump: Drive clenched fists or open palms out in rapid forward and crossing thrusts, mimicking boxing strikes and martial arts blocks.
 NARRATION: Footwork from the sources: Saccadic, jerky steps and rapid weight transfers under a stable center of gravity.
 NARRATION: Drill: Find a wide, grounded squat with elbows tucked and fists guarded.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -144,7 +143,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid turning fight mimes into genuine physical contact; do not perform without maintaining the underlying percussive bounce.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -175,8 +174,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Grounded, athletic, and ready to spring, with flexed knees and forward-tilted torso evoking martial arts readiness.
 NARRATION: Violent, rapid arm thrusts, boxing parries, flexed bicep displays ('gros bras'), and coded gang signals.
 NARRATION: Tightly coiled core with sharp torso twists and periodic provocative or sexual hip overtures.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -190,7 +188,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Freestyle Break: Loosen into expressive isolations, incorporating pelvic accents or dynamic foot sweeps within a freestyle cypher.
 NARRATION: Drill: Throw alternating straight punches snapping back instantly to guard.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -215,7 +213,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid turning fight mimes into genuine physical contact; do not perform without maintaining the underlying percussive bounce.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -246,8 +244,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Grounded, athletic, and ready to spring, with flexed knees and forward-tilted torso evoking martial arts readiness.
 NARRATION: Violent, rapid arm thrusts, boxing parries, flexed bicep displays ('gros bras'), and coded gang signals.
 NARRATION: Tightly coiled core with sharp torso twists and periodic provocative or sexual hip overtures.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -262,7 +259,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Combat Mime: Integrate stylized street-gang gestures, including defensive parries, simulated weapon draws, and defiant hand signals.
 NARRATION: Step 2: Freestyle Break: Loosen into expressive isolations, incorporating pelvic accents or dynamic foot sweeps within a freestyle cypher.
 NARRATION: Drill: Drill staccato shuffle footwork beneath alternating punch sequences.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -286,7 +283,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid turning fight mimes into genuine physical contact; do not perform without maintaining the underlying percussive bounce.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -329,9 +326,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 9 tutorial(s) of the street-urban family studied · videos studied: 9
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; punch to the side; pull your head down; pivot them on your elbows; swing stop; lean forward; arm up; elbow up; up and down
 
 Sources (3): https://en.wikipedia.org/wiki/Logobi; https://www.wikidata.org/wiki/Q373982; https://fr.wikipedia.org/wiki/Logobi

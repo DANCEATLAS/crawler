@@ -1,6 +1,6 @@
 # Naleyo — episode pack
 
-*Status: draft · built 2026-11-08 · judge 10.0 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 9/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
@@ -76,7 +76,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Form two opposing, parallel lines with men in one line and women in the other, directly facing across the floor.
 NARRATION: Engage the core and bend both knees to prepare an explosive vertical rebound.
-NARRATION: Count it: 1-2-3-4.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -84,7 +84,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Across North Eastern Uganda's drylands, young Karamajong herders and women gather after harvest to leap toward one another in an exuberant courtship ritual.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -100,11 +100,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, alert vertical posture aligned for explosive upward propulsion.
 NARRATION: Torso held firm and upright to support elevation during vertical leaps.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -119,7 +119,6 @@ NARRATION: Drill: Stand facing an opposite partner at a distance of three meters
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Jump straight up off both feet, driving vertically into the air while keeping the torso upright and maintaining eye contact with the opposite line.
@@ -127,7 +126,6 @@ NARRATION: Step 4: Land softly on the balls of both feet with knees flexed, keep
 NARRATION: Drill: Practice rhythmic knee bounces and ankle pre-loading without leaving the floor.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -140,13 +138,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid stiff-legged landings or collapsing forward at the waist; ensure joint absorption on each descent.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform seated rhythmic torso lifts and alternating heel stomps to match the drum cadence, accompanied by forward-reaching courtship arm gestures. · For children: A mirror-jumping partner game where children face each other in two lines and take turns leading leaps while matching jump heights.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform seated rhythmic torso lifts and alternating heel stomps to match the drum cadence, accompanied by forward-reaching courtship arm gestures. · For children: A mirror-jumping partner game where children face each other in two lines and take turns leading leaps while matching jump heights. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -172,11 +170,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, alert vertical posture aligned for explosive upward propulsion.
 NARRATION: Torso held firm and upright to support elevation during vertical leaps.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -189,7 +187,6 @@ NARRATION: Drill: Perform two-foot vertical jumps focusing on upward spring rath
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: High courtship leap: A vigorous vertical jump performed while directly facing an opposing partner across the dancing lines.
@@ -197,7 +194,6 @@ NARRATION: Drill: Drill soft toe-to-heel landings with knee absorption to protec
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -210,13 +206,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid stiff-legged landings or collapsing forward at the waist; ensure joint absorption on each descent.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform seated rhythmic torso lifts and alternating heel stomps to match the drum cadence, accompanied by forward-reaching courtship arm gestures. · For children: A mirror-jumping partner game where children face each other in two lines and take turns leading leaps while matching jump heights.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform seated rhythmic torso lifts and alternating heel stomps to match the drum cadence, accompanied by forward-reaching courtship arm gestures. · For children: A mirror-jumping partner game where children face each other in two lines and take turns leading leaps while matching jump heights. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Two opposing linear ranks positioned facing each other in an open communal space.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -241,11 +237,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, alert vertical posture aligned for explosive upward propulsion.
 NARRATION: Torso held firm and upright to support elevation during vertical leaps.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -259,7 +255,6 @@ NARRATION: Drill: Execute facing jumps while mirroring the elevation timing of t
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: High courtship leap: A vigorous vertical jump performed while directly facing an opposing partner across the dancing lines.
@@ -267,7 +262,6 @@ NARRATION: Drill: Incorporate advancing steps for lead dancers to establish part
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -280,13 +274,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid stiff-legged landings or collapsing forward at the waist; ensure joint absorption on each descent.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform seated rhythmic torso lifts and alternating heel stomps to match the drum cadence, accompanied by forward-reaching courtship arm gestures. · For children: A mirror-jumping partner game where children face each other in two lines and take turns leading leaps while matching jump heights.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform seated rhythmic torso lifts and alternating heel stomps to match the drum cadence, accompanied by forward-reaching courtship arm gestures. · For children: A mirror-jumping partner game where children face each other in two lines and take turns leading leaps while matching jump heights. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Two opposing linear ranks positioned facing each other in an open communal space.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -324,7 +318,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 5 tutorial(s) of the african-diaspora family studied · videos studied: 5
-Counting: 1-2-3-4
+Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: shift; slow; quick quick slow; rock step; left foot; right foot; step; touch; stomp off; push; make sure that you are wearing comfortable shoes; stand properly
 

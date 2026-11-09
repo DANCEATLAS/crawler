@@ -1,25 +1,31 @@
 {
- "generated_at": "2026-11-08T17:22:54Z",
- "count": 1054,
- "with_hero": 922,
- "hero_qc_pass": 451,
- "deep_profiles": 217,
- "movie_ready": 67,
- "with_albums": 26,
- "with_images": 127,
- "with_tutorials": 67,
- "content_ready": 690,
- "new_from_pipeline": 150,
- "retired": 110,
+ "generated_at": "2026-11-09T21:46:56Z",
+ "count": 1047,
+ "with_hero": 913,
+ "hero_qc_pass": 456,
+ "deep_profiles": 223,
+ "movie_ready": 71,
+ "with_albums": 24,
+ "with_images": 132,
+ "with_tutorials": 90,
+ "content_ready": 687,
+ "new_from_pipeline": 155,
+ "retired": 122,
  "counters": {
-  "retired_by_audit": 110,
-  "new_rejected_hidden": 84,
-  "new_publish": 150,
-  "new_review_hidden": 55,
+  "retired_by_audit": 122,
+  "new_rejected_hidden": 92,
+  "new_publish": 155,
+  "new_review_hidden": 52,
   "existing_research_rejected": 25,
   "existing_reject": 25,
-  "existing_publish": 67,
-  "existing_review": 47
+  "existing_publish": 68,
+  "existing_review": 41
  },
- "pipeline": "v3.3"
+ "pipeline": "v3.3",
+ "research_gates": {
+  "unreviewed": 758,
+  "publish": 223,
+  "review": 41,
+  "reject": 25
+ }
 }

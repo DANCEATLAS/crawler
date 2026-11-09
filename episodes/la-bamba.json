@@ -1,11 +1,12 @@
 {
  "slug": "la-bamba",
  "name": "La Bamba",
- "pack_version": "e1",
- "built_at": "2026-11-03T03:27:49Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-10-31T16:06:57Z",
  "qc_score": 9.1,
  "status": "draft",
+ "release_status": "not_validated",
  "sacred": false,
  "chapters_note": null,
  "formula": {
@@ -205,7 +206,7 @@
     "duration_s": 25,
     "narration": [
      "Explore Veracruz’s iconic La Bamba, where vibrant footwork and improvised lyrics weave a living tradition of music, dance, and community.",
-     "Sources: 6 references, every claim checked against its source."
+     "Sources: 6 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -244,8 +245,7 @@
       "Straight and erect, similar to Irish jig dancers"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -278,7 +278,7 @@
       "Drill: Practice standing erect with straight posture"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -325,7 +325,7 @@
       "Avoid insulting improvised lyrics in social settings to prevent conflicts"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -390,8 +390,7 @@
       "Straight and erect, similar to Irish jig dancers"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -423,7 +422,7 @@
       "Drill: Increase stamping speed maintaining precision"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -470,7 +469,7 @@
       "Avoid insulting improvised lyrics in social settings to prevent conflicts"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -535,8 +534,7 @@
       "Straight and erect, similar to Irish jig dancers"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -568,7 +566,7 @@
       "Drill: Practice tying ribbon knot with feet smoothly"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -615,7 +613,7 @@
       "Avoid insulting improvised lyrics in social settings to prevent conflicts"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -654,7 +652,9 @@
   }
  ],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": "Binary meter",
   "rhythm_pattern": "Ostinato arpeggiated pattern supporting zapateado footwork",
@@ -752,29 +752,39 @@
   ]
  },
  "teaching_formula": {
-  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
-  "videos_studied": 0,
+  "source": "11 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 11,
   "counting": "count the Binary meter bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "front view, then back view (student's perspective)",
-   "slow, then half tempo, then full tempo",
-   "three repetitions of every step before moving on"
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
-   "say the count before the move",
-   "name the body part, then the direction",
-   "one correction at a time"
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "side side side side"
   ],
   "common_mistakes": [],
   "segment_order": [
-   "welcome",
-   "body",
-   "count",
-   "step",
-   "step",
-   "combine",
-   "mistakes",
-   "music",
+   "intro",
+   "context",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
    "recap"
   ],
   "steps_as_taught": []
@@ -797,5 +807,6 @@
  "claims_verified": 15,
  "claims": 15,
  "polished": false,
+ "input_fingerprint": "6d34191e95618f132058e57092125ccba484ed000a0813119b50556f17d3c835",
  "hero_checked": null
 }

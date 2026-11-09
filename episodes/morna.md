@@ -1,8 +1,8 @@
 # morna — episode pack
 
-*Status: draft · built 2026-11-03 · judge 10.0 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 4/4 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed); the costume & setting section; what to avoid / common mistakes
+**Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed); the costume & setting section; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A grounded Cape Verdean dance instructor emphasizing emotional connection and rhythmic listening over rigid footwork.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Sound of Saudade: Decoding Cape Verde's Morna
 NARRATION: This is morna. 18th to 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (aN8KsbFz3jE)
 ON SCREEN: Title card: morna · Cape Verde · 18th to 19th century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: As a dance the morna is a ballroom dance, danced in pairs.
 NARRATION: The performers dance with an arm embracing the partner, while with the other arm they hold hands.
 NARRATION: The dancing is made through two body swings to one side in a music's bar, while in the next bar the swinging is to the other side.
 NARRATION: Watch for The Two-Bar Body Swing.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (aN8KsbFz3jE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Ballroom dance, danced in pairs
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -84,7 +84,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the national ballroom dance of Cape Verde, where couples sway in slow, melancholic rhythm to songs of island departure and homecoming.
-NARRATION: Sources: 7 references, every claim checked against its source.
+NARRATION: Sources: 7 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -101,7 +101,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, closed partner embrace
 NARRATION: One arm embracing the partner, while with the other arm they hold hands
 NARRATION: Swinging movement of the body
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -116,7 +116,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Embrace partner with one arm and hold hands with the other
 NARRATION: Step 2: Sway the body twice to one side during the first musical bar
 NARRATION: Drill: Practice solo weight shifts to a slow 2-beat count
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 2-beat bar (sometimes 4) bar out loud, then in pairs of bars · repetitions: 3
@@ -138,8 +138,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the upper body sway and arm movements while seated in a stable chair. · For children: A mirror-sway game where children hold hands in pairs and sway together to a slow count.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the upper body sway and arm movements while seated in a stable chair. · For children: A mirror-sway game where children hold hands in pairs and sway together to a slow count. (options are derived teaching suggestions, not facts from the sources)
@@ -173,7 +172,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, closed partner embrace
 NARRATION: One arm embracing the partner, while with the other arm they hold hands
 NARRATION: Swinging movement of the body
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -187,7 +186,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Embrace partner with one arm and hold hands with the other
 NARRATION: Step 2: Sway the body twice to one side during the first musical bar
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 2-beat bar (sometimes 4) bar out loud, then in pairs of bars · repetitions: 3
@@ -209,8 +208,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the upper body sway and arm movements while seated in a stable chair. · For children: A mirror-sway game where children hold hands in pairs and sway together to a slow count.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the upper body sway and arm movements while seated in a stable chair. · For children: A mirror-sway game where children hold hands in pairs and sway together to a slow count. (options are derived teaching suggestions, not facts from the sources)
@@ -244,7 +242,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, closed partner embrace
 NARRATION: One arm embracing the partner, while with the other arm they hold hands
 NARRATION: Swinging movement of the body
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -258,7 +256,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Sway the body twice to one side during the first musical bar
 NARRATION: Step 2: Shift and sway the body twice to the opposite side during the second musical bar
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 2-beat bar (sometimes 4) bar out loud, then in pairs of bars · repetitions: 3
@@ -279,8 +277,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the upper body sway and arm movements while seated in a stable chair. · For children: A mirror-sway game where children hold hands in pairs and sway together to a slow count.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the upper body sway and arm movements while seated in a stable chair. · For children: A mirror-sway game where children hold hands in pairs and sway together to a slow count. (options are derived teaching suggestions, not facts from the sources)
@@ -316,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'aN8KsbFz3jE', 'checked_by_vision_model': False, 'title': 'Clip 9 (morna a par).'}
 Images: 1 licensed — Original uploader was Kotoviski at sv.wikipedia / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: File:-2 O Levezinho.webm — https://upload.wikimedia.org/wikipedia/commons/f/f1/-2_O_Levezinho.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:-4 O que é a LEV-.webm — https://upload.wikimedia.org/wikipedia/commons/6/62/-4_O_que_%C3%A9_a_LEV-.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:De Cesária até à BD, cabo-verdiano faz arte em sapatilhas.webm — https://upload.wikimedia.org/wikipedia/commons/9/9b/De_Ces%C3%A1ria_at%C3%A9_%C3%A0_BD%2C_cabo-verdiano_faz_arte_em_sapatilhas.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Morna Sodade na Praia Branca.webm — https://upload.wikimedia.org/wikipedia/commons/1/1b/Morna_Sodade_na_Praia_Branca.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Acoustic guitar strings vibrating under a thumb-led mãozada strum, Dancers swaying in pairs under dim lighting, Archival photographs of Cesária Évora performing on international stages
@@ -326,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 4 tutorial(s) of the ballroom-partner family studied · videos studied: 4
 Counting: count the 2-beat bar (sometimes 4) bar out loud, then in pairs of bars
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
+Cues: side close side; step and point; turn turn turn; replace; side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot
 
 Sources (7): https://en.wikipedia.org/wiki/Morna_(music); https://www.wikidata.org/wiki/Q502535; https://es.wikipedia.org/wiki/Morna; https://fr.wikipedia.org/wiki/Morna; https://pt.wikipedia.org/wiki/Morna; https://ich.unesco.org/en/RL/01469; https://archive.org/details/WWS_1932110201

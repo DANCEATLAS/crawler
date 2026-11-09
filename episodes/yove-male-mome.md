@@ -1,8 +1,8 @@
 # Yove male mome — episode pack
 
-*Status: draft · built 2026-11-07 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An exacting, warm Balkan dance master who makes asymmetric compound meters accessible through clear rhythmic chanting and solid belt-hold alignment.
@@ -81,7 +81,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Grasp neighbouring dancers firmly by the belt or link hands if belts are not available.
 NARRATION: Stand in an open circle or curved line facing slightly along the line of direction.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -89,7 +89,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how a complex Bulgarian village dance driven by an 18/16 meter travelled from the Shopluk region to dance halls around the world.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -104,11 +104,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Neighbouring dancers hold each other by the belt, or hold hands if belts are not available.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 18/16 (7/16 + 11/16).
+NARRATION: Count: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars. The meter is 18/16 (7/16 + 11/16).
 NARRATION: Rhythm pattern: 3+2+2 / 2+2+3+2+2 (SQQ-QQSQQ).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -124,7 +124,7 @@ NARRATION: Drill: Clap the 7/16 subdivision using slow-quick-quick (3-2-2).
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Execute the 7/16 sub-bar with a slow step on count 1 (three pulses) followed by two quick steps on counts 2 and 3 (two pulses each).
@@ -132,7 +132,7 @@ NARRATION: Step 4: Execute the 11/16 sub-bar with two quick steps on counts 1 an
 NARRATION: Drill: Clap the 11/16 subdivision using quick-quick-slow-quick-quick (2-2-3-2-2).
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -145,13 +145,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Breaking the belt hold or losing the asymmetric SQQ-QQSQQ rhythmic cadence.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the 3-2-2, 2-2-3-2-2 meter by tapping alternating feet on the floor while seated securely in a sturdy chair, holding hands with neighbours to maintain communal connection. · For children: Follow the Horse Leader: dancers hold hands in a snake line pretending to lead horses to water as in the folk song lyrics, matching foot stamps to the slow and quick counts.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 3-2-2, 2-2-3-2-2 meter by tapping alternating feet on the floor while seated securely in a sturdy chair, holding hands with neighbours to maintain communal connection. · For children: Follow the Horse Leader: dancers hold hands in a snake line pretending to lead horses to water as in the folk song lyrics, matching foot stamps to the slow and quick counts. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -176,11 +176,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Neighbouring dancers hold each other by the belt, or hold hands if belts are not available.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 18/16 (7/16 + 11/16).
+NARRATION: Count: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars. The meter is 18/16 (7/16 + 11/16).
 NARRATION: Rhythm pattern: 3+2+2 / 2+2+3+2+2 (SQQ-QQSQQ).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -194,7 +194,7 @@ NARRATION: Drill: Adopt the belt hold in an open line with neutral weight.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Belt-hold line travel: Fast collective progression through a curved line with dancers holding adjacent belts.
@@ -203,7 +203,7 @@ NARRATION: Drill: Step in place matching foot strikes to the SQQ-QQSQQ pattern.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -216,13 +216,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Breaking the belt hold or losing the asymmetric SQQ-QQSQQ rhythmic cadence.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the 3-2-2, 2-2-3-2-2 meter by tapping alternating feet on the floor while seated securely in a sturdy chair, holding hands with neighbours to maintain communal connection. · For children: Follow the Horse Leader: dancers hold hands in a snake line pretending to lead horses to water as in the folk song lyrics, matching foot stamps to the slow and quick counts.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 3-2-2, 2-2-3-2-2 meter by tapping alternating feet on the floor while seated securely in a sturdy chair, holding hands with neighbours to maintain communal connection. · For children: Follow the Horse Leader: dancers hold hands in a snake line pretending to lead horses to water as in the folk song lyrics, matching foot stamps to the slow and quick counts. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Curved line or open circle travelling as an ensemble.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -247,11 +247,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Neighbouring dancers hold each other by the belt, or hold hands if belts are not available.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 18/16 (7/16 + 11/16).
+NARRATION: Count: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars. The meter is 18/16 (7/16 + 11/16).
 NARRATION: Rhythm pattern: 3+2+2 / 2+2+3+2+2 (SQQ-QQSQQ).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -266,7 +266,7 @@ NARRATION: Drill: Rehearse pattern one and two transitions across four-bar cycle
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Belt-hold line travel: Fast collective progression through a curved line with dancers holding adjacent belts.
@@ -275,7 +275,7 @@ NARRATION: Drill: Build endurance through patterns three to five maintaining lin
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -288,13 +288,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Breaking the belt hold or losing the asymmetric SQQ-QQSQQ rhythmic cadence.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the 3-2-2, 2-2-3-2-2 meter by tapping alternating feet on the floor while seated securely in a sturdy chair, holding hands with neighbours to maintain communal connection. · For children: Follow the Horse Leader: dancers hold hands in a snake line pretending to lead horses to water as in the folk song lyrics, matching foot stamps to the slow and quick counts.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the 3-2-2, 2-2-3-2-2 meter by tapping alternating feet on the floor while seated securely in a sturdy chair, holding hands with neighbours to maintain communal connection. · For children: Follow the Horse Leader: dancers hold hands in a snake line pretending to lead horses to water as in the folk song lyrics, matching foot stamps to the slow and quick counts. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Curved line or open circle travelling as an ensemble.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -333,9 +333,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the folk-circle family studied · videos studied: 8
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; tuck your elbows into your sides
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (2): https://en.wikipedia.org/wiki/Yove_male_mome; https://www.wikidata.org/wiki/Q8059399

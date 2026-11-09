@@ -1,6 +1,6 @@
 # ballet-féerie — episode pack
 
-*Status: draft · built 2026-11-08 · judge 8.7 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-09 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
@@ -11,23 +11,23 @@
 ## Episode 1 · Meet ballet-féerie · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Step behind the curtain.
-NARRATION: This is ballet-féerie, from the 19th century.
+NARRATION: The Magic Behind the Curtain
+NARRATION: This is ballet-féerie. 19th century.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: ballet-féerie · Russia · 19th century
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: The ballet-féerie originates in Russia as a synthesis of the French féerie theatrical genre and the Italian ballo grande dance style.
-NARRATION: It evolves from a long history of European spectacle, including the Renaissance ballet de cour and 17th-century pièces à machines, which rely on the engineering of architects like Nicola Sabbatini.
-NARRATION: In the 19th century, these influences merge with the Russian interest in narrative ballet, creating a genre that prioritizes visual transformation and ensemble performance.
+NARRATION: The ballet-féerie originated in Russia as a synthesis of the French féerie theatrical genre and the Italian ballo grande dance style.
+NARRATION: It evolved from a long history of European spectacle, including the Renaissance ballet de cour and 17th-century pièces à machines, which relied on the engineering of architects like Nicola Sabbatini.
+NARRATION: In the 19th century, these influences merged with the Russian interest in narrative ballet, creating a genre that prioritized visual transformation and ensemble performance.
 ON SCREEN: Map: Russia · Europe
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: The ballet-féerie serves as a popular, often commercialized form of entertainment that aims to provide a dreamlike experience for the audience.
-NARRATION: It functions as a morality play, depicting the triumph of good over evil through the use of magic talismans and supernatural intervention.
+NARRATION: The ballet-féerie served as a popular, often commercialized form of entertainment that aimed to provide a 'dreamlike' experience for the audience.
+NARRATION: It functioned as a morality play, depicting the triumph of good over evil through the use of magic talismans and supernatural intervention.
 NARRATION: Today it is a historical tradition.
 ON SCREEN: Footage: The Nutcracker (https://archive.org/details/mecm-The_Nutcracker)
 MUSIC: underscore
@@ -49,23 +49,23 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Settings are defined by lavish, mechanically worked stage effects including trapdoors, smoke machines, and quickly changeable sets.
-NARRATION: Costumes are designed to be brilliant and dazzling, often representing supernatural creatures like gnomes, witches, and fairies to heighten the moral tone of the production.
+NARRATION: Settings were defined by lavish, mechanically worked stage effects including trapdoors, smoke machines, and quickly changeable sets.
+NARRATION: Costumes were designed to be brilliant and dazzling, often representing supernatural creatures like gnomes, witches, and fairies to heighten the moral tone of the production.
 ON SCREEN: Image gallery: 8 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 
 ### 7. The people (60 s) · `people`
 NARRATION: Pyotr Ilyich Tchaikovsky is the most significant figure associated with the genre, having composed The Sleeping Beauty and The Nutcracker within this framework.
-NARRATION: The genre originates in France as a theatrical fairy play, or féerie, before being adapted into the Russian ballet-féerie. Other variants include the English fairy extravaganza and the Spanish comedia de magia.
+NARRATION: The genre originated in France as a theatrical 'fairy play' (féerie) before being adapted into the Russian 'ballet-féerie.' Other variants include the English 'fairy extravaganza' and the Spanish 'comedia de magia.'
 NARRATION: The genre descends from the French féerie and the Italian ballo grande, serving as a precursor to modern spectacular stage productions.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Ballet-féerie is parent of féerie, the French theatrical genre that provides the name and narrative structure.
-NARRATION: Ballet-féerie is an influence of ballo grande, the Italian style that provides the dance characteristics.
+NARRATION: ballet-féerie is parent of féerie: The French theatrical genre that provided the name and narrative structure.
+NARRATION: ballet-féerie is influence of ballo grande: The Italian style that provided the dance characteristics.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
@@ -76,28 +76,27 @@ MUSIC: lesson_slow
 NEEDS: teaching steps
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Explore how the forgotten ballet-féerie genre gives birth to the world's most famous ballets.
-NARRATION: Sources include 3 references, with every claim checked against its source.
+NARRATION: Explore how the forgotten ballet-féerie genre gave birth to the world's most famous ballets.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
 ## Chapter 1 · First steps — the first steps of ballet-féerie · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 covers first steps. Today features the first steps of ballet-féerie.
-NARRATION: Level is beginner.
-NARRATION: Your instructor is a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes.
+NARRATION: Chapter 1 — First steps. Today: the first steps of ballet-féerie.
+NARRATION: Level: beginner. 
+NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet, so the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -108,31 +107,28 @@ NEEDS: tempo, meter
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Do Step A, then Step B, without stopping. Keep it slow first.
-NARRATION: Now shift to half tempo. Now full tempo.
-NARRATION: Mirror the instructor as they face you, so your right is your right.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
+NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -149,20 +145,19 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — the building the dance of ballet-féerie · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 covers building the dance. Today focuses on building the dance of ballet-féerie.
-NARRATION: Level is intermediate.
-NARRATION: Your instructor is a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes.
+NARRATION: Chapter 2 — Building the dance. Today: the building the dance of ballet-féerie.
+NARRATION: Level: intermediate. 
+NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet, so the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -173,31 +168,28 @@ NEEDS: tempo, meter
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Do Step A, then Step B, without stopping. Keep it slow first.
-NARRATION: Now shift to half tempo. Now full tempo.
-NARRATION: Mirror the instructor as they face you, so your right is your right.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
+NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -214,20 +206,19 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — the dancing it fully of ballet-féerie · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 covers dancing it fully. Today focuses on dancing ballet-féerie fully.
-NARRATION: Level is advanced.
-NARRATION: Your instructor is a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes.
+NARRATION: Chapter 3 — Dancing it fully. Today: the dancing it fully of ballet-féerie.
+NARRATION: Level: advanced. 
+NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet, so the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -238,31 +229,28 @@ NEEDS: tempo, meter
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Do Step A, then Step B, without stopping. Keep it slow first.
-NARRATION: Now shift to half tempo. Now full tempo.
-NARRATION: Mirror the instructor as they face you, so your right is your right.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
+NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -302,7 +290,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 3 tutorial(s) of the classical-court family studied · videos studied: 3
-Counting: 5-6-7-8
+Counting: 
 Demonstration: views used by most teachers: front, side; tempo progression: slow → full
 Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; hold your placement; stay straight as a board; lift up in your lower abs; change feet
 

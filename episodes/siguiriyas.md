@@ -1,8 +1,8 @@
 # siguiriyas — episode pack
 
-*Status: draft · built 2026-11-06 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); licensed reference footage; the costume & setting section; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the costume & setting section; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A rigorous flamenco historian emphasizing emotional gravity, historical respect, and rhythmic precision.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dark Heart of Flamenco
 NARRATION: This is siguiriyas. Late 18th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (xumQS4tDDdk)
 ON SCREEN: Title card: siguiriyas · Spain · Late 18th century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Introduced by Vicente Escudero in 1940, the dance is solemn, ceremoni
 NARRATION: The formal progression moves from a guitar and singer introduction to an entrada, initial letra, escobilla, second letra, danced falseta, and a final escobilla.
 NARRATION: Footwork and counter-rhythms interlock with the compás.
 NARRATION: Watch for Escobilla.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (xumQS4tDDdk)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo performance space focused on theatrical or traditional staging
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -87,7 +87,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover siguiriyas, the solemn cante jondo palo born from Romani heritage and driven by a haunting 12-beat compás.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -102,7 +102,7 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Solemn, ceremonious, and pausado
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -119,7 +119,7 @@ NARRATION: Step 1: Guitar and singer introduction
 NARRATION: Step 2: Entrada (ceremonious entrance)
 NARRATION: Footwork from the sources: Escobilla footwork creating interlocking counter-rhythms with the compás
 NARRATION: Drill: Clapping the 1, 3, 5, 8, 11 accent pattern
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 12-count compás bar out loud, then in pairs of bars · repetitions: 3
@@ -142,8 +142,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps · For children: Rhythmic clapping game following the 12-count accent pattern
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps · For children: Rhythmic clapping game following the 12-count accent pattern (options are derived teaching suggestions, not facts from the sources)
@@ -175,7 +174,7 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Solemn, ceremonious, and pausado
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -190,7 +189,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Danced falseta
 NARRATION: Drill: Stepping to the 6-6-11-6 verse meter
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 12-count compás bar out loud, then in pairs of bars · repetitions: 3
@@ -212,8 +211,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps · For children: Rhythmic clapping game following the 12-count accent pattern
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps · For children: Rhythmic clapping game following the 12-count accent pattern (options are derived teaching suggestions, not facts from the sources)
@@ -245,7 +243,7 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Solemn, ceremonious, and pausado
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -261,7 +259,7 @@ NEEDS: tempo
 NARRATION: Step 1: Escobilla (footwork section)
 NARRATION: Step 2: Danced falseta
 NARRATION: Drill: Executing the ceremonious entrada
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 12-count compás bar out loud, then in pairs of bars · repetitions: 3
@@ -283,8 +281,7 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps · For children: Rhythmic clapping game following the 12-count accent pattern
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps · For children: Rhythmic clapping game following the 12-count accent pattern (options are derived teaching suggestions, not facts from the sources)
@@ -320,7 +317,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'xumQS4tDDdk', 'checked_by_vision_model': False, 'title': 'Antonio Gades y Cristina Hoyos (baile) Seguiriyas'}
 Images: 2 licensed — Enrique_morente_3353510495_26547d0a8c_o.jpg: alterna2 https://www.alterna2.com/
 derivative work: Kadellar (talk) / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); TheEaterofCorn / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
@@ -331,9 +328,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 23 tutorials across the atlas studied · videos studied: 23
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
 Counting: count the 12-count compás bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; side close side; step and point; turn turn turn; replace; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (5): https://en.wikipedia.org/wiki/Siguiriyas; https://www.wikidata.org/wiki/Q2339999; https://es.wikipedia.org/wiki/Seguiriya; https://fr.wikipedia.org/wiki/Seguiriya; https://de.wikipedia.org/wiki/Seguiriya

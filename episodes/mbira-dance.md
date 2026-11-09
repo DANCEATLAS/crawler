@@ -1,6 +1,6 @@
 # Mbira Dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-04 · judge 8.7 · 8/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 8.7 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; the how-it-is-danced section; the costume & setting section
 
@@ -81,7 +81,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore how the Shona people of Zimbabwe use the mbira and dance to bridge worlds and summon ancestral spirits.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -110,9 +110,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorials across the atlas studied · videos studied: 13
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
 Counting: count the polyrhythmic, layered interlocking patterns bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; punch to the side; pull your head down; pivot them on your elbows; left foot; right foot
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (2): https://en.wikipedia.org/wiki/Dance_in_Zimbabwe; https://www.wikidata.org/wiki/Q5215254

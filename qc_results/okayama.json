@@ -1,0 +1,120 @@
+{
+ "slug": "okayama",
+ "qc_at": "2026-11-09T21:24:23Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.8,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Okayama"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "77"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "162"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Okayama is a single surviving kōwaka-mai manuscript from the Muromachi period, t"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "513"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2010"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,occasions_and_meaning,notable_figures,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Japan"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ceremon', 'religious', 'monk']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and well-researched based on the provided evidence. While it lacks practical teaching value due to the loss of performance techniques, it correctly identifies this as a historical literary/dramatic tradition rather than a living dance practice, despite the 'living' status tag in the source JSON."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sacred_handled",
+  "judge_score=8.8",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-09T20:16:53Z"
+}

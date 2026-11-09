@@ -1,6 +1,6 @@
 # Ayyalah (Al-Ayyala) — episode pack
 
-*Status: draft · built 2026-11-07 · judge 8.5 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-09 · judge 8.5 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; what to avoid / common mistakes
 
@@ -11,7 +11,7 @@
 ## Episode 1 · Meet Ayyalah (Al-Ayyala) · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The rhythm of the desert: the Ayyalah.
+NARRATION: The Rhythm of the Desert: The Ayyalah
 NARRATION: This is Ayyalah (Al-Ayyala). Traditional.
 ON SCREEN: Hero video, first 10 seconds (k8DfMKNWBCE)
 ON SCREEN: Title card: Ayyalah (Al-Ayyala) · Oman/UAE · Traditional
@@ -36,7 +36,7 @@ MUSIC: underscore
 NARRATION: The dance involves two rows of men facing each other.
 NARRATION: Participants carry bamboo sticks, swords, or rifles.
 NARRATION: They move their heads and sticks synchronously with the drum rhythm while hopping from one foot to another.
-NARRATION: Watch for Naash, stick movement.
+NARRATION: Watch for Naash, Stick movement.
 ON SCREEN: Hero video full screen, 30–45 s (k8DfMKNWBCE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Two rows of dancers facing each other.
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand in two parallel rows facing the opposite line.
 NARRATION: Hold a bamboo stick in the right hand.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -86,7 +86,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the Ayyalah, a powerful Gulf tradition that turns the history of tribal battle into a rhythmic celebration of unity.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -102,12 +102,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, facing the opposite row.
 NARRATION: Holding sticks, swords, or rifles; moving them up and down synchronously.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Seven-tone irregular repeated pattern.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -120,10 +119,9 @@ NARRATION: Step 1: Stand in two parallel rows facing the opposite line.
 NARRATION: Step 2: Hold a bamboo stick in the right hand.
 NARRATION: Footwork from the sources: Hopping from one foot to another.
 NARRATION: Drill: Rhythmic tapping with a stick.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Synchronize head and stick movements with the drum beat.
@@ -131,7 +129,6 @@ NARRATION: Step 4: Hop lightly from one foot to the other in time with the rhyth
 NARRATION: Drill: Synchronizing movement with a drum beat.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -142,22 +139,21 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the stick movements while seated, focusing on arm and wrist rhythm. · For children: A rhythmic game using bamboo sticks to tap out the beat.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the stick movements while seated, focusing on arm and wrist rhythm. · For children: A rhythmic game using bamboo sticks to tap out the beat. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Master the basic rhythmic stick movement.
+NARRATION: You can now: Master the basic rhythmic stick movement..
 NARRATION: Performed for weddings, national holidays, state visits, and football matches.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
@@ -176,12 +172,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, facing the opposite row.
 NARRATION: Holding sticks, swords, or rifles; moving them up and down synchronously.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Seven-tone irregular repeated pattern.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -193,10 +188,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Stand in two parallel rows facing the opposite line.
 NARRATION: Step 2: Hold a bamboo stick in the right hand.
 NARRATION: Drill: Hopping from foot to foot in time.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Synchronize head and stick movements with the drum beat.
@@ -207,7 +201,6 @@ NARRATION: Drill: Adding head movement to the stick rhythm.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -218,22 +211,21 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the stick movements while seated, focusing on arm and wrist rhythm. · For children: A rhythmic game using bamboo sticks to tap out the beat.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the stick movements while seated, focusing on arm and wrist rhythm. · For children: A rhythmic game using bamboo sticks to tap out the beat. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Two rows of dancers facing each other.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Coordinate footwork and stick movement.
+NARRATION: You can now: Coordinate footwork and stick movement..
 NARRATION: The lead performer is typically an inherited role responsible for training other dancers.
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
@@ -252,12 +244,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, facing the opposite row.
 NARRATION: Holding sticks, swords, or rifles; moving them up and down synchronously.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Seven-tone irregular repeated pattern.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -268,10 +259,9 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Synchronize head and stick movements with the drum beat.
 NARRATION: Step 2: Hop lightly from one foot to the other in time with the rhythm.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Naash: Women tossing their long hair from side to side.
@@ -279,7 +269,6 @@ NARRATION: Stick movement: Moving bamboo sticks up and down synchronously with t
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -290,22 +279,21 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the stick movements while seated, focusing on arm and wrist rhythm. · For children: A rhythmic game using bamboo sticks to tap out the beat.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the stick movements while seated, focusing on arm and wrist rhythm. · For children: A rhythmic game using bamboo sticks to tap out the beat. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Two rows of dancers facing each other.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: The dancing it fully of Ayyalah (Al-Ayyala).
+NARRATION: You can now: the dancing it fully of Ayyalah (Al-Ayyala).
 NARRATION: The dance descends from Bedouin tribal war traditions and pearl diving celebrations.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
@@ -335,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 28 tutorials across the atlas studied · videos studied: 28
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; side close side; step and point; turn turn turn; replace; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (3): https://en.wikipedia.org/wiki/Yowlah; https://www.wikidata.org/wiki/Q12213610; https://it.wikipedia.org/wiki/Yowlah

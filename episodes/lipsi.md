@@ -1,6 +1,6 @@
 # Lipsi — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage
 
@@ -87,7 +87,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: How East Germany invented a communist partner dance in 1959 to immunize its youth against rock and roll, sparking street protests and swift crackdowns.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -104,8 +104,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Classic ballroom dance posture
 NARRATION: Classic partner dance hold, transitioning into promenade positions
 NARRATION: Controlled torso movements avoiding Western rock and roll gyrations
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -121,7 +120,7 @@ NARRATION: Step 1: Step with the left foot to the left
 NARRATION: Step 2: Tap with the right foot to the left
 NARRATION: Footwork from the sources: Step left, tap right, step right, tap left, step left, step right to close
 NARRATION: Drill: Step left, tap right solo footwork drill
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 6/4 bar out loud, then in pairs of bars · repetitions: 3
@@ -145,7 +144,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Western rock and roll gyrations and individual improvisation
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -176,8 +175,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Classic ballroom dance posture
 NARRATION: Classic partner dance hold, transitioning into promenade positions
 NARRATION: Controlled torso movements avoiding Western rock and roll gyrations
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -192,7 +190,7 @@ NEEDS: tempo
 NARRATION: Step 1: Step with the left foot to the left
 NARRATION: Step 2: Step with the right foot to the left to close the feet
 NARRATION: Drill: Establishing closed partner frame
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 6/4 bar out loud, then in pairs of bars · repetitions: 3
@@ -216,7 +214,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Western rock and roll gyrations and individual improvisation
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -247,8 +245,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Classic ballroom dance posture
 NARRATION: Classic partner dance hold, transitioning into promenade positions
 NARRATION: Controlled torso movements avoiding Western rock and roll gyrations
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -263,7 +260,7 @@ NEEDS: tempo
 NARRATION: Step 1: Step with the left foot to the left
 NARRATION: Step 2: Step with the right foot to the left to close the feet
 NARRATION: Drill: Partner separation and positioning drill
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 6/4 bar out loud, then in pairs of bars · repetitions: 3
@@ -287,7 +284,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Western rock and roll gyrations and individual improvisation
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -330,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 4 tutorial(s) of the ballroom-partner family studied · videos studied: 4
 Counting: count the 6/4 bar out loud, then in pairs of bars
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
+Cues: side close side; step and point; turn turn turn; replace; side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot
 
 Sources (3): https://en.wikipedia.org/wiki/Lipsi_(dance); https://www.wikidata.org/wiki/Q1411395; https://de.wikipedia.org/wiki/Lipsi_(Tanz)

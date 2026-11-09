@@ -1,8 +1,8 @@
 # soukous — episode pack
 
-*Status: draft · built 2026-11-03 · judge 10.0 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 4/4 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): the hero video's vision check; licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic, rhythmic, and culturally grounded.
@@ -84,7 +84,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the electric energy of soukous, the dance that turned Congolese rumba into a global phenomenon.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -101,8 +101,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright and relaxed, allowing for fluid hip movement.
 NARRATION: Fluid, expressive movements often following the rhythm of the guitar.
 NARRATION: Central focus; rapid, rhythmic hip swaying and isolation.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -118,7 +117,7 @@ NARRATION: Step 1: Rhythmic hip swaying
 NARRATION: Step 2: Weight shifting between legs
 NARRATION: Footwork from the sources: Small, rapid steps shifting weight between legs.
 NARRATION: Drill: Side-to-side weight shift
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -141,7 +140,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rigid, static posture; ensure hip movement is fluid.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -172,8 +171,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright and relaxed, allowing for fluid hip movement.
 NARRATION: Fluid, expressive movements often following the rhythm of the guitar.
 NARRATION: Central focus; rapid, rhythmic hip swaying and isolation.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -188,7 +186,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Rhythmic hip swaying
 NARRATION: Step 2: Weight shifting between legs
 NARRATION: Drill: Increasing tempo
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -213,7 +211,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rigid, static posture; ensure hip movement is fluid.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -244,8 +242,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright and relaxed, allowing for fluid hip movement.
 NARRATION: Fluid, expressive movements often following the rhythm of the guitar.
 NARRATION: Central focus; rapid, rhythmic hip swaying and isolation.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -260,7 +257,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Weight shifting between legs
 NARRATION: Step 2: Small, rapid foot steps
 NARRATION: Drill: Rapid weight transitions
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -283,7 +280,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rigid, static posture; ensure hip movement is fluid.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -326,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 5 tutorial(s) of the african-diaspora family studied · videos studied: 5
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: shift; slow; quick quick slow; rock step; left foot; right foot; step; touch; stomp off; push; make sure that you are wearing comfortable shoes; stand properly
 
 Sources (5): https://en.wikipedia.org/wiki/Soukous; https://www.wikidata.org/wiki/Q1752683; https://es.wikipedia.org/wiki/Soukous; https://fr.wikipedia.org/wiki/Soukous; https://de.wikipedia.org/wiki/Soukous

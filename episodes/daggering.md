@@ -1,8 +1,8 @@
 # daggering — episode pack
 
-*Status: draft · built 2026-11-03 · judge 8.4 · 8/8 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-09 · judge 8.4 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; licensed images (3 needed); the how-it-is-danced section
+**Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned dancehall dancer with deep knowledge of Jamaican culture and respect for daggering’s controversies
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Daggering: Jamaica’s Controversial Dancehall Dance
 NARRATION: This is daggering. 21st century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (N-be-bEdb48)
 ON SCREEN: Title card: daggering · Jamaica · 21st century
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Crotch Thrust, Reverse Thrust.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (N-be-bEdb48)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: face-to-face or side-by-side close partner dancing
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand facing partner in close proximity
 NARRATION: Male dancer thrusts crotch area into female dancer's buttocks
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -87,7 +87,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the rise, rhythm, and controversy of daggering, a sexually explicit Jamaican dance that shook dancehall culture.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -104,11 +104,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: close partner stance with open, suggestive positioning
 NARRATION: frequent partner contact, including female dancer's brief grasp of clothed genital area
 NARRATION: frantic, forceful pelvic thrusts simulating intercourse
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -119,10 +119,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Stand facing partner in close proximity
 NARRATION: Step 2: Male dancer thrusts crotch area into female dancer's buttocks
 NARRATION: Drill: Stand close to partner maintaining open posture
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Alternate with female dancer thrusting into male dancer
@@ -130,7 +129,6 @@ NARRATION: Step 4: Incorporate frantic, energetic body movements
 NARRATION: Drill: Practice male crotch thrust into partner’s buttocks slowly
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -143,11 +141,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: attempting vigorous moves without caution due to risk of injury
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -174,11 +172,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: close partner stance with open, suggestive positioning
 NARRATION: frequent partner contact, including female dancer's brief grasp of clothed genital area
 NARRATION: frantic, forceful pelvic thrusts simulating intercourse
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -188,10 +186,9 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Maintain open dance posture with frequent partner contact
 NARRATION: Drill: Add brief partner hand grasp on clothed genital area
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Crotch Thrust: Male dancer thrusts crotch into female dancer's buttocks
@@ -200,7 +197,6 @@ NARRATION: Drill: Practice alternating thrusts with partner
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -213,11 +209,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: attempting vigorous moves without caution due to risk of injury
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: face-to-face or side-by-side close partner dancing
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -244,11 +240,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: close partner stance with open, suggestive positioning
 NARRATION: frequent partner contact, including female dancer's brief grasp of clothed genital area
 NARRATION: frantic, forceful pelvic thrusts simulating intercourse
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -259,10 +255,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Incorporate frantic, energetic body movements
 NARRATION: Step 2: Maintain open dance posture with frequent partner contact
 NARRATION: Drill: Combine all previous drills fluidly
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Crotch Thrust: Male dancer thrusts crotch into female dancer's buttocks
@@ -271,7 +266,6 @@ NARRATION: Drill: Add personal style and improvisation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -284,11 +278,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: attempting vigorous moves without caution due to risk of injury
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: face-to-face or side-by-side close partner dancing
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -317,7 +311,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Daggering is performed in dancehall settings such as clubs and parties where dancehall music is played. Costumes are typical of dancehall culture, often casual and revealing, supporting the dance's explicit nature.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'N-be-bEdb48', 'checked_by_vision_model': False, 'title': 'Crazy daggering'}
 Images: 0 licensed
 Footage: jamaican daggering shelly belly — https://archive.org/details/y-2mate.is-yaga-saga-raga-shelly-belly-dhq-aga-dancing-behind-the-scene-yp-svsco; Equiknoxx and Shanique Marie Lecture (Berlin, 2018) | Red Bull Music Academy — https://archive.org/details/youtube-EviyCGcx5AU
 Motifs: close partner contact, dancehall club lighting, energetic pelvic thrusts, music video clips, Jamaican flags
@@ -327,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the african-diaspora family studied · videos studied: 2
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back; tempo progression: slow → full
-Cues: 5-6-7-8-hold; lets build it up; now put them together; stomp spank step; stomp spank ball change; step toe step hop step hop out in; stomp heel stomp heel
+Source: 5 tutorial(s) of the african-diaspora family studied · videos studied: 5
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: shift; slow; quick quick slow; rock step; left foot; right foot; step; touch; stomp off; push; make sure that you are wearing comfortable shoes; stand properly
 
 Sources (3): https://en.wikipedia.org/wiki/Daggering; https://www.wikidata.org/wiki/Q1157220; https://de.wikipedia.org/wiki/Daggering

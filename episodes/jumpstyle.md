@@ -1,8 +1,8 @@
 # Jumpstyle — episode pack
 
-*Status: draft · built 2026-11-04 · judge 9.25 · 9/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.25 · 9/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic European jumpstyle dancer with competition experience and social media presence
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Jumpstyle: Europe's High-Energy Dance Revolution
 NARRATION: This is Jumpstyle. Late 1990s to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (iWRolPgp9JY)
 ON SCREEN: Title card: Jumpstyle · Belgium, Netherlands · Late 1990s to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Jumpstyle dance, called jumpen, involves energetic jumps, fast kicks,
 NARRATION: Dancers keep a stiff upper body and focus movement in their legs.
 NARRATION: Variants include oldschool (simple 5-touch steps), hardjump (6-touch steps with faster tempo), sidejump (more rotations, less popular), hardfreestyle (blend of hardjump and sidejump), and ownstyle (innovative, incorporating spins and influences from hip-hop and ballet).
 NARRATION: Watch for Basic 5-touch step, Spin, Duo-kick.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (iWRolPgp9JY)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Danced solo, duo side-by-side or facing, or in synchronized groups
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -91,7 +91,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore jumpstyle's rise from Belgian clubs to global online communities through its music and signature jumps.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -108,7 +108,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Relatively stiff upper body with slight knee bend for jumps
 NARRATION: Used mainly for balance, generally kept controlled and close to body
 NARRATION: Minimal torso movement, hips follow leg kicks subtly
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -148,7 +148,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid uncoordinated foot contact with others except in duo-kick; maintain balance to prevent injury
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: For children: simplified step-and-kick game with counting
 MUSIC: silence
 OPTIONS: For children: simplified step-and-kick game with counting (options are derived teaching suggestions, not facts from the sources)
@@ -181,7 +181,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Relatively stiff upper body with slight knee bend for jumps
 NARRATION: Used mainly for balance, generally kept controlled and close to body
 NARRATION: Minimal torso movement, hips follow leg kicks subtly
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -220,7 +220,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid uncoordinated foot contact with others except in duo-kick; maintain balance to prevent injury
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: For children: simplified step-and-kick game with counting
 MUSIC: silence
 OPTIONS: For children: simplified step-and-kick game with counting (options are derived teaching suggestions, not facts from the sources)
@@ -253,7 +253,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Relatively stiff upper body with slight knee bend for jumps
 NARRATION: Used mainly for balance, generally kept controlled and close to body
 NARRATION: Minimal torso movement, hips follow leg kicks subtly
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -293,7 +293,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid uncoordinated foot contact with others except in duo-kick; maintain balance to prevent injury
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: For children: simplified step-and-kick game with counting
 MUSIC: silence
 OPTIONS: For children: simplified step-and-kick game with counting (options are derived teaching suggestions, not facts from the sources)
@@ -328,7 +328,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'iWRolPgp9JY', 'checked_by_vision_model': False, 'title': 'JumpStyle HardJump Shuffle @ Berlin HardStyle Germany'}
 Images: 0 licensed
 Footage: File:JumpStyle HardJump Shuffle oblivion doprigalsa vizhit siemka.webm — https://upload.wikimedia.org/wikipedia/commons/f/fa/JumpStyle_HardJump_Shuffle_oblivion_doprigalsa_vizhit_siemka.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; jumpstyle — https://archive.org/details/jumpstyle_202306; Jump-Tonic - The Best Electro Dance Videoclips — https://archive.org/details/jump-tonic-the-best-electro-dance-videoclips-dvd-1196561495; Jeckyll & Hyde | Jumpstyle - La Danse Macabre — https://archive.org/details/youtube-cRHdqxcKY1M; Jumpstyle Tutorial ( English) — https://archive.org/details/jumpstyle-tutorial-english_202401
 Motifs: fast foot kicks, spinning dancers, group synchrony, club lighting, 909 kick drum visuals
@@ -338,9 +338,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorials across the atlas studied · videos studied: 13
+Source: 40 tutorials across the atlas studied · videos studied: 40
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; punch to the side; pull your head down; pivot them on your elbows; left foot; right foot
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: side close side; rock step; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; and one and three and five and seven; keep your feet together; relax your knees; step and point; turn turn turn; replace
 
 Sources (5): https://en.wikipedia.org/wiki/Jumpstyle; https://www.wikidata.org/wiki/Q389631; https://es.wikipedia.org/wiki/Jumpstyle; https://fr.wikipedia.org/wiki/Jumpstyle; https://de.wikipedia.org/wiki/Jumpstyle

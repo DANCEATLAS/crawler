@@ -1,8 +1,8 @@
 # go-go dancing — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; the how-it-is-danced section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; the how-it-is-danced section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic dance historian
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Cage and the Beat
 NARRATION: This is go-go dancing. 1960s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (79DcpO0_4-U)
 ON SCREEN: Title card: go-go dancing · United States · 1960s
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Twist.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (79DcpO0_4-U)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Stages, tables, platforms, or suspended cages
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -72,7 +72,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Hully Gully
 NARRATION: Hitch Hike
-NARRATION: Count it: 1-2-3-4-5-6.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -80,7 +80,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: A look at the rise of the go-go dancer from a French seaside bar to the center of 1960s pop culture.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -95,11 +95,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright and energetic
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -111,16 +111,14 @@ NARRATION: Step 1: Hully Gully
 NARRATION: Step 2: Hitch Hike
 NARRATION: Footwork from the sources: Twist, Monkey, Watusi, Hully Gully, Hitch Hike
 NARRATION: Drill: Twist practice
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Monkey step drill
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -132,15 +130,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Arm movements and torso twists performed while seated. · For children: Freeze dance game using 1960s music.
 MUSIC: silence
 OPTIONS: Seated or supported option: Arm movements and torso twists performed while seated. · For children: Freeze dance game using 1960s music. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -165,11 +162,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright and energetic
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -179,17 +176,15 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Hully Gully
 NARRATION: Step 2: Hitch Hike
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Twist: A dance move popular in the 1960s.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -200,15 +195,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Arm movements and torso twists performed while seated. · For children: Freeze dance game using 1960s music.
 MUSIC: silence
 OPTIONS: Seated or supported option: Arm movements and torso twists performed while seated. · For children: Freeze dance game using 1960s music. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Stages, tables, platforms, or suspended cages
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -233,11 +227,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright and energetic
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -247,17 +241,15 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Hully Gully
 NARRATION: Step 2: Hitch Hike
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Twist: A dance move popular in the 1960s.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -268,15 +260,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Arm movements and torso twists performed while seated. · For children: Freeze dance game using 1960s music.
 MUSIC: silence
 OPTIONS: Seated or supported option: Arm movements and torso twists performed while seated. · For children: Freeze dance game using 1960s music. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Stages, tables, platforms, or suspended cages
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -305,7 +296,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers often wear mini skirts, fringed dresses, and knee-high vinyl go-go boots. Settings include stages, tables, platforms, and suspended cages.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '79DcpO0_4-U', 'checked_by_vision_model': False, 'title': 'How to Gogo Dance + Performance Tips'}
 Images: 4 licensed — Ctjf83 / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Peter Chiapperino: a concert photographer in Lexington, Kentucky / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Peter Chiapperino: a concert photographer in Lexington, Kentucky / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Bahnfrend / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Funny or Die Video 1c0b5cfb1b: Halloween Night 2007 — https://archive.org/details/funny_or_die_video_1c0b5cfb1b; DNA Lounge: Day Walkers: 90s-to-Now Day Party (2026-03-29c) — https://archive.org/details/DNALOUNGE-VIDEO-2026-03-29c
 Motifs: Go-go boots, Glass cages, Fringed skirts
@@ -315,9 +306,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of the street-urban family studied · videos studied: 1
-Counting: 1-2-3-4-5-6
-Demonstration: views used by most teachers: front; tempo progression: slow → full
-Cues: punch to the side; pull your head down; pivot them on your elbows
+Source: 9 tutorial(s) of the street-urban family studied · videos studied: 9
+Counting: 
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; punch to the side; pull your head down; pivot them on your elbows; swing stop; lean forward; arm up; elbow up; up and down
 
 Sources (5): https://en.wikipedia.org/wiki/Go-go_dancing; https://www.wikidata.org/wiki/Q862488; https://es.wikipedia.org/wiki/Gogó; https://fr.wikipedia.org/wiki/Go-go_dancing; https://pt.wikipedia.org/wiki/Go-go_dancing

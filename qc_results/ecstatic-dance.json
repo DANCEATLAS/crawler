@@ -1,0 +1,130 @@
+{
+ "slug": "ecstatic-dance",
+ "qc_at": "2026-11-09T21:24:29Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 7.8,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Ecstatic dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "82"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "132"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the 1970s, Gabrielle Roth revived ecstatic dance with her 5Rhythms practice, "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "518"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2701"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage,sacred_note,teaching,music_profile,movement_profile,episo"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "0/0 rate=0.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "region",
+   "ok": false,
+   "detail": "None"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "primitive"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'shaman', 'trance', 'possession', 'god', 'goddess', 'worship', 'spirit', 'sufi', 'dervish']"
+  }
+ ],
+ "judge": {
+  "accuracy": 7,
+  "respect": 8,
+  "specificity": 8,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that Grete Wiesenthal transformed the Viennese Waltz into ecstatic performance is historically inaccurate; her style was a specific expressionist balletic form, not a precursor to modern ecstatic dance.",
+   "The assertion that biblical texts describe ecstatic dances involving self-inflicted wounds is a misinterpretation of specific prophetic or ritualistic contexts and conflates disparate historical phenomena."
+  ],
+  "harm_or_disrespect": [
+   "The profile risks essentialism by grouping diverse, culturally specific ancient and global traditions under the umbrella of 'ecstatic dance' to validate a modern Western movement practice."
+  ],
+  "duplicate_suspicion": "5Rhythms",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-structured and provides excellent pedagogical value for beginners. However, it conflates modern Western 'Ecstatic Dance' (a specific movement culture) with ancient global ritual practices, which is a common but problematic framing. The historical references to Grete Wiesenthal and biblical self-harm are unsupported and should be removed for better accuracy."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "country",
+  "region",
+  "sacred_handled",
+  "judge_score=7.8",
+  "doubts=2",
+  "harm",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 0,
+  "supported": 0,
+  "rate": 0.0
+ },
+ "researched_at": "2026-11-09T20:22:22Z"
+}

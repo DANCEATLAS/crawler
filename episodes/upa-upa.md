@@ -1,6 +1,6 @@
 # 'upa'upa — episode pack
 
-*Status: draft · built 2026-11-07 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage
 
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand barefoot with knees softly bent and weight grounded.
 NARRATION: Isolate the pelvis and thighs to initiate a rapid, whirling rotation of the knees, thighs, and lower back.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -87,7 +87,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Banned by missionaries and criminalized by codes, the sensual 'upa'upa survived in Tahiti's shadows before blossoming into modern Polynesian dance.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -104,11 +104,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Grounded, upright posture danced barefoot with softened knees to facilitate rapid lower-body oscillation.
 NARRATION: Gestures conveying pantomime and dramatic narrative, supporting the rhythmic movement of the body.
 NARRATION: Rapid, whirling movements of the thighs, knees, and loins/reins, accompanied by continuous shaking of the torso and whole body.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -120,10 +120,9 @@ NARRATION: Step 1: Stand barefoot with knees softly bent and weight grounded.
 NARRATION: Step 2: Isolate the pelvis and thighs to initiate a rapid, whirling rotation of the knees, thighs, and lower back.
 NARRATION: Footwork from the sources: Barefoot weight shifts maintaining grounded connection to the earth while supporting rapid knee and thigh movements.
 NARRATION: Drill: Barefoot parallel stance with deep knee bend and pelvic alignment.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Coordinate full-body shaking while maintaining grounded contact through the feet.
@@ -131,7 +130,6 @@ NARRATION: Step 4: Pair with a partner facing closely, syncing hip and thigh rot
 NARRATION: Drill: Slow rhythmic weight transfers from foot to foot.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -144,13 +142,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid stiff knees or isolated upper-body tension that disrupts the natural rotational mechanics of the pelvis.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform hip oscillations and upper-body expressive gestures while seated firmly on a sturdy armless chair with feet flat on the floor. · For children: Play a game where children dance slowly like gentle ocean waves and speed up their knee bounces when the drum beats faster, freezing in place on command.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip oscillations and upper-body expressive gestures while seated firmly on a sturdy armless chair with feet flat on the floor. · For children: Play a game where children dance slowly like gentle ocean waves and speed up their knee bounces when the drum beats faster, freezing in place on command. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -177,11 +175,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Grounded, upright posture danced barefoot with softened knees to facilitate rapid lower-body oscillation.
 NARRATION: Gestures conveying pantomime and dramatic narrative, supporting the rhythmic movement of the body.
 NARRATION: Rapid, whirling movements of the thighs, knees, and loins/reins, accompanied by continuous shaking of the torso and whole body.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -192,10 +190,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Stand barefoot with knees softly bent and weight grounded.
 NARRATION: Step 2: Isolate the pelvis and thighs to initiate a rapid, whirling rotation of the knees, thighs, and lower back.
 NARRATION: Drill: Slow circular rotations of the hips and knees on a steady beat.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Coordinate full-body shaking while maintaining grounded contact through the feet.
@@ -206,7 +203,6 @@ NARRATION: Drill: Speed increments matching flute-and-drum cadences.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -219,13 +215,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid stiff knees or isolated upper-body tension that disrupts the natural rotational mechanics of the pelvis.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform hip oscillations and upper-body expressive gestures while seated firmly on a sturdy armless chair with feet flat on the floor. · For children: Play a game where children dance slowly like gentle ocean waves and speed up their knee bounces when the drum beats faster, freezing in place on command.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip oscillations and upper-body expressive gestures while seated firmly on a sturdy armless chair with feet flat on the floor. · For children: Play a game where children dance slowly like gentle ocean waves and speed up their knee bounces when the drum beats faster, freezing in place on command. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Coupled pairs of boys and girls interacting in close proximity within an open communal space or garden.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -252,11 +248,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Grounded, upright posture danced barefoot with softened knees to facilitate rapid lower-body oscillation.
 NARRATION: Gestures conveying pantomime and dramatic narrative, supporting the rhythmic movement of the body.
 NARRATION: Rapid, whirling movements of the thighs, knees, and loins/reins, accompanied by continuous shaking of the torso and whole body.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -267,10 +263,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Coordinate full-body shaking while maintaining grounded contact through the feet.
 NARRATION: Step 2: Pair with a partner facing closely, syncing hip and thigh rotations in time with drum cadences.
 NARRATION: Drill: Facing partner drills maintaining eye contact and synchronized hip rotations.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Whirling of the reins: Rapid circular and vibrating movements of the pelvis, thighs, and knees.
@@ -279,7 +274,6 @@ NARRATION: Drill: Accelerando runs building tempo from slow cadence to peak spee
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -292,13 +286,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid stiff knees or isolated upper-body tension that disrupts the natural rotational mechanics of the pelvis.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform hip oscillations and upper-body expressive gestures while seated firmly on a sturdy armless chair with feet flat on the floor. · For children: Play a game where children dance slowly like gentle ocean waves and speed up their knee bounces when the drum beats faster, freezing in place on command.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform hip oscillations and upper-body expressive gestures while seated firmly on a sturdy armless chair with feet flat on the floor. · For children: Play a game where children dance slowly like gentle ocean waves and speed up their knee bounces when the drum beats faster, freezing in place on command. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Coupled pairs of boys and girls interacting in close proximity within an open communal space or garden.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -335,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 28 tutorials across the atlas studied · videos studied: 28
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; side close side; step and point; turn turn turn; replace; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (3): https://en.wikipedia.org/wiki/%27upa%27upa; https://www.wikidata.org/wiki/Q2804862; https://fr.wikipedia.org/wiki/'Upa_'upa

@@ -1,6 +1,6 @@
 # Semah, Alevi-Bektaşi ritual — episode pack
 
-*Status: withheld-chapters · built 2026-11-03 · judge 9.7 · 5/5 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 9.7 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; two or more connections
 
@@ -80,7 +80,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the sacred dance of the Alevi-Bektaşi, where movement becomes a bridge between the human soul and the divine.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -109,9 +109,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
 Counting: count the Aksak bar out loud, then in pairs of bars
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (5): https://en.wikipedia.org/wiki/Sama_(Sufism); https://www.wikidata.org/wiki/Q1437738; https://de.wikipedia.org/wiki/Semah; https://it.wikipedia.org/wiki/Semah; https://ich.unesco.org/en/RL/00384

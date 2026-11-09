@@ -1,8 +1,8 @@
 # Striptease — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.35 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.35 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced cabaret effeuilleuse and burlesque historian who balances sharp technical precision with charismatic theatrical flair.
@@ -86,7 +86,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore how an act of slow, theatrical undressing evolved from 1890s Parisian cabarets and American burlesque into a global dance phenomenon.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -103,7 +103,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Arched spine, lifted chest, and controlled balance allowing hands freedom to manipulate fastenings and fabric.
 NARRATION: Fluid, expressive arm framing around the head, neck, and torso, with precise fingers peeling fabric and hovering over bare skin.
 NARRATION: Continuous pelvic circles, deep hip rolls, burlesque bumps, grinds, and torso shimmies.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -119,7 +119,7 @@ NARRATION: Step 1: Stately strut across the floor while establishing unbroken ey
 NARRATION: Step 2: Torso and shoulder roll to loosen outer garments such as coats, capes, or jackets
 NARRATION: Footwork from the sources: Gliding theatrical walks, heel-to-toe struts, slow pivot turns, and grounded stances supporting hip movements.
 NARRATION: Drill: Practice 8-count slow heel-to-toe stage walking with hands resting on hips.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -143,7 +143,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Rushing garment removals; turning the act into hasty undressing rather than a theatrical dance of anticipation.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -174,7 +174,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Arched spine, lifted chest, and controlled balance allowing hands freedom to manipulate fastenings and fabric.
 NARRATION: Fluid, expressive arm framing around the head, neck, and torso, with precise fingers peeling fabric and hovering over bare skin.
 NARRATION: Continuous pelvic circles, deep hip rolls, burlesque bumps, grinds, and torso shimmies.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -189,7 +189,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Shimmy of the shoulders and bust to loosen chest fastenings or unfasten bodices
 NARRATION: Step 2: Strategic delay posture, using detached garments or hands to veil exposed body contours
 NARRATION: Drill: Execute the 4-count glove peel using opposite fingertips while maintaining an arched torso.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -215,7 +215,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Rushing garment removals; turning the act into hasty undressing rather than a theatrical dance of anticipation.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -246,7 +246,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Arched spine, lifted chest, and controlled balance allowing hands freedom to manipulate fastenings and fabric.
 NARRATION: Fluid, expressive arm framing around the head, neck, and torso, with precise fingers peeling fabric and hovering over bare skin.
 NARRATION: Continuous pelvic circles, deep hip rolls, burlesque bumps, grinds, and torso shimmies.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -261,7 +261,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Strategic delay posture, using detached garments or hands to veil exposed body contours
 NARRATION: Step 2: Transition down to a prop chair or floor level for slow leg extensions and stocking removal
 NARRATION: Drill: Descend gracefully to a seated chair position while sustaining leg extensions.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -286,7 +286,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Rushing garment removals; turning the act into hasty undressing rather than a theatrical dance of anticipation.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 3 tutorial(s) of the stage-contemporary family studied · videos studied: 3
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
+Cues: short verbal cue the teacher repeats  8 words; deep slow hip circles; hips to one side in little pulses; breathe in arms come up; roll through the spine; belly rolls both directions; knees to chest; straightening my legs; bringing my body up; bend both legs; opening my left arm; straightening my left leg
 
 Sources (5): https://en.wikipedia.org/wiki/Striptease; https://www.wikidata.org/wiki/Q152213; https://es.wikipedia.org/wiki/Striptease; https://fr.wikipedia.org/wiki/Striptease; https://pt.wikipedia.org/wiki/Striptease

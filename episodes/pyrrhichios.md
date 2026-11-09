@@ -1,8 +1,8 @@
 # Pyrrhichios — episode pack
 
-*Status: withheld-chapters · built 2026-11-07 · judge 8.95 · 5/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 8.95 · 5/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A rigorous classical historian with a background in movement reconstruction.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: In ancient Sparta, children began learning the Pyrrhichios at age five, turning simulated spear thrusts and dodges into a rigid martial education.
 NARRATION: This is Pyrrhichios. Antiquity.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (2AYrLtLW5bU)
 ON SCREEN: Title card: Pyrrhichios · Greece · Antiquity
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers wore full hoplite armor, carrying shields, spears, and helmet
 NARRATION: The choreography involved quick movements simulating the avoidance of blows and darts, attacking enemies, advancing, retreating, dropping to the ground as if wounded, and springing back up.
 NARRATION: It was performed as a solo, in dueling pairs facing each other, or in large circular groups by men, youths, boys, and occasionally women.
 NARRATION: Watch for hoplite combat simulation.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (2AYrLtLW5bU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: solo, facing pairs, or circular group formation
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -83,7 +83,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the ancient Greek war dance where soldiers and children practiced the lethal art of survival through rhythm.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -102,7 +102,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '2AYrLtLW5bU', 'checked_by_vision_model': False, 'title': 'Pyrrhichios Serra Pontic Dance'}
 Images: 1 licensed — Giovanni Dall'Orto / Wikimedia Commons / Attribution (Attribution)
 Footage: MISSING
 Motifs: bronze shields, red tunics, ancient aulos flutes
@@ -112,9 +112,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 28 tutorials across the atlas studied · videos studied: 28
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; side close side; step and point; turn turn turn; replace; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (5): https://en.wikipedia.org/wiki/Pyrrhichios; https://www.wikidata.org/wiki/Q3065041; https://es.wikipedia.org/wiki/Danza_pírrica; https://fr.wikipedia.org/wiki/Pyrrhique; https://it.wikipedia.org/wiki/Danza_pirrica

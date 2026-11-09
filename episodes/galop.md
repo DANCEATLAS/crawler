@@ -1,8 +1,8 @@
 # galop — episode pack
 
-*Status: draft · built 2026-11-03 · judge 10.0 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic, historically-informed dance teacher
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Closed ballroom position
 NARRATION: Slide to the right
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -86,7 +86,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the 19th-century dance that forced a fashion revolution and became the fastest craze in Europe.
-NARRATION: Sources: 8 references, every claim checked against its source.
+NARRATION: Sources: 8 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -103,12 +103,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, elegant ballroom posture with a firm hold.
 NARRATION: Closed ballroom position; in early versions, hands were held low.
 NARRATION: Stable torso with movement generated from the legs and feet.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 2/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
 NARRATION: Rhythm pattern: Steady, driving pulse emphasizing the first beat of the bar..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -121,10 +120,10 @@ NARRATION: Step 1: Closed ballroom position
 NARRATION: Step 2: Slide to the right
 NARRATION: Footwork from the sources: Lateral sliding steps (chassés) on alternate feet.
 NARRATION: Drill: Side-to-side weight transfer
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Close the left foot to the right
@@ -132,7 +131,7 @@ NARRATION: Step 4: Repeat with a springing motion
 NARRATION: Drill: The slide-close rhythm
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -144,11 +143,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid lifting feet too high or losing the rhythmic slide.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -175,12 +174,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, elegant ballroom posture with a firm hold.
 NARRATION: Closed ballroom position; in early versions, hands were held low.
 NARRATION: Stable torso with movement generated from the legs and feet.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 2/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
 NARRATION: Rhythm pattern: Steady, driving pulse emphasizing the first beat of the bar..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -192,10 +190,10 @@ NEEDS: tempo
 NARRATION: Step 1: Closed ballroom position
 NARRATION: Step 2: Slide to the right
 NARRATION: Drill: Partnered side-sliding
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Close the left foot to the right
@@ -205,7 +203,7 @@ NARRATION: Drill: Maintaining tempo
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -217,11 +215,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid lifting feet too high or losing the rhythmic slide.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circular or linear movement around the ballroom.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -248,12 +246,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, elegant ballroom posture with a firm hold.
 NARRATION: Closed ballroom position; in early versions, hands were held low.
 NARRATION: Stable torso with movement generated from the legs and feet.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 2/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
 NARRATION: Rhythm pattern: Steady, driving pulse emphasizing the first beat of the bar..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -265,10 +262,10 @@ NEEDS: tempo
 NARRATION: Step 1: Close the left foot to the right
 NARRATION: Step 2: Repeat with a springing motion
 NARRATION: Drill: Circular travel
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Galop step: A rapid slide followed by a closing of the feet.
@@ -276,7 +273,7 @@ NARRATION: Drill: Changing direction
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -288,11 +285,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid lifting feet too high or losing the rhythmic slide.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circular or linear movement around the ballroom.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -331,9 +328,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 4 tutorial(s) of the ballroom-partner family studied · videos studied: 4
+Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
+Cues: side close side; step and point; turn turn turn; replace; side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot
 
 Sources (8): https://en.wikipedia.org/wiki/Galop; https://www.wikidata.org/wiki/Q698092; https://es.wikipedia.org/wiki/Galop; https://fr.wikipedia.org/wiki/Galop_(danse); https://de.wikipedia.org/wiki/Galopp_(Tanz); https://archive.org/details/danceman067; https://archive.org/details/danceman093; https://archive.org/details/danceman186

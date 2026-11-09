@@ -1,6 +1,6 @@
 # Slängpolska — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.1 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.1 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; licensed images (3 needed); the occasions & meaning section; the costume & setting section; notable figures; what to avoid / common mistakes
 
@@ -73,7 +73,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. One long step
 NARRATION: Two short steps
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -81,7 +81,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the centrifugal spins and high-tempo tosses of Sweden's Slängpolska.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -96,12 +96,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Crossed hands outstretched with centrifugal force, or closer position holding partner's shoulders and arms
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 3/4 time (also 2/4 or 4/4 for free variants).
+NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (also 2/4 or 4/4 for free variants).
 NARRATION: Rhythm pattern: Sixteenth-note polska structure with four steps over three beats.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -114,17 +113,17 @@ NARRATION: Step 1: One long step
 NARRATION: Step 2: Two short steps
 NARRATION: Footwork from the sources: Four steps distributed over three beats: one long, two short, one long
 NARRATION: Drill: Step long, two short, one long on 3/4 time
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: One long step
 NARRATION: Drill: Practice weight distribution across equal beats
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -135,15 +134,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Seated upper-body hold and arm extensions mimicking the centrifugal spin without rotation. · For children: A partner game where children spin with outstretched arms, freeze on a clap, and find a new hold.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated upper-body hold and arm extensions mimicking the centrifugal spin without rotation. · For children: A partner game where children spin with outstretched arms, freeze on a clap, and find a new hold. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -167,12 +165,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Crossed hands outstretched with centrifugal force, or closer position holding partner's shoulders and arms
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 3/4 time (also 2/4 or 4/4 for free variants).
+NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (also 2/4 or 4/4 for free variants).
 NARRATION: Rhythm pattern: Sixteenth-note polska structure with four steps over three beats.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -184,10 +181,10 @@ NEEDS: tempo
 NARRATION: Step 1: One long step
 NARRATION: Step 2: Two short steps
 NARRATION: Drill: Crossed-hand centrifugal spinning with a partner
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: One long step
@@ -197,7 +194,7 @@ NARRATION: Drill: Spinning out, solo spin with a clap, and returning to hold
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -208,15 +205,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Seated upper-body hold and arm extensions mimicking the centrifugal spin without rotation. · For children: A partner game where children spin with outstretched arms, freeze on a clap, and find a new hold.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated upper-body hold and arm extensions mimicking the centrifugal spin without rotation. · For children: A partner game where children spin with outstretched arms, freeze on a clap, and find a new hold. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Stationary for two or four people, or traveling counterclockwise around the room periphery with clockwise rotation around an internal axis
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -240,12 +236,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Crossed hands outstretched with centrifugal force, or closer position holding partner's shoulders and arms
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 3/4 time (also 2/4 or 4/4 for free variants).
+NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4 time (also 2/4 or 4/4 for free variants).
 NARRATION: Rhythm pattern: Sixteenth-note polska structure with four steps over three beats.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -257,10 +252,10 @@ NEEDS: tempo
 NARRATION: Step 1: Two short steps
 NARRATION: Step 2: One long step
 NARRATION: Drill: Counterclockwise room navigation
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Centrifugal Spin: Spinning around a partner while holding crossed hands outstretched with centrifugal force
@@ -269,7 +264,7 @@ NARRATION: Drill: Adding the per-measure jump or lift during rotation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -280,15 +275,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Seated upper-body hold and arm extensions mimicking the centrifugal spin without rotation. · For children: A partner game where children spin with outstretched arms, freeze on a clap, and find a new hold.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated upper-body hold and arm extensions mimicking the centrifugal spin without rotation. · For children: A partner game where children spin with outstretched arms, freeze on a clap, and find a new hold. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Stationary for two or four people, or traveling counterclockwise around the room periphery with clockwise rotation around an internal axis
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -325,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the folk-circle family studied · videos studied: 2
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 1-2-3, 2-2-3 (three counts a bar)
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (2): https://en.wikipedia.org/wiki/Sl%C3%A4ngpolska; https://www.wikidata.org/wiki/Q7542473

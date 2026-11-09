@@ -1,8 +1,8 @@
 # Ekikibi — episode pack
 
-*Status: draft · built 2026-11-08 · judge 10.0 · 11/11 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 11/11 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A warm, authoritative Bakonzo cultural dancer and community leader who emphasizes ancestral respect, lyrical movement, and focused partner connection.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Fish of the Rwenzori
 NARRATION: This is Ekikibi. Centuries-old ancestral tradition.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (p3QuqlVw720)
 ON SCREEN: Title card: Ekikibi · Uganda · Centuries-old ancestral tradition
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance is performed by an ensemble usually consisting of four men 
 NARRATION: Performers execute rhythmic steps, vertical jumps, twists, and complete turns designed to mimic the agile motion of fish in water.
 NARRATION: As the concentric formations rotate, the dancers continuously exchange focused eye contact and expressive hand gestures to convey emotional intimacy, affection, and mutual joy.
 NARRATION: Watch for Fish mimicry twist, Concentric jump turn.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (p3QuqlVw720)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Concentric rings with four men along the outer perimeter and four women within the inner perimeter.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -75,7 +75,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Inner-outer circle formation setup: four women form the center circle facing outward, four men form an exterior concentric ring facing inward.
 NARRATION: Rhythmic forward traveling step maintaining the circular trajectory around the space.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -83,7 +83,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: High on the forested slopes of the Rwenzori Mountains, eight Bakonzo dancers weave concentric circles to turn aquatic movements into a bridal blessing of enduring love.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -99,11 +99,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Expressive gestures exchanged between dancers to communicate romantic affection and emotional rapport.
 NARRATION: Dynamic twists and rotations designed to imitate the undulating swimming motion of fish in water.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -118,7 +118,6 @@ NARRATION: Drill: Establish circular perimeter walking in four-beat phrases.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Aquatic torso twist: rotating the upper body from side to side to simulate swimming motions.
@@ -126,7 +125,6 @@ NARRATION: Step 4: Elevation jump: executing small vertical jumps accented by pe
 NARRATION: Drill: Coordinate the outer ring (men) moving counter to the inner ring (women).
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -139,13 +137,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Breaking eye contact with partners or drifting out of concentric alignment between the inner and outer rings.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the concentric dance seated in two nested circles of chairs, executing rhythmic heel-toe taps and fluid upper-torso twists while mirroring hand gestures across the aisle. · For children: 'Follow the River Fish' game where children in outer and inner rings mimic the movements of a designated lead fish, alternating between swimming twists, gentle hops, and freeze-poses.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the concentric dance seated in two nested circles of chairs, executing rhythmic heel-toe taps and fluid upper-torso twists while mirroring hand gestures across the aisle. · For children: 'Follow the River Fish' game where children in outer and inner rings mimic the movements of a designated lead fish, alternating between swimming twists, gentle hops, and freeze-poses. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -171,11 +169,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Expressive gestures exchanged between dancers to communicate romantic affection and emotional rapport.
 NARRATION: Dynamic twists and rotations designed to imitate the undulating swimming motion of fish in water.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -188,7 +186,6 @@ NARRATION: Drill: Isolate upper-body twists from side to side in stationary stan
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Fish mimicry twist: A fluid twisting motion of the body that mimics the undulating navigation of fish in water.
@@ -197,7 +194,6 @@ NARRATION: Drill: Combine traveling footwork with rhythmic torso twists simulati
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -210,13 +206,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Breaking eye contact with partners or drifting out of concentric alignment between the inner and outer rings.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the concentric dance seated in two nested circles of chairs, executing rhythmic heel-toe taps and fluid upper-torso twists while mirroring hand gestures across the aisle. · For children: 'Follow the River Fish' game where children in outer and inner rings mimic the movements of a designated lead fish, alternating between swimming twists, gentle hops, and freeze-poses.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the concentric dance seated in two nested circles of chairs, executing rhythmic heel-toe taps and fluid upper-torso twists while mirroring hand gestures across the aisle. · For children: 'Follow the River Fish' game where children in outer and inner rings mimic the movements of a designated lead fish, alternating between swimming twists, gentle hops, and freeze-poses. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Concentric rings with four men along the outer perimeter and four women within the inner perimeter.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -241,11 +237,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Expressive gestures exchanged between dancers to communicate romantic affection and emotional rapport.
 NARRATION: Dynamic twists and rotations designed to imitate the undulating swimming motion of fish in water.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -259,7 +255,6 @@ NARRATION: Drill: Execute coordinated vertical hops landing cleanly on the downb
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Fish mimicry twist: A fluid twisting motion of the body that mimics the undulating navigation of fish in water.
@@ -268,7 +263,6 @@ NARRATION: Drill: Execute half and full turns, immediately snapping eye contact 
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -281,13 +275,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Breaking eye contact with partners or drifting out of concentric alignment between the inner and outer rings.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the concentric dance seated in two nested circles of chairs, executing rhythmic heel-toe taps and fluid upper-torso twists while mirroring hand gestures across the aisle. · For children: 'Follow the River Fish' game where children in outer and inner rings mimic the movements of a designated lead fish, alternating between swimming twists, gentle hops, and freeze-poses.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the concentric dance seated in two nested circles of chairs, executing rhythmic heel-toe taps and fluid upper-torso twists while mirroring hand gestures across the aisle. · For children: 'Follow the River Fish' game where children in outer and inner rings mimic the movements of a designated lead fish, alternating between swimming twists, gentle hops, and freeze-poses. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Concentric rings with four men along the outer perimeter and four women within the inner perimeter.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -314,7 +308,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'p3QuqlVw720', 'checked_by_vision_model': False, 'title': 'Ekikibi (Bakonzo Traditional Love Dance)'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Swift mountain waters rushing through the rocky Rwenzori landscape., Concentric circular paths tracing the ground like ripples in a pool., Vibrant fabric adornments snapping on sharp jumps and rotations.
@@ -324,9 +318,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 9 tutorial(s) of the folk-circle family studied · videos studied: 9
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; side side side side; rock step rock step; have fun; keep those abs pulled in
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (3): https://en.wikipedia.org/wiki/Ekikibi; https://www.wikidata.org/wiki/Q124250794; https://pt.wikipedia.org/wiki/Ekikibi

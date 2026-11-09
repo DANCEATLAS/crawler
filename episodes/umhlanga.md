@@ -1,8 +1,8 @@
 # Umhlanga — episode pack
 
-*Status: withheld-chapters · built 2026-11-06 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed reference footage; the how-it-is-danced section; the music & instruments section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed reference footage; the how-it-is-danced section; the music & instruments section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Cultural historian or local community leader
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Reed Dance: A Rite of Passage
 NARRATION: This is Umhlanga. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (BYAjW9-puRM)
 ON SCREEN: Title card: Umhlanga · Eswatini, South Africa · 20th century
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Reed Presentation.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (BYAjW9-puRM)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Large procession moving toward the royal palace
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -75,7 +75,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: An exploration of the annual Umhlanga ceremony, where thousands of women gather to uphold tradition and solidarity.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -94,7 +94,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'BYAjW9-puRM', 'checked_by_vision_model': False, 'title': 'Eswatini Umhlanga Reed Dance 2026 #reeddance#umkhosiŵomhlannga2026#kingmswati#eswatini'}
 Images: 4 licensed — Amada44 / Wikimedia Commons / Public domain (Public domain); Amada44 / Wikimedia Commons / Public domain (Public domain); Amada44 / Wikimedia Commons / Public domain (Public domain); Retlaw Snellac from Belgium / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: Tall reeds, Beadwork, Royal palace architecture
@@ -104,9 +104,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 23 tutorials across the atlas studied · videos studied: 23
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; side close side; step and point; turn turn turn; replace; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (5): https://en.wikipedia.org/wiki/Umhlanga_(ceremony); https://www.wikidata.org/wiki/Q2382828; https://es.wikipedia.org/wiki/Umhlanga; https://fr.wikipedia.org/wiki/Umhlanga_(cérémonie); https://pt.wikipedia.org/wiki/Umhlanga

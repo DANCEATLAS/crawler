@@ -1,8 +1,8 @@
 # Queer Tango — episode pack
 
-*Status: draft · built 2026-11-05 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable queer tango dancer and activist who encourages openness and experimentation
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Queer Tango: Dancing Beyond Gender
 NARRATION: This is Queer Tango. Late 19th century origins, revived 2001 to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (onynuHmBUmQ)
 ON SCREEN: Title card: Queer Tango · Argentina · Late 19th century origins, revived 2001 to present
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Role Exchange.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (onynuHmBUmQ)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Danced in pairs on social dance floors; partners may switch roles and positions fluidly
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -81,7 +81,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Assume any partner combination and choose leader or follower role
 NARRATION: Establish connection with partner through embrace
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -89,7 +89,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore how Queer Tango revives tango’s same-sex origins and breaks gender norms through role exchange.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -103,13 +103,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
 NARRATION: Rhythm pattern: Traditional Argentine tango rhythmic patterns supporting improvisation.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -124,7 +123,7 @@ NARRATION: Drill: Practice basic tango steps as leader and follower
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Communicate lead and follow through body signals
@@ -132,7 +131,7 @@ NARRATION: Step 4: Practice role exchange during the dance
 NARRATION: Drill: Learn to recognize and give clear lead/follow signals
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -145,11 +144,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid enforcing traditional gender roles; respect partner’s chosen role and expression
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -173,13 +172,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
 NARRATION: Rhythm pattern: Traditional Argentine tango rhythmic patterns supporting improvisation.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -193,7 +191,7 @@ NARRATION: Drill: Practice switching roles mid-dance
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Role Exchange: Partners switch leader and follower roles during the dance, sometimes mid-tanda.
@@ -201,7 +199,7 @@ NARRATION: Drill: Explore open embrace and connection variations
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -214,11 +212,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid enforcing traditional gender roles; respect partner’s chosen role and expression
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced in pairs on social dance floors; partners may switch roles and positions fluidly
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -242,13 +240,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
 NARRATION: Rhythm pattern: Traditional Argentine tango rhythmic patterns supporting improvisation.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -263,7 +260,7 @@ NARRATION: Drill: Experiment with same-sex partnering
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Role Exchange: Partners switch leader and follower roles during the dance, sometimes mid-tanda.
@@ -271,7 +268,7 @@ NARRATION: Drill: Develop nuanced lead/follow cues
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -284,11 +281,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid enforcing traditional gender roles; respect partner’s chosen role and expression
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced in pairs on social dance floors; partners may switch roles and positions fluidly
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -315,7 +312,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Costumes in Queer Tango vary widely, reflecting the inclusive and non-traditional nature of the dance. Unlike traditional tango, which often features gendered attire, Queer Tango dancers wear clothing that suits their chosen roles or personal expression. Settings include milongas, queer tango festivals, and social dance events worldwide, often organized by LGBTQIA+ communities or allies.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'onynuHmBUmQ', 'checked_by_vision_model': False, 'title': '(Tango Queer)// A Don Agustín Bardi - Francisco y Lucrecio'}
 Images: 1 licensed — Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Embraces with role reversal, Same-sex couples dancing, Historic tango postcards, Festival crowds, Hands exchanging lead signals
@@ -325,9 +322,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the folk-circle family studied · videos studied: 4
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; crazy train
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (5): https://en.wikipedia.org/wiki/Queer_Tango; https://www.wikidata.org/wiki/Q526878; https://es.wikipedia.org/wiki/Tango_queer; https://fr.wikipedia.org/wiki/Tango_queer; https://de.wikipedia.org/wiki/Queer_Tango

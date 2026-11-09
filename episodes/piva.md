@@ -1,8 +1,8 @@
 # Piva — episode pack
 
-*Status: draft · built 2026-11-05 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A musicologist specializing in Renaissance dance notation.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Fastest Dance of the Renaissance
 NARRATION: This is Piva. 15th-16th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (zUpQrutawDI)
 ON SCREEN: Title card: Piva · Italy · 15th-16th century
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ ON SCREEN: Footage: File:Piva river underwater. Bottom covered in rocks and grav
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (zUpQrutawDI)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -76,7 +76,7 @@ NEEDS: teaching steps
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the Piva, a high-speed Italian dance that moved from the village square to the royal court.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -90,13 +90,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 2 counts off, 2 counts on. The meter is 6/8 or quadruple time.
+NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 or quadruple time.
 NARRATION: Rhythm pattern: Simple sequence of quarter and eighth notes..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -108,13 +107,13 @@ NEEDS: tempo
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -126,13 +125,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 2 counts off, 2 counts on.
+NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -156,13 +154,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 2 counts off, 2 counts on. The meter is 6/8 or quadruple time.
+NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 or quadruple time.
 NARRATION: Rhythm pattern: Simple sequence of quarter and eighth notes..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -174,13 +171,13 @@ NEEDS: tempo
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -192,13 +189,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 2 counts off, 2 counts on.
+NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -222,13 +218,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 2 counts off, 2 counts on. The meter is 6/8 or quadruple time.
+NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 or quadruple time.
 NARRATION: Rhythm pattern: Simple sequence of quarter and eighth notes..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -240,13 +235,13 @@ NEEDS: tempo
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 2 counts off, 2 counts on · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -258,13 +253,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 2 counts off, 2 counts on.
+NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -293,7 +287,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance was performed in both folk festival settings and the courts of the nobility during the 15th and 16th centuries.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'zUpQrutawDI', 'checked_by_vision_model': False, 'title': 'Classical performance by “Piva Dance World”'}
 Images: 0 licensed
 Footage: File:Piva river underwater. Bottom covered in rocks and gravel.webm — https://upload.wikimedia.org/wikipedia/commons/e/ec/Piva_river_underwater._Bottom_covered_in_rocks_and_gravel.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Two graylings (Thymallus thymallus) swimming at the confluence of the Tara and Piva rivers.webm — https://upload.wikimedia.org/wikipedia/commons/0/0c/Two_graylings_%28Thymallus_thymallus%29_swimming_at_the_confluence_of_the_Tara_and_Piva_rivers.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:A grayling (Thymallus thymallus) swimming at the confluence of the Tara and Piva rivers close up.webm — https://upload.wikimedia.org/wikipedia/commons/f/f3/A_grayling_%28Thymallus_thymallus%29_swimming_at_the_confluence_of_the_Tara_and_Piva_rivers_close_up.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Piva river with a hanging bridge in the background.webm — https://upload.wikimedia.org/wikipedia/commons/3/38/Piva_river_with_a_hanging_bridge_in_the_background.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Brown Trout (Salmo truta morpha fario) in Piva River high angle surface shot.webm — https://upload.wikimedia.org/wikipedia/commons/9/90/Brown_Trout_%28Salmo_truta_morpha_fario%29_in_Piva_River_high_angle_surface_shot.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Common minnow (Phoxinus phoxinus) searching for food at the confluence of the Tara and Piva rivers.webm — https://upload.wikimedia.org/wikipedia/commons/3/3c/Common_minnow_%28Phoxinus_phoxinus%29_searching_for_food_at_the_confluence_of_the_Tara_and_Piva_rivers.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: 15th-century Italian court paintings, Lute tablature manuscripts, Historical bagpipe illustrations
@@ -303,9 +297,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the classical-court family studied · videos studied: 2
-Counting: 2 counts off, 2 counts on
-Demonstration: views used by most teachers: front, side; tempo progression: slow
-Cues: hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Source: 3 tutorial(s) of the classical-court family studied · videos studied: 3
+Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; hold your placement; stay straight as a board; lift up in your lower abs; change feet
 
 Sources (3): https://en.wikipedia.org/wiki/Piva_(dance); https://www.wikidata.org/wiki/Q2097439; https://de.wikipedia.org/wiki/Piva_(Tanz)

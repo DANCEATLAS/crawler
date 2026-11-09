@@ -1,8 +1,8 @@
 # Twist — episode pack
 
-*Status: draft · built 2026-11-03 · judge 10.0 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 4/4 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic mid-century dance historian with a lively, accessible teaching style.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dance That Started a Global Craze Without Ever Touching
 NARRATION: This is Twist. 1950s–1960s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (F9WxQDnFpWA)
 ON SCREEN: Title card: Twist · United States · 1950s–1960s
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The twist is performed standing with feet approximately shoulder-widt
 NARRATION: The hips, torso, and legs rotate on the balls of the feet as a single unit, with feet grinding back and forth on the floor as if putting out a cigarette.
 NARRATION: Knees are bent slightly, and arms are held out from the body, bent at the elbow.
 NARRATION: Watch for Cigarette Stomp, Towel Wipe.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (F9WxQDnFpWA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: No-contact solo dancing requiring minimal space, performed individually, in rows, or in a crowd.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand with feet shoulder-width apart, knees slightly bent and arms bent at the elbows.
 NARRATION: Rotate hips, torso, and legs on the balls of the feet as a single unit.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -87,7 +87,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how a teenage dance craze from Tampa conquered the world in the 1960s through simple foot-grinding and pelvic rotation.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -104,11 +104,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Low posture with knees bent slightly, torso squared or angled.
 NARRATION: Held out from the body and bent at the elbow, staying relatively stationary or thrusting in coordination with hip movement.
 NARRATION: Hips, torso, and legs rotate as a single unit, swiveling from side to side erotically.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Rock and roll beat with a strong backbeat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -121,10 +121,9 @@ NARRATION: Step 1: Stand with feet shoulder-width apart, knees slightly bent and
 NARRATION: Step 2: Rotate hips, torso, and legs on the balls of the feet as a single unit.
 NARRATION: Footwork from the sources: Feet remain in contact with the floor on the balls of the feet, grinding back and forth as if putting out a cigarette.
 NARRATION: Drill: Shoulder-width footing drill
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Grind feet back and forth on the floor as if putting out a cigarette.
@@ -132,7 +131,6 @@ NARRATION: Step 4: Sway upper body forward and backward while swiveling hips fro
 NARRATION: Drill: Ball-of-foot weight shifting
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -145,13 +143,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Partner contact and high vertical jumps.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the hip swivel and arm movements while seated firmly in a chair. · For children: A freeze-dance game where children twist freely to rock and roll music and freeze when the music stops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the hip swivel and arm movements while seated firmly in a chair. · For children: A freeze-dance game where children twist freely to rock and roll music and freeze when the music stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -178,11 +176,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Low posture with knees bent slightly, torso squared or angled.
 NARRATION: Held out from the body and bent at the elbow, staying relatively stationary or thrusting in coordination with hip movement.
 NARRATION: Hips, torso, and legs rotate as a single unit, swiveling from side to side erotically.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Rock and roll beat with a strong backbeat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -194,10 +192,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Stand with feet shoulder-width apart, knees slightly bent and arms bent at the elbows.
 NARRATION: Step 2: Rotate hips, torso, and legs on the balls of the feet as a single unit.
 NARRATION: Drill: Elbow bend and arm hold
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Grind feet back and forth on the floor as if putting out a cigarette.
@@ -208,7 +205,6 @@ NARRATION: Drill: Hip swivel matching upper body rotation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -221,13 +217,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Partner contact and high vertical jumps.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the hip swivel and arm movements while seated firmly in a chair. · For children: A freeze-dance game where children twist freely to rock and roll music and freeze when the music stops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the hip swivel and arm movements while seated firmly in a chair. · For children: A freeze-dance game where children twist freely to rock and roll music and freeze when the music stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: No-contact solo dancing requiring minimal space, performed individually, in rows, or in a crowd.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -254,11 +250,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Low posture with knees bent slightly, torso squared or angled.
 NARRATION: Held out from the body and bent at the elbow, staying relatively stationary or thrusting in coordination with hip movement.
 NARRATION: Hips, torso, and legs rotate as a single unit, swiveling from side to side erotically.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Rock and roll beat with a strong backbeat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -270,10 +266,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Grind feet back and forth on the floor as if putting out a cigarette.
 NARRATION: Step 2: Sway upper body forward and backward while swiveling hips from side to side.
 NARRATION: Drill: Continuous solo twisting
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Cigarette Stomp: Grinding the balls of the feet back and forth on the floor as if extinguishing a cigarette.
@@ -282,7 +277,6 @@ NARRATION: Drill: Vertical height variation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -295,13 +289,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Partner contact and high vertical jumps.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the hip swivel and arm movements while seated firmly in a chair. · For children: A freeze-dance game where children twist freely to rock and roll music and freeze when the music stops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the hip swivel and arm movements while seated firmly in a chair. · For children: A freeze-dance game where children twist freely to rock and roll music and freeze when the music stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: No-contact solo dancing requiring minimal space, performed individually, in rows, or in a crowd.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -330,7 +324,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Danced in informal youth settings, discotheques, and television stages. Costumes reflected early 1960s casual wear, ranging from teenage skirts and trousers to sophisticated club attire at venues like New York's Peppermint Lounge.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'F9WxQDnFpWA', 'checked_by_vision_model': False, 'title': 'Lets twist again'}
 Images: 1 licensed — Hochneder, Christa / Wikimedia Commons / CC BY-SA 3.0 de (CC BY-SA 3.0 de)
 Footage: File:Kettlebell Lunge and Twist.webm — https://upload.wikimedia.org/wikipedia/commons/2/21/Kettlebell_Lunge_and_Twist.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:SkeptiCamp 2019 Skepardy! William Patterson.webm — https://upload.wikimedia.org/wikipedia/commons/d/db/SkeptiCamp_2019_Skepardy%21_William_Patterson.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Age of Empires III- Definitive Edition - Knights of the Mediterranean Teaser.webm — https://upload.wikimedia.org/wikipedia/commons/0/09/Age_of_Empires_III-_Definitive_Edition_-_Knights_of_the_Mediterranean_Teaser.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Police Bodycam Shows Man Lose Consciousness During Arrest.webm — https://upload.wikimedia.org/wikipedia/commons/a/ae/Police_Bodycam_Shows_Man_Lose_Consciousness_During_Arrest.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:The Last Case of Benedict Fox - Combat Gameplay Walkthrough.webm — https://upload.wikimedia.org/wikipedia/commons/a/a5/The_Last_Case_of_Benedict_Fox_-_Combat_Gameplay_Walkthrough.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Link's Awakening Started as an Unofficial Fan Game.webm — https://upload.wikimedia.org/wikipedia/commons/5/55/Link%27s_Awakening_Started_as_an_Unofficial_Fan_Game.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; PRINCESS OLANMA THE DANCER nigerian movies - Nollywood Latest Movies 2016 | Latest Nigerian Movies — https://archive.org/details/youtube-geddAAhzswY; The Wiggles: Magical Adventure! (A Wiggly Movie) 2007 Warner Home Video DVD Rip — https://archive.org/details/MAGICALADVENTURENTSCTitle2
 Motifs: Vintage 1960s television broadcast screens, Close-up of shoes grinding on a wooden floor, Crowds twisting in tight spaces without touching
@@ -340,9 +334,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 9 tutorial(s) of the street-urban family studied · videos studied: 9
+Counting: 
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; punch to the side; pull your head down; pivot them on your elbows; swing stop; lean forward; arm up; elbow up; up and down
 
 Sources (5): https://en.wikipedia.org/wiki/Twist_(dance); https://www.wikidata.org/wiki/Q387916; https://es.wikipedia.org/wiki/Twist_(baile); https://fr.wikipedia.org/wiki/Twist; https://pt.wikipedia.org/wiki/Twist

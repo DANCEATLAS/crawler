@@ -1,8 +1,8 @@
 # Wari — episode pack
 
-*Status: withheld-chapters · built 2026-11-06 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); notable figures
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Huari elder or cultural practitioner with deep respect for ritual significance
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Wari: The Dance of Huari's Sacred Rain Ritual
 NARRATION: This is Wari. 16th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (6aCSB5NBsd8)
 ON SCREEN: Title card: Wari · Peru · 16th century to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Traditionally performed by four dancers and two musicians, sometimes 
 NARRATION: The choreography has three main moments: circular formations with rhythmic support on the fourth beat, a light step called arrebato, and a strong zapateo foot stamping ending the dance.
 NARRATION: Dancers move in circles, emphasizing rhythmic footwork and coordinated group patterns.
 NARRATION: Watch for Arrebato, Zapateo.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (6aCSB5NBsd8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circular formation with four to eight dancers, moving together in coordinated patterns
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -84,7 +84,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore Wari, a ritual dance from Peru blending pre-Inca and Spanish traditions to celebrate the first rains and devotion to the Cross.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '6aCSB5NBsd8', 'checked_by_vision_model': False, 'title': 'CGs - Wari Tunwalo | Paisa Jhare Maruni'}
 Images: 0 licensed
 Footage: File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, La Senda del Danzante.webm — https://upload.wikimedia.org/wikipedia/commons/f/f7/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_La_Senda_del_Danzante.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, Apu Onccoy una voz, un sueño en los Andes.webm — https://upload.wikimedia.org/wikipedia/commons/e/ed/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_Apu_Onccoy_una_voz%2C_un_sue%C3%B1o_en_los_Andes.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Wari Chora.webm — https://upload.wikimedia.org/wikipedia/commons/6/67/Wari_Chora.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; B.knight Video Durandall WARI F. M. C. T — https://archive.org/details/b.knight-video-durandall-wari-f.-m.-c.-t
 Motifs: Floral shawls and embroidered sashes, Pink mesh masks with painted faces, White toquilla straw hats with flower crowns, Large knee bells jingling, Pinkullo flute and wanqar drum
@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 23 tutorials across the atlas studied · videos studied: 23
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
 Counting: count the not explicitly described, implied steady rhythmic pattern with emphasis on fourth beat bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; side close side; step and point; turn turn turn; replace; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (2): https://www.wikidata.org/wiki/Q30905489; https://es.wikipedia.org/wiki/Huaridanza

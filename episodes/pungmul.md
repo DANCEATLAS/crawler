@@ -1,315 +1,312 @@
 # Pungmul — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.85 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 6/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** A grounded, energetic master percussionist blending cultural history with physical technique.
+**Instructor:** Experienced pungmul performer with deep knowledge of traditional rhythms and dance, approachable and encouraging
 **Say it:** Pungmul, nongak, pungmul-nori
 
 ## Episode 1 · Meet Pungmul · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Thunder on the Village Square: The Power of Pungmul
+NARRATION: Pungmul: The Thunderous Heartbeat of Korean Villages
 NARRATION: This is Pungmul. Traditional / Ancient origins to present.
 ON SCREEN: Hero video, first 10 seconds (4oiODXIUkiY)
 ON SCREEN: Title card: Pungmul · South Korea · Traditional / Ancient origins to present
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Pungmul is rooted in the dure collective labor farming culture, rural holidays, community-building events, and shamanistic rituals.
-NARRATION: During the Japanese colonial era (1910–1945), colonial authorities promoted the term nongak to limit its scope and suppress its cultural meaning.
-NARRATION: In the late 1960s and 1970s, it gained new life in political protests during the pro-democracy movement.
+NARRATION: Pungmul originated in Korea’s agrarian society as a form of collective labor music and shamanistic ritual accompaniment.
+NARRATION: Historically called nongak, the term was imposed during Japanese colonial rule (1910–1945) to restrict its meaning.
+NARRATION: The tradition was suppressed under Japanese occupation due to its potential to mobilize communities.
 ON SCREEN: Map: South Korea · East Asia
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Historically played during farm work, lunar holidays, village community events, shamanistic rituals, and fundraising.
-NARRATION: In the late 20th century, it became an important artistic medium for political protest and expression during the pro-democracy movement.
+NARRATION: Pungmul was traditionally performed during farming work, village festivals, shamanistic rituals, and community events.
+NARRATION: It served to motivate labor, bless crops, and expel evil spirits.
+NARRATION: In modern times, it has been used in pro-democracy protests and as a performing art.
 NARRATION: Today it is a living tradition.
 ON SCREEN: Footage: Samulnori. Musiche e danze della Corea, compagnia PUNG-MU-AK: 6 novembre 2000 - Arena del Sole (https://archive.org/details/20001106.samulnori)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Most performances take place outdoors with dozens of players in constant motion, featuring group formations (jinpuri), solo performances by the lead gong player (Sangsoe Noleum), hat-streamer twirling (Sangmonori), hourglass drum solos (Suljanggu Noleum), small drum dances (Sogo Noleum), and satirical character skits (japsaek).
-NARRATION: Watch for Sangmonori, Sogo Noleum.
+NARRATION: Watch for Sangmo spinning, Jinpuri formation, Sangsoe noleum.
 ON SCREEN: Hero video full screen, 30–45 s (4oiODXIUkiY)
 ON SCREEN: Captions name each signature move as it appears
-ON SCREEN: Formation: Outdoor processions and dynamic group formations (jinpuri)
+ON SCREEN: Formation: Performed in outdoor procession lines and group formations with fluid spatial movement
 MUSIC: diegetic (the video's own sound), underscore under narration
+NEEDS: how_it_is_danced
 
 ### 5. Listen (70 s) · `music`
-NARRATION: Drumming is the central element of pungmul, utilizing five major instruments: the kkwaenggwari (small handheld gong), janggu (hourglass drum), buk (barrel drum), jing (gong), and sogo (small handle drum).
-NARRATION: Wind instruments such as the taepyeongso (hojeok, senap, or nalari) also accompany the drummers.
+NARRATION: The core percussion instruments are kkwaenggwari (small handheld gong), janggu (hourglass drum), buk (barrel drum), and jing (large gong).
+NARRATION: Wind instruments like taepyeongso sometimes accompany the ensemble.
 NARRATION: Listen for the kkwaenggwari, janggu, buk, jing.
-NARRATION: A thunderous, highly dynamic percussion landscape driven by the piercing metallic ring of the kkwaenggwari gong, the resonant low thud of the buk barrel drum, the complex pitch bends of the janggu hourglass drum, and the deep reverberation of the jing gong.
+NARRATION: The pulse is varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori.
+NARRATION: A vibrant, layered percussion ensemble featuring sharp metallic strikes of the kkwaenggwari, deep resonant beats of the buk and jing, and intricate rhythms of the janggu, punctuated by lively wind instrument flourishes and energetic vocal chants.
 ON SCREEN: Instrument names on screen as each is mentioned
-ON SCREEN: Verified recording — MISSING
-ON SCREEN: Waveform or rhythm-pattern graphic: Jangdan (rhythmic patterns common to pungmul, sanjo, and pansori)
+ON SCREEN: Listen later: SamulNori — Kim Duk-soo and SamulNori ensemble
+ON SCREEN: Waveform or rhythm-pattern graphic: Overlapping polyrhythms led by kkwaenggwari, supported by janggu, buk, and jing; sogo adds subtle rhythmic decoration
 MUSIC: the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original
-NEEDS: tempo, meter
+NEEDS: tempo
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Performers wear colorful costumes, most commonly featuring a flowery version of the Buddhist gokkal head-dress.
-NARRATION: Advanced troupe members wear sangmo hats with long ribbons spun via knee bends.
-NARRATION: Settings are traditionally outdoor village streets, fields, and community spaces.
+NARRATION: Performers wear colorful costumes, often including a floral version of the Buddhist gokkal head-dress.
+NARRATION: Advanced performers wear sangmo hats with long ribbons spun in intricate patterns.
+NARRATION: Japsaek actors dress as caricatures of traditional village roles.
 ON SCREEN: Image gallery: 8 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 
 ### 7. The people (60 s) · `people`
-NARRATION: Kim Duk-soo, Kim Yong-bae, Sim U-seong, Kim Swoo Geun, Kim Bong Jun, and Yi Jong-hun.
-NARRATION: Recognized in five primary regional styles under South Korean cultural property designation: Jinju Samcheonpo nongak (yeongnam style), Pyeongtaek nongak (utdari style), Iri nongak (honam udo style), Gangneung nongak (yeongdong style), and Imsil Pilbong nongak (honam jwado style, known for rapid rhythms and varying formations).
-NARRATION: Rooted in ancient agricultural and shamanistic traditions; gave rise to modern staged percussion genres like SamulNori and shares historical ties with itinerant Namsadang troupes.
+NARRATION: Kim Duk-soo and Kim Yong-bae are key figures who pioneered the modern SamulNori style by adapting pungmul for stage performance in 1978.
+NARRATION: Architect Kim Swoo Geun designed the Konggansarang performance hall where this transformation occurred.
+NARRATION: South Korea recognizes five regional pungmul styles: Jinju Samcheonpo (South Gyeongsang), Pyeongtaek (Gyeonggi), Iri (North Jeolla), Gangneung (Gangwon), and Imsil Pilbong (North Jeolla).
+NARRATION: Pungmul evolved from ancient Korean agrarian and shamanistic traditions.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Pungmul is child of SamulNori: Traditional percussion genre derived from multiple pungmul styles, performed seated.
-NARRATION: Pungmul is sibling of Namsadang: Itinerant performance troupe having pungmul in its repertoire.
-NARRATION: Pungmul is shares music of Pung cholom: A similar dance from Manipur, India.
+NARRATION: Pungmul is child of Samulnori: Modern staged percussion genre derived from pungmul’s core instruments and rhythms.
+NARRATION: Pungmul is shares music of Namsadang: Itinerant performance troupe that includes pungmul in its repertoire.
+NARRATION: Pungmul is sibling of Pung cholom: A similar dance from Manipur, India, sharing percussion and dance elements.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. March in constant motion outdoors to drum beats
-NARRATION: Bend knees rhythmically to power hat-streamer (sangmo) spins
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Before we go, one step. Form a procession line led by a banner bearer and kkwaenggwari player
+NARRATION: Play steady rhythm on kkwaenggwari to set tempo
+NARRATION: Count it: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
 MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Explore the thunderous drumming, dynamic ribbon-twirling, and agrarian roots of Korea's living percussion tradition.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Explore how a Korean farming tradition of drumming and dance became a vibrant symbol of cultural identity and political resistance.
+NARRATION: Sources: 6 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
-## Chapter 1 · First steps — Learn basic marching posture and rhythm pacing · 13 min
+## Chapter 1 · First steps — Learn basic kkwaenggwari rhythm and simple sogo beats · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Learn basic marching posture and rhythm pacing.
-NARRATION: Level: Beginner. Difficulty of the dance overall: advanced.
-NARRATION: Your instructor: A grounded, energetic master percussionist blending cultural history with physical technique.
+NARRATION: Chapter 1 — First steps. Today: Learn basic kkwaenggwari rhythm and simple sogo beats.
+NARRATION: Level: Beginner. Difficulty of the dance overall: beginner to advanced (progressing from basic rhythms to complex acrobatic dances).
+NARRATION: Your instructor: Experienced pungmul performer with deep knowledge of traditional rhythms and dance, approachable and encouraging
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Constant motion, upright with dynamic knee bends
-NARRATION: Playing instruments (sogo, drums, gongs) or holding ribbons
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+NARRATION: Upright and dynamic, with fluid upper body movements and knee bends to power sangmo ribbon spins
+NARRATION: Active use of arms for drum playing and spinning sangmo ribbons; sogo held in one hand and struck rhythmically
+NARRATION: Engaged in rhythmic swaying and bending to support dance and ribbon spinning
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
-NARRATION: Rhythm pattern: Jangdan (rhythmic patterns common to pungmul, sanjo, and pansori).
+NARRATION: Count: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars. The meter is varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori.
+NARRATION: Rhythm pattern: Overlapping polyrhythms led by kkwaenggwari, supported by janggu, buk, and jing; sogo adds subtle rhythmic decoration.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
 MUSIC: lesson_slow (clicks only until the step lands)
-NEEDS: tempo, meter
+NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: March in constant motion outdoors to drum beats
-NARRATION: Step 2: Bend knees rhythmically to power hat-streamer (sangmo) spins
-NARRATION: Drill: Marching in place with steady rhythm
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+NARRATION: Step 1: Form a procession line led by a banner bearer and kkwaenggwari player
+NARRATION: Step 2: Play steady rhythm on kkwaenggwari to set tempo
+NARRATION: Drill: Hold and strike kkwaenggwari steadily
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Execute group formation shifts (jinpuri)
-NARRATION: Step 4: Play basic sogo drum patterns while dancing
-NARRATION: Drill: Clapping/playing basic jangdan patterns
+NARRATION: Step 3: Accompany with janggu, buk, and jing drums following rhythmic patterns
+NARRATION: Step 4: Dancers play sogo and perform footwork with knee bends to spin sangmo ribbons
+NARRATION: Drill: Play basic gutgeori rhythm
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Simple upper body coordination
+NARRATION: Drill: Practice simple sogo strikes
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
-ON SCREEN: Options card: Seated or supported option: Seated rhythm playing using hand drums or lap percussion, echoing the SamulNori performance style. · For children: Interactive call-and-response percussion game mimicking drum beats and simple processional marching.
+NARRATION: Avoid misusing sangmo ribbons to prevent injury; respect the tradition’s communal and ritual context
+ON SCREEN: Side-by-side: source-supported correction
+ON SCREEN: Options card: Seated or supported option: Use seated percussion playing and simplified arm movements; avoid knee bends and spins · For children: Simplify rhythms and movements; use ribbon waving instead of spinning; include call-and-response chants
 MUSIC: silence
-OPTIONS: Seated or supported option: Seated rhythm playing using hand drums or lap percussion, echoing the SamulNori performance style. · For children: Interactive call-and-response percussion game mimicking drum beats and simple processional marching. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
+OPTIONS: Seated or supported option: Use seated percussion playing and simplified arm movements; avoid knee bends and spins · For children: Simplify rhythms and movements; use ribbon waving instead of spinning; include call-and-response chants (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Learn basic marching posture and rhythm pacing.
-NARRATION: Historically played during farm work, lunar holidays, village community events, shamanistic rituals, and fundraising.
+NARRATION: You can now: Learn basic kkwaenggwari rhythm and simple sogo beats.
+NARRATION: Pungmul was traditionally performed during farming work, village festivals, shamanistic rituals, and community events.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
 
-## Chapter 2 · Building the dance — Integrate sogo drum handling and group formations · 13 min
+## Chapter 2 · Building the dance — Add sangmo spinning and group formations · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: Integrate sogo drum handling and group formations.
-NARRATION: Level: Intermediate. Difficulty of the dance overall: advanced.
-NARRATION: Your instructor: A grounded, energetic master percussionist blending cultural history with physical technique.
+NARRATION: Chapter 2 — Building the dance. Today: Add sangmo spinning and group formations.
+NARRATION: Level: Intermediate. Difficulty of the dance overall: beginner to advanced (progressing from basic rhythms to complex acrobatic dances).
+NARRATION: Your instructor: Experienced pungmul performer with deep knowledge of traditional rhythms and dance, approachable and encouraging
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Constant motion, upright with dynamic knee bends
-NARRATION: Playing instruments (sogo, drums, gongs) or holding ribbons
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+NARRATION: Upright and dynamic, with fluid upper body movements and knee bends to power sangmo ribbon spins
+NARRATION: Active use of arms for drum playing and spinning sangmo ribbons; sogo held in one hand and struck rhythmically
+NARRATION: Engaged in rhythmic swaying and bending to support dance and ribbon spinning
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
-NARRATION: Rhythm pattern: Jangdan (rhythmic patterns common to pungmul, sanjo, and pansori).
+NARRATION: Count: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars. The meter is varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori.
+NARRATION: Rhythm pattern: Overlapping polyrhythms led by kkwaenggwari, supported by janggu, buk, and jing; sogo adds subtle rhythmic decoration.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
 MUSIC: lesson_slow (clicks only until the step lands)
-NEEDS: tempo, meter
+NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: March in constant motion outdoors to drum beats
-NARRATION: Step 2: Bend knees rhythmically to power hat-streamer (sangmo) spins
-NARRATION: Drill: Walking formations (jinpuri)
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+NARRATION: Step 1: Engage in group formations (jinpuri) and solo dances (sangsoe noleum, sangmonori)
+NARRATION: Step 2: Actors (japsaek) perform skits to interact with audience
+NARRATION: Drill: Practice knee bends to spin sangmo ribbons
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Execute group formation shifts (jinpuri)
-NARRATION: Step 4: Play basic sogo drum patterns while dancing
-NARRATION: Sangmonori: Hat-streamer twirling performance powered by knee bends
-NARRATION: Sogo Noleum: Small drum with handle performance featuring acrobatic choreography
-NARRATION: Drill: Sogo striking patterns
+NARRATION: Sangmo spinning: Spinning and flipping long ribbons attached to hats using head and knee movements
+NARRATION: Jinpuri formation: Group dance with varied formations during procession
+NARRATION: Drill: Learn jinpuri formation steps
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Knee-bend pacing
+NARRATION: Drill: Coordinate drum rhythms with dance moves
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
-ON SCREEN: Options card: Seated or supported option: Seated rhythm playing using hand drums or lap percussion, echoing the SamulNori performance style. · For children: Interactive call-and-response percussion game mimicking drum beats and simple processional marching.
+NARRATION: Avoid misusing sangmo ribbons to prevent injury; respect the tradition’s communal and ritual context
+ON SCREEN: Side-by-side: source-supported correction
+ON SCREEN: Options card: Seated or supported option: Use seated percussion playing and simplified arm movements; avoid knee bends and spins · For children: Simplify rhythms and movements; use ribbon waving instead of spinning; include call-and-response chants
 MUSIC: silence
-OPTIONS: Seated or supported option: Seated rhythm playing using hand drums or lap percussion, echoing the SamulNori performance style. · For children: Interactive call-and-response percussion game mimicking drum beats and simple processional marching. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
+OPTIONS: Seated or supported option: Use seated percussion playing and simplified arm movements; avoid knee bends and spins · For children: Simplify rhythms and movements; use ribbon waving instead of spinning; include call-and-response chants (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
-NARRATION: Full tempo, the whole sequence, twice. Formation: Outdoor processions and dynamic group formations (jinpuri)
+NARRATION: Count-in: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars.
+NARRATION: Full tempo, the whole sequence, twice. Formation: Performed in outdoor procession lines and group formations with fluid spatial movement
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Integrate sogo drum handling and group formations.
-NARRATION: Kim Duk-soo, Kim Yong-bae, Sim U-seong, Kim Swoo Geun, Kim Bong Jun, and Yi Jong-hun.
+NARRATION: You can now: Add sangmo spinning and group formations.
+NARRATION: Kim Duk-soo and Kim Yong-bae are key figures who pioneered the modern SamulNori style by adapting pungmul for stage performance in 1978.
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
 
-## Chapter 3 · Dancing it fully — Execute complex ribbon hat manipulation · 13 min
+## Chapter 3 · Dancing it fully — Perform complex rhythmic variations and acrobatic dances · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: Execute complex ribbon hat manipulation.
-NARRATION: Level: Advanced. Difficulty of the dance overall: advanced.
-NARRATION: Your instructor: A grounded, energetic master percussionist blending cultural history with physical technique.
+NARRATION: Chapter 3 — Dancing it fully. Today: Perform complex rhythmic variations and acrobatic dances.
+NARRATION: Level: Advanced. Difficulty of the dance overall: beginner to advanced (progressing from basic rhythms to complex acrobatic dances).
+NARRATION: Your instructor: Experienced pungmul performer with deep knowledge of traditional rhythms and dance, approachable and encouraging
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Constant motion, upright with dynamic knee bends
-NARRATION: Playing instruments (sogo, drums, gongs) or holding ribbons
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+NARRATION: Upright and dynamic, with fluid upper body movements and knee bends to power sangmo ribbon spins
+NARRATION: Active use of arms for drum playing and spinning sangmo ribbons; sogo held in one hand and struck rhythmically
+NARRATION: Engaged in rhythmic swaying and bending to support dance and ribbon spinning
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
-NARRATION: Rhythm pattern: Jangdan (rhythmic patterns common to pungmul, sanjo, and pansori).
+NARRATION: Count: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars. The meter is varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori.
+NARRATION: Rhythm pattern: Overlapping polyrhythms led by kkwaenggwari, supported by janggu, buk, and jing; sogo adds subtle rhythmic decoration.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
 MUSIC: lesson_slow (clicks only until the step lands)
-NEEDS: tempo, meter
+NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Execute group formation shifts (jinpuri)
-NARRATION: Step 2: Play basic sogo drum patterns while dancing
-NARRATION: Drill: Sangmo ribbon-spinning mechanics
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+NARRATION: Step 1: Engage in group formations (jinpuri) and solo dances (sangsoe noleum, sangmonori)
+NARRATION: Step 2: Actors (japsaek) perform skits to interact with audience
+NARRATION: Drill: Master fast jajinmori rhythms
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Sangmonori: Hat-streamer twirling performance powered by knee bends
-NARRATION: Sogo Noleum: Small drum with handle performance featuring acrobatic choreography
-NARRATION: Drill: Acrobatic footwork coordination
+NARRATION: Sangsoe noleum: Solo lead kkwaenggwari player’s dance and rhythmic performance
+NARRATION: Drill: Execute sangsoe noleum solo moves
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Advanced solo rhythm execution
+NARRATION: Drill: Integrate japsaek acting with dance
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
-ON SCREEN: Options card: Seated or supported option: Seated rhythm playing using hand drums or lap percussion, echoing the SamulNori performance style. · For children: Interactive call-and-response percussion game mimicking drum beats and simple processional marching.
+NARRATION: Avoid misusing sangmo ribbons to prevent injury; respect the tradition’s communal and ritual context
+ON SCREEN: Side-by-side: source-supported correction
+ON SCREEN: Options card: Seated or supported option: Use seated percussion playing and simplified arm movements; avoid knee bends and spins · For children: Simplify rhythms and movements; use ribbon waving instead of spinning; include call-and-response chants
 MUSIC: silence
-OPTIONS: Seated or supported option: Seated rhythm playing using hand drums or lap percussion, echoing the SamulNori performance style. · For children: Interactive call-and-response percussion game mimicking drum beats and simple processional marching. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
+OPTIONS: Seated or supported option: Use seated percussion playing and simplified arm movements; avoid knee bends and spins · For children: Simplify rhythms and movements; use ribbon waving instead of spinning; include call-and-response chants (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
-NARRATION: Full tempo, the whole sequence, twice. Formation: Outdoor processions and dynamic group formations (jinpuri)
+NARRATION: Count-in: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars.
+NARRATION: Full tempo, the whole sequence, twice. Formation: Performed in outdoor procession lines and group formations with fluid spatial movement
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Execute complex ribbon hat manipulation.
-NARRATION: Rooted in ancient agricultural and shamanistic traditions; gave rise to modern staged percussion genres like SamulNori and shares historical ties with itinerant Namsadang troupes.
+NARRATION: You can now: Perform complex rhythmic variations and acrobatic dances.
+NARRATION: Pungmul evolved from ancient Korean agrarian and shamanistic traditions.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -317,9 +314,11 @@ MUSIC: theme (10 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Pungmul (South Korea). Rhythm pattern: Jangdan (rhythmic patterns common to pungmul, sanjo, and pansori). Instruments: kkwaenggwari, janggu, buk, jing, taepyeongso, hojeok, senap, nalari. Vocal style: Minyo (folksongs) and chants. Form: Processional drumming with cyclical rhythms. Mood: energetic, festive, thunderous, communal. It should sound like this: A thunderous, highly dynamic percussion landscape driven by the piercing metallic ring of the kkwaenggwari gong, the resonant low thud of the buk barrel drum, the complex pitch bends of the janggu hourglass drum, and the deep reverberation of the jing gong. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Pungmul (South Korea). Meter varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori. Rhythm pattern: Overlapping polyrhythms led by kkwaenggwari, supported by janggu, buk, and jing; sogo adds subtle rhythmic decoration. Instruments: kkwaenggwari, janggu, buk, jing, sogo, taepyeongso (occasionally). Vocal style: Includes folk songs (minyo) and chants sung by performers and audience. Form: Processional and cyclical rhythmic patterns with dynamic tempo changes. Mood: energetic, festive, communal, dynamic, rhythmic. It should sound like this: A vibrant, layered percussion ensemble featuring sharp metallic strikes of the kkwaenggwari, deep resonant beats of the buk and jing, and intricate rhythms of the janggu, punctuated by lively wind instrument flourishes and energetic vocal chants. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
+
+Listen before composing (never copy): SamulNori — Kim Duk-soo and SamulNori ensemble
 
 Rules: Original composition only — no sampling, no melody of any existing recording, no lyrics from any song. Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom. Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe. Label every generated track with the tool, the date and this brief, so provenance is always clear.
 
@@ -330,17 +329,17 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 
 Hero video: {'youtube_id': '4oiODXIUkiY', 'checked_by_vision_model': False, 'title': 'Korean Folk Village: Nongak (farmer’s music)'}
 Images: 8 licensed — Gisling / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); by mary_gaston22 / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); leigh cooper / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); hojusaram / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Jamie Price / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
-Footage: Samulnori. Musiche e danze della Corea, compagnia PUNG-MU-AK: 6 novembre 2000 - Arena del Sole — https://archive.org/details/20001106.samulnori; UCLA Ethnomusicology Spring Festival of World Music 2024: Music of Korea Ensemble — https://archive.org/details/calauem_200201_omvf0000634b_ac; e_history_StreamRoot_DH_0500_19641226_01 — https://archive.org/details/e_history_StreamRoot_DH_0500_19641226_01; Lowell Folk Fest 2024 - Korean Performing Arts Inst. of Chicago — https://archive.org/details/stvma-Lowell_Folk_Fest_2024_-_Korean_Performing_Arts_Inst._of_Chicago; e_history_StreamRoot_DH_0493_19641107_01 — https://archive.org/details/e_history_StreamRoot_DH_0493_19641107_01; e_history_StreamRoot_DH_0342_19611130_01 — https://archive.org/details/e_history_StreamRoot_DH_0342_19611130_01; e_history_StreamRoot_DH_0382_19620915_01 — https://archive.org/details/e_history_StreamRoot_DH_0382_19620915_01; e_history_StreamRoot_DH_0333_19610930_01 — https://archive.org/details/e_history_StreamRoot_DH_0333_19610930_01
-Motifs: Flowery gokkal head-dresses, Spinning white ribbons of sangmo hats, Hourglass janggu drums beaten in unison, Outdoor village processions
-Costume notes: Performers wear colorful costumes, most commonly featuring a flowery version of the Buddhist gokkal head-dress. Advanced troupe members wear sangmo hats with long ribbons spun via knee bends. Settings are traditionally outdoor village streets, fields, and community spaces.
+Footage: Samulnori. Musiche e danze della Corea, compagnia PUNG-MU-AK: 6 novembre 2000 - Arena del Sole — https://archive.org/details/20001106.samulnori; e_history_StreamRoot_DH_0342_19611130_01 — https://archive.org/details/e_history_StreamRoot_DH_0342_19611130_01
+Motifs: Spinning ribbons, Colorful costumes, Outdoor village streets, Drumsticks striking drums, Processional banners
+Costume notes: Performers wear colorful costumes, often including a floral version of the Buddhist gokkal head-dress. Advanced performers wear sangmo hats with long ribbons spun in intricate patterns. Japsaek actors dress as caricatures of traditional village roles. Performances take place outdoors in village streets or fields, emphasizing procession and community engagement. The setting is communal and interactive, with audience participation common through singing and dancing.
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
-Sources (5): https://en.wikipedia.org/wiki/Pungmul; https://www.wikidata.org/wiki/Q497674; https://es.wikipedia.org/wiki/Pungmul; https://fr.wikipedia.org/wiki/Pungmul; https://de.wikipedia.org/wiki/Pungmul
+Sources (6): https://en.wikipedia.org/wiki/Pungmul; https://www.wikidata.org/wiki/Q497674; https://es.wikipedia.org/wiki/Pungmul; https://fr.wikipedia.org/wiki/Pungmul; https://de.wikipedia.org/wiki/Pungmul; https://en.wikipedia.org/wiki/Traditional_Korean_rhythm

@@ -1,11 +1,12 @@
 {
  "slug": "taualuga",
  "name": "Taualuga",
- "pack_version": "e1",
- "built_at": "2026-11-03T03:27:49Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-10-28T16:25:18Z",
  "qc_score": 9.35,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -198,7 +199,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Sources: 2 references, every claim checked against its source."
+     "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -210,7 +211,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": null,
@@ -288,30 +291,31 @@
   ]
  },
  "teaching_formula": {
-  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
-  "videos_studied": 0,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "source": "3 tutorial(s) of the classical-court family studied",
+  "videos_studied": 3,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "front view, then back view (student's perspective)",
-   "slow, then half tempo, then full tempo",
-   "three repetitions of every step before moving on"
+   "views used by most teachers: front, side",
+   "tempo progression: slow → full"
   ],
   "cues": [
-   "say the count before the move",
-   "name the body part, then the direction",
-   "one correction at a time"
+   "keep length in both sides of the waist",
+   "keep the supporting leg strong and stable",
+   "keep the spine long",
+   "hold your placement",
+   "stay straight as a board",
+   "lift up in your lower abs",
+   "change feet"
   ],
   "common_mistakes": [],
   "segment_order": [
-   "welcome",
-   "body",
-   "count",
-   "step",
-   "step",
-   "combine",
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
    "mistakes",
-   "music",
-   "recap"
+   "music_practice"
   ],
   "steps_as_taught": []
  },
@@ -332,5 +336,6 @@
  "claims_verified": 5,
  "claims": 5,
  "polished": false,
+ "input_fingerprint": "1f445c99d8ae73a759349adbb77676f22c0ec44c6914fa7b92f6690e1725a677",
  "hero_checked": "pass"
 }

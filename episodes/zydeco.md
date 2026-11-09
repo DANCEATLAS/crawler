@@ -1,8 +1,8 @@
 # Zydeco — episode pack
 
-*Status: draft · built 2026-11-07 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); the music & instruments section; the costume & setting section; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the music & instruments section; the costume & setting section; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced Southwest Louisiana Creole social dancer who emphasizes floor connection, relaxed knees, and playing within the syncopated gaps of the music.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Down to the Floor: The Louisiana Creole Shuffle
 NARRATION: This is Zydeco. Early 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (mgv8tQ-15MA)
 ON SCREEN: Title card: Zydeco · United States · Early 20th century
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ NARRATION: Zydeco is danced as a partner dance where the follower usually mirror
 NARRATION: Dancers execute small sidewise steps with a relatively steady upper body, keeping the physical feel directed downward into the floor without hip wiggling, swinging, or jumping.
 NARRATION: The eight-beat basic cycle is organized as two mirrored four-beat sections ('SPSS SPSS', meaning step-pause-step-step, or slow-quick-quick).
 NARRATION: Watch for SPSS Basic Step, Eat-a-Beat, Pulse / Butt Drop.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (mgv8tQ-15MA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Partner dance in open or closed frame, shuffling in place or rotating together, usually clockwise
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -69,7 +69,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Step onto the left foot on count 1 and hold weight through count 2 (slow)
 NARRATION: Shift weight onto the right foot on count 3 (quick)
-NARRATION: Count it: 1-2-3-4.
+NARRATION: Count it: 5-6-7-8 / slow-quick-quick-slow.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -77,7 +77,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Step inside Louisiana Creole dance halls to discover Zydeco, a grounded partner dance where syncopated pauses explode into lightning-fast footwork.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -93,11 +93,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Grounded downward orientation into the floor with a relatively steady upper body; no hip swinging, wiggling, or jumping
 NARRATION: Steady upper body without hip wiggling; butt drops or knee flexes occur on accented beats 2 and 6
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4. The meter is 4/4.
+NARRATION: Count: 5-6-7-8 / slow-quick-quick-slow. The meter is 4/4.
 NARRATION: Rhythm pattern: Syncopated 8-beat cycle with strong musical accents on counts 2 and 6.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -110,10 +110,10 @@ NARRATION: Step 1: Step onto the left foot on count 1 and hold weight through co
 NARRATION: Step 2: Shift weight onto the right foot on count 3 (quick)
 NARRATION: Footwork from the sources: Small sidewise steps, in-place shuffles, and weight shifts structured on an 8-beat rhythm (slow on 1-2, quick on 3, quick on 4; slow on 5-6, quick on 7, quick on 8)
 NARRATION: Drill: Count out loud 'slow, quick, quick' (1-2, 3, 4 and 5-6, 7, 8) while transferring weight from left to right
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 5-6-7-8 / slow-quick-quick-slow · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Shift weight back onto the left foot on count 4 (quick)
@@ -121,7 +121,7 @@ NARRATION: Step 4: Step onto the right foot on count 5 and hold weight through c
 NARRATION: Drill: Practice the SPSS step-pause-step-step sequence solo without upper body sway
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 5-6-7-8 / slow-quick-quick-slow · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -134,13 +134,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid vertical bouncing, jumping, excessive upper-body movement, and hip swinging or wiggling
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: hoping instead of shifting weight
+NARRATION: Teachers of this dance warn against: leading step size from the follower instead of the leader
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform weight transfers by tapping alternating feet on the floor: left foot taps and holds on counts 1-2, right foot taps on 3, left foot taps on 4, repeating with right foot lead on counts 5-8. · For children: 'Catch the Beat': Children dance the slow-quick-quick pattern and freeze on counts 2 and 6, or shout 'Eat a Beat!' while kicking or tapping their free foot.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform weight transfers by tapping alternating feet on the floor: left foot taps and holds on counts 1-2, right foot taps on 3, left foot taps on 4, repeating with right foot lead on counts 5-8. · For children: 'Catch the Beat': Children dance the slow-quick-quick pattern and freeze on counts 2 and 6, or shout 'Eat a Beat!' while kicking or tapping their free foot. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: 5-6-7-8 / slow-quick-quick-slow.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -166,11 +168,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Grounded downward orientation into the floor with a relatively steady upper body; no hip swinging, wiggling, or jumping
 NARRATION: Steady upper body without hip wiggling; butt drops or knee flexes occur on accented beats 2 and 6
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4. The meter is 4/4.
+NARRATION: Count: 5-6-7-8 / slow-quick-quick-slow. The meter is 4/4.
 NARRATION: Rhythm pattern: Syncopated 8-beat cycle with strong musical accents on counts 2 and 6.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -182,10 +184,10 @@ NEEDS: tempo
 NARRATION: Step 1: Shift weight onto the left foot on count 7 (quick)
 NARRATION: Step 2: Shift weight back onto the right foot on count 8 (quick)
 NARRATION: Drill: Connect in partner frame and execute mirrored SPSS weight transfers together
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 5-6-7-8 / slow-quick-quick-slow · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: SPSS Basic Step: An eight-count basic pattern of step-pause-step-step mirrored across two four-beat segments
@@ -194,7 +196,7 @@ NARRATION: Drill: Incorporate small lateral steps to shuffle gently sideways acr
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 5-6-7-8 / slow-quick-quick-slow · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -207,13 +209,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid vertical bouncing, jumping, excessive upper-body movement, and hip swinging or wiggling
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: hoping instead of shifting weight
+NARRATION: Teachers of this dance warn against: leading step size from the follower instead of the leader
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform weight transfers by tapping alternating feet on the floor: left foot taps and holds on counts 1-2, right foot taps on 3, left foot taps on 4, repeating with right foot lead on counts 5-8. · For children: 'Catch the Beat': Children dance the slow-quick-quick pattern and freeze on counts 2 and 6, or shout 'Eat a Beat!' while kicking or tapping their free foot.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform weight transfers by tapping alternating feet on the floor: left foot taps and holds on counts 1-2, right foot taps on 3, left foot taps on 4, repeating with right foot lead on counts 5-8. · For children: 'Catch the Beat': Children dance the slow-quick-quick pattern and freeze on counts 2 and 6, or shout 'Eat a Beat!' while kicking or tapping their free foot. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: 5-6-7-8 / slow-quick-quick-slow.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Partner dance in open or closed frame, shuffling in place or rotating together, usually clockwise
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -238,11 +242,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Grounded downward orientation into the floor with a relatively steady upper body; no hip swinging, wiggling, or jumping
 NARRATION: Steady upper body without hip wiggling; butt drops or knee flexes occur on accented beats 2 and 6
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4. The meter is 4/4.
+NARRATION: Count: 5-6-7-8 / slow-quick-quick-slow. The meter is 4/4.
 NARRATION: Rhythm pattern: Syncopated 8-beat cycle with strong musical accents on counts 2 and 6.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -254,10 +258,10 @@ NEEDS: tempo
 NARRATION: Step 1: Shift weight onto the left foot on count 7 (quick)
 NARRATION: Step 2: Shift weight back onto the right foot on count 8 (quick)
 NARRATION: Drill: Practice dropping weight with a subtle knee bend or butt drop on beats 2 and 6
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 5-6-7-8 / slow-quick-quick-slow · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Pulse / Butt Drop: Bending the knees or dropping the butt on counts 2 and 6 to accent the musical syncopation downward
@@ -265,7 +269,7 @@ NARRATION: Drill: Execute free-foot heel taps and toe taps on counts 2 and 6 dur
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 · repetitions: 3
+COUNTS: 5-6-7-8 / slow-quick-quick-slow · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -278,13 +282,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid vertical bouncing, jumping, excessive upper-body movement, and hip swinging or wiggling
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: hoping instead of shifting weight
+NARRATION: Teachers of this dance warn against: leading step size from the follower instead of the leader
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform weight transfers by tapping alternating feet on the floor: left foot taps and holds on counts 1-2, right foot taps on 3, left foot taps on 4, repeating with right foot lead on counts 5-8. · For children: 'Catch the Beat': Children dance the slow-quick-quick pattern and freeze on counts 2 and 6, or shout 'Eat a Beat!' while kicking or tapping their free foot.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform weight transfers by tapping alternating feet on the floor: left foot taps and holds on counts 1-2, right foot taps on 3, left foot taps on 4, repeating with right foot lead on counts 5-8. · For children: 'Catch the Beat': Children dance the slow-quick-quick pattern and freeze on counts 2 and 6, or shout 'Eat a Beat!' while kicking or tapping their free foot. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4.
+NARRATION: Count-in: 5-6-7-8 / slow-quick-quick-slow.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Partner dance in open or closed frame, shuffling in place or rotating together, usually clockwise
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -311,7 +317,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'mgv8tQ-15MA', 'checked_by_vision_model': False, 'title': 'Zydeco Dance in Houston: Black Cowboys, Trail Rides and Creole Roots | If Cities Could Dance'}
 Images: 0 licensed
 Footage: Bear in the Big Blue House LIVE! ON TOUR: The Crossover V2 — https://archive.org/details/bear-in-the-big-blue-house-live-on-tour-the-crossover-v2_202501; The El Cajon Summer Concert Series Featuring the Bayou Brothers — https://archive.org/details/TheElCajonSummerConcertSeriesFeaturingTheBayouBrothers_913; Studio Session - Andre Thierry and Zydeco Magic — https://archive.org/details/Studio_Session_-_Andre_Thierry_and_Zydeco_Magic; A Cajun Christmas Jay B and the Zydeco Posse) — https://archive.org/details/A_Cajun_Christmas_Jay_B_and_the_Zydeco_Posse
 Motifs: Dust kicking off polished wood floorboards under low-heeled shoes, Side profiles emphasizing a steady torso while knees flex downward, Tight overhead frames of paired feet tracing clockwise circles
@@ -321,9 +327,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the african-diaspora family studied · videos studied: 4
-Counting: 1-2-3-4
-Demonstration: views used by most teachers: back, front, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: left foot; right foot; step; touch; stomp off; push; make sure that you are wearing comfortable shoes; stand properly; don't do that; 5-6-7-8-hold; lets build it up; now put them together
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 5-6-7-8 / slow-quick-quick-slow
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full
+Cues: shift; slow; quick quick slow; rock step
+Common mistakes the studied teachers name: hoping instead of shifting weight; leading step size from the follower instead of the leader
 
 Sources (2): https://en.wikipedia.org/wiki/Zydeco_(dance); https://www.wikidata.org/wiki/Q8075739

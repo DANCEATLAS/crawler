@@ -1,6 +1,6 @@
 # maloya — episode pack
 
-*Status: withheld-chapters · built 2026-11-03 · judge 8.8 · 4/4 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 8.8 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; two or more connections
 
@@ -78,7 +78,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how a banned rhythm from the sugar plantations became the heartbeat of a nation.
-NARRATION: Sources: 6 references, every claim checked against its source.
+NARRATION: Sources: 6 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -107,9 +107,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
 Counting: count the Ternary bar out loud, then in pairs of bars
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (6): https://en.wikipedia.org/wiki/Maloya; https://www.wikidata.org/wiki/Q496929; https://fr.wikipedia.org/wiki/Maloya; https://pt.wikipedia.org/wiki/Maloya; https://de.wikipedia.org/wiki/Maloya_(Tanz); https://ich.unesco.org/en/RL/00249

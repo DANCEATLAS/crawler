@@ -1,6 +1,6 @@
 # Zebola — episode pack
 
-*Status: withheld-chapters · built 2026-11-05 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; the costume & setting section
 
@@ -74,7 +74,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how a Kintambo folklore chant became the heartbeat of modern Congolese dance music.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -105,9 +105,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the african-diaspora family studied · videos studied: 3
-Counting: 5-6-7-8 and 1-2-3-4-5-6-7
-Demonstration: views used by most teachers: back, front; tempo progression: slow → full
-Cues: left foot; right foot; step; touch; stomp off; push; 5-6-7-8-hold; lets build it up; now put them together; stomp spank step; stomp spank ball change; step toe step hop step hop out in
+Source: 5 tutorial(s) of the african-diaspora family studied · videos studied: 5
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: shift; slow; quick quick slow; rock step; left foot; right foot; step; touch; stomp off; push; make sure that you are wearing comfortable shoes; stand properly
 
 Sources (3): https://en.wikipedia.org/wiki/Atalaku; https://www.wikidata.org/wiki/Q131160620; https://fr.wikipedia.org/wiki/Atalaku

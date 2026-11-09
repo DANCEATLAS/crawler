@@ -1,8 +1,8 @@
 # Waacking — episode pack
 
-*Status: draft · built 2026-11-07 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A sharp, charismatic street-dance historian and master waacker who insists on dramatic musical intention and historical respect.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: When a Slur Became a Symphony of Arms
 NARRATION: This is Waacking. 1970s to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (zuIPARqaNsg)
 ON SCREEN: Title card: Waacking · United States · 1970s to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The style is executed through rapid, rotational arm sweeps, explosive
 NARRATION: Dancers whip their forearms and wrists around and behind the head and across the shoulder line, isolating sharp gestures while maintaining rhythmic syncopation.
 NARRATION: A key technical element is posing, in which dancers freeze into glamorous, heightened diva stances inspired by Hollywood movie figures.
 NARRATION: Watch for The Whack, Posing, Rotational Arm Rolls.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (zuIPARqaNsg)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo cypher center, moving dynamically within an intimate personal sphere or across a performance stage
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Arm Whack: rhythmic strike bringing forearm and hand sharply over the head
 NARRATION: Rotational Overhead Sweep: continuous circular winding of arms around the crown and neck
-NARRATION: Count it: 1-2-3-4-5-6.
+NARRATION: Count it: 5-6-7-8 and 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -86,7 +86,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Inside the underground queer clubs of 1970s Los Angeles, persecuted dancers took classic Hollywood glamour, accelerated disco, and explosive overhead arm strikes to invent waacking.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -103,11 +103,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, proud, theatrical spine with an open chest, projecting diva glamour and continuous eye contact
 NARRATION: Rapid rotational arm movements, wrist isolations, and over-the-head whacks coordinated with musical accents
 NARRATION: Sensual, dynamic torso lines with rhythmic rib isolations and fluid hip shifts
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Driving four-on-the-floor kick with upbeat open hi-hats and accented syncopated brass and string stabs.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -119,10 +119,10 @@ NARRATION: Step 1: Arm Whack: rhythmic strike bringing forearm and hand sharply 
 NARRATION: Step 2: Rotational Overhead Sweep: continuous circular winding of arms around the crown and neck
 NARRATION: Footwork from the sources: Rhythmic stepping and weight shifts supporting torso orientation, influenced by jazz and club social steps
 NARRATION: Drill: Single-arm wrist circle over the crown on beats 1 and 3
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Hollywood Diva Pose: sudden frozen stylized silhouette imitating classic film screen actors
@@ -130,7 +130,7 @@ NARRATION: Step 4: Rhythmic Extension: extending arms explosively outward to mus
 NARRATION: Drill: Alternating two-arm overhead pass with locked core
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -143,13 +143,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Do not execute arm rolls without shoulder warming; avoid disconnecting arm movement from musical phrasing or facial expression
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: going outwards instead of staying very close to the ears
+NARRATION: Teachers of this dance warn against: one arm being stronger than the other
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair. · For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair. · For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 127 bpm
@@ -176,11 +178,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, proud, theatrical spine with an open chest, projecting diva glamour and continuous eye contact
 NARRATION: Rapid rotational arm movements, wrist isolations, and over-the-head whacks coordinated with musical accents
 NARRATION: Sensual, dynamic torso lines with rhythmic rib isolations and fluid hip shifts
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Driving four-on-the-floor kick with upbeat open hi-hats and accented syncopated brass and string stabs.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -191,10 +193,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Arm Whack: rhythmic strike bringing forearm and hand sharply over the head
 NARRATION: Step 2: Rotational Overhead Sweep: continuous circular winding of arms around the crown and neck
 NARRATION: Drill: Continuous forward-and-back arm wrapping while stepping side-to-side
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Hollywood Diva Pose: sudden frozen stylized silhouette imitating classic film screen actors
@@ -205,7 +207,7 @@ NARRATION: Drill: Double-time arm rotation into a 1-beat freeze pose
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -218,13 +220,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Do not execute arm rolls without shoulder warming; avoid disconnecting arm movement from musical phrasing or facial expression
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: going outwards instead of staying very close to the ears
+NARRATION: Teachers of this dance warn against: one arm being stronger than the other
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair. · For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair. · For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo cypher center, moving dynamically within an intimate personal sphere or across a performance stage
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 127 bpm
@@ -251,11 +255,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, proud, theatrical spine with an open chest, projecting diva glamour and continuous eye contact
 NARRATION: Rapid rotational arm movements, wrist isolations, and over-the-head whacks coordinated with musical accents
 NARRATION: Sensual, dynamic torso lines with rhythmic rib isolations and fluid hip shifts
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Driving four-on-the-floor kick with upbeat open hi-hats and accented syncopated brass and string stabs.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -266,10 +270,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Hollywood Diva Pose: sudden frozen stylized silhouette imitating classic film screen actors
 NARRATION: Step 2: Rhythmic Extension: extending arms explosively outward to music accents before returning to overhead rotation
 NARRATION: Drill: 3-pose character sequence interpreting an emotional song lyric
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Rotational Arm Rolls: Continuous circular loops of the forearms around the head, shoulders, and chest without breaking tempo
@@ -277,7 +281,7 @@ NARRATION: Drill: Continuous battle entry: 8-count travel, 8-count rapid whacks,
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -290,13 +294,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Do not execute arm rolls without shoulder warming; avoid disconnecting arm movement from musical phrasing or facial expression
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: going outwards instead of staying very close to the ears
+NARRATION: Teachers of this dance warn against: one arm being stronger than the other
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair. · For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair. · For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo cypher center, moving dynamically within an intimate personal sphere or across a performance stage
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 127 bpm
@@ -325,7 +331,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'zuIPARqaNsg', 'checked_by_vision_model': False, 'title': 'Khwab Dekhe | Monali Thakur | Neeraj Shridhar | Waacking Choreography | Nritya Shakti'}
 Images: 0 licensed
 Footage: Waacking: Psychedelic Flow! — https://archive.org/details/psychedelic-flow; Waacking: Flute Cover! — https://archive.org/details/flute-cover; Rockwell - 'Somebody's Watching Me' | Waacking Freestyle (Berfu) — https://archive.org/details/rockwell-somebodys-watching-me-waacking-freestyle-berfu; WAACKING: PINK PARADE | ICONIC EDITION - The Royal Family Waacking Virtual Experience! — https://archive.org/details/pink-parade-iconic-edition-the-royal-family-virtual-experience; Elahood Waacking - ¡Danza! — https://archive.org/details/elahood-waacking; Lên sàn | Jack đen | Phong cách tự do Waacking Vogue | Kẹp 02 | 2010 — https://archive.org/details/get-on-the-floor-black-jack-freestyle-waacking-vogue-clip-02-2010; Aversión al agua | Garay | Whacking. — https://archive.org/details/aversion-al-agua-garay-whacking
 Motifs: Spun disco balls reflecting fractured light across spinning forearms, Vintage black-and-white Hollywood movie stills intercut with modern club cyphers, Slow-motion captures of wrists wrapping around the crown of the head
@@ -335,9 +341,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 5 tutorial(s) of the street-urban family studied · videos studied: 5
-Counting: 1-2-3-4-5-6
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full; repetitions per step: about 2
-Cues: punch to the side; pull your head down; pivot them on your elbows; up and down; sit in your hip; flex your muscles; lift your foot; then kick your leg; stay smooth; get a feeling for it; then get faster; make sure you really bend those knees
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 5-6-7-8 and 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: roll your right arm up like that; hit the back of your shoulder; use that momentum; extend as much as you can; make sure you touch all the way back; down back out back up back out back
+Common mistakes the studied teachers name: going outwards instead of staying very close to the ears; one arm being stronger than the other
 
 Sources (5): https://en.wikipedia.org/wiki/Waacking; https://www.wikidata.org/wiki/Q2600651; https://fr.wikipedia.org/wiki/Waacking; https://pt.wikipedia.org/wiki/Whacking; https://de.wikipedia.org/wiki/Waacking

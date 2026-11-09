@@ -1,11 +1,12 @@
 {
  "slug": "dhamal-sufi",
- "name": "Dhamal",
- "pack_version": "e1",
- "built_at": "2026-11-03T03:27:49Z",
- "researched_at": "2026-10-30T17:38:31Z",
- "qc_score": 9.3,
+ "name": "Dhamail",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
+ "researched_at": "2026-11-09T20:36:27Z",
+ "qc_score": 9.55,
  "status": "draft",
+ "release_status": "not_validated",
  "sacred": false,
  "chapters_note": null,
  "formula": {
@@ -44,28 +45,29 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A local folk dance practitioner from the Sylhet region.",
+   "persona": "A Sylheti woman experienced in traditional wedding dances, warm and encouraging, emphasizing communal joy and spiritual meaning.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
+   "Dhamail",
    "Dhamal",
    "Dhamail"
   ]
  },
  "episode_1": {
-  "title": "Meet Dhamal",
+  "title": "Meet Dhamail",
   "scenes": [
    {
     "code": "hook",
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Wedding Circle of Sylhet",
-     "This is Dhamal. 14th century."
+     "Dhamail: The Spirited Circle Dance of Sylhet",
+     "This is Dhamail. 14th century onward."
     ],
     "on_screen": [
      "Hero video, first 10 seconds (t0u-rWbKKdQ)",
-     "Title card: Dhamal · Bangladesh · 14th century"
+     "Title card: Dhamail · Bangladesh · 14th century onward"
     ],
     "music": "theme (30 s)"
    },
@@ -74,12 +76,12 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The term can be traced back to the 14th century in the works of Chandidas.",
-     "It was later established in the Sylhet region by composers Radharaman Dutta and Arkum Shah."
+     "The word 'dhamal' or 'dhamail' is found in Bengali poetry from the 14th century onwards, including works by Chandidas of Birbhum and poets from Chittagong in the 16th and 17th centuries.",
+     "Folk composers Radharaman Dutta and Arkum Shah are credited with introducing the dhamail dance tradition to Sylhet."
     ],
     "on_screen": [
      "Map: Bangladesh · South Asia",
-     "Image 1 with attribution"
+     "Image — MISSING"
     ],
     "music": "underscore"
    },
@@ -88,7 +90,10 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "The dance relates to the love of Radha and Krishna, symbolizing the union of souls for a newly wedded couple."
+     "Dhamail is performed mainly by women during marriages and auspicious events.",
+     "The dance symbolizes the spiritual union of the newlywed couple, reflecting the devotional love of Radha and Krishna.",
+     "The escalating tempo and removal of dancers represent intensifying devotion and unity of souls.",
+     "Today it is a living tradition."
     ],
     "on_screen": [
      "Footage — MISSING (use images)"
@@ -100,30 +105,32 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Women move in a circle, clapping hands to the beat.",
-     "The dance involves a process where dancers are removed as the tempo increases, similar to musical chairs.",
-     "Watch for Musical Chair Elimination."
+     "Watch for Circle Clapping, Removal Step."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (t0u-rWbKKdQ)",
-     "Captions name each signature move as it appears"
+     "Captions name each signature move as it appears",
+     "Formation: Dancers move in a circle facing inward."
     ],
-    "music": "diegetic (the video's own sound), underscore under narration"
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
    },
    {
     "code": "music",
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Accompanied by mirdanga and kartals, typically played by men.",
-     "The vocal style is leader-chorus.",
-     "Listen for the mirdanga, kartals.",
-     "A rhythmic folk sound driven by percussion instruments like the mirdanga and kartals, characterized by a leader-chorus vocal structure and an accelerating tempo."
+     "Male musicians accompany the dance playing mirdanga drums and kartals (hand cymbals), among other instruments.",
+     "The rhythm accelerates progressively, driving the dance's increasing tempo and intensity.",
+     "Listen for the mirdanga, kartals, other percussion instruments.",
+     "The music features rhythmic drum beats from the mirdanga and sharp clashing sounds from the kartals, supporting a lead vocalist whose devotional songs are echoed by a chorus of women, building in tempo and intensity."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
      "Verified recording — MISSING",
-     "Waveform or rhythm-pattern graphic: "
+     "Waveform or rhythm-pattern graphic: Progressively accelerating rhythm with dynamic tempo increases."
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
@@ -135,15 +142,14 @@
     "code": "costume",
     "title": "The costume and the setting",
     "duration_s": 60,
-    "narration": [
-     "Performed during marriages and auspicious occasions."
-    ],
+    "narration": [],
     "on_screen": [
-     "Image gallery: 1 licensed images with attribution",
+     "Images — MISSING",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
     "needs": [
+     "costume_and_setting",
      "images"
     ]
    },
@@ -152,17 +158,13 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Radharaman Dutta and Arkum Shah.",
-     "Prevalent in the Mymensingh and Sylhet regions of northeastern Bengal."
+     "Folk composers Radharaman Dutta and Arkum Shah are noted for introducing the dhamail dance tradition to Sylhet.",
+     "Dhamail is part of the Bengali folk music and dance tradition, with historical references from the 14th century and development influenced by regional poets and composers in Bengal."
     ],
     "on_screen": [
-     "Names on screen as they are spoken",
-     "Variant names as a small list"
+     "Names on screen as they are spoken"
     ],
-    "music": "underscore",
-    "needs": [
-     "lineage"
-    ]
+    "music": "underscore"
    },
    {
     "code": "family",
@@ -183,8 +185,8 @@
     "duration_s": 60,
     "narration": [
      "Before we go, one step. Form a circle with other dancers.",
-     "Clap hands in time with the music.",
-     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Begin clapping hands rhythmically in time with the music.",
+     "Count it: .",
      "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
@@ -198,8 +200,8 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "An exploration of the Dhamal dance, a rhythmic celebration of union in the heart of Bangladesh.",
-     "Sources: 2 references, every claim checked against its source."
+     "Explore how Sylheti women celebrate love and unity through the rhythmic, accelerating circle dance of Dhamail.",
+     "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -213,7 +215,7 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Learn the basic circle movement and clapping.",
+   "goal": "Learn basic circle formation and hand clapping rhythm.",
    "level": "Beginner",
    "scenes": [
     {
@@ -221,9 +223,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Learn the basic circle movement and clapping..",
-      "Level: Beginner. Difficulty of the dance overall: beginner.",
-      "Your instructor: A local folk dance practitioner from the Sylhet region."
+      "Chapter 1 — First steps. Today: Learn basic circle formation and hand clapping rhythm..",
+      "Level: Beginner. Difficulty of the dance overall: beginner to intermediate.",
+      "Your instructor: A Sylheti woman experienced in traditional wedding dances, warm and encouraging, emphasizing communal joy and spiritual meaning."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -235,11 +237,10 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Clapping hands to the beat."
+      "Clapping hands rhythmically in time with the music."
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -248,7 +249,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Count: .",
+      "Rhythm pattern: Progressively accelerating rhythm with dynamic tempo increases..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -267,15 +269,15 @@
      "duration_s": 150,
      "narration": [
       "Step 1: Form a circle with other dancers.",
-      "Step 2: Clap hands in time with the music.",
-      "Drill: Walking in a circle."
+      "Step 2: Begin clapping hands rhythmically in time with the music.",
+      "Drill: Practice standing in a circle facing inward."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -283,15 +285,15 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Move in a circular path.",
-      "Step 4: Increase speed as the music tempo rises.",
-      "Drill: Clapping to a steady beat."
+      "Step 3: Follow the lead singer's vocal cues.",
+      "Step 4: Increase movement speed as tempo accelerates.",
+      "Drill: Clap hands steadily to a slow beat."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -302,7 +304,7 @@
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
       "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Combining walking and clapping."
+      "Drill: Follow a lead vocal cue with simple call and response."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -315,24 +317,21 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+      "Avoid attempting fast-paced removal steps without practice to prevent falls."
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Count-in: .",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -346,8 +345,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Learn the basic circle movement and clapping..",
-      "The dance relates to the love of Radha and Krishna, symbolizing the union of souls for a newly wedded couple.",
+      "You can now: Learn basic circle formation and hand clapping rhythm..",
+      "Dhamail is performed mainly by women during marriages and auspicious events.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -361,17 +360,17 @@
   {
    "chapter": 2,
    "title": "Building the dance",
-   "goal": "the building the dance of Dhamal",
-   "level": null,
+   "goal": "Increase tempo and maintain rhythm while moving.",
+   "level": "Intermediate",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 — Building the dance. Today: the building the dance of Dhamal.",
-      "Level: intermediate. Difficulty of the dance overall: beginner.",
-      "Your instructor: A local folk dance practitioner from the Sylhet region."
+      "Chapter 2 — Building the dance. Today: Increase tempo and maintain rhythm while moving..",
+      "Level: Intermediate. Difficulty of the dance overall: beginner to intermediate.",
+      "Your instructor: A Sylheti woman experienced in traditional wedding dances, warm and encouraging, emphasizing communal joy and spiritual meaning."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -383,11 +382,10 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Clapping hands to the beat."
+      "Clapping hands rhythmically in time with the music."
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -396,7 +394,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Count: .",
+      "Rhythm pattern: Progressively accelerating rhythm with dynamic tempo increases..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -414,15 +413,15 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Form a circle with other dancers.",
-      "Step 2: Clap hands in time with the music."
+      "Step 1: Step out when unable to keep pace as dancers are removed.",
+      "Drill: Clap hands at a faster tempo."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -430,16 +429,16 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Move in a circular path.",
-      "Step 4: Increase speed as the music tempo rises.",
-      "Musical Chair Elimination: Dancers are removed one by one as the tempo increases."
+      "Circle Clapping: Dancers clap hands rhythmically while moving in a circle.",
+      "Removal Step: Dancers unable to keep pace step out as tempo accelerates.",
+      "Drill: Step lightly in a circle while clapping."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -449,7 +448,8 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right."
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice stepping out safely when unable to keep pace."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -462,25 +462,22 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+      "Avoid attempting fast-paced removal steps without practice to prevent falls."
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
-      "Full tempo, the whole sequence, twice."
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Dancers move in a circle facing inward."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -493,8 +490,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: the building the dance of Dhamal.",
-      "Radharaman Dutta and Arkum Shah.",
+      "You can now: Increase tempo and maintain rhythm while moving..",
+      "Folk composers Radharaman Dutta and Arkum Shah are noted for introducing the dhamail dance tradition to Sylhet.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -508,17 +505,17 @@
   {
    "chapter": 3,
    "title": "Dancing it fully",
-   "goal": "the dancing it fully of Dhamal",
-   "level": null,
+   "goal": "Sustain fast tempo and coordinate group dynamics.",
+   "level": "Advanced",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Dhamal.",
-      "Level: advanced. Difficulty of the dance overall: beginner.",
-      "Your instructor: A local folk dance practitioner from the Sylhet region."
+      "Chapter 3 — Dancing it fully. Today: Sustain fast tempo and coordinate group dynamics..",
+      "Level: Advanced. Difficulty of the dance overall: beginner to intermediate.",
+      "Your instructor: A Sylheti woman experienced in traditional wedding dances, warm and encouraging, emphasizing communal joy and spiritual meaning."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -530,11 +527,10 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Clapping hands to the beat."
+      "Clapping hands rhythmically in time with the music."
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -543,7 +539,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Count: .",
+      "Rhythm pattern: Progressively accelerating rhythm with dynamic tempo increases..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -561,15 +558,16 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Move in a circular path.",
-      "Step 2: Increase speed as the music tempo rises."
+      "Step 1: Increase movement speed as tempo accelerates.",
+      "Step 2: Step out when unable to keep pace as dancers are removed.",
+      "Drill: Maintain clapping and foot movement at peak tempo."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -577,14 +575,16 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Musical Chair Elimination: Dancers are removed one by one as the tempo increases."
+      "Circle Clapping: Dancers clap hands rhythmically while moving in a circle.",
+      "Removal Step: Dancers unable to keep pace step out as tempo accelerates.",
+      "Drill: React quickly to tempo changes and removal cues."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -594,7 +594,8 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right."
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Support other dancers and maintain group cohesion."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -607,25 +608,22 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+      "Avoid attempting fast-paced removal steps without practice to prevent falls."
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
-      "Full tempo, the whole sequence, twice."
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Dancers move in a circle facing inward."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -638,7 +636,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: the dancing it fully of Dhamal.",
+      "You can now: Sustain fast tempo and coordinate group dynamics..",
+      "Dhamail is part of the Bengali folk music and dance tradition, with historical references from the 14th century and development influenced by regional poets and composers in Bengal.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -651,23 +650,28 @@
   }
  ],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
-  "rhythm_pattern": null,
+  "rhythm_pattern": "Progressively accelerating rhythm with dynamic tempo increases.",
   "instruments": [
    "mirdanga",
-   "kartals"
+   "kartals",
+   "other percussion instruments"
   ],
-  "vocal_style": null,
-  "musical_form": null,
+  "vocal_style": "Lead singer followed by chorus singing devotional songs about Radha and Krishna.",
+  "musical_form": "Call and response between lead singer and chorus.",
   "mood": [
    "devotional",
-   "celebratory"
+   "joyful",
+   "communal",
+   "escalating intensity"
   ],
-  "sound_description": "A rhythmic folk sound driven by percussion instruments like the mirdanga and kartals, characterized by a leader-chorus vocal structure and an accelerating tempo.",
+  "sound_description": "The music features rhythmic drum beats from the mirdanga and sharp clashing sounds from the kartals, supporting a lead vocalist whose devotional songs are echoed by a chorus of women, building in tempo and intensity.",
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Dhamal (Bangladesh). Instruments: mirdanga, kartals. Mood: devotional, celebratory. It should sound like this: A rhythmic folk sound driven by percussion instruments like the mirdanga and kartals, characterized by a leader-chorus vocal structure and an accelerating tempo. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Dhamail (Bangladesh). Rhythm pattern: Progressively accelerating rhythm with dynamic tempo increases.. Instruments: mirdanga, kartals, other percussion instruments. Vocal style: Lead singer followed by chorus singing devotional songs about Radha and Krishna.. Form: Call and response between lead singer and chorus.. Mood: devotional, joyful, communal, escalating intensity. It should sound like this: The music features rhythmic drum beats from the mirdanga and sharp clashing sounds from the kartals, supporting a lead vocalist whose devotional songs are echoed by a chorus of women, building in tempo and intensity. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -706,13 +710,11 @@
    "title": null
   },
   "wardrobe": {
-   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
-   "dress_the_narrator": true,
-   "restricted_attire": false,
-   "from_sources": "Performed during marriages and auspicious occasions.",
-   "reference_images": [
-    "https://commons.wikimedia.org/wiki/File%3ABaul_Song_Performance_-_Saturday_Haat_-_Sonajhuri_-_Birbhum_2014-06-28_5286.JPG"
-   ],
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": null,
+   "reference_images": [],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
     "no caricature, no exaggeration, no mixing of regions or eras",
@@ -720,24 +722,18 @@
     "credits name the tradition and the sources of the reconstruction"
    ]
   },
-  "images": [
-   {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Baul_Song_Performance_-_Saturday_Haat_-_Sonajhuri_-_Birbhum_2014-06-28_5286.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Baul_Song_Performance_-_Saturday_Haat_-_Sonajhuri_-_Birbhum_2014-06-28_5286.JPG/1280px-Baul_Song_Performance_-_Saturday_Haat_-_Sonajhuri_-_Birbhum_2014-06-28_5286.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "attribution": "Biswarup Ganguly / Wikimedia Commons / CC BY 3.0",
-    "license": "CC BY 3.0",
-    "source_page": "https://commons.wikimedia.org/wiki/File%3ABaul_Song_Performance_-_Saturday_Haat_-_Sonajhuri_-_Birbhum_2014-06-28_5286.JPG",
-    "description": "Photographed at the Sonajhuri-Khoai area. It is very near from Santiniketan and Prantik railway station, Birbhum. In every Saturday Haat ( bn: Sanibarer Haat) happen mainly with village people made ethnic decorative ornaments, house-hold materials and home-made sweets &amp; snacks. The Baul songs are also performed by various Baul groups. The buyers are mainly come from Kolkata or other parts from"
-   }
-  ],
+  "images": [],
   "footage": [],
   "motifs": [
-   "Circular movement",
-   "Clapping hands",
-   "Traditional wedding attire"
+   "Circle of women clapping",
+   "Mirdanga drum and kartals",
+   "Lead singer with chorus",
+   "Accelerating tempo",
+   "Removal of dancers",
+   "Paan and tea break"
   ],
-  "costume_notes": "Performed during marriages and auspicious occasions.",
-  "setting_notes": "The dance relates to the love of Radha and Krishna, symbolizing the union of souls for a newly wedded couple.",
+  "costume_notes": null,
+  "setting_notes": "Dhamail is performed mainly by women during marriages and auspicious events. The dance symbolizes the spiritual union of the newlywed couple, reflecting the devotional love of Radha and Krishna. The escalating tempo and removal of dancers represent intensifying devotion and unity of souls.",
   "map": {
    "country": "Bangladesh",
    "region": "South Asia",
@@ -750,29 +746,39 @@
   ]
  },
  "teaching_formula": {
-  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
-  "videos_studied": 0,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "source": "11 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 11,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "front view, then back view (student's perspective)",
-   "slow, then half tempo, then full tempo",
-   "three repetitions of every step before moving on"
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
-   "say the count before the move",
-   "name the body part, then the direction",
-   "one correction at a time"
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "side side side side"
   ],
   "common_mistakes": [],
   "segment_order": [
-   "welcome",
-   "body",
-   "count",
-   "step",
-   "step",
-   "combine",
-   "mistakes",
-   "music",
+   "intro",
+   "context",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
    "recap"
   ],
   "steps_as_taught": []
@@ -783,16 +789,17 @@
   "a verified recording to listen to",
   "licensed images (3 needed)",
   "licensed reference footage",
-  "lineage",
-  "two or more connections",
-  "what to avoid / common mistakes"
+  "the how-it-is-danced section",
+  "the costume & setting section",
+  "two or more connections"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Dhamail",
   "https://www.wikidata.org/wiki/Q5268810"
  ],
- "claims_verified": 5,
- "claims": 5,
+ "claims_verified": 9,
+ "claims": 9,
  "polished": false,
+ "input_fingerprint": "f88a7afe3b830166118f5d4bfd008f3b097cff453d850ebfeb6cff78f8d1c483",
  "hero_checked": "pass"
 }

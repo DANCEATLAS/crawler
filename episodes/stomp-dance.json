@@ -1,11 +1,12 @@
 {
  "slug": "stomp-dance",
  "name": "Stomp dance",
- "pack_version": "e1",
- "built_at": "2026-11-05T19:35:32Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-05T17:59:19Z",
  "qc_score": 9.7,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -67,7 +68,7 @@
      "This is Stomp dance. Pre-colonial to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (mSRdqn2U-T8)",
      "Title card: Stomp dance · United States · Pre-colonial to present"
     ],
     "music": "theme (30 s)"
@@ -112,7 +113,7 @@
      "Watch for Stomp and shuffle."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (mSRdqn2U-T8)",
      "Captions name each signature move as it appears",
      "Formation: Continuous counterclockwise spiral around a central fire."
     ],
@@ -205,7 +206,7 @@
     "duration_s": 25,
     "narration": [
      "An exploration of the sacred, night-long ritual that connects generations of Eastern Woodland tribes to their ancestors and the earth.",
-     "Sources: 2 references, every claim checked against its source."
+     "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -217,7 +218,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": "Call and response with percussive accompaniment.",
@@ -272,7 +275,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "mSRdqn2U-T8",
+   "checked_by_vision_model": false,
+   "title": "Stomp Dancing"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -330,38 +337,27 @@
   ]
  },
  "teaching_formula": {
-  "source": "18 tutorials across the atlas studied",
-  "videos_studied": 18,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
   ],
   "cues": [
-   "and one and three and five and seven",
-   "keep your feet together",
-   "relax your knees",
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
-   "bend the knees",
-   "change the weight",
-   "turn on the heels",
-   "keep it small",
-   "punch to the side"
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "context",
    "full_demo",
+   "context",
    "breakdown",
-   "slow_practice",
-   "mistakes",
-   "music_practice",
-   "layering"
+   "slow_practice"
   ],
   "steps_as_taught": []
  },
@@ -369,7 +365,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "two or more connections"
  ],
@@ -380,5 +376,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
+ "input_fingerprint": "9ddc1321fdda258f0ffa5ac112522b9d75511bc252b2725ec2838d583c97d305",
  "hero_checked": null
 }

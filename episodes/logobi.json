@@ -1,11 +1,12 @@
 {
  "slug": "logobi",
  "name": "logobi",
- "pack_version": "e1",
- "built_at": "2026-11-03T03:27:49Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-01T16:43:10Z",
  "qc_score": 10.0,
  "status": "draft",
+ "release_status": "not_validated",
  "sacred": false,
  "chapters_note": null,
  "formula": {
@@ -201,7 +202,7 @@
     "duration_s": 25,
     "narration": [
      "Born from the martial arts codes of Ivorian street gangs, logobi transformed urban survival into a high-octane dance phenomenon spanning West Africa and Paris.",
-     "Sources: 3 references, every claim checked against its source."
+     "Sources: 3 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -242,8 +243,7 @@
       "Tightly coiled core with sharp torso twists and periodic provocative or sexual hip overtures."
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -273,7 +273,7 @@
       "Drill: Find a wide, grounded squat with elbows tucked and fists guarded."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -320,7 +320,7 @@
       "Avoid turning fight mimes into genuine physical contact; do not perform without maintaining the underlying percussive bounce."
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -387,8 +387,7 @@
       "Tightly coiled core with sharp torso twists and periodic provocative or sexual hip overtures."
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -416,7 +415,7 @@
       "Drill: Throw alternating straight punches snapping back instantly to guard."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -464,7 +463,7 @@
       "Avoid turning fight mimes into genuine physical contact; do not perform without maintaining the underlying percussive bounce."
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -531,8 +530,7 @@
       "Tightly coiled core with sharp torso twists and periodic provocative or sexual hip overtures."
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -561,7 +559,7 @@
       "Drill: Drill staccato shuffle footwork beneath alternating punch sequences."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -608,7 +606,7 @@
       "Avoid turning fight mimes into genuine physical contact; do not perform without maintaining the underlying percussive bounce."
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -647,7 +645,9 @@
   }
  ],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": 140,
   "meter": "4/4",
   "rhythm_pattern": "Rapid syncopated West African snare and bass kicks layered over compressed four-on-the-floor or coupé-décalé rhythmic grooves.",
@@ -748,34 +748,44 @@
   ]
  },
  "teaching_formula": {
-  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
-  "videos_studied": 0,
+  "source": "9 tutorial(s) of the street-urban family studied",
+  "videos_studied": 9,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "front view, then back view (student's perspective)",
-   "slow, then half tempo, then full tempo",
-   "three repetitions of every step before moving on"
+   "views used by most teachers: front, side, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
-   "say the count before the move",
-   "name the body part, then the direction",
-   "one correction at a time"
+   "right leg out front",
+   "jump split your legs",
+   "the back foot goes up",
+   "lift the left leg up",
+   "punch to the side",
+   "pull your head down",
+   "pivot them on your elbows",
+   "swing stop",
+   "lean forward",
+   "arm up",
+   "elbow up",
+   "up and down"
   ],
   "common_mistakes": [],
   "segment_order": [
-   "welcome",
-   "body",
-   "count",
-   "step",
-   "step",
-   "combine",
-   "mistakes",
-   "music",
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "layering",
+   "slow_practice",
+   "music_practice",
    "recap"
   ],
   "steps_as_taught": []
  },
  "gaps": [
+  "a verified recording to listen to",
   "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage"
@@ -788,5 +798,6 @@
  "claims_verified": 10,
  "claims": 10,
  "polished": false,
+ "input_fingerprint": "0003582b55287c8ca2980880fe13ed7794088fc33d49b3735b9671c1833fa74d",
  "hero_checked": null
 }

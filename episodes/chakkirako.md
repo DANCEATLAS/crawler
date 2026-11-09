@@ -1,6 +1,6 @@
 # Chakkirako — episode pack
 
-*Status: draft · built 2026-11-08 · judge 9.7 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-09 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -11,8 +11,8 @@
 ## Episode 1 · Meet Chakkirako · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The sound of the sea defines Chakkirako.
-NARRATION: This tradition spans from the Edo period to the present.
+NARRATION: The Sound of the Sea: Chakkirako
+NARRATION: This is Chakkirako. Edo period to present.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Chakkirako · Japan · Edo period to present
 MUSIC: theme (30 s)
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: Ten to twenty girls, aged 5 to 12, perform in two rows facing each other or in a circle.
 NARRATION: They hold bamboo strips in their hands and strike them together to create a rhythmic sound.
 NARRATION: The dancers are accompanied by an a cappella choir of older women.
-NARRATION: Watch for bamboo clicking.
+NARRATION: Watch for Bamboo clicking.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Two rows facing each other or a circle
@@ -44,7 +44,7 @@ MUSIC: diegetic (the video's own sound), underscore under narration
 ### 5. Listen (70 s) · `music`
 NARRATION: The music is provided entirely by an a cappella choir of five to ten older women.
 NARRATION: The only instrumental element is the rhythmic clicking of bamboo strips held by the dancers, which produces the signature sound of the performance.
-NARRATION: Listen for the bamboo strips.
+NARRATION: Listen for the Bamboo strips.
 NARRATION: The music is defined by the contrast between the melodic a cappella singing of older women and the sharp, percussive clicking of bamboo strips held by the young dancers.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
@@ -73,9 +73,9 @@ MUSIC: underscore
 NEEDS: connections
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, try one step. Form two rows or a circle.
-NARRATION: Hold bamboo strips in your hands.
-NARRATION: Count it: 1-2-3-4-5.
+NARRATION: Before we go, one step. Form two rows or a circle
+NARRATION: Hold bamboo strips in hands
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -83,26 +83,26 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Young girls in Miura preserve a centuries-old ritual to ensure the prosperity of their fishing village.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
 ## Chapter 1 · First steps — Learn the rhythmic clicking · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 focuses on first steps. Today: learn the rhythmic clicking.
+NARRATION: Chapter 1 — First steps. Today: Learn the rhythmic clicking.
 NARRATION: Level: Beginner. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor is a local community leader or elder from Miura.
+NARRATION: Your instructor: A local community leader or elder from Miura
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Dancers hold bamboo strips in their hands and strike them together.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+NARRATION: Dancers hold bamboo strips in their hands and strike them together
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -110,47 +110,44 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Form two rows or a circle.
-NARRATION: Step 2: Hold bamboo strips in hands.
-NARRATION: Drill: Practice holding bamboo strips.
+NARRATION: Step 1: Form two rows or a circle
+NARRATION: Step 2: Hold bamboo strips in hands
+NARRATION: Drill: Practice holding bamboo strips
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Strike bamboo strips together in rhythm.
-NARRATION: Drill: Clicking to a steady beat.
+NARRATION: Step 3: Strike bamboo strips together in rhythm
+NARRATION: Drill: Clicking to a steady beat
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Perform Step A, then Step B, without stopping. Slow first.
-NARRATION: Now move to half tempo, then full tempo.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Walking in a circle while clicking.
+NARRATION: Drill: Walking in a circle while clicking
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the bamboo clicking while seated in a circle. · For children: A rhythm game where children learn to click bamboo in time with a song.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the bamboo clicking while seated in a circle. · For children: A rhythm game where children learn to click bamboo in time with a song. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now learn the rhythmic clicking.
+NARRATION: You can now: Learn the rhythmic clicking.
 NARRATION: The dance is performed to celebrate the New Year and to invoke good fortune, specifically targeting prosperity and abundant fishing catches for the community.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
@@ -160,19 +157,19 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — the building the dance of Chakkirako · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 focuses on building the dance. Today: building the dance of Chakkirako.
+NARRATION: Chapter 2 — Building the dance. Today: the building the dance of Chakkirako.
 NARRATION: Level: intermediate. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor is a local community leader or elder from Miura.
+NARRATION: Your instructor: A local community leader or elder from Miura
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Dancers hold bamboo strips in their hands and strike them together.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+NARRATION: Dancers hold bamboo strips in their hands and strike them together
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -180,46 +177,43 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Form two rows or a circle.
-NARRATION: Step 2: Hold bamboo strips in hands.
+NARRATION: Step 1: Form two rows or a circle
+NARRATION: Step 2: Hold bamboo strips in hands
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Strike bamboo strips together in rhythm.
+NARRATION: Step 3: Strike bamboo strips together in rhythm
 NARRATION: Bamboo clicking: Striking bamboo strips together to produce a rhythmic sound.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Perform Step A, then Step B, without stopping. Slow first.
-NARRATION: Now move to half tempo, then full tempo.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the bamboo clicking while seated in a circle. · For children: A rhythm game where children learn to click bamboo in time with a song.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the bamboo clicking while seated in a circle. · For children: A rhythm game where children learn to click bamboo in time with a song. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Two rows facing each other or a circle
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now build the dance of Chakkirako.
+NARRATION: You can now: the building the dance of Chakkirako.
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -228,19 +222,19 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — the dancing it fully of Chakkirako · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 focuses on dancing it fully. Today: dancing Chakkirako in full.
+NARRATION: Chapter 3 — Dancing it fully. Today: the dancing it fully of Chakkirako.
 NARRATION: Level: advanced. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor is a local community leader or elder from Miura.
+NARRATION: Your instructor: A local community leader or elder from Miura
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Dancers hold bamboo strips in their hands and strike them together.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+NARRATION: Dancers hold bamboo strips in their hands and strike them together
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -248,45 +242,42 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Hold bamboo strips in hands.
-NARRATION: Step 2: Strike bamboo strips together in rhythm.
+NARRATION: Step 1: Hold bamboo strips in hands
+NARRATION: Step 2: Strike bamboo strips together in rhythm
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Bamboo clicking: Striking bamboo strips together to produce a rhythmic sound.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Perform Step A, then Step B, without stopping. Slow first.
-NARRATION: Now move to half tempo, then full tempo.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform the bamboo clicking while seated in a circle. · For children: A rhythm game where children learn to click bamboo in time with a song.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the bamboo clicking while seated in a circle. · For children: A rhythm game where children learn to click bamboo in time with a song. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Two rows facing each other or a circle
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now dance Chakkirako in full.
+NARRATION: You can now: the dancing it fully of Chakkirako.
 NARRATION: The dance is now part of the broader Furyu-odori category of Japanese folk performing arts.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
@@ -317,7 +308,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
-Counting: 1-2-3-4-5
+Counting: 
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
 Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 

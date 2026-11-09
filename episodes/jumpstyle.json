@@ -1,11 +1,12 @@
 {
  "slug": "jumpstyle",
  "name": "Jumpstyle",
- "pack_version": "e1",
- "built_at": "2026-11-04T19:23:00Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-04T18:00:46Z",
  "qc_score": 9.25,
  "status": "draft",
+ "release_status": "not_validated",
  "sacred": false,
  "chapters_note": null,
  "formula": {
@@ -64,7 +65,7 @@
      "This is Jumpstyle. Late 1990s to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (iWRolPgp9JY)",
      "Title card: Jumpstyle · Belgium, Netherlands · Late 1990s to present"
     ],
     "music": "theme (30 s)"
@@ -110,7 +111,7 @@
      "Watch for Basic 5-touch step, Spin, Duo-kick."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (iWRolPgp9JY)",
      "Captions name each signature move as it appears",
      "Formation: Danced solo, duo side-by-side or facing, or in synchronized groups"
     ],
@@ -205,7 +206,7 @@
     "duration_s": 25,
     "narration": [
      "Explore jumpstyle's rise from Belgian clubs to global online communities through its music and signature jumps.",
-     "Sources: 5 references, every claim checked against its source."
+     "Sources: 5 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -246,7 +247,7 @@
       "Minimal torso movement, hips follow leg kicks subtly"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -323,7 +324,7 @@
       "Avoid uncoordinated foot contact with others except in duo-kick; maintain balance to prevent injury"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right",
+      "Side-by-side: source-supported correction",
       "Options card: For children: simplified step-and-kick game with counting"
      ],
      "music": "silence",
@@ -393,7 +394,7 @@
       "Minimal torso movement, hips follow leg kicks subtly"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -469,7 +470,7 @@
       "Avoid uncoordinated foot contact with others except in duo-kick; maintain balance to prevent injury"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right",
+      "Side-by-side: source-supported correction",
       "Options card: For children: simplified step-and-kick game with counting"
      ],
      "music": "silence",
@@ -539,7 +540,7 @@
       "Minimal torso movement, hips follow leg kicks subtly"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -616,7 +617,7 @@
       "Avoid uncoordinated foot contact with others except in duo-kick; maintain balance to prevent injury"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right",
+      "Side-by-side: source-supported correction",
       "Options card: For children: simplified step-and-kick game with counting"
      ],
      "music": "silence",
@@ -658,7 +659,9 @@
   }
  ],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": 140,
   "meter": "4/4",
   "rhythm_pattern": "Four-on-the-floor 909 kick drum with offbeat elements",
@@ -717,7 +720,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "iWRolPgp9JY",
+   "checked_by_vision_model": false,
+   "title": "JumpStyle HardJump Shuffle @ Berlin HardStyle Germany"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -790,43 +797,43 @@
   ]
  },
  "teaching_formula": {
-  "source": "13 tutorials across the atlas studied",
-  "videos_studied": 13,
+  "source": "40 tutorials across the atlas studied",
+  "videos_studied": 40,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
-   "tempo progression: slow → full",
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
    "repetitions per step: about 4"
   ],
   "cues": [
+   "side close side",
+   "rock step",
+   "right leg out front",
+   "jump split your legs",
+   "the back foot goes up",
+   "lift the left leg up",
    "and one and three and five and seven",
    "keep your feet together",
    "relax your knees",
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
-   "punch to the side",
-   "pull your head down",
-   "pivot them on your elbows",
-   "left foot",
-   "right foot"
+   "step and point",
+   "turn turn turn",
+   "replace"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
    "full_demo",
+   "warmup",
    "breakdown",
    "slow_practice",
-   "mistakes",
-   "music_practice",
-   "layering"
+   "music_practice"
   ],
   "steps_as_taught": []
  },
  "gaps": [
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -839,5 +846,6 @@
  "claims_verified": 9,
  "claims": 10,
  "polished": false,
+ "input_fingerprint": "47b852cedb6185516223c41f6e48888ecd345c850b96d97141feb60286131c25",
  "hero_checked": null
 }

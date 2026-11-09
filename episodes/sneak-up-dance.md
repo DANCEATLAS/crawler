@@ -1,6 +1,6 @@
 # Sneak-Up Dance — episode pack
 
-*Status: draft · built 2026-11-06 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; lineage; two or more connections
 
@@ -70,7 +70,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Shake bells and perform seeking gestures during drum rolls.
 NARRATION: Advance toward the center of the arena during Omaha beats.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -78,7 +78,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the precision and narrative power of the Sneak-Up Dance, a staple of the Pow Wow arena.
-NARRATION: Sources: 3 references, every claim checked against its source.
+NARRATION: Sources: 3 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -94,11 +94,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, with head movements to keep roach crest feathers spinning.
 NARRATION: Gestures of seeking or following an enemy during drum rolls.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Drum rolls in the first half of renditions, followed by a standard Omaha beat in the second half..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -111,10 +111,9 @@ NARRATION: Step 1: Shake bells and perform seeking gestures during drum rolls.
 NARRATION: Step 2: Advance toward the center of the arena during Omaha beats.
 NARRATION: Footwork from the sources: Advancing steps toward the center; must stop with both feet on the ground on the final beat.
 NARRATION: Drill: Nodding to the beat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Stop movement completely on the last beat of the song with both feet on the ground.
@@ -122,7 +121,6 @@ NARRATION: Step 4: Walk back to the perimeter of the arena.
 NARRATION: Drill: Side-to-side head movement
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -134,13 +132,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Failing to stop on the last beat of the song; failing to keep the roach crest feathers moving.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the bell-shaking and seeking gestures while seated. · For children: A 'follow the drum' game where children move and stop based on the music.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the bell-shaking and seeking gestures while seated. · For children: A 'follow the drum' game where children move and stop based on the music. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -166,11 +164,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, with head movements to keep roach crest feathers spinning.
 NARRATION: Gestures of seeking or following an enemy during drum rolls.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Drum rolls in the first half of renditions, followed by a standard Omaha beat in the second half..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -182,10 +180,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Shake bells and perform seeking gestures during drum rolls.
 NARRATION: Step 2: Advance toward the center of the arena during Omaha beats.
 NARRATION: Drill: Rhythmic bell shaking
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Stop movement completely on the last beat of the song with both feet on the ground.
@@ -195,7 +192,6 @@ NARRATION: Drill: Seeking gestures
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -207,13 +203,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Failing to stop on the last beat of the song; failing to keep the roach crest feathers moving.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the bell-shaking and seeking gestures while seated. · For children: A 'follow the drum' game where children move and stop based on the music.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the bell-shaking and seeking gestures while seated. · For children: A 'follow the drum' game where children move and stop based on the music. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancers move from the perimeter toward the center of the arena.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -238,11 +234,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, with head movements to keep roach crest feathers spinning.
 NARRATION: Gestures of seeking or following an enemy during drum rolls.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Drum rolls in the first half of renditions, followed by a standard Omaha beat in the second half..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -254,10 +250,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Stop movement completely on the last beat of the song with both feet on the ground.
 NARRATION: Step 2: Walk back to the perimeter of the arena.
 NARRATION: Drill: Advancing to the center
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 5
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Sneak-Up: Advancing toward the center of the arena during the Omaha beat phase.
@@ -265,7 +260,6 @@ NARRATION: Drill: Stopping on the final beat
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -277,13 +271,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Failing to stop on the last beat of the song; failing to keep the roach crest feathers moving.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the bell-shaking and seeking gestures while seated. · For children: A 'follow the drum' game where children move and stop based on the music.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the bell-shaking and seeking gestures while seated. · For children: A 'follow the drum' game where children move and stop based on the music. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancers move from the perimeter toward the center of the arena.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -319,9 +313,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 23 tutorials across the atlas studied · videos studied: 23
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; side close side; step and point; turn turn turn; replace; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (3): https://en.wikipedia.org/wiki/Homework_(Remixes); https://www.wikidata.org/wiki/Q118902384; https://archive.org/details/ERIC_ED451021

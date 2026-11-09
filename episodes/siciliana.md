@@ -1,8 +1,8 @@
 # siciliana — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.0 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.0 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Baroque musicologist and performance historian.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Though named for Sicily and rooted in 14th-century island poetry, the siciliana became a pan-European Baroque signifier of pastoral grief and melancholy.
 NARRATION: This is siciliana. 14th century origins, Baroque to 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (JtUCHp-hjms)
 ON SCREEN: Title card: siciliana · Italy · 14th century origins, Baroque to 20th century
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ ON SCREEN: Footage: File:WIKITONGUES- Paola speaking Italian and Sicilian.webm (
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (JtUCHp-hjms)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -78,7 +78,7 @@ NEEDS: teaching steps
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the mournful 6/8 lilt and rich history of the siciliana across four centuries of European art music.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -92,13 +92,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6, or quick-quick-slow across the bar. The meter is 6/8 or 12/8.
+NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 or 12/8.
 NARRATION: Rhythm pattern: dotted iambic rhythms with frequent placement of the dot on the first of a series of three notes.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -108,17 +107,17 @@ NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Drill: Count slow 6/8 compound beats
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6, or quick-quick-slow across the bar · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Identify dotted iambic rhythms in audio excerpts
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6, or quick-quick-slow across the bar · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -130,13 +129,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6, or quick-quick-slow across the bar.
+NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -160,13 +158,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6, or quick-quick-slow across the bar. The meter is 6/8 or 12/8.
+NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 or 12/8.
 NARRATION: Rhythm pattern: dotted iambic rhythms with frequent placement of the dot on the first of a series of three notes.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -175,16 +172,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6, or quick-quick-slow across the bar · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6, or quick-quick-slow across the bar · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -196,13 +193,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6, or quick-quick-slow across the bar.
+NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -226,13 +222,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6, or quick-quick-slow across the bar. The meter is 6/8 or 12/8.
+NARRATION: Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 or 12/8.
 NARRATION: Rhythm pattern: dotted iambic rhythms with frequent placement of the dot on the first of a series of three notes.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -241,16 +236,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6, or quick-quick-slow across the bar · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6, or quick-quick-slow across the bar · repetitions: 3
+COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -262,13 +257,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6, or quick-quick-slow across the bar.
+NARRATION: Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -297,7 +291,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'JtUCHp-hjms', 'checked_by_vision_model': False, 'title': 'Understanding Form: The Siciliana'}
 Images: 0 licensed
 Footage: File:WIKITONGUES- Paola speaking Italian and Sicilian.webm — https://upload.wikimedia.org/wikipedia/commons/d/de/WIKITONGUES-_Paola_speaking_Italian_and_Sicilian.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:WIKITONGUES- Steven speaking Sicilian.webm — https://upload.wikimedia.org/wikipedia/commons/4/42/WIKITONGUES-_Steven_speaking_Sicilian.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Preghiera in siciliano.webm — https://upload.wikimedia.org/wikipedia/commons/f/f5/Preghiera_in_siciliano.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Preparazione del cannolo - video riempimento cannoli.webm — https://upload.wikimedia.org/wikipedia/commons/f/f4/Preparazione_del_cannolo_-_video_riempimento_cannoli.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Preparazione del cannolo - video stirare impasto.webm — https://upload.wikimedia.org/wikipedia/commons/f/f3/Preparazione_del_cannolo_-_video_stirare_impasto.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Preparazione del cannolo - video riempimento cannoli 2.webm — https://upload.wikimedia.org/wikipedia/commons/b/b3/Preparazione_del_cannolo_-_video_riempimento_cannoli_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Ottorino Respighi, ANTICHE ARIE E DANZE PER LIUTO, TRITTICO BOTTICELLIANO - Seiji Ozawa, Geoffrey Simon — https://archive.org/details/respighi-antiche-arie-e-danze-per-liuto-i-ii-iii-trittico-botticelliano; File:Leonardo Vinci, Twelve solos for a German flute or violin with a thorough bass (...), extract.webm — https://upload.wikimedia.org/wikipedia/commons/0/0e/Leonardo_Vinci%2C_Twelve_solos_for_a_German_flute_or_violin_with_a_thorough_bass_%28...%29%2C_extract.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Baroque manuscript scores, Sicilian landscapes, Harpsichord and violin craftsmanship
@@ -307,9 +301,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: 1-2-3-4-5-6, or quick-quick-slow across the bar
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 3 tutorial(s) of the classical-court family studied · videos studied: 3
+Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; hold your placement; stay straight as a board; lift up in your lower abs; change feet
 
 Sources (5): https://en.wikipedia.org/wiki/Siciliana; https://www.wikidata.org/wiki/Q637696; https://es.wikipedia.org/wiki/Siciliana_(danza); https://fr.wikipedia.org/wiki/Sicilienne_(danse); https://pt.wikipedia.org/wiki/Siciliana

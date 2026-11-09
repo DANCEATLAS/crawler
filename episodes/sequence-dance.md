@@ -1,8 +1,8 @@
 # Sequence dance — episode pack
 
-*Status: draft · built 2026-11-04 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned ballroom dance teacher from a local dance club.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Empress Ballroom: Home of the Sequence
 NARRATION: This is Sequence dance. 19th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (daepSH4v6ZQ)
 ON SCREEN: Title card: Sequence dance · United Kingdom, Australia · 19th century to present
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: Dancers follow a preset pattern of movements that repeats every sixteenth bar.
 NARRATION: The dance usually continues for five or six sequences in total.
 NARRATION: Watch for RF Fwd in CBMP.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (daepSH4v6ZQ)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Progressive around the room
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -75,7 +75,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Forward in CBMP (Contrary Body Movement Position)
 NARRATION: Side step
-NARRATION: Count it: 4-1-2-3-4.
+NARRATION: Count it: 1-2-3-4.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -83,7 +83,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: A look at the structured world of sequence dancing, from its 19th-century roots to the competitive stages of Blackpool.
-NARRATION: Sources: 4 references, every claim checked against its source.
+NARRATION: Sources: 4 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -97,13 +97,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 4-1-2-3-4.
+NARRATION: Count: 1-2-3-4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -118,7 +117,7 @@ NARRATION: Drill: Footwork pattern practice
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Close feet
@@ -126,7 +125,7 @@ NARRATION: Step 4: Backward step
 NARRATION: Drill: Timing to 16-bar music
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -138,13 +137,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 4-1-2-3-4.
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -168,13 +166,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 4-1-2-3-4.
+NARRATION: Count: 1-2-3-4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -187,7 +184,7 @@ NARRATION: Step 2: Side step
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Close feet
@@ -196,7 +193,7 @@ NARRATION: RF Fwd in CBMP: Right foot forward in contrary body movement position
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -207,13 +204,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 4-1-2-3-4.
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Progressive around the room
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -237,13 +233,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 4-1-2-3-4.
+NARRATION: Count: 1-2-3-4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -256,14 +251,14 @@ NARRATION: Step 2: Backward step
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: RF Fwd in CBMP: Right foot forward in contrary body movement position.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -274,13 +269,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 MUSIC: silence
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 4-1-2-3-4.
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Progressive around the room
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -307,7 +301,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performed in ballrooms, at Tea Dances, and in dance clubs. The British Sequence Championships are held in the Empress Ballroom, Winter Gardens, Blackpool.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'daepSH4v6ZQ', 'checked_by_vision_model': False, 'title': 'ALLES WALZER SEQUENCE DANCE at Blackpool Tower Ballroom (Aug 2026)'}
 Images: 1 licensed — Johnscotaus / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Latown Sequence Dance Group presents Shall We Dance? (VHS) — https://archive.org/details/ShallWeDance_201811; Latown Sequence Dance Group presents Dance On (VHS) — https://archive.org/details/DanceOn
 Motifs: Empress Ballroom architecture, Dance script notation, Couples moving in unison
@@ -317,9 +311,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the ballroom-partner family studied · videos studied: 2
-Counting: 4-1-2-3-4
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: side close side; step and point; turn turn turn; replace
 
 Sources (4): https://en.wikipedia.org/wiki/Sequence_dance; https://www.wikidata.org/wiki/Q7452463; https://archive.org/details/ERIC_ED381525; https://archive.org/details/micro_IA41153623_0730

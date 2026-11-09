@@ -1,11 +1,12 @@
 {
  "slug": "maglalatik",
  "name": "Maglalatik",
- "pack_version": "e1",
- "built_at": "2026-11-03T03:27:49Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-10-31T16:21:01Z",
  "qc_score": 8.6,
  "status": "draft",
+ "release_status": "not_validated",
  "sacred": false,
  "chapters_note": null,
  "formula": {
@@ -203,7 +204,7 @@
     "duration_s": 25,
     "narration": [
      "Explore the fast-paced Filipino folk dance where men strike coconut shells in a rhythmic mock battle.",
-     "Sources: 2 references, every claim checked against its source."
+     "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -244,8 +245,7 @@
       "Torso exposed with shells above nipples; movement involves striking shells on torso"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -277,7 +277,7 @@
       "Drill: Practice holding shells correctly"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -324,7 +324,7 @@
       "No cultural restrictions noted; respect the martial and cultural significance"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -390,8 +390,7 @@
       "Torso exposed with shells above nipples; movement involves striking shells on torso"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -422,7 +421,7 @@
       "Drill: Practice striking shells worn by partner"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -469,7 +468,7 @@
       "No cultural restrictions noted; respect the martial and cultural significance"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -536,8 +535,7 @@
       "Torso exposed with shells above nipples; movement involves striking shells on torso"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -569,7 +567,7 @@
       "Drill: Master fast tempo striking"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -616,7 +614,7 @@
       "No cultural restrictions noted; respect the martial and cultural significance"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -655,7 +653,9 @@
   }
  ],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": "not specified",
   "rhythm_pattern": "Percussive clapping of coconut shells in time with fast drumbeat",
@@ -758,13 +758,13 @@
   ]
  },
  "teaching_formula": {
-  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
-  "videos_studied": 0,
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
   "counting": "count the not specified bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "front view, then back view (student's perspective)",
-   "slow, then half tempo, then full tempo",
-   "three repetitions of every step before moving on"
+   "views used by most teachers: front",
+   "tempo progression: full"
   ],
   "cues": [
    "say the count before the move",
@@ -773,17 +773,41 @@
   ],
   "common_mistakes": [],
   "segment_order": [
-   "welcome",
-   "body",
-   "count",
-   "step",
-   "step",
-   "combine",
-   "mistakes",
-   "music",
-   "recap"
+   "intro",
+   "breakdown"
   ],
-  "steps_as_taught": []
+  "steps_as_taught": [
+   {
+    "name": "Hayon-hayon",
+    "counts": "",
+    "description": ""
+   },
+   {
+    "name": "Jump",
+    "counts": "",
+    "description": ""
+   },
+   {
+    "name": "Clockwise",
+    "counts": "",
+    "description": ""
+   },
+   {
+    "name": "Counter-clockwise",
+    "counts": "",
+    "description": ""
+   },
+   {
+    "name": "Close Step",
+    "counts": "",
+    "description": ""
+   },
+   {
+    "name": "Waltz Step",
+    "counts": "",
+    "description": ""
+   }
+  ]
  },
  "gaps": [
   "tempo (bpm)",
@@ -801,5 +825,6 @@
  "claims_verified": 9,
  "claims": 11,
  "polished": false,
+ "input_fingerprint": "3d99d7c46611dd1b65c13f2c62fbd98a05b72a7ec249c96e36efd5872c420c26",
  "hero_checked": null
 }

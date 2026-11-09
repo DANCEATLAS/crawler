@@ -1,0 +1,120 @@
+{
+ "slug": "salegy",
+ "qc_at": "2026-11-09T21:24:32Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Salegy"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "99"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "151"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Salegy pulses at around 290 BPM with a distinctive 6/8 or 12/4 drum pattern acce"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "553"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2901"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Madagascar"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'possession', 'god', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-supported by evidence, respectful, and specific with clear teaching guidance. It accurately presents Salegy as a living Malagasy dance and music tradition with no unsupported claims or disrespectful framing."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sacred_handled",
+  "judge_score=9.6",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-09T20:23:21Z"
+}

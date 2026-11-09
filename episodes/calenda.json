@@ -1,11 +1,12 @@
 {
  "slug": "calenda",
  "name": "Calenda (Kalinda)",
- "pack_version": "e1",
- "built_at": "2026-11-05T19:33:51Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-10-29T16:35:41Z",
  "qc_score": 8.95,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -196,7 +197,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Sources: 4 references, every claim checked against its source."
+     "Sources: 4 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -208,7 +209,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": null,
@@ -297,34 +300,37 @@
   ]
  },
  "teaching_formula": {
-  "source": "3 tutorial(s) of the african-diaspora family studied",
-  "videos_studied": 3,
-  "counting": "5-6-7-8 and 1-2-3-4-5-6-7",
+  "source": "5 tutorial(s) of the african-diaspora family studied",
+  "videos_studied": 5,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: back, front",
-   "tempo progression: slow → full"
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
+   "shift",
+   "slow",
+   "quick quick slow",
+   "rock step",
    "left foot",
    "right foot",
    "step",
    "touch",
    "stomp off",
    "push",
-   "5-6-7-8-hold",
-   "lets build it up",
-   "now put them together",
-   "stomp spank step",
-   "stomp spank ball change",
-   "step toe step hop step hop out in"
+   "make sure that you are wearing comfortable shoes",
+   "stand properly"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "context",
+   "full_demo",
    "breakdown",
-   "layering",
-   "full_demo"
+   "music_practice",
+   "layering"
   ],
   "steps_as_taught": []
  },
@@ -348,5 +354,6 @@
  "claims_verified": 4,
  "claims": 4,
  "polished": false,
+ "input_fingerprint": "16ce3dd9d8256094502470b6bb804194f236a8932e58cfe55f6baae4a93484ba",
  "hero_checked": "fail"
 }

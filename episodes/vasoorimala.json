@@ -1,11 +1,12 @@
 {
  "slug": "vasoorimala",
  "name": "Vasoorimala",
- "pack_version": "e1",
- "built_at": "2026-11-08T17:28:40Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-08T16:27:37Z",
  "qc_score": 9.7,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -198,7 +199,7 @@
     "duration_s": 25,
     "narration": [
      "In the sacred shrines of North Kerala, a ritual performer embodies Vasoorimala, the pox deity born of mythic wrath, to invoke divine healing.",
-     "Sources: 3 references, every claim checked against its source."
+     "Sources: 3 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -210,7 +211,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": null,
@@ -316,7 +319,8 @@
  "teaching_formula": {
   "source": "1 tutorial(s) of the ritual-sacred family studied",
   "videos_studied": 1,
-  "counting": "1-2-3-4-5",
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back",
    "tempo progression: slow → full",
@@ -359,5 +363,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
+ "input_fingerprint": "03a1bbffc947c1df4b742f17eb821d7eace6d54f717352187bcedbd4d0c200a6",
  "hero_checked": null
 }

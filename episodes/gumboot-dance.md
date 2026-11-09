@@ -1,6 +1,6 @@
 # Gumboot dance — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.25 · 25/25 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.25 · 25/25 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section
 
@@ -80,7 +80,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Wear Wellington boots, optionally decorated with bells.
 NARRATION: Stamp feet rhythmically on the ground.
-NARRATION: Count it: count the polyrhythmic, layered bar out loud, then in pairs of bars.
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -88,7 +88,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore how South African miners turned silence into rhythm, creating Gumboot dance as a coded language and cultural expression.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -105,12 +105,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright with grounded stance; knees slightly bent for stamping.
 NARRATION: Slapping boots and thighs; clapping; mimicking gestures of mine guards.
 NARRATION: Articulated movement to accentuate rhythm; expressive torso isolations.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the polyrhythmic, layered bar out loud, then in pairs of bars. The meter is polyrhythmic, layered.
+NARRATION: Count: 5-6-7-8. The meter is polyrhythmic, layered.
 NARRATION: Rhythm pattern: Interlocking foot stomps, hand slaps, and claps creating complex rhythms.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -123,10 +122,10 @@ NARRATION: Step 1: Wear Wellington boots, optionally decorated with bells.
 NARRATION: Step 2: Stamp feet rhythmically on the ground.
 NARRATION: Footwork from the sources: Rhythmic stamping on the ground with boots; alternating feet; syncopated patterns.
 NARRATION: Drill: Practice stamping on beats 1 and 3.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the polyrhythmic, layered bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Slap boots with hands to create percussive sounds.
@@ -134,7 +133,7 @@ NARRATION: Step 4: Clap hands in sync with footwork.
 NARRATION: Drill: Add hand claps on beats 2 and 4.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the polyrhythmic, layered bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -147,11 +146,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid disrespecting the dance's origins by trivializing its historical context or ignoring its cultural significance.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the polyrhythmic, layered bar out loud, then in pairs of bars.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -178,12 +177,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright with grounded stance; knees slightly bent for stamping.
 NARRATION: Slapping boots and thighs; clapping; mimicking gestures of mine guards.
 NARRATION: Articulated movement to accentuate rhythm; expressive torso isolations.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the polyrhythmic, layered bar out loud, then in pairs of bars. The meter is polyrhythmic, layered.
+NARRATION: Count: 5-6-7-8. The meter is polyrhythmic, layered.
 NARRATION: Rhythm pattern: Interlocking foot stomps, hand slaps, and claps creating complex rhythms.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -194,10 +192,10 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Incorporate body slaps and chain rattling if available.
 NARRATION: Drill: Slap boots on off-beats.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the polyrhythmic, layered bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Boot Slap: Slapping the front or sides of the gumboots to produce sharp percussive sounds.
@@ -206,7 +204,7 @@ NARRATION: Drill: Add thigh slaps synchronized with footwork.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the polyrhythmic, layered bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -219,11 +217,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid disrespecting the dance's origins by trivializing its historical context or ignoring its cultural significance.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the polyrhythmic, layered bar out loud, then in pairs of bars.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Performed in groups, often in rows or semi-circles; dancers maintain close spacing for coordinated rhythms.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -250,12 +248,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright with grounded stance; knees slightly bent for stamping.
 NARRATION: Slapping boots and thighs; clapping; mimicking gestures of mine guards.
 NARRATION: Articulated movement to accentuate rhythm; expressive torso isolations.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the polyrhythmic, layered bar out loud, then in pairs of bars. The meter is polyrhythmic, layered.
+NARRATION: Count: 5-6-7-8. The meter is polyrhythmic, layered.
 NARRATION: Rhythm pattern: Interlocking foot stomps, hand slaps, and claps creating complex rhythms.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -267,10 +264,10 @@ NEEDS: tempo
 NARRATION: Step 1: Clap hands in sync with footwork.
 NARRATION: Step 2: Incorporate body slaps and chain rattling if available.
 NARRATION: Drill: Coordinate group stamping patterns.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the polyrhythmic, layered bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Guard Parody: Mimicking the movements of mine officers with exaggerated gestures.
@@ -278,7 +275,7 @@ NARRATION: Drill: Incorporate mimicry of mine guards.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the polyrhythmic, layered bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -291,11 +288,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid disrespecting the dance's origins by trivializing its historical context or ignoring its cultural significance.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the polyrhythmic, layered bar out loud, then in pairs of bars.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Performed in groups, often in rows or semi-circles; dancers maintain close spacing for coordinated rhythms.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -334,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: count the polyrhythmic, layered bar out loud, then in pairs of bars
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 5-6-7-8
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap
 
 Sources (5): https://en.wikipedia.org/wiki/Gumboot_dance; https://www.wikidata.org/wiki/Q1434111; https://es.wikipedia.org/wiki/Gumboot; https://fr.wikipedia.org/wiki/Gumboot_(danse); https://de.wikipedia.org/wiki/Gummistiefel-Tanz

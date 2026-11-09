@@ -1,11 +1,12 @@
 {
  "slug": "hand-jive",
  "name": "Hand Jive",
- "pack_version": "e1",
- "built_at": "2026-11-06T19:02:16Z",
- "researched_at": "2026-11-06T17:24:05Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
+ "researched_at": "2026-11-09T20:43:40Z",
  "qc_score": 10.0,
  "status": "draft",
+ "release_status": "not_validated",
  "sacred": false,
  "chapters_note": null,
  "formula": {
@@ -44,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "Energetic, rhythmic, and historically informed.",
+   "persona": "A lively 1950s dance enthusiast with deep knowledge of rhythm and blues culture and hand dance history",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -59,11 +60,11 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Dance of the Crowded Room",
+     "Hand Jive: The Dance Born in a Crowded Coffee Bar",
      "This is Hand Jive. 1950s."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (QvOuTInrue0)",
      "Title card: Hand Jive · United Kingdom · 1950s"
     ],
     "music": "theme (30 s)"
@@ -73,8 +74,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The hand jive was invented in 1957 at The Cat's Whisker coffee bar in Soho, London, by Leon Bell.",
-     "It was documented by Ken Russell, who observed that the dance was a necessity due to the lack of floor space for foot-based dancing."
+     "The hand jive was invented in 1957 in Soho, London, at The Cat's Whisker coffee bar, where overcrowding prevented foot dancing.",
+     "Leon Bell is credited with its invention.",
+     "Filmmaker Ken Russell documented teenagers performing the dance in the crowded basement."
     ],
     "on_screen": [
      "Map: United Kingdom · Europe",
@@ -87,7 +89,9 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Originally a social dance for teenagers in crowded venues, it has since been used in theatrical performances, movies, and as a participatory activity in stage shows.",
+     "The hand jive was a practical dance created for crowded social spaces where traditional foot dancing was impossible.",
+     "It became a symbol of youthful creativity and social interaction in the 1950s, reflecting the energy of rhythm and blues culture.",
+     "It also served as a percussive accompaniment to music, turning hand gestures into a form of dance expression.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -100,14 +104,15 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "The dance involves a sequence of hand and arm movements performed while standing or sitting.",
-     "Key movements include thigh slapping, crossing the wrists, fist pounding, hand clapping, and hitchhike gestures.",
-     "Watch for Hitchhike."
+     "The hand jive is performed seated or standing, often with a slightly crouched posture to bring thighs and shoulders closer for easier hand movement.",
+     "The basic sequence includes slapping the palms twice on the thighs, crossing palms over and under each other, pounding fists twice each, touching elbows with fingers one at a time, and hitchhiking gestures twice on each side.",
+     "Movements are synchronized to the beat, typically steady and syncopated, with no footwork involved.",
+     "Watch for Thigh Slap, Wrist Cross, Fist Pound."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (QvOuTInrue0)",
      "Captions name each signature move as it appears",
-     "Formation: Stationary, suitable for crowded spaces"
+     "Formation: Performed seated or standing in confined spaces, often facing a partner or in groups"
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
    },
@@ -116,16 +121,16 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The dance is primarily associated with 1950s rhythm and blues, specifically the Bo Diddley beat.",
-     "Notable tracks include 'Willie and the Hand Jive' by Johnny Otis and 'Born to Hand Jive' from the musical Grease.",
-     "Listen for the Drums, Guitar, Bass.",
+     "Hand jive is danced primarily to rhythm and blues music of the 1950s, especially songs featuring the Bo Diddley beat—a syncopated rhythm with Afro-Latin roots popularized by Bo Diddley.",
+     "Instruments commonly include electric guitar, drums, bass, and vocals.",
+     "Listen for the electric guitar, drums, bass, vocals.",
      "The pulse is 4/4.",
-     "The music is characterized by a driving, syncopated rhythm known as the Bo Diddley beat, which provides a steady percussive pulse for the hand movements."
+     "The music features a steady, syncopated rhythm with a distinctive Bo Diddley beat, combining electric guitar riffs, driving drums, and soulful vocals that create a percussive backdrop for the hand movements."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
-     "Listen later: Willie and the Hand Jive — Johnny Otis; Born to Hand Jive — Sha Na Na; Nefertiti — Miles Davis (1968)",
-     "Waveform or rhythm-pattern graphic: Bo Diddley beat (syncopated rhythm)"
+     "Listen later: Willie and the Hand Jive — Johnny Otis; Hand Jive — Betty Smith Group; Hand Jive — Miles Davis",
+     "Waveform or rhythm-pattern graphic: Syncopated Bo Diddley beat with steady percussive pulse"
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
@@ -137,8 +142,9 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "The dance was born in 1950s coffee bars and is typically performed in casual, everyday attire.",
-     "No specific costume is required."
+     "The dance originated in informal, crowded coffee bars like The Cat's Whisker in Soho, where space was limited.",
+     "Performers typically wore casual 1950s youth attire suitable for social gatherings.",
+     "The setting was intimate and lively, often with seated participants or standing in tight quarters, emphasizing hand and arm movements over footwork."
     ],
     "on_screen": [
      "Images — MISSING",
@@ -154,8 +160,9 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Leon Bell (inventor), Ken Russell (photographer/filmmaker), Johnny Otis (musician), Patricia Birch (choreographer).",
-     "The dance is related to the Juba dance (hambone) and manualism."
+     "Leon Bell is credited with inventing the hand jive at The Cat's Whisker coffee bar.",
+     "Filmmaker Ken Russell documented the dance's early days.",
+     "The hand jive is related to African-American rhythm and blues culture and the Bo Diddley beat, which has Afro-Latin origins."
     ],
     "on_screen": [
      "Names on screen as they are spoken"
@@ -167,24 +174,23 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Hand Jive is related of Juba dance: Shares the percussive use of the body as an instrument."
+     "Hand Jive is shares music of Bo Diddley beat: The hand jive is danced to songs featuring the Bo Diddley beat, a syncopated rhythm with Afro-Latin origins.",
+     "Hand Jive is shares music of Juba dance: Both dances use hand clapping and percussive hand movements as rhythmic accompaniment.",
+     "Hand Jive is influence of Willie and the Hand Jive: Johnny Otis's 1958 song popularized the hand jive dance in the United States."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
     ],
-    "music": "underscore",
-    "needs": [
-     "connections"
-    ]
+    "music": "underscore"
    },
    {
     "code": "first_step",
     "title": "Try one step",
     "duration_s": 60,
     "narration": [
-     "Before we go, one step. Thigh slapping",
-     "Wrist crossing",
-     "Count it: 5-6-7-8.",
+     "Before we go, one step. Slap palms twice on thighs",
+     "Cross palms over and under each other",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
      "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
@@ -198,8 +204,8 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover how a lack of space in a 1950s London coffee bar sparked a global hand-dancing craze.",
-     "Sources: 3 references, every claim checked against its source."
+     "Discover how cramped 1957 Soho teens invented a hand-only dance that became a global rhythm and blues sensation.",
+     "Sources: 4 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -213,7 +219,7 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Master the basic hand-clap sequence",
+   "goal": "Learn and perform the basic hand jive sequence slowly",
    "level": "Beginner",
    "scenes": [
     {
@@ -221,9 +227,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Master the basic hand-clap sequence.",
+      "Chapter 1 — First steps. Today: Learn and perform the basic hand jive sequence slowly.",
       "Level: Beginner. Difficulty of the dance overall: beginner.",
-      "Your instructor: Energetic, rhythmic, and historically informed."
+      "Your instructor: A lively 1950s dance enthusiast with deep knowledge of rhythm and blues culture and hand dance history"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -235,11 +241,12 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upright or seated, stationary",
-      "Complex patterns including slapping, clapping, and crossing"
+      "Slightly crouched or bent knees to bring thighs and shoulders closer",
+      "Complex sequence of slaps, crosses, fist pounds, elbow touches, and hitchhike gestures",
+      "Minimal torso movement; focus on hand and arm articulation"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -248,8 +255,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 5-6-7-8. The meter is 4/4.",
-      "Rhythm pattern: Bo Diddley beat (syncopated rhythm).",
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Syncopated Bo Diddley beat with steady percussive pulse.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -266,16 +273,17 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Thigh slapping",
-      "Step 2: Wrist crossing",
-      "Drill: Thigh slap rhythm"
+      "Step 1: Slap palms twice on thighs",
+      "Step 2: Cross palms over and under each other",
+      "Footwork from the sources: No footwork; stationary dance",
+      "Drill: Practice thigh slaps in time with music"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
      "repetitions": 3
     },
     {
@@ -283,15 +291,15 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Fist pounding",
-      "Step 4: Hand clapping",
-      "Drill: Wrist crossing coordination"
+      "Step 3: Pound fists twice each on top of each other",
+      "Step 4: Touch elbows with fingers one at a time",
+      "Drill: Cross and uncross wrists slowly"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
      "repetitions": 3
     },
     {
@@ -302,7 +310,7 @@
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
       "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Fist pounding timing"
+      "Drill: Pound fists twice each in rhythm"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -315,28 +323,25 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+      "Avoid foot movement as dance is hand-focused; avoid rushing sequence before mastering timing"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right",
-      "Options card: Seated or supported option: The dance is naturally performed seated. · For children: Can be taught as a rhythmic clapping game."
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Hand jive can be performed seated with reduced tempo and smaller range of motion. · For children: Simplified hand jive as a clapping game with call-and-response sequences."
      ],
      "music": "silence",
      "options": [
-      "Seated or supported option: The dance is naturally performed seated.",
-      "For children: Can be taught as a rhythmic clapping game."
+      "Seated or supported option: Hand jive can be performed seated with reduced tempo and smaller range of motion.",
+      "For children: Simplified hand jive as a clapping game with call-and-response sequences."
      ],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 5-6-7-8.",
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -350,8 +355,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Master the basic hand-clap sequence.",
-      "Originally a social dance for teenagers in crowded venues, it has since been used in theatrical performances, movies, and as a participatory activity in stage shows.",
+      "You can now: Learn and perform the basic hand jive sequence slowly.",
+      "The hand jive was a practical dance created for crowded social spaces where traditional foot dancing was impossible.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -365,17 +370,17 @@
   {
    "chapter": 2,
    "title": "Building the dance",
-   "goal": "the building the dance of Hand Jive",
-   "level": null,
+   "goal": "Increase speed and synchronize moves to Bo Diddley beat",
+   "level": "Intermediate",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 — Building the dance. Today: the building the dance of Hand Jive.",
-      "Level: intermediate. Difficulty of the dance overall: beginner.",
-      "Your instructor: Energetic, rhythmic, and historically informed."
+      "Chapter 2 — Building the dance. Today: Increase speed and synchronize moves to Bo Diddley beat.",
+      "Level: Intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: A lively 1950s dance enthusiast with deep knowledge of rhythm and blues culture and hand dance history"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -387,11 +392,12 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upright or seated, stationary",
-      "Complex patterns including slapping, clapping, and crossing"
+      "Slightly crouched or bent knees to bring thighs and shoulders closer",
+      "Complex sequence of slaps, crosses, fist pounds, elbow touches, and hitchhike gestures",
+      "Minimal torso movement; focus on hand and arm articulation"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -400,8 +406,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 5-6-7-8. The meter is 4/4.",
-      "Rhythm pattern: Bo Diddley beat (syncopated rhythm).",
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Syncopated Bo Diddley beat with steady percussive pulse.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -418,14 +424,15 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Hitchhike moves"
+      "Step 1: Perform hitchhike gestures twice on each side",
+      "Drill: Perform full sequence at moderate tempo"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
      "repetitions": 3
     },
     {
@@ -433,14 +440,16 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Hitchhike: A specific hand gesture used as part of the sequence."
+      "Thigh Slap: Slapping palms twice on thighs",
+      "Wrist Cross: Crossing palms over and under each other",
+      "Drill: Maintain steady rhythm without rushing"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
      "repetitions": 3
     },
     {
@@ -450,7 +459,8 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right."
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Add slight torso sway for style"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -463,29 +473,26 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+      "Avoid foot movement as dance is hand-focused; avoid rushing sequence before mastering timing"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right",
-      "Options card: Seated or supported option: The dance is naturally performed seated. · For children: Can be taught as a rhythmic clapping game."
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Hand jive can be performed seated with reduced tempo and smaller range of motion. · For children: Simplified hand jive as a clapping game with call-and-response sequences."
      ],
      "music": "silence",
      "options": [
-      "Seated or supported option: The dance is naturally performed seated.",
-      "For children: Can be taught as a rhythmic clapping game."
+      "Seated or supported option: Hand jive can be performed seated with reduced tempo and smaller range of motion.",
+      "For children: Simplified hand jive as a clapping game with call-and-response sequences."
      ],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 5-6-7-8.",
-      "Full tempo, the whole sequence, twice. Formation: Stationary, suitable for crowded spaces"
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Performed seated or standing in confined spaces, often facing a partner or in groups"
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -498,8 +505,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: the building the dance of Hand Jive.",
-      "Leon Bell (inventor), Ken Russell (photographer/filmmaker), Johnny Otis (musician), Patricia Birch (choreographer).",
+      "You can now: Increase speed and synchronize moves to Bo Diddley beat.",
+      "Leon Bell is credited with inventing the hand jive at The Cat's Whisker coffee bar.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -513,17 +520,17 @@
   {
    "chapter": 3,
    "title": "Dancing it fully",
-   "goal": "the dancing it fully of Hand Jive",
-   "level": null,
+   "goal": "Integrate hand jive into group choreography",
+   "level": "Advanced",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Hand Jive.",
-      "Level: advanced. Difficulty of the dance overall: beginner.",
-      "Your instructor: Energetic, rhythmic, and historically informed."
+      "Chapter 3 — Dancing it fully. Today: Integrate hand jive into group choreography.",
+      "Level: Advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: A lively 1950s dance enthusiast with deep knowledge of rhythm and blues culture and hand dance history"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -535,11 +542,12 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upright or seated, stationary",
-      "Complex patterns including slapping, clapping, and crossing"
+      "Slightly crouched or bent knees to bring thighs and shoulders closer",
+      "Complex sequence of slaps, crosses, fist pounds, elbow touches, and hitchhike gestures",
+      "Minimal torso movement; focus on hand and arm articulation"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -548,8 +556,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 5-6-7-8. The meter is 4/4.",
-      "Rhythm pattern: Bo Diddley beat (syncopated rhythm).",
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Syncopated Bo Diddley beat with steady percussive pulse.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -566,15 +574,16 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Hand clapping",
-      "Step 2: Hitchhike moves"
+      "Step 1: Touch elbows with fingers one at a time",
+      "Step 2: Perform hitchhike gestures twice on each side",
+      "Drill: Coordinate with multiple dancers in formation"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
      "repetitions": 3
     },
     {
@@ -582,14 +591,17 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Hitchhike: A specific hand gesture used as part of the sequence."
+      "Fist Pound: Pounding fists twice each on top of each other",
+      "Elbow Touch: Touching elbows with fingers one at a time",
+      "Hitchhike: Making fists with thumbs out, pointing over shoulder twice each side",
+      "Drill: Add improvisational hand claps and snaps"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
      "repetitions": 3
     },
     {
@@ -599,7 +611,8 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right."
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Sync hand jive with live rhythm and blues music"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -612,29 +625,26 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
+      "Avoid foot movement as dance is hand-focused; avoid rushing sequence before mastering timing"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right",
-      "Options card: Seated or supported option: The dance is naturally performed seated. · For children: Can be taught as a rhythmic clapping game."
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Hand jive can be performed seated with reduced tempo and smaller range of motion. · For children: Simplified hand jive as a clapping game with call-and-response sequences."
      ],
      "music": "silence",
      "options": [
-      "Seated or supported option: The dance is naturally performed seated.",
-      "For children: Can be taught as a rhythmic clapping game."
+      "Seated or supported option: Hand jive can be performed seated with reduced tempo and smaller range of motion.",
+      "For children: Simplified hand jive as a clapping game with call-and-response sequences."
      ],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 5-6-7-8.",
-      "Full tempo, the whole sequence, twice. Formation: Stationary, suitable for crowded spaces"
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Performed seated or standing in confined spaces, often facing a partner or in groups"
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -647,8 +657,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: the dancing it fully of Hand Jive.",
-      "The dance is related to the Juba dance (hambone) and manualism.",
+      "You can now: Integrate hand jive into group choreography.",
+      "The hand jive is related to African-American rhythm and blues culture and the Bo Diddley beat, which has Afro-Latin origins.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -661,30 +671,34 @@
   }
  ],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": "4/4",
-  "rhythm_pattern": "Bo Diddley beat (syncopated rhythm)",
+  "rhythm_pattern": "Syncopated Bo Diddley beat with steady percussive pulse",
   "instruments": [
-   "Drums",
-   "Guitar",
-   "Bass"
+   "electric guitar",
+   "drums",
+   "bass",
+   "vocals"
   ],
-  "vocal_style": null,
-  "musical_form": null,
+  "vocal_style": "Rhythm and blues style vocals",
+  "musical_form": "Verse-chorus typical of 1950s R&B",
   "mood": [
-   "Jolly",
-   "Funky",
-   "Upbeat"
+   "energetic",
+   "percussive",
+   "syncopated",
+   "playful"
   ],
-  "sound_description": "The music is characterized by a driving, syncopated rhythm known as the Bo Diddley beat, which provides a steady percussive pulse for the hand movements.",
+  "sound_description": "The music features a steady, syncopated rhythm with a distinctive Bo Diddley beat, combining electric guitar riffs, driving drums, and soulful vocals that create a percussive backdrop for the hand movements.",
   "listen_before_composing": [
    "Willie and the Hand Jive — Johnny Otis",
-   "Born to Hand Jive — Sha Na Na",
-   "Nefertiti — Miles Davis (1968)",
-   "Hand Jive — John Scofield (1994)"
+   "Hand Jive — Betty Smith Group",
+   "Hand Jive — Miles Davis",
+   "Willie And The Hand Jive — The Johnny Otis Show (2012)"
   ],
-  "prompt": "Original instrumental composition in the musical world of Hand Jive (United Kingdom). Meter 4/4. Rhythm pattern: Bo Diddley beat (syncopated rhythm). Instruments: Drums, Guitar, Bass. Mood: Jolly, Funky, Upbeat. It should sound like this: The music is characterized by a driving, syncopated rhythm known as the Bo Diddley beat, which provides a steady percussive pulse for the hand movements. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Hand Jive (United Kingdom). Meter 4/4. Rhythm pattern: Syncopated Bo Diddley beat with steady percussive pulse. Instruments: electric guitar, drums, bass, vocals. Vocal style: Rhythm and blues style vocals. Form: Verse-chorus typical of 1950s R&B. Mood: energetic, percussive, syncopated, playful. It should sound like this: The music features a steady, syncopated rhythm with a distinctive Bo Diddley beat, combining electric guitar riffs, driving drums, and soulful vocals that create a percussive backdrop for the hand movements. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -717,12 +731,16 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "QvOuTInrue0",
+   "checked_by_vision_model": false,
+   "title": "Johnny Otis - Willie And The Hand Jive (1958)"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
    "restricted_attire": false,
-   "from_sources": "The dance was born in 1950s coffee bars and is typically performed in casual, everyday attire. No specific costume is required.",
+   "from_sources": "The dance originated in informal, crowded coffee bars like The Cat's Whisker in Soho, where space was limited. Performers typically wore casual 1950s youth attire suitable for social gatherings. The setting was intimate and lively, often with seated participants or standing in tight quarters, emphasizing hand and arm movements over footwork.",
    "reference_images": [],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
@@ -749,12 +767,14 @@
    }
   ],
   "motifs": [
-   "1950s coffee bar aesthetics",
    "Close-ups of hands in motion",
-   "Archival footage of London youth"
+   "Crowded coffee bar interiors",
+   "1950s youth fashion",
+   "Musical instruments of R&B bands",
+   "Film clips from Grease and Hairspray"
   ],
-  "costume_notes": "The dance was born in 1950s coffee bars and is typically performed in casual, everyday attire. No specific costume is required.",
-  "setting_notes": "Originally a social dance for teenagers in crowded venues, it has since been used in theatrical performances, movies, and as a participatory activity in stage shows.",
+  "costume_notes": "The dance originated in informal, crowded coffee bars like The Cat's Whisker in Soho, where space was limited. Performers typically wore casual 1950s youth attire suitable for social gatherings. The setting was intimate and lively, often with seated participants or standing in tight quarters, emphasizing hand and arm movements over footwork.",
+  "setting_notes": "The hand jive was a practical dance created for crowded social spaces where traditional foot dancing was impossible. It became a symbol of youthful creativity and social interaction in the 1950s, reflecting the energy of rhythm and blues culture. It also served as a percussive accompaniment to music, turning hand gestures into a form of dance expression.",
   "map": {
    "country": "United Kingdom",
    "region": "Europe",
@@ -767,11 +787,12 @@
   ]
  },
  "teaching_formula": {
-  "source": "6 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 6,
-  "counting": "5-6-7-8",
+  "source": "11 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 11,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "views used by most teachers: back, front, mirror",
+   "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
    "repetitions per step: about 4"
   ],
@@ -780,43 +801,43 @@
    "double double",
    "and cross and cross",
    "right slap left slap",
-   "side side side side",
-   "rock step rock step",
-   "have fun",
-   "keep those abs pulled in",
-   "engage all the muscles",
-   "keep those shoulders down",
-   "control control",
-   "step to the right"
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "side side side side"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "warmup",
    "context",
    "count_in",
+   "full_demo",
+   "warmup",
    "breakdown",
    "music_practice",
    "slow_practice",
-   "follow_along",
    "recap"
   ],
   "steps_as_taught": []
  },
  "gaps": [
   "tempo (bpm)",
-  "a hero video",
-  "licensed images (3 needed)",
-  "two or more connections",
-  "what to avoid / common mistakes"
+  "the hero video's vision check",
+  "licensed images (3 needed)"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Hand_jive",
   "https://www.wikidata.org/wiki/Q2392517",
-  "https://fr.wikipedia.org/wiki/Hand_jive"
+  "https://fr.wikipedia.org/wiki/Hand_jive",
+  "https://history-of-rock.com/dancing_in_the_fifties.htm"
  ],
- "claims_verified": 6,
- "claims": 6,
+ "claims_verified": 7,
+ "claims": 7,
  "polished": false,
+ "input_fingerprint": "e5ed10ca9ac2a89da0fd8a987befa330ba0dbb2e0196bde3028418b3b93546c1",
  "hero_checked": null
 }

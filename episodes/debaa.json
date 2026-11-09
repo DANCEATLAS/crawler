@@ -1,0 +1,407 @@
+{
+ "slug": "debaa",
+ "name": "Debaa",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
+ "researched_at": "2026-11-09T20:34:43Z",
+ "qc_score": 9.45,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable Mahorese woman versed in Sufi traditions and Debaa performance",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Debaa",
+   "Deba",
+   "Déba"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Debaa",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Debaa: Women’s Waves of Devotion in Mayotte",
+     "This is Debaa. 20th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Debaa · France · 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Debaa originated in Mayotte in the 1920s-30s, introduced by a foundi from Anjouan linked to the Sufi Rifa'iyya brotherhood.",
+     "Initially a male religious ritual, it opened to women and became exclusively female.",
+     "It draws from Sufism, a spiritual tradition influenced by early Islamic asceticism, but Debaa uniquely incorporates dance alongside traditional Sufi chanting and percussion."
+    ],
+    "on_screen": [
+     "Map: France · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Debaa is performed for religious praise, especially for pilgrims to Mecca, during Ramadan as a rite of expiation, at Mawlid celebrations, weddings, and as a competitive display between village groups.",
+     "It also serves as a ritual of seduction for young women seeking suitors.",
+     "The dance embodies both sacred and profane elements, symbolizing female identity and social cohesion in Mayotte.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Odissi Recital in the memory of Guru Deba Prasad Das (Vol. I) (https://archive.org/details/dni.ncaa.ICCR-270-UM)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Wave Arms."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Performed in groups arranged in circles or semi-circles"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music consists of Arabic chants from sacred Islamic texts, often about the Prophet's birth, performed responsorially with a soloist and chorus.",
+     "Percussion instruments include simple drums and tambourines.",
+     "Listen for the tambourine, simple drums.",
+     "The music features a solo female voice chanting sacred Arabic texts, echoed by a female chorus, accompanied by steady, simple percussion like tambourines, creating a meditative yet rhythmic atmosphere."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: France-Mayotte : Debaa, chant des femmes soufies — Madarassati Nidhoimya de Hamjago et al.",
+     "Waveform or rhythm-pattern graphic: Simple percussion supporting call-and-response chanting"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Women wear matching outfits decorated with their finest jewelry, emphasizing unity and beauty.",
+     "Performances occur in village settings, sometimes during religious occasions like Ramadan or Mawlid, weddings, or social competitions between villages."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "No individual performers are named in the sources.",
+     "The foundi who introduced Debaa in Mayotte was from Anjouan but unnamed.",
+     "Debaa is specific to Mayotte and linked to the Rifa'iyya Sufi brotherhood.",
+     "Debaa descends from Sufi Islamic spiritual practices, particularly those of the Rifa'iyya brotherhood."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Debaa is sibling of Madjilisse: Another traditional Mahorese dance and music form, but reserved for men."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Debaa has religious significance linked to Sufi Islam and is traditionally reserved for women; it includes sacred chants from Islamic texts and is performed in religious contexts."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how a male Sufi ritual transformed into Debaa, a vibrant female dance blending sacred chant and ocean-inspired movement on Mayotte.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Simple percussion supporting call-and-response chanting",
+  "instruments": [
+   "tambourine",
+   "simple drums"
+  ],
+  "vocal_style": "Arabic chant, responsorial with soloist and chorus",
+  "musical_form": null,
+  "mood": [
+   "devotional",
+   "communal",
+   "celebratory"
+  ],
+  "sound_description": "The music features a solo female voice chanting sacred Arabic texts, echoed by a female chorus, accompanied by steady, simple percussion like tambourines, creating a meditative yet rhythmic atmosphere.",
+  "listen_before_composing": [
+   "France-Mayotte : Debaa, chant des femmes soufies — Madarassati Nidhoimya de Hamjago et al."
+  ],
+  "prompt": "Original instrumental composition in the musical world of Debaa (France). Rhythm pattern: Simple percussion supporting call-and-response chanting. Instruments: tambourine, simple drums. Vocal style: Arabic chant, responsorial with soloist and chorus. Mood: devotional, communal, celebratory. It should sound like this: The music features a solo female voice chanting sacred Arabic texts, echoed by a female chorus, accompanied by steady, simple percussion like tambourines, creating a meditative yet rhythmic atmosphere. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Women wear matching outfits decorated with their finest jewelry, emphasizing unity and beauty. Performances occur in village settings, sometimes during religious occasions like Ramadan or Mawlid, weddings, or social competitions between villages.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ADanseuse_et_musicienne_de_debaa.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Danseuse_et_musicienne_de_debaa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Danseuse_et_musicienne_de_debaa.jpg/1280px-Danseuse_et_musicienne_de_debaa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Bertrand Fanonnel | Eight Studio / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADanseuse_et_musicienne_de_debaa.jpg",
+    "description": "Debaa à Mayotte \nLe debaa est une danse traditionnelle de l'île de Mayotte réservée exclusivement aux femmes."
+   }
+  ],
+  "footage": [
+   {
+    "title": "Odissi Recital in the memory of Guru Deba Prasad Das (Vol. I)",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-270-UM",
+    "year": 1988,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Odissi Recital in the memory of Guru Deba Prasad Das (Vol. II)",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-271-UM",
+    "year": 1988,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Shankar Behera - Odissi Dance: Vasant Pallavi",
+    "url": "https://archive.org/details/3.-vasant-dark-30-best-shade",
+    "year": 2009,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Shankar Behera - Odissi dance, a few steps (1990s)",
+    "url": "https://archive.org/details/1.-a-few-steps-trim-crop",
+    "year": 1990,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "#MICRO📲DOCU “EVERYBODY ROCK” Micro Documental del Rock Dance",
+    "url": "https://archive.org/details/exportfinalome",
+    "year": 2023,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Shankar Behera - Odissi Dance: Das Avatar, Clips (1990s)",
+    "url": "https://archive.org/details/1.-das-avatar-a-blocks-2-slow-950-120-fps",
+    "year": 1990,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Ocean waves",
+   "Matching costumes and jewelry",
+   "Arabic calligraphy",
+   "Village communal spaces"
+  ],
+  "costume_notes": "Women wear matching outfits decorated with their finest jewelry, emphasizing unity and beauty. Performances occur in village settings, sometimes during religious occasions like Ramadan or Mawlid, weddings, or social competitions between villages.",
+  "setting_notes": "Debaa is performed for religious praise, especially for pilgrims to Mecca, during Ramadan as a rite of expiation, at Mawlid celebrations, weddings, and as a competitive display between village groups. It also serves as a ritual of seduction for young women seeking suitors. The dance embodies both sacred and profane elements, symbolizing female identity and social cohesion in Mayotte.",
+  "map": {
+   "country": "France",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "the how-it-is-danced section",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Debaa",
+  "https://www.wikidata.org/wiki/Q3042309",
+  "https://fr.wikipedia.org/wiki/Debaa"
+ ],
+ "claims_verified": 11,
+ "claims": 11,
+ "polished": false,
+ "input_fingerprint": "bccc7eb33532366a6d20c15ed6a8bcd7c3fa66997130e2e77f98ef8431a1351b",
+ "hero_checked": null
+}

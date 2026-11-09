@@ -1,6 +1,6 @@
 # Sean-nós dance in America — episode pack
 
-*Status: draft · built 2026-11-04 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the costume & setting section; two or more connections
 
@@ -70,7 +70,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Maintain a low-to-the-ground posture.
 NARRATION: Execute a battering step to accent the music's beat.
-NARRATION: Count it: 5-6-7-8 and 1-2-3-4-5-6-7.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -78,7 +78,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how Irish immigrants and American vernacular traditions merged to create the percussive, improvised world of Sean-nós dance.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -92,13 +92,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7.
+NARRATION: Count: .
 NARRATION: Rhythm pattern: percussive, following the accented beat of the music.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -110,10 +109,9 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Maintain a low-to-the-ground posture.
 NARRATION: Step 2: Execute a battering step to accent the music's beat.
 NARRATION: Drill: Listen to the accented beat of a fiddle tune.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Improvise movement without pre-arranged choreography.
@@ -121,7 +119,6 @@ NARRATION: Step 4: Keep arms free and relaxed.
 NARRATION: Drill: Practice tapping the floor to match the beat.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -134,13 +131,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: pre-arranged choreography
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the battering step rhythm using the heels and toes while seated. · For children: A 'follow the rhythm' game where children mimic the teacher's percussive foot patterns.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the battering step rhythm using the heels and toes while seated. · For children: A 'follow the rhythm' game where children mimic the teacher's percussive foot patterns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -164,13 +161,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7.
+NARRATION: Count: .
 NARRATION: Rhythm pattern: percussive, following the accented beat of the music.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -181,10 +177,9 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Maintain a low-to-the-ground posture.
 NARRATION: Step 2: Execute a battering step to accent the music's beat.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Improvise movement without pre-arranged choreography.
@@ -193,7 +188,6 @@ NARRATION: battering step: a percussive step that sounds out the accented beat o
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -205,13 +199,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: pre-arranged choreography
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the battering step rhythm using the heels and toes while seated. · For children: A 'follow the rhythm' game where children mimic the teacher's percussive foot patterns.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the battering step rhythm using the heels and toes while seated. · For children: A 'follow the rhythm' game where children mimic the teacher's percussive foot patterns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: solo, no physical contact
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -235,13 +229,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7.
+NARRATION: Count: .
 NARRATION: Rhythm pattern: percussive, following the accented beat of the music.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -252,17 +245,15 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Improvise movement without pre-arranged choreography.
 NARRATION: Step 2: Keep arms free and relaxed.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: battering step: a percussive step that sounds out the accented beat of the music
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -274,13 +265,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: pre-arranged choreography
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the battering step rhythm using the heels and toes while seated. · For children: A 'follow the rhythm' game where children mimic the teacher's percussive foot patterns.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the battering step rhythm using the heels and toes while seated. · For children: A 'follow the rhythm' game where children mimic the teacher's percussive foot patterns. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: solo, no physical contact
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -317,9 +308,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the african-diaspora family studied · videos studied: 3
-Counting: 5-6-7-8 and 1-2-3-4-5-6-7
-Demonstration: views used by most teachers: back, front; tempo progression: slow → full
-Cues: left foot; right foot; step; touch; stomp off; push; 5-6-7-8-hold; lets build it up; now put them together; stomp spank step; stomp spank ball change; step toe step hop step hop out in
+Source: 5 tutorial(s) of the african-diaspora family studied · videos studied: 5
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: shift; slow; quick quick slow; rock step; left foot; right foot; step; touch; stomp off; push; make sure that you are wearing comfortable shoes; stand properly
 
 Sources (2): https://en.wikipedia.org/wiki/Sean-n%C3%B3s_dance_in_United_States; https://www.wikidata.org/wiki/Q7440794

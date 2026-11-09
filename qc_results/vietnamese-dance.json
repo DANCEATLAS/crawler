@@ -1,0 +1,121 @@
+{
+ "slug": "vietnamese-dance",
+ "qc_at": "2026-11-09T21:24:00Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Vietnamese dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "92"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "207"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In Vietnam, the lion dance is not merely performance but a symbolic act of prote"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "530"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3162"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Vietnam"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "codified,tapestry"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 3,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "reject",
+  "notes": "The profile is well-researched and accurate regarding Vietnamese performance traditions, but 'Vietnamese dance' is a broad regional category containing many distinct traditions (like lion dance, court dance, water puppetry) rather than a single specific dance style. As a category name, it fails the is_a_dance criterion."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "banned_phrasing",
+  "judge_score=8.7",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-09T20:09:06Z"
+}

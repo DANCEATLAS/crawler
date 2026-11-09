@@ -1,6 +1,6 @@
 # Danza Prima — episode pack
 
-*Status: draft · built 2026-11-04 · judge 9.85 · 5/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-09 · judge 9.85 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
@@ -11,15 +11,15 @@
 ## Episode 1 · Meet Danza Prima · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Danza Prima: Asturias's ancient circle dance.
-NARRATION: This is Danza Prima. Ancient.
+NARRATION: Danza Prima: Asturias's Ancient Circle Dance
+NARRATION: This is Danza Prima. ancient.
 ON SCREEN: Hero video, first 10 seconds (qVE87NPAALc)
 ON SCREEN: Title card: Danza Prima · Spain · ancient
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
 NARRATION: Danza Prima is an ancient dance from Asturias, Spain, with possible Celtic linguistic roots and martial-religious origins.
-NARRATION: It is preserved as a communal circle dance accompanied by heroic ballads and the Celtic bagpipe.
+NARRATION: It has been preserved as a communal circle dance accompanied by heroic ballads and the Celtic bagpipe.
 NARRATION: Historically, dancers used sticks resembling battle maces, suggesting a connection to warrior rituals.
 ON SCREEN: Map: Spain · Europe
 ON SCREEN: Image — MISSING
@@ -64,7 +64,7 @@ MUSIC: underscore
 NEEDS: images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Danza Prima is preserved mainly in Asturias, but similar stick dances and circle dances exist in northern Spain and Galicia, where they are known by different names such as 'muñeira'.
+NARRATION: Danza Prima is preserved mainly in Asturias but similar stick dances and circle dances exist in northern Spain and Galicia, where they are known by different names such as 'muñeira'.
 NARRATION: Danza Prima likely descends from ancient Celtic and Roman influences in northern Spain, combining martial, religious, and communal elements into a folk dance form.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
@@ -72,7 +72,7 @@ MUSIC: underscore
 NEEDS: notable_figures
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Danza Prima is a regional variant of muñeira: Similar stick and circle dances in northern Spain and Galicia sharing rhythmic and formation traits.
+NARRATION: Danza Prima is regional variant of muñeira: Similar stick and circle dances in northern Spain and Galicia sharing rhythmic and formation traits.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 NEEDS: connections
@@ -80,7 +80,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Form a circle with all dancers.
 NARRATION: Step forward with the right foot.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -88,14 +88,14 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore Danza Prima, a communal circle dance from Asturias where generations unite in heroic song and measured steps.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
 ## Chapter 1 · First steps — Learn basic forward and backward steps and arm swings. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Learn basic forward and backward steps and arm swings.
+NARRATION: Chapter 1 — First steps. Today: Learn basic forward and backward steps and arm swings..
 NARRATION: Level: Beginner. Difficulty of the dance overall: Beginner.
 NARRATION: Your instructor: A knowledgeable local elder with deep respect for tradition and patient teaching style.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
@@ -105,12 +105,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, calm, and measured.
 NARRATION: Swing in coordination with the body and steps; may hold and rhythmically move sticks.
 NARRATION: Slight swaying matching the pendulum steps.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Pendulum-like steady rhythm matching dance steps..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -126,7 +125,6 @@ NARRATION: Drill: Practice stepping forward with right foot.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Step backward twice with the left foot.
@@ -134,7 +132,6 @@ NARRATION: Step 4: Swing arms and body in rhythm with steps.
 NARRATION: Drill: Practice two backward steps with left foot.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -147,20 +144,20 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid fast or erratic movements that disrupt the measured rhythm.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: For children: circle dance with simplified stepping and call-and-response singing
 MUSIC: silence
 OPTIONS: For children: circle dance with simplified stepping and call-and-response singing (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Learn basic forward and backward steps and arm swings.
+NARRATION: You can now: Learn basic forward and backward steps and arm swings..
 NARRATION: Danza Prima is a communal dance that brings together all members of the community, from the elderly to the young.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
@@ -180,12 +177,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, calm, and measured.
 NARRATION: Swing in coordination with the body and steps; may hold and rhythmically move sticks.
 NARRATION: Slight swaying matching the pendulum steps.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Pendulum-like steady rhythm matching dance steps..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -199,7 +195,6 @@ NARRATION: Drill: Practice stepping and swinging sticks in time.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Pendulum Step: Forward step with right foot followed by two backward steps with left foot.
@@ -208,7 +203,6 @@ NARRATION: Drill: Increase circle size and maintain formation.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -221,20 +215,20 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid fast or erratic movements that disrupt the measured rhythm.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: For children: circle dance with simplified stepping and call-and-response singing
 MUSIC: silence
 OPTIONS: For children: circle dance with simplified stepping and call-and-response singing (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancers form a circle moving left to right.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Maintain steady rhythm and add stick movements.
+NARRATION: You can now: Maintain steady rhythm and add stick movements..
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -243,7 +237,7 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — Perform full dance with singing and group coordination. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: Perform full dance with singing and group coordination.
+NARRATION: Chapter 3 — Dancing it fully. Today: Perform full dance with singing and group coordination..
 NARRATION: Level: Advanced. Difficulty of the dance overall: Beginner.
 NARRATION: Your instructor: A knowledgeable local elder with deep respect for tradition and patient teaching style.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
@@ -253,12 +247,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, calm, and measured.
 NARRATION: Swing in coordination with the body and steps; may hold and rhythmically move sticks.
 NARRATION: Slight swaying matching the pendulum steps.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Rhythm pattern: Pendulum-like steady rhythm matching dance steps..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -273,7 +266,6 @@ NARRATION: Drill: Synchronize singing with steps and stick movements.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Pendulum Step: Forward step with right foot followed by two backward steps with left foot.
@@ -282,7 +274,6 @@ NARRATION: Drill: Lead the circle and manage spatial flow.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -295,20 +286,20 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid fast or erratic movements that disrupt the measured rhythm.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: For children: circle dance with simplified stepping and call-and-response singing
 MUSIC: silence
 OPTIONS: For children: circle dance with simplified stepping and call-and-response singing (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancers form a circle moving left to right.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Perform full dance with singing and group coordination.
+NARRATION: You can now: Perform full dance with singing and group coordination..
 NARRATION: Danza Prima likely descends from ancient Celtic and Roman influences in northern Spain, combining martial, religious, and communal elements into a folk dance form.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
@@ -338,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the folk-circle family studied · videos studied: 3
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (5): https://en.wikipedia.org/wiki/Dance_First; https://www.wikidata.org/wiki/Q116198475; https://fr.wikipedia.org/wiki/Dance_First; https://it.wikipedia.org/wiki/Prima_danza,_poi_pensa._Alla_ricerca_di_Beckett; https://archive.org/details/poesapopularcol00pidagoog

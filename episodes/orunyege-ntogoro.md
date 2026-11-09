@@ -1,8 +1,8 @@
 # Orunyege-Ntogoro — episode pack
 
-*Status: draft · built 2026-11-08 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced master dancer from western Uganda who embodies both the stamina of Orunyege and the poise of Ntogoro, balancing discipline with humor.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Gourd Rattle Courtship of Western Uganda
 NARRATION: This is Orunyege-Ntogoro. Pre-colonial to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (H_2lVBWAH3U)
 ON SCREEN: Title card: Orunyege-Ntogoro · Uganda · Pre-colonial to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The performance is carried out by two distinct groups: male dancers k
 NARRATION: The ensemble shifts dynamically across circular, linear, and paired formations under the direction of a master of ceremonies (omukama) and musical cues from the lead drummers.
 NARRATION: Dancers execute synchronized sequences punctuated by individual demonstrations of virtuosity, including high leaps, rapid spinning, and full-body shaking.
 NARRATION: Watch for Ebinyege Stamping, Entogoro Hip Accentuation, Courting Solo Jumps.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (H_2lVBWAH3U)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Fluid transitions between circular processions, opposing lines of male and female dancers, and paired face-to-face courtship formations.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -78,7 +78,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Fast rhythmic foot stamping to activate the ebinyege leg rattles in synchronization with the drum rhythm.
 NARRATION: Isolated rhythmic hip swaying and rotational shaking to move the entogoro waist ring.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: .
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -86,7 +86,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: In the kingdoms of Bunyoro and Tooro, suitors strap gourds to their calves in a relentless dance contest where physical stamina determines the right to wed.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -102,11 +102,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, athletic posture for male dancers with knees primed for explosive leaps; grounded, balanced posture for female dancers facilitating fluid pelvic articulation.
 NARRATION: Accented hip isolations, rotations, and shaking emphasized by beaded waist rings, contrasted with dynamic upper-body control during jumps and spins.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -121,7 +121,6 @@ NARRATION: Drill: Practice rhythmic single-leg stamping without rattles to align
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Synchronized circular and linear group travel following the calls of the omukama.
@@ -129,7 +128,6 @@ NARRATION: Step 4: Improvised individual solo displays featuring rapid spins and
 NARRATION: Drill: Strap rattles to calves and perform continuous alternate-foot stepping to achieve clear acoustic clarity.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -142,13 +140,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid sluggish foot contact that mutes or mistimes the leg rattles; avoid rigid hip posture that prevents the natural movement of the waist rings.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform seated rhythmic heel-and-toe taps to activate lighter handheld rattles, accompanied by gentle seated torso swaying and seated hip shifts. · For children: Play a suitor stamina freeze game: children stamp their feet with light shakers tied to their ankles, freezing instantly when the drum stops to see who maintains balance.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform seated rhythmic heel-and-toe taps to activate lighter handheld rattles, accompanied by gentle seated torso swaying and seated hip shifts. · For children: Play a suitor stamina freeze game: children stamp their feet with light shakers tied to their ankles, freezing instantly when the drum stops to see who maintains balance. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -174,11 +172,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, athletic posture for male dancers with knees primed for explosive leaps; grounded, balanced posture for female dancers facilitating fluid pelvic articulation.
 NARRATION: Accented hip isolations, rotations, and shaking emphasized by beaded waist rings, contrasted with dynamic upper-body control during jumps and spins.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -192,7 +190,6 @@ NARRATION: Drill: Execute isolated lateral hip shifts while maintaining grounded
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Synchronized circular and linear group travel following the calls of the omukama.
@@ -203,7 +200,6 @@ NARRATION: Drill: Practice continuous pelvic figure-eight rotations in coordinat
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -216,13 +212,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid sluggish foot contact that mutes or mistimes the leg rattles; avoid rigid hip posture that prevents the natural movement of the waist rings.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform seated rhythmic heel-and-toe taps to activate lighter handheld rattles, accompanied by gentle seated torso swaying and seated hip shifts. · For children: Play a suitor stamina freeze game: children stamp their feet with light shakers tied to their ankles, freezing instantly when the drum stops to see who maintains balance.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform seated rhythmic heel-and-toe taps to activate lighter handheld rattles, accompanied by gentle seated torso swaying and seated hip shifts. · For children: Play a suitor stamina freeze game: children stamp their feet with light shakers tied to their ankles, freezing instantly when the drum stops to see who maintains balance. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Fluid transitions between circular processions, opposing lines of male and female dancers, and paired face-to-face courtship formations.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -248,11 +244,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, athletic posture for male dancers with knees primed for explosive leaps; grounded, balanced posture for female dancers facilitating fluid pelvic articulation.
 NARRATION: Accented hip isolations, rotations, and shaking emphasized by beaded waist rings, contrasted with dynamic upper-body control during jumps and spins.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -266,7 +262,6 @@ NARRATION: Drill: Perform continuous 2-minute high-tempo stamping intervals to b
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Courting Solo Jumps: High vertical leaps and rotational spins executed by male suitors to demonstrate strength, stamina, and agility.
@@ -274,7 +269,6 @@ NARRATION: Drill: Execute sudden vertical jumps and landing spins on specific dr
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -287,13 +281,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid sluggish foot contact that mutes or mistimes the leg rattles; avoid rigid hip posture that prevents the natural movement of the waist rings.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform seated rhythmic heel-and-toe taps to activate lighter handheld rattles, accompanied by gentle seated torso swaying and seated hip shifts. · For children: Play a suitor stamina freeze game: children stamp their feet with light shakers tied to their ankles, freezing instantly when the drum stops to see who maintains balance.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform seated rhythmic heel-and-toe taps to activate lighter handheld rattles, accompanied by gentle seated torso swaying and seated hip shifts. · For children: Play a suitor stamina freeze game: children stamp their feet with light shakers tied to their ankles, freezing instantly when the drum stops to see who maintains balance. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Fluid transitions between circular processions, opposing lines of male and female dancers, and paired face-to-face courtship formations.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -320,7 +314,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'H_2lVBWAH3U', 'checked_by_vision_model': False, 'title': 'ORUNYEGE DANCE PERFOMED BY KABALEGA ROYAL TROUPE HOIMA'}
 Images: 4 licensed — Ngumenawe / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Nyakairuj / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ian.musinguzi / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Sagiomhza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Africa2U - Orunyege (Sample) - A dance from Uganda — https://archive.org/details/actonma-Africa2U_-_Orunyege_Sample_-_A_dance_from_Uganda
 Motifs: Close-ups of dried calabashes vibrating on moving ankles, Beaded entogoro waist rings swinging against bright fabrics, Bare earth kicking up under energetic foot strikes, The gesturing omukama conducting dancers and audience
@@ -330,9 +324,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 9 tutorial(s) of the folk-circle family studied · videos studied: 9
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; side side side side; rock step rock step; have fun; keep those abs pulled in
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (2): https://en.wikipedia.org/wiki/Orunyege-Ntogoro; https://www.wikidata.org/wiki/Q124251084

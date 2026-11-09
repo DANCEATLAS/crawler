@@ -1,0 +1,123 @@
+{
+ "slug": "hacha-a",
+ "qc_at": "2026-11-09T21:24:02Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 9.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Hacha'a"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "88"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "187"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Dancers perform the 'hair sweeping' movement by kneeling to brush the floor with"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "413"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2464"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Iraq"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Middle East"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"iraqi-chobi\", \"score\": 1.0, \"via_alias\": \"Hacha\"}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ritual']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Comprehensive, well-supported profile on a distinct Iraqi dance and musical style. Safe and clear teaching notes."
+ },
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "iraqi-chobi",
+  "score": 1.0,
+  "via_alias": "Hacha"
+ },
+ "is_sacred": false,
+ "reasons": [
+  "not_duplicate",
+  "judge_score=9.25"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-09T20:09:46Z"
+}

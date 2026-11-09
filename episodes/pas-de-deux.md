@@ -1,8 +1,8 @@
 # pas de deux — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.1 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.1 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video
+**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced ballet principal dancer with expertise in partnering and coaching pas de deux
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Pas de Deux: The Dance of Two Souls
 NARRATION: This is pas de deux. 18th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (qy6dlGpC3Ns)
 ON SCREEN: Title card: pas de deux · France (term origin), Russia (19th-century codification) · 18th century to present
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The grand pas de deux begins with an entrée where dancers enter and 
 NARRATION: The adagio features slow, supported movements with the male dancer lifting and steadying the ballerina.
 NARRATION: Then, each dancer performs a solo variation showcasing leaps and turns—the male first, then the female.
 NARRATION: Watch for Supported Adagio, Pirouette Supported, Lift (Portée).
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (qy6dlGpC3Ns)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Duo close together, alternating center stage solos, often symmetrical spatial patterns
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Entrée: dancers enter stage and acknowledge each other
 NARRATION: Adagio: slow, supported movements with lifts and balances
-NARRATION: Count it: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars.
+NARRATION: Count it: 2 counts off, 2 counts on.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -86,7 +86,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the evolution and artistry of the grand pas de deux, ballet's ultimate duet of grace and strength.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -103,11 +103,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, poised, with lifted chest and elongated neck
 NARRATION: Expressive, often framing the ballerina; male dancer offers steady hand or arm for support
 NARRATION: Controlled, with subtle shifts to maintain balance during lifts and turns
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars. The meter is Typically 3/4 or 4/4 common time.
+NARRATION: Count: 2 counts off, 2 counts on. The meter is Typically 3/4 or 4/4 common time.
 NARRATION: Rhythm pattern: Flexible to support lyrical adagio and virtuosic coda; includes sustained melodic lines and rhythmic bursts.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -122,7 +122,7 @@ NARRATION: Drill: Simple hand holds and walking in sync
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 2 counts off, 2 counts on · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Male variation: solo featuring leaps and turns
@@ -130,7 +130,7 @@ NARRATION: Step 4: Female variation: solo featuring pointe work and turns
 NARRATION: Drill: Supported balances with steady arms
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 2 counts off, 2 counts on · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -143,11 +143,12 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid unsafe lifts without proper training; beginners should not attempt complex partnering without supervision
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: trying to stay on leg by yourself
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars.
+NARRATION: Count-in: 2 counts off, 2 counts on.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 70 bpm
@@ -174,11 +175,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, poised, with lifted chest and elongated neck
 NARRATION: Expressive, often framing the ballerina; male dancer offers steady hand or arm for support
 NARRATION: Controlled, with subtle shifts to maintain balance during lifts and turns
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars. The meter is Typically 3/4 or 4/4 common time.
+NARRATION: Count: 2 counts off, 2 counts on. The meter is Typically 3/4 or 4/4 common time.
 NARRATION: Rhythm pattern: Flexible to support lyrical adagio and virtuosic coda; includes sustained melodic lines and rhythmic bursts.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -191,7 +192,7 @@ NARRATION: Drill: Entrée stage entrance and positioning
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 2 counts off, 2 counts on · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Supported Adagio: Slow, sustained movements with male dancer lifting and steadying ballerina
@@ -200,7 +201,7 @@ NARRATION: Drill: Adagio lifts with spotter assistance
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 2 counts off, 2 counts on · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -213,11 +214,12 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid unsafe lifts without proper training; beginners should not attempt complex partnering without supervision
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: trying to stay on leg by yourself
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars.
+NARRATION: Count-in: 2 counts off, 2 counts on.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Duo close together, alternating center stage solos, often symmetrical spatial patterns
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 70 bpm
@@ -244,11 +246,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, poised, with lifted chest and elongated neck
 NARRATION: Expressive, often framing the ballerina; male dancer offers steady hand or arm for support
 NARRATION: Controlled, with subtle shifts to maintain balance during lifts and turns
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars. The meter is Typically 3/4 or 4/4 common time.
+NARRATION: Count: 2 counts off, 2 counts on. The meter is Typically 3/4 or 4/4 common time.
 NARRATION: Rhythm pattern: Flexible to support lyrical adagio and virtuosic coda; includes sustained melodic lines and rhythmic bursts.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -262,7 +264,7 @@ NARRATION: Drill: Complex lifts and supported turns
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 2 counts off, 2 counts on · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Lift (Portée): Male dancer lifts ballerina overhead or in various poses
@@ -271,7 +273,7 @@ NARRATION: Drill: Solo leaps and fouetté turns
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 2 counts off, 2 counts on · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -284,11 +286,12 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid unsafe lifts without proper training; beginners should not attempt complex partnering without supervision
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: trying to stay on leg by yourself
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars.
+NARRATION: Count-in: 2 counts off, 2 counts on.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Duo close together, alternating center stage solos, often symmetrical spatial patterns
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 70 bpm
@@ -317,7 +320,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Costumes typically reflect classical ballet attire: the ballerina wears a tutu and pointe shoes, while the male dancer wears tights and fitted jackets. The setting is usually a proscenium stage within a full-length ballet production, with lighting and scenery enhancing the romantic or dramatic theme of the pas de deux.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'qy6dlGpC3Ns', 'checked_by_vision_model': False, 'title': 'The Nutcracker – Sugar Plum pas de deux: Adagio (Nuñez, Muntagirov, The Royal Ballet)'}
 Images: 6 licensed — jeff from denver, US / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Fanny Schertzer / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Fanny Schertzer
 derivative work: Maedin\talk / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Lambtron / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Lambtron / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: KIPC 39 - "Spin! Sunda-Senpai!" [Engsub | HD | CC] - Kimi to Idol Precure♪ — https://archive.org/details/kimi-to-idol-precure-39; Cuba: Bay of Pigs (1964) — https://archive.org/details/cubabayofpigs; The Nutcracker, Op. 71, Act II: No. 14c, Pas de deux. Variation II "Danse de la Fee-Dragee (Dance of the Sugar-Plum Fairy)" (P. I. Tchaikovsky) (Colors in motion Music Video) — https://archive.org/details/in-shot-20220412-071547800; Cuba: Bay of Pigs — https://archive.org/details/cubabayofpigs_202603
@@ -328,9 +331,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 7 tutorials across the atlas studied · videos studied: 7
-Counting: count the Typically 3/4 or 4/4 common time bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full
-Cues: and one and three and five and seven; keep your feet together; relax your knees; punch to the side; pull your head down; pivot them on your elbows; and out and out and in and in; double double; and cross and cross; right slap left slap; side replace close; rock replace side
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 2 counts off, 2 counts on
+Demonstration: views used by most teachers: front, side; tempo progression: slow
+Cues: hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Common mistakes the studied teachers name: trying to stay on leg by yourself
 
 Sources (5): https://en.wikipedia.org/wiki/Pas_de_deux; https://www.wikidata.org/wiki/Q909781; https://es.wikipedia.org/wiki/Pas_de_deux; https://fr.wikipedia.org/wiki/Pas_de_deux; https://pt.wikipedia.org/wiki/Pas_de_Deux

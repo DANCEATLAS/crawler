@@ -1,0 +1,366 @@
+{
+ "slug": "kangeelu",
+ "name": "Kangeelu",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
+ "researched_at": "2026-11-09T20:13:32Z",
+ "qc_score": 9.7,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable elder from the mundaala community familiar with Kangeelu's ritual and cultural significance",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Kangeelu",
+   "Kangilu"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Kangeelu",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Kangeelu: The Coconut Leaf Dance of Spirits",
+     "This is Kangeelu. traditional, ongoing."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Kangeelu · India · traditional, ongoing"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Kangeelu originates from the Udupi and Dakshina Kannada regions of Karnataka, India, performed by the mundaala community.",
+     "It is linked to the Tulu calendar's Mai month and is part of a seven-day festival to propitiate goddess Khadgeshwari and Koragajja, a spirit form of Shiva.",
+     "The dance has spiritual roots aimed at protecting the village from disease and evil forces."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Performed on the full moon day of the Mai month (March), Kangeelu is a spiritual dance to ward off disease, evil spirits, and negative energy.",
+     "It fosters peace, harmony, and community spirit.",
+     "The dance is part of a seven-day ritual festival and includes a procession of the goddess Khadgeshwari's wooden statue and a communal feast.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Koragajja Dance."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Dancers form a circle around four central singers"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music includes folk songs called Karungilo and Aati Kalenje, sung by four singers wearing bells in the center of the circle.",
+     "Percussion instruments like Kaase or Dholu provide the rhythmic beats.",
+     "Listen for the Kaase, Dholu, bells.",
+     "Percussive drum beats with bell accompaniment underpin folk vocal songs sung in a call-and-response style, creating a rhythmic and spiritual atmosphere."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear heavy, colorful dresses made from the tender top growth of coconut trees and palm leaves, with face paint.",
+     "One dancer wears a mask and black body paint to represent Koragajja.",
+     "The dance takes place in a village setting, often outdoors, with a circle formation and a central group of singers."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Koragajja, a spirit considered a form of god Shiva, is central to the dance.",
+     "The goddess Khadgeshwari is propitiated through the ritual.",
+     "In Dakshina Kannada, men perform the dance, while in Udupi, women perform it.",
+     "Kangeelu is a traditional Indian folk dance belonging to the Tulu-speaking communities of Karnataka."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Kangeelu is parent of Indian folk dance: Kangeelu is a regional folk dance within the broader category of Indian folk dances."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Kangeelu is a spiritual dance performed to propitiate deities and spirits; it involves ritual elements and should be respected as a sacred tradition."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how a circle of dancers in coconut leaf costumes summon a powerful spirit to protect their village.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "Kaase",
+   "Dholu",
+   "bells"
+  ],
+  "vocal_style": "Folk singing by four central singers wearing bells",
+  "musical_form": "Songs include Karungilo and Aati Kalenje",
+  "mood": [
+   "spiritual",
+   "invocatory",
+   "festive"
+  ],
+  "sound_description": "Percussive drum beats with bell accompaniment underpin folk vocal songs sung in a call-and-response style, creating a rhythmic and spiritual atmosphere.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Kangeelu (India). Instruments: Kaase, Dholu, bells. Vocal style: Folk singing by four central singers wearing bells. Form: Songs include Karungilo and Aati Kalenje. Mood: spiritual, invocatory, festive. It should sound like this: Percussive drum beats with bell accompaniment underpin folk vocal songs sung in a call-and-response style, creating a rhythmic and spiritual atmosphere. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers wear heavy, colorful dresses made from the tender top growth of coconut trees and palm leaves, with face paint. One dancer wears a mask and black body paint to represent Koragajja. The dance takes place in a village setting, often outdoors, with a circle formation and a central group of singers.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Coconut leaf costumes",
+   "Circle of dancers",
+   "Masked Koragajja figure",
+   "Drummers with Kaase and Dholu",
+   "Communal feast and procession"
+  ],
+  "costume_notes": "Dancers wear heavy, colorful dresses made from the tender top growth of coconut trees and palm leaves, with face paint. One dancer wears a mask and black body paint to represent Koragajja. The dance takes place in a village setting, often outdoors, with a circle formation and a central group of singers.",
+  "setting_notes": "Performed on the full moon day of the Mai month (March), Kangeelu is a spiritual dance to ward off disease, evil spirits, and negative energy. It fosters peace, harmony, and community spirit. The dance is part of a seven-day ritual festival and includes a procession of the goddess Khadgeshwari's wooden statue and a communal feast.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "11 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 11,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "side side side side"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Kangilu",
+  "https://www.wikidata.org/wiki/Q13158616"
+ ],
+ "claims_verified": 10,
+ "claims": 10,
+ "polished": false,
+ "input_fingerprint": "23920ce875146790befd5ce830b2102bfe459e502e544b79b6818d8a65d89d21",
+ "hero_checked": null
+}

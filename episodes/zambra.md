@@ -1,8 +1,8 @@
 # Zambra — episode pack
 
-*Status: draft · built 2026-11-06 · judge 8.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 8.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local flamenco historian or dancer from Granada
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Secret Dance of the Sacromonte Caves
 NARRATION: This is Zambra. 16th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (scMES7MqlcU)
 ON SCREEN: Title card: Zambra · Spain · 16th century to present
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: Dancers perform barefoot, utilizing finger cymbals.
 NARRATION: The movement is characterized by a slow, heavy rhythm with similarities to belly dancing, focusing on the fluidity of the skirt.
 NARRATION: Watch for Hip-led movement.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (scMES7MqlcU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Small, intimate spaces like caves
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -77,7 +77,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Barefoot stance with weight centered
 NARRATION: Hip-focused movement with fluid arm gestures
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -85,7 +85,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the resilient history of the Zambra, a dance that survived the Inquisition to become the heartbeat of Granada.
-NARRATION: Sources: 6 references, every claim checked against its source.
+NARRATION: Sources: 6 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -102,11 +102,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright with weight focused on the hips
 NARRATION: Fluid, expressive gestures with finger cymbals
 NARRATION: Sensual, fluid movement similar to belly dance
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
 NARRATION: Rhythm pattern: Slow tango-like rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -122,14 +122,14 @@ NARRATION: Drill: Clapping the 2/4 rhythm
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Rhythmic use of finger cymbals
 NARRATION: Drill: Basic hip swaying
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -140,15 +140,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform arm and hip movements while seated · For children: Rhythmic clapping game using finger cymbals
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform arm and hip movements while seated · For children: Rhythmic clapping game using finger cymbals (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -175,11 +174,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright with weight focused on the hips
 NARRATION: Fluid, expressive gestures with finger cymbals
 NARRATION: Sensual, fluid movement similar to belly dance
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
 NARRATION: Rhythm pattern: Slow tango-like rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -193,7 +192,7 @@ NARRATION: Step 2: Hip-focused movement with fluid arm gestures
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Rhythmic use of finger cymbals
@@ -201,7 +200,7 @@ NARRATION: Hip-led movement: Fluid, rhythmic movement of the hips and torso
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -212,15 +211,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform arm and hip movements while seated · For children: Rhythmic clapping game using finger cymbals
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform arm and hip movements while seated · For children: Rhythmic clapping game using finger cymbals (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Small, intimate spaces like caves
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -247,11 +245,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright with weight focused on the hips
 NARRATION: Fluid, expressive gestures with finger cymbals
 NARRATION: Sensual, fluid movement similar to belly dance
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
 NARRATION: Rhythm pattern: Slow tango-like rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -265,14 +263,14 @@ NARRATION: Step 2: Rhythmic use of finger cymbals
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Hip-led movement: Fluid, rhythmic movement of the hips and torso
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -283,15 +281,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform arm and hip movements while seated · For children: Rhythmic clapping game using finger cymbals
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform arm and hip movements while seated · For children: Rhythmic clapping game using finger cymbals (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Small, intimate spaces like caves
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -320,7 +317,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'scMES7MqlcU', 'checked_by_vision_model': False, 'title': 'Kathak Flamenco Fusion Zambra'}
 Images: 1 licensed — Pic, Roger (1920-2001). Photographe / Wikimedia Commons / Public domain (Public domain)
 Footage: VID 20201020120321 — https://archive.org/details/vid-20201020120321
 Motifs: Cave walls, Flowing skirts, Finger cymbals
@@ -330,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 6 tutorial(s) of the folk-circle family studied · videos studied: 6
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: back, front, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; step to the right
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (6): https://en.wikipedia.org/wiki/Zambra_(dance); https://www.wikidata.org/wiki/Q2572946; https://es.wikipedia.org/wiki/Zambra_(palo_flamenco); https://fr.wikipedia.org/wiki/Zambra; https://pt.wikipedia.org/wiki/Zambra; https://archive.org/details/friendshipsoffer00unse_2

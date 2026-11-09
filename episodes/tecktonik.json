@@ -1,11 +1,12 @@
 {
  "slug": "tecktonik",
- "name": "tecktonik",
- "pack_version": "e1",
- "built_at": "2026-11-03T03:27:49Z",
- "researched_at": "2026-10-31T15:28:36Z",
- "qc_score": 10.0,
+ "name": "Tecktonik",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
+ "researched_at": "2026-11-09T21:05:22Z",
+ "qc_score": 9.85,
  "status": "draft",
+ "release_status": "not_validated",
  "sacred": false,
  "chapters_note": null,
  "formula": {
@@ -44,31 +45,31 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A sharp, high-energy Parisian street dancer who lived through the Metropolis era and digital boom.",
+   "persona": "A former Metropolis club dancer turned online coach, knowledgeable about Tecktonik history and trademark culture",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
-   "tecktonik",
+   "Tecktonik",
+   "electro dance",
+   "milky way",
    "techtonic",
-   "tecktonick",
-   "tektonik",
-   "electro dance"
+   "tecktonick"
   ]
  },
  "episode_1": {
-  "title": "Meet tecktonik",
+  "title": "Meet Tecktonik",
   "scenes": [
    {
     "code": "hook",
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "Neon, Techno, and the First Viral Dance Craze",
-     "This is tecktonik. 2000s."
+     "Tecktonik: The Neon Pulse of Parisian Streets",
+     "This is Tecktonik. 2000s."
     ],
     "on_screen": [
      "Hero video, first 10 seconds (e4MM2lxrnBw)",
-     "Title card: tecktonik · France · 2000s"
+     "Title card: Tecktonik · France · 2000s"
     ],
     "music": "theme (30 s)"
    },
@@ -77,9 +78,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The style emerged in the 2000s in the southern suburbs of Paris, France, particularly at the Metropolis nightclub.",
-     "In 2002, Cyril Blanc and Alexandre Barouzdin organised 'Tecktonik Killer' parties under their project 'Tecktonik Events' to promote hardstyle and jumpstyle music from Belgium and the Netherlands.",
-     "Blanc noted the name was a pun on tectonic plates."
+     "Tecktonik originated in 2002 with the 'Tecktonik Killer' parties at the Metropolis nightclub in Rungis, Paris suburbs, organized by Cyril Blanc and Alexandre Barouzdin to promote hardstyle and jumpstyle music.",
+     "The name is a pun on tectonic plates.",
+     "The founders created a visual identity with neon colors, fingerless gloves, and tight clothing."
     ],
     "on_screen": [
      "Map: France · Europe",
@@ -92,10 +93,13 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Originally featured in themed club nights such as 'Blackout', 'Electro Rocker', and 'Tecktonik Killer', transitioning into street gatherings, dance battles (such as Vertifight), and music videos."
+     "Tecktonik was originally danced at themed club nights such as 'Tecktonik Killer' parties promoting hardstyle and jumpstyle music.",
+     "It spread through street gatherings and viral online videos, becoming a youth cultural phenomenon in France and internationally around 2007.",
+     "The dance was associated with a distinctive fashion and club culture.",
+     "Today it is a living tradition."
     ],
     "on_screen": [
-     "Footage — MISSING (use images)"
+     "Footage: Freestyle Dance Styles - EDM ( DnB Step, Electro Shuffle, Tectonic). (https://archive.org/details/dance-stylez-edm-dn-b-step-electro-shuffle-tecktonik)"
     ],
     "music": "underscore"
    },
@@ -104,32 +108,33 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Electro dance emphasises arm movements, drawing from glowsticking techniques such as freehand patterns, the figure eight, and the leading hand concept.",
-     "It incorporates disco-inspired poses, angular movements, shuffling steps, and toprock or b-boy-style footwork.",
-     "Dancers use hips, knees, and feet smoothly or irregularly in time with the music.",
-     "Watch for Freehand glowsticking pattern."
+     "Watch for Freehand figure eight, Angular pose, Shuffle step."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (e4MM2lxrnBw)",
      "Captions name each signature move as it appears",
-     "Formation: club floors, street gatherings ('aprems'), and battle circles"
+     "Formation: Usually danced solo or in informal street gatherings without fixed formations"
     ],
-    "music": "diegetic (the video's own sound), underscore under narration"
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
    },
    {
     "code": "music",
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Typically performed to fast-paced techno and electro house music, often imported from Northern Europe, along with hardstyle and jumpstyle genres.",
-     "Listen for the synthesizers, electronic drum machines.",
+     "Tecktonik is danced to fast-paced techno and electro house music, often imported from Northern Europe.",
+     "The music features driving electronic beats suitable for rapid arm and foot movements.",
+     "Listen for the synthesizers, drum machines, electronic basslines.",
      "The pulse is 4/4.",
-     "Driving, heavy electronic synthesizer riffs combined with pounding four-on-the-floor kick drums imported from Northern Europe, designed for relentless high-energy club dancing."
+     "Energetic electronic club music with fast tempos, repetitive synth lines, and strong rhythmic pulses designed to support rapid arm and foot movements."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
-     "Listen later: Alive — Mondotek; A cause des Garçons — Yelle; Sucker — Dim Chris",
-     "Waveform or rhythm-pattern graphic: driving four-on-the-floor house beats with hardstyle or jumpstyle elements"
+     "Listen later: Alive! — Mondotek; À cause des garçons (Tepr remix) — Yelle; Sucker — Dim Chris",
+     "Waveform or rhythm-pattern graphic: Driving electronic beats characteristic of techno and electro house"
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
@@ -141,8 +146,9 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Visual identity is characterised by neon colours, fingerless metal gloves, tight emo-style clothing, punk crest haircuts, and hair salons offering fluorescent streaks and star facial makeup.",
-     "Originally set in mega-clubs like Metropolis, Mix Club, and Red Light, as well as outdoor street gatherings called 'aprems'."
+     "The Tecktonik visual identity includes neon colors, fingerless gloves, tight clothing such as slim pants and fitted tops, and punk-inspired hairstyles like mohawks.",
+     "This style was developed alongside the dance at the Metropolis nightclub and became part of the culture.",
+     "Settings include nightclubs, street gatherings, and online video platforms."
     ],
     "on_screen": [
      "Images — MISSING",
@@ -158,9 +164,10 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Cyril Blanc\n\nAlexandre Barouzdin",
-     "Exported to Eastern Europe, Latin America (particularly Brazil through groups like Power Rangers and Deadly Crew and events like Vertifight Brasil), and spread globally via the internet.",
-     "Combines industrial dance, Moroccan chaabi, disco, vogue, waacking, hip-hop, freehand glowsticking, hardstyle, and jumpstyle."
+     "Cyril Blanc and Alexandre Barouzdin are the key figures behind Tecktonik, organizing the original parties, creating the brand, and registering the trademarks.",
+     "Cyril Blanc was artistic director of the Metropolis nightclub.",
+     "Tecktonik originated in Paris suburbs but spread internationally, including to Brazil where groups like Power Rangers and Deadly Crew formed.",
+     "Tecktonik is a street dance style derived from a fusion of industrial dance, Moroccan chaabi, disco, vogue, waacking, hip-hop, and freehand glowsticking."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -173,8 +180,10 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "tecktonik is influence of hardstyle: Promoted during the original Tecktonik Killer parties from Belgium and the Netherlands.",
-     "tecktonik is influence of jumpstyle: Imported alongside hardstyle to form the musical foundation of early parties."
+     "Tecktonik is shares music of Hardstyle: Hardstyle music was promoted at original Tecktonik Killer parties.",
+     "Tecktonik is shares music of Jumpstyle: Jumpstyle music was also promoted alongside Tecktonik.",
+     "Tecktonik is influence of Glowsticking: Arm movements derive from glowsticking freehand patterns.",
+     "Tecktonik is influence of Vogue: Incorporates angular poses inspired by vogue dance."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -186,9 +195,9 @@
     "title": "Try one step",
     "duration_s": 60,
     "narration": [
-     "Before we go, one step. glowsticking freehand pattern",
-     "figure eight arm motion",
-     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Before we go, one step. Raise arms and perform freehand glowsticking patterns such as figure eights",
+     "Lead one hand with the other in angular, sharp movements",
+     "Count it: 1-2-3-4-5-6.",
      "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
@@ -202,8 +211,8 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "How a Parisian suburban club night birthed Tecktonik, a global electro dance phenomenon.",
-     "Sources: 5 references, every claim checked against its source."
+     "Explore how a 2002 Paris nightclub dance sparked one of the first viral internet dance crazes, blending global styles into a neon-lit phenomenon.",
+     "Sources: 5 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -217,17 +226,17 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Master basic arm leading and freehand patterns",
-   "level": "beginner",
+   "goal": "Master basic arm patterns and foot shuffles",
+   "level": "Beginner",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Master basic arm leading and freehand patterns.",
-      "Level: beginner. Difficulty of the dance overall: intermediate.",
-      "Your instructor: A sharp, high-energy Parisian street dancer who lived through the Metropolis era and digital boom."
+      "Chapter 1 — First steps. Today: Master basic arm patterns and foot shuffles.",
+      "Level: Beginner. Difficulty of the dance overall: beginner to intermediate.",
+      "Your instructor: A former Metropolis club dancer turned online coach, knowledgeable about Tecktonik history and trademark culture"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -239,13 +248,12 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "upright with angular upper body alignment",
-      "prominent arm movements, freehand glowstick patterns, figure eights, leading hand concept",
-      "smooth or irregular movement of hips, knees, and feet on the beat"
+      "Upright with angular arm positions and dynamic upper body movement",
+      "Intricate, fast arm movements using glowsticking patterns like figure eights; one hand leads the other in geometric patterns",
+      "Subtle hip and torso movements complement arm work; hips and knees move softly to the beat"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -254,8 +262,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
-      "Rhythm pattern: driving four-on-the-floor house beats with hardstyle or jumpstyle elements.",
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Driving electronic beats characteristic of techno and electro house.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -272,17 +280,17 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: glowsticking freehand pattern",
-      "Step 2: figure eight arm motion",
-      "Footwork from the sources: shuffling steps, rhythmic footwork, toprock, and b-boy-style footwork",
-      "Drill: Leading hand tracking"
+      "Step 1: Raise arms and perform freehand glowsticking patterns such as figure eights",
+      "Step 2: Lead one hand with the other in angular, sharp movements",
+      "Footwork from the sources: Shuffling steps, rhythmic foot taps, toprock and b-boy style footwork elements; feet move smoothly and lightly",
+      "Drill: Practice freehand figure eight arm movements slowly"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "1-2-3-4-5-6",
      "repetitions": 3
     },
     {
@@ -290,15 +298,15 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: shuffling footwork",
-      "Step 4: toprock-inspired b-boy step",
-      "Drill: Figure eight arms"
+      "Step 3: Incorporate disco-inspired poses with angular arm positions",
+      "Step 4: Shuffle feet rhythmically in time with fast-paced electro house music",
+      "Drill: Perform simple shuffling foot taps to 4/4 beat"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "1-2-3-4-5-6",
      "repetitions": 3
     },
     {
@@ -308,7 +316,8 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right."
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Combine arm and foot movements at slow tempo"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -321,10 +330,11 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Unauthorized commercial use of the trademarked 'Tecktonik' or 'TCK' name in clubs without permission from Cyril Blanc and Alexandre Barouzdin."
+      "Avoid confusing the trademarked name with generic electro dance Avoid high-impact jumps or moves not suited for club floors",
+      "Teachers of this dance warn against: <not moving your head with the arm movement>"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -335,7 +345,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Count-in: 1-2-3-4-5-6.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -349,8 +359,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Master basic arm leading and freehand patterns.",
-      "Originally featured in themed club nights such as 'Blackout', 'Electro Rocker', and 'Tecktonik Killer', transitioning into street gatherings, dance battles (such as Vertifight), and music videos.",
+      "You can now: Master basic arm patterns and foot shuffles.",
+      "Tecktonik was originally danced at themed club nights such as 'Tecktonik Killer' parties promoting hardstyle and jumpstyle music.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -364,17 +374,17 @@
   {
    "chapter": 2,
    "title": "Building the dance",
-   "goal": "Integrate lower body shuffling",
-   "level": "intermediate",
+   "goal": "Increase speed and complexity of arm sequences",
+   "level": "Intermediate",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 — Building the dance. Today: Integrate lower body shuffling.",
-      "Level: intermediate. Difficulty of the dance overall: intermediate.",
-      "Your instructor: A sharp, high-energy Parisian street dancer who lived through the Metropolis era and digital boom."
+      "Chapter 2 — Building the dance. Today: Increase speed and complexity of arm sequences.",
+      "Level: Intermediate. Difficulty of the dance overall: beginner to intermediate.",
+      "Your instructor: A former Metropolis club dancer turned online coach, knowledgeable about Tecktonik history and trademark culture"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -386,13 +396,12 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "upright with angular upper body alignment",
-      "prominent arm movements, freehand glowstick patterns, figure eights, leading hand concept",
-      "smooth or irregular movement of hips, knees, and feet on the beat"
+      "Upright with angular arm positions and dynamic upper body movement",
+      "Intricate, fast arm movements using glowsticking patterns like figure eights; one hand leads the other in geometric patterns",
+      "Subtle hip and torso movements complement arm work; hips and knees move softly to the beat"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -401,8 +410,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
-      "Rhythm pattern: driving four-on-the-floor house beats with hardstyle or jumpstyle elements.",
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Driving electronic beats characteristic of techno and electro house.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -419,16 +428,15 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: glowsticking freehand pattern",
-      "Step 2: figure eight arm motion",
-      "Drill: Rhythmic floor step"
+      "Step 1: Add toprock or b-boy style footwork elements as comfortable",
+      "Drill: Lead one hand with the other in complex patterns"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "1-2-3-4-5-6",
      "repetitions": 3
     },
     {
@@ -436,17 +444,16 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: shuffling footwork",
-      "Step 4: toprock-inspired b-boy step",
-      "Freehand glowsticking pattern: Geometrical tracing of hands and arms using leading-hand concepts.",
-      "Drill: Toprock-infused footwork"
+      "Freehand figure eight: Arm movement tracing a figure eight pattern with one hand leading",
+      "Angular pose: Sharp, disco-inspired arm and body poses",
+      "Drill: Add angular disco-inspired poses between moves"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "1-2-3-4-5-6",
      "repetitions": 3
     },
     {
@@ -456,7 +463,8 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right."
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Incorporate toprock footwork elements"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -469,10 +477,11 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Unauthorized commercial use of the trademarked 'Tecktonik' or 'TCK' name in clubs without permission from Cyril Blanc and Alexandre Barouzdin."
+      "Avoid confusing the trademarked name with generic electro dance Avoid high-impact jumps or moves not suited for club floors",
+      "Teachers of this dance warn against: <not moving your head with the arm movement>"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -483,8 +492,8 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
-      "Full tempo, the whole sequence, twice. Formation: club floors, street gatherings ('aprems'), and battle circles"
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice. Formation: Usually danced solo or in informal street gatherings without fixed formations"
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -497,8 +506,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Integrate lower body shuffling.",
-      "Cyril Blanc\n\nAlexandre Barouzdin",
+      "You can now: Increase speed and complexity of arm sequences.",
+      "Cyril Blanc and Alexandre Barouzdin are the key figures behind Tecktonik, organizing the original parties, creating the brand, and registering the trademarks.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -512,17 +521,17 @@
   {
    "chapter": 3,
    "title": "Dancing it fully",
-   "goal": "Combine fast electro house sync with fluid body movement",
-   "level": "advanced",
+   "goal": "Perform fluid sequences with fast tempo and style",
+   "level": "Advanced",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 — Dancing it fully. Today: Combine fast electro house sync with fluid body movement.",
-      "Level: advanced. Difficulty of the dance overall: intermediate.",
-      "Your instructor: A sharp, high-energy Parisian street dancer who lived through the Metropolis era and digital boom."
+      "Chapter 3 — Dancing it fully. Today: Perform fluid sequences with fast tempo and style.",
+      "Level: Advanced. Difficulty of the dance overall: beginner to intermediate.",
+      "Your instructor: A former Metropolis club dancer turned online coach, knowledgeable about Tecktonik history and trademark culture"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -534,13 +543,12 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "upright with angular upper body alignment",
-      "prominent arm movements, freehand glowstick patterns, figure eights, leading hand concept",
-      "smooth or irregular movement of hips, knees, and feet on the beat"
+      "Upright with angular arm positions and dynamic upper body movement",
+      "Intricate, fast arm movements using glowsticking patterns like figure eights; one hand leads the other in geometric patterns",
+      "Subtle hip and torso movements complement arm work; hips and knees move softly to the beat"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -549,8 +557,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
-      "Rhythm pattern: driving four-on-the-floor house beats with hardstyle or jumpstyle elements.",
+      "Count: 1-2-3-4-5-6. The meter is 4/4.",
+      "Rhythm pattern: Driving electronic beats characteristic of techno and electro house.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -567,16 +575,16 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: shuffling footwork",
-      "Step 2: toprock-inspired b-boy step",
-      "Drill: Full tempo synchronization"
+      "Step 1: Shuffle feet rhythmically in time with fast-paced electro house music",
+      "Step 2: Add toprock or b-boy style footwork elements as comfortable",
+      "Drill: Combine rapid arm patterns with rhythmic footwork"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); three repetitions of every step before moving on",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "1-2-3-4-5-6",
      "repetitions": 3
     },
     {
@@ -584,15 +592,15 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Freehand glowsticking pattern: Geometrical tracing of hands and arms using leading-hand concepts.",
-      "Drill: Battle freestyle"
+      "Shuffle step: Quick, rhythmic foot shuffles in time with music",
+      "Drill: Experiment with personal style within trademark limits"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "1-2-3-4-5-6",
      "repetitions": 3
     },
     {
@@ -602,7 +610,8 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right."
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice endurance for club dance sessions"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -615,10 +624,11 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Unauthorized commercial use of the trademarked 'Tecktonik' or 'TCK' name in clubs without permission from Cyril Blanc and Alexandre Barouzdin."
+      "Avoid confusing the trademarked name with generic electro dance Avoid high-impact jumps or moves not suited for club floors",
+      "Teachers of this dance warn against: <not moving your head with the arm movement>"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -629,8 +639,8 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
-      "Full tempo, the whole sequence, twice. Formation: club floors, street gatherings ('aprems'), and battle circles"
+      "Count-in: 1-2-3-4-5-6.",
+      "Full tempo, the whole sequence, twice. Formation: Usually danced solo or in informal street gatherings without fixed formations"
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -643,8 +653,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Combine fast electro house sync with fluid body movement.",
-      "Combines industrial dance, Moroccan chaabi, disco, vogue, waacking, hip-hop, freehand glowsticking, hardstyle, and jumpstyle.",
+      "You can now: Perform fluid sequences with fast tempo and style.",
+      "Tecktonik is a street dance style derived from a fusion of industrial dance, Moroccan chaabi, disco, vogue, waacking, hip-hop, and freehand glowsticking.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -657,30 +667,33 @@
   }
  ],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": "4/4",
-  "rhythm_pattern": "driving four-on-the-floor house beats with hardstyle or jumpstyle elements",
+  "rhythm_pattern": "Driving electronic beats characteristic of techno and electro house",
   "instruments": [
    "synthesizers",
-   "electronic drum machines"
+   "drum machines",
+   "electronic basslines"
   ],
-  "vocal_style": "occasional vocal hooks or instrumental tracks",
-  "musical_form": "electronic dance music structure",
+  "vocal_style": "Mostly instrumental or with electronic vocal samples",
+  "musical_form": "Club-oriented tracks with repetitive beats and build-ups",
   "mood": [
    "energetic",
-   "frantic",
-   "high-octane"
+   "fast-paced",
+   "electronic",
+   "club"
   ],
-  "sound_description": "Driving, heavy electronic synthesizer riffs combined with pounding four-on-the-floor kick drums imported from Northern Europe, designed for relentless high-energy club dancing.",
+  "sound_description": "Energetic electronic club music with fast tempos, repetitive synth lines, and strong rhythmic pulses designed to support rapid arm and foot movements.",
   "listen_before_composing": [
-   "Alive — Mondotek",
-   "A cause des Garçons — Yelle",
+   "Alive! — Mondotek",
+   "À cause des garçons (Tepr remix) — Yelle",
    "Sucker — Dim Chris",
-   "Alive — Mondotek (2007)",
-   "À cause des garçons — Yelle (2007)"
+   "Alive — Mondotek (2007)"
   ],
-  "prompt": "Original instrumental composition in the musical world of tecktonik (France). Meter 4/4. Rhythm pattern: driving four-on-the-floor house beats with hardstyle or jumpstyle elements. Instruments: synthesizers, electronic drum machines. Vocal style: occasional vocal hooks or instrumental tracks. Form: electronic dance music structure. Mood: energetic, frantic, high-octane. It should sound like this: Driving, heavy electronic synthesizer riffs combined with pounding four-on-the-floor kick drums imported from Northern Europe, designed for relentless high-energy club dancing. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Tecktonik (France). Meter 4/4. Rhythm pattern: Driving electronic beats characteristic of techno and electro house. Instruments: synthesizers, drum machines, electronic basslines. Vocal style: Mostly instrumental or with electronic vocal samples. Form: Club-oriented tracks with repetitive beats and build-ups. Mood: energetic, fast-paced, electronic, club. It should sound like this: Energetic electronic club music with fast tempos, repetitive synth lines, and strong rhythmic pulses designed to support rapid arm and foot movements. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -722,7 +735,7 @@
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
    "restricted_attire": false,
-   "from_sources": "Visual identity is characterised by neon colours, fingerless metal gloves, tight emo-style clothing, punk crest haircuts, and hair salons offering fluorescent streaks and star facial makeup. Originally set in mega-clubs like Metropolis, Mix Club, and Red Light, as well as outdoor street gatherings called 'aprems'.",
+   "from_sources": "The Tecktonik visual identity includes neon colors, fingerless gloves, tight clothing such as slim pants and fitted tops, and punk-inspired hairstyles like mohawks. This style was developed alongside the dance at the Metropolis nightclub and became part of the culture. Settings include nightclubs, street gatherings, and online video platforms. The brand also commercialized clothing and energy drinks. The style's fashion was sometimes criticized as outdated or superficial.",
    "reference_images": [],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
@@ -732,15 +745,72 @@
    ]
   },
   "images": [],
-  "footage": [],
-  "motifs": [
-   "neon glowsticks",
-   "tight fluorescent clothing",
-   "punk crest haircuts",
-   "computer screens loading early YouTube clips"
+  "footage": [
+   {
+    "title": "Freestyle Dance Styles - EDM ( DnB Step, Electro Shuffle, Tectonic).",
+    "url": "https://archive.org/details/dance-stylez-edm-dn-b-step-electro-shuffle-tecktonik",
+    "year": 2013,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Électro Style Difficile - Tecktonik Danse.",
+    "url": "https://archive.org/details/electro-style-hard-style-tecktonik-danse",
+    "year": 2008,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Jump-Tonic - The Best Electro Dance Videoclips",
+    "url": "https://archive.org/details/jump-tonic-the-best-electro-dance-videoclips-dvd-1196561495",
+    "year": 2008,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "DIGITAL DAWN - Start time",
+    "url": "https://archive.org/details/Lordnetzwerk-DIGITALDAWNStartTime672-2",
+    "year": null,
+    "license": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "【MMD】Groovy Dancing SSBB【Kirby Dance】",
+    "url": "https://archive.org/details/youtube-cwSuF-x_I44",
+    "year": 2010,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Electro - ¡NUBE de azúcar! ¡VUELVE A BAILAR! ¡EQUIPO DEL MODO VENCER!",
+    "url": "https://archive.org/details/sugar-cloud-come-back-to-dancee-beat-mode-crew",
+    "year": 2009,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Touch By Touch (Modern Talking) - Supermodel Video 2022 & Party Music Remix",
+    "url": "https://archive.org/details/youtube-qTbopXeh-40",
+    "year": 2022,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Bhangra 2013 Kamal Supreme",
+    "url": "https://archive.org/details/Bhangra2013KamalSupreme",
+    "year": 2012,
+    "license": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "attribution": "Internet Archive"
+   }
   ],
-  "costume_notes": "Visual identity is characterised by neon colours, fingerless metal gloves, tight emo-style clothing, punk crest haircuts, and hair salons offering fluorescent streaks and star facial makeup. Originally set in mega-clubs like Metropolis, Mix Club, and Red Light, as well as outdoor street gatherings called 'aprems'.",
-  "setting_notes": "Originally featured in themed club nights such as 'Blackout', 'Electro Rocker', and 'Tecktonik Killer', transitioning into street gatherings, dance battles (such as Vertifight), and music videos.",
+  "motifs": [
+   "Neon colors and fingerless gloves",
+   "Fast arm movements tracing light trails",
+   "Crowds gathered in street and club settings",
+   "Close-ups of angular poses and foot shuffles"
+  ],
+  "costume_notes": "The Tecktonik visual identity includes neon colors, fingerless gloves, tight clothing such as slim pants and fitted tops, and punk-inspired hairstyles like mohawks. This style was developed alongside the dance at the Metropolis nightclub and became part of the culture. Settings include nightclubs, street gatherings, and online video platforms. The brand also commercialized clothing and energy drinks. The style's fashion was sometimes criticized as outdated or superficial.",
+  "setting_notes": "Tecktonik was originally danced at themed club nights such as 'Tecktonik Killer' parties promoting hardstyle and jumpstyle music. It spread through street gatherings and viral online videos, becoming a youth cultural phenomenon in France and internationally around 2007. The dance was associated with a distinctive fashion and club culture. It also appeared in music videos and at events like the Paris Techno Parade. The dance's meaning is linked to energetic self-expression and community among youth, with a commercial brand identity controlled by its founders.",
   "map": {
    "country": "France",
    "region": "Europe",
@@ -753,38 +823,51 @@
   ]
  },
  "teaching_formula": {
-  "source": "built-in defaults (no tutorial studied yet for this dance or family)",
-  "videos_studied": 0,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "1-2-3-4-5-6",
+  "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "front view, then back view (student's perspective)",
-   "slow, then half tempo, then full tempo",
-   "three repetitions of every step before moving on"
+   "views used by most teachers: front",
+   "tempo progression: slow → full"
   ],
   "cues": [
-   "say the count before the move",
-   "name the body part, then the direction",
-   "one correction at a time"
+   "punch to the side",
+   "pull your head down",
+   "pivot them on your elbows"
   ],
-  "common_mistakes": [],
+  "common_mistakes": [
+   "<not moving your head with the arm movement>"
+  ],
   "segment_order": [
-   "welcome",
-   "body",
-   "count",
-   "step",
-   "step",
-   "combine",
-   "mistakes",
-   "music",
-   "recap"
+   "intro",
+   "full_demo",
+   "breakdown",
+   "music_practice"
   ],
-  "steps_as_taught": []
+  "steps_as_taught": [
+   {
+    "name": "<Move Number One>",
+    "counts": "<1 to 6>",
+    "description": "<Circular arm movement with head tilt and pivot>"
+   },
+   {
+    "name": "<Simple Arm Spin>",
+    "counts": "<4 times>",
+    "description": "<Spinning arms crossing over body>"
+   },
+   {
+    "name": "<One Hand Move>",
+    "counts": "<1 to 6>",
+    "description": "<One hand behind back and pointer finger pointing and pulling>"
+   }
+  ]
  },
  "gaps": [
   "tempo (bpm)",
   "the hero video's vision check",
   "licensed images (3 needed)",
-  "licensed reference footage"
+  "the how-it-is-danced section"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Electro_dance",
@@ -793,8 +876,9 @@
   "https://fr.wikipedia.org/wiki/Tecktonik",
   "https://pt.wikipedia.org/wiki/Tecktonik"
  ],
- "claims_verified": 6,
- "claims": 6,
+ "claims_verified": 7,
+ "claims": 7,
  "polished": false,
+ "input_fingerprint": "637f2c3bd59f9ca7bac5db1a14d9f40d8483d07b420964df230eccf66a9e65b9",
  "hero_checked": null
 }

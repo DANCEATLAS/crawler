@@ -1,8 +1,8 @@
 # Hakken — episode pack
 
-*Status: draft · built 2026-11-04 · judge 9.25 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.25 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced rave dancer with deep knowledge of Dutch hardcore culture, approachable and energetic.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Hakken: The Dutch Heel-Stomping Rave Dance
 NARRATION: This is Hakken. 1990s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (FUD-HExh9ow)
 ON SCREEN: Title card: Hakken · Netherlands · 1990s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance consists of rapid, small steps landing primarily on the hee
 NARRATION: The lower body, from the pelvis down, drives the movement, while arms and torso may move but are less emphasized.
 NARRATION: The tempo is fast, often between 170 and 190 BPM.
 NARRATION: Watch for Heel Tap, Backstep.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (FUD-HExh9ow)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Danced solo or in informal groups without strict spatial patterns.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -80,7 +80,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand with feet shoulder-width apart.
 NARRATION: Lift one heel quickly and tap it down to the beat.
-NARRATION: Count it: 1-2-3-4-5-6.
+NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -88,7 +88,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore how Rotterdam football fans’ rhythmic heel stomps became the heartbeat of 1990s Dutch rave culture.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -105,11 +105,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Slightly bent knees, upright torso, relaxed shoulders.
 NARRATION: Arms move subtly or remain relaxed at sides; not emphasized.
 NARRATION: Minimal torso movement; hips stable to support footwork.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Steady, rapid bass drum kick on each beat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -124,7 +124,7 @@ NARRATION: Drill: Heel tap on right foot to slow beat.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Alternate heels rapidly in succession.
@@ -132,7 +132,7 @@ NARRATION: Step 4: Keep knees slightly bent for shock absorption.
 NARRATION: Drill: Heel tap on left foot to slow beat.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -145,11 +145,12 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid high jumps or excessive upper body movement that distracts from foot rhythm.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: don't tense your legs
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 170 bpm
@@ -176,11 +177,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Slightly bent knees, upright torso, relaxed shoulders.
 NARRATION: Arms move subtly or remain relaxed at sides; not emphasized.
 NARRATION: Minimal torso movement; hips stable to support footwork.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Steady, rapid bass drum kick on each beat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -193,7 +194,7 @@ NARRATION: Drill: Alternate heel taps at medium tempo.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Heel Tap: Quickly striking the heel on the ground to the beat.
@@ -202,7 +203,7 @@ NARRATION: Drill: Add backstep movement.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -215,11 +216,12 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid high jumps or excessive upper body movement that distracts from foot rhythm.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: don't tense your legs
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced solo or in informal groups without strict spatial patterns.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 170 bpm
@@ -246,11 +248,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Slightly bent knees, upright torso, relaxed shoulders.
 NARRATION: Arms move subtly or remain relaxed at sides; not emphasized.
 NARRATION: Minimal torso movement; hips stable to support footwork.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Steady, rapid bass drum kick on each beat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -264,7 +266,7 @@ NARRATION: Drill: Heel taps at 170-190 BPM.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Heel Tap: Quickly striking the heel on the ground to the beat.
@@ -273,7 +275,7 @@ NARRATION: Drill: Combine backsteps and lateral steps.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -286,11 +288,12 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid high jumps or excessive upper body movement that distracts from foot rhythm.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: don't tense your legs
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced solo or in informal groups without strict spatial patterns.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 170 bpm
@@ -319,7 +322,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers typically wear casual rave attire, with a notable preference for Nike Air Max Classics shoes, which support the rapid heel strikes. Hakken is performed in rave clubs, festivals, and dance events associated with hard dance music scenes, especially in the Netherlands and internationally in Australia and Italy.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'FUD-HExh9ow', 'checked_by_vision_model': False, 'title': 'Gabber Dance'}
 Images: 0 licensed
 Footage: File:Middelste bonte specht hakkend-4961794.webm — https://upload.wikimedia.org/wikipedia/commons/a/aa/Middelste_bonte_specht_hakkend-4961794.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; LE "HAKKEN", MÉKÈSKECÉ ??? 🤔 — https://archive.org/details/youtube-mikHSKzzXSk; Free 24h En El Skatepark La Francia — https://archive.org/details/muy-aspero-el-ultimo-free-24h-en-el-skatepark-la-francia
 Motifs: Heel striking ground, Nike Air Max shoes, Rotterdam stadium crowds, Rave light shows, Fast footwork close-ups
@@ -329,9 +332,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the street-urban family studied · videos studied: 2
-Counting: 1-2-3-4-5-6
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full
-Cues: punch to the side; pull your head down; pivot them on your elbows; tabletop position; split the line; land flat footed; perch up; hop back
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
+Demonstration: views used by most teachers: side; tempo progression: slow → full
+Cues: lift your foot; then kick your leg; stay smooth; get a feeling for it; then get faster
+Common mistakes the studied teachers name: don't tense your legs
 
 Sources (5): https://en.wikipedia.org/wiki/Hakken; https://www.wikidata.org/wiki/Q2054734; https://es.wikipedia.org/wiki/Hakken; https://fr.wikipedia.org/wiki/Hakken; https://it.wikipedia.org/wiki/Hakken

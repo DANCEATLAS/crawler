@@ -1,6 +1,6 @@
 # Calenda (Kalinda) — episode pack
 
-*Status: withheld-chapters · built 2026-11-05 · judge 8.95 · 4/4 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 8.95 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; signature moves; two or more connections
 
@@ -75,7 +75,7 @@ ON SCREEN: Calm wide shot, no demonstration
 MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Sources: 4 references, every claim checked against its source.
+NARRATION: Sources: 4 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -104,9 +104,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the african-diaspora family studied · videos studied: 3
-Counting: 5-6-7-8 and 1-2-3-4-5-6-7
-Demonstration: views used by most teachers: back, front; tempo progression: slow → full
-Cues: left foot; right foot; step; touch; stomp off; push; 5-6-7-8-hold; lets build it up; now put them together; stomp spank step; stomp spank ball change; step toe step hop step hop out in
+Source: 5 tutorial(s) of the african-diaspora family studied · videos studied: 5
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: shift; slow; quick quick slow; rock step; left foot; right foot; step; touch; stomp off; push; make sure that you are wearing comfortable shoes; stand properly
 
 Sources (4): https://en.wikipedia.org/wiki/Calinda; https://www.wikidata.org/wiki/Q2741465; https://es.wikipedia.org/wiki/Kalenda; https://fr.wikipedia.org/wiki/Calinda

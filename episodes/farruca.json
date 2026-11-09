@@ -1,11 +1,12 @@
 {
  "slug": "farruca",
  "name": "Farruca",
- "pack_version": "e1",
- "built_at": "2026-11-07T17:43:35Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-07T16:25:50Z",
  "qc_score": 10.0,
  "status": "draft",
+ "release_status": "not_validated",
  "sacred": false,
  "chapters_note": null,
  "formula": {
@@ -64,7 +65,7 @@
      "This is Farruca. Early 20th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (3j5IRvgQAS8)",
      "Title card: Farruca · Spain · Early 20th century"
     ],
     "music": "theme (30 s)"
@@ -110,7 +111,7 @@
      "Watch for Llamada, Escobilla, Remate."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (3j5IRvgQAS8)",
      "Captions name each signature move as it appears",
      "Formation: Solo stage performance utilizing abrupt changes of direction and level."
     ],
@@ -206,7 +207,7 @@
     "duration_s": 25,
     "narration": [
      "Step inside the austere world of flamenco's most theatrical solo, born in early 1900s music halls from sharp heel strikes and absolute stillness.",
-     "Sources: 7 references, every claim checked against its source."
+     "Sources: 7 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -247,7 +248,7 @@
       "Linear and restrained torso with sharp pauses, held poses, and minimal hip displacement."
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -327,7 +328,7 @@
       "Avoid loose, wavy torso motions or excessive hip swaying, which undermine the palo's strict linear aesthetic."
      ],
      "on_screen": [
-      "Side-by-side: wrong / right",
+      "Side-by-side: source-supported correction",
       "Options card: Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates. · For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops."
      ],
      "music": "silence",
@@ -398,7 +399,7 @@
       "Linear and restrained torso with sharp pauses, held poses, and minimal hip displacement."
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -480,7 +481,7 @@
       "Avoid loose, wavy torso motions or excessive hip swaying, which undermine the palo's strict linear aesthetic."
      ],
      "on_screen": [
-      "Side-by-side: wrong / right",
+      "Side-by-side: source-supported correction",
       "Options card: Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates. · For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops."
      ],
      "music": "silence",
@@ -551,7 +552,7 @@
       "Linear and restrained torso with sharp pauses, held poses, and minimal hip displacement."
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -630,7 +631,7 @@
       "Avoid loose, wavy torso motions or excessive hip swaying, which undermine the palo's strict linear aesthetic."
      ],
      "on_screen": [
-      "Side-by-side: wrong / right",
+      "Side-by-side: source-supported correction",
       "Options card: Seated or supported option: Perform the 8-count footwork seated upright in an armless chair, tapping heels firmly on counts 1, 3, 5, and 7 while maintaining a proud, lifted torso and practicing sharp head turns on remates. · For children: Play 'Statues of Stone': children dance stamping heel patterns across the room to the four-count rhythm, freezing into rigid, dramatic flamenco poses the exact instant the guitar or clap stops."
      ],
      "music": "silence",
@@ -673,7 +674,9 @@
   }
  ],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": "4/4 (two measures of 4/4 forming an 8-count compás)",
   "rhythm_pattern": "[1] 2 [3] 4 [5] 6 [7] 8 with strong accents on odd beats",
@@ -730,7 +733,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "3j5IRvgQAS8",
+   "checked_by_vision_model": false,
+   "title": "Pablo Egea - Farruca"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -787,21 +794,27 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of the stage-contemporary family studied",
-  "videos_studied": 1,
+  "source": "3 tutorial(s) of the stage-contemporary family studied",
+  "videos_studied": 3,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "views used by most teachers: front, side",
-   "tempo progression: full"
+   "views used by most teachers: front, back, mirror",
+   "tempo progression: slow → full"
   ],
   "cues": [
+   "short verbal cue the teacher repeats  8 words",
+   "deep slow hip circles",
+   "hips to one side in little pulses",
+   "breathe in arms come up",
+   "roll through the spine",
+   "belly rolls both directions",
    "knees to chest",
    "straightening my legs",
    "bringing my body up",
    "bend both legs",
    "opening my left arm",
-   "straightening my left leg",
-   "bringing my top leg down"
+   "straightening my left leg"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -813,7 +826,7 @@
  },
  "gaps": [
   "tempo (bpm)",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -828,5 +841,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
+ "input_fingerprint": "10983f30785772540502add33adb393c7179d82b444bc78a5b33856af312afac",
  "hero_checked": null
 }

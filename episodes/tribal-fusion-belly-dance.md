@@ -1,8 +1,8 @@
 # Tribal Fusion Belly Dance — episode pack
 
-*Status: draft · built 2026-11-07 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video
+**Gaps** (handed to the research queue): the hero video's vision check
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced theatrical fusion choreographer who emphasizes mechanical precision, anatomy-based muscle control, and respectful attribution of lineage.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Isolations in the Underground: How California Re-Engineered Belly Dance
 NARRATION: This is Tribal Fusion Belly Dance. Late 1990s to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (8XGIRLwcw4o)
 ON SCREEN: Title card: Tribal Fusion Belly Dance · United States · Late 1990s to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Unlike the strictly group-led, cue-based structured improvisation of 
 NARRATION: Dancers maintain an upright lifted posture while executing hyper-articulated isolations, including popping contractions, belly rolls, serpentine arm paths, and hip locks.
 NARRATION: Dancers integrate technique derived from Suhaila Salimpour, hip hop popping, flamenco arm carriage, and Indian classical forms like Kathak and Odissi.
 NARRATION: Watch for Snake Arms, Belly Roll, Ribcage Isolation Slide.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (8XGIRLwcw4o)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Fluid stage floor patterns, direct audience address, diagonal transitions, and stationary solo pedestals.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -80,7 +80,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Lift ribcage and drop shoulders into an aligned, grounded stance with soft knees.
 NARRATION: Execute an upper-torso chest slide side-to-side without moving the hips.
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -88,7 +88,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Tracing the evolution of belly dance from 1960s California counterculture to the bass-heavy stages of electronic music festivals via Jill Parker and Rachel Brice.
-NARRATION: Sources: 4 references, every claim checked against its source.
+NARRATION: Sources: 4 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -105,11 +105,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Grounded lower body with soft knees, an elevated and wide ribcage, engaged core, flat lower back, and lengthened neck with relaxed shoulders.
 NARRATION: Sinuous snake arms undulating through shoulders, elbows, and wrists; stark geometric framing influenced by flamenco and popping; delicate Mudra-inspired hand placement.
 NARRATION: Precise separation between thoracic and pelvic compartments; rolling abdominal undulations; sharp popping locks of the pelvis; figure-eight hip pathways.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Heavy electronic downbeats accented with syncopated Middle Eastern doumbek patterns (e.g., maqsum or baladi frameworks) and glitch/breakbeat subdivisions..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -124,7 +124,7 @@ NARRATION: Drill: Stand with feet parallel, soften knees, tuck tailbone, and lif
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Roll the abdomen sequentially in an undulating belly roll, pulling inward from top to bottom.
@@ -132,7 +132,7 @@ NARRATION: Step 4: Perform a sharp pelvic tuck and release isolation (lock or po
 NARRATION: Drill: Perform horizontal chest slides side-to-side on a 4-count rhythm without hip movement.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -145,13 +145,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid moving the pelvis and ribcage simultaneously during single isolations; avoid collapsing the thoracic spine or hyperextending knees.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: <mistake the teacher names and corrects>
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform ribcage slides, snake arms, and gentle abdominal undulations seated upright in a stable chair with feet planted flat on the floor. · For children: 'Snake and Freeze': Children imitate undulating snake arms to fluid music, then must perform a muscular 'pop' and freeze when the electronic beat drops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform ribcage slides, snake arms, and gentle abdominal undulations seated upright in a stable chair with feet planted flat on the floor. · For children: 'Snake and Freeze': Children imitate undulating snake arms to fluid music, then must perform a muscular 'pop' and freeze when the electronic beat drops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 80 bpm
@@ -178,11 +179,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Grounded lower body with soft knees, an elevated and wide ribcage, engaged core, flat lower back, and lengthened neck with relaxed shoulders.
 NARRATION: Sinuous snake arms undulating through shoulders, elbows, and wrists; stark geometric framing influenced by flamenco and popping; delicate Mudra-inspired hand placement.
 NARRATION: Precise separation between thoracic and pelvic compartments; rolling abdominal undulations; sharp popping locks of the pelvis; figure-eight hip pathways.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Heavy electronic downbeats accented with syncopated Middle Eastern doumbek patterns (e.g., maqsum or baladi frameworks) and glitch/breakbeat subdivisions..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -195,7 +196,7 @@ NARRATION: Drill: Engage upper abs then lower abs sequentially to execute a cont
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Snake Arms: Continuous, alternating wave-like undulation passing from the scapula through the shoulder, elbow, and wrist out to the fingertips.
@@ -204,7 +205,7 @@ NARRATION: Drill: Practice sharp pelvic tucks (pops) on counts 1 and 3 against a
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -217,13 +218,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid moving the pelvis and ribcage simultaneously during single isolations; avoid collapsing the thoracic spine or hyperextending knees.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: <mistake the teacher names and corrects>
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform ribcage slides, snake arms, and gentle abdominal undulations seated upright in a stable chair with feet planted flat on the floor. · For children: 'Snake and Freeze': Children imitate undulating snake arms to fluid music, then must perform a muscular 'pop' and freeze when the electronic beat drops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform ribcage slides, snake arms, and gentle abdominal undulations seated upright in a stable chair with feet planted flat on the floor. · For children: 'Snake and Freeze': Children imitate undulating snake arms to fluid music, then must perform a muscular 'pop' and freeze when the electronic beat drops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Fluid stage floor patterns, direct audience address, diagonal transitions, and stationary solo pedestals.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 80 bpm
@@ -250,11 +252,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Grounded lower body with soft knees, an elevated and wide ribcage, engaged core, flat lower back, and lengthened neck with relaxed shoulders.
 NARRATION: Sinuous snake arms undulating through shoulders, elbows, and wrists; stark geometric framing influenced by flamenco and popping; delicate Mudra-inspired hand placement.
 NARRATION: Precise separation between thoracic and pelvic compartments; rolling abdominal undulations; sharp popping locks of the pelvis; figure-eight hip pathways.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Heavy electronic downbeats accented with syncopated Middle Eastern doumbek patterns (e.g., maqsum or baladi frameworks) and glitch/breakbeat subdivisions..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -268,7 +270,7 @@ NARRATION: Drill: Execute 8-count fluid snake arms while executing steady pelvic
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Ribcage Isolation Slide: Linear horizontal translation of the ribcage parallel to the floor without shifting the pelvis or hips.
@@ -277,7 +279,7 @@ NARRATION: Drill: Perform a traveling step-touch combination while executing a h
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -290,13 +292,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid moving the pelvis and ribcage simultaneously during single isolations; avoid collapsing the thoracic spine or hyperextending knees.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: <mistake the teacher names and corrects>
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform ribcage slides, snake arms, and gentle abdominal undulations seated upright in a stable chair with feet planted flat on the floor. · For children: 'Snake and Freeze': Children imitate undulating snake arms to fluid music, then must perform a muscular 'pop' and freeze when the electronic beat drops.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform ribcage slides, snake arms, and gentle abdominal undulations seated upright in a stable chair with feet planted flat on the floor. · For children: 'Snake and Freeze': Children imitate undulating snake arms to fluid music, then must perform a muscular 'pop' and freeze when the electronic beat drops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Fluid stage floor patterns, direct audience address, diagonal transitions, and stationary solo pedestals.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 80 bpm
@@ -325,7 +328,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '8XGIRLwcw4o', 'checked_by_vision_model': False, 'title': 'WOW Arabic Belly Dance Sword Dance "Justice" by Irina Akulenko | Tribal Fusion World Dance Heritage'}
 Images: 3 licensed — Georges Seguin (Okki) / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Trizek / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Danecarney / Wikimedia Commons / CC0 (CC0)
 Footage: Belly Dance: Cues and Tattoos Festival 2015 - Bindu Bolar Tribalina. — https://archive.org/details/cues-and-tattoos-festival-2015-bindu-bolar-tribalina; BINDU BOLAR - TRIBAL FUSION BELLY-DANCE - HYPNOSIS 2015 — https://archive.org/details/bindu-bolar-tribal-fusion-bellydance-hypnosis-2015; Tribal Fusion Belly Dance - Bindu - Lost and Found, Fools Rhythm, Beat of Passion - Taal — https://archive.org/details/tribal-fusion-belly-dance-bindu-lost-and-found-fools-rhythm-beat-of-passion-taal; Tribal Fusion Belly Dance Tribalina Bindu Bolar - Links 2 - 3 - 4 Claw-finger Remix, Mechanic Puppet — https://archive.org/details/tribal-fusion-belly-dance-tribalina-bindu-bolar-links-2-3-4-clawfinger-remix-mecanic-puppet; RebelCrew PowWow_HMSTV EDIT 2014 — https://archive.org/details/RebelCrew_PowWow_HMSTV_EDIT_2014; Belly Dance - Tribal Fusion. — https://archive.org/details/belly-dance-tribal-fusion; Belly Dance - Drum Solo - Tribal Fusion - Ebony and Raqs Caravan Urban. — https://archive.org/details/hip-hop-belly-dance-drum-solo-tribal-fusion-ebony-and-raqs-caravan-urban; Tribal fusion bellydance solo to 'Human Nature' Sevdaliza. — https://archive.org/details/tribal-fusion-bellydance-solo-to-human-nature-sevdaliza
 Motifs: Close-up slow motion of abdominal muscle waves, Hand-braided yarn cowrie falls swaying against silver jewelry, Dark stage backlighting highlighting angular arm lines and body silhouettes, Glitch-electronic waveform visualizations paired with popping locks
@@ -335,9 +338,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of the stage-contemporary family studied · videos studied: 1
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side; tempo progression: full
-Cues: knees to chest; straightening my legs; bringing my body up; bend both legs; opening my left arm; straightening my left leg; bringing my top leg down
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 5-6-7-8
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow
+Cues: short verbal cue the teacher repeats  8 words; deep slow hip circles; hips to one side in little pulses; breathe in arms come up; roll through the spine; belly rolls both directions
+Common mistakes the studied teachers name: <mistake the teacher names and corrects>
 
 Sources (4): https://en.wikipedia.org/wiki/Tribal_Fusion; https://www.wikidata.org/wiki/Q2743437; https://es.wikipedia.org/wiki/Danza_del_vientre_tribal; https://fr.wikipedia.org/wiki/Tribal_fusion

@@ -1,8 +1,8 @@
 # Basque folk dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-05 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local dantzari with deep knowledge of regional history.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dancers of the Pyrenees
 NARRATION: This is Basque folk dance. Ancient to contemporary.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (y-UhSAJBm9E)
 ON SCREEN: Title card: Basque folk dance · Spain and France · Ancient to contemporary
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Technique varies by dance.
 NARRATION: Many involve high jumps, double clicks, and high kicks.
 NARRATION: Formations include parallel rows, circles, and individual displays.
 NARRATION: Watch for Double click, Flag waving.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (y-UhSAJBm9E)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Open squares, parallel rows, or circles.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -81,7 +81,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the 400-year-old traditions of the Basque Country, where dance is a language of community and defiance.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -102,7 +102,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'y-UhSAJBm9E', 'checked_by_vision_model': False, 'title': 'Basque Dances (Dantza zati bat Idiazabalen - Euskal Herriko dantzak)'}
 Images: 2 licensed — Kezka / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Kezka Dantza Taldea Eibar / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0)
 Footage: File:Basque dancers in Boise.webm — https://upload.wikimedia.org/wikipedia/commons/5/5d/Basque_dancers_in_Boise.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Oak trees, Swords, Traditional red sashes
@@ -112,9 +112,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the folk-circle family studied · videos studied: 4
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; crazy train
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (5): https://en.wikipedia.org/wiki/Basque_dance; https://www.wikidata.org/wiki/Q2250773; https://es.wikipedia.org/wiki/Danzas_vascas; https://fr.wikipedia.org/wiki/Danse_basque; https://it.wikipedia.org/wiki/Danza_basca

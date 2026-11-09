@@ -1,6 +1,6 @@
 # expressionist dance — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.1 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.1 · 9/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed reference footage; the how-it-is-danced section
 
@@ -86,7 +86,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore how early 20th-century dancers broke ballet’s chains to create a raw, emotional dance form that united body, mind, and spirit.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -103,8 +103,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: natural, relaxed, expressive
 NARRATION: free, expressive gestures conveying emotion
 NARRATION: engaged with weight shifts and tension/release
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -121,7 +120,7 @@ NARRATION: Step 1: Focus on natural breathing and relaxation
 NARRATION: Step 2: Explore weight shifts and floor contact
 NARRATION: Footwork from the sources: not codified; includes barefoot dancing and floor contact
 NARRATION: Drill: Breathing exercises with slow arm lifts
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the variable bar out loud, then in pairs of bars · repetitions: 3
@@ -145,7 +144,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rigid, mechanical movements; do not treat as purely technical ballet steps.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -176,8 +175,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: natural, relaxed, expressive
 NARRATION: free, expressive gestures conveying emotion
 NARRATION: engaged with weight shifts and tension/release
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -192,7 +190,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Practice slow, deliberate gestures emphasizing feeling
 NARRATION: Drill: Improvised movement responding to percussion rhythms
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the variable bar out loud, then in pairs of bars · repetitions: 3
@@ -217,7 +215,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rigid, mechanical movements; do not treat as purely technical ballet steps.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -248,8 +246,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: natural, relaxed, expressive
 NARRATION: free, expressive gestures conveying emotion
 NARRATION: engaged with weight shifts and tension/release
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -265,7 +262,7 @@ NEEDS: tempo
 NARRATION: Step 1: Incorporate tension and release in movements
 NARRATION: Step 2: Practice slow, deliberate gestures emphasizing feeling
 NARRATION: Drill: Create a short solo with floor work and weight shifts
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the variable bar out loud, then in pairs of bars · repetitions: 3
@@ -290,7 +287,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rigid, mechanical movements; do not treat as purely technical ballet steps.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -331,9 +328,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 3 tutorial(s) of the stage-contemporary family studied · videos studied: 3
 Counting: count the variable bar out loud, then in pairs of bars
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
+Cues: short verbal cue the teacher repeats  8 words; deep slow hip circles; hips to one side in little pulses; breathe in arms come up; roll through the spine; belly rolls both directions; knees to chest; straightening my legs; bringing my body up; bend both legs; opening my left arm; straightening my left leg
 
 Sources (5): https://en.wikipedia.org/wiki/Expressionist_dance; https://www.wikidata.org/wiki/Q778382; https://es.wikipedia.org/wiki/Danza_expresionista; https://fr.wikipedia.org/wiki/Danse_expressionniste; https://de.wikipedia.org/wiki/Ausdruckstanz

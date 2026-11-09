@@ -1,8 +1,8 @@
 # Letkajenkka — episode pack
 
-*Status: draft · built 2026-11-05 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic, clear, and focused on group coordination.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Letkis Craze: Finland's Global Line Dance
 NARRATION: This is Letkajenkka. 1960s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (IDbIYXEsdx0)
 ON SCREEN: Title card: Letkajenkka · Finland · 1960s
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ MUSIC: underscore
 NARRATION: Participants form a conga-style line, holding the shoulders or waist of the person in front.
 NARRATION: The sequence involves kicking the left foot twice, the right foot twice, followed by a jump forward, a jump backward, and three jumps forward.
 NARRATION: Watch for Side Kick, Forward/Backward Jump.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (IDbIYXEsdx0)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Conga line or circle.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Kick left foot to the left twice.
 NARRATION: Kick right foot to the right twice.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -86,7 +86,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how a simple Finnish folk-pop hybrid became a worldwide sensation in the mid-1960s.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -103,11 +103,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, maintaining contact with the person in front.
 NARRATION: Hands on the shoulders or waist of the person in front.
 NARRATION: Minimal movement, focus on leg and foot action.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Three quarter notes followed by a quarter rest or two quarter notes followed by a dotted quarter note..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -123,7 +123,7 @@ NARRATION: Drill: Practice left/right kicks in place.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Jump forward with both feet.
@@ -131,7 +131,7 @@ NARRATION: Step 4: Jump backward with both feet.
 NARRATION: Drill: Practice the jump sequence.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -144,13 +144,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid breaking the line or losing rhythm with the group.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the kicks while seated, focusing on leg extensions. · For children: Play as a 'follow the leader' game in a line.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the kicks while seated, focusing on leg extensions. · For children: Play as a 'follow the leader' game in a line. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -177,11 +177,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, maintaining contact with the person in front.
 NARRATION: Hands on the shoulders or waist of the person in front.
 NARRATION: Minimal movement, focus on leg and foot action.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Three quarter notes followed by a quarter rest or two quarter notes followed by a dotted quarter note..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -194,7 +194,7 @@ NARRATION: Step 1: Jump forward three times.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Side Kick: Kick to the side while balancing on the supporting leg.
@@ -202,7 +202,7 @@ NARRATION: Forward/Backward Jump: Synchronized jump with both feet together.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -214,13 +214,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid breaking the line or losing rhythm with the group.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the kicks while seated, focusing on leg extensions. · For children: Play as a 'follow the leader' game in a line.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the kicks while seated, focusing on leg extensions. · For children: Play as a 'follow the leader' game in a line. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Conga line or circle.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -247,11 +247,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, maintaining contact with the person in front.
 NARRATION: Hands on the shoulders or waist of the person in front.
 NARRATION: Minimal movement, focus on leg and foot action.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Three quarter notes followed by a quarter rest or two quarter notes followed by a dotted quarter note..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -265,7 +265,7 @@ NARRATION: Step 2: Jump forward three times.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Side Kick: Kick to the side while balancing on the supporting leg.
@@ -273,7 +273,7 @@ NARRATION: Forward/Backward Jump: Synchronized jump with both feet together.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -285,13 +285,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid breaking the line or losing rhythm with the group.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the kicks while seated, focusing on leg extensions. · For children: Play as a 'follow the leader' game in a line.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the kicks while seated, focusing on leg extensions. · For children: Play as a 'follow the leader' game in a line. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Conga line or circle.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -320,7 +320,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'IDbIYXEsdx0', 'checked_by_vision_model': False, 'title': 'Letkajenkka'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Conga lines in 1960s footage, Vintage record covers, Modern group dancing
@@ -330,9 +330,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 4 tutorial(s) of the folk-circle family studied · videos studied: 4
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; crazy train
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (5): https://en.wikipedia.org/wiki/Letkajenkka; https://www.wikidata.org/wiki/Q1859644; https://fr.wikipedia.org/wiki/Letkiss; https://de.wikipedia.org/wiki/Letkiss; https://it.wikipedia.org/wiki/Letkiss

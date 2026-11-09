@@ -1,11 +1,12 @@
 {
  "slug": "bwola",
  "name": "Bwola",
- "pack_version": "e1",
- "built_at": "2026-11-07T17:43:24Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-07T17:22:08Z",
  "qc_score": 9.3,
  "status": "draft",
+ "release_status": "not_validated",
  "sacred": false,
  "chapters_note": null,
  "formula": {
@@ -121,8 +122,8 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The music is driven by the Larakaraka, which is a calabash, and the Jagi, which is a cylindrical drum.",
-     "Listen for the Larakaraka and the Jagi."
+     "The music is driven by the Larakaraka (a calabash) and the Jagi (a cylindrical drum).",
+     "Listen for the Larakaraka (calabash), Jagi (cylindrical drum)."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
@@ -180,9 +181,9 @@
     "title": "Try one step",
     "duration_s": 60,
     "narration": [
-     "Before we go, try one step.",
-     "Step in a circular path and maintain a rhythmic foot pattern.",
-     "Count it: 1-2-3-4 then 5-6-7-8, spanning eight counts and two bars.",
+     "Before we go, one step. Step in a circular path",
+     "Maintain a rhythmic foot pattern",
+     "Count it: .",
      "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
@@ -196,8 +197,8 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "This is an exploration of the Bwola dance, the traditional royal performance of Northern Uganda.",
-     "Sources: 2 references, every claim checked against its source."
+     "An exploration of the Bwola dance, the traditional royal performance of Northern Uganda.",
+     "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -219,8 +220,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 focuses on the first steps of Bwola at a beginner level.",
-      "Your instructor counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes."
+      "Chapter 1 — First steps. Today: the first steps of Bwola.",
+      "Level: beginner. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -232,11 +234,10 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upper body remains still."
+      "Upper body remains still"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -245,7 +246,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Count: .",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -263,15 +264,15 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Step in a circular path.",
-      "Step 2: Maintain a rhythmic foot pattern."
+      "Step 1: Step in a circular path",
+      "Step 2: Maintain a rhythmic foot pattern"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -279,13 +280,13 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Keep the upper body still."
+      "Step 3: Keep the upper body still"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -293,9 +294,9 @@
      "title": "Put it together",
      "duration_s": 120,
      "narration": [
-      "Perform Step A, then Step B, without stopping, starting slow.",
-      "Now move to half tempo, then full tempo.",
-      "The instructor faces you and mirrors your movements so your right is your right."
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -307,11 +308,9 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video."
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
      "options": [],
@@ -325,7 +324,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Count-in: .",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -362,8 +361,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 focuses on building the Bwola dance at an intermediate level.",
-      "Your instructor counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes."
+      "Chapter 2 — Building the dance. Today: the building the dance of Bwola.",
+      "Level: intermediate. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -375,11 +375,10 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upper body remains still."
+      "Upper body remains still"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -388,7 +387,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Count: .",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -406,15 +405,15 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Step in a circular path.",
-      "Step 2: Maintain a rhythmic foot pattern."
+      "Step 1: Step in a circular path",
+      "Step 2: Maintain a rhythmic foot pattern"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -422,13 +421,13 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Keep the upper body still."
+      "Step 3: Keep the upper body still"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -436,9 +435,9 @@
      "title": "Put it together",
      "duration_s": 120,
      "narration": [
-      "Perform Step A, then Step B, without stopping, starting slow.",
-      "Now move to half tempo, then full tempo.",
-      "The instructor faces you and mirrors your movements so your right is your right."
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -450,11 +449,9 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video."
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
      "options": [],
@@ -468,7 +465,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Count-in: .",
       "Full tempo, the whole sequence, twice. Formation: Circular, men clockwise, women anti-clockwise"
      ],
      "on_screen": [
@@ -504,8 +501,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 focuses on dancing Bwola fully at an advanced level.",
-      "Your instructor counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes."
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Bwola.",
+      "Level: advanced. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -517,11 +515,10 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Upper body remains still."
+      "Upper body remains still"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -530,7 +527,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Count: .",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -548,15 +545,15 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Maintain a rhythmic foot pattern.",
-      "Step 2: Keep the upper body still."
+      "Step 1: Maintain a rhythmic foot pattern",
+      "Step 2: Keep the upper body still"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -568,7 +565,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3,
      "needs": [
       "signature moves"
@@ -579,9 +576,9 @@
      "title": "Put it together",
      "duration_s": 120,
      "narration": [
-      "Perform Step A, then Step B, without stopping, starting slow.",
-      "Now move to half tempo, then full tempo.",
-      "The instructor faces you and mirrors your movements so your right is your right."
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -593,11 +590,9 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "The sources do not list common mistakes yet, so the instructor names the two most visible ones from the hero video."
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Correction withheld until evidence is available"
      ],
      "music": "silence",
      "options": [],
@@ -611,7 +606,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Count-in: .",
       "Full tempo, the whole sequence, twice. Formation: Circular, men clockwise, women anti-clockwise"
      ],
      "on_screen": [
@@ -638,7 +633,9 @@
   }
  ],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": null,
@@ -763,27 +760,19 @@
   ]
  },
  "teaching_formula": {
-  "source": "28 tutorials across the atlas studied",
-  "videos_studied": 28,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
   ],
   "cues": [
-   "and one and three and five and seven",
-   "keep your feet together",
-   "relax your knees",
-   "side close side",
-   "step and point",
-   "turn turn turn",
-   "replace",
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
-   "bend the knees"
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -791,8 +780,7 @@
    "full_demo",
    "context",
    "breakdown",
-   "slow_practice",
-   "music_practice"
+   "slow_practice"
   ],
   "steps_as_taught": []
  },
@@ -813,7 +801,7 @@
  ],
  "claims_verified": 6,
  "claims": 6,
- "polished": true,
- "hero_checked": "pass",
- "polish_kept_scenes": 24
+ "polished": false,
+ "input_fingerprint": "e101305711882f8d879a5f1b52809217fd413363a565d12c887e1c3aed229fc3",
+ "hero_checked": "pass"
 }

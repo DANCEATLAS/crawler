@@ -1,6 +1,6 @@
 # Mbende Jerusarema — episode pack
 
-*Status: withheld-chapters · built 2026-11-03 · judge 9.85 · 5/5 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 9.85 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; signature moves; two or more connections
 
@@ -78,7 +78,7 @@ ON SCREEN: Calm wide shot, no demonstration
 MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Sources: 4 references, every claim checked against its source.
+NARRATION: Sources: 4 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -107,9 +107,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (4): https://en.wikipedia.org/wiki/Mbende_Jerusarema_dance; https://www.wikidata.org/wiki/Q2285047; https://fr.wikipedia.org/wiki/Mbende-Jerusarema; https://ich.unesco.org/en/RL/00169

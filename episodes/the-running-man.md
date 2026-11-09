@@ -1,6 +1,6 @@
 # The Running Man — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a hero video; licensed images (3 needed)
 
@@ -76,7 +76,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Stand with feet together.
 NARRATION: Lift one knee while sliding the standing foot backward.
-NARRATION: Count it: 1-2-3-4-5-6.
+NARRATION: Count it: 1-2 / 7-and.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -84,7 +84,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how a simple sliding step became the most recognizable move in hip-hop history.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -101,11 +101,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Slightly forward-leaning, athletic.
 NARRATION: Fists move horizontally in front of the body.
 NARRATION: Minimal movement, focus on leg and arm coordination.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2 / 7-and. The meter is 4/4.
 NARRATION: Rhythm pattern: Steady, driving beat with a strong downbeat..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -120,7 +120,7 @@ NARRATION: Drill: Practice sliding one foot back while standing.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2 / 7-and · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Place the lifted foot down where the standing foot was.
@@ -128,7 +128,7 @@ NARRATION: Step 4: Repeat the motion with the opposite leg.
 NARRATION: Drill: Add the knee lift.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2 / 7-and · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -141,13 +141,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid losing balance by keeping the weight centered.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: landing like a jog instead of both feet landing at the same time
+NARRATION: Teachers of this dance warn against: leaning too far forward or too far back
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the instructor's sliding steps.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the instructor's sliding steps. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2 / 7-and.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 105 bpm
@@ -174,11 +176,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Slightly forward-leaning, athletic.
 NARRATION: Fists move horizontally in front of the body.
 NARRATION: Minimal movement, focus on leg and arm coordination.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2 / 7-and. The meter is 4/4.
 NARRATION: Rhythm pattern: Steady, driving beat with a strong downbeat..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -191,7 +193,7 @@ NARRATION: Step 2: Lift one knee while sliding the standing foot backward.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2 / 7-and · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Place the lifted foot down where the standing foot was.
@@ -200,7 +202,7 @@ NARRATION: The Slide: The backward movement of the front foot that creates the i
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2 / 7-and · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -212,13 +214,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid losing balance by keeping the weight centered.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: landing like a jog instead of both feet landing at the same time
+NARRATION: Teachers of this dance warn against: leaning too far forward or too far back
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the instructor's sliding steps.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the instructor's sliding steps. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2 / 7-and.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Stationary, performed in place.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 105 bpm
@@ -245,11 +249,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Slightly forward-leaning, athletic.
 NARRATION: Fists move horizontally in front of the body.
 NARRATION: Minimal movement, focus on leg and arm coordination.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2 / 7-and. The meter is 4/4.
 NARRATION: Rhythm pattern: Steady, driving beat with a strong downbeat..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -262,14 +266,14 @@ NARRATION: Step 2: Repeat the motion with the opposite leg.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2 / 7-and · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Slide: The backward movement of the front foot that creates the illusion of running.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2 / 7-and · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -281,13 +285,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid losing balance by keeping the weight centered.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: landing like a jog instead of both feet landing at the same time
+NARRATION: Teachers of this dance warn against: leaning too far forward or too far back
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the instructor's sliding steps.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm movements and knee lifts while seated in a sturdy chair. · For children: A 'follow the leader' game where children mimic the instructor's sliding steps. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2 / 7-and.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Stationary, performed in place.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 105 bpm
@@ -326,9 +332,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of the street-urban family studied · videos studied: 1
-Counting: 1-2-3-4-5-6
-Demonstration: views used by most teachers: front; tempo progression: slow → full
-Cues: punch to the side; pull your head down; pivot them on your elbows
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 1-2 / 7-and
+Demonstration: views used by most teachers: side, front, back; tempo progression: slow → full
+Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; tabletop position; split the line; land flat footed; perch up; hop back
+Common mistakes the studied teachers name: landing like a jog instead of both feet landing at the same time; leaning too far forward or too far back
 
 Sources (2): https://en.wikipedia.org/wiki/Running_man_(dance); https://www.wikidata.org/wiki/Q7761867

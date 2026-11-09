@@ -1,8 +1,8 @@
 # Para Para — episode pack
 
-*Status: draft · built 2026-11-04 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced paralist and choreographer from a prominent Japanese club, patient and enthusiastic about sharing Para Para culture
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Para Para: Japan's Synchronized Dance Revolution
 NARRATION: This is Para Para. 1980s–present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (nah1-LwkJGQ)
 ON SCREEN: Title card: Para Para · Japan · 1980s–present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Para Para is danced in synchronized groups performing choreographed u
 NARRATION: Dancers step side to side and move hips slightly, with minimal leg movement except for stepping in place or hopping.
 NARRATION: The rhythm follows a four-on-the-floor beat typical of Eurobeat music.
 NARRATION: Watch for Wangan style, Maniac routines, OriPara.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (nah1-LwkJGQ)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Groups dance in lines or clusters facing forward, maintaining spacing for arm movements
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -89,7 +89,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore Para Para's rise from Tokyo clubs to global communities through choreographed arm movements and Eurobeat beats.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -106,7 +106,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright with relaxed shoulders, focus on upper body
 NARRATION: Choreographed, precise arm and hand gestures synchronized to music and group
 NARRATION: Slight hip swaying accompanying arm movements
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -122,7 +122,7 @@ NARRATION: Step 1: Step side to side in place to the beat
 NARRATION: Step 2: Move arms in choreographed synchronized patterns
 NARRATION: Footwork from the sources: Side-to-side stepping in place, minimal leg movement except occasional hops or jumps
 NARRATION: Drill: Step side to side to beat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 5-6-7-8 · repetitions: 3
@@ -146,7 +146,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid excessive lower body movement; maintain synchronization with group; respect official routines in club settings
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -177,7 +177,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright with relaxed shoulders, focus on upper body
 NARRATION: Choreographed, precise arm and hand gestures synchronized to music and group
 NARRATION: Slight hip swaying accompanying arm movements
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -191,7 +191,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Repeat sequence matching the song's sections (intro, verses, chorus)
 NARRATION: Drill: Learn routine sections (intro, verse, chorus)
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 5-6-7-8 · repetitions: 3
@@ -216,7 +216,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid excessive lower body movement; maintain synchronization with group; respect official routines in club settings
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -247,7 +247,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright with relaxed shoulders, focus on upper body
 NARRATION: Choreographed, precise arm and hand gestures synchronized to music and group
 NARRATION: Slight hip swaying accompanying arm movements
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -262,7 +262,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Jump or hop lightly during certain routine parts
 NARRATION: Step 2: Repeat sequence matching the song's sections (intro, verses, chorus)
 NARRATION: Drill: Practice intricate arm sequences
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 5-6-7-8 · repetitions: 3
@@ -286,7 +286,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid excessive lower body movement; maintain synchronization with group; respect official routines in club settings
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -319,7 +319,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Para Para is primarily danced in club settings in Japan, including notable venues like Twin Star, Velfarre, and Maharaja. Club events often begin with less danceable music and increase in energy. Dancers wear casual or club attire; no specific costume is mandated. The dance community includes official choreographer groups affiliated with clubs. Internationally, Para Para is performed at conventions and cultural events, especially those related to Japanese pop culture.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'nah1-LwkJGQ', 'checked_by_vision_model': False, 'title': 'ParaPara Paradise 4 - 01 - Go Go Girls - Cyber Dance'}
 Images: 0 licensed
 Footage: File:Parapara dance 2009 France.webm — https://upload.wikimedia.org/wikipedia/commons/2/23/Parapara_dance_2009_France.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; ParaPara Paradise 3 (DVD, 2001) — https://archive.org/details/para-para-paradise-3-2001; ParaPara Paradise 2 (DVD, 2001) — https://archive.org/details/para-para-paradise-2-2001; ParaPara Paradise 5 (DVD, 2001) — https://archive.org/details/para-para-paradise-5-2001; ParaPara Paradise 6 (2002, DVD) — https://archive.org/details/para-para-paradise-6-2002; ParaPara Paradise 4 (2001, DVD) — https://archive.org/details/para-para-paradise-4-2001; ParaPara Paradise Presents ガッチャ！ ラフ君 With ASH (2001, VHS) — https://archive.org/details/para-para-paradise-presents-with-ash-2001; File:Parapara Valley Road flooded.webm — https://upload.wikimedia.org/wikipedia/commons/f/f5/Parapara_Valley_Road_flooded.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Bright club lights, Close-ups of synchronized arm movements, Vintage Para Para VHS tapes, Eurobeat album covers, Animated choreography diagrams
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the folk-circle family studied · videos studied: 3
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
 Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control
+Demonstration: views used by most teachers: mirror; tempo progression: slow → half → full
+Cues: crazy train; come on; don't be late; no baby no; let's go; get it right now; can you dig it; move it
 
 Sources (5): https://en.wikipedia.org/wiki/Para_Para; https://www.wikidata.org/wiki/Q1331500; https://es.wikipedia.org/wiki/ParaPara; https://fr.wikipedia.org/wiki/Para_Para; https://pt.wikipedia.org/wiki/Para_Para

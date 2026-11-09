@@ -1,11 +1,12 @@
 {
  "slug": "melinting-dance",
  "name": "Melinting dance",
- "pack_version": "e1",
- "built_at": "2026-11-08T17:28:40Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-08T16:49:05Z",
  "qc_score": 8.65,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -64,7 +65,7 @@
      "This is Melinting dance. 16th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (FL2dxHKipq8)",
      "Title card: Melinting dance · Indonesia · 16th century"
     ],
     "music": "theme (30 s)"
@@ -104,7 +105,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (FL2dxHKipq8)",
      "Signature moves — MISSING",
      "Formation: Divided into four rounds: opening, kugowo queen, floating kenui, and closing."
     ],
@@ -197,7 +198,7 @@
     "duration_s": 25,
     "narration": [
      "Discover the 16th-century Melinting dance, a royal tradition transformed by a president's decree.",
-     "Sources: 2 references, every claim checked against its source."
+     "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -209,7 +210,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": null,
@@ -261,7 +264,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "FL2dxHKipq8",
+   "checked_by_vision_model": false,
+   "title": "Tari MELINTING - Hari Tari Dunia 2021"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -368,7 +375,8 @@
  "teaching_formula": {
   "source": "1 tutorial(s) of the ritual-sacred family studied",
   "videos_studied": 1,
-  "counting": "1-2-3-4-5",
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back",
    "tempo progression: slow → full",
@@ -393,7 +401,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed reference footage",
   "the how-it-is-danced section",
   "signature moves",
@@ -407,5 +415,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
+ "input_fingerprint": "9b733f2c076316fb61f316764f61027bccb099a844c64ca8c91e0636fad2644c",
  "hero_checked": null
 }

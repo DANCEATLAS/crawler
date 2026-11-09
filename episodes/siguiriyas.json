@@ -1,11 +1,12 @@
 {
  "slug": "siguiriyas",
  "name": "siguiriyas",
- "pack_version": "e1",
- "built_at": "2026-11-06T19:02:16Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-06T17:06:57Z",
  "qc_score": 10.0,
  "status": "draft",
+ "release_status": "not_validated",
  "sacred": false,
  "chapters_note": null,
  "formula": {
@@ -67,7 +68,7 @@
      "This is siguiriyas. Late 18th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (xumQS4tDDdk)",
      "Title card: siguiriyas · Spain · Late 18th century"
     ],
     "music": "theme (30 s)"
@@ -112,7 +113,7 @@
      "Watch for Escobilla."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (xumQS4tDDdk)",
      "Captions name each signature move as it appears",
      "Formation: Solo performance space focused on theatrical or traditional staging"
     ],
@@ -206,7 +207,7 @@
     "duration_s": 25,
     "narration": [
      "Discover siguiriyas, the solemn cante jondo palo born from Romani heritage and driven by a haunting 12-beat compás.",
-     "Sources: 5 references, every claim checked against its source."
+     "Sources: 5 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -245,7 +246,7 @@
       "Solemn, ceremonious, and pausado"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -278,7 +279,7 @@
       "Drill: Clapping the 1, 3, 5, 8, 11 accent pattern"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -321,11 +322,9 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: wrong / right",
+      "Correction withheld until evidence is available",
       "Options card: Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps · For children: Rhythmic clapping game following the 12-count accent pattern"
      ],
      "music": "silence",
@@ -397,7 +396,7 @@
       "Solemn, ceremonious, and pausado"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -428,7 +427,7 @@
       "Drill: Stepping to the 6-6-11-6 verse meter"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -470,11 +469,9 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: wrong / right",
+      "Correction withheld until evidence is available",
       "Options card: Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps · For children: Rhythmic clapping game following the 12-count accent pattern"
      ],
      "music": "silence",
@@ -546,7 +543,7 @@
       "Solemn, ceremonious, and pausado"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -578,7 +575,7 @@
       "Drill: Executing the ceremonious entrada"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -620,11 +617,9 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: wrong / right",
+      "Correction withheld until evidence is available",
       "Options card: Seated or supported option: Seated rhythmic tapping of the 12-count compás using hands and soft foot stamps · For children: Rhythmic clapping game following the 12-count accent pattern"
      ],
      "music": "silence",
@@ -670,7 +665,9 @@
   }
  ],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": "12-count compás",
   "rhythm_pattern": "3/4 and 6/8 amalgama accented on 1, 3, 5, 8, 11",
@@ -726,7 +723,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "xumQS4tDDdk",
+   "checked_by_vision_model": false,
+   "title": "Antonio Gades y Cristina Hoyos (baile) Seguiriyas"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -781,42 +782,34 @@
   ]
  },
  "teaching_formula": {
-  "source": "23 tutorials across the atlas studied",
-  "videos_studied": 23,
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
   "counting": "count the 12-count compás bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
   ],
   "cues": [
-   "and one and three and five and seven",
-   "keep your feet together",
-   "relax your knees",
-   "side close side",
-   "step and point",
-   "turn turn turn",
-   "replace",
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
-   "bend the knees"
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "context",
    "full_demo",
+   "context",
    "breakdown",
-   "slow_practice",
-   "music_practice"
+   "slow_practice"
   ],
   "steps_as_taught": []
  },
  "gaps": [
   "tempo (bpm)",
-  "a hero video",
+  "a verified recording to listen to",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the costume & setting section",
@@ -832,5 +825,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
+ "input_fingerprint": "4b21c9bec9dc7b7fd33419f598defc530cd127001ad884d2e3d512b23ba87868",
  "hero_checked": null
 }

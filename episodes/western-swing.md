@@ -1,8 +1,8 @@
 # Western swing — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.85 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.85 · 4/4 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); posture, arms and hands; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned dance instructor with a deep appreciation for Southwestern string bands, speaking with warm, steady authority.
@@ -76,7 +76,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Two-step
 NARRATION: Lindy Hop
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -84,7 +84,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: How a fusion of rural string bands and jazz packed the massive ballrooms of the American Southwest and California.
-NARRATION: Sources: 6 references, every claim checked against its source.
+NARRATION: Sources: 6 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -98,13 +98,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
 NARRATION: Rhythm pattern: solid two-four rhythm with a heavy backbeat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -117,10 +116,10 @@ NARRATION: Step 1: Two-step
 NARRATION: Step 2: Lindy Hop
 NARRATION: Footwork from the sources: simple couples dances, two steps and the Lindy Hop with a few Western twirls added for good measure
 NARRATION: Drill: Step-touch weight shifts to a 2/4 beat
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Western twirls
@@ -128,7 +127,7 @@ NARRATION: Step 4: Subdued jitterbug step
 NARRATION: Drill: Basic forward and backward walking steps
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -140,15 +139,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Upper-body swaying and gentle foot tapping to a slowed 2/4 Western swing beat. · For children: A partner march and simple spin game to a classic upbeat western swing tune.
 MUSIC: silence
 OPTIONS: Seated or supported option: Upper-body swaying and gentle foot tapping to a slowed 2/4 Western swing beat. · For children: A partner march and simple spin game to a classic upbeat western swing tune. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -172,13 +170,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
 NARRATION: Rhythm pattern: solid two-four rhythm with a heavy backbeat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -190,10 +187,10 @@ NEEDS: tempo
 NARRATION: Step 1: Two-step
 NARRATION: Step 2: Lindy Hop
 NARRATION: Drill: Single-hand Western twirl turn
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Western twirls
@@ -204,7 +201,7 @@ NARRATION: Drill: Subdued jitterbug bounce and foot replacement
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -216,15 +213,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Upper-body swaying and gentle foot tapping to a slowed 2/4 Western swing beat. · For children: A partner march and simple spin game to a classic upbeat western swing tune.
 MUSIC: silence
 OPTIONS: Seated or supported option: Upper-body swaying and gentle foot tapping to a slowed 2/4 Western swing beat. · For children: A partner march and simple spin game to a classic upbeat western swing tune. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: couples dancing in crowded ballrooms and dance halls
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -248,13 +244,12 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Demonstration withheld until posture is sourced
 MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 2/4 or 4/4.
+NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4 or 4/4.
 NARRATION: Rhythm pattern: solid two-four rhythm with a heavy backbeat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -266,10 +261,10 @@ NEEDS: tempo
 NARRATION: Step 1: Western twirls
 NARRATION: Step 2: Subdued jitterbug step
 NARRATION: Drill: Syncopated weight changes
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Western twirl: A turn incorporated into couple dances and the Lindy Hop.
@@ -278,7 +273,7 @@ NARRATION: Drill: Musical phrasing interpretation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -290,15 +285,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Upper-body swaying and gentle foot tapping to a slowed 2/4 Western swing beat. · For children: A partner march and simple spin game to a classic upbeat western swing tune.
 MUSIC: silence
 OPTIONS: Seated or supported option: Upper-body swaying and gentle foot tapping to a slowed 2/4 Western swing beat. · For children: A partner march and simple spin game to a classic upbeat western swing tune. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Full tempo, the whole sequence, twice. Formation: couples dancing in crowded ballrooms and dance halls
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -337,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 4 tutorial(s) of the ballroom-partner family studied · videos studied: 4
+Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
+Cues: side close side; step and point; turn turn turn; replace; side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot
 
 Sources (6): https://en.wikipedia.org/wiki/Western_swing; https://www.wikidata.org/wiki/Q1730388; https://es.wikipedia.org/wiki/Western_swing; https://fr.wikipedia.org/wiki/Western_swing; https://pt.wikipedia.org/wiki/Western_swing; https://archive.org/details/festivalofameric00fe

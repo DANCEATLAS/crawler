@@ -1,11 +1,12 @@
 {
  "slug": "nago",
  "name": "Nago",
- "pack_version": "e1",
- "built_at": "2026-11-06T19:02:16Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-06T18:28:21Z",
  "qc_score": 8.6,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -197,7 +198,7 @@
     "duration_s": 25,
     "narration": [
      "Discover the militant rhythm of the Nago, the warrior dance of the Ogou spirits.",
-     "Sources: 2 references, every claim checked against its source."
+     "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -209,7 +210,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": "Nago Chaud (fast) and Nago Grand Coup (slow/heavy)",
@@ -312,36 +315,27 @@
   ]
  },
  "teaching_formula": {
-  "source": "23 tutorials across the atlas studied",
-  "videos_studied": 23,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
   ],
   "cues": [
-   "and one and three and five and seven",
-   "keep your feet together",
-   "relax your knees",
-   "side close side",
-   "step and point",
-   "turn turn turn",
-   "replace",
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
-   "bend the knees"
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "context",
    "full_demo",
+   "context",
    "breakdown",
-   "slow_practice",
-   "music_practice"
+   "slow_practice"
   ],
   "steps_as_taught": []
  },
@@ -358,5 +352,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
+ "input_fingerprint": "5a57f244e61626b66a2da3f537e70b71010ee34b78fbae930cfac2fe4da874cb",
  "hero_checked": "pass"
 }

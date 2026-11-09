@@ -1,6 +1,6 @@
 # pachanga — episode pack
 
-*Status: draft · built 2026-11-03 · judge 10.0 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage
 
@@ -81,7 +81,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Maintain a grounded posture with knees softly bent, never fully straightening.
 NARRATION: Step on the downbeat of four-four time, mirroring basic mambo foot placement.
-NARRATION: Count it: count the four-four time bar out loud, then in pairs of bars.
+NARRATION: Count it: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -89,7 +89,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover pachanga, the high-energy 1950s Cuban craze that combined charanga melodies with a knee-bouncing glide to shape modern salsa.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -105,12 +105,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Grounded posture with body connectivity maintained; knees remain softly bent and never completely straighten.
 NARRATION: Upper body rocks naturally as a result of weight changes and a bounce originating in the knees.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the four-four time bar out loud, then in pairs of bars. The meter is four-four time.
+NARRATION: Count: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7). The meter is four-four time.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -122,10 +121,10 @@ NARRATION: Step 1: Maintain a grounded posture with knees softly bent, never ful
 NARRATION: Step 2: Step on the downbeat of four-four time, mirroring basic mambo foot placement.
 NARRATION: Footwork from the sources: Mimics a basic mambo step in foot placement and weight shift while incorporating a smooth glide on weight transfer instead of a tap.
 NARRATION: Drill: Soft knee bending and straightening without letting legs lock.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the four-four time bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Execute a weight transfer that glides smoothly across the floor rather than tapping.
@@ -133,7 +132,7 @@ NARRATION: Step 4: Allow a bounce originating in the knees to naturally rock the
 NARRATION: Drill: Weight transfer isolation drills keeping energy channeled down into the floor.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: count the four-four time bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -145,11 +144,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Completely straightening the knees during the dance.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: doing squats instead of small forward and back movements
+NARRATION: Teachers of this dance warn against: making big upper body movements
+NARRATION: Teachers of this dance warn against: bringing upper body too much back
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the four-four time bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -175,12 +177,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Grounded posture with body connectivity maintained; knees remain softly bent and never completely straighten.
 NARRATION: Upper body rocks naturally as a result of weight changes and a bounce originating in the knees.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the four-four time bar out loud, then in pairs of bars. The meter is four-four time.
+NARRATION: Count: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7). The meter is four-four time.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -191,10 +192,10 @@ NEEDS: tempo
 NARRATION: Step 1: Maintain a grounded posture with knees softly bent, never fully straightening.
 NARRATION: Step 2: Step on the downbeat of four-four time, mirroring basic mambo foot placement.
 NARRATION: Drill: Mambo step footwork practice focusing on downbeat timing in 4/4 meter.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the four-four time bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Execute a weight transfer that glides smoothly across the floor rather than tapping.
@@ -204,7 +205,7 @@ NARRATION: Drill: Gliding weight-transfer slide drills across the floor.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the four-four time bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -216,11 +217,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Completely straightening the knees during the dance.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: doing squats instead of small forward and back movements
+NARRATION: Teachers of this dance warn against: making big upper body movements
+NARRATION: Teachers of this dance warn against: bringing upper body too much back
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the four-four time bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo group shines or paired social dancing with transitions into individual showcase breaks.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -246,12 +250,11 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Grounded posture with body connectivity maintained; knees remain softly bent and never completely straighten.
 NARRATION: Upper body rocks naturally as a result of weight changes and a bounce originating in the knees.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: count the four-four time bar out loud, then in pairs of bars. The meter is four-four time.
+NARRATION: Count: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7). The meter is four-four time.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -262,10 +265,10 @@ NEEDS: tempo
 NARRATION: Step 1: Execute a weight transfer that glides smoothly across the floor rather than tapping.
 NARRATION: Step 2: Allow a bounce originating in the knees to naturally rock the upper body.
 NARRATION: Drill: Upper-body connectivity and torso rock coordination with knee action.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: count the four-four time bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Bronx Hop: An improvised dance move introduced by Johnny Pacheco at the Triton Club that became central to the pachanga craze.
@@ -273,7 +276,7 @@ NARRATION: Drill: A short solo pachanga shine combining the glide and the Bronx 
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: count the four-four time bar out loud, then in pairs of bars · repetitions: 3
+COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -285,11 +288,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Completely straightening the knees during the dance.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: doing squats instead of small forward and back movements
+NARRATION: Teachers of this dance warn against: making big upper body movements
+NARRATION: Teachers of this dance warn against: bringing upper body too much back
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: count the four-four time bar out loud, then in pairs of bars.
+NARRATION: Count-in: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo group shines or paired social dancing with transitions into individual showcase breaks.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -328,9 +334,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: count the four-four time bar out loud, then in pairs of bars
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 3 tutorial(s) of this dance studied · videos studied: 3
+Counting: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7)
+Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
+Cues: and one and three and five and seven; keep your feet together; relax your knees; bend the knees; change the weight; turn on the heels; keep it small; 1-2-3-5-6-7-8; back and forward
+Common mistakes the studied teachers name: doing squats instead of small forward and back movements; making big upper body movements; bringing upper body too much back; bending both ankles; turning on the toes instead of the heels; putting the leg too far behind; having two heels on the ground at the same time
 
 Sources (5): https://en.wikipedia.org/wiki/Pachanga; https://www.wikidata.org/wiki/Q367751; https://es.wikipedia.org/wiki/Pachanga_(música); https://fr.wikipedia.org/wiki/Pachanga; https://de.wikipedia.org/wiki/Pachanga_(Genre)

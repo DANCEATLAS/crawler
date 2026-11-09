@@ -1,8 +1,8 @@
 # Line dance — episode pack
 
-*Status: draft · built 2026-11-03 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced, encouraging social dance teacher.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Geometry of the Floor
 NARRATION: This is Line dance. 20th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (9BhPdnxD6Xk)
 ON SCREEN: Title card: Line dance · United States · 20th century to present
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Dancers stand in parallel lines, repeating a fixed sequence of steps.
 NARRATION: Movements are performed individually without physical contact.
 NARRATION: Dancers rotate to face different 'walls' (front, back, sides) based on the specific choreography.
 NARRATION: Watch for Electric Slide.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (9BhPdnxD6Xk)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Parallel lines; dancers move in unison.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -77,7 +77,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Grapevine (step side, cross behind, step side, touch)
 NARRATION: Shuffle/Chassé (triple step)
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -85,7 +85,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how a simple line of dancers became a global phenomenon.
-NARRATION: Sources: 5 references, every claim checked against its source.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -100,11 +100,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright and balanced.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4 (common) or 3/4 (waltz).
+NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 4/4 (common) or 3/4 (waltz).
 NARRATION: Rhythm pattern: Repeating sequences often based on 32, 48, or 64 counts..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -117,10 +117,10 @@ NARRATION: Step 1: Grapevine (step side, cross behind, step side, touch)
 NARRATION: Step 2: Shuffle/Chassé (triple step)
 NARRATION: Footwork from the sources: Repeating sequences of steps, shuffles, and turns.
 NARRATION: Drill: Side-step practice
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Pivot turn (step forward and turn)
@@ -128,7 +128,7 @@ NARRATION: Step 4: Kick-ball-change
 NARRATION: Drill: Weight transfer drills
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -140,15 +140,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping. · For children: Follow-the-leader style line dance using simple, repetitive animal-themed movements.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping. · For children: Follow-the-leader style line dance using simple, repetitive animal-themed movements. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -173,11 +172,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright and balanced.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4 (common) or 3/4 (waltz).
+NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 4/4 (common) or 3/4 (waltz).
 NARRATION: Rhythm pattern: Repeating sequences often based on 32, 48, or 64 counts..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -188,10 +187,10 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Grapevine (step side, cross behind, step side, touch)
 NARRATION: Step 2: Shuffle/Chassé (triple step)
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Pivot turn (step forward and turn)
@@ -200,7 +199,7 @@ NARRATION: Electric Slide: A specific sequence of steps including a grapevine an
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -211,15 +210,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping. · For children: Follow-the-leader style line dance using simple, repetitive animal-themed movements.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping. · For children: Follow-the-leader style line dance using simple, repetitive animal-themed movements. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Parallel lines; dancers move in unison.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -244,11 +242,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright and balanced.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4 (common) or 3/4 (waltz).
+NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 4/4 (common) or 3/4 (waltz).
 NARRATION: Rhythm pattern: Repeating sequences often based on 32, 48, or 64 counts..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -259,17 +257,17 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Pivot turn (step forward and turn)
 NARRATION: Step 2: Kick-ball-change
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Electric Slide: A specific sequence of steps including a grapevine and a turn.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -280,15 +278,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Correction withheld until evidence is available
 ON SCREEN: Options card: Seated or supported option: Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping. · For children: Follow-the-leader style line dance using simple, repetitive animal-themed movements.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping. · For children: Follow-the-leader style line dance using simple, repetitive animal-themed movements. (options are derived teaching suggestions, not facts from the sources)
 NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Parallel lines; dancers move in unison.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -317,7 +314,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: While historically associated with western wear and boots, modern participants often wear casual clothing and specialized dance trainers. It is practiced in dance bars, social clubs, and sports centers.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '9BhPdnxD6Xk', 'checked_by_vision_model': False, 'title': "Kane's Boots - Line Dance (Dance & Teach in English & 中文)"}
 Images: 6 licensed — Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Bernd Hannemann / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); quinn.anya / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Sebastiaan ter Burg from Utrecht, The Netherlands / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); The White House from Washington, DC / Wikimedia Commons / Public domain (Public domain)
 Footage: Line-Dance Videos — https://archive.org/details/Line-danceVideos; Line-Dance Videos — https://archive.org/details/Line-Dance_Videos; CBEEBIES Balamory The Line Dance — https://archive.org/details/cbeebiesbalamorythelinedance; Soul Train (Season 1, Episode 7) — https://archive.org/details/soul-train-season-1-episode-7-partially-full-episode; Soul Train (Season 8, Episode 25) — https://archive.org/details/soul-train-season-8-episode-25; 1992 VHS • Kickin' Country Workout with Denise Austin 60 FPS — https://archive.org/details/TheVistaGroup-KickinCountryWorkoutwithDeniseAustin1992; File:1929-07-13 Irish GP Eireann Cup video.webm — https://upload.wikimedia.org/wikipedia/commons/c/cd/1929-07-13_Irish_GP_Eireann_Cup_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; DeSoto Steppers - Easy to Learn Dance Moves — https://archive.org/details/desotx-DeSoto_Steppers_-_Easy_to_Learn_Dance_Moves
 Motifs: Parallel lines of feet, The rotation of the group to a new wall, Archive footage of 1970s disco halls
@@ -327,9 +324,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the folk-circle family studied · videos studied: 2
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 1-2-3, 2-2-3 (three counts a bar)
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (5): https://en.wikipedia.org/wiki/Line_dance; https://www.wikidata.org/wiki/Q912389; https://es.wikipedia.org/wiki/Line_dance; https://fr.wikipedia.org/wiki/Danse_en_ligne; https://de.wikipedia.org/wiki/Line_Dance

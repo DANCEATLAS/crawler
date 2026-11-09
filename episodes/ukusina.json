@@ -1,11 +1,12 @@
 {
  "slug": "ukusina",
  "name": "Ukusina",
- "pack_version": "e1",
- "built_at": "2026-11-07T17:43:35Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-07T17:21:00Z",
  "qc_score": 9.45,
  "status": "withheld-chapters",
+ "release_status": "not_validated",
  "sacred": true,
  "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
  "formula": {
@@ -63,7 +64,7 @@
      "This is Ukusina. Traditional."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (3i4KnI4gNfg)",
      "Title card: Ukusina · South Africa · Traditional"
     ],
     "music": "theme (30 s)"
@@ -107,7 +108,7 @@
      "Watch for Ukusina Leg Kick and Stamp."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (3i4KnI4gNfg)",
      "Captions name each signature move as it appears",
      "Formation: line or circular patterns"
     ],
@@ -195,7 +196,7 @@
     "duration_s": 25,
     "narration": [
      "Explore Ukusina, the vigorous Zulu ritual dance of soaring kicks and ancestral connection in South Africa.",
-     "Sources: 2 references, every claim checked against its source."
+     "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -207,7 +208,9 @@
  },
  "chapters": [],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": "Song leader singing interlocking word phrases backed by traditional Zulu drums and percussion",
@@ -258,7 +261,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "3i4KnI4gNfg",
+   "checked_by_vision_model": false,
+   "title": "Zulu Maidens Traditional dance -  part 2 | ingoma yezintombi | ukugida/ukusina, amaculo."
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -304,27 +311,19 @@
   ]
  },
  "teaching_formula": {
-  "source": "28 tutorials across the atlas studied",
-  "videos_studied": 28,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
   ],
   "cues": [
-   "and one and three and five and seven",
-   "keep your feet together",
-   "relax your knees",
-   "side close side",
-   "step and point",
-   "turn turn turn",
-   "replace",
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
-   "bend the knees"
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -332,8 +331,7 @@
    "full_demo",
    "context",
    "breakdown",
-   "slow_practice",
-   "music_practice"
+   "slow_practice"
   ],
   "steps_as_taught": []
  },
@@ -341,7 +339,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "two or more connections"
@@ -353,5 +351,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
+ "input_fingerprint": "d1dbcd782d478d7ce371075c925a85fce2236b4ce78d24bf0249a9c6c8205bd3",
  "hero_checked": null
 }

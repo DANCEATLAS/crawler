@@ -1,8 +1,8 @@
 # Stomp dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-05 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respectful tribal elder or designated community leader.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Living Fire: The Stomp Dance of the Eastern Woodlands
 NARRATION: This is Stomp dance. Pre-colonial to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (mSRdqn2U-T8)
 ON SCREEN: Title card: Stomp dance · United States · Pre-colonial to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Participants form a continuous spiral moving counterclockwise around 
 NARRATION: The movement consists of deliberate stomping steps.
 NARRATION: Women, who wear shell shakers on their legs, lead the rhythm immediately behind the male song leader, while other participants follow in alternating male-female order.
 NARRATION: Watch for Stomp and shuffle.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (mSRdqn2U-T8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Continuous counterclockwise spiral around a central fire.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -83,7 +83,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: An exploration of the sacred, night-long ritual that connects generations of Eastern Woodland tribes to their ancestors and the earth.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -102,7 +102,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'mSRdqn2U-T8', 'checked_by_vision_model': False, 'title': 'Stomp Dancing'}
 Images: 0 licensed
 Footage: American Indian Speaks, The — https://archive.org/details/AmericanIndianSpeaks; Native American Social Dance and Stomp Dance — https://archive.org/details/grfldma-Native_American_Social_Dance_and_Stomp_Dance; The Wiggles: Wiggledancing! Live In Concert [2007] (HD) — https://archive.org/details/wiggledancing-live-in-concert-2007-hd
 Motifs: The central ceremonial fire, Turtle shell leg shakers, The spiral formation of dancers, The Square Ground arbors
@@ -112,9 +112,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorials across the atlas studied · videos studied: 18
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees; change the weight; turn on the heels; keep it small; punch to the side
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (2): https://en.wikipedia.org/wiki/Stomp_dance; https://www.wikidata.org/wiki/Q2183272

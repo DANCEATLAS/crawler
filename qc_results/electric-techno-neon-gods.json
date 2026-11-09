@@ -1,0 +1,125 @@
+{
+ "slug": "electric-techno-neon-gods",
+ "qc_at": "2026-11-09T21:24:11Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Electric-Techno Neon Gods"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "86"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "126"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 2009, Electric-Techno Neon Gods danced at the World Games, blending temple de"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "498"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2582"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "7/10 rate=0.7"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Taiwan"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'temple', 'deity', 'deities', 'god', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that the dance is 'not described as sacred or restricted' is a generalization; while the performance style is secularized, it remains deeply embedded in religious ritual contexts.",
+   "The claim that 'Taike dance style' is a core musical element is not explicitly supported by the provided evidence."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and captures the cultural significance of the Electric-Techno Neon Gods. It maintains a respectful tone regarding the fusion of sacred deity figures and modern pop culture. Minor inaccuracies in evidence mapping (e.g., specific costume details) do not detract from the overall quality."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "sacred_handled",
+  "judge_score=8.6",
+  "doubts=2",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 10,
+  "supported": 7,
+  "rate": 0.7
+ },
+ "researched_at": "2026-11-09T20:11:32Z"
+}

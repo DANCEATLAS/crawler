@@ -1,15 +1,15 @@
 {
  "slug": "tecktonik",
- "qc_at": "2026-11-02T14:49:10Z",
+ "qc_at": "2026-11-09T21:23:14Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 10.0,
+ "qc_score": 9.85,
  "gates": [
   {
    "gate": "has_name",
    "ok": true,
-   "detail": "tecktonik"
+   "detail": "Tecktonik"
   },
   {
    "gate": "tagline_len",
@@ -19,32 +19,32 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "131"
+   "detail": "140"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Born as a brand of hardstyle club nights in a Parisian suburb, Tecktonik became "
+   "detail": "In 2002, Tecktonik Killer parties at Metropolis nightclub sparked one of the fir"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "623"
+   "detail": "757"
   },
   {
    "gate": "profile_long_len",
-   "ok": false,
-   "detail": "1176"
+   "ok": true,
+   "detail": "3025"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "6/6 rate=1.0"
+   "detail": "7/7 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": "foundational"
+   "detail": ""
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "1 paras"
+   "detail": "5 paras"
   },
   {
    "gate": "not_duplicate",
@@ -84,35 +84,35 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=False cues=['offering']"
+   "detail": "sacred=False cues=[]"
   }
  ],
  "judge": {
   "accuracy": 10,
   "respect": 10,
   "specificity": 10,
-  "teaching_value": 10,
+  "teaching_value": 9,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
+  "adaptations_safe": true,
   "overall": 10,
   "verdict": "publish",
-  "notes": "Extremely well-documented, highly specific, and accurate profile of Tecktonik."
+  "notes": "Comprehensive and fully supported profile on Tecktonik."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "profile_long_len",
-  "judge_score=10.0"
+  "judge_score=9.85"
  ],
  "citation": {
-  "claims": 6,
-  "supported": 6,
+  "claims": 7,
+  "supported": 7,
   "rate": 1.0
  },
- "researched_at": "2026-10-31T15:28:36Z"
+ "researched_at": "2026-11-09T21:05:22Z"
 }

@@ -1,8 +1,8 @@
 # Shim Sham — episode pack
 
-*Status: draft · built 2026-11-03 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable swing dance historian and community elder with deep roots in social dance traditions.
@@ -72,7 +72,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Double Shuffle / Shim Sham
 NARRATION: Cross Over / Push and cross
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 5-6-7-8 and 1-2-3-4-5-6-7.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -80,7 +80,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover how a backstage tap routine called Goofus became the universal line dance uniting swing dancers worldwide.
-NARRATION: Sources: 4 references, every claim checked against its source.
+NARRATION: Sources: 4 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -97,12 +97,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright jazz posture with loose, mobile joints
 NARRATION: Includes characteristic shoulder and arm movements added by Willie Bryant
 NARRATION: Involves lateral movements and shifts of weight matching the footwork and shoulder cues
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7. The meter is 4/4.
 NARRATION: Rhythm pattern: Melody lines start on beat eight.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -115,10 +114,10 @@ NARRATION: Step 1: Double Shuffle / Shim Sham
 NARRATION: Step 2: Cross Over / Push and cross
 NARRATION: Footwork from the sources: Composed of standard steps including the Double Shuffle, Cross Over, Tack Annie, and Falling Off a Log
 NARRATION: Drill: Step timing to beat eight
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Tack Annie / Tacky Annies
@@ -126,7 +125,7 @@ NARRATION: Step 4: Falling Off a Log / Half breaks
 NARRATION: Drill: Practicing the Double Shuffle
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -138,13 +137,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: making steps too big instead of using rhythm
+NARRATION: Teachers of this dance warn against: being too upright during stomp-off instead of using body movement
+NARRATION: Teachers of this dance warn against: making the kick too big instead of letting the movement do the work
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -171,12 +171,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright jazz posture with loose, mobile joints
 NARRATION: Includes characteristic shoulder and arm movements added by Willie Bryant
 NARRATION: Involves lateral movements and shifts of weight matching the footwork and shoulder cues
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7. The meter is 4/4.
 NARRATION: Rhythm pattern: Melody lines start on beat eight.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -188,10 +187,10 @@ NEEDS: tempo
 NARRATION: Step 1: Double Shuffle / Shim Sham
 NARRATION: Step 2: Cross Over / Push and cross
 NARRATION: Drill: Executing Tack Annies with arm styling
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Tack Annie / Tacky Annies
@@ -202,7 +201,7 @@ NARRATION: Drill: Performing Falling Off a Log
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -214,13 +213,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: making steps too big instead of using rhythm
+NARRATION: Teachers of this dance warn against: being too upright during stomp-off instead of using body movement
+NARRATION: Teachers of this dance warn against: making the kick too big instead of letting the movement do the work
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced as a group line dance facing forward, transitioning into freestyle partner dancing
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -247,12 +247,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright jazz posture with loose, mobile joints
 NARRATION: Includes characteristic shoulder and arm movements added by Willie Bryant
 NARRATION: Involves lateral movements and shifts of weight matching the footwork and shoulder cues
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7. The meter is 4/4.
 NARRATION: Rhythm pattern: Melody lines start on beat eight.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -264,10 +263,10 @@ NEEDS: tempo
 NARRATION: Step 1: Tack Annie / Tacky Annies
 NARRATION: Step 2: Falling Off a Log / Half breaks
 NARRATION: Drill: Frankie Manning version additions like Shorty George
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Tack Annie: An up-and-back shuffle movement accompanied by lateral arm and shoulder styling.
@@ -277,7 +276,7 @@ NARRATION: Drill: Responding instantly to band callouts like Freeze!
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -289,13 +288,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Teachers of this dance warn against: making steps too big instead of using rhythm
+NARRATION: Teachers of this dance warn against: being too upright during stomp-off instead of using body movement
+NARRATION: Teachers of this dance warn against: making the kick too big instead of letting the movement do the work
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced as a group line dance facing forward, transitioning into freestyle partner dancing
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -334,9 +334,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Source: 3 tutorial(s) of this dance studied · videos studied: 3
+Counting: 5-6-7-8 and 1-2-3-4-5-6-7
+Demonstration: views used by most teachers: back, front; tempo progression: slow → full
+Cues: left foot; right foot; step; touch; stomp off; push; 5-6-7-8-hold; lets build it up; now put them together; stomp spank step; stomp spank ball change; step toe step hop step hop out in
+Common mistakes the studied teachers name: making steps too big instead of using rhythm; being too upright during stomp-off instead of using body movement; making the kick too big instead of letting the movement do the work; doing a big full foot instead of a stomp; falling into the wrong rhythm on the break
 
 Sources (4): https://en.wikipedia.org/wiki/Shim_Sham; https://www.wikidata.org/wiki/Q1428390; https://pt.wikipedia.org/wiki/Shim_Sham_Shimmy; https://de.wikipedia.org/wiki/Shim_Sham

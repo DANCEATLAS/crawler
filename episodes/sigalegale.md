@@ -1,8 +1,8 @@
 # Sigalegale — episode pack
 
-*Status: withheld-chapters · built 2026-11-04 · judge 9.55 · 10/10 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 9.55 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed reference footage; the how-it-is-danced section; the music & instruments section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed reference footage; the how-it-is-danced section; the music & instruments section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Batak cultural expert and puppeteer familiar with funerary rites
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Sigalegale: The Puppet That Dances for the Dead
 NARRATION: This is Sigalegale. early 20th century documented.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (tqn0eFDEca0)
 ON SCREEN: Title card: Sigalegale · Indonesia · early 20th century documented
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Weeping dance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (tqn0eFDEca0)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Puppet on wheeled platform, moved alongside dancing relatives
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -75,7 +75,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore the haunting Sigalegale puppet dance of the Batak people, a ritual honoring childless deceased through a life-sized weeping puppet.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -94,7 +94,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'tqn0eFDEca0', 'checked_by_vision_model': False, 'title': 'Mossak &  Tortor Sigale Gale'}
 Images: 7 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Boy Lawson / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Dan Lundberg / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Life-sized wooden puppet in traditional Batak costume, Strings manipulating puppet limbs, Weeping puppet with wet moss sponges, Funeral procession with dancing relatives, Distribution of meat at village market
@@ -104,9 +104,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorials across the atlas studied · videos studied: 13
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; punch to the side; pull your head down; pivot them on your elbows; left foot; right foot
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (2): https://en.wikipedia.org/wiki/Sigalegale; https://www.wikidata.org/wiki/Q7511905

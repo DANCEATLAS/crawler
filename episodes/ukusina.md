@@ -1,8 +1,8 @@
 # Ukusina — episode pack
 
-*Status: withheld-chapters · built 2026-11-07 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-09 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Zulu cultural practitioner or experienced dance instructor.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Stamping Pulse of the Zulu
 NARRATION: This is Ukusina. Traditional.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (3i4KnI4gNfg)
 ON SCREEN: Title card: Ukusina · South Africa · Traditional
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ MUSIC: underscore
 NARRATION: The dance features tremendous dexterity and vigor, led by an induna who sets the pace.
 NARRATION: Movements include powerful leg kicks in any direction up and out, ground-stamping of each foot, hops, and deft hand movements performed in line or circular patterns.
 NARRATION: Watch for Ukusina Leg Kick and Stamp.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (3i4KnI4gNfg)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: line or circular patterns
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -78,7 +78,7 @@ MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Explore Ukusina, the vigorous Zulu ritual dance of soaring kicks and ancestral connection in South Africa.
-NARRATION: Sources: 2 references, every claim checked against its source.
+NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -97,7 +97,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '3i4KnI4gNfg', 'checked_by_vision_model': False, 'title': 'Zulu Maidens Traditional dance -  part 2 | ingoma yezintombi | ukugida/ukusina, amaculo.'}
 Images: 1 licensed — Vulane Mthembu / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Intricate beadwork flashing under the sun, Feathers adorning headpieces and armbands, Lines of dancers moving in synchrony
@@ -107,9 +107,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 28 tutorials across the atlas studied · videos studied: 28
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and one and three and five and seven; keep your feet together; relax your knees; side close side; step and point; turn turn turn; replace; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
+Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Counting: 
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
 
 Sources (2): https://en.wikipedia.org/wiki/Ukusina; https://www.wikidata.org/wiki/Q119806199

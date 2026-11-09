@@ -1,11 +1,12 @@
 {
  "slug": "chinelos",
  "name": "Chinelos",
- "pack_version": "e1",
- "built_at": "2026-11-05T19:34:28Z",
- "researched_at": "2026-11-05T19:02:22Z",
- "qc_score": 10.0,
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
+ "researched_at": "2026-11-09T20:35:15Z",
+ "qc_score": 9.5,
  "status": "draft",
+ "release_status": "not_validated",
  "sacred": false,
  "chapters_note": null,
  "formula": {
@@ -44,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A local community leader or experienced Chinelo dancer from Tlayacapan.",
+   "persona": "A seasoned Chinelo dancer from Tlayacapan, knowledgeable in history and costume making, patient and encouraging",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -60,7 +61,8 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "This is Chinelos. It dates back to the 19th century."
+     "Chinelos: The Jumping Satire of Morelos",
+     "This is Chinelos. 19th century."
     ],
     "on_screen": [
      "Hero video, first 10 seconds (StD49sFh274)",
@@ -73,8 +75,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The dance started in the 19th century in Morelos. It was a satirical response to the Spanish hacienda system.",
-     "Workers used Carnival to mock their employers. They dressed up and danced to reclaim public spaces once held by the elite."
+     "The Chinelos dance originated in the 19th century in Morelos, Mexico, particularly in Tlayacapan.",
+     "It arose as a form of social satire by indigenous laborers who mocked European colonialists and hacendados during Carnival, a festival allowing masked role reversal and social critique.",
+     "The name derives from the Nahuatl word \"zineloquie,\" meaning \"disguised.\" The dance developed amid the harsh conditions of sugarcane haciendas, where workers were impoverished and exploited."
     ],
     "on_screen": [
      "Map: Mexico · North America",
@@ -87,9 +90,10 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Chinelos is traditionally performed during Carnival.",
-     "Now it symbolizes Morelos and appears at Independence Day celebrations, private parties, and religious processions like those for the Niñopa.",
-     "It remains a living tradition today."
+     "Chinelos traditionally perform during Carnival, from late January to the start of Lent, in towns across Morelos and parts of Mexico City and the State of Mexico.",
+     "They also appear at Independence Day celebrations and private parties.",
+     "The dance is a form of social satire mocking colonial authorities and hacendados who exploited indigenous laborers.",
+     "Today it is a living tradition."
     ],
     "on_screen": [
      "Footage: File:ChinelosExpoIndigenas 11.webm (https://upload.wikimedia.org/wikipedia/commons/3/32/ChinelosExpoIndigenas_11.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
@@ -101,36 +105,34 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "The dance features a repetitive jump called the 'brincon'.",
-     "Dancers stand with feet apart and knees slightly bent.",
-     "They do two shuffling steps, then a small jump to the right or left, often leading with one shoulder.",
-     "Watch for the brincon."
+     "Watch for Brincon."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (StD49sFh274)",
      "Captions name each signature move as it appears",
-     "Formation: Street procession or large open atrium space."
+     "Formation: Group formations with dancers joining and leaving; performed in open plazas or atriums"
     ],
-    "music": "diegetic (the video's own sound), underscore under narration"
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
    },
    {
     "code": "music",
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Originally, the dance was accompanied by whistling and improvised percussion.",
-     "Today, brass bands provide the music.",
-     "Listen for trumpets, trombones, and tubas.",
-     "The music is rhythmic and driving, designed to keep the dancers going for long periods.",
-     "It is brass-heavy, high-energy, and loud, with repetitive melodies that carry through streets and open spaces."
+     "Listen for the brass instruments, tambora, violins, flutes.",
+     "The music features a lively brass band sound with steady, repetitive rhythms that match the dancers' jumps, creating an energetic and festive atmosphere."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
-     "Listen later: Traditional Carnival Music — Banda de Musica Santa Maria de Tlayacapan",
-     "Waveform or rhythm-pattern graphic: Repetitive, driving beat suitable for long-duration marching and jumping."
+     "Listen later: Banda de Música Santa María de Tlayacapan — Banda de Música Santa María de Tlayacapan",
+     "Waveform or rhythm-pattern graphic: Steady, repetitive rhythm supporting the brincon jump"
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
+     "music_and_instruments",
      "tempo",
      "meter"
     ]
@@ -140,8 +142,9 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "The costume includes a velvet robe, a mesh mask with an upturned beard, a large plumed hat, and gloves.",
-     "These elements mock European colonial fashion and hide the dancer's identity."
+     "The costume consists of a long flowing velvet robe with a rectangular tunic shape, a large feathered hat, a mesh mask with an upturned beard and European features, and white gloves.",
+     "The robes give an androgynous appearance.",
+     "Costumes are elaborately decorated with beads, sequins, and imitation jewels, varying by town."
     ],
     "on_screen": [
      "Image gallery: 4 licensed images with attribution",
@@ -154,11 +157,10 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Jesús Meza, known as 'Chucho el Muerto', developed early rhythmic sounds for the dance in 1860.",
-     "The Banda de Musica Santa Maria de Tlayacapan is the most famous group linked to the tradition.",
-     "Tlayacapan is considered the birthplace of the modern form.",
-     "The dance blends indigenous and Catholic traditions.",
-     "It evolved from mocking 19th-century European salon dancing and the social conditions on sugar cane haciendas."
+     "José Salazar Flores of Tepotzlán is a noted maker of Chinelo hats, dedicating his livelihood to crafting these elaborate pieces.",
+     "The Banda de Música Santa María de Tlayacapan is the most famous musical group associated with the tradition.",
+     "Distinctive costume styles exist in different towns: Tlayacapan's costume is closest to the original 19th-century form with a broader, less embellished hat and a white or blue tunic with an image of the Virgin of Guadalupe.",
+     "Chinelos evolved from indigenous and Catholic traditions blending after the Spanish conquest, particularly Carnival's customs of masking and social inversion."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -171,25 +173,23 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Chinelos was influenced by the Jota aragonesa.",
-     "Hacendados historically performed that dance, which Chinelos began to mock."
+     "Chinelos is shares region of Carnival dances of Mexico: Chinelos are part of the broader Mexican Carnival dance traditions blending indigenous and Catholic influences.",
+     "Chinelos is shares music of Banda de Música Santa María de Tlayacapan: This brass band is central to the Chinelos dance music tradition.",
+     "Chinelos is sibling of Huehuentones: Another traditional Morelos dance with indigenous roots and masked performers."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
     ],
-    "music": "underscore",
-    "needs": [
-     "connections"
-    ]
+    "music": "underscore"
    },
    {
     "code": "first_step",
     "title": "Try one step",
     "duration_s": 60,
     "narration": [
-     "Before we go, one step. Stand with feet shoulder-width apart and knees slightly bent.",
-     "Perform two small shuffling steps forward.",
-     "Count it: 5-6-7-8.",
+     "Before we go, one step. Stand with feet apart and knees slightly bent",
+     "Take two shuffling steps forward",
+     "Count it: .",
      "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
@@ -203,8 +203,8 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover how Mexican laborers turned the tables on their colonial masters through a rhythmic, leaping dance of defiance.",
-     "Sources: 4 references, every claim checked against its source."
+     "Discover how masked dancers in 19th-century Morelos turned Carnival into a bold mockery of colonial rulers.",
+     "Sources: 4 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -218,7 +218,7 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Master the basic shuffle-jump rhythm.",
+   "goal": "Learn basic brincon step and rhythm",
    "level": "Beginner",
    "scenes": [
     {
@@ -226,9 +226,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Master the basic shuffle-jump rhythm..",
+      "Chapter 1 — First steps. Today: Learn basic brincon step and rhythm.",
       "Level: Beginner. Difficulty of the dance overall: beginner.",
-      "Your instructor: A local community leader or experienced Chinelo dancer from Tlayacapan."
+      "Your instructor: A seasoned Chinelo dancer from Tlayacapan, knowledgeable in history and costume making, patient and encouraging"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -240,14 +240,12 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Stand with feet apart and knees slightly bent.",
-      "Keep your torso upright.",
-      "Arms stay relaxed or help balance; hands are covered by white gloves.",
-      "Sometimes dancers add subtle hip movement called 'tsinelohua'."
+      "Feet apart, knees slightly bent, upright and energetic",
+      "Arms move naturally with the jump; gloved hands concealed for anonymity",
+      "Slight shoulder leading the jump; torso upright with subtle hip movement"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -256,8 +254,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 5-6-7-8.",
-      "Rhythm pattern: Repetitive, driving beat suitable for long-duration marching and jumping..",
+      "Count: .",
+      "Rhythm pattern: Steady, repetitive rhythm supporting the brincon jump.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -275,17 +273,17 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Stand with feet shoulder-width apart and knees slightly bent.",
-      "Step 2: Perform two small shuffling steps forward.",
-      "Footwork from the sources: Two shuffling steps followed by a small jump to the right or left.",
-      "Drill: Practice the two-step shuffle without the jump."
+      "Step 1: Stand with feet apart and knees slightly bent",
+      "Step 2: Take two shuffling steps forward",
+      "Footwork from the sources: Two shuffling steps forward followed by a small jump sideways leading with a shoulder",
+      "Drill: Practice standing posture and foot placement"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -293,15 +291,15 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Make a small, controlled jump to the right.",
-      "Step 4: Make a small, controlled jump to the left.",
-      "Practice adding the small jump to the right."
+      "Step 3: Lead with one shoulder and jump slightly to the right",
+      "Step 4: Take two shuffling steps forward",
+      "Drill: Master two shuffling steps forward"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -312,7 +310,7 @@
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
       "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Add the small jump to the left."
+      "Drill: Perform small sideways jumps leading with shoulder"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -325,17 +323,13 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Avoid over-extending the knees during the jump to prevent injury; ensure proper hydration due to the heat of the costume."
+      "Avoid overheating due to heavy costumes; maintain anonymity by keeping masks and gloves on"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right",
-      "Options card: Seated or supported option: Perform the shuffle and jump movements using only the feet and arms while seated. · For children: A 'follow the leader' game where children mimic the jump and shuffle steps."
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
-     "options": [
-      "Seated or supported option: Perform the shuffle and jump movements using only the feet and arms while seated.",
-      "For children: A 'follow the leader' game where children mimic the jump and shuffle steps."
-     ],
+     "options": [],
      "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
@@ -343,8 +337,8 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count in: 5-6-7-8.",
-      "Dance the full sequence twice at full tempo."
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -357,8 +351,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Master the basic shuffle-jump rhythm..",
-      "Traditionally performed during Carnival, the dance is now a symbol of Morelos, appearing at Independence Day celebrations, private parties, and religious processions like those for the Niñopa.",
+      "You can now: Learn basic brincon step and rhythm.",
+      "Chinelos traditionally perform during Carnival, from late January to the start of Lent, in towns across Morelos and parts of Mexico City and the State of Mexico.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -372,17 +366,17 @@
   {
    "chapter": 2,
    "title": "Building the dance",
-   "goal": "the building the dance of Chinelos",
-   "level": null,
+   "goal": "Build stamina and group coordination",
+   "level": "Intermediate",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 — Building the dance. Today: the building the dance of Chinelos.",
-      "Level: intermediate. Difficulty of the dance overall: beginner.",
-      "Your instructor: A local community leader or experienced Chinelo dancer from Tlayacapan."
+      "Chapter 2 — Building the dance. Today: Build stamina and group coordination.",
+      "Level: Intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: A seasoned Chinelo dancer from Tlayacapan, knowledgeable in history and costume making, patient and encouraging"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -394,13 +388,12 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Feet apart, knees slightly bent, torso upright.",
-      "Arms relaxed or used to balance; hands covered by white gloves.",
-      "Sometimes subtle hip movement called 'tsinelohua' is added."
+      "Feet apart, knees slightly bent, upright and energetic",
+      "Arms move naturally with the jump; gloved hands concealed for anonymity",
+      "Slight shoulder leading the jump; torso upright with subtle hip movement"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -409,8 +402,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 5-6-7-8.",
-      "Rhythm pattern: Repetitive, driving beat suitable for long-duration marching and jumping..",
+      "Count: .",
+      "Rhythm pattern: Steady, repetitive rhythm supporting the brincon jump.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -428,14 +421,16 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Repeat the sequence in time with the brass band rhythm."
+      "Step 1: Lead with the other shoulder and jump slightly to the left",
+      "Step 2: Repeat the sequence continuously",
+      "Drill: Extend duration of continuous brincon jumping"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -443,14 +438,15 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Brincon is the repetitive jump that forms the dance's main movement."
+      "Brincon: A small sideways jump led by a shoulder, alternating right and left",
+      "Drill: Practice joining and leaving group formations"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -460,7 +456,8 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right."
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Coordinate jumps with simple arm movements"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -473,17 +470,13 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Avoid over-extending the knees during the jump to prevent injury; ensure proper hydration due to the heat of the costume."
+      "Avoid overheating due to heavy costumes; maintain anonymity by keeping masks and gloves on"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right",
-      "Options card: Seated or supported option: Perform the shuffle and jump movements using only the feet and arms while seated. · For children: A 'follow the leader' game where children mimic the jump and shuffle steps."
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
-     "options": [
-      "Seated or supported option: Perform the shuffle and jump movements using only the feet and arms while seated.",
-      "For children: A 'follow the leader' game where children mimic the jump and shuffle steps."
-     ],
+     "options": [],
      "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
@@ -491,9 +484,8 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count in: 5-6-7-8.",
-      "Dance the full sequence twice at full tempo.",
-      "Formation: street procession or large open atrium space."
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Group formations with dancers joining and leaving; performed in open plazas or atriums"
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -506,8 +498,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now build the dance of Chinelos.",
-      "Jesús Meza, 'Chucho el Muerto', developed early rhythmic sounds for the dance in 1860.",
+      "You can now: Build stamina and group coordination.",
+      "José Salazar Flores of Tepotzlán is a noted maker of Chinelo hats, dedicating his livelihood to crafting these elaborate pieces.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -521,17 +513,17 @@
   {
    "chapter": 3,
    "title": "Dancing it fully",
-   "goal": "the dancing it fully of Chinelos",
-   "level": null,
+   "goal": "Perform full dance with costume and live music",
+   "level": "Advanced",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Chinelos.",
-      "Level: advanced. Difficulty of the dance overall: beginner.",
-      "Your instructor: A local community leader or experienced Chinelo dancer from Tlayacapan."
+      "Chapter 3 — Dancing it fully. Today: Perform full dance with costume and live music.",
+      "Level: Advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: A seasoned Chinelo dancer from Tlayacapan, knowledgeable in history and costume making, patient and encouraging"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -543,13 +535,12 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Feet apart, knees slightly bent, torso upright.",
-      "Arms relaxed or used to balance; hands covered by white gloves.",
-      "Sometimes subtle hip movement called 'tsinelohua' is added."
+      "Feet apart, knees slightly bent, upright and energetic",
+      "Arms move naturally with the jump; gloved hands concealed for anonymity",
+      "Slight shoulder leading the jump; torso upright with subtle hip movement"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture",
-      "Overlay: the hero video's posture for comparison"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -558,8 +549,8 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 5-6-7-8.",
-      "Rhythm pattern: Repetitive, driving beat suitable for long-duration marching and jumping..",
+      "Count: .",
+      "Rhythm pattern: Steady, repetitive rhythm supporting the brincon jump.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -577,15 +568,16 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Make a small, controlled jump to the left.",
-      "Step 2: Repeat the sequence in time with the brass band rhythm."
+      "Step 1: Lead with the other shoulder and jump slightly to the left",
+      "Step 2: Repeat the sequence continuously",
+      "Drill: Wear costume and adapt movement to weight and heat"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -593,14 +585,15 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Brincon is the repetitive jump that forms the main movement of the dance."
+      "Brincon: A small sideways jump led by a shoulder, alternating right and left",
+      "Drill: Synchronize jumps with brass band tempo"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "5-6-7-8",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -610,7 +603,8 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right."
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Engage audience with inviting gestures"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -623,17 +617,13 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Avoid over-extending the knees during the jump to prevent injury; ensure proper hydration due to the heat of the costume."
+      "Avoid overheating due to heavy costumes; maintain anonymity by keeping masks and gloves on"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right",
-      "Options card: Seated or supported option: Perform the shuffle and jump movements using only the feet and arms while seated. · For children: A 'follow the leader' game where children mimic the jump and shuffle steps."
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
-     "options": [
-      "Seated or supported option: Perform the shuffle and jump movements using only the feet and arms while seated.",
-      "For children: A 'follow the leader' game where children mimic the jump and shuffle steps."
-     ],
+     "options": [],
      "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
@@ -641,9 +631,8 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count in: 5-6-7-8.",
-      "Dance the full sequence twice at full tempo.",
-      "Formation: street procession or large open atrium space."
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Group formations with dancers joining and leaving; performed in open plazas or atriums"
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -656,10 +645,9 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now dance Chinelos fully.",
-      "The dance blends indigenous and Catholic traditions.",
-      "It evolved from mocking 19th-century European salon dancing and the social conditions on sugar cane haciendas.",
-      "You know the dance. Go and dance it with others."
+      "You can now: Perform full dance with costume and live music.",
+      "Chinelos evolved from indigenous and Catholic traditions blending after the Spanish conquest, particularly Carnival's customs of masking and social inversion.",
+      "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
       "Recap card with the counts",
@@ -671,29 +659,32 @@
   }
  ],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
-  "rhythm_pattern": "Repetitive, driving beat suitable for long-duration marching and jumping.",
+  "rhythm_pattern": "Steady, repetitive rhythm supporting the brincon jump",
   "instruments": [
-   "Brass band instruments",
-   "Trumpets",
-   "Trombones",
-   "Tubas"
+   "brass instruments",
+   "tambora",
+   "violins",
+   "flutes",
+   "jaranitas"
   ],
-  "vocal_style": "Not applicable; primarily instrumental.",
-  "musical_form": "Brass band march or folk-dance accompaniment.",
+  "vocal_style": null,
+  "musical_form": "Traditional brass band ensemble music accompanying dance",
   "mood": [
+   "lively",
    "festive",
-   "energetic",
-   "satirical",
-   "persistent"
+   "rhythmic",
+   "satirical"
   ],
-  "sound_description": "The music is a brass-heavy, high-energy sound characterized by rhythmic, repetitive melodies that drive the dancers' jumps. It is festive and loud, designed to carry through crowded streets and large open spaces.",
+  "sound_description": "The music features a lively brass band sound with steady, repetitive rhythms that match the dancers' jumps, creating an energetic and festive atmosphere.",
   "listen_before_composing": [
-   "Traditional Carnival Music — Banda de Musica Santa Maria de Tlayacapan"
+   "Banda de Música Santa María de Tlayacapan — Banda de Música Santa María de Tlayacapan"
   ],
-  "prompt": "Original instrumental composition in the musical world of Chinelos (Mexico). Rhythm pattern: Repetitive, driving beat suitable for long-duration marching and jumping.. Instruments: Brass band instruments, Trumpets, Trombones, Tubas. Vocal style: Not applicable; primarily instrumental.. Form: Brass band march or folk-dance accompaniment.. Mood: festive, energetic, satirical, persistent. It should sound like this: The music is a brass-heavy, high-energy sound characterized by rhythmic, repetitive melodies that drive the dancers' jumps. It is festive and loud, designed to carry through crowded streets and large open spaces. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Chinelos (Mexico). Rhythm pattern: Steady, repetitive rhythm supporting the brincon jump. Instruments: brass instruments, tambora, violins, flutes, jaranitas. Form: Traditional brass band ensemble music accompanying dance. Mood: lively, festive, rhythmic, satirical. It should sound like this: The music features a lively brass band sound with steady, repetitive rhythms that match the dancers' jumps, creating an energetic and festive atmosphere. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -735,7 +726,7 @@
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
    "restricted_attire": true,
-   "from_sources": "The costume includes a velvet robe, a mesh mask with an upturned beard, a large plumed hat, and gloves. These items are designed to mock European colonial fashion and ensure the dancer's anonymity.",
+   "from_sources": "The costume consists of a long flowing velvet robe with a rectangular tunic shape, a large feathered hat, a mesh mask with an upturned beard and European features, and white gloves. The robes give an androgynous appearance. Costumes are elaborately decorated with beads, sequins, and imitation jewels, varying by town. The hat is made of fabric with a palm leaf frame and decorated with feathers and pre-Hispanic motifs. Costumes are expensive and closely guarded to preserve anonymity. Dancers wear bandanas under hats to absorb sweat. Performances occur outdoors during Carnival and other festivals, often in town plazas or monastery atriums.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3AChineloToritoCereria.JPG",
     "https://commons.wikimedia.org/wiki/File%3AChinelosPalacioCV.JPG",
@@ -827,13 +818,14 @@
    }
   ],
   "motifs": [
-   "Close-ups of the intricate beadwork on velvet tunics.",
-   "The mesh mask with the upturned beard.",
-   "Wide shots of dancers leaping in the Tlayacapan monastery atrium.",
-   "The brass band playing in the street."
+   "Velvet robes shimmering in sunlight",
+   "Feathered hats towering above dancers",
+   "Mesh masks with pointed beards",
+   "Brass instruments gleaming",
+   "Crowds cheering in town plazas"
   ],
-  "costume_notes": "The costume includes a velvet robe, a mesh mask with an upturned beard, a large plumed hat, and gloves. These items are designed to mock European colonial fashion and ensure the dancer's anonymity.",
-  "setting_notes": "Traditionally performed during Carnival, the dance is now a symbol of Morelos, appearing at Independence Day celebrations, private parties, and religious processions like those for the Niñopa.",
+  "costume_notes": "The costume consists of a long flowing velvet robe with a rectangular tunic shape, a large feathered hat, a mesh mask with an upturned beard and European features, and white gloves. The robes give an androgynous appearance. Costumes are elaborately decorated with beads, sequins, and imitation jewels, varying by town. The hat is made of fabric with a palm leaf frame and decorated with feathers and pre-Hispanic motifs. Costumes are expensive and closely guarded to preserve anonymity. Dancers wear bandanas under hats to absorb sweat. Performances occur outdoors during Carnival and other festivals, often in town plazas or monastery atriums.",
+  "setting_notes": "Chinelos traditionally perform during Carnival, from late January to the start of Lent, in towns across Morelos and parts of Mexico City and the State of Mexico. They also appear at Independence Day celebrations and private parties. The dance is a form of social satire mocking colonial authorities and hacendados who exploited indigenous laborers. It symbolizes cultural resistance and identity. The tradition is passed down within families, often from father to son. The dance is a highlight of Carnival festivities, drawing large crowds and fostering community pride.",
   "map": {
    "country": "Mexico",
    "region": "North America",
@@ -846,11 +838,12 @@
   ]
  },
  "teaching_formula": {
-  "source": "4 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 4,
-  "counting": "5-6-7-8",
+  "source": "11 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 11,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
+   "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
    "repetitions per step: about 4"
   ],
@@ -859,32 +852,35 @@
    "double double",
    "and cross and cross",
    "right slap left slap",
-   "side side side side",
-   "rock step rock step",
-   "have fun",
-   "keep those abs pulled in",
-   "engage all the muscles",
-   "keep those shoulders down",
-   "control control",
-   "crazy train"
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "side side side side"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "warmup",
    "context",
    "count_in",
+   "full_demo",
+   "warmup",
    "breakdown",
+   "music_practice",
    "slow_practice",
-   "follow_along",
-   "music_practice"
+   "recap"
   ],
   "steps_as_taught": []
  },
  "gaps": [
   "tempo (bpm)",
   "meter",
-  "two or more connections"
+  "a verified recording to listen to",
+  "the how-it-is-danced section",
+  "the music & instruments section"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Chinelos",
@@ -892,9 +888,9 @@
   "https://es.wikipedia.org/wiki/Chinelo",
   "https://fr.wikipedia.org/wiki/Chinelos"
  ],
- "claims_verified": 7,
+ "claims_verified": 6,
  "claims": 7,
- "polished": true,
- "hero_checked": "pass",
- "polish_kept_scenes": 21
+ "polished": false,
+ "input_fingerprint": "6824ca33b73274e103b930642776f430fe7739507d122cdd92f729844582a715",
+ "hero_checked": "pass"
 }

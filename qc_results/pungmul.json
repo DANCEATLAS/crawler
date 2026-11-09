@@ -1,10 +1,10 @@
 {
  "slug": "pungmul",
- "qc_at": "2026-11-02T14:51:34Z",
+ "qc_at": "2026-11-09T21:23:47Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 9.85,
+ "qc_score": 10.0,
  "gates": [
   {
    "gate": "has_name",
@@ -19,37 +19,37 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "172"
+   "detail": "162"
   },
   {
    "gate": "insight_concrete",
-   "ok": false,
-   "detail": "Rooted in agrarian collective labor and later driving pro-democracy protests, th"
+   "ok": true,
+   "detail": "In 1978, Kim Duk-soo led a seated, stage-style Pungmul performance that sparked "
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "362"
+   "detail": "414"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2226"
+   "detail": "3230"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "5/5 rate=1.0"
+   "detail": "6/7 rate=0.857"
   },
   {
    "gate": "sources",
    "ok": true,
-   "detail": "5"
+   "detail": "6"
   },
   {
    "gate": "country",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "3 paras"
+   "detail": "7 paras"
   },
   {
    "gate": "not_duplicate",
@@ -83,38 +83,38 @@
   },
   {
    "gate": "sacred_handled",
-   "ok": true,
-   "detail": "sacred=True cues=['ritual', 'shaman']"
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'shaman', 'spirit']"
   }
  ],
  "judge": {
   "accuracy": 10,
   "respect": 10,
   "specificity": 10,
-  "teaching_value": 9,
+  "teaching_value": 10,
   "is_a_dance": true,
   "factual_doubt": [],
-  "harm_or_disresist": [],
+  "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
   "adaptations_safe": true,
   "overall": 10,
   "verdict": "publish",
-  "notes": "Exceptional, highly detailed, and accurate profile covering historical, cultural, and technical aspects of Pungmul."
+  "notes": "Pungmul profile is exceptionally well-researched, highly specific, culturally respectful, and fully supported by evidence."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "insight_concrete",
-  "judge_score=9.85",
+  "sacred_handled",
+  "judge_score=10.0",
   "sacred"
  ],
  "citation": {
-  "claims": 5,
-  "supported": 5,
-  "rate": 1.0
+  "claims": 7,
+  "supported": 6,
+  "rate": 0.857
  },
- "researched_at": "2026-11-02T14:46:15Z"
+ "researched_at": "2026-11-09T20:55:18Z"
 }

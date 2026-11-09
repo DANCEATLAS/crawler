@@ -1,8 +1,8 @@
 # Jota Aragonesa — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.25 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.25 · 4/4 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned folkloric dancer from Zaragoza with a focus on precision and cultural history.
@@ -87,7 +87,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the high-energy world of the Jota, a dance that defines the spirit of Spain.
-NARRATION: Sources: 6 references, every claim checked against its source.
+NARRATION: Sources: 6 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -103,8 +103,7 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, proud, and vertical
 NARRATION: Arms held high above the head, hands playing castanets
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -121,7 +120,7 @@ NARRATION: Step 1: Small, rhythmic leaps
 NARRATION: Step 2: Heel-toe footwork patterns
 NARRATION: Footwork from the sources: Small, sharp leaps and rapid heel-toe steps
 NARRATION: Drill: Basic weight transfer
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -143,7 +142,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid slouching; maintain vertical alignment.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -173,8 +172,7 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, proud, and vertical
 NARRATION: Arms held high above the head, hands playing castanets
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -190,7 +188,7 @@ NEEDS: tempo
 NARRATION: Step 1: Small, rhythmic leaps
 NARRATION: Step 2: Heel-toe footwork patterns
 NARRATION: Drill: Holding arms high while moving
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -214,7 +212,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid slouching; maintain vertical alignment.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -244,8 +242,7 @@ MUSIC: theme (10 s) then silence
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Upright, proud, and vertical
 NARRATION: Arms held high above the head, hands playing castanets
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -261,7 +258,7 @@ NEEDS: tempo
 NARRATION: Step 1: Heel-toe footwork patterns
 NARRATION: Step 2: Circular movements reminiscent of a waltz
 NARRATION: Drill: Small vertical jumps
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -284,7 +281,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid slouching; maintain vertical alignment.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -327,9 +324,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
 Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (6): https://en.wikipedia.org/wiki/Jota_(music); https://www.wikidata.org/wiki/Q252626; https://es.wikipedia.org/wiki/Jota_(música); https://fr.wikipedia.org/wiki/Jota; https://pt.wikipedia.org/wiki/Jota_(música); https://archive.org/details/birch_122up

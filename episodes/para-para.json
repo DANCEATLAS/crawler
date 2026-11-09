@@ -1,11 +1,12 @@
 {
  "slug": "para-para",
  "name": "Para Para",
- "pack_version": "e1",
- "built_at": "2026-11-04T19:23:00Z",
+ "pack_version": "e2",
+ "built_at": "2026-11-09T21:52:47Z",
  "researched_at": "2026-11-04T18:21:56Z",
  "qc_score": 10.0,
  "status": "draft",
+ "release_status": "not_validated",
  "sacred": false,
  "chapters_note": null,
  "formula": {
@@ -65,7 +66,7 @@
      "This is Para Para. 1980s–present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (nah1-LwkJGQ)",
      "Title card: Para Para · Japan · 1980s–present"
     ],
     "music": "theme (30 s)"
@@ -110,7 +111,7 @@
      "Watch for Wangan style, Maniac routines, OriPara."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (nah1-LwkJGQ)",
      "Captions name each signature move as it appears",
      "Formation: Groups dance in lines or clusters facing forward, maintaining spacing for arm movements"
     ],
@@ -204,7 +205,7 @@
     "duration_s": 25,
     "narration": [
      "Explore Para Para's rise from Tokyo clubs to global communities through choreographed arm movements and Eurobeat beats.",
-     "Sources: 5 references, every claim checked against its source."
+     "Sources: 5 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -245,7 +246,7 @@
       "Slight hip swaying accompanying arm movements"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -275,7 +276,7 @@
       "Drill: Step side to side to beat"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -322,7 +323,7 @@
       "Avoid excessive lower body movement; maintain synchronization with group; respect official routines in club settings"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -389,7 +390,7 @@
       "Slight hip swaying accompanying arm movements"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -417,7 +418,7 @@
       "Drill: Learn routine sections (intro, verse, chorus)"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -465,7 +466,7 @@
       "Avoid excessive lower body movement; maintain synchronization with group; respect official routines in club settings"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -532,7 +533,7 @@
       "Slight hip swaying accompanying arm movements"
      ],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on posture"
+      "Instructor front then side view; freeze-frame on validated posture"
      ],
      "music": "silence"
     },
@@ -561,7 +562,7 @@
       "Drill: Practice intricate arm sequences"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -608,7 +609,7 @@
       "Avoid excessive lower body movement; maintain synchronization with group; respect official routines in club settings"
      ],
      "on_screen": [
-      "Side-by-side: wrong / right"
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
      "options": [],
@@ -647,7 +648,9 @@
   }
  ],
  "music_brief": {
-  "purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": 150,
   "meter": "4/4",
   "rhythm_pattern": "steady four-on-the-floor kick drum with upbeat electronic synths and fast-paced percussion",
@@ -704,7 +707,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "nah1-LwkJGQ",
+   "checked_by_vision_model": false,
+   "title": "ParaPara Paradise 4 - 01 - Go Go Girls - Cyber Dance"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -798,41 +805,40 @@
   ]
  },
  "teaching_formula": {
-  "source": "3 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 3,
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
   "counting": "5-6-7-8",
+  "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front, back, mirror",
-   "tempo progression: slow → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: mirror",
+   "tempo progression: slow → half → full"
   ],
   "cues": [
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
-   "side side side side",
-   "rock step rock step",
-   "have fun",
-   "keep those abs pulled in",
-   "engage all the muscles",
-   "keep those shoulders down",
-   "control control"
+   "crazy train",
+   "come on",
+   "don't be late",
+   "no baby no",
+   "let's go",
+   "get it right now",
+   "can you dig it",
+   "move it"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "warmup",
-   "context",
-   "count_in",
    "breakdown",
-   "slow_practice",
-   "music_practice"
+   "follow_along"
   ],
-  "steps_as_taught": []
+  "steps_as_taught": [
+   {
+    "name": "Para Para basic steps",
+    "counts": "5-6-7-8",
+    "description": "A series of arm and leg movements performed in a specific sequence to the music."
+   }
+  ]
  },
  "gaps": [
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)"
  ],
  "sources": [
@@ -845,5 +851,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
+ "input_fingerprint": "fed7e3bd1ab71e2d5e7b1041d1a942fc7a6f5ebff55ece4f9da6de75c238160b",
  "hero_checked": null
 }

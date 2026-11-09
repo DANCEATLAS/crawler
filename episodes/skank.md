@@ -1,8 +1,8 @@
 # Skank — episode pack
 
-*Status: draft · built 2026-11-05 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); notable figures; lineage; two or more connections; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures; lineage; two or more connections; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic and inclusive
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Skank: More Than Just a Mosh
 NARRATION: This is Skank. 1950s-present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (O4260OyOjd4)
 ON SCREEN: Title card: Skank · Jamaica · 1950s-present
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: The basic form involves a running-man leg motion combined with alternating bent-elbow fist-punches.
 NARRATION: Variations include the 'stroll' (swaying and marching in a circle) and 'x-stepping' (fast, technical movements).
 NARRATION: Watch for Stroll, X-stepping.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (O4260OyOjd4)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circle pit or individual
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -76,7 +76,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Running-man leg motion
 NARRATION: Alternating bent-elbow fist-punches
-NARRATION: Count it: 1-2-3-4-5-6.
+NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -84,7 +84,7 @@ MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: Discover the rhythmic roots and communal energy of the skank, a dance that transformed from Jamaican dance halls to global punk pits.
-NARRATION: Sources: 4 references, every claim checked against its source.
+NARRATION: Sources: 4 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -99,11 +99,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Alternating bent-elbow fist-punches
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Backbeat on beats two and four.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -115,16 +115,16 @@ NEEDS: tempo
 NARRATION: Step 1: Running-man leg motion
 NARRATION: Step 2: Alternating bent-elbow fist-punches
 NARRATION: Drill: Marching to the backbeat
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Adding the fist-punch
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -137,13 +137,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Actual striking or hurting others in the pit.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated rhythmic arm punches and leg tapping to the backbeat. · For children: Follow-the-leader circle stroll.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated rhythmic arm punches and leg tapping to the backbeat. · For children: Follow-the-leader circle stroll. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -168,11 +168,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Alternating bent-elbow fist-punches
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Backbeat on beats two and four.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -184,10 +184,10 @@ NEEDS: tempo
 NARRATION: Step 1: Running-man leg motion
 NARRATION: Step 2: Alternating bent-elbow fist-punches
 NARRATION: Drill: Side-to-side swaying
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Stroll: Swaying from side to side with arms bent and marching in sync.
@@ -196,7 +196,7 @@ NARRATION: Drill: Circle movement
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -208,13 +208,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Actual striking or hurting others in the pit.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated rhythmic arm punches and leg tapping to the backbeat. · For children: Follow-the-leader circle stroll.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated rhythmic arm punches and leg tapping to the backbeat. · For children: Follow-the-leader circle stroll. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circle pit or individual
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -238,11 +238,11 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Alternating bent-elbow fist-punches
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4-5-6. The meter is 4/4.
+NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
 NARRATION: Rhythm pattern: Backbeat on beats two and four.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -254,10 +254,10 @@ NEEDS: tempo
 NARRATION: Step 1: Running-man leg motion
 NARRATION: Step 2: Alternating bent-elbow fist-punches
 NARRATION: Drill: Fast-paced x-stepping
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Stroll: Swaying from side to side with arms bent and marching in sync.
@@ -265,7 +265,7 @@ NARRATION: X-stepping: Fast, technical movements used in drum and bass.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4-5-6 · repetitions: 3
+COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -277,13 +277,13 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Actual striking or hurting others in the pit.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated rhythmic arm punches and leg tapping to the backbeat. · For children: Follow-the-leader circle stroll.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated rhythmic arm punches and leg tapping to the backbeat. · For children: Follow-the-leader circle stroll. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4-5-6.
+NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice. Formation: Circle pit or individual
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -309,7 +309,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Typically performed in dance halls, concert venues, or at raves. No specific costume is required, though it is associated with mod, skinhead, and punk subcultures.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'O4260OyOjd4', 'checked_by_vision_model': False, 'title': 'How To Skank'}
 Images: 0 licensed
 Footage: File:Skank ao vivo em Porto Alegre - É Uma Partida de Futebol, novembro de 2022.webm — https://upload.wikimedia.org/wikipedia/commons/7/76/Skank_ao_vivo_em_Porto_Alegre_-_%C3%89_Uma_Partida_de_Futebol%2C_novembro_de_2022.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; VA - Viva La Disco 1 — https://archive.org/details/va-viva-la-disco-1; Brazilian Music Dance Remix Vol.01 — https://archive.org/details/brazilian-music-dance-remix-vol.-1; MTV Dancefloor 2022.12.09 — https://archive.org/details/mtv-dancefloor-2022.12.09; Just Dance Raw Files — https://archive.org/details/crazy-in-love-beta-hd; Bohemian Rhapsody In Jamaican Ska Style | Queen Classic With Island Vibes [ By AI Not Real] — https://archive.org/details/bohemian-rhapsody-in-jamaican-ska-style-queen-classic-with-island-vibes-by-ai-not-real; Radio Clash 21-2-6_ToneChange, Ratrace, Zero One — https://archive.org/details/radio-clash-21-2-6
 Motifs: Archival dance hall footage, Fast-paced editing in a pit, Close-ups of footwork
@@ -319,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the street-urban family studied · videos studied: 3
-Counting: 1-2-3-4-5-6
-Demonstration: views used by most teachers: front, side, back; tempo progression: slow → full
-Cues: punch to the side; pull your head down; pivot them on your elbows; lift your foot; then kick your leg; stay smooth; get a feeling for it; then get faster; tabletop position; split the line; land flat footed; perch up
+Source: 9 tutorial(s) of the street-urban family studied · videos studied: 9
+Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; punch to the side; pull your head down; pivot them on your elbows; swing stop; lean forward; arm up; elbow up; up and down
 
 Sources (4): https://en.wikipedia.org/wiki/Skank_(dance); https://www.wikidata.org/wiki/Q1801948; https://es.wikipedia.org/wiki/Skanking; https://it.wikipedia.org/wiki/Skank_(danza)

@@ -1,8 +1,8 @@
 # Courante — episode pack
 
-*Status: draft · built 2026-11-03 · judge 9.85 · 9/9 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-09 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A meticulous historical dance specialist who treats every step as a coded document of courtly psychology.
@@ -11,40 +11,40 @@
 ## Episode 1 · Meet Courante · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The running dance that learned to wait.
-NARRATION: This is courante, spanning the 16th to 18th century during the Late Renaissance and Baroque eras.
+NARRATION: The Running Dance That Learned to Wait
+NARRATION: This is Courante. 16th to 18th century (Late Renaissance and Baroque).
 ON SCREEN: Hero video, first 10 seconds (GJFBf4G0zRI)
 ON SCREEN: Title card: Courante · France and Italy · 16th to 18th century (Late Renaissance and Baroque)
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: The courante emerges in the late Renaissance as a couple dance among the social elite, initially danced with fast running and jumping steps as recorded by Thoinot Arbeau in 1589.
-NARRATION: During the Baroque era, it evolves into an instrumental and theatrical staple of the suite, splitting into a solemn, complex French style and a faster Italian corrente before disappearing from active social use by the late 18th century.
+NARRATION: The courante emerged in the late Renaissance as a couple dance among the social elite, initially danced with fast running and jumping steps as recorded by Thoinot Arbeau in 1589.
+NARRATION: During the Baroque era, it evolved into an instrumental and theatrical staple of the suite, splitting into a solemn, complex French style and a faster Italian corrente before disappearing from active social use by the late 18th century.
 ON SCREEN: Map: France and Italy · Europe
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Dancers perform it during opulent court balls and theatrical ballets as an aristocratic social exercise.
-NARRATION: In the Baroque suite, it bridges the measured Germanic allemande and the meditative Spanish sarabande, embodying a psychological landscape of sweet expectation, longing, and serious reflection.
+NARRATION: Performed during opulent court balls and theatrical ballets as an aristocratic social exercise.
+NARRATION: In the Baroque suite, it bridged the measured Germanic allemande and the meditative Spanish sarabande, embodying a psychological landscape of sweet expectation, longing, and serious reflection.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Danced by couples, the traditional Renaissance and early Baroque courante utilizes combinations of simples and doubles executed with a slight spring or jump, known as pas sauté.
+NARRATION: Danced by couples, the traditional Renaissance and early Baroque courante utilizes combinations of 'simples' and 'doubles' executed with a slight spring or jump (*pas sauté*).
 NARRATION: The French Baroque style emphasizes a moderate, majestic tempo with hemiolas and crossed accents, while the Italian corrente favors a faster, more continuous flow.
-NARRATION: Watch for pas sauté and the hemiola cadence.
+NARRATION: Watch for Pas sauté, Hemiola cadence.
 ON SCREEN: Hero video full screen, 30–45 s (GJFBf4G0zRI)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Couples traveling along the perimeter of the hall, turning, and executing advances and retreats.
 MUSIC: diegetic (the video's own sound), underscore under narration
 
 ### 5. Listen (70 s) · `music`
-NARRATION: It is composed in triple meter with an upbeat, called a levée, and is structured in binary form with repeats.
-NARRATION: Instruments of the Baroque court and chamber—such as violins, harpsichords, lutes, and small ensembles—play the repertoire, ranging from Bach's intricate keyboard partitas to Lullian orchestra pieces.
-NARRATION: Listen for the violins, harpsichord, and lute.
-NARRATION: The pulse is triple metre, typically 3/2 or 6/4 for French, and 3/4 or 3/8 for Italian.
-NARRATION: The texture is a triple-meter structure beginning on an upbeat, characterized by shifting metrical accents, graceful counterpoint, and an interplay between solemn dignity and buoyant forward momentum.
+NARRATION: Composed in triple meter with an upbeat (levée) and structured in binary form with repeats.
+NARRATION: Instruments of the Baroque court and chamber—such as violins, harpsichords, lutes, and small ensembles—played the repertoire, which ranged from Bach's intricate keyboard partitas to Lullian orchestra pieces.
+NARRATION: Listen for the violins, harpsichord, lute.
+NARRATION: The pulse is Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian).
+NARRATION: A triple-meter texture beginning on an upbeat, characterized by shifting metrical accents, graceful counterpoint, and an interplay between solemn dignity and buoyant forward momentum.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Listen later: Partita for Violin No. 2 (Corrente) — Johann Sebastian Bach; Partitas for Clavierübung — Johann Sebastian Bach
 ON SCREEN: Waveform or rhythm-pattern graphic: Upbeat entry (levée) followed by metric ambiguities and hemiolas across bar lines
@@ -52,47 +52,47 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Danced in the formal halls of European courts and elite salons, participants wear heavy silk court gowns, doublets, ruffs, and heeled shoes suited for measured steps, jumps, and formal bows.
+NARRATION: Danced in the formal halls of European courts and elite salons, participants wore heavy silk court gowns, doublets, ruffs, and heeled shoes suited for measured steps, jumps, and formal bows.
 ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Key figures include Thoinot Arbeau, Cesare Negri, Johann Mattheson, Johann Gottfried Walther, François Couperin, and Johann Sebastian Bach.
-NARRATION: The two primary historical variants are the French courante, which is slower in 3/2 or 6/4 meter with complex hemiolas, and the Italian corrente, which is faster in 3/4 or 3/8 meter with a more direct melodic flow.
-NARRATION: It descends from Renaissance couple dances and branles, and acts as an ancestral or peer movement to the allemande, sarabande, and minuet within the Baroque suite.
+NARRATION: Thoinot Arbeau, Cesare Negri, Johann Mattheson, Johann Gottfried Walther, François Couperin, and Johann Sebastian Bach.
+NARRATION: The two primary historical variants are the French courante (slower, 3/2 or 6/4 meter, complex hemiolas) and the Italian corrente (faster, 3/4 or 3/8 meter, more direct melodic flow).
+NARRATION: Descended from Renaissance couple dances and branles; ancestral or peer movement to the allemande, sarabande, and minuet within the Baroque suite.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Courante is a sibling of the allemande, which typically precedes the courante as the first or second movement in a Baroque dance suite.
-NARRATION: Courante is a sibling of the sarabande, which typically follows the courante in the standard sequence of a Baroque suite.
+NARRATION: Courante is sibling of allemande: Typically precedes the courante as the first or second movement in a Baroque dance suite.
+NARRATION: Courante is sibling of sarabande: Typically follows the courante in the standard sequence of a Baroque suite.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, try one step. Simple à gauche: the left foot steps to the left, and the right foot joins.
-NARRATION: Simple à droite: the right foot steps to the right, and the left foot joins.
-NARRATION: Count it: count the triple metre bar out loud, then in pairs of bars.
+NARRATION: Before we go, one step. Simple à gauche: left foot steps to the left, right foot joins.
+NARRATION: Simple à droite: right foot steps to the right, left foot joins.
+NARRATION: Count it: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
 MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Discover how a high-speed Renaissance leaping step transforms into the most emotionally ambiguous slow movement of the Baroque court.
-NARRATION: Sources consist of 7 references, with every claim checked against its source.
+NARRATION: Discover how a high-speed Renaissance leaping step transformed into the most emotionally ambiguous slow movement of the Baroque court.
+NARRATION: Sources: 7 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
 ## Chapter 1 · First steps — Master the basic 3-beat weight shift and upbeat timing. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 covers first steps. Today, master the basic 3-beat weight shift and upbeat timing.
-NARRATION: The level is beginner, while the difficulty of the dance overall is advanced.
-NARRATION: Your instructor is a meticulous historical dance specialist who treats every step as a coded document of courtly psychology.
+NARRATION: Chapter 1 — First steps. Today: Master the basic 3-beat weight shift and upbeat timing..
+NARRATION: Level: Beginner. Difficulty of the dance overall: advanced.
+NARRATION: Your instructor: A meticulous historical dance specialist who treats every step as a coded document of courtly psychology.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -100,8 +100,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, aristocratic posture with controlled carriage and turned-out feet.
 NARRATION: Partnered handholds, placing a hand on the partner's hip or bodice, or holding hands while turning in the hall.
 NARRATION: Stable torso with controlled vertical movement accommodating the step and weight shifts.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -114,35 +113,35 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Simple à gauche, where the left foot steps to the left and the right foot joins.
-NARRATION: Step 2: Simple à droite, where the right foot steps to the right and the left foot joins.
-NARRATION: Footwork from the sources utilizes alternating simple and double steps featuring springing or jumping movements in the Renaissance style, evolving into measured, gliding, and crossing steps in the Baroque French style.
-NARRATION: Drill: Foot weight-shifting on beats 1, 2, and 3.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+NARRATION: Step 1: Simple à gauche: left foot steps to the left, right foot joins.
+NARRATION: Step 2: Simple à droite: right foot steps to the right, left foot joins.
+NARRATION: Footwork from the sources: Alternating simple and double steps featuring springing or jumping movements (*pas sauté*) in the Renaissance style, evolving into measured, gliding, and crossing steps in the Baroque French style.
+NARRATION: Drill: Foot weight-shifting on beats 1, 2, and 3
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Double à gauche, where the left foot steps left, the right closes, the left steps left, and the right joins with a slight spring or greve.
-NARRATION: Step 4: Double à droite, repeated on the opposite side with reversed footwork.
-NARRATION: Drill: Practicing the upbeat step start.
+NARRATION: Step 3: Double à gauche: left foot steps left, right closes, left steps left, right joins with a slight spring or greve.
+NARRATION: Step 4: Double à droite: repeated on the opposite side with reversed footwork.
+NARRATION: Drill: Practicing the upbeat (levée) step start
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Perform Step A, then Step B, without stopping. Start slow.
-NARRATION: Now move to half tempo, then full tempo.
-NARRATION: Mirror the instructor as they face you, so your right is your right.
-NARRATION: Drill: Basic side-to-side simple steps.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
+NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Drill: Basic side-to-side simple steps
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid conflating the brisk, jumping Renaissance courante with the slow, majestic French Baroque courante, and avoid ignoring national stylistic differences.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Avoid conflating the brisk, jumping Renaissance courante with the slow, majestic French Baroque courante or ignoring national stylistic differences.
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -163,9 +162,9 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — Execute simple and double steps in sequence. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 builds the dance. Today, execute simple and double steps in sequence.
-NARRATION: The level is intermediate, while the difficulty of the dance overall is advanced.
-NARRATION: Your instructor is a meticulous historical dance specialist who treats every step as a coded document of courtly psychology.
+NARRATION: Chapter 2 — Building the dance. Today: Execute simple and double steps in sequence..
+NARRATION: Level: Intermediate. Difficulty of the dance overall: advanced.
+NARRATION: Your instructor: A meticulous historical dance specialist who treats every step as a coded document of courtly psychology.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -173,8 +172,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, aristocratic posture with controlled carriage and turned-out feet.
 NARRATION: Partnered handholds, placing a hand on the partner's hip or bodice, or holding hands while turning in the hall.
 NARRATION: Stable torso with controlled vertical movement accommodating the step and weight shifts.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -187,37 +185,37 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Simple à gauche, where the left foot steps to the left and the right foot joins.
-NARRATION: Step 2: Simple à droite, where the right foot steps to the right and the left foot joins.
-NARRATION: Drill: Simple à gauche and simple à droite drill.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+NARRATION: Step 1: Simple à gauche: left foot steps to the left, right foot joins.
+NARRATION: Step 2: Simple à droite: right foot steps to the right, left foot joins.
+NARRATION: Drill: Simple à gauche and simple à droite drill
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Double à gauche, where the left foot steps left, the right closes, the left steps left, and the right joins with a slight spring or greve.
-NARRATION: Step 4: Double à droite, repeated on the opposite side with reversed footwork.
-NARRATION: Pas sauté is a jumping step where the dancer springs on one foot and moves forward on the other.
-NARRATION: Hemiola cadence is a rhythmic shift where dancers adjust their phrasing across the metric divisions of the music.
-NARRATION: Drill: Double à gauche with closed foot transitions.
+NARRATION: Step 3: Double à gauche: left foot steps left, right closes, left steps left, right joins with a slight spring or greve.
+NARRATION: Step 4: Double à droite: repeated on the opposite side with reversed footwork.
+NARRATION: Pas sauté: A jumping step where the dancer springs on one foot and moves forward on the other.
+NARRATION: Hemiola cadence: A rhythmic shift where dancers adjust their phrasing across the metric divisions of the music.
+NARRATION: Drill: Double à gauche with closed foot transitions
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
 COUNTS: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Perform Step A, then Step B, without stopping. Start slow.
-NARRATION: Now move to half tempo, then full tempo.
-NARRATION: Mirror the instructor as they face you, so your right is your right.
-NARRATION: Drill: Partner connection and shared rotation.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
+NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Drill: Partner connection and shared rotation
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid conflating the brisk, jumping Renaissance courante with the slow, majestic French Baroque courante, and avoid ignoring national stylistic differences.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Avoid conflating the brisk, jumping Renaissance courante with the slow, majestic French Baroque courante or ignoring national stylistic differences.
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -238,9 +236,9 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — Incorporate Baroque rhythmic phrasing and hemiolas. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 covers dancing it fully. Today, incorporate Baroque rhythmic phrasing and hemiolas.
-NARRATION: The level is advanced, and the difficulty of the dance overall is advanced.
-NARRATION: Your instructor is a meticulous historical dance specialist who treats every step as a coded document of courtly psychology.
+NARRATION: Chapter 3 — Dancing it fully. Today: Incorporate Baroque rhythmic phrasing and hemiolas..
+NARRATION: Level: Advanced. Difficulty of the dance overall: advanced.
+NARRATION: Your instructor: A meticulous historical dance specialist who treats every step as a coded document of courtly psychology.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -248,8 +246,7 @@ MUSIC: theme (10 s) then silence
 NARRATION: Upright, aristocratic posture with controlled carriage and turned-out feet.
 NARRATION: Partnered handholds, placing a hand on the partner's hip or bodice, or holding hands while turning in the hall.
 NARRATION: Stable torso with controlled vertical movement accommodating the step and weight shifts.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
-ON SCREEN: Overlay: the hero video's posture for comparison
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
@@ -262,34 +259,34 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Double à gauche, where the left foot steps left, the right closes, the left steps left, and the right joins with a slight spring or greve.
-NARRATION: Step 2: Double à droite, repeated on the opposite side with reversed footwork.
-NARRATION: Drill: Stepping through metric shifts without losing tempo.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions of every step before moving on
+NARRATION: Step 1: Double à gauche: left foot steps left, right closes, left steps left, right joins with a slight spring or greve.
+NARRATION: Step 2: Double à droite: repeated on the opposite side with reversed footwork.
+NARRATION: Drill: Stepping through metric shifts without losing tempo
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Pas sauté is a jumping step where the dancer springs on one foot and moves forward on the other.
-NARRATION: Hemiola cadence is a rhythmic shift where dancers adjust their phrasing across the metric divisions of the music.
-NARRATION: Drill: Stylistic transition between French grave and Italian lively feels.
+NARRATION: Pas sauté: A jumping step where the dancer springs on one foot and moves forward on the other.
+NARRATION: Hemiola cadence: A rhythmic shift where dancers adjust their phrasing across the metric divisions of the music.
+NARRATION: Drill: Stylistic transition between French grave and Italian lively feels
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
 COUNTS: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Perform Step A, then Step B, without stopping. Start slow.
-NARRATION: Now move to half tempo, then full tempo.
-NARRATION: Mirror the instructor as they face you, so your right is your right.
+NARRATION: Step A, then Step B, without stopping. Slow first.
+NARRATION: Now half tempo. Now full tempo.
+NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid conflating the brisk, jumping Renaissance courante with the slow, majestic French Baroque courante, and avoid ignoring national stylistic differences.
-ON SCREEN: Side-by-side: wrong / right
+NARRATION: Avoid conflating the brisk, jumping Renaissance courante with the slow, majestic French Baroque courante or ignoring national stylistic differences.
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
@@ -332,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: built-in defaults (no tutorial studied yet for this dance or family) · videos studied: 0
+Source: 3 tutorial(s) of the classical-court family studied · videos studied: 3
 Counting: count the Triple metre (typically 3/2 or 6/4 for French; 3/4 or 3/8 for Italian) bar out loud, then in pairs of bars
-Demonstration: front view, then back view (student's perspective); slow, then half tempo, then full tempo; three repetitions of every step before moving on
-Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; hold your placement; stay straight as a board; lift up in your lower abs; change feet
 
 Sources (7): https://en.wikipedia.org/wiki/Courante; https://www.wikidata.org/wiki/Q664056; https://es.wikipedia.org/wiki/Courante; https://fr.wikipedia.org/wiki/Courante; https://pt.wikipedia.org/wiki/Courante; https://archive.org/details/danceman160; https://archive.org/details/danceman219

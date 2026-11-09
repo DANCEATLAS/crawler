@@ -1,10 +1,10 @@
 {
  "slug": "chinelos",
- "qc_at": "2026-11-05T19:11:32Z",
+ "qc_at": "2026-11-09T21:23:50Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 10.0,
+ "qc_score": 9.5,
  "gates": [
   {
    "gate": "has_name",
@@ -19,22 +19,22 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "156"
+   "detail": "111"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "In 1867, Tlayacapan laborers reclaimed the Carnival space by donning masks and m"
+   "detail": "In 1867, Tlayacapan laborers reclaimed Carnival by donning masks and mocking hac"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "442"
+   "detail": "365"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "3938"
+   "detail": "1964"
   },
   {
    "gate": "sections_filled",
@@ -44,7 +44,7 @@
   {
    "gate": "citations",
    "ok": true,
-   "detail": "7/7 rate=1.0"
+   "detail": "6/7 rate=0.857"
   },
   {
    "gate": "sources",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "4 paras"
+   "detail": "1 paras"
   },
   {
    "gate": "not_duplicate",
@@ -84,36 +84,38 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=True cues=['spirit', 'religious']"
+   "detail": "sacred=False cues=['monastery']"
   }
  ],
  "judge": {
-  "accuracy": 10,
+  "accuracy": 9,
   "respect": 10,
   "specificity": 10,
-  "teaching_value": 10,
+  "teaching_value": 9,
   "is_a_dance": true,
-  "factual_doubt": [],
-  "harm_or_disrespect": [],
+  "factual_doubt": [
+   "The insight mentions 1867 specifically for Tlayacapan laborers reclaiming Carnival, but the exact year is not robustly supported by the direct quote provided."
+  ],
+  "harm_or_disresist": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
   "adaptations_safe": true,
-  "overall": 10,
+  "overall": 9,
   "verdict": "publish",
-  "notes": "The profile is exceptionally well-researched, providing a clear historical context for the satire while maintaining cultural sensitivity. The technical descriptions of the 'brincon' and the costume components are accurate and align perfectly with the provided evidence. The teaching and adaptation sections are practical and safe."
+  "notes": "High quality, highly specific profile with minor date extrapolation in the insight."
  },
  "judge_reused": false,
  "duplicate_of": null,
- "is_sacred": true,
+ "is_sacred": false,
  "reasons": [
-  "judge_score=10.0",
-  "sacred"
+  "judge_score=9.5",
+  "doubts=1"
  ],
  "citation": {
   "claims": 7,
-  "supported": 7,
-  "rate": 1.0
+  "supported": 6,
+  "rate": 0.857
  },
- "researched_at": "2026-11-05T19:02:22Z"
+ "researched_at": "2026-11-09T20:35:15Z"
 }

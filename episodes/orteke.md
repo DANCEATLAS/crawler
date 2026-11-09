@@ -1,6 +1,6 @@
 # orteke — episode pack
 
-*Status: draft · built 2026-11-07 · judge 9.85 · 11/11 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.85 · 11/11 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; teaching steps written out
 
@@ -85,7 +85,7 @@ NEEDS: teaching steps
 
 ### 10. Until next time (25 s) · `close`
 NARRATION: A Kazakh dombra master shows how ancient nomadic hunters turned music into kinetic magic with a dancing mountain goat puppet tied directly to his fingertips.
-NARRATION: Sources: 4 references, every claim checked against its source.
+NARRATION: Sources: 4 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -102,11 +102,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Musician sits upright or cross-legged, holding the dombra steady while arms and hands maintain precise tension over the puppet's connecting cords.
 NARRATION: Right plucking hand strikes the dombra strings while fingers and wrists flex upward to pull the puppet's attached strings; expert players incorporate left-hand or foot string tethers.
 NARRATION: Musician's torso remains relatively steady to anchor the lute and provide leverage for the puppet's string mechanisms.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -118,14 +118,12 @@ NARRATION: Drill: Practice steady open-string dombra strumming without puppet at
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Attach a single cord to the middle finger and practice lifting the digit to lift an object vertically.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -139,11 +137,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid slackening the control cords, which disrupts the simultaneous rhythm between the dombra notes and the drum taps.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -170,11 +168,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Musician sits upright or cross-legged, holding the dombra steady while arms and hands maintain precise tension over the puppet's connecting cords.
 NARRATION: Right plucking hand strikes the dombra strings while fingers and wrists flex upward to pull the puppet's attached strings; expert players incorporate left-hand or foot string tethers.
 NARRATION: Musician's torso remains relatively steady to anchor the lute and provide leverage for the puppet's string mechanisms.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -186,7 +184,6 @@ NARRATION: Drill: Execute basic melodic küy patterns while keeping cord tension
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
@@ -195,7 +192,6 @@ NARRATION: Drill: Control puppet rebound on the dauylpaz drum skin to avoid doub
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -208,11 +204,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid slackening the control cords, which disrupts the simultaneous rhythm between the dombra notes and the drum taps.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Stationary seated stage performance focused on a small tabletop or drumhead area.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -239,11 +235,11 @@ MUSIC: theme (10 s) then silence
 NARRATION: Musician sits upright or cross-legged, holding the dombra steady while arms and hands maintain precise tension over the puppet's connecting cords.
 NARRATION: Right plucking hand strikes the dombra strings while fingers and wrists flex upward to pull the puppet's attached strings; expert players incorporate left-hand or foot string tethers.
 NARRATION: Musician's torso remains relatively steady to anchor the lute and provide leverage for the puppet's string mechanisms.
-ON SCREEN: Instructor front then side view; freeze-frame on posture
+ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8.
+NARRATION: Count: .
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -255,7 +251,6 @@ NARRATION: Drill: Coordinate two puppets attached to separate fingers of the rig
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
@@ -264,7 +259,6 @@ NARRATION: Drill: Integrate foot-pedal cords to trigger auxiliary jumping moveme
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -277,11 +271,11 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid slackening the control cords, which disrupts the simultaneous rhythm between the dombra notes and the drum taps.
-ON SCREEN: Side-by-side: wrong / right
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: .
 NARRATION: Full tempo, the whole sequence, twice. Formation: Stationary seated stage performance focused on a small tabletop or drumhead area.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -318,9 +312,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 8 tutorial(s) of the folk-circle family studied · videos studied: 8
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; side side side side; rock step rock step; have fun; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; tuck your elbows into your sides
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Counting: 
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
 Sources (4): https://en.wikipedia.org/wiki/Orteke; https://www.wikidata.org/wiki/Q12557667; https://it.wikipedia.org/wiki/Orteke; https://ich.unesco.org/en/RL/01878
