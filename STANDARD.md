@@ -7,6 +7,8 @@ for the numbers, this file is the authority for the intent. Change them together
 
 ## The ladder
 
+The owner's current release standard is `PRODUCT_VISION.md`. The ladder below measures research and structural preparation only. It does not certify instructional correctness, cultural approval, asset rights, native-language review or learning outcomes. Those require separate recorded validation before product release. Quote occurrence is distinct from claim support and complete sentence coverage; the current claim verifier does not prove all three.
+
 | Level | Name | What it means | Who moves a page up |
 |---|---|---|---|
 | 0 | **Listed** | The dance is in the atlas: name, country, region, a hero video when one was found. | the discovery stage, the video crawlers |
@@ -38,7 +40,7 @@ for the numbers, this file is the authority for the intent. Change them together
 
 **Judge** — score ≥ 9.5 under the current judge version.
 
-Why it is nearly impossible on purpose: a page only gets there when the sources are rich, the crawlers found the right videos, the images are licensed, the music is in MusicBrainz and a reader has sat with it. That is exactly the page a film crew can shoot from and a teacher can teach from without a second source. Counting them honestly is the point; a small number that is true beats a large number that is not.
+Why it is nearly impossible on purpose: a page only gets there when the sources are rich, the crawlers found the right videos, the images are licensed, the music is in MusicBrainz and a reader has sat with it. That is a strong research-preparation target; production and teaching still require the separate evidence, practitioner, rights and learner validation in `PRODUCT_VISION.md`. Counting them honestly is the point; a small number that is true beats a large number that is not.
 
 ## Editor approval
 
@@ -57,9 +59,11 @@ The approval counts only for the text the editor read: if the daily run re-resea
 - Loosening a QC gate to publish more. Fewer true pages beat more doubtful ones.
 - Teaching material for a sacred or restricted dance. Those pages can be published and movie-ready for their story and music; the teaching and the adaptations stay withheld.
 - Doubles. Two entries for one tradition are merged (`audit_overrides.json`: `merge:<slug>`), variants become sections, not pages.
-- Dance moves, songs, festivals, companies and people as entries. They are screened out before research and retired if found later.
+- In the Atlas tradition catalogue, moves, songs, festivals, companies and people are not automatically traditions. This exclusion does not apply blindly to Viral challenges/trends; use the separate taxonomy and relationships in `PRODUCT_VISION.md`.
 
 ## The script layer
+
+Packs carry `release_status: not_validated`; music briefs carry `rights_status: not_assessed`. These are deliberately separate from structural `status: complete`. Explicit footwork counts are required by the checklist; 'step' or 'beat' alone does not qualify. Its recordings check uses verified album records, not unverified recommendations. These checks remain conservative proxies and do not replace practitioner review.
 
 Every published page also gets an episode pack (`episodes/<slug>.json`, `MOVIE_PHASE.md`): Episode 1 and three chapters written from the profile only. A pack is **complete** when it has no gaps — the same items as film-grade's media, music and movement lines plus teaching steps and what to avoid. Packs do not change a page's level; the weekly report counts them separately (packs, complete, polished), and their gaps feed the research queue.
 
