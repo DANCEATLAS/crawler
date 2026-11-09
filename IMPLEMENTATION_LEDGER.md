@@ -39,9 +39,9 @@ Vision revision: **DA-VISION-2026-11-09-BDF**. Evidence baseline: repository `40
 | V15–V16 economics/evolution | Capped jobs, weekly reports, watchdog and snapshots | Cost per accepted unit, stage-level health and honest Viral freshness; dated benchmark-driven technology reviews |
 | V17–V18 owner/continuity | Expanded direction recorded here | Keep GitHub and Lovable aligned; one simple owner action only when unavoidable |
 
-## Foundation changes prepared and tested
+## Foundation changes merged and tested
 
-Included in this working batch. Publication and later scheduled-run verification must be recorded below; local validation alone is not deployment.
+Merged through [pull request 2](https://github.com/DANCEATLAS/crawler/pull/2), commit `36f5e5c`, on 9 November 2026. Code and documentation are on main. Generated catalogue/episode output from the next scheduled run has not yet been verified; local replay results below are not claims about the live site.
 
 1. Attach hero/QC/tutorial media consistently after both catalogue merge paths, preserving sacred/restricted tutorial holds.
 2. e2 packs fingerprint meaningful profile/media/teaching inputs. Check timestamps alone do not trigger rebuilds; targeted builds preserve unrelated packs/gaps.
@@ -67,7 +67,7 @@ New-chart acceptance: deterministic fixtures, stable ties, no false ranks on ins
 
 ## Next work
 
-1. Verify GitHub publication and matching Lovable instructions; record observed results.
+1. Completed: publish the vision/foundation batch and verify matching Lovable instructions. All 17 prepared remote branch files matched local files byte-for-byte before merge.
 2. Inspect the next existing capped job's outputs after foundation deployment; do not trigger paid research merely to prove documentation changed.
 3. Repair Viral ranking/freshness using schema and UI evidence.
 4. Strengthen evidence coverage and targeted sources; correct demonstrated origin/country issues without collapsing distinct cultures.
@@ -76,9 +76,9 @@ New-chart acceptance: deterministic fixtures, stable ties, no false ranks on ins
 
 ## Publication record
 
-- Local preparation: tested foundation plus complete BDF/Atlas/Viral vision.
-- GitHub: complete vision committed to main as `c5f9af8`; exact remote file match verified. Remaining foundation/docs batch pending final merge/readback.
+- Foundation: Python 3.11 compilation and selftest passed; all 17 prepared files matched the uploaded branch exactly before merge.
+- GitHub: full vision committed as `c5f9af8` and exact file match verified. Remaining foundation/docs merged to main through [PR 2](https://github.com/DANCEATLAS/crawler/pull/2), commit `36f5e5c`; GitHub confirmed successful merge and closure. This ledger update records the result.
 - Lovable Project instructions: saved DA-VISION-2026-11-09-BDF; navigated away and reopened the settings, then verified the complete 8,286-character text persisted. No Lovable build prompt was sent.
-- Database, live UI, paid services and public distribution: no changes in this batch.
+- Database, live UI, workflow budgets/schedules, paid services and public video distribution: no changes in this batch. Supabase sign-in is needed for dashboard-only work, but was not needed for these documentation/code changes.
 
 Update after observed results. Never report “implemented across all platforms” when only prose was saved or a patch prepared.
