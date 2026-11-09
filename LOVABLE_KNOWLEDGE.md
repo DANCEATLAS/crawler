@@ -1,0 +1,41 @@
+DANCE ATLAS — PROJECT INSTRUCTIONS
+Revision: DA-VISION-2026-11-09-BDF. Read fully before any change.
+
+AUTHORITATIVE RECORDS
+Read the complete current owner vision: https://github.com/DANCEATLAS/crawler/blob/main/PRODUCT_VISION.md
+Then the actual implementation/platform ledger: https://github.com/DANCEATLAS/crawler/blob/main/IMPLEMENTATION_LEDGER.md
+Operations: https://github.com/DANCEATLAS/crawler/blob/main/AI_BRIEF.md
+These supersede conflicting historical handoffs. Requirements are not implemented capabilities. Keep this mirror and the repository revision aligned after meaningful changes.
+
+THE CENTRAL EXPERIENCE — BDF
+BDF means Best Dance Friend: a lifelong, personal AI dance mentor responsive to voice and movement. It speaks in the person's chosen language and preferred style, tone, pace and level of detail; its controllable memory of goals/preferences/progress grows with them. Through one mentor, people discover music, history through movement, cultural meaning/spirituality, learn, create and connect with people. Make the AI identity clear, preserve human agency and relationships, and let users correct/reset/delete memory. Do not cultivate dependency or use attachment to sell. The earlier single atlas narrator remains a default editorial identity; personalized BDF presentation is part of the expanded vision.
+
+LIFELONG AND GLOBAL
+The owner describes zero to 200 as a lifelong ambition, not a lifespan or health claim. Infants/toddlers participate through caregivers, not independent chatbots or open social accounts. Age-specific instruction, guardian controls, privacy and moderation must be reviewed before launch. Adults and older people receive optional reviewed adaptations based on ability/preferences, not stereotypes. Physical/mental wellbeing is an ambition, not a validated medical claim.
+
+ATLAS, VIRAL AND COMMUNITY ARE ALL FIRST-CLASS
+Atlas: rigorous profiles of traditions, styles, regions, communities, variants, endangered/rare/revived/historical dances. Discovery combines place/state/region/community/religion where sourced, purpose (grief, courage, luck, celebration, harvest, astronomical cycles etc.), music, outfits, level and solo/two-person/group formation. Do not flatten multiple origins into one country or infer endangerment from few online results.
+Viral: challenges, song dances, trends, K-pop, memes, regional waves, flashmobs and historic crazes. This section exists and MUST NOT be lost. Atlas's tradition-only exclusions must not erase valid challenges or moves from Viral. Preserve distinct identities, creator vs popularizer credit, exact song/edit, variants, sources/dates and cultural context. Link to older traditions where supported.
+Community: opt-in global classes, dance friends, partner/group practice, timezone-aware schedules/reminders, shared classroom views and continuing groups. Age/cultural and voluntary gender/sex preferences need clear policies, privacy and no demographic inference. No unrestricted adult/minor stranger contact. Recording/publication consent is separate from joining a class.
+
+VIRAL CREATION AND DISTRIBUTION
+BDF helps choose a challenge, understand it, practise it, learn supported tips, rehearse/capture takes and create a response or original dance. Prepare permitted costumes/outfits, backgrounds/stages, captions and editing assets. Support group/split-screen/mosaic collaborations with contributor credit, review and permission. Original choreography can draw on discovered traditions while clearly distinguishing new work from traditional or restricted practice. Prepare platform-specific video exports, then user-authorized distribution to chosen social/video accounts. Never publish automatically merely because a draft exists. Do not guarantee virality. Distinguish actual performance from generated alterations; visual tricks must not masquerade as correct teaching.
+
+TRUSTWORTHY POPULARITY
+Month/year/all-time charts must disclose metric, observation window, coverage, method and last successful update. Origin date plus cumulative views is not current-month activity; one video's views are not total challenge participation. Existing scoring/cache defects are documented in IMPLEMENTATION_LEDGER.md. Do not claim they are fixed without implementation/readback. Mark stale/insufficient data honestly. Bounded refresh must grow Viral across regions/languages within existing quotas.
+
+TEACHING, MUSIC AND FUTURE AR
+BDF can ultimately demonstrate, repeat, slow, change viewpoint, answer and adapt using reviewed units. Sensor feedback requires calibrated confidence; never invent unseen movement or missing mechanics. Preserve tradition-specific rhythm and avoid universal eight-counts. Sacred/restricted teaching stays withheld under current policy; publicly visible material is not permission to teach/reuse it.
+Prepare deeply evidenced cultural profiles, learning units, music/motion/visual briefs and rights records now. Original music must be credible to the specific tradition and have documented intended reuse rights; AI output is not automatically copyright-free. Original challenge songs need separate permission; a substitute practice track is labeled. Public references/embeds are not reusable production assets. Native language review and practitioner review remain separate from model scores.
+Future AR may put a teacher/dancers beside the learner, create a stage/audience or giant formation. Keep it a vendor-independent delivery layer with tested spatial/latency/accessibility controls. Do not build speculative AR or social screens now or imply these features already work.
+
+CURRENT CONTENT ARCHITECTURE — PRESERVE IT
+GitHub DANCEATLAS/crawler owns code, research, source truth, scripts and reports. Existing Actions run the budgeted content machine independently of Lovable or an active owner AI session. App boot fetches https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/dances.app.json (dw_app_v1, styles OBJECT keyed by slug) and retired.json; session cache plus bundled fallback. Deep content comes from profiles_v2.json; stats.json and episodes.json are additional outputs. Keep raw URLs, contracts, hero precedence, retirement redirects and graceful fallback. Do not manually hard-code research/data fixes in this UI. Supabase project maojpsywvbksrwkrxmjx mirrors catalogue and supplies existing Viral/account features; read pipeline/sync.py and actual schema/policies before changing tables. GitHub remains the prose ledger; private learner data never belongs in its public repository.
+
+ECONOMICS, RELEASE AND OPERATING RULES
+Maximize useful verified growth for years at minimal cost. Preserve current free tiers, prepaid fallback and workflow caps; cache evidence, avoid unchanged-input regeneration, bound retries and preserve good data on failures. Count reviewed content, rights and learning outcomes separately from volume. No new subscriptions, billing, paid production, public launch/promotion, payments or analytics costs without owner authorization. Do not connect Lovable to two-way GitHub sync without explicit approval. Secrets live in GitHub Actions, never prompts/files.
+Lovable credits are precious: content updates must not consume them. For UI work, prepare one complete narrow batch; no exploratory builds, extra dependencies, refactors, redesigns or unrelated changes. Saving these Project instructions is not a request to build features. Preserve current theme/routes/account behavior and phone performance unless explicitly tasked.
+Release needs demonstrated cultural, teaching, motion, language, rights, life-stage/social and economic quality plus the owner's decision. An assembled script, machine translation or model score is not a validated class. Evaluate new technology against actual tasks and update the ledger; never promise vendor demos solve the product.
+
+THE OWNER
+Assume zero technical knowledge. Do everything possible independently within authorization. Ask only when an owner action is unavoidable: one simple action at a time, under a large prominent heading, in plain language, with a brief purpose. No technical checklist or repeated approval requests. Never request secrets in chat or bypass authentication/consent. Record completed versus pending work honestly so any next AI can continue.
