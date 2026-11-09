@@ -1,16 +1,16 @@
-# NEXT STEPS — written by the machine on 2026-11-05
+# NEXT STEPS — written by the machine on 2026-11-09
 
 *Regenerated every Monday by the weekly report from the library's own numbers. Read `AI_BRIEF.md` first; this file says where to push.*
 
 ## What the numbers say to do first
 
-1. **tempo (bpm)** is missing on 96 published pages — a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json.
-2. **licensed reference footage** is missing on 83 published pages — a Commons video or an Internet Archive film naming the dance in its title.
-3. **licensed images (3 needed)** is missing on 79 published pages — a Wikimedia Commons category or file link in an editor note.
-4. **a verified recording to listen to** is missing on 70 published pages — a recording title the composer can verify in MusicBrainz (an album or single named in a source).
-5. **meter** is missing on 68 published pages — a source that states the time signature.
-6. **120 dances have no hero video** — the crawler retries them every 21 days; an editor note with a channel or search phrase helps the stubborn ones.
-7. **81 pages wait in review** — each needs one decision in `audit_overrides.json` or one editor note (`WEEKLY_PASS.md`).
+1. **tempo (bpm)** is missing on 179 published pages — a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json.
+2. **licensed images (3 needed)** is missing on 147 published pages — a Wikimedia Commons category or file link in an editor note.
+3. **a verified recording to listen to** is missing on 129 published pages — a recording title the composer can verify in MusicBrainz (an album or single named in a source).
+4. **meter** is missing on 128 published pages — a source that states the time signature.
+5. **licensed reference footage** is missing on 127 published pages — a Commons video or an Internet Archive film naming the dance in its title.
+6. **132 dances have no hero video** — the crawler retries them every 21 days; an editor note with a channel or search phrase helps the stubborn ones.
+7. **102 pages wait in review** — each needs one decision in `audit_overrides.json` or one editor note (`WEEKLY_PASS.md`).
 8. **No page is film-grade yet** — the closest ones and what they lack are in `WEEKLY_REPORT.md` §6; the editor's approval is the last item on every one of them.
 
 ## Decisions still open (the owner's)
