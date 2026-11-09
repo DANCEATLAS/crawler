@@ -23,10 +23,13 @@ like an editor, deciding what the machine cannot decide, and finding what the ma
 - Read like the owner's editor-in-chief: Is it true (spot-check two claims against their quoted source)? Is it respectful and precise about the culture?
   Is it concrete (people, places, years, objects) or filler? Would a beginner learn the first steps from `teaching` and `movement_profile`?
   Is it a dance *style/tradition* at all, or a move, a song, a festival, a company, a person (the judge misses some)?
+  That test is for the Atlas catalogue only. Viral challenges and trends are a separate, first-class collection (`viral_challenges_verified.json`,
+  `PRODUCT_VISION.md`): retiring or merging a move in the Atlas does not touch Viral, and a valid challenge is never erased — name it in the log as a Viral candidate.
 - Decide, one line each:
   - true (two claims spot-checked), respectful, concrete, teachable → **approve it**: `pipeline_state/editor_approvals.json`:
     `{"slug": {"at": "YYYY-MM-DD", "by": "weekly pass", "note": "what was checked"}}`. Approval is the last item of the film-grade standard
     (`STANDARD.md`); it lapses when the page is re-researched, so re-read pages whose `researched_at` is newer than your approval.
+    It is a research-preparation check, not practitioner, rights or release approval (`STANDARD.md`, `PRODUCT_VISION.md`).
   - not a dance / a double / hopeless → `audit_overrides.json`: `"slug": "retire"` or `"slug": "merge:<other-slug>"`.
   - a page with a fixable fault → `pipeline_state/editor_notes.json`: `{"slug": {"note": "<what is wrong and what the page must say instead>", "at": "YYYY-MM-DD"}}`.
     The next daily run re-researches that page first and hands your note to the composer as an order; the note is marked `done_at` afterwards.
@@ -54,17 +57,20 @@ like an editor, deciding what the machine cannot decide, and finding what the ma
 - Append this week's entry to `EDITORIAL_LOG.md` (root): date, pages read, decisions made (counts and the notable ones), rule changes, sources added, what the next pass should look at first. Short.
 
 ## 5. Commit (the only mechanical part)
-```
-# from the folder where the edited copies live (same relative paths as the repo)
-python3 tools/upload_payload.py --dir ""             --summary "weekly pass <date>: …" --description "…" --out p1.js audit_overrides.json EDITORIAL_LOG.md
-python3 tools/upload_payload.py --dir pipeline_state --summary "weekly pass <date>: editor notes, sources, approvals" --out p2.js editor_notes.json sources_extra.json editor_approvals.json
-python3 tools/upload_payload.py --dir pipeline       --summary "…" --out p3.js research.py        # only if you changed code
-```
-Each run prints the GitHub upload URL to open in Chrome (`tabs_context_mcp` first; `navigate`; then `javascript_tool` with the payload text).
-The payload stages the files, fills the commit form, waits for the upload and submits. It fetches the live file at commit time and refuses to
-stage anything if the live file no longer matches the hunks, so it cannot overwrite a newer change. Verify afterwards:
-`curl -s "https://raw.githubusercontent.com/DANCEATLAS/crawler/main/<path>?nc=1" | sha1sum` matches the tail the tool printed.
-End every commit description with the attribution lines your session was given.
+Publish through GitHub's normal upload page in the owner's signed-in Chrome — no injected scripts (`AGENTS.md`). One folder per commit.
+1. Keep the edited copies in your scratchpad under the repo's relative paths. Just before uploading, fetch each live file
+   (`https://raw.githubusercontent.com/DANCEATLAS/crawler/main/<path>?nc=<random>`) and make sure your copy was made from it: the upload
+   replaces the whole file, so if someone changed it meanwhile, redo your edit on the new version. For code: `python3.11 -m py_compile` and
+   `python3.11 -m pipeline.run selftest` first.
+2. Chrome tools: `tabs_context_mcp` → `navigate` to `https://github.com/DANCEATLAS/crawler/upload/main/<folder>` (`pipeline_state`, `pipeline`,
+   or nothing for root files) → `find` the file input ("Choose your files") → `file_upload` with that ref and the absolute paths of your files.
+3. `form_input` the commit summary ("weekly pass <date>: …") and the description, ending with the attribution lines your session was given;
+   leave "Commit directly to the main branch"; click "Commit changes" by its ref.
+4. Verify: open `https://github.com/DANCEATLAS/crawler/commits/main`, take the new commit's id and compare
+   `curl -s https://raw.githubusercontent.com/DANCEATLAS/crawler/<commit-id>/<path> | sha1sum` with `sha1sum` of your copy
+   (the `main` address lags several minutes; the commit id does not).
+`tools/upload_payload.py` is legacy: do not run its payloads. If no browser is signed in to GitHub, do not sign in or type any password;
+put your decisions verbatim in your final message instead.
 
 ## 6. Tell the owner (1 minute)
 One short message, bold headers, five lines at most: the best new page of the week in one sentence, what you fixed or decided (numbers: approved,
