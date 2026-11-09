@@ -34,6 +34,29 @@ def _flag(cc):
         return None
     return "".join(chr(0x1F1E6 + ord(c.upper()) - ord("A")) for c in cc)
 
+def attach_media(slug, style, heroes, hero_qc, tutorials):
+    """Attach crawler results after research has established the final sacred flags.
+
+    Both original and discovered entries use this path. Restriction flags always
+    remove teaching links, including links inherited from the bundled catalogue.
+    """
+    h = heroes.get(slug) or {}
+    e = hero_qc.get(slug) or {}
+    if h.get("hero_video_youtube_id"):
+        style["hero_video_youtube_id"] = h["hero_video_youtube_id"]
+        if h.get("video_stack"):
+            style["video_stack"] = h["video_stack"]
+        style["hero_source"] = "crawler:" + str(h.get("status") or "")
+    elif e.get("remove_from_db"):
+        style["hero_video_youtube_id"] = None
+    if e:
+        style["hero_qc"] = {k: e.get(k) for k in ("verdict", "checked_at", "soft_fail")}
+    t = tutorials.get(slug) or {}
+    if style.get("_is_sacred") or style.get("is_sacred"):
+        style.pop("tutorials", None)
+    elif isinstance(t, dict) and t.get("lessons"):
+        style["tutorials"] = t["lessons"]
+
 def run(include_review=False):
     rep = Report("build")
     app = {s["slug"]: dict(s) for s in load_app_catalog()}
@@ -61,21 +84,6 @@ def run(include_review=False):
                 for a in [app[other].get("name")] + list(app[other].get("aliases") or []):
                     if a and norm(a) != norm(st.get("name") or "") and norm(a) not in {norm(x) for x in (st.get("aliases") or [])}:
                         st["aliases"] = list(st.get("aliases") or []) + [a]
-        # hero: crawler wins; a QC-removed hero is dropped
-        h = heroes.get(slug) or {}
-        e = hq.get(slug) or {}
-        if h.get("hero_video_youtube_id"):
-            st["hero_video_youtube_id"] = h["hero_video_youtube_id"]
-            if h.get("video_stack"):
-                st["video_stack"] = h["video_stack"]
-            st["hero_source"] = "crawler:" + str(h.get("status") or "")
-        elif e.get("remove_from_db"):
-            st["hero_video_youtube_id"] = None
-        if e:
-            st["hero_qc"] = {"verdict": e.get("verdict"), "checked_at": e.get("checked_at"), "soft_fail": e.get("soft_fail")}
-        t = tutorials.get(slug) or {}
-        if isinstance(t, dict) and t.get("lessons") and not (s.get("_is_sacred") or s.get("is_sacred")):
-            st["tutorials"] = t["lessons"]
         styles[slug] = st
     # 2. researched profiles (existing or new)
     for slug, q in qindex.items():
@@ -140,6 +148,9 @@ def run(include_review=False):
             if p.get("tradition_status"):
                 st["tradition_status"] = p.get("tradition_status")
         styles[slug] = st
+    # Final pass: new and original entries receive the same media treatment.
+    for slug, st in styles.items():
+        attach_media(slug, st, heroes, hq, tutorials)
     # retired: existing app dances whose research+QC concluded duplicate/reject AND judge says reject (conservative: only explicit duplicates)
     for slug, q in qindex.items():
         qc = jload(os.path.join(QC_DIR, slug + ".json")) or {}
@@ -170,7 +181,8 @@ def run(include_review=False):
              "deep_profiles": len(v2), "movie_ready": sum(1 for v in v2.values() if v.get("movie_ready")),
              "with_albums": sum(1 for s in styles.values() if s.get("albums")), "with_images": sum(1 for s in styles.values() if s.get("images")),
              "with_tutorials": sum(1 for s in styles.values() if s.get("tutorials")), "content_ready": sum(1 for s in styles.values() if s.get("tier") == "content_ready"),
-             "new_from_pipeline": sum(1 for s in styles.values() if s.get("origin") == "pipeline"), "retired": len(retired), "counters": dict(counters), "pipeline": PIPELINE_VERSION}
+             "new_from_pipeline": sum(1 for s in styles.values() if s.get("origin") == "pipeline"), "retired": len(retired), "counters": dict(counters), "pipeline": PIPELINE_VERSION,
+             "research_gates": dict(Counter(s.get("research_gate") or "unreviewed" for s in styles.values()))}
     jsave(os.path.join(CATALOG_DIR, "stats.json"), stats)
     for k, v in counters.items():
         rep.inc(k, v)

@@ -1,4 +1,6 @@
 # DANCING ATLAS — HANDOFF V32 (29 Oct 2026)
+**Historical snapshot. Current owner direction: `PRODUCT_VISION.md` (DA-VISION-2026-11-09-BDF); actual state and open work: `IMPLEMENTATION_LEDGER.md`. BDF and Viral creation/distribution supersede the older movie-only framing.**
+
 **Any AI continuing this work: read `AI_BRIEF.md` first — the vision, the rules, the system map and how to operate without the owner.**
 
 *(delta on V31: the content pipeline v3 — growth, depth and quality control as a daily, self-running system; the website reads the published catalogue. First real runs done; what they showed; what is still the owner's call.)*

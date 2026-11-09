@@ -73,6 +73,8 @@ def main(argv=None):
                 from . import report; results[st] = report.run()
             elif st == "selftest":
                 from . import selftest; results[st] = selftest.run()
+                if (results[st].get("counters") or {}).get("failures"):
+                    return 1
             else:
                 print("unknown stage", st); return 2
         except Exception as e:

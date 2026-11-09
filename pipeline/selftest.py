@@ -121,4 +121,7 @@ def run():
         check("report e-mail pieces", "width='50%'" in _bar(5, 10) and "+2" in _chip(5, 3) and "−2" in _chip(3, 5) and mdbar(1, 2) == "`██████░░░░░░`" and "<strong>x</strong>" in _inline("**x**"))
     except Exception as e:
         check("movie phase selftest", False, repr(e))
-    return {"counters": {"failures": len(fails)}}
+    import unittest
+    from . import test_foundation
+    result = unittest.TextTestRunner(verbosity=1).run(unittest.defaultTestLoader.loadTestsFromModule(test_foundation))
+    return {"counters": {"failures": len(fails) + len(result.failures) + len(result.errors)}}

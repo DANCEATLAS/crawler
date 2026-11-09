@@ -18,14 +18,14 @@ research queue through pipeline_state/episode_gaps.json.
 Outputs: episodes/<slug>.json, episodes/<slug>.md, public/catalog/episodes.json (index), pipeline_state/episode_gaps.json.
 Sacred or restricted dances get Episode 1 only (story, music, costume); the chapters are withheld.
 """
-import os, re, json, glob
+import os, re, json, glob, hashlib
 from .common import jload, jsave, load_state, save_state, log, warn, Report, LLM, now_iso, PIPELINE_VERSION
 from .research import _said, _said_not, CHECKLIST
 from .qc import QC_DIR
 
 EPISODE_DIR = "episodes"
 RESEARCH_DIR = "research_results"
-PACK_VERSION = "e1"
+PACK_VERSION = "e2"
 PLACEHOLDER = ("not described", "not in sources", "not derivable", "withheld", "unknown")
 
 NARRATOR = {"role": "narrator", "name": "The Atlas narrator", "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
@@ -75,16 +75,24 @@ def tempo_bpm(mp):
     return v if 40 <= v <= 240 else None
 
 def counting_for(meter, patterns):
-    """Counting scheme: what the studied teachers of this dance/family use; else derived from the meter."""
+    """Dance-specific counts or an explicitly metrical practice count.
+
+    Meter alone cannot establish the dance's step timing. Missing meter stays
+    missing; neither family resemblance nor a default eight-count supplies it.
+    """
     if patterns and patterns.get("counting"):
         return patterns["counting"]
     m = (meter or "").strip()
     if re.match(r"^\s*3\s*/\s*4", m) or "waltz" in m.lower():
         return "1-2-3, 2-2-3 (three counts a bar)"
     if re.match(r"^\s*6\s*/\s*8", m):
-        return "1-2-3-4-5-6, or quick-quick-slow across the bar"
-    if re.match(r"^\s*(2|4)\s*/\s*4", m) or not m or not ok(m, 1):
+        return "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)"
+    if re.match(r"^\s*2\s*/\s*4", m):
+        return "1-2, 1-2 (two beats a bar; practice pulse only)"
+    if re.match(r"^\s*4\s*/\s*4", m):
         return "1-2-3-4 then 5-6-7-8 (eight counts, two bars)"
+    if not m or not ok(m, 1):
+        return ""
     return f"count the {m} bar out loud, then in pairs of bars"
 
 def clean_list(xs, n=8):
@@ -139,7 +147,9 @@ def build_pack(rec, qc, st, patterns):
         f"It should sound like this: {mp.get('sound_description')}" if ok(mp.get("sound_description")) else "",
         "New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
     ] if x)
-    music = {"purpose": "copyright-free soundtrack with the same DNA as the tradition's music — an original creation, not a reproduction",
+    music = {"purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+             "rights_status": "not_assessed",
+             "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
              "tempo_bpm": bpm, "meter": meter, "rhythm_pattern": mp.get("rhythm_pattern") if ok(mp.get("rhythm_pattern")) else None,
              "instruments": instruments, "vocal_style": mp.get("vocal_style") if ok(mp.get("vocal_style")) else None,
              "musical_form": mp.get("musical_form") if ok(mp.get("musical_form")) else None, "mood": moods,
@@ -157,7 +167,7 @@ def build_pack(rec, qc, st, patterns):
     if not bpm: need("tempo (bpm)")
     if not meter: need("meter")
     if not instruments: need("instruments")
-    if not refs: need("a verified recording to listen to")
+    if not albums: need("a verified recording to listen to")
 
     # ---------- visual brief
     costume_text = secs.get("costume_and_setting") if ok(secs.get("costume_and_setting")) else ""
@@ -187,6 +197,7 @@ def build_pack(rec, qc, st, patterns):
     # ---------- teaching formula (from the studied teachers)
     formula = {"source": pat.get("source") or "built-in defaults (no tutorial studied yet for this dance or family)",
                "videos_studied": pat.get("videos") or 0, "counting": counting,
+               "counting_basis": "studied dance-specific tutorial" if pat.get("counting") else ("meter-derived practice pulse; step timing not validated" if meter else "missing"),
                "demonstration": pat.get("demonstration") or ["front view, then back view (student's perspective)", "slow, then half tempo, then full tempo", "three repetitions of every step before moving on"],
                "cues": pat.get("cues") or ["say the count before the move", "name the body part, then the direction", "one correction at a time"],
                "common_mistakes": pat.get("mistakes") or [], "segment_order": pat.get("segment_order") or ["welcome", "body", "count", "step", "step", "combine", "mistakes", "music", "recap"],
@@ -229,7 +240,7 @@ def build_pack(rec, qc, st, patterns):
     else:
         E.append(scene("first_step", "Try one step", 60, ([f"Before we go, one step. {steps[0]}"] + ([steps[1]] if len(steps) > 1 else []) + [f"Count it: {counting}.", "Chapter 1 takes it slowly from here."]) if steps else [], ["Instructor, front view, slow", "Count on screen"], "lesson_slow",
                        needs=None if steps else ["teaching steps"]))
-    E.append(scene("close", "Until next time", 25, [eb.get("logline") if ok(eb.get("logline")) else "", f"Sources: {len(rec.get('sources') or [])} references, every claim checked against its source."], ["Credits: sources, image and footage licences, music provenance"], "theme (20 s)"))
+    E.append(scene("close", "Until next time", 25, [eb.get("logline") if ok(eb.get("logline")) else "", f"Sources: {len(rec.get('sources') or [])} references are listed with the profile."], ["Credits: sources, image and footage licences, music provenance"], "theme (20 s)"))
 
     # ---------- Chapters
     chapters = []
@@ -252,7 +263,7 @@ def build_pack(rec, qc, st, patterns):
                            ["Instructor front view, name of the chapter, the three things you will learn"], "theme (10 s) then silence"))
             body = [x for x in [mv.get("posture") if ok(mv.get("posture")) else "", mv.get("arms_and_hands") if ok(mv.get("arms_and_hands")) else "", mv.get("hips_and_torso") if ok(mv.get("hips_and_torso")) else ""] if x]
             if not body: nd.append("posture / arms")
-            C.append(scene("body", "Body and posture", 60, body or ["Posture notes are not in the sources yet — the instructor demonstrates neutral posture and the arm position seen in the hero video."], ["Instructor front then side view; freeze-frame on posture", "Overlay: the hero video's posture for comparison" if hero else ""], "silence", needs=["posture"] if not body else None))
+            C.append(scene("body", "Body and posture", 60, body, ["Instructor front then side view; freeze-frame on validated posture" if body else "Demonstration withheld until posture is sourced"], "silence", needs=["posture"] if not body else None))
             C.append(scene("count", "Count and rhythm", 60, [f"Count: {counting}." + (f" The meter is {meter}." if meter else ""), (f"Rhythm pattern: {mp.get('rhythm_pattern')}." if ok(mp.get('rhythm_pattern')) else ""), "Clap it first, then step it in place."], ["Counts on screen, flashing on the beat", f"Metronome at {int(bpm * 0.7)} bpm" if bpm else "Metronome — tempo MISSING, use a slow comfortable pulse"], "lesson_slow (clicks only until the step lands)",
                            needs=[x for x, c in (("tempo", bool(bpm)), ("meter", bool(meter))) if not c] or None))
             sa = t["steps"][:2]; sb = t["steps"][2:4]
@@ -267,7 +278,7 @@ def build_pack(rec, qc, st, patterns):
             adapt = p.get("adaptations") or {}
             se, ch = adapt.get("seniors") or {}, adapt.get("children") or {}
             opts = [x for x in [f"Seated or supported option: {se.get('seated_version')}" if ok(se.get('seated_version'), 12) else "", f"For children: {ch.get('game_version')}" if ok(ch.get('game_version'), 12) else ""] if x]
-            C.append(scene("mistakes", "Common mistakes and what to avoid", 60, mistakes or ["The sources do not list common mistakes yet; the instructor names the two most visible ones from the hero video."], ["Side-by-side: wrong / right", "Options card: " + " · ".join(opts) if opts else ""], "silence",
+            C.append(scene("mistakes", "Common mistakes and what to avoid", 60, mistakes, ["Side-by-side: source-supported correction" if mistakes else "Correction withheld until evidence is available", "Options card: " + " · ".join(opts) if opts else ""], "silence",
                            {"options": opts, "derived_note": "options are derived teaching suggestions, not facts from the sources"}, needs=["what_to_avoid"] if not mistakes else None))
             C.append(scene("music_run", "Dance it to the music", 120, [f"Count-in: {counting}.", "Full tempo, the whole sequence, twice." + (f" Formation: {mv.get('formation_and_space')}" if ok(mv.get("formation_and_space")) and t["n"] >= 2 else "")], ["Wide shot, instructor and two students", f"Track: lesson_full at {bpm} bpm" if bpm else "Track: lesson_full (tempo MISSING)"], "lesson_full"))
             culture = sentences(secs.get(["occasions_and_meaning", "notable_figures", "lineage"][t["n"] - 1]), 1)
@@ -286,7 +297,7 @@ def build_pack(rec, qc, st, patterns):
     gaps = list(dict.fromkeys(gaps))
     status = "withheld-chapters" if sacred else ("complete" if not gaps else "draft")
     pack = {"slug": slug, "name": name, "pack_version": PACK_VERSION, "built_at": now_iso(), "researched_at": rec.get("researched_at"), "qc_score": (qc or {}).get("qc_score"),
-            "status": status, "sacred": sacred, "chapters_note": chapters_note,
+            "status": status, "release_status": "not_validated", "sacred": sacred, "chapters_note": chapters_note,
             "formula": {"episode_1": [s["code"] for s in E], "chapter": ["welcome", "body", "count", "step_a", "step_b", "combine", "mistakes", "music_run", "close"]},
             "voice": {"narrator": NARRATOR, "instructor": {"persona": persona, "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"}, "pronunciation": pron},
             "episode_1": {"title": f"Meet {name}", "scenes": E, "runtime_s": sum(s["duration_s"] for s in E)},
@@ -397,11 +408,27 @@ def patterns_for(slug, family, patterns):
         return {"source": f"{by_slug['videos']} tutorial(s) of this dance studied", "videos": by_slug["videos"], "counting": by_slug.get("counting"), "cues": by_slug.get("cues"), "mistakes": by_slug.get("mistakes"), "demonstration": by_slug.get("demonstration"), "segment_order": by_slug.get("segment_order"), "steps_as_taught": by_slug.get("steps_as_taught")}
     fam = (patterns.get("by_family") or {}).get(family or "")
     if fam and fam.get("videos"):
-        return {"source": f"{fam['videos']} tutorial(s) of the {family} family studied", "videos": fam["videos"], "counting": fam.get("counting"), "cues": fam.get("cues"), "mistakes": [], "demonstration": fam.get("demonstration"), "segment_order": fam.get("segment_order")}
+        return {"source": f"{fam['videos']} tutorial(s) of the {family} family studied", "videos": fam["videos"], "counting": None, "cues": fam.get("cues"), "mistakes": [], "demonstration": fam.get("demonstration"), "segment_order": fam.get("segment_order")}
     g = patterns.get("global") or {}
     if g.get("videos"):
         return {"source": f"{g['videos']} tutorials across the atlas studied", "videos": g["videos"], "counting": None, "cues": g.get("cues"), "mistakes": [], "demonstration": g.get("demonstration"), "segment_order": g.get("segment_order")}
     return {}
+
+def input_fingerprint(rec, qc, style, patterns):
+    """Hash semantic pack inputs; changing a run timestamp alone costs no rebuild.
+
+    Provider-independent content identity also lets downstream exporters detect
+    stale translations or generated assets without regenerating the whole atlas.
+    """
+    inputs = {
+        "pack_version": PACK_VERSION,
+        "research": {k: v for k, v in rec.items() if k not in ("llm_calls", "evidence")},
+        "qc": {k: qc.get(k) for k in ("qc_score", "is_sacred", "publish_gate", "judge")},
+        "media": {k: style.get(k) for k in ("hero_video_youtube_id", "video_stack", "tutorials", "is_sacred", "_is_sacred")},
+        "hero_qc": {k: (style.get("hero_qc") or {}).get(k) for k in ("verdict", "soft_fail")},
+        "teaching": patterns,
+    }
+    return hashlib.sha256(json.dumps(inputs, sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode("utf-8")).hexdigest()
 
 def run(polish_budget=0, only=None):
     rep = Report("episodes")
@@ -421,13 +448,16 @@ def run(polish_budget=0, only=None):
             continue
         qc = jload(os.path.join(QC_DIR, slug + ".json"), {}) or {}
         prev = jload(os.path.join(EPISODE_DIR, slug + ".json"), None)
-        fresh = prev and prev.get("researched_at") == rec.get("researched_at") and prev.get("pack_version") == PACK_VERSION and prev.get("hero_checked") == ((cat.get(slug) or {}).get("hero_qc") or {}).get("verdict")
+        selected_patterns = patterns_for(slug, rec.get("family"), patterns)
+        fingerprint = input_fingerprint(rec, qc, cat.get(slug) or {}, selected_patterns)
+        fresh = prev and prev.get("input_fingerprint") == fingerprint
         try:
             if fresh:
                 pack = prev
                 rep.inc("unchanged")
             else:
-                pack = build_pack(rec, qc, cat.get(slug) or {}, patterns_for(slug, rec.get("family"), patterns))
+                pack = build_pack(rec, qc, cat.get(slug) or {}, selected_patterns)
+                pack["input_fingerprint"] = fingerprint
                 pack["hero_checked"] = ((cat.get(slug) or {}).get("hero_qc") or {}).get("verdict")
                 rep.inc("built")
             if llm and not pack.get("polished") and polished < polish_budget and not pack.get("sacred"):
@@ -447,8 +477,12 @@ def run(polish_budget=0, only=None):
         except Exception as e:
             rep.error(f"episodes {slug}: {e}")
     for s in list(packs):
-        if s not in targets:
+        if s in retired or (qidx.get(s) or {}).get("publish_gate") != "publish":
             packs.pop(s, None)   # no longer published
+    # A targeted build must retain the other published packs and their gaps.
+    if only:
+        previous_gaps = load_state("episode_gaps.json", {}) or {}
+        gaps_all = {**{s: g for s, g in previous_gaps.items() if s in packs and s not in targets}, **gaps_all}
     jsave(os.path.join("public", "catalog", "episodes.json"), {"schema": "dw_episodes_v1", "pack_version": PACK_VERSION, "generated_at": now_iso(), "count": len(packs),
                                                               "complete": sum(1 for v in packs.values() if v["status"] == "complete"), "polished": sum(1 for v in packs.values() if v["polished"]),
                                                               "formula": {"episode_1": ["hook", "where", "occasion", "watch", "music", "costume", "people", "family", "first_step", "close"], "chapter": ["welcome", "body", "count", "step_a", "step_b", "combine", "mistakes", "music_run", "close"]},

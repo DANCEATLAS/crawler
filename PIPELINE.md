@@ -69,3 +69,10 @@ This is a data-building mission. Every profile is written so that, when the tech
 generator as is: the music DNA and verified recordings → original, copyright-free music in the style; the movement DNA and lesson ladder → the class; the episode brief,
 images and costume notes → the film; the connections → the map between dances. No video or music is produced by this pipeline; the website is the library's first reader.
 `STATUS.md` reports how many pages are movie-ready and which class elements are still missing most across the library.
+
+
+## Current product scope and Viral correction work (9 November 2026)
+
+`PRODUCT_VISION.md` (DA-VISION-2026-11-09-BDF) defines the lifelong Best Dance Friend, Atlas, Viral studio, co-creation/distribution, global classes and AR destination. These requirements are distinct from implemented pipeline stages. `IMPLEMENTATION_LEDGER.md` records the verified baseline, foundation changes and prioritized Viral defects.
+
+Viral uses `crawler.py`, `viral_results.json`, `viral_cache.json`, `score_virals.py`, `push_viral.yml` and Supabase challenge/score/history/vote data. It is not covered by tradition-only profile exclusions. Its current month/year scores use origin-date decay rather than measured activity windows; its cache and score health need the corrections in the ledger. Do not describe the existing chart as a validated current popularity feed. No new Viral quotas or database migrations were introduced by the vision update.

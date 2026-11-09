@@ -5,7 +5,7 @@ is fetched first; the model may only write what the evidence supports and must
 attach a verbatim quote to every claim.  Quotes are then checked mechanically
 against the fetched text, so hallucinated facts are caught before QC.
 """
-import re, os, json
+import re, os, json, hashlib
 from .common import LLM, log, warn, norm, slugify, now_iso, jsave, jload, state_path, sha1, Report, load_state, save_state, Supabase
 from .catalog import load_catalog, NameIndex, completeness
 from .taxonomy import FAMILIES, REGIONS, country_lookup, sacred_hint
@@ -391,8 +391,18 @@ def research_one(d, llm, sb=None):
     slug = d.get("slug") or slugify(d.get("name"))
     out_path = os.path.join(RESULTS_DIR, slug + ".json")
     ev = gather_evidence(d)
+    prev = jload(out_path) or {}
+    evidence_fingerprint = hashlib.sha256(json.dumps(_source_texts(ev), sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()
+    if d.get("_completion_retry"):
+        followups = load_state("completion_followups.json", {}) or {}
+        followups[slug] = {"checked_at": now_iso(), "evidence_fingerprint": evidence_fingerprint}
+        save_state("completion_followups.json", followups)
+        if (prev.get("status") == "researched" and prev.get("schema") == RESEARCH_SCHEMA
+                and prev.get("evidence_fingerprint") == evidence_fingerprint):
+            log(f"RESEARCH completion {slug}: evidence unchanged; no model call")
+            return prev
     rec = {"slug": slug, "name": d.get("name"), "researched_at": now_iso(), "evidence": {k: v for k, v in ev.items() if k not in ("images",)},
-           "images": ev.get("images", []), "status": "no_sources"}
+           "images": ev.get("images", []), "status": "no_sources", "evidence_fingerprint": evidence_fingerprint}
     # keep the evidence texts out of the committed result (they are in the cache) but keep hashes + urls
     for k in ("wikipedia", "wikipedia_other"):
         if k in rec["evidence"]:
@@ -405,14 +415,19 @@ def research_one(d, llm, sb=None):
     if "extra" in rec["evidence"]:
         rec["evidence"]["extra"] = [{kk: vv for kk, vv in x.items() if kk != "text"} for x in rec["evidence"]["extra"]]
     if not ev.get("wikipedia") and not ev.get("wikidata"):
+        if d.get("_completion_retry") and prev.get("status") == "researched":
+            warn("completion refresh found no sources; keeping existing research", slug)
+            return prev
         jsave(out_path, rec)
         return rec
-    prev = jload(out_path) or {}
     prev_gaps = list(((prev.get("profile") or {}).get("gaps") or [])[:8]) + [("class is missing: " + m) for m in ((prev.get("class_checklist") or {}).get("missing") or [])[:8]]
     # what the episode pack could not fill (pipeline/episodes.py) is asked for too — the script layer tells research what it needs
     prev_gaps += [("the episode script is missing: " + g) for g in ((load_state("episode_gaps.json", {}) or {}).get(slug) or [])[:6] if isinstance(g, str)]
     comp = compose(d, ev, llm, prev_gaps=prev_gaps)
     if not comp:
+        if d.get("_completion_retry") and prev.get("status") == "researched":
+            warn("completion refresh failed; keeping existing research", slug)
+            return prev
         rec["status"] = "llm_failed" if llm.enabled else "dry_run"
         jsave(out_path, rec)
         return rec
@@ -454,19 +469,33 @@ def research_one(d, llm, sb=None):
 CHECKLIST = ("footwork_with_counts", "posture", "arms_and_hands", "formation", "tempo_or_meter", "instruments", "sound_description",
              "signature_moves", "lesson_ladder", "story_beats", "hooks", "costume", "occasions", "notable_figures", "recordings", "images", "connections", "footage")
 
+def has_count_sequence(text):
+    """A conservative structural check, not proof of pedagogical correctness.
+
+    Require at least two explicit counts. Mere mentions of steps, beats or
+    counting cannot satisfy this field. Non-counted traditions remain gaps for
+    a future source-backed applicability rule rather than receiving invented counts.
+    """
+    if not isinstance(text, str) or _said_not(text):
+        return False
+    token = r"(?:[1-8]|one|two|three|four|five|six|seven|eight)"
+    if re.search(rf"\b{token}\b(?:\s*[-–,&]\s*|\s+and\s+)\b{token}\b", text, re.I):
+        return True
+    return len(set(re.findall(rf"\b(?:count|beat)\s+({token})\b", text, re.I))) >= 2
+
 def class_checklist(comp, rec_images=(), albums=(), footage=()):
     """What a fun, teachable class still lacks for this dance. Missing items steer the next deepening pass."""
     mp, mv, eb = comp.get("music_profile") or {}, comp.get("movement_profile") or {}, comp.get("episode_brief") or {}
     secs = comp.get("sections") or {}
     have = {
-        "footwork_with_counts": _said(mv.get("footwork")) and bool(re.search(r"\b(count|beat|1-2|one-two|step[s]?)\b", mv.get("footwork") or "", re.I)),
+        "footwork_with_counts": _said(mv.get("footwork")) and has_count_sequence(mv.get("footwork")),
         "posture": _said(mv.get("posture")), "arms_and_hands": _said(mv.get("arms_and_hands")), "formation": _said(mv.get("formation_and_space")),
         "tempo_or_meter": (not _said_not(mp.get("tempo_bpm"))) or (not _said_not(mp.get("meter"))),
         "instruments": bool(mp.get("instruments")), "sound_description": _said(mp.get("sound_description")),
         "signature_moves": bool(mv.get("signature_moves")), "lesson_ladder": len(eb.get("lesson_ladder") or []) >= 3,
         "story_beats": len(eb.get("beats") or []) >= 5, "hooks": _said(comp.get("insight")) and _said(eb.get("title_hook")),
         "costume": _said(secs.get("costume_and_setting")), "occasions": _said(secs.get("occasions_and_meaning")),
-        "notable_figures": _said(secs.get("notable_figures")), "recordings": bool(albums) or bool(mp.get("reference_recordings")),
+        "notable_figures": _said(secs.get("notable_figures")), "recordings": bool(albums),
         "images": len(rec_images or []) >= 3, "connections": bool(comp.get("connections")), "footage": bool(footage),
     }
     missing = [k for k in CHECKLIST if not have.get(k)]
@@ -490,12 +519,26 @@ def movie_ready(comp):
     return bool(music and move and story)
 
 def pick_enrichment_targets(catalog, n):
-    """Lowest completeness first. A record researched in the last 60 days is skipped unless it predates the current
-    research schema (then it is re-deepened so every page reaches movie-ready depth once)."""
+    """Keep broad enrichment; reserve at most a third for published pack gaps.
+
+    Explicit editorial work takes priority. Completion retries wait seven days,
+    diversify by region, and consume the existing enrichment budget. Unchanged
+    evidence is detected before composition, so retries need not spend model calls.
+    """
+    if n <= 0:
+        return []
     done = load_state("research_index.json", {})
     gone = {k for k, v in load_state("audit.json", {}).items() if v.get("decision") in ("retire", "merge")}
     notes = load_state("editor_notes.json", {}) or {}
     extra = load_state("sources_extra.json", {}) or {}
+    gaps = load_state("episode_gaps.json", {}) or {}
+    qc = load_state("qc_index.json", {}) or {}
+    followups = load_state("completion_followups.json", {}) or {}
+    # The public export includes discoveries that may not yet be in Supabase.
+    published = (jload("public/catalog/dances.app.json", {}) or {}).get("styles") or {}
+    by_slug = {d["slug"]: d for d in catalog}
+    for slug, d in published.items():
+        by_slug.setdefault(slug, d)
     def flagged(slug):
         """An open editor note, or an extra source added after the last research pass, puts a page first in the queue."""
         prev = done.get(slug) or {}
@@ -504,21 +547,46 @@ def pick_enrichment_targets(catalog, n):
         if n.get("note") and not n.get("done_at"):
             return True
         return any((x.get("added") or "") > last[:10] for x in (extra.get(slug) or []) if isinstance(x, dict))
-    scored = []
-    for d in catalog:
+    scored, priority, finish = [], [], []
+    media_only = {"a hero video", "the hero video's vision check", "licensed images (3 needed)", "licensed reference footage"}
+    for d in by_slug.values():
         if d["slug"] in gone:
             continue
         prev = done.get(d["slug"]) or {}
         last = prev.get("researched_at", "")
         if flagged(d["slug"]):
-            scored.append((-1, d)); continue
+            priority.append(d); continue
+        checked = max(last, (followups.get(d["slug"]) or {}).get("checked_at") or "")
+        research_gaps = [g for g in gaps.get(d["slug"], []) if g not in media_only]
+        if (prev.get("status") == "researched" and (qc.get(d["slug"]) or {}).get("publish_gate") == "publish"
+                and research_gaps and checked[:10] < _days_ago(7)):
+            finish.append((-(prev.get("class_have") or 0), len(research_gaps), checked, d["slug"], d))
         if last and last[:10] >= _days_ago(60) and int(prev.get("schema") or 0) >= RESEARCH_SCHEMA:
             continue
         if prev.get("status") == "no_sources" and last and last[:10] >= _days_ago(60):
             continue   # nothing to read yet; try again in two months
         scored.append((completeness(d), d))
     scored.sort(key=lambda x: x[0])
-    return [d for _, d in scored[:n]]
+    picked = priority[:n]
+    finish.sort(key=lambda x: x[:-1])
+    slots = min(5, n // 3, n - len(picked))
+    regions = set()
+    # First cover different regions, then fill any remaining reserved slots.
+    for diverse in (True, False):
+        for *_, d in finish:
+            if slots <= 0:
+                break
+            if any(p["slug"] == d["slug"] for p in picked):
+                continue
+            region = d.get("region") or "unknown"
+            if diverse and region in regions:
+                continue
+            picked.append(dict(d, _completion_retry=True))
+            regions.add(region)
+            slots -= 1
+    seen = {d["slug"] for d in picked}
+    picked.extend(d for _, d in scored if d["slug"] not in seen)
+    return picked[:n]
 
 def _days_ago(n):
     from datetime import datetime, timedelta, timezone
