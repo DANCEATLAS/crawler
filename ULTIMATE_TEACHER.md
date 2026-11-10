@@ -1,6 +1,6 @@
 # THE ULTIMATE TEACHER — how the best online dance teachers teach
 
-*Built by the machine from 40 tutorial lessons across 29 dances and 8 dance families (studied: 44 videos; 2 were not lessons; 2 could not be read). Updated 2026-11-09. It grows every day. The chapter scripts in `episodes/` follow it. See `MOVIE_PHASE.md`.*
+*Built by the machine from 42 tutorial lessons across 29 dances and 7 dance families (studied: 50 videos; 2 were not lessons; 6 could not be read). Updated 2026-11-10. It grows every day. The chapter scripts in `episodes/` follow it. See `MOVIE_PHASE.md`.*
 
 ## The lesson skeleton the best teachers share
 
@@ -60,8 +60,8 @@ Most common: **5-6-7-8** — also: 1-2-3-4 (5); 1-2 / 7-and (1); 1-3-5-7 with an
 - leading step size from the follower instead of the leader
 - <not moving your head with the arm movement>
 - moving everything below the elbow instead of including the elbow
+- trying to copy the teacher exactly instead of feeling the movement
 - doing the lock really, really different and really weird
-- don't tense your legs
 
 ## Body and safety advice
 
@@ -70,9 +70,9 @@ Most common: **5-6-7-8** — also: 1-2-3-4 (5); 1-2 / 7-and (1); 1-3-5-7 with an
 - your body position needs to be here protecting your knees and your back so you're in a spring
 - keep the angle between your hip and your upper body
 - none
+- no yoga blocks or mats needed
 - feel free to shift side to side if you need to
 - use your elbows to push those knees back
-- make sure that you have comfortable shoes before you start this stuff, especially if you're still trying to learn, because you don't want to incur some injuries
 
 ## What makes a lesson absorbable
 
@@ -114,11 +114,10 @@ Most common: **5-6-7-8** — also: 1-2-3-4 (5); 1-2 / 7-and (1); 1-3-5-7 with an
 ## By dance family
 
 **folk-circle** (11 lessons): counting 5-6-7-8; order: welcome and what you will learn → where the dance comes from → the count, out loud → the whole step at full speed, once → warm-up → breakdown, one movement at a time → practice with the music, full tempo → slow practice; cues: and out and out and in and in, double double, and cross and cross, right slap left slap, rock step
-**street-urban** (9 lessons): counting 1-2 / 7-and; order: welcome and what you will learn → the whole step at full speed, once → where the dance comes from → breakdown, one movement at a time → adding the next layer (arms, turns, partner) → slow practice → practice with the music, full tempo → recap and homework; cues: right leg out front, jump split your legs, the back foot goes up, lift the left leg up, punch to the side
-**african-diaspora** (5 lessons): counting 1-2-3-4; order: welcome and what you will learn → where the dance comes from → the whole step at full speed, once → breakdown, one movement at a time → practice with the music, full tempo → adding the next layer (arms, turns, partner); cues: shift, slow, quick quick slow, rock step, left foot
+**street-urban** (10 lessons): counting 5-6-7-8; order: welcome and what you will learn → the whole step at full speed, once → the count, out loud → where the dance comes from → breakdown, one movement at a time → adding the next layer (arms, turns, partner) → slow practice → practice with the music, full tempo; cues: right leg out front, jump split your legs, the back foot goes up, lift the left leg up, punch to the side
+**african-diaspora** (8 lessons): counting 1-2-3-4; order: welcome and what you will learn → where the dance comes from → the whole step at full speed, once → breakdown, one movement at a time → practice with the music, full tempo → adding the next layer (arms, turns, partner); cues: and one and three and five and seven, keep your feet together, relax your knees, bend the knees, change the weight
+**stage-contemporary** (4 lessons): counting the teacher does not use a formal counting scheme, instead f; order: welcome and what you will learn → warm-up → breakdown, one movement at a time; cues: make a little bit space between feet, try to find some groove, keep the water inside, make it easy, try to make the shift
 **ballroom-partner** (4 lessons): counting 1-2-3-4; order: welcome and what you will learn → where the dance comes from → the whole step at full speed, once → breakdown, one movement at a time → common mistakes and corrections; cues: side close side, step and point, turn turn turn, replace, side replace close
-**stage-contemporary** (3 lessons): counting 5-6-7-8; order: welcome and what you will learn → warm-up → breakdown, one movement at a time; cues: short verbal cue the teacher repeats  8 words, deep slow hip circles, hips to one side in little pulses, breathe in arms come up, roll through the spine
-**latin-caribbean** (3 lessons): counting 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7); order: welcome and what you will learn → where the dance comes from → the whole step at full speed, once → breakdown, one movement at a time → slow practice → adding the next layer (arms, turns, partner) → practice with the music, full tempo; cues: and one and three and five and seven, keep your feet together, relax your knees, bend the knees, change the weight
 **classical-court** (3 lessons): counting 5-6-7-8; order: welcome and what you will learn → warm-up → where the dance comes from → breakdown, one movement at a time → common mistakes and corrections → practice with the music, full tempo; cues: keep length in both sides of the waist, keep the supporting leg strong and stable, keep the spine long, hold your placement, stay straight as a board
 **ritual-sacred** (1 lesson): counting 1-2-3-4-5; order: welcome and what you will learn → the whole step at full speed, once → where the dance comes from → breakdown, one movement at a time → slow practice; cues: hold your knife out, every time the blade faces down, two thumbs are facing up
 
@@ -149,8 +148,8 @@ Most common: **5-6-7-8** — also: 1-2-3-4 (5); 1-2 / 7-and (1); 1-3-5-7 with an
 - **swing-dance** — 2 lessons; counting rock-step / triple-step / triple-step; steps as taught: Swing Basic #1 (rock-step, triple-step, triple-step); Swing Basic #2 (rock-step, triple-step, triple-step); Swing Basic #3 (rock-step, triple-step, triple-step); Side Step (1-2-3-4); mistakes: just tapping instead of changing body weight
 - **tecktonik** — 1 lesson; counting 1-2-3-4-5-6; steps as taught: <Move Number One> (<1 to 6>); <Simple Arm Spin> (<4 times>); <One Hand Move> (<1 to 6>); mistakes: <not moving your head with the arm movement>
 - **the-running-man** — 2 lessons; counting 1-2 / 7-and; steps as taught: The Running Man (1-2); The Perch Forward Back; Two Footed Flat Foot Split; Weighted Foot Hop Back; mistakes: landing like a jog instead of both feet landing at the same time, leaning too far forward or too far back
-- **tribal-fusion-belly-dance** — 2 lessons; counting 5-6-7-8; steps as taught: Hip circles (slow circles around yourself); Spine fluidity series (breath-based); Spinal waves (breath-based); Body waves (6 parts); mistakes: <mistake the teacher names and corrects>
-- **waacking** — 2 lessons; counting 5-6-7-8 and 1-2-3-4-5-6-7-8; steps as taught: Single Arm Roll (1-2-3-4); lines and overheads (8 counts); mistakes: going outwards instead of staying very close to the ears, one arm being stronger than the other
+- **tribal-fusion-belly-dance** — 3 lessons; counting the teacher does not use a formal counting scheme, instead f; steps as taught: Hip shifts (N/A); Torso snake (N/A); Arm snake (N/A); Finger wave (N/A); mistakes: trying to copy the teacher exactly instead of feeling the movement, <mistake the teacher names and corrects>
+- **waacking** — 3 lessons; counting 5-6-7-8; steps as taught: psyche (1-2-3-4); hit (1-2-3-4-5-6); arm movement (1-2); lower body movement (1-and-2-and); mistakes: not doing the arm movement around the head separately, going outwards instead of staying very close to the ears, one arm being stronger than the other
 - **xibelani** — 1 lesson; counting 1-2-3-4; steps as taught: Xibelani waist shaking (1-2-3-4); mistakes: moving shoulders or upper body instead of keeping it still, boxing or trying to fight someone with arms
 - **zydeco** — 1 lesson; counting 5-6-7-8 / slow-quick-quick-slow; steps as taught: Zydeco Weight Shifts (slow quick quick slow); Zydeco Rock Step (slow quick quick slow); mistakes: hoping instead of shifting weight, leading step size from the follower instead of the leader
 

@@ -1,0 +1,118 @@
+{
+ "slug": "the-jerk",
+ "qc_at": "2026-11-10T19:06:28Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "The Jerk"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "79"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "201"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1964, the Los Angeles band The Larks released 'The Jerk' on the Money label, "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "368"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1882"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning,notable_figures,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "8/8 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United States"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['monk']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-supported by evidence, respectful, and detailed with clear teaching instructions. It accurately presents The Jerk as a 1960s American fad dance with specific cultural and musical context. Adaptations are safe and appropriate."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.6"
+ ],
+ "citation": {
+  "claims": 8,
+  "supported": 8,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-10T17:19:51Z"
+}

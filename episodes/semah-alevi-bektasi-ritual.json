@@ -2,9 +2,9 @@
  "slug": "semah-alevi-bektasi-ritual",
  "name": "Semah, Alevi-Bektaşi ritual",
  "pack_version": "e2",
- "built_at": "2026-11-09T21:52:47Z",
- "researched_at": "2026-11-02T19:56:55Z",
- "qc_score": 9.7,
+ "built_at": "2026-11-10T19:25:30Z",
+ "researched_at": "2026-11-10T18:33:51Z",
+ "qc_score": 9.6,
  "status": "withheld-chapters",
  "release_status": "not_validated",
  "sacred": true,
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A knowledgeable member of the Alevi community or a cultural historian.",
+   "persona": "A knowledgeable semahçı with deep spiritual connection and teaching experience in Alevi rituals.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -61,7 +61,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Crane's Path: The Semah of the Alevi",
+     "Semah: The Dance of the Sacred Crane",
      "This is Semah, Alevi-Bektaşi ritual. 10th century to present."
     ],
     "on_screen": [
@@ -75,8 +75,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The Semah is rooted in the Alevi-Bektaşi belief system, which is based on admiration for Ali.",
-     "It is a living tradition transmitted orally through generations."
+     "Semah originates from the mystical practices of Sufi orders and is a core ritual of the Alevi-Bektaşi belief system in Turkey.",
+     "The term derives from the Arabic 'samā‘', meaning listening, and refers to a form of devotional remembrance of God through music, poetry, and dance.",
+     "While the Mevlevi order is known for whirling dervishes, the Alevi-Bektaşi Semah has distinct forms such as the turnalar semahı and kırklar semahı."
     ],
     "on_screen": [
      "Map: Turkey · Middle East",
@@ -89,12 +90,13 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "It is one of the twelve services of the 'Cem' ritual.",
-     "It symbolizes the unity of man with God and nature.",
+     "Semah is performed during Cem ceremonies, which are spiritual gatherings central to Alevi worship, as well as at cultural festivals such as the Hacı Bektaş Veli Festival.",
+     "It serves as a ritual expression of unity with God and the natural cycles of the universe.",
+     "The dance symbolizes the soul's journey from God and its return, the cosmic order, and spiritual maturity.",
      "Today it is a living tradition."
     ],
     "on_screen": [
-     "Footage: File:Video Codec Test blue sky 1080p25.y4m.webm (https://upload.wikimedia.org/wikipedia/commons/e/e0/Video_Codec_Test_blue_sky_1080p25.y4m.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+     "Footage: Chika Dance Green Screen (https://archive.org/details/chikaYo)"
     ],
     "music": "underscore"
    },
@@ -103,15 +105,15 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Dancers perform in circular patterns and rotate around their own axes.",
-     "Men and women dance together.",
-     "The right palm faces upward and the left palm faces downward.",
-     "Watch for Turnalar Semahı."
+     "Semah is danced by men and women together, often in pairs or small groups facing each other, rather than individually whirling.",
+     "Dancers perform circular movements around a central point while rotating on their own axes.",
+     "The right hand's palm faces upward, the left downward, symbolizing connection between heaven and earth.",
+     "Watch for Turnalar semahı, Kırklar semahı."
     ],
     "on_screen": [
      "Hero video — MISSING",
      "Captions name each signature move as it appears",
-     "Formation: Circular paths and center-oriented movements"
+     "Formation: Dancers form a circle or pairs facing each other, moving around a central point in coordinated rotations."
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
    },
@@ -120,16 +122,16 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The music is played on the 'saz' long-necked lute.",
-     "The rhythm is typically the 'aksak' meter.",
-     "Listen for the saz.",
-     "The pulse is Aksak.",
-     "The music is characterized by the melodic, resonant sound of the saz lute, following the irregular, syncopated 'aksak' rhythmic structure."
+     "Music for Semah is based on the aksak rhythm, an uneven rhythmic pattern characteristic of Turkish folk and ritual music.",
+     "The primary instrument is the saz, a long-necked lute, accompanied by spiritual singing of hymns and poetry.",
+     "Listen for the Saz (long-necked lute), Tambourine, Bells, Flute.",
+     "The pulse is Aksak rhythm (uneven meter).",
+     "The music features the saz lute playing melodic lines over an aksak rhythmic base, accompanied by soft percussion and spiritual vocal chants, creating a contemplative and hypnotic atmosphere."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
      "Verified recording — MISSING",
-     "Waveform or rhythm-pattern graphic: "
+     "Waveform or rhythm-pattern graphic: Alternating slow and fast beats characteristic of aksak"
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
@@ -140,23 +142,25 @@
     "code": "costume",
     "title": "The costume and the setting",
     "duration_s": 60,
-    "narration": [
-     "Performed in 'cemevleri' (Alevi meetinghouses) or during festivals like the Hacı Bektaş Veli Festival."
-    ],
+    "narration": [],
     "on_screen": [
      "Image gallery: 5 licensed images with attribution",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
-    "music": "underscore"
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting"
+    ]
    },
    {
     "code": "people",
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Hacı Bektaş Veli is a central figure in the tradition.",
-     "Forms include 'kirklar semahı' (sema of the forty) and 'turnalar semahı' (crane sema).",
-     "Part of the broader Sufi tradition of 'Sama' (listening/remembrance), but distinct in its Alevi-Bektaşi practice."
+     "While no individual dancers are named in the sources, historical figures such as Hacı Bektaş Veli are central to the spiritual tradition that Semah expresses.",
+     "Rumi is associated with the broader Sufi practice of Sama but not specifically with the Alevi-Bektaşi Semah.",
+     "Within Alevi-Bektaşi communities, variants include the turnalar semahı (crane dance) and kırklar semahı (dance of the forty saints).",
+     "Semah belongs to the Sufi dhikr tradition and is closely linked to Alevi-Bektaşi religious practices centered on veneration of Ali and spiritual unity."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -169,22 +173,21 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Semah, Alevi-Bektaşi ritual is related of Sufi whirling: Both are forms of Sama, but Semah is distinct in its Alevi-Bektaşi communal practice."
+     "Semah, Alevi-Bektaşi ritual is sibling of Mevlevi Sama: Both are Sufi ritual dances involving spinning, but Mevlevi Sama is performed by men only and features individual whirling.",
+     "Semah, Alevi-Bektaşi ritual is variant of Tannoura: Egyptian adaptation of Mevlevi Sama with folk and concert dance elements.",
+     "Semah, Alevi-Bektaşi ritual is shares music of Qawwali: South Asian Sufi devotional music form related to Sama practices."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
     ],
-    "music": "underscore",
-    "needs": [
-     "connections"
-    ]
+    "music": "underscore"
    },
    {
     "code": "first_step",
     "title": "A respectful note",
     "duration_s": 30,
     "narration": [
-     "Semah is a religious service within the Alevi-Bektaşi tradition. Outsiders should observe with respect and follow local guidance regarding photography and participation in 'Cem' rituals."
+     "Semah is a sacred ritual performed within Alevi-Bektaşi religious ceremonies and is not intended for public entertainment or profane contexts."
     ],
     "on_screen": [
      "Calm wide shot, no demonstration"
@@ -196,7 +199,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover the sacred dance of the Alevi-Bektaşi, where movement becomes a bridge between the human soul and the divine.",
+     "Explore the Alevi-Bektaşi Semah, a sacred Turkish ritual dance where men and women turn in cosmic circles to unite with the divine.",
      "Sources: 5 references are listed with the profile."
     ],
     "on_screen": [
@@ -213,21 +216,25 @@
   "rights_status": "not_assessed",
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
-  "meter": "Aksak",
-  "rhythm_pattern": null,
+  "meter": "Aksak rhythm (uneven meter)",
+  "rhythm_pattern": "Alternating slow and fast beats characteristic of aksak",
   "instruments": [
-   "saz"
+   "Saz (long-necked lute)",
+   "Tambourine",
+   "Bells",
+   "Flute"
   ],
-  "vocal_style": "Devotional singing of hymns",
-  "musical_form": "Ritual accompaniment",
+  "vocal_style": "Devotional singing of hymns (qawl and bayt), poetry praising Allah, Muhammad, Ali, and spiritual figures",
+  "musical_form": "Structured to support meditative, trance-like states with alternating tempos",
   "mood": [
    "meditative",
    "devotional",
-   "ecstatic"
+   "mystical",
+   "solemn"
   ],
-  "sound_description": "The music is characterized by the melodic, resonant sound of the saz lute, following the irregular, syncopated 'aksak' rhythmic structure.",
+  "sound_description": "The music features the saz lute playing melodic lines over an aksak rhythmic base, accompanied by soft percussion and spiritual vocal chants, creating a contemplative and hypnotic atmosphere.",
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Semah, Alevi-Bektaşi ritual (Turkey). Meter Aksak. Instruments: saz. Vocal style: Devotional singing of hymns. Form: Ritual accompaniment. Mood: meditative, devotional, ecstatic. It should sound like this: The music is characterized by the melodic, resonant sound of the saz lute, following the irregular, syncopated 'aksak' rhythmic structure. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Semah, Alevi-Bektaşi ritual (Turkey). Meter Aksak rhythm (uneven meter). Rhythm pattern: Alternating slow and fast beats characteristic of aksak. Instruments: Saz (long-necked lute), Tambourine, Bells, Flute. Vocal style: Devotional singing of hymns (qawl and bayt), poetry praising Allah, Muhammad, Ali, and spiritual figures. Form: Structured to support meditative, trance-like states with alternating tempos. Mood: meditative, devotional, mystical, solemn. It should sound like this: The music features the saz lute playing melodic lines over an aksak rhythmic base, accompanied by soft percussion and spiritual vocal chants, creating a contemplative and hypnotic atmosphere. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -265,7 +272,7 @@
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
    "restricted_attire": true,
-   "from_sources": "Performed in 'cemevleri' (Alevi meetinghouses) or during festivals like the Hacı Bektaş Veli Festival.",
+   "from_sources": null,
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3AWhirlingdervishes.JPG",
     "https://commons.wikimedia.org/wiki/File%3ABalafon_Jamie.jpg",
@@ -322,48 +329,6 @@
   ],
   "footage": [
    {
-    "title": "File:Video Codec Test blue sky 1080p25.y4m.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Video_Codec_Test_blue_sky_1080p25.y4m.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC0",
-    "attribution": "Taurus Media Technik / Wikimedia Commons / CC0"
-   },
-   {
-    "title": "File:Escapism.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Escapism.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY-SA 4.0",
-    "attribution": "Myousry6666 / Wikimedia Commons / CC BY-SA 4.0"
-   },
-   {
-    "title": "File:Wiki loves planes.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Wiki_loves_planes.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY-SA 4.0",
-    "attribution": "Alvin Zulu / Wikimedia Commons / CC BY-SA 4.0"
-   },
-   {
-    "title": "File:20220430 Inner lagoon of the port of Almería.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/20220430_Inner_lagoon_of_the_port_of_Almer%C3%ADa.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY 4.0",
-    "attribution": "Ismael Olea / Wikimedia Commons / CC BY 4.0"
-   },
-   {
-    "title": "File:Sunset in Yogyakarta.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sunset_in_Yogyakarta.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY 4.0",
-    "attribution": "Joaquim Baeta / Wikimedia Commons / CC BY 4.0"
-   },
-   {
-    "title": "File:Mount Merapi Landscape.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Mount_Merapi_Landscape.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "CC BY 4.0",
-    "attribution": "Joaquim Baeta / Wikimedia Commons / CC BY 4.0"
-   },
-   {
     "title": "Chika Dance Green Screen",
     "url": "https://archive.org/details/chikaYo",
     "year": null,
@@ -376,15 +341,24 @@
     "year": null,
     "license": "unknown (Internet Archive)",
     "attribution": "Internet Archive"
+   },
+   {
+    "title": "Latex kigurumi on the Catwalk at MWF 2019",
+    "url": "https://archive.org/details/youtube-cEY3cY44J5U",
+    "year": 2020,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
    }
   ],
   "motifs": [
-   "The saz lute",
-   "Circular floor patterns",
-   "Hand gestures"
+   "Circular formations",
+   "Hands with palms up and down",
+   "Crane flight imitation",
+   "Saz lute and percussion instruments",
+   "Sacred cemevi interior"
   ],
-  "costume_notes": "Performed in 'cemevleri' (Alevi meetinghouses) or during festivals like the Hacı Bektaş Veli Festival.",
-  "setting_notes": "It is one of the twelve services of the 'Cem' ritual. It symbolizes the unity of man with God and nature.",
+  "costume_notes": null,
+  "setting_notes": "Semah is performed during Cem ceremonies, which are spiritual gatherings central to Alevi worship, as well as at cultural festivals such as the Hacı Bektaş Veli Festival. It serves as a ritual expression of unity with God and the natural cycles of the universe. The dance symbolizes the soul's journey from God and its return, the cosmic order, and spiritual maturity. It is a form of meditation and prayer, fostering community cohesion and the transmission of Alevi-Bektaşi philosophy and teachings. The dance is both a sacred act and a cultural heritage practice.",
   "map": {
    "country": "Turkey",
    "region": "Middle East",
@@ -399,7 +373,7 @@
  "teaching_formula": {
   "source": "1 tutorial(s) of the ritual-sacred family studied",
   "videos_studied": 1,
-  "counting": "count the Aksak bar out loud, then in pairs of bars",
+  "counting": "count the Aksak rhythm (uneven meter) bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
    "views used by most teachers: front, back",
@@ -425,7 +399,7 @@
   "tempo (bpm)",
   "a verified recording to listen to",
   "a hero video",
-  "two or more connections"
+  "the costume & setting section"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Sama_(Sufism)",
@@ -434,9 +408,9 @@
   "https://it.wikipedia.org/wiki/Semah",
   "https://ich.unesco.org/en/RL/00384"
  ],
- "claims_verified": 5,
- "claims": 5,
+ "claims_verified": 8,
+ "claims": 8,
  "polished": false,
- "input_fingerprint": "9ad403c2b2c549cb799acef542a5a46894a2443103409b8a580f8efe1d0ad90d",
+ "input_fingerprint": "dc2cffda2df1091c19d19fa028080606660bffc3542512d435bf080932241e4f",
  "hero_checked": null
 }

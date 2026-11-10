@@ -1,86 +1,83 @@
 # pachanga — episode pack
 
-*Status: draft · built 2026-11-09 · judge 10.0 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-10 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** A precise, energetic Latin dance historian and instructor who emphasizes grounding, rhythm timing, and historical context.
+**Instructor:** Knowledgeable salsa historian and practitioner.
 **Say it:** pachanga, merenconga
 
 ## Episode 1 · Meet pachanga · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Bronx Bounce: How Cuba's Gliding Dance Conquered New York
+NARRATION: The Bronx Hop: How Cuba’s Pachanga Conquered New York
 NARRATION: This is pachanga. 1950s-1960s.
 ON SCREEN: Hero video, first 10 seconds (BwjN0t7eFPU)
 ON SCREEN: Title card: pachanga · Cuba · 1950s-1960s
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Pachanga originated in Cuba in the late 1950s, specifically catalyzed by composer Eduardo Davidson's 1959 creation of the song 'La Pachanga' recorded with Orquesta Sublime.
-NARRATION: It gained massive popularity across the Caribbean before being brought to the United States by Cuban immigrants during post-World War II economic and social upheavals.
-NARRATION: Settling heavily in New York City's South Bronx, the music and dance exploded in venues like the Caravana Club and the Triton After-Hours Club.
+NARRATION: Pachanga originated in Cuba in 1959, with Eduardo Davidson’s song 'La Pachanga' serving as the catalyst for the genre.
+NARRATION: It gained massive popularity in New York City post-World War II, particularly within the South Bronx, where Cuban immigrants established a thriving cultural scene.
+NARRATION: The Caravana Club is widely regarded as the home of the dance, while the Triton After-Hours Club saw the improvisation of the 'Bronx Hop,' a signature move of the fad.
 ON SCREEN: Map: Cuba · Caribbean
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Originally a social dance craze learned from friends and family in Cuban and New York Latin clubs, pachanga functioned as an expression of festive communal joy and cultural resilience among diaspora communities.
-NARRATION: In the modern era, it serves as a performance showcase and technical training tool for advanced salsa and mambo dancers.
-ON SCREEN: Footage — MISSING (use images)
+NARRATION: Pachanga was a popular social dance in mid-century Cuban and New York dance halls.
+NARRATION: It is described as a 'happy-go-lucky' dance, often associated with festive gatherings and the vibrant nightlife of the era.
+NARRATION: In modern contexts, it is primarily performed as part of salsa 'shines'—solo segments within partner dancing.
+NARRATION: Today it is a living tradition.
+ON SCREEN: Footage: Videos Hits ; 35 Cumbias, Pachanga, Latín Dance, Reggaeton, Tribal, Pop, Kitsch, Retro (https://archive.org/details/karicia-la-discoteka)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Pachanga is a grounded, happy-go-lucky dance featuring a Charleston-like flavor driven by the double bending and straightening of the knees.
-NARRATION: Danced on the downbeat of four-four time to charanga instrumentation, the basic footwork mirrors mambo placement and weight shifts but incorporates a smooth glide instead of a tap.
-NARRATION: A bounce originates in the knees, keeping them from ever completely straightening, while the upper body rocks and maintains posture.
+NARRATION: Pachanga is a grounded dance performed on the downbeat of 4/4 time.
+NARRATION: The basic step involves a continuous double-bending and straightening of the knees, which never fully lock.
+NARRATION: This movement creates a rhythmic bounce and a gliding effect during weight transfers.
 NARRATION: Watch for Bronx Hop.
 ON SCREEN: Hero video full screen, 30–45 s (BwjN0t7eFPU)
 ON SCREEN: Captions name each signature move as it appears
-ON SCREEN: Formation: Solo group shines or paired social dancing with transitions into individual showcase breaks.
+ON SCREEN: Formation: Solo shines or partner dance.
 MUSIC: diegetic (the video's own sound), underscore under narration
 
 ### 5. Listen (70 s) · `music`
-NARRATION: Described as a mixture of son montuno and merengue (or conga), pachanga music is festive, lively, and marked by jocular, mischievous lyrics.
-NARRATION: It is traditionally performed by charanga ensembles—orchestras utilizing violins, flutes, horns, piano, bass, and drums.
-NARRATION: Listen for the violin, flute, horns, drums.
-NARRATION: The pulse is four-four time.
-NARRATION: A festive, lively blend of son montuno and merengue featuring charanga instrumentation of violins, flutes, piano, bass, and drums, sounding very similar to cha-cha-chá but marked by a notably stronger downbeat and playful accompaniment riffs.
+NARRATION: The music is played by charanga ensembles, which typically include violins, flutes, and drums.
+NARRATION: It is described as a mixture of son montuno and merengue, sharing similarities with the cha-cha-chá but distinguished by a stronger downbeat.
+NARRATION: Listen for the violin, flute, drums, piano.
+NARRATION: The pulse is 4/4.
+NARRATION: A bright, rhythmic sound driven by high-pitched violins and flutes, characterized by repetitive riffs and a persistent, bouncy downbeat.
 ON SCREEN: Instrument names on screen as each is mentioned
-ON SCREEN: Listen later: La Pachanga — Eduardo Davidson / Orquesta Sublime; Pachanga at the Caravana Club — Charlie Palmieri; Pachanga at the Caravana Club — Charlie Palmieri and His Duboney Orchestra (1961)
-ON SCREEN: Waveform or rhythm-pattern graphic: 
+ON SCREEN: Listen later: La Pachanga — Eduardo Davidson; Pachanga at the Caravana Club — Charlie Palmieri; Pachanga at the Caravana Club — Charlie Palmieri and His Duboney Orchestra (1961)
+ON SCREEN: Waveform or rhythm-pattern graphic: Strong downbeat with mambo-influenced offbeat
 MUSIC: the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original
 NEEDS: tempo
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Historic settings include packed Latin dance halls, after-hours clubs, and ballrooms in New York's South Bronx, such as the Caravana Club and the Triton Club.
-NARRATION: Modern settings include international salsa congresses, dance studios, and stage showcases where practitioners perform solo shines or specialized choreography.
 ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
+NEEDS: costume_and_setting, images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Key historical figures include Eduardo Davidson (composer), José Fajardo, Johnny Pacheco (creator of the Bronx Hop), Charlie Palmieri, and Orlando 'Landy' Perez.
-NARRATION: Modern torchbearers and instructors include Eddie Torres, Eddie Torres Jr., Shani Talmor, and Melissa Rosado.
-NARRATION: While born in Cuba and heavily developed in New York City's Latin scene, the style migrated and adapted globally.
-NARRATION: Pachanga developed as an offshoot of charanga music, fusing son montuno and merengue (or conga).
+NARRATION: Eduardo Davidson (composer), José Fajardo (bandleader), Johnny Pacheco (flutist), Eddie Torres (instructor), and the dance group 'Los Pachangueros'.
+NARRATION: The dance is still practiced in Cali, Colombia, and has been integrated into global salsa scenes.
+NARRATION: Pachanga evolved from Cuban son montuno and merengue and served as a precursor to the development of salsa and boogaloo.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: pachanga is sibling of cha-cha-chá: Very similar in sound and era, though pachanga features a notably stronger downbeat and gliding footwork.
-NARRATION: pachanga is influence of mambo: Pachanga mimics basic mambo step foot placement and weight shifts while dancing to mambo offbeat music.
-NARRATION: pachanga is parent of son montuno: Pachanga music is described as a mixture of son montuno and merengue.
-NARRATION: pachanga is parent of merengue: Combined with son montuno to form the core musical identity of pachanga (also called merenconga).
+NARRATION: pachanga is shares music of cha-cha-chá: Pachanga is often compared to cha-cha-chá but features a stronger downbeat.
+NARRATION: pachanga is child of salsa: Pachanga movements are now commonly incorporated into salsa shines.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. Maintain a grounded posture with knees softly bent, never fully straightening.
-NARRATION: Step on the downbeat of four-four time, mirroring basic mambo foot placement.
+NARRATION: Before we go, one step. Bend and straighten knees continuously without locking.
+NARRATION: Shift weight from one foot to the other with a glide.
 NARRATION: Count it: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
@@ -88,28 +85,29 @@ ON SCREEN: Count on screen
 MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Discover pachanga, the high-energy 1950s Cuban craze that combined charanga melodies with a knee-bouncing glide to shape modern salsa.
+NARRATION: Discover the grounded, knee-bouncing dance that defined the 1950s Latin music explosion.
 NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
-## Chapter 1 · First steps — Master the grounded knee posture and the continuous knee bounce. · 13 min
+## Chapter 1 · First steps — Master the knee-bounce · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Master the grounded knee posture and the continuous knee bounce..
-NARRATION: Level: Foundational. Difficulty of the dance overall: intermediate.
-NARRATION: Your instructor: A precise, energetic Latin dance historian and instructor who emphasizes grounding, rhythm timing, and historical context.
+NARRATION: Chapter 1 — First steps. Today: Master the knee-bounce.
+NARRATION: Level: Beginner. Difficulty of the dance overall: beginner.
+NARRATION: Your instructor: Knowledgeable salsa historian and practitioner.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Grounded posture with body connectivity maintained; knees remain softly bent and never completely straighten.
-NARRATION: Upper body rocks naturally as a result of weight changes and a bounce originating in the knees.
+NARRATION: Grounded with knees never fully straightening.
+NARRATION: Upper body rocks in response to knee-driven weight changes.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7). The meter is four-four time.
+NARRATION: Count: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7). The meter is 4/4.
+NARRATION: Rhythm pattern: Strong downbeat with mambo-influenced offbeat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -117,19 +115,18 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Maintain a grounded posture with knees softly bent, never fully straightening.
-NARRATION: Step 2: Step on the downbeat of four-four time, mirroring basic mambo foot placement.
-NARRATION: Footwork from the sources: Mimics a basic mambo step in foot placement and weight shift while incorporating a smooth glide on weight transfer instead of a tap.
-NARRATION: Drill: Soft knee bending and straightening without letting legs lock.
+NARRATION: Step 1: Bend and straighten knees continuously without locking.
+NARRATION: Step 2: Shift weight from one foot to the other with a glide.
+NARRATION: Footwork from the sources: Gliding weight transfer mimicking a moonwalk.
+NARRATION: Drill: Bending and straightening knees to a 4/4 count.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Execute a weight transfer that glides smoothly across the floor rather than tapping.
-NARRATION: Step 4: Allow a bounce originating in the knees to naturally rock the upper body.
-NARRATION: Drill: Weight transfer isolation drills keeping energy channeled down into the floor.
+NARRATION: Step 3: Rock the upper body to maintain connectivity.
+NARRATION: Drill: Maintaining a grounded posture.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
@@ -138,17 +135,19 @@ COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Drill: Adding a slight rock to the shoulders.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Completely straightening the knees during the dance.
 NARRATION: Teachers of this dance warn against: doing squats instead of small forward and back movements
 NARRATION: Teachers of this dance warn against: making big upper body movements
 NARRATION: Teachers of this dance warn against: bringing upper body too much back
 ON SCREEN: Side-by-side: source-supported correction
+ON SCREEN: Options card: Seated or supported option: Perform the knee-bounce while seated by lifting heels and engaging the core. · For children: A 'follow-the-leader' game where children mimic the 'bouncy' walk of the pachanga.
 MUSIC: silence
+OPTIONS: Seated or supported option: Perform the knee-bounce while seated by lifting heels and engaging the core. · For children: A 'follow-the-leader' game where children mimic the 'bouncy' walk of the pachanga. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7).
@@ -158,30 +157,31 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Master the grounded knee posture and the continuous knee bounce..
-NARRATION: Originally a social dance craze learned from friends and family in Cuban and New York Latin clubs, pachanga functioned as an expression of festive communal joy and cultural resilience among diaspora communities.
+NARRATION: You can now: Master the knee-bounce.
+NARRATION: Pachanga was a popular social dance in mid-century Cuban and New York dance halls.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
 
-## Chapter 2 · Building the dance — Execute the mambo-based foot placement replacing taps with glides. · 13 min
+## Chapter 2 · Building the dance — the building the dance of pachanga · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: Execute the mambo-based foot placement replacing taps with glides..
-NARRATION: Level: Intermediate. Difficulty of the dance overall: intermediate.
-NARRATION: Your instructor: A precise, energetic Latin dance historian and instructor who emphasizes grounding, rhythm timing, and historical context.
+NARRATION: Chapter 2 — Building the dance. Today: the building the dance of pachanga.
+NARRATION: Level: intermediate. Difficulty of the dance overall: beginner.
+NARRATION: Your instructor: Knowledgeable salsa historian and practitioner.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Grounded posture with body connectivity maintained; knees remain softly bent and never completely straighten.
-NARRATION: Upper body rocks naturally as a result of weight changes and a bounce originating in the knees.
+NARRATION: Grounded with knees never fully straightening.
+NARRATION: Upper body rocks in response to knee-driven weight changes.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7). The meter is four-four time.
+NARRATION: Count: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7). The meter is 4/4.
+NARRATION: Rhythm pattern: Strong downbeat with mambo-influenced offbeat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -189,19 +189,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Maintain a grounded posture with knees softly bent, never fully straightening.
-NARRATION: Step 2: Step on the downbeat of four-four time, mirroring basic mambo foot placement.
-NARRATION: Drill: Mambo step footwork practice focusing on downbeat timing in 4/4 meter.
+NARRATION: Step 1: Bend and straighten knees continuously without locking.
+NARRATION: Step 2: Shift weight from one foot to the other with a glide.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Execute a weight transfer that glides smoothly across the floor rather than tapping.
-NARRATION: Step 4: Allow a bounce originating in the knees to naturally rock the upper body.
-NARRATION: Bronx Hop: An improvised dance move introduced by Johnny Pacheco at the Triton Club that became central to the pachanga craze.
-NARRATION: Drill: Gliding weight-transfer slide drills across the floor.
+NARRATION: Step 3: Rock the upper body to maintain connectivity.
+NARRATION: Bronx Hop: An improvised dance move popularized at the Triton Club.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -216,45 +213,47 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Completely straightening the knees during the dance.
 NARRATION: Teachers of this dance warn against: doing squats instead of small forward and back movements
 NARRATION: Teachers of this dance warn against: making big upper body movements
 NARRATION: Teachers of this dance warn against: bringing upper body too much back
 ON SCREEN: Side-by-side: source-supported correction
+ON SCREEN: Options card: Seated or supported option: Perform the knee-bounce while seated by lifting heels and engaging the core. · For children: A 'follow-the-leader' game where children mimic the 'bouncy' walk of the pachanga.
 MUSIC: silence
+OPTIONS: Seated or supported option: Perform the knee-bounce while seated by lifting heels and engaging the core. · For children: A 'follow-the-leader' game where children mimic the 'bouncy' walk of the pachanga. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7).
-NARRATION: Full tempo, the whole sequence, twice. Formation: Solo group shines or paired social dancing with transitions into individual showcase breaks.
+NARRATION: Full tempo, the whole sequence, twice. Formation: Solo shines or partner dance.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Execute the mambo-based foot placement replacing taps with glides..
-NARRATION: Key historical figures include Eduardo Davidson (composer), José Fajardo, Johnny Pacheco (creator of the Bronx Hop), Charlie Palmieri, and Orlando 'Landy' Perez.
+NARRATION: You can now: the building the dance of pachanga.
+NARRATION: Eduardo Davidson (composer), José Fajardo (bandleader), Johnny Pacheco (flutist), Eddie Torres (instructor), and the dance group 'Los Pachangueros'.
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
 
-## Chapter 3 · Dancing it fully — Integrate upper-body rocking and execute a solo shine sequence. · 13 min
+## Chapter 3 · Dancing it fully — the dancing it fully of pachanga · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: Integrate upper-body rocking and execute a solo shine sequence..
-NARRATION: Level: Advanced. Difficulty of the dance overall: intermediate.
-NARRATION: Your instructor: A precise, energetic Latin dance historian and instructor who emphasizes grounding, rhythm timing, and historical context.
+NARRATION: Chapter 3 — Dancing it fully. Today: the dancing it fully of pachanga.
+NARRATION: Level: advanced. Difficulty of the dance overall: beginner.
+NARRATION: Your instructor: Knowledgeable salsa historian and practitioner.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Grounded posture with body connectivity maintained; knees remain softly bent and never completely straighten.
-NARRATION: Upper body rocks naturally as a result of weight changes and a bounce originating in the knees.
+NARRATION: Grounded with knees never fully straightening.
+NARRATION: Upper body rocks in response to knee-driven weight changes.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7). The meter is four-four time.
+NARRATION: Count: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7). The meter is 4/4.
+NARRATION: Rhythm pattern: Strong downbeat with mambo-influenced offbeat.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -262,17 +261,15 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Execute a weight transfer that glides smoothly across the floor rather than tapping.
-NARRATION: Step 2: Allow a bounce originating in the knees to naturally rock the upper body.
-NARRATION: Drill: Upper-body connectivity and torso rock coordination with knee action.
+NARRATION: Step 1: Shift weight from one foot to the other with a glide.
+NARRATION: Step 2: Rock the upper body to maintain connectivity.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Bronx Hop: An improvised dance move introduced by Johnny Pacheco at the Triton Club that became central to the pachanga craze.
-NARRATION: Drill: A short solo pachanga shine combining the glide and the Bronx Hop.
+NARRATION: Bronx Hop: An improvised dance move popularized at the Triton Club.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -287,23 +284,24 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Completely straightening the knees during the dance.
 NARRATION: Teachers of this dance warn against: doing squats instead of small forward and back movements
 NARRATION: Teachers of this dance warn against: making big upper body movements
 NARRATION: Teachers of this dance warn against: bringing upper body too much back
 ON SCREEN: Side-by-side: source-supported correction
+ON SCREEN: Options card: Seated or supported option: Perform the knee-bounce while seated by lifting heels and engaging the core. · For children: A 'follow-the-leader' game where children mimic the 'bouncy' walk of the pachanga.
 MUSIC: silence
+OPTIONS: Seated or supported option: Perform the knee-bounce while seated by lifting heels and engaging the core. · For children: A 'follow-the-leader' game where children mimic the 'bouncy' walk of the pachanga. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7).
-NARRATION: Full tempo, the whole sequence, twice. Formation: Solo group shines or paired social dancing with transitions into individual showcase breaks.
+NARRATION: Full tempo, the whole sequence, twice. Formation: Solo shines or partner dance.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Integrate upper-body rocking and execute a solo shine sequence..
-NARRATION: Pachanga developed as an offshoot of charanga music, fusing son montuno and merengue (or conga).
+NARRATION: You can now: the dancing it fully of pachanga.
+NARRATION: Pachanga evolved from Cuban son montuno and merengue and served as a precursor to the development of salsa and boogaloo.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -311,24 +309,24 @@ MUSIC: theme (10 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of pachanga (Cuba). Meter four-four time. Instruments: violin, flute, horns, drums, piano, bass. Vocal style: jocular, mischievous lyrics. Mood: festive, lively, jocular. It should sound like this: A festive, lively blend of son montuno and merengue featuring charanga instrumentation of violins, flutes, piano, bass, and drums, sounding very similar to cha-cha-chá but marked by a notably stronger downbeat and playful accompaniment riffs. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of pachanga (Cuba). Meter 4/4. Rhythm pattern: Strong downbeat with mambo-influenced offbeat. Instruments: violin, flute, drums, piano, bass. Vocal style: Jocular and mischievous. Mood: festive, lively, mischievous. It should sound like this: A bright, rhythmic sound driven by high-pitched violins and flutes, characterized by repetitive riffs and a persistent, bouncy downbeat. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
 
-Listen before composing (never copy): La Pachanga — Eduardo Davidson / Orquesta Sublime; Pachanga at the Caravana Club — Charlie Palmieri; Pachanga at the Caravana Club — Charlie Palmieri and His Duboney Orchestra (1961)
+Listen before composing (never copy): La Pachanga — Eduardo Davidson; Pachanga at the Caravana Club — Charlie Palmieri; Pachanga at the Caravana Club — Charlie Palmieri and His Duboney Orchestra (1961)
 
 Rules: Original composition only — no sampling, no melody of any existing recording, no lyrics from any song. Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom. Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe. Label every generated track with the tool, the date and this brief, so provenance is always clear.
 
 ## Visual brief
 
-Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historic settings include packed Latin dance halls, after-hours clubs, and ballrooms in New York's South Bronx, such as the Caravana Club and the Triton Club. Modern settings include international salsa congresses, dance studios, and stage showcases where practitioners perform solo shines or specialized choreography.
+Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'BwjN0t7eFPU', 'checked_by_vision_model': False, 'title': 'PACHANGA Eddie Torres and Grisel Ponce'}
 Images: 1 licensed — Joel Riedesel / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
-Footage: MISSING
-Motifs: Vintage album covers of charanga orchestras, Neon signs of Bronx dance halls from the 1960s, Close-up footwork shots highlighting the gliding weight transfer, Dancers performing synchronized shines under modern stage lights
-Costume notes: Historic settings include packed Latin dance halls, after-hours clubs, and ballrooms in New York's South Bronx, such as the Caravana Club and the Triton Club. Modern settings include international salsa congresses, dance studios, and stage showcases where practitioners perform solo shines or specialized choreography.
+Footage: Videos Hits ; 35 Cumbias, Pachanga, Latín Dance, Reggaeton, Tribal, Pop, Kitsch, Retro — https://archive.org/details/karicia-la-discoteka; 2026 Latinx Theatre Commons Carnaval of New Latinx Musicals — https://archive.org/details/2026-latinx-theatre-commons-carnaval-of-new-latinx-musicals
+Motifs: Archival footage of 1950s dance halls, Close-ups of footwork on wooden floors, Vintage record labels
+
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 

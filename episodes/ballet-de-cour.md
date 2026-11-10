@@ -1,6 +1,6 @@
 # Ballet de cour — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-09 · judge 9.55 · 7/7 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; posture, arms and hands; the how-it-is-danced section; teaching steps written out; what to avoid / common mistakes
 
@@ -11,16 +11,19 @@
 ## Episode 1 · Meet Ballet de cour · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The King's Geometry: When France Danced Politics
-NARRATION: This is Ballet de cour. 16th to 17th century.
+NARRATION: This is Ballet de cour.
+NARRATION: It flourished in France during the 16th and 17th centuries.
 ON SCREEN: Hero video, first 10 seconds (ahtN4XSsTcs)
 ON SCREEN: Title card: Ballet de cour · France · 16th to 17th century
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Ballet de cour developed in late 16th-century France out of medieval processions, mummeries, and Italian Renaissance court festivals.
-NARRATION: Catherine de' Medici championed these entertainments following her 1533 marriage to Henri II, bringing Italian staging concepts to Paris.
-NARRATION: The Académie de Poésie et de Musique, established in 1570 by Jean-Antoine de Baif and Thibault de Courville, provided the philosophical ambition to harmonize dance, verse, and music.
+NARRATION: Ballet de cour grew in late 16th-century France.
+NARRATION: It evolved from medieval processions, mummeries, and Italian Renaissance court festivals.
+NARRATION: Catherine de' Medici supported these entertainments after marrying Henri II in 1533.
+NARRATION: She introduced Italian staging ideas to Paris.
+NARRATION: In 1570, Jean-Antoine de Baif and Thibault de Courville founded the Académie de Poésie et de Musique.
+NARRATION: This academy aimed to unite dance, verse, and music.
 ON SCREEN: Map: France · Europe
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
@@ -33,7 +36,7 @@ ON SCREEN: Footage: GALLOP POG DVD 2010 (https://archive.org/details/gallop-pog-
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Watch for Figure geometric patterns, Entrée, Grand Ballet.
+NARRATION: Look for geometric figure patterns, Entrées, and the Grand Ballet.
 ON SCREEN: Hero video full screen, 30–45 s (ahtN4XSsTcs)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Geometric floor patterns, intricate turns, sinuosities, interlacings, confrontations, and retreats viewed from three sides overhead.
@@ -68,9 +71,9 @@ ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Ballet de cour is child of comédie-ballet: Developed directly out of the ballet de cour under Lully and Molière after 1670.
-NARRATION: Ballet de cour is child of opéra-ballet: Emerged as a full theatrical successor driven by Lully when court ballets lost royal performance.
-NARRATION: Ballet de cour is child of classical ballet: Derived its five codified positions and structural discipline from Beauchamp's work in court ballets.
+NARRATION: Comédie-ballet developed directly from Ballet de cour under Lully and Molière after 1670.
+NARRATION: Opéra-ballet emerged as a theatrical successor when court ballets lost royal favor, driven by Lully.
+NARRATION: Classical ballet took its five codified positions and discipline from Beauchamp's work in court ballets.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
@@ -81,8 +84,9 @@ MUSIC: lesson_slow
 NEEDS: teaching steps
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: From the Tuileries to Versailles, French monarchs used lavish five-hour geometric spectacles to turn dancing courtiers into instruments of state power.
-NARRATION: Sources: 5 references are listed with the profile.
+NARRATION: From the Tuileries to Versailles, French kings used five-hour geometric spectacles.
+NARRATION: These turned dancing courtiers into symbols of state power.
+NARRATION: Sources: Five references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
@@ -109,7 +113,8 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Drill: Walk in linear and circular spatial paths keeping equal distance from partners
+NARRATION: Practice walking in linear and circular paths.
+NARRATION: Keep equal distance from your partners.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -173,7 +178,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Drill: Figure-eight weaving through opposing lines
+NARRATION: Practice weaving a figure-eight through opposing lines.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -219,9 +224,10 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — Grand Ballet ensemble assembly · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: Grand Ballet ensemble assembly.
-NARRATION: Level: Level 3. Difficulty of the dance overall: intermediate.
-NARRATION: Your instructor: A precise court historian and baroque ballet master focused on floor architecture, royal etiquette, and spatial discipline.
+NARRATION: Chapter 3 — Dancing it fully.
+NARRATION: Today we focus on Grand Ballet ensemble assembly.
+NARRATION: Level: 3, intermediate difficulty.
+NARRATION: Your instructor is a court historian and baroque ballet master specializing in floor architecture, royal etiquette, and spatial discipline.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -239,15 +245,15 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Drill: Merging separate entrée groups into a collective symmetrical shape
+NARRATION: Practice merging separate entrée groups into one symmetrical shape.
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Grand Ballet: The culminating apothéose uniting all dancers in collective geometric choreography.
-NARRATION: Drill: Dynamic expansion from a central cluster to the perimeter of the hall
+NARRATION: Grand Ballet is the final act uniting all dancers in geometric choreography.
+NARRATION: Practice expanding dynamically from a central cluster to the hall's perimeter.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow

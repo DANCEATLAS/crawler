@@ -1,0 +1,885 @@
+{
+ "slug": "chari-dance",
+ "name": "Chari Dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-10T19:25:30Z",
+ "researched_at": "2026-11-10T17:36:14Z",
+ "qc_score": 9.45,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable cultural historian or a member of the Gurjar community.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Chari Dance",
+   "chari"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Chari Dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Flaming Pots of Rajasthan",
+     "This is Chari Dance. Traditional."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Chari Dance · India · Traditional"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originates from the desert state of Rajasthan, specifically the Ajmer and Kishangarh regions.",
+     "It celebrates the lifelong ritual of women collecting water for their families."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed at marriage celebrations, the birth of a male child, and at festivals of goodness.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Chari Folk Dance of Rajasthan.webm (https://upload.wikimedia.org/wikipedia/commons/0/0d/Chari_Folk_Dance_of_Rajasthan.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed by a group of women who balance lit earthenware or brass pots on their heads.",
+     "Dancers execute graceful limb movements and deep knee swirls while keeping the flaming pots balanced without touching them.",
+     "Watch for Chari Balancing."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Group dance, moving quietly around the floor."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is played using the Nagada, Dholak, Dhol, Harmonium, Thali, and Bankia.",
+     "The Bankia is the most common instrument and is known for its powerful, eerie sound.",
+     "Listen for the Nagada, Dholak, Dhol, Harmonium.",
+     "The music is characterized by the powerful and eerie sound of the Bankia, supported by percussion instruments like the Nagada and Dholak."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear traditional Rajasthani golden ornaments including the Hansli, Timniya, Mogri, Punchi, Bangdi, Gajra, Armlets, Karli, Kanka, and Navr."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures",
+     "lineage"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Balancing the chari pot on the head",
+     "Graceful limb movements",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the Chari dance, where women of the Gurjar community turn the daily ritual of water collection into a mesmerizing display of fire and grace.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Mastering posture and balance",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Mastering posture and balance.",
+      "Level: Beginner. Difficulty of the dance overall: advanced.",
+      "Your instructor: A knowledgeable cultural historian or a member of the Gurjar community."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and balanced to support the pot on the head.",
+      "Graceful movements of limbs.",
+      "Deep swirls of knees."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Balancing the chari pot on the head",
+      "Step 2: Graceful limb movements",
+      "Drill: Walking with a balanced object on the head"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Deep knee swirls",
+      "Drill: Maintaining upright posture"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Graceful arm extensions"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Touching the flaming pot while dancing."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm movements and upper body swirls while seated securely. · For children: A balancing game using a safe, non-flammable prop to mimic the Chari."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm movements and upper body swirls while seated securely.",
+      "For children: A balancing game using a safe, non-flammable prop to mimic the Chari."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Mastering posture and balance.",
+      "The dance is performed at marriage celebrations, the birth of a male child, and at festivals of goodness.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Chari Dance",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Chari Dance.",
+      "Level: intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: A knowledgeable cultural historian or a member of the Gurjar community."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and balanced to support the pot on the head.",
+      "Graceful movements of limbs.",
+      "Deep swirls of knees."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Balancing the chari pot on the head",
+      "Step 2: Graceful limb movements"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Deep knee swirls",
+      "Chari Balancing: Balancing a lit earthenware or brass pot on the head without using hands."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Touching the flaming pot while dancing."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm movements and upper body swirls while seated securely. · For children: A balancing game using a safe, non-flammable prop to mimic the Chari."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm movements and upper body swirls while seated securely.",
+      "For children: A balancing game using a safe, non-flammable prop to mimic the Chari."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Group dance, moving quietly around the floor."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Chari Dance.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Chari Dance",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Chari Dance.",
+      "Level: advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: A knowledgeable cultural historian or a member of the Gurjar community."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and balanced to support the pot on the head.",
+      "Graceful movements of limbs.",
+      "Deep swirls of knees."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Graceful limb movements",
+      "Step 2: Deep knee swirls"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Chari Balancing: Balancing a lit earthenware or brass pot on the head without using hands."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Touching the flaming pot while dancing."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm movements and upper body swirls while seated securely. · For children: A balancing game using a safe, non-flammable prop to mimic the Chari."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm movements and upper body swirls while seated securely.",
+      "For children: A balancing game using a safe, non-flammable prop to mimic the Chari."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Group dance, moving quietly around the floor."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Chari Dance.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "Nagada",
+   "Dholak",
+   "Dhol",
+   "Harmonium",
+   "Thali",
+   "Bankia"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "powerful",
+   "eerie"
+  ],
+  "sound_description": "The music is characterized by the powerful and eerie sound of the Bankia, supported by percussion instruments like the Nagada and Dholak.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Chari Dance (India). Instruments: Nagada, Dholak, Dhol, Harmonium, Thali, Bankia. Mood: powerful, eerie. It should sound like this: The music is characterized by the powerful and eerie sound of the Bankia, supported by percussion instruments like the Nagada and Dholak. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Dancers wear traditional Rajasthani golden ornaments including the Hansli, Timniya, Mogri, Punchi, Bangdi, Gajra, Armlets, Karli, Kanka, and Navr.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AUdaipur%2C_Dharohar_%286269624763%29.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AChari_dance_in_bagore_ki_haveli.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AChari_Dance.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Udaipur%2C_Dharohar_%286269624763%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Udaipur%2C_Dharohar_%286269624763%29.jpg/1280px-Udaipur%2C_Dharohar_%286269624763%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Arian Zwegers / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AUdaipur%2C_Dharohar_%286269624763%29.jpg",
+    "description": "Udaipur, Dharohar"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Chari_dance_in_bagore_ki_haveli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Chari_dance_in_bagore_ki_haveli.jpg/1280px-Chari_dance_in_bagore_ki_haveli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "INGENUEN / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AChari_dance_in_bagore_ki_haveli.jpg",
+    "description": "This media has been taken in the country: India"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Chari_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Chari_Dance.jpg/1280px-Chari_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Prakashveer1947 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AChari_Dance.jpg",
+    "description": "Because water is scarce in the desert region of Rajasthan, women must journey for miles to fetch water, carrying pitchers atop their heads. This dance captures the delight of embarking on this journey and maintaining balance with the water pot."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Chari Folk Dance of Rajasthan.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Chari_Folk_Dance_of_Rajasthan.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC0",
+    "attribution": "Kasyap / Wikimedia Commons / CC0"
+   },
+   {
+    "title": "Folk Dances of Rajasthan",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-1570-VHS",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "File:Meet Artemis Team Member Raja Chari.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Meet_Artemis_Team_Member_Raja_Chari.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "NASA / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Danse moyen chari.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Danse_moyen_chari.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Matarimi1 / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Raja Chari-NASA 2017 Astronaut Candidate.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Raja_Chari-NASA_2017_Astronaut_Candidate.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "NASA Johnson / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:NHQ 2020 Artemis Astro RAJA CHARI YOUTUBE (751927043383).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/NHQ_2020_Artemis_Astro_RAJA_CHARI_YOUTUBE_%28751927043383%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Uploaded by Patricia Moore / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:A Team Hero Slide Chari 2020-12-03 LR (757013085436).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/A_Team_Hero_Slide_Chari_2020-12-03_LR_%28757013085436%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Uploaded by Patricia Moore / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "Folk Dances of Rajasthan",
+    "url": "https://archive.org/details/dni.ncaa.RS-92-VHS",
+    "year": null,
+    "license": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Flaming pots in the dark",
+   "Golden Rajasthani jewelry",
+   "Desert landscapes"
+  ],
+  "costume_notes": "Dancers wear traditional Rajasthani golden ornaments including the Hansli, Timniya, Mogri, Punchi, Bangdi, Gajra, Armlets, Karli, Kanka, and Navr.",
+  "setting_notes": "The dance is performed at marriage celebrations, the birth of a male child, and at festivals of goodness.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "11 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 11,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "side side side side"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "notable figures",
+  "lineage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Chari_Dance",
+  "https://www.wikidata.org/wiki/Q12426073"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "471e304af521b281be7bc04207fa0969e42a116f01581a0fdac462562d18f961",
+ "hero_checked": null
+}

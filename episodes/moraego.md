@@ -1,8 +1,8 @@
 # Moraego — episode pack
 
-*Status: withheld-chapters · built 2026-11-09 · judge 9.7 · 10/10 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-10 · judge 9.7 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A cultural anthropologist or Toradja community elder with deep knowledge of Moraego's ritual and social meanings
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Moraego: The Sacred Circle Dance of Central Sulawesi
 NARRATION: This is Moraego. precolonial to early 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (sa5YcGs52Yc)
 ON SCREEN: Title card: Moraego · Indonesia · precolonial to early 20th century
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (sa5YcGs52Yc)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Circle formation with close physical contact between men and unmarried women
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -94,7 +94,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'sa5YcGs52Yc', 'checked_by_vision_model': False, 'title': 'Raego Desa Mataue kecamatan Kulawi'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: circle formations, traditional highland attire, ritual animal sacrifice imagery, close male-female dancing, nighttime celebrations

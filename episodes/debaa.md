@@ -1,8 +1,8 @@
 # Debaa — episode pack
 
-*Status: withheld-chapters · built 2026-11-09 · judge 9.45 · 11/11 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-10 · judge 9.45 · 11/11 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Mahorese woman versed in Sufi traditions and Debaa performance
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Debaa: Women’s Waves of Devotion in Mayotte
 NARRATION: This is Debaa. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (I_ETkyXu5cg)
 ON SCREEN: Title card: Debaa · France · 20th century
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Wave Arms.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (I_ETkyXu5cg)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Performed in groups arranged in circles or semi-circles
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'I_ETkyXu5cg', 'checked_by_vision_model': False, 'title': 'Palo - PURI x KILATE TESLA x KALIBWOY | Studio MRG | STEVEN DEBA'}
 Images: 1 licensed — Bertrand Fanonnel | Eight Studio / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Odissi Recital in the memory of Guru Deba Prasad Das (Vol. I) — https://archive.org/details/dni.ncaa.ICCR-270-UM; Odissi Recital in the memory of Guru Deba Prasad Das (Vol. II) — https://archive.org/details/dni.ncaa.ICCR-271-UM; Shankar Behera - Odissi Dance: Vasant Pallavi — https://archive.org/details/3.-vasant-dark-30-best-shade; Shankar Behera - Odissi dance, a few steps (1990s) — https://archive.org/details/1.-a-few-steps-trim-crop; #MICRO📲DOCU “EVERYBODY ROCK” Micro Documental del Rock Dance — https://archive.org/details/exportfinalome; Shankar Behera - Odissi Dance: Das Avatar, Clips (1990s) — https://archive.org/details/1.-das-avatar-a-blocks-2-slow-950-120-fps
 Motifs: Ocean waves, Matching costumes and jewelry, Arabic calligraphy, Village communal spaces

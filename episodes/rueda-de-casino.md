@@ -1,8 +1,8 @@
 # Rueda de Casino — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-10 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); the occasions & meaning section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the occasions & meaning section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Cuban dancer with deep knowledge of both original and Miami styles, patient and engaging
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Rueda de Casino: The Cuban Salsa Circle That Spins the World
 NARRATION: This is Rueda de Casino. 1950s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (rsthpn_W0gE)
 ON SCREEN: Title card: Rueda de Casino · Cuba · 1950s
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Couples form a circle (rueda) holding closed dance position.
 NARRATION: A caller (líder) inside the circle calls out moves, which the dancers execute simultaneously.
 NARRATION: Moves include partner swaps and turns, often accompanied by hand signals.
 NARRATION: Watch for Dame, Enchufla, Vacila.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (rsthpn_W0gE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circular formation with couples rotating positions during partner swaps
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -325,7 +325,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'rsthpn_W0gE', 'checked_by_vision_model': False, 'title': 'Rueda de casino Santiago de Cuba'}
 Images: 0 licensed
 Footage: File:2017-12-05 Rueda de prensa del Fiscal General Tarek William Saab.webm — https://upload.wikimedia.org/wikipedia/commons/b/b3/2017-12-05_Rueda_de_prensa_del_Fiscal_General_Tarek_William_Saab.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Rueda de Prensa FGR (2020-05-22).webm — https://upload.wikimedia.org/wikipedia/commons/a/ac/Rueda_de_Prensa_FGR_%282020-05-22%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Rueda de Prensa del FGR. Dr. Tarek William Saab (2020-06-26).webm — https://upload.wikimedia.org/wikipedia/commons/7/75/Rueda_de_Prensa_del_FGR._Dr._Tarek_William_Saab_%282020-06-26%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:2019-03-11 Rueda de Prensa de Juan Guaidó.webm — https://upload.wikimedia.org/wikipedia/commons/b/b6/2019-03-11_Rueda_de_Prensa_de_Juan_Guaid%C3%B3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:2019-10-18 Rueda de Prensa de Juan Guaidó.webm — https://upload.wikimedia.org/wikipedia/commons/4/42/2019-10-18_Rueda_de_Prensa_de_Juan_Guaid%C3%B3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:2020-02-15 Rueda de Prensa de Juan Guaidó.webm — https://upload.wikimedia.org/wikipedia/commons/b/b3/2020-02-15_Rueda_de_Prensa_de_Juan_Guaid%C3%B3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; SYNURA, UN BAILE AL SOL, SIERRA DE LA CULEBRA. — https://archive.org/details/Flickr-39716919212; UN Day Parade 2010 — https://archive.org/details/UN_Day_Parade_2010
 Motifs: Circular formations, Hand signals, Partner exchanges, Colorful Cuban club scenes, Energetic footwork

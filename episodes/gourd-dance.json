@@ -1,0 +1,381 @@
+{
+ "slug": "gourd-dance",
+ "name": "Gourd Dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-10T19:25:30Z",
+ "researched_at": "2026-11-10T18:55:09Z",
+ "qc_score": 9.6,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A member of the Kiowa Gourd Dance Society.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Gourd Dance",
+   "Ti-ah pi-ah"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Gourd Dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Gourd Dance is defined by a 'howl' at the end of each song, a sonic tribute to the red wolf who, according to Kiowa legend, first taught the dance to a man lost in the wilderness.",
+     "This is Gourd Dance. 1957 revival."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (It-uIrFEoPo)",
+     "Title card: Gourd Dance · USA · 1957 revival"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated from a Kiowa legend involving a red wolf.",
+     "It was once part of the Sun Dance but was suppressed by the U.S. government in the late 19th century.",
+     "It was formally revived in 1957."
+    ],
+    "on_screen": [
+     "Map: USA · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is held during summer ceremonials, often around July 4.",
+     "It is a sacred tradition that signifies 'ready to go, ready to die' in the Kiowa language.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Pikes Peak Challenge (https://archive.org/details/dom-351187-pikespeakchallenge)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Performed in a circular arena.",
+     "Men dance in a perimeter, lifting feet to the drumbeat and shaking rattles.",
+     "Women dance in place behind the men.",
+     "Watch for Stationary dance."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (It-uIrFEoPo)",
+     "Captions name each signature move as it appears"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music consists of songs accompanied by a drum and metal rattles.",
+     "The tempo typically progresses from slow to fast throughout a set.",
+     "Listen for the Drum, Metal rattle.",
+     "The music is characterized by the steady, rhythmic pulse of a drum and the metallic shaking of rattles, punctuated by traditional singing and a distinct wolf-like howl."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Alternating hard and soft drumbeats."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Regalia includes a red and blue blanket, a skunk berry bandolier, and a metal rattle.",
+     "Dancers wear buckskin leggings and a long red breechcloth.",
+     "Head attire includes otter wraps or a roach."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Fred Tsoodle, Bill Koomsa, William Tanedooah, Clyde Ahtape, Harry Hall Zotigh, Fred Botone, Oliver Tanedooah, and Abel Big Bow.",
+     "Three main branches exist: the Kiowa Gourd Clan, the Tiah-Piah Society of Oklahoma, and the Kiowa TiaPiah Society of Carnegie.",
+     "The Gourd Dance is linked to the Kiowa warrior society Jài:fè:gàu (Tdeinpei-gah)."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Gourd Dance is parent of Sun Dance: The Gourd Dance was once a part of the Kiowa Sun Dance ceremony."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The Gourd Dance is a sacred Kiowa tradition; outsiders should respect protocol, such as avoiding casual headwear like baseball caps or cowboy hats during the ceremony."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the history and rhythmic precision of the Kiowa Gourd Dance.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Alternating hard and soft drumbeats.",
+  "instruments": [
+   "Drum",
+   "Metal rattle"
+  ],
+  "vocal_style": "Singing with a 'howl' at the end of each song.",
+  "musical_form": "Sets of songs starting slow and becoming progressively faster.",
+  "mood": [
+   "solemn",
+   "rhythmic",
+   "ceremonial"
+  ],
+  "sound_description": "The music is characterized by the steady, rhythmic pulse of a drum and the metallic shaking of rattles, punctuated by traditional singing and a distinct wolf-like howl.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Gourd Dance (USA). Rhythm pattern: Alternating hard and soft drumbeats.. Instruments: Drum, Metal rattle. Vocal style: Singing with a 'howl' at the end of each song.. Form: Sets of songs starting slow and becoming progressively faster.. Mood: solemn, rhythmic, ceremonial. It should sound like this: The music is characterized by the steady, rhythmic pulse of a drum and the metallic shaking of rattles, punctuated by traditional singing and a distinct wolf-like howl. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "It-uIrFEoPo",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Regalia includes a red and blue blanket, a skunk berry bandolier, and a metal rattle. Dancers wear buckskin leggings and a long red breechcloth. Head attire includes otter wraps or a roach.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ANative_American_Gourd_Dance.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Native_American_Gourd_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Native_American_Gourd_Dance.jpg/1280px-Native_American_Gourd_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Donovan Shortey / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANative_American_Gourd_Dance.jpg",
+    "description": "13th Annual NCI New Year's Eve Sobriety Pow Wow and Gourd Dance at the Miyamura High School Gym in Gallup, NM on December 31, 2011."
+   }
+  ],
+  "footage": [
+   {
+    "title": "Pikes Peak Challenge",
+    "url": "https://archive.org/details/dom-351187-pikespeakchallenge",
+    "year": 2011,
+    "license": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Meaning and History of the Gourd Dance - Native American Heritage Month",
+    "url": "https://archive.org/details/cpaz-Meaning_and_History_of_the_Gourd_Dance_-_Native_American_Heritage_Month",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Allen James, Pomo Culture 4",
+    "url": "https://archive.org/details/cafovyka_000068",
+    "year": 1979,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Red and blue blankets",
+   "Skunk berry bandoliers",
+   "Circular arena"
+  ],
+  "costume_notes": "Regalia includes a red and blue blanket, a skunk berry bandolier, and a metal rattle. Dancers wear buckskin leggings and a long red breechcloth. Head attire includes otter wraps or a roach.",
+  "setting_notes": "The dance is held during summer ceremonials, often around July 4. It is a sacred tradition that signifies 'ready to go, ready to die' in the Kiowa language.",
+  "map": {
+   "country": "USA",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Gourd_Dance",
+  "https://www.wikidata.org/wiki/Q5588400"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "54e006a927e813ea9b05a436eb4d114f56ae592743ac6cfd74112e8e77beea46",
+ "hero_checked": "pass"
+}

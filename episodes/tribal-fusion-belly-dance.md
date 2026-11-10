@@ -1,6 +1,6 @@
 # Tribal Fusion Belly Dance — episode pack
 
-*Status: draft · built 2026-11-09 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-10 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): the hero video's vision check
 
@@ -80,7 +80,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Lift ribcage and drop shoulders into an aligned, grounded stance with soft knees.
 NARRATION: Execute an upper-torso chest slide side-to-side without moving the hips.
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: the teacher does not use a formal counting scheme, instead f.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -109,7 +109,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4.
+NARRATION: Count: the teacher does not use a formal counting scheme, instead f. The meter is 4/4.
 NARRATION: Rhythm pattern: Heavy electronic downbeats accented with syncopated Middle Eastern doumbek patterns (e.g., maqsum or baladi frameworks) and glitch/breakbeat subdivisions..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -124,7 +124,7 @@ NARRATION: Drill: Stand with feet parallel, soften knees, tuck tailbone, and lif
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: the teacher does not use a formal counting scheme, instead f · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Roll the abdomen sequentially in an undulating belly roll, pulling inward from top to bottom.
@@ -132,7 +132,7 @@ NARRATION: Step 4: Perform a sharp pelvic tuck and release isolation (lock or po
 NARRATION: Drill: Perform horizontal chest slides side-to-side on a 4-count rhythm without hip movement.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: the teacher does not use a formal counting scheme, instead f · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -145,6 +145,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid moving the pelvis and ribcage simultaneously during single isolations; avoid collapsing the thoracic spine or hyperextending knees.
+NARRATION: Teachers of this dance warn against: trying to copy the teacher exactly instead of feeling the movement
 NARRATION: Teachers of this dance warn against: <mistake the teacher names and corrects>
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform ribcage slides, snake arms, and gentle abdominal undulations seated upright in a stable chair with feet planted flat on the floor. · For children: 'Snake and Freeze': Children imitate undulating snake arms to fluid music, then must perform a muscular 'pop' and freeze when the electronic beat drops.
@@ -152,7 +153,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform ribcage slides, snake arms, and gentle abdominal undulations seated upright in a stable chair with feet planted flat on the floor. · For children: 'Snake and Freeze': Children imitate undulating snake arms to fluid music, then must perform a muscular 'pop' and freeze when the electronic beat drops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: the teacher does not use a formal counting scheme, instead f.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 80 bpm
@@ -183,7 +184,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4.
+NARRATION: Count: the teacher does not use a formal counting scheme, instead f. The meter is 4/4.
 NARRATION: Rhythm pattern: Heavy electronic downbeats accented with syncopated Middle Eastern doumbek patterns (e.g., maqsum or baladi frameworks) and glitch/breakbeat subdivisions..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -196,7 +197,7 @@ NARRATION: Drill: Engage upper abs then lower abs sequentially to execute a cont
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: the teacher does not use a formal counting scheme, instead f · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Snake Arms: Continuous, alternating wave-like undulation passing from the scapula through the shoulder, elbow, and wrist out to the fingertips.
@@ -205,7 +206,7 @@ NARRATION: Drill: Practice sharp pelvic tucks (pops) on counts 1 and 3 against a
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: the teacher does not use a formal counting scheme, instead f · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -218,6 +219,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid moving the pelvis and ribcage simultaneously during single isolations; avoid collapsing the thoracic spine or hyperextending knees.
+NARRATION: Teachers of this dance warn against: trying to copy the teacher exactly instead of feeling the movement
 NARRATION: Teachers of this dance warn against: <mistake the teacher names and corrects>
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform ribcage slides, snake arms, and gentle abdominal undulations seated upright in a stable chair with feet planted flat on the floor. · For children: 'Snake and Freeze': Children imitate undulating snake arms to fluid music, then must perform a muscular 'pop' and freeze when the electronic beat drops.
@@ -225,7 +227,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform ribcage slides, snake arms, and gentle abdominal undulations seated upright in a stable chair with feet planted flat on the floor. · For children: 'Snake and Freeze': Children imitate undulating snake arms to fluid music, then must perform a muscular 'pop' and freeze when the electronic beat drops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: the teacher does not use a formal counting scheme, instead f.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Fluid stage floor patterns, direct audience address, diagonal transitions, and stationary solo pedestals.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 80 bpm
@@ -256,7 +258,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is 4/4.
+NARRATION: Count: the teacher does not use a formal counting scheme, instead f. The meter is 4/4.
 NARRATION: Rhythm pattern: Heavy electronic downbeats accented with syncopated Middle Eastern doumbek patterns (e.g., maqsum or baladi frameworks) and glitch/breakbeat subdivisions..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -270,7 +272,7 @@ NARRATION: Drill: Execute 8-count fluid snake arms while executing steady pelvic
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: the teacher does not use a formal counting scheme, instead f · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Ribcage Isolation Slide: Linear horizontal translation of the ribcage parallel to the floor without shifting the pelvis or hips.
@@ -279,7 +281,7 @@ NARRATION: Drill: Perform a traveling step-touch combination while executing a h
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: the teacher does not use a formal counting scheme, instead f · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -292,6 +294,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid moving the pelvis and ribcage simultaneously during single isolations; avoid collapsing the thoracic spine or hyperextending knees.
+NARRATION: Teachers of this dance warn against: trying to copy the teacher exactly instead of feeling the movement
 NARRATION: Teachers of this dance warn against: <mistake the teacher names and corrects>
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform ribcage slides, snake arms, and gentle abdominal undulations seated upright in a stable chair with feet planted flat on the floor. · For children: 'Snake and Freeze': Children imitate undulating snake arms to fluid music, then must perform a muscular 'pop' and freeze when the electronic beat drops.
@@ -299,7 +302,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform ribcage slides, snake arms, and gentle abdominal undulations seated upright in a stable chair with feet planted flat on the floor. · For children: 'Snake and Freeze': Children imitate undulating snake arms to fluid music, then must perform a muscular 'pop' and freeze when the electronic beat drops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: the teacher does not use a formal counting scheme, instead f.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Fluid stage floor patterns, direct audience address, diagonal transitions, and stationary solo pedestals.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 80 bpm
@@ -338,10 +341,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow
-Cues: short verbal cue the teacher repeats  8 words; deep slow hip circles; hips to one side in little pulses; breathe in arms come up; roll through the spine; belly rolls both directions
-Common mistakes the studied teachers name: <mistake the teacher names and corrects>
+Source: 3 tutorial(s) of this dance studied · videos studied: 3
+Counting: the teacher does not use a formal counting scheme, instead f
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full
+Cues: make a little bit space between feet; try to find some groove; keep the water inside; make it easy; try to make the shift; make some groovy in your chest; try to find in your spine; make the snake finish on your arms; short verbal cue the teacher repeats  8 words; deep slow hip circles; hips to one side in little pulses; breathe in arms come up
+Common mistakes the studied teachers name: trying to copy the teacher exactly instead of feeling the movement; <mistake the teacher names and corrects>
 
 Sources (4): https://en.wikipedia.org/wiki/Tribal_Fusion; https://www.wikidata.org/wiki/Q2743437; https://es.wikipedia.org/wiki/Danza_del_vientre_tribal; https://fr.wikipedia.org/wiki/Tribal_fusion

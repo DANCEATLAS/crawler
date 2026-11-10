@@ -1,5 +1,5 @@
 # QC review queue
-_Generated 2026-11-09T21:56:24Z_
+_Generated 2026-11-10T19:28:55Z_
 
 | slug | gate | score | reasons | duplicate of |
 |---|---|---|---|---|
@@ -136,11 +136,15 @@ _Generated 2026-11-09T21:56:24Z_
 | catalan-rumba | review | 9.7 | not_duplicate, judge_score=9.7, sacred | rhumba |
 | sher | review | 9.6 | country, insight_concrete, judge_score=9.6 |  |
 | malappulayattam | review | 9.6 | citations, country, region, banned_phrasing, sacred_handled, judge_score=9.6, sacred |  |
+| mixer-dance | review | 9.6 | country, insight_concrete, judge_score=9.6 |  |
+| georgian-folk-dance | review | 9.6 | not_duplicate, judge_score=9.6, sacred | kartuli |
 | diablada-de-oruro | review | 9.55 | not_duplicate, judge_score=9.55, sacred | diablada |
 | melbourne-shuffle | review | 9.5 | citations, insight_concrete, banned_phrasing, judge_score=9.5, sacred |  |
 | calabrian-tarantella | review | 9.5 | insight_concrete, sacred_handled, judge_score=9.5, sacred |  |
 | myel-lyel | review | 9.45 | citations, insight_concrete, judge_score=9.45, sacred |  |
 | serpent-dance | review | 9.45 | citations, country, region, sacred_handled, judge_score=9.45, sacred |  |
+| kola | review | 9.45 | not_duplicate, judge_score=9.45, sacred | buta-kola |
+| maach | review | 9.45 | insight_concrete, sacred_handled, judge_score=9.45, sacred |  |
 | pangalay | review | 9.35 | insight_concrete, sacred_handled, judge_score=9.35, sacred |  |
 | tappa-dance | review | 9.3 | insight_concrete, banned_phrasing, judge_score=9.3 |  |
 | thougal-jagoi | review | 9.3 | insight_concrete, banned_phrasing, judge_score=9.3, sacred |  |
@@ -149,6 +153,7 @@ _Generated 2026-11-09T21:56:24Z_
 | schafflertanz | review | 9.25 | citations, insight_concrete, judge_score=9.25, sacred |  |
 | hacha-a | review | 9.25 | not_duplicate, judge_score=9.25 | iraqi-chobi |
 | borankana | review | 9.15 | not_duplicate, judge_score=9.15 | phathisi |
+| gamelan-joged-bumbung | review | 9.15 | not_duplicate, sacred_handled, judge_score=9.15, sacred | joged-bali |
 | singkil | review | 9.1 | citations, judge_score=9.1, sacred |  |
 | zafin | review | 9.1 | country, judge_score=9.1, sacred |  |
 | pols | review | 9.1 | citations, sections_filled, judge_score=9.1 |  |
@@ -156,6 +161,7 @@ _Generated 2026-11-09T21:56:24Z_
 | social-dance | review | 9.0 | country, judge_score=9.0 |  |
 | intore | review | 8.95 | citations, judge_score=8.95 |  |
 | garrotin | review | 8.95 | citations, judge_score=8.95 |  |
+| kuda-kepang | review | 8.95 | not_duplicate, judge_score=8.95, sacred | jathilan |
 | neoclassical-ballet | review | 8.9 | citations, judge_score=8.9, doubts=2 |  |
 | yumsharol-jagoi | review | 8.85 | profile_long_len, sections_filled, banned_phrasing, judge_score=8.85, sacred |  |
 | merak-dance | review | 8.85 | not_duplicate, sacred_handled, judge_score=8.85, sacred | dai-peacock-dance |
@@ -163,6 +169,7 @@ _Generated 2026-11-09T21:56:24Z_
 | metelytsia | review | 8.75 | citations, insight_concrete, judge_score=8.75 |  |
 | hoochie-coochie | review | 8.7 | not_duplicate, judge_score=8.7 | belly-dance |
 | sanghyang | review | 8.7 | citations, insight_concrete, judge_score=8.7, sacred |  |
+| cadence-rampa | review | 8.65 | sections_filled, banned_phrasing, judge_score=8.65 |  |
 | ram-wong | review | 8.6 | citations, judge_score=8.6, doubts=1 |  |
 | electric-techno-neon-gods | review | 8.6 | citations, sacred_handled, judge_score=8.6, doubts=2, sacred |  |
 | tondero | review | 8.5 | insight_concrete, banned_phrasing, judge_score=8.5, doubts=2 |  |
@@ -188,6 +195,7 @@ _Generated 2026-11-09T21:56:24Z_
 | gerreh | review | 8.15 | citations, sections_filled, judge_score=8.15, sacred |  |
 | kakalika | review | 8.0 | sections_filled, judge_score=8.0, doubts=2 |  |
 | chumba | review | 7.95 | citations, sections_filled, judge_score=7.95 |  |
+| erotic-dance | review | 7.85 | country, judge_score=7.85 |  |
 | binasuan | review | 7.8 | citations, banned_phrasing, sacred_handled, judge_score=7.8, doubts=2, sacred |  |
 | pukkumina | review | 7.75 | insight_concrete, judge_score=7.75, doubts=1, sacred |  |
 | chuvash-folk-dance | review | 7.65 | citations, judge_score=7.65 |  |
@@ -372,10 +380,11 @@ _Generated 2026-11-09T21:56:24Z_
 | zimbabwe | retire |  | judge: country — This is a sovereign nation, not a dance. |
 | zuvedra | retire |  | judge: group_or_company — Lithuanian dancesport formation dance team. |
 
-## Screened out before research: dance moves, steps, figures (33) — not Atlas entries; to rescue one, set its status back to "queued" in pipeline_state/candidates.json
+## Screened out before research: dance moves, steps, figures (34) — not Atlas entries; to rescue one, set its status back to "queued" in pipeline_state/candidates.json
 
 | candidate | why |
 |---|---|
+| mashed-potato | dance move/step/figure: dance |
 | zapin-api | dance move/step/figure: Indonesian traditional dance |
 | shimmy | dance move/step/figure: type of dance |
 | orange-justice | dance move/step/figure: Dance move |

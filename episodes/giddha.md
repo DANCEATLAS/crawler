@@ -1,8 +1,8 @@
 # Giddha — episode pack
 
-*Status: draft · built 2026-11-09 · judge 8.7 · 11/11 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-10 · judge 8.7 · 11/11 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; signature moves; notable figures; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; signature moves; notable figures; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Punjabi woman with deep cultural knowledge and storytelling skill
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Giddha: The Women's Circle Dance of Punjab
 NARRATION: This is Giddha. Ancient origins; codified from 1960s onward.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (U166QxgmCqw)
 ON SCREEN: Title card: Giddha · India, Pakistan · Ancient origins; codified from 1960s onward
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ ON SCREEN: Footage: File:Punjabi Dance Performance at Cultural Fest, Himachal Pr
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (U166QxgmCqw)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Dancers stand in a circle
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -297,7 +297,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Women traditionally wear brightly colored salwar kameez or ghagra, accessorized with folk jewelry. Hair is styled in two braids with folk ornaments and a tikka on the forehead. The dance is performed in social and festive settings, especially weddings.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'U166QxgmCqw', 'checked_by_vision_model': False, 'title': 'Giddha performance for Sangeet night!'}
 Images: 1 licensed — Dr. Manavpreet Kaur / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Punjabi Dance Performance at Cultural Fest, Himachal Pradesh University, Shimla.webm — https://upload.wikimedia.org/wikipedia/commons/1/17/Punjabi_Dance_Performance_at_Cultural_Fest%2C_Himachal_Pradesh_University%2C_Shimla.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; A Dance performance by Bhangra Giddha Group led by Ms. Pushpa Rani — https://archive.org/details/dni.ncaa.ICCR-891-VHS; Performances: Folk Dance and Music of India by Groups from Sangeet Natak Akademi — https://archive.org/details/dni.ncaa.ICCR-866-UM; Performance by Bhangra and Giddha Group (Vol. IV) — https://archive.org/details/dni.ncaa.ICCR-838-UM; Folk Performance by a Group from Ludhiana — https://archive.org/details/dni.ncaa.ICCR-2447-VHS; Folk Performance by Asian Folk Dance Club — https://archive.org/details/dni.ncaa.ICCR-2407-VHS; Performance by Bhangra and Giddha Group (Vol. III) — https://archive.org/details/dni.ncaa.ICCR-837-UM
 Motifs: Brightly colored traditional Punjabi dress, Hands clapping in unison, Braided hair with tikka, Circle formation, Expressive facial expressions during boliyan

@@ -1,0 +1,422 @@
+{
+ "slug": "jingle-dress-dance",
+ "name": "Jingle Dress Dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-10T19:25:30Z",
+ "researched_at": "2026-11-10T18:41:02Z",
+ "qc_score": 9.6,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable powwow dancer or elder.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Jingle Dress Dance",
+   "Jingle Dress Dance",
+   "Jingle Dress"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Jingle Dress Dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Healing Sound of the Jingle Dress",
+     "This is Jingle Dress Dance. c. 1900."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (vgS9veBDOhE)",
+     "Title card: Jingle Dress Dance · USA · c. 1900"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated around 1900 in Ojibwe communities following a dream by a Midewinini.",
+     "It was created as a healing ritual for an ill child and spread from the Mille Lacs and White Earth reservations to the Lakota in the 1920s."
+    ],
+    "on_screen": [
+     "Map: USA · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is a healing ceremony.",
+     "It is performed at powwows, where people may offer tobacco to dancers to request prayers for the sick.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Pow Wow Trail ｜ S1, Ep 07 ｜ Docu-series (https://archive.org/details/youtube-CHRha0H1YPg)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Traditional style features light, grounded footwork without crossing feet or turning circles.",
+     "Contemporary style incorporates more complex footwork, including crossing feet, turning, and backward movement.",
+     "Watch for Traditional Step."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (vgS9veBDOhE)",
+     "Captions name each signature move as it appears",
+     "Formation: Danced within a powwow circle."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is driven by the drum and singing.",
+     "Dancers must keep time with the beat and stop exactly when the music ends.",
+     "Listen for the Drum, Voice.",
+     "The music is defined by a steady, driving drum beat and vocal chanting, punctuated by the rhythmic, metallic jingling of the dress cones."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Must follow the drum beat."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The regalia consists of a dress adorned with metal cones (historically from tobacco lids).",
+     "Modern dresses may use 365 cones to represent the days of the year.",
+     "Dancers often carry a feather fan."
+    ],
+    "on_screen": [
+     "Image gallery: 4 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Variations exist between the traditional style (grounded, no crossing) and the contemporary style (fancier footwork, spins).",
+     "Ojibwe origin, spread to Lakota and other tribes."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Jingle Dress Dance is shares music of Men's Fancy Dance: Both are powwow dances that require strict adherence to the drum beat."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The dance is a healing ceremony with spiritual origins; it should be approached with respect for its role in prayer and community health."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the origins of the Jingle Dress Dance, a sacred healing tradition born from a dream.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Must follow the drum beat.",
+  "instruments": [
+   "Drum",
+   "Voice"
+  ],
+  "vocal_style": "Traditional powwow singing.",
+  "musical_form": null,
+  "mood": [
+   "healing",
+   "rhythmic",
+   "solemn"
+  ],
+  "sound_description": "The music is defined by a steady, driving drum beat and vocal chanting, punctuated by the rhythmic, metallic jingling of the dress cones.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Jingle Dress Dance (USA). Rhythm pattern: Must follow the drum beat.. Instruments: Drum, Voice. Vocal style: Traditional powwow singing.. Mood: healing, rhythmic, solemn. It should sound like this: The music is defined by a steady, driving drum beat and vocal chanting, punctuated by the rhythmic, metallic jingling of the dress cones. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "vgS9veBDOhE",
+   "checked_by_vision_model": false,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The regalia consists of a dress adorned with metal cones (historically from tobacco lids). Modern dresses may use 365 cones to represent the days of the year. Dancers often carry a feather fan.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AJingleDress3.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AJingleDress1.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AJingleDress2.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/JingleDress3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cc/JingleDress3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Montanabw / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJingleDress3.jpg",
+    "description": "Image from Last Chance Community Pow Wow 2007, Helena, Montana"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/JingleDress1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bb/JingleDress1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Montanabw / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJingleDress1.jpg",
+    "description": "Image from Last Chance Community Pow Wow 2007, Helena, Montana"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/JingleDress2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/12/JingleDress2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Montanabw / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJingleDress2.jpg",
+    "description": "Image from Last Chance Community Pow Wow 2007, Helena, Montana"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Jingle_dress%2C_Ojibwe%2C_view_1%2C_undated_-_Wisconsin_Historical_Museum_-_DSC02919.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Jingle_dress%2C_Ojibwe%2C_view_1%2C_undated_-_Wisconsin_Historical_Museum_-_DSC02919.JPG/1280px-Jingle_dress%2C_Ojibwe%2C_view_1%2C_undated_-_Wisconsin_Historical_Museum_-_DSC02919.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Daderot / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJingle_dress%2C_Ojibwe%2C_view_1%2C_undated_-_Wisconsin_Historical_Museum_-_DSC02919.JPG",
+    "description": "Exhibit in the Wisconsin Historical Museum, Madison, Wisconsin, USA. This item is old enough so that it is in the public domain. Photography was permitted in the museum without restriction."
+   }
+  ],
+  "footage": [
+   {
+    "title": "Pow Wow Trail ｜ S1, Ep 07 ｜ Docu-series",
+    "url": "https://archive.org/details/youtube-CHRha0H1YPg",
+    "year": 2021,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Anishinabe Culture Day 2021",
+    "url": "https://archive.org/details/dancedrum12nov",
+    "year": 2021,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Anoli : Choctaw and Chickasaw Song & Dance",
+    "url": "https://archive.org/details/coatx-Anoli_-_Choctaw_and_Chickasaw_Song_Dance",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Choctaw and Chickasaw dancing October 17, 2024",
+    "url": "https://archive.org/details/coatx-Choctaw_and_Chickasaw_dancing_October_17_2024",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "1994 VHS • Native American Men's and Women's Dance Styles Vol 1 60 FPS",
+    "url": "https://archive.org/details/TheVistaGroup-1994VHSNativeAmericanMensandWomensDanceStylesVol1",
+    "year": 1994,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Metal cones catching the light.",
+   "The drum circle.",
+   "Feather fans."
+  ],
+  "costume_notes": "The regalia consists of a dress adorned with metal cones (historically from tobacco lids). Modern dresses may use 365 cones to represent the days of the year. Dancers often carry a feather fan.",
+  "setting_notes": "The dance is a healing ceremony. It is performed at powwows, where people may offer tobacco to dancers to request prayers for the sick.",
+  "map": {
+   "country": "USA",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "notable figures",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Jingle_dress",
+  "https://www.wikidata.org/wiki/Q6202380",
+  "https://archive.org/details/ERIC_ED451021"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "9d35d49283b6bfa9f86b562cac397d13ccdd9048b2828945ab8cd34d8500da9a",
+ "hero_checked": "fail"
+}

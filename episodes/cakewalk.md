@@ -1,80 +1,86 @@
 # Cakewalk — episode pack
 
-*Status: draft · built 2026-11-09 · judge 10.0 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-10 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** A precise, historically grounded vernacular jazz dancer who emphasizes the satirical origins of the movement.
+**Instructor:** A knowledgeable African American dance historian and skilled cakewalk performer who honors the dance's cultural roots and teaches with respect and enthusiasm.
 **Say it:** Cakewalk, cake walk, chalkline-walk, walk-around
 
 ## Episode 1 · Meet Cakewalk · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Stolen Dance That Won the Cake
+NARRATION: Cakewalk: The Dance That Mocked Masters and Won Cakes
 NARRATION: This is Cakewalk. Mid-19th century to early 20th century.
 ON SCREEN: Hero video, first 10 seconds (LqpINmqxlsc)
 ON SCREEN: Title card: Cakewalk · United States · Mid-19th century to early 20th century
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Developed from mid-19th-century prize walks on Southern US plantations, the cakewalk was exhibited at the 1876 Centennial Exposition in Philadelphia.
-NARRATION: It moved into minstrel shows and eventually Broadway, starring performers like Dora Dean and Charles E. Johnson, before becoming an international sensation in Paris in 1903.
+NARRATION: The cakewalk originated in the mid-19th century among enslaved African Americans on Southern U.S. plantations, especially Florida, as a satirical imitation of white slaveholders' formal dances.
+NARRATION: It evolved from 'prize walks' where dancers competed for a cake.
+NARRATION: Firsthand accounts describe elaborate nighttime parties with music and dance, attended by slaveowners who judged the contests.
 ON SCREEN: Map: United States · North America
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Performed during Sunday gatherings and nighttime parties as a recreational pastime and a covert satire of white aristocratic European dances, with slaveholders awarding cakes to winning couples.
-NARRATION: Today it is a revived tradition.
-ON SCREEN: Footage: File:Utah -- The Desert Paradise.webm (https://upload.wikimedia.org/wikipedia/commons/a/ac/Utah_--_The_Desert_Paradise.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
+NARRATION: Originally danced at plantation gatherings, especially on Sundays or winter evenings when work was light, the cakewalk was both entertainment and covert satire of slaveholder culture.
+NARRATION: It was a social event for enslaved people to express joy, creativity, and resistance.
+NARRATION: After emancipation, it became a popular stage performance and social dance across the U.S. and Europe.
+NARRATION: Today it is a living tradition.
+ON SCREEN: Footage: File:Cakewalk 1903.webm (https://upload.wikimedia.org/wikipedia/commons/3/33/Cakewalk_1903.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: A lively partnered vernacular jazz dance featuring processional walking, high-stepping kicks, struts, slides, and an erect upper body tilted backward, alternating with frantic jumps and turns.
-NARRATION: Watch for The High-Stepping Strut, The Chalkline Walk.
+NARRATION: Watch for High Kick, Strut, Slide.
 ON SCREEN: Hero video full screen, 30–45 s (LqpINmqxlsc)
 ON SCREEN: Captions name each signature move as it appears
-ON SCREEN: Formation: couples in a processional circle or line, moving down a central space
+ON SCREEN: Formation: Partnered couples dance in procession or circle formations, moving forward and around
 MUSIC: diegetic (the video's own sound), underscore under narration
+NEEDS: how_it_is_danced
 
 ### 5. Listen (70 s) · `music`
-NARRATION: Notated in a 2/4 time signature with an oompah rhythm, incorporating syncopation, polyrhythms, and habanera rhythms.
-NARRATION: Historically played with banjos and violins, it heavily shaped the development of ragtime.
-NARRATION: Listen for the banjo, violin.
+NARRATION: Cakewalk music is generally in 2/4 time with a syncopated 'oom-pah' rhythm featuring two alternate heavy beats per bar.
+NARRATION: It incorporates polyrhythm, syncopation, and habanera rhythm patterns.
+NARRATION: Listen for the banjo, violin, jaw harp, piano.
 NARRATION: The pulse is 2/4.
-NARRATION: A lively 2/4 march with a heavy oompah beat, enriched by syncopated ragtime rhythms, banjos, and violins.
+NARRATION: Bright, rhythmic march with syncopated beats and lively tempo, featuring banjo and piano with playful, accented rhythms that support strutting dance steps.
 ON SCREEN: Instrument names on screen as each is mentioned
-ON SCREEN: Listen later: At the cakewalk last night — George Formby
-ON SCREEN: Waveform or rhythm-pattern graphic: oompah rhythm, syncopation, polyrhythm, and habanera rhythm
+ON SCREEN: Listen later: At the Cakewalk Last Night — George Formby; Golliwogg's Cake-walk — Claude Debussy
+ON SCREEN: Waveform or rhythm-pattern graphic: Syncopated 'oom-pah' with two alternate heavy beats per bar, incorporating polyrhythm and habanera rhythm
 MUSIC: the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original
 NEEDS: tempo
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Dancers wore handed-down finery including top hats, swallow-tail coats, large bow ties, canes, and long ruffled hoop skirts.
-NARRATION: Settings ranged from plantation yards to rented halls with banked spectator tiers.
+NARRATION: Dancers wore discarded finery such as top hats, tailcoats, wide bow ties, canes, hoop skirts, and long dresses with ruffles, emulating and mocking the formal attire of white slaveholders.
+NARRATION: Performances took place at plantation gatherings, community parties, minstrel shows, and later on Broadway stages and music halls.
+NARRATION: Settings ranged from outdoor plantation yards to large urban theaters.
 ON SCREEN: Image gallery: 8 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 
 ### 7. The people (60 s) · `people`
-NARRATION: Dora Dean, Charles E. Johnson, Tom Fletcher, Eugénie Fougère, Aida Overton Walker, Will Marion Cook.
-NARRATION: Spread from Florida across Georgia, the Carolinas, Virginia, and New York, reaching international popularity in Paris and influencing early tango styles in Buenos Aires.
-NARRATION: Rooted in African American plantation culture, influenced by the ring shout, and serving as a direct precursor and sibling style to ragtime music.
+NARRATION: Charles E. Johnson and his wife Dora Dean were celebrated cakewalk performers who popularized the dance on stage in the 1890s.
+NARRATION: Entertainer Tom Fletcher documented early versions of the dance.
+NARRATION: The cakewalk originated in Florida and spread through the Southern U.S. states including Georgia, Louisiana, and Virginia before reaching New York and Europe.
+NARRATION: The cakewalk descends from African American ring shout dances and European couple dances like the Grand March.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Cakewalk is influence of Ragtime: Many early ragtime tunes were actually cakewalks, sharing identical musical antecedents.
-NARRATION: Cakewalk is shares music of Tango: The arrival of the cakewalk and ragtime in Buenos Aires in 1903 influenced early styles of tango.
-NARRATION: Cakewalk is variant of Lindy Hop: Early 1900s cakewalk steps are preserved and performed within the modern Lindy Hop community.
+NARRATION: Cakewalk is parent of Ring Shout: African-derived dance influencing cakewalk's footwork and call-and-response singing.
+NARRATION: Cakewalk is shares music of Ragtime: Cakewalk rhythms influenced ragtime music and dance styles.
+NARRATION: Cakewalk is child of Minstrel Show Dance: Cakewalk was adapted into minstrel shows, evolving in style and performance.
+NARRATION: Cakewalk is descendant of Lindy Hop: Modern swing dance communities preserve cakewalk elements in performances.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. Processional partner walk with erect posture
-NARRATION: High-stepping high kicks
+NARRATION: Before we go, one step. Couples link arms and stand erect with slight backward tilt of upper body
+NARRATION: Step forward with right foot, lifting knee high in a strut
 NARRATION: Count it: 1-2, 1-2 (two beats a bar; practice pulse only).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
@@ -82,29 +88,29 @@ ON SCREEN: Count on screen
 MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Discover how enslaved dancers turned the formal waltzes of their masters into a revolutionary Broadway craze.
-NARRATION: Sources: 6 references are listed with the profile.
+NARRATION: Explore how enslaved African Americans turned a plantation dance into a national sensation that satirized slaveholders with grace and humor.
+NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
-## Chapter 1 · First steps — Learn the processional partner walk and erect posture. · 13 min
+## Chapter 1 · First steps — Master basic strut and high kick · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Learn the processional partner walk and erect posture..
-NARRATION: Level: Beginner. Difficulty of the dance overall: intermediate.
-NARRATION: Your instructor: A precise, historically grounded vernacular jazz dancer who emphasizes the satirical origins of the movement.
+NARRATION: Chapter 1 — First steps. Today: Master basic strut and high kick.
+NARRATION: Level: Beginner. Difficulty of the dance overall: beginner to intermediate.
+NARRATION: Your instructor: A knowledgeable African American dance historian and skilled cakewalk performer who honors the dance's cultural roots and teaches with respect and enthusiasm.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: erect upper body tilted backward, comical formality
-NARRATION: arms linked with partner, use of canes
+NARRATION: Erect upper body tilted slightly backward, dignified and poised
+NARRATION: Linked arms between partners, occasional use of canes or props for flair
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
-NARRATION: Rhythm pattern: oompah rhythm, syncopation, polyrhythm, and habanera rhythm.
+NARRATION: Rhythm pattern: Syncopated 'oom-pah' with two alternate heavy beats per bar, incorporating polyrhythm and habanera rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -112,18 +118,19 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Processional partner walk with erect posture
-NARRATION: Step 2: High-stepping high kicks
-NARRATION: Footwork from the sources: high-stepping kicks, struts, slides, small pulos and high steps in a circle
-NARRATION: Drill: Erect posture walk
+NARRATION: Step 1: Couples link arms and stand erect with slight backward tilt of upper body
+NARRATION: Step 2: Step forward with right foot, lifting knee high in a strut
+NARRATION: Footwork from the sources: High-stepping kicks alternating with slides and struts, performed in time with syncopated rhythm
+NARRATION: Drill: Practice erect posture with slight backward tilt
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Strutting slide with upper body tilted backward
-NARRATION: Drill: Arm-in-arm couples march
+NARRATION: Step 3: Slide left foot forward smoothly to meet right
+NARRATION: Step 4: Perform a high kick with right leg
+NARRATION: Drill: Step forward with high knee lift
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -132,16 +139,17 @@ COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Drill: Perform alternating high kicks in time
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
-ON SCREEN: Options card: Seated or supported option: Seated upper-body strut and arm movements with erect posture. · For children: A playful walking contest where children dress up and win a paper prize cake.
+NARRATION: Avoid losing posture or rhythm; do not perform jumps that risk injury; respect cultural origins and avoid caricature
+ON SCREEN: Side-by-side: source-supported correction
+ON SCREEN: Options card: For children: Simplified procession walk with playful struts and gentle kicks
 MUSIC: silence
-OPTIONS: Seated or supported option: Seated upper-body strut and arm movements with erect posture. · For children: A playful walking contest where children dress up and win a paper prize cake. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
+OPTIONS: For children: Simplified procession walk with playful struts and gentle kicks (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
@@ -151,31 +159,31 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Learn the processional partner walk and erect posture..
-NARRATION: Performed during Sunday gatherings and nighttime parties as a recreational pastime and a covert satire of white aristocratic European dances, with slaveholders awarding cakes to winning couples.
+NARRATION: You can now: Master basic strut and high kick.
+NARRATION: Originally danced at plantation gatherings, especially on Sundays or winter evenings when work was light, the cakewalk was both entertainment and covert satire of slaveholder culture.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
 
-## Chapter 2 · Building the dance — Incorporate struts and high-stepping kicks. · 13 min
+## Chapter 2 · Building the dance — Add slides and turns · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: Incorporate struts and high-stepping kicks..
-NARRATION: Level: Intermediate. Difficulty of the dance overall: intermediate.
-NARRATION: Your instructor: A precise, historically grounded vernacular jazz dancer who emphasizes the satirical origins of the movement.
+NARRATION: Chapter 2 — Building the dance. Today: Add slides and turns.
+NARRATION: Level: Intermediate. Difficulty of the dance overall: beginner to intermediate.
+NARRATION: Your instructor: A knowledgeable African American dance historian and skilled cakewalk performer who honors the dance's cultural roots and teaches with respect and enthusiasm.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: erect upper body tilted backward, comical formality
-NARRATION: arms linked with partner, use of canes
+NARRATION: Erect upper body tilted slightly backward, dignified and poised
+NARRATION: Linked arms between partners, occasional use of canes or props for flair
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
-NARRATION: Rhythm pattern: oompah rhythm, syncopation, polyrhythm, and habanera rhythm.
+NARRATION: Rhythm pattern: Syncopated 'oom-pah' with two alternate heavy beats per bar, incorporating polyrhythm and habanera rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -183,19 +191,18 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Processional partner walk with erect posture
-NARRATION: Step 2: High-stepping high kicks
-NARRATION: Drill: High-step march
+NARRATION: Step 1: Repeat with left leg stepping and kicking
+NARRATION: Step 2: Alternate struts and slides in time with music
+NARRATION: Drill: Incorporate smooth slides between steps
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Strutting slide with upper body tilted backward
-NARRATION: The High-Stepping Strut: Walking with an erect upper body tilted backward and exaggerated high kicks.
-NARRATION: The Chalkline Walk: Straight walk along a marked path or line maintaining posture.
-NARRATION: Drill: Syncopated slide and strut
+NARRATION: High Kick: A pronounced upward kick with the leg while maintaining erect posture
+NARRATION: Strut: A proud, exaggerated step with lifted knees and pointed toes
+NARRATION: Drill: Practice turning in procession formation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -205,50 +212,51 @@ COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Drill: Introduce expressive arm and hand gestures
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
-ON SCREEN: Options card: Seated or supported option: Seated upper-body strut and arm movements with erect posture. · For children: A playful walking contest where children dress up and win a paper prize cake.
+NARRATION: Avoid losing posture or rhythm; do not perform jumps that risk injury; respect cultural origins and avoid caricature
+ON SCREEN: Side-by-side: source-supported correction
+ON SCREEN: Options card: For children: Simplified procession walk with playful struts and gentle kicks
 MUSIC: silence
-OPTIONS: Seated or supported option: Seated upper-body strut and arm movements with erect posture. · For children: A playful walking contest where children dress up and win a paper prize cake. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
+OPTIONS: For children: Simplified procession walk with playful struts and gentle kicks (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
-NARRATION: Full tempo, the whole sequence, twice. Formation: couples in a processional circle or line, moving down a central space
+NARRATION: Full tempo, the whole sequence, twice. Formation: Partnered couples dance in procession or circle formations, moving forward and around
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Incorporate struts and high-stepping kicks..
-NARRATION: Dora Dean, Charles E. Johnson, Tom Fletcher, Eugénie Fougère, Aida Overton Walker, Will Marion Cook.
+NARRATION: You can now: Add slides and turns.
+NARRATION: Charles E. Johnson and his wife Dora Dean were celebrated cakewalk performers who popularized the dance on stage in the 1890s.
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
 
-## Chapter 3 · Dancing it fully — Add eccentric turns and rhythmic syncopation. · 13 min
+## Chapter 3 · Dancing it fully — Improvise with style and timing · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: Add eccentric turns and rhythmic syncopation..
-NARRATION: Level: Advanced. Difficulty of the dance overall: intermediate.
-NARRATION: Your instructor: A precise, historically grounded vernacular jazz dancer who emphasizes the satirical origins of the movement.
+NARRATION: Chapter 3 — Dancing it fully. Today: Improvise with style and timing.
+NARRATION: Level: Advanced. Difficulty of the dance overall: beginner to intermediate.
+NARRATION: Your instructor: A knowledgeable African American dance historian and skilled cakewalk performer who honors the dance's cultural roots and teaches with respect and enthusiasm.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: erect upper body tilted backward, comical formality
-NARRATION: arms linked with partner, use of canes
+NARRATION: Erect upper body tilted slightly backward, dignified and poised
+NARRATION: Linked arms between partners, occasional use of canes or props for flair
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.
-NARRATION: Rhythm pattern: oompah rhythm, syncopation, polyrhythm, and habanera rhythm.
+NARRATION: Rhythm pattern: Syncopated 'oom-pah' with two alternate heavy beats per bar, incorporating polyrhythm and habanera rhythm.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -256,18 +264,17 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: High-stepping high kicks
-NARRATION: Step 2: Strutting slide with upper body tilted backward
-NARRATION: Drill: Frantic jump and procession alternation
+NARRATION: Step 1: Repeat with left leg stepping and kicking
+NARRATION: Step 2: Alternate struts and slides in time with music
+NARRATION: Drill: Experiment with timing variations
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: The High-Stepping Strut: Walking with an erect upper body tilted backward and exaggerated high kicks.
-NARRATION: The Chalkline Walk: Straight walk along a marked path or line maintaining posture.
-NARRATION: Drill: Performance styling with top hat and cane
+NARRATION: Slide: Smooth gliding step forward to meet the other foot
+NARRATION: Drill: Add playful facial expressions
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -277,27 +284,28 @@ COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Drill: Use props like canes or hats tastefully
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
-ON SCREEN: Options card: Seated or supported option: Seated upper-body strut and arm movements with erect posture. · For children: A playful walking contest where children dress up and win a paper prize cake.
+NARRATION: Avoid losing posture or rhythm; do not perform jumps that risk injury; respect cultural origins and avoid caricature
+ON SCREEN: Side-by-side: source-supported correction
+ON SCREEN: Options card: For children: Simplified procession walk with playful struts and gentle kicks
 MUSIC: silence
-OPTIONS: Seated or supported option: Seated upper-body strut and arm movements with erect posture. · For children: A playful walking contest where children dress up and win a paper prize cake. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
+OPTIONS: For children: Simplified procession walk with playful struts and gentle kicks (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).
-NARRATION: Full tempo, the whole sequence, twice. Formation: couples in a processional circle or line, moving down a central space
+NARRATION: Full tempo, the whole sequence, twice. Formation: Partnered couples dance in procession or circle formations, moving forward and around
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Add eccentric turns and rhythmic syncopation..
-NARRATION: Rooted in African American plantation culture, influenced by the ring shout, and serving as a direct precursor and sibling style to ragtime music.
+NARRATION: You can now: Improvise with style and timing.
+NARRATION: The cakewalk descends from African American ring shout dances and European couple dances like the Grand March.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -305,32 +313,32 @@ MUSIC: theme (10 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Cakewalk (United States). Meter 2/4. Rhythm pattern: oompah rhythm, syncopation, polyrhythm, and habanera rhythm. Instruments: banjo, violin. Vocal style: call-and-response format, folk songs, minstrel tunes. Form: ragtime, march and two-step. Mood: lively, comical, spirited, syncopated. It should sound like this: A lively 2/4 march with a heavy oompah beat, enriched by syncopated ragtime rhythms, banjos, and violins. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Cakewalk (United States). Meter 2/4. Rhythm pattern: Syncopated 'oom-pah' with two alternate heavy beats per bar, incorporating polyrhythm and habanera rhythm. Instruments: banjo, violin, jaw harp, piano, brass band. Vocal style: Call-and-response spirituals and folk songs. Form: March-like with improvisation. Mood: lively, playful, syncopated, satirical. It should sound like this: Bright, rhythmic march with syncopated beats and lively tempo, featuring banjo and piano with playful, accented rhythms that support strutting dance steps. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
 
-Listen before composing (never copy): At the cakewalk last night — George Formby
+Listen before composing (never copy): At the Cakewalk Last Night — George Formby; Golliwogg's Cake-walk — Claude Debussy
 
 Rules: Original composition only — no sampling, no melody of any existing recording, no lyrics from any song. Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom. Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe. Label every generated track with the tool, the date and this brief, so provenance is always clear.
 
 ## Visual brief
 
-Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wore handed-down finery including top hats, swallow-tail coats, large bow ties, canes, and long ruffled hoop skirts. Settings ranged from plantation yards to rented halls with banked spectator tiers.
+Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wore discarded finery such as top hats, tailcoats, wide bow ties, canes, hoop skirts, and long dresses with ruffles, emulating and mocking the formal attire of white slaveholders. Performances took place at plantation gatherings, community parties, minstrel shows, and later on Broadway stages and music halls. Settings ranged from outdoor plantation yards to large urban theaters. The dance was often competitive, with judges awarding cakes to the best performers.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'LqpINmqxlsc', 'checked_by_vision_model': False, 'title': 'Cake Walk'}
 Images: 8 licensed — Dan Walker / Wikimedia Commons / Public domain (Public domain); Strobridge Lithographing Co., Cincinnati &amp; New York / Wikimedia Commons / Public domain (Public domain); Adrien Barrère / Wikimedia Commons / Public domain (Public domain); Leo Rauth / Wikimedia Commons / Public domain (Public domain); Wisconsin Center for Film and Theater Research / Wikimedia Commons / Public domain (Public domain)
-Footage: File:Utah -- The Desert Paradise.webm — https://upload.wikimedia.org/wikipedia/commons/a/ac/Utah_--_The_Desert_Paradise.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Cakewalk 1903.webm — https://upload.wikimedia.org/wikipedia/commons/3/33/Cakewalk_1903.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Le Cakewalk infernal (1903).webm — https://upload.wikimedia.org/wikipedia/commons/8/87/Le_Cakewalk_infernal_%281903%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Les Elkes champions du cake-walk (1903).webm — https://upload.wikimedia.org/wikipedia/commons/9/95/Les_Elkes_champions_du_cake-walk_%281903%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Le Cakewalk infernal (clip, 1903).webm — https://upload.wikimedia.org/wikipedia/commons/3/39/Le_Cakewalk_infernal_%28clip%2C_1903%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Le cake-walk au nouveau cirque.webm — https://upload.wikimedia.org/wikipedia/commons/3/34/Le_cake-walk_au_nouveau_cirque.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Kiddies Cakewalk — https://archive.org/details/silent-kiddies-cakewalk; The Dog & Pony Show: Primera Temporada por Música de Producción (The Complete First Season of Production Music) — https://archive.org/details/the-dog-pony-show-s-01-e-01-baile-de-la-basura-globomania-audio-latino
-Motifs: Top hats and swallow-tail coats, A painted chalk line on a wooden floor, A golden corn-meal cake wrapped in cabbage leaves, Couples arm-in-arm strutting past critical judges
-Costume notes: Dancers wore handed-down finery including top hats, swallow-tail coats, large bow ties, canes, and long ruffled hoop skirts. Settings ranged from plantation yards to rented halls with banked spectator tiers.
+Footage: File:Cakewalk 1903.webm — https://upload.wikimedia.org/wikipedia/commons/3/33/Cakewalk_1903.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Le Cakewalk infernal (1903).webm — https://upload.wikimedia.org/wikipedia/commons/8/87/Le_Cakewalk_infernal_%281903%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Le Cakewalk infernal (clip, 1903).webm — https://upload.wikimedia.org/wikipedia/commons/3/39/Le_Cakewalk_infernal_%28clip%2C_1903%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Kiddies Cakewalk — https://archive.org/details/silent-kiddies-cakewalk; The Dog & Pony Show: Primera Temporada por Música de Producción (The Complete First Season of Production Music) — https://archive.org/details/the-dog-pony-show-s-01-e-01-baile-de-la-basura-globomania-audio-latino; spinshift 05-15-2015 — https://archive.org/details/spinshift05-15-15; File:Les Elkes champions du cake-walk (1903).webm — https://upload.wikimedia.org/wikipedia/commons/9/95/Les_Elkes_champions_du_cake-walk_%281903%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Le cake-walk au nouveau cirque.webm — https://upload.wikimedia.org/wikipedia/commons/3/34/Le_cake-walk_au_nouveau_cirque.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+Motifs: Victorian finery costumes, High-stepping kicks, Prize cakes, Plantation settings, Minstrel show stages
+Costume notes: Dancers wore discarded finery such as top hats, tailcoats, wide bow ties, canes, hoop skirts, and long dresses with ruffles, emulating and mocking the formal attire of white slaveholders. Performances took place at plantation gatherings, community parties, minstrel shows, and later on Broadway stages and music halls. Settings ranged from outdoor plantation yards to large urban theaters. The dance was often competitive, with judges awarding cakes to the best performers.
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 
 ## Teaching formula
 
-Source: 5 tutorial(s) of the african-diaspora family studied · videos studied: 5
+Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: shift; slow; quick quick slow; rock step; left foot; right foot; step; touch; stomp off; push; make sure that you are wearing comfortable shoes; stand properly
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
 
-Sources (6): https://en.wikipedia.org/wiki/Cakewalk; https://www.wikidata.org/wiki/Q1026113; https://es.wikipedia.org/wiki/Cakewalk_(baile); https://fr.wikipedia.org/wiki/Cake-walk; https://pt.wikipedia.org/wiki/Cakewalk; https://archive.org/details/manmoonmighttel00ship
+Sources (5): https://en.wikipedia.org/wiki/Cakewalk; https://www.wikidata.org/wiki/Q1026113; https://es.wikipedia.org/wiki/Cakewalk_(baile); https://fr.wikipedia.org/wiki/Cake-walk; https://pt.wikipedia.org/wiki/Cakewalk

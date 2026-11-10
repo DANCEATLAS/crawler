@@ -1,88 +1,88 @@
 {
- "updated_at": "2026-11-09T19:53:33Z",
- "qc_records_considered": 429,
+ "updated_at": "2026-11-10T17:07:18Z",
+ "qc_records_considered": 454,
  "gate_failures": [
   [
    "sections_filled",
-   89
+   91
   ],
   [
    "citations",
-   71
+   74
   ],
   [
    "insight_concrete",
-   63
-  ],
-  [
-   "profile_long_len",
-   51
-  ],
-  [
-   "country",
-   46
-  ],
-  [
-   "banned_phrasing",
-   44
+   59
   ],
   [
    "sacred_handled",
-   40
+   53
+  ],
+  [
+   "profile_long_len",
+   52
+  ],
+  [
+   "country",
+   50
+  ],
+  [
+   "banned_phrasing",
+   45
   ],
   [
    "not_duplicate",
-   15
+   16
   ],
   [
    "sources",
-   8
+   10
   ],
   [
    "region",
-   6
+   8
   ]
  ],
  "reasons": [
   [
    "sacred",
-   167
+   186
   ],
   [
    "not_a_dance",
-   94
+   99
   ],
   [
    "sections_filled",
-   89
+   91
   ],
   [
    "citations",
-   71
+   74
   ],
   [
    "insight_concrete",
-   63
-  ],
-  [
-   "profile_long_len",
-   51
-  ],
-  [
-   "country",
-   46
-  ],
-  [
-   "banned_phrasing",
-   44
-  ],
-  [
-   "doubts=1",
-   40
+   59
   ],
   [
    "sacred_handled",
-   40
+   53
+  ],
+  [
+   "profile_long_len",
+   52
+  ],
+  [
+   "country",
+   50
+  ],
+  [
+   "banned_phrasing",
+   45
+  ],
+  [
+   "doubts=1",
+   41
   ]
  ],
  "judge_notes": [
@@ -91,20 +91,20 @@
    15
   ],
   [
-   "judge notes mention 'generic'",
-   5
-  ],
-  [
-   "judge notes mention 'inaccura'",
-   5
+   "judge notes mention 'unsupported'",
+   7
   ],
   [
    "judge notes mention 'missing'",
-   5
+   7
   ],
   [
-   "judge notes mention 'unsupported'",
-   5
+   "judge notes mention 'generic'",
+   6
+  ],
+  [
+   "judge notes mention 'inaccura'",
+   6
   ],
   [
    "doubt: The claim that Pilou was 'banned by France' is a common historical oversimplification; while colonial policies suppresse",
@@ -130,90 +130,90 @@
  "episode_gaps_top": [
   [
    "tempo (bpm)",
-   196
-  ],
-  [
-   "licensed images (3 needed)",
-   160
-  ],
-  [
-   "meter",
-   145
+   207
   ],
   [
    "a verified recording to listen to",
-   145
+   195
+  ],
+  [
+   "licensed images (3 needed)",
+   169
+  ],
+  [
+   "meter",
+   154
   ],
   [
    "licensed reference footage",
-   136
-  ],
-  [
-   "a hero video",
-   121
-  ],
-  [
-   "two or more connections",
-   108
-  ],
-  [
-   "what to avoid / common mistakes",
-   101
-  ],
-  [
-   "instruments",
-   75
-  ],
-  [
-   "signature moves",
-   63
+   139
   ],
   [
    "the hero video's vision check",
-   59
+   136
+  ],
+  [
+   "two or more connections",
+   112
+  ],
+  [
+   "what to avoid / common mistakes",
+   96
+  ],
+  [
+   "instruments",
+   78
+  ],
+  [
+   "signature moves",
+   68
+  ],
+  [
+   "the how-it-is-danced section",
+   68
   ],
   [
    "posture, arms and hands",
-   58
+   59
   ]
  ],
  "avoid": [
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (89 pages in 30 days)",
-  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (71 pages in 30 days)",
-  "the insight line was vague — put a person, a place, a year or a number in it (63 pages in 30 days)",
-  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (51 pages in 30 days)",
-  "banned phrasing slipped in — no hype, no 'the sources say', no AI talk (44 pages in 30 days)"
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (91 pages in 30 days)",
+  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (74 pages in 30 days)",
+  "the insight line was vague — put a person, a place, a year or a number in it (59 pages in 30 days)",
+  "a sacred dance had no sacred_note — add one (53 pages in 30 days)",
+  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (52 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "tempo (bpm)",
-   "pages": 196,
+   "pages": 207,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
+   "gap": "a verified recording to listen to",
+   "pages": 195,
+   "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
+  },
+  {
    "gap": "licensed images (3 needed)",
-   "pages": 160,
+   "pages": 169,
    "what_helps": "a Wikimedia Commons category or file link in an editor note"
   },
   {
    "gap": "meter",
-   "pages": 145,
+   "pages": 154,
    "what_helps": "a source that states the time signature"
   },
   {
-   "gap": "a verified recording to listen to",
-   "pages": 145,
-   "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
-  },
-  {
    "gap": "licensed reference footage",
-   "pages": 136,
+   "pages": 139,
    "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
   },
   {
-   "gap": "a hero video",
-   "pages": 121,
-   "what_helps": "the crawler found no usable video — a different search phrase or a channel to trust, via an editor note"
+   "gap": "the hero video's vision check",
+   "pages": 136,
+   "what_helps": "the vision model has not reached it yet — it will (60 a day)"
   }
  ]
 }

@@ -1,0 +1,413 @@
+{
+ "slug": "caci",
+ "name": "Caci",
+ "pack_version": "e2",
+ "built_at": "2026-11-10T19:25:30Z",
+ "researched_at": "2026-11-10T17:39:30Z",
+ "qc_score": 9.25,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Experienced Manggarai caci fighter and cultural custodian",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Caci",
+   "cacing",
+   "ende",
+   "larik",
+   "kebat"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Caci",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Caci: The Whip Duel of Flores",
+     "This is Caci. Traditional, ongoing into modern times."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Caci · Indonesia · Traditional, ongoing into modern times"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Caci originated as a harvest ritual among the Manggarai people of Flores island, Indonesia.",
+     "It is indigenous to the Lesser Sunda Islands and has been practiced historically as a form of dispute settlement between villages.",
+     "The ritual is linked to a local legend about two brothers and a buffalo, celebrated with caci matches."
+    ],
+    "on_screen": [
+     "Map: Indonesia · Southeast Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Caci is performed mainly during traditional harvest festivals like Penti, held every five years, and the Karong Woja Wole festival among the Ndolu ethnic group.",
+     "It marks the end of the harvest and the start of a new crop cycle.",
+     "The ritual serves as both a competitive sport and a sacrificial offering to ancestors for fertility and good harvests.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Penis (https://archive.org/details/penis_20260922)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Caci is performed by two bare-chested male fighters wearing pants covered by embroidered songket sarongs, jingling bells on their lower backs and ankles, and horned buffalo-hide helmets.",
+     "Fighters alternate roles as attacker and defender.",
+     "The attacker delivers up to three blows with a whip or stick, aiming primarily for the opponent’s head or face, while the defender blocks with a shield.",
+     "Watch for Whip Spin, Three-strike Attack."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: one-on-one facing each other in open space"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music accompanying caci fights is performed by women who play drums and gongs.",
+     "The rhythmic beating supports the fighters’ movements and energizes the crowd.",
+     "Listen for the drums, gongs, jingling bells.",
+     "The music features rhythmic drum and gong beats supporting the duel’s tempo, punctuated by the jingling bells worn by fighters, creating a lively and tense atmosphere."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Fighters wear pants covered by embroidered woven songket sarongs, small jingling bells on their lower backs and ankles, and horned helmets made of buffalo hide wrapped in colorful cloths.",
+     "The helmets protect the face and head, which are the primary targets.",
+     "The shield is round or elliptical, made from buffalo hide or wood, and traditionally undecorated."
+    ],
+    "on_screen": [
+     "Image gallery: 6 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "In Manggarai Regency, both whip and stick forms of caci exist, though the stick form is now rare.",
+     "Caci is a martial art indigenous to the Lesser Sunda Islands and part of the Manggarai cultural heritage."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Caci is sibling of Pencak Silat: Both are Indonesian martial arts with ritual and combat elements.",
+     "Caci is sibling of Perang Pandan: Another Indonesian ritual stick fighting tradition.",
+     "Caci is sibling of Cakalele: Maluku warrior dance involving weapons.",
+     "Caci is sibling of Kabasaran: Minahasa war dance with weaponry."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Caci has a sacrificial function; blood from wounds is offered to ancestors to ensure soil fertility and a good harvest. The ritual is traditionally connected to harvest ceremonies and is not merely a sport or dance."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the fierce ritual whip fighting of the Manggarai people, where combat, music, and harvest rites intertwine.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "drums",
+   "gongs",
+   "jingling bells"
+  ],
+  "vocal_style": "singing quatrains by winners and low replies by losers during matches",
+  "musical_form": "continuous rhythmic accompaniment during fights",
+  "mood": [
+   "energetic",
+   "ritualistic",
+   "competitive",
+   "provocative"
+  ],
+  "sound_description": "The music features rhythmic drum and gong beats supporting the duel’s tempo, punctuated by the jingling bells worn by fighters, creating a lively and tense atmosphere.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Caci (Indonesia). Instruments: drums, gongs, jingling bells. Vocal style: singing quatrains by winners and low replies by losers during matches. Form: continuous rhythmic accompaniment during fights. Mood: energetic, ritualistic, competitive, provocative. It should sound like this: The music features rhythmic drum and gong beats supporting the duel’s tempo, punctuated by the jingling bells worn by fighters, creating a lively and tense atmosphere. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Fighters wear pants covered by embroidered woven songket sarongs, small jingling bells on their lower backs and ankles, and horned helmets made of buffalo hide wrapped in colorful cloths. The helmets protect the face and head, which are the primary targets. The shield is round or elliptical, made from buffalo hide or wood, and traditionally undecorated. Matches take place in the yard of a communal house or a village arena, often during festivals such as Penti or Karong Woja Wole.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ACaci_warriors_Ruteng.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACaci_warrior_whip.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ADrum_accompaniment_for_the_caci_fights%2C_Ruteng.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Caci_warriors_Ruteng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Caci_warriors_Ruteng.jpg/1280px-Caci_warriors_Ruteng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Rosino / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACaci_warriors_Ruteng.jpg",
+    "description": "Caci warriors, Ruteng, Flores, Indonesia 2007."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Caci_warrior_whip.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Caci_warrior_whip.jpg/1280px-Caci_warrior_whip.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Rosino / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACaci_warrior_whip.jpg",
+    "description": "Caci warrior and his whip, Ruteng, Flores, Indonesia 2007."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Drum_accompaniment_for_the_caci_fights%2C_Ruteng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Drum_accompaniment_for_the_caci_fights%2C_Ruteng.jpg/1280px-Drum_accompaniment_for_the_caci_fights%2C_Ruteng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Rosino / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADrum_accompaniment_for_the_caci_fights%2C_Ruteng.jpg",
+    "description": "Musical accompaniment for the caci fights, Ruteng, Flores, Indonesia 2007."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Caci_dancer_holding_a_shield_and_a_bow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Caci_dancer_holding_a_shield_and_a_bow.jpg/1280px-Caci_dancer_holding_a_shield_and_a_bow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Rosino / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACaci_dancer_holding_a_shield_and_a_bow.jpg",
+    "description": "Caci dancer holding a shield (Nggiling), a bow (Tereng or Agang, Ruteng, Flores, Indonesia, 2007"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Tari_Caci.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Tari_Caci.jpg/1280px-Tari_Caci.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Fakhri Anindita / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Caci.jpg",
+    "description": "Tari Caci merupakan seni tari perang berasal dari Manggarai Barat, Flores, NTT. Yang di lengkapi perisai dan cambuk untuk menguji keberanian dan ketangkasan."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Caci_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Caci_Dance.jpg/1280px-Caci_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Hendri Suhandi / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACaci_Dance.jpg",
+    "description": "Caci Dance is one of the traditional arts of a kind of typical war dance from the Manggarai community on Flores Island, East Nusa Tenggara Province, Indonesia."
+   }
+  ],
+  "footage": [
+   {
+    "title": "Penis",
+    "url": "https://archive.org/details/penis_20260922",
+    "year": 2012,
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "horned helmets",
+   "jingling bells",
+   "whips and shields",
+   "drum and gong ensembles",
+   "village communal yards"
+  ],
+  "costume_notes": "Fighters wear pants covered by embroidered woven songket sarongs, small jingling bells on their lower backs and ankles, and horned helmets made of buffalo hide wrapped in colorful cloths. The helmets protect the face and head, which are the primary targets. The shield is round or elliptical, made from buffalo hide or wood, and traditionally undecorated. Matches take place in the yard of a communal house or a village arena, often during festivals such as Penti or Karong Woja Wole.",
+  "setting_notes": "Caci is performed mainly during traditional harvest festivals like Penti, held every five years, and the Karong Woja Wole festival among the Ndolu ethnic group. It marks the end of the harvest and the start of a new crop cycle. The ritual serves as both a competitive sport and a sacrificial offering to ancestors for fertility and good harvests. Historically, it also functioned as a dispute resolution method between villages. Today, it attracts tourists and serves as a cultural identity marker for the Manggarai people.",
+  "map": {
+   "country": "Indonesia",
+   "region": "Southeast Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "notable figures"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Caci_(fighting)",
+  "https://www.wikidata.org/wiki/Q12478150"
+ ],
+ "claims_verified": 6,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "cd1bec3916ac7f131930d50a77aa3d4d6e739483d16c1d0e6d5256ca2825c7f3",
+ "hero_checked": null
+}

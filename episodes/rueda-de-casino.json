@@ -2,7 +2,7 @@
  "slug": "rueda-de-casino",
  "name": "Rueda de Casino",
  "pack_version": "e2",
- "built_at": "2026-11-09T21:52:47Z",
+ "built_at": "2026-11-10T19:25:30Z",
  "researched_at": "2026-11-09T21:02:59Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is Rueda de Casino. 1950s."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (rsthpn_W0gE)",
      "Title card: Rueda de Casino · Cuba · 1950s"
     ],
     "music": "theme (30 s)"
@@ -113,7 +113,7 @@
      "Watch for Dame, Enchufla, Vacila."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (rsthpn_W0gE)",
      "Captions name each signature move as it appears",
      "Formation: Circular formation with couples rotating positions during partner swaps"
     ],
@@ -727,7 +727,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "rsthpn_W0gE",
+   "checked_by_vision_model": false,
+   "title": "Rueda de casino Santiago de Cuba"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -861,7 +865,7 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "the occasions & meaning section"
  ],
@@ -875,6 +879,6 @@
  "claims_verified": 9,
  "claims": 9,
  "polished": false,
- "input_fingerprint": "69b1fed37a887dff7b8aee449b9cde2fc2cf2335d6ebc7a4588f4224682d46cd",
+ "input_fingerprint": "ba2bf5a6234de7d5eb0f5fc266572f18bce4469b896bd36f9923c79702d8cde8",
  "hero_checked": null
 }

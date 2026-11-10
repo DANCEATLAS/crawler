@@ -2,7 +2,7 @@
  "slug": "tsyganochka",
  "name": "Tsyganochka",
  "pack_version": "e2",
- "built_at": "2026-11-09T21:52:47Z",
+ "built_at": "2026-11-10T19:25:30Z",
  "researched_at": "2026-11-09T20:22:54Z",
  "qc_score": 9.45,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is Tsyganochka. 19th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (kNPudJGGCyU)",
      "Title card: Tsyganochka · Russia · 19th century"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Entrance Walk."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (kNPudJGGCyU)",
      "Captions name each signature move as it appears",
      "Formation: solo dance with entrance into the dance area"
     ],
@@ -701,7 +701,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "kNPudJGGCyU",
+   "checked_by_vision_model": false,
+   "title": "КРАСАВИЦЫ ЦЫГАНОЧКИ! Цыганские танцы от души!"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -788,7 +792,7 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the occasions & meaning section",
@@ -806,6 +810,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "fd9421669355a2612895dc5f5d7b5eb5035f7716a4e20fef20296e036f540940",
+ "input_fingerprint": "6dceadd939eb7e14bea30720fb62bf1be8a571cca5494f005f4e42137efa441e",
  "hero_checked": null
 }

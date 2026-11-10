@@ -2,8 +2,8 @@
  "slug": "logobi",
  "name": "logobi",
  "pack_version": "e2",
- "built_at": "2026-11-09T21:52:47Z",
- "researched_at": "2026-11-01T16:43:10Z",
+ "built_at": "2026-11-10T19:25:30Z",
+ "researched_at": "2026-11-10T18:27:45Z",
  "qc_score": 10.0,
  "status": "draft",
  "release_status": "not_validated",
@@ -45,13 +45,13 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "An energetic urban street dancer from Abidjan who balances sharp martial discipline with infectious, charismatic humor.",
+   "persona": "An energetic, street-style dancer with knowledge of Ivorian urban history.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
    "logobi",
-   "logobie",
-   "la danse des gros bras"
+   "la danse des gros bras",
+   "logobie"
   ]
  },
  "episode_1": {
@@ -62,7 +62,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Dance of Big Arms: From Abidjan Ghettos to Parisian Stations",
+     "The Dance of the Big Arms: Abidjan's Street Rebellion",
      "This is logobi. 1980s to present."
     ],
     "on_screen": [
@@ -76,9 +76,8 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Logobi appeared in Côte d'Ivoire in the 1980s (specifically traced to 1986), spreading across the working-class ghettos of Abidjan, particularly Abobo, as well as university campuses.",
-     "It grew out of the loubard (street gang) subculture.",
-     "Urban lore and diaspora accounts credit John Pololo (Sahiri Gnédré Lazare, 1962–2000), a martial artist and leader of the gang 'Vagabons Sauvés' (VS), as its inventor and codifier who fused martial arts movements with street music."
+     "Logobi appeared in the 1980s in Abidjan, Côte d'Ivoire, specifically within popular neighborhoods like Abobo.",
+     "It was developed by street gang members, with John Pololo recognized as the primary figure who codified the dance by mixing martial arts gestures with music."
     ],
     "on_screen": [
      "Map: Ivory Coast · Africa",
@@ -91,8 +90,9 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Derived from the Nouchi concept of getting by through cunning and street smarts, the dance communicates the social realities of poverty, misery, and street struggle while voicing hope for prosperity, peace, and justice.",
-     "It serves as both street bravado and social expression."
+     "The dance conveys the social realities of poverty and misery while aspiring toward a more positive future, justice, and peace.",
+     "It serves as a medium for youth to express their identity and navigate the challenges of urban life.",
+     "Today it is a living tradition."
     ],
     "on_screen": [
      "Footage — MISSING (use images)"
@@ -104,15 +104,15 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "The dance is characterized by rapid, highly expressive arm maneuvers—giving it the nickname 'la danse des gros bras'—alongside jerky, staccato footwork.",
-     "Dancers improvise movements inspired by street combat, martial arts punches, secret gang signals, weapon handling, and sexual gestures.",
-     "Performances range from spontaneous maquis and block party circles in Côte d'Ivoire to competitive crew battles held in public transit stations.",
-     "Watch for Les Gros Bras, Jeux de Jambes Saccadés, Mime de Combat."
+     "The dance is characterized by rapid, expressive arm movements and jerky footwork.",
+     "It incorporates mimes of street combat and martial arts.",
+     "The style relies heavily on individual improvisation and high-energy execution.",
+     "Watch for Combat mimes."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (xU8SgMIoD0Y)",
      "Captions name each signature move as it appears",
-     "Formation: Open street cypher, station concourses, or opposing battle lines with explosive forward excursions."
+     "Formation: Improvisational; performed in streets, stations, and public spaces"
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
    },
@@ -121,26 +121,28 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Logobi is danced to fast-tempo music with high rhythmic speed.",
-     "Musical accompaniments include zouglou rhythms, fast-paced coupé-décalé instrumentals, and heavily compressed electronic beats.",
-     "Listen for the synthesizers, electronic drum machines, digital samplers, percussion.",
-     "The pulse is 4/4 at about 140 beats a minute.",
-     "A high-velocity sonic assault driven by digital kick drums, snappy snare syncopations, and repetitive synthesizer riffs. In its traditional form it relies on heavy Ivorian percussive grooves, while modern diaspora iterations layer buzzy electro synths and hard-tech compression."
+     "Logobi music uses rapid tempos and high-energy rhythms, often utilizing coupé-décalé instrumentals or compressed electronic beats.",
+     "Key artists include Les Garagistes, Espoir 2000, Magic System, and Logobi GT.",
+     "Listen for the Electronic synthesizers, Percussion.",
+     "A high-tempo, percussive soundscape that blends traditional Ivorian rhythmic structures with the frenetic, compressed electronic beats of tecktonik and hard-tech."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
-     "Listen later: Un Bail Ke Yes — Logobi GT; Elle danse sexy — Logobi GT; Djolo National — Yang Systeme",
-     "Waveform or rhythm-pattern graphic: Rapid syncopated West African snare and bass kicks layered over compressed four-on-the-floor or coupé-décalé rhythmic grooves."
+     "Listen later: Djolo National — Yang Systeme; Logobi — Les Mantanien",
+     "Waveform or rhythm-pattern graphic: High-energy, percussive, often based on coupé-décalé or electronic beats"
     ],
-    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
    },
    {
     "code": "costume",
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Historically practiced in the street environments, maquis (open-air restaurants/bars), and university campuses of Abidjan, it requires no formal ceremonial dress.",
-     "In its French diaspora phase, it took place in train stations, subways, and shopping malls among street crews dressed in contemporary urban wear."
+     "Historically performed in the ghettos and maquis of Abidjan, the dance moved to public spaces in France, including metro stations, train stations, and shopping malls, where it was performed in street battles."
     ],
     "on_screen": [
      "Images — MISSING",
@@ -156,9 +158,10 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Key figures include John Pololo (Sahiri Gnédré Lazare), who codified the dance; musical groups and artists such as Logobi GT, Les Youlés, Yang Systeme, Les Mantanien, Samo Samo, Les Garagistes, Espoir 2000, Magic System, Petit Yodé and l'Enfant Siro, Molière, Petit Denis, Gor la Montagne, and Moussier Tombola; and visual artist Christelle Oyiri (CrystallMess), who documented the Parisian movement.",
-     "The original Ivorian variant is grounded in loubard street culture, zouglou, and raw martial arts pantomime.",
-     "Logobi evolved out of traditional Ivorian zouglou dance and loubard martial culture during the 1980s."
+     "John Pololo (Sahiri Gnédré Lazare) is the seminal figure.",
+     "Other associated artists include Moussier Tombola, Les Youlés, Samo Samo, Petit Denis, and Gor la Montagne.",
+     "The Ivorian version remains closer to its 'loubard' roots and Zouglou origins, while the French version is a hybrid incorporating tecktonik and electronic music, often geared toward a younger, broader audience.",
+     "Logobi is a descendant of Zouglou and a precursor to the coupé-décalé movement."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -171,9 +174,8 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "logobi is parent of zouglou: Logobi developed directly out of zouglou on Abidjan university campuses, adding martial and street elements.",
-     "logobi is influence of coupé-décalé: Logobi preceded and influenced coupé-décalé, which later provided the fast electronic instrumentals often used to dance logobi.",
-     "logobi is influence of tecktonik: Logobi absorbed tecktonik and electro elements during its diaspora evolution in the Parisian banlieues."
+     "logobi is parent of Zouglou: Logobi evolved from Zouglou, adopting its rhythmic base while developing a more aggressive, street-focused identity.",
+     "logobi is influence of Coupé-décalé: Logobi influenced the development of coupé-décalé and often shares its musical instrumentals."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -185,9 +187,9 @@
     "title": "Try one step",
     "duration_s": 60,
     "narration": [
-     "Before we go, one step. Stance: Adopt a balanced, grounded street posture with knees slightly bent and core braced for rapid weight shifts.",
-     "Gros Bras Pump: Drive clenched fists or open palms out in rapid forward and crossing thrusts, mimicking boxing strikes and martial arts blocks.",
-     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Before we go, one step. Rapid arm movements mimicking combat or street gestures",
+     "Jerky, rhythmic footwork patterns",
+     "Count it: .",
      "Chapter 1 takes it slowly from here."
     ],
     "on_screen": [
@@ -201,7 +203,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Born from the martial arts codes of Ivorian street gangs, logobi transformed urban survival into a high-octane dance phenomenon spanning West Africa and Paris.",
+     "From the ghettos of Abidjan to the metro stations of Paris, discover the high-octane world of logobi.",
      "Sources: 3 references are listed with the profile."
     ],
     "on_screen": [
@@ -216,17 +218,17 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Master the balanced, low-center combat stance and baseline bounce.",
-   "level": "Level 1: Stance and Guard",
+   "goal": "Master the basic arm strike",
+   "level": "Beginner",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Master the balanced, low-center combat stance and baseline bounce..",
-      "Level: Level 1: Stance and Guard. Difficulty of the dance overall: intermediate.",
-      "Your instructor: An energetic urban street dancer from Abidjan who balances sharp martial discipline with infectious, charismatic humor."
+      "Chapter 1 — First steps. Today: Master the basic arm strike.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic, street-style dancer with knowledge of Ivorian urban history."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -238,9 +240,8 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Grounded, athletic, and ready to spring, with flexed knees and forward-tilted torso evoking martial arts readiness.",
-      "Violent, rapid arm thrusts, boxing parries, flexed bicep displays ('gros bras'), and coded gang signals.",
-      "Tightly coiled core with sharp torso twists and periodic provocative or sexual hip overtures."
+      "Athletic and ready, often mimicking martial arts stances",
+      "Large, expressive, and rapid; used to mime combat and gang signals"
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -252,32 +253,36 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
-      "Rhythm pattern: Rapid syncopated West African snare and bass kicks layered over compressed four-on-the-floor or coupé-décalé rhythmic grooves..",
+      "Count: .",
+      "Rhythm pattern: High-energy, percussive, often based on coupé-décalé or electronic beats.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
       "Counts on screen, flashing on the beat",
-      "Metronome at 98 bpm"
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
      ],
-     "music": "lesson_slow (clicks only until the step lands)"
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
     },
     {
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Stance: Adopt a balanced, grounded street posture with knees slightly bent and core braced for rapid weight shifts.",
-      "Step 2: Gros Bras Pump: Drive clenched fists or open palms out in rapid forward and crossing thrusts, mimicking boxing strikes and martial arts blocks.",
-      "Footwork from the sources: Saccadic, jerky steps and rapid weight transfers under a stable center of gravity.",
-      "Drill: Find a wide, grounded squat with elbows tucked and fists guarded."
+      "Step 1: Rapid arm movements mimicking combat or street gestures",
+      "Step 2: Jerky, rhythmic footwork patterns",
+      "Footwork from the sources: Jerky, rapid, and saccadic",
+      "Drill: Slow-motion arm extension"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -285,15 +290,14 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Jerky Footwork (Jeux de jambes): Step in quick, staccato, syncopated pulses, snapping the feet under the hips to match high-tempo electronic or coupé-décalé beats.",
-      "Step 4: Combat Mime: Integrate stylized street-gang gestures, including defensive parries, simulated weapon draws, and defiant hand signals.",
-      "Drill: Pulse in half-time to a fast coupé-décalé beat, keeping heels mobile."
+      "Step 3: Martial arts-inspired stances and strikes",
+      "Drill: Rhythmic arm pulsing to a 4/4 beat"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -303,8 +307,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Shift weight side-to-side without elevating head height."
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -316,27 +319,32 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "Avoid turning fight mimes into genuine physical contact; do not perform without maintaining the underlying percussive bounce."
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: source-supported correction"
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Focus on arm strikes and torso movement while seated. · For children: A 'follow-the-leader' style game mimicking different 'big arm' movements."
      ],
      "music": "silence",
-     "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+     "options": [
+      "Seated or supported option: Focus on arm strikes and torso movement while seated.",
+      "For children: A 'follow-the-leader' style game mimicking different 'big arm' movements."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Count-in: .",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
-      "Track: lesson_full at 140 bpm"
+      "Track: lesson_full (tempo MISSING)"
      ],
      "music": "lesson_full"
     },
@@ -345,8 +353,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Master the balanced, low-center combat stance and baseline bounce..",
-      "Derived from the Nouchi concept of getting by through cunning and street smarts, the dance communicates the social realities of poverty, misery, and street struggle while voicing hope for prosperity, peace, and justice.",
+      "You can now: Master the basic arm strike.",
+      "The dance conveys the social realities of poverty and misery while aspiring toward a more positive future, justice, and peace.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -360,17 +368,17 @@
   {
    "chapter": 2,
    "title": "Building the dance",
-   "goal": "Execute rapid martial arm strikes and blocks in syncopated tempo.",
-   "level": "Level 2: The Gros Bras",
+   "goal": "Coordinate feet and arms",
+   "level": "Intermediate",
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 — Building the dance. Today: Execute rapid martial arm strikes and blocks in syncopated tempo..",
-      "Level: Level 2: The Gros Bras. Difficulty of the dance overall: intermediate.",
-      "Your instructor: An energetic urban street dancer from Abidjan who balances sharp martial discipline with infectious, charismatic humor."
+      "Chapter 2 — Building the dance. Today: Coordinate feet and arms.",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic, street-style dancer with knowledge of Ivorian urban history."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -382,9 +390,8 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Grounded, athletic, and ready to spring, with flexed knees and forward-tilted torso evoking martial arts readiness.",
-      "Violent, rapid arm thrusts, boxing parries, flexed bicep displays ('gros bras'), and coded gang signals.",
-      "Tightly coiled core with sharp torso twists and periodic provocative or sexual hip overtures."
+      "Athletic and ready, often mimicking martial arts stances",
+      "Large, expressive, and rapid; used to mime combat and gang signals"
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -396,30 +403,35 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
-      "Rhythm pattern: Rapid syncopated West African snare and bass kicks layered over compressed four-on-the-floor or coupé-décalé rhythmic grooves..",
+      "Count: .",
+      "Rhythm pattern: High-energy, percussive, often based on coupé-décalé or electronic beats.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
       "Counts on screen, flashing on the beat",
-      "Metronome at 98 bpm"
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
      ],
-     "music": "lesson_slow (clicks only until the step lands)"
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
     },
     {
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Freestyle Break: Loosen into expressive isolations, incorporating pelvic accents or dynamic foot sweeps within a freestyle cypher.",
-      "Drill: Throw alternating straight punches snapping back instantly to guard."
+      "Step 1: Rapid arm movements mimicking combat or street gestures",
+      "Step 2: Jerky, rhythmic footwork patterns",
+      "Drill: Saccadic step-touch"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -427,16 +439,16 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Les Gros Bras: Rapid, forceful flexes and thrusts of the arms simulating martial arts strikes and physical intimidation.",
-      "Jeux de Jambes Saccadés: Quick, staccato foot shifts executed in double-time beneath a mobile upper body.",
-      "Drill: Execute crossing forearm blocks while maintaining the foot bounce."
+      "Step 3: Martial arts-inspired stances and strikes",
+      "Combat mimes: Gestures mimicking street fighting and weapon use",
+      "Drill: Combining arm strikes with rhythmic footwork"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -446,8 +458,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Chain four strikes into an overhead bicep flex on the final accent."
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -459,27 +470,32 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "Avoid turning fight mimes into genuine physical contact; do not perform without maintaining the underlying percussive bounce."
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: source-supported correction"
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Focus on arm strikes and torso movement while seated. · For children: A 'follow-the-leader' style game mimicking different 'big arm' movements."
      ],
      "music": "silence",
-     "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+     "options": [
+      "Seated or supported option: Focus on arm strikes and torso movement while seated.",
+      "For children: A 'follow-the-leader' style game mimicking different 'big arm' movements."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
-      "Full tempo, the whole sequence, twice. Formation: Open street cypher, station concourses, or opposing battle lines with explosive forward excursions."
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Improvisational; performed in streets, stations, and public spaces"
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
-      "Track: lesson_full at 140 bpm"
+      "Track: lesson_full (tempo MISSING)"
      ],
      "music": "lesson_full"
     },
@@ -488,8 +504,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Execute rapid martial arm strikes and blocks in syncopated tempo..",
-      "Key figures include John Pololo (Sahiri Gnédré Lazare), who codified the dance; musical groups and artists such as Logobi GT, Les Youlés, Yang Systeme, Les Mantanien, Samo Samo, Les Garagistes, Espoir 2000, Magic System, Petit Yodé and l'Enfant Siro, Molière, Petit Denis, Gor la Montagne, and Moussier Tombola; and visual artist Christelle Oyiri (CrystallMess), who documented the Parisian movement.",
+      "You can now: Coordinate feet and arms.",
+      "John Pololo (Sahiri Gnédré Lazare) is the seminal figure.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -503,17 +519,17 @@
   {
    "chapter": 3,
    "title": "Dancing it fully",
-   "goal": "Combine jerky footwork with pantomime fight gestures at full speed.",
-   "level": "Level 3: Combat Cypher",
+   "goal": "the dancing it fully of logobi",
+   "level": null,
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 — Dancing it fully. Today: Combine jerky footwork with pantomime fight gestures at full speed..",
-      "Level: Level 3: Combat Cypher. Difficulty of the dance overall: intermediate.",
-      "Your instructor: An energetic urban street dancer from Abidjan who balances sharp martial discipline with infectious, charismatic humor."
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of logobi.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic, street-style dancer with knowledge of Ivorian urban history."
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -525,9 +541,8 @@
      "title": "Body and posture",
      "duration_s": 60,
      "narration": [
-      "Grounded, athletic, and ready to spring, with flexed knees and forward-tilted torso evoking martial arts readiness.",
-      "Violent, rapid arm thrusts, boxing parries, flexed bicep displays ('gros bras'), and coded gang signals.",
-      "Tightly coiled core with sharp torso twists and periodic provocative or sexual hip overtures."
+      "Athletic and ready, often mimicking martial arts stances",
+      "Large, expressive, and rapid; used to mime combat and gang signals"
      ],
      "on_screen": [
       "Instructor front then side view; freeze-frame on validated posture"
@@ -539,31 +554,34 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
-      "Rhythm pattern: Rapid syncopated West African snare and bass kicks layered over compressed four-on-the-floor or coupé-décalé rhythmic grooves..",
+      "Count: .",
+      "Rhythm pattern: High-energy, percussive, often based on coupé-décalé or electronic beats.",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
       "Counts on screen, flashing on the beat",
-      "Metronome at 98 bpm"
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
      ],
-     "music": "lesson_slow (clicks only until the step lands)"
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
     },
     {
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Combat Mime: Integrate stylized street-gang gestures, including defensive parries, simulated weapon draws, and defiant hand signals.",
-      "Step 2: Freestyle Break: Loosen into expressive isolations, incorporating pelvic accents or dynamic foot sweeps within a freestyle cypher.",
-      "Drill: Drill staccato shuffle footwork beneath alternating punch sequences."
+      "Step 1: Jerky, rhythmic footwork patterns",
+      "Step 2: Martial arts-inspired stances and strikes"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -571,15 +589,14 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Mime de Combat: Theatrical street-fight pantomime, including dodging, striking, and brandishing simulated weapons.",
-      "Drill: Incorporate a sudden dodge, drop level, and recover into a street mime gesture."
+      "Combat mimes: Gestures mimicking street fighting and weapon use"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
       "Name of the signature move on screen"
      ],
      "music": "lesson_slow",
-     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "counts": "",
      "repetitions": 3
     },
     {
@@ -589,8 +606,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Freestyle an 8-count routine alternating aggressive strikes with open theatrical posturing."
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -602,27 +618,32 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [
-      "Avoid turning fight mimes into genuine physical contact; do not perform without maintaining the underlying percussive bounce."
-     ],
+     "narration": [],
      "on_screen": [
-      "Side-by-side: source-supported correction"
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Focus on arm strikes and torso movement while seated. · For children: A 'follow-the-leader' style game mimicking different 'big arm' movements."
      ],
      "music": "silence",
-     "options": [],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+     "options": [
+      "Seated or supported option: Focus on arm strikes and torso movement while seated.",
+      "For children: A 'follow-the-leader' style game mimicking different 'big arm' movements."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
     },
     {
      "code": "music_run",
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
-      "Full tempo, the whole sequence, twice. Formation: Open street cypher, station concourses, or opposing battle lines with explosive forward excursions."
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Improvisational; performed in streets, stations, and public spaces"
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
-      "Track: lesson_full at 140 bpm"
+      "Track: lesson_full (tempo MISSING)"
      ],
      "music": "lesson_full"
     },
@@ -631,8 +652,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Combine jerky footwork with pantomime fight gestures at full speed..",
-      "Logobi evolved out of traditional Ivorian zouglou dance and loubard martial culture during the 1980s.",
+      "You can now: the dancing it fully of logobi.",
+      "Logobi is a descendant of Zouglou and a precursor to the coupé-décalé movement.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -648,34 +669,27 @@
   "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
   "rights_status": "not_assessed",
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
-  "tempo_bpm": 140,
-  "meter": "4/4",
-  "rhythm_pattern": "Rapid syncopated West African snare and bass kicks layered over compressed four-on-the-floor or coupé-décalé rhythmic grooves.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "High-energy, percussive, often based on coupé-décalé or electronic beats",
   "instruments": [
-   "synthesizers",
-   "electronic drum machines",
-   "digital samplers",
-   "percussion"
+   "Electronic synthesizers",
+   "Percussion"
   ],
-  "vocal_style": "Energetic Nouchi street chanting, hype calls, melodic hooks, and rapid-fire spoken phrases.",
-  "musical_form": "Vamp-based verse-chorus arrangements structured around driving instrumental drops and battle breaks.",
+  "vocal_style": null,
+  "musical_form": null,
   "mood": [
-   "frenetic",
-   "defiant",
-   "electric",
-   "streetwise",
-   "percussive"
+   "frantic",
+   "energetic",
+   "aggressive",
+   "urban"
   ],
-  "sound_description": "A high-velocity sonic assault driven by digital kick drums, snappy snare syncopations, and repetitive synthesizer riffs. In its traditional form it relies on heavy Ivorian percussive grooves, while modern diaspora iterations layer buzzy electro synths and hard-tech compression.",
+  "sound_description": "A high-tempo, percussive soundscape that blends traditional Ivorian rhythmic structures with the frenetic, compressed electronic beats of tecktonik and hard-tech.",
   "listen_before_composing": [
-   "Un Bail Ke Yes — Logobi GT",
-   "Elle danse sexy — Logobi GT",
    "Djolo National — Yang Systeme",
-   "Logobi — Les Youlés",
-   "Logobi — Les Mantanien",
-   "Logobi — Samo Samo"
+   "Logobi — Les Mantanien"
   ],
-  "prompt": "Original instrumental composition in the musical world of logobi (Ivory Coast). Meter 4/4. Tempo about 140 bpm. Rhythm pattern: Rapid syncopated West African snare and bass kicks layered over compressed four-on-the-floor or coupé-décalé rhythmic grooves.. Instruments: synthesizers, electronic drum machines, digital samplers, percussion. Vocal style: Energetic Nouchi street chanting, hype calls, melodic hooks, and rapid-fire spoken phrases.. Form: Vamp-based verse-chorus arrangements structured around driving instrumental drops and battle breaks.. Mood: frenetic, defiant, electric, streetwise, percussive. It should sound like this: A high-velocity sonic assault driven by digital kick drums, snappy snare syncopations, and repetitive synthesizer riffs. In its traditional form it relies on heavy Ivorian percussive grooves, while modern diaspora iterations layer buzzy electro synths and hard-tech compression. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of logobi (Ivory Coast). Rhythm pattern: High-energy, percussive, often based on coupé-décalé or electronic beats. Instruments: Electronic synthesizers, Percussion. Mood: frantic, energetic, aggressive, urban. It should sound like this: A high-tempo, percussive soundscape that blends traditional Ivorian rhythmic structures with the frenetic, compressed electronic beats of tecktonik and hard-tech. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -691,13 +705,13 @@
     "id": "lesson_slow",
     "use": "chapters: step practice",
     "length_s": 240,
-    "tempo_bpm": 98
+    "tempo_bpm": null
    },
    {
     "id": "lesson_full",
     "use": "chapters: dance it to the music",
     "length_s": 240,
-    "tempo_bpm": 140
+    "tempo_bpm": null
    }
   ],
   "rules": [
@@ -714,10 +728,10 @@
    "title": "BATTLE DE LOGOBI avec KingChris (édition rentrée)"
   },
   "wardrobe": {
-   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
-   "dress_the_narrator": false,
-   "restricted_attire": true,
-   "from_sources": "Historically practiced in the street environments, maquis (open-air restaurants/bars), and university campuses of Abidjan, it requires no formal ceremonial dress. In its French diaspora phase, it took place in train stations, subways, and shopping malls among street crews dressed in contemporary urban wear.",
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Historically performed in the ghettos and maquis of Abidjan, the dance moved to public spaces in France, including metro stations, train stations, and shopping malls, where it was performed in street battles.",
    "reference_images": [],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
@@ -729,13 +743,12 @@
   "images": [],
   "footage": [],
   "motifs": [
-   "Dust kicking up under sneakers on unpaved Abidjan streets.",
-   "Gleaming tiled floors and harsh neon lights of Parisian commuter train stations.",
-   "Muscular arm flexes captured in sharp slow-motion against fast percussion.",
-   "Archival footage of Abidjan university rallies and 1980s loubard gatherings."
+   "Urban Abidjan street scenes",
+   "Fast-cut editing to match the high tempo",
+   "Close-ups on hand gestures"
   ],
-  "costume_notes": "Historically practiced in the street environments, maquis (open-air restaurants/bars), and university campuses of Abidjan, it requires no formal ceremonial dress. In its French diaspora phase, it took place in train stations, subways, and shopping malls among street crews dressed in contemporary urban wear.",
-  "setting_notes": "Derived from the Nouchi concept of getting by through cunning and street smarts, the dance communicates the social realities of poverty, misery, and street struggle while voicing hope for prosperity, peace, and justice. It serves as both street bravado and social expression.",
+  "costume_notes": "Historically performed in the ghettos and maquis of Abidjan, the dance moved to public spaces in France, including metro stations, train stations, and shopping malls, where it was performed in street battles.",
+  "setting_notes": "The dance conveys the social realities of poverty and misery while aspiring toward a more positive future, justice, and peace. It serves as a medium for youth to express their identity and navigate the challenges of urban life.",
   "map": {
    "country": "Ivory Coast",
    "region": "Africa",
@@ -748,10 +761,10 @@
   ]
  },
  "teaching_formula": {
-  "source": "9 tutorial(s) of the street-urban family studied",
-  "videos_studied": 9,
-  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
-  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "source": "10 tutorial(s) of the street-urban family studied",
+  "videos_studied": 10,
+  "counting": "",
+  "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, side, mirror",
    "tempo progression: slow → half → full",
@@ -775,6 +788,7 @@
   "segment_order": [
    "intro",
    "full_demo",
+   "count_in",
    "context",
    "breakdown",
    "layering",
@@ -785,19 +799,22 @@
   "steps_as_taught": []
  },
  "gaps": [
+  "tempo (bpm)",
+  "meter",
   "a verified recording to listen to",
   "the hero video's vision check",
   "licensed images (3 needed)",
-  "licensed reference footage"
+  "licensed reference footage",
+  "what to avoid / common mistakes"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Logobi",
   "https://www.wikidata.org/wiki/Q373982",
   "https://fr.wikipedia.org/wiki/Logobi"
  ],
- "claims_verified": 10,
- "claims": 10,
+ "claims_verified": 6,
+ "claims": 6,
  "polished": false,
- "input_fingerprint": "0003582b55287c8ca2980880fe13ed7794088fc33d49b3735b9671c1833fa74d",
+ "input_fingerprint": "4d4ce7411be15e7a675ab3730645b181e7dce77d075f931fa0d6757e540ea45a",
  "hero_checked": null
 }

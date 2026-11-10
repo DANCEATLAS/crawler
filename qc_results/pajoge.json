@@ -1,0 +1,118 @@
+{
+ "slug": "pajoge",
+ "qc_at": "2026-11-10T19:06:23Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.95,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Pajoge"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "77"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "192"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the royal courts of Bone, the Pajoge dancer would select a nobleman from the "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "492"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2006"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Indonesia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Profile is well supported by evidence, respectful, and specific. Teaching section is good but lacks rhythm and tempo details. No disrespect or exoticism detected. Adaptations are safe though not yet derived."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=8.95"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-10T17:16:54Z"
+}

@@ -1,0 +1,451 @@
+{
+ "slug": "gusadi",
+ "name": "Gusadi",
+ "pack_version": "e2",
+ "built_at": "2026-11-10T19:25:30Z",
+ "researched_at": "2026-11-10T17:41:42Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A respectful tribal elder or a student of Kanaka Raju.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Gusadi",
+   "Gussadi"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Gusadi",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Gussadi King: Dancing for the Gods",
+     "This is Gusadi. Ancient to contemporary."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Gusadi · India · Ancient to contemporary"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Gusadi dance is deeply rooted in the cultural practices of the Raj Gond tribes.",
+     "It is traditionally performed during the Dandari festival, which is considered a key cultural and religious event for the tribal communities."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed during the annual Dandari festival, lasting five to nine days around Diwali.",
+     "It serves as a religious devotion to deities like Padmalpuri Kako Etmasur and as a social mechanism for courtship and matchmaking between villages.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Traditional Gussadi Dance of the Gond Tribe.webm (https://upload.wikimedia.org/wikipedia/commons/f/fc/Traditional_Gussadi_Dance_of_the_Gond_Tribe.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance follows a defined set of seven moves known as the Edum Chaal.",
+     "These include the Sur Chaal (introductory greeting), Gussadi Chaal (bending and rhythmic movement), Mahadevana Chaal (spiritual movement), Urum Chaal (mimicking a monitor lizard), Hedge Chaal (mimicking a bear), an animal-themed move, and the concluding Sakshi Chaal, which involves rapid spinning and a final high jump.",
+     "Watch for Urum Chaal, Hedge Chaal."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Dancers move in lines and travel between villages."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is driven by tribal instruments including the Thudum (a large drum used to signal arrival), the parra, the vette, and the kodal.",
+     "Listen for the Thudum, parra, vette, kodal.",
+     "The music is defined by the deep, resonant sound of the Thudum drum, which signals the arrival of the troupe, accompanied by the rhythmic beat of parra, vette, and kodal instruments."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Tribal drum rhythm that increases in intensity throughout the performance."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear the Malpuve, a large hat made of over a thousand peacock feathers.",
+     "They apply ash to their bodies, wear fake beards and mustaches, and dress in saffron or yellow clothing with goat or deer skin at the waist.",
+     "They carry a wooden stick called a Gangaram Sota."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Kanaka Raju (1941–2024) is the most famous practitioner, known as the 'Gussadi King.' He performed at the Red Fort in 1982 and received the Padma Shri in 2021 for his contributions to the dance.",
+     "The dance is primarily practiced in the Adilabad District of Telangana and parts of Maharashtra.",
+     "The dance is passed down through the Raj Gond tribal communities, with elders and experienced dancers like Kanaka Raju serving as primary instructors."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Gusadi is sibling of Chachoyi: A traditional dance often performed alongside Gusadi during the festival.",
+     "Gusadi is sibling of Rela: A traditional dance performed by women during the same festival."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The dance is a religious event involving devotions to local gods; outsiders should respect the ritual nature of the festival and the specific rules followed by the dancers."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Follow the journey of the Raj Gond tribes as they perform the sacred Gussadi dance during the Dandari festival.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Tribal drum rhythm that increases in intensity throughout the performance.",
+  "instruments": [
+   "Thudum",
+   "parra",
+   "vette",
+   "kodal"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "devotional",
+   "rhythmic",
+   "energetic"
+  ],
+  "sound_description": "The music is defined by the deep, resonant sound of the Thudum drum, which signals the arrival of the troupe, accompanied by the rhythmic beat of parra, vette, and kodal instruments.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Gusadi (India). Rhythm pattern: Tribal drum rhythm that increases in intensity throughout the performance.. Instruments: Thudum, parra, vette, kodal. Mood: devotional, rhythmic, energetic. It should sound like this: The music is defined by the deep, resonant sound of the Thudum drum, which signals the arrival of the troupe, accompanied by the rhythmic beat of parra, vette, and kodal instruments. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers wear the Malpuve, a large hat made of over a thousand peacock feathers. They apply ash to their bodies, wear fake beards and mustaches, and dress in saffron or yellow clothing with goat or deer skin at the waist. They carry a wooden stick called a Gangaram Sota.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AGussadi_Kanakaraju.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AGussadi_Dance_Of_Gond_Tribals.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AGussadi_Performance_at_ISTA_32nd_Congress_in_Hyderabad_%2828.06.2019%29.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Gussadi_Kanakaraju.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Gussadi_Kanakaraju.jpg/1280px-Gussadi_Kanakaraju.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Pranayraj1985 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGussadi_Kanakaraju.jpg",
+    "description": "Gussadi Kanakaraju is a Gussadi Artist from Telangana State. He Received PadmaSri Award from Indian Government on 26th January 2021 in the occasion of 72nd Republic Day Celebrations in New Delhi."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gussadi_Dance_Of_Gond_Tribals.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Gussadi_Dance_Of_Gond_Tribals.jpg/1280px-Gussadi_Dance_Of_Gond_Tribals.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Varaprasad Sidam / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGussadi_Dance_Of_Gond_Tribals.jpg",
+    "description": "Gussadi"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Gussadi_Performance_at_ISTA_32nd_Congress_in_Hyderabad_%2828.06.2019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Gussadi_Performance_at_ISTA_32nd_Congress_in_Hyderabad_%2828.06.2019%29.jpg/1280px-Gussadi_Performance_at_ISTA_32nd_Congress_in_Hyderabad_%2828.06.2019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Department of Language and Culture, Government of Telangana / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGussadi_Performance_at_ISTA_32nd_Congress_in_Hyderabad_%2828.06.2019%29.jpg",
+    "description": "అంతర్జాతీయ విత్తన సదస్సు (ఇష్టా), తెలంగాణ ప్రభుత్వం సంయుక్తంగా హైదరాబాదులోని హైటెక్స్ లో నిర్వహించిన 32వ విత్తన రైతుల సమావేశంలో 2019 జూన్ 28న గుస్సాడీ కళాకారుల ప్రదర్శన"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Gussadi_Artists_Performance_in_Independence_Day_Celebrations_at_Golconda_Fort_%2815.08.2017%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Gussadi_Artists_Performance_in_Independence_Day_Celebrations_at_Golconda_Fort_%2815.08.2017%29_01.jpg/1280px-Gussadi_Artists_Performance_in_Independence_Day_Celebrations_at_Golconda_Fort_%2815.08.2017%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Department of Language and Culture, Government of Telangana / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGussadi_Artists_Performance_in_Independence_Day_Celebrations_at_Golconda_Fort_%2815.08.2017%29_01.jpg",
+    "description": "భారత స్వాతంత్ర్య దినోత్సవం సందర్భంగా 2017, ఆగస్టు 15న హైదరాబాదులోని గోల్కొండ కోటలో తెలంగాణ ప్రభుత్వం నిర్వహించిన భారత స్వాతంత్ర్య దినోత్సవ వేడుకలలో తెలంగాణ భాషా సాంస్కృతిక శాఖ ఆధ్వర్యంలో గుస్సాడీ కళాకారుల ప్రదర్శన"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Gussadi_Artists_Performance_in_Independence_Day_Celebrations_at_Golconda_Fort_%2815.08.2015%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Gussadi_Artists_Performance_in_Independence_Day_Celebrations_at_Golconda_Fort_%2815.08.2015%29_01.jpg/1280px-Gussadi_Artists_Performance_in_Independence_Day_Celebrations_at_Golconda_Fort_%2815.08.2015%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Department of Language and Culture, Government of Telangana / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGussadi_Artists_Performance_in_Independence_Day_Celebrations_at_Golconda_Fort_%2815.08.2015%29_01.jpg",
+    "description": "భారత స్వాతంత్ర్య దినోత్సవం సందర్భంగా 2015, ఆగస్టు 15న హైదరాబాదులోని గోల్కొండ కోటలో తెలంగాణ ప్రభుత్వం నిర్వహించిన భారత స్వాతంత్ర్య దినోత్సవ వేడుకలలో తెలంగాణ భాషా సాంస్కృతిక శాఖ ఆధ్వర్యంలో గుస్సాడీ కళాకారుల ప్రదర్శన"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Dandari_gussadi_dance_festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Dandari_gussadi_dance_festival.jpg/1280px-Dandari_gussadi_dance_festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Storysbyharish / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADandari_gussadi_dance_festival.jpg",
+    "description": "Culture of Adivasi RajGondi"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Dandari_Gusadi_dance_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Dandari_Gusadi_dance_02.jpg/1280px-Dandari_Gusadi_dance_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Storysbyharish / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADandari_Gusadi_dance_02.jpg",
+    "description": "The tribals’ love for music also becomes so evident during the festival time that one, if they visit to one of these villages, can find several instruments — like thudum, pepera, kalikom, dappu, ghumela, dhol, vetti and karra"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Gussadi_Dandari_34.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Gussadi_Dandari_34.jpg/1280px-Gussadi_Dandari_34.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Santhosh arka / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGussadi_Dandari_34.jpg",
+    "description": "Gussadi Dandari Nruthyam"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Traditional Gussadi Dance of the Gond Tribe.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Traditional_Gussadi_Dance_of_the_Gond_Tribe.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Varaprasad Sidam / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Gussadi Gondi Tribel Dance.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Gussadi_Gondi_Tribel_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 4.0",
+    "attribution": "WikiPBR / Wikimedia Commons / CC BY 4.0"
+   },
+   {
+    "title": "File:Dandari Gussadi dance festival Adilabad district patnapur village.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Dandari_Gussadi_dance_festival_Adilabad_district_patnapur_village.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Storysbyharish / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:C0015.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/C0015.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Pdp79892 / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Gussadi's getting ready for Performace - 2.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Gussadi%27s_getting_ready_for_Performace_-_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Pdp79892 / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Gussadi's getting ready for Performace - 1.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Gussadi%27s_getting_ready_for_Performace_-_1.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Pdp79892 / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "Peacock feathers on the Malpuve hat.",
+   "The deep, resonant Thudum drum.",
+   "Ash-covered skin and fake beards.",
+   "The Gangaram Sota wooden stick."
+  ],
+  "costume_notes": "Dancers wear the Malpuve, a large hat made of over a thousand peacock feathers. They apply ash to their bodies, wear fake beards and mustaches, and dress in saffron or yellow clothing with goat or deer skin at the waist. They carry a wooden stick called a Gangaram Sota.",
+  "setting_notes": "The dance is performed during the annual Dandari festival, lasting five to nine days around Diwali. It serves as a religious devotion to deities like Padmalpuri Kako Etmasur and as a social mechanism for courtship and matchmaking between villages.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 1,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Gussadi_dance",
+  "https://www.wikidata.org/wiki/Q65322207"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "3a15fe9a1531edd9e6e0dedc2118fd4142440b6e39a39d26c2ace5412eb79ef2",
+ "hero_checked": null
+}

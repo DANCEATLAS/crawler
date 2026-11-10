@@ -1,0 +1,866 @@
+{
+ "slug": "apache",
+ "name": "Apache",
+ "pack_version": "e2",
+ "built_at": "2026-11-10T19:21:53Z",
+ "researched_at": "2026-11-10T17:52:30Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A professional dancer with a background in stage combat and historical dance.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Apache",
+   "La Danse Apache",
+   "Bowery Waltz",
+   "Apache Turn",
+   "Apache Dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Apache",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "This is Apache, a dance from early 20th century Paris.",
+     "It is known as Paris's most dangerous dance."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Apache · France · Early 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Apache started in Paris in 1908.",
+     "It was created by Maurice Mouvet and Max Dearly after watching street gangs.",
+     "The dance became popular at the Moulin Rouge and in early silent films.",
+     "The name comes from the press, who used it for local street gangs, borrowing it from North American Indigenous tribes."
+    ],
+    "on_screen": [
+     "Map: France · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Apache began as a theatrical piece for cabarets and music halls.",
+     "It shows the drama of urban conflict and tense street relationships.",
+     "Today, it is a revived tradition."
+    ],
+    "on_screen": [
+     "Footage: File:How to make a MOTIONER - 01.webm (https://upload.wikimedia.org/wikipedia/commons/0/08/How_to_make_a_MOTIONER_-_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed as a couple.",
+     "It alternates between a rhythmic waltz and violent, acrobatic sequences.",
+     "The man leads the woman through throws, lifts, and mock strikes.",
+     "Watch for The Throw, The Lift."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Couple-based, utilizing stage space for dramatic movement"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is usually a waltz.",
+     "The most famous piece is 'Valse des Rayons' by Jacques Offenbach.",
+     "Other versions include 'Valse Chaloupée' by Charles Dubourg and 'Valse Apache' by Fernand Le Borne.",
+     "Listen for orchestra and piano.",
+     "The rhythm is in 3/4 time.",
+     "The music moves between smooth, flowing melodies and sharp, rhythmic accents to match the physical action."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Valse des Rayons — Jacques Offenbach; Valse Chaloupée — Charles Dubourg",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dance is linked to the 'Apache' street gang style of early 1900s Paris.",
+     "It is set in places like seedy bars, cabarets, and Paris streets."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Max Dearly, Maurice Mouvet, Mistinguett, Leona, and later performers like Clara Bow and Buster Keaton.",
+     "Known as 'Valse Chaloupée' or 'Tough Dance' in various contexts.",
+     "Evolved from Parisian street culture and the 'cake-walk' variations performed by Mistinguett."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Apache is connected to the Waltz: it uses waltz music and steps.",
+     "It may also be influenced by the French Java dance."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Waltz step sequence",
+     "Mock slap/punch sequence",
+     "Count it: 1-2-3, 2-2-3 (three counts a bar).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the 1908 Paris dance that turned street-gang violence into a global stage act.",
+     "Sources: eight references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic waltz step",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic waltz step.",
+      "Level: Beginner. Difficulty of the dance overall: advanced.",
+      "Your instructor: A professional dancer with a background in stage combat and historical dance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "The body is athletic and aggressive.",
+      "It is used for grabbing, slapping, and supporting lifts.",
+      "Posture helps with balance during throws and lifts."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Waltz step sequence.",
+      "Step 2: Mock slap and punch sequence.",
+      "Footwork comes from sources: waltz steps mixed with lunges and combat moves.",
+      "Practice the waltz box step."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Controlled lift or throw.",
+      "Step 4: Struggle and recovery.",
+      "Practice partner connection."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Unsupervised stage combat, improper lifting techniques, and lack of partner communication."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated waltz arm movements and rhythmic swaying.",
+      "For children: A rhythmic movement game focusing on waltz steps and dramatic acting."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count in: 1-2-3, 2-2-3.",
+      "Dance the full sequence twice at full tempo."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic waltz step.",
+      "Originally a theatrical performance piece for cabarets and music halls.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Integrate dramatic gestures",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Integrate dramatic gestures.",
+      "Level: Intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: A professional dancer with a background in stage combat and historical dance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "The body remains athletic and aggressive.",
+      "It supports grabbing, slapping, and lifts.",
+      "Posture helps balance during throws and lifts."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Waltz step sequence.",
+      "Step 2: Mock slap and punch sequence.",
+      "Practice the timing of the mock slap."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Controlled lift or throw.",
+      "Step 4: Struggle and recovery.",
+      "The Throw: the man throws the woman to the ground.",
+      "The Lift: the man lifts the woman while she struggles.",
+      "Practice dramatic posture."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Unsupervised stage combat, improper lifting techniques, and lack of partner communication."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated waltz arm movements and rhythmic swaying.",
+      "For children: A rhythmic movement game focusing on waltz steps and dramatic acting."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count in: 1-2-3, 2-2-3.",
+      "Dance the full sequence twice at full tempo.",
+      "Perform as a couple, using the stage space for dramatic moves."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate dramatic gestures.",
+      "Max Dearly, Maurice Mouvet, Mistinguett, Leona, and later performers like Clara Bow and Buster Keaton.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute controlled lifts",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute controlled lifts.",
+      "Level: Advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: A professional dancer with a background in stage combat and historical dance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "The body is athletic and aggressive.",
+      "It supports grabbing, slapping, and lifts.",
+      "Posture helps balance during throws and lifts."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Controlled lift or throw.",
+      "Step 2: Struggle and recovery.",
+      "Practice safe lifting mechanics."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Throw: the man throws the woman to the ground.",
+      "The Lift: the man lifts the woman while she struggles.",
+      "Practice choreographed struggle."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Unsupervised stage combat, improper lifting techniques, and lack of partner communication."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated waltz arm movements and rhythmic swaying.",
+      "For children: A rhythmic movement game focusing on waltz steps and dramatic acting."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count in: 1-2-3, 2-2-3.",
+      "Dance the full sequence twice at full tempo.",
+      "Perform as a couple, using the stage space for dramatic movement."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute controlled lifts.",
+      "Evolved from Parisian street culture and the 'cake-walk' variations performed by Mistinguett.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "3/4",
+  "rhythm_pattern": null,
+  "instruments": [
+   "Orchestra",
+   "Piano"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "Dramatic",
+   "Violent",
+   "Sensual",
+   "Tense"
+  ],
+  "sound_description": "A dramatic, orchestral waltz that transitions between melodic, flowing sections and sharp, rhythmic accents to underscore the physical combat.",
+  "listen_before_composing": [
+   "Valse des Rayons — Jacques Offenbach",
+   "Valse Chaloupée — Charles Dubourg"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Apache (France). Meter 3/4. Instruments: Orchestra, Piano. Mood: Dramatic, Violent, Sensual, Tense. It should sound like this: A dramatic, orchestral waltz that transitions between melodic, flowing sections and sharp, rhythmic accents to underscore the physical combat. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Historically associated with the 'Apache' street gang aesthetic of early 20th-century Paris. Settings include seedy bars, cabarets, and Parisian street scenes.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ALe_Petit_Journal_-_Apache.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Le_Petit_Journal_-_Apache.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Le_Petit_Journal_-_Apache.jpg/1280px-Le_Petit_Journal_-_Apache.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALe_Petit_Journal_-_Apache.jpg",
+    "description": "Cover page of \"Le Petit Journal\", 20 0ctober 1907. \"L'apache est la plaie de Paris. Plus de 30.000 rôdeurs contre 8.000 sergents de ville.\""
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:How to make a MOTIONER - 01.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/How_to_make_a_MOTIONER_-_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 3.0",
+    "attribution": "YCAM InterLab / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Grand Canyon Native American Heritage Day 2010- Video 02 (5188538311).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Grand_Canyon_Native_American_Heritage_Day_2010-_Video_02_%285188538311%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Grand Canyon NPS / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "Workout Music ( 54 Songs)",
+    "url": "https://archive.org/details/Workout-Music-54-Songs",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Getvid Gggg 1",
+    "url": "https://archive.org/details/20220320_20220320_1734",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "File:Bowery Waltz (1897).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Bowery_Waltz_%281897%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "William Heise / Wikimedia Commons / Public domain"
+   }
+  ],
+  "motifs": [
+   "Black and white film clips",
+   "Cabaret stage lights",
+   "Vintage Parisian street signs"
+  ],
+  "costume_notes": "Historically associated with the 'Apache' street gang aesthetic of early 20th-century Paris. Settings include seedy bars, cabarets, and Parisian street scenes.",
+  "setting_notes": "Originally a theatrical performance piece for cabarets and music halls. It serves as a dramatic representation of urban conflict and the volatile dynamics of a street-level relationship.",
+  "map": {
+   "country": "France",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "4 tutorial(s) of the stage-contemporary family studied",
+  "videos_studied": 4,
+  "counting": "1-2-3, 2-2-3 (three counts a bar)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, mirror, back",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "make a little bit space between feet",
+   "try to find some groove",
+   "keep the water inside",
+   "make it easy",
+   "try to make the shift",
+   "make some groovy in your chest",
+   "try to find in your spine",
+   "make the snake finish on your arms",
+   "short verbal cue the teacher repeats  8 words",
+   "deep slow hip circles",
+   "hips to one side in little pulses",
+   "breathe in arms come up"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "breakdown"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Apache_(dance)",
+  "https://www.wikidata.org/wiki/Q3702326",
+  "https://es.wikipedia.org/wiki/Apache_(baile)",
+  "https://fr.wikipedia.org/wiki/Valse_chaloupée",
+  "https://it.wikipedia.org/wiki/Danse_Apache",
+  "https://archive.org/details/ghostdancerelig01moongoog",
+  "https://archive.org/details/landofpocotiempo00lummrich",
+  "https://archive.org/details/ERIC_ED128107"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": true,
+ "input_fingerprint": "94baa26bf2ccfb205455d1d1a15838678f74fe733921a01b0e17685c3d5520ad",
+ "hero_checked": null,
+ "polish_kept_scenes": 19
+}

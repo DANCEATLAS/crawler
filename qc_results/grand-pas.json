@@ -1,0 +1,121 @@
+{
+ "slug": "grand-pas",
+ "qc_at": "2026-11-10T19:06:25Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Grand pas"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "86"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "200"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1881, Marius Petipa choreographed the Paquita Grand Pas Classique, a suite th"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "446"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2605"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning,notable_figures,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "France"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "A Grand Pas d'action is a grand pas that contributes to the ballet's story."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Profile is well-supported, detailed, and respectful. The only minor doubt is the unsupported claim about Grand pas d'action contributing to narrative, which is plausible but not directly evidenced here."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.25",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-10T17:19:10Z"
+}

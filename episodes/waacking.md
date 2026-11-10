@@ -1,6 +1,6 @@
 # Waacking — episode pack
 
-*Status: draft · built 2026-11-09 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-10 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed images (3 needed)
 
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Arm Whack: rhythmic strike bringing forearm and hand sharply over the head
 NARRATION: Rotational Overhead Sweep: continuous circular winding of arms around the crown and neck
-NARRATION: Count it: 5-6-7-8 and 1-2-3-4-5-6-7-8.
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -107,7 +107,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7-8. The meter is 4/4.
+NARRATION: Count: 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Driving four-on-the-floor kick with upbeat open hi-hats and accented syncopated brass and string stabs.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -122,7 +122,7 @@ NARRATION: Drill: Single-arm wrist circle over the crown on beats 1 and 3
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Hollywood Diva Pose: sudden frozen stylized silhouette imitating classic film screen actors
@@ -130,7 +130,7 @@ NARRATION: Step 4: Rhythmic Extension: extending arms explosively outward to mus
 NARRATION: Drill: Alternating two-arm overhead pass with locked core
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -143,6 +143,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Do not execute arm rolls without shoulder warming; avoid disconnecting arm movement from musical phrasing or facial expression
+NARRATION: Teachers of this dance warn against: not doing the arm movement around the head separately
 NARRATION: Teachers of this dance warn against: going outwards instead of staying very close to the ears
 NARRATION: Teachers of this dance warn against: one arm being stronger than the other
 ON SCREEN: Side-by-side: source-supported correction
@@ -151,7 +152,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair. · For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 127 bpm
@@ -182,7 +183,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7-8. The meter is 4/4.
+NARRATION: Count: 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Driving four-on-the-floor kick with upbeat open hi-hats and accented syncopated brass and string stabs.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -196,7 +197,7 @@ NARRATION: Drill: Continuous forward-and-back arm wrapping while stepping side-t
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Hollywood Diva Pose: sudden frozen stylized silhouette imitating classic film screen actors
@@ -207,7 +208,7 @@ NARRATION: Drill: Double-time arm rotation into a 1-beat freeze pose
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -220,6 +221,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Do not execute arm rolls without shoulder warming; avoid disconnecting arm movement from musical phrasing or facial expression
+NARRATION: Teachers of this dance warn against: not doing the arm movement around the head separately
 NARRATION: Teachers of this dance warn against: going outwards instead of staying very close to the ears
 NARRATION: Teachers of this dance warn against: one arm being stronger than the other
 ON SCREEN: Side-by-side: source-supported correction
@@ -228,7 +230,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair. · For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo cypher center, moving dynamically within an intimate personal sphere or across a performance stage
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 127 bpm
@@ -259,7 +261,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8 and 1-2-3-4-5-6-7-8. The meter is 4/4.
+NARRATION: Count: 5-6-7-8. The meter is 4/4.
 NARRATION: Rhythm pattern: Driving four-on-the-floor kick with upbeat open hi-hats and accented syncopated brass and string stabs.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -273,7 +275,7 @@ NARRATION: Drill: 3-pose character sequence interpreting an emotional song lyric
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Rotational Arm Rolls: Continuous circular loops of the forearms around the head, shoulders, and chest without breaking tempo
@@ -281,7 +283,7 @@ NARRATION: Drill: Continuous battle entry: 8-count travel, 8-count rapid whacks,
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 and 1-2-3-4-5-6-7-8 · repetitions: 3
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -294,6 +296,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Do not execute arm rolls without shoulder warming; avoid disconnecting arm movement from musical phrasing or facial expression
+NARRATION: Teachers of this dance warn against: not doing the arm movement around the head separately
 NARRATION: Teachers of this dance warn against: going outwards instead of staying very close to the ears
 NARRATION: Teachers of this dance warn against: one arm being stronger than the other
 ON SCREEN: Side-by-side: source-supported correction
@@ -302,7 +305,7 @@ MUSIC: silence
 OPTIONS: Seated or supported option: Perform arm circles, wrist rolls, and dramatic diva head-and-hand poses from a stable upright chair. · For children: Freeze Fame: kids perform continuous arm rolls to disco music and freeze instantly into movie superhero or star poses when the track stops. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8 and 1-2-3-4-5-6-7-8.
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Solo cypher center, moving dynamically within an intimate personal sphere or across a performance stage
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 127 bpm
@@ -341,10 +344,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of this dance studied · videos studied: 2
-Counting: 5-6-7-8 and 1-2-3-4-5-6-7-8
-Demonstration: views used by most teachers: front, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: roll your right arm up like that; hit the back of your shoulder; use that momentum; extend as much as you can; make sure you touch all the way back; down back out back up back out back
-Common mistakes the studied teachers name: going outwards instead of staying very close to the ears; one arm being stronger than the other
+Source: 3 tutorial(s) of this dance studied · videos studied: 3
+Counting: 5-6-7-8
+Demonstration: views used by most teachers: front, mirror, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: 1-2-3-4; 1-2-3-4-5; 1-2-3-4-5-6; 1-2-3-4-5-6-7-8; 1-and-2-and; roll your right arm up like that; hit the back of your shoulder; use that momentum; extend as much as you can; make sure you touch all the way back; down back out back up back out back
+Common mistakes the studied teachers name: not doing the arm movement around the head separately; going outwards instead of staying very close to the ears; one arm being stronger than the other
 
 Sources (5): https://en.wikipedia.org/wiki/Waacking; https://www.wikidata.org/wiki/Q2600651; https://fr.wikipedia.org/wiki/Waacking; https://pt.wikipedia.org/wiki/Whacking; https://de.wikipedia.org/wiki/Waacking

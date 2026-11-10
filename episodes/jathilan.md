@@ -1,8 +1,8 @@
 # Jathilan — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.55 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-10 · judge 9.55 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced East Javanese dance elder and troupe leader from Ponorogo who teaches precise cavalry formations and bamboo horse manipulation.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Riders of Woven Bamboo
 NARRATION: This is Jathilan. 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (xYvUGPcGM-8)
 ON SCREEN: Title card: Jathilan · Indonesia · 19th century
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Performers dance while straddling flat hobbyhorses made from woven ba
 NARRATION: Groups traditionally consist of two to eight dancers who move across a cordoned-off performance space separated from the audience.
 NARRATION: Dancers portray troops riding horses, executing choreographed riding movements.
 NARRATION: Watch for Hobbyhorse riding.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (xYvUGPcGM-8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Staged within a cordoned-off area separated from spectators; performers move in formations representing horse-mounted troops.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -300,7 +300,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'xYvUGPcGM-8', 'checked_by_vision_model': False, 'title': 'Esti Indah P.L- The Glamourous of Jathilan Ponorogo'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Gunawan Kartapranata / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Unknown authorUnknown author / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Tarian jathilan.webm — https://upload.wikimedia.org/wikipedia/commons/d/da/Tarian_jathilan.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Seni tari jathilan.webm — https://upload.wikimedia.org/wikipedia/commons/6/62/Seni_tari_jathilan.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Intricately painted woven bamboo horses with sequin trim., Small brass ankle bells ringing in rhythm with footwork., Cordoned circular performance dirt arenas filled with spectators.

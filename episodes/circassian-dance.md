@@ -1,8 +1,8 @@
 # Circassian dance — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.5 · 7/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-10 · judge 9.5 · 7/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Circassian dance master with decades of teaching experience, emphasizing cultural respect and technical precision
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Circassian Dance: The Martial Ballet of the Caucasus
 NARRATION: This is Circassian dance. 19th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (ua95fPR6HC8)
 ON SCREEN: Title card: Circassian dance · Russia (North Caucasus), Turkey, Jordan, Israel · 19th century to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Circassian dances include mass circle formations (Wuj), slow partner 
 NARRATION: Men often dance on the tips of their toes wearing special leather boots, performing agile leaps and turned-in foot positions with hands behind their backs in competition styles.
 NARRATION: Women glide lightly with motionless upper bodies and heads, moving smoothly on half-toes without touching partners in Qafa.
 NARRATION: Watch for Zakladka, Toe dancing, Do-za-do.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (ua95fPR6HC8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Mass circle dances moving counter-clockwise; partner dances maintain respectful distance without touching; solo male performances in center
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -318,7 +318,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'ua95fPR6HC8', 'checked_by_vision_model': False, 'title': 'Черкесский (адыгский) танец ЛЪАПЭРИСЭ, Caucasian dance'}
 Images: 5 licensed — Ragim West at Russian Wikipedia / Wikimedia Commons / Public domain (Public domain); Wikimedia Commons / Public domain (Public domain); Mechislav Dalkevich / Wikimedia Commons / Public domain (Public domain); Yegor Karneyev / Wikimedia Commons / Public domain (Public domain); John Augustus Longworth / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Leather boots and bullet cartridge belts, Gliding women in flowing dresses, Circle formations and partner bows, Hands behind back and precise arm gestures, Dagger and sword props

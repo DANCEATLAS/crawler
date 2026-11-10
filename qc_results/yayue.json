@@ -1,0 +1,119 @@
+{
+ "slug": "yayue",
+ "qc_at": "2026-11-10T19:06:57Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Yayue"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "77"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "178"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1116, Emperor Huizong gifted 428 instruments and 572 costumes to Korea, effec"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "424"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2637"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "China"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ceremon', 'temple', 'god', 'ancestor']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "The profile is well-supported by evidence, culturally respectful, and highly specific. Teaching details are clear and appropriate for beginners. The sacred nature is handled sensitively with no disrespect. No unsupported claims or irrelevant albums. Adaptations are withheld, ensuring safety and fidelity."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.85",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-10T18:11:59Z"
+}

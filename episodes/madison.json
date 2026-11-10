@@ -1,0 +1,908 @@
+{
+ "slug": "madison",
+ "name": "Madison",
+ "pack_version": "e2",
+ "built_at": "2026-11-10T19:25:30Z",
+ "researched_at": "2026-11-10T17:31:51Z",
+ "qc_score": 9.6,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A charismatic dance historian with a passion for 1960s social dances and community engagement",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Madison",
+   "The Madison"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Madison",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Madison: The Line Dance That United a Generation",
+     "This is Madison. late 1950s to mid-1960s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Madison · United States · late 1950s to mid-1960s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Madison was created and first danced in Columbus, Ohio, in 1957.",
+     "It gained local popularity before spreading nationally in 1960 when The Buddy Deane Show in Baltimore featured it.",
+     "The dance inspired teams, competitions, and many recordings during the late 1950s and early 1960s."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally a social novelty dance popular in the late 1950s and early 1960s, the Madison was danced on television and at social gatherings.",
+     "It remains popular in Cambodia at weddings and parties, where it is performed in large groups.",
+     "The dance is associated with nostalgia for the early 1960s in the US and is featured in films and musicals like Hairspray.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Partial Lunar Eclipse, Madison 12-10-2011 VP8.webm (https://upload.wikimedia.org/wikipedia/commons/3/32/Partial_Lunar_Eclipse%2C_Madison_12-10-2011_VP8.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The Madison is a line dance performed without partner contact, typically in lines or multiple rows.",
+     "The basic step sequence includes stepping left forward, placing the right foot beside the left with a clap, stepping back on the right, moving the left foot back and across the right, then moving the left foot to the left and back across the right again.",
+     "Called steps add named sequences like the Double Cross and Jackie Gleason, which dancers perform on cue.",
+     "Watch for Double Cross, Jackie Gleason, Cleveland Box."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Dancers arranged side by side in lines or multiple rows, maintaining personal space without contact"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Madison music is typically slow to medium tempo 4/4 rhythm, around 30 to 44 beats per minute.",
+     "Key recordings include \"Madison Time\" by Ray Bryant (1959) and \"The Madison\" by Al Brown & The Tunetoppers (1960), which feature clear vocal calls for the dance steps.",
+     "Listen for the jazz piano, brass, rhythm section.",
+     "The pulse is 4/4.",
+     "The music features a steady 4/4 beat with jazz piano and brass accents, punctuated by vocal calls that cue dancers through the step sequences, creating an engaging and participatory atmosphere."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Madison Time — Ray Bryant; The Madison — Al Brown & The Tunetoppers",
+     "Waveform or rhythm-pattern graphic: Regular back-and-forth rhythm with vocal calls for specific steps"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Image gallery: 6 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Ray Bryant, jazz pianist who recorded \"Madison Time\" in 1959; Al Brown & The Tunetoppers, who recorded \"The Madison\" and other Madison-themed songs; Alan Freeman, radio presenter who recorded a version in 1962; John Waters, director who featured the dance in his 1988 film Hairspray.",
+     "The Madison is danced mainly as a line dance in the US and France, with couple versions existing but less common.",
+     "The Madison is a novelty line dance from the late 1950s US, influenced by earlier social dances like the Twist."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Madison is parent of Twist: The Madison follows the no-contact, solo dance trend initiated by the Twist.",
+     "Madison is child of Kuduro: Kuduro was inspired by the Madison's no-contact, line dance format."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Step left foot forward",
+     "Place right foot beside left foot without weight and clap",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the rise of the Madison from a 1957 Ohio novelty to a global dance phenomenon still celebrated today.",
+     "Sources: 5 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn the basic Madison step sequence",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn the basic Madison step sequence.",
+      "Level: Beginner. Difficulty of the dance overall: Beginner to intermediate.",
+      "Your instructor: A charismatic dance historian with a passion for 1960s social dances and community engagement"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, relaxed posture suitable for line dancing",
+      "Clapping on specific beats; arms relaxed except for claps",
+      "Minimal hip movement; torso remains stable"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Regular back-and-forth rhythm with vocal calls for specific steps.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Step left foot forward",
+      "Step 2: Place right foot beside left foot without weight and clap",
+      "Footwork from the sources: Step sequences involve forward, backward, lateral steps and crossing feet; counts align with 4/4 rhythm",
+      "Drill: Practice stepping left forward and clapping"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Step back on right foot",
+      "Step 4: Move left foot back and cross it over the right foot",
+      "Drill: Step back on right foot with timing"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Cross left foot behind right and return"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid physical contact; maintain spacing to prevent collisions"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn the basic Madison step sequence.",
+      "Originally a social novelty dance popular in the late 1950s and early 1960s, the Madison was danced on television and at social gatherings.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Incorporate called steps into the basic sequence",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Incorporate called steps into the basic sequence.",
+      "Level: Intermediate. Difficulty of the dance overall: Beginner to intermediate.",
+      "Your instructor: A charismatic dance historian with a passion for 1960s social dances and community engagement"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, relaxed posture suitable for line dancing",
+      "Clapping on specific beats; arms relaxed except for claps",
+      "Minimal hip movement; torso remains stable"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Regular back-and-forth rhythm with vocal calls for specific steps.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Move left foot to the left side",
+      "Step 2: Move left foot back and cross it over the right foot again",
+      "Drill: Learn the Double Cross step"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Double Cross: A called step involving crossing feet twice in sequence",
+      "Jackie Gleason: Based on tap dance 'Shuffle Off to Buffalo', a distinctive shuffle step",
+      "Drill: Practice the Jackie Gleason shuffle"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Combine called steps with basic pattern"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid physical contact; maintain spacing to prevent collisions"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Dancers arranged side by side in lines or multiple rows, maintaining personal space without contact"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Incorporate called steps into the basic sequence.",
+      "Ray Bryant, jazz pianist who recorded \"Madison Time\" in 1959; Al Brown & The Tunetoppers, who recorded \"The Madison\" and other Madison-themed songs; Alan Freeman, radio presenter who recorded a version in 1962; John Waters, director who featured the dance in his 1988 film Hairspray.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform full Madison sequences with timing and group coordination",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform full Madison sequences with timing and group coordination.",
+      "Level: Advanced. Difficulty of the dance overall: Beginner to intermediate.",
+      "Your instructor: A charismatic dance historian with a passion for 1960s social dances and community engagement"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, relaxed posture suitable for line dancing",
+      "Clapping on specific beats; arms relaxed except for claps",
+      "Minimal hip movement; torso remains stable"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Regular back-and-forth rhythm with vocal calls for specific steps.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Move left foot to the left side",
+      "Step 2: Move left foot back and cross it over the right foot again",
+      "Drill: Respond to live calls during dance"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Cleveland Box: Called step forming a box pattern with footwork",
+      "Drill: Maintain formation and spacing"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Add stylistic flair within step framework"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid physical contact; maintain spacing to prevent collisions"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Dancers arranged side by side in lines or multiple rows, maintaining personal space without contact"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform full Madison sequences with timing and group coordination.",
+      "The Madison is a novelty line dance from the late 1950s US, influenced by earlier social dances like the Twist.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "4/4",
+  "rhythm_pattern": "Regular back-and-forth rhythm with vocal calls for specific steps",
+  "instruments": [
+   "jazz piano",
+   "brass",
+   "rhythm section"
+  ],
+  "vocal_style": "Clear spoken calls instructing dancers on steps",
+  "musical_form": "Songs designed with repeated sections to accommodate called steps",
+  "mood": [
+   "nostalgic",
+   "upbeat",
+   "danceable"
+  ],
+  "sound_description": "The music features a steady 4/4 beat with jazz piano and brass accents, punctuated by vocal calls that cue dancers through the step sequences, creating an engaging and participatory atmosphere.",
+  "listen_before_composing": [
+   "Madison Time — Ray Bryant",
+   "The Madison — Al Brown & The Tunetoppers"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Madison (United States). Meter 4/4. Rhythm pattern: Regular back-and-forth rhythm with vocal calls for specific steps. Instruments: jazz piano, brass, rhythm section. Vocal style: Clear spoken calls instructing dancers on steps. Form: Songs designed with repeated sections to accommodate called steps. Mood: nostalgic, upbeat, danceable. It should sound like this: The music features a steady 4/4 beat with jazz piano and brass accents, punctuated by vocal calls that cue dancers through the step sequences, creating an engaging and participatory atmosphere. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AMadison_%28dance%291.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AMadison_%28dance%292.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AMadison_%28dance%29_1_of_4.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Madison_%28dance%291.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Madison_%28dance%291.jpg/1280px-Madison_%28dance%291.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Tangopaso / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMadison_%28dance%291.jpg",
+    "description": "Madison dancers, position #1"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Madison_%28dance%292.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Madison_%28dance%292.jpg/1280px-Madison_%28dance%292.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Tangopaso / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMadison_%28dance%292.jpg",
+    "description": "Madison dancers, position #2 (after a quarter of turn on the right)"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Madison_%28dance%29_1_of_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Madison_%28dance%29_1_of_4.jpg/1280px-Madison_%28dance%29_1_of_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Tangopaso / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMadison_%28dance%29_1_of_4.jpg",
+    "description": "Madison dancers, position #1"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Madison_%28dance%29_2_of_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Madison_%28dance%29_2_of_4.jpg/1280px-Madison_%28dance%29_2_of_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Tangopaso / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMadison_%28dance%29_2_of_4.jpg",
+    "description": "Madison dancers, position #1"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Madison_%28dance%29_3_of_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Madison_%28dance%29_3_of_4.jpg/1280px-Madison_%28dance%29_3_of_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Tangopaso / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMadison_%28dance%29_3_of_4.jpg",
+    "description": "Madison dancers, position #3"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Madison_%28dance%29_4_of_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Madison_%28dance%29_4_of_4.jpg/1280px-Madison_%28dance%29_4_of_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Tangopaso / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMadison_%28dance%29_4_of_4.jpg",
+    "description": "Madison dancers, position #4"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Partial Lunar Eclipse, Madison 12-10-2011 VP8.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Partial_Lunar_Eclipse%2C_Madison_12-10-2011_VP8.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 3.0",
+    "attribution": "John Kees / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Total Solar Eclipse 2017, Madison County, ID.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Total_Solar_Eclipse_2017%2C_Madison_County%2C_ID.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 3.0",
+    "attribution": "De Tovenaar / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "File:Elwha River 2022 by Madison Falls 2.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Elwha_River_2022_by_Madison_Falls_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Sea Cow / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Memorial-Union-Terrace-in-Madison -WI.mpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Memorial-Union-Terrace-in-Madison_-WI.mpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Bigmacthealmanac / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "German Commercials (1960s)",
+    "url": "https://archive.org/details/1966-mit-dem-einkommen-auskommen-ii",
+    "year": 2024,
+    "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "He Makes Me Feel Like Dancin'",
+    "url": "https://archive.org/details/hemakesmefeellikedancin",
+    "year": 1983,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Harry's Mad (1993-1996)",
+    "url": "https://archive.org/details/s-01-e-01_20260708",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Lines of dancers clapping in unison",
+   "Close-ups of foot crosses and claps",
+   "Vintage 1960s TV footage",
+   "Cambodian large group dance events"
+  ],
+  "costume_notes": null,
+  "setting_notes": "Originally a social novelty dance popular in the late 1950s and early 1960s, the Madison was danced on television and at social gatherings. It remains popular in Cambodia at weddings and parties, where it is performed in large groups. The dance is associated with nostalgia for the early 1960s in the US and is featured in films and musicals like Hairspray.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "11 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 11,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "don't forget to breathe",
+   "drop your shoulders",
+   "keep a flat back",
+   "side side side side"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "the costume & setting section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Madison_(dance)",
+  "https://www.wikidata.org/wiki/Q3276118",
+  "https://es.wikipedia.org/wiki/Madison_(baile)",
+  "https://fr.wikipedia.org/wiki/Madison_(danse)",
+  "https://archive.org/details/childandchildho01chamgoog"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "7cf9476deab43cc10d8175b03d3ae26754d91e9f3d3e483c5bc98153cbf7756f",
+ "hero_checked": null
+}

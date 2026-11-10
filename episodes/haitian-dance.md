@@ -1,8 +1,8 @@
 # Haitian dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-09 · judge 8.75 · 6/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-10 · judge 8.75 · 6/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a hero video
+**Gaps** (handed to the research queue): the hero video's vision check
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Haitian dance master with deep cultural roots and teaching experience
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Haitian Dance: The Pulse of a Nation
 NARRATION: This is Haitian dance. 16th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (26eXGFrKOXU)
 ON SCREEN: Title card: Haitian dance · Haiti · 16th century to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Haitian dance includes diverse styles with varied formations and move
 NARRATION: Méringue is a partner ballroom dance with a slower tempo and string-based orchestration, featuring graceful, flowing movements.
 NARRATION: Kontradans involves four couples performing fast-paced figures without touching, exchanging places in patterns called '8'.
 NARRATION: Watch for Yanvalou, Banda pelvic sway, Kontradans figure-eight.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (26eXGFrKOXU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Couples in ballroom dances; groups in circles or lines for ritual dances; four couples in Kontradans
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -107,7 +107,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '26eXGFrKOXU', 'checked_by_vision_model': False, 'title': 'Konpa Dance with Caleb to Nickenson Prudhomme ( Haitian Dance ) 2020'}
 Images: 6 licensed — Calvin Hennick, for WBUR Boston / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Erwin509 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Kitanago / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ccini06 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); FranzoP / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Divine Horseman The Living Gods Of Haiti - Maya Deren (1947-54) — https://archive.org/details/divine-horseman-the-living-gods-of-haiti-maya-deren-1947-54; DREAM QUEEN THE COMPLETE FILMS OF MAYA DEREN [ 2024 Cut] — https://archive.org/details/dream-queen-the-complete-films-of-maya-deren-2024-cut; Yanvalou Drum and Dance Ensemble — https://archive.org/details/wpmma-Yanvalou_Drum_and_Dance_Ensemble; 2005 children's workshop — https://archive.org/details/cabeuroh_000419; Montclair #2 3/10/2005 — https://archive.org/details/cabeuroh_000420; Yanvalou Drum and Dance Ensmble presents: Reyinyon — https://archive.org/details/wpmma-Yanvalou_Drum_and_Dance_Ensmble_presents_-_Reyinyon
 Motifs: Colorful costumes, Drummers with conch trumpets, Couples dancing closely, Festival street scenes, Spiritual masks

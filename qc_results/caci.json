@@ -1,0 +1,123 @@
+{
+ "slug": "caci",
+ "qc_at": "2026-11-10T19:06:36Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Caci"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "71"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "145"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In Manggarai Regency’s town of Ruteng, caci whip fights can last two to three da"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "509"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2910"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/8 rate=0.75"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Indonesia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'ancestor', 'offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Caci is mainly performed by Manggarai people in western Flores, especially in Manggarai Regency's town of Ruteng.",
+   "Fighters are bare-chested, wear embroidered woven songket sarongs, jingling bells on lower back and ankles, and horned buffalo-hide helmets."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Profile is well-supported, respectful, and detailed with clear teaching guidance. Minor factual doubts on geographic emphasis and costume details do not undermine overall quality."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.25",
+  "doubts=2",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 8,
+  "supported": 6,
+  "rate": 0.75
+ },
+ "researched_at": "2026-11-10T17:39:30Z"
+}

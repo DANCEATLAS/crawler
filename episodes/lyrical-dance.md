@@ -1,6 +1,6 @@
 # Lyrical dance — episode pack
 
-*Status: draft · built 2026-11-09 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-10 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
 
@@ -284,9 +284,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the stage-contemporary family studied · videos studied: 3
+Source: 4 tutorial(s) of the stage-contemporary family studied · videos studied: 4
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: short verbal cue the teacher repeats  8 words; deep slow hip circles; hips to one side in little pulses; breathe in arms come up; roll through the spine; belly rolls both directions; knees to chest; straightening my legs; bringing my body up; bend both legs; opening my left arm; straightening my left leg
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full
+Cues: make a little bit space between feet; try to find some groove; keep the water inside; make it easy; try to make the shift; make some groovy in your chest; try to find in your spine; make the snake finish on your arms; short verbal cue the teacher repeats  8 words; deep slow hip circles; hips to one side in little pulses; breathe in arms come up
 
 Sources (3): https://en.wikipedia.org/wiki/Lyrical_dance; https://www.wikidata.org/wiki/Q33127803; https://it.wikipedia.org/wiki/Danza_lirica

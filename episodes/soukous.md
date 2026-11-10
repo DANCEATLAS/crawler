@@ -1,6 +1,6 @@
 # soukous — episode pack
 
-*Status: draft · built 2026-11-09 · judge 10.0 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-10 · judge 10.0 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed reference footage
 
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 5 tutorial(s) of the african-diaspora family studied · videos studied: 5
+Source: 8 tutorial(s) of the african-diaspora family studied · videos studied: 8
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: shift; slow; quick quick slow; rock step; left foot; right foot; step; touch; stomp off; push; make sure that you are wearing comfortable shoes; stand properly
+Cues: and one and three and five and seven; keep your feet together; relax your knees; bend the knees; change the weight; turn on the heels; keep it small; shift; slow; quick quick slow; rock step; left foot
 
 Sources (5): https://en.wikipedia.org/wiki/Soukous; https://www.wikidata.org/wiki/Q1752683; https://es.wikipedia.org/wiki/Soukous; https://fr.wikipedia.org/wiki/Soukous; https://de.wikipedia.org/wiki/Soukous

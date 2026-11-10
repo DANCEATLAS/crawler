@@ -1,8 +1,8 @@
 # Okayama — episode pack
 
-*Status: draft · built 2026-11-09 · judge 8.8 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-10 · judge 8.8 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A scholar of Japanese classical dance and literature with expertise in Muromachi-period performing arts
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Okayama: The Tale of Yoshitsune's Retainers' Families
 NARRATION: This is Okayama. Muromachi period.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (D6Y-gP9--pQ)
 ON SCREEN: Title card: Okayama · Japan · Muromachi period
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ ON SCREEN: Footage: File:De containertrein (nr.1072) op de Sanyō-hoofdlijn met 
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (D6Y-gP9--pQ)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -280,7 +280,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'D6Y-gP9--pQ', 'checked_by_vision_model': False, 'title': 'Kemence Okayamada2\u3000ケメンチェin岡山'}
 Images: 0 licensed
 Footage: File:De containertrein (nr.1072) op de Sanyō-hoofdlijn met voorop loc EF66 130 rijdt station Okayama voorbij, -26 september 2018 a.webm — https://upload.wikimedia.org/wikipedia/commons/2/2c/De_containertrein_%28nr.1072%29_op_de_Sany%C5%8D-hoofdlijn_met_voorop_loc_EF66_130_rijdt_station_Okayama_voorbij%2C_-26_september_2018_a.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Een dieseltrein die uit twee Kiha 40 gaat bestaan als sneltrein „Kotobuki” van Okayama naar Tsuyama passeert de brug over Ukai op de Tsuyama-lijn, -6 april 2019.webm — https://upload.wikimedia.org/wikipedia/commons/b/b6/Een_dieseltrein_die_uit_twee_Kiha_40_gaat_bestaan_als_sneltrein_%E2%80%9EKotobuki%E2%80%9D_van_Okayama_naar_Tsuyama_passeert_de_brug_over_Ukai_op_de_Tsuyama-lijn%2C_-6_april_2019.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Omurice-inshop-okayama-japan-2019-08-14.webm — https://upload.wikimedia.org/wikipedia/commons/e/ea/Omurice-inshop-okayama-japan-2019-08-14.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Een 381 serie treinstel als de exprestrein „Yakumo 10” uit Izumoshi naar Okayama passeert de overweg Tanei in de Hakubi-lijn tussen Bitchū-Hirose en Minagi, -15 mei 2021.webm — https://upload.wikimedia.org/wikipedia/commons/7/78/Een_381_serie_treinstel_als_de_exprestrein_%E2%80%9EYakumo_10%E2%80%9D_uit_Izumoshi_naar_Okayama_passeert_de_overweg_Tanei_in_de_Hakubi-lijn_tussen_Bitch%C5%AB-Hirose_en_Minagi%2C_-15_mei_2021.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; 1998 — https://archive.org/details/bweatherly-1998
 Motifs: Scrolls and manuscripts, Pilgrimage paths and huts, Traditional Muromachi-period attire, Yoshitsune and retainers in armor, Nuns in simple robes

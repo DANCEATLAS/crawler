@@ -1,8 +1,8 @@
 # Salegy — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-10 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Malagasy musician and dancer fluent in salegy tradition, blending historical knowledge with practical teaching
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Salegy: Madagascar’s Electrified Dance Pulse
 NARRATION: This is Salegy. 1950s to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (AUouq1alg10)
 ON SCREEN: Title card: Salegy · Madagascar · 1950s to present
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Folaka hand clapping, Mbiwy dance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (AUouq1alg10)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo or group dancing in open spaces or circles; no partnering described
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -326,7 +326,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'AUouq1alg10', 'checked_by_vision_model': False, 'title': 'Wawa Salegy - 400 Volt - clip officiel'}
 Images: 1 licensed — The original uploader was Lemurbaby at English Wikipedia. / Wikimedia Commons / CC BY 3.0 (CC BY 3.0)
 Footage: MISSING
 Motifs: Electric guitars glowing under stage lights, Hands clapping in rapid polyrhythms, Dancers bouncing energetically, Accordion synthesizer panels, Nightclub dance floors in Madagascar

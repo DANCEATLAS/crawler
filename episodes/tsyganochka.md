@@ -1,8 +1,8 @@
 # Tsyganochka — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-10 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the how-it-is-danced section; the music & instruments section; the costume & setting section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the how-it-is-danced section; the music & instruments section; the costume & setting section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Russian folk dance teacher with Roma music expertise
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Tsyganochka: The Gypsy Girl's Slow Entrance
 NARRATION: This is Tsyganochka. 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (kNPudJGGCyU)
 ON SCREEN: Title card: Tsyganochka · Russia · 19th century
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ NEEDS: occasions_and_meaning
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Entrance Walk.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (kNPudJGGCyU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: solo dance with entrance into the dance area
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -303,7 +303,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'kNPudJGGCyU', 'checked_by_vision_model': False, 'title': 'КРАСАВИЦЫ ЦЫГАНОЧКИ! Цыганские танцы от души!'}
 Images: 1 licensed — Солнцев, Фёдор Григорьевич / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: solo dancer entering stage, guitar silhouette, minor key musical notes, gradual tempo graph

@@ -1,10 +1,10 @@
 {
  "slug": "semah-alevi-bektasi-ritual",
- "qc_at": "2026-11-02T21:12:54Z",
+ "qc_at": "2026-11-10T19:06:02Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 9.7,
+ "qc_score": 9.6,
  "gates": [
   {
    "gate": "has_name",
@@ -19,32 +19,32 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "191"
+   "detail": "164"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Semah is a ritual of 'selfless expression' where dancers, often imitating the cr"
+   "detail": "In the turnalar semahı, dancers imitate the sacred crane, symbolizing a mediator"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "416"
+   "detail": "389"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "1894"
+   "detail": "2119"
   },
   {
    "gate": "sections_filled",
-   "ok": false,
-   "detail": "origins_and_history,how_it_is_danced"
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "5/5 rate=1.0"
+   "detail": "8/8 rate=1.0"
   },
   {
    "gate": "sources",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "3 paras"
+   "detail": "1 paras"
   },
   {
    "gate": "not_duplicate",
@@ -84,14 +84,14 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=True cues=['ritual', 'god', 'spirit', 'sufi']"
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'trance', 'god', 'worship', 'prayer', 'spirit', 'sufi', 'dervish', 'religious', 'devotional']"
   }
  ],
  "judge": {
   "accuracy": 10,
   "respect": 10,
-  "specificity": 10,
-  "teaching_value": 8,
+  "specificity": 9,
+  "teaching_value": 9,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
@@ -99,22 +99,21 @@
   "insight_ok": true,
   "album_doubt": [],
   "adaptations_safe": true,
-  "overall": 10,
+  "overall": 9,
   "verdict": "publish",
-  "notes": "Exceptional profile with strong respect for the sacred context of the Alevi-Bektaşi tradition, accurate details backed by evidence, and safe handling of restricted adaptations."
+  "notes": "The profile is well-supported by evidence, respectful of sacred context, specific with detailed descriptions, and offers clear teaching guidance. No unsupported claims or disrespectful content detected."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "sections_filled",
-  "judge_score=9.7",
+  "judge_score=9.6",
   "sacred"
  ],
  "citation": {
-  "claims": 5,
-  "supported": 5,
+  "claims": 8,
+  "supported": 8,
   "rate": 1.0
  },
- "researched_at": "2026-11-02T19:56:55Z"
+ "researched_at": "2026-11-10T18:33:51Z"
 }

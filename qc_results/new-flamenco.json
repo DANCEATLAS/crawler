@@ -1,0 +1,120 @@
+{
+ "slug": "new-flamenco",
+ "qc_at": "2026-11-10T19:06:20Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.5,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "New Flamenco"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "85"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "199"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "New Flamenco emerged in the 1980s as a creative rebellion against traditionalism"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "386"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2376"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,music_and_instruments,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Spain"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 4,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [
+   "Malamente"
+  ],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "Profile is well-supported and respectful, with good specificity on origins and figures. Teaching details are sparse, limiting beginner guidance. 'Malamente' is a pop/urban track by Rosalía, not a core New Flamenco album, so flagged. Otherwise, a solid, insightful profile."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=8.5"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-10T17:16:36Z"
+}
