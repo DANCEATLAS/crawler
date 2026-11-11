@@ -65,9 +65,11 @@ def run():
     lines += ["", "## Crawler", f"- Hero results on file: {len(heroes)} · statuses: {dict(Counter((v or {}).get('status') for v in heroes.values()))}",
               f"- Hero QC verdicts: {dict(hstat)} (checked {len(hq)})", "",
               "## Discovery → research → QC", f"- Candidates: {dict(cstat)}", f"- Research index: {dict(rstat)}",
-              f"- Movie-ready (music DNA + movement DNA + episode brief from sources): {sum(1 for v in rindex.values() if v.get('movie_ready'))} of {sum(1 for v in rindex.values() if v.get('status') == 'researched')} researched",
+              f"- Legacy presentation fields complete (not interactive readiness): {sum(1 for v in rindex.values() if v.get('movie_ready'))} of {sum(1 for v in rindex.values() if v.get('status') == 'researched')} researched",
               "- What classes still lack most (count of researched pages missing it): " + ", ".join(f"{k} {n}" for k, n in Counter(m for v in rindex.values() for m in (v.get('class_missing') or [])).most_common(8)),
               f"- QC gates: {dict(qstat)}"]
+    active = jload("public/catalog/active_profiles.json", {}) or {}
+    lines += [f"- Active Profile dossiers: {active.get('count', 0)}; ready for activation: {(active.get('states') or {}).get('ready_for_activation', 0)}; runtime active: 0. See ACTIVE_PROFILE_REPORT.md."]
     # the weekly editor's targets: pages one or two items short of movie-ready, and what each still lacks
     close = sorted([(k, v) for k, v in rindex.items() if v.get("status") == "researched" and not v.get("movie_ready") and isinstance(v.get("class_have"), int)],
                    key=lambda kv: (-(kv[1].get("class_have") or 0), kv[0]))[:15]
@@ -77,8 +79,8 @@ def run():
     epi = (jload(os.path.join("public", "catalog", "episodes.json"), {}) or {})
     ped = jload(os.path.join("pedagogy", "teaching_patterns.json"), {}) or {}
     lines += [f"- Editor notes open: {len(open_notes)} · pages with editor-added sources: {len([k for k, v in extra.items() if v])}",
-              f"- Movie phase: episode packs {epi.get('count', 0)} ({epi.get('complete', 0)} complete, {epi.get('polished', 0)} polished) · translations {epi.get('translations', 0)} across {len(epi.get('languages') or [])} languages · teaching playbook from {ped.get('videos_ok', 0)} lessons (`ULTIMATE_TEACHER.md`, `MOVIE_PHASE.md`)", "",
-              "## Closest to movie-ready (for the weekly editor pass: find the missing items, add sources to pipeline_state/sources_extra.json)", ""]
+              f"- Presentation assets: episode packs {epi.get('count', 0)} ({epi.get('complete', 0)} complete, {epi.get('polished', 0)} polished) · translations {epi.get('translations', 0)} across {len(epi.get('languages') or [])} languages · teaching playbook from {ped.get('videos_ok', 0)} lessons (`ULTIMATE_TEACHER.md`, `MOVIE_PHASE.md`)", "",
+              "## Closest to legacy presentation completeness (for the weekly editor pass: find the missing items, add sources to pipeline_state/sources_extra.json)", ""]
     lines += [f"- {k} ({v.get('class_have')}/{v.get('class_of') or 17}): missing " + ", ".join((v.get("class_missing") or [])[:6]) for k, v in close] or ["- (none yet)"]
     ts = Counter(v.get("tradition_status") for v in rindex.values() if v.get("status") == "researched" and v.get("tradition_status"))
     if ts:
