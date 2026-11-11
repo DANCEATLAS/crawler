@@ -26,7 +26,7 @@ RULES
 6. `how_it_is_danced` must be usable for teaching later: formation, who dances, basic footwork or body movement, rhythm/meter, typical tempo, key gestures, how a beginner would start. Only what sources support; if technique is not described in the sources, say "technique not described in sources".
 7. Albums: list recordings or artists that the sources name as central to this dance's music. Mark each with the source. Do not guess.
 8. Taxonomy: region must be one of {regions}; family one of {families}.
-9. MOVIE-READY DEPTH. The profile will later drive a studio-quality film episode and a dance lesson, so capture the DNA of the music and of the movement as precisely as the sources allow:
+9. ACTIVE PROFILE DEPTH. The goal is an interactive platform, not a movie. Episode briefs remain reusable presentation assets. Capture music and movement as precisely as the sources allow:
    music_profile = what a composer needs to recreate the sound without copying any recording (tempo, meter, rhythm pattern, instruments, vocal style, form, mood, a 2-4 sentence sound description of what makes it recognisable);
    movement_profile = what a choreographer or instructor needs (posture, footwork with counts, arms and hands, hips and torso, formation and spatial path, partnering, tempo feel, named signature moves with one-line descriptions, levels and jumps, difficulty, what to avoid for cultural or safety reasons);
    episode_brief = how a 5-minute introduction episode would run (a title hook, a one-sentence logline, 5-8 ordered story beats that are concrete scenes, a 3-level lesson ladder with 3-5 drills each, visual motifs to show, a credible instructor persona, the music cue the soundtrack must follow);
@@ -34,6 +34,7 @@ RULES
    Where the sources do not describe a detail, write exactly "not described in sources" for that field rather than inventing it (that exact phrase; never "the provided sources", never a sentence about the sources inside prose). Numbers (tempo, counts) only when a source gives them or the meter makes them unambiguous.
 10. LIVING OR HISTORICAL. tradition_status = "living" (practised today by a community), "revived" (reconstructed or kept alive by folklore groups after a break), "historical" (documented but no longer practised) or "unknown" — from the sources, with the deciding sentence quoted in claims.
 11. ADAPTATIONS FOR SENIORS AND CHILDREN (the owner's long-term audiences). These are teaching material you DERIVE from the movement_profile and teaching fields, not facts about the dance, so they are allowed to go beyond the sources — but only as cautious, generic, physically safe adjustments of what the sources describe: for seniors a seated or supported version, reduced tempo and range, what to avoid (balance, knees, spine, jumps); for children a game version, a shorter duration, simplified counts, what to avoid. Be concrete (counts, body parts), never medical. If movement_profile.footwork is "not described in sources", write "not derivable yet" for every adaptation field. Never adapt a sacred or restricted dance: write "withheld (sacred or restricted dance)".
+12. INTERACTION PREPARATION. Also return interaction_profile with learning_units[], prerequisites[], feedback_rules[], social_formats[]. Each item is {{description, source}} using an exact URL from the supplied evidence. Learning units identify a movement, objective, counts and source-supported correction; prerequisites name physical/technical demands; feedback rules distinguish visible error from expressive variation and state what a camera cannot establish; social_formats describe supported solo/pair/group roles, spatial formation and shared rhythm. Empty arrays if unsupported. Never invent an optimal method, sensor tolerances, an adaptation, music rights or human validation. These are unreviewed candidates, not activation approval.
 Output JSON with keys: name, tagline (<=90 chars), insight (<=220 chars), profile (3-5 sentences), profile_long (600-1200 words of continuous prose using the sections), sections{{origins_and_history, how_it_is_danced, music_and_instruments, costume_and_setting, occasions_and_meaning, notable_figures, regional_variants, lineage}}, era (short, e.g. "19th century"), country, region, family, aliases[], related[] (names of other dances), is_sacred (bool), sacred_note, unesco (bool), teaching{{basic_steps[] (ordered, each one movement), rhythm, formation, level_notes}}, music_profile{{tempo_bpm, meter, rhythm_pattern, instruments[], vocal_style, musical_form, mood_keywords[], reference_recordings[] ({{title, artist}}), sound_description}}, movement_profile{{posture, footwork, arms_and_hands, hips_and_torso, formation_and_space, partnering, tempo_feel, signature_moves[] ({{name, description}}), levels_and_jumps, difficulty (beginner|intermediate|advanced), what_to_avoid}}, episode_brief{{title_hook, logline, beats[], lesson_ladder[] ({{level, goal, drills[]}}), visual_motifs[], instructor_persona, music_cue}}, connections[] ({{name, relation, note}}), tradition_status (living|revived|historical|unknown), adaptations{{seniors{{seated_version, standing_version, tempo_and_range, counts, avoid[]}}, children{{game_version, duration_minutes, counts, avoid[]}}}}, albums[] ({{title, artist, source}}), claims[] ({{text, source, quote}}), confidence (0-1), gaps[]."""
 
 def _trim(txt, n):
@@ -277,7 +278,9 @@ def normalize(comp):
     for k in ("rhythm", "formation", "level_notes"):
         t[k] = _s(t.get(k), " ").strip()
     c["teaching"] = t
-    # movie-ready structures: keep dicts/lists in a predictable shape, strings trimmed, nothing invented
+    ip = c.get("interaction_profile") if isinstance(c.get("interaction_profile"), dict) else {}
+    c["interaction_profile"] = {k: [{"description": str(x.get("description") or "")[:1200], "source": str(x.get("source") or "")[:1000]} for x in (ip.get(k) or []) if isinstance(x, dict) and x.get("description") and x.get("source")] if isinstance(ip.get(k), list) else [] for k in ("learning_units", "prerequisites", "feedback_rules", "social_formats")}
+    # legacy presentation structures: keep dicts/lists in a predictable shape, strings trimmed, nothing invented
     mp = c.get("music_profile") if isinstance(c.get("music_profile"), dict) else {}
     for k in ("tempo_bpm", "meter", "rhythm_pattern", "vocal_style", "musical_form", "sound_description"):
         mp[k] = _s(mp.get(k), " ").strip()
@@ -421,6 +424,8 @@ def research_one(d, llm, sb=None):
         jsave(out_path, rec)
         return rec
     prev_gaps = list(((prev.get("profile") or {}).get("gaps") or [])[:8]) + [("class is missing: " + m) for m in ((prev.get("class_checklist") or {}).get("missing") or [])[:8]]
+    active_gaps = (((load_state("activation_gaps.json", {}) or {}).get("profiles") or {}).get("atlas:" + slug) or {}).get("gaps") or {}
+    prev_gaps += ["Active Profile needs: " + g for g in active_gaps.get("research", [])[:4]]
     # what the episode pack could not fill (pipeline/episodes.py) is asked for too — the script layer tells research what it needs
     prev_gaps += [("the episode script is missing: " + g) for g in ((load_state("episode_gaps.json", {}) or {}).get(slug) or [])[:6] if isinstance(g, str)]
     comp = compose(d, ev, llm, prev_gaps=prev_gaps)
@@ -447,7 +452,7 @@ def research_one(d, llm, sb=None):
     rec.update({
         "status": "researched",
         "profile": {k: comp.get(k) for k in ("name", "tagline", "insight", "profile", "profile_long", "sections", "era", "country", "aliases", "related", "is_sacred", "sacred_note", "unesco", "teaching",
-                                             "music_profile", "movement_profile", "episode_brief", "connections", "tradition_status", "adaptations", "confidence", "gaps")},
+                                             "music_profile", "movement_profile", "interaction_profile", "episode_brief", "connections", "tradition_status", "adaptations", "confidence", "gaps")},
         "footage": footage,
         "schema": RESEARCH_SCHEMA, "movie_ready": movie_ready(comp), "class_checklist": class_checklist(comp, ev.get("images", []), verified_albums, footage),
         "books": [{k: b.get(k) for k in ("identifier", "title", "year", "url")} for b in ev.get("books", [])],
@@ -532,6 +537,7 @@ def pick_enrichment_targets(catalog, n):
     notes = load_state("editor_notes.json", {}) or {}
     extra = load_state("sources_extra.json", {}) or {}
     gaps = load_state("episode_gaps.json", {}) or {}
+    active = (load_state("activation_gaps.json", {}) or {}).get("profiles") or {}
     qc = load_state("qc_index.json", {}) or {}
     followups = load_state("completion_followups.json", {}) or {}
     # The public export includes discoveries that may not yet be in Supabase.
@@ -558,6 +564,7 @@ def pick_enrichment_targets(catalog, n):
             priority.append(d); continue
         checked = max(last, (followups.get(d["slug"]) or {}).get("checked_at") or "")
         research_gaps = [g for g in gaps.get(d["slug"], []) if g not in media_only]
+        research_gaps += ((active.get("atlas:" + d["slug"]) or {}).get("gaps") or {}).get("research", [])
         if (prev.get("status") == "researched" and (qc.get(d["slug"]) or {}).get("publish_gate") == "publish"
                 and research_gaps and checked[:10] < _days_ago(7)):
             finish.append((-(prev.get("class_have") or 0), len(research_gaps), checked, d["slug"], d))
