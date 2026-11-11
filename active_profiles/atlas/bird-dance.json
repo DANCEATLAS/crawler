@@ -1,13 +1,57 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "Backward and forward movement.",
+      "formation_and_space": "Row of 1-5 women facing singers; 15-foot path.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Standing",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Gourd rattle"
+      ],
+      "meter": "5-8 time noted for some songs",
+      "mood_keywords": [
+        "Lively",
+        "Nocturnal",
+        "Structured"
+      ],
+      "musical_form": "Sequence of songs performed throughout the night.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Syncopation is frequent; rattle rhythm is approximately in eighth notes.",
+      "sound_description": "The music is characterized by the sound of gourd rattles accompanying vocalists. Songs vary from near-monotones to those using ascending and descending minor thirds.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Sung in the 'old language'; begins softly and increases in volume."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand in a row facing the singers.",
+        "Move backward and forward over a distance of approximately 15 feet."
+      ],
+      "formation": "Row of 1-5 dancers facing the singers.",
+      "level_notes": "not described in sources",
+      "rhythm": "Rattle-rhythm similar to eighth notes; some songs feature syncopation."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "2e41ed134f454057135b5e18a0c46d1237cc4e9f3efa558d2404dc4d233d3abb",
+  "fingerprint": "009533c4c89be5512702c335d449cccd076c49f8d9790e9964e3b5cf1d6c1495",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +59,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: what_to_avoid",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +87,7 @@
   ],
   "music_options": [],
   "name": "Bird Dance",
-  "research_file": null,
+  "research_file": "research_results/bird-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +97,14 @@
     "session_modes": []
   },
   "slug": "bird-dance",
-  "sources": [],
-  "state": "researching",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chicken_Dance",
+    "https://www.wikidata.org/wiki/Q1344584",
+    "https://es.wikipedia.org/wiki/El_baile_de_los_pajaritos",
+    "https://fr.wikipedia.org/wiki/La_Danse_des_canards",
+    "https://pt.wikipedia.org/wiki/Baile_dos_Passarinhos",
+    "https://archive.org/details/yumanyaquimusic00dens"
+  ],
+  "state": "teaching_withheld",
   "video_evidence": []
 }

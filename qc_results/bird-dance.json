@@ -1,0 +1,122 @@
+{
+ "slug": "bird-dance",
+ "qc_at": "2026-11-11T18:40:32Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Bird Dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "65"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "166"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The Cocopa Bird Dance lasts all night, with songs performed in a specific sequen"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "481"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2021"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "6"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "USA"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The Bird dance could be held before the songs were recorded."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Profile is well-supported, culturally respectful, and specific. Teaching details are clear for beginners. One unsupported claim about pre-recording existence is minor. No disrespect or confusion with unrelated dances."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.1",
+  "doubts=1",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-11T18:27:40Z"
+}

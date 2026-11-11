@@ -1,10 +1,10 @@
 {
  "slug": "soukous",
- "qc_at": "2026-11-02T14:49:11Z",
+ "qc_at": "2026-11-11T18:39:27Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 10.0,
+ "qc_score": 9.1,
  "gates": [
   {
    "gate": "has_name",
@@ -34,22 +34,22 @@
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "1554"
+   "detail": "2564"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "4/4 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
    "ok": true,
-   "detail": "5"
+   "detail": "6"
   },
   {
    "gate": "country",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "foundational"
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "1 paras"
+   "detail": "4 paras"
   },
   {
    "gate": "not_duplicate",
@@ -88,30 +88,31 @@
   }
  ],
  "judge": {
-  "accuracy": 10,
+  "accuracy": 9,
   "respect": 10,
-  "specificity": 10,
-  "teaching_value": 10,
+  "specificity": 9,
+  "teaching_value": 8,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
-  "overall": 10,
+  "adaptations_safe": true,
+  "overall": 9,
   "verdict": "publish",
-  "notes": "Comprehensive, highly accurate profile on soukous with excellent cultural context, precise historical details, and clear instructional guidelines."
+  "notes": "The profile is well-researched and accurately reflects the evolution of soukous from Congolese rumba. The distinction between the music and the dance is handled clearly. The inclusion of the sebene as a structural element is excellent for teaching value. No factual errors were found in the provided text."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "judge_score=10.0"
+  "judge_score=9.1"
  ],
  "citation": {
-  "claims": 4,
-  "supported": 4,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-01T17:16:08Z"
+ "researched_at": "2026-11-11T18:13:53Z"
 }

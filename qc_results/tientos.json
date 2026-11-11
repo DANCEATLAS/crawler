@@ -1,0 +1,120 @@
+{
+ "slug": "tientos",
+ "qc_at": "2026-11-11T18:40:13Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 9.3,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Tientos"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "87"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "156"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Tientos is a flamenco palo that functions as a slow, serious counterpart to the "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "379"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2857"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "8/8 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Spain"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,codified,deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 7,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "An excellent, well-researched profile. It accurately captures the historical context and musical structure of the Tientos. The distinction between Tientos and Tangos is handled with nuance. The lack of specific movement descriptions is noted honestly rather than filled with conjecture, which maintains high integrity."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "sections_filled",
+  "banned_phrasing",
+  "judge_score=9.3"
+ ],
+ "citation": {
+  "claims": 8,
+  "supported": 8,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-11T17:59:07Z"
+}

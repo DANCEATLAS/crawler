@@ -1,0 +1,121 @@
+{
+ "slug": "redowa",
+ "qc_at": "2026-11-11T18:40:04Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.25,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "redowa"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "91"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "182"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The redowa, a 19th-century ballroom craze derived from the Czech rejdovák, vanis"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "293"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1429"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "8"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Czech Republic"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that it fell out of fashion by 1840 is contradicted by the profile's own text stating it was popular in the 1850s and 1860s."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and provides a clear distinction between the European salon history and the Mexican folk evolution. The minor chronological inconsistency regarding the 1840s decline does not detract from the overall high quality of the entry."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.25",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-11T17:54:49Z"
+}

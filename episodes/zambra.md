@@ -1,6 +1,6 @@
 # Zambra — episode pack
 
-*Status: draft · built 2026-11-09 · judge 8.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 8.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); two or more connections; what to avoid / common mistakes
 
@@ -119,7 +119,7 @@ NARRATION: Step 1: Barefoot stance with weight centered
 NARRATION: Step 2: Hip-focused movement with fluid arm gestures
 NARRATION: Footwork from the sources: Barefoot, grounded steps
 NARRATION: Drill: Clapping the 2/4 rhythm
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -189,7 +189,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Barefoot stance with weight centered
 NARRATION: Step 2: Hip-focused movement with fluid arm gestures
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -260,7 +260,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Hip-focused movement with fluid arm gestures
 NARRATION: Step 2: Rhythmic use of finger cymbals
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -327,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (6): https://en.wikipedia.org/wiki/Zambra_(dance); https://www.wikidata.org/wiki/Q2572946; https://es.wikipedia.org/wiki/Zambra_(palo_flamenco); https://fr.wikipedia.org/wiki/Zambra; https://pt.wikipedia.org/wiki/Zambra; https://archive.org/details/friendshipsoffer00unse_2

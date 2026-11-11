@@ -1,0 +1,141 @@
+{
+ "youtube_id": "XhW9TnfiOoQ",
+ "slug": "line-dance",
+ "dance": "Line dance",
+ "title": "Tamia Line Dance Tutorial - \"Can't Get Enough\"",
+ "channel": "Bizzy Boom",
+ "viewer_ratio": 3.5,
+ "analysed_at": "2026-11-11T18:51:33Z",
+ "url": "https://www.youtube.com/watch?v=XhW9TnfiOoQ",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor breaks the line dance down into numbered sections and teaches step-by-step facing away from the camera. He offers tips on spatial awareness by referencing physical objects in the room to help students with turns.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Introduction to the Tamia line dance tutorial"
+   },
+   {
+    "t": "0:16",
+    "segment": "breakdown",
+    "note": "Breaking down section 1"
+   },
+   {
+    "t": "0:50",
+    "segment": "breakdown",
+    "note": "Breaking down section 2"
+   },
+   {
+    "t": "3:25",
+    "segment": "breakdown",
+    "note": "Breaking down section 3"
+   },
+   {
+    "t": "4:34",
+    "segment": "breakdown",
+    "note": "Breaking down section 4 and quarter turn technique"
+   },
+   {
+    "t": "6:20",
+    "segment": "slow_practice",
+    "note": "Slow review of all sections together"
+   }
+  ],
+  "counting_scheme": "1-2-3-4 / 5-6-7-8 / and",
+  "cues": [
+   "Step by step",
+   "Right, left, right",
+   "One more time slow"
+  ],
+  "metaphors": [
+   "This is like a weave"
+  ],
+  "demonstration": {
+   "angles": [
+    "back"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "People get messed up on section 2 footwork",
+   "People get confused on the turn in section 4"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Section 1 steps",
+    "counts": "1-2-3-4 5-6-7-8",
+    "description": "Stepping and pacing with bounce"
+   },
+   {
+    "name": "Section 2 weave",
+    "counts": "5 and 6 and 7 and 8 and",
+    "description": "Crossing right over left, stepping back and side, then left over right"
+   },
+   {
+    "name": "Section 3 steps",
+    "counts": "5-6-7-8",
+    "description": "Stepping out with right leg, back on left, cross with right"
+   },
+   {
+    "name": "Section 4 turn",
+    "counts": "5-6-7-8 and",
+    "description": "Step out and quarter turn using shoulder orientation"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Dividing the dance into four distinct sections",
+    "Using room landmarks like cabinets and doors for turn orientation"
+   ],
+   "what_hinders": [
+    "The teacher only demonstrates facing away from the camera"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:04",
+    "text": "I divided this up into four easy sections."
+   },
+   {
+    "t": "0:55",
+    "text": "This is where people get messed up."
+   },
+   {
+    "t": "2:01",
+    "text": "Listen to the way I'm saying it, it's gonna help you be right on top of it."
+   },
+   {
+    "t": "5:15",
+    "text": "This is where people get confused on the turn."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 16,
+    "end_s": 35,
+    "topic": "teaching",
+    "observation": "Instructor demonstrates section 1 counts while facing away from the camera",
+    "viewpoint": "back, unmirrored",
+    "cannot_infer": "exact weight distribution on the floor",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Instructing students to use room landmarks (like a cabinet or door aligned with their shoulder) to anchor their quarter turns."
+ }
+}

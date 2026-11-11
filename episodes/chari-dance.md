@@ -1,8 +1,8 @@
 # Chari Dance — episode pack
 
-*Status: draft · built 2026-11-10 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; notable figures; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; notable figures; lineage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable cultural historian or a member of the Gurjar community.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Flaming Pots of Rajasthan
 NARRATION: This is Chari Dance. Traditional.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (7yhQfDX1Djk)
 ON SCREEN: Title card: Chari Dance · India · Traditional
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 NARRATION: The dance is performed by a group of women who balance lit earthenware or brass pots on their heads.
 NARRATION: Dancers execute graceful limb movements and deep knee swirls while keeping the flaming pots balanced without touching them.
 NARRATION: Watch for Chari Balancing.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (7yhQfDX1Djk)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Group dance, moving quietly around the floor.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -109,7 +109,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Balancing the chari pot on the head
 NARRATION: Step 2: Graceful limb movements
 NARRATION: Drill: Walking with a balanced object on the head
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -177,7 +177,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Balancing the chari pot on the head
 NARRATION: Step 2: Graceful limb movements
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -244,7 +244,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Graceful limb movements
 NARRATION: Step 2: Deep knee swirls
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -296,7 +296,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear traditional Rajasthani golden ornaments including the Hansli, Timniya, Mogri, Punchi, Bangdi, Gajra, Armlets, Karli, Kanka, and Navr.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '7yhQfDX1Djk', 'checked_by_vision_model': False, 'title': 'PANIHARI - CHARI Fire Dance of Rajasthan -  by Aurora in PUSHKAR'}
 Images: 3 licensed — Arian Zwegers / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); INGENUEN / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Prakashveer1947 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Chari Folk Dance of Rajasthan.webm — https://upload.wikimedia.org/wikipedia/commons/0/0d/Chari_Folk_Dance_of_Rajasthan.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Folk Dances of Rajasthan — https://archive.org/details/dni.ncaa.ICCR-1570-VHS; File:Meet Artemis Team Member Raja Chari.webm — https://upload.wikimedia.org/wikipedia/commons/d/d9/Meet_Artemis_Team_Member_Raja_Chari.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Danse moyen chari.webm — https://upload.wikimedia.org/wikipedia/commons/4/4f/Danse_moyen_chari.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Raja Chari-NASA 2017 Astronaut Candidate.webm — https://upload.wikimedia.org/wikipedia/commons/7/70/Raja_Chari-NASA_2017_Astronaut_Candidate.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:NHQ 2020 Artemis Astro RAJA CHARI YOUTUBE (751927043383).webm — https://upload.wikimedia.org/wikipedia/commons/d/d1/NHQ_2020_Artemis_Astro_RAJA_CHARI_YOUTUBE_%28751927043383%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:A Team Hero Slide Chari 2020-12-03 LR (757013085436).webm — https://upload.wikimedia.org/wikipedia/commons/d/dc/A_Team_Hero_Slide_Chari_2020-12-03_LR_%28757013085436%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Folk Dances of Rajasthan — https://archive.org/details/dni.ncaa.RS-92-VHS
 Motifs: Flaming pots in the dark, Golden Rajasthani jewelry, Desert landscapes
@@ -306,9 +306,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (2): https://en.wikipedia.org/wiki/Chari_Dance; https://www.wikidata.org/wiki/Q12426073

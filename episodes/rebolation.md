@@ -1,8 +1,8 @@
 # Rebolation — episode pack
 
-*Status: draft · built 2026-11-10 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A high-energy, experienced electronic dance practitioner from the Brazilian scene.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Hovering Step: Brazil's Electronic Revolution
 NARRATION: This is Rebolation. Early 21st century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (Zg92v4lE-Zo)
 ON SCREEN: Title card: Rebolation · Brazil · Early 21st century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance involves loose arm movements paired with precise footwork.
 NARRATION: The main move involves walking forward while using the heel as a pivot point to turn the back foot backwards, while the front foot is turned inwards.
 NARRATION: This creates a sliding, hovering effect.
 NARRATION: Watch for Heel-Pivot Walk.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (Zg92v4lE-Zo)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Individual, moving across a flat surface.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -120,7 +120,7 @@ NARRATION: Step 1: Step forward with the lead foot.
 NARRATION: Step 2: Use the heel as a pivot point.
 NARRATION: Footwork from the sources: Heel-pivot based movement creating a sliding effect.
 NARRATION: Drill: Practice shifting weight onto the heel.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -189,7 +189,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Step forward with the lead foot.
 NARRATION: Step 2: Use the heel as a pivot point.
 NARRATION: Drill: Maintain a loose upper body while pivoting.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -260,7 +260,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Turn the back foot backwards while the front foot turns inwards.
 NARRATION: Step 2: Repeat the motion in reverse to move backwards.
 NARRATION: Drill: Incorporate loose, rhythmic arm swings.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -315,7 +315,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers often wear 'shuffle pants' or 'phat pants' featuring neon details, UV-reflective tape, or glitter. Flat tennis shoes or sneakers are preferred to allow for smooth movement across the floor. It is commonly performed in rave settings or on surfaces suitable for sliding.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'Zg92v4lE-Zo', 'checked_by_vision_model': False, 'title': 'Duelo de Rebolation no Verdinho 26/07'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Neon-colored phat pants., Close-ups of sneakers on smooth surfaces., Digital screen overlays showing YouTube view counts., Rave lighting and UV-reflective tape.
@@ -325,9 +325,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 10 tutorial(s) of the street-urban family studied · videos studied: 10
+Source: 11 tutorial(s) of the street-urban family studied · videos studied: 11
 Counting: 
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; punch to the side; pull your head down; pivot them on your elbows; swing stop; lean forward; arm up; elbow up; up and down
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; punch to the side; pull your head down; pivot them on your elbows; swing stop
 
 Sources (2): https://en.wikipedia.org/wiki/Rebolation; https://www.wikidata.org/wiki/Q3287288

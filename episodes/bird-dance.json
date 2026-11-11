@@ -1,0 +1,436 @@
+{
+ "slug": "bird-dance",
+ "name": "Bird Dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-11T18:54:11Z",
+ "researched_at": "2026-11-11T18:27:40Z",
+ "qc_score": 9.1,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Cultural historian or Yuman tradition bearer.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Bird Dance",
+   "Cocopa Bird Dance",
+   "Mohave Bird Dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Bird Dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Bird Dance: A Night of Yuman Song",
+     "This is Bird Dance. Traditional."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (nPhVOZiPokA)",
+     "Title card: Bird Dance · USA · Traditional"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Bird Dance is rooted in the traditions of Yuman tribes, including the Cocopa and Mohave.",
+     "Songs were traditionally learned through apprenticeship or inherited, sometimes through dreams.",
+     "The practice is documented in early 20th-century ethnographic studies of Yuman music."
+    ],
+    "on_screen": [
+     "Map: USA · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is a nocturnal event that lasts all night.",
+     "It is deeply connected to Yuman cultural identity and oral history, with songs reflecting migration narratives.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Five Windows into Africa: a CD-ROM (2000) (https://archive.org/details/FiveWindowsIntoAfrica2000)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers, typically young women (1-5), stand in a row facing the singers.",
+     "The movement consists of moving backward and forward over a distance of about 15 feet.",
+     "The performance is nocturnal and follows a specific sequence of songs."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (nPhVOZiPokA)",
+     "Signature moves — MISSING",
+     "Formation: Row of 1-5 women facing singers; 15-foot path."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is performed by a lead singer and helpers, all using gourd rattles.",
+     "The songs are sung in the 'old language' and follow a sequence that increases in volume throughout the night.",
+     "Listen for the Gourd rattle.",
+     "The pulse is 5-8 time noted for some songs.",
+     "The music is characterized by the sound of gourd rattles accompanying vocalists. Songs vary from near-monotones to those using ascending and descending minor thirds."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Syncopation is frequent; rattle rhythm is approximately in eighth notes."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Image gallery: 4 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Numa’wasoa’t (Cocopa leader), Leonard Cleveland (Mohave singer).",
+     "Cocopa Bird Dance and Mohave Bird Dance are noted as having different structures and levels of accessibility within their respective tribes.",
+     "Yuman, Cocopa, and Mohave cultural traditions."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Bird Dance is shares name of Chicken Dance: An unrelated 20th-century novelty song and dance often confused with the traditional Yuman Bird Dance."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The Bird Dance is a traditional Yuman practice involving songs in an 'old language' and should be approached with respect for its cultural and historical significance to the Cocopa and Mohave people."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the nocturnal song cycles and rhythmic traditions of the Yuman Bird Dance.",
+     "Sources: 6 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "5-8 time noted for some songs",
+  "rhythm_pattern": "Syncopation is frequent; rattle rhythm is approximately in eighth notes.",
+  "instruments": [
+   "Gourd rattle"
+  ],
+  "vocal_style": "Sung in the 'old language'; begins softly and increases in volume.",
+  "musical_form": "Sequence of songs performed throughout the night.",
+  "mood": [
+   "Lively",
+   "Nocturnal",
+   "Structured"
+  ],
+  "sound_description": "The music is characterized by the sound of gourd rattles accompanying vocalists. Songs vary from near-monotones to those using ascending and descending minor thirds.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Bird Dance (USA). Meter 5-8 time noted for some songs. Rhythm pattern: Syncopation is frequent; rattle rhythm is approximately in eighth notes.. Instruments: Gourd rattle. Vocal style: Sung in the 'old language'; begins softly and increases in volume.. Form: Sequence of songs performed throughout the night.. Mood: Lively, Nocturnal, Structured. It should sound like this: The music is characterized by the sound of gourd rattles accompanying vocalists. Songs vary from near-monotones to those using ascending and descending minor thirds. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "nPhVOZiPokA",
+   "checked_by_vision_model": false,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": null,
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AChicken_dance_01_-_Ballard_Seafood_Fest_2007.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AChicken_dance_02_-_Ballard_Seafood_Fest_2007.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ADeutschesHaus12Oct07Oktoberfestchickendance1.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Chicken_dance_01_-_Ballard_Seafood_Fest_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Chicken_dance_01_-_Ballard_Seafood_Fest_2007.jpg/1280px-Chicken_dance_01_-_Ballard_Seafood_Fest_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Joe Mabel / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AChicken_dance_01_-_Ballard_Seafood_Fest_2007.jpg",
+    "description": "Doing the \"chicken dance\" at the Ballard Seafood Fest (in the Ballard neighborhood of Seattle, Washington), dancing to Texas band Brave Combo."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Chicken_dance_02_-_Ballard_Seafood_Fest_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Chicken_dance_02_-_Ballard_Seafood_Fest_2007.jpg/1280px-Chicken_dance_02_-_Ballard_Seafood_Fest_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Joe Mabel / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AChicken_dance_02_-_Ballard_Seafood_Fest_2007.jpg",
+    "description": "Doing the \"chicken dance\" at the Ballard Seafood Fest (in the Ballard neighborhood of Seattle, Washington), dancing to Texas band Brave Combo."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/DeutschesHaus12Oct07Oktoberfestchickendance1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/DeutschesHaus12Oct07Oktoberfestchickendance1.jpg/1280px-DeutschesHaus12Oct07Oktoberfestchickendance1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Infrogmation of New Orleans / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADeutschesHaus12Oct07Oktoberfestchickendance1.jpg",
+    "description": "Oktoberfest celebrations at Deutsches Haus, New Orleans. Children learn the \"Chicken Dance\"."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/2010Jun17-OzseekerABbyVernBarber.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/2010Jun17-OzseekerABbyVernBarber.jpg/1280px-2010Jun17-OzseekerABbyVernBarber.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Villwock / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A2010Jun17-OzseekerABbyVernBarber.jpg",
+    "description": "Terrifying clown doing the Chicken Dance at the Sarge Boyd Bandshell in Eau Claire, Wisconsin"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Five Windows into Africa: a CD-ROM (2000)",
+    "url": "https://archive.org/details/FiveWindowsIntoAfrica2000",
+    "year": 2000,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Papa bird dance!",
+    "url": "https://archive.org/details/Kkennedy-PapaBirdDance741",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Network TEN Commercials (ATV-10, 13/11/82)",
+    "url": "https://archive.org/details/commercials-atv-10-13-11-82",
+    "year": 1982,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Bird Dance",
+    "url": "https://archive.org/details/BirdDance_201802",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "KentRippo's Bonus Vids (2023)",
+    "url": "https://archive.org/details/youtube-8xPbaUobuOQ",
+    "year": 2023,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Bird Dance",
+    "url": "https://archive.org/details/BirdDance_201703",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Gourd rattles",
+   "Nocturnal desert setting",
+   "Row formation"
+  ],
+  "costume_notes": null,
+  "setting_notes": "The dance is a nocturnal event that lasts all night. It is deeply connected to Yuman cultural identity and oral history, with songs reflecting migration narratives.",
+  "map": {
+   "country": "USA",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "2 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 2,
+  "counting": "count the 5-8 time noted for some songs bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "signature moves",
+  "the costume & setting section",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Chicken_Dance",
+  "https://www.wikidata.org/wiki/Q1344584",
+  "https://es.wikipedia.org/wiki/El_baile_de_los_pajaritos",
+  "https://fr.wikipedia.org/wiki/La_Danse_des_canards",
+  "https://pt.wikipedia.org/wiki/Baile_dos_Passarinhos",
+  "https://archive.org/details/yumanyaquimusic00dens"
+ ],
+ "claims_verified": 5,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "d5ff34e13a34ab346e207ff5accc2f02489f66b1d71370c4fc9b29b8207407dc",
+ "hero_checked": "fail"
+}

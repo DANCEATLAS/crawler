@@ -1,6 +1,6 @@
 # Twist — episode pack
 
-*Status: draft · built 2026-11-10 · judge 10.0 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 10.0 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; licensed images (3 needed)
 
@@ -121,7 +121,7 @@ NARRATION: Step 1: Stand with feet shoulder-width apart, knees slightly bent and
 NARRATION: Step 2: Rotate hips, torso, and legs on the balls of the feet as a single unit.
 NARRATION: Footwork from the sources: Feet remain in contact with the floor on the balls of the feet, grinding back and forth as if putting out a cigarette.
 NARRATION: Drill: Shoulder-width footing drill
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -192,7 +192,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Stand with feet shoulder-width apart, knees slightly bent and arms bent at the elbows.
 NARRATION: Step 2: Rotate hips, torso, and legs on the balls of the feet as a single unit.
 NARRATION: Drill: Elbow bend and arm hold
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -266,7 +266,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Grind feet back and forth on the floor as if putting out a cigarette.
 NARRATION: Step 2: Sway upper body forward and backward while swiveling hips from side to side.
 NARRATION: Drill: Continuous solo twisting
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -334,9 +334,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 10 tutorial(s) of the street-urban family studied · videos studied: 10
+Source: 11 tutorial(s) of the street-urban family studied · videos studied: 11
 Counting: 
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; punch to the side; pull your head down; pivot them on your elbows; swing stop; lean forward; arm up; elbow up; up and down
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; punch to the side; pull your head down; pivot them on your elbows; swing stop
 
 Sources (5): https://en.wikipedia.org/wiki/Twist_(dance); https://www.wikidata.org/wiki/Q387916; https://es.wikipedia.org/wiki/Twist_(baile); https://fr.wikipedia.org/wiki/Twist; https://pt.wikipedia.org/wiki/Twist

@@ -2,7 +2,7 @@
  "slug": "sisingaan",
  "name": "Sisingaan",
  "pack_version": "e2",
- "built_at": "2026-11-10T19:25:30Z",
+ "built_at": "2026-11-11T18:54:12Z",
  "researched_at": "2026-11-10T17:40:09Z",
  "qc_score": 9.45,
  "status": "draft",
@@ -68,7 +68,7 @@
      "This is Sisingaan. 20th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (-wumwQ1VRHs)",
      "Title card: Sisingaan · Indonesia · 20th century"
     ],
     "music": "theme (30 s)"
@@ -113,7 +113,7 @@
      "Watch for Lion carrying."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (-wumwQ1VRHs)",
      "Captions name each signature move as it appears",
      "Formation: The lion effigy is carried by four or two men using bamboo rods in a procession through the village."
     ],
@@ -703,7 +703,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "-wumwQ1VRHs",
+   "checked_by_vision_model": false,
+   "title": "GERAKAN SISINGAAN TERBARU & MUSIK TERBARU SISINGAAN UNTUK FESTIVAL  TAHUN 2023"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -815,8 +819,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 2,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -827,7 +831,9 @@
   "cues": [
    "hold your knife out",
    "every time the blade faces down",
-   "two thumbs are facing up"
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -835,6 +841,8 @@
    "full_demo",
    "context",
    "breakdown",
+   "music_practice",
+   "recap",
    "slow_practice"
   ],
   "steps_as_taught": []
@@ -843,7 +851,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "posture, arms and hands",
   "notable figures",
   "two or more connections",
@@ -856,6 +864,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "0c43ac603b2b6ef9b32f75e6ee68d212aa7d1734028955d0922e45e4fa209c41",
+ "input_fingerprint": "de2e3b8ad237ad1f43b5b490a3406e29ede2781dea6ed010f29c022ea324879c",
  "hero_checked": null
 }

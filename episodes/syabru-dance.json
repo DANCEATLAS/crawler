@@ -1,0 +1,838 @@
+{
+ "slug": "syabru-dance",
+ "name": "Syabru dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-11T18:54:12Z",
+ "researched_at": "2026-11-11T17:21:02Z",
+ "qc_score": 9.45,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A Sherpa or Yolmo cultural elder and dramnyen player who guides community dancers with warmth, communal patience, and cultural devotion.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Syabru dance",
+   "Syabru",
+   "Syabru Nach",
+   "Syabru Nritya"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Syabru dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Circles of the High Himalaya",
+     "This is Syabru dance."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Syabru dance · Nepal · not described in sources"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Syabru originates among the Himalayan communities of Nepal, serving as a longstanding folk tradition primarily preserved by the Sherpa and Yolmo ethnic groups, alongside other neighboring Himalayan peoples.",
+     "The practice has historically accompanied gatherings, festivals, and auspicious events throughout the mountainous regions of Nepal."
+    ],
+    "on_screen": [
+     "Map: Nepal · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Syabru is performed at gatherings, festivals, and various auspicious events.",
+     "It constitutes an essential ritual performance during the celebration of Gyalpo Lhosar.",
+     "Community workshops, awareness programmes, and competitions are organized to ensure its ongoing preservation and practice.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Signature moves — MISSING",
+     "Formation: Group arrangement in a line or a circle (circulus)"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is performed to traditional folk songs sung directly by the participants.",
+     "Musical accompaniment is frequently provided by traditional instruments, notably the dramnyen lute, which supports the slow communal singing and stepping.",
+     "Listen for the Dramnyen.",
+     "The sonic texture is defined by collective choral folk singing delivered directly by the dancers as they step. Melodic and rhythmic foundation is provided by the plucked strings of the traditional dramnyen lute, creating a steady, deliberate Himalayan folk soundscape."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Slow pulse accompanying communal singing"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers wear their distinct ethnic clothes, representing the Sherpa, Yolmo, or relevant Himalayan ethnic community.",
+     "The dance takes place during communal festivals, social gatherings, public competitions, workshops, and seasonal holiday venues."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures",
+     "lineage"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Gather in a communal line or circular formation alongside other participants",
+     "Engage in traditional folk singing while maintaining position in the group",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "High in the mountains of Nepal, Sherpa and Yolmo villagers preserve the slow-stepping songs and dramnyen lute rhythms of the Syabru dance.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Establish group alignment in a slow line or circle",
+   "level": "Level 1: Formation and Path",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Establish group alignment in a slow line or circle.",
+      "Level: Level 1: Formation and Path. Difficulty of the dance overall: beginner.",
+      "Your instructor: A Sherpa or Yolmo cultural elder and dramnyen player who guides community dancers with warmth, communal patience, and cultural devotion."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Slow pulse accompanying communal singing.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Gather in a communal line or circular formation alongside other participants",
+      "Step 2: Engage in traditional folk singing while maintaining position in the group",
+      "Footwork from the sources: Slow progression moving in a line or circle (circulus)",
+      "Drill: Assemble into a continuous circular formation with balanced spacing"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Step slowly along the line or circulus in coordination with the vocal song and dramnyen accompaniment",
+      "Drill: Maintain uniform spacing while initiating a steady, slow forward walking pace"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Transition fluidly between an open line and a closed circle as a group"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Performers sit in a circle, singing the folk melodies and gently tapping their feet or swaying the upper body in time with the dramnyen strumming. · For children: A follow-the-leader circle game where children practice matching steps along a round pathway while repeating call-and-response vocal verses."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Performers sit in a circle, singing the folk melodies and gently tapping their feet or swaying the upper body in time with the dramnyen strumming.",
+      "For children: A follow-the-leader circle game where children practice matching steps along a round pathway while repeating call-and-response vocal verses."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Establish group alignment in a slow line or circle.",
+      "Syabru is performed at gatherings, festivals, and various auspicious events.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Coordinate stepping with communal folk singing",
+   "level": "Level 2: Vocal Synchronization",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Coordinate stepping with communal folk singing.",
+      "Level: Level 2: Vocal Synchronization. Difficulty of the dance overall: beginner.",
+      "Your instructor: A Sherpa or Yolmo cultural elder and dramnyen player who guides community dancers with warmth, communal patience, and cultural devotion."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Slow pulse accompanying communal singing.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Gather in a communal line or circular formation alongside other participants",
+      "Step 2: Engage in traditional folk singing while maintaining position in the group",
+      "Drill: Listen to and repeat simple traditional vocal phrases while standing in place"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Step slowly along the line or circulus in coordination with the vocal song and dramnyen accompaniment",
+      "Drill: Match the slow footstep to the downbeat of the vocal phrase"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Sing in chorus while executing slow, steady walking steps along the circle"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Performers sit in a circle, singing the folk melodies and gently tapping their feet or swaying the upper body in time with the dramnyen strumming. · For children: A follow-the-leader circle game where children practice matching steps along a round pathway while repeating call-and-response vocal verses."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Performers sit in a circle, singing the folk melodies and gently tapping their feet or swaying the upper body in time with the dramnyen strumming.",
+      "For children: A follow-the-leader circle game where children practice matching steps along a round pathway while repeating call-and-response vocal verses."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Group arrangement in a line or a circle (circulus)"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Coordinate stepping with communal folk singing.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Unify movement and song to the dramnyen accompaniment",
+   "level": "Level 3: Instrumental Timing",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Unify movement and song to the dramnyen accompaniment.",
+      "Level: Level 3: Instrumental Timing. Difficulty of the dance overall: beginner.",
+      "Your instructor: A Sherpa or Yolmo cultural elder and dramnyen player who guides community dancers with warmth, communal patience, and cultural devotion."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Slow pulse accompanying communal singing.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Engage in traditional folk singing while maintaining position in the group",
+      "Step 2: Step slowly along the line or circulus in coordination with the vocal song and dramnyen accompaniment",
+      "Drill: Identify the plucked strumming pattern of the dramnyen"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Drill: Synchronize the group's slow stepping cadence precisely with the dramnyen meter"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Execute a complete communal progression incorporating singing, dramnyen pacing, and circular pathway"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Performers sit in a circle, singing the folk melodies and gently tapping their feet or swaying the upper body in time with the dramnyen strumming. · For children: A follow-the-leader circle game where children practice matching steps along a round pathway while repeating call-and-response vocal verses."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Performers sit in a circle, singing the folk melodies and gently tapping their feet or swaying the upper body in time with the dramnyen strumming.",
+      "For children: A follow-the-leader circle game where children practice matching steps along a round pathway while repeating call-and-response vocal verses."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Group arrangement in a line or a circle (circulus)"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Unify movement and song to the dramnyen accompaniment.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Slow pulse accompanying communal singing",
+  "instruments": [
+   "Dramnyen"
+  ],
+  "vocal_style": "Traditional folk songs sung communally by the dancers",
+  "musical_form": "Traditional folk song verses accompanied by instrumental lute",
+  "mood": [
+   "festive",
+   "communal",
+   "measured",
+   "auspicious"
+  ],
+  "sound_description": "The sonic texture is defined by collective choral folk singing delivered directly by the dancers as they step. Melodic and rhythmic foundation is provided by the plucked strings of the traditional dramnyen lute, creating a steady, deliberate Himalayan folk soundscape.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Syabru dance (Nepal). Rhythm pattern: Slow pulse accompanying communal singing. Instruments: Dramnyen. Vocal style: Traditional folk songs sung communally by the dancers. Form: Traditional folk song verses accompanied by instrumental lute. Mood: festive, communal, measured, auspicious. It should sound like this: The sonic texture is defined by collective choral folk singing delivered directly by the dancers as they step. Melodic and rhythmic foundation is provided by the plucked strings of the traditional dramnyen lute, creating a steady, deliberate Himalayan folk soundscape. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performers wear their distinct ethnic clothes, representing the Sherpa, Yolmo, or relevant Himalayan ethnic community. The dance takes place during communal festivals, social gatherings, public competitions, workshops, and seasonal holiday venues.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ANepalese_lakhe_dancer.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AEverest_Day_NYC_2019_%2849532937757%29.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Nepalese_lakhe_dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Nepalese_lakhe_dancer.jpg/1280px-Nepalese_lakhe_dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Less than 3 / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANepalese_lakhe_dancer.jpg",
+    "description": "Nepalese Lakhe (demon) dancer."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Everest_Day_NYC_2019_%2849532937757%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Everest_Day_NYC_2019_%2849532937757%29.jpg/1280px-Everest_Day_NYC_2019_%2849532937757%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "S Pakhrin from NYC, USA / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AEverest_Day_NYC_2019_%2849532937757%29.jpg",
+    "description": "Everest Day NYC 2019"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Traditional woven Himalayan ethnic attire worn by men and women",
+   "The wooden neck and strings of the dramnyen lute",
+   "Dancers slowly rounding in an expansive communal circle during Gyalpo Lhosar"
+  ],
+  "costume_notes": "Performers wear their distinct ethnic clothes, representing the Sherpa, Yolmo, or relevant Himalayan ethnic community. The dance takes place during communal festivals, social gatherings, public competitions, workshops, and seasonal holiday venues.",
+  "setting_notes": "Syabru is performed at gatherings, festivals, and various auspicious events. It constitutes an essential ritual performance during the celebration of Gyalpo Lhosar. Community workshops, awareness programmes, and competitions are organized to ensure its ongoing preservation and practice.",
+  "map": {
+   "country": "Nepal",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "14 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 14,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 8"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "keep it flat on the ground",
+   "switch",
+   "slide",
+   "hit"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "count_in",
+   "warmup",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "posture, arms and hands",
+  "the how-it-is-danced section",
+  "signature moves",
+  "notable figures",
+  "lineage",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Syabru_(dance)",
+  "https://www.wikidata.org/wiki/Q114552797"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "66fc4e7fb1deca3d7610b5b5da7a3e8b198c9c98b77eff873a7a5c3e2f9fbc90",
+ "hero_checked": null
+}

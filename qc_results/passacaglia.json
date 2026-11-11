@@ -1,6 +1,6 @@
 {
  "slug": "passacaglia",
- "qc_at": "2026-11-02T14:49:10Z",
+ "qc_at": "2026-11-11T18:35:01Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
@@ -14,27 +14,27 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "85"
+   "detail": "87"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "178"
+   "detail": "209"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Originating as a simple guitar strum between street theater scenes, the passacag"
+   "detail": "Born as a 17th-century Spanish street-guitar interlude, the passacaglia evolved "
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "632"
+   "detail": "612"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2431"
+   "detail": "3721"
   },
   {
    "gate": "sections_filled",
@@ -44,7 +44,7 @@
   {
    "gate": "citations",
    "ok": true,
-   "detail": "5/5 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": "the provided sources"
+   "detail": "testament to"
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "3 paras"
+   "detail": "6 paras"
   },
   {
    "gate": "not_duplicate",
@@ -98,20 +98,21 @@
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
+  "adaptations_safe": true,
   "overall": 10,
   "verdict": "publish",
-  "notes": "Extremely thorough and historically grounded profile connecting European baroque art forms with vibrant South American and Basque street traditions."
+  "notes": "Exceptional historical synthesis bridging European art music and Andean street traditions with rigorous factual backing."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "judge_score=9.85"
  ],
  "citation": {
-  "claims": 5,
-  "supported": 5,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-10-30T17:27:32Z"
+ "researched_at": "2026-11-11T18:19:23Z"
 }

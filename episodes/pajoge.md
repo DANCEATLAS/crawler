@@ -1,8 +1,8 @@
 # Pajoge — episode pack
 
-*Status: draft · built 2026-11-10 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local cultural practitioner from South Sulawesi.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Royal Circle of Bone
 NARRATION: This is Pajoge. Historical to modern.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (7NqU6HQMWU0)
 ON SCREEN: Title card: Pajoge · Indonesia · Historical to modern
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ NARRATION: Dancers perform in a circle, moving and singing.
 NARRATION: The lead dancer, or Indo pajoge, opens and closes the performance.
 NARRATION: Key movements include 'ballung' (lying down near an audience member) and 'mappasompe' (giving gifts).
 NARRATION: Watch for Ballung.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (7NqU6HQMWU0)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Dancers move in a circle; the audience forms a circle around them.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -116,7 +116,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Tettong mabborong: Standing and gathering together
 NARRATION: Step 2: Mappakaraja: Performing a gesture of respect
 NARRATION: Drill: Tettong mabborong practice
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -183,7 +183,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Mappacanda: Expressing rejoicing
 NARRATION: Step 2: Matteka: Crossing steps
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -250,7 +250,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Mattappo: Spreading out
 NARRATION: Step 2: Maggalio: Bending the body
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -303,7 +303,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear 'bodo' clothes, with hair styled in a bun or 'sibollo' flower symbol. They wear a triangular crown called 'jungge' and carry a fan known as 'papi'.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '7NqU6HQMWU0', 'checked_by_vision_model': False, 'title': 'TARI PAJOGE - Tari Tradisional Bugis'}
 Images: 7 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Unknown authorUnknown author / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Hendrik Veen (1823-1905) / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: The triangular jungge crown, The fan (papi), The circular formation of dancers and audience
@@ -313,9 +313,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (2): https://en.wikipedia.org/wiki/Pajoge; https://www.wikidata.org/wiki/Q12502087

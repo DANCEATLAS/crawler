@@ -1,6 +1,6 @@
 # Ekitaguriro — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
@@ -108,7 +108,7 @@ NARRATION: Step 1: Men: Step from one leg to another to imitate cow walking.
 NARRATION: Step 2: Women: Sway from side to side.
 NARRATION: Footwork from the sources: Men step from one leg to another to imitate cow movement.
 NARRATION: Drill: Practice rhythmic side-to-side weight transfer.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -175,7 +175,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Men: Step from one leg to another to imitate cow walking.
 NARRATION: Step 2: Women: Sway from side to side.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -242,7 +242,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Women: Sway from side to side.
 NARRATION: Step 2: Women: Spread hands across and above the head to represent horns.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -305,9 +305,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (2): https://en.wikipedia.org/wiki/Ekitaguriro; https://www.wikidata.org/wiki/Q124333764

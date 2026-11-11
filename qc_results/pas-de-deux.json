@@ -1,6 +1,6 @@
 {
  "slug": "pas-de-deux",
- "qc_at": "2026-11-03T18:18:40Z",
+ "qc_at": "2026-11-11T18:39:29Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
@@ -14,17 +14,17 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "83"
+   "detail": "82"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "133"
+   "detail": "190"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "In 19th-century Russia, Marius Petipa formalized the grand pas de deux into five"
+   "detail": "In 19th-century Russia, Marius Petipa formalized the grand pas de deux into a fi"
   },
   {
    "gate": "profile_len",
@@ -34,17 +34,17 @@
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2219"
+   "detail": "2566"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning,notable_figures,regional_variants"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "8/8 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -93,9 +93,7 @@
   "specificity": 9,
   "teaching_value": 8,
   "is_a_dance": true,
-  "factual_doubt": [
-   "Gregory Hines is a tap dancer and actor, not a classical ballet dancer known for performing the grand pas de deux."
-  ],
+  "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
@@ -103,20 +101,19 @@
   "adaptations_safe": true,
   "overall": 9,
   "verdict": "publish",
-  "notes": "The profile is highly accurate and well-structured. The only significant error is the inclusion of Gregory Hines as a notable figure for the pas de deux, which is factually incorrect for this specific classical form. Otherwise, it provides a clear, professional overview of the tradition."
+  "notes": "The profile is highly accurate and well-structured. It correctly identifies the pas de deux as a formal ballet structure rather than a specific dance style, and handles the historical evolution and technical requirements with precision. The inclusion of Gregory Hines as a 'notable figure' is slightly incongruous given his primary background in tap, but he did perform in ballet-adjacent contexts."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
   "banned_phrasing",
-  "judge_score=9.1",
-  "doubts=1"
+  "judge_score=9.1"
  ],
  "citation": {
-  "claims": 8,
-  "supported": 8,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-03T17:19:08Z"
+ "researched_at": "2026-11-11T18:11:18Z"
 }

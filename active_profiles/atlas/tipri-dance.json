@@ -1,0 +1,128 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Holding small sticks; in one version, holding ropes tied to a central pole.",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Circular formation or pairs.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Striking sticks with other dancers.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Dancers hold ropes tied to a central pole and weave them while dancing.",
+          "name": "Rope weaving"
+        },
+        {
+          "description": "Striking own sticks or partner's sticks to create rhythm.",
+          "name": "Stick striking"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Small sticks"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "rhythmic",
+        "festive"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The sound is primarily percussive, created by the tapping and striking of small sticks held by the dancers.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "None (in the girls' style)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Striking own sticks together",
+        "Striking sticks with a partner",
+        "Weaving ropes while moving in a circle"
+      ],
+      "formation": "Circle or pairs",
+      "level_notes": "not described in sources",
+      "rhythm": "Rhythmic tapping of sticks"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e42957feb48e93a3065f441a89c6062055c005bb4606af4abf77a48648dd47a9",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:tipri-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Tipri dance",
+  "research_file": "research_results/tipri-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "tipri-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tipri_dance_(Punjab)",
+    "https://www.wikidata.org/wiki/Q85809800"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

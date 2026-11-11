@@ -1,6 +1,6 @@
 # Danza de la Botella — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.85 · 16/16 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.85 · 16/16 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the music & instruments section; two or more connections
 
@@ -114,7 +114,7 @@ NARRATION: Step 1: Stand upright with a glass bottle balanced on the head
 NARRATION: Step 2: Extend arms to hold the ruffles of the skirt
 NARRATION: Footwork from the sources: Improvised basic steps matching polka rhythm
 NARRATION: Drill: Practice standing still with bottle on head
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -181,7 +181,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Advance to balancing multiple stacked bottles as skill improves
 NARRATION: Drill: Increase tempo of steps
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -249,7 +249,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Maintain steady posture and balance throughout
 NARRATION: Step 2: Advance to balancing multiple stacked bottles as skill improves
 NARRATION: Drill: Stack and balance up to ten bottles
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -312,9 +312,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (3): https://en.wikipedia.org/wiki/Paraguayan_bottle_dance; https://www.wikidata.org/wiki/Q96398402; https://es.wikipedia.org/wiki/Danza_de_la_botella

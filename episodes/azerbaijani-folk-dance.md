@@ -1,6 +1,6 @@
 # Azerbaijani folk dance — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.5 · 5/5 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-11 · judge 9.5 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed reference footage; two or more connections; what to avoid / common mistakes
 
@@ -11,7 +11,7 @@
 ## Episode 1 · Meet Azerbaijani folk dance · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Dancing on Stone: The Living Traditions of Azerbaijan.
+NARRATION: Dancing on Stone: The Living Traditions of Azerbaijan
 NARRATION: This is Azerbaijani folk dance. Ancient to modern.
 ON SCREEN: Hero video, first 10 seconds (VlSeUtRN6g4)
 ON SCREEN: Title card: Azerbaijani folk dance · Azerbaijan · Ancient to modern
@@ -75,8 +75,8 @@ MUSIC: underscore
 NEEDS: connections
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. Hold hands or shoulders in a circle for Yally formation.
-NARRATION: Execute synchronous rhythmic steps moving up and down.
+NARRATION: Before we go, one step. Hold hands or shoulders in a circle for Yally formation
+NARRATION: Execute synchronous rhythmic steps moving up and down
 NARRATION: Count it: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
@@ -99,9 +99,9 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Proud head, upright posture.
-NARRATION: Intricate hand movements, complex spins, and synchronized up-and-down arm movements in circle dances.
-NARRATION: Upper body, shoulders, and facial expressions emphasize emotion in women's dances.
+NARRATION: Proud head, upright posture
+NARRATION: Intricate hand movements, complex spins, and synchronized up-and-down arm movements in circle dances
+NARRATION: Upper body, shoulders, and facial expressions emphasize emotion in women's dances
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -114,19 +114,19 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Hold hands or shoulders in a circle for Yally formation.
-NARRATION: Step 2: Execute synchronous rhythmic steps moving up and down.
-NARRATION: Footwork from the sources: Women's leg movements are smooth, determined by skirt length; men's footwork includes rising on toes and quick knee drops.
-NARRATION: Drill: Hand-in-hand circle holding.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+NARRATION: Step 1: Hold hands or shoulders in a circle for Yally formation
+NARRATION: Step 2: Execute synchronous rhythmic steps moving up and down
+NARRATION: Footwork from the sources: Women's leg movements are smooth, determined by skirt length; men's footwork includes rising on toes and quick knee drops
+NARRATION: Drill: Hand-in-hand circle holding
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Perform graceful hand and upper-body movements for women's dances.
-NARRATION: Step 4: Execute athletic footwork featuring toe rises and quick knee drops for men's dances.
-NARRATION: Drill: Synchronous up-and-down stepping.
+NARRATION: Step 3: Perform graceful hand and upper-body movements for women's dances
+NARRATION: Step 4: Execute athletic footwork featuring toe rises and quick knee drops for men's dances
+NARRATION: Drill: Synchronous up-and-down stepping
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
@@ -135,7 +135,7 @@ COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · r
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Basic rhythm keeping to 6/8 meter.
+NARRATION: Drill: Basic rhythm keeping to 6/8 meter
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -170,9 +170,9 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Proud head, upright posture.
-NARRATION: Intricate hand movements, complex spins, and synchronized up-and-down arm movements in circle dances.
-NARRATION: Upper body, shoulders, and facial expressions emphasize emotion in women's dances.
+NARRATION: Proud head, upright posture
+NARRATION: Intricate hand movements, complex spins, and synchronized up-and-down arm movements in circle dances
+NARRATION: Upper body, shoulders, and facial expressions emphasize emotion in women's dances
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -185,16 +185,16 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Hold hands or shoulders in a circle for Yally formation.
-NARRATION: Step 2: Execute synchronous rhythmic steps moving up and down.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+NARRATION: Step 1: Hold hands or shoulders in a circle for Yally formation
+NARRATION: Step 2: Execute synchronous rhythmic steps moving up and down
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Perform graceful hand and upper-body movements for women's dances.
-NARRATION: Step 4: Execute athletic footwork featuring toe rises and quick knee drops for men's dances.
+NARRATION: Step 3: Perform graceful hand and upper-body movements for women's dances
+NARRATION: Step 4: Execute athletic footwork featuring toe rises and quick knee drops for men's dances
 NARRATION: Yally circle movement: Dancers hold hands or shoulders in a circle, performing synchronous rhythmic movements up and down.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
@@ -239,9 +239,9 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Proud head, upright posture.
-NARRATION: Intricate hand movements, complex spins, and synchronized up-and-down arm movements in circle dances.
-NARRATION: Upper body, shoulders, and facial expressions emphasize emotion in women's dances.
+NARRATION: Proud head, upright posture
+NARRATION: Intricate hand movements, complex spins, and synchronized up-and-down arm movements in circle dances
+NARRATION: Upper body, shoulders, and facial expressions emphasize emotion in women's dances
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -254,9 +254,9 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Perform graceful hand and upper-body movements for women's dances.
-NARRATION: Step 2: Execute athletic footwork featuring toe rises and quick knee drops for men's dances.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+NARRATION: Step 1: Perform graceful hand and upper-body movements for women's dances
+NARRATION: Step 2: Execute athletic footwork featuring toe rises and quick knee drops for men's dances
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
@@ -319,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (5): https://en.wikipedia.org/wiki/Azerbaijani_dances; https://www.wikidata.org/wiki/Q724234; https://es.wikipedia.org/wiki/Bailes_nacionales_de_Azerbaiyán; https://fr.wikipedia.org/wiki/Danses_azerbaïdjanaises; https://de.wikipedia.org/wiki/Aserbaidschanische_Volkstänze

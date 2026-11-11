@@ -1,13 +1,89 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Use of the handkerchief as an expressive tool for flirting and signaling.",
+      "difficulty": "intermediate",
+      "footwork": "Barefoot, involving rhythmic steps and zapateo-like movements.",
+      "formation_and_space": "Couple dance, moving in relation to one another.",
+      "hips_and_torso": "Visible hip and waist movements mimicking cockfighting.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Courtship-based; the man pursues and the woman evades.",
+      "posture": "Upright but fluid, reflecting the 'errant' nature of the dance.",
+      "signature_moves": [
+        {
+          "description": "Aggressive, stallion-like movements by the man and evasive, flirting movements by the woman.",
+          "name": "Cockfight mimicry"
+        }
+      ],
+      "tempo_feel": "Starts with a steady, tragic pace and accelerates into an explosive, fast-paced fuga.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Guitar",
+        "Cajón peruano",
+        "Peruvian spoons",
+        "Checo"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "tragic",
+        "picaresque",
+        "passionate",
+        "errant"
+      ],
+      "musical_form": "Glosa, dulce, and fuga",
+      "reference_recordings": [
+        {
+          "artist": "Salomón Díaz",
+          "title": "El Borrachito"
+        },
+        {
+          "artist": "Chabuca Granda",
+          "title": "Ha de llegar mi dueña"
+        }
+      ],
+      "rhythm_pattern": "Tundete (Ton-Ton-Tun)",
+      "sound_description": "A rhythmic, guitar-led sound characterized by the 'tundete' bass line and the percussive 'Golpe de Tierra' from cajóns and handclaps, punctuated by emotive, mournful vocals.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Tragic, picaresque ballad-style singing (triste or cumanana)"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Barefoot movement with rhythmic swaying",
+        "Use of the handkerchief to signal flirtation",
+        "Coordinated hip and torso movements mimicking cockfighting",
+        "Fast-paced footwork during the fuga"
+      ],
+      "formation": "Couple dance",
+      "level_notes": "Requires high energy and expressive, picaresque attitude.",
+      "rhythm": "The 'tundete' rhythm (Ton-Ton-Tun)"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "536bdf709d73e88f705fa5cd4b8d1e838a87ad300294d8f2e00b5d882b319ec7",
+  "fingerprint": "5fe778605401efa25828dc12a4bed96a0a8f4acdf74381c67c699380a241c33f",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +91,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: what_to_avoid",
+      "music_structure: meter",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +120,7 @@
   ],
   "music_options": [],
   "name": "Tondero (north coast)",
-  "research_file": null,
+  "research_file": "research_results/tondero-peru.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +130,13 @@
     "session_modes": []
   },
   "slug": "tondero-peru",
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tondero",
+    "https://www.wikidata.org/wiki/Q3531526",
+    "https://es.wikipedia.org/wiki/Tondero",
+    "https://fr.wikipedia.org/wiki/Tondero",
+    "https://it.wikipedia.org/wiki/Tondero"
+  ],
   "state": "researching",
   "video_evidence": []
 }

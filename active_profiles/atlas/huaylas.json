@@ -1,13 +1,74 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "Lively, jumping movements",
+      "formation_and_space": "Pairs",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Frequent jumping",
+      "partnering": "Couple dance",
+      "posture": "Upright and energetic",
+      "signature_moves": [
+        {
+          "description": "Choreography representing the courtship of birds.",
+          "name": "Bird courtship mimicry"
+        }
+      ],
+      "tempo_feel": "Lively and fast",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Brass bands"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "lively",
+        "cheerful",
+        "energetic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Lively and cheerful music typically performed by brass bands.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Vigorous jumping",
+        "Lively footwork in pairs"
+      ],
+      "formation": "Pairs",
+      "level_notes": "Requires high physical energy due to the jumping nature of the dance.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "0fce2d119db6bf05c7b3ebd871bcac0dab7f7bc35da614d34aacdd5e491cb6cd",
+  "fingerprint": "1caab74ece343f9fc2a4d5bf38d006fc2ee172a2722d9cb8484221809d869eb4",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +76,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +105,7 @@
   ],
   "music_options": [],
   "name": "Huaylas (Huaylarsh)",
-  "research_file": null,
+  "research_file": "research_results/huaylas.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +115,12 @@
     "session_modes": []
   },
   "slug": "huaylas",
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dance_in_Peru",
+    "https://www.wikidata.org/wiki/Q7171186",
+    "https://es.wikipedia.org/wiki/Danzas_del_Perú",
+    "https://fr.wikipedia.org/wiki/Danses_péruviennes"
+  ],
   "state": "researching",
   "video_evidence": []
 }

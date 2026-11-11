@@ -1,6 +1,6 @@
 # Yayue — episode pack
 
-*Status: withheld-chapters · built 2026-11-10 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-11 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage
 
@@ -109,9 +109,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
 Counting: 
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (5): https://en.wikipedia.org/wiki/Yayue; https://www.wikidata.org/wiki/Q15056301; https://es.wikipedia.org/wiki/Yayue; https://fr.wikipedia.org/wiki/Yayue; https://it.wikipedia.org/wiki/Yayue

@@ -2,7 +2,7 @@
  "slug": "fancy-shawl-dance",
  "name": "Fancy Shawl Dance",
  "pack_version": "e2",
- "built_at": "2026-11-10T19:25:30Z",
+ "built_at": "2026-11-11T18:54:11Z",
  "researched_at": "2026-11-10T18:40:50Z",
  "qc_score": 8.4,
  "status": "draft",
@@ -247,7 +247,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: 1-2 / 1-1-1.",
       "Rhythm pattern: medium war beat, ruffle, crow hop, and fast beat.",
       "Clap it first, then step it in place."
      ],
@@ -267,11 +267,11 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2 / 1-1-1",
      "repetitions": 3,
      "needs": [
       "teaching steps"
@@ -286,7 +286,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2 / 1-1-1",
      "repetitions": 3,
      "needs": [
       "teaching steps"
@@ -327,7 +327,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
+      "Count-in: 1-2 / 1-1-1.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -391,7 +391,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: 1-2 / 1-1-1.",
       "Rhythm pattern: medium war beat, ruffle, crow hop, and fast beat.",
       "Clap it first, then step it in place."
      ],
@@ -411,11 +411,11 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2 / 1-1-1",
      "repetitions": 3,
      "needs": [
       "teaching steps"
@@ -430,7 +430,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2 / 1-1-1",
      "repetitions": 3,
      "needs": [
       "signature moves"
@@ -471,7 +471,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
+      "Count-in: 1-2 / 1-1-1.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -534,7 +534,7 @@
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: .",
+      "Count: 1-2 / 1-1-1.",
       "Rhythm pattern: medium war beat, ruffle, crow hop, and fast beat.",
       "Clap it first, then step it in place."
      ],
@@ -554,11 +554,11 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
+      "Instructor front view, then back view (student's perspective); three repetitions",
       "Counts on screen"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2 / 1-1-1",
      "repetitions": 3,
      "needs": [
       "teaching steps"
@@ -573,7 +573,7 @@
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
-     "counts": "",
+     "counts": "1-2 / 1-1-1",
      "repetitions": 3,
      "needs": [
       "signature moves"
@@ -614,7 +614,7 @@
      "title": "Dance it to the music",
      "duration_s": 120,
      "narration": [
-      "Count-in: .",
+      "Count-in: 1-2 / 1-1-1.",
       "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
@@ -773,29 +773,58 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of the ritual-sacred family studied",
+  "source": "1 tutorial(s) of this dance studied",
   "videos_studied": 1,
-  "counting": "",
-  "counting_basis": "missing",
+  "counting": "1-2 / 1-1-1",
+  "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front, back",
-   "tempo progression: slow → full",
-   "repetitions per step: about 5"
+   "views used by most teachers: front",
+   "tempo progression: slow → full"
   ],
   "cues": [
-   "hold your knife out",
-   "every time the blade faces down",
-   "two thumbs are facing up"
+   "one two",
+   "over and spin"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "full_demo",
    "context",
    "breakdown",
-   "slow_practice"
+   "music_practice",
+   "recap"
   ],
-  "steps_as_taught": []
+  "steps_as_taught": [
+   {
+    "name": "Traveling spin",
+    "counts": "1-2",
+    "description": "Traveling spin on two beats."
+   },
+   {
+    "name": "Single beat spin",
+    "counts": "1-1-1",
+    "description": "Spin hopping from foot to foot with arms going up and down."
+   },
+   {
+    "name": "Front cross spin",
+    "counts": "1-2",
+    "description": "Cross right leg over front and spin forward."
+   },
+   {
+    "name": "Back cross spin",
+    "counts": "1-2",
+    "description": "Step back and spin."
+   },
+   {
+    "name": "Shawl pop",
+    "counts": "1-2",
+    "description": "Stepping forward with shawl action."
+   },
+   {
+    "name": "Grapevine",
+    "counts": "1-2",
+    "description": "Walking sideways with alternating front and back foot crosses."
+   }
+  ]
  },
  "gaps": [
   "tempo (bpm)",
@@ -817,6 +846,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "913d7904e58dbcc305425322f552116ae1079da4dcba27a0a4b33737e6939930",
+ "input_fingerprint": "cab7c5b5119d7f372abdcc805d4a03262c37cc283c6d97acf51f6ebb196eec27",
  "hero_checked": "pass"
 }

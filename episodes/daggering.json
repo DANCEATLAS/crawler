@@ -1,10 +1,10 @@
 {
  "slug": "daggering",
- "name": "daggering",
+ "name": "Daggering",
  "pack_version": "e2",
- "built_at": "2026-11-10T19:25:30Z",
- "researched_at": "2026-11-03T17:59:31Z",
- "qc_score": 8.4,
+ "built_at": "2026-11-11T18:54:11Z",
+ "researched_at": "2026-11-11T18:20:14Z",
+ "qc_score": 7.7,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,28 +45,28 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A seasoned dancehall dancer with deep knowledge of Jamaican culture and respect for daggering’s controversies",
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
-   "daggering",
+   "Daggering",
    "daggern"
   ]
  },
  "episode_1": {
-  "title": "Meet daggering",
+  "title": "Meet Daggering",
   "scenes": [
    {
     "code": "hook",
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "Daggering: Jamaica’s Controversial Dancehall Dance",
-     "This is daggering. 21st century."
+     "The Dance That Was Banned: Daggering",
+     "This is Daggering. 21st century."
     ],
     "on_screen": [
      "Hero video, first 10 seconds (N-be-bEdb48)",
-     "Title card: daggering · Jamaica · 21st century"
+     "Title card: Daggering · Jamaica · 21st century"
     ],
     "music": "theme (30 s)"
    },
@@ -75,9 +75,8 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Daggering emerged in Jamaica's dancehall scene and was named around 2006.",
-     "The term describes a style of dance involving sexually explicit, simulated intercourse movements.",
-     "It has roots in longstanding dancehall practices but gained distinct identity and popularity through music videos and artists promoting the style."
+     "Daggering originated in Jamaica, with the term becoming widely used around 2006.",
+     "It is considered a modern development within dancehall culture, though it shares roots with earlier Caribbean erotic dance styles like 'cabin stabbing'."
     ],
     "on_screen": [
      "Map: Jamaica · Caribbean",
@@ -90,9 +89,8 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Daggering is a social dance performed in dancehall parties and music video contexts.",
-     "It is a form of erotic dance expressing sexuality and energy.",
-     "The dance is controversial and banned from Jamaican broadcast media due to explicit content and health concerns.",
+     "The dance is a feature of Jamaican dancehall culture.",
+     "It is highly controversial, leading to a 2009 government ban on its promotion in broadcast media due to its explicit sexual nature.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -105,12 +103,11 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Watch for Crotch Thrust, Reverse Thrust."
+     "Watch for Crotch-to-buttocks contact."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (N-be-bEdb48)",
-     "Captions name each signature move as it appears",
-     "Formation: face-to-face or side-by-side close partner dancing"
+     "Captions name each signature move as it appears"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
     "needs": [
@@ -121,19 +118,15 @@
     "code": "music",
     "title": "Listen",
     "duration_s": 70,
-    "narration": [
-     "Daggering is performed to dancehall music.",
-     "Artists associated with daggering music include Aidonia, Dexta Daps, Ding Dong, Major Lazer, Mavado, Mr. Vegas, Popcaan, Shenseea, Spice, and Vybz Kartel.",
-     "Listen for the electronic beats typical of dancehall music.",
-     "Daggering music features driving electronic beats with a strong rhythmic pulse typical of dancehall, creating an energetic and provocative atmosphere that supports vigorous, sexually suggestive dance movements."
-    ],
+    "narration": [],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
-     "Listen later: No Worries — Aidonia; Morning Love — Dexta Daps; Daggering — Ding Dong",
+     "Verified recording — MISSING",
      "Waveform or rhythm-pattern graphic: "
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
+     "music_and_instruments",
      "tempo",
      "meter"
     ]
@@ -142,16 +135,14 @@
     "code": "costume",
     "title": "The costume and the setting",
     "duration_s": 60,
-    "narration": [
-     "Daggering is performed in dancehall settings such as clubs and parties where dancehall music is played.",
-     "Costumes are typical of dancehall culture, often casual and revealing, supporting the dance's explicit nature."
-    ],
+    "narration": [],
     "on_screen": [
      "Images — MISSING",
      "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
     ],
     "music": "underscore",
     "needs": [
+     "costume_and_setting",
      "images"
     ]
    },
@@ -160,10 +151,9 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Artists linked to daggering music include Aidonia, Dexta Daps, Ding Dong, Major Lazer, Mavado, Mr. Vegas, Popcaan, Shenseea, Spice, and Vybz Kartel.",
-     "Reggae historian David Katz noted the role of music videos in popularizing daggering.",
-     "Daggering is specifically Jamaican and linked to dancehall culture.",
-     "Daggering descends from Jamaican dancehall dance traditions and is a recent development from around 2006."
+     "Artists associated with the genre include Aidonia, Dexta Daps, Ding Dong, Major Lazer, Mavado, Mr. Vegas, Popcaan, Shenseea, Spice, and Vybz Kartel.",
+     "Related to other erotic dance forms such as 'cabin stabbing' (Caribbean), 'surra de bunda' (Brazil), grinding, and twerking.",
+     "A modern development within the Caribbean erotic dance tradition, specifically evolving from the 2006 dancehall wave."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -176,9 +166,8 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "daggering is sibling of cabin stabbing: A similar Caribbean dance style involving sexually suggestive movements.",
-     "daggering is related of grinding: Erotic partner dance sharing themes of close contact and pelvic movement.",
-     "daggering is related of twerking: Dance involving rhythmic hip movements with sexual connotations."
+     "Daggering is parent of dancehall: Daggering emerged from the 2006 wave of dancehall music.",
+     "Daggering is sibling of cabin stabbing: Considered a similar style of music and dance within the Caribbean."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -189,24 +178,22 @@
     "code": "first_step",
     "title": "Try one step",
     "duration_s": 60,
-    "narration": [
-     "Before we go, one step. Stand facing partner in close proximity",
-     "Male dancer thrusts crotch area into female dancer's buttocks",
-     "Count it: .",
-     "Chapter 1 takes it slowly from here."
-    ],
+    "narration": [],
     "on_screen": [
      "Instructor, front view, slow",
      "Count on screen"
     ],
-    "music": "lesson_slow"
+    "music": "lesson_slow",
+    "needs": [
+     "teaching steps"
+    ]
    },
    {
     "code": "close",
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Explore the rise, rhythm, and controversy of daggering, a sexually explicit Jamaican dance that shook dancehall culture.",
+     "An exploration of the rise, controversy, and medical consequences of Jamaica's most explicit dance craze.",
      "Sources: 3 references are listed with the profile."
     ],
     "on_screen": [
@@ -221,17 +208,17 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Learn basic partner stance and crotch thrusts",
-   "level": "beginner",
+   "goal": "the first steps of Daggering",
+   "level": null,
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Learn basic partner stance and crotch thrusts.",
-      "Level: beginner. Difficulty of the dance overall: beginner.",
-      "Your instructor: A seasoned dancehall dancer with deep knowledge of Jamaican culture and respect for daggering’s controversies"
+      "Chapter 1 — First steps. Today: the first steps of Daggering.",
+      "Level: beginner. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -242,15 +229,14 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "close partner stance with open, suggestive positioning",
-      "frequent partner contact, including female dancer's brief grasp of clothed genital area",
-      "frantic, forceful pelvic thrusts simulating intercourse"
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
@@ -274,34 +260,32 @@
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
-     "narration": [
-      "Step 1: Stand facing partner in close proximity",
-      "Step 2: Male dancer thrusts crotch area into female dancer's buttocks",
-      "Drill: Stand close to partner maintaining open posture"
-     ],
+     "narration": [],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
      "counts": "",
-     "repetitions": 3
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
-     "narration": [
-      "Step 3: Alternate with female dancer thrusting into male dancer",
-      "Step 4: Incorporate frantic, energetic body movements",
-      "Drill: Practice male crotch thrust into partner’s buttocks slowly"
-     ],
+     "narration": [],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
      "counts": "",
-     "repetitions": 3
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "combine",
@@ -310,8 +294,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Practice female reverse thrust slowly"
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -324,7 +307,7 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "attempting vigorous moves without caution due to risk of injury"
+      "Avoid high-impact movements to prevent risk of broken penises or tissue damage."
      ],
      "on_screen": [
       "Side-by-side: source-supported correction"
@@ -352,8 +335,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Learn basic partner stance and crotch thrusts.",
-      "Daggering is a social dance performed in dancehall parties and music video contexts.",
+      "You can now: the first steps of Daggering.",
+      "The dance is a feature of Jamaican dancehall culture.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -367,17 +350,17 @@
   {
    "chapter": 2,
    "title": "Building the dance",
-   "goal": "Incorporate partner hand contact and frantic movements",
-   "level": "intermediate",
+   "goal": "the building the dance of Daggering",
+   "level": null,
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 2 — Building the dance. Today: Incorporate partner hand contact and frantic movements.",
-      "Level: intermediate. Difficulty of the dance overall: beginner.",
-      "Your instructor: A seasoned dancehall dancer with deep knowledge of Jamaican culture and respect for daggering’s controversies"
+      "Chapter 2 — Building the dance. Today: the building the dance of Daggering.",
+      "Level: intermediate. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -388,15 +371,14 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "close partner stance with open, suggestive positioning",
-      "frequent partner contact, including female dancer's brief grasp of clothed genital area",
-      "frantic, forceful pelvic thrusts simulating intercourse"
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
@@ -420,26 +402,24 @@
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
-     "narration": [
-      "Step 1: Maintain open dance posture with frequent partner contact",
-      "Drill: Add brief partner hand grasp on clothed genital area"
-     ],
+     "narration": [],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
      "counts": "",
-     "repetitions": 3
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Crotch Thrust: Male dancer thrusts crotch into female dancer's buttocks",
-      "Reverse Thrust: Female dancer thrusts crotch into male dancer's buttocks",
-      "Drill: Practice alternating thrusts with partner"
+      "Crotch-to-buttocks contact: Male dancer rams his crotch area into the female dancer's buttocks."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -456,8 +436,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Increase tempo to match faster dancehall tracks"
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -470,7 +449,7 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "attempting vigorous moves without caution due to risk of injury"
+      "Avoid high-impact movements to prevent risk of broken penises or tissue damage."
      ],
      "on_screen": [
       "Side-by-side: source-supported correction"
@@ -485,7 +464,7 @@
      "duration_s": 120,
      "narration": [
       "Count-in: .",
-      "Full tempo, the whole sequence, twice. Formation: face-to-face or side-by-side close partner dancing"
+      "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -498,8 +477,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Incorporate partner hand contact and frantic movements.",
-      "Artists linked to daggering music include Aidonia, Dexta Daps, Ding Dong, Major Lazer, Mavado, Mr. Vegas, Popcaan, Shenseea, Spice, and Vybz Kartel.",
+      "You can now: the building the dance of Daggering.",
+      "Artists associated with the genre include Aidonia, Dexta Daps, Ding Dong, Major Lazer, Mavado, Mr. Vegas, Popcaan, Shenseea, Spice, and Vybz Kartel.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -513,17 +492,17 @@
   {
    "chapter": 3,
    "title": "Dancing it fully",
-   "goal": "Perform full energetic daggering routine",
-   "level": "advanced",
+   "goal": "the dancing it fully of Daggering",
+   "level": null,
    "scenes": [
     {
      "code": "welcome",
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 3 — Dancing it fully. Today: Perform full energetic daggering routine.",
-      "Level: advanced. Difficulty of the dance overall: beginner.",
-      "Your instructor: A seasoned dancehall dancer with deep knowledge of Jamaican culture and respect for daggering’s controversies"
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Daggering.",
+      "Level: advanced. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -534,15 +513,14 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "close partner stance with open, suggestive positioning",
-      "frequent partner contact, including female dancer's brief grasp of clothed genital area",
-      "frantic, forceful pelvic thrusts simulating intercourse"
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
@@ -566,27 +544,24 @@
      "code": "step_a",
      "title": "Step A — slowly",
      "duration_s": 150,
-     "narration": [
-      "Step 1: Incorporate frantic, energetic body movements",
-      "Step 2: Maintain open dance posture with frequent partner contact",
-      "Drill: Combine all previous drills fluidly"
-     ],
+     "narration": [],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
      "counts": "",
-     "repetitions": 3
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "step_b",
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Crotch Thrust: Male dancer thrusts crotch into female dancer's buttocks",
-      "Reverse Thrust: Female dancer thrusts crotch into male dancer's buttocks",
-      "Drill: Add personal style and improvisation"
+      "Crotch-to-buttocks contact: Male dancer rams his crotch area into the female dancer's buttocks."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -603,8 +578,7 @@
      "narration": [
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
-      "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Perform in front of a small audience"
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -617,7 +591,7 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "attempting vigorous moves without caution due to risk of injury"
+      "Avoid high-impact movements to prevent risk of broken penises or tissue damage."
      ],
      "on_screen": [
       "Side-by-side: source-supported correction"
@@ -632,7 +606,7 @@
      "duration_s": 120,
      "narration": [
       "Count-in: .",
-      "Full tempo, the whole sequence, twice. Formation: face-to-face or side-by-side close partner dancing"
+      "Full tempo, the whole sequence, twice."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -645,8 +619,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Perform full energetic daggering routine.",
-      "Daggering descends from Jamaican dancehall dance traditions and is a recent development from around 2006.",
+      "You can now: the dancing it fully of Daggering.",
+      "A modern development within the Caribbean erotic dance tradition, specifically evolving from the 2006 dancehall wave.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -665,26 +639,16 @@
   "tempo_bpm": null,
   "meter": null,
   "rhythm_pattern": null,
-  "instruments": [
-   "electronic beats typical of dancehall music"
-  ],
+  "instruments": [],
   "vocal_style": null,
   "musical_form": null,
   "mood": [
-   "energetic",
-   "provocative",
-   "rhythmic"
+   "high-energy",
+   "explicit"
   ],
-  "sound_description": "Daggering music features driving electronic beats with a strong rhythmic pulse typical of dancehall, creating an energetic and provocative atmosphere that supports vigorous, sexually suggestive dance movements.",
-  "listen_before_composing": [
-   "No Worries — Aidonia",
-   "Morning Love — Dexta Daps",
-   "Daggering — Ding Dong",
-   "Pon De Floor — Major Lazer",
-   "So Special — Mavado",
-   "Heads High — Mr. Vegas"
-  ],
-  "prompt": "Original instrumental composition in the musical world of daggering (Jamaica). Instruments: electronic beats typical of dancehall music. Mood: energetic, provocative, rhythmic. It should sound like this: Daggering music features driving electronic beats with a strong rhythmic pulse typical of dancehall, creating an energetic and provocative atmosphere that supports vigorous, sexually suggestive dance movements. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "sound_description": null,
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Daggering (Jamaica). Mood: high-energy, explicit. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -723,10 +687,10 @@
    "title": "Crazy daggering"
   },
   "wardrobe": {
-   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
-   "dress_the_narrator": true,
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
    "restricted_attire": false,
-   "from_sources": "Daggering is performed in dancehall settings such as clubs and parties where dancehall music is played. Costumes are typical of dancehall culture, often casual and revealing, supporting the dance's explicit nature.",
+   "from_sources": null,
    "reference_images": [],
    "care": [
     "every element traceable to the costume notes or a licensed image; nothing added for effect",
@@ -753,14 +717,12 @@
    }
   ],
   "motifs": [
-   "close partner contact",
-   "dancehall club lighting",
-   "energetic pelvic thrusts",
-   "music video clips",
-   "Jamaican flags"
+   "Dancehall posters",
+   "Radio broadcast equipment",
+   "Archive footage of dancehall crowds"
   ],
-  "costume_notes": "Daggering is performed in dancehall settings such as clubs and parties where dancehall music is played. Costumes are typical of dancehall culture, often casual and revealing, supporting the dance's explicit nature.",
-  "setting_notes": "Daggering is a social dance performed in dancehall parties and music video contexts. It is a form of erotic dance expressing sexuality and energy. The dance is controversial and banned from Jamaican broadcast media due to explicit content and health concerns.",
+  "costume_notes": null,
+  "setting_notes": "The dance is a feature of Jamaican dancehall culture. It is highly controversial, leading to a 2009 government ban on its promotion in broadcast media due to its explicit sexual nature.",
   "map": {
    "country": "Jamaica",
    "region": "Caribbean",
@@ -810,18 +772,24 @@
  "gaps": [
   "tempo (bpm)",
   "meter",
+  "instruments",
+  "a verified recording to listen to",
   "the hero video's vision check",
   "licensed images (3 needed)",
-  "the how-it-is-danced section"
+  "posture, arms and hands",
+  "the how-it-is-danced section",
+  "the music & instruments section",
+  "the costume & setting section",
+  "teaching steps written out"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Daggering",
   "https://www.wikidata.org/wiki/Q1157220",
   "https://de.wikipedia.org/wiki/Daggering"
  ],
- "claims_verified": 8,
- "claims": 8,
+ "claims_verified": 6,
+ "claims": 6,
  "polished": false,
- "input_fingerprint": "cc5090a1cd056bc8187859c2299580b0912466a4bcfc81a5fcf5c5f81eada4b3",
+ "input_fingerprint": "5271f1c48e3b00c2008fb806eedbcc6cfcce9e0d25b105bb098c7e181ee54ba0",
  "hero_checked": null
 }

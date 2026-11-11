@@ -1,6 +1,6 @@
 # Traditional Square Dance — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed images (3 needed); what to avoid / common mistakes
 
@@ -114,7 +114,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Join hands in a square or circle formation with other couples
 NARRATION: Step 2: Execute basic movements such as 'ladies chain' or 'right and left' upon hearing the call
 NARRATION: Drill: Form a four-couple square formation on the floor
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
@@ -182,7 +182,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Join hands in a square or circle formation with other couples
 NARRATION: Step 2: Execute basic movements such as 'ladies chain' or 'right and left' upon hearing the call
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
@@ -251,7 +251,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Execute basic movements such as 'ladies chain' or 'right and left' upon hearing the call
 NARRATION: Step 2: Walk through dance figures step-by-step prior to dancing to live music
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only) · repetitions: 3
@@ -316,9 +316,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (3): https://en.wikipedia.org/wiki/Traditional_square_dance; https://www.wikidata.org/wiki/Q2447772; https://de.wikipedia.org/wiki/Traditional_Square_Dance

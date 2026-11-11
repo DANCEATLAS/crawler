@@ -1,50 +1,64 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Includes characteristic shoulder and arm movements added by Willie Bryant",
-      "difficulty": "intermediate",
-      "footwork": "Composed of standard steps including the Double Shuffle, Cross Over, Tack Annie, and Falling Off a Log",
-      "formation_and_space": "Danced as a group line dance facing forward, transitioning into freestyle partner dancing",
-      "hips_and_torso": "Involves lateral movements and shifts of weight matching the footwork and shoulder cues",
-      "levels_and_jumps": "Floor-based steps with occasional jumps or freezes depending on the variation",
-      "partnering": "Danced solo or in lines during the choreography, followed by partner connection for Lindy Hop",
-      "posture": "Upright jazz posture with loose, mobile joints",
+      "arms_and_hands": "Shoulder movements are characteristic of the 'Shim Sham Shimmy'.",
+      "difficulty": "beginner",
+      "footwork": "Includes Double Shuffle, Cross Over, Tack Annie, and Falling Off a Log.",
+      "formation_and_space": "Line dance formation.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Dancers often break into freestyle Lindy Hop after the choreographed portion.",
+      "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "A foundational tap and rhythm step taking eight bars of the routine.",
+          "description": "A standard tap step used in the routine.",
           "name": "Double Shuffle"
         },
         {
-          "description": "A lateral foot-crossing step within the 32-bar chorus.",
+          "description": "A standard tap step used in the routine.",
           "name": "Cross Over"
         },
         {
-          "description": "An up-and-back shuffle movement accompanied by lateral arm and shoulder styling.",
+          "description": "An up-and-back shuffle step.",
           "name": "Tack Annie"
         },
         {
-          "description": "A half-break sliding step moving laterally across the floor.",
+          "description": "A standard tap step used in the routine.",
           "name": "Falling Off a Log"
-        },
-        {
-          "description": "Added in Frankie Manning's version, a low-traveling step with rolling knees.",
-          "name": "Shorty George"
         }
       ],
-      "tempo_feel": "Medium tempo swing feel",
+      "tempo_feel": "Medium tempo.",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
-      "instruments": [
-        "Swing orchestra band instruments"
-      ],
+      "instruments": [],
       "meter": "4/4",
       "mood_keywords": [
+        "swing",
         "energetic",
-        "celebratory",
-        "swing"
+        "communal"
       ],
       "musical_form": "32-bar chorus",
       "reference_recordings": [
@@ -59,27 +73,31 @@
         {
           "artist": "Erskine Hawkins",
           "title": "Tuxedo Junction"
+        },
+        {
+          "artist": "George Gee band",
+          "title": "Stompin' at the Savoy"
         }
       ],
-      "rhythm_pattern": "Melody lines start on beat eight",
-      "sound_description": "Swing music with a medium tempo where melody lines start on beat eight, featuring distinct musical breaks that align with the choreography.",
-      "tempo_bpm": "",
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Swing music with a medium tempo, featuring a melody that begins on beat eight to align with the choreography.",
+      "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Double Shuffle / Shim Sham",
-        "Cross Over / Push and cross",
-        "Tack Annie / Tacky Annies",
-        "Falling Off a Log / Half breaks"
+        "Double Shuffle",
+        "Cross Over",
+        "Tack Annie",
+        "Falling Off a Log"
       ],
-      "formation": "Line dance or group formation facing the same direction",
-      "level_notes": "The basic routine is accessible to regular dancers, while variations by Frankie Manning and Dean Collins require more practice.",
-      "rhythm": "4/4 meter, phrases lasting four 8-counts"
+      "formation": "Line dance",
+      "level_notes": "The original routine is considered a foundational tap routine; Frankie Manning's version is common for swing dancers.",
+      "rhythm": "4/4 time"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "0c8f00890f9250521f83134b027171faaa48a565686e44dcb8dfdf2502526bc0",
+  "fingerprint": "e2aaa0e81ba57fa249b5b40927f4a5e759b9da86fe3e21c7e994d9c9fc36270d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -87,7 +105,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: what_to_avoid",
+      "movement: posture, what_to_avoid",
+      "music_structure: rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [

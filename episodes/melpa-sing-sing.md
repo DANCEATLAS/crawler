@@ -1,6 +1,6 @@
 # Melpa sing-sing — episode pack
 
-*Status: draft · built 2026-11-09 · judge 8.7 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 8.7 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; notable figures; lineage; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -280,9 +280,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
 Counting: 
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (5): https://en.wikipedia.org/wiki/Mount_Hagen; https://www.wikidata.org/wiki/Q1017362; https://fr.wikipedia.org/wiki/Mount_Hagen; https://de.wikipedia.org/wiki/Mount_Hagen; https://it.wikipedia.org/wiki/Mount_Hagen

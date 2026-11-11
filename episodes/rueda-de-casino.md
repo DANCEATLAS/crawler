@@ -1,6 +1,6 @@
 # Rueda de Casino — episode pack
 
-*Status: draft · built 2026-11-10 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the occasions & meaning section
 
@@ -122,7 +122,7 @@ NEEDS: tempo
 NARRATION: Step 1: Form a circle with couples holding closed dance position
 NARRATION: Step 2: Start with 'al Medio' step: step in and out of the circle
 NARRATION: Drill: Form circle and hold position
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -193,7 +193,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Execute called moves simultaneously, including partner swaps and turns
 NARRATION: Drill: Practice 'Vacila' and 'Sombrero'
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -267,7 +267,7 @@ NEEDS: tempo
 NARRATION: Step 1: Listen for caller's move and watch hand signals
 NARRATION: Step 2: Execute called moves simultaneously, including partner swaps and turns
 NARRATION: Drill: Learn advanced figures from master level
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (5): https://en.wikipedia.org/wiki/Rueda_de_Casino; https://www.wikidata.org/wiki/Q1503394; https://es.wikipedia.org/wiki/Rueda_de_casino; https://fr.wikipedia.org/wiki/Rueda_de_casino; https://de.wikipedia.org/wiki/Rueda_de_casino

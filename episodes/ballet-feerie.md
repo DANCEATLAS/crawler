@@ -1,6 +1,6 @@
 # ballet-féerie — episode pack
 
-*Status: draft · built 2026-11-09 · judge 8.7 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-11 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; posture, arms and hands; the how-it-is-danced section; signature moves; teaching steps written out; what to avoid / common mistakes
 
@@ -11,23 +11,24 @@
 ## Episode 1 · Meet ballet-féerie · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: This is ballet-féerie. It dates back to the 19th century.
+NARRATION: The Magic Behind the Curtain
+NARRATION: This is ballet-féerie. 19th century.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: ballet-féerie · Russia · 19th century
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Ballet-féerie started in Russia. It combines the French féerie theater style with the Italian ballo grande dance.
-NARRATION: It grew from European spectacles like Renaissance ballet de cour and 17th-century pièces à machines. These shows used stage engineering by Nicola Sabbatini.
-NARRATION: In the 19th century, these influences mixed with Russian narrative ballet. The result was a style focused on visual changes and group performance.
+NARRATION: The ballet-féerie originated in Russia as a synthesis of the French féerie theatrical genre and the Italian ballo grande dance style.
+NARRATION: It evolved from a long history of European spectacle, including the Renaissance ballet de cour and 17th-century pièces à machines, which relied on the engineering of architects like Nicola Sabbatini.
+NARRATION: In the 19th century, these influences merged with the Russian interest in narrative ballet, creating a genre that prioritized visual transformation and ensemble performance.
 ON SCREEN: Map: Russia · Europe
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Ballet-féerie was a popular, often commercial form of entertainment. It aimed to create a dreamlike experience for viewers.
-NARRATION: It acted as a morality play. It showed good triumphing over evil using magic talismans and supernatural help.
-NARRATION: Today, ballet-féerie is a historical tradition.
+NARRATION: The ballet-féerie served as a popular, often commercialized form of entertainment that aimed to provide a 'dreamlike' experience for the audience.
+NARRATION: It functioned as a morality play, depicting the triumph of good over evil through the use of magic talismans and supernatural intervention.
+NARRATION: Today it is a historical tradition.
 ON SCREEN: Footage: The Nutcracker (https://archive.org/details/mecm-The_Nutcracker)
 MUSIC: underscore
 
@@ -38,9 +39,9 @@ MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The music in ballet-féerie is large and symphonic. It supports the story’s magical changes.
-NARRATION: Tchaikovsky’s works are key examples. He used full orchestras to highlight the magic and supernatural parts of the story.
-NARRATION: Listen for the full orchestra playing.
+NARRATION: The music of the ballet-féerie is characterized by its symphonic scale and ability to support narrative transformations.
+NARRATION: Tchaikovsky’s works are the primary examples, utilizing full orchestral arrangements to underscore the magical and supernatural elements of the plot.
+NARRATION: Listen for the full orchestra.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Listen later: The Sleeping Beauty — Pyotr Ilyich Tchaikovsky; The Nutcracker — Pyotr Ilyich Tchaikovsky; The Sleeping Beauty — Пётр Ильич Чайковский, Koninklijk Concertgebouworkest, Antal Doráti (1995)
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -63,8 +64,8 @@ ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Ballet-féerie is the child of féerie. Féerie is a French theater style that gave ballet-féerie its name and story structure.
-NARRATION: Ballet-féerie is influenced by ballo grande. Ballo grande is an Italian style that gave the dance features.
+NARRATION: ballet-féerie is parent of féerie: The French theatrical genre that provided the name and narrative structure.
+NARRATION: ballet-féerie is influence of ballo grande: The Italian style that provided the dance characteristics.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
@@ -288,9 +289,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the classical-court family studied · videos studied: 3
+Source: 4 tutorial(s) of the classical-court family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet
 
 Sources (3): https://en.wikipedia.org/wiki/F%C3%A9erie; https://www.wikidata.org/wiki/Q123578591; https://fr.wikipedia.org/wiki/Ballet-féerie

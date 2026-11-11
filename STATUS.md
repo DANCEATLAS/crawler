@@ -1,31 +1,31 @@
 # Dancing Atlas pipeline status
-_Generated 2026-11-10T19:28:55Z · pipeline v3.3_
+_Generated 2026-11-11T18:56:02Z · pipeline v3.3_
 
 ## Catalogue (Supabase)
-- Dances: **991** · with hero video: **823** · content_ready: 0 · publish gate: 0 · sacred: 0 · UNESCO refs: 20
+- Dances: **1020** · with hero video: **844** · content_ready: 0 · publish gate: 0 · sacred: 0 · UNESCO refs: 20
 - Viral challenges: 154
 
 ## Catalogue audit
 - Retired/merged: 137 · judged: 919 of 1014
 
 ## Crawler
-- Hero results on file: 1236 · statuses: {'qc_replaced': 134, 'crowd_wisdom_confident': 884, 'qc_failed_pending_recrawl': 112, 'crowd_wisdom_weak': 106}
-- Hero QC verdicts: {'pass': 704, 'fail': 112} (checked 816)
+- Hero results on file: 1249 · statuses: {'qc_replaced': 152, 'crowd_wisdom_confident': 876, 'qc_failed_pending_recrawl': 120, 'crowd_wisdom_weak': 101}
+- Hero QC verdicts: {'pass': 756, 'fail': 120} (checked 876)
 
 ## Discovery → research → QC
-- Candidates: {'researched': 340, 'duplicate_of': 17, 'queued': 251, 'screened_out': 34}
-- Research index: {'researched': 481, 'llm_failed': 3, 'no_sources': 43}
-- Movie-ready (music DNA + movement DNA + episode brief from sources): 104 of 481 researched
-- What classes still lack most (count of researched pages missing it): footwork_with_counts 348, images 314, recordings 310, tempo_or_meter 306, lesson_ladder 246, posture 236, arms_and_hands 212, formation 156
-- QC gates: {'reject': 117, 'publish': 260, 'review': 111}
+- Candidates: {'researched': 365, 'duplicate_of': 17, 'queued': 266, 'screened_out': 34}
+- Research index: {'researched': 512, 'llm_failed': 3, 'no_sources': 47}
+- Legacy presentation fields complete (not interactive readiness): 101 of 512 researched
+- What classes still lack most (count of researched pages missing it): footwork_with_counts 381, recordings 343, images 337, tempo_or_meter 329, lesson_ladder 279, posture 264, arms_and_hands 233, formation 172
+- QC gates: {'reject': 118, 'publish': 282, 'review': 119}
+- Active Profile dossiers: 1265; ready for activation: 0; runtime active: 0. See ACTIVE_PROFILE_REPORT.md.
 - Editor notes open: 0 · pages with editor-added sources: 6
-- Movie phase: episode packs 257 (0 complete, 8 polished) · translations 7 across 12 languages · teaching playbook from 42 lessons (`ULTIMATE_TEACHER.md`, `MOVIE_PHASE.md`)
+- Presentation assets: episode packs 279 (0 complete, 5 polished) · translations 8 across 12 languages · teaching playbook from 48 lessons (`ULTIMATE_TEACHER.md`, `MOVIE_PHASE.md`)
 
-## Closest to movie-ready (for the weekly editor pass: find the missing items, add sources to pipeline_state/sources_extra.json)
+## Closest to legacy presentation completeness (for the weekly editor pass: find the missing items, add sources to pipeline_state/sources_extra.json)
 
 - neo-burlesque (17/18): missing footwork_with_counts
 - pungmul (16/18): missing footwork_with_counts, recordings
-- daggering (15/18): missing footwork_with_counts, tempo_or_meter, images
 - georgian-folk-dance (15/18): missing footwork_with_counts, lesson_ladder, recordings
 - humppa (15/17): missing lesson_ladder, images
 - iranian-dance (15/18): missing formation, lesson_ladder, recordings
@@ -38,15 +38,16 @@ _Generated 2026-11-10T19:28:55Z · pipeline v3.3_
 - the-running-man (15/18): missing lesson_ladder, hooks, images
 - zambra (15/18): missing footwork_with_counts, lesson_ladder, images
 - australian-dance (14/18): missing posture, tempo_or_meter, lesson_ladder, images
+- danza-de-los-diablos (14/18): missing tempo_or_meter, lesson_ladder, recordings, images
 
-- Tradition status (schema 5 records): {'living': 270, 'unknown': 29, 'historical': 20, 'revived': 4} · pages with reference footage links: 180
+- Tradition status (schema 5 records): {'living': 303, 'unknown': 29, 'historical': 21, 'revived': 4} · pages with reference footage links: 195
 
 ## Last runs
-- **audit** 2026-11-10T17:07:18Z · {"retired_or_merged_total": 137}
-- **discover** 2026-11-10T17:08:42Z · {"harvested": 3682, "already_known": 1189, "dup_qid": 116, "dup_name": 118, "deferred": 1240, "not_dance_like": 10, "queued_new": 40}
-- **research** 2026-11-10T18:57:25Z · {"screened_out_move": 1, "researched_researched": 39, "researched_no_sources": 1, "llm_calls": 55, "llm_failures": 16, "llm_requests": 39, "llm_unanswered": 0}
-- **qc** 2026-11-10T19:07:12Z · {"gate_publish": 31, "gate_review": 8, "llm_calls": 51, "llm_failures": 12, "llm_requests": 39, "llm_unanswered": 0}
-- **hero_qc** 2026-11-10T19:16:09Z · {"videos_fetched": 137, "verdict_pass": 41, "verdict_fail": 19, "evicted_for_recrawl": 8, "replaced": 11, "llm_calls": 92, "llm_failures": 14, "llm_requests": 78, "llm_unanswered": 0}
-- **build** 2026-11-10T19:16:33Z · {"retired_by_audit": 122, "new_rejected_hidden": 92, "new_publish": 172, "new_review_hidden": 60, "existing_research_rejected": 25, "existing_reject": 25, "existing_publish": 77, "existing_review": 41}
-- **sync** 2026-11-10T19:28:53Z · {"patched": 5, "inserted_review": 8, "inserted_publish": 26}
-- **report** 2026-11-09T21:56:24Z · {"review_items": 220}
+- **audit** 2026-11-11T17:15:10Z · {"retired_or_merged_total": 137}
+- **discover** 2026-11-11T17:16:28Z · {"harvested": 3682, "already_known": 1229, "dup_qid": 116, "dup_name": 118, "deferred": 1200, "not_dance_like": 10, "queued_new": 40}
+- **research** 2026-11-11T18:28:55Z · {"researched_researched": 36, "researched_no_sources": 4, "llm_calls": 45, "llm_failures": 9, "llm_requests": 36, "llm_unanswered": 0}
+- **qc** 2026-11-11T18:40:38Z · {"gate_publish": 27, "gate_review": 8, "gate_reject": 1, "llm_calls": 47, "llm_failures": 11, "llm_requests": 36, "llm_unanswered": 0}
+- **hero_qc** 2026-11-11T18:48:54Z · {"videos_fetched": 151, "verdict_pass": 34, "verdict_fail": 26, "replaced": 18, "evicted_for_recrawl": 8, "llm_calls": 98, "llm_failures": 13, "llm_requests": 85, "llm_unanswered": 0}
+- **build** 2026-11-11T18:49:18Z · {"retired_by_audit": 122, "new_rejected_hidden": 93, "new_publish": 190, "new_review_hidden": 66, "existing_research_rejected": 25, "existing_reject": 25, "existing_publish": 81, "existing_review": 43}
+- **sync** 2026-11-11T18:56:01Z · {"patched": 5, "inserted_publish": 22, "inserted_review": 8, "skipped_reject_new": 1}
+- **report** 2026-11-10T19:28:55Z · {"review_items": 228}

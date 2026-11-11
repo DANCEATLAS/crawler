@@ -1,6 +1,6 @@
 # loure — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed)
 
@@ -339,9 +339,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the classical-court family studied · videos studied: 3
+Source: 4 tutorial(s) of the classical-court family studied · videos studied: 4
 Counting: count the compound duple (6/4) or simple triple (3/4) bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet
 
 Sources (7): https://en.wikipedia.org/wiki/Loure; https://www.wikidata.org/wiki/Q1205331; https://es.wikipedia.org/wiki/Loure; https://fr.wikipedia.org/wiki/Loure_(danse); https://de.wikipedia.org/wiki/Loure; https://archive.org/details/b10334038; https://archive.org/details/classicromanticp01unse

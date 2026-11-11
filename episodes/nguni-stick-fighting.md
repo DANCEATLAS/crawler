@@ -1,8 +1,8 @@
 # Nguni stick fighting — episode pack
 
-*Status: draft · built 2026-11-10 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the music & instruments section; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the music & instruments section; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced induna or traditional practitioner.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Bull of the Wedding
 NARRATION: This is Nguni stick fighting. Historical to modern.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (U1qrVYh7E1k)
 ON SCREEN: Title card: Nguni stick fighting · South Africa · Historical to modern
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Combatants use two long sticks, one for offense and one for defense.
 NARRATION: Zulu variants include a shield (ihawu).
 NARRATION: Fighters alternate between offense and defense to score points by striking specific body parts over a period of up to five hours.
 NARRATION: Watch for Striking.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (U1qrVYh7E1k)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Two opposing warriors.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -288,7 +288,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'U1qrVYh7E1k', 'checked_by_vision_model': False, 'title': 'Nguni Stick Fighting - too violent for TV?'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Wooden sticks, Traditional shields, Open fields, Wedding celebrations
@@ -298,9 +298,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
 Counting: 
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (3): https://en.wikipedia.org/wiki/Nguni_stick-fighting; https://www.wikidata.org/wiki/Q3112905; https://fr.wikipedia.org/wiki/Lutte_Nguni

@@ -1,13 +1,79 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "tapping out the rhythm with feet",
+      "formation_and_space": "two lines facing each other",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "couples in lines",
+      "posture": "upright",
+      "signature_moves": [
+        {
+          "description": "The two lines of dancers approach and cross each other.",
+          "name": "Line Crossing"
+        }
+      ],
+      "tempo_feel": "varies by variation",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "cuatro",
+        "guitar",
+        "bongó",
+        "güiro"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "happy",
+        "sad",
+        "nostalgic"
+      ],
+      "musical_form": "décima",
+      "reference_recordings": [],
+      "rhythm_pattern": "syncopated bass and Cuban rhythms",
+      "sound_description": "A blend of Spanish-derived harmonies and Afro-Caribbean syncopation, featuring a prominent cuatro and rhythmic percussion from the bongó and güiro.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "solo voice"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form two parallel lines with partners facing each other.",
+        "Step forward to approach the opposite line.",
+        "Cross through the opposite line.",
+        "Tap the rhythm with the feet at prescribed intervals."
+      ],
+      "formation": "Two lines of dancers facing each other.",
+      "level_notes": "Beginner-friendly structure with complex rhythmic footwork.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "6c14bc98d6eca992a57ee58692289756e51ce441e66546dcbe5ace0bd90c640c",
+  "fingerprint": "0342997ed11f8039be1ad77e66f8c0c0c871173fb0fbef064ec531a7190f2d92",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +81,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: what_to_avoid",
+      "music_structure: meter",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +110,7 @@
   ],
   "music_options": [],
   "name": "Seis",
-  "research_file": null,
+  "research_file": "research_results/seis.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +120,10 @@
     "session_modes": []
   },
   "slug": "seis",
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Seis",
+    "https://www.wikidata.org/wiki/Q7446911"
+  ],
   "state": "researching",
   "video_evidence": []
 }

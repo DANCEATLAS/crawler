@@ -1,6 +1,6 @@
 # Laridé — episode pack
 
-*Status: draft · built 2026-11-09 · judge 8.55 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 8.55 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; the how-it-is-danced section; signature moves; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -107,7 +107,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Form a line with other dancers.
 NARRATION: Step 2: Link hands or little fingers with neighbors.
 NARRATION: Drill: Practice standing in a line.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -170,7 +170,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Form a line with other dancers.
 NARRATION: Step 2: Link hands or little fingers with neighbors.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -231,7 +231,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Form a line with other dancers.
 NARRATION: Step 2: Link hands or little fingers with neighbors.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -291,9 +291,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (5): https://en.wikipedia.org/wiki/Balfolk; https://www.wikidata.org/wiki/Q804560; https://fr.wikipedia.org/wiki/Bal_folk; https://de.wikipedia.org/wiki/Bal_Folk; https://it.wikipedia.org/wiki/Balfolk

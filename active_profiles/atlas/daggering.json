@@ -3,8 +3,7 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "sexualized movements",
-          "partner contact"
+          "not derivable yet"
         ],
         "counts": "not derivable yet",
         "duration_minutes": "not derivable yet",
@@ -13,8 +12,7 @@
       "derived": true,
       "seniors": {
         "avoid": [
-          "vigorous pelvic thrusts",
-          "rapid partner contact"
+          "not derivable yet"
         ],
         "counts": "not derivable yet",
         "seated_version": "not derivable yet",
@@ -22,102 +20,55 @@
         "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "frequent partner contact, including female dancer's brief grasp of clothed genital area",
-      "difficulty": "beginner",
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
       "footwork": "not described in sources",
-      "formation_and_space": "face-to-face or side-by-side close partner dancing",
-      "hips_and_torso": "frantic, forceful pelvic thrusts simulating intercourse",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
-      "partnering": "male and female partners engage in reciprocal thrusting movements",
-      "posture": "close partner stance with open, suggestive positioning",
+      "partnering": "Close partner contact involving simulation of sexual intercourse.",
+      "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "Male dancer thrusts crotch into female dancer's buttocks",
-          "name": "Crotch Thrust"
-        },
-        {
-          "description": "Female dancer thrusts crotch into male dancer's buttocks",
-          "name": "Reverse Thrust"
+          "description": "Male dancer rams his crotch area into the female dancer's buttocks.",
+          "name": "Crotch-to-buttocks contact"
         }
       ],
-      "tempo_feel": "energetic and fast-paced, matching dancehall music",
-      "what_to_avoid": "attempting vigorous moves without caution due to risk of injury"
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Avoid high-impact movements to prevent risk of broken penises or tissue damage."
     },
     "music_profile": {
-      "instruments": [
-        "electronic beats typical of dancehall music"
-      ],
+      "instruments": [],
       "meter": "not described in sources",
       "mood_keywords": [
-        "energetic",
-        "provocative",
-        "rhythmic"
+        "high-energy",
+        "explicit"
       ],
       "musical_form": "not described in sources",
-      "reference_recordings": [
-        {
-          "artist": "Aidonia",
-          "title": "No Worries"
-        },
-        {
-          "artist": "Dexta Daps",
-          "title": "Morning Love"
-        },
-        {
-          "artist": "Ding Dong",
-          "title": "Daggering"
-        },
-        {
-          "artist": "Major Lazer",
-          "title": "Pon De Floor"
-        },
-        {
-          "artist": "Mavado",
-          "title": "So Special"
-        },
-        {
-          "artist": "Mr. Vegas",
-          "title": "Heads High"
-        },
-        {
-          "artist": "Popcaan",
-          "title": "Only Man She Want"
-        },
-        {
-          "artist": "Shenseea",
-          "title": "Loodi"
-        },
-        {
-          "artist": "Spice",
-          "title": "So Mi Like It"
-        },
-        {
-          "artist": "Vybz Kartel",
-          "title": "Clarks"
-        }
-      ],
+      "reference_recordings": [],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "Daggering music features driving electronic beats with a strong rhythmic pulse typical of dancehall, creating an energetic and provocative atmosphere that supports vigorous, sexually suggestive dance movements.",
+      "sound_description": "not described in sources",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Stand facing partner in close proximity",
-        "Male dancer thrusts crotch area into female dancer's buttocks",
-        "Alternate with female dancer thrusting into male dancer",
-        "Incorporate frantic, energetic body movements",
-        "Maintain open dance posture with frequent partner contact"
+        "not described in sources"
       ],
-      "formation": "close partner dancing, face-to-face or side-by-side",
-      "level_notes": "technique not described in sources",
-      "rhythm": "performed to dancehall music rhythms"
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "b0450fceb28d6e29cc395b170d22e4e8ae5d9699fce3b757b8c458474c648d70",
+  "fingerprint": "1f4ba8019a6d1f44e8f64f71bb8decdca82526a3c0a9c1cbbd53d78a1c215523",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -125,8 +76,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork",
-      "music_structure: meter, rhythm_pattern",
+      "movement: footwork, posture, formation_and_space",
+      "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -153,7 +104,7 @@
     "Video model observations are candidates, not motion capture or expert verification."
   ],
   "music_options": [],
-  "name": "daggering",
+  "name": "Daggering",
   "research_file": "research_results/daggering.json",
   "runtime_active": false,
   "scope": {

@@ -1,8 +1,8 @@
 # Grand pas — episode pack
 
-*Status: draft · built 2026-11-10 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a hero video; licensed images (3 needed); the costume & setting section; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; licensed images (3 needed); the costume & setting section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Professional ballet master.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Pièce de Résistance: Inside the Grand Pas
 NARRATION: This is Grand pas. 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (Jujz3Z8EDDs)
 ON SCREEN: Title card: Grand pas · France · 19th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ MUSIC: underscore
 NARRATION: The dance follows a specific sequence: an Entrée for the dancers to enter the stage, a Grand adage for the lead ballerina and partner, optional variations for soloists, and a final Coda.
 NARRATION: In a Grand pas classique, the focus is on classical technique without character dance or narrative progression.
 NARRATION: Watch for Grand adage.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (Jujz3Z8EDDs)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Varies from solo to ensemble patterns.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -75,7 +75,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Entrée: A formal entrance sequence for the ensemble or soloists.
 NARRATION: Grand Adage: A slow, sustained sequence of movements performed by the lead dancers.
-NARRATION: Count it: .
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -104,7 +104,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -119,6 +119,7 @@ NARRATION: Drill: Walking in a formal entrance (Entrée)
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Variations: Individual solo performances showcasing specific technical skills.
@@ -126,6 +127,7 @@ NARRATION: Step 4: Coda: A final, high-energy concluding sequence.
 NARRATION: Drill: Basic sustained balance (Adage)
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -137,14 +139,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: going up and down instead of staying at the same level during transitions
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated port de bras exercises focusing on grace and arm lines. · For children: A sequence game where children perform an entrance, a slow pose, and a fast finish.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated port de bras exercises focusing on grace and arm lines. · For children: A sequence game where children perform an entrance, a slow pose, and a fast finish. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -175,7 +177,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -189,6 +191,7 @@ NARRATION: Drill: Port de bras coordination
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Variations: Individual solo performances showcasing specific technical skills.
@@ -198,6 +201,7 @@ NARRATION: Drill: Partnering stability
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -209,14 +213,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: going up and down instead of staying at the same level during transitions
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated port de bras exercises focusing on grace and arm lines. · For children: A sequence game where children perform an entrance, a slow pose, and a fast finish.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated port de bras exercises focusing on grace and arm lines. · For children: A sequence game where children perform an entrance, a slow pose, and a fast finish. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Varies from solo to ensemble patterns.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -247,7 +251,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -261,6 +265,7 @@ NARRATION: Drill: Full Grand adage sequence
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Grand adage: A slow, sustained sequence of movements performed by the lead ballerina and her partner.
@@ -268,6 +273,7 @@ NARRATION: Drill: High-speed Coda footwork
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -279,14 +285,14 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: going up and down instead of staying at the same level during transitions
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated port de bras exercises focusing on grace and arm lines. · For children: A sequence game where children perform an entrance, a slow pose, and a fast finish.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated port de bras exercises focusing on grace and arm lines. · For children: A sequence game where children perform an entrance, a slow pose, and a fast finish. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Varies from solo to ensemble patterns.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -315,7 +321,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'Jujz3Z8EDDs', 'checked_by_vision_model': False, 'title': 'Raymonda Spanish Dance by Young Gyu Choi | Performance clip | Dutch National Ballet'}
 Images: 0 licensed
 Footage: Cuba: Bay of Pigs (1964) — https://archive.org/details/cubabayofpigs; FAIF Clip - BHS Dance "Grand Pas Espangnol" — https://archive.org/details/scpsfl-FAIF_Clip_-_BHS_Dance_Grand_Pas_Espangnol; Cuba: Bay of Pigs — https://archive.org/details/cubabayofpigs_202603
 Motifs: Orchestral pit, Stage lighting, Classical ballet studio
@@ -325,9 +331,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the classical-court family studied · videos studied: 3
-Counting: 
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 5-6-7-8
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: demi-plie; pas de bourree; releve; fifth position
+Common mistakes the studied teachers name: going up and down instead of staying at the same level during transitions
 
 Sources (3): https://en.wikipedia.org/wiki/Grand_pas; https://www.wikidata.org/wiki/Q3114743; https://fr.wikipedia.org/wiki/Grand_pas

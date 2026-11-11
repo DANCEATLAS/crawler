@@ -1,6 +1,6 @@
 # Jota Aragonesa — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.25 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.25 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: Small, rhythmic leaps
 NARRATION: Step 2: Heel-toe footwork patterns
 NARRATION: Footwork from the sources: Small, sharp leaps and rapid heel-toe steps
 NARRATION: Drill: Basic weight transfer
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -188,7 +188,7 @@ NEEDS: tempo
 NARRATION: Step 1: Small, rhythmic leaps
 NARRATION: Step 2: Heel-toe footwork patterns
 NARRATION: Drill: Holding arms high while moving
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -258,7 +258,7 @@ NEEDS: tempo
 NARRATION: Step 1: Heel-toe footwork patterns
 NARRATION: Step 2: Circular movements reminiscent of a waltz
 NARRATION: Drill: Small vertical jumps
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -324,9 +324,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (6): https://en.wikipedia.org/wiki/Jota_(music); https://www.wikidata.org/wiki/Q252626; https://es.wikipedia.org/wiki/Jota_(música); https://fr.wikipedia.org/wiki/Jota; https://pt.wikipedia.org/wiki/Jota_(música); https://archive.org/details/birch_122up

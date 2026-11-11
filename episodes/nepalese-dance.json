@@ -1,0 +1,411 @@
+{
+ "slug": "nepalese-dance",
+ "name": "Nepalese dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-11T18:54:11Z",
+ "researched_at": "2026-11-11T18:00:32Z",
+ "qc_score": 8.65,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Nepalese dance",
+   "dance in Nepal"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Nepalese dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Dances of the Himalayas",
+     "This is Nepalese dance. Ancient to modern."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Nepalese dance · Nepal · Ancient to modern"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Legends attribute the origin of Nepalese dance to the Himalayas, the abode of Lord Shiva and his tandava dance.",
+     "Historical records suggest the Maruni dance originated in the 14th century during the time of King Balihang Rana Magar of Palpa, Pokhara, and Butwal."
+    ],
+    "on_screen": [
+     "Map: Nepal · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Dances are performed during religious festivals such as Dashain, Tihar, and the Yenya festival.",
+     "Some, like the Kumha Pyakhan and Gathu Pyakhan, are sacred and performed in religious contexts.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Ceremony and Tibetan Dance in Nepal.webm (https://upload.wikimedia.org/wikipedia/commons/e/ed/Ceremony_and_Tibetan_Dance_in_Nepal.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Signature moves — MISSING"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Costumes vary by ethnicity and altitude.",
+     "In the Jhijhiya dance, women wear earthen pots with fire inside on their heads.",
+     "Masked dances like the Lakhey Pyakhan and Gathu Pyakhan utilize traditional masks and are performed in temple and market squares."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Styles include the Newar dances of Kathmandu (e.g., Bhairab Pyakhan), Limbu dances of the east (e.g., Dhan Nach), and Tharu dances of the Terai (e.g., Lathi Nach)."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures",
+     "lineage"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Certain dances, such as the Gathu Pyakhan and Kumha Pyakhan, are sacred and restricted; outsiders should respect local customs and restrictions regarding their performance."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "An exploration of the diverse ethnic and sacred dance traditions across Nepal's varied landscapes.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [],
+  "sound_description": null,
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Nepalese dance (Nepal). New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Costumes vary by ethnicity and altitude. In the Jhijhiya dance, women wear earthen pots with fire inside on their heads. Masked dances like the Lakhey Pyakhan and Gathu Pyakhan utilize traditional masks and are performed in temple and market squares.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AKumah_pyakhan_dance.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ANepalese_lakhe_dancer.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AKirati_Limbu_women_performing_Kelang_dance.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Kumah_pyakhan_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/49/Kumah_pyakhan_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Kamal Ratna Tuladhar / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKumah_pyakhan_dance.jpg",
+    "description": "A boy impersonating a deity performs the Kumha Pyakhan sacred dance to the accompaniment of a drummer and trumpet players in Kathmandu. This dance is performed by the Tuladhar caste."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Nepalese_lakhe_dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Nepalese_lakhe_dancer.jpg/1280px-Nepalese_lakhe_dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Less than 3 / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANepalese_lakhe_dancer.jpg",
+    "description": "Nepalese Lakhe (demon) dancer."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Kirati_Limbu_women_performing_Kelang_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Kirati_Limbu_women_performing_Kelang_dance.jpg/1280px-Kirati_Limbu_women_performing_Kelang_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ashishlohorung / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKirati_Limbu_women_performing_Kelang_dance.jpg",
+    "description": "This is the photo of Kirati Limbu women performing Kelang dance at Kirat festival Udhauli 2012 at Sydney."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Manual_for_Ritual_Dances_LACMA_M.82.169.18.1-.18_%2810_of_35%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Manual_for_Ritual_Dances_LACMA_M.82.169.18.1-.18_%2810_of_35%29.jpg/1280px-Manual_for_Ritual_Dances_LACMA_M.82.169.18.1-.18_%2810_of_35%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AManual_for_Ritual_Dances_LACMA_M.82.169.18.1-.18_%2810_of_35%29.jpg",
+    "description": "Nepal, circa 1730\nManuscripts\nOpaque watercolor and ink on paper\n3 x 11 11/16 in. (7.62 x 29.7 cm) each\nGift of Dr. and Mrs. Robert S. Coles (M.82.169.18.1-.18)\nSouth and Southeast Asian Art"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Kartik_Dance_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Kartik_Dance_02.JPG/1280px-Kartik_Dance_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Krish Dulal / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKartik_Dance_02.JPG",
+    "description": "A cultural dance program performed in Lalitpur during month of Kartik."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Deuda_Tudikhel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Deuda_Tudikhel.jpg/1280px-Deuda_Tudikhel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "जनक राज भट्ट / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADeuda_Tudikhel.jpg",
+    "description": "टुडीखेल, काठमाडौँमा खेलेको देउडा खेल"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Tharu_Dance_Sauraha_Chitwan_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Tharu_Dance_Sauraha_Chitwan_2018.jpg/1280px-Tharu_Dance_Sauraha_Chitwan_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Pratap Baniya / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATharu_Dance_Sauraha_Chitwan_2018.jpg",
+    "description": "Tharu Dance Sauraha Chitwan 2018"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Traditional_Nepali_folk_dance_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Traditional_Nepali_folk_dance_2.jpg/1280px-Traditional_Nepali_folk_dance_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Justine.toms / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATraditional_Nepali_folk_dance_2.jpg",
+    "description": "This photo has been taken in the country: Nepal"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Ceremony and Tibetan Dance in Nepal.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Ceremony_and_Tibetan_Dance_in_Nepal.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "Spencer Weart / Wikimedia Commons / CC BY 3.0"
+   }
+  ],
+  "motifs": [],
+  "costume_notes": "Costumes vary by ethnicity and altitude. In the Jhijhiya dance, women wear earthen pots with fire inside on their heads. Masked dances like the Lakhey Pyakhan and Gathu Pyakhan utilize traditional masks and are performed in temple and market squares.",
+  "setting_notes": "Dances are performed during religious festivals such as Dashain, Tihar, and the Yenya festival. Some, like the Kumha Pyakhan and Gathu Pyakhan, are sacred and performed in religious contexts.",
+  "map": {
+   "country": "Nepal",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "2 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 2,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "the how-it-is-danced section",
+  "signature moves",
+  "the music & instruments section",
+  "notable figures",
+  "lineage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dance_in_Nepal",
+  "https://www.wikidata.org/wiki/Q96375917"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "224dde08b9096e069d92ed82a4b46392f2c1aae426583c6c4c32568584e17bfd",
+ "hero_checked": null
+}

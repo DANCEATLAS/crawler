@@ -1,6 +1,6 @@
 # Finnish tango — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.5 · 7/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.5 · 7/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the costume & setting section
 
@@ -119,7 +119,7 @@ NARRATION: Step 1: Step forward with heel (slow)
 NARRATION: Step 2: Step forward with heel (slow)
 NARRATION: Footwork from the sources: Heel leads forward steps; backward steps push off heel; feet stay close to floor except slight leg raise in dips; step sequence SSQQ with variations
 NARRATION: Drill: Practice slow heel leads forward
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars · repetitions: 3
@@ -188,7 +188,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Alternate step sequences QQS or SQQ for rhythm changes
 NARRATION: Drill: Practice QQS and SQQ step variations
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars · repetitions: 3
@@ -259,7 +259,7 @@ NEEDS: tempo
 NARRATION: Step 1: Close feet with quick step
 NARRATION: Step 2: Alternate step sequences QQS or SQQ for rhythm changes
 NARRATION: Drill: Improvise step timing to match melody
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars · repetitions: 3
@@ -327,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (5): https://en.wikipedia.org/wiki/Finnish_tango; https://www.wikidata.org/wiki/Q1762761; https://es.wikipedia.org/wiki/Tango_de_Finlandia; https://fr.wikipedia.org/wiki/Tango_finlandais; https://pt.wikipedia.org/wiki/Tango_finlandês

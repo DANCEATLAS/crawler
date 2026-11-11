@@ -1,0 +1,371 @@
+{
+ "slug": "ghatu-dance",
+ "name": "Ghatu dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-11T18:54:11Z",
+ "researched_at": "2026-11-11T17:39:18Z",
+ "qc_score": 9.7,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A cultural historian or community elder from the Gurung tradition.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Ghatu dance",
+   "Ghatu Nritya",
+   "Ghatu Nach",
+   "Ghatu"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Ghatu dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Trance of the Ghatusari",
+     "This is Ghatu dance. 16th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Ghatu dance · Nepal · 16th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance is believed to have originated in the 16th century in the Lamjung district of Nepal, following the death of a local Gurung king.",
+     "Research suggests the tradition emerged during a period of Hindu influence in the region.",
+     "While the Gurung people follow a blend of Buddhist, Bon, and local Hindu customs, the Ghatu dance incorporates elements of Sati, which are considered alien to traditional Gurung culture, suggesting a synthesis of local and incoming cultural practices."
+    ],
+    "on_screen": [
+     "Map: Nepal · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance commemorates the tragic story of King Pashramu and Queen Yambawati.",
+     "It is performed during the Baisakhi Purnima festival.",
+     "The Sati Ghatu is performed from Shree Panchami to Baisakh Purnima, while the Bahramase Ghatu can be performed throughout the year, though it is generally avoided until Shree Panchami.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed by two main dancers, the Ghatusari, who represent the King and Queen.",
+     "The dancers enter a trance state and perform with meticulously slow, deliberate steps.",
+     "The performance is divided into segments called Dandi.",
+     "Watch for Trance state."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Two main dancers (Ghatusari) perform the roles of the King and Queen."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music consists of songs sung by men, passed down orally through generations.",
+     "The primary instrument is the Madal drum.",
+     "Listen for the Madal drum.",
+     "The music is characterized by male vocalists singing in an Indo-Aryan language, accompanied by the percussive, rhythmic beat of the Madal drum."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Driven by the beat of the Madal drum."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear traditional Gurung cultural dress and jewelry.",
+     "A signature element is a crown crafted from flowers and roasted paddy.",
+     "Props are handmade each year for the performance, including representations of a horse, a comb, and a bow and arrow."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "King Pashramu and Queen Yambawati are the central historical figures depicted in the dance.",
+     "The dance is primarily associated with the Gurung community of Lamjung but is also performed by the Magar, Dura, Balami, and Kumal communities.",
+     "The tradition is handed down orally from generation to generation."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Ghatu dance is sibling of Maruni: Mentioned as a related dance form in the context of Nepalese folk traditions.",
+     "Ghatu dance is sibling of Deuda: Mentioned as a related dance form in the context of Nepalese folk traditions.",
+     "Ghatu dance is sibling of Jhijhiya: Mentioned as a related dance form in the context of Nepalese folk traditions."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The dance involves a trance state and is subject to strict seasonal restrictions, with performance prohibited outside of specific ritual windows."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the 16th-century tragedy of King Pashramu and Queen Yambawati, kept alive through the ritualized trance dance of the Gurung people.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Driven by the beat of the Madal drum.",
+  "instruments": [
+   "Madal drum"
+  ],
+  "vocal_style": "Sung by men, passed down orally.",
+  "musical_form": "Multiple parts known as Dandi.",
+  "mood": [
+   "tragic",
+   "ritualistic",
+   "solemn"
+  ],
+  "sound_description": "The music is characterized by male vocalists singing in an Indo-Aryan language, accompanied by the percussive, rhythmic beat of the Madal drum.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Ghatu dance (Nepal). Rhythm pattern: Driven by the beat of the Madal drum.. Instruments: Madal drum. Vocal style: Sung by men, passed down orally.. Form: Multiple parts known as Dandi.. Mood: tragic, ritualistic, solemn. It should sound like this: The music is characterized by male vocalists singing in an Indo-Aryan language, accompanied by the percussive, rhythmic beat of the Madal drum. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers wear traditional Gurung cultural dress and jewelry. A signature element is a crown crafted from flowers and roasted paddy. Props are handmade each year for the performance, including representations of a horse, a comb, and a bow and arrow.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AGhatu_Dance.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AEverest_Day_NYC_2019_%2849541047231%29_%28cropped%29.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Ghatu_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Ghatu_Dance.jpg/1280px-Ghatu_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "S Pakhrin / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGhatu_Dance.jpg",
+    "description": "Ghatu Dance by Gurung women during Tamu Lhosar celebration 2018 (2075 BS)\nImage by: S Pakhrin\n\nTaken on December 30, 2018"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Everest_Day_NYC_2019_%2849541047231%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Everest_Day_NYC_2019_%2849541047231%29_%28cropped%29.jpg/1280px-Everest_Day_NYC_2019_%2849541047231%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "S Pakhrin from NYC, USA / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AEverest_Day_NYC_2019_%2849541047231%29_%28cropped%29.jpg",
+    "description": "Everest Day NYC 2019"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Crowns of flowers and roasted paddy",
+   "The Madal drum",
+   "Props representing the King and Queen (horse, comb, bow and arrow)"
+  ],
+  "costume_notes": "Dancers wear traditional Gurung cultural dress and jewelry. A signature element is a crown crafted from flowers and roasted paddy. Props are handmade each year for the performance, including representations of a horse, a comb, and a bow and arrow.",
+  "setting_notes": "The dance commemorates the tragic story of King Pashramu and Queen Yambawati. It is performed during the Baisakhi Purnima festival. The Sati Ghatu is performed from Shree Panchami to Baisakh Purnima, while the Bahramase Ghatu can be performed throughout the year, though it is generally avoided until Shree Panchami.",
+  "map": {
+   "country": "Nepal",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "2 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 2,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ghatu_(dance)",
+  "https://www.wikidata.org/wiki/Q113541813"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "ec8a665ac96e90e60b5c56571071f6469110cc994c2f30883ed3d76b8ce247dc",
+ "hero_checked": null
+}

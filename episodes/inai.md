@@ -1,6 +1,6 @@
 # Inai — episode pack
 
-*Status: withheld-chapters · built 2026-11-09 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-11 · judge 9.85 · 10/10 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; the costume & setting section; notable figures
 
@@ -108,9 +108,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the classical-court family studied · videos studied: 3
+Source: 4 tutorial(s) of the classical-court family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet
 
 Sources (2): https://en.wikipedia.org/wiki/Inai_(dance); https://www.wikidata.org/wiki/Q7447155

@@ -1,6 +1,6 @@
 # Ewoya Dance — episode pack
 
-*Status: draft · built 2026-11-09 · judge 8.9 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 8.9 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the music & instruments section; the costume & setting section; notable figures
 
@@ -108,7 +108,7 @@ NARRATION: Step 1: Stand in place
 NARRATION: Step 2: Jump vertically as high as possible
 NARRATION: Footwork from the sources: continuous vertical jumps with soft landings
 NARRATION: Drill: Standing vertical jump
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -173,7 +173,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Stand in place
 NARRATION: Step 2: Jump vertically as high as possible
 NARRATION: Drill: Jumping with arm swings
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -239,7 +239,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Jump vertically as high as possible
 NARRATION: Step 2: Land softly and prepare for next jump
 NARRATION: Drill: Jumping in rhythm with others
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -302,9 +302,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (2): https://en.wikipedia.org/wiki/Ewoya_Dance; https://www.wikidata.org/wiki/Q124412659

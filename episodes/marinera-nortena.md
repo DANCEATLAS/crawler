@@ -1,6 +1,6 @@
 # Marinera Norteña — episode pack
 
-*Status: draft · built 2026-11-10 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed)
 
@@ -126,7 +126,7 @@ NARRATION: Step 1: Hold a handkerchief in one hand while facing your partner
 NARRATION: Step 2: Step forward with the right foot, tapping the floor lightly
 NARRATION: Footwork from the sources: Quick taps, heel and toe alternations (zapateo), circling steps; women barefoot with adapted soles
 NARRATION: Drill: Practice stepping forward and backward with handkerchief in hand
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -199,7 +199,7 @@ NEEDS: tempo
 NARRATION: Step 1: Circle around your partner maintaining eye contact
 NARRATION: Step 2: Use flirtatious gestures with arms and head
 NARRATION: Drill: Combine zapateo with handkerchief twirling
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -275,7 +275,7 @@ NEEDS: tempo
 NARRATION: Step 1: For women, practice barefoot foot placement and balance
 NARRATION: Step 2: Men practice zapateo rhythm and footwork precision
 NARRATION: Drill: Sustain zapateo at performance tempo
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -342,9 +342,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (5): https://en.wikipedia.org/wiki/Marinera; https://www.wikidata.org/wiki/Q222445; https://es.wikipedia.org/wiki/Marinera; https://fr.wikipedia.org/wiki/Marinera; https://pt.wikipedia.org/wiki/Marinera

@@ -1,6 +1,6 @@
 # maloya — episode pack
 
-*Status: withheld-chapters · built 2026-11-09 · judge 8.8 · 4/4 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-11 · judge 8.8 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; two or more connections
 
@@ -107,9 +107,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
 Counting: count the Ternary bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (6): https://en.wikipedia.org/wiki/Maloya; https://www.wikidata.org/wiki/Q496929; https://fr.wikipedia.org/wiki/Maloya; https://pt.wikipedia.org/wiki/Maloya; https://de.wikipedia.org/wiki/Maloya_(Tanz); https://ich.unesco.org/en/RL/00249

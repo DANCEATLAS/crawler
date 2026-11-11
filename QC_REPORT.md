@@ -1,5 +1,5 @@
 # QC review queue
-_Generated 2026-11-10T19:28:55Z_
+_Generated 2026-11-11T18:56:02Z_
 
 | slug | gate | score | reasons | duplicate of |
 |---|---|---|---|---|
@@ -64,6 +64,7 @@ _Generated 2026-11-10T19:28:55Z_
 | lanigan-s-ball | reject | 8.5 | judge_score=8.5, doubts=1, not_a_dance |  |
 | al-ardha | reject | 8.5 | citations, sacred_handled, judge_score=8.5, doubts=2, harm, sacred |  |
 | kita | reject | 8.5 | sections_filled, judge_score=8.5, not_a_dance |  |
+| ireng-mask-dance | reject | 8.45 | judge_score=8.45, harm |  |
 | hotty-toddy | reject | 8.4 | judge_score=8.4, not_a_dance |  |
 | javotte-ballet | reject | 8.4 | sections_filled, judge_score=8.4, not_a_dance |  |
 | corporeal-mime | reject | 8.35 | insight_concrete, banned_phrasing, judge_score=8.35, not_a_dance |  |
@@ -134,6 +135,7 @@ _Generated 2026-11-10T19:28:55Z_
 | malaguenas | review | 9.7 | insight_concrete, banned_phrasing, judge_score=9.7 |  |
 | kurdish-dance | review | 9.7 | not_duplicate, judge_score=9.7 | govend |
 | catalan-rumba | review | 9.7 | not_duplicate, judge_score=9.7, sacred | rhumba |
+| apache-crown-dance | review | 9.7 | not_duplicate, judge_score=9.7, sacred | low-country-dance-sri-lanka |
 | sher | review | 9.6 | country, insight_concrete, judge_score=9.6 |  |
 | malappulayattam | review | 9.6 | citations, country, region, banned_phrasing, sacred_handled, judge_score=9.6, sacred |  |
 | mixer-dance | review | 9.6 | country, insight_concrete, judge_score=9.6 |  |
@@ -150,6 +152,8 @@ _Generated 2026-11-10T19:28:55Z_
 | thougal-jagoi | review | 9.3 | insight_concrete, banned_phrasing, judge_score=9.3, sacred |  |
 | surra-de-bunda | review | 9.3 | insight_concrete, profile_long_len, sections_filled, judge_score=9.3 |  |
 | didong | review | 9.3 | profile_long_len, sections_filled, judge_score=9.3 |  |
+| tientos | review | 9.3 | sections_filled, banned_phrasing, judge_score=9.3 |  |
+| zortziko | review | 9.3 | insight_concrete, banned_phrasing, judge_score=9.3 |  |
 | schafflertanz | review | 9.25 | citations, insight_concrete, judge_score=9.25, sacred |  |
 | hacha-a | review | 9.25 | not_duplicate, judge_score=9.25 | iraqi-chobi |
 | borankana | review | 9.15 | not_duplicate, judge_score=9.15 | phathisi |
@@ -157,6 +161,7 @@ _Generated 2026-11-10T19:28:55Z_
 | singkil | review | 9.1 | citations, judge_score=9.1, sacred |  |
 | zafin | review | 9.1 | country, judge_score=9.1, sacred |  |
 | pols | review | 9.1 | citations, sections_filled, judge_score=9.1 |  |
+| tondero-peru | review | 9.1 | insight_concrete, banned_phrasing, judge_score=9.1 |  |
 | slow-dance | review | 9.0 | country, banned_phrasing, judge_score=9.0 |  |
 | social-dance | review | 9.0 | country, judge_score=9.0 |  |
 | intore | review | 8.95 | citations, judge_score=8.95 |  |
@@ -167,11 +172,14 @@ _Generated 2026-11-10T19:28:55Z_
 | merak-dance | review | 8.85 | not_duplicate, sacred_handled, judge_score=8.85, sacred | dai-peacock-dance |
 | ecossaise | review | 8.8 | tagline_len, sections_filled, judge_score=8.8 |  |
 | metelytsia | review | 8.75 | citations, insight_concrete, judge_score=8.75 |  |
+| legenyes | review | 8.75 | citations, judge_score=8.75, doubts=2 |  |
 | hoochie-coochie | review | 8.7 | not_duplicate, judge_score=8.7 | belly-dance |
 | sanghyang | review | 8.7 | citations, insight_concrete, judge_score=8.7, sacred |  |
+| rumba-flamenca | review | 8.7 | not_duplicate, judge_score=8.7 | catalan-rumba |
 | cadence-rampa | review | 8.65 | sections_filled, banned_phrasing, judge_score=8.65 |  |
 | ram-wong | review | 8.6 | citations, judge_score=8.6, doubts=1 |  |
 | electric-techno-neon-gods | review | 8.6 | citations, sacred_handled, judge_score=8.6, doubts=2, sacred |  |
+| chaap | review | 8.55 | country, sections_filled, judge_score=8.55 |  |
 | tondero | review | 8.5 | insight_concrete, banned_phrasing, judge_score=8.5, doubts=2 |  |
 | kalinka | review | 8.45 | profile_long_len, judge_score=8.45 |  |
 | narrative-ballet | review | 8.45 | country, insight_concrete, judge_score=8.45 |  |
@@ -189,6 +197,7 @@ _Generated 2026-11-10T19:28:55Z_
 | fwemba | review | 8.25 | sacred_handled, judge_score=8.25, sacred |  |
 | lazgi | review | 8.25 | judge_score=8.25, doubts=5 |  |
 | peteneras | review | 8.25 | insight_concrete, judge_score=8.25 |  |
+| gammaldans | review | 8.25 | sections_filled, judge_score=8.25 |  |
 | sandae-noli | review | 8.15 | sections_filled, judge_score=8.15 |  |
 | kolbasti | review | 8.15 | sacred_handled, judge_score=8.15, doubts=1, sacred |  |
 | sayaw-sa-bangko | review | 8.15 | citations, sacred_handled, judge_score=8.15, doubts=3, sacred |  |

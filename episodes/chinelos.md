@@ -1,6 +1,6 @@
 # Chinelos — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.5 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.5 · 6/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the how-it-is-danced section; the music & instruments section
 
@@ -119,7 +119,7 @@ NARRATION: Step 1: Stand with feet apart and knees slightly bent
 NARRATION: Step 2: Take two shuffling steps forward
 NARRATION: Footwork from the sources: Two shuffling steps forward followed by a small jump sideways leading with a shoulder
 NARRATION: Drill: Practice standing posture and foot placement
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -188,7 +188,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Lead with the other shoulder and jump slightly to the left
 NARRATION: Step 2: Repeat the sequence continuously
 NARRATION: Drill: Extend duration of continuous brincon jumping
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -257,7 +257,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Lead with the other shoulder and jump slightly to the left
 NARRATION: Step 2: Repeat the sequence continuously
 NARRATION: Drill: Wear costume and adapt movement to weight and heat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -322,9 +322,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (4): https://en.wikipedia.org/wiki/Chinelos; https://www.wikidata.org/wiki/Q5100354; https://es.wikipedia.org/wiki/Chinelo; https://fr.wikipedia.org/wiki/Chinelos

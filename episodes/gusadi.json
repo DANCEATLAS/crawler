@@ -2,7 +2,7 @@
  "slug": "gusadi",
  "name": "Gusadi",
  "pack_version": "e2",
- "built_at": "2026-11-10T19:25:30Z",
+ "built_at": "2026-11-11T18:54:11Z",
  "researched_at": "2026-11-10T17:41:42Z",
  "qc_score": 9.85,
  "status": "withheld-chapters",
@@ -65,7 +65,7 @@
      "This is Gusadi. Ancient to contemporary."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (4elgx_kvEQU)",
      "Title card: Gusadi · India · Ancient to contemporary"
     ],
     "music": "theme (30 s)"
@@ -108,7 +108,7 @@
      "Watch for Urum Chaal, Hedge Chaal."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (4elgx_kvEQU)",
      "Captions name each signature move as it appears",
      "Formation: Dancers move in lines and travel between villages."
     ],
@@ -261,7 +261,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "4elgx_kvEQU",
+   "checked_by_vision_model": false,
+   "title": "Must Watch Gonds Gussadi Dance, cultural dance lovers, traditional dance"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -409,8 +413,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 2,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -421,7 +425,9 @@
   "cues": [
    "hold your knife out",
    "every time the blade faces down",
-   "two thumbs are facing up"
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -429,6 +435,8 @@
    "full_demo",
    "context",
    "breakdown",
+   "music_practice",
+   "recap",
    "slow_practice"
   ],
   "steps_as_taught": []
@@ -437,7 +445,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video"
+  "the hero video's vision check"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Gussadi_dance",
@@ -446,6 +454,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "3a15fe9a1531edd9e6e0dedc2118fd4142440b6e39a39d26c2ace5412eb79ef2",
+ "input_fingerprint": "230baae8238cf088728db5238d8bdc38d75178fd67545e6cd018cdac88a40b24",
  "hero_checked": null
 }

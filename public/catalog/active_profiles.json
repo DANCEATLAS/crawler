@@ -1,6 +1,6 @@
 {
   "contract": "da_active_profile_v1",
-  "count": 1247,
+  "count": 1265,
   "evaluated_on": "2026-11-11",
   "profiles": {
     "atlas:aati-kalenja": {
@@ -284,9 +284,16 @@
       "state": "researching"
     },
     "atlas:apache": {
-      "fingerprint": "12847c3e449a79f76903b15830d9d3a765f4a6daf5f8d8ea3a00d2925d248cc4",
+      "fingerprint": "1bb3e93a48424b10cb5379882cbe1622c7c4c314bbdebf9c56ea8567b9badf97",
       "name": "Apache",
       "path": "active_profiles/atlas/apache.json",
+      "runtime_active": false,
+      "state": "researching"
+    },
+    "atlas:apanomeritis": {
+      "fingerprint": "9390a09e8df1ddc3bb6941dd092c7fbdc65daa5ffdaaaf179c3611b454e80c92",
+      "name": "Apanomeritis",
+      "path": "active_profiles/atlas/apanomeritis.json",
       "runtime_active": false,
       "state": "researching"
     },
@@ -788,14 +795,14 @@
       "state": "researching"
     },
     "atlas:bele-lino": {
-      "fingerprint": "08e3d0c684c4757e407a6d5c7c3f75ff074d8aa8778f3ac59ee77bfada2b2a28",
+      "fingerprint": "79ff741cd1cd77a1272a9d28d23762989c68f00c9828e9ec3f4e1a7ce798128f",
       "name": "Bele Lino",
       "path": "active_profiles/atlas/bele-lino.json",
       "runtime_active": false,
       "state": "researching"
     },
     "atlas:bele-lisid": {
-      "fingerprint": "e03f3deef017c4981a7cae025f703b18a5edb1df77f0e185a19a4526c56c9d6c",
+      "fingerprint": "4c77f4fc056c873d74108219a7fec6c060f83ef3efc3af85a3650c858deb4dee",
       "name": "Bele Lisid",
       "path": "active_profiles/atlas/bele-lisid.json",
       "runtime_active": false,
@@ -878,6 +885,13 @@
       "runtime_active": false,
       "state": "researching"
     },
+    "atlas:bibasis": {
+      "fingerprint": "dd16351f66a647e4d7091c92c77ea9b8ce740b0b2a553d3d721d0d2957846ded",
+      "name": "Bibasis",
+      "path": "active_profiles/atlas/bibasis.json",
+      "runtime_active": false,
+      "state": "researching"
+    },
     "atlas:bidesia": {
       "fingerprint": "30edc7059a46af1b2aa1c4411d809817b6b499c9d8d734d1b41337298c53cbba",
       "name": "Bidesia",
@@ -928,11 +942,11 @@
       "state": "teaching_withheld"
     },
     "atlas:bird-dance": {
-      "fingerprint": "2e41ed134f454057135b5e18a0c46d1237cc4e9f3efa558d2404dc4d233d3abb",
+      "fingerprint": "009533c4c89be5512702c335d449cccd076c49f8d9790e9964e3b5cf1d6c1495",
       "name": "Bird Dance",
       "path": "active_profiles/atlas/bird-dance.json",
       "runtime_active": false,
-      "state": "researching"
+      "state": "teaching_withheld"
     },
     "atlas:bitti-harey": {
       "fingerprint": "22b8f93c2cc25edd9132e1ab464ea432e645f23e3911d4926fd57aa2122beced",
@@ -1306,7 +1320,7 @@
       "state": "researching"
     },
     "atlas:caci": {
-      "fingerprint": "55c71d415a7269a9c8e1c67e5b117cb1499a181673ae5690274f840bbb13fb1b",
+      "fingerprint": "ce0076f95aa0a40e9dc8c293f583fc53eb6def90d491a053f99beeeef5cec301",
       "name": "Caci",
       "path": "active_profiles/atlas/caci.json",
       "runtime_active": false,
@@ -1509,7 +1523,7 @@
       "state": "researching"
     },
     "atlas:chari-dance": {
-      "fingerprint": "5d2df4342c4e8357c6788993fe4394fd6e1e9634cd0a0f3e409e52a70eaca0ef",
+      "fingerprint": "d649c2a73c6b41e5e0845197dab843d3ace58ae5f313554346cb1c9ccf19260f",
       "name": "Chari Dance",
       "path": "active_profiles/atlas/chari-dance.json",
       "runtime_active": false,
@@ -1880,8 +1894,8 @@
       "state": "researching"
     },
     "atlas:daggering": {
-      "fingerprint": "b0450fceb28d6e29cc395b170d22e4e8ae5d9699fce3b757b8c458474c648d70",
-      "name": "daggering",
+      "fingerprint": "1f4ba8019a6d1f44e8f64f71bb8decdca82526a3c0a9c1cbbd53d78a1c215523",
+      "name": "Daggering",
       "path": "active_profiles/atlas/daggering.json",
       "runtime_active": false,
       "state": "researching"
@@ -2356,7 +2370,7 @@
       "state": "researching"
     },
     "atlas:fancy-shawl-dance": {
-      "fingerprint": "ef0211d0224e871e9457247739193361a570f0ab2b66febcd8bb3d3b81c854fd",
+      "fingerprint": "9bbe38d35d2738cc9306919c5d50983634d86b55ad5be80e6f28ecb8d415807d",
       "name": "Fancy Shawl Dance",
       "path": "active_profiles/atlas/fancy-shawl-dance.json",
       "runtime_active": false,
@@ -2415,6 +2429,13 @@
       "fingerprint": "451d31ba61a2f6394f0e6174b7c6ab684198bbb3a3192ca3c229e29ececc04ec",
       "name": "Finnish tango",
       "path": "active_profiles/atlas/finnish-tango.json",
+      "runtime_active": false,
+      "state": "researching"
+    },
+    "atlas:firkal-dance": {
+      "fingerprint": "4d508c8f90e1920f4d471bf8f0b1f9d44a39866531f28acfdb94b869a27adfe3",
+      "name": "Firkal dance",
+      "path": "active_profiles/atlas/firkal-dance.json",
       "runtime_active": false,
       "state": "researching"
     },
@@ -2649,6 +2670,13 @@
       "runtime_active": false,
       "state": "teaching_withheld"
     },
+    "atlas:ghatu-dance": {
+      "fingerprint": "80c8284d198f0c5b85d8fef3ca65373c251ebe6b4c68c14d3c2f1c1ad2f60a5a",
+      "name": "Ghatu dance",
+      "path": "active_profiles/atlas/ghatu-dance.json",
+      "runtime_active": false,
+      "state": "teaching_withheld"
+    },
     "atlas:ghoomar": {
       "fingerprint": "3809211db349703bf8b8b307bfa351d647ac5cd527808a7eb2525d5ea965d579",
       "name": "Ghoomar",
@@ -2748,7 +2776,7 @@
       "state": "researching"
     },
     "atlas:grand-pas": {
-      "fingerprint": "54575817c75de1723b662dc2e141041b6973d110e3d10ba33435d36b171379e4",
+      "fingerprint": "8b139e8c16308b6a28a39ab0fa6e759009ffb87bf82f6927ae587800ff6dbb4f",
       "name": "Grand pas",
       "path": "active_profiles/atlas/grand-pas.json",
       "runtime_active": false,
@@ -2846,7 +2874,7 @@
       "state": "researching"
     },
     "atlas:gusadi": {
-      "fingerprint": "9b95b6c2ad77c1c49a19d85498237d642847af727e310a5f199227068510ccd8",
+      "fingerprint": "8b10f767d7608188297e1fb1cf320ebf121e2f818af6ba0746b9ffd6b49b40d0",
       "name": "Gusadi",
       "path": "active_profiles/atlas/gusadi.json",
       "runtime_active": false,
@@ -2986,7 +3014,7 @@
       "state": "researching"
     },
     "atlas:hokey-pokey": {
-      "fingerprint": "26ba5c4c443e5e1a2e165564c847110a772cc975a0debdbc980191ebcdae699a",
+      "fingerprint": "3bb39298d3d4584bab5225ffa840fa6a5f8013bf3095ca8f70336d8e8b385ede",
       "name": "Hokey Pokey",
       "path": "active_profiles/atlas/hokey-pokey.json",
       "runtime_active": false,
@@ -3091,7 +3119,7 @@
       "state": "researching"
     },
     "atlas:huaylas": {
-      "fingerprint": "0fce2d119db6bf05c7b3ebd871bcac0dab7f7bc35da614d34aacdd5e491cb6cd",
+      "fingerprint": "1caab74ece343f9fc2a4d5bf38d006fc2ee172a2722d9cb8484221809d869eb4",
       "name": "Huaylas (Huaylarsh)",
       "path": "active_profiles/atlas/huaylas.json",
       "runtime_active": false,
@@ -3343,7 +3371,7 @@
       "state": "teaching_withheld"
     },
     "atlas:jatjatin-dance": {
-      "fingerprint": "a23f6eca9d4fa4fd9bd9ddfd4dbea6f2101ecfea6583638b724a7c1fefafdda2",
+      "fingerprint": "866cc5c2fd7c0c81e9b96cbf75b2c2e6179d79c660be6b81f0ce816598eaf1e1",
       "name": "Jatjatin Dance",
       "path": "active_profiles/atlas/jatjatin-dance.json",
       "runtime_active": false,
@@ -3357,7 +3385,7 @@
       "state": "researching"
     },
     "atlas:jazz-dance": {
-      "fingerprint": "b718a0a1dbde9f4a3b444d35929e848a77056ec27dc51650e79622f8eb4d363f",
+      "fingerprint": "5185003b6c036745bdb230aa4e7236b6a7371f1d0352c8ee08d4f85ed32eb204",
       "name": "Jazz dance",
       "path": "active_profiles/atlas/jazz-dance.json",
       "runtime_active": false,
@@ -3651,7 +3679,7 @@
       "state": "researching"
     },
     "atlas:katta-oyin": {
-      "fingerprint": "3e8bb1f84574c3ca48b7eba84ca88bd4c99ac7ef6100b4b079e000138b172b10",
+      "fingerprint": "2a400208ac6e26acae96d569ea20b989417e90d45e556999c3972d834887a3bb",
       "name": "Katta Oyin",
       "path": "active_profiles/atlas/katta-oyin.json",
       "runtime_active": false,
@@ -3826,7 +3854,7 @@
       "state": "researching"
     },
     "atlas:kizomba": {
-      "fingerprint": "015bd083161bfd9caf85d49433cdd293c35e60e68b8203bef0c43c698c210b16",
+      "fingerprint": "4e4f114fffb12305ac3d73eb3c642e415ea83e45db5f93043c67a64bb30f94b2",
       "name": "Kizomba",
       "path": "active_profiles/atlas/kizomba.json",
       "runtime_active": false,
@@ -4092,7 +4120,7 @@
       "state": "researching"
     },
     "atlas:legenyes": {
-      "fingerprint": "ed4b01fd10a086e463bb10977adfacf730979a15673022d555f0cff3a36c472e",
+      "fingerprint": "ea3b89401bedc2a906e17cfacc9cefe8563fd5624bfb26af6f7a732def560099",
       "name": "Legenyes",
       "path": "active_profiles/atlas/legenyes.json",
       "runtime_active": false,
@@ -4162,7 +4190,7 @@
       "state": "researching"
     },
     "atlas:line-dance": {
-      "fingerprint": "e8542e7c9194d7182d73e08d358489ca90de8e35f3c49aa4775424c397ecd00c",
+      "fingerprint": "29c26720befe467108f13448438e7206802851a0ddb8d5eca5eea8b8d99924f7",
       "name": "Line dance",
       "path": "active_profiles/atlas/line-dance.json",
       "runtime_active": false,
@@ -4295,7 +4323,7 @@
       "state": "researching"
     },
     "atlas:madison": {
-      "fingerprint": "1c01c54a76511648a91d4a08da3f33e2d42043dc8b7b1fff3ea609b9e72df0af",
+      "fingerprint": "2ca26b35ef9ba207b7bc28f4479ea14f70f8f7b316805aa6236a5cd7cf7110bf",
       "name": "Madison",
       "path": "active_profiles/atlas/madison.json",
       "runtime_active": false,
@@ -4400,7 +4428,7 @@
       "state": "researching"
     },
     "atlas:mardani-jhumar": {
-      "fingerprint": "f071e865031002812ab8ca3566b32acef71d5efb6098d7a3085656819e97e11f",
+      "fingerprint": "793b9c63ffdfaf42ffa10ace9d288e0a597de83553bad22ffc8d7b3818a37046",
       "name": "Mardani Jhumar",
       "path": "active_profiles/atlas/mardani-jhumar.json",
       "runtime_active": false,
@@ -4826,6 +4854,13 @@
       "runtime_active": false,
       "state": "researching"
     },
+    "atlas:nagila": {
+      "fingerprint": "5eb349c090276560b789329097bd6a0c12c8de3b69d1747dfe1457d578c4a9e2",
+      "name": "Nagila",
+      "path": "active_profiles/atlas/nagila.json",
+      "runtime_active": false,
+      "state": "researching"
+    },
     "atlas:nago": {
       "fingerprint": "836214279157faff3458f8c1f9459977b7b16e2c4758cf02da41a14a8420b45b",
       "name": "Nago",
@@ -4882,6 +4917,13 @@
       "runtime_active": false,
       "state": "researching"
     },
+    "atlas:nepalese-dance": {
+      "fingerprint": "a7a17ba4f8686bfc0e4ac54287e31dd20d32b483d2308a9b70f5e9a7e35858c3",
+      "name": "Nepalese dance",
+      "path": "active_profiles/atlas/nepalese-dance.json",
+      "runtime_active": false,
+      "state": "teaching_withheld"
+    },
     "atlas:nestinarstvo": {
       "fingerprint": "81c5037991b21ae996fb3f7992379bdae8511c15eec91b42dc32805c272cc648",
       "name": "Nestinarstvo",
@@ -4890,7 +4932,7 @@
       "state": "researching"
     },
     "atlas:new-flamenco": {
-      "fingerprint": "69260543c2eefdc1bbcb606f18eaeca9b4be3f0cff6c30172a775b16d6f16883",
+      "fingerprint": "4141d08ba7b3b89682b30b51bfd122983204bcf501f7f3f2743160d38078bcfe",
       "name": "New Flamenco",
       "path": "active_profiles/atlas/new-flamenco.json",
       "runtime_active": false,
@@ -4918,7 +4960,7 @@
       "state": "teaching_withheld"
     },
     "atlas:nguni-stick-fighting": {
-      "fingerprint": "d3b1564bb18cb419267a74a29cf8805c1d0954f76399c4973e2ec819661fecfe",
+      "fingerprint": "f88b1b4198c7210dd3b1bcc28d9c0a0a36b79afbde1e9115278be8ab3e2e6991",
       "name": "Nguni stick fighting",
       "path": "active_profiles/atlas/nguni-stick-fighting.json",
       "runtime_active": false,
@@ -4937,6 +4979,13 @@
       "path": "active_profiles/atlas/nijemo-kolo.json",
       "runtime_active": false,
       "state": "researching"
+    },
+    "atlas:ninabali": {
+      "fingerprint": "6f76d404f52f242aa0f7abd7b2bf0cc4e7554749fc0c04eee608f77c5d27a93f",
+      "name": "Ninabali",
+      "path": "active_profiles/atlas/ninabali.json",
+      "runtime_active": false,
+      "state": "teaching_withheld"
     },
     "atlas:noh": {
       "fingerprint": "a956672eb33cf87621da5fd931e120dca1c24cc849c10b1f53aa345674541f52",
@@ -4988,11 +5037,11 @@
       "state": "researching"
     },
     "atlas:ohuokhai": {
-      "fingerprint": "d5743546ec1579523a7fd653d8379b2cab111a99fe2573d16c0d22737b9e5998",
+      "fingerprint": "15b7be5831d7c5c11b78db481f4a88eacfcbfbd686cb38d30d53d92ce4a54b3d",
       "name": "Ohuokhai (Osuokhai)",
       "path": "active_profiles/atlas/ohuokhai.json",
       "runtime_active": false,
-      "state": "researching"
+      "state": "teaching_withheld"
     },
     "atlas:ojapali": {
       "fingerprint": "e84a55c38e65fd5db90d471bb579580d36048fd6c0bc9cc1f04b215cd815f91a",
@@ -5051,7 +5100,7 @@
       "state": "researching"
     },
     "atlas:otea": {
-      "fingerprint": "7633e3e2c46d55ff7125627b82ed264678939bb243e11c771edd0321c0c7d1ef",
+      "fingerprint": "f91c07918cde6297f7c10f2b11dbc8561844a04b9292056d571b7e152ca8b49e",
       "name": "Otea",
       "path": "active_profiles/atlas/otea.json",
       "runtime_active": false,
@@ -5065,7 +5114,7 @@
       "state": "researching"
     },
     "atlas:owl-dance": {
-      "fingerprint": "91615b7fc95cf49f280473ab1f8d8ba007fb6c999d408f65a646348098411b7f",
+      "fingerprint": "0521938018146d2c69b589a04250a512d4adfb8a1d6df763083abc13c35f85ae",
       "name": "Owl Dance",
       "path": "active_profiles/atlas/owl-dance.json",
       "runtime_active": false,
@@ -5092,8 +5141,15 @@
       "runtime_active": false,
       "state": "researching"
     },
+    "atlas:paiki-dance": {
+      "fingerprint": "7cf7def0205b6f04f74ddcfc2cae59dc79496c38489d904655d74daddc80cb2b",
+      "name": "Paiki dance",
+      "path": "active_profiles/atlas/paiki-dance.json",
+      "runtime_active": false,
+      "state": "teaching_withheld"
+    },
     "atlas:pajoge": {
-      "fingerprint": "5295bf998da86352a68be4d71c101792513baca90443bc1b69a52b482f01ba4f",
+      "fingerprint": "cc2c52217fa03d082f3f500518ac33a8110d8bc3af795b7d3ecd18758aef5712",
       "name": "Pajoge",
       "path": "active_profiles/atlas/pajoge.json",
       "runtime_active": false,
@@ -5141,12 +5197,26 @@
       "runtime_active": false,
       "state": "researching"
     },
+    "atlas:papa-stour-sword-dance": {
+      "fingerprint": "e9e8bf3aa7011b740c2b89519fc4cd1fa06a55bf2cd047390e9d0972b63bde36",
+      "name": "Papa Stour Sword Dance",
+      "path": "active_profiles/atlas/papa-stour-sword-dance.json",
+      "runtime_active": false,
+      "state": "researching"
+    },
     "atlas:para-para": {
       "fingerprint": "c15111d0e7a12345e00fcaa5975af2e9027a27cfb0e2f9e63e0f0aa73bc1a694",
       "name": "Para Para",
       "path": "active_profiles/atlas/para-para.json",
       "runtime_active": false,
       "state": "researching"
+    },
+    "atlas:parachico": {
+      "fingerprint": "e405eaf95bd95ba310ecb0ab996f66e9de52127b9124aa7fd68eff0f9e0523ff",
+      "name": "Parachico",
+      "path": "active_profiles/atlas/parachico.json",
+      "runtime_active": false,
+      "state": "teaching_withheld"
     },
     "atlas:parikaoba": {
       "fingerprint": "25a98b94305da1350003c3872a2be0eabcc2601de46e4b3bd49915c2ced8704e",
@@ -5163,21 +5233,21 @@
       "state": "researching"
     },
     "atlas:pas-de-deux": {
-      "fingerprint": "8aae0fa40ae0e52e7ab2e21119fd72bd2eeb601ebf901c7ac673ec002c0d2aaf",
+      "fingerprint": "0af9a8e1ccbe03408c23247f6f2e3296f72afe23dcf4835c5c79a9788f56293e",
       "name": "pas de deux",
       "path": "active_profiles/atlas/pas-de-deux.json",
       "runtime_active": false,
       "state": "researching"
     },
     "atlas:paso-doble": {
-      "fingerprint": "66c7de656bebf721c30c74ae19f5a57f14ca0467fe43f5c954f6ef1ab914d753",
+      "fingerprint": "3d1f6124b626e389d2364d7c2a5fc1a1cfad93c89aad28ca97c4e684016454f9",
       "name": "Paso Doble",
       "path": "active_profiles/atlas/paso-doble.json",
       "runtime_active": false,
       "state": "researching"
     },
     "atlas:passacaglia": {
-      "fingerprint": "13371997e4274f03792d6ec55821e253f84e75f85ce4a1e5cf68e81e1a222705",
+      "fingerprint": "cc31aa505591d43e77ada8a2bc1ad97dc6a16609830ad2ccb8a2841bb0266e28",
       "name": "passacaglia",
       "path": "active_profiles/atlas/passacaglia.json",
       "runtime_active": false,
@@ -5205,7 +5275,7 @@
       "state": "researching"
     },
     "atlas:paydushko-horo": {
-      "fingerprint": "65e18683bbe9517d45ea80d013b75a72934339009645cb768de468616a0fe60a",
+      "fingerprint": "265bcbdaefd30ff5ccd045ff9f65c88852a1c37b8d30f82d130e237a7582de1e",
       "name": "Paydushko Horo",
       "path": "active_profiles/atlas/paydushko-horo.json",
       "runtime_active": false,
@@ -5338,14 +5408,14 @@
       "state": "researching"
     },
     "atlas:polka": {
-      "fingerprint": "b204992d6aa0d0c3883f020b04d383864200ca1fff129c994267f74cdbf88a20",
+      "fingerprint": "ac1b579b334a12314ea5a8b47f31a644ce47ef7df4bb6b2871972e5d0dc1f7ab",
       "name": "Polka",
       "path": "active_profiles/atlas/polka.json",
       "runtime_active": false,
       "state": "researching"
     },
     "atlas:polka-mazurka": {
-      "fingerprint": "4e87cb95b5b4193022c7706a424ebb7a0da13163b2000c1695f6cdf660f269fc",
+      "fingerprint": "2c14bc7ad761201324671d56f7f887c057168f3e69929540d04f25c3848f1224",
       "name": "polka-mazurka",
       "path": "active_profiles/atlas/polka-mazurka.json",
       "runtime_active": false,
@@ -5432,6 +5502,13 @@
       "fingerprint": "625067296573401430b28ce2c61e529e524fe4d7dacf01b90037d64b8b14b6ce",
       "name": "Pukkumina (Pocomania)",
       "path": "active_profiles/atlas/pukkumina.json",
+      "runtime_active": false,
+      "state": "teaching_withheld"
+    },
+    "atlas:pukllay": {
+      "fingerprint": "9fa82b4485ac619aa7c9a9e4e5bef312f5ff03722204c43a61dbdfd2cffda8cc",
+      "name": "Pukllay",
+      "path": "active_profiles/atlas/pukllay.json",
       "runtime_active": false,
       "state": "teaching_withheld"
     },
@@ -5604,9 +5681,16 @@
       "state": "researching"
     },
     "atlas:rebolation": {
-      "fingerprint": "28a70f5a7537cbfc8ede6e90685ed8339cd8f78f094d65e457b384d56fc46d8a",
+      "fingerprint": "1a6f593d1ca98fda73a40eb02082535dd8ac95710c702485d0b62e8e653a0930",
       "name": "Rebolation",
       "path": "active_profiles/atlas/rebolation.json",
+      "runtime_active": false,
+      "state": "researching"
+    },
+    "atlas:redowa": {
+      "fingerprint": "e6d0aa053379b7abd60b41cc43cfa32a498b9cd6c30c8b366c14517397850c0e",
+      "name": "redowa",
+      "path": "active_profiles/atlas/redowa.json",
       "runtime_active": false,
       "state": "researching"
     },
@@ -5674,7 +5758,7 @@
       "state": "teaching_withheld"
     },
     "atlas:rigodon": {
-      "fingerprint": "078ea2a41ecd159ec32dd9425bc0e93d073973a490aa7e5268c3c4de65a789af",
+      "fingerprint": "c8c93ea5e0be0232fea8aecb66266c84271998093f1ebfed7395193a2c8dbcac",
       "name": "Rigodon",
       "path": "active_profiles/atlas/rigodon.json",
       "runtime_active": false,
@@ -5792,6 +5876,13 @@
       "runtime_active": false,
       "state": "researching"
     },
+    "atlas:sakhiya-dance": {
+      "fingerprint": "973bdd25dd49440588feab1da6eba64b59986f043f4e0a279e7fa6c25c4e9fb8",
+      "name": "Sakhiya dance",
+      "path": "active_profiles/atlas/sakhiya-dance.json",
+      "runtime_active": false,
+      "state": "teaching_withheld"
+    },
     "atlas:sakuting": {
       "fingerprint": "c4d567b9d0daba1abba2095ae0413562abbc63655b9de3a2d1e8cbd2b650e977",
       "name": "Sakuting",
@@ -5807,7 +5898,7 @@
       "state": "teaching_withheld"
     },
     "atlas:salsa": {
-      "fingerprint": "cdb5d9986cd6f74f03c330a17b9d232b621cd33af66ccb45b7cf950d1e2fd0f4",
+      "fingerprint": "7471984bf3291ff934673267ee0bfadfe53384e7ae7187b6fcddbe2dffc8d15e",
       "name": "Salsa",
       "path": "active_profiles/atlas/salsa.json",
       "runtime_active": false,
@@ -5828,7 +5919,7 @@
       "state": "researching"
     },
     "atlas:samba": {
-      "fingerprint": "8a1c378428edc55ab1b15f2f7bfbdf1e3fee7ad6d3b2b03c10316b965b9c9dc9",
+      "fingerprint": "5a92635b6f2d840651bd0d641471ef0b578df36d3a633ae22e006437d86b6106",
       "name": "Samba",
       "path": "active_profiles/atlas/samba.json",
       "runtime_active": false,
@@ -5905,7 +5996,7 @@
       "state": "researching"
     },
     "atlas:sardana": {
-      "fingerprint": "b098384c7679072d29f4dc15d0fb096476f2553ac5a8fea4f7df30761554b851",
+      "fingerprint": "e779b114cabb15e1dc35a3fc765e2c6362b990cd3826eb9ad1a478b233c51104",
       "name": "Sardana",
       "path": "active_profiles/atlas/sardana.json",
       "runtime_active": false,
@@ -5961,7 +6052,7 @@
       "state": "researching"
     },
     "atlas:schuhplattler": {
-      "fingerprint": "e0cebcef085e18a7c63817fb6f5bf7b3e9c6730e998dbbb2e6fe480c48c69ddb",
+      "fingerprint": "be5c0945408cdf4eb9717dcfe142ef9b500d7b958cbb08914b8414f9bab6328b",
       "name": "Schuhplattler",
       "path": "active_profiles/atlas/schuhplattler.json",
       "runtime_active": false,
@@ -5996,7 +6087,7 @@
       "state": "researching"
     },
     "atlas:seis": {
-      "fingerprint": "6c14bc98d6eca992a57ee58692289756e51ce441e66546dcbe5ace0bd90c640c",
+      "fingerprint": "0342997ed11f8039be1ad77e66f8c0c0c871173fb0fbef064ec531a7190f2d92",
       "name": "Seis",
       "path": "active_profiles/atlas/seis.json",
       "runtime_active": false,
@@ -6080,7 +6171,7 @@
       "state": "teaching_withheld"
     },
     "atlas:sevillanas": {
-      "fingerprint": "801a3ecfa9f331f04b52cefffabc1772d4b4acebd902679317fb1b684ada0618",
+      "fingerprint": "2e88b5b75fafc8cadf655d0382c425826e821142f1434b9b0889fd58da9d2568",
       "name": "Sevillanas",
       "path": "active_profiles/atlas/sevillanas.json",
       "runtime_active": false,
@@ -6136,7 +6227,7 @@
       "state": "researching"
     },
     "atlas:shim-sham": {
-      "fingerprint": "0c8f00890f9250521f83134b027171faaa48a565686e44dcb8dfdf2502526bc0",
+      "fingerprint": "e2aaa0e81ba57fa249b5b40927f4a5e759b9da86fe3e21c7e994d9c9fc36270d",
       "name": "Shim Sham",
       "path": "active_profiles/atlas/shim-sham.json",
       "runtime_active": false,
@@ -6234,7 +6325,7 @@
       "state": "researching"
     },
     "atlas:sisingaan": {
-      "fingerprint": "b092fe68ee83c31c1d8dc0ca8fb46cbcbd34ef246c0da58263f8aa464ccd38e8",
+      "fingerprint": "1a8819155a220b33c23de62b41268903d3d6a5fad9279bf5378de88567faed50",
       "name": "Sisingaan",
       "path": "active_profiles/atlas/sisingaan.json",
       "runtime_active": false,
@@ -6290,7 +6381,7 @@
       "state": "researching"
     },
     "atlas:slide": {
-      "fingerprint": "f72eee70d2ad49ffd508f266b129d94cd19eb2ecc13985aa1a85d915f89174c2",
+      "fingerprint": "3ce8b292004065ec30942ee69aa770ae0988ccadd21286fe53491c02336d91ca",
       "name": "Slide",
       "path": "active_profiles/atlas/slide.json",
       "runtime_active": false,
@@ -6367,7 +6458,7 @@
       "state": "researching"
     },
     "atlas:sorathi-nritya": {
-      "fingerprint": "17f2f011e2e3d1f7d244bd35a29aa50af079e073cda167b9138c0a13add571d7",
+      "fingerprint": "365c2d569dd023fe9c7e0847ff81b726bf0de816b0f9440100df20c21c9f2d9a",
       "name": "Sorathi Nritya",
       "path": "active_profiles/atlas/sorathi-nritya.json",
       "runtime_active": false,
@@ -6381,7 +6472,7 @@
       "state": "researching"
     },
     "atlas:soukous": {
-      "fingerprint": "25f5a1ba050cdd8dfd87be9cb9014945a79ba38a1c23444d945878b7dbb14785",
+      "fingerprint": "63a1954b10d492638f61d057129966b9a91b676fa37ba71aa0783d5a15692428",
       "name": "soukous",
       "path": "active_profiles/atlas/soukous.json",
       "runtime_active": false,
@@ -6520,6 +6611,13 @@
       "runtime_active": false,
       "state": "researching"
     },
+    "atlas:syabru-dance": {
+      "fingerprint": "fb9f5fff3d9266fda64b1dc303349ed0754d25c7666fa0625a99369345f72321",
+      "name": "Syabru dance",
+      "path": "active_profiles/atlas/syabru-dance.json",
+      "runtime_active": false,
+      "state": "researching"
+    },
     "atlas:syrtos": {
       "fingerprint": "4696e9e8fc67a83b3e3fb6d1297244a3ebe2c1118b82bb6a7b30491559b8ca27",
       "name": "Syrtos",
@@ -6597,6 +6695,13 @@
       "runtime_active": false,
       "state": "researching"
     },
+    "atlas:tandok-dance": {
+      "fingerprint": "b73701777fdbb9b642f41b8d74cba96ef415e156969a0a18a1bd85b6fcc49f86",
+      "name": "Tandok dance",
+      "path": "active_profiles/atlas/tandok-dance.json",
+      "runtime_active": false,
+      "state": "teaching_withheld"
+    },
     "atlas:tango": {
       "fingerprint": "4f573cd162d49044bd808fecf43ec4f66a7c01e24bbec19a1714494757fb3977",
       "name": "Tango",
@@ -6646,6 +6751,13 @@
       "runtime_active": false,
       "state": "researching"
     },
+    "atlas:tarraxinha": {
+      "fingerprint": "b83c18ae5ee76e6a6dcc01741edaa716ec1cbb6376e4330e397da1d3710f9b4c",
+      "name": "Tarraxinha",
+      "path": "active_profiles/atlas/tarraxinha.json",
+      "runtime_active": false,
+      "state": "researching"
+    },
     "atlas:taskiwin": {
       "fingerprint": "59c2facd4a3124fbc63e950cf6849a823b920b75a5ca9c23d6444aa4b9d6a48d",
       "name": "Taskiwin",
@@ -6681,6 +6793,13 @@
       "runtime_active": false,
       "state": "researching"
     },
+    "atlas:tebe-dance": {
+      "fingerprint": "7040ede66966df2f4a346c901acd5ac82837bac474efb8ca6514ffc5b426c107",
+      "name": "Tebe dance",
+      "path": "active_profiles/atlas/tebe-dance.json",
+      "runtime_active": false,
+      "state": "researching"
+    },
     "atlas:tecktonik": {
       "fingerprint": "bff38e9f04506bce4cb1c0a9139c380394769fba6a5d3c83525f556c60bfb3e9",
       "name": "Tecktonik",
@@ -6710,7 +6829,7 @@
       "state": "researching"
     },
     "atlas:the-jerk": {
-      "fingerprint": "0f777111663b56cd7f1563225a05c0046e0e21c046016033ca5fc0c03407cfa9",
+      "fingerprint": "2d6d298bb86b00dbffe407a18cb6a9678d790267af396e4b35b720f69b8fe15c",
       "name": "The Jerk",
       "path": "active_profiles/atlas/the-jerk.json",
       "runtime_active": false,
@@ -6758,6 +6877,13 @@
       "runtime_active": false,
       "state": "researching"
     },
+    "atlas:tipri-dance": {
+      "fingerprint": "e42957feb48e93a3065f441a89c6062055c005bb4606af4abf77a48648dd47a9",
+      "name": "Tipri dance",
+      "path": "active_profiles/atlas/tipri-dance.json",
+      "runtime_active": false,
+      "state": "researching"
+    },
     "atlas:tobas": {
       "fingerprint": "43093f52d5b27c0ff33d51b3c4b658e9fdacea87ed7ddb42e1ec6dc21914e9ab",
       "name": "Tobas",
@@ -6773,7 +6899,7 @@
       "state": "researching"
     },
     "atlas:tondero-peru": {
-      "fingerprint": "536bdf709d73e88f705fa5cd4b8d1e838a87ad300294d8f2e00b5d882b319ec7",
+      "fingerprint": "5fe778605401efa25828dc12a4bed96a0a8f4acdf74381c67c699380a241c33f",
       "name": "Tondero (north coast)",
       "path": "active_profiles/atlas/tondero-peru.json",
       "runtime_active": false,
@@ -6990,7 +7116,7 @@
       "state": "researching"
     },
     "atlas:urban-kiz": {
-      "fingerprint": "944547311134d6f1325462f98db46b51369f4f5bc36b3ed29b0762ba0432bbce",
+      "fingerprint": "b65ae9b334a4d31a3a9eb18824bfcadf4e9fa5fa66926cd3fc48b06521d0baf9",
       "name": "Urban Kiz",
       "path": "active_profiles/atlas/urban-kiz.json",
       "runtime_active": false,
@@ -8735,7 +8861,7 @@
   },
   "runtime_active": 0,
   "states": {
-    "researching": 1104,
-    "teaching_withheld": 143
+    "researching": 1112,
+    "teaching_withheld": 153
   }
 }

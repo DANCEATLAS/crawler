@@ -1,77 +1,93 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex choreography"
+        ],
+        "counts": "Simple 1-2 march counts.",
+        "duration_minutes": "3",
+        "game_version": "Follow-the-leader parade game in a line."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "high-impact steps",
+          "rapid turns"
+        ],
+        "counts": "Standard 2/4 march counts.",
+        "seated_version": "Marching in place while seated, focusing on rhythmic arm swings.",
+        "standing_version": "Supported walking march with reduced tempo.",
+        "tempo_and_range": "Reduced tempo to ensure stability."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Linked hands forming human chains in street processions (kalejira); unrecorded or stylized in court settings.",
+      "arms_and_hands": "Andean: natural swing for marching; Baroque: not described in sources.",
       "difficulty": "beginner",
-      "footwork": "Walking, marching, or stepping in time with the recurring bass or percussion pulse.",
-      "formation_and_space": "Linear street movement, winding chains, or structured court arrangements.",
-      "hips_and_torso": "Not described in sources.",
-      "levels_and_jumps": "Low level, grounded walking and marching steps without jumps.",
-      "partnering": "Group and collective community formation rather than closed-couple partner dancing.",
-      "posture": "Gravitational and upright in European court styles; relaxed and upright for marching in South American street traditions.",
+      "footwork": "Andean: walking march steps; Baroque: not described in sources.",
+      "formation_and_space": "Street processions or human chains (Andean).",
+      "hips_and_torso": "Andean: stable for walking; Baroque: not described in sources.",
+      "levels_and_jumps": "None described.",
+      "partnering": "not described in sources",
+      "posture": "Upright and formal (Baroque); relaxed and rhythmic (Andean).",
       "signature_moves": [
         {
-          "description": "Participants link hands to form human chains walking from street to street during community celebrations.",
-          "name": "Street Chain"
+          "description": "Steady, rhythmic walking movement through public spaces.",
+          "name": "Processional March"
         }
       ],
-      "tempo_feel": "Grave, slow, or measured in European models (around ♩ = 106 MM); animated and lively in South American street bands.",
-      "what_to_avoid": "Do not treat the historical European form and the Andean popular form as identical choreographically; respect the specific regional context."
+      "tempo_feel": "Steady, driving pulse.",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "guitar",
-        "lute",
-        "baroque guitar",
-        "organ",
-        "harpsichord",
-        "violin",
-        "accordion",
-        "bombos",
-        "cajas chicas",
-        "redoblantes",
-        "quijadas",
-        "brass band instruments"
+        "Guitar",
+        "Organ",
+        "Brass band",
+        "Accordion",
+        "Percussion"
       ],
-      "meter": "3/4 (European Baroque) or 2/4 (Andean South American)",
+      "meter": "3/4 (Baroque) or 2/4 (Andean).",
       "mood_keywords": [
-        "serious",
+        "solemn",
         "melancholic",
-        "gravitational",
-        "tender",
-        "festive"
+        "lively",
+        "celebratory"
       ],
-      "musical_form": "Variation form over a ground bass (basso ostinato), sometimes combined with rondeau elements.",
+      "musical_form": "Continuous variations over a ground bass.",
       "reference_recordings": [
         {
           "artist": "Johann Sebastian Bach",
           "title": "Passacaglia and Fugue in C minor, BWV 582"
         },
         {
-          "artist": "Traditional Ecuadorian Band",
-          "title": "El chulla quiteño"
+          "artist": "Traditional",
+          "title": "El Chulla Quiteño"
         }
       ],
-      "rhythm_pattern": "Continuous variations over a repeating 4, 6, or 8-bar basso ostinato.",
-      "sound_description": "A solemn, steady foundational bass pattern anchors fluctuating upper melodies, shifting from the contemplative minor-key gravity of Baroque organ and strings to the bright, brassy, and nostalgic syncopation of Andean street bands.",
-      "tempo_bpm": "106",
-      "vocal_style": "Instrumental origins, though later incorporated into vocal works, opera arias, and South American civic songs."
+      "rhythm_pattern": "Bass ostinato, usually 4-8 bars long, repeating.",
+      "sound_description": "A repeating, foundational bass line provides the harmonic anchor for increasingly complex melodic variations or brass-led march themes.",
+      "tempo_bpm": "Varies; Andean march is lively, Baroque is often 'grave' or 'lentement'.",
+      "vocal_style": "Instrumental focus; Andean versions may have vocal accompaniments."
     },
     "teaching": {
       "basic_steps": [
-        "Walk or march in time with the underlying bass ostinato or street band rhythm.",
-        "Form human chains with other participants in street settings (as in the Basque kalejira).",
-        "Execute periodic stops during street processions to engage in secondary folk dances like the fandango."
+        "Andean march: steady walking step in time with the brass band rhythm.",
+        "Baroque: formal, measured steps in triple meter (not described in sources)."
       ],
-      "formation": "Linear street processions, human chains, or formal court configurations.",
-      "level_notes": "Detailed footwork technique is not described in sources; practice focuses on rhythmic alignment with the ground bass or band accompaniment and collective movement.",
-      "rhythm": "Triple metre (3/4) in European baroque forms; binary (2/4) march rhythm in South American traditions."
+      "formation": "Andean: street processions or human chains; Baroque: courtly dance (not described in sources).",
+      "level_notes": "Andean style is accessible for public participation; Baroque style requires advanced historical dance training.",
+      "rhythm": "Andean: 2/4 march rhythm; Baroque: 3/4 triple meter."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "13371997e4274f03792d6ec55821e253f84e75f85ce4a1e5cf68e81e1a222705",
+  "fingerprint": "cc31aa505591d43e77ada8a2bc1ad97dc6a16609830ad2ccb8a2841bb0266e28",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -79,6 +95,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
+      "movement: footwork, what_to_avoid",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [

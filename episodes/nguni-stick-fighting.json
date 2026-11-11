@@ -2,7 +2,7 @@
  "slug": "nguni-stick-fighting",
  "name": "Nguni stick fighting",
  "pack_version": "e2",
- "built_at": "2026-11-10T19:25:30Z",
+ "built_at": "2026-11-11T18:54:11Z",
  "researched_at": "2026-11-10T17:14:49Z",
  "qc_score": 9.45,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Nguni stick fighting. Historical to modern."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (U1qrVYh7E1k)",
      "Title card: Nguni stick fighting · South Africa · Historical to modern"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Striking."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (U1qrVYh7E1k)",
      "Captions name each signature move as it appears",
      "Formation: Two opposing warriors."
     ],
@@ -686,7 +686,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "U1qrVYh7E1k",
+   "checked_by_vision_model": false,
+   "title": "Nguni Stick Fighting - too violent for TV?"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -722,8 +726,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 2,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -734,7 +738,9 @@
   "cues": [
    "hold your knife out",
    "every time the blade faces down",
-   "two thumbs are facing up"
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -742,6 +748,8 @@
    "full_demo",
    "context",
    "breakdown",
+   "music_practice",
+   "recap",
    "slow_practice"
   ],
   "steps_as_taught": []
@@ -751,7 +759,7 @@
   "meter",
   "instruments",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the music & instruments section",
@@ -766,6 +774,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "ec4323b87d4a25a5150b3c619e4e716a7615f14e62eac9c5e39b2c45dcbdd63b",
+ "input_fingerprint": "6ce0353a6db2b66874d063b3982ba42bd50f19b6054427ebba4903add944bc3d",
  "hero_checked": null
 }

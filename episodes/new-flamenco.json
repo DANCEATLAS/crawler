@@ -2,7 +2,7 @@
  "slug": "new-flamenco",
  "name": "New Flamenco",
  "pack_version": "e2",
- "built_at": "2026-11-10T19:25:30Z",
+ "built_at": "2026-11-11T18:54:11Z",
  "researched_at": "2026-11-10T17:16:36Z",
  "qc_score": 8.5,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is New Flamenco. 20th-21st century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (Y2JZgPdrt4A)",
      "Title card: New Flamenco · Spain · 20th-21st century"
     ],
     "music": "theme (30 s)"
@@ -107,7 +107,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (Y2JZgPdrt4A)",
      "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -705,7 +705,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "Y2JZgPdrt4A",
+   "checked_by_vision_model": false,
+   "title": "Contemporary flamenco dancer Carmen Avilés brings raw, fast-paced energy to Seville’s streets"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -741,8 +745,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "3 tutorial(s) of the classical-court family studied",
-  "videos_studied": 3,
+  "source": "4 tutorial(s) of the classical-court family studied",
+  "videos_studied": 4,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -753,6 +757,10 @@
    "keep length in both sides of the waist",
    "keep the supporting leg strong and stable",
    "keep the spine long",
+   "demi-plie",
+   "pas de bourree",
+   "releve",
+   "fifth position",
    "hold your placement",
    "stay straight as a board",
    "lift up in your lower abs",
@@ -772,7 +780,7 @@
  "gaps": [
   "tempo (bpm)",
   "meter",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "posture, arms and hands",
@@ -793,6 +801,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "17693c73177cef811256c02df38b6f992f1473b974f69e3adcde5f5b4dc9a01e",
+ "input_fingerprint": "c11cddf69aa20a8bcf9dc7c0e47ac8325ac5b082d31402776a7581ef6248962a",
  "hero_checked": null
 }

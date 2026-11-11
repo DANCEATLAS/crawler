@@ -1,6 +1,6 @@
 # Tsyganochka — episode pack
 
-*Status: draft · built 2026-11-10 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the how-it-is-danced section; the music & instruments section; the costume & setting section; two or more connections
 
@@ -109,7 +109,7 @@ NEEDS: tempo
 NARRATION: Step 1: Walk slowly into the dance area during the slow introduction
 NARRATION: Step 2: Show off with expressive but simple movements
 NARRATION: Drill: Practice slow walking with posture
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -177,7 +177,7 @@ NEEDS: tempo
 NARRATION: Step 1: Walk slowly into the dance area during the slow introduction
 NARRATION: Step 2: Show off with expressive but simple movements
 NARRATION: Drill: Practice accelerating footwork
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -248,7 +248,7 @@ NEEDS: tempo
 NARRATION: Step 1: Gradually increase tempo and intensity of movements
 NARRATION: Step 2: Perform solo with freedom of interpretation
 NARRATION: Drill: Improvise movements within the tempo changes
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -313,9 +313,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (4): https://en.wikipedia.org/wiki/Tsyganochka; https://www.wikidata.org/wiki/Q52555151; https://es.wikipedia.org/wiki/Tsyganochka; https://it.wikipedia.org/wiki/Cyganočka

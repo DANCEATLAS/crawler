@@ -3,8 +3,7 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "partner lifts",
-          "complex turns"
+          "not derivable yet"
         ],
         "counts": "not derivable yet",
         "duration_minutes": "not derivable yet",
@@ -13,9 +12,7 @@
       "derived": true,
       "seniors": {
         "avoid": [
-          "lifts",
-          "fast turns",
-          "jumps"
+          "not derivable yet"
         ],
         "counts": "not derivable yet",
         "seated_version": "not derivable yet",
@@ -23,83 +20,73 @@
         "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Expressive, often framing the ballerina; male dancer offers steady hand or arm for support",
+      "arms_and_hands": "not described in sources",
       "difficulty": "advanced",
-      "footwork": "Ballerina performs pointe work and turns; male dancer uses flat or demi-pointe; includes leaps, balances, and supported turns",
-      "formation_and_space": "Duo close together, alternating center stage solos, often symmetrical spatial patterns",
-      "hips_and_torso": "Controlled, with subtle shifts to maintain balance during lifts and turns",
-      "levels_and_jumps": "Intermediate to advanced; includes jumps and lifts requiring strength and coordination",
-      "partnering": "Male dancer supports ballerina with lifts, steadies turns, and provides balance; requires trust and timing",
-      "posture": "Upright, poised, with lifted chest and elongated neck",
+      "footwork": "Includes pointe work for the ballerina",
+      "formation_and_space": "Duo, center stage",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes acrobatic leaps and turns.",
+      "partnering": "Includes lifts, steadying during turns, and providing support for balances.",
+      "posture": "Classical ballet alignment",
       "signature_moves": [
         {
-          "description": "Slow, sustained movements with male dancer lifting and steadying ballerina",
-          "name": "Supported Adagio"
+          "description": "Ballerina on pointe while partner walks around her.",
+          "name": "Promenade"
         },
         {
-          "description": "Ballerina turns on one leg with male dancer providing balance and momentum",
-          "name": "Pirouette Supported"
-        },
-        {
-          "description": "Male dancer lifts ballerina overhead or in various poses",
-          "name": "Lift (Portée)"
-        },
-        {
-          "description": "Fast-paced combined movements culminating in a dramatic finish",
-          "name": "Coda Finale"
+          "description": "Partner lifts the ballerina.",
+          "name": "Portée"
         }
       ],
-      "tempo_feel": "Varies from slow and sustained in adagio to brisk and dynamic in variations and coda",
-      "what_to_avoid": "Avoid unsafe lifts without proper training; beginners should not attempt complex partnering without supervision"
+      "tempo_feel": "Varies by section: slow for adagio, fast for coda.",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Orchestra with strings, woodwinds, brass, percussion"
+        "Orchestra"
       ],
-      "meter": "Typically 3/4 or 4/4 common time",
+      "meter": "not described in sources",
       "mood_keywords": [
         "romantic",
-        "graceful",
-        "dramatic",
+        "poetic",
         "virtuosic"
       ],
-      "musical_form": "Five-part suite: entrée, adagio, two variations, coda",
+      "musical_form": "Suite (Entrée, Adagio, Variations, Coda)",
       "reference_recordings": [
         {
-          "artist": "Pyotr Ilyich Tchaikovsky",
-          "title": "Swan Lake Pas de Deux"
+          "artist": "Piotr Ilich Chaikovski",
+          "title": "Swan Lake (Black Swan Pas de deux)"
         },
         {
-          "artist": "Pyotr Ilyich Tchaikovsky",
-          "title": "Sleeping Beauty Bluebird Pas de Deux"
-        },
-        {
-          "artist": "Ludwig Minkus",
-          "title": "Don Quixote Grand Pas de Deux"
+          "artist": "Piotr Ilich Chaikovski",
+          "title": "The Nutcracker (Sugar Plum Fairy Pas de deux)"
         }
       ],
-      "rhythm_pattern": "Flexible to support lyrical adagio and virtuosic coda; includes sustained melodic lines and rhythmic bursts",
-      "sound_description": "The music transitions from slow, lyrical melodies supporting graceful, sustained movements to fast, energetic passages highlighting technical virtuosity and dramatic flair.",
-      "tempo_bpm": "Varies; slow adagio sections around 60-80 bpm, coda sections faster, up to 120-140 bpm",
-      "vocal_style": "Usually instrumental; no vocals"
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Orchestral music structured to match the five-part dance, moving from slow, lyrical adagio melodies to fast, high-energy climactic codas.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Entrée: dancers enter stage and acknowledge each other",
-        "Adagio: slow, supported movements with lifts and balances",
-        "Male variation: solo featuring leaps and turns",
-        "Female variation: solo featuring pointe work and turns",
-        "Coda: fast-paced duet finale with combined elements"
+        "Promenade: ballerina balances on pointe while the partner turns her.",
+        "Pirouettes: partner stabilizes and provides impulse for turns.",
+        "Portée: partner lifts the ballerina."
       ],
-      "formation": "Duet, dancers close together, alternating solos in center stage",
-      "level_notes": "Beginners start with supported adagio movements and simple partnering; advanced levels include complex lifts, turns, and fast footwork",
-      "rhythm": "Varies from slow adagio to fast coda, typically in classical ballet meter"
+      "formation": "Duo (typically male and female)",
+      "level_notes": "Requires advanced muscular strengthening and technique, particularly for the ballerina on pointe.",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "8aae0fa40ae0e52e7ab2e21119fd72bd2eeb601ebf901c7ac673ec002c0d2aaf",
+  "fingerprint": "0af9a8e1ccbe03408c23247f6f2e3296f72afe23dcf4835c5c79a9788f56293e",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -107,6 +94,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
+      "movement: what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [

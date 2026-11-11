@@ -1,6 +1,6 @@
 # Skank — episode pack
 
-*Status: draft · built 2026-11-10 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures; lineage; two or more connections; teaching steps written out
 
@@ -115,7 +115,7 @@ NEEDS: tempo
 NARRATION: Step 1: Running-man leg motion
 NARRATION: Step 2: Alternating bent-elbow fist-punches
 NARRATION: Drill: Marching to the backbeat
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -184,7 +184,7 @@ NEEDS: tempo
 NARRATION: Step 1: Running-man leg motion
 NARRATION: Step 2: Alternating bent-elbow fist-punches
 NARRATION: Drill: Side-to-side swaying
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -254,7 +254,7 @@ NEEDS: tempo
 NARRATION: Step 1: Running-man leg motion
 NARRATION: Step 2: Alternating bent-elbow fist-punches
 NARRATION: Drill: Fast-paced x-stepping
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -319,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 10 tutorial(s) of the street-urban family studied · videos studied: 10
+Source: 11 tutorial(s) of the street-urban family studied · videos studied: 11
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; punch to the side; pull your head down; pivot them on your elbows; swing stop; lean forward; arm up; elbow up; up and down
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; punch to the side; pull your head down; pivot them on your elbows; swing stop
 
 Sources (4): https://en.wikipedia.org/wiki/Skank_(dance); https://www.wikidata.org/wiki/Q1801948; https://es.wikipedia.org/wiki/Skanking; https://it.wikipedia.org/wiki/Skank_(danza)

@@ -1,6 +1,6 @@
 # Jazz dance — episode pack
 
-*Status: draft · built 2026-11-09 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
 
@@ -148,6 +148,8 @@ MUSIC: lesson_slow then lesson_full
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: avoid turning feet out as in ballet; respect cultural origins and avoid appropriation
 NARRATION: Teachers of this dance warn against: rounding over instead of keeping a flat back during stretches
+NARRATION: Teachers of this dance warn against: pitching forward during a sumo squat
+NARRATION: Teachers of this dance warn against: leaning back during a sumo squat
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform shoulder shimmy and torso isolations while seated to reduce impact. · For children: Play 'Follow the Leader' with simple Charleston steps and shoulder shimmies.
 MUSIC: silence
@@ -221,6 +223,8 @@ MUSIC: lesson_slow then lesson_full
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: avoid turning feet out as in ballet; respect cultural origins and avoid appropriation
 NARRATION: Teachers of this dance warn against: rounding over instead of keeping a flat back during stretches
+NARRATION: Teachers of this dance warn against: pitching forward during a sumo squat
+NARRATION: Teachers of this dance warn against: leaning back during a sumo squat
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform shoulder shimmy and torso isolations while seated to reduce impact. · For children: Play 'Follow the Leader' with simple Charleston steps and shoulder shimmies.
 MUSIC: silence
@@ -295,6 +299,8 @@ MUSIC: lesson_slow then lesson_full
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: avoid turning feet out as in ballet; respect cultural origins and avoid appropriation
 NARRATION: Teachers of this dance warn against: rounding over instead of keeping a flat back during stretches
+NARRATION: Teachers of this dance warn against: pitching forward during a sumo squat
+NARRATION: Teachers of this dance warn against: leaning back during a sumo squat
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform shoulder shimmy and torso isolations while seated to reduce impact. · For children: Play 'Follow the Leader' with simple Charleston steps and shoulder shimmies.
 MUSIC: silence
@@ -340,10 +346,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 5-6-7-8
 Demonstration: views used by most teachers: front, side; tempo progression: full
-Cues: don't forget to breathe; drop your shoulders; keep a flat back
-Common mistakes the studied teachers name: rounding over instead of keeping a flat back during stretches
+Cues: don't forget to breathe; drop your shoulders; keep a flat back; straight down; straight back up; find length in your spine; squeeze through your glute muscles
+Common mistakes the studied teachers name: rounding over instead of keeping a flat back during stretches; pitching forward during a sumo squat; leaning back during a sumo squat; crunched up back during a pyramid stretch
 
 Sources (5): https://en.wikipedia.org/wiki/Jazz_dance; https://www.wikidata.org/wiki/Q936055; https://es.wikipedia.org/wiki/Jazz_(baile); https://fr.wikipedia.org/wiki/Danse_jazz; https://pt.wikipedia.org/wiki/Jazz_dance

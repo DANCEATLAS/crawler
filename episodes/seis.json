@@ -1,0 +1,882 @@
+{
+ "slug": "seis",
+ "name": "Seis",
+ "pack_version": "e2",
+ "built_at": "2026-11-11T18:54:12Z",
+ "researched_at": "2026-11-11T18:24:53Z",
+ "qc_score": 9.45,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A local Jíbaro music and dance expert.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Seis",
+   "Seis"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Seis",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Six-Couple Dance: Puerto Rico's Jíbaro Soul",
+     "This is Seis. 17th century to present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (4nFyLdsyIgk)",
+     "Title card: Seis · Puerto Rico · 17th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Seis originated in the latter half of the 17th century in the southern part of Spain.",
+     "It is a product of Spanish, African, and Taino cultural synthesis, with Arabian influences inherited from the centuries of Moorish rule in Spain."
+    ],
+    "on_screen": [
+     "Map: Puerto Rico · Caribbean",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The Seis is associated with Christmas, folkloric festivals, and poetry contests.",
+     "Lyrics often address migration, love, patriotism, and the natural beauty of the Puerto Rican countryside.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Mudança na equipe de governo.webm (https://upload.wikimedia.org/wikipedia/commons/8/8e/Mudan%C3%A7a_na_equipe_de_governo.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers form two separate lines, with men and women facing each other.",
+     "The lines approach and cross one another, and at specific intervals, dancers tap out the rhythm with their feet.",
+     "Watch for Line Crossing."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (4nFyLdsyIgk)",
+     "Captions name each signature move as it appears",
+     "Formation: two lines facing each other"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is designed for a solo voice accompanied by the cuatro, guitar, bongó, and güiro.",
+     "It features Spanish-derived harmonies and, since the 20th century, Afro-Caribbean syncopation.",
+     "Listen for the cuatro, guitar, bongó, güiro.",
+     "A blend of Spanish-derived harmonies and Afro-Caribbean syncopation, featuring a prominent cuatro and rhythmic percussion from the bongó and güiro."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: syncopated bass and Cuban rhythms"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Historically performed in open places of beaten earth, the dance is now a staple of festivals, social clubs, and competitive poetry-singing contests."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Florencio Morales Ramos is noted in the context of the tradition.",
+     "Variations include the seis fajardeño (from Fajardo), the seis de Andino, the seis chorreao (a specific dance style), and the seis mapeyé (le lo lai).",
+     "The Seis is closely associated with the décima poetry form."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Seis is shares music of décima: The Seis is closely associated with this poetry form."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Form two parallel lines with partners facing each other.",
+     "Step forward to approach the opposite line.",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the Seis, a rhythmic dance that tells the story of Puerto Rico through the poetry of the décima.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic line formation and approach.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic line formation and approach..",
+      "Level: Beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: A local Jíbaro music and dance expert."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: syncopated bass and Cuban rhythms.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form two parallel lines with partners facing each other.",
+      "Step 2: Step forward to approach the opposite line.",
+      "Footwork from the sources: tapping out the rhythm with feet",
+      "Drill: Practice walking in two parallel lines."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Cross through the opposite line.",
+      "Step 4: Tap the rhythm with the feet at prescribed intervals.",
+      "Drill: Practice the approach and retreat motion."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Sync foot taps to a steady beat."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic line formation and approach..",
+      "The Seis is associated with Christmas, folkloric festivals, and poetry contests.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Seis",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Seis.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: A local Jíbaro music and dance expert."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: syncopated bass and Cuban rhythms.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form two parallel lines with partners facing each other.",
+      "Step 2: Step forward to approach the opposite line."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Cross through the opposite line.",
+      "Step 4: Tap the rhythm with the feet at prescribed intervals.",
+      "Line Crossing: The two lines of dancers approach and cross each other."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: two lines facing each other"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Seis.",
+      "Florencio Morales Ramos is noted in the context of the tradition.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Seis",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Seis.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: A local Jíbaro music and dance expert."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: syncopated bass and Cuban rhythms.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Cross through the opposite line.",
+      "Step 2: Tap the rhythm with the feet at prescribed intervals."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Line Crossing: The two lines of dancers approach and cross each other."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: two lines facing each other"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Seis.",
+      "The Seis is closely associated with the décima poetry form.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "syncopated bass and Cuban rhythms",
+  "instruments": [
+   "cuatro",
+   "guitar",
+   "bongó",
+   "güiro"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "happy",
+   "sad",
+   "nostalgic"
+  ],
+  "sound_description": "A blend of Spanish-derived harmonies and Afro-Caribbean syncopation, featuring a prominent cuatro and rhythmic percussion from the bongó and güiro.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Seis (Puerto Rico). Rhythm pattern: syncopated bass and Cuban rhythms. Instruments: cuatro, guitar, bongó, güiro. Mood: happy, sad, nostalgic. It should sound like this: A blend of Spanish-derived harmonies and Afro-Caribbean syncopation, featuring a prominent cuatro and rhythmic percussion from the bongó and güiro. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "4nFyLdsyIgk",
+   "checked_by_vision_model": false,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Historically performed in open places of beaten earth, the dance is now a staple of festivals, social clubs, and competitive poetry-singing contests.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3APhoenix-Musical_Instrument_Museum-Puerto_Rico_Exhibit-Cuatro_1900-1915.jpg",
+    "https://commons.wikimedia.org/wiki/File%3APhoenix-Musical_Instrument_Museum-Puerto_Rican_G%C3%BCiro.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Phoenix-Musical_Instrument_Museum-Puerto_Rico_Exhibit-Cuatro_1900-1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Phoenix-Musical_Instrument_Museum-Puerto_Rico_Exhibit-Cuatro_1900-1915.jpg/1280px-Phoenix-Musical_Instrument_Museum-Puerto_Rico_Exhibit-Cuatro_1900-1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Marine 69-71 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APhoenix-Musical_Instrument_Museum-Puerto_Rico_Exhibit-Cuatro_1900-1915.jpg",
+    "description": "A Cuatro, (c. 1900 - 1915) from Ciales, Puerto Rico on exhibit in the Musical Instrument Museum in Phoenix."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Phoenix-Musical_Instrument_Museum-Puerto_Rican_G%C3%BCiro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Phoenix-Musical_Instrument_Museum-Puerto_Rican_G%C3%BCiro.jpg/1280px-Phoenix-Musical_Instrument_Museum-Puerto_Rican_G%C3%BCiro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Marine 69-71 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APhoenix-Musical_Instrument_Museum-Puerto_Rican_G%C3%BCiro.jpg",
+    "description": "Puerto Rican Güiro on display in the Musical Instruments Museum of Phoenix"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Mudança na equipe de governo.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Mudan%C3%A7a_na_equipe_de_governo.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "TV BrasilGov / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Conmemoración de seis años del gobierno de Hugo Chávez 3.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Conmemoraci%C3%B3n_de_seis_a%C3%B1os_del_gobierno_de_Hugo_Ch%C3%A1vez_3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Venezolana de Televisión / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "Belgravia",
+    "url": "https://archive.org/details/belgravia_202302",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "SYNURA, UN BAILE AL SOL, SIERRA DE LA CULEBRA.",
+    "url": "https://archive.org/details/Flickr-39716919212",
+    "year": 2018,
+    "license": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "La Cueca De Pikachu - Martes De Payadoras En El Chancho Seis (8M) (10/03/2020)",
+    "url": "https://archive.org/details/20200310-la-cueca-de-pikachu-martes-de-payadoras-en-el-chancho-seis-8m",
+    "year": 2020,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "TÍTULO: Esta Es Una Historia Real Nació En 1999 En Pennsylvania La Menor De Cuatro Herma",
+    "url": "https://archive.org/details/esta_es_una_historia_real_nacio_en_1999_en_pennsylvania_la_menor_de_cuatro_herma_ad10f167",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Ácaros en una flor",
+    "url": "https://archive.org/details/Flickr-7285870930",
+    "year": 2012,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/2.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "SEIS PISTOS \"Que me la Mame\" at Heart Of Texas Rockfest, Austin, Tx. March 21, 2015",
+    "url": "https://archive.org/details/youtube-5o0-RX3vo6s",
+    "year": 2015,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "The cuatro instrument",
+   "Two lines of dancers in traditional attire",
+   "Open rural landscape"
+  ],
+  "costume_notes": "Historically performed in open places of beaten earth, the dance is now a staple of festivals, social clubs, and competitive poetry-singing contests.",
+  "setting_notes": "The Seis is associated with Christmas, folkloric festivals, and poetry contests. Lyrics often address migration, love, patriotism, and the natural beauty of the Puerto Rican countryside.",
+  "map": {
+   "country": "Puerto Rico",
+   "region": "Caribbean",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "14 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 14,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 8"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "keep it flat on the ground",
+   "switch",
+   "slide",
+   "hit"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "count_in",
+   "warmup",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "posture, arms and hands",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Seis",
+  "https://www.wikidata.org/wiki/Q7446911"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "0f033f46f3fed4691180aa4c9b2fdd7082a1bc0bbeaf26dae70c0441a7da7cf0",
+ "hero_checked": "fail"
+}

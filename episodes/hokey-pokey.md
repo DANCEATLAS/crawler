@@ -1,8 +1,8 @@
 # Hokey Pokey — episode pack
 
-*Status: draft · built 2026-11-10 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a hero video; licensed images (3 needed); two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); instruments; the hero video's vision check; licensed images (3 needed); two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic, clear, and historically informed.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Hokey Pokey: More Than Just a Party Trick
 NARRATION: This is Hokey Pokey. 19th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (CMHU2RxFgD4)
 ON SCREEN: Title card: Hokey Pokey · United Kingdom · 19th century to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Participants stand in a circle.
 NARRATION: On the instruction of a specific body part, they move it into the center and then out.
 NARRATION: The body part is shaken, followed by a full-body turn.
 NARRATION: Watch for The Shake, The Turn.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (CMHU2RxFgD4)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -118,7 +118,7 @@ NARRATION: Step 1: Stand in a circle.
 NARRATION: Step 2: Extend the named body part into the circle.
 NARRATION: Footwork from the sources: Stepping in and out of the circle
 NARRATION: Drill: Right foot in and out.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -188,7 +188,7 @@ NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Turn around in a full circle.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -258,7 +258,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Shake the body part.
 NARRATION: Step 2: Turn around in a full circle.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -316,7 +316,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'CMHU2RxFgD4', 'checked_by_vision_model': False, 'title': 'Hokey Pokey (1953 Original - Jo Ann Greer) MR DICKIE BOWS DANCE SCHOOL (ROSE) NEW YEARS EVE 2018'}
 Images: 1 licensed — Bryan Ledgard / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: Disney's Sing Along Songs Vol. 11 (Laserdisc) — https://archive.org/details/14023AS; Billy & Ruby's Sing & Play Along — https://archive.org/details/billy-rubys-sing-play-along_202207; Barney: The Backyard Show [1988] - 1990 VHS Release — https://archive.org/details/backyard-show-1988-1990-vhs-rip_202308; Drew's Famous Step By Step Party Dances [Full VHS] — https://archive.org/details/drews-famous-step-by-step-party-dances-full-vhs; Barney: The Backyard Show [1988] - 1992 VHS Release (White VHS) — https://archive.org/details/backyard-show-1988-1992-vhs-rip-1_202308; Barney: The Backyard Show [1988] - 1991 VHS Release — https://archive.org/details/the-backyard-show-1988-1991-vhs-release; Get Up & Go! With Dave Benson Phillips & Big Bear (Lyrick Studios Version) — https://archive.org/details/get-up-go-with-dave-benson-phillips-big-bear-lyrick-studios-version; Pocoyo Dance The Hokey Cokey From The Adventures Of Gracie Lou — https://archive.org/details/pocoyo-dance-the-hokey-cokey-from-the-adventures-of-gracie-lou
 Motifs: Vintage sheet music, Circle of dancers, Archival footage of 1940s dance halls
@@ -326,9 +326,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (3): https://en.wikipedia.org/wiki/Hokey_Cokey; https://www.wikidata.org/wiki/Q3643110; https://it.wikipedia.org/wiki/Hokey_Pokey_(danza)

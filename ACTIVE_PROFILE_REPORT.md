@@ -2,17 +2,17 @@
 
 Evaluated 2026-11-11. No model calls; existing budgets unchanged.
 
-1,247 dossiers; 0 ready for activation; 0 running interactive experiences.
+1,265 dossiers; 0 ready for activation; 0 running interactive experiences.
 
 ## Missing work across the catalogue
 
 | Work stream | Profiles with gaps |
 |---|---:|
-| research | 1247 |
-| video | 1247 |
-| rights | 1247 |
-| review | 1247 |
-| platform | 1247 |
+| research | 1265 |
+| video | 1264 |
+| rights | 1265 |
+| review | 1265 |
+| platform | 1265 |
 
 Technology evidence needing recheck: none in the recorded watchlist
 

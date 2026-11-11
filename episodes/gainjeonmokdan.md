@@ -1,6 +1,6 @@
 # Gainjeonmokdan — episode pack
 
-*Status: draft · built 2026-11-09 · judge 8.8 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 8.8 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the music & instruments section; what to avoid / common mistakes
 
@@ -299,9 +299,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the classical-court family studied · videos studied: 3
+Source: 4 tutorial(s) of the classical-court family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; hold your placement; stay straight as a board; lift up in your lower abs; change feet
+Cues: keep length in both sides of the waist; keep the supporting leg strong and stable; keep the spine long; demi-plie; pas de bourree; releve; fifth position; hold your placement; stay straight as a board; lift up in your lower abs; change feet
 
 Sources (2): https://en.wikipedia.org/wiki/Gainjeonmokdan; https://www.wikidata.org/wiki/Q645548

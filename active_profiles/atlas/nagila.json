@@ -1,0 +1,130 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Avoid over-extending the back during the forward bend."
+        ],
+        "counts": "Simplified 1-2-3-4 counts for the stamps.",
+        "duration_minutes": "5 minutes total.",
+        "game_version": "A 'follow the drum' game where children take turns in the center for 30 seconds."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Avoid deep forward bends if there is lower back pain.",
+          "Avoid high-impact stamping."
+        ],
+        "counts": "Use a steady 4/4 count for the stamps.",
+        "seated_version": "Perform the torso bend and arm positioning while seated in a sturdy chair.",
+        "standing_version": "Perform the torso bend while holding onto a support for balance.",
+        "tempo_and_range": "Reduce the intensity of the stamps and the duration of the dance cycles."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Elbows held in front or behind the body.",
+      "difficulty": "beginner",
+      "footwork": "Stamping feet on the ground in a rhythmic pattern.",
+      "formation_and_space": "Solo dancer in the center.",
+      "hips_and_torso": "Hips and thighs form a right angle.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Upper body bent forward, hips and thighs at a right angle.",
+      "signature_moves": [
+        {
+          "description": "A rhythmic stamp performed while the torso is bent forward at a right angle.",
+          "name": "Forward-bend stamp"
+        }
+      ],
+      "tempo_feel": "30-second bursts of dance.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "recreational",
+        "rhythmic",
+        "festive"
+      ],
+      "musical_form": "cyclical, alternating between dance and instrumental-only sections",
+      "reference_recordings": [],
+      "rhythm_pattern": "rhythmic motion in interaction with the drums",
+      "sound_description": "The music is driven by drums that interact with the dancer's footwork, featuring dynamic volume changes to signal the dancer's activity.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Bend upper body forward until hips and thighs form a right angle.",
+        "Position elbows either in front of the body or behind the back.",
+        "Stamp feet on the ground in a rhythmic pattern."
+      ],
+      "formation": "Solo act in the center of a group.",
+      "level_notes": "Beginner: Focus on maintaining the right-angle posture while stamping.",
+      "rhythm": "Rhythmic motion interacting with drums."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "5eb349c090276560b789329097bd6a0c12c8de3b69d1747dfe1457d578c4a9e2",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:nagila",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Nagila",
+  "research_file": "research_results/nagila.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "nagila",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Nagila",
+    "https://www.wikidata.org/wiki/Q94440683"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

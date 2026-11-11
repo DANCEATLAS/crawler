@@ -1,32 +1,56 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Fluid, expressive movements often following the rhythm of the guitar.",
+      "arms_and_hands": "Fluid, expressive movements.",
       "difficulty": "intermediate",
-      "footwork": "Small, rapid steps shifting weight between legs.",
-      "formation_and_space": "Freestyle, individual or partnered.",
-      "hips_and_torso": "Central focus; rapid, rhythmic hip swaying and isolation.",
-      "levels_and_jumps": "Mostly grounded, focusing on hip and leg movement.",
-      "partnering": "Optional; often performed as a solo freestyle dance.",
-      "posture": "Upright and relaxed, allowing for fluid hip movement.",
+      "footwork": "Shifting weight between legs, rhythmic stepping.",
+      "formation_and_space": "Freestyle, individual or group.",
+      "hips_and_torso": "Energetic hip movements are a signature element.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Upright with fluid torso movement.",
       "signature_moves": [
         {
-          "description": "High-energy, improvised movement during the instrumental bridge.",
-          "name": "Sebene dance"
+          "description": "Rapid, rhythmic motion of the hips.",
+          "name": "Hip movement"
         }
       ],
-      "tempo_feel": "Fast, energetic, and continuous.",
-      "what_to_avoid": "Avoid rigid, static posture; ensure hip movement is fluid."
+      "tempo_feel": "Fast and energetic.",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
         "Electric guitar",
         "Double bass",
         "Congas",
-        "Snare drum",
-        "Brass"
+        "Brass",
+        "Woodwinds"
       ],
       "meter": "4/4",
       "mood_keywords": [
@@ -34,35 +58,35 @@
         "Festive",
         "Hypnotic"
       ],
-      "musical_form": "Alternation between vocal passages and the sebene (instrumental bridge).",
+      "musical_form": "Alternation between vocal passages and extended instrumental sebene.",
       "reference_recordings": [
+        {
+          "artist": "Antoine Wendo Kolosoy",
+          "title": "Marie-Louise"
+        },
         {
           "artist": "Docteur Nico",
           "title": "Kiri-Kiri Mabina Ya Sika"
-        },
-        {
-          "artist": "African All Stars",
-          "title": "Suzana Coulibaly"
         }
       ],
-      "rhythm_pattern": "16th-note bass cadence with offbeat guitar emphasis.",
-      "sound_description": "Bright, high-pitched electric guitar lines weaving through a fast, driving bassline and crisp percussion.",
+      "rhythm_pattern": "16th-note bass cadence, cavacha percussion beat.",
+      "sound_description": "Characterized by rapid, intricate electric guitar solos in the higher registers and a driving, percussive bassline.",
       "tempo_bpm": "128",
-      "vocal_style": "Call-and-response, often in Lingala."
+      "vocal_style": "Call-and-response, often in Lingala, Kikongo, French, or Swahili."
     },
     "teaching": {
       "basic_steps": [
-        "Rhythmic hip swaying",
-        "Weight shifting between legs",
-        "Small, rapid foot steps"
+        "Shifting body weight between legs",
+        "Rhythmic hip movement",
+        "Freestyle movement during sebene"
       ],
-      "formation": "Freestyle, often in clubs or social dance settings.",
-      "level_notes": "Requires high cardiovascular stamina and fluid hip mobility.",
-      "rhythm": "4/4 time signature with a fast-paced 16th-note cadence."
+      "formation": "Freestyle, often in dance halls or clubs.",
+      "level_notes": "Requires high energy and coordination of hip and leg movements.",
+      "rhythm": "Fast-paced 4/4 time, often with a 16th-note bass cadence."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "25f5a1ba050cdd8dfd87be9cb9014945a79ba38a1c23444d945878b7dbb14785",
+  "fingerprint": "63a1954b10d492638f61d057129966b9a91b676fa37ba71aa0783d5a15692428",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -70,6 +94,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
+      "movement: what_to_avoid",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -112,7 +137,8 @@
     "https://www.wikidata.org/wiki/Q1752683",
     "https://es.wikipedia.org/wiki/Soukous",
     "https://fr.wikipedia.org/wiki/Soukous",
-    "https://de.wikipedia.org/wiki/Soukous"
+    "https://de.wikipedia.org/wiki/Soukous",
+    "https://archive.org/details/breakoutprofiles00stew"
   ],
   "state": "researching",
   "video_evidence": []

@@ -1,6 +1,6 @@
 # Tambor de Crioula — episode pack
 
-*Status: withheld-chapters · built 2026-11-09 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-11 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures; two or more connections
 
@@ -109,9 +109,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
 Counting: 
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (5): https://en.wikipedia.org/wiki/Tambor_de_Crioula; https://www.wikidata.org/wiki/Q10378015; https://es.wikipedia.org/wiki/Tambor_de_crioula; https://fr.wikipedia.org/wiki/Tambour_de_crioula; https://pt.wikipedia.org/wiki/Tambor_de_crioula

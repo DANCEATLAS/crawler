@@ -1,6 +1,6 @@
 # Bacha Nagma — episode pack
 
-*Status: draft · built 2026-11-10 · judge 9.1 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-11 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; what to avoid / common mistakes
 
@@ -11,17 +11,16 @@
 ## Episode 1 · Meet Bacha Nagma · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: This is Bacha Nagma.
-NARRATION: It means 'The Boy Who Dances Like a Girl'.
-NARRATION: It emerged in the 20th century.
+NARRATION: The Boy Who Dances Like a Girl
+NARRATION: This is Bacha Nagma. 20th century.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Bacha Nagma · India · 20th century
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Bacha Nagma comes from the Hafiza Nagma tradition.
-NARRATION: It became popular after the Dogra Maharaja banned female dancers in the 1920s.
-NARRATION: Some say it traces back to a decree by Mughal Emperor Akbar that led men to dress as women in performance.
+NARRATION: The dance is a derivative of the Hafiza Nagma.
+NARRATION: It gained prominence after the 1920s ban on female dancers by the Dogra Maharaja.
+NARRATION: Some traditions link the practice of men dressing as women to a decree by the Mughal Emperor Akbar.
 ON SCREEN: Map: India · South Asia
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
@@ -54,24 +53,24 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Dancers wear colorful frock-like dresses, jewelry, and makeup to look like women.
-NARRATION: Performances happen at weddings, harvest festivals, and social events.
+NARRATION: Dancers wear multi-colored, frock-like dresses, jewelry, and makeup to resemble women.
+NARRATION: It is performed at weddings, harvest festivals, and social gatherings.
 ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
 
 ### 7. The people (60 s) · `people`
-NARRATION: In some parts of Kashmir, the dance is called Bacha Gyavaun.
-NARRATION: Its parent tradition is Hafiza Nagma.
+NARRATION: Also referred to as Bacha Gyavaun in certain parts of Kashmir.
+NARRATION: Parent: Hafiza Nagma.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 NEEDS: notable_figures
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Bacha Nagma comes directly from Hafiza Nagma, an older female-led dance.
-NARRATION: Its spinning moves resemble those in Kathak.
+NARRATION: Bacha Nagma is parent of Hafiza Nagma: Bacha Nagma is a direct derivative of this older, female-led tradition.
+NARRATION: Bacha Nagma is influence of Kathak: The spinning movements of Bacha Nagma are noted to resemble those of Kathak.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
@@ -100,7 +99,7 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Use expressive gestures to interpret the song lyrics.
+NARRATION: Expressive gestures to interpret song lyrics
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -113,17 +112,17 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Walk with poise in a circle.
-NARRATION: Step 2: Perform quick spinning movements.
-NARRATION: The footwork includes spins like those in Kathak.
-NARRATION: Drill: Practice walking with grace.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+NARRATION: Step 1: Poised walking in a circle
+NARRATION: Step 2: Quick spinning movements
+NARRATION: Footwork from the sources: Quick spinning movements similar to Kathak
+NARRATION: Drill: Walking with grace
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Add expressive hand gestures to match the lyrics.
-NARRATION: Drill: Practice simple hand gestures.
+NARRATION: Step 3: Expressional hand gestures to interpret lyrics
+NARRATION: Drill: Simple hand gestures
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 
@@ -167,30 +166,30 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Use expressive gestures to interpret the song lyrics.
+NARRATION: Expressive gestures to interpret song lyrics
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: .
-NARRATION: Clap the rhythm first, then step in place.
+NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
 MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Walk with poise in a circle.
-NARRATION: Step 2: Quick spinning movements.
-NARRATION: Drill: Practice spotting to maintain balance during spins.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+NARRATION: Step 1: Poised walking in a circle
+NARRATION: Step 2: Quick spinning movements
+NARRATION: Drill: Spotting for spins
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Use expressive hand gestures to interpret lyrics.
-NARRATION: Quick spins involve rapid rotations like Kathak dance.
-NARRATION: Drill: Practice controlled rotation.
+NARRATION: Step 3: Expressional hand gestures to interpret lyrics
+NARRATION: Quick spins: Rapid rotations similar to those found in Kathak dance.
+NARRATION: Drill: Controlled rotation
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -218,7 +217,7 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You now master the spinning technique.
+NARRATION: You can now: Master the spinning technique..
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -234,27 +233,27 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Use expressive gestures to interpret the song lyrics.
+NARRATION: Expressive gestures to interpret song lyrics
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: .
-NARRATION: Clap the rhythm first, then step in place.
+NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
 MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Quick spinning movements.
-NARRATION: Step 2: Expressive hand gestures to interpret lyrics.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+NARRATION: Step 1: Quick spinning movements
+NARRATION: Step 2: Expressional hand gestures to interpret lyrics
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Quick spins are rapid rotations like those in Kathak.
+NARRATION: Quick spins: Rapid rotations similar to those found in Kathak dance.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -282,9 +281,9 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now dance the full Bacha Nagma.
-NARRATION: Its parent tradition is Hafiza Nagma.
-NARRATION: You know the dance. Go and dance it with others.
+NARRATION: You can now: the dancing it fully of Bacha Nagma.
+NARRATION: Parent: Hafiza Nagma.
+NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
@@ -312,9 +311,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (2): https://en.wikipedia.org/wiki/Bacha_Nagma; https://www.wikidata.org/wiki/Q85744741

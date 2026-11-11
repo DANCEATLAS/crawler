@@ -1,6 +1,6 @@
 # Pungmul — episode pack
 
-*Status: draft · built 2026-11-09 · judge 10.0 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 10.0 · 6/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; the how-it-is-danced section
 
@@ -121,7 +121,7 @@ NEEDS: tempo
 NARRATION: Step 1: Form a procession line led by a banner bearer and kkwaenggwari player
 NARRATION: Step 2: Play steady rhythm on kkwaenggwari to set tempo
 NARRATION: Drill: Hold and strike kkwaenggwari steadily
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars · repetitions: 3
@@ -194,7 +194,7 @@ NEEDS: tempo
 NARRATION: Step 1: Engage in group formations (jinpuri) and solo dances (sangsoe noleum, sangmonori)
 NARRATION: Step 2: Actors (japsaek) perform skits to interact with audience
 NARRATION: Drill: Practice knee bends to spin sangmo ribbons
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars · repetitions: 3
@@ -268,7 +268,7 @@ NEEDS: tempo
 NARRATION: Step 1: Engage in group formations (jinpuri) and solo dances (sangsoe noleum, sangmonori)
 NARRATION: Step 2: Actors (japsaek) perform skits to interact with audience
 NARRATION: Drill: Master fast jajinmori rhythms
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars · repetitions: 3
@@ -337,9 +337,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (6): https://en.wikipedia.org/wiki/Pungmul; https://www.wikidata.org/wiki/Q497674; https://es.wikipedia.org/wiki/Pungmul; https://fr.wikipedia.org/wiki/Pungmul; https://de.wikipedia.org/wiki/Pungmul; https://en.wikipedia.org/wiki/Traditional_Korean_rhythm

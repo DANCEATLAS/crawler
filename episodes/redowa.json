@@ -1,0 +1,832 @@
+{
+ "slug": "redowa",
+ "name": "redowa",
+ "pack_version": "e2",
+ "built_at": "2026-11-11T18:54:12Z",
+ "researched_at": "2026-11-11T17:54:49Z",
+ "qc_score": 9.25,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Historical dance researcher with a focus on folk evolution.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "redowa",
+   "rejdovák",
+   "rejdovačka",
+   "redova"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet redowa",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Whirl of Bohemia",
+     "This is redowa. 19th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: redowa · Czech Republic · 19th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated in Bohemia as the rejdovák.",
+     "It transitioned from a rural folk dance to the salons of Prague in 1829.",
+     "It reached London by 1846 and was widely practiced in the United States and France by the 1850s."
+    ],
+    "on_screen": [
+     "Map: Czech Republic · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally a social ballroom dance for the 19th-century elite, it transitioned into a folk dance in Mexico, where it is now performed at festivals and by traditional dance groups.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Nikolaj Rimskij-Korsakov, SUITE D'OPERA - Richard Kapp, Milton Katims, David Zinman (https://archive.org/details/rimsky-korsakov-opera-suites)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The redowa is performed in a closed waltz position.",
+     "The basic step consists of a six-count pattern: a long reaching step followed by two small leap-steps.",
+     "The leader and follower perform opposite sequences, rotating clockwise.",
+     "Watch for Pursuit."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Couple dance moving in a line of direction."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is written in 3/4 time.",
+     "It is described as having a slower tempo than the standard waltz or polka-mazurka.",
+     "Listen for the accordion, bajo sexto.",
+     "The pulse is 3/4.",
+     "A 3/4 time dance music that is slower than a standard waltz, characterized by a distinct rhythmic accentuation."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: El naranjo — Antonio Tanguma Guajardo",
+     "Waveform or rhythm-pattern graphic: Six-beat rotation pattern"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Henri Cellarius, a 19th-century dance master, and Antonio Tanguma Guajardo, a Mexican composer of redovas.",
+     "The European salon redowa, which largely vanished, and the Mexican redova, which persists as a traditional folk dance in northern states.",
+     "Derived from the Czech rejdovák, it is a sibling to the polka and mazurka, and a parent to the Mexican redova."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "redowa is parent of rejdovák: The original Czech folk dance from which the redowa was derived.",
+     "redowa is sibling of polka: Shared popularity in 19th-century ballrooms."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Small leap step on count 1",
+     "Long gliding step on count 2",
+     "Count it: 1-2-3, 2-2-3 (three counts a bar).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the 19th-century ballroom dance that traveled from Prague to the northern plains of Mexico.",
+     "Sources: 8 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the 6-count rhythm",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the 6-count rhythm.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Historical dance researcher with a focus on folk evolution."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Closed waltz position with outside hands pointing in the line of direction."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.",
+      "Rhythm pattern: Six-beat rotation pattern.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Small leap step on count 1",
+      "Step 2: Long gliding step on count 2",
+      "Footwork from the sources: Six-count pattern consisting of long glides and small leaps.",
+      "Drill: Count 1-6 in 3/4 time"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Small leap step on count 3",
+      "Step 4: Small leap step on count 4",
+      "Drill: Practice small leaps in place"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice long glides"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid scrambling or losing the 6-count rhythm."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the 6-count rhythm with feet and arms while seated. · For children: A follow-the-leader game using the 6-count rhythm."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 6-count rhythm with feet and arms while seated.",
+      "For children: A follow-the-leader game using the 6-count rhythm."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the 6-count rhythm.",
+      "Originally a social ballroom dance for the 19th-century elite, it transitioned into a folk dance in Mexico, where it is now performed at festivals and by traditional dance groups.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of redowa",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of redowa.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Historical dance researcher with a focus on folk evolution."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Closed waltz position with outside hands pointing in the line of direction."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.",
+      "Rhythm pattern: Six-beat rotation pattern.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Long reaching step on count 5",
+      "Step 2: Small leap step on count 6"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Pursuit: Partners hold hands and move forward and back with balance steps."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid scrambling or losing the 6-count rhythm."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the 6-count rhythm with feet and arms while seated. · For children: A follow-the-leader game using the 6-count rhythm."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 6-count rhythm with feet and arms while seated.",
+      "For children: A follow-the-leader game using the 6-count rhythm."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
+      "Full tempo, the whole sequence, twice. Formation: Couple dance moving in a line of direction."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of redowa.",
+      "Henri Cellarius, a 19th-century dance master, and Antonio Tanguma Guajardo, a Mexican composer of redovas.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of redowa",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of redowa.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: Historical dance researcher with a focus on folk evolution."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Closed waltz position with outside hands pointing in the line of direction."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.",
+      "Rhythm pattern: Six-beat rotation pattern.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Long reaching step on count 5",
+      "Step 2: Small leap step on count 6"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Pursuit: Partners hold hands and move forward and back with balance steps."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 2-2-3 (three counts a bar)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid scrambling or losing the 6-count rhythm."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the 6-count rhythm with feet and arms while seated. · For children: A follow-the-leader game using the 6-count rhythm."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 6-count rhythm with feet and arms while seated.",
+      "For children: A follow-the-leader game using the 6-count rhythm."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 2-2-3 (three counts a bar).",
+      "Full tempo, the whole sequence, twice. Formation: Couple dance moving in a line of direction."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of redowa.",
+      "Derived from the Czech rejdovák, it is a sibling to the polka and mazurka, and a parent to the Mexican redova.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "3/4",
+  "rhythm_pattern": "Six-beat rotation pattern",
+  "instruments": [
+   "accordion",
+   "bajo sexto"
+  ],
+  "vocal_style": null,
+  "musical_form": "Three-part structure often including a pursuit, waltz, and coda.",
+  "mood": [
+   "graceful",
+   "turning"
+  ],
+  "sound_description": "A 3/4 time dance music that is slower than a standard waltz, characterized by a distinct rhythmic accentuation.",
+  "listen_before_composing": [
+   "El naranjo — Antonio Tanguma Guajardo"
+  ],
+  "prompt": "Original instrumental composition in the musical world of redowa (Czech Republic). Meter 3/4. Rhythm pattern: Six-beat rotation pattern. Instruments: accordion, bajo sexto. Form: Three-part structure often including a pursuit, waltz, and coda.. Mood: graceful, turning. It should sound like this: A 3/4 time dance music that is slower than a standard waltz, characterized by a distinct rhythmic accentuation. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AThe_original_Redowa_waltz_%28NYPL_b19606977-5096616%29.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ARedowa_polka_%28NYPL_b19378349-5052840%29.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/The_original_Redowa_waltz_%28NYPL_b19606977-5096616%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/The_original_Redowa_waltz_%28NYPL_b19606977-5096616%29.jpg/1280px-The_original_Redowa_waltz_%28NYPL_b19606977-5096616%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Scan by NYPL / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AThe_original_Redowa_waltz_%28NYPL_b19606977-5096616%29.jpg",
+    "description": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Redowa_polka_%28NYPL_b19378349-5052840%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Redowa_polka_%28NYPL_b19378349-5052840%29.jpg/1280px-Redowa_polka_%28NYPL_b19378349-5052840%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Scan by NYPL / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ARedowa_polka_%28NYPL_b19378349-5052840%29.jpg",
+    "description": ""
+   }
+  ],
+  "footage": [
+   {
+    "title": "Nikolaj Rimskij-Korsakov, SUITE D'OPERA - Richard Kapp, Milton Katims, David Zinman",
+    "url": "https://archive.org/details/rimsky-korsakov-opera-suites",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "19th-century ballroom sketches",
+   "Mexican norteña dance attire",
+   "Close-ups of footwork"
+  ],
+  "costume_notes": null,
+  "setting_notes": "Originally a social ballroom dance for the 19th-century elite, it transitioned into a folk dance in Mexico, where it is now performed at festivals and by traditional dance groups.",
+  "map": {
+   "country": "Czech Republic",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "14 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 14,
+  "counting": "1-2-3, 2-2-3 (three counts a bar)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 8"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "keep it flat on the ground",
+   "switch",
+   "slide",
+   "hit"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "count_in",
+   "warmup",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "the costume & setting section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Redowa",
+  "https://www.wikidata.org/wiki/Q3422966",
+  "https://es.wikipedia.org/wiki/Redova",
+  "https://fr.wikipedia.org/wiki/Redowa",
+  "https://it.wikipedia.org/wiki/Redova",
+  "https://archive.org/details/danceman098",
+  "https://archive.org/details/danceman084",
+  "https://archive.org/details/danceman020"
+ ],
+ "claims_verified": 5,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "3ba081093b8059f193453550ed076fcb908da4ce327aae03232b43782219d09d",
+ "hero_checked": null
+}

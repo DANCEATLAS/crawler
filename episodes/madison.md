@@ -1,8 +1,8 @@
 # Madison — episode pack
 
-*Status: draft · built 2026-11-10 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-11 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A charismatic dance historian with a passion for 1960s social dances and community engagement
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Madison: The Line Dance That United a Generation
 NARRATION: This is Madison. late 1950s to mid-1960s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (eEkLpmvIMuw)
 ON SCREEN: Title card: Madison · United States · late 1950s to mid-1960s
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The Madison is a line dance performed without partner contact, typica
 NARRATION: The basic step sequence includes stepping left forward, placing the right foot beside the left with a clap, stepping back on the right, moving the left foot back and across the right, then moving the left foot to the left and back across the right again.
 NARRATION: Called steps add named sequences like the Double Cross and Jackie Gleason, which dancers perform on cue.
 NARRATION: Watch for Double Cross, Jackie Gleason, Cleveland Box.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (eEkLpmvIMuw)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Dancers arranged side by side in lines or multiple rows, maintaining personal space without contact
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -120,7 +120,7 @@ NARRATION: Step 1: Step left foot forward
 NARRATION: Step 2: Place right foot beside left foot without weight and clap
 NARRATION: Footwork from the sources: Step sequences involve forward, backward, lateral steps and crossing feet; counts align with 4/4 rhythm
 NARRATION: Drill: Practice stepping left forward and clapping
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -191,7 +191,7 @@ NEEDS: tempo
 NARRATION: Step 1: Move left foot to the left side
 NARRATION: Step 2: Move left foot back and cross it over the right foot again
 NARRATION: Drill: Learn the Double Cross step
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -263,7 +263,7 @@ NEEDS: tempo
 NARRATION: Step 1: Move left foot to the left side
 NARRATION: Step 2: Move left foot back and cross it over the right foot again
 NARRATION: Drill: Respond to live calls during dance
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -320,7 +320,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'eEkLpmvIMuw', 'checked_by_vision_model': False, 'title': "It's Madison Time"}
 Images: 6 licensed — Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: File:Partial Lunar Eclipse, Madison 12-10-2011 VP8.webm — https://upload.wikimedia.org/wikipedia/commons/3/32/Partial_Lunar_Eclipse%2C_Madison_12-10-2011_VP8.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Total Solar Eclipse 2017, Madison County, ID.webm — https://upload.wikimedia.org/wikipedia/commons/6/62/Total_Solar_Eclipse_2017%2C_Madison_County%2C_ID.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Elwha River 2022 by Madison Falls 2.webm — https://upload.wikimedia.org/wikipedia/commons/8/8a/Elwha_River_2022_by_Madison_Falls_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Memorial-Union-Terrace-in-Madison -WI.mpg — https://upload.wikimedia.org/wikipedia/commons/d/da/Memorial-Union-Terrace-in-Madison_-WI.mpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; German Commercials (1960s) — https://archive.org/details/1966-mit-dem-einkommen-auskommen-ii; He Makes Me Feel Like Dancin' — https://archive.org/details/hemakesmefeellikedancin; Harry's Mad (1993-1996) — https://archive.org/details/s-01-e-01_20260708
 Motifs: Lines of dancers clapping in unison, Close-ups of foot crosses and claps, Vintage 1960s TV footage, Cambodian large group dance events
@@ -330,9 +330,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 11 tutorial(s) of the folk-circle family studied · videos studied: 11
+Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; don't forget to breathe; drop your shoulders; keep a flat back; side side side side
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
+Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
 
 Sources (5): https://en.wikipedia.org/wiki/Madison_(dance); https://www.wikidata.org/wiki/Q3276118; https://es.wikipedia.org/wiki/Madison_(baile); https://fr.wikipedia.org/wiki/Madison_(danse); https://archive.org/details/childandchildho01chamgoog

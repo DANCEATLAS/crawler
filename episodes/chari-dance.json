@@ -2,7 +2,7 @@
  "slug": "chari-dance",
  "name": "Chari Dance",
  "pack_version": "e2",
- "built_at": "2026-11-10T19:25:30Z",
+ "built_at": "2026-11-11T18:54:11Z",
  "researched_at": "2026-11-10T17:36:14Z",
  "qc_score": 9.45,
  "status": "draft",
@@ -65,7 +65,7 @@
      "This is Chari Dance. Traditional."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (7yhQfDX1Djk)",
      "Title card: Chari Dance · India · Traditional"
     ],
     "music": "theme (30 s)"
@@ -107,7 +107,7 @@
      "Watch for Chari Balancing."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (7yhQfDX1Djk)",
      "Captions name each signature move as it appears",
      "Formation: Group dance, moving quietly around the floor."
     ],
@@ -269,7 +269,7 @@
       "Drill: Walking with a balanced object on the head"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -417,7 +417,7 @@
       "Step 2: Graceful limb movements"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -564,7 +564,7 @@
       "Step 2: Deep knee swirls"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -706,7 +706,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "7yhQfDX1Djk",
+   "checked_by_vision_model": false,
+   "title": "PANIHARI - CHARI Fire Dance of Rajasthan -  by Aurora in PUSHKAR"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -827,14 +831,14 @@
   ]
  },
  "teaching_formula": {
-  "source": "11 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 11,
+  "source": "14 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 14,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back, side",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "repetitions per step: about 8"
   ],
   "cues": [
    "and out and out and in and in",
@@ -845,17 +849,16 @@
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "don't forget to breathe",
-   "drop your shoulders",
-   "keep a flat back",
-   "side side side side"
+   "keep it flat on the ground",
+   "switch",
+   "slide",
+   "hit"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "context",
-   "count_in",
    "full_demo",
+   "count_in",
    "warmup",
    "breakdown",
    "music_practice",
@@ -868,7 +871,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "notable figures",
   "lineage",
   "two or more connections"
@@ -880,6 +883,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "471e304af521b281be7bc04207fa0969e42a116f01581a0fdac462562d18f961",
+ "input_fingerprint": "3cb2796d73f3531bf379372f3f4f3961f3767d2f45c4af4fd9b26a3001042793",
  "hero_checked": null
 }

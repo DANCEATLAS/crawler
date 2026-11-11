@@ -1,0 +1,119 @@
+{
+ "slug": "ghatu-dance",
+ "qc_at": "2026-11-11T18:39:38Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Ghatu dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "89"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "210"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Two prepubescent girls, chosen for their purity, enter a trance state to reenact"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "321"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2859"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Nepal"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'temple', 'trance', 'funeral', 'spirit', 'priest']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "An exemplary profile. It handles the sacred and restricted nature of the Ghatu dance with appropriate gravity, correctly identifying the ritual windows and the specific requirements for the Ghatusari. The distinction between Sati Ghatu and Bahramase Ghatu is clearly articulated."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=9.7",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-11T17:39:18Z"
+}

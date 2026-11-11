@@ -1,0 +1,390 @@
+{
+ "slug": "ohuokhai",
+ "name": "Ohuokhai (Osuokhai)",
+ "pack_version": "e2",
+ "built_at": "2026-11-11T18:54:11Z",
+ "researched_at": "2026-11-11T18:28:39Z",
+ "qc_score": 9.6,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A local Sakha cultural practitioner.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Ohuokhai (Osuokhai)",
+   "Ohuokhai",
+   "Osuokhai",
+   "Ohuochaj"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Ohuokhai (Osuokhai)",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Nine Circles to the Sun",
+     "This is Ohuokhai (Osuokhai). Ancient."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (iIXvlEt9xvw)",
+     "Title card: Ohuokhai (Osuokhai) · Russia · Ancient"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance has roots in the period when the Sakha people lived further south as cattle-breeders.",
+     "It is historically linked to the Yhyakh festival, which celebrates the summer solstice.",
+     "Following a period of stagnation, the 21st century saw a revival of the tradition."
+    ],
+    "on_screen": [
+     "Map: Russia · East Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed during the Yhyakh festival to celebrate the summer solstice, the triumph of life, and the rebirth of nature.",
+     "It symbolizes the circle of life and the capturing of solar energy.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Yakut Ohuokhai dance.webm (https://upload.wikimedia.org/wikipedia/commons/6/67/Yakut_Ohuokhai_dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers form a circle, holding each other by the hand or arm.",
+     "The movement is performed with the left foot placed forward, following a clockwise direction.",
+     "The dance is characterized by rhythmic, graceful movements of the body, legs, feet, and arms.",
+     "Watch for Clockwise Circle."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (iIXvlEt9xvw)",
+     "Captions name each signature move as it appears",
+     "Formation: Large circle moving clockwise."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is improvisational, featuring a lead singer who composes poetry on the spot.",
+     "Key instruments include the chomus (scacciapensieri) and the kyrimpa (Yakut violin).",
+     "Listen for the chomus, kyrimpa.",
+     "A rhythmic, communal sound characterized by vocal improvisation and the vibration of the Kylyhakh technique, accompanied by the metallic twang of the chomus and the strings of the kyrimpa."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed in an 'alas' (a large meadow), often near a 'World Tree' (Aal Luuk Mas).",
+     "Participants often wear traditional costumes during the Yhyakh festival."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Sergey Zverev, a folk singer, poet, and composer from the Suntarsky region, is noted for adding new elements to the expressiveness of the movements.",
+     "The dance is a native Sakha tradition, linked to the cult of the sun and fertility."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Ohuokhai (Osuokhai) is shares region of Sun Dance: Mentioned as a similar sacred ceremony of the Plains Indians."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The dance is associated with a solar deity and fertility cult; participants believe it allows them to capture the sun's energy for the year."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Join the Sakha people in a rhythmic circle dance that captures the energy of the summer solstice.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "chomus",
+   "kyrimpa"
+  ],
+  "vocal_style": "Improvisational singing with Kylyhakh (vocal cord vibration).",
+  "musical_form": "Call and response (lead singer and circle).",
+  "mood": [
+   "celebratory",
+   "rhythmic",
+   "communal"
+  ],
+  "sound_description": "A rhythmic, communal sound characterized by vocal improvisation and the vibration of the Kylyhakh technique, accompanied by the metallic twang of the chomus and the strings of the kyrimpa.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Ohuokhai (Osuokhai) (Russia). Instruments: chomus, kyrimpa. Vocal style: Improvisational singing with Kylyhakh (vocal cord vibration).. Form: Call and response (lead singer and circle).. Mood: celebratory, rhythmic, communal. It should sound like this: A rhythmic, communal sound characterized by vocal improvisation and the vibration of the Kylyhakh technique, accompanied by the metallic twang of the chomus and the strings of the kyrimpa. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "iIXvlEt9xvw",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The dance is performed in an 'alas' (a large meadow), often near a 'World Tree' (Aal Luuk Mas). Participants often wear traditional costumes during the Yhyakh festival.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AFeeding_the_fire.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AOhuokhai.jpeg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Feeding_the_fire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/37/Feeding_the_fire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Humano92 / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AFeeding_the_fire.jpg",
+    "description": "The Yakut national ritual called \"Feeding the fire\"."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ohuokhai.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ohuokhai.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Humano92 / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOhuokhai.jpeg",
+    "description": "The Yakut national dance Ohuokhai"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Yakut Ohuokhai dance.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Yakut_Ohuokhai_dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "T., Sergej / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "The summer sun",
+   "Traditional white clothing",
+   "The World Tree",
+   "Hands linked in a circle"
+  ],
+  "costume_notes": "The dance is performed in an 'alas' (a large meadow), often near a 'World Tree' (Aal Luuk Mas). Participants often wear traditional costumes during the Yhyakh festival.",
+  "setting_notes": "The dance is performed during the Yhyakh festival to celebrate the summer solstice, the triumph of life, and the rebirth of nature. It symbolizes the circle of life and the capturing of solar energy.",
+  "map": {
+   "country": "Russia",
+   "region": "East Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "14 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 14,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 8"
+  ],
+  "cues": [
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "keep it flat on the ground",
+   "switch",
+   "slide",
+   "hit"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "count_in",
+   "warmup",
+   "breakdown",
+   "music_practice",
+   "slow_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Yhyakh",
+  "https://www.wikidata.org/wiki/Q2390522",
+  "https://it.wikipedia.org/wiki/Yhyach"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "3efb9ce348c4d3c82834519c8c1febc2e8130480f1f30263e16abe56fe96081c",
+ "hero_checked": "pass"
+}

@@ -2,7 +2,7 @@
  "slug": "jazz-dance",
  "name": "Jazz dance",
  "pack_version": "e2",
- "built_at": "2026-11-09T21:52:47Z",
+ "built_at": "2026-11-11T18:54:11Z",
  "researched_at": "2026-11-09T20:54:18Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -324,7 +324,9 @@
      "duration_s": 60,
      "narration": [
       "avoid turning feet out as in ballet; respect cultural origins and avoid appropriation",
-      "Teachers of this dance warn against: rounding over instead of keeping a flat back during stretches"
+      "Teachers of this dance warn against: rounding over instead of keeping a flat back during stretches",
+      "Teachers of this dance warn against: pitching forward during a sumo squat",
+      "Teachers of this dance warn against: leaning back during a sumo squat"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -472,7 +474,9 @@
      "duration_s": 60,
      "narration": [
       "avoid turning feet out as in ballet; respect cultural origins and avoid appropriation",
-      "Teachers of this dance warn against: rounding over instead of keeping a flat back during stretches"
+      "Teachers of this dance warn against: rounding over instead of keeping a flat back during stretches",
+      "Teachers of this dance warn against: pitching forward during a sumo squat",
+      "Teachers of this dance warn against: leaning back during a sumo squat"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -621,7 +625,9 @@
      "duration_s": 60,
      "narration": [
       "avoid turning feet out as in ballet; respect cultural origins and avoid appropriation",
-      "Teachers of this dance warn against: rounding over instead of keeping a flat back during stretches"
+      "Teachers of this dance warn against: rounding over instead of keeping a flat back during stretches",
+      "Teachers of this dance warn against: pitching forward during a sumo squat",
+      "Teachers of this dance warn against: leaning back during a sumo squat"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -843,8 +849,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "5-6-7-8",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
@@ -854,10 +860,17 @@
   "cues": [
    "don't forget to breathe",
    "drop your shoulders",
-   "keep a flat back"
+   "keep a flat back",
+   "straight down",
+   "straight back up",
+   "find length in your spine",
+   "squeeze through your glute muscles"
   ],
   "common_mistakes": [
-   "rounding over instead of keeping a flat back during stretches"
+   "rounding over instead of keeping a flat back during stretches",
+   "pitching forward during a sumo squat",
+   "leaning back during a sumo squat",
+   "crunched up back during a pyramid stretch"
   ],
   "segment_order": [
    "intro",
@@ -878,6 +891,26 @@
     "name": "Plie",
     "counts": "1-2-3-4",
     "description": "Bend knees in first and second position"
+   },
+   {
+    "name": "Jumping Jacks",
+    "counts": "4-3-2-1",
+    "description": "A full-body exercise involving jumping with legs apart and arms overhead."
+   },
+   {
+    "name": "Plié",
+    "counts": "4-3-2-1",
+    "description": "A bending of the knees while keeping the back straight."
+   },
+   {
+    "name": "Sumo Squat",
+    "counts": "4-3-2-1",
+    "description": "A wide-stance squat with knees pointing outward."
+   },
+   {
+    "name": "Runner's Lunge",
+    "counts": "4-3-2-1",
+    "description": "A deep lunge with one leg forward and the other extended back."
    }
   ]
  },
@@ -895,6 +928,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "4560c16094693caa8dbde08f1e82a661bb4abb4bb2cfeb964ff3ad357750f5ac",
+ "input_fingerprint": "4c5c389e64f5976862ec61eced1e9ad8b92e616a64895483d3bae190e87d88de",
  "hero_checked": "pass"
 }

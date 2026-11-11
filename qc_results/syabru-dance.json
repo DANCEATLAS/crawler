@@ -1,0 +1,118 @@
+{
+ "slug": "syabru-dance",
+ "qc_at": "2026-11-11T18:39:34Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.45,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Syabru dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "67"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "119"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "During Gyalpo Lhosar in Nepal, Sherpa and Yolmo dancers trace slow circles and l"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "574"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2370"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "8/8 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Nepal"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ritual']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and well-supported by the provided evidence. It maintains a respectful tone and provides a clear, accessible overview of the dance's communal nature. The teaching and adaptation sections are safe and appropriate for the style described."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=9.45"
+ ],
+ "citation": {
+  "claims": 8,
+  "supported": 8,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-11T17:21:02Z"
+}

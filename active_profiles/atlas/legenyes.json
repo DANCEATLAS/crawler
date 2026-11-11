@@ -1,13 +1,68 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Solo dancer in front of the band",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "highly rhythmic",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "virtuoso",
+        "rhythmic",
+        "complex"
+      ],
+      "musical_form": "Each man typically has his own song",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Women stand in lines to the side and sing/shout verses"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Perform a 4-count opening phrase",
+        "Execute 3 additional 4-count phrases to complete a point",
+        "Repeat for 4 to 8 points without repetition"
+      ],
+      "formation": "Solo dancer in front of a band, with women in lines to the side",
+      "level_notes": "not described in sources",
+      "rhythm": "4 counts per part, 4 parts per point"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "ed4b01fd10a086e463bb10977adfacf730979a15673022d555f0cff3a36c472e",
+  "fingerprint": "ea3b89401bedc2a906e17cfacc9cefe8563fd5624bfb26af6f7a732def560099",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,8 +70,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
@@ -45,7 +99,7 @@
   ],
   "music_options": [],
   "name": "Legenyes",
-  "research_file": null,
+  "research_file": "research_results/legenyes.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +109,11 @@
     "session_modes": []
   },
   "slug": "legenyes",
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Leg%C3%A9nyes",
+    "https://www.wikidata.org/wiki/Q721454",
+    "https://fr.wikipedia.org/wiki/Legényes"
+  ],
   "state": "researching",
   "video_evidence": []
 }

@@ -1,0 +1,126 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "holding hands in a circle",
+      "difficulty": "beginner",
+      "footwork": "rhythmic stomping, left-right, forward-backward",
+      "formation_and_space": "circle",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "standing, holding hands",
+      "signature_moves": [
+        {
+          "description": "Rhythmic stomping while moving in a circle.",
+          "name": "Circle Stomp"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Babadok (hand drums)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "joyful",
+        "communal"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "rhythmic stomping",
+      "sound_description": "The music is characterized by communal, unison vocalization of rhyming poetry and the percussive beat of shoulder-slung Babadok hand drums.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "unison singing of poems and rhymes"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Hold hands with neighbors to form a circle.",
+        "Stomp feet in rhythm with the song.",
+        "Execute simultaneous left and right movements.",
+        "Execute forward and backward movements."
+      ],
+      "formation": "circle",
+      "level_notes": "not described in sources",
+      "rhythm": "rhythmic stomping according to the song"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "7040ede66966df2f4a346c901acd5ac82837bac474efb8ca6514ffc5b426c107",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:tebe-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Tebe dance",
+  "research_file": "research_results/tebe-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "tebe-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tebe_dance",
+    "https://www.wikidata.org/wiki/Q112061601",
+    "https://de.wikipedia.org/wiki/Tebe-Tebe_(Tanz)"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

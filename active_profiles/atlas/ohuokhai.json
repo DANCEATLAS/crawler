@@ -1,13 +1,65 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hand in hand or arm in arm.",
+      "difficulty": "beginner",
+      "footwork": "Left foot forward.",
+      "formation_and_space": "Large circle moving clockwise.",
+      "hips_and_torso": "Rhythmical, graceful movements.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Collective, hand-in-hand.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Moving in a circle to mimic the sun's path.",
+          "name": "Clockwise Circle"
+        }
+      ],
+      "tempo_feel": "Rhythmic.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "chomus",
+        "kyrimpa"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "celebratory",
+        "rhythmic",
+        "communal"
+      ],
+      "musical_form": "Call and response (lead singer and circle).",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A rhythmic, communal sound characterized by vocal improvisation and the vibration of the Kylyhakh technique, accompanied by the metallic twang of the chomus and the strings of the kyrimpa.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Improvisational singing with Kylyhakh (vocal cord vibration)."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a circle with participants holding hands or arms.",
+        "Step forward with the left foot.",
+        "Move in a clockwise direction.",
+        "Perform rhythmic body and arm movements in time with the song."
+      ],
+      "formation": "Large circle.",
+      "level_notes": "Beginner-friendly, focusing on communal movement.",
+      "rhythm": "Rhythmic, dictated by the lead singer's song."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "d5743546ec1579523a7fd653d8379b2cab111a99fe2573d16c0d22737b9e5998",
+  "fingerprint": "15b7be5831d7c5c11b78db481f4a88eacfcbfbd686cb38d30d53d92ce4a54b3d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +67,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +96,7 @@
   ],
   "music_options": [],
   "name": "Ohuokhai (Osuokhai)",
-  "research_file": null,
+  "research_file": "research_results/ohuokhai.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +106,11 @@
     "session_modes": []
   },
   "slug": "ohuokhai",
-  "sources": [],
-  "state": "researching",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yhyakh",
+    "https://www.wikidata.org/wiki/Q2390522",
+    "https://it.wikipedia.org/wiki/Yhyach"
+  ],
+  "state": "teaching_withheld",
   "video_evidence": []
 }

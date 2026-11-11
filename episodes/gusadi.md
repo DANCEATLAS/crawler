@@ -1,8 +1,8 @@
 # Gusadi — episode pack
 
-*Status: withheld-chapters · built 2026-11-10 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-11 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respectful tribal elder or a student of Kanaka Raju.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Gussadi King: Dancing for the Gods
 NARRATION: This is Gusadi. Ancient to contemporary.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (4elgx_kvEQU)
 ON SCREEN: Title card: Gusadi · India · Ancient to contemporary
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: The dance follows a defined set of seven moves known as the Edum Chaal.
 NARRATION: These include the Sur Chaal (introductory greeting), Gussadi Chaal (bending and rhythmic movement), Mahadevana Chaal (spiritual movement), Urum Chaal (mimicking a monitor lizard), Hedge Chaal (mimicking a bear), an animal-themed move, and the concluding Sakshi Chaal, which involves rapid spinning and a final high jump.
 NARRATION: Watch for Urum Chaal, Hedge Chaal.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (4elgx_kvEQU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Dancers move in lines and travel between villages.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -98,7 +98,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '4elgx_kvEQU', 'checked_by_vision_model': False, 'title': 'Must Watch Gonds Gussadi Dance, cultural dance lovers, traditional dance'}
 Images: 8 licensed — Pranayraj1985 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Varaprasad Sidam / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Department of Language and Culture, Government of Telangana / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Department of Language and Culture, Government of Telangana / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Department of Language and Culture, Government of Telangana / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Traditional Gussadi Dance of the Gond Tribe.webm — https://upload.wikimedia.org/wikipedia/commons/f/fc/Traditional_Gussadi_Dance_of_the_Gond_Tribe.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Gussadi Gondi Tribel Dance.webm — https://upload.wikimedia.org/wikipedia/commons/8/88/Gussadi_Gondi_Tribel_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Dandari Gussadi dance festival Adilabad district patnapur village.webm — https://upload.wikimedia.org/wikipedia/commons/e/ed/Dandari_Gussadi_dance_festival_Adilabad_district_patnapur_village.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:C0015.webm — https://upload.wikimedia.org/wikipedia/commons/7/7d/C0015.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Gussadi's getting ready for Performace - 2.webm — https://upload.wikimedia.org/wikipedia/commons/3/36/Gussadi%27s_getting_ready_for_Performace_-_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Gussadi's getting ready for Performace - 1.webm — https://upload.wikimedia.org/wikipedia/commons/c/cd/Gussadi%27s_getting_ready_for_Performace_-_1.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Peacock feathers on the Malpuve hat., The deep, resonant Thudum drum., Ash-covered skin and fake beards., The Gangaram Sota wooden stick.
@@ -108,9 +108,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of the ritual-sacred family studied · videos studied: 1
+Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
 Counting: 
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (2): https://en.wikipedia.org/wiki/Gussadi_dance; https://www.wikidata.org/wiki/Q65322207
