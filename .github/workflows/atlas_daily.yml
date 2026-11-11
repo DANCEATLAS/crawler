@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       stage:
-        description: "daily | bootstrap | audit | discover | research | qc | hero_qc | build | pedagogy | episodes | translate | sync | report | selftest"
+        description: "daily | bootstrap | audit | discover | research | qc | hero_qc | build | pedagogy | episodes | translate | activation | sync | report | selftest"
         default: "daily"
       research_new:
         description: "new dances to research this run"

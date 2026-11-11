@@ -1,0 +1,156 @@
+{
+  "schema": 1,
+  "reviewed_at": "2026-11-11",
+  "review_due_days": 30,
+  "evidence": "IMPLEMENTATION_LEDGER.md",
+  "owner_action": {
+    "status": "resolved",
+    "verified_at": "2026-11-11",
+    "valid_days": 7,
+    "reason": "The owning Supabase organization and existing Dance Atlas project are accessible. No sign-in or new project is needed."
+  },
+  "areas": [
+    {
+      "id": "atlas",
+      "vision_ids": [
+        "V01",
+        "V02"
+      ],
+      "title": "Atlas & discovery",
+      "status": "Growing",
+      "text": "Regional browsing exists. Full filters for purpose, rare dances, belief and solo/pair/group learning still need work.",
+      "next": "Check identities, origins and missing discovery fields."
+    },
+    {
+      "id": "culture",
+      "vision_ids": [
+        "V12"
+      ],
+      "title": "Culture, history & spirituality",
+      "status": "Being checked",
+      "text": "Source checks and restricted-teaching holds run. Community review and stronger evidence remain essential.",
+      "next": "Resolve conflicting claims and protect cultural restrictions."
+    },
+    {
+      "id": "teaching",
+      "vision_ids": [
+        "V03",
+        "V13"
+      ],
+      "title": "Active Profiles & teaching",
+      "status": "In preparation",
+      "text": "Per-dance research, timestamped video evidence, rights and human-review queues are being introduced. Scripts are supporting assets; no interactive classes are validated.",
+      "next": "Resolve concrete gaps within existing budgets and validate small, representative learning trials."
+    },
+    {
+      "id": "bdf",
+      "vision_ids": [
+        "V04"
+      ],
+      "title": "BDF — AI guide and human friends",
+      "status": "Planned",
+      "text": "The initial AI dance mentor connects learners with multiple consenting human BDFs matched by their stated musical and social preferences.",
+      "next": "Separate private preference memory, matching consent and human relationship controls from public dance knowledge."
+    },
+    {
+      "id": "language",
+      "vision_ids": [
+        "V04"
+      ],
+      "title": "Languages & voices",
+      "status": "Drafts",
+      "text": "Native review, pronunciation and equivalent teaching still need validation.",
+      "next": "Review current translations before producing voices."
+    },
+    {
+      "id": "ages",
+      "vision_ids": [
+        "V05"
+      ],
+      "title": "Every age & ability",
+      "status": "Planned",
+      "text": "Caregiver-led infancy, later-life adaptations and age protections are specified; suitable experiences are not validated.",
+      "next": "Validate age-specific and accessible teaching before release."
+    },
+    {
+      "id": "community",
+      "vision_ids": [
+        "V06"
+      ],
+      "title": "Shared dance & belonging",
+      "status": "Planned",
+      "text": "Split-screen, on-camera and optional future AR sessions need consent, moderation, accessibility and measured synchronization.",
+      "next": "Design shared practice, continuing groups and safe fallbacks when network delay prevents live synchronization."
+    },
+    {
+      "id": "viral",
+      "vision_ids": [
+        "V08",
+        "V09"
+      ],
+      "title": "Viral dance culture",
+      "status": "Needs repair",
+      "text": "The collection exists; ranking periods and refresh reliability need repair before popularity can be trusted.",
+      "next": "Use the verified database schema to repair ranking windows, missing observations and refresh within current limits."
+    },
+    {
+      "id": "creation",
+      "vision_ids": [
+        "V10",
+        "V11"
+      ],
+      "title": "Create, collaborate & share",
+      "status": "Planned",
+      "text": "Challenge practice, original dances, outfits, backgrounds, split screens and approved social exports are not implemented.",
+      "next": "Prepare reusable creative assets with credit and permission records."
+    },
+    {
+      "id": "music",
+      "vision_ids": [
+        "V14"
+      ],
+      "title": "Credible, reusable music",
+      "status": "Briefs",
+      "text": "Musical references and briefs exist. Original tracks still need cultural review and documented reuse rights.",
+      "next": "Build tradition-specific musical tests and permissions before production."
+    },
+    {
+      "id": "spatial",
+      "vision_ids": [
+        "V07"
+      ],
+      "title": "AR teachers & shared stages",
+      "status": "Future",
+      "text": "Glasses, nearby virtual dancers, stages and audiences are the destination; no validated experience is recorded.",
+      "next": "Evaluate spatial delivery after teaching and motion are reliable."
+    },
+    {
+      "id": "economy",
+      "vision_ids": [
+        "V15",
+        "V16"
+      ],
+      "title": "Low costs & better technology",
+      "status": "Monitored",
+      "text": "Capped jobs and reusable assets support long-term growth. Actual spending and new technology need dated evidence.",
+      "next": "Investigate audit-log growth and no-op writes; preserve history before proposing retention or paid capacity."
+    },
+    {
+      "id": "continuity",
+      "vision_ids": [
+        "V17",
+        "V18"
+      ],
+      "title": "Continuity across platforms",
+      "status": "Recorded",
+      "text": "GitHub holds the full vision; Lovable mirrors it. Future AIs must preserve BDF, Viral and one-step owner requests.",
+      "next": "Keep this register and the platform ledger current after verified changes."
+    }
+  ],
+  "platform_observation": {
+    "verified_at": "2026-11-11",
+    "valid_days": 14,
+    "text": "The correct Supabase project is accessible. Audit history uses about 541 MB; database usage exceeds the displayed free allowance. Review growth and retention before any purchase or deletion."
+  },
+  "vision_revision": "DA-VISION-2026-11-11-ACTIVE"
+}

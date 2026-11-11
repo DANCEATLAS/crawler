@@ -1,27 +1,30 @@
-# NEXT STEPS — written by the machine on 2026-11-09
+# Next work — 2026-11-11
 
-*Regenerated every Monday by the weekly report from the library's own numbers. Read `AI_BRIEF.md` first; this file says where to push.*
+Read PRODUCT_VISION.md, AI_BRIEF.md, IMPLEMENTATION_LEDGER.md and NEXT_RUN_PLAN.md first. Continue independently within existing limits.
 
-## What the numbers say to do first
+## Current priorities
 
-1. **tempo (bpm)** is missing on 179 published pages — a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json.
-2. **licensed images (3 needed)** is missing on 147 published pages — a Wikimedia Commons category or file link in an editor note.
-3. **a verified recording to listen to** is missing on 129 published pages — a recording title the composer can verify in MusicBrainz (an album or single named in a source).
-4. **meter** is missing on 128 published pages — a source that states the time signature.
-5. **licensed reference footage** is missing on 127 published pages — a Commons video or an Internet Archive film naming the dance in its title.
-6. **132 dances have no hero video** — the crawler retries them every 21 days; an editor note with a channel or search phrase helps the stubborn ones.
-7. **102 pages wait in review** — each needs one decision in `audit_overrides.json` or one editor note (`WEEKLY_PASS.md`).
-8. **No page is film-grade yet** — the closest ones and what they lack are in `WEEKLY_REPORT.md` §6; the editor's approval is the last item on every one of them.
+- Resolve concrete gaps within existing budgets and validate small, representative learning trials.
+- Use the verified database schema to repair ranking windows, missing observations and refresh within current limits.
+- Build tradition-specific musical tests and permissions before production.
 
-## Decisions still open (the owner's)
+## Specific research gaps
 
-- Video platform for the episodes (the packs are platform-neutral; one exporter when named).
-- Music generator and voice-over tool (briefs and narration are ready; licences and cost are the owner's call).
-- Showing the deep profiles and the episodes on the website (one Lovable paste, `LOVABLE_UI_PROMPT.md`).
-- OpenAI top-up when the prepaid balance is spent (the run says so in `STATUS.md` and here).
+- tempo (bpm): 207 pages — a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json.
+- a verified recording to listen to: 195 pages — a recording title the composer can verify in MusicBrainz (an album or single named in a source).
+- licensed images (3 needed): 169 pages — a Wikimedia Commons category or file link in an editor note.
+- meter: 154 pages — a source that states the time signature.
+- licensed reference footage: 139 pages — a Commons video or an Internet Archive film naming the dance in its title.
 
-## What not to touch
+## Owner-only action
 
-- The QC gates (`pipeline/qc.py`): fewer true pages beat more doubtful ones. The sacred rule. The no-invention rule in the scripts.
-- The budgets in the workflow: the machine lowers them itself when the models fail and raises them back; raising them above the defaults costs quota, not quality.
-- Lovable: content never goes through it; its AI is for layout only, once, with the prepared prompt.
+Nothing needs you this week. No owner-only action is currently recorded.
+
+Do not ask the owner to select production vendors, buy credits or copy files when independent preparation can continue. Present only one necessary action, in large plain language.
+
+## Keep the whole vision current
+
+- Update pipeline_state/vision_status.json after verified capability/access changes, with date and evidence in the ledger. Resolve an owner action promptly; do not leave an old sign-in request active.
+- Preserve BDF, Viral creation/distribution, multilingual teaching, life stages, community, music rights and future AR in every review. Specified is not implemented; generated is not validated.
+- Reconcile Atlas export, database mirror and script indexes; check scorer/crawler internal outcomes and stale translations.
+- Use free/prepaid limits and capped jobs; no new purchases, higher budgets, Lovable build or launch without authorization.

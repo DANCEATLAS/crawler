@@ -1,5 +1,7 @@
 # Script and production preparation for Dance Atlas
 
+**Superseded destination, 11 November 2026:** Active Profile is the current goal. Read ACTIVE_PROFILE_STANDARD.md and PRODUCT_VISION.md. The historical movie/script metrics below remain for compatibility and useful presentation assets; they do not establish interactive readiness.
+
 **Current direction: DA-VISION-2026-11-09-BDF.** Read `PRODUCT_VISION.md` in full. Batch episodes remain useful, but the destination is the lifelong Best Dance Friend mentor connecting Atlas, Viral learning/creation, music discovery, global community and future spatial experiences. `IMPLEMENTATION_LEDGER.md` distinguishes what is built, tested, published and still required.
 
 ## Existing preparation system

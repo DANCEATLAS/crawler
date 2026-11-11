@@ -1,6 +1,14 @@
 # Dance Atlas — complete product vision
 
-**Vision revision: DA-VISION-2026-11-09-BDF.** Owner's expanded direction, including Best Dance Friend, 9 November 2026. This is the authoritative product destination for every AI and contributor. Read `AI_BRIEF.md` for operations and `IMPLEMENTATION_LEDGER.md` for what actually exists. A requirement is not a claim that a feature has been built.
+## Owner update — 11 November 2026: Active Profiles and human BDFs
+
+The destination is **Active Profile** readiness for an exceptional interactive platform, not movie production. Prepare many thousands of profiles, ultimately every living dance with meaningful variants, while retaining the full Atlas and Viral vision below. The first AI BDF guides learners into multiple consenting human BDF relationships matched to their musical and social desires: shared experiences, learning, synchronized movement and belonging. Support split-screen, live on-camera/shared-screen participation and optional future AR.
+
+Read **ACTIVE_PROFILE_STANDARD.md** for the executable gap/review process and **MUSIC_STRATEGY.md** for masterpiece references, cleared choices and use-specific rights. Study both movement and distinctive teaching methods from videos; compare evidence and learner outcomes, not popularity. Keep dated technology research and benchmark requirements in **TECHNOLOGY_READINESS.md** and **pipeline_state/technology_watch.json**. Prepare content without betting on a vendor or arrival date. Preserve all free/prepaid caps; spend only where it resolves a concrete readiness gap.
+
+Maintain the current vision and actual progress on GitHub, Lovable Project instructions and Supabase's AI context mirror, so any authorized AI can continue. These records describe requirements separately from implementation. Legacy movie/episode fields are compatibility and presentation assets; they are never proof of interactive readiness.
+
+**Vision revision: DA-VISION-2026-11-11-ACTIVE.** Owner's expanded direction, including Best Dance Friend, 9 November 2026. This is the authoritative product destination for every AI and contributor. Read `AI_BRIEF.md` for operations and `IMPLEMENTATION_LEDGER.md` for what actually exists. A requirement is not a claim that a feature has been built.
 
 ## 1. Mission, BDF and the present assignment
 
@@ -184,6 +192,8 @@ Maximize useful accepted growth per unit cost while preserving cultural breadth 
 ### V16 — Monitoring and technology evolution
 
 Monitor stage outcomes, dependencies, freshness, quotas and unexpected spending. A green parent workflow is insufficient when an internal stage ignores errors. Maintain correction queues and the existing weekly report. Distinguish listed, researched, published, structurally complete, practitioner reviewed, rights assessed and release approved; add meaningful Atlas/Viral coverage separately.
+
+**Owner reporting (10 November 2026):** the weekly email must be simple, informative and readable in large type. Lead with measured progress and one necessary owner action at most. Cover every part of this vision using clear current, draft, missing and future states; link deeper evidence separately. Do not overwhelm the owner with technical tables or treat incomplete work as finished. Keep the dated capability record current, with stale information clearly flagged.
 
 During existing maintenance/review work, consider new capabilities against actual bottlenecks: sensing, controllable motion, multilingual interaction, credible music, co-creation, AR and distribution. Record date, primary evidence, test task, limitations and total cost. A provider demo is a candidate, not a pass. Preserve alternatives and run a small benchmark before recommending migration; no perpetual vendor lock-in or automatic purchase. New technology may expand the means, but must not silently change the mission, privacy rules or cultural standard.
 

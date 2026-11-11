@@ -9,6 +9,7 @@ The pass has one purpose: **make the daily machine produce better pages than it 
 like an editor, deciding what the machine cannot decide, and finding what the machine cannot find.
 
 ## 0. Health (5 minutes)
+- Read PRODUCT_VISION.md and IMPLEMENTATION_LEDGER.md; refresh pipeline_state/vision_status.json only after evidence-based review. Cover V01–V18, including BDF and Viral creation/distribution. Resolve completed owner actions. A dated capability description is not an automated feature test. Keep weekly email plain, brief and readable; detailed measurements belong in reports/weekly/details.md.
 - `STATUS.md`: `_Generated` should be within the last 36 hours (the cron fires 6–8 h late, that is normal). "Recent errors" empty or harmless.
 - `pipeline_state/runs.json`: the last `research`/`qc`/`build`/`sync` entries finished without `errors`.
 - If the daily run is broken: open the run log (Chrome → github.com/DANCEATLAS/crawler/actions → latest `atlas_daily` → job → raw log),
@@ -82,3 +83,11 @@ do not repeat them. If nothing needs him, say so in four words.
 - Do not rewrite pages by hand in the JSON — write an editor note and let the machine re-research with sources; hand-written text would carry no verified quotes.
 - Do not loosen the QC gates to publish more. Fewer true pages beat more doubtful ones.
 - Do not spend more than one session; what is left waits for next Monday.
+
+## Resume checkpoint — 11 November 2026
+
+Read `NEXT_RUN_PLAN.md` before the next substantive pass. The existing Dance Atlas Supabase project is accessible; do not repeat account creation or sign-in requests. Keep Sunfeld outside this work. Preserve all V01–V18 requirements and update measured state rather than treating the vision as implemented.
+
+## Active Profile continuation — 11 November 2026
+
+Read ACTIVE_PROFILE_STANDARD.md, MUSIC_STRATEGY.md, ACTIVE_PROFILE_REPORT.md and NEXT_RUN_PLAN.md. Active Profile replaces movie readiness as the destination. Review every gap stream, including video teaching methods, human BDF relationships, shared/split-screen/camera experiences, AR readiness and music choices. Recheck due primary sources in pipeline_state/technology_watch.json; record actual checks, not just a new date. Keep all caps unchanged. Maintain matching revision DA-VISION-2026-11-11-ACTIVE in GitHub, Lovable instructions and the Supabase private AI context; linked current ledgers are authoritative. Do not represent this playbook change as proof that an external Claude schedule was changed.

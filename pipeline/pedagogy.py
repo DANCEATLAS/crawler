@@ -13,7 +13,7 @@ of how the best teachers teach. pipeline/episodes.py follows it when it writes t
 atlas is built on the same evidence rather than on one teacher's habits. The playbook grows a little every day; nothing is
 ever extracted twice; a video that cannot be read is retried after 30 days.
 """
-import os, re, json, glob, time
+import os, re, json, glob, time, math
 from collections import Counter, defaultdict
 from .common import jload, jsave, load_state, log, warn, Report, LLM, now_iso, norm
 
@@ -38,9 +38,33 @@ Output a single JSON object:
  "common_mistakes": ["<mistake the teacher names and corrects>"], "safety": ["<body or safety advice given>"],
  "steps_taught": [{"name": "<step as the teacher calls it>", "counts": "<counts>", "description": "<one line>"}],
  "absorbability": {"what_works": ["<what makes this lesson easy to absorb>"], "what_hinders": ["<what gets in the way>"]},
- "quotes": [{"t": "m:ss", "text": "<verbatim quote, at most 15 words>"}]}
+ "quotes": [{"t": "m:ss", "text": "<verbatim quote, at most 15 words>"}],
+ "evidence_segments": [{"start_s": 0, "end_s": 10, "topic": "movement|teaching",
+   "observation": "<specific observed movement or teaching method; describe, do not transcribe>",
+   "viewpoint": "<angle and whether the image is mirrored; unknown if unclear>",
+   "cannot_infer": "<occlusion, weight transfer, fast movement or other uncertainty>"}],
+ "distinctive_method": "<a specific unusual approach worth comparing, not a claim it is best>"}
 Rules: 3 to 6 quotes; every list item must come from the video; empty lists when the video shows nothing of the kind;
-never invent timestamps; if dance_confirmed is false, keep every list empty."""
+never invent timestamps; if dance_confirmed is false, keep every list empty. Only the first 480 seconds are supplied.
+Give at most 6 evidence_segments. A sampled frame does not establish continuous motion or weight transfer.
+Separate what the teacher says from what you can observe. Never infer teaching effectiveness from views/likes.
+The extraction is an unreviewed candidate. Describe uncertainty; do not invent corrections or missing counts."""
+
+
+def evidence_segments(items):
+    out = []
+    for item in items if isinstance(items, list) else []:
+        if not isinstance(item, dict):
+            continue
+        start, end = item.get("start_s"), item.get("end_s")
+        if (type(start) not in (int, float) or type(end) not in (int, float)
+                or not math.isfinite(start) or not math.isfinite(end) or not 0 <= start < end <= 480
+                or item.get("topic") not in ("movement", "teaching") or not item.get("observation")):
+            continue
+        out.append({"start_s": start, "end_s": end, "topic": item["topic"],
+                    **{k: str(item.get(k) or "")[:400] for k in ("observation", "viewpoint", "cannot_infer")},
+                    "verification": "model_candidate"})
+    return out[:6]
 
 def _norm_cue(s):
     return re.sub(r"[^a-z0-9' -]", "", (s or "").lower()).strip()
@@ -58,7 +82,7 @@ def pick_targets(budget, only=None):
     done = {os.path.basename(f)[:-5]: jload(f, {}) or {} for f in glob.glob(os.path.join(VIDEOS_DIR, "*.json"))}
     today = time.time()
     def retry_ok(v):
-        if v.get("status") == "ok" or v.get("status") == "not_a_lesson":
+        if (v.get("status") == "ok" and v.get("evidence_version") == 2) or v.get("status") == "not_a_lesson":
             return False
         t = v.get("analysed_at") or ""
         try:
@@ -94,7 +118,10 @@ def analyse(slug, yid, lesson, dance_name, llm):
             f"Watch the video (first minutes) and extract how the teacher teaches, as specified.")
     jd = llm.json(EXTRACT_SYSTEM, user, strong=False, temperature=0.1, max_tokens=3000, video_url=url, video_seconds=480)
     rec = {"youtube_id": yid, "slug": slug, "dance": dance_name, "title": lesson.get("title"), "channel": lesson.get("channel"), "viewer_ratio": lesson.get("ratio"),
-           "analysed_at": now_iso(), "url": url}
+           "analysed_at": now_iso(), "url": url, "evidence_version": 2,
+           "observation_window": {"start_s": 0, "end_s": 480, "resolution": "low",
+                                  "sampling": "provider default; not continuous motion capture",
+                                  "human_verified": False}}
     if not jd:
         rec["status"] = "failed"; return rec
     if jd.get("dance_confirmed") is False:
@@ -120,6 +147,8 @@ def analyse(slug, yid, lesson, dance_name, llm):
     ex["absorbability"] = {"what_works": [str(c)[:160] for c in (ab.get("what_works") or []) if isinstance(c, str)][:6],
                            "what_hinders": [str(c)[:160] for c in (ab.get("what_hinders") or []) if isinstance(c, str)][:6]}
     ex["quotes"] = [{"t": str(q.get("t") or "")[:8], "text": str(q.get("text") or "")[:160]} for q in (jd.get("quotes") or []) if isinstance(q, dict) and q.get("text")][:6]
+    ex["evidence_segments"] = evidence_segments(jd.get("evidence_segments"))
+    ex["distinctive_method"] = str(jd.get("distinctive_method") or "")[:400]
     rec["status"] = "ok"; rec["extraction"] = ex
     return rec
 
