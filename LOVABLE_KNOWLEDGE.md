@@ -41,7 +41,7 @@ Record composition AND recording evidence, exact assets, musician/cultural revie
 
 PROJECT MAP AND ARCHITECTURE
 GitHub DANCEATLAS/crawler owns research, content, code, reports and capped Actions, independent of Lovable or an active owner session. App boot fetches https://raw.githubusercontent.com/DANCEATLAS/crawler/main/public/catalog/dances.app.json (dw_app_v1; styles OBJECT keyed by slug) and retired.json, with cache/bundled fallback. Preserve raw URLs, contracts, hero precedence, retirement redirects and graceful fallback.
-Supabase maojpsywvbksrwkrxmjx is the existing Dance Atlas backend, accessible despite its email-derived default display name. It supplies Viral/account features and a catalogue mirror; inspect real schema/policies before changes. Sunfeld is separate and on hold; leave it alone.
+Supabase maojpsywvbksrwkrxmjx is the existing Dance Atlas backend, accessible and now visibly named Dance Atlas (the former default name was corrected on 11 November). It supplies Viral/account features and a catalogue mirror; inspect real schema/policies before changes. Sunfeld is separate and on hold; leave it alone.
 
 RESOURCE INTELLIGENCE AND CONTINUITY
 Keep all workflow caps, free tiers and prepaid fallback. Cache evidence, skip unchanged inputs, bound retries and preserve good data on failure. No new subscriptions/billing/purchases, public launch/promotion or two-way Lovable GitHub sync without explicit authorization.
