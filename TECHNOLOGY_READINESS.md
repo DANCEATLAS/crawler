@@ -1,5 +1,11 @@
 # Technology readiness for Dance Atlas
 
+## Current assessment — 11 November 2026
+
+Active Profiles are the target. Read ACTIVE_PROFILE_STANDARD.md and MUSIC_STRATEGY.md. The primary-source watchlist is pipeline_state/technology_watch.json, due for recheck 25 November, then at least fortnightly during active development. The offline activation stage flags overdue evidence; an authorized research session must actually re-read sources. It does not browse or certify new technology itself.
+
+Current documentation supports timestamped video analysis, browser pose landmarks, bidirectional communication and spatial APIs as components. It does not establish accurate Dance Atlas teaching, human BDF matching or synchronized dancing. Our inference: compose independently replaceable components and validate each against reviewed dances. Fast movement, occlusion, weight transfer, cultural variation, native cues and affordable real-time operation remain acceptance questions. No arrival date, purchase or automatic provider upgrade is assumed. The watchlist records findings, benchmarks, dates and zero authorized new spending. Historical notes below remain dated context.
+
 Assessment date: 9 November 2026. This is a decision record, not an installed tool list or a purchase authorization.
 
 ## Conclusion
