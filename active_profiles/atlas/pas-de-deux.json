@@ -1,0 +1,166 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "partner lifts",
+          "complex turns"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "lifts",
+          "fast turns",
+          "jumps"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Expressive, often framing the ballerina; male dancer offers steady hand or arm for support",
+      "difficulty": "advanced",
+      "footwork": "Ballerina performs pointe work and turns; male dancer uses flat or demi-pointe; includes leaps, balances, and supported turns",
+      "formation_and_space": "Duo close together, alternating center stage solos, often symmetrical spatial patterns",
+      "hips_and_torso": "Controlled, with subtle shifts to maintain balance during lifts and turns",
+      "levels_and_jumps": "Intermediate to advanced; includes jumps and lifts requiring strength and coordination",
+      "partnering": "Male dancer supports ballerina with lifts, steadies turns, and provides balance; requires trust and timing",
+      "posture": "Upright, poised, with lifted chest and elongated neck",
+      "signature_moves": [
+        {
+          "description": "Slow, sustained movements with male dancer lifting and steadying ballerina",
+          "name": "Supported Adagio"
+        },
+        {
+          "description": "Ballerina turns on one leg with male dancer providing balance and momentum",
+          "name": "Pirouette Supported"
+        },
+        {
+          "description": "Male dancer lifts ballerina overhead or in various poses",
+          "name": "Lift (Portée)"
+        },
+        {
+          "description": "Fast-paced combined movements culminating in a dramatic finish",
+          "name": "Coda Finale"
+        }
+      ],
+      "tempo_feel": "Varies from slow and sustained in adagio to brisk and dynamic in variations and coda",
+      "what_to_avoid": "Avoid unsafe lifts without proper training; beginners should not attempt complex partnering without supervision"
+    },
+    "music_profile": {
+      "instruments": [
+        "Orchestra with strings, woodwinds, brass, percussion"
+      ],
+      "meter": "Typically 3/4 or 4/4 common time",
+      "mood_keywords": [
+        "romantic",
+        "graceful",
+        "dramatic",
+        "virtuosic"
+      ],
+      "musical_form": "Five-part suite: entrée, adagio, two variations, coda",
+      "reference_recordings": [
+        {
+          "artist": "Pyotr Ilyich Tchaikovsky",
+          "title": "Swan Lake Pas de Deux"
+        },
+        {
+          "artist": "Pyotr Ilyich Tchaikovsky",
+          "title": "Sleeping Beauty Bluebird Pas de Deux"
+        },
+        {
+          "artist": "Ludwig Minkus",
+          "title": "Don Quixote Grand Pas de Deux"
+        }
+      ],
+      "rhythm_pattern": "Flexible to support lyrical adagio and virtuosic coda; includes sustained melodic lines and rhythmic bursts",
+      "sound_description": "The music transitions from slow, lyrical melodies supporting graceful, sustained movements to fast, energetic passages highlighting technical virtuosity and dramatic flair.",
+      "tempo_bpm": "Varies; slow adagio sections around 60-80 bpm, coda sections faster, up to 120-140 bpm",
+      "vocal_style": "Usually instrumental; no vocals"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Entrée: dancers enter stage and acknowledge each other",
+        "Adagio: slow, supported movements with lifts and balances",
+        "Male variation: solo featuring leaps and turns",
+        "Female variation: solo featuring pointe work and turns",
+        "Coda: fast-paced duet finale with combined elements"
+      ],
+      "formation": "Duet, dancers close together, alternating solos in center stage",
+      "level_notes": "Beginners start with supported adagio movements and simple partnering; advanced levels include complex lifts, turns, and fast footwork",
+      "rhythm": "Varies from slow adagio to fast coda, typically in classical ballet meter"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "8aae0fa40ae0e52e7ab2e21119fd72bd2eeb601ebf901c7ac673ec002c0d2aaf",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits"
+    ]
+  },
+  "id": "atlas:pas-de-deux",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "pas de deux",
+  "research_file": "research_results/pas-de-deux.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "pas-de-deux",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pas_de_deux",
+    "https://www.wikidata.org/wiki/Q909781",
+    "https://es.wikipedia.org/wiki/Pas_de_deux",
+    "https://fr.wikipedia.org/wiki/Pas_de_deux",
+    "https://pt.wikipedia.org/wiki/Pas_de_Deux"
+  ],
+  "state": "researching",
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/9u6PDCrW948.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=9u6PDCrW948"
+    },
+    {
+      "file": "pedagogy/videos/VbhQl9KQp_Q.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=VbhQl9KQp_Q"
+    }
+  ]
+}

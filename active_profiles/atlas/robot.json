@@ -1,0 +1,148 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex muscle isolations",
+          "Fast tempo",
+          "Long routines"
+        ],
+        "counts": "Simplified 4-counts with emphasis on stopping and starting.",
+        "duration_minutes": "5",
+        "game_version": "Robot freeze game where children move like robots and freeze on cue."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid stops",
+          "Large jumps",
+          "Extended balance poses"
+        ],
+        "counts": "Simplified counts focusing on clear start and stop cues.",
+        "seated_version": "Practice isolated arm and hand movements with dimestops while seated.",
+        "standing_version": "Perform slow, small-range limb movements with support as needed.",
+        "tempo_and_range": "Reduced tempo and smaller movement range to avoid strain."
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Segmented, isolated arm movements with abrupt stops (dimestops). Hands often held stiffly, mimicking robot joints.",
+      "difficulty": "beginner to intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Performed solo, socially in couples, or in small groups; spatial paths are linear or angular to simulate mechanical motion.",
+      "hips_and_torso": "Minimal movement; torso remains stiff to maintain robotic illusion.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Social couple dancing exists but not detailed in sources.",
+      "posture": "Rigid, upright, with controlled muscle tension to simulate mechanical stiffness.",
+      "signature_moves": [
+        {
+          "description": "Abrupt halt of movement simulating a motor starting or stopping.",
+          "name": "Dimestop"
+        }
+      ],
+      "tempo_feel": "Steady, deliberate tempo matching music beats; movements start and stop sharply.",
+      "what_to_avoid": "Loose or fluid movements that break the mechanical illusion."
+    },
+    "music_profile": {
+      "instruments": [
+        "synthesizer",
+        "drum machine",
+        "bass guitar"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "mechanical",
+        "futuristic",
+        "steady",
+        "electronic"
+      ],
+      "musical_form": "Typically repetitive grooves with clear downbeats.",
+      "reference_recordings": [
+        {
+          "artist": "The Jackson 5",
+          "source": "https://en.wikipedia.org/wiki/Robot_(dance)",
+          "title": "Dancing Machine"
+        }
+      ],
+      "rhythm_pattern": "Steady, distinct beats to synchronize mechanical stops and starts.",
+      "sound_description": "Electronic funk with steady, repetitive beats, synthesizer melodies, and rhythmic bass lines that emphasize clear downbeats to match the robot's mechanical stops.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Instrumental or with robotic-themed vocals; sometimes a cappella with beatboxing."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand upright with a rigid posture.",
+        "Isolate one arm and move it slowly in a segmented motion.",
+        "Perform a dimestop by abruptly halting the arm movement.",
+        "Repeat with the other arm and legs, maintaining mechanical stiffness.",
+        "Combine limb movements with stops to simulate robot motors."
+      ],
+      "formation": "Typically solo or small groups; social couple dancing also practiced.",
+      "level_notes": "Beginners focus on slow, isolated movements and clear stops; advanced dancers relax muscles subtly while maintaining illusion.",
+      "rhythm": "Best danced to music with distinct, steady beats such as electrofunk."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "cb15fff4221fbae2d6df62df43bae5992a7edf4e9678c5741a97da4d06156b2c",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:robot",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "robot",
+  "research_file": "research_results/robot.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "robot",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Robot_(dance)",
+    "https://www.wikidata.org/wiki/Q2725666",
+    "https://pt.wikipedia.org/wiki/Robô_(dança)",
+    "https://it.wikipedia.org/wiki/Robot_(danza)",
+    "https://archive.org/details/smash-hits-1979-12-13"
+  ],
+  "state": "researching",
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/ee_-Yhq3eN4.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=ee_-Yhq3eN4"
+    }
+  ]
+}

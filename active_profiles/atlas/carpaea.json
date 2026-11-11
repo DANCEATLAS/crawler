@@ -1,0 +1,123 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Includes gestures of sowing seeds and handling weapons.",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Two-person interaction around a central area representing the field.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "High-interaction combat choreography.",
+      "posture": "Alert and cautious for the farmer; stealthy for the robber.",
+      "signature_moves": [
+        {
+          "description": "A rhythmic turn of the head while walking to mimic looking for danger.",
+          "name": "The Sower's Scan"
+        }
+      ],
+      "tempo_feel": "Rhythmic and responsive to the flute.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "aulos"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "tense",
+        "rhythmic",
+        "mimetic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmic, following the movements of the combatants.",
+      "sound_description": "The music is driven by the aulos, providing a steady, rhythmic pulse that dictates the pace of the agricultural pantomime and the subsequent combat.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Farmer's walk: Rhythmic, cautious steps while mimicking sowing seeds.",
+        "Vigilance turn: A sharp, rhythmic turn of the head to scan the environment.",
+        "Weapon retrieval: A sudden shift from agricultural labor to a defensive stance.",
+        "Combat engagement: Rhythmic, stylized fighting movements coordinated with a partner."
+      ],
+      "formation": "Two-person interaction, involving a central space for the 'oxen' and 'field'.",
+      "level_notes": "Requires high coordination and rhythmic timing between two partners.",
+      "rhythm": "Rhythmic, set to the tempo of an aulos."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "6948f8395c616c0e31ce06218c9df20a8c4474c579d0317b94dade4fcab71a9a",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:carpaea",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Carpaea",
+  "research_file": "research_results/carpaea.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "carpaea",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Carpaea",
+    "https://www.wikidata.org/wiki/Q3266329",
+    "https://es.wikipedia.org/wiki/Carpea",
+    "https://it.wikipedia.org/wiki/Carpaia"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

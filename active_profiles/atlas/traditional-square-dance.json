@@ -1,0 +1,142 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex visiting-couple patterns",
+          "fast appalachian tempos"
+        ],
+        "counts": "Count to 4 or 8 steadily while moving in a circle.",
+        "duration_minutes": "15",
+        "game_version": "A simplified circle game where children follow a caller's spoken directions to change partners."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "rapid turns",
+          "sudden directional shifts",
+          "balancing strain"
+        ],
+        "counts": "Walk 8 counts per movement phrase at a slowed tempo.",
+        "seated_version": "Perform hand gestures, arm swings, and upper body turns while seated in a circle formation.",
+        "standing_version": "Stand in a stationary square formation with a partner, walking slowly through figures without rapid turns.",
+        "tempo_and_range": "Reduced tempo with minimal range of motion."
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Regional variations in hand or arm position during basic movements like 'do-si-do'",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Four-couple square formation or large circle where a single couple visits other couples in turn",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Facing pairs of couples or active visiting couples interacting with each couple in the set",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "A basic movement common across the Northeastern repertoire where women chain across the square.",
+          "name": "ladies chain"
+        },
+        {
+          "description": "A foundational movement shared across Northeastern figure sets.",
+          "name": "right and left"
+        },
+        {
+          "description": "A unique Southeastern figure composed of movements that appear in no other dance.",
+          "name": "Bird in the Cage"
+        }
+      ],
+      "tempo_feel": "Synchronized with musical phrases in the Northeast; moving in time with the beat without phrase synchronization in the Southeast",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "fiddle",
+        "piano",
+        "banjo",
+        "guitar",
+        "double bass",
+        "accordion",
+        "hammered dulcimer"
+      ],
+      "meter": "6/8 time (jigs) and 2/4 time (reels)",
+      "mood_keywords": [
+        "lively",
+        "energetic",
+        "folk",
+        "rhythmic"
+      ],
+      "musical_form": "Binary AABB",
+      "reference_recordings": [],
+      "rhythm_pattern": "Binary form AABB pattern with 8 measures (16 downbeats) per part",
+      "sound_description": "Acoustic folk music driven by a lead fiddle playing brisk Scottish and Irish tunes, anchored by a regional rhythm section of piano, banjo, or guitar.",
+      "tempo_bpm": "130",
+      "vocal_style": "Singing calls where callers substitute dance directions for lyrics during fiddle-tune-structured songs"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Join hands in a square or circle formation with other couples",
+        "Execute basic movements such as 'ladies chain' or 'right and left' upon hearing the call",
+        "Walk through dance figures step-by-step prior to dancing to live music"
+      ],
+      "formation": "Four-couple square formation or a large circle containing any number of couples",
+      "level_notes": "Learned through assimilation and caller walkthroughs rather than formal series of lessons.",
+      "rhythm": "6/8 time for jigs and 2/4 time for reels"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "f5fe672078099355149b158446eb18f68bb74ae36786cf49dfef433ee3638d8f",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:traditional-square-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Traditional Square Dance",
+  "research_file": "research_results/traditional-square-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "traditional-square-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Traditional_square_dance",
+    "https://www.wikidata.org/wiki/Q2447772",
+    "https://de.wikipedia.org/wiki/Traditional_Square_Dance"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

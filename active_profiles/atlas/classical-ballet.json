@@ -1,0 +1,141 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Pointe work",
+          "Advanced jumps",
+          "Strenuous core exercises"
+        ],
+        "counts": "Simplified counts (1-4).",
+        "duration_minutes": "30",
+        "game_version": "Games focusing on identifying the five positions and basic arm movements."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "High-impact extensions",
+          "Complex turns requiring balance"
+        ],
+        "counts": "Simplified counts for coordination.",
+        "seated_version": "Barre exercises performed while seated to maintain alignment and turnout.",
+        "standing_version": "Supported barre work focusing on posture and gentle leg extensions.",
+        "tempo_and_range": "Reduced tempo and limited range of motion to ensure safety."
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Five positions of the arms, standardized to complement the feet.",
+      "difficulty": "advanced",
+      "footwork": "Based on five fundamental positions of the feet, performed with turnout.",
+      "formation_and_space": "Standardized layouts for stage and studio reference points.",
+      "hips_and_torso": "Strong core engagement; turnout originates from the hip joint.",
+      "levels_and_jumps": "Includes jumps (ballon) and turns using spotting.",
+      "partnering": "Includes lifts and support, typically introduced as dancers gain strength.",
+      "posture": "Upright, aligned, with turnout emanating from the hips.",
+      "signature_moves": [
+        {
+          "description": "Supporting body weight on the tips of fully extended feet in pointe shoes.",
+          "name": "Pointe work"
+        },
+        {
+          "description": "Outward rotation of the legs and feet from the hip.",
+          "name": "Turnout"
+        }
+      ],
+      "tempo_feel": "Precise and controlled.",
+      "what_to_avoid": "Premature pointe work before feet are fully developed (typically before age 12)."
+    },
+    "music_profile": {
+      "instruments": [
+        "Piano",
+        "Violin"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "precise",
+        "flowing"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Music for ballet class is typically played on piano, with the musician improvising or selecting repertoire to match the specific rhythm and energy of the teacher's exercises.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "First position of the feet",
+        "Second position of the feet",
+        "Third position of the feet",
+        "Fourth position of the feet",
+        "Fifth position of the feet"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "Training is divided into levels based on strength, flexibility, and technical proficiency.",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "8e1f7d49352f68ba1f168ace01319791d29d14fbc4e534d75ea3ae175eb9098b",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:classical-ballet",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Classical Ballet",
+  "research_file": "research_results/classical-ballet.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "classical-ballet",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Classical_ballet",
+    "https://www.wikidata.org/wiki/Q2342373",
+    "https://es.wikipedia.org/wiki/Ballet_clásico",
+    "https://it.wikipedia.org/wiki/Danza_accademica"
+  ],
+  "state": "researching",
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/CEeKwg91lVc.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=CEeKwg91lVc"
+    }
+  ]
+}

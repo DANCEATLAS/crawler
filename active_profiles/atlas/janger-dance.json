@@ -1,0 +1,129 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Female dancers emphasize fluid, undulating arm movements",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "Male dancers in two rows of six facing each other; female dancers form two lines of six; male dancers form boundary around playing area",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Elaborate vocal and movement routine performed by 12 male dancers",
+          "name": "Kecak routine"
+        },
+        {
+          "description": "Slower dance by female group emphasizing undulating arm gestures",
+          "name": "Fluid arm movements"
+        }
+      ],
+      "tempo_feel": "Male routine is elaborate and rhythmic; female dance slower and fluid",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "vocal chants (kecak)",
+        "traditional folk singing"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "flirtatious",
+        "social",
+        "dramatic"
+      ],
+      "musical_form": "Opening welcoming song, followed by kecak chant routine, then slower female folk song",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The soundscape combines the rhythmic vocal chanting of male dancers performing kecak with the melodic, slower traditional folk songs sung by the female group, creating a dynamic contrast.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Male kecak chanting; female traditional folk singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Begin with a tableau vivant and welcoming song",
+        "Male group performs an elaborate kecak routine",
+        "Male dancers sit in two rows of six facing each other",
+        "Female group enters singing traditional folk songs",
+        "Female group performs slower dance with fluid arm movements",
+        "Female dancers form two lines of six",
+        "Male dancers form a boundary around the playing area"
+      ],
+      "formation": "Two rows of six male dancers facing each other; female dancers form two lines of six; male dancers form boundary around playing area",
+      "level_notes": "Technique not described in sources",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "5b75fa5d127019b338acbd9d69f5473b45130e2a717516af6b35734e3e4e12bc",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:janger-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Janger dance",
+  "research_file": "research_results/janger-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "janger-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Janger_dance",
+    "https://www.wikidata.org/wiki/Q1195657"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

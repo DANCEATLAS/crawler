@@ -1,0 +1,141 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex turns",
+          "Long sequences"
+        ],
+        "counts": "Simplified 4 or 8-count patterns.",
+        "duration_minutes": "5-10 minutes.",
+        "game_version": "Follow-the-leader style line dance using simple, repetitive animal-themed movements."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping",
+          "Rapid pivots",
+          "High-impact footwork"
+        ],
+        "counts": "Use 4-count segments instead of 32-count sequences.",
+        "seated_version": "Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping.",
+        "standing_version": "Use a chair for balance while executing simplified step patterns.",
+        "tempo_and_range": "Reduced tempo; focus on smaller step ranges to maintain stability."
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "Repeating sequences of steps, shuffles, and turns.",
+      "formation_and_space": "Parallel lines; dancers move in unison.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None; dancers do not touch.",
+      "posture": "Upright and balanced.",
+      "signature_moves": [
+        {
+          "description": "A specific sequence of steps including a grapevine and a turn.",
+          "name": "Electric Slide"
+        }
+      ],
+      "tempo_feel": "Steady and consistent.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Country instrumentation",
+        "Synthesizers",
+        "Percussion"
+      ],
+      "meter": "4/4 (common) or 3/4 (waltz)",
+      "mood_keywords": [
+        "Upbeat",
+        "Social",
+        "Rhythmic"
+      ],
+      "musical_form": "Repeating song structures with clear, steady beats.",
+      "reference_recordings": [
+        {
+          "artist": "Marcia Griffiths",
+          "title": "Electric Boogie"
+        },
+        {
+          "artist": "Billy Ray Cyrus",
+          "title": "Achy Breaky Heart"
+        }
+      ],
+      "rhythm_pattern": "Repeating sequences often based on 32, 48, or 64 counts.",
+      "sound_description": "Recognizable by a consistent, driving beat that supports repetitive step patterns, often featuring a blend of acoustic country elements or electronic pop production.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Grapevine (step side, cross behind, step side, touch)",
+        "Shuffle/Chassé (triple step)",
+        "Pivot turn (step forward and turn)",
+        "Kick-ball-change"
+      ],
+      "formation": "Parallel rows or lines.",
+      "level_notes": "Beginners typically learn 10-20 standard dances; advanced dancers may know hundreds.",
+      "rhythm": "Typically 4/4 time, though waltz variations use 3/4."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e8542e7c9194d7182d73e08d358489ca90de8e35f3c49aa4775424c397ecd00c",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:line-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Line dance",
+  "research_file": "research_results/line-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "line-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Line_dance",
+    "https://www.wikidata.org/wiki/Q912389",
+    "https://es.wikipedia.org/wiki/Line_dance",
+    "https://fr.wikipedia.org/wiki/Danse_en_ligne",
+    "https://de.wikipedia.org/wiki/Line_Dance"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

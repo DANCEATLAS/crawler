@@ -1,0 +1,145 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Rough pushing in the line"
+        ],
+        "counts": "Simplified counts (1-2, 1-2, jump, jump).",
+        "duration_minutes": "3-5 minutes",
+        "game_version": "Play as a 'follow the leader' game in a line."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping",
+          "Loss of balance"
+        ],
+        "counts": "Standard 4/4 counts.",
+        "seated_version": "Perform the kicks while seated, focusing on leg extensions.",
+        "standing_version": "Hold onto a chair for balance while performing the kicks and small hops.",
+        "tempo_and_range": "Reduced tempo, smaller range of motion."
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Hands on the shoulders or waist of the person in front.",
+      "difficulty": "beginner",
+      "footwork": "Kicks to the side, jumps forward and backward.",
+      "formation_and_space": "Conga line or circle.",
+      "hips_and_torso": "Minimal movement, focus on leg and foot action.",
+      "levels_and_jumps": "Low-level jumps.",
+      "partnering": "Group-based, non-individual.",
+      "posture": "Upright, maintaining contact with the person in front.",
+      "signature_moves": [
+        {
+          "description": "Kick to the side while balancing on the supporting leg.",
+          "name": "Side Kick"
+        },
+        {
+          "description": "Synchronized jump with both feet together.",
+          "name": "Forward/Backward Jump"
+        }
+      ],
+      "tempo_feel": "Bouncy and skipping.",
+      "what_to_avoid": "Avoid breaking the line or losing rhythm with the group."
+    },
+    "music_profile": {
+      "instruments": [
+        "Electric guitar",
+        "Bass",
+        "Drums",
+        "Brass",
+        "Clarinet"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "Upbeat",
+        "Playful",
+        "Rhythmic"
+      ],
+      "musical_form": "Consistent with traditional Jenkka structure.",
+      "reference_recordings": [
+        {
+          "artist": "Erik Lindström",
+          "title": "Letkajenkka"
+        },
+        {
+          "artist": "Rauno Lehtinen",
+          "title": "Letkis"
+        }
+      ],
+      "rhythm_pattern": "Three quarter notes followed by a quarter rest or two quarter notes followed by a dotted quarter note.",
+      "sound_description": "A blend of traditional folk melodies played with modern 1960s pop-rock instrumentation, characterized by a bouncy, skipping rhythm.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Instrumental focus, though some versions include lyrics."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Kick left foot to the left twice.",
+        "Kick right foot to the right twice.",
+        "Jump forward with both feet.",
+        "Jump backward with both feet.",
+        "Jump forward three times."
+      ],
+      "formation": "Conga-style line",
+      "level_notes": "Beginner level; requires coordination and group synchronization.",
+      "rhythm": "4/4 time"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "f57a4316426156463aac1683f619fc988777dce26222472904fb61ca85c59a3c",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:letkajenkka",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Letkajenkka",
+  "research_file": "research_results/letkajenkka.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "letkajenkka",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Letkajenkka",
+    "https://www.wikidata.org/wiki/Q1859644",
+    "https://fr.wikipedia.org/wiki/Letkiss",
+    "https://de.wikipedia.org/wiki/Letkiss",
+    "https://it.wikipedia.org/wiki/Letkiss"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

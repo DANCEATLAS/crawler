@@ -1,0 +1,139 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "High-speed running"
+        ],
+        "counts": "Simplified counts.",
+        "duration_minutes": "3-5 minutes",
+        "game_version": "Play as a follow-the-leader game."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid spinning",
+          "Balance-challenging movements"
+        ],
+        "counts": "Simplified counts.",
+        "seated_version": "Perform limb movements while seated in a circle.",
+        "standing_version": "Perform with support from a chair or partner.",
+        "tempo_and_range": "Reduced tempo and limited range of motion."
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Arms extended toward the center, shaking motions",
+      "difficulty": "beginner",
+      "footwork": "Stepping in and out of the circle",
+      "formation_and_space": "Circle formation",
+      "hips_and_torso": "Side-to-side shaking and full-body rotation",
+      "levels_and_jumps": "Standing level; no jumps described",
+      "partnering": "None required",
+      "posture": "Upright, standing in a circle",
+      "signature_moves": [
+        {
+          "description": "Shaking the specified body part three times.",
+          "name": "The Shake"
+        },
+        {
+          "description": "Spinning in a complete circle.",
+          "name": "The Turn"
+        }
+      ],
+      "tempo_feel": "Upbeat and increasing in speed",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "4/4",
+      "mood_keywords": [
+        "joyous",
+        "novelty",
+        "energetic"
+      ],
+      "musical_form": "Verse-chorus",
+      "reference_recordings": [
+        {
+          "artist": "The Snowmen",
+          "title": "Hokey Cokey"
+        },
+        {
+          "artist": "Ray Anthony",
+          "title": "Hokey Pokey"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A rhythmic, upbeat novelty song featuring clear vocal instructions for body movements, typically accompanied by a simple, march-like or swing-influenced instrumental backing.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Instructional, call-and-response"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand in a circle.",
+        "Extend the named body part into the circle.",
+        "Withdraw the body part from the circle.",
+        "Shake the body part.",
+        "Turn around in a full circle."
+      ],
+      "formation": "Circle",
+      "level_notes": "Beginner-friendly; requires no prior dance experience.",
+      "rhythm": "4/4 time"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "26ba5c4c443e5e1a2e165564c847110a772cc975a0debdbc980191ebcdae699a",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:hokey-pokey",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Hokey Pokey",
+  "research_file": "research_results/hokey-pokey.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "hokey-pokey",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hokey_Cokey",
+    "https://www.wikidata.org/wiki/Q3643110",
+    "https://it.wikipedia.org/wiki/Hokey_Pokey_(danza)"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

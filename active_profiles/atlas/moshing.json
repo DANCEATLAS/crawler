@@ -1,0 +1,159 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "physical slamming",
+          "tackling",
+          "unsafe crowding",
+          "fast running in restricted areas"
+        ],
+        "counts": "Simple 4-count bounce",
+        "duration_minutes": "2",
+        "game_version": "A safe tag or gentle bouncing circle game where children jump in unison without physical tackling or slamming."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "any pushing",
+          "collisions",
+          "fast running",
+          "abrupt movements",
+          "balance disruption"
+        ],
+        "counts": "Steady 4/4 beat matching a slow, controlled pulse.",
+        "seated_version": "Seated upper-body swaying and clapping in a steady 4/4 rhythm with zero physical contact.",
+        "standing_version": "Supported stepping in place without impact or movement, maintaining a wide stance.",
+        "tempo_and_range": "Heavily reduced tempo and range of motion; strictly isolated to upper body or stationary weight shifts."
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Swinging arms, extending elbows for protection, punching below the neck (in specific regional styles), or windmilling.",
+      "difficulty": "intermediate",
+      "footwork": "Running, jumping, jogging in circles, or cross-stepping (two-step).",
+      "formation_and_space": "Fluid spatial formations including the mosh pit, circle pit, or Wall of Death.",
+      "hips_and_torso": "Engaged in lateral collisions, pushing, and absorbing impact from surrounding participants.",
+      "levels_and_jumps": "Jumping, stage diving, slingshotting, and floorpunching.",
+      "partnering": "Mass group collisions, shoving, and occasional lifting or staging diving.",
+      "posture": "Upright, leaning forward, or running with active upper-body engagement.",
+      "signature_moves": [
+        {
+          "description": "Strutting around in a circle while swinging arms and hitting everyone within reach.",
+          "name": "Huntington Beach Strut"
+        },
+        {
+          "description": "Audience divides into two halves on either side of a venue before running and slamming into each other.",
+          "name": "Wall of Death"
+        },
+        {
+          "description": "A running-in-place motion where legs cross over one another while the opposite arm punches downwards.",
+          "name": "Two-step"
+        }
+      ],
+      "tempo_feel": "Fast and frantic, punctuated by sudden heavy, lumbering breakdowns.",
+      "what_to_avoid": "Avoid wearing glasses due to imminent eye injury risk; avoid excessive violence, crowd killing, and dangerous crushing."
+    },
+    "music_profile": {
+      "instruments": [
+        "electric guitar",
+        "bass guitar",
+        "drums",
+        "vocals"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "aggressive",
+        "chaotic",
+        "energetic",
+        "intense"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Stormtroopers of Death",
+          "title": "Milano Mosh"
+        },
+        {
+          "artist": "Anthrax",
+          "title": "Caught in a Mosh"
+        },
+        {
+          "artist": "Onyx",
+          "title": "Slam"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Aggressive live music characterized by fast tempos, distorted electric guitars, heavy drumbeats, and explosive rhythmic breakdowns that signal shifts in crowd movement.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "aggressive live vocals, screaming, and shouting"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Running or jogging in place or in a circular path",
+        "Swinging arms or extending elbows for protection",
+        "Stepping and crossing legs during mid-tempo two-steps",
+        "Colliding gently or absorbing impact from adjacent participants"
+      ],
+      "formation": "A bounded open circular area ('pit') surrounded by the standing audience",
+      "level_notes": "Requires high physical endurance and spatial awareness; safety depends on mutual crowd respect and assisting fallen participants.",
+      "rhythm": "Fast tempo, driving 4/4 beat with occasional sudden slow breakdowns"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "1aa3433f4b7a26ce3767eb351f54ed6eceb78f7a286297e8410fcfce173d02e0",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:moshing",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "moshing",
+  "research_file": "research_results/moshing.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "moshing",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Moshing",
+    "https://www.wikidata.org/wiki/Q1463560",
+    "https://es.wikipedia.org/wiki/Mosh",
+    "https://fr.wikipedia.org/wiki/Mosh",
+    "https://pt.wikipedia.org/wiki/Mosh"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -1,0 +1,138 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex partnering",
+          "High-impact jumps"
+        ],
+        "counts": "Simplified 1-4 counts.",
+        "duration_minutes": "3",
+        "game_version": "A sequence game where children perform an entrance, a slow pose, and a fast finish."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Deep lunges",
+          "Rapid turns"
+        ],
+        "counts": "Simplified 4/4 counts.",
+        "seated_version": "Seated port de bras exercises focusing on grace and arm lines.",
+        "standing_version": "Supported standing exercises using a barre for balance.",
+        "tempo_and_range": "Reduced tempo and limited range of motion."
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Classical ballet port de bras.",
+      "difficulty": "advanced",
+      "footwork": "Classical ballet technique.",
+      "formation_and_space": "Varies from solo to ensemble patterns.",
+      "hips_and_torso": "Controlled, upright torso with turnout from the hips.",
+      "levels_and_jumps": "Includes full range of classical ballet jumps and levels.",
+      "partnering": "Essential in the Grand adage.",
+      "posture": "Classical ballet posture with turnout.",
+      "signature_moves": [
+        {
+          "description": "A slow, sustained sequence of movements performed by the lead ballerina and her partner.",
+          "name": "Grand adage"
+        }
+      ],
+      "tempo_feel": "Varies from slow/sustained to fast/virtuosic.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Orchestra"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "formal",
+        "virtuosic",
+        "grand"
+      ],
+      "musical_form": "Suite",
+      "reference_recordings": [
+        {
+          "artist": "Marius Petipa",
+          "title": "Paquita Grand Pas Classique"
+        },
+        {
+          "artist": "Cesare Pugni",
+          "title": "La Fille du pharaon"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Orchestral music designed to support the distinct phases of the dance, from the slow, lyrical Adage to the rapid, technical Coda.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not applicable"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Entrée: A formal entrance sequence for the ensemble or soloists.",
+        "Grand Adage: A slow, sustained sequence of movements performed by the lead dancers.",
+        "Variations: Individual solo performances showcasing specific technical skills.",
+        "Coda: A final, high-energy concluding sequence."
+      ],
+      "formation": "Varies based on the number of dancers, ranging from a pas de deux to large ensemble formations.",
+      "level_notes": "Requires advanced classical ballet training.",
+      "rhythm": "Variable, dictated by the specific orchestral score."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "54575817c75de1723b662dc2e141041b6973d110e3d10ba33435d36b171379e4",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:grand-pas",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Grand pas",
+  "research_file": "research_results/grand-pas.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "grand-pas",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Grand_pas",
+    "https://www.wikidata.org/wiki/Q3114743",
+    "https://fr.wikipedia.org/wiki/Grand_pas"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

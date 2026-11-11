@@ -1,0 +1,137 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Aggressive combat mimes"
+        ],
+        "counts": "Simple 1-2-3-4 counts.",
+        "duration_minutes": "3-5 minutes",
+        "game_version": "A 'follow-the-leader' style game mimicking different 'big arm' movements."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping",
+          "Rapid balance shifts"
+        ],
+        "counts": "Simplified 4-count rhythm.",
+        "seated_version": "Focus on arm strikes and torso movement while seated.",
+        "standing_version": "Reduced-tempo arm movements with stable stance.",
+        "tempo_and_range": "Slowed tempo; limited range of motion for arms."
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Large, expressive, and rapid; used to mime combat and gang signals",
+      "difficulty": "intermediate",
+      "footwork": "Jerky, rapid, and saccadic",
+      "formation_and_space": "Improvisational; performed in streets, stations, and public spaces",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Athletic and ready, often mimicking martial arts stances",
+      "signature_moves": [
+        {
+          "description": "Gestures mimicking street fighting and weapon use",
+          "name": "Combat mimes"
+        }
+      ],
+      "tempo_feel": "Fast and high-energy",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Electronic synthesizers",
+        "Percussion"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "frantic",
+        "energetic",
+        "aggressive",
+        "urban"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Yang Systeme",
+          "title": "Djolo National"
+        },
+        {
+          "artist": "Les Mantanien",
+          "title": "Logobi"
+        }
+      ],
+      "rhythm_pattern": "High-energy, percussive, often based on coupé-décalé or electronic beats",
+      "sound_description": "A high-tempo, percussive soundscape that blends traditional Ivorian rhythmic structures with the frenetic, compressed electronic beats of tecktonik and hard-tech.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Rapid arm movements mimicking combat or street gestures",
+        "Jerky, rhythmic footwork patterns",
+        "Martial arts-inspired stances and strikes"
+      ],
+      "formation": "Improvisational, often performed in street battles or solo",
+      "level_notes": "Requires high physical stamina and rapid coordination",
+      "rhythm": "High-tempo, percussive, and energetic"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "20eca884eeed205e3638af942fc50c9c8e447c689859c336d392422cb111c9bc",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:logobi",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "logobi",
+  "research_file": "research_results/logobi.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "logobi",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Logobi",
+    "https://www.wikidata.org/wiki/Q373982",
+    "https://fr.wikipedia.org/wiki/Logobi"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

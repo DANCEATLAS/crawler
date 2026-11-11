@@ -1,0 +1,166 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Avoid complex fist pounding",
+          "Avoid fast tempo",
+          "Avoid elbow touches to prevent accidental hits"
+        ],
+        "counts": "Basic sequence with fewer steps and slower pace.",
+        "duration_minutes": "5",
+        "game_version": "Simplified hand jive as a clapping game with call-and-response sequences."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Avoid crouching",
+          "Avoid rapid fist pounding",
+          "Avoid fast tempo"
+        ],
+        "counts": "Simplify counts to basic slaps and crosses, fewer repetitions.",
+        "seated_version": "Hand jive can be performed seated with reduced tempo and smaller range of motion.",
+        "standing_version": "Standing with support, avoiding crouching posture to reduce knee strain.",
+        "tempo_and_range": "Slower tempo, gentle hand movements within comfortable reach."
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Complex sequence of slaps, crosses, fist pounds, elbow touches, and hitchhike gestures",
+      "difficulty": "beginner",
+      "footwork": "No footwork; stationary dance",
+      "formation_and_space": "Performed seated or standing in confined spaces, often facing a partner or in groups",
+      "hips_and_torso": "Minimal torso movement; focus on hand and arm articulation",
+      "levels_and_jumps": "No jumps; difficulty is beginner to intermediate based on speed and precision",
+      "partnering": "Optional; can be done solo or with a partner",
+      "posture": "Slightly crouched or bent knees to bring thighs and shoulders closer",
+      "signature_moves": [
+        {
+          "description": "Slapping palms twice on thighs",
+          "name": "Thigh Slap"
+        },
+        {
+          "description": "Crossing palms over and under each other",
+          "name": "Wrist Cross"
+        },
+        {
+          "description": "Pounding fists twice each on top of each other",
+          "name": "Fist Pound"
+        },
+        {
+          "description": "Touching elbows with fingers one at a time",
+          "name": "Elbow Touch"
+        },
+        {
+          "description": "Making fists with thumbs out, pointing over shoulder twice each side",
+          "name": "Hitchhike"
+        }
+      ],
+      "tempo_feel": "Steady, syncopated rhythm matching the music beat",
+      "what_to_avoid": "Avoid foot movement as dance is hand-focused; avoid rushing sequence before mastering timing"
+    },
+    "music_profile": {
+      "instruments": [
+        "electric guitar",
+        "drums",
+        "bass",
+        "vocals"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "energetic",
+        "percussive",
+        "syncopated",
+        "playful"
+      ],
+      "musical_form": "Verse-chorus typical of 1950s R&B",
+      "reference_recordings": [
+        {
+          "artist": "Johnny Otis",
+          "source": "https://en.wikipedia.org/wiki/Hand_jive",
+          "title": "Willie and the Hand Jive"
+        },
+        {
+          "artist": "Betty Smith Group",
+          "source": "https://en.wikipedia.org/wiki/Hand_jive",
+          "title": "Hand Jive"
+        },
+        {
+          "artist": "Miles Davis",
+          "source": "https://en.wikipedia.org/wiki/Hand_jive",
+          "title": "Hand Jive"
+        }
+      ],
+      "rhythm_pattern": "Syncopated Bo Diddley beat with steady percussive pulse",
+      "sound_description": "The music features a steady, syncopated rhythm with a distinctive Bo Diddley beat, combining electric guitar riffs, driving drums, and soulful vocals that create a percussive backdrop for the hand movements.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Rhythm and blues style vocals"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Slap palms twice on thighs",
+        "Cross palms over and under each other",
+        "Pound fists twice each on top of each other",
+        "Touch elbows with fingers one at a time",
+        "Perform hitchhike gestures twice on each side"
+      ],
+      "formation": "Performed seated or standing, often facing a partner or in groups",
+      "level_notes": "Beginners start slowly with hand sequence, increasing speed as comfortable",
+      "rhythm": "Steady, syncopated beat matching Bo Diddley rhythm"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "397fe15f01859cb5b56d99c261f9c78a61c232001f85ae9b83dd74926de84759",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:hand-jive",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Hand Jive",
+  "research_file": "research_results/hand-jive.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "hand-jive",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hand_jive",
+    "https://www.wikidata.org/wiki/Q2392517",
+    "https://fr.wikipedia.org/wiki/Hand_jive",
+    "https://history-of-rock.com/dancing_in_the_fifties.htm"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -1,0 +1,130 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex footwork"
+        ],
+        "counts": "Simplified counts.",
+        "duration_minutes": "5",
+        "game_version": "Use a scarf to invite friends to dance in a circle."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "balance",
+          "knees",
+          "spine",
+          "jumps"
+        ],
+        "counts": "Simplified counts.",
+        "seated_version": "Perform hip movements while seated.",
+        "standing_version": "Perform with support for balance.",
+        "tempo_and_range": "Reduced tempo and range of motion."
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Uses a fan and a shawl.",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Dancer moves from the side of the stage to the center; in some regions, it is performed in a circle.",
+      "hips_and_torso": "The dancer moves with hip thrusts.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "The dancer throws a shawl to an audience member to invite them to dance.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "The dancer throws her shawl to an audience member to bring him to the stage.",
+          "name": "Shawl Invitation"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "violins",
+        "gendangs",
+        "bonang",
+        "gongs",
+        "gambang"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "vibrant",
+        "earthy"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A traditional ensemble similar to the gamelan, featuring violins, drums, and gongs.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "A singer is present to sing the accompanying song."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Start at the side of the stage.",
+        "Move to the center stage using hip thrusts.",
+        "Throw a shawl to an audience member to invite them to dance."
+      ],
+      "formation": "The dancer begins at the side of the stage; in Lombok, it is performed in a circle.",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "0d3adabea681aedb1c0d7a2383052f04ee2457dbda3a18c47d5a88ac22b84ab8",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:gandrung",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Gandrung",
+  "research_file": "research_results/gandrung.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "gandrung",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gandrung",
+    "https://www.wikidata.org/wiki/Q797450"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

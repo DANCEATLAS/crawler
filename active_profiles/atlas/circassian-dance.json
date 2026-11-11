@@ -1,0 +1,148 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Men often hold hands behind back or fold one arm at chest; women delicately pose fingertips with arms slightly open or at sides",
+      "difficulty": "Intermediate to advanced",
+      "footwork": "Men dance on tips of toes in leather boots with turned-in foot positions and agile leaps; women move smoothly on half-toes without touching partners",
+      "formation_and_space": "Mass circle dances moving counter-clockwise; partner dances maintain respectful distance without touching; solo male performances in center",
+      "hips_and_torso": "Minimal torso movement, especially for women; men use controlled, restrained torso movements reflecting martial discipline",
+      "levels_and_jumps": "Includes small agile leaps in competition dances; advanced dancers perform sustained toe dancing",
+      "partnering": "Strict etiquette with partners maintaining distance; no touching in Qafa; men protect partner by keeping her to left side",
+      "posture": "Men maintain erect posture, often with hands behind back in competition dances; women keep upper bodies and heads motionless, gliding lightly",
+      "signature_moves": [
+        {
+          "description": "Arm gesture symbolizing dodging a sword strike",
+          "name": "Zakladka"
+        },
+        {
+          "description": "Men dance on tips of toes in boots, demonstrating balance and agility",
+          "name": "Toe dancing"
+        },
+        {
+          "description": "Partners pass each other on the left side to present themselves",
+          "name": "Do-za-do"
+        }
+      ],
+      "tempo_feel": "Varies from slow and dignified to fast and energetic; competition dances are fast with small, agile leaps",
+      "what_to_avoid": "Men turning backs to partners or breaking eye contact; touching partners in dances where prohibited; excessive upper body movement for women"
+    },
+    "music_profile": {
+      "instruments": [
+        "pshine accordion",
+        "pkhachich clappers",
+        "bereban drum",
+        "pkhetaw wood-strike",
+        "shichepshin fiddle",
+        "apa-pshine lute",
+        "qamil flute"
+      ],
+      "meter": "4/4 8/4",
+      "mood_keywords": [
+        "martial",
+        "graceful",
+        "dignified",
+        "energetic",
+        "restrained"
+      ],
+      "musical_form": "Dance music often structured in repeated phrases with variations matching dance figures",
+      "reference_recordings": [
+        {
+          "artist": "Hapcha Zaodin",
+          "source": "https://en.wikipedia.org/wiki/Circassian_music",
+          "title": "Kabardinka"
+        },
+        {
+          "artist": "Traditional Circassian melody",
+          "source": "https://en.wikipedia.org/wiki/Circassian_dance",
+          "title": "Islamey"
+        }
+      ],
+      "rhythm_pattern": "Rhythms include steady 4/4 beats with accented off-beats; some dances use rondel-type repeating phrases every eight measures",
+      "sound_description": "The music features a blend of accordion melodies, rhythmic clapping on wooden blocks, deep drum beats, and high-pitched fiddle lines, creating a dynamic soundscape that supports both slow, dignified dances and fast, energetic performances.",
+      "tempo_bpm": "Varies by dance: slow for Qafa (~60-80 bpm), fast for Islamey and Wuj (~120-160 bpm)",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Glide smoothly on half-toes with minimal upper body movement",
+        "Men practice dancing on tips of toes in leather boots",
+        "Maintain respectful distance between partners without touching",
+        "Perform basic arm positions with hands often behind back",
+        "Practice simple circular formations moving counter-clockwise"
+      ],
+      "formation": "Mass circle dances (Wuj) or pairs facing each other (Qafa, Islamey)",
+      "level_notes": "Beginners start with slow gliding steps and arm positions; advanced dancers learn toe dancing, agile leaps, and complex partner figures.",
+      "rhythm": "Typically 4/4 or 8/4 meter depending on dance type"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "2da9317d1c30c9fd28140fbd96afd4ea1f09d57de25898ac8650f3ac7f7de1c0",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:circassian-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Circassian dance",
+  "research_file": "research_results/circassian-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "circassian-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Circassian_dance",
+    "https://www.wikidata.org/wiki/Q55607663",
+    "https://en.wikipedia.org/wiki/Circassian_music"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

@@ -1,0 +1,131 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Couple dance moving in a circle or around the floor",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Upper body facing as a couple during turns, escort position during transitional phases",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Upper body facing as a couple, bodies rotating counter-clockwise at a rate of one revolution per two measures",
+          "name": "bakmes turn"
+        },
+        {
+          "description": "Bodies facing with the couple rotating clockwise at the rate of one turn per measure",
+          "name": "pols turn"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "standard fiddles",
+        "violins"
+      ],
+      "meter": "3/4",
+      "mood_keywords": [
+        "energetic",
+        "turning",
+        "promenade"
+      ],
+      "musical_form": "Two eight-bar phrases, each phrase repeated, total 64 three-beat measures",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Played on standard fiddles with a conventional structure of two eight-bar phrases, repeated to form 64 three-beat measures.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "elaborate promenade walk",
+        "bakmes turn counter-clockwise",
+        "escort position walk",
+        "pols turn clockwise"
+      ],
+      "formation": "Couple dance",
+      "level_notes": "Intermediate level focusing on phrase structure and turning transitions.",
+      "rhythm": "3/4 triple meter"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "11465b4cb6d4b1bbeb964cee9b386bb1f977b1b7390e7439b570b5c184599ec9",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:pols",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Pols",
+  "research_file": "research_results/pols.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "pols",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Polska_(dance)",
+    "https://www.wikidata.org/wiki/Q1766836",
+    "https://fr.wikipedia.org/wiki/Polska_(danse)"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

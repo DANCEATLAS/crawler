@@ -1,0 +1,126 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "None."
+        ],
+        "counts": "Simplified counts.",
+        "duration_minutes": "5 minutes.",
+        "game_version": "Simplified gesture sequences."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "None (already seated)."
+        ],
+        "counts": "Standard counts.",
+        "seated_version": "The dance is already performed seated.",
+        "standing_version": "Not applicable.",
+        "tempo_and_range": "Maintain standard tempo; reduce range of arm movements if necessary."
+      }
+    },
+    "interaction_profile": {},
+    "movement_profile": {
+      "arms_and_hands": "Haka (gestures) performed close to the body (haka nounou).",
+      "difficulty": "intermediate",
+      "footwork": "Not applicable (seated dance).",
+      "formation_and_space": "Rows, often tiered by height.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Tiered levels based on seating (ground, benches, tables).",
+      "partnering": "Group-based, no individual partnering.",
+      "posture": "Seated cross-legged, right leg over left.",
+      "signature_moves": [
+        {
+          "description": "Symbolic hand gestures that relate to the words of the song.",
+          "name": "haka"
+        }
+      ],
+      "tempo_feel": "Starts steady, increases feverishly toward the end.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "nafa (200-liter iron fuel drum)",
+        "human voice"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "praise",
+        "excited",
+        "rhythmic"
+      ],
+      "musical_form": "Alternating silent (tafua) and sung sections.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Continuous beating of the nafa drums.",
+      "sound_description": "The music is defined by the deep, resonant thud of iron fuel drums covered in leather, providing a steady rhythmic foundation for vocal melodies that praise the event or person being honored.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Sung lyrics composed for the specific occasion."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Sit cross-legged on the ground, right leg over left.",
+        "Execute haka (hand gestures) close to the body.",
+        "Follow the rhythm set by the nafa drum.",
+        "Transition between silent tafua and sung sections."
+      ],
+      "formation": "Rows, tiered by social status (ground, benches, tables).",
+      "level_notes": "Requires 2-3 months of memorization.",
+      "rhythm": "Set by the nafa drum; tempo increases toward the end of the 15-minute performance."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "0c3edc7fcf29db5d8a5ea68481784e7f551d966e9987fc511c7b9fa34baa17b5",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:mauluulu",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Ma'ulu'ulu",
+  "research_file": "research_results/mauluulu.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "mauluulu",
+  "sources": [
+    "https://en.wikipedia.org/wiki/M%C4%81%CA%BBulu%CA%BBulu",
+    "https://www.wikidata.org/wiki/Q3711190"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}
