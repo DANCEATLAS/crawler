@@ -1,0 +1,65 @@
+{
+  "revision": "DA-VISION-2026-11-11-ACTIVE",
+  "capabilities": [
+    {
+      "id": "video_learning",
+      "source": "https://ai.google.dev/gemini-api/docs/video-understanding",
+      "finding": "Timestamped extraction exists; default static 1 FPS can miss fast action. Current pipeline samples only first 480 seconds at low resolution.",
+      "benchmark": "Compare timestamped movement/teaching extraction with practitioner labels; include fast footwork, occlusion and mirrored views.",
+      "checked_on": "2026-11-11",
+      "recheck_on": "2026-11-25",
+      "status": "documented_not_product_validated",
+      "cost_authorized": 0
+    },
+    {
+      "id": "pose_feedback",
+      "source": "https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker",
+      "finding": "Browser-capable pose landmarks exist; posture estimation does not validate dance correctness or weight transfer.",
+      "benchmark": "Measure visible errors, false corrections and abstention across bodies, clothes, lighting and camera angles.",
+      "checked_on": "2026-11-11",
+      "recheck_on": "2026-11-25",
+      "status": "documented_not_product_validated",
+      "cost_authorized": 0
+    },
+    {
+      "id": "live_interaction",
+      "source": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/live-api/send-audio-video-streams",
+      "finding": "Bidirectional live audio/video is documented; documented 1 FPS video is not high-speed motion validation.",
+      "benchmark": "Commands over music, interruption, stop/pause, response latency and privacy; separate semantic interaction from motion scoring.",
+      "checked_on": "2026-11-11",
+      "recheck_on": "2026-11-25",
+      "status": "documented_not_product_validated",
+      "cost_authorized": 0
+    },
+    {
+      "id": "social_sync",
+      "source": "https://docs.livekit.io/robotics/media/performance/stats/",
+      "finding": "Media timing and jitter statistics can be measured; no Dance Atlas synchronization benchmark exists.",
+      "benchmark": "Measure end-to-end timing, beat-phase drift, jitter, late joins and recovery; use local shared beat and turn-taking if needed.",
+      "checked_on": "2026-11-11",
+      "recheck_on": "2026-11-25",
+      "status": "documented_not_product_validated",
+      "cost_authorized": 0
+    },
+    {
+      "id": "spatial_delivery",
+      "source": "https://www.w3.org/TR/webxr/",
+      "finding": "WebXR defines access to AR/VR devices; it is not an implemented Dance Atlas experience.",
+      "benchmark": "Device support, calibration, safe boundaries, comfort, accessible fallback and network cost.",
+      "checked_on": "2026-11-11",
+      "recheck_on": "2026-11-25",
+      "status": "documented_not_product_validated",
+      "cost_authorized": 0
+    },
+    {
+      "id": "music_rights",
+      "source": "https://elevenlabs.io/music-terms",
+      "finding": "Music Library use needs express written authorization under section 4.2, subject to stated exceptions. Commercial generation rights alone do not settle the proposed product.",
+      "benchmark": "Written use-scope decision plus quality, originality, territories, exports and per-session economics.",
+      "checked_on": "2026-11-11",
+      "recheck_on": "2026-11-25",
+      "status": "documented_not_product_validated",
+      "cost_authorized": 0
+    }
+  ]
+}
