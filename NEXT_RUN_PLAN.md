@@ -6,7 +6,7 @@ Start with `PRODUCT_VISION.md`, `AI_BRIEF.md` and `IMPLEMENTATION_LEDGER.md`. Th
 
 | Service | Existing project | Verified purpose |
 | --- | --- | --- |
-| Supabase | https://supabase.com/dashboard/project/maojpsywvbksrwkrxmjx | Existing Dance Atlas backend; dashboard accessible and Healthy on 11 November. The project still has an email-derived default display name, which caused the confusion. |
+| Supabase | https://supabase.com/dashboard/project/maojpsywvbksrwkrxmjx | Existing Dance Atlas backend; dashboard accessible and Healthy on 11 November. The confusing email-derived default name was changed to Dance Atlas on 11 November; project ID and connections are unchanged. |
 | Lovable | https://lovable.dev/projects/f79f3666-564d-4799-befe-8b48d1f0a007 | Dance Atlas UI and instruction mirror. |
 | GitHub | https://github.com/DANCEATLAS/crawler | Source of truth, content, scripts, capped workflows and weekly email. |
 | Demonstration | https://dancingatlas.lovable.app | Existing demonstration, not launch authorization. |
