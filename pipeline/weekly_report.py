@@ -8,7 +8,7 @@ Writes  WEEKLY_REPORT.md (latest), NEXT_STEPS.md, reports/weekly/<date>.md (+ .h
 E-mail: `--send` mails reports/weekly/latest.html (table layout, inline styles) when the SMTP secrets exist — see send_email().
 Run:    python -m pipeline.weekly_report            # in the repo root, needs full git history (fetch-depth: 0)
         python -m pipeline.weekly_report --root DIR # measure one tree only (used internally; no git)
-The levels and the film-grade standard are defined in STANDARD.md; the code here is the authority for the numbers.
+The email is a plain-language whole-vision digest; reports/weekly/details.md holds the deeper measures. Counts are not release approval.
 """
 import os, re, sys, json, glob, html, shutil, subprocess, tempfile, datetime as dt
 from collections import Counter
@@ -163,9 +163,11 @@ def measure(root):
     approvals = _j(P("pipeline_state", "editor_approvals.json"), {}) or {}
     runs = _j(P("pipeline_state", "runs.json"), []) or []
     epi_idx = _j(P("public", "catalog", "episodes.json"), {}) or {}
-    epi = epi_idx.get("packs") or {}
+    all_epi = epi_idx.get("packs") or {}
     ped = _j(P("pedagogy", "teaching_patterns.json"), {}) or {}
     live = {s for s in styles if s not in retired}
+    # QC history can retain removed/merged entries. Report the catalogue actually offered.
+    epi = {s: v for s, v in all_epi.items() if s in live and (qidx.get(s) or {}).get("publish_gate") == "publish"}
     m = {"dances_live": len(live) if styles else int(stats.get("count") or 0),
          "with_hero": sum(1 for s in live if (styles[s].get("hero_video_youtube_id") or "").strip()) if styles else int(stats.get("with_hero") or 0),
          "hero_checked": sum(1 for s in live if (styles[s].get("hero_qc") or {}).get("verdict") == "pass") if styles else int(stats.get("hero_qc_pass") or 0),
@@ -180,7 +182,11 @@ def measure(root):
          "claims": 0, "claims_verified": 0, "schema5": 0,
          "episode_packs": len(epi), "episode_complete": sum(1 for v in epi.values() if v.get("status") == "complete"), "episode_polished": sum(1 for v in epi.values() if v.get("polished")),
          "lessons_studied": int(ped.get("videos_ok") or 0), "teachers_dances": int(((ped.get("global") or {}).get("dances")) or 0),
-         "translations": int(epi_idx.get("translations") or 0), "languages": len(epi_idx.get("languages") or []),
+         "translations": 0, "languages": 0, "translations_current": 0, "translations_reviewed": 0,
+         "languages_configured": len(epi_idx.get("languages") or []),
+         "episode_stored": len(all_epi), "episode_withheld": sum(v.get("status") == "withheld-chapters" for v in epi.values()),
+         "catalogue_at": cat.get("generated_at"),
+         "vision": _j(P("pipeline_state", "vision_status.json"), {}) or {},
          "topics": {lab: 0 for lab, *_ in TOPICS}, "published_slugs": [], "film_slugs": [], "closest": [], "movie_slugs": [], "names": {}}
     for s, v in qidx.items():
         g = v.get("publish_gate")
@@ -195,7 +201,7 @@ def measure(root):
         m["researched"] += 1
         if (rec.get("schema") or 0) >= 5:
             m["schema5"] += 1
-        if (qidx.get(s) or {}).get("publish_gate") != "publish":
+        if s not in live or (qidx.get(s) or {}).get("publish_gate") != "publish":
             continue
         qc = _j(P("qc_results", s + ".json"), {}) or {}
         ev = eval_record(s, rec, qc, styles.get(s) or {}, approvals, notes, extra)
@@ -216,6 +222,28 @@ def measure(root):
         m["closest"].append((len(ev["film_missing"]), -ev["score"], (rec.get("profile") or {}).get("name") or s, s, ev["film_missing"], ev["score"], f"{ev['class_have']}/{ev['class_of']}"))
     m["closest"].sort()
     m["closest"] = m["closest"][:10]
+    langs = set()
+    for path in glob.glob(P("episodes", "i18n", "*", "*.json")):
+        tr = _j(path, {}) or {}
+        slug = tr.get("slug")
+        if slug not in epi:
+            continue
+        m["translations"] += 1
+        langs.add(tr.get("lang") or os.path.basename(os.path.dirname(path)))
+        current = bool(tr.get("master_built_at")) and tr["master_built_at"] == epi[slug].get("built_at") and bool(tr.get("master_polished")) == bool(epi[slug].get("polished"))
+        if current:
+            m["translations_current"] += 1
+            if tr.get("reviewed_by_native_speaker") is True and not tr.get("scenes_master_kept"):
+                m["translations_reviewed"] += 1
+    m["languages"] = len(langs)
+    viral = _j(P("viral_challenges_verified.json"), None)
+    m["viral_entries"] = len({v.get("slug") for v in viral if isinstance(v, dict) and v.get("slug")}) if isinstance(viral, list) else None
+    # This is a seed-library count, not a fresh observation of the database or chart.
+    status = open(P("STATUS.md"), encoding="utf-8").read() if os.path.isfile(P("STATUS.md")) else ""
+    stamp = re.search(r"Generated (\d{4}-\d\d-\d\dT[0-9:]+Z)", status)
+    db = re.search(r"Dances: \*\*(\d+)\*\*", status)
+    m["database_at"] = stamp.group(1) if stamp and db else None
+    m["database_dances"] = int(db.group(1)) if stamp and db else None
     m["runs"] = runs
     return m
 
@@ -267,207 +295,96 @@ def mdbar(n, of, width=12):
     full = 0 if not of or n <= 0 else max(1, int(round(width * min(1.0, n / of))))
     return "`" + "█" * full + "░" * (width - full) + "`"
 
-def health(runs, since):
-    days, errors, calls, quota = set(), 0, 0, False
+def health(runs, since, until=None):
+    days, errors, calls, quota, retries, unanswered = set(), 0, 0, False, 0, 0
     for r in runs:
-        if (r.get("finished") or "") < since:
+        finished = r.get("finished") or ""
+        if finished < since or (until and finished > until):
             continue
         if r.get("stage") == "report":
             days.add((r.get("finished") or "")[:10])
         errors += len(r.get("errors") or [])
         calls += int((r.get("counters") or {}).get("llm_calls") or 0)
+        retries += int((r.get("counters") or {}).get("llm_failures") or 0)
+        unanswered += int((r.get("counters") or {}).get("llm_unanswered") or 0)
         if any("insufficient_quota" in str(e) for e in (r.get("errors") or [])):
             quota = True
-    return {"days": len(days), "errors": errors, "calls": calls, "quota": quota}
+    return {"days": len(days), "errors": errors, "calls": calls, "quota": quota, "retries": retries, "unanswered": unanswered}
 
 def verdict(now, week, h):
-    bits = []
-    bits.append(f"The machine ran on {h['days']} of the last 7 days" + (" without errors." if not h["errors"] else f" and logged {h['errors']} error(s) — the pipeline kept going; the weekly editor session reads them."))
-    if week:
-        np = now["published"] - week["published"]; nm = now["movie_ready"] - week["movie_ready"]; nd = now["dances_live"] - week["dances_live"]; nr = now["retired"] - week["retired"]
-        parts = []
-        if np > 0: parts.append(f"published {np} new deep profile{'s' if np != 1 else ''}")
-        if nm > 0: parts.append(f"lifted {nm} to movie-ready")
-        if nd > 0: parts.append(f"added {nd} dance{'s' if nd != 1 else ''} to the atlas")
-        if nr > 0: parts.append(f"retired {nr} double{'s' if nr != 1 else ''} or non-dance{'s' if nr != 1 else ''}")
-        if parts:
-            bits.append("This week it " + ", ".join(parts) + ".")
-        else:
-            bits.append("This week nothing new passed the filters — the research queue and the judges are still running; a quiet week is normal when model quotas are tight.")
-    if h["days"] <= 2:
-        bits.append(f"GitHub ran the daily job on only {h['days']} day(s) this week; the watchdog restarts dropped runs and NEXT_STEPS.md flags it for the next session.")
-    need = []  # only what the owner alone can do: money and keys
-    if h["quota"]:
-        need.append("the OpenAI balance is spent (`insufficient_quota` in the run log) — growth continues on Gemini alone; a top-up is your call")
-    bits.append(("**Needs you:** " + "; ".join(need) + ".") if need else "**Nothing needs you.**")
-    return " ".join(bits)
+    return (f"The logs record completed daily reports on {h['days']} dates in the last seven days, "
+            f"{h['errors']} recorded errors and {h['unanswered']} unanswered model requests. "
+            "These logs do not establish Viral chart health, account balances or release readiness.")
 
-def render_md(now, week, month, start, labels, hist, when):
-    L = []
-    date = when.strftime("%a %d %b %Y")
-    L.append(f"# Dance Atlas — weekly report · {date}")
-    L.append("")
-    L.append(f"**{now['dances_live']:,} dances live** ({delta(now['dances_live'], week and week['dances_live'])} this week) · "
-             f"**{now['published']} deep profiles published** ({delta(now['published'], week and week['published'])}) · "
-             f"**{now['movie_ready']} movie-ready** ({delta(now['movie_ready'], week and week['movie_ready'])}) · "
-             f"**{now['film_grade']} film-grade ★** ({delta(now['film_grade'], week and week['film_grade'])})")
-    L.append("")
-    h = health(now["runs"], (when - dt.timedelta(days=7)).strftime("%Y-%m-%dT%H:%M:%SZ"))
-    L.append("> " + verdict(now, week, h))
-    L.append("")
-    # 1 growth
-    L.append("## 1 · Growth")
-    L.append("")
-    L.append(f"| | Now | This week | Last 4 weeks | {labels['start']} |")
-    L.append("|---|---:|---:|---:|---:|")
-    rows = [("Dances live on the site", "dances_live"), ("…with a hero video", "with_hero"), ("…hero video passed the vision check", "hero_checked"),
-            ("…with tutorial videos", "with_tutorials"), ("Deep profiles researched", "researched"), ("Deep profiles published (passed QC)", "published"),
-            ("Movie-ready profiles", "movie_ready"), ("Class-complete profiles (18 of 18)", "class_complete"), ("Film-grade ★ profiles", "film_grade"),
-            ("Verified claims in published profiles", "claims_verified"), ("Doubles / non-dances retired (total)", "retired"),
-            ("Episode packs written (intro + 3 chapters)", "episode_packs"), ("…complete, no gaps", "episode_complete"), ("…narration polished and verified", "episode_polished"),
-            ("…translated into other languages (pack × language)", "translations"), ("Tutorial lessons studied for the teaching playbook", "lessons_studied")]
-    for lab, k in rows:
-        L.append(f"| {lab} | **{now[k]:,}** | {delta(now[k], week and week[k])} | {delta(now[k], month and month[k])} | {delta(now[k], start and start[k])} |")
-    L.append("")
-    # 2 ladder
-    L.append("## 2 · The ladder — how far the dances have climbed")
-    L.append("")
-    L.append("| Level | Share of all dances | Dances | This week | Last 4 weeks |")
-    L.append("|---|---|---:|---:|---:|")
-    ladder = [("0 · Listed in the atlas", "dances_live"), ("1 · Deep profile researched from sources", "researched"),
-              ("2 · Published — passed every QC gate and the judge", "published"), ("3 · Movie-ready — music DNA, movement DNA and an episode brief", "movie_ready"),
-              ("4 · Class-complete — all 18 things a class needs", "class_complete"), ("5 · Film-grade ★ — every line of STANDARD.md, editor included", "film_grade")]
-    for lab, k in ladder:
-        L.append(f"| {lab} | {mdbar(now[k], now['dances_live'])} {pc(now[k], now['dances_live'])} | **{now[k]:,}** | {delta(now[k], week and week[k])} | {delta(now[k], month and month[k])} |")
-    L.append("")
-    # 3 topics
-    pub = now["published"]
-    L.append(f"## 3 · Inside the profiles — of the {pub} published, how many have each piece")
-    L.append("")
-    L.append("| Piece | Have it | This week | Last 4 weeks |")
-    L.append("|---|---:|---:|---:|")
-    group = None
-    for lab, code, grp, req in TOPICS:
-        if grp != group:
-            group = grp
-            L.append(f"| **{grp}** | | | |")
-        n = now["topics"].get(lab, 0)
-        w = week["topics"].get(lab) if week else None
-        mo = month["topics"].get(lab) if month else None
-        short = lab.split(": ", 1)[1] if ": " in lab else lab
-        L.append(f"| {short[0].upper() + short[1:]}{'' if req else ' *(info)*'} | {n} ({pc(n, pub)}) | {delta(n, w)} | {delta(n, mo)} |")
-    L.append("")
-    # 4 filtering
-    L.append("## 4 · The filters — what was kept out")
-    L.append("")
-    L.append("| | Now | This week | Last 4 weeks |")
-    L.append("|---|---:|---:|---:|")
-    for lab, k in [("Profiles judged by QC", "judged"), ("…passed (published)", "gate_publish"), ("…held for review (an editor decides)", "gate_review"), ("…rejected", "gate_reject"),
-                   ("Doubles merged into another entry", "retired_doubles"), ("Doubles and non-dances retired (total)", "retired"), ("Dance moves screened out before research", "screened_moves"),
-                   ("Candidates waiting in the research queue", "candidates_queued")]:
-        L.append(f"| {lab} | **{now[k]:,}** | {delta(now[k], week and week[k])} | {delta(now[k], month and month[k])} |")
-    rate = pc(now["claims_verified"], now["claims"]) if now["claims"] else "–"
-    L.append("")
-    L.append(f"Every published profile carries claims with a verbatim quote checked against the fetched source: **{now['claims_verified']:,} of {now['claims']:,} claims verified ({rate})**.")
-    L.append("")
-    # 5 new this week
-    if week:
-        new_pub = [s for s in now["published_slugs"] if s not in set(week["published_slugs"])]
-        new_movie = [s for s in now["movie_slugs"] if s not in set(week["movie_slugs"])]
-        if new_pub or new_movie:
-            L.append("## 5 · New this week")
-            L.append("")
-            nm = lambda s: now["names"].get(s) or s.replace("-", " ")
-            if new_pub:
-                L.append("**Published:** " + ", ".join(nm(s) for s in new_pub[:30]) + (f" … and {len(new_pub) - 30} more" if len(new_pub) > 30 else ""))
-                L.append("")
-            if new_movie:
-                L.append("**Now movie-ready:** " + ", ".join(nm(s) for s in new_movie[:30]) + (f" … and {len(new_movie) - 30} more" if len(new_movie) > 30 else ""))
-                L.append("")
-    # 6 closest to film grade
-    L.append("## 6 · Closest to film-grade ★")
-    L.append("")
-    if now["film_slugs"]:
-        L.append("**Film-grade now:** " + ", ".join(now["names"].get(s) or s for s in now["film_slugs"]))
-        L.append("")
-    L.append("| Dance | Judge | Checklist | Still missing |")
-    L.append("|---|---:|---:|---|")
-    for nmiss, _, name, slug, missing, score, cls in now["closest"][:8]:
-        codes = [TOPIC_BY_LABEL[x][1] if x in TOPIC_BY_LABEL else x for x in missing]
-        L.append(f"| {name} | {score} | {cls} | {nmiss}: {', '.join(codes)} |")
-    L.append("")
-    # 7 trend
-    if len(hist) >= 2:
-        L.append("## 7 · Week by week")
-        L.append("")
-        L.append("| Week | Dances live | Published | Movie-ready | Class-complete | Film-grade | Episode packs |")
-        L.append("|---|---:|---:|---:|---:|---:|---:|")
-        for r in hist[-10:]:
-            L.append(f"| {r['date']} | {r.get('dances_live', 0):,} | {r.get('published', 0)} | {r.get('movie_ready', 0)} | {r.get('class_complete', 0)} | {r.get('film_grade', 0)} | {r.get('episode_packs', 0)} |")
-        L.append("")
-    # 8 where the machine is stuck — and what would help most (from pipeline_state/lessons_learned.json and tuning.json)
-    lessons = _j(os.path.join("pipeline_state", "lessons_learned.json"), {}) or {}
-    tuning = _j(os.path.join("pipeline_state", "tuning.json"), {}) or {}
-    L.append("## 8 · Where the machine is stuck — and what would help most")
-    L.append("")
-    hm = lessons.get("help_most") or []
-    if hm:
-        L.append("| What the scripts lack most | Pages | What would fix it |")
-        L.append("|---|---:|---|")
-        for x in hm[:6]:
-            L.append(f"| {x.get('gap')} | {x.get('pages')} | {x.get('what_helps')} |")
-        L.append("")
-    if lessons.get("avoid"):
-        L.append("The judge's most frequent objections in the last 30 days, now handed to the writer before every page: " + "; ".join(lessons["avoid"][:3]) + ".")
-        L.append("")
-    if tuning.get("reason"):
-        L.append(f"Self-tuning: {tuning['reason']}." + ((" **Alerts:** " + "; ".join(tuning.get("alerts") or [])) if tuning.get("alerts") else ""))
-        L.append("")
-    # 9 health
-    L.append("## 9 · The machine")
-    L.append("")
-    L.append(f"Daily run fired on **{h['days']} of 7** days · model calls this week **{h['calls']:,}** · errors logged **{h['errors']}** · "
-             f"OpenAI balance {'**spent**' if h['quota'] else 'fine'} · {now['schema5']} of {now['researched']} profiles already at research schema 5 (the re-deepening finishes when this reaches all) · "
-             f"teaching playbook built from {now['lessons_studied']} lessons across {now['teachers_dances']} dances (`ULTIMATE_TEACHER.md`).")
-    L.append("")
-    L.append("---")
-    L.append("*How to read this.* **Published** = passed every QC gate (sources, verified quotes, country, no AI tells, not a double) and a judge score; "
-             "**movie-ready** = music DNA + movement DNA + an episode brief, all from sources; **class-complete** = all 18 things a teachable class needs; "
-             "**film-grade ★** = every line of `STANDARD.md`, including an editor's read — the bar is meant to be nearly impossible; "
-             "**episode packs** = the scene-by-scene scripts (Episode 1 + three chapters, music and visual briefs) in `episodes/`, written from the profile only (`MOVIE_PHASE.md`). "
-             f"Deltas compare the repository as it was 7 days ago, 28 days ago and at {labels['start_long']}. Files: `WEEKLY_REPORT.md`, `STATUS.md`, `QC_REPORT.md` in github.com/{REPO}.*")
-    return "\n".join(L) + "\n"
+def render_detail_md(now, week, month, start, labels, hist, when):
+    """Optional depth; the owner email and fallback remain the short digest."""
+    lines = [f"# Dance Atlas — progress evidence · {when:%d %b %Y}", "",
+             "[Simple weekly overview](../../WEEKLY_REPORT.md) · [Editorial decisions](../../EDITORIAL_LOG.md) · [Full vision](../../PRODUCT_VISION.md)", "",
+             f"Catalogue exported: {now.get('catalogue_at') or 'not recorded'}. Counts come from saved repository data; website rendering is not re-tested by this report.", "",
+             "## Growth and preparation", "", "| Measure | Now | 7-day change | 28-day change |", "| --- | ---: | ---: | ---: |"]
+    measures = [("Atlas entries", "dances_live"), ("Published deep profiles in the Atlas", "published"),
+                ("Researched profiles, including unpublished", "researched"), ("Dances with tutorial references", "with_tutorials"),
+                ("Dances with a hero video", "with_hero"), ("Hero videos with automated pass", "hero_checked"),
+                ("Profiles with script ingredients", "movie_ready"), ("Profiles passing structural class checks", "class_complete"),
+                ("Script packs for published Atlas profiles", "episode_packs"), ("Packs without recorded content gaps", "episode_complete"),
+                ("Packs with teaching chapters withheld", "episode_withheld"), ("Tutorials studied for teaching methods", "lessons_studied"),
+                ("Translation files for these packs", "translations"), ("Translations matching current master", "translations_current"),
+                ("Current complete translations with native review recorded", "translations_reviewed"),
+                ("Languages with translation files", "languages"), ("Viral entries in saved seed collection", "viral_entries"),
+                ("Source-quote matches in published profiles", "claims_verified"), ("Retired/merged catalogue entries", "retired")]
+    for label, key in measures:
+        value = now.get(key)
+        lines.append(f"| {label} | {value if value is not None else 'Unknown'} | {delta(value, week.get(key)) if value is not None and week else '—'} | {delta(value, month.get(key)) if value is not None and month else '—'} |")
+    lines += ["", "Historical trees are measured again using the same definitions. Changes are net counts, not the number of individual edits. A dash means comparison unavailable, not zero.", "",
+              f"Stored script index: {now['episode_stored']} packs, of which {now['episode_packs']} correspond to currently published Atlas profiles. Historical/removed entries do not count as current growth.", "",
+              f"Configured translation targets: {now['languages_configured']}; actual languages with files: {now['languages']}. A configuration is not completed translation. Old master versions and untranslated scenes prevent a current-complete claim.", "",
+              "**Readiness definitions:** publication means the automated editorial gate passed and the profile is present in the Atlas export. Script ingredients, populated fields, quote matches and model scores do not establish factual truth, practitioner review, musical rights or release approval. A script without structural gaps still needs the product release gates. Legacy movie-ready/film-grade fields are internal content checks only.", "",
+              "## Every content check", "", "These are structural signals on published profiles. They are not proof of teaching quality or cultural authenticity. Older three-level/count templates are not a universal rule for dance.", "",
+              "| Content signal | Profiles |", "| --- | ---: |"]
+    lines += [f"| {lab} | {now['topics'].get(lab, 0)} / {now['published']} |" for lab, *_ in TOPICS]
+    lines += ["", "## Evidence behind the whole-vision overview", "",
+              "Capability descriptions come from [the dated register](../../pipeline_state/vision_status.json), reviewed against the [implementation ledger](../../IMPLEMENTATION_LEDGER.md). After 30 days they display as needing recheck. A missing record never implies success.", "",
+              "| Vision area | Requirement IDs | Next work |", "| --- | --- | --- |"]
+    for area in (now.get('vision') or {}).get('areas') or []:
+        lines.append(f"| {area['title']} | {', '.join(area.get('vision_ids') or [])} | {area.get('next', '')} |")
+    lines += ["", "## Reliability and cost evidence", "",
+              "Run logs cover the content pipeline, not every crawler/scorer, website, database policy or delivery result. Inspect internal steps in Actions; a green parent can hide ignored failures. Failed model attempts can be recovered by retries/fallbacks. No invoice, current account balance or exact monetary saving is inferred from call counts.", "",
+              "| Stage | Latest recorded completion | Errors | Unanswered requests |", "| --- | --- | ---: | ---: |"]
+    last = {}
+    cutoff = when.strftime('%Y-%m-%dT%H:%M:%SZ')
+    for r in now.get('runs') or []:
+        if r.get('finished', '') <= cutoff and r.get('finished', '') > last.get(r.get('stage'), {}).get('finished', ''):
+            last[r.get('stage')] = r
+    for stage, r in sorted(last.items()):
+        lines.append(f"| {stage} | {r.get('finished')} | {len(r.get('errors') or [])} | {(r.get('counters') or {}).get('llm_unanswered', 0)} |")
+    lines += ["", "[Run history](https://github.com/DANCEATLAS/crawler/actions) · [Database and platform limits](../../IMPLEMENTATION_LEDGER.md) · [Next work](../../NEXT_STEPS.md)", ""]
+    return "\n".join(lines)
+
 
 def next_steps(now, lessons_path, when):
-    """NEXT_STEPS.md — maintained by the machine for whoever works on it next (the owner, an AI session): the bottlenecks
-    the data shows, ranked, with the concrete lever for each; the decisions still open; what not to touch."""
+    from .progress_digest import owner_action, priorities
     lessons = _j(lessons_path, {}) or {}
-    L = [f"# NEXT STEPS — written by the machine on {when.strftime('%Y-%m-%d')}", "",
-         "*Regenerated every Monday by the weekly report from the library's own numbers. Read `AI_BRIEF.md` first; this file says where to push.*", "",
-         "## What the numbers say to do first", ""]
-    i = 0
-    for x in (lessons.get("help_most") or [])[:5]:
-        i += 1
-        L.append(f"{i}. **{x.get('gap')}** is missing on {x.get('pages')} published pages — {x.get('what_helps')}.")
-    if now.get("with_hero", 0) < now.get("dances_live", 0):
-        i += 1
-        L.append(f"{i}. **{now['dances_live'] - now['with_hero']} dances have no hero video** — the crawler retries them every 21 days; an editor note with a channel or search phrase helps the stubborn ones.")
-    if now.get("gate_review"):
-        i += 1
-        L.append(f"{i}. **{now['gate_review']} pages wait in review** — each needs one decision in `audit_overrides.json` or one editor note (`WEEKLY_PASS.md`).")
-    if not now.get("film_grade"):
-        i += 1
-        L.append(f"{i}. **No page is film-grade yet** — the closest ones and what they lack are in `WEEKLY_REPORT.md` §6; the editor's approval is the last item on every one of them.")
-    L += ["", "## Decisions still open (the owner's)", "",
-          "- Video platform for the episodes (the packs are platform-neutral; one exporter when named).",
-          "- Music generator and voice-over tool (briefs and narration are ready; licences and cost are the owner's call).",
-          "- Showing the deep profiles and the episodes on the website (one Lovable paste, `LOVABLE_UI_PROMPT.md`).",
-          "- OpenAI top-up when the prepaid balance is spent (the run says so in `STATUS.md` and here).", "",
-          "## What not to touch", "",
-          "- The QC gates (`pipeline/qc.py`): fewer true pages beat more doubtful ones. The sacred rule. The no-invention rule in the scripts.",
-          "- The budgets in the workflow: the machine lowers them itself when the models fail and raises them back; raising them above the defaults costs quota, not quality.",
-          "- Lovable: content never goes through it; its AI is for layout only, once, with the prepared prompt.", ""]
-    return "\n".join(L)
+    action = owner_action(now, when)
+    lines = [f"# Next work — {when:%Y-%m-%d}", "", "Read PRODUCT_VISION.md, AI_BRIEF.md, IMPLEMENTATION_LEDGER.md and NEXT_RUN_PLAN.md first. Continue independently within existing limits.", "",
+             "## Current priorities", ""] + ["- " + x for x in priorities(now, when)]
+    lines += ["", "## Specific research gaps", ""]
+    for gap in (lessons.get('help_most') or [])[:5]:
+        lines.append(f"- {gap.get('gap')}: {gap.get('pages')} pages — {gap.get('what_helps')}.")
+    lines += ["", "## Owner-only action", "", action['title'] + ". " + action['reason'], "",
+              "Do not ask the owner to select production vendors, buy credits or copy files when independent preparation can continue. Present only one necessary action, in large plain language.", "",
+              "## Keep the whole vision current", "",
+              "- Update pipeline_state/vision_status.json after verified capability/access changes, with date and evidence in the ledger. Resolve an owner action promptly; do not leave an old sign-in request active.",
+              "- Preserve BDF, Viral creation/distribution, multilingual teaching, life stages, community, music rights and future AR in every review. Specified is not implemented; generated is not validated.",
+              "- Reconcile Atlas export, database mirror and script indexes; check scorer/crawler internal outcomes and stale translations.",
+              "- Use free/prepaid limits and capped jobs; no new purchases, higher budgets, Lovable build or launch without authorization.", ""]
+    return "\n".join(lines)
+
+
+def render_md(now, week, month, start, labels, hist, when):
+    from .progress_digest import render_md as digest
+    h = health(now['runs'], (when - dt.timedelta(days=7)).strftime('%Y-%m-%dT%H:%M:%SZ'), when.strftime('%Y-%m-%dT%H:%M:%SZ'))
+    return digest(now, week, month, start, labels, hist, when, h)
+
 
 # ---------------------------------------------------------------- the e-mail (and reports/weekly/*.html)
 # Table layout, every style inline, no scripts, no background images: the only HTML that Hotmail/Outlook, Gmail and
@@ -540,122 +457,15 @@ def week_label(when):
     return f"{a.day} – {b.day} {b.strftime('%B %Y')}"
 
 def email_subject(now, week, when):
-    return (f"Dancing Atlas · week to {when.day} {when.strftime('%b')} · {now['dances_live']:,} dances ({delta(now['dances_live'], week and week['dances_live'])}) · "
-            f"{now['published']} published ({delta(now['published'], week and week['published'])}) · {now['movie_ready']} movie-ready ({delta(now['movie_ready'], week and week['movie_ready'])})")
+    from .progress_digest import subject
+    return subject(now, week, when)
+
 
 def render_email_html(now, week, month, start, labels, hist, when):
-    date = "Week of " + week_label(when)
-    h = health(now["runs"], (when - dt.timedelta(days=7)).strftime("%Y-%m-%dT%H:%M:%SZ"))
-    R = []  # rows of the 640px content table
-    # masthead
-    R.append(f"<tr><td style='padding:0 0 4px;{FONT}font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:{GREEN};font-weight:bold'>Dancing Atlas · weekly report</td></tr>")
-    R.append(f"<tr><td style='padding:0 0 14px;{FONT}font-size:24px;font-weight:bold;color:{INK}'>{html.escape(date)}</td></tr>")
-    R.append(f"<tr><td style='padding:12px 14px;background:{PALE};border-left:4px solid {GREEN};{FONT}font-size:14px;line-height:1.5;color:{INK}'>{_inline(verdict(now, week, h))}</td></tr>")
-    # at a glance: four tiles
-    tiles = [("Dances live on the site", "dances_live"), ("Deep profiles published", "published"), ("Movie-ready", "movie_ready"), ("Film-grade ★", "film_grade")]
-    tds = []
-    for lab, k in tiles:
-        tds.append(f"<td class='tile' width='25%' valign='top' style='width:25%;padding:14px 10px;background:#fff;border:1px solid {LINE};{FONT}'>"
-                   f"<div style='font-size:30px;font-weight:bold;color:{INK};line-height:1.1'>{now[k]:,}</div>"
-                   f"<div style='font-size:12px;color:{MUTED};padding:4px 0 6px'>{html.escape(lab)}</div>"
-                   f"<div style='font-size:13px;line-height:1.5'>{_chip(now[k], week and week[k])} <span style='color:{MUTED}'>this week</span><br>{_chip(now[k], month and month[k])} <span style='color:{MUTED}'>in 4 weeks</span></div></td>")
-    R.append(f"<tr><td style='padding:16px 0 0'><table role='presentation' cellpadding='0' cellspacing='6' border='0' width='100%' style='width:100%;border-collapse:separate'><tr>{''.join(tds)}</tr></table></td></tr>")
-    R.append(f"<tr><td style='padding:8px 2px 0;{FONT}font-size:13px;line-height:1.5;color:{MUTED}'>{html.escape(labels['start'])}: {_chip(now['dances_live'], start and start['dances_live'])} dances, "
-             f"{_chip(now['published'], start and start['published'])} published profiles, {_chip(now['movie_ready'], start and start['movie_ready'])} movie-ready, {_chip(now['film_grade'], start and start['film_grade'])} film-grade.</td></tr>")
-    # 1 the ladder with bars
-    R.append(_h2("1 · The ladder — how far the dances have climbed", "Each bar is the share of all dances live that has reached that level. The top of the ladder is meant to be nearly impossible (STANDARD.md)."))
-    ladder = [("0 · Listed in the atlas", "dances_live"), ("1 · Deep profile researched from sources", "researched"), ("2 · Published — passed every QC gate and the judge", "published"),
-              ("3 · Movie-ready — music DNA, movement DNA, episode brief", "movie_ready"), ("4 · Class-complete — all 18 things a class needs", "class_complete"), ("5 · Film-grade ★ — every line of the standard, editor included", "film_grade")]
-    rows = [[html.escape(lab), _bar(now[k], now["dances_live"], width=96), _num(now[k]), _chip(now[k], week and week[k]), _chip(now[k], month and month[k])] for lab, k in ladder]
-    R.append(_table(["Level", "", "Dances", "This week", "4 weeks"], rows, ["l", "l", "r", "r", "r"], [None, "96px", None, None, None]))
-    # 2 week by week
-    if len(hist) >= 2:
-        R.append(_h2("2 · Week by week", "One row per Monday. The bar is the number of published profiles, relative to the best week shown. Episode packs, translations and lessons are in section 3."))
-        top = max(int(r.get("published", 0) or 0) for r in hist[-8:]) or 1
-        def wk(d):
-            try:
-                return dt.datetime.strptime(d, "%Y-%m-%d").strftime("%d %b")
-            except Exception:
-                return d
-        rows = [[f"<span style='white-space:nowrap'>{html.escape(wk(r['date']))}</span>", f"{int(r.get('dances_live', 0) or 0):,}", _bar(int(r.get("published", 0) or 0), top, width=52), _num(int(r.get("published", 0) or 0)),
-                 f"{int(r.get('movie_ready', 0) or 0)}", f"{int(r.get('film_grade', 0) or 0)}"] for r in hist[-8:]]
-        R.append(_table(["Week", "Dances", "", "Published", "Movie-ready", "Film-grade"], rows, ["l", "r", "l", "r", "r", "r"], [None, None, "52px", None, None, None]))
-    # 3 growth detail
-    R.append(_h2("3 · Growth in detail"))
-    growth = [("Dances live on the site", "dances_live"), ("…with a hero video", "with_hero"), ("…hero video passed the vision check", "hero_checked"), ("…with tutorial videos", "with_tutorials"),
-              ("Deep profiles researched", "researched"), ("Deep profiles published (passed QC)", "published"), ("Movie-ready profiles", "movie_ready"), ("Class-complete profiles", "class_complete"),
-              ("Film-grade ★ profiles", "film_grade"), ("Verified claims in published profiles", "claims_verified"), ("Doubles / non-dances retired (total)", "retired"),
-              ("Episode packs written (intro + 3 chapters)", "episode_packs"), ("…complete, no gaps", "episode_complete"), ("…narration polished and verified", "episode_polished"),
-              ("…translated (pack × language)", "translations"), ("Tutorial lessons studied for the teaching playbook", "lessons_studied")]
-    rows = [[html.escape(lab), _num(now[k]), _chip(now[k], week and week[k]), _chip(now[k], month and month[k]), _chip(now[k], start and start[k])] for lab, k in growth]
-    R.append(_table(["", "Now", "This week", "4 weeks", labels["start"].replace("Since the start", "Since start")], rows, ["l", "r", "r", "r", "r"]))
-    # 4 inside the profiles
-    pub = now["published"]
-    R.append(_h2(f"4 · Inside the profiles — of the {pub} published, how many have each piece", "Grouped the way a film and a class need them. Pieces marked (info) are not required for film-grade."))
-    rows, group = [], None
-    for lab, code, grp, req in TOPICS:
-        if grp != group:
-            group = grp; rows.append(grp)
-        n = now["topics"].get(lab, 0)
-        short = lab.split(": ", 1)[1] if ": " in lab else lab
-        short = short[0].upper() + short[1:] + ("" if req else " (info)")
-        rows.append([html.escape(short), _bar(n, pub, width=90), f"<strong>{n}</strong> <span style='color:{MUTED};white-space:nowrap'>({pc(n, pub)})</span>", _chip(n, week["topics"].get(lab) if week else None), _chip(n, month["topics"].get(lab) if month else None)])
-    R.append(_table(["Piece", "", "Have it", "This week", "4 weeks"], rows, ["l", "l", "r", "r", "r"], [None, "90px", None, None, None]))
-    # 5 filters
-    R.append(_h2("5 · The filters — what was kept out", f"Every published profile carries claims with a verbatim quote checked against the fetched source: **{now['claims_verified']:,} of {now['claims']:,} claims verified ({pc(now['claims_verified'], now['claims']) if now['claims'] else '–'})**."))
-    filt = [("Profiles judged by QC", "judged"), ("…passed (published)", "gate_publish"), ("…held for review (an editor decides)", "gate_review"), ("…rejected", "gate_reject"),
-            ("Doubles merged into another entry", "retired_doubles"), ("Doubles and non-dances retired (total)", "retired"), ("Dance moves screened out before research", "screened_moves"), ("Candidates waiting in the research queue", "candidates_queued")]
-    rows = [[html.escape(lab), _num(now[k]), _chip(now[k], week and week[k]), _chip(now[k], month and month[k])] for lab, k in filt]
-    R.append(_table(["", "Now", "This week", "4 weeks"], rows, ["l", "r", "r", "r"]))
-    # 6 new this week
-    if week:
-        nm = lambda s: now["names"].get(s) or s.replace("-", " ")
-        new_pub = [s for s in now["published_slugs"] if s not in set(week["published_slugs"])]
-        new_movie = [s for s in now["movie_slugs"] if s not in set(week["movie_slugs"])]
-        if new_pub or new_movie:
-            R.append(_h2("6 · New this week"))
-            if new_pub:
-                R.append(_p("**Published:** " + ", ".join(nm(s) for s in new_pub[:30]) + (f" … and {len(new_pub) - 30} more" if len(new_pub) > 30 else "")))
-            if new_movie:
-                R.append(_p("**Now movie-ready:** " + ", ".join(nm(s) for s in new_movie[:30]) + (f" … and {len(new_movie) - 30} more" if len(new_movie) > 30 else "")))
-    # 7 closest to film-grade
-    R.append(_h2("7 · Closest to film-grade ★", ("**Film-grade now:** " + ", ".join(now["names"].get(s) or s for s in now["film_slugs"])) if now["film_slugs"] else "No page is film-grade yet — these are the nearest, with what each still lacks."))
-    rows = [[html.escape(name), f"{score}", f"{cls}", html.escape(f"{nmiss}: " + ", ".join(TOPIC_BY_LABEL[x][1] if x in TOPIC_BY_LABEL else x for x in missing))] for nmiss, _, name, slug, missing, score, cls in now["closest"][:8]]
-    R.append(_table(["Dance", "Judge", "Checklist", "Still missing"], rows, ["l", "r", "r", "l"]))
-    # 8 stuck
-    lessons = _j(os.path.join("pipeline_state", "lessons_learned.json"), {}) or {}
-    tuning = _j(os.path.join("pipeline_state", "tuning.json"), {}) or {}
-    R.append(_h2("8 · Where the machine is stuck — and what would help most", "What the scripts lack most across the published pages, and the one thing that would fix each."))
-    hm = lessons.get("help_most") or []
-    if hm:
-        R.append(_table(["What the scripts lack", "Pages", "What would fix it"], [[html.escape(str(x.get("gap"))), f"<strong>{x.get('pages')}</strong>", html.escape(str(x.get("what_helps")))] for x in hm[:6]], ["l", "r", "l"]))
-    if lessons.get("avoid"):
-        R.append(_p("The judge's most frequent objections in the last 30 days, now handed to the writer before every page: " + "; ".join(lessons["avoid"][:3]) + ".", size=13, color=MUTED))
-    if tuning.get("reason"):
-        R.append(_p(f"Self-tuning: {tuning['reason']}." + ((" **Alerts:** " + "; ".join(tuning.get("alerts") or [])) if tuning.get("alerts") else ""), size=13, color=MUTED))
-    # 9 the machine
-    R.append(_h2("9 · The machine"))
-    R.append(_p(f"Daily run fired on **{h['days']} of 7** days · model calls this week **{h['calls']:,}** · errors logged **{h['errors']}** · OpenAI balance {'**spent**' if h['quota'] else 'fine'} · "
-                f"{now['schema5']} of {now['researched']} profiles at research schema 5 · teaching playbook built from {now['lessons_studied']} lessons across {now['teachers_dances']} dances.", size=13))
-    # footer
-    R.append(f"<tr><td style='padding:28px 0 0;border-top:1px solid {LINE};{FONT}font-size:12px;line-height:1.5;color:{MUTED}'>"
-             + _inline("**How to read this.** **Published** = passed every QC gate (sources, verified quotes, country, no AI tells, not a double) and a judge score; **movie-ready** = music DNA + movement DNA + an episode brief, all from sources; "
-                       "**class-complete** = all 18 things a teachable class needs; **film-grade ★** = every line of STANDARD.md, including an editor's read — the bar is meant to be nearly impossible; **episode packs** = the scene-by-scene scripts (Episode 1 + three chapters) written from the profile only. "
-                       f"Changes compare the repository as it was 7 days ago, 28 days ago and at {labels['start_long']}.")
-             + f"<br><br>Full report and history: <a href='https://github.com/{REPO}/blob/main/WEEKLY_REPORT.md' style='color:{GREEN}'>WEEKLY_REPORT.md</a> · "
-             f"<a href='https://github.com/{REPO}/blob/main/NEXT_STEPS.md' style='color:{GREEN}'>NEXT_STEPS.md</a> · <a href='https://github.com/{REPO}/blob/main/STANDARD.md' style='color:{GREEN}'>STANDARD.md</a> · "
-             f"<a href='https://github.com/{REPO}/actions' style='color:{GREEN}'>the machine's runs</a>. Sent by the repository's weekly workflow; nothing to reply to.</td></tr>")
-    body = "".join(R)
-    return (f"<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><meta name='x-apple-disable-message-reformatting'>"
-            f"<title>{html.escape(email_subject(now, week, when))}</title>"
-            "<style>@media only screen and (max-width:520px){.tile{display:block!important;width:100%!important;box-sizing:border-box}.wrap{padding:10px 6px!important}.pad{padding:18px 14px 16px!important}}</style></head>"
-            f"<body style='margin:0;padding:0;background:#efefef'>"
-            f"<table role='presentation' cellpadding='0' cellspacing='0' border='0' width='100%' style='width:100%;background:#efefef'><tr><td align='center' class='wrap' style='padding:24px 12px'>"
-            "<!--[if mso]><table role='presentation' cellpadding='0' cellspacing='0' border='0' width='640'><tr><td><![endif]-->"
-            f"<table role='presentation' cellpadding='0' cellspacing='0' border='0' width='100%' style='width:100%;max-width:640px;background:#ffffff;border-radius:6px'><tr><td class='pad' style='padding:28px 28px 24px'>"
-            f"<table role='presentation' cellpadding='0' cellspacing='0' border='0' width='100%' style='width:100%'>{body}</table>"
-            "</td></tr></table><!--[if mso]></td></tr></table><![endif]-->"
-            "</td></tr></table></body></html>")
+    from .progress_digest import render_html
+    h = health(now['runs'], (when - dt.timedelta(days=7)).strftime('%Y-%m-%dT%H:%M:%SZ'), when.strftime('%Y-%m-%dT%H:%M:%SZ'))
+    return render_html(now, week, month, start, labels, hist, when, h)
+
 
 # ---------------------------------------------------------------- optional direct e-mail
 def _outcome(**kv):
@@ -756,7 +566,7 @@ def main(argv):
                 continue
             m = measure_rev(r, cache)
             hist.append({"date": d.strftime("%Y-%m-%d"), **{k: m[k] for k in keys}, "rev": m["rev"], "backfilled": True})
-    row = {"date": when.strftime("%Y-%m-%d"), **{k: now[k] for k in keys}, "rev": now["rev"]}
+    row = {"date": when.strftime("%Y-%m-%d"), **{k: now[k] for k in keys}, "rev": now["rev"], "metric_version": 2}
     hist = [h for h in hist if h.get("date") != row["date"]] + [row]
     os.makedirs("pipeline_state", exist_ok=True); os.makedirs(os.path.join("reports", "weekly"), exist_ok=True)
     with open(hist_path, "w", encoding="utf-8") as f:
@@ -764,6 +574,11 @@ def main(argv):
     md = render_md(now, week, month, start, labels, hist, when)
     with open("WEEKLY_REPORT.md", "w", encoding="utf-8") as f:
         f.write(md)
+    detail = render_detail_md(now, week, month, start, labels, hist, when)
+    with open(os.path.join("reports", "weekly", "details.md"), "w", encoding="utf-8") as f:
+        f.write(detail)
+    with open(os.path.join("reports", "weekly", when.strftime("%Y-%m-%d") + "-details.md"), "w", encoding="utf-8") as f:
+        f.write(detail)
     with open("NEXT_STEPS.md", "w", encoding="utf-8") as f:
         f.write(next_steps(now, lessons_path=os.path.join("pipeline_state", "lessons_learned.json"), when=when))
     stem = os.path.join("reports", "weekly", when.strftime("%Y-%m-%d"))
