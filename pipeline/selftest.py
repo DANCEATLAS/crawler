@@ -122,6 +122,7 @@ def run():
     except Exception as e:
         check("movie phase selftest", False, repr(e))
     import unittest
-    from . import test_foundation
-    result = unittest.TextTestRunner(verbosity=1).run(unittest.defaultTestLoader.loadTestsFromModule(test_foundation))
+    from . import test_foundation, test_progress_digest
+    suite = unittest.TestSuite(unittest.defaultTestLoader.loadTestsFromModule(module) for module in (test_foundation, test_progress_digest))
+    result = unittest.TextTestRunner(verbosity=1).run(suite)
     return {"counters": {"failures": len(fails) + len(result.failures) + len(result.errors)}}
