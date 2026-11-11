@@ -1,5 +1,7 @@
 # THE STANDARD — what "finished" means for a Dance Atlas profile
 
+**Superseded destination, 11 November 2026:** Active Profile is the current goal. Read ACTIVE_PROFILE_STANDARD.md and PRODUCT_VISION.md. The historical movie/script metrics below remain for compatibility and useful presentation assets; they do not establish interactive readiness.
+
 *The aim is the best dance atlas ever made: every tradition researched to the depth a film crew and a teacher need, true to its
 sources, respectful of its culture, no doubles. This file defines the ladder every page climbs and the top rung, **film-grade ★**,
 which is meant to be nearly impossible. `pipeline/weekly_report.py` measures all of it every Monday; the code is the authority
