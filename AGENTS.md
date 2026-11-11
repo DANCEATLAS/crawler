@@ -10,3 +10,9 @@ Read `PRODUCT_VISION.md`, `AI_BRIEF.md` and `IMPLEMENTATION_LEDGER.md` before ch
 - Run Python 3.11 compilation and `python -m pipeline.run selftest` for code changes. Prefer bounded offline fixtures. Never expose credentials or equate local tests with deployment.
 - Publish through supported authenticated tools or normal browser UI. Do not execute legacy upload scripts that inject network calls into browser pages.
 - Update the ledger and relevant mirrors with scope, validation, publication state, costs and limits. Private learner/BDF memory never belongs in this public repository.
+
+- Weekly reporting: keep `pipeline_state/vision_status.json` current after verified changes, covering V01–V18. Record evidence/date in the ledger; resolve owner actions promptly. Email is the simple overview, `reports/weekly/details.md` the optional depth. Do not force-send another email merely to test a layout.
+
+## Resume checkpoint — 11 November 2026
+
+Read `NEXT_RUN_PLAN.md` before the next substantive pass. The existing Dance Atlas Supabase project is accessible; do not repeat account creation or sign-in requests. Keep Sunfeld outside this work. Preserve all V01–V18 requirements and update measured state rather than treating the vision as implemented.
