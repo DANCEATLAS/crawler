@@ -48,6 +48,11 @@ class ProgressDigestTests(unittest.TestCase):
         self.assertEqual(w.measure(str(self.root))['viral_entries'],0)
         self.assertEqual(d.change(0,None),'earlier comparison unavailable')
 
+    def test_active_readiness_missing_and_stale_are_explicit(self):
+        self.assertIn("unavailable", d.readiness_summary({}, WHEN))
+        old = {"activation": {"count": 50, "evaluated_on": "2026-10-01", "states": {"ready_for_activation": 1}}}
+        self.assertIn("Needs recheck", d.readiness_summary(old, WHEN))
+
     def test_missing_stale_or_future_action_does_not_request_login(self):
         for day in ('2026-01-01','2027-01-01','bad',None):
             m={'vision':{'owner_action':{'status':'open','verified_at':day,'title':'Sign in'}}}
