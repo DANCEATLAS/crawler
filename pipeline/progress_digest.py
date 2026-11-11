@@ -56,7 +56,9 @@ def vision_rows(now, when):
             row["text"] = "Last recorded: " + row.get("text", "Status unavailable.")
         live = {
             "atlas": f"{now['dances_live']:,} entries; {now['published']:,} published deep profiles.",
-            "teaching": f"{now['episode_packs']:,} script packs; {now['episode_complete']:,} without recorded content gaps.",
+            "teaching": (readiness_summary(now, when) + " "
+                         f"{now['episode_packs']:,} supporting script packs; {now['episode_complete']:,} without recorded content gaps. "
+                         "Readiness is dated; no interactive runtime is deployed."),
             "language": f"{now['translations_current']:,} current translation drafts; {now['translations_reviewed']:,} complete, native-reviewed translations recorded.",
             "viral": f"{now['viral_entries']:,} entries in the saved collection." if now.get("viral_entries") is not None else "Collection count unavailable."
         }.get(row.get("id"))
@@ -66,6 +68,17 @@ def vision_rows(now, when):
     if not rows:
         rows.append({"id": "missing", "title": "Whole-vision review", "status": "Not recorded", "text": "The capability register is missing. Do not infer that BDF, Viral, music, social or AR features are complete."})
     return rows
+
+
+def readiness_summary(now, when):
+    active = now.get("activation") or {}
+    if not active:
+        return "Active Profile readiness audit unavailable."
+    date = active.get("evaluated_on")
+    prefix = "" if fresh(date, when, 2) else "Needs recheck. Last recorded: "
+    return (prefix + f"{active.get('count', 0):,} Active Profile dossiers; "
+            f"{(active.get('states') or {}).get('ready_for_activation', 0):,} ready for activation "
+            f"(audit {date or 'undated'}).")
 
 
 def highlights(now, week):
