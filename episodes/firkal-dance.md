@@ -1,8 +1,8 @@
 # Firkal dance — episode pack
 
-*Status: draft · built 2026-11-11 · judge 8.75 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 8.75 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A cultural historian or a representative from the Kalamandir foundation.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Warrior Dance of Janumdih
 NARRATION: This is Firkal dance. Ancient to contemporary.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (0JCWeR4AlQs)
 ON SCREEN: Title card: Firkal dance · India · Ancient to contemporary
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The dance involves the use of swords, arrows, bows, and shields.
 NARRATION: Movements are categorized into 'Taal', such as Bagh Taal, Birsa Munda Taal, and Pahalbani Taal.
 NARRATION: The dance has evolved from a martial ritual into a recreational exercise.
 NARRATION: Watch for Bagh Taal, Birsa Munda Taal, Pahalbani Taal.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (0JCWeR4AlQs)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -288,7 +288,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance is currently practiced in the village of Janumdih, located in the Potka block of the East Singhbhum district in Jharkhand, India.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '0JCWeR4AlQs', 'checked_by_vision_model': False, 'title': 'Firkal Dance by bhumij tribal at Jarkhand state ||750JAISEVANEWS'}
 Images: 1 licensed — Sumita Roy Dutta / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Swords and shields, Bhumij tribal attire, Rural landscape of Janumdih

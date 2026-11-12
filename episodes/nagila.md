@@ -1,8 +1,8 @@
 # Nagila — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); the costume & setting section; notable figures; lineage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the costume & setting section; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local cultural practitioner from the Upper East region.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Rhythm of the Upper East: Nagila
 NARRATION: This is Nagila. 21st century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (cR1kloYoPjs)
 ON SCREEN: Title card: Nagila · Ghana · 21st century
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: The dancer takes the center, bends the upper body forward to form a right angle at the hips, and stamps feet in a rhythmic pattern while holding elbows in front or behind.
 NARRATION: Watch for Forward-bend stamp.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (cR1kloYoPjs)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo dancer in the center.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -109,7 +109,7 @@ NARRATION: Step 1: Bend upper body forward until hips and thighs form a right an
 NARRATION: Step 2: Position elbows either in front of the body or behind the back.
 NARRATION: Footwork from the sources: Stamping feet on the ground in a rhythmic pattern.
 NARRATION: Drill: Practice the hip hinge to reach a right angle.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -178,7 +178,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Bend upper body forward until hips and thighs form a right angle.
 NARRATION: Step 2: Position elbows either in front of the body or behind the back.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -246,7 +246,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Position elbows either in front of the body or behind the back.
 NARRATION: Step 2: Stamp feet on the ground in a rhythmic pattern.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -298,7 +298,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'cR1kloYoPjs', 'checked_by_vision_model': False, 'title': 'HAVA NAGILA Jewish Punjabi Israel India Dance - Downtown Bhangra Vancouver'}
 Images: 0 licensed
 Footage: File:Nagila Traditional Dance.webm — https://upload.wikimedia.org/wikipedia/commons/3/36/Nagila_Traditional_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Hava Nagila Original — https://archive.org/details/youtube-vHSNZK4Je-Y; Curtain Up! Full One Hour Show — https://archive.org/details/CurtainUpFullOneHourShow; Duchess Camilla Dancing the Hava Nagila! — https://archive.org/details/youtube-lRu5RUL5qJc; Hava Nagila — https://archive.org/details/bandicam-2024-08-18-17-18-55-423; "Hava Nagila" performed by Joshua Moon — https://archive.org/details/youtube-Pd-Sm58i35Y; ''Hava Nagila'' | Israeli folk song — https://archive.org/details/youtube-Z9PM5gjwN1U
 Motifs: Right-angle posture, Drumming hands, Dust kicking up from rhythmic stamps
@@ -310,7 +310,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (2): https://en.wikipedia.org/wiki/Nagila; https://www.wikidata.org/wiki/Q94440683

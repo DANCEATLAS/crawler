@@ -1,6 +1,6 @@
 # Basque folk dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-11 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-12 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); two or more connections
 
@@ -114,7 +114,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (5): https://en.wikipedia.org/wiki/Basque_dance; https://www.wikidata.org/wiki/Q2250773; https://es.wikipedia.org/wiki/Danzas_vascas; https://fr.wikipedia.org/wiki/Danse_basque; https://it.wikipedia.org/wiki/Danza_basca

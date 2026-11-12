@@ -1,0 +1,451 @@
+{
+ "slug": "danza-de-los-quetzales",
+ "name": "Danza de los Voladores",
+ "pack_version": "e2",
+ "built_at": "2026-11-12T18:57:17Z",
+ "researched_at": "2026-11-12T18:24:29Z",
+ "qc_score": 9.45,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A traditional Totonac elder or experienced caporal",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Danza de los Voladores",
+   "Palo Volador",
+   "Dance of the Flyers",
+   "Voladores de Papantla"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Danza de los Voladores",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Flight of the Totonac",
+     "This is Danza de los Voladores. Pre-Hispanic."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (D6MESAXY2bk)",
+     "Title card: Danza de los Voladores · Mexico · Pre-Hispanic"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The ritual is believed to have originated with the Nahua, Huastec, and Otomi peoples in central Mexico.",
+     "It is associated with pre-Hispanic fertility cults and was used to appease gods during severe droughts.",
+     "Evidence of the ritual exists in ceramics from the pre-Classic period in Nayarit."
+    ],
+    "on_screen": [
+     "Map: Mexico · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The ritual is performed to request rain, ensure fertility, and honor solar deities.",
+     "It is often linked to the spring equinox and the patron saint feast days of local communities.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Spinning Men in Cozumel.webm (https://upload.wikimedia.org/wikipedia/commons/b/b5/Spinning_Men_in_Cozumel.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The ceremony involves climbing a 30-meter pole.",
+     "The caporal stands on a small platform at the top, playing a flute and drum.",
+     "Four other participants sit on a square frame, wind ropes around the pole, and then fall backward to descend while spinning in a circle.",
+     "Watch for The Descent."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (D6MESAXY2bk)",
+     "Captions name each signature move as it appears",
+     "Formation: Circular, vertical axis"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is performed by the caporal using a flute and a drum.",
+     "The music is described as representing the sound of birds singing and is used to acknowledge the four cardinal directions.",
+     "Listen for the Flute, Drum.",
+     "The music consists of a flute and drum played by the caporal at the top of the pole, representing the sound of birds singing."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear red pants, white shirts, and an embroidered cloth across the chest.",
+     "The cap is decorated with flowers, mirrors, and multicolored ribbons.",
+     "The setting is a 30-meter pole, traditionally made from a tree trunk, though modern poles are often metal."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Jesús Arroyo Cerón is noted as a significant trainer of voladores, including female participants, who died during a performance in 2006.",
+     "Variations include the number of dancers (sometimes six), the use of a five-sided frame, and the inclusion of women in specific Puebla and Veracruz communities, which remains a subject of debate among elders.",
+     "The ritual is a Mesoamerican tradition that spread from central Mexico to Nicaragua, surviving primarily among the Totonac and Nahua peoples."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Danza de los Voladores is shares region of La Maringuilla: A dance associated with Totonac ritual traditions."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The ritual is considered a sacred act of fertility and connection to the gods; outsiders should observe with respect and follow local guidelines regarding photography and participation."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Five men defy gravity in an ancient ritual to bring rain to the earth.",
+     "Sources: 5 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "Flute",
+   "Drum"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "Solemn",
+   "Ritualistic"
+  ],
+  "sound_description": "The music consists of a flute and drum played by the caporal at the top of the pole, representing the sound of birds singing.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Danza de los Voladores (Mexico). Instruments: Flute, Drum. Mood: Solemn, Ritualistic. It should sound like this: The music consists of a flute and drum played by the caporal at the top of the pole, representing the sound of birds singing. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "D6MESAXY2bk",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers wear red pants, white shirts, and an embroidered cloth across the chest. The cap is decorated with flowers, mirrors, and multicolored ribbons. The setting is a 30-meter pole, traditionally made from a tree trunk, though modern poles are often metal.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AEl_Tajin_Los_Voladores_%28fcm%29.jpg",
+    "https://commons.wikimedia.org/wiki/File%3APolancoVoladoresdePapantla.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ANebel_Voyage_21_Indios.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/El_Tajin_Los_Voladores_%28fcm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/El_Tajin_Los_Voladores_%28fcm%29.jpg/1280px-El_Tajin_Los_Voladores_%28fcm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Photograph:  Frank C. Müller, Baden-Baden / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AEl_Tajin_Los_Voladores_%28fcm%29.jpg",
+    "description": "Bildinhalt: Fliegende Tänzer in El Tajín\nAufnahmeort: El Tajín bei Papantla, Mexiko"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/PolancoVoladoresdePapantla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/97/PolancoVoladoresdePapantla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Fernando González del Cueto / Wikimedia Commons / CC BY 2.5",
+    "license": "CC BY 2.5",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APolancoVoladoresdePapantla.jpg",
+    "description": "Performance of the Voladores in the central park of Chapultepec in Mexico City, next to the National Museum of Anthropology and History. The famous modern towers of Polanco can be seen in the background."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Nebel_Voyage_21_Indios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Nebel_Voyage_21_Indios.jpg/1280px-Nebel_Voyage_21_Indios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Pierre Frédéric Lehnert / Carl Nebel / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANebel_Voyage_21_Indios.jpg",
+    "description": "Indios de la Cierra de Guauchinango. Hand-colored lithograph highlighted with gum arabic. Original size (neat lines): 39.6×30.6 cm."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Voladores_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Voladores_3.jpg/1280px-Voladores_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "B.navez / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVoladores_3.jpg",
+    "description": "Los Voladores Aztecas performing on Réunion island"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Dancing_on_a_pole_Mexico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Dancing_on_a_pole_Mexico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "SpyridoulaDellaPhotography / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADancing_on_a_pole_Mexico.jpg",
+    "description": "The Flying Men dancing on a pole, part of an ancient Mexican tradition. Check out the whole dance here https://www.flickr.com/photos/spytodie4/4313216547/"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Folding_Screen_with_Indian_Wedding_and_Flying_Pole_%28Biombo_con_desposorio_ind%C3%ADgena_y_palo_volador%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Folding_Screen_with_Indian_Wedding_and_Flying_Pole_%28Biombo_con_desposorio_ind%C3%ADgena_y_palo_volador%29_-_Google_Art_Project.jpg/1280px-Folding_Screen_with_Indian_Wedding_and_Flying_Pole_%28Biombo_con_desposorio_ind%C3%ADgena_y_palo_volador%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AFolding_Screen_with_Indian_Wedding_and_Flying_Pole_%28Biombo_con_desposorio_ind%C3%ADgena_y_palo_volador%29_-_Google_Art_Project.jpg",
+    "description": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Voladores_from_Veracruz_performing_in_Puerto_Vallarta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Voladores_from_Veracruz_performing_in_Puerto_Vallarta.jpg/1280px-Voladores_from_Veracruz_performing_in_Puerto_Vallarta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Walkps1 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVoladores_from_Veracruz_performing_in_Puerto_Vallarta.jpg",
+    "description": "Voladores of Papantla performing in Puerto Vallarta, Jalisco, Mexico - February 2016"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Rito_de_los_voladores_-_Teotihuacan%2C_Edomex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Rito_de_los_voladores_-_Teotihuacan%2C_Edomex.jpg/1280px-Rito_de_los_voladores_-_Teotihuacan%2C_Edomex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Juan Carlos Fonseca Mata / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ARito_de_los_voladores_-_Teotihuacan%2C_Edomex.jpg",
+    "description": "Rito de los Voladores en Teotihuacan, México."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Spinning Men in Cozumel.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Spinning_Men_in_Cozumel.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Timothy J. Quill / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Danza de los Voladores (Dance of the Flyers).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Danza_de_los_Voladores_%28Dance_of_the_Flyers%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 4.0",
+    "attribution": "Emma Matthies / Wikimedia Commons / CC BY 4.0"
+   },
+   {
+    "title": "Danza de los Voladores (Pole flying)",
+    "url": "https://archive.org/details/Flickr-32827984293",
+    "year": 2017,
+    "license": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "La Danza De Los Voladores Y Otros Ritos Del Mexico Antiguo 2 K",
+    "url": "https://archive.org/details/la-danza-de-los-voladores-y-otros-ritos-del-mexico-antiguo-2-k",
+    "year": 2026,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "The 30-meter pole",
+   "Embroidered red and white costumes",
+   "The spinning pyramid shape"
+  ],
+  "costume_notes": "Dancers wear red pants, white shirts, and an embroidered cloth across the chest. The cap is decorated with flowers, mirrors, and multicolored ribbons. The setting is a 30-meter pole, traditionally made from a tree trunk, though modern poles are often metal.",
+  "setting_notes": "The ritual is performed to request rain, ensure fertility, and honor solar deities. It is often linked to the spring equinox and the patron saint feast days of local communities.",
+  "map": {
+   "country": "Mexico",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "2 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 2,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Danza_de_los_Voladores",
+  "https://www.wikidata.org/wiki/Q1165268",
+  "https://es.wikipedia.org/wiki/Rito_de_los_voladores",
+  "https://fr.wikipedia.org/wiki/Danse_du_volador",
+  "https://de.wikipedia.org/wiki/Danza_del_Volador"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "db110b52608e11cd29be3fffb0601e34c06dec9e15ef836f70ab602d799ef15a",
+ "hero_checked": "pass"
+}

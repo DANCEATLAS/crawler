@@ -1,0 +1,141 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex turns"
+        ],
+        "counts": "Simplified 4-count rhythm.",
+        "duration_minutes": "2-3 minutes",
+        "game_version": "A follow-the-leader game moving in four directions."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Quick turns",
+          "High-impact steps"
+        ],
+        "counts": "Simplified 4-count rhythm.",
+        "seated_version": "Perform the arm gestures and torso sway while seated.",
+        "standing_version": "Hold a chair for balance while performing side-steps.",
+        "tempo_and_range": "Reduced tempo and limited range of motion."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Characteristic arm gestures accompanying the sway",
+      "difficulty": "beginner",
+      "footwork": "Two steps right, two steps left, back, forward, turn",
+      "formation_and_space": "Lines and columns, moving toward four cardinal directions",
+      "hips_and_torso": "Swaying and shaking movements",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "None; individual in a group formation",
+      "posture": "Upright and balanced",
+      "signature_moves": [
+        {
+          "description": "Rotating the formation to face each of the four cardinal directions.",
+          "name": "Four-direction turn"
+        }
+      ],
+      "tempo_feel": "Steady, rhythmic",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "percussion",
+        "accordion",
+        "electric organ"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "rhythmic",
+        "upbeat",
+        "communal"
+      ],
+      "musical_form": "Malay-style popular music",
+      "reference_recordings": [
+        {
+          "artist": "Yopie Latul",
+          "title": "Poco-poco"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Malay-influenced popular music characterized by the use of percussion and electric organs or accordions.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Two steps to the right",
+        "Two steps to the left",
+        "Step backward",
+        "Step forward",
+        "Turn"
+      ],
+      "formation": "Lines and columns",
+      "level_notes": "Beginner-friendly, focus on synchronized movement in four directions.",
+      "rhythm": "4/4 time"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "7e154bb61d39c60fc257b2da4a2d563150aa4bceb19fbbb455af37a619ff89bb",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: what_to_avoid",
+      "music_structure: rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:poco-poco",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Poco-poco",
+  "research_file": "research_results/poco-poco.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "poco-poco",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Poco-poco",
+    "https://www.wikidata.org/wiki/Q3392977",
+    "https://fr.wikipedia.org/wiki/Poco-poco",
+    "https://pt.wikipedia.org/wiki/Poco-poco"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

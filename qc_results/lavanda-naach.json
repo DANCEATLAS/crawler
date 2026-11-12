@@ -1,0 +1,127 @@
+{
+ "slug": "lavanda-naach",
+ "qc_at": "2026-11-12T18:36:46Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 7.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Lavanda Naach"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "72"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "191"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the 11th century, this dance began as a male-only performance, later evolving"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "427"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2006"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,how_it_is_danced"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"bidesia\", \"score\": 1.0, \"via_alias\": \"Launda Naach\"}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 9,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that the dance originated in the 11th century is cited in the evidence, but historical consensus on such specific dates for folk dance origins is often debated; however, it is supported by the provided evidence text."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Launda Naach",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and respectful. It correctly identifies the social context of the dance. Teaching value is low because the movement vocabulary is not documented in the sources, which is handled appropriately by the profile."
+ },
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "bidesia",
+  "score": 1.0,
+  "via_alias": "Launda Naach"
+ },
+ "is_sacred": false,
+ "reasons": [
+  "not_duplicate",
+  "sections_filled",
+  "judge_score=7.6",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-12T17:58:57Z"
+}

@@ -2,7 +2,7 @@
  "slug": "tipri-dance",
  "name": "Tipri dance",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:12Z",
+ "built_at": "2026-11-12T18:57:17Z",
  "researched_at": "2026-11-11T17:59:45Z",
  "qc_score": 9.45,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Tipri dance. 20th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (iBgHjDXDBxs)",
      "Title card: Tipri dance · India · 20th century"
     ],
     "music": "theme (30 s)"
@@ -108,7 +108,7 @@
      "Watch for Rope weaving, Stick striking."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (iBgHjDXDBxs)",
      "Captions name each signature move as it appears",
      "Formation: Circular formation or pairs."
     ],
@@ -276,7 +276,7 @@
       "Drill: Tap sticks together in 4/4 time"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -417,7 +417,7 @@
       "Step 2: Striking sticks with a partner"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -560,7 +560,7 @@
       "Step 2: Weaving ropes while moving in a circle"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -695,7 +695,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "iBgHjDXDBxs",
+   "checked_by_vision_model": false,
+   "title": "Jalwa tera jalwa | school girls tipri dance | deshbhakti song | republic day | independence day"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -736,32 +740,32 @@
   "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 8"
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
    "rock step",
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "keep it flat on the ground",
-   "switch",
-   "slide",
-   "hit"
+   "step your right foot sideward",
+   "close your left foot",
+   "point your left foot",
+   "hold your skirt",
+   "put your hands at the back",
+   "take three steps forward",
+   "turn around",
+   "open your fan"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "full_demo",
    "count_in",
+   "full_demo",
    "warmup",
    "breakdown",
-   "music_practice",
    "slow_practice",
+   "music_practice",
    "recap"
   ],
   "steps_as_taught": []
@@ -770,7 +774,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "notable figures",
@@ -784,6 +788,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "a490c632277f19fe9d963b5874a78708d6a122938028f977a54057a49f633602",
+ "input_fingerprint": "f62fb545a023774844859a251339874245206172ad6fdf9f5e5537fe7bdd0078",
  "hero_checked": null
 }

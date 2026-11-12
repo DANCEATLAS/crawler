@@ -1,6 +1,6 @@
 # Polska — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.1 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.1 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); what to avoid / common mistakes
 
@@ -115,7 +115,7 @@ NARRATION: Step 1: Promenade walk
 NARRATION: Step 2: Bakmes counter-clockwise turn
 NARRATION: Footwork from the sources: Walking promenade steps, stepping primarily on the first and third beat during resting phases
 NARRATION: Drill: Step on beat one and three
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -187,7 +187,7 @@ NEEDS: tempo
 NARRATION: Step 1: Promenade walk
 NARRATION: Step 2: Bakmes counter-clockwise turn
 NARRATION: Drill: Escort walking step
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -262,7 +262,7 @@ NEEDS: tempo
 NARRATION: Step 1: Pols clockwise turn
 NARRATION: Step 2: Resting step on beats one and three
 NARRATION: Drill: One turn per measure rotation
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -331,7 +331,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (5): https://en.wikipedia.org/wiki/Polska_(dance); https://www.wikidata.org/wiki/Q1766836; https://fr.wikipedia.org/wiki/Polska_(danse); https://archive.org/details/sztukaludowawpo00mokgoog; https://archive.org/details/cs.2718

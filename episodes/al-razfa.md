@@ -1,6 +1,6 @@
 # Al-Razfa — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.6 · 7/7 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-12 · judge 9.6 · 7/7 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed reference footage; posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
 
@@ -11,7 +11,7 @@
 ## Episode 1 · Meet Al-Razfa · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Al-Razfa begins as a communal celebration of battle victory. Two facing rows of men chant Nabati poetry while dancers wield wooden replica rifles.
+NARRATION: Al-Razfa begins as a communal celebration of battle victory. Two rows of men face each other, chanting Nabati poetry while dancers wield wooden replica rifles.
 NARRATION: This is traditional Al-Razfa.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Al-Razfa · United Arab Emirates and Oman · traditional
@@ -26,15 +26,15 @@ ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Once performed to mark victory, Al-Razfa is now social entertainment for national festivals and weddings.
-NARRATION: It brings together elders, heads of State, and young children in a shared tradition.
+NARRATION: Once a victory dance, Al-Razfa is now social entertainment for national festivals and weddings.
+NARRATION: It brings together elders, heads of State, and young children.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Performers form two facing lines with dancers in the space between.
+NARRATION: Performers stand in two facing lines with dancers in the space between.
 NARRATION: A main singer leads the two rows in antiphonal chants.
-NARRATION: Dancers carry wooden replica rifles and move to the rhythm. Young girls sometimes swing their hair in time with the music.
+NARRATION: Dancers carry wooden replica rifles, moving to the rhythm. Occasionally, young girls swing their hair with the music.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -42,7 +42,7 @@ NEEDS: signature_moves
 
 ### 5. Listen (70 s) · `music`
 NARRATION: A dual chorus sings chants set to traditional Nabati poetry.
-NARRATION: Drums and other instruments accompany the vocals, with contemporary artists adding updated melodies and arrangements.
+NARRATION: Drums and other instruments accompany the vocals. Contemporary artists add updated melodies and arrangements.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -50,8 +50,8 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: The dance takes place at weddings and national festivals.
-NARRATION: Dancers carry wooden replica rifles. Participating girls swing their long hair to the rhythm.
+NARRATION: The dance takes place at social occasions like weddings and national festivals.
+NARRATION: Dancers hold wooden replica rifles. Participating girls swing their long hair to the rhythm.
 ON SCREEN: Image gallery: 3 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
@@ -59,7 +59,7 @@ MUSIC: underscore
 ### 7. The people (60 s) · `people`
 NARRATION: Dancers learn roles through practical experience at social events. Girls receive instruction from their mothers and older sisters.
 NARRATION: Al-Razfa is practiced throughout the United Arab Emirates and the Sultanate of Oman as shared intangible cultural heritage.
-NARRATION: Families handle the transmission directly.
+NARRATION: Families handle the transmission.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
@@ -86,9 +86,9 @@ MUSIC: theme (20 s)
 ## Chapter 1 · First steps — the first steps of Al-Razfa · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: the first steps of Al-Razfa.
-NARRATION: Level: beginner. 
-NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
+NARRATION: Chapter 1 covers the first steps of Al-Razfa.
+NARRATION: Level: beginner.
+NARRATION: Your instructor counts out loud, demonstrates from the front and back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -108,7 +108,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Form two equal rows facing each other.
 NARRATION: Step 2: Sing antiphonal chants led by the main singer.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -149,9 +149,9 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — the building the dance of Al-Razfa · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: the building the dance of Al-Razfa.
-NARRATION: Level: intermediate. 
-NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
+NARRATION: Chapter 2 covers building the dance of Al-Razfa.
+NARRATION: Level: intermediate.
+NARRATION: Your instructor counts out loud, demonstrates from the front and back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -171,7 +171,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Form two equal rows facing each other.
 NARRATION: Step 2: Sing antiphonal chants led by the main singer.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -202,7 +202,7 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now build the dance of Al-Razfa.
+NARRATION: You can now perform the building of the dance of Al-Razfa.
 NARRATION: Individual roles within the dance are learned through practical experience at social events, with girls receiving instruction directly from their mothers and older sisters.
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
@@ -212,9 +212,9 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — the dancing it fully of Al-Razfa · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: the dancing it fully of Al-Razfa.
-NARRATION: Level: advanced. 
-NARRATION: Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
+NARRATION: Chapter 3 covers dancing Al-Razfa fully.
+NARRATION: Level: advanced.
+NARRATION: Your instructor counts out loud, demonstrates from the front and back, repeats every step slowly three times before speeding up, names mistakes kindly, and never rushes.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -234,7 +234,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Step into the space between lines while carrying a wooden replica rifle.
 NARRATION: Step 2: Execute choreographed movements holding the rifle in time to the drum rhythm.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -264,7 +264,7 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now dance Al-Razfa fully.
+NARRATION: You can now perform Al-Razfa fully.
 NARRATION: Transmission occurs directly within families.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
@@ -296,7 +296,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (4): https://en.wikipedia.org/wiki/Yowlah; https://www.wikidata.org/wiki/Q12213610; https://it.wikipedia.org/wiki/Yowlah; https://ich.unesco.org/en/RL/01078

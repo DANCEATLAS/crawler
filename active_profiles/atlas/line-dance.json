@@ -2,59 +2,56 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [
-          "Complex turns",
-          "Long sequences"
-        ],
-        "counts": "Simplified 4 or 8-count patterns.",
-        "duration_minutes": "5-10 minutes.",
-        "game_version": "Follow-the-leader style line dance using simple, repetitive animal-themed movements."
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
       },
       "derived": true,
       "seniors": {
-        "avoid": [
-          "Jumping",
-          "Rapid pivots",
-          "High-impact footwork"
-        ],
-        "counts": "Use 4-count segments instead of 32-count sequences.",
-        "seated_version": "Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping.",
-        "standing_version": "Use a chair for balance while executing simplified step patterns.",
-        "tempo_and_range": "Reduced tempo; focus on smaller step ranges to maintain stability."
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
       "arms_and_hands": "not described in sources",
       "difficulty": "beginner",
       "footwork": "Repeating sequences of steps, shuffles, and turns.",
-      "formation_and_space": "Parallel lines; dancers move in unison.",
+      "formation_and_space": "Parallel rows or lines; dancers face one or more 'walls'.",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
-      "partnering": "None; dancers do not touch.",
-      "posture": "Upright and balanced.",
+      "partnering": "None; dancers perform independently.",
+      "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "A specific sequence of steps including a grapevine and a turn.",
-          "name": "Electric Slide"
+          "description": "A syncopated step sequence.",
+          "name": "Shuffle"
+        },
+        {
+          "description": "Rotation to face a new wall.",
+          "name": "Turn"
         }
       ],
-      "tempo_feel": "Steady and consistent.",
+      "tempo_feel": "not described in sources",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
-      "instruments": [
-        "Country instrumentation",
-        "Synthesizers",
-        "Percussion"
-      ],
-      "meter": "4/4 (common) or 3/4 (waltz)",
+      "instruments": [],
+      "meter": "not described in sources",
       "mood_keywords": [
-        "Upbeat",
-        "Social",
-        "Rhythmic"
+        "social",
+        "recreational"
       ],
-      "musical_form": "Repeating song structures with clear, steady beats.",
+      "musical_form": "not described in sources",
       "reference_recordings": [
         {
           "artist": "Marcia Griffiths",
@@ -65,25 +62,25 @@
           "title": "Achy Breaky Heart"
         }
       ],
-      "rhythm_pattern": "Repeating sequences often based on 32, 48, or 64 counts.",
-      "sound_description": "Recognizable by a consistent, driving beat that supports repetitive step patterns, often featuring a blend of acoustic country elements or electronic pop production.",
+      "rhythm_pattern": "Repeating sequences, often 32, 48, or 64 counts.",
+      "sound_description": "Music is chosen for its suitability to a repeating, rhythmic step sequence, spanning genres from country to pop and disco.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Grapevine (step side, cross behind, step side, touch)",
-        "Shuffle/Chassé (triple step)",
-        "Pivot turn (step forward and turn)",
-        "Kick-ball-change"
+        "Step forward",
+        "Step side",
+        "Shuffle",
+        "Turn"
       ],
-      "formation": "Parallel rows or lines.",
-      "level_notes": "Beginners typically learn 10-20 standard dances; advanced dancers may know hundreds.",
-      "rhythm": "Typically 4/4 time, though waltz variations use 3/4."
+      "formation": "Parallel rows or lines, facing the same direction.",
+      "level_notes": "Beginners start with 10-20 basic dances; advanced dancers may master over 100.",
+      "rhythm": "Repeating sequences, often based on multiples of 8 counts."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "29c26720befe467108f13448438e7206802851a0ddb8d5eca5eea8b8d99924f7",
+  "fingerprint": "f32e36112ce2ddba431c2b4eeaf283fda1f6f9390c33d6743940f045b8ca01db",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -91,7 +88,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: what_to_avoid",
+      "movement: posture, what_to_avoid",
+      "music_structure: meter",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [

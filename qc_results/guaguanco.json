@@ -1,0 +1,120 @@
+{
+ "slug": "guaguanco",
+ "qc_at": "2026-11-12T18:36:43Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 9.5,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Guaguancó"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "80"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "208"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "The male dancer attempts to 'vaccinate' his partner with a sudden pelvic thrust "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "331"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1839"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "4/6 rate=0.667"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Cuba"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Caribbean"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 9,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is exceptionally well-researched and accurate. While some evidence claims were marked unsupported due to language mismatches in the provided quotes, the content itself is factually sound and aligns with established ethnomusicological knowledge of Cuban Rumba."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "insight_concrete",
+  "judge_score=9.5"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 4,
+  "rate": 0.667
+ },
+ "researched_at": "2026-11-12T17:56:18Z"
+}

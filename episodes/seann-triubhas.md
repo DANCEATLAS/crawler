@@ -1,6 +1,6 @@
 # Seann Triubhas — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; two or more connections; what to avoid / common mistakes
 
@@ -117,7 +117,7 @@ NARRATION: Step 1: Brushing (first step)
 NARRATION: Step 2: Side travel
 NARRATION: Footwork from the sources: Brushing, shedding, highcuts, entrechats, and back-stepping.
 NARRATION: Drill: Slow weight transfers
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -184,7 +184,7 @@ NEEDS: meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Shedding with back-step
 NARRATION: Drill: Tempo acceleration practice
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -252,7 +252,7 @@ NEEDS: meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Backward travel
 NARRATION: Step 2: Shedding with back-step
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -320,7 +320,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (3): https://en.wikipedia.org/wiki/Seann_triubhas; https://www.wikidata.org/wiki/Q2262295; https://de.wikipedia.org/wiki/Seann_Triubhas

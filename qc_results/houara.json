@@ -1,0 +1,122 @@
+{
+ "slug": "houara",
+ "qc_at": "2026-11-12T18:37:07Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 6.8,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Houara"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "65"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "175"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The Houara tribe, from which the kickboxer Badr Hari descends, is the namesake o"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "282"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "517"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "1/1 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Morocco"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Africa"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 4,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 4,
+  "verdict": "review",
+  "notes": "Profile is accurate and respectful but lacks any concrete dance information or teaching content. It mainly notes tribal affiliation without describing a dance tradition, so it is not clearly a dance. Needs more detail to be publishable as a dance profile."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=6.8",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 1,
+  "supported": 1,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-12T18:24:18Z"
+}

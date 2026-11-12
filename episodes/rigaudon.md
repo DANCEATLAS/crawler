@@ -1,6 +1,6 @@
 # Rigaudon — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.1 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.1 · 9/9 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section
 
@@ -123,7 +123,7 @@ NARRATION: Step 1: Begin with a quarter-note upbeat hop in place
 NARRATION: Step 2: Perform hopping steps on quarter and eighth notes without advancing
 NARRATION: Footwork from the sources: Hopping steps on quarter and eighth notes, mostly in place without advancing or retreating
 NARRATION: Drill: Practice quarter-note upbeat hop in place
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the duple meter, typically 2/2 or 2/4 bar out loud, then in pairs of bars · repetitions: 3
@@ -194,7 +194,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Maintain vertical bouncing with light footwork
 NARRATION: Drill: Combine hopping steps with pas de rigaudon
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the duple meter, typically 2/2 or 2/4 bar out loud, then in pairs of bars · repetitions: 3
@@ -266,7 +266,7 @@ NEEDS: tempo
 NARRATION: Step 1: Dance in couples arranged in a circle or line
 NARRATION: Step 2: Maintain vertical bouncing with light footwork
 NARRATION: Drill: Refine timing of accented half notes
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the duple meter, typically 2/2 or 2/4 bar out loud, then in pairs of bars · repetitions: 3
@@ -336,7 +336,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: count the duple meter, typically 2/2 or 2/4 bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (7): https://en.wikipedia.org/wiki/Rigaudon; https://www.wikidata.org/wiki/Q383845; https://es.wikipedia.org/wiki/Rigodón; https://fr.wikipedia.org/wiki/Rigaudon; https://de.wikipedia.org/wiki/Rigaudon; https://archive.org/details/birch_122up; https://archive.org/details/birch_023up

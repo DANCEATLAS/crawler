@@ -2,7 +2,7 @@
  "slug": "syabru-dance",
  "name": "Syabru dance",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:12Z",
+ "built_at": "2026-11-12T18:57:17Z",
  "researched_at": "2026-11-11T17:21:02Z",
  "qc_score": 9.45,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is Syabru dance."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (PduimfjXF3U)",
      "Title card: Syabru dance · Nepal · not described in sources"
     ],
     "music": "theme (30 s)"
@@ -107,7 +107,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (PduimfjXF3U)",
      "Signature moves — MISSING",
      "Formation: Group arrangement in a line or a circle (circulus)"
     ],
@@ -278,7 +278,7 @@
       "Drill: Assemble into a continuous circular formation with balanced spacing"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -428,7 +428,7 @@
       "Drill: Listen to and repeat simple traditional vocal phrases while standing in place"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -577,7 +577,7 @@
       "Drill: Identify the plucked strumming pattern of the dramnyen"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -720,7 +720,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "PduimfjXF3U",
+   "checked_by_vision_model": false,
+   "title": "Syabru Dance |  Rotary Club Of Bouddha  | Sherpa Culture"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -781,32 +785,32 @@
   "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 8"
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
    "rock step",
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "keep it flat on the ground",
-   "switch",
-   "slide",
-   "hit"
+   "step your right foot sideward",
+   "close your left foot",
+   "point your left foot",
+   "hold your skirt",
+   "put your hands at the back",
+   "take three steps forward",
+   "turn around",
+   "open your fan"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "full_demo",
    "count_in",
+   "full_demo",
    "warmup",
    "breakdown",
-   "music_practice",
    "slow_practice",
+   "music_practice",
    "recap"
   ],
   "steps_as_taught": []
@@ -815,7 +819,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "posture, arms and hands",
@@ -833,6 +837,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "66fc4e7fb1deca3d7610b5b5da7a3e8b198c9c98b77eff873a7a5c3e2f9fbc90",
+ "input_fingerprint": "e843862e41bd3205ec939a0c8c54b6e3859d88208a673496f70c093a99329a2d",
  "hero_checked": null
 }

@@ -1,81 +1,90 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Slapping boots and thighs; clapping; mimicking gestures of mine guards.",
-      "difficulty": "beginner to intermediate",
-      "footwork": "Rhythmic stamping on the ground with boots; alternating feet; syncopated patterns.",
-      "formation_and_space": "Performed in groups, often in rows or semi-circles; dancers maintain close spacing for coordinated rhythms.",
-      "hips_and_torso": "Articulated movement to accentuate rhythm; expressive torso isolations.",
-      "levels_and_jumps": "Not described in sources.",
-      "partnering": "Generally group-based; no partner work described.",
-      "posture": "Upright with grounded stance; knees slightly bent for stamping.",
+      "arms_and_hands": "Slapping the sides of the boots with hands.",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Group formations in streets or plazas.",
+      "hips_and_torso": "Total body articulation.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "Slapping the front or sides of the gumboots to produce sharp percussive sounds.",
+          "description": "Slapping the hand against the boot to create a percussive sound.",
           "name": "Boot Slap"
         },
         {
-          "description": "Simulating or using chains to add rattling sounds to the rhythm.",
-          "name": "Chain Rattle"
-        },
-        {
-          "description": "Mimicking the movements of mine officers with exaggerated gestures.",
-          "name": "Guard Parody"
+          "description": "Forceful contact with the ground to create a rhythmic beat.",
+          "name": "Stomp"
         }
       ],
-      "tempo_feel": "Moderate to fast tempo with polyrhythmic layering; dynamic and energetic.",
-      "what_to_avoid": "Avoid disrespecting the dance's origins by trivializing its historical context or ignoring its cultural significance."
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Wellington boots with bells",
-        "body percussion",
-        "guitar",
-        "accordion",
-        "violin"
+        "Body (idiophone)",
+        "Wellington boots",
+        "Bells",
+        "Bottle caps",
+        "Guitar",
+        "Accordion",
+        "Violin"
       ],
-      "meter": "polyrhythmic, layered",
+      "meter": "not described in sources",
       "mood_keywords": [
-        "playful",
-        "resilient",
-        "parodic",
-        "expressive"
+        "percussive",
+        "expressive",
+        "rhythmic"
       ],
-      "musical_form": "Rhythmic cycles with vocal interludes; often improvised",
+      "musical_form": "not described in sources",
       "reference_recordings": [
         {
-          "artist": "Janet Topp Fargion, Albert Nene",
-          "source": "https://de.wikipedia.org/wiki/Gummistiefel-Tanz",
-          "title": "Gumboot guitar. Zulu street guitar music from South Africa"
-        },
-        {
           "artist": "Paul Simon",
-          "source": "https://en.wikipedia.org/wiki/Gumboot_dance",
           "title": "Gumboots"
         }
       ],
-      "rhythm_pattern": "Interlocking foot stomps, hand slaps, and claps creating complex rhythms",
-      "sound_description": "A layered texture of rhythmic boot stomps, hand slaps, and claps punctuated by bells and rattles, supported by melodic guitar and accordion lines, evoking the noisy mine environment and coded communication.",
-      "tempo_bpm": "variable, moderate to fast",
-      "vocal_style": "Sung in native languages with metaphorical lyrics; call-and-response elements"
+      "rhythm_pattern": "Polyrhythmic",
+      "sound_description": "A percussive soundscape dominated by the rhythmic stamping of boots and the metallic rattling of bells or bottle caps, often accompanied by guitar-led township jive.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Chanting in native languages like isiZulu, Sesotho, or isiXhosa."
     },
     "teaching": {
       "basic_steps": [
-        "Wear Wellington boots, optionally decorated with bells.",
-        "Stamp feet rhythmically on the ground.",
-        "Slap boots with hands to create percussive sounds.",
-        "Clap hands in sync with footwork.",
-        "Incorporate body slaps and chain rattling if available."
+        "Stamping the foot to create a percussive sound.",
+        "Slapping the hand against the side of the boot.",
+        "Coordinating rhythmic stomps with body articulation."
       ],
-      "formation": "Typically performed in groups standing in rows or circles.",
-      "level_notes": "Beginners start by learning simple stamping and clapping patterns; advanced dancers add body articulation and mimicry.",
-      "rhythm": "Polyrhythmic layering of stamping, slapping, and clapping."
+      "formation": "Group formations, often in lines or circles.",
+      "level_notes": "Requires coordination and rhythmic precision.",
+      "rhythm": "Polyrhythmic"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "f14aa81c4639a9dba6002bffeb6d437e125409dc2e61d8bae370d644435a053e",
+  "fingerprint": "c46ed9e4831a4b028b79684765b8ea2fa0127a488bbf75c4c76d9627dc9f5672",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -83,6 +92,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [

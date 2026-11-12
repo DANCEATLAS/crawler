@@ -1,13 +1,64 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Used for climbing and balancing on the frame",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Circular, vertical axis",
+      "hips_and_torso": "Used to maintain balance while suspended",
+      "levels_and_jumps": "High altitude; descent from 30 meters",
+      "partnering": "Coordinated descent in unison",
+      "posture": "Upright during the climb; inverted during the descent",
+      "signature_moves": [
+        {
+          "description": "Falling backward from the frame while suspended by ropes to spin around the pole.",
+          "name": "The Descent"
+        }
+      ],
+      "tempo_feel": "Slow, controlled descent",
+      "what_to_avoid": "Do not attempt without professional training and traditional oversight."
+    },
+    "music_profile": {
+      "instruments": [
+        "Flute",
+        "Drum"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "Solemn",
+        "Ritualistic"
+      ],
+      "musical_form": "Son",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music consists of a flute and drum played by the caporal at the top of the pole, representing the sound of birds singing.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Ascend the pole to the platform",
+        "Secure the rope around the waist",
+        "Lean backward into the void",
+        "Spin while descending"
+      ],
+      "formation": "Circular formation around a central pole",
+      "level_notes": "Requires extensive training; traditionally involves 10 to 12 years of preparation.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "532ef7fafc47de82a4b13a37ba0774e004d4e1d882147575bf0bbe6382db4182",
+  "fingerprint": "60e4a7c394d3d7c1516dfd9f4fb17573caed502038b21c2cf52817d67627cb46",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +66,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: footwork",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -44,8 +94,8 @@
     "Video model observations are candidates, not motion capture or expert verification."
   ],
   "music_options": [],
-  "name": "Danza de los Quetzales",
-  "research_file": null,
+  "name": "Danza de los Voladores",
+  "research_file": "research_results/danza-de-los-quetzales.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +105,13 @@
     "session_modes": []
   },
   "slug": "danza-de-los-quetzales",
-  "sources": [],
-  "state": "researching",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Danza_de_los_Voladores",
+    "https://www.wikidata.org/wiki/Q1165268",
+    "https://es.wikipedia.org/wiki/Rito_de_los_voladores",
+    "https://fr.wikipedia.org/wiki/Danse_du_volador",
+    "https://de.wikipedia.org/wiki/Danza_del_Volador"
+  ],
+  "state": "teaching_withheld",
   "video_evidence": []
 }

@@ -1,8 +1,8 @@
 # redowa — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.25 · 5/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Historical dance researcher with a focus on folk evolution.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Whirl of Bohemia
 NARRATION: This is redowa. 19th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (tIZozQKadkw)
 ON SCREEN: Title card: redowa · Czech Republic · 19th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The redowa is performed in a closed waltz position.
 NARRATION: The basic step consists of a six-count pattern: a long reaching step followed by two small leap-steps.
 NARRATION: The leader and follower perform opposite sequences, rotating clockwise.
 NARRATION: Watch for Pursuit.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (tIZozQKadkw)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Couple dance moving in a line of direction.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -116,7 +116,7 @@ NARRATION: Step 1: Small leap step on count 1
 NARRATION: Step 2: Long gliding step on count 2
 NARRATION: Footwork from the sources: Six-count pattern consisting of long glides and small leaps.
 NARRATION: Drill: Count 1-6 in 3/4 time
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -186,7 +186,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Long reaching step on count 5
 NARRATION: Step 2: Small leap step on count 6
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -254,7 +254,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Long reaching step on count 5
 NARRATION: Step 2: Small leap step on count 6
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -311,7 +311,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'tIZozQKadkw', 'checked_by_vision_model': False, 'title': 'Redowa and Mazurka Waltzes'}
 Images: 2 licensed — Scan by NYPL / Wikimedia Commons / Public domain (Public domain); Scan by NYPL / Wikimedia Commons / Public domain (Public domain)
 Footage: Nikolaj Rimskij-Korsakov, SUITE D'OPERA - Richard Kapp, Milton Katims, David Zinman — https://archive.org/details/rimsky-korsakov-opera-suites
 Motifs: 19th-century ballroom sketches, Mexican norteña dance attire, Close-ups of footwork
@@ -323,7 +323,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (8): https://en.wikipedia.org/wiki/Redowa; https://www.wikidata.org/wiki/Q3422966; https://es.wikipedia.org/wiki/Redova; https://fr.wikipedia.org/wiki/Redowa; https://it.wikipedia.org/wiki/Redova; https://archive.org/details/danceman098; https://archive.org/details/danceman084; https://archive.org/details/danceman020

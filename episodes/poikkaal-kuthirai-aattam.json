@@ -1,0 +1,371 @@
+{
+ "slug": "poikkaal-kuthirai-aattam",
+ "name": "Poikkaal Kuthirai Aattam",
+ "pack_version": "e2",
+ "built_at": "2026-11-12T18:57:17Z",
+ "researched_at": "2026-11-12T17:59:57Z",
+ "qc_score": 9.45,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A traditional folk artist from the Thanjavur region.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Poikkaal Kuthirai Aattam",
+   "Puravi Aattam",
+   "Dummy Horse Dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Poikkaal Kuthirai Aattam",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Galloping King: The Art of Poikkaal Kuthirai Aattam",
+     "This is Poikkaal Kuthirai Aattam."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Poikkaal Kuthirai Aattam · India · not described in sources"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance is primarily associated with the worship of the deity Ayyanar and is centered in the Thanjavur region.",
+     "Recent research has challenged the long-held belief that the dance originated from Maratha traditions."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "It is performed during religious festivals to honor Ayyanar and is also featured as a cultural performance during national events like Republic Day in New Delhi.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers fit inside a dummy horse frame made of lightweight materials.",
+     "They attach wooden legs to their feet to create a rhythmic tapping sound.",
+     "Performers often carry a sword or whip and may perform acrobatic movements.",
+     "Watch for Acrobatics."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Typically performed by a pair of dancers."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is accompanied by a variety of instruments including the clarinet, drum, Kundalam, Naiyaandi Melam, Thavil, Nadhaswaram, Pambai, and Thalam.",
+     "Listen for the clarinet, drum, Kundalam, Naiyaandi Melam.",
+     "The music relies on a combination of wind and percussion instruments typical of Tamil Nadu folk traditions, designed to accompany the rhythmic tapping of the dancer's wooden hooves."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The costume consists of a dummy horse body made of jute, cardboard, paper, and glass, with cloth sides that hide the dancer's legs.",
+     "The setting is typically religious festivals or public performance venues."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures",
+     "lineage"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The dance is connected to the worship of the deity Ayyanar."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the skill and tradition behind the dummy horse dancers of Tamil Nadu.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "clarinet",
+   "drum",
+   "Kundalam",
+   "Naiyaandi Melam",
+   "Thavil",
+   "Nadhaswaram",
+   "Pambai",
+   "Thalam"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "festive",
+   "rhythmic"
+  ],
+  "sound_description": "The music relies on a combination of wind and percussion instruments typical of Tamil Nadu folk traditions, designed to accompany the rhythmic tapping of the dancer's wooden hooves.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Poikkaal Kuthirai Aattam (India). Instruments: clarinet, drum, Kundalam, Naiyaandi Melam, Thavil, Nadhaswaram, Pambai, Thalam. Mood: festive, rhythmic. It should sound like this: The music relies on a combination of wind and percussion instruments typical of Tamil Nadu folk traditions, designed to accompany the rhythmic tapping of the dancer's wooden hooves. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "The costume consists of a dummy horse body made of jute, cardboard, paper, and glass, with cloth sides that hide the dancer's legs. The setting is typically religious festivals or public performance venues.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3APoikkal-kuthirai-attam-performer.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Poikkal-kuthirai-attam-performer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Poikkal-kuthirai-attam-performer.jpg/1280px-Poikkal-kuthirai-attam-performer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Krsmoorthi / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APoikkal-kuthirai-attam-performer.jpg",
+    "description": "Poikkal Kuthirai Attam Performance"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "The dummy horse frame",
+   "Wooden leg extensions",
+   "Sword and whip props"
+  ],
+  "costume_notes": "The costume consists of a dummy horse body made of jute, cardboard, paper, and glass, with cloth sides that hide the dancer's legs. The setting is typically religious festivals or public performance venues.",
+  "setting_notes": "It is performed during religious festivals to honor Ayyanar and is also featured as a cultural performance during national events like Republic Day in New Delhi.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "14 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 14,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "step your right foot sideward",
+   "close your left foot",
+   "point your left foot",
+   "hold your skirt",
+   "put your hands at the back",
+   "take three steps forward",
+   "turn around",
+   "open your fan"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "notable figures",
+  "lineage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Poikkaal_Kuthirai_Aattam",
+  "https://www.wikidata.org/wiki/Q16314303"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "dd6c98055ff8a09596135c8d9e7e88f332f3a5670dcc8893493d9ce6046c05ff",
+ "hero_checked": null
+}

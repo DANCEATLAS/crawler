@@ -1,13 +1,56 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "Circular formation",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Drum"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "celebratory",
+        "solemn",
+        "prayerful"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Live drum music and singing.",
+      "tempo_bpm": "",
+      "vocal_style": "Singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "Circle",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "327fb1093d41cfa87673aa34cf05b2cdfe92ec31d356d112d0e187e776d4bef3",
+  "fingerprint": "7755f41d10d4bfea01072fba3010c620f52a7e930a01d7dd40766cede98f5f9f",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +58,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +87,7 @@
   ],
   "music_options": [],
   "name": "Round Dance",
-  "research_file": null,
+  "research_file": "research_results/round-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +97,15 @@
     "session_modes": []
   },
   "slug": "round-dance",
-  "sources": [],
-  "state": "researching",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Square_dance",
+    "https://www.wikidata.org/wiki/Q1156994",
+    "https://es.wikipedia.org/wiki/Square_dance",
+    "https://fr.wikipedia.org/wiki/Square_dance",
+    "https://de.wikipedia.org/wiki/Square_Dance",
+    "https://archive.org/details/twelvedancesbyol00burm",
+    "https://archive.org/details/GAT_2013021301"
+  ],
+  "state": "teaching_withheld",
   "video_evidence": []
 }

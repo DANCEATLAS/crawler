@@ -1,0 +1,859 @@
+{
+ "slug": "quebradita",
+ "name": "Quebradita",
+ "pack_version": "e2",
+ "built_at": "2026-11-12T18:57:17Z",
+ "researched_at": "2026-11-12T17:48:34Z",
+ "qc_score": 9.1,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable dance historian or former 90s competitor.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Quebradita",
+   "Caballito",
+   "Charanga",
+   "Baile de Brinquito"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Quebradita",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The 90s Break: The Quebradita",
+     "This is Quebradita. 1990s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Quebradita · Mexico · 1990s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance emerged in the early 1990s, with popularity peaking in Los Angeles and the Southwestern United States.",
+     "Its exact origin is debated, with sources citing the U.S.-Mexico border area, Jalisco, or Sinaloa.",
+     "Early pioneers included dancers such as Popeye, who is credited with creating many of the original steps."
+    ],
+    "on_screen": [
+     "Map: Mexico · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is a social and performance style used at concerts, parties, and in organized dance competitions.",
+     "It serves as a marker of Mexican-American youth culture from the 1990s.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: L.A. Banda: Dance of the New L.A. (https://archive.org/details/clloy_000027)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Partners dance in a close hold, with the male dancer holding the female dancer's waist.",
+     "The footwork involves small, alternating jumps or gallops that create a side-to-side swaying motion.",
+     "The male dancer performs the 'tombé' by dipping the female partner backward with a straight back, then pulling her up.",
+     "Watch for Tombé, Caballito."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Partnered, moving in place or around the dance floor."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is performed to Regional Mexican music, specifically technobanda, charanga, or cumbia banda.",
+     "Instrumentation includes electric guitars, synthesizers, and brass instruments, reflecting a fusion of traditional Sinaloan wind music and modern electronic sounds.",
+     "Listen for the Electric guitars, Synthesizers, Brass instruments.",
+     "The pulse is 2/4.",
+     "A driving, fast-paced fusion of traditional Sinaloan brass and modern electronic synthesizers, characterized by a rhythmic, double-time cumbia beat."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: No bailes de caballito — Mi Banda El Mexicano; La noche que murió Chicago — Banda Toro; La noche que murió Chicago — Banda Toro (1994)",
+     "Waveform or rhythm-pattern graphic: Cumbia-based, double-time, rhythmic."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Dancers such as Popeye, Escandalo, Veronica, Pollo, Silvia, GalloBanda, Alex El Tio, and Ana Rosa.",
+     "Musical groups include Mi Banda El Mexicano, Banda Machos, and Vaqueros Musical.",
+     "Related styles include the 'brinquito' and 'caballito', which emphasize trotting steps and small jumps, and the 'quebradita de espinazo'.",
+     "The dance evolved from Sinaloan music and cumbia, incorporating elements from rock acrobático, swing, and lindy hop."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Quebradita is variant of Brinquito: Shares similar galloping footwork but lacks the acrobatic tombé.",
+     "Quebradita is variant of Caballito: A related style focusing on small, horse-like jumps."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Establish a close hold with partner, hands on waist.",
+     "Execute small, alternating jumps to create a side-to-side sway.",
+     "Count it: 1-2, 1-2 (two beats a bar; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the high-flying Mexican dance craze that took Los Angeles by storm.",
+     "Sources: 4 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic gallop step.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic gallop step..",
+      "Level: Beginner. Difficulty of the dance overall: advanced.",
+      "Your instructor: A knowledgeable dance historian or former 90s competitor."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Close hold, partners holding each other by the waist.",
+      "Male holds female's waist; female holds male's shoulders or waist.",
+      "Swaying side-to-side motion."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.",
+      "Rhythm pattern: Cumbia-based, double-time, rhythmic..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Establish a close hold with partner, hands on waist.",
+      "Step 2: Execute small, alternating jumps to create a side-to-side sway.",
+      "Footwork from the sources: Small, alternating jumps or gallops.",
+      "Drill: Side-to-side weight transfer"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Maintain synchronized footwork with partner.",
+      "Step 4: Perform the tombé by dipping the partner backward with a straight back.",
+      "Drill: Small, rhythmic jumps"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid without sufficient strength, timing, and coordination due to potential danger."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated sway to the rhythm of technobanda. · For children: Galloping game mimicking horse movements."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated sway to the rhythm of technobanda.",
+      "For children: Galloping game mimicking horse movements."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic gallop step..",
+      "The dance is a social and performance style used at concerts, parties, and in organized dance competitions.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Synchronize movement with a partner.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Synchronize movement with a partner..",
+      "Level: Intermediate. Difficulty of the dance overall: advanced.",
+      "Your instructor: A knowledgeable dance historian or former 90s competitor."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Close hold, partners holding each other by the waist.",
+      "Male holds female's waist; female holds male's shoulders or waist.",
+      "Swaying side-to-side motion."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.",
+      "Rhythm pattern: Cumbia-based, double-time, rhythmic..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Establish a close hold with partner, hands on waist.",
+      "Step 2: Execute small, alternating jumps to create a side-to-side sway.",
+      "Drill: Maintaining waist hold"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Maintain synchronized footwork with partner.",
+      "Step 4: Perform the tombé by dipping the partner backward with a straight back.",
+      "Tombé: Male dancer dips the female partner backward toward the floor with a straight back.",
+      "Caballito: Small, galloping jumps mimicking a horse.",
+      "Drill: Matching footwork rhythm"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid without sufficient strength, timing, and coordination due to potential danger."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated sway to the rhythm of technobanda. · For children: Galloping game mimicking horse movements."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated sway to the rhythm of technobanda.",
+      "For children: Galloping game mimicking horse movements."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Partnered, moving in place or around the dance floor."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Synchronize movement with a partner..",
+      "Dancers such as Popeye, Escandalo, Veronica, Pollo, Silvia, GalloBanda, Alex El Tio, and Ana Rosa.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute the tombé safely.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute the tombé safely..",
+      "Level: Advanced. Difficulty of the dance overall: advanced.",
+      "Your instructor: A knowledgeable dance historian or former 90s competitor."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Close hold, partners holding each other by the waist.",
+      "Male holds female's waist; female holds male's shoulders or waist.",
+      "Swaying side-to-side motion."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4.",
+      "Rhythm pattern: Cumbia-based, double-time, rhythmic..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Maintain synchronized footwork with partner.",
+      "Step 2: Perform the tombé by dipping the partner backward with a straight back.",
+      "Drill: Supported back-bend technique"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Tombé: Male dancer dips the female partner backward toward the floor with a straight back.",
+      "Caballito: Small, galloping jumps mimicking a horse.",
+      "Drill: Controlled recovery"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid without sufficient strength, timing, and coordination due to potential danger."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Seated sway to the rhythm of technobanda. · For children: Galloping game mimicking horse movements."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Seated sway to the rhythm of technobanda.",
+      "For children: Galloping game mimicking horse movements."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Partnered, moving in place or around the dance floor."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the tombé safely..",
+      "The dance evolved from Sinaloan music and cumbia, incorporating elements from rock acrobático, swing, and lindy hop.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "2/4",
+  "rhythm_pattern": "Cumbia-based, double-time, rhythmic.",
+  "instruments": [
+   "Electric guitars",
+   "Synthesizers",
+   "Brass instruments"
+  ],
+  "vocal_style": null,
+  "musical_form": "Technobanda, cumbia banda, charanga.",
+  "mood": [
+   "Joyful",
+   "Rhythmic",
+   "Fast"
+  ],
+  "sound_description": "A driving, fast-paced fusion of traditional Sinaloan brass and modern electronic synthesizers, characterized by a rhythmic, double-time cumbia beat.",
+  "listen_before_composing": [
+   "No bailes de caballito — Mi Banda El Mexicano",
+   "La noche que murió Chicago — Banda Toro",
+   "La noche que murió Chicago — Banda Toro (1994)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Quebradita (Mexico). Meter 2/4. Rhythm pattern: Cumbia-based, double-time, rhythmic.. Instruments: Electric guitars, Synthesizers, Brass instruments. Form: Technobanda, cumbia banda, charanga.. Mood: Joyful, Rhythmic, Fast. It should sound like this: A driving, fast-paced fusion of traditional Sinaloan brass and modern electronic synthesizers, characterized by a rhythmic, double-time cumbia beat. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ACCMDonation98.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/CCMDonation98.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/CCMDonation98.jpg/1280px-CCMDonation98.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Edil Villa / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACCMDonation98.jpg",
+    "description": "Student performers of \"Quebradita\" at \"Semana de la cutura\" (Week of the culture) in the Monterrey Institute of Technology and Higher Education, Mexico City (ITESM CCM)."
+   }
+  ],
+  "footage": [
+   {
+    "title": "L.A. Banda: Dance of the New L.A.",
+    "url": "https://archive.org/details/clloy_000027",
+    "year": 1993,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Baile de la Quebradita",
+    "url": "https://archive.org/details/vid-20250927-223344",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "File:Danzantes aztecas en Plaza del Caballito en la Ciudad de México 01.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Danzantes_aztecas_en_Plaza_del_Caballito_en_la_Ciudad_de_M%C3%A9xico_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Isaacvp / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Danzantes aztecas en Plaza del Caballito en la Ciudad de México 02.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Danzantes_aztecas_en_Plaza_del_Caballito_en_la_Ciudad_de_M%C3%A9xico_02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Isaacvp / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "1990s television footage",
+   "Close-ups of footwork",
+   "Technobanda musical instruments"
+  ],
+  "costume_notes": null,
+  "setting_notes": "The dance is a social and performance style used at concerts, parties, and in organized dance competitions. It serves as a marker of Mexican-American youth culture from the 1990s.",
+  "map": {
+   "country": "Mexico",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "13 tutorial(s) of the street-urban family studied",
+  "videos_studied": 13,
+  "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 3"
+  ],
+  "cues": [
+   "right leg out front",
+   "jump split your legs",
+   "the back foot goes up",
+   "lift the left leg up",
+   "jump back on the left leg",
+   "kick the right leg up",
+   "take the right leg back",
+   "hop forward with the left leg",
+   "punch to the side",
+   "pull your head down",
+   "pivot them on your elbows",
+   "swing stop"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "count_in",
+   "context",
+   "breakdown",
+   "layering",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)",
+  "the costume & setting section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Quebradita",
+  "https://www.wikidata.org/wiki/Q3413969",
+  "https://es.wikipedia.org/wiki/Quebradita",
+  "https://fr.wikipedia.org/wiki/Quebradita"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "394e1bf3d496d4960bb0fa051525d7cd9d2639633a2f135219fde1a78095929e",
+ "hero_checked": null
+}

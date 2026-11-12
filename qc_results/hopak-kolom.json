@@ -1,0 +1,122 @@
+{
+ "slug": "hopak-kolom",
+ "qc_at": "2026-11-12T18:36:49Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 6.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "hopak-kolom"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "80"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "161"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The dance's name derives from 'Gopal,' meaning to jump, and its history traces b"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "344"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1386"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,occasions_and_meaning,notable_figures"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Ukraine"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 6,
+  "respect": 9,
+  "specificity": 7,
+  "teaching_value": 4,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The claim that 6th-century figurines from the Martin's treasure are the 'oldest known depictions' of the hopak is a historical anachronism, as the hopak as a named dance tradition emerged centuries later.",
+   "The profile treats 'Hopak-Kolom' as a distinct, established dance tradition, whereas 'kolom' (circle) is a descriptive term for the formation of a hopak, not a separate, formalised dance style."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "hopak",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "verdict": "review",
+  "notes": "The profile conflates the general term for a circular hopak with a formal dance title. The historical link to 6th-century figurines is speculative and lacks academic consensus. While respectful, the entry needs to clarify that 'kolom' describes a formation rather than a unique, separate dance genre."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=6.7",
+  "doubts=2"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-12T17:59:47Z"
+}

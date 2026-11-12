@@ -1,0 +1,937 @@
+{
+ "slug": "ahidous",
+ "name": "Ahidous",
+ "pack_version": "e2",
+ "built_at": "2026-11-12T18:56:47Z",
+ "researched_at": "2026-11-12T18:32:11Z",
+ "qc_score": 9.6,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An experienced Amazigh community member or cultural educator.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Ahidous",
+   "Ahidus",
+   "Haidous",
+   "Tahidoust",
+   "Hidoussi"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Ahidous",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Pulse of the Atlas.",
+     "This is Ahidous. Ancient."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (8VbcXz-o2G4)",
+     "Title card: Ahidous · Morocco · Ancient"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [],
+    "on_screen": [
+     "Map: Morocco · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore",
+    "needs": [
+     "origins_and_history"
+    ]
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Ahidous is performed at festivals, weddings, naming ceremonies, and after the harvest.",
+     "It serves as a social space for community interaction and a celebration of tribal unity and victory.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Ahidous - Wikicamp Morocco 2023 - 2.webm (https://upload.wikimedia.org/wikipedia/commons/c/c8/Ahidous_-_Wikicamp_Morocco_2023_-_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers stand shoulder to shoulder in a circle, semicircle, or two facing lines.",
+     "The movement is collective, involving rhythmic stomping, trembling, and large, undulating motions.",
+     "Participants move in unison, creating a visual effect of juxtaposition where everyone performs the same gesture simultaneously.",
+     "Watch for Collective Undulation."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (8VbcXz-o2G4)",
+     "Captions name each signature move as it appears",
+     "Formation: Circle, semicircle, or two facing lines."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is accompanied by the bendir, also called alloun, a frame drum, and the rhythmic clapping of the dancers.",
+     "Vocal accompaniment consists of songs in the Berber language, izli or izlan, though some tribes in the Taza corridor use Arabic.",
+     "Listen for the Bendir, alloun.",
+     "The sound is defined by the steady, resonant beat of the bendir frame drum, punctuated by the rhythmic clapping of the dancers and the communal singing of traditional Berber chants."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Rhythmic pulse provided by the bendir frame drum and handclapping."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Men typically wear a white djellaba and a turban.",
+     "Women wear white or colorful kaftans, often accessorized with silver jewelry.",
+     "It is performed in village squares, at festivals, and during weddings."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Ahidous is practiced across the Middle and High Atlas, including provinces like Khenifra, Azrou, Ifrane, Beni Mellal, and Midelt.",
+     "The dance is linked to the Amazigh people and is often compared to the Ahwash of the Western Atlas."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Ahidous is sibling of Ahwash: A related Berber dance from the Western Atlas with distinct regional characteristics."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand shoulder to shoulder with partners.",
+     "Execute collective rhythmic stomping.",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how the Ahidous dance turns a village into a single, rhythmic body.",
+     "Sources: 5 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the shoulder-to-shoulder connection.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the shoulder-to-shoulder connection..",
+      "Level: Beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced Amazigh community member or cultural educator."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, standing shoulder to shoulder in a compact block.",
+      "Arms are often linked or held close to neighbors; hands are used for clapping.",
+      "Trembling and undulating movements that ripple through the group."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand shoulder to shoulder with partners.",
+      "Step 2: Execute collective rhythmic stomping.",
+      "Footwork from the sources: Collective stomping and rhythmic stepping.",
+      "Drill: Standing in a line with neighbors."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Perform trembling movements through the torso.",
+      "Step 4: Create large, undulating waves with the arms and body.",
+      "Drill: Matching the rhythm of the drum with feet."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Coordinating handclaps with the group."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform the rhythmic handclapping and upper body undulations while seated in a circle. · For children: A circle game focusing on matching the leader's rhythm."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the rhythmic handclapping and upper body undulations while seated in a circle.",
+      "For children: A circle game focusing on matching the leader's rhythm."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the shoulder-to-shoulder connection..",
+      "Ahidous is performed at festivals, weddings, naming ceremonies, and after the harvest.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Ahidous",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Ahidous.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced Amazigh community member or cultural educator."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, standing shoulder to shoulder in a compact block.",
+      "Arms are often linked or held close to neighbors; hands are used for clapping.",
+      "Trembling and undulating movements that ripple through the group."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand shoulder to shoulder with partners.",
+      "Step 2: Execute collective rhythmic stomping."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Perform trembling movements through the torso.",
+      "Step 4: Create large, undulating waves with the arms and body.",
+      "Collective Undulation: A wave-like motion that moves through the line of dancers, resembling wind over wheat."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform the rhythmic handclapping and upper body undulations while seated in a circle. · For children: A circle game focusing on matching the leader's rhythm."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the rhythmic handclapping and upper body undulations while seated in a circle.",
+      "For children: A circle game focusing on matching the leader's rhythm."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Circle, semicircle, or two facing lines."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Ahidous.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Ahidous",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Ahidous.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: An experienced Amazigh community member or cultural educator."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, standing shoulder to shoulder in a compact block.",
+      "Arms are often linked or held close to neighbors; hands are used for clapping.",
+      "Trembling and undulating movements that ripple through the group."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Perform trembling movements through the torso.",
+      "Step 2: Create large, undulating waves with the arms and body."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Collective Undulation: A wave-like motion that moves through the line of dancers, resembling wind over wheat."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Perform the rhythmic handclapping and upper body undulations while seated in a circle. · For children: A circle game focusing on matching the leader's rhythm."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the rhythmic handclapping and upper body undulations while seated in a circle.",
+      "For children: A circle game focusing on matching the leader's rhythm."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Circle, semicircle, or two facing lines."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Ahidous.",
+      "The dance is linked to the Amazigh people and is often compared to the Ahwash of the Western Atlas.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Rhythmic pulse provided by the bendir frame drum and handclapping.",
+  "instruments": [
+   "Bendir (alloun)"
+  ],
+  "vocal_style": "Chanting in Berber (izli/izlan) or Arabic.",
+  "musical_form": "Call and response or collective chanting.",
+  "mood": [
+   "communal",
+   "rhythmic",
+   "festive"
+  ],
+  "sound_description": "The sound is defined by the steady, resonant beat of the bendir frame drum, punctuated by the rhythmic clapping of the dancers and the communal singing of traditional Berber chants.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Ahidous (Morocco). Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping.. Instruments: Bendir (alloun). Vocal style: Chanting in Berber (izli/izlan) or Arabic.. Form: Call and response or collective chanting.. Mood: communal, rhythmic, festive. It should sound like this: The sound is defined by the steady, resonant beat of the bendir frame drum, punctuated by the rhythmic clapping of the dancers and the communal singing of traditional Berber chants. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "8VbcXz-o2G4",
+   "checked_by_vision_model": false,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Men typically wear a white djellaba and a turban. Women wear white or colorful kaftans, often accessorized with silver jewelry. It is performed in village squares, at festivals, and during weddings.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ACOLLECTIE_TROPENMUSEUM_Dansgroep_uit_de_Midden-Atlas_tijdens_het_Nationaal_Folkore_Festival_te_Marrakech_TMnr_20017658.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AAhidous_Ait_Bouguemez.png",
+    "https://commons.wikimedia.org/wiki/File%3AAhidous_Ain_Fendel.png"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/COLLECTIE_TROPENMUSEUM_Dansgroep_uit_de_Midden-Atlas_tijdens_het_Nationaal_Folkore_Festival_te_Marrakech_TMnr_20017658.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/COLLECTIE_TROPENMUSEUM_Dansgroep_uit_de_Midden-Atlas_tijdens_het_Nationaal_Folkore_Festival_te_Marrakech_TMnr_20017658.jpg/1280px-COLLECTIE_TROPENMUSEUM_Dansgroep_uit_de_Midden-Atlas_tijdens_het_Nationaal_Folkore_Festival_te_Marrakech_TMnr_20017658.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Fotograaf / photographer: Drs. F.M. (Frits) Cowan (1931 - 2010) / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACOLLECTIE_TROPENMUSEUM_Dansgroep_uit_de_Midden-Atlas_tijdens_het_Nationaal_Folkore_Festival_te_Marrakech_TMnr_20017658.jpg",
+    "description": "Ahidous dans uit de Midden Atlas, Marokko."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ahidous_Ait_Bouguemez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Ahidous_Ait_Bouguemez.png/1280px-Ahidous_Ait_Bouguemez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Ait_Bouguemez.png",
+    "description": "Ahidous Ait Bouguemez"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ahidous_Ain_Fendel.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Ahidous_Ain_Fendel.png/1280px-Ahidous_Ain_Fendel.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Ain_Fendel.png",
+    "description": "Ahidous Ain Fendel"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ahidous_Ain_Leuh.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Ahidous_Ain_Leuh.png/1280px-Ahidous_Ain_Leuh.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Ain_Leuh.png",
+    "description": "Ahidous Ain Leuh"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ahidous_Oulmes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Ahidous_Oulmes.png/1280px-Ahidous_Oulmes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Oulmes.png",
+    "description": "Ahidous Oulmes"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ahidous_Sefrou.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Ahidous_Sefrou.png/1280px-Ahidous_Sefrou.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Sefrou.png",
+    "description": "Ahidous Sefrou"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Ahidous_Ait_Hadidou.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ahidous_Ait_Hadidou.png/1280px-Ahidous_Ait_Hadidou.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Ait_Hadidou.png",
+    "description": "Ahidous Ait Hadidou"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Ahidous_Talsint.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Ahidous_Talsint.png/1280px-Ahidous_Talsint.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Talsint.png",
+    "description": "Ahidous Talsint"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Ahidous - Wikicamp Morocco 2023 - 2.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Ahidous_-_Wikicamp_Morocco_2023_-_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Anass Sedrati / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Ahidous - Wikicamp Morocco 2023 - 3.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ahidous_-_Wikicamp_Morocco_2023_-_3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Anass Sedrati / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Video 1 - Ahidous - Wikicamp Morocco 2023.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Video_1_-_Ahidous_-_Wikicamp_Morocco_2023.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Anass Sedrati / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Video 2 - Ahidous - Wikicamp Morocco 2023.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Video_2_-_Ahidous_-_Wikicamp_Morocco_2023.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Anass Sedrati / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Wikicamp 2023 Morocco Ahidous \"Izem Ifrane band\".webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Wikicamp_2023_Morocco_Ahidous_%22Izem_Ifrane_band%22.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Mounir Neddi / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Ahidous a trraditional Berber dance.mpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ahidous_a_trraditional_Berber_dance.mpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "مصطفى ملو / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "White djellabas against mountain landscapes",
+   "Close-ups of the bendir drum",
+   "Aerial view of the circular formation"
+  ],
+  "costume_notes": "Men typically wear a white djellaba and a turban. Women wear white or colorful kaftans, often accessorized with silver jewelry. It is performed in village squares, at festivals, and during weddings.",
+  "setting_notes": "Ahidous is performed at festivals, weddings, naming ceremonies, and after the harvest. It serves as a social space for community interaction and a celebration of tribal unity and victory.",
+  "map": {
+   "country": "Morocco",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "14 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 14,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "step your right foot sideward",
+   "close your left foot",
+   "point your left foot",
+   "hold your skirt",
+   "put your hands at the back",
+   "take three steps forward",
+   "turn around",
+   "open your fan"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "the origins & history section",
+  "notable figures",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ahidus",
+  "https://www.wikidata.org/wiki/Q2635155",
+  "https://fr.wikipedia.org/wiki/Ahidous",
+  "https://pt.wikipedia.org/wiki/Ahidous",
+  "https://de.wikipedia.org/wiki/Ahidous"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": true,
+ "input_fingerprint": "c9c3a8a9bdf0f19a509237ee07aaa1cf6598ee65d1505cc60888346370d511e3",
+ "hero_checked": "fail",
+ "polish_kept_scenes": 27
+}

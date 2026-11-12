@@ -1,8 +1,8 @@
 # Sakhiya dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-11 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-12 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; signature moves; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; signature moves; lineage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A community elder or cultural practitioner from the Tharu community.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Ritual of the Tharu Courtyard
 NARRATION: This is Sakhiya dance. Traditional.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (TldQMocBMNA)
 ON SCREEN: Title card: Sakhiya dance · Nepal · Traditional
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: The dance is performed in three phases.
 NARRATION: In the first phase, boys play drums and girls use pumpkin leaves.
 NARRATION: In the second phase, girls use jute fabric.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (TldQMocBMNA)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Performed in the courtyard of the village headsman's house.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -98,7 +98,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'TldQMocBMNA', 'checked_by_vision_model': False, 'title': 'Sakhiya Dance'}
 Images: 1 licensed — Less than 3 / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: Pumpkin leaves, Jute fabric, Majaira cymbals, Traditional Tharu jewelry

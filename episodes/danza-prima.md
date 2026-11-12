@@ -1,6 +1,6 @@
 # Danza Prima — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.85 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.85 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 
@@ -122,7 +122,7 @@ NARRATION: Step 1: Form a circle with all dancers.
 NARRATION: Step 2: Step forward with the right foot.
 NARRATION: Footwork from the sources: Step forward with right foot, then two steps backward with left foot, repeated in a pendulum motion.
 NARRATION: Drill: Practice stepping forward with right foot.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -192,7 +192,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: If using sticks, move them rhythmically in time with the steps.
 NARRATION: Drill: Practice stepping and swinging sticks in time.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -263,7 +263,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Swing arms and body in rhythm with steps.
 NARRATION: Step 2: If using sticks, move them rhythmically in time with the steps.
 NARRATION: Drill: Synchronize singing with steps and stick movements.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -331,7 +331,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (5): https://en.wikipedia.org/wiki/Dance_First; https://www.wikidata.org/wiki/Q116198475; https://fr.wikipedia.org/wiki/Dance_First; https://it.wikipedia.org/wiki/Prima_danza,_poi_pensa._Alla_ricerca_di_Beckett; https://archive.org/details/poesapopularcol00pidagoog

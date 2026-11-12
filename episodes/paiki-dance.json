@@ -2,7 +2,7 @@
  "slug": "paiki-dance",
  "name": "Paiki dance",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:11Z",
+ "built_at": "2026-11-12T18:57:17Z",
  "researched_at": "2026-11-11T17:32:49Z",
  "qc_score": 9.55,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Paiki dance. Medieval origin, ongoing."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (9rnS3Gpd8Jk)",
      "Title card: Paiki dance · India · Medieval origin, ongoing"
     ],
     "music": "theme (30 s)"
@@ -106,7 +106,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (9rnS3Gpd8Jk)",
      "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -270,7 +270,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -412,7 +412,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -553,7 +553,7 @@
      "duration_s": 150,
      "narration": [],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -696,7 +696,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "9rnS3Gpd8Jk",
+   "checked_by_vision_model": false,
+   "title": "Paika Dance at Konark Festival 2017"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -793,32 +797,32 @@
   "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 8"
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
    "rock step",
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "keep it flat on the ground",
-   "switch",
-   "slide",
-   "hit"
+   "step your right foot sideward",
+   "close your left foot",
+   "point your left foot",
+   "hold your skirt",
+   "put your hands at the back",
+   "take three steps forward",
+   "turn around",
+   "open your fan"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "full_demo",
    "count_in",
+   "full_demo",
    "warmup",
    "breakdown",
-   "music_practice",
    "slow_practice",
+   "music_practice",
    "recap"
   ],
   "steps_as_taught": []
@@ -827,7 +831,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "the how-it-is-danced section",
   "signature moves",
@@ -843,6 +847,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "e7e60c1c2d0e2c95b870a3f72045051d4fc99a04e00cb913b1d35d46b7612015",
+ "input_fingerprint": "6e68f88b5172957ea1b0e980f812c6a3c048176c7b03ad6e0dd97fddd9108e7e",
  "hero_checked": null
 }

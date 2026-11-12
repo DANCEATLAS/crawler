@@ -2,7 +2,7 @@
  "slug": "robot",
  "name": "robot",
  "pack_version": "e2",
- "built_at": "2026-11-09T21:52:47Z",
+ "built_at": "2026-11-12T18:57:17Z",
  "researched_at": "2026-11-09T21:02:21Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -330,7 +330,9 @@
      "duration_s": 60,
      "narration": [
       "Loose or fluid movements that break the mechanical illusion.",
-      "Teachers of this dance warn against: moving everything below the elbow instead of including the elbow"
+      "Teachers of this dance warn against: moving everything below the elbow instead of including the elbow",
+      "Teachers of this dance warn against: not maintaining enough tension in the movements",
+      "Teachers of this dance warn against: not coordinating the head and body movements"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -481,7 +483,9 @@
      "duration_s": 60,
      "narration": [
       "Loose or fluid movements that break the mechanical illusion.",
-      "Teachers of this dance warn against: moving everything below the elbow instead of including the elbow"
+      "Teachers of this dance warn against: moving everything below the elbow instead of including the elbow",
+      "Teachers of this dance warn against: not maintaining enough tension in the movements",
+      "Teachers of this dance warn against: not coordinating the head and body movements"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -633,7 +637,9 @@
      "duration_s": 60,
      "narration": [
       "Loose or fluid movements that break the mechanical illusion.",
-      "Teachers of this dance warn against: moving everything below the elbow instead of including the elbow"
+      "Teachers of this dance warn against: moving everything below the elbow instead of including the elbow",
+      "Teachers of this dance warn against: not maintaining enough tension in the movements",
+      "Teachers of this dance warn against: not coordinating the head and body movements"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction",
@@ -844,8 +850,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8-",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
@@ -857,10 +863,16 @@
    "swing stop",
    "lean forward",
    "arm up",
-   "elbow up"
+   "elbow up",
+   "twist your wrist",
+   "keep your arm tense",
+   "pivot your feet",
+   "turn your torso"
   ],
   "common_mistakes": [
-   "moving everything below the elbow instead of including the elbow"
+   "moving everything below the elbow instead of including the elbow",
+   "not maintaining enough tension in the movements",
+   "not coordinating the head and body movements"
   ],
   "segment_order": [
    "full_demo",
@@ -885,6 +897,31 @@
     "name": "Robot Leg Step",
     "counts": "7-and-8-and-1-e-and-2-and",
     "description": "A leg lift and a small step to the front."
+   },
+   {
+    "name": "Wrist Twist",
+    "counts": "1-2",
+    "description": "A sharp, controlled twist of the wrist while keeping the arm tense."
+   },
+   {
+    "name": "Arm Raise",
+    "counts": "3-4",
+    "description": "Raising the arm in a robotic, segmented motion."
+   },
+   {
+    "name": "Foot Pivot",
+    "counts": "7-8",
+    "description": "Pivoting on the heels while moving the head in sync."
+   },
+   {
+    "name": "Torso Turn",
+    "counts": "1-2",
+    "description": "A sharp turn of the torso followed by a full body turn."
+   },
+   {
+    "name": "Shuffle",
+    "counts": "1-and-2-and-3-and-4",
+    "description": "A shuffling motion while bringing the arms up in a robotic fashion."
    }
   ]
  },
@@ -904,6 +941,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "e24fb98bb51f71574559fcd099dc45226b8d5b95adb442e27236aca0ba1583e4",
+ "input_fingerprint": "95da66bd23c25be62bfc2671cab1391c06b3239f6ebed638b5e6b17ca3914f7d",
  "hero_checked": null
 }

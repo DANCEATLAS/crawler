@@ -1,6 +1,6 @@
 # Entogoro — episode pack
 
-*Status: draft · built 2026-11-11 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check
 
@@ -121,7 +121,7 @@ NARRATION: Step 1: Stomp the right foot into the floor to sound the leg rattle (
 NARRATION: Step 2: Transfer weight smoothly to the left foot while engaging a quick rebound strike.
 NARRATION: Footwork from the sources: Percussive downward stomps, rapid heel-toe shakes, weight shifts, and grounded pivots designed to sound leg rattles.
 NARRATION: Drill: Practice stationary right-foot downbeat stomps with bent knees.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -190,7 +190,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Perform a controlled spin on the ball of the foot while sustaining continuous hip rotation.
 NARRATION: Drill: Isolate lateral hip shifts side to side on alternating counts.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -261,7 +261,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Execute an explosive vertical hop, landing simultaneously on both feet to produce a unified rattle crash.
 NARRATION: Step 2: Perform a controlled spin on the ball of the foot while sustaining continuous hip rotation.
 NARRATION: Drill: Execute a two-footed vertical leap landing directly on the downbeat.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -328,7 +328,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (2): https://en.wikipedia.org/wiki/Orunyege-Ntogoro; https://www.wikidata.org/wiki/Q124251128

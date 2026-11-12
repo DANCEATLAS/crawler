@@ -1,6 +1,6 @@
 # Huaylarsh — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.3 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.3 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the costume & setting section; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -108,7 +108,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Energetic jumping
 NARRATION: Step 2: Pair-based movement mimicking bird courtship
 NARRATION: Drill: Rhythmic walking
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -173,7 +173,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Energetic jumping
 NARRATION: Step 2: Pair-based movement mimicking bird courtship
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -237,7 +237,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Energetic jumping
 NARRATION: Step 2: Pair-based movement mimicking bird courtship
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -302,7 +302,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (4): https://en.wikipedia.org/wiki/Dance_in_Peru; https://www.wikidata.org/wiki/Q7171186; https://es.wikipedia.org/wiki/Danzas_del_Perú; https://fr.wikipedia.org/wiki/Danses_péruviennes

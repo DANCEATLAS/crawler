@@ -1,6 +1,6 @@
 # Haitian dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-11 · judge 8.75 · 6/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-12 · judge 8.75 · 6/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): the hero video's vision check
 
@@ -119,7 +119,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: count the Mostly duple (2/4 or 4/4), with polyrhythmic layering in Vodou music bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (2): https://en.wikipedia.org/wiki/Dance_in_Haiti; https://www.wikidata.org/wiki/Q125268369

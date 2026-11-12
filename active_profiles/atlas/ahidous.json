@@ -1,13 +1,81 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex footwork"
+        ],
+        "counts": "Simplified 4-count rhythm.",
+        "duration_minutes": "5",
+        "game_version": "A circle game focusing on matching the leader's rhythm."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid stomping",
+          "High-impact movements"
+        ],
+        "counts": "Simplified counts.",
+        "seated_version": "Perform the rhythmic handclapping and upper body undulations while seated in a circle.",
+        "standing_version": "Perform the dance in a circle with support from a chair or partner.",
+        "tempo_and_range": "Reduced tempo and range of motion."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms are often linked or held close to neighbors; hands are used for clapping.",
+      "difficulty": "beginner",
+      "footwork": "Collective stomping and rhythmic stepping.",
+      "formation_and_space": "Circle, semicircle, or two facing lines.",
+      "hips_and_torso": "Trembling and undulating movements that ripple through the group.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Collective, shoulder-to-shoulder contact.",
+      "posture": "Upright, standing shoulder to shoulder in a compact block.",
+      "signature_moves": [
+        {
+          "description": "A wave-like motion that moves through the line of dancers, resembling wind over wheat.",
+          "name": "Collective Undulation"
+        }
+      ],
+      "tempo_feel": "Rhythmic and steady.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Bendir (alloun)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "communal",
+        "rhythmic",
+        "festive"
+      ],
+      "musical_form": "Call and response or collective chanting.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmic pulse provided by the bendir frame drum and handclapping.",
+      "sound_description": "The sound is defined by the steady, resonant beat of the bendir frame drum, punctuated by the rhythmic clapping of the dancers and the communal singing of traditional Berber chants.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Chanting in Berber (izli/izlan) or Arabic."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand shoulder to shoulder with partners.",
+        "Execute collective rhythmic stomping.",
+        "Perform trembling movements through the torso.",
+        "Create large, undulating waves with the arms and body."
+      ],
+      "formation": "Circle, semicircle, or two facing lines.",
+      "level_notes": "Beginner: Focus on maintaining the shoulder-to-shoulder connection and following the group rhythm.",
+      "rhythm": "Rhythmic pulse provided by the bendir drum and handclapping."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9780fd6e05b5b3e55c2c09c49c0399007b63b2d91b59cf7d109c3bd0d89a718a",
+  "fingerprint": "e1a50685ded0be2b69992d96e3818cd3cc2c00c6da5ca3bd7d11dfabb497578e",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +83,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: what_to_avoid",
+      "music_structure: meter",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +112,7 @@
   ],
   "music_options": [],
   "name": "Ahidous",
-  "research_file": null,
+  "research_file": "research_results/ahidous.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +122,13 @@
     "session_modes": []
   },
   "slug": "ahidous",
-  "sources": [],
-  "state": "researching",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ahidus",
+    "https://www.wikidata.org/wiki/Q2635155",
+    "https://fr.wikipedia.org/wiki/Ahidous",
+    "https://pt.wikipedia.org/wiki/Ahidous",
+    "https://de.wikipedia.org/wiki/Ahidous"
+  ],
+  "state": "teaching_withheld",
   "video_evidence": []
 }

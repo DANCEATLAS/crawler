@@ -1,13 +1,73 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "Toe-heel step: toe on first beat, full foot on second beat",
+      "formation_and_space": "Clockwise circle",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Upright and dignified",
+      "signature_moves": [
+        {
+          "description": "A rhythmic step tapping the toe on the first beat and the full foot on the second.",
+          "name": "Toe-heel step"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Moving backwards, as it symbolizes retreat from the enemy."
+    },
+    "music_profile": {
+      "instruments": [
+        "Southern Drum"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "dignified",
+        "formal"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Toe-heel step: Tap toe on the first drum beat.",
+        "Full foot placement: Place the whole foot down on the second drum beat."
+      ],
+      "formation": "Clockwise circle",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "5f50c0c56ffbea866a236d08f525ed6dea798e97009e75b611e79938dee8c46c",
+  "fingerprint": "b70284ce57c7175b41004aa514c169d256097227cfd620eb1d3f6b5cf5bcd4c5",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,8 +75,6 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
@@ -45,7 +103,7 @@
   ],
   "music_options": [],
   "name": "Southern Straight Dance",
-  "research_file": null,
+  "research_file": "research_results/southern-straight-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +113,10 @@
     "session_modes": []
   },
   "slug": "southern-straight-dance",
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Straight_dance",
+    "https://www.wikidata.org/wiki/Q7621066"
+  ],
   "state": "researching",
   "video_evidence": []
 }

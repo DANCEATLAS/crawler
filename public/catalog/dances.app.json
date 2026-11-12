@@ -1,7 +1,7 @@
 {
  "contract": "dw_app_v1",
- "count": 1082,
- "generated_at": "2026-11-11T18:49:18Z",
+ "count": 1091,
+ "generated_at": "2026-11-12T18:51:32Z",
  "pipeline": "v3.3",
  "styles": {
   "son-cubano": {
@@ -139,6 +139,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-12T18:43:58Z",
+    "soft_fail": []
+   },
    "tutorials": [
     {
      "youtube_id": "fmPZaE3fL1c",
@@ -1336,6 +1341,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-12T18:46:01Z",
+    "soft_fail": []
+   },
    "tutorials": [
     {
      "youtube_id": "qrdE4jqXq_k",
@@ -2499,6 +2509,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-12T18:50:06Z",
+    "soft_fail": []
+   },
    "tutorials": [
     {
      "youtube_id": "-ewZ4bWRkVo",
@@ -5422,6 +5437,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-12T18:46:10Z",
+    "soft_fail": []
+   },
    "tutorials": [
     {
      "youtube_id": "HZruz8wO0g8",
@@ -6371,6 +6391,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-12T18:46:29Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "an-dro",
     "assyrian-folk-dance",
@@ -7851,6 +7876,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-12T18:42:25Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "hasapiko",
     "hasaposerviko",
@@ -12063,6 +12093,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-12T18:50:52Z",
+    "soft_fail": [
+     "not_talking_head"
+    ]
+   },
    "related_slugs": [
     "kochari",
     "berd"
@@ -18966,6 +19003,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-12T18:44:58Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "kalamatianos",
     "sousta",
@@ -19235,6 +19277,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-12T18:49:38Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "zeibekiko",
     "hasapiko",
@@ -35928,7 +35975,7 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Soca_music",
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": "cfcVSJwoxjo",
+   "hero_video_youtube_id": "C9-xOePvqlY",
    "hero_image": null,
    "video_stack": [
     {
@@ -35982,7 +36029,12 @@
    ],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-12T18:43:23Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "limbo",
     "calypso",
@@ -45289,15 +45341,15 @@
    "country_code": "ZA",
    "flag_emoji": "🇿🇦",
    "region": "Sub-Saharan Africa",
-   "family": "folk-circle",
+   "family": "african-diaspora",
    "era": "late 1800s",
    "tagline": "Boots that talk in the dark.",
    "profile": "Isicathulo percussive mine dance; coded criticism in Wellington boots.",
    "insight": "",
    "aliases": [
     "Gumboot dance",
-    "Isicathulo",
-    "Gumboots"
+    "Gumboots",
+    "Isicathulo"
    ],
    "related": [
     "kizomba",
@@ -45359,16 +45411,16 @@
    "_gallery": [],
    "_is_sacred": false,
    "research_gate": "publish",
-   "qc_score": 9.25,
-   "last_researched_at": "2026-10-31T16:23:31Z",
+   "qc_score": 9.7,
+   "last_researched_at": "2026-11-12T18:07:27Z",
    "pipeline_version": "v3.3",
-   "profile_long": "The Gumboot dance, also known as Isicathulo in Zulu, originated in the late 19th century among black miners in the gold mines of South Africa, particularly around Johannesburg and the Witwatersrand region. These miners were subjected to harsh working conditions, including being chained, working in flooded tunnels, and a strict prohibition against speaking to each other under threat of severe punishment. To communicate, they developed a coded language using rhythmic slaps on their Wellington boots (gumboots), stamping, clapping, and rattling chains. The boots were often embellished with bells or bottle caps to enhance the sound, recalling the chains that once bound them.\n\nThis percussive dance form uses the body and boots as idiophones, creating complex polyrhythms and total body articulation derived from traditional African dances. Many routines parody the movements of mine officers and guards, serving as a subtle form of resistance and social commentary. Over time, gumboot dancing moved from the mines to the surface, becoming a popular cultural and social expression among miners and their communities. It evolved into a performance art with groups competing and performing in company amphitheaters and public spaces.\n\nToday, Gumboot dance is commonly seen in South African tourist areas such as the Victoria & Alfred Waterfront in Cape Town, performed by youth groups and professional troupes. It has also gained international recognition through music collaborations, such as Paul Simon's \"Gumboots\" on his album Graceland, and through folk groups like Zimbabwe's Black Umfolosi. The dance continues to evolve, incorporating modern elements while respecting its origins. Educational groups like the Gumboot Core Team at Pearson College UWC maintain the tradition authentically, and organizations like World of Step work to preserve its historical significance.\n\nThe dance's music often includes guitar, accordion, and violin accompaniment, though originally it was performed without instruments. The boots' sounds combined with body percussion create a distinctive rhythmic texture. The dance is both a cultural symbol of resilience and a vibrant artistic form, reflecting the miners' history and contemporary South African identity.",
+   "profile_long": "The Gumboot dance, known in Zulu as isicathulo, emerged from the oppressive conditions of the Witwatersrand gold mines near Johannesburg. In the late 19th century, black miners were subjected to harsh labor, often working in flooded tunnels with water reaching their knees. To protect themselves from skin diseases caused by the contaminated water, they wore Wellington boots, or 'gumboots'. Because speaking was strictly prohibited under threat of severe punishment, the miners developed a sophisticated system of non-verbal communication. By slapping their hands against their boots, stamping their feet, and utilizing the rattling of chains or bottle caps attached to their footwear, they created a rhythmic language that allowed them to convey messages across the noisy, drill-filled tunnels. This system of 'literature in motion' eventually moved from the underground to the surface, where it evolved into a social and cultural performance. During their leisure time, miners began to incorporate traditional dances from their rural homelands, blending these with the percussive techniques developed in the mines. The dance also became a vehicle for satire; performers would mimic the movements and mannerisms of the mine guards and officers who oversaw them, often in ways that were unrecognizable to the authorities. Over the 20th century, the dance transitioned from a survival tool to a celebrated art form. It is characterized by polyrhythm, total body articulation, and the use of the body and boots as idiophones. Modern performances often feature groups in uniform, sometimes wearing protective helmets or specific costumes, and the dance is frequently seen in tourist hubs like Cape Town’s Victoria & Alfred Waterfront. While the historical context of slavery and apartheid remains central to its meaning, the dance has been adapted by various groups, including school choirs and international university troupes, to preserve its history and share its expressive power with a global audience.",
    "albums": [],
    "album_candidates": [
     {
      "title": "Gumboot guitar. Zulu street guitar music from South Africa",
-     "artist": "Janet Topp Fargion, Albert Nene",
-     "source": "https://de.wikipedia.org/wiki/Gummistiefel-Tanz",
+     "artist": "Various",
+     "source": "https://es.wikipedia.org/wiki/Gumboot",
      "verified": false
     }
    ],
@@ -45385,7 +45437,8 @@
      "description": "Gumboot dancer. (Taken in Olomouc, The Czech Republic at the show about Zulu culture.)"
     }
    ],
-   "movie_ready": true,
+   "movie_ready": false,
+   "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
    "tutorials": [
     {
@@ -45549,7 +45602,7 @@
    "wikipedia_url": "",
    "wikidata_qid": null,
    "unesco": false,
-   "hero_video_youtube_id": "_G6Xlwow0EE",
+   "hero_video_youtube_id": "fyny3Npb70o",
    "hero_image": null,
    "video_stack": [],
    "image_significance": {
@@ -45563,7 +45616,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-12T18:50:45Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "kompa",
     "son-cubano",
@@ -45617,6 +45675,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-12T18:49:31Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "kalamatianos",
     "syrtos"
@@ -54309,18 +54372,21 @@
   },
   "danza-de-los-quetzales": {
    "slug": "danza-de-los-quetzales",
-   "name": "Danza de los Quetzales",
+   "name": "Danza de los Voladores",
    "country": "Mexico",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "MX",
+   "flag_emoji": "🇲🇽",
    "region": "Puebla (Nahua/Totonac)",
-   "family": null,
+   "family": "ritual-sacred",
    "era": "pre-Hispanic",
    "tagline": "The spinning sun-wheel of feathers",
    "profile": "The spinning sun-wheel of feathers — Danza de los Quetzales (Mexico, Puebla (Nahua/Totonac)). Full sourced 9-field profile in research artifact; concise schema stub pending text expansion.",
    "insight": "",
    "aliases": [
-    "Danza de los Quetzales"
+    "Danza de los Quetzales",
+    "Palo Volador",
+    "Dance of the Flyers",
+    "Voladores de Papantla"
    ],
    "related": [
     "salsa",
@@ -54328,10 +54394,16 @@
     "lindy-hop",
     "hip-hop"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
-   "unesco": false,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Danza_de_los_Voladores",
+    "https://www.wikidata.org/wiki/Q1165268",
+    "https://es.wikipedia.org/wiki/Rito_de_los_voladores",
+    "https://fr.wikipedia.org/wiki/Danse_du_volador",
+    "https://de.wikipedia.org/wiki/Danza_del_Volador"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Danza_de_los_Voladores",
+   "wikidata_qid": "Q1165268",
+   "unesco": true,
    "hero_video_youtube_id": "D6MESAXY2bk",
    "hero_image": null,
    "video_stack": [],
@@ -54343,6 +54415,108 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "publish",
+   "qc_score": 9.45,
+   "last_researched_at": "2026-11-12T18:24:29Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Danza de los Voladores, or Palo Volador, is an ancient Mesoamerican ceremony that functions as a ritual for fertility and rain. The performance centers on a 30-meter pole, which acts as a symbolic connection between the earth, the sky, and the underworld. Five participants, traditionally young men, perform the ritual. One individual, the caporal, remains at the top of the pole on a small platform called a manzana, where he plays a flute and drum to acknowledge the four cardinal directions. The other four participants, representing the four elements and cardinal points, tie themselves to ropes and launch backward from the frame at the top. As they descend, the ropes unwind, causing the dancers to spin and create a moving pyramid shape. This descent is calculated to involve 13 rotations for each of the four dancers, totaling 52 circuits, which corresponds to the 52-year cycle of the Mesoamerican calendar. The ritual is deeply rooted in the history of the Nahua, Huastec, Otomi, and Totonac peoples. While the exact origins remain unknown, evidence of the practice dates back to the pre-Classic period. Historically, the ritual was associated with solar ceremonies and deities such as Xipe Totec and Tlazolteotl. In modern times, the ceremony has faced significant changes, including the use of permanent metal poles in place of traditional trees and the controversial inclusion of female participants in specific communities like Cuetzalan and Pahuatlán. Despite these shifts, the ritual remains a vital cultural expression, recognized by UNESCO as Intangible Cultural Heritage in 2009. The ceremony is not merely a performance but a solemn act of respect for nature, often preceded by rituals to ask forgiveness from the mountain god for the use of the pole. The costumes, featuring red pants, white shirts, and embroidered chest cloths, symbolize blood and fertility, while the cap is adorned with mirrors and ribbons representing the sun and the rainbow.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/El_Tajin_Los_Voladores_%28fcm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/El_Tajin_Los_Voladores_%28fcm%29.jpg/1280px-El_Tajin_Los_Voladores_%28fcm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1704,
+     "height": 1920,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Photograph:  Frank C. Müller, Baden-Baden / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AEl_Tajin_Los_Voladores_%28fcm%29.jpg",
+     "description": "Bildinhalt: Fliegende Tänzer in El Tajín\nAufnahmeort: El Tajín bei Papantla, Mexiko"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/PolancoVoladoresdePapantla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/97/PolancoVoladoresdePapantla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 768,
+     "height": 1024,
+     "license": "CC BY 2.5",
+     "license_url": "https://creativecommons.org/licenses/by/2.5",
+     "attribution": "Fernando González del Cueto / Wikimedia Commons / CC BY 2.5",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3APolancoVoladoresdePapantla.jpg",
+     "description": "Performance of the Voladores in the central park of Chapultepec in Mexico City, next to the National Museum of Anthropology and History. The famous modern towers of Polanco can be seen in the background."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Nebel_Voyage_21_Indios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Nebel_Voyage_21_Indios.jpg/1280px-Nebel_Voyage_21_Indios.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4841,
+     "height": 3761,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Pierre Frédéric Lehnert / Carl Nebel / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ANebel_Voyage_21_Indios.jpg",
+     "description": "Indios de la Cierra de Guauchinango. Hand-colored lithograph highlighted with gum arabic. Original size (neat lines): 39.6×30.6 cm."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Voladores_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Voladores_3.jpg/1280px-Voladores_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2414,
+     "height": 3617,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "B.navez / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AVoladores_3.jpg",
+     "description": "Los Voladores Aztecas performing on Réunion island"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Dancing_on_a_pole_Mexico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Dancing_on_a_pole_Mexico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1092,
+     "height": 1584,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "SpyridoulaDellaPhotography / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADancing_on_a_pole_Mexico.jpg",
+     "description": "The Flying Men dancing on a pole, part of an ancient Mexican tradition. Check out the whole dance here https://www.flickr.com/photos/spytodie4/4313216547/"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Folding_Screen_with_Indian_Wedding_and_Flying_Pole_%28Biombo_con_desposorio_ind%C3%ADgena_y_palo_volador%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Folding_Screen_with_Indian_Wedding_and_Flying_Pole_%28Biombo_con_desposorio_ind%C3%ADgena_y_palo_volador%29_-_Google_Art_Project.jpg/1280px-Folding_Screen_with_Indian_Wedding_and_Flying_Pole_%28Biombo_con_desposorio_ind%C3%ADgena_y_palo_volador%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3510,
+     "height": 2033,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Unknown authorUnknown author / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AFolding_Screen_with_Indian_Wedding_and_Flying_Pole_%28Biombo_con_desposorio_ind%C3%ADgena_y_palo_volador%29_-_Google_Art_Project.jpg",
+     "description": ""
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Voladores_from_Veracruz_performing_in_Puerto_Vallarta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Voladores_from_Veracruz_performing_in_Puerto_Vallarta.jpg/1280px-Voladores_from_Veracruz_performing_in_Puerto_Vallarta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2981,
+     "height": 1676,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Walkps1 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AVoladores_from_Veracruz_performing_in_Puerto_Vallarta.jpg",
+     "description": "Voladores of Papantla performing in Puerto Vallarta, Jalisco, Mexico - February 2016"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Rito_de_los_voladores_-_Teotihuacan%2C_Edomex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Rito_de_los_voladores_-_Teotihuacan%2C_Edomex.jpg/1280px-Rito_de_los_voladores_-_Teotihuacan%2C_Edomex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3455,
+     "height": 3216,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Juan Carlos Fonseca Mata / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ARito_de_los_voladores_-_Teotihuacan%2C_Edomex.jpg",
+     "description": "Rito de los Voladores en Teotihuacan, México."
+    }
+   ],
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "The ritual is considered a sacred act of fertility and connection to the gods; outsiders should observe with respect and follow local guidelines regarding photography and participation.",
+   "movie_ready": false,
+   "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
    "hero_qc": {
     "verdict": "pass",
@@ -55532,6 +55706,13 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "review",
+   "qc_score": 9.15,
+   "last_researched_at": "2026-11-12T18:30:18Z",
+   "pipeline_version": "v3.3",
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "The dance is a space for prayer and connection to ancestors; participants should approach with respect for the cultural protocols provided by community elders.",
    "hero_source": "crawler:qc_replaced",
    "hero_qc": {
     "verdict": "pass",
@@ -56042,16 +56223,19 @@
    "slug": "danza-de-las-tijeras",
    "name": "Danza de las Tijeras",
    "country": "Peru",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "PE",
+   "flag_emoji": "🇵🇪",
    "region": "Huancavelica/Ayacucho",
-   "family": null,
+   "family": "ritual-sacred",
    "era": "pre-Hispanic Chanka",
    "tagline": "Dancing with scissors in a duel of spirits",
    "profile": "Dancing with scissors in a duel of spirits — Danza de las Tijeras (Peru, Huancavelica/Ayacucho). Full sourced 9-field A+ profile in research artifact W7; concise schema stub pending text expansion.",
    "insight": "",
    "aliases": [
-    "Danza de las Tijeras"
+    "Danza de las Tijeras",
+    "Danza de gala",
+    "Supaypa wasin tusuq",
+    "Baile de tijera"
    ],
    "related": [
     "samba",
@@ -56059,9 +56243,15 @@
     "tango",
     "candombe"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Danza_de_tijeras",
+    "https://www.wikidata.org/wiki/Q5221455",
+    "https://es.wikipedia.org/wiki/Danza_de_las_tijeras",
+    "https://fr.wikipedia.org/wiki/Danza_de_las_tijeras",
+    "https://pt.wikipedia.org/wiki/Dança_das_tesouras"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Danza_de_tijeras",
+   "wikidata_qid": "Q5221455",
    "unesco": true,
    "hero_video_youtube_id": "KKYWklE0tag",
    "hero_image": null,
@@ -56074,6 +56264,31 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "publish",
+   "qc_score": 9.6,
+   "last_researched_at": "2026-11-12T18:30:31Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Danza de las Tijeras, or scissors dance, is a ritual performance native to the Chanka region, primarily practiced in the Peruvian departments of Huancavelica, Ayacucho, and Apurímac. Historically, the dancers, known as danzaq or tusuq, are considered descendants of pre-Hispanic priests and healers who were persecuted during the colonial era. To survive, they adapted their practices, often performing during Catholic patronal festivals, though they were frequently labeled as 'sons of the devil' by colonial authorities due to the perceived magical nature of their feats. \n\nThe dance is fundamentally a competitive ritual known as Atipanakuy, where two or more dancers challenge each other to perform increasingly difficult physical feats. Each dancer is supported by their own orchestra, consisting of one harpist and one violinist. The competition can last for many hours, with the winner determined by physical stamina, the quality of the musical accompaniment, and the complexity of the acrobatic movements. The dancers carry two independent metal plates, approximately 25 centimeters long, in their right hand; these are struck together to create a rhythmic sound, replacing the flat stones used in ancient times. \n\nSymbolically, the dance represents the duality of the Andean world, with the two metal plates referred to as 'male' and 'female.' The dancers, dressed in elaborate costumes adorned with gold stripes, sequins, and mirrors, perform movements that range from rhythmic walking to high-level gymnastics, including balancing acts and endurance tests. While the dance is now integrated into Catholic festivities, it retains its identity as a sacred, magical-religious practice. The knowledge and skill required are passed down orally from teacher to student, often beginning in childhood. In 2010, UNESCO recognized the Danza de las Tijeras as an Intangible Cultural Heritage of Humanity, acknowledging its deep historical roots and symbolic significance to the Andean communities.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Huancavelica%2C_baile_regional.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Huancavelica%2C_baile_regional.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1280,
+     "height": 960,
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "attribution": "Gustavo Madico from Valencia, Spain / Wikimedia Commons / CC BY 2.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AHuancavelica%2C_baile_regional.jpg",
+     "description": "Una de las zonas mas pobres de Perú y Latinoamerica tiene sorprendentemente el record en bailes regionales, este las tijeras, hace pensar que estamos ante acrobatas mas que ante bailarines... Ironico pero hasta los de alli tienen que sudar mas para bailar.\nLicensing\n\nThis file is licensed under the Creative Commons Attribution 2.0 Generic license.\nYou are free:\nto share – to copy, distribute and t"
+    }
+   ],
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "The dance is considered a magical-religious ritual. Dancers are traditionally forbidden from entering churches in their performance costumes due to the belief that their abilities stem from a pact with the devil.",
+   "movie_ready": false,
+   "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
    "hero_qc": {
     "verdict": "pass",
@@ -59762,6 +59977,10 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "review",
+   "qc_score": 9.45,
+   "last_researched_at": "2026-11-12T18:30:42Z",
+   "pipeline_version": "v3.3",
    "hero_source": "crawler:crowd_wisdom_weak",
    "related_slugs": [
     "salsa",
@@ -62332,16 +62551,20 @@
    "slug": "ahidous",
    "name": "Ahidous",
    "country": "Morocco",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "MA",
+   "flag_emoji": "🇲🇦",
    "region": "Middle Atlas/Jbel Saghro",
-   "family": null,
+   "family": "folk-circle",
    "era": "ancient",
    "tagline": "The whole Amazigh village dances as one",
    "profile": "The whole Amazigh village dances as one — Ahidous (Morocco, Middle Atlas/Jbel Saghro). Full sourced 9-field A+ profile in research artifact W11; concise schema stub pending text expansion.",
    "insight": "",
    "aliases": [
-    "Ahidous"
+    "Ahidous",
+    "Ahidus",
+    "Haidous",
+    "Tahidoust",
+    "Hidoussi"
    ],
    "related": [
     "raqs-sharqi",
@@ -62349,9 +62572,15 @@
     "dabke",
     "sufi-whirling"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ahidus",
+    "https://www.wikidata.org/wiki/Q2635155",
+    "https://fr.wikipedia.org/wiki/Ahidous",
+    "https://pt.wikipedia.org/wiki/Ahidous",
+    "https://de.wikipedia.org/wiki/Ahidous"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Ahidus",
+   "wikidata_qid": "Q2635155",
    "unesco": false,
    "hero_video_youtube_id": "8VbcXz-o2G4",
    "hero_image": null,
@@ -62364,6 +62593,108 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "publish",
+   "qc_score": 9.6,
+   "last_researched_at": "2026-11-12T18:32:11Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Ahidous is a collective musical and dance tradition deeply rooted in the Amazigh culture of Morocco, particularly within the Middle and High Atlas mountains. It is characterized by its communal nature, where participants stand shoulder to shoulder, forming a compact block that moves as a single entity. This formation, whether a closed circle, a semicircle, or two facing lines, symbolizes the unity of the tribe and the shared spirit of its inhabitants. The dance is often described as a rhythmic, trembling motion that ripples through the group, likened to the movement of wind blowing across a field of wheat. \n\nCentral to the performance is the leader, known as the Ammehreb, who stands within the formation to guide the rhythm and coordinate the dancers. The musical accompaniment is provided by the bendir, a traditional frame drum, and the rhythmic clapping of the participants. The vocal component, consisting of songs in the Berber language known as izli or izlan, is an essential element of the performance. While the origins of Ahidous remain largely undocumented due to a lack of extensive research, it is traditionally associated with the Zenata tribe. \n\nBeyond its artistic value, Ahidous serves as a critical social mechanism. It is performed during weddings, naming ceremonies, and festivals, and it is a common sight in villages during the summer months following the harvest. In the context of weddings, the dance provides a regulated space for social interaction and communication between young men and women. The tradition also plays a role in the transmission of social roles, as younger generations learn the steps, songs, and drum techniques from their elders. The costume worn by participants is distinct: men typically wear a white djellaba and turban, symbolizing peace, while women wear white or colorful kaftans adorned with silver jewelry. The dance is a living tradition, celebrated annually at festivals such as the one in Aïn Leuh, where various tribes gather to showcase their regional styles.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/COLLECTIE_TROPENMUSEUM_Dansgroep_uit_de_Midden-Atlas_tijdens_het_Nationaal_Folkore_Festival_te_Marrakech_TMnr_20017658.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/COLLECTIE_TROPENMUSEUM_Dansgroep_uit_de_Midden-Atlas_tijdens_het_Nationaal_Folkore_Festival_te_Marrakech_TMnr_20017658.jpg/1280px-COLLECTIE_TROPENMUSEUM_Dansgroep_uit_de_Midden-Atlas_tijdens_het_Nationaal_Folkore_Festival_te_Marrakech_TMnr_20017658.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1744,
+     "height": 1744,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Fotograaf / photographer: Drs. F.M. (Frits) Cowan (1931 - 2010) / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ACOLLECTIE_TROPENMUSEUM_Dansgroep_uit_de_Midden-Atlas_tijdens_het_Nationaal_Folkore_Festival_te_Marrakech_TMnr_20017658.jpg",
+     "description": "Ahidous dans uit de Midden Atlas, Marokko."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Ahidous_Ait_Bouguemez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Ahidous_Ait_Bouguemez.png/1280px-Ahidous_Ait_Bouguemez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2482,
+     "height": 1334,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Ait_Bouguemez.png",
+     "description": "Ahidous Ait Bouguemez"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Ahidous_Ain_Fendel.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Ahidous_Ain_Fendel.png/1280px-Ahidous_Ain_Fendel.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2322,
+     "height": 1324,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Ain_Fendel.png",
+     "description": "Ahidous Ain Fendel"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ahidous_Ain_Leuh.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Ahidous_Ain_Leuh.png/1280px-Ahidous_Ain_Leuh.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2536,
+     "height": 1350,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Ain_Leuh.png",
+     "description": "Ahidous Ain Leuh"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Ahidous_Oulmes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Ahidous_Oulmes.png/1280px-Ahidous_Oulmes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2044,
+     "height": 1328,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Oulmes.png",
+     "description": "Ahidous Oulmes"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ahidous_Sefrou.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Ahidous_Sefrou.png/1280px-Ahidous_Sefrou.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2468,
+     "height": 1372,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Sefrou.png",
+     "description": "Ahidous Sefrou"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Ahidous_Ait_Hadidou.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Ahidous_Ait_Hadidou.png/1280px-Ahidous_Ait_Hadidou.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2378,
+     "height": 1210,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Ait_Hadidou.png",
+     "description": "Ahidous Ait Hadidou"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Ahidous_Talsint.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Ahidous_Talsint.png/1280px-Ahidous_Talsint.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2470,
+     "height": 1308,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhidous_Talsint.png",
+     "description": "Ahidous Talsint"
+    }
+   ],
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "not described in sources",
+   "movie_ready": false,
+   "tradition_status": "living",
    "hero_source": "crawler:qc_failed_pending_recrawl",
    "hero_qc": {
     "verdict": "fail",
@@ -62381,16 +62712,19 @@
    "slug": "ahwash",
    "name": "Ahwash",
    "country": "Morocco",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "MA",
+   "flag_emoji": "🇲🇦",
    "region": "High Atlas/Souss",
-   "family": null,
+   "family": "ritual-sacred",
    "era": "ancient",
    "tagline": "Fireside village dance of the High Atlas",
    "profile": "Fireside village dance of the High Atlas — Ahwash (Morocco, High Atlas/Souss). Full sourced 9-field A+ profile in research artifact W11; concise schema stub pending text expansion.",
    "insight": "",
    "aliases": [
-    "Ahwash"
+    "Ahwash",
+    "A7wach",
+    "ahouach",
+    "ahwach"
    ],
    "related": [
     "raqs-sharqi",
@@ -62398,9 +62732,13 @@
     "dabke",
     "sufi-whirling"
    ],
-   "sources": [],
-   "wikipedia_url": "",
-   "wikidata_qid": null,
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ahwash",
+    "https://www.wikidata.org/wiki/Q4696445",
+    "https://fr.wikipedia.org/wiki/Ahouach"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Ahwash",
+   "wikidata_qid": "Q4696445",
    "unesco": false,
    "hero_video_youtube_id": "KiZuN0K9FsE",
    "hero_image": null,
@@ -62428,6 +62766,115 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "publish",
+   "qc_score": 8.55,
+   "last_researched_at": "2026-11-12T18:24:00Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Ahwash is a collective performance tradition of the Shilha people in southern Morocco, encompassing dance, poetry, and percussion. Performed by large groups of men and women, the dance serves as a communal celebration for festivals, weddings, and harvests. It is a living tradition transmitted orally through generations, often involving trance-like states and spiritual connection. The performance structure relies on the interplay between two groups, alternating song and movement to express both individual and tribal experiences. The tradition is deeply rooted in the High Atlas and Souss regions, with performance details varying significantly between individual villages due to the large number of participants involved. Because of the logistical difficulty of transporting groups that can exceed 150 people, the dance has developed independently in different locales. The performance is a ritualized dialogue, where the quality of the dance is intrinsically linked to the authenticity and delivery of the poetry shared between participants. While the poetry may reference Islamic traditions, the communal form of the dance, involving both sexes, often stands in contrast to conservative interpretations of Islamic practice. In many instances, the performance occurs at a saint's tomb during a moussem, a religious holiday, though some communities restrict this practice due to the perceived intensity of the spiritual power involved. Participants may experience trance and ecstasy, and there are documented accounts of performers believed to be clairvoyant. The music is driven by the tara (tambourine), the tbel (drum), and the naqus (a metal instrument struck with iron sticks). As an oral tradition, it remains a primary vehicle for the transmission of Amazigh identity, bringing to life the history and social realities of the tribe.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "Berbères du Maroc \"Ahwach\"",
+     "artist": "Éditions Musée de l'Homme-CNRS",
+     "source": "https://fr.wikipedia.org/wiki/Ahouach",
+     "verified": false
+    }
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ahwach_Agdez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Ahwach_Agdez.png/1280px-Ahwach_Agdez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2178,
+     "height": 1280,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Agdez.png",
+     "description": "Ahwach Agdez"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Ahwach_Aoulouz.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Ahwach_Aoulouz.png/1280px-Ahwach_Aoulouz.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2478,
+     "height": 1274,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Aoulouz.png",
+     "description": "Ahwach Aoulouz"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ahwach_Ait_Baamrane.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Ahwach_Ait_Baamrane.png/1280px-Ahwach_Ait_Baamrane.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2506,
+     "height": 1360,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Ait_Baamrane.png",
+     "description": "Ahwach Ait Baamrane"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ahwach_Assa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Ahwach_Assa.png/1280px-Ahwach_Assa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2456,
+     "height": 1258,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Assa.png",
+     "description": "Ahwach Assa"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Ahwach_Kelaat_Mgouna.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Ahwach_Kelaat_Mgouna.png/1280px-Ahwach_Kelaat_Mgouna.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2548,
+     "height": 1362,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Kelaat_Mgouna.png",
+     "description": "Ahwach Kelaat Mgouna"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ahwach_Mirleft.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Ahwach_Mirleft.png/1280px-Ahwach_Mirleft.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2516,
+     "height": 1122,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Mirleft.png",
+     "description": "Ahwach Mirleft"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Ahwach_Ouarzazate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Ahwach_Ouarzazate.png/1280px-Ahwach_Ouarzazate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2474,
+     "height": 1214,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Ouarzazate.png",
+     "description": "Ahwach Ouarzazate"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ahwach_Tafraout.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Ahwach_Tafraout.png/1280px-Ahwach_Tafraout.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2526,
+     "height": 1346,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Tafraout.png",
+     "description": "Ahwach Tafraout"
+    }
+   ],
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "sacred_note": "The dance is often performed at saint's tombs during religious holidays; some communities restrict it due to the belief that the performance involves the devil or carries spiritual power that may offend the saint.",
+   "movie_ready": false,
+   "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": [
     "raqs-sharqi",
@@ -62472,6 +62919,10 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "reject",
+   "qc_score": 6.8,
+   "last_researched_at": "2026-11-12T18:24:18Z",
+   "pipeline_version": "v3.3",
    "hero_source": "crawler:crowd_wisdom_confident",
    "hero_qc": {
     "verdict": "pass",
@@ -63270,6 +63721,10 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "review",
+   "qc_score": 6.55,
+   "last_researched_at": "2026-11-12T18:32:29Z",
+   "pipeline_version": "v3.3",
    "related_slugs": [
     "fancy-shawl-dance",
     "men-s-northern-traditional-dance",
@@ -63837,10 +64292,18 @@
    "lng": 23.65,
    "flag_emoji": null,
    "family": null,
-   "hero_video_youtube_id": "4jMBYx76txU",
+   "hero_video_youtube_id": "ffPdjcDGzcU",
    "video_stack": [],
    "hero_image": null,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-12T18:51:05Z",
+    "soft_fail": [
+     "hd",
+     "camera_ok"
+    ]
+   },
    "related_slugs": [
     "hasapiko",
     "tsifteteli",
@@ -69088,13 +69551,13 @@
    "flag_emoji": "🇺🇸",
    "era": "Late 20th century",
    "tagline": "A high-contact, emergent crowd dance born in the late-1970s hardcore punk scene.",
-   "profile": "Moshing is a style of dance in which participants push, slam, or collide into each other inside an area called a mosh pit. Originating in the Southern California hardcore punk scene around 1978, it evolved from the British punk pogo style. Over subsequent decades, the practice spread from underground venues into heavy metal, grunge, hip-hop, and electronic dance music. Despite its widespread adoption in youth culture, it remains controversial due to severe injuries and occasional fatalities.",
-   "insight": "Around 95% of mosh pit circle pits rotate counter-clockwise, a spatial anomaly directly correlated with the human population's overwhelming right-hand preference.",
+   "profile": "Moshing is a high-energy, improvisational dance style characterized by physical contact, collision, and collective movement within a designated area known as a 'pit.' Emerging from the Southern California hardcore punk scene in the late 1970s, the practice evolved from the British pogo and has since permeated diverse genres including heavy metal, grunge, hip-hop, and electronic dance music. While often viewed as a form of fan expression, the dance is frequently controversial due to its inherent risks of injury and the potential for crowd-crush incidents.",
+   "insight": "Research shows that 95% of observed mosh pit circle pits rotate counter-clockwise, a spatial anomaly that correlates with the human population's strong right-hand preference.",
    "aliases": [
-    "slam dancing",
-    "slamming",
     "pogo",
-    "slam"
+    "slam",
+    "slam dancing",
+    "slamming"
    ],
    "related": [
     "pogo",
@@ -69135,13 +69598,13 @@
    "publish_gate": "publish",
    "_is_sacred": false,
    "is_sacred": false,
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-12",
    "origin": "pipeline",
    "research_gate": "publish",
-   "qc_score": 9.7,
-   "last_researched_at": "2026-11-02T20:05:33Z",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-11-12T18:09:46Z",
    "pipeline_version": "v3.3",
-   "profile_long": "Moshing, also known as slam dancing or slamming, is an energetic and high-contact dance form primarily performed to aggressive live music such as punk rock and heavy metal. Taking place in a designated or emergent area known as the mosh pit, participants push, shove, run, and collide with one another in response to fast tempos and heavy breakdowns. The direct predecessor to moshing was the pogo, a 1970s English punk dance where crowd members jumped up and down with their arms at their sides, reportedly invented by Sex Pistols bassist Sid Vicious in 1976.\n\nAs a prominent punk scene formed in Southern California in the late 1970s and early 1980s with bands like Fear and Black Flag, slam dancing developed as a physical modification of the pogo. Early participants introduced running, pushing, and a recognized ringed space. A foundational style emerged called the Huntington Beach Strut, attributed to former US marine Mike Marine in 1978, which involved strutting in a circle while swinging arms to hit nearby people. The term 'mosh' itself etymologically stems from a misunderstanding of 'mash'; during a 1979 or 1980 performance, Bad Brains vocalist H.R. shouted 'mash it—mash down Babylon!', which audience members heard through his Jamaican accent as 'mosh it'.\n\nThroughout the 1980s, the dance spread across North America, developing distinct regional variants. In Boston, dancers introduced 'Boston thrash' (incorporating punches below the neck) and 'pig piles' where individuals were knocked to the ground and buried by others. In New York City, hardcore scenes merged with heavy metal fans, incorporating exaggerated arm and leg movements. Figures like Scott Ian and Billy Milano of Stormtroopers of Death cemented the term 'mosh' with tracks like 'Milano Mosh' in 1985. Variations multiplied over time, including the circle pit, the Wall of Death (where the crowd splits into two halves and charges together), and specialized hardcore dancing styles like the two-step and floorpunching.\n\nIn the 1990s, the mainstream success of grunge and touring festivals like Lollapalooza introduced moshing to a global audience. The practice subsequently crossed over into hip-hop—championed by groups like Beastie Boys and Onyx and later modern rap artists who termed it 'raging'—as well as electronic dance music performances by acts like The Prodigy and Skrillex. Researchers studying mosh pits have noted fascinating emergent behaviors, finding that crowd dynamics mirror 2-D gases in equilibrium and that nearly all circle pits rotate counter-clockwise due to human right-hand dominance.\n\nDespite its role as a form of passionate fan expression, moshing has drawn intense criticism, venue bans, and legal controversy due to dangerous levels of violence. Tragic fatalities and injuries at concerts—including incidents at Smashing Pumpkins performances, the 2001 Big Day Out festival, and the 2021 Astroworld Festival—have led numerous bands, such as Fugazi and Consolidated, and prominent musicians to publicly condemn or actively oppose the practice.",
+   "profile_long": "Moshing, also known as slam dancing or slamming, is a style of dance defined by participants pushing, slamming, or colliding into one another within a designated space called a mosh pit. The dance originated in the Southern California hardcore punk scene around 1978, specifically within the communities of Huntington Beach and Long Beach. It is widely considered to have evolved from the pogo, a 1970s British punk dance where participants jumped in place with arms held at their sides. As the hardcore scene grew, participants modified the pogo by introducing physical contact through running and pushing. The term 'mosh' is believed to have derived from a mishearing of the word 'mash' shouted by H.R., the vocalist of the band Bad Brains, during a performance in the late 1970s or early 1980s. By the 1980s, the practice spread to hardcore scenes in Washington, D.C., Boston, and New York, where it developed regional variations such as the 'Boston thrash' and 'pig piles.' In the 1990s, the mainstream success of grunge and the rise of touring festivals like Lollapalooza brought moshing to a wider audience, eventually influencing hip-hop and electronic dance music. The dance is inherently improvisational and lacks a codified set of steps, though it is performed to aggressive music genres. Its physical nature has led to significant controversy, with various venues banning the practice and several high-profile incidents involving injuries and fatalities. Despite this, it remains a staple of many live music performances, with researchers noting that the emergent behavior of crowds in pits often mirrors the physics of 2-D gases in equilibrium.",
    "albums": [
     {
      "title": "Speak English or Die",
@@ -69149,6 +69612,26 @@
      "year": "1985",
      "mbid": "3026af35-f36e-3436-875b-ddfd2c0c7529",
      "musicbrainz_url": "https://musicbrainz.org/release-group/3026af35-f36e-3436-875b-ddfd2c0c7529",
+     "type": "Album",
+     "source": "https://en.wikipedia.org/wiki/Moshing",
+     "verified": true
+    },
+    {
+     "title": "Caught in a Mosh: BBC Live in Concert",
+     "artist": "Anthrax",
+     "year": "2007",
+     "mbid": "ddcc7067-8ea2-4736-a668-bae8e36997f2",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/ddcc7067-8ea2-4736-a668-bae8e36997f2",
+     "type": "Album",
+     "source": "https://en.wikipedia.org/wiki/Moshing",
+     "verified": true
+    },
+    {
+     "title": "Why Do They Rock So Hard?",
+     "artist": "Reel Big Fish",
+     "year": "1998",
+     "mbid": "f7199dad-066e-3ef8-9ed9-aa86e4865f17",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/f7199dad-066e-3ef8-9ed9-aa86e4865f17",
      "type": "Album",
      "source": "https://en.wikipedia.org/wiki/Moshing",
      "verified": true
@@ -69212,7 +69695,7 @@
      "description": "Toxic Holocaust live in Chicago, 2011"
     }
    ],
-   "movie_ready": false,
+   "movie_ready": true,
    "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": [
@@ -70513,9 +70996,8 @@
     "linedance"
    ],
    "related": [
-    "Contra dance",
-    "Chorus line",
-    "Haka"
+    "Haka",
+    "Chorus line"
    ],
    "sources": [
     "https://en.wikipedia.org/wiki/Line_dance",
@@ -70551,13 +71033,13 @@
    "publish_gate": "publish",
    "_is_sacred": false,
    "is_sacred": false,
-   "updated_at": "2026-11-03",
+   "updated_at": "2026-11-12",
    "origin": "pipeline",
    "research_gate": "publish",
-   "qc_score": 10.0,
-   "last_researched_at": "2026-11-03T17:36:21Z",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-11-12T18:23:44Z",
    "pipeline_version": "v3.3",
-   "profile_long": "Line dance is defined by its spatial organization: dancers arrange themselves in one or more parallel lines or rows, all facing the same direction, or occasionally facing each other in a contra-style formation. The fundamental characteristic of the dance is the absence of physical contact between participants, distinguishing it from traditional partner or circle dances. Each specific dance is a choreographed sequence of steps, often tied to a particular song, which repeats throughout the track. The structure is typically measured in 'walls'—the direction the dancer faces at the end of a sequence. A one-wall dance returns the dancer to the starting orientation, while two-wall and four-wall dances require turns of 180 or 90 degrees, respectively, to reset the frame of reference for the next iteration.\n\nThe history of line dance is complex, with roots tracing back to European folk dances brought to North America in the 1800s. By the 1900s, these elements were integrated into American physical education and social dance. The 1950s and 1960s saw the emergence of specific novelty dances like the 1957 'Madison' in Columbus, Ohio, and the 1961 'San Francisco Stomp'. The 1970s disco era significantly expanded the genre, introducing the 'L.A. Hustle' and the 'Bus Stop'. Ric Silver’s 1976 choreography for the 'Electric Slide', set to Marcia Griffiths' 'Electric Boogie', remains one of the most enduring examples of the form. The 1977 film 'Saturday Night Fever' further cemented the popularity of disco-era line dancing.\n\nIn the 1980s and 1990s, the genre became heavily associated with country-western culture, fueled by the film 'Urban Cowboy' and the mainstream success of songs like Billy Ray Cyrus' 'Achy Breaky Heart' (1992) and the 'Boot Scootin' Boogie'. However, the practice has never been limited to country music. Choreographers like Max Perry and Jo Thompson Szymanski began incorporating ballroom techniques and rhythms, leading to the adoption of techno, pop, and Latin music. By the late 1990s, line dancing had achieved international reach, supported by the expansion of Country Music Television into Europe and the global popularity of dances like the 'Macarena'.\n\nTechnically, line dances are often categorized by their relationship to other dance styles, such as 'Rise & Fall' (waltz), 'Smooth' (tango, hustle), 'Cuban' (cha-cha-cha, rumba), and 'Lilt' (polka, jive). Choreographies are frequently documented in 'step sheets', which detail the footwork and timing. While beginners may start with a repertoire of 10 to 20 dances, advanced practitioners often master hundreds. The practice is now a recognized recreational sport in many countries, with formal examinations and competitions, and is widely taught in social clubs, dance studios, and community centers, emphasizing accessibility as no partner is required.",
+   "profile_long": "Line dance is a structured, choreographed form of movement where participants perform identical sequences of steps while arranged in parallel rows or lines. Unlike traditional partner dances, line dancers maintain no physical contact with one another, allowing the practice to be performed individually within a collective setting. The dance is defined by its repeatable nature; a specific sequence of steps is usually tied to a particular song, and these sequences are performed in cycles. Dancers typically face the same direction, though variations exist where lines face each other or change orientation throughout the dance. \n\nThe development of modern line dance is primarily associated with the 20th century, drawing from a blend of folk traditions, show dance, and the influence of American television programs like 'American Bandstand'. While its roots are often linked to 19th-century European folk dances brought to North America, the 1970s disco era and the 1980s country-western boom were pivotal in establishing its current global popularity. The 1977 film 'Saturday Night Fever' and the 1992 hit 'Achy Breaky Heart' are frequently cited as catalysts that brought the form into the mainstream. \n\nTechnically, line dances are categorized by the number of 'walls'—the directions a dancer faces at the end of a sequence. A one-wall dance returns the dancer to the starting orientation, while two-wall and four-wall dances involve turns of 180 or 90 degrees, respectively. Choreographies are often documented in 'step sheets' that detail the footwork, counts, and directional changes. While historically tied to country-western music, the genre has expanded to include pop, techno, Latin, and big band music, making it a versatile social activity practiced in clubs, ballrooms, and community centers worldwide.",
    "albums": [
     {
      "title": "Electric Boogie",
@@ -72521,21 +73003,21 @@
    "country": "Belgium, Netherlands",
    "country_code": "BE",
    "region": "Europe",
-   "family": null,
+   "family": "street-urban",
    "flag_emoji": "🇧🇪",
    "era": "Late 1990s to present",
-   "tagline": "Energetic European electronic dance and music style with fast kicks and jumps",
-   "profile": "Jumpstyle is an electronic dance music genre and dance style originating in Belgium and the Netherlands in the late 1990s. The music features 140–160 BPM tempos with four-on-the-floor 909 kick drums and melodic hardstyle influences. The dance, called jumpen, emphasizes energetic jumps, fast kicks, and rotational footwork, performed mainly with stiff upper bodies and expressive leg movements. Variants include oldschool, hardjump, ownstyle, and freestyle, with competitions often held online and in Europe.",
-   "insight": "In 2007, Scooter's album 'Jumping All Over the World' topped the UK charts, spotlighting jumpstyle internationally.",
+   "tagline": "A high-energy European electronic dance style defined by rhythmic kicks and jumps.",
+   "profile": "Jumpstyle is an electronic dance music genre and associated dance form that emerged in Belgium and the Netherlands during the late 1990s. Characterized by tempos between 140 and 160 BPM, the dance—known as jumpen—focuses on rapid leg movements, kicks, and rotational footwork while maintaining a relatively stiff upper body. The style evolved through various regional iterations, including oldschool, hardjump, and the globally popular ownstyle.",
+   "insight": "In 2008, nearly 8,000 jumpers gathered in Biddinghuizen, Netherlands, marking the largest jumpstyle meeting in history.",
    "aliases": [
+    "jumpen",
     "jump style"
    ],
    "related": [
-    "gabber",
     "hardstyle",
-    "tech-trance",
-    "makina",
-    "yabujin-core"
+    "gabber",
+    "hakken",
+    "tecktonik"
    ],
    "sources": [
     "https://en.wikipedia.org/wiki/Jumpstyle",
@@ -72583,51 +73065,36 @@
    "lng": null,
    "tier": "content_ready",
    "publish_gate": "publish",
-   "_is_sacred": true,
-   "is_sacred": true,
-   "updated_at": "2026-11-04",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-12",
    "origin": "pipeline",
    "research_gate": "publish",
-   "qc_score": 9.25,
-   "last_researched_at": "2026-11-04T18:00:46Z",
+   "qc_score": 9.1,
+   "last_researched_at": "2026-11-12T18:06:43Z",
    "pipeline_version": "v3.3",
-   "profile_long": "Jumpstyle emerged in Western Europe, particularly Belgium and the Netherlands, in the late 1990s as a subgenre of electronic dance music within the broader hard dance scene. Early influences include Chicago hard house and rave styles, with Belgian artists like Da Boy Tommy popularizing the term around 1997–1998. The genre developed through the early 2000s in Germany and the Netherlands, reaching a commercial peak between 2006 and 2008. Notable musical acts such as Jeckyll & Hyde and Scooter brought jumpstyle to international attention, with Scooter's 2007 album 'Jumping All Over the World' reaching number one on the UK Albums Chart. The music typically features tempos from 140 to 160 BPM, a four-on-the-floor 909 kick drum rhythm, and melodic elements from hardstyle, including pitched basslines and square wave synthesizers.\n\nThe dance style, known as jumpen, involves energetic jumps, fast kicks, and rotational footwork synchronized to the music's rhythm. Dancers maintain a relatively stiff upper body, focusing expressive movement in the legs. Several stylistic variants exist: oldschool features simple, fast steps; hardjump introduces six-touch basic steps with a faster tempo; sidejump emphasizes rotations and speed but is less popular; hardfreestyle blends hardjump and sidejump elements; ownstyle, originating in Poland around 2007–2009, is the most popular and innovative variant, incorporating influences from hip-hop and ballet with complex transitions and spins. Tekstyle is a less common style with high kicks and a distinct rhythm.\n\nJumpstyle dance is performed solo or in groups, with formations such as duo-jump (side-by-side synchronized steps) and duo-kick (facing each other, tapping feet). Group jumps and freestyle sessions are common, with competitions held online and in venues across Europe and Russia. Online communities and social media platforms like TikTok have helped sustain and revive jumpstyle, including the emergence of the microgenre yabujin-core pioneered by Lithuanian rapper Yabujin.\n\nCostumes are typically casual streetwear suitable for energetic movement, with no sacred or restricted elements. Events and clubs in Belgium and other European countries regularly host jumpstyle parties and competitions. Notable figures include Patrick Jumpen, Scot, and Jagr, who have contributed to the dance's popularity through performances and online tutorials. Jumpstyle shares lineage with gabber, hardstyle, and techno hardcore, and its dance style is sometimes compared to the Dutch hakken dance but with more aerial jumps and kicks. Despite a decline in mainstream popularity after the 2000s, jumpstyle remains a living tradition with active communities worldwide.",
+   "profile_long": "Jumpstyle originated in the late 1990s within the European hard dance scene, specifically developing in Belgium around 1997–1998. Early pioneers like Da Boy Tommy helped define the genre, which initially drew from tech-trance, hardstyle, and gabber. By the mid-2000s, the style achieved commercial prominence across Europe, supported by artists such as Patrick Jumpen and the German rave band Scooter, whose 2007 album 'Jumping All Over the World' reached the top of the UK charts. The music is defined by a four-on-the-floor 909 kick drum, often featuring distorted basslines and synthesizers with square waveforms.\n\nThe dance, known as jumpen, is a solitary or group activity where the primary expression is located in the legs. Dancers perform energetic jumps and kicks in time with the music, typically keeping the torso stable. As the style matured, it branched into several variants: oldschool, which utilizes basic, fast footwork; hardjump, which introduced new transitions and a six-touch base; and ownstyle, which emerged around 2007–2009 in Poland and incorporates elements from hip-hop and ballet. Sidejump and hardfreestyle also emerged as experimental phases, though ownstyle remains the most widely practiced today.\n\nWhile the commercial peak occurred between 2006 and 2008, the tradition has persisted through online communities and social media. In the 2020s, the style saw a resurgence through the 'Yabujin-core' movement, which utilized jumpstyle-inspired production. Competitions, once held in physical venues like the Urban Dance Fire in Moscow or the European Jump Masters, largely transitioned to online platforms like the World Sidejump League. Today, the dance remains a living tradition, practiced globally by communities who share tutorials and choreography on platforms such as TikTok and Instagram.",
    "albums": [
     {
-     "title": "Jumping All Over the World",
-     "artist": "Scooter",
-     "year": "2008",
-     "mbid": "f6cc4e49-422e-420d-8fe2-236307a05837",
-     "musicbrainz_url": "https://musicbrainz.org/release-group/f6cc4e49-422e-420d-8fe2-236307a05837",
-     "type": "Single",
-     "source": "https://en.wikipedia.org/wiki/Jumpstyle",
-     "verified": true
-    },
-    {
-     "title": "Frozen Flame",
-     "artist": "Jeckyll & Hyde",
-     "year": "2006",
-     "mbid": "87673cf6-b6ae-3782-87bb-42933438c9aa",
-     "musicbrainz_url": "https://musicbrainz.org/release-group/87673cf6-b6ae-3782-87bb-42933438c9aa",
-     "type": "Single",
+     "title": "101% Jumpstylemania",
+     "artist": "Various Artists",
+     "year": "2009",
+     "mbid": "994c0d4e-5bfb-4f0d-a5ca-1e1af4b5e242",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/994c0d4e-5bfb-4f0d-a5ca-1e1af4b5e242",
+     "type": "Album",
      "source": "https://en.wikipedia.org/wiki/Jumpstyle",
      "verified": true
     }
    ],
-   "album_candidates": [
-    {
-     "title": "The Secret",
-     "artist": "Patrick Jumpen",
-     "source": "https://en.wikipedia.org/wiki/Jumpstyle",
-     "verified": false
-    }
-   ],
+   "album_candidates": [],
    "images": [],
-   "needs_eyes_on": true,
    "movie_ready": true,
    "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
-   "related_slugs": []
+   "related_slugs": [
+    "hakken",
+    "tecktonik"
+   ]
   },
   "loure": {
    "slug": "loure",
@@ -72850,20 +73317,19 @@
    "country": "Japan",
    "country_code": "JP",
    "region": "East Asia",
-   "family": "folk-circle",
+   "family": "street-urban",
    "flag_emoji": "🇯🇵",
    "era": "1980s–present",
-   "tagline": "Synchronized Japanese dance with choreographed arm movements to Eurobeat music",
-   "profile": "Para Para is a Japanese synchronized group dance featuring choreographed upper body movements to Eurobeat music, with minimal footwork. Each song has a specific routine, learned and performed in clubs and communities worldwide. The dance evolved through four popularity booms since the 1980s, with official and 'maniac' routines created by club-affiliated choreographers. Variants include TechPara and TraPara, danced to techno and trance music respectively.",
-   "insight": "In 1999, Takuya Kimura's TV dance to 'Night of Fire' sparked Para Para's third boom, spreading its popularity beyond Japan.",
+   "tagline": "Synchronized Japanese group dance featuring choreographed arm movements to Eurobeat.",
+   "profile": "Para Para is a synchronized group dance originating in Japanese clubs during the 1980s, characterized by intricate upper-body choreography performed to high-tempo Eurobeat music. Unlike improvisational club styles, each song features a specific, pre-choreographed routine that dancers learn and perform in unison. The dance has evolved through four distinct popularity 'booms,' with routines historically categorized as 'official' (club-sanctioned) or 'maniac' (independent). While footwork remains minimal, the dance relies on precise hand and arm gestures, often compared to the rhythmic patterns of traditional festival dances.",
+   "insight": "In 1999, Takuya Kimura’s performance of 'Night of Fire' on the TV show SMAPxSMAP triggered the third Para Para boom, turning a niche club routine into a nationwide Japanese phenomenon.",
    "aliases": [
-    "Para-Para",
     "ParaPara"
    ],
    "related": [
+    "Bon Odori",
     "TechPara",
-    "TraPara",
-    "Bon Odori"
+    "TraPara"
    ],
    "sources": [
     "https://en.wikipedia.org/wiki/Para_Para",
@@ -72913,41 +73379,28 @@
    "publish_gate": "publish",
    "_is_sacred": false,
    "is_sacred": false,
-   "updated_at": "2026-11-04",
+   "updated_at": "2026-11-12",
    "origin": "pipeline",
    "research_gate": "publish",
-   "qc_score": 10.0,
-   "last_researched_at": "2026-11-04T18:21:56Z",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-11-12T18:07:03Z",
    "pipeline_version": "v3.3",
-   "profile_long": "Para Para is a synchronized dance that originated in Japan in the early 1980s, characterized by choreographed arm and hand movements performed in unison to Eurobeat music, a fast-paced electronic genre with roots in Italo disco and Euro disco. Unlike typical club or rave dances, Para Para features specific routines for each song, similar to line dancing, with dancers stepping side to side and moving hips but with limited lower body movement. The dance's name is believed to derive from the onomatopoeic sound of hand movements matching the music's beat.\n\nThe dance likely developed from two main origins: men choreographing dances in VIP club rooms to impress women, and the Takenoko-zoku youth subculture that danced choreographed routines in Harajuku's Yoyogi Park pedestrian plaza in the late 1970s and early 1980s. Para Para's history is marked by four distinct booms of popularity. The first boom (1987–1992) occurred in high-class discos during Japan's bubble economy, with routines difficult to trace due to scarce recordings. The 'wangan' style emerged around Tokyo Bay clubs circa 1993.\n\nThe second boom (1993–1995) saw many routines originate from popular clubs like Xenon and Twinstar. Avex Trax released one of the first official Para Para videos in 1994, containing 40 routines still used today. The third boom (1999–2001) was catalyzed by Takuya Kimura's televised performance on SMAP×SMAP, popularizing Para Para nationally and internationally. Commercial videos and idol groups like ParaPara Allstars emerged, and 'maniac' unofficial routines appeared.\n\nThe fourth boom (2005–2010) featured aggressive marketing by Avex with DVDs and anime-themed Eurobeat remixes, peaking around 2007–2009. After 2010, commercial releases declined, leading to a glacial period with fewer new dancers and smaller club events. The internet, especially YouTube, became vital for sharing lessons and routines.\n\nPara Para is danced mainly to Eurobeat but also has variants like TechPara (hyper techno) and TraPara (trance). Official routines are choreographed by groups affiliated with clubs such as Starfire, SEF, and Twinstar, while 'maniac' routines are unofficial and less common today. The dance community is global, with active groups in Japan, Chile, Brazil, Spain, the US, Canada, Taiwan, Hong Kong, and Finland.\n\nClub events typically start with less danceable music before moving to Eurobeat, with lessons teaching new routines. Club videos, once rare and coveted, have become more accessible online. Notable clubs include Twin Star, Velfarre, and Maharaja in Tokyo. Para Para's cultural significance includes its connection to Japanese youth subcultures, club scenes, and international otaku communities.",
+   "profile_long": "Para Para is a synchronized dance style that emerged in Japan during the early 1980s, finding its home in high-class discos and pedestrian plazas. The dance is defined by its reliance on specific, pre-choreographed routines for individual songs, requiring participants to move in unison, similar to line dancing. While its exact origins remain a subject of debate, historians point to two primary theories: men in club VIP rooms choreographing movements to impress female clientele, or the influence of the Takenoko-zoku subculture, who gathered in Harajuku’s Yoyogi Park to dance to disco hits. The term itself is thought to be onomatopoeic, mimicking the rhythmic hand movements that accompany the music.\n\nThroughout its history, Para Para has experienced four distinct 'booms' of popularity. The first, occurring between 1987 and 1992, saw the dance take root in bubble-era clubs like Maharaja. The second boom (1993–1995) solidified the dance's structure, with the release of the first officially licensed instructional video, 'ParaPara Kyōten 0.' The third boom (1999–2001) marked the dance's peak as a sociological phenomenon, driven by television exposure and the rise of commercial instructional videos. A fourth boom (2005–2010) saw the integration of anime-themed music, or 'Ani-Para,' before the scene entered a 'glacial' period of reduced commercial activity and club attendance.\n\nTechnically, Para Para is an upper-body-dominant dance. Dancers perform complex sequences of hand and arm gestures while maintaining a four-on-the-floor rhythm. Footwork is generally limited to simple side-to-side steps, rhythmic walking in place, or occasional hops. The music is almost exclusively Eurobeat—a high-tempo, electronic genre derived from 1970s Italo disco and Hi-NRG. Because each song has a unique, fixed routine, the community places high value on learning these sequences through club lessons or instructional videos. \n\nToday, the scene is sustained by a dedicated community of 'paralists' who maintain the tradition through remaining official club events like SEF and Starfire, as well as online archives. While the era of mass-market commercial videos has passed, the dance persists as a global subculture, with practitioners in countries including Brazil, Taiwan, and the United States. The practice remains a social, highly structured performance where the goal is perfect synchronization with the group and the specific choreography of the track.",
    "albums": [
     {
-     "title": "Night of Fire",
-     "artist": "Niko",
-     "year": "1997",
-     "mbid": "79049188-a56b-4333-a56a-343c32516cb2",
-     "musicbrainz_url": "https://musicbrainz.org/release-group/79049188-a56b-4333-a56a-343c32516cb2",
-     "type": "EP",
+     "title": "Super Eurobeat vol.151",
+     "artist": "Various Artists",
+     "year": "2004",
+     "mbid": "d9bfd3bf-57ad-4979-ba37-b4b4bcd2a3a6",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/d9bfd3bf-57ad-4979-ba37-b4b4bcd2a3a6",
+     "type": null,
      "source": "https://en.wikipedia.org/wiki/Para_Para",
      "verified": true
     }
    ],
-   "album_candidates": [
-    {
-     "title": "Super Eurobeat Vol. 40-80",
-     "artist": "Various",
-     "source": "https://en.wikipedia.org/wiki/Para_Para",
-     "verified": false
-    },
-    {
-     "title": "ParaPara Kyōten 0",
-     "artist": "Various",
-     "source": "https://en.wikipedia.org/wiki/Para_Para",
-     "verified": false
-    }
-   ],
+   "album_candidates": [],
    "images": [],
-   "movie_ready": true,
+   "movie_ready": false,
    "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
    "tutorials": [
@@ -82240,8 +82693,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Pukllay",
    "wikidata_qid": "Q115203595",
    "unesco": true,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "TNB-QHremRU",
+   "video_stack": [
+    {
+     "youtube_id": "TNB-QHremRU",
+     "role": "hero",
+     "title": "Torollay Pukllay - Ancash - Virgen del Carmen (El Huaraquero 2018 - Tusuyninchis Llaqta)",
+     "channel": "Ayni Peru",
+     "hd": true
+    },
+    {
+     "youtube_id": "ulkhicVRJ3A",
+     "role": "rendition",
+     "title": "DANZA PUJLLAY Festival Departamental de Educación Alternativa S.C.",
+     "channel": "LA PIZARRITA",
+     "hd": true
+    },
+    {
+     "youtube_id": "ccCqUk2jGes",
+     "role": "rendition",
+     "title": "CCATCCA PUKLLAY TINKUY CARNAVAL Primer Lugar Festival TINAJANI 2024",
+     "channel": "Cultura CUSCO Vlogs",
+     "hd": true
+    },
+    {
+     "youtube_id": "5JAa1XSYgNE",
+     "role": "rendition",
+     "title": "Carnaval de Oruro: Pukllay traditional Bolivian dancing - Phujllay Oruro Carnival (HD long version)",
+     "channel": "Trans-Americas Journey",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -82286,6 +82768,7 @@
    "sacred_note": "Pukllay is an indigenous Yampara ritual offering to ancestors, nature deities, and the ambivalent fertile spirit Tata Pujllay, centered on the construction of the sacred pucara altar. Outsiders should approach the ceremony with deep reverence, respecting sacred spaces, offerings, and communal protocols.",
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "syabru-dance": {
@@ -82313,8 +82796,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Syabru_(dance)",
    "wikidata_qid": "Q114552797",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "PduimfjXF3U",
+   "video_stack": [
+    {
+     "youtube_id": "PduimfjXF3U",
+     "role": "hero",
+     "title": "Syabru Dance |  Rotary Club Of Bouddha  | Sherpa Culture",
+     "channel": "Tashi Television",
+     "hd": true
+    },
+    {
+     "youtube_id": "ySn8wMDHvuM",
+     "role": "rendition",
+     "title": "Syabru dance by Himalayan Sherpa Culture Center | Gyalpo Losar 2147 | Tashi Television | Thalo Lemo",
+     "channel": "Tashi Television",
+     "hd": true
+    },
+    {
+     "youtube_id": "yCnOfXWeJPU",
+     "role": "rendition",
+     "title": "SYABRU DANCE- Dance Performance by the Students of Eden Garden English School",
+     "channel": "Eden Garden English School",
+     "hd": true
+    },
+    {
+     "youtube_id": "ZOtacr9gd7M",
+     "role": "rendition",
+     "title": "Syabru nach Rasuwa (syar dinchen) cultural dance from nepal",
+     "channel": "Jambuling Films",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -82357,6 +82869,7 @@
    ],
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "apanomeritis": {
@@ -82434,8 +82947,23 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Paiki_dance",
    "wikidata_qid": "Q114352383",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "9rnS3Gpd8Jk",
+   "video_stack": [
+    {
+     "youtube_id": "9rnS3Gpd8Jk",
+     "role": "hero",
+     "title": "Paika Dance at Konark Festival 2017",
+     "channel": "Odisha Links",
+     "hd": true
+    },
+    {
+     "youtube_id": "OhP90rfM3nk",
+     "role": "rendition",
+     "title": "Paika War Dance | Khorda Paika Akhada | TEDxXIMB",
+     "channel": "TEDx Talks",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -82468,6 +82996,7 @@
    "needs_eyes_on": true,
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "ghatu-dance": {
@@ -82499,8 +83028,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Ghatu_(dance)",
    "wikidata_qid": "Q113541813",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "U1vVfPUoLkI",
+   "video_stack": [
+    {
+     "youtube_id": "U1vVfPUoLkI",
+     "role": "hero",
+     "title": "Ghatu Nepali Folk Dance 'Daya Sari Biruwa Ta'. 208th BHANU JAYANTI, Aizawl, Mizoram",
+     "channel": "Nritya kala",
+     "hd": true
+    },
+    {
+     "youtube_id": "me864YsaUqE",
+     "role": "rendition",
+     "title": "Ghatu Dance || Team RG || Dulegaunda Tanahun || Gurung Culture || June 15, 2024 ||",
+     "channel": "Team RG",
+     "hd": true
+    },
+    {
+     "youtube_id": "8slPSo5hme0",
+     "role": "rendition",
+     "title": "1950´S ghatu nach sikles village.सन् १९५० साल तिरको घाँटु नाच सिक्लेस गाउँ",
+     "channel": "Kromchai gurung",
+     "hd": true
+    },
+    {
+     "youtube_id": "d0vzpAcmeBs",
+     "role": "rendition",
+     "title": "Ghatu dance MAGAR",
+     "channel": "Shabita “Nana” Rana Magar",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -82545,6 +83103,7 @@
    "sacred_note": "The dance involves a trance state and is subject to strict seasonal restrictions, with performance prohibited outside of specific ritual windows.",
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": [
     "maruni"
    ]
@@ -82621,8 +83180,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Sakhiya_dance",
    "wikidata_qid": "Q115152426",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "TldQMocBMNA",
+   "video_stack": [
+    {
+     "youtube_id": "TldQMocBMNA",
+     "role": "hero",
+     "title": "Sakhiya Dance",
+     "channel": "Jazz Kaur",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -82656,6 +83223,7 @@
    "sacred_note": "The dance is performed as a ritual to ward off evil spirits and is held in the courtyard of the village headsman.",
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "tebe-dance": {
@@ -82687,8 +83255,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Tebe_dance",
    "wikidata_qid": "Q112061601",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "0mYBp-YxfOc",
+   "video_stack": [
+    {
+     "youtube_id": "0mYBp-YxfOc",
+     "role": "hero",
+     "title": "Wehali Timor Leste dansa musica tebe dahur no haksolok",
+     "channel": "Wewiku Wehali Cultural Association",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -82797,6 +83373,7 @@
    ],
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": [
     "rejang-dance"
    ]
@@ -82829,8 +83406,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Tarraxinha",
    "wikidata_qid": "Q110241185",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "VgTzMiiBKSo",
+   "video_stack": [
+    {
+     "youtube_id": "VgTzMiiBKSo",
+     "role": "hero",
+     "title": "TARRAXA AND TARRAXO Basics Tutorial - Gwany & Liliana",
+     "channel": "Online Kizomba School",
+     "hd": true
+    },
+    {
+     "youtube_id": "ZrlZabtuS_g",
+     "role": "rendition",
+     "title": "Tarraxinha Dennis Beijinho & Laho",
+     "channel": "kiz saudade",
+     "hd": true
+    },
+    {
+     "youtube_id": "i9z9iamBvCY",
+     "role": "rendition",
+     "title": "Sophie Fox and Lucero Huitron tarraxinha and body movement,  sensual dance kizomba",
+     "channel": "Lucero Huitrón",
+     "hd": true
+    },
+    {
+     "youtube_id": "eov_AJdAkH0",
+     "role": "rendition",
+     "title": "Audi & Laura - Tarraxo demo at Kiz Break Festival",
+     "channel": "Audi & Laura Kizomba",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -82850,6 +83456,23 @@
    "images": [],
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
+   "tutorials": [
+    {
+     "youtube_id": "qtqs3Oni5yM",
+     "title": "Unisex-Tarraxa Isolations/ Body Moves: Full Choreo Tutorial by Val Danza",
+     "channel": "Val Danza",
+     "level": "general",
+     "pos": 3,
+     "neg": 0,
+     "ratio": 3.0,
+     "evidence": [
+      "I can not believe I have attended the class of this amazing instructor by accident while walking around karl juhans gate. Love love the way she teaches.",
+      "It is such a helpful n well explained video.  Thank you so much."
+     ],
+     "lesson_status": "in_review"
+    }
+   ],
    "related_slugs": [
     "kizomba",
     "urban-kiz"
@@ -83013,8 +83636,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Firkal",
    "wikidata_qid": "Q111915738",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "0JCWeR4AlQs",
+   "video_stack": [
+    {
+     "youtube_id": "0JCWeR4AlQs",
+     "role": "hero",
+     "title": "Firkal Dance by bhumij tribal at Jarkhand state ||750JAISEVANEWS",
+     "channel": "750JAI SEVA NEWS",
+     "hd": true
+    },
+    {
+     "youtube_id": "shq6XD3hRWQ",
+     "role": "rendition",
+     "title": "Lupung Sports Firkal Anej 2026 || Aadi Khatarnak Dance || Sainik Santal Vlog ",
+     "channel": "SAINIK SANTAL VLOG (SSV)",
+     "hd": true
+    },
+    {
+     "youtube_id": "LXd3hB4mOEg",
+     "role": "rendition",
+     "title": "NEW BHUMIJ VIDEO || FIRKAL DANCE BY BHUMIJ TRIBE || AT- DUMKAKOCHA, NARSINGHPUR || BHUMIJ KILI KUPUL",
+     "channel": "BHUMIJ KILI KUPUL",
+     "hd": true
+    },
+    {
+     "youtube_id": "qsAp7bwMA-E",
+     "role": "rendition",
+     "title": "Firkal Enej 2026 ll Lupung Sport 2026 ll Full Video ll ",
+     "channel": "Jogeswar Dada Official",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -83046,6 +83698,7 @@
    ],
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "bibasis": {
@@ -83142,8 +83795,30 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Redowa",
    "wikidata_qid": "Q3422966",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "tIZozQKadkw",
+   "video_stack": [
+    {
+     "youtube_id": "tIZozQKadkw",
+     "role": "hero",
+     "title": "Redowa and Mazurka Waltzes",
+     "channel": "Richard Powers",
+     "hd": false
+    },
+    {
+     "youtube_id": "fzSRDv3f0-8",
+     "role": "rendition",
+     "title": "Stanford at Spoleto Festival: Winner's Redowa",
+     "channel": "Jason Anderson",
+     "hd": true
+    },
+    {
+     "youtube_id": "s6Mqd0HhTJo",
+     "role": "rendition",
+     "title": "How to do a Redowa step",
+     "channel": "Dance Fitness with Anna Botelho",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -83193,6 +83868,7 @@
    ],
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": [
     "waltz",
     "mazurka",
@@ -83264,8 +83940,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Nagila",
    "wikidata_qid": "Q94440683",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "cR1kloYoPjs",
+   "video_stack": [
+    {
+     "youtube_id": "cR1kloYoPjs",
+     "role": "hero",
+     "title": "HAVA NAGILA Jewish Punjabi Israel India Dance - Downtown Bhangra Vancouver",
+     "channel": "Ray Van Eng",
+     "hd": true
+    },
+    {
+     "youtube_id": "FRj4MarWjIE",
+     "role": "rendition",
+     "title": "SOFIYA FADEEVA | HAVA NAGILA | The Voice Kids of Uzbekistan 🌟",
+     "channel": "София Фадеева",
+     "hd": false
+    },
+    {
+     "youtube_id": "v4hS0UAIYWI",
+     "role": "rendition",
+     "title": "Dance along with us as we celebrate Israel's 75th! - Hava Nagila",
+     "channel": "ONE FOR ISRAEL Ministry",
+     "hd": true
+    },
+    {
+     "youtube_id": "HoQVii31BSY",
+     "role": "rendition",
+     "title": "Aly Raisman's Floor Routine at London 2012 to Hava Nagila | Music Monday",
+     "channel": "Olympic Games",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -83285,6 +83990,7 @@
    "images": [],
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "parachico": {
@@ -83312,8 +84018,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Parachico",
    "wikidata_qid": "Q3363182",
    "unesco": true,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "7SDNKbFCZ84",
+   "video_stack": [
+    {
+     "youtube_id": "7SDNKbFCZ84",
+     "role": "hero",
+     "title": "DANZA PARACHICOS... CHIAPAS CON EXPLENDOR",
+     "channel": "TEACHER TV",
+     "hd": true
+    },
+    {
+     "youtube_id": "dDTY9ZyaLzo",
+     "role": "rendition",
+     "title": "Bailando con PARACHICOS Chiapa de Corzo 2022🔥",
+     "channel": "Terma Travesura",
+     "hd": true
+    },
+    {
+     "youtube_id": "JWMaO4isSC8",
+     "role": "rendition",
+     "title": "Danza de los Parachicos, Turismo Cultural INAH.",
+     "channel": "INAH TV",
+     "hd": false
+    },
+    {
+     "youtube_id": "VH4CGr_oOQI",
+     "role": "rendition",
+     "title": "Los parachicos (con #PasosBásicos) Baile folcklorico del estado de Chiapas, México",
+     "channel": "Gis y Borrador",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -83391,6 +84126,7 @@
    "sacred_note": "The dance is a ritual offering to patron saints and involves visiting churches and homes to touch and pray to saint images.",
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "tipri-dance": {
@@ -83418,8 +84154,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Tipri_dance_(Punjab)",
    "wikidata_qid": "Q85809800",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "iBgHjDXDBxs",
+   "video_stack": [
+    {
+     "youtube_id": "iBgHjDXDBxs",
+     "role": "hero",
+     "title": "Jalwa tera jalwa | school girls tipri dance | deshbhakti song | republic day | independence day",
+     "channel": "Mankare Unlocked",
+     "hd": true
+    },
+    {
+     "youtube_id": "Ves9i6PAqNk",
+     "role": "rendition",
+     "title": "Tipri Dance | Dandiya Song || Odh ke andhera main to piya se milan gayi",
+     "channel": "AMOL VAIDYA",
+     "hd": true
+    },
+    {
+     "youtube_id": "JxWtjmvvKVU",
+     "role": "rendition",
+     "title": "कोकणातला टिपरी नाच 😍 | पारंपरिक फुगडी | Konkan Tipari Nach | Traditional Tipri Dance",
+     "channel": "कोकण संस्कृती",
+     "hd": true
+    },
+    {
+     "youtube_id": "VWmm8uhe6-E",
+     "role": "rendition",
+     "title": "Tipri Dance |Dandiya Song || Dil ki patang dekho Udi udi jaye",
+     "channel": "AMOL VAIDYA",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -83439,6 +84204,7 @@
    "images": [],
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "nepalese-dance": {
@@ -83464,8 +84230,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Dance_in_Nepal",
    "wikidata_qid": "Q96375917",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "A59oeV9eX08",
+   "video_stack": [
+    {
+     "youtube_id": "A59oeV9eX08",
+     "role": "hero",
+     "title": "Carnival of Cultures Berlin 2026 • Group 51 (Nepal) Full Dance Compilation",
+     "channel": "In and Around",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -83576,7 +84350,902 @@
    "sacred_note": "Certain dances, such as the Gathu Pyakhan and Kumha Pyakhan, are sacred and restricted; outsiders should respect local customs and restrictions regarding their performance.",
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_weak",
    "related_slugs": []
+  },
+  "poco-poco": {
+   "slug": "poco-poco",
+   "name": "Poco-poco",
+   "country": "Indonesia",
+   "country_code": "ID",
+   "region": "Southeast Asia",
+   "family": "folk-circle",
+   "flag_emoji": "🇮🇩",
+   "era": "20th century",
+   "tagline": "A rhythmic Indonesian line dance performed in four directions.",
+   "profile": "Poco-poco is a popular Indonesian line dance characterized by its repetitive, structured movements performed in four directions. Originating from the North Maluku region, it evolved from a local family tradition into a national phenomenon used in military exercises, morning gymnastics, and public celebrations. Dancers form grids of lines and columns, executing synchronized steps that mimic traditional agricultural tasks. The dance is set to a 4/4 rhythm, often accompanied by Malay-influenced music featuring electric organs or percussion.",
+   "insight": "In 1998, Indonesian riot police used the Poco-poco melody to calm protesting students, turning a tense political standoff into a synchronized dance between demonstrators and the authorities.",
+   "aliases": [
+    "Poco poco",
+    "Poco poco dance",
+    "Ambonese folk dance",
+    "Ambonese rhythmic dance"
+   ],
+   "related": [
+    "Cakalele",
+    "Jaipong"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Poco-poco",
+    "https://www.wikidata.org/wiki/Q3392977",
+    "https://fr.wikipedia.org/wiki/Poco-poco",
+    "https://pt.wikipedia.org/wiki/Poco-poco"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Poco-poco",
+   "wikidata_qid": "Q3392977",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-12",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.25,
+   "last_researched_at": "2026-11-12T17:47:00Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Poco-poco is a widely practiced line dance originating from the North Maluku province of Indonesia. While its exact origins remain a subject of debate—with competing claims from Manado in North Sulawesi and even international claims from the Philippines—the dance is firmly rooted in the cultural landscape of the Maluku Islands. It emerged as a communal activity for families and relatives before gaining national prominence in the late 1990s. The dance is defined by its geometric precision, with participants arranging themselves in rows and columns to move in unison toward the four cardinal directions. The movements are rhythmic and structured, often incorporating swaying, shaking, and specific arm gestures that reflect traditional Austronesian dance styles. These movements are said to be inspired by daily agricultural labor, such as harvesting cloves, planting rice, and husking coconuts. The music accompanying the dance is typically Malay-influenced, characterized by a 4/4 time signature and the use of percussion instruments, accordions, or electric organs. The song 'Poco-poco,' composed by Arie Sapulette and popularized by singer Yopie Latul, serves as the definitive soundtrack. Since its rise to national fame, the dance has been integrated into various social and institutional contexts, including weddings, military training exercises, and national gymnastics competitions. Its versatility allows it to be performed to various musical genres, such as dangdut or cha-cha-cha, and it has been adapted regionally, incorporating elements like Papuan archery motions or Sundanese Jaipong steps. The dance remains a symbol of Indonesian social cohesion, used in both celebratory and unexpected public settings.",
+   "albums": [],
+   "album_candidates": [
+    {
+     "title": "Poco-poco",
+     "artist": "Yopie Latul",
+     "source": "https://en.wikipedia.org/wiki/Poco-poco",
+     "verified": false
+    }
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Bali-Danse_0710a.jpg/1280px-Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3504,
+     "height": 2336,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+     "description": "bali ubud danseur"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tari_Lengger.jpg/1280px-Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3704,
+     "height": 2479,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Haridi123 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Lengger.jpg",
+     "description": "kesenian khas kabupaten wonosobo salah satunya adalah Tari lengger. kesenian ini hampir dimainkan di dalam berbagai acara budaya di setiap daerah di Wonosobo"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Seni_Tari_Piring.jpg/1280px-Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3648,
+     "height": 2432,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASeni_Tari_Piring.jpg",
+     "description": "Seni Tari Piring"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg/1280px-Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 6000,
+     "height": 4000,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASendratari_gandrung_sewu_banyuwangi.jpg",
+     "description": "Tari Gandrung sendiri merupakan tarian khas Banyuwangi yang telah ditetapkan sebagai Warisan Budaya Tak Benda Indonesia. Disebut Gandrung Sewu karena dibawakan oleh seribu lebih penari Gandrung. \nEvent ini masuk dalam \"10 Best Calendar of Event Wonderful Indonesia\" Kemenpar. Artinya, Gandrung Sewu dinilai layak menjadi satu dari 10 terbaik atraksi wisata Indonesia.\nPada saat ini Gandrung Sewu suda"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Tari_Saman_di_TMII.jpg/1280px-Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3000,
+     "height": 2000,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Herusutimbul / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Saman_di_TMII.jpg",
+     "description": "Tari Saman yg merupakan Tari dari daerah Aceh diperagakan pelajar Jakarta dalam peringatan Ulang tahun TMII"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "cakalele",
+    "jaipongan"
+   ]
+  },
+  "singo-ulung": {
+   "slug": "singo-ulung",
+   "name": "Singo Ulung",
+   "country": "Indonesia",
+   "country_code": "ID",
+   "region": "Southeast Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇮🇩",
+   "era": "20th century",
+   "tagline": "A traditional lion dance from the Bondowoso regency of East Java, Indonesia.",
+   "profile": "Singo Ulung is a traditional dance from Bondowoso, East Java, performed by two dancers inside a lion-shaped costume. It serves as a central ritual for the annual Bersih Desa purification ceremony in Blimbing village. The performance, which also features characters like Panji and warok dancers, is a key cultural marker of the region's history.",
+   "insight": "Created by the first head of Blimbing village, Mbah Singo Wulu, this lion dance uses costumes crafted from decomposed raffia string to honor the village's founding spirit.",
+   "aliases": [
+    "Singa Ulung"
+   ],
+   "related": [
+    "Barongsai",
+    "Sisingaan",
+    "Barong"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Singo_Ulung",
+    "https://www.wikidata.org/wiki/Q3484976",
+    "https://fr.wikipedia.org/wiki/Singo_ulung"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Singo_Ulung",
+   "wikidata_qid": "Q3484976",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-12",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 8.55,
+   "last_researched_at": "2026-11-12T17:47:49Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Singo Ulung originates from the Bondowoso regency in East Java, where it is performed as a traditional art form. The dance was created by a man named Singo Wulu, who arrived in Blimbing village from Ponorogo and eventually became the village's first head. He worked alongside his wife, Nyi Moena, and a man named Ki Jasiman to improve the lives of the local community, leading to the creation of this public performance.\n\nThe dance is performed by two people operating a lion-like costume, known as a barongan. The costume is constructed from raffia string that has been decomposed to resemble fur, typically appearing in white, black and white, or yellow and white. Other performers in the ensemble include characters dressed in the style of Tari Topeng, female dancers in traditional kebaya and sampur, and warok dancers dressed in black with red-white shirts, carrying a whip known as a cemethi.\n\nSingo Ulung is a vital component of the annual Bersih Desa ritual in Blimbing, held during the month of Sya'ban or Ruwah to honor the village's founding spirit and the goddess of rice, Sri. The performance is also featured during the anniversary of the Bondowoso regency on August 16. Today, the dance is preserved by local art galleries and performed at festivals and guest-welcoming events to introduce the public to Bondowoso's cultural heritage.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Bali-Danse_0710a.jpg/1280px-Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3504,
+     "height": 2336,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+     "description": "bali ubud danseur"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/20141115antarafoto-singoulung160711.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/17/20141115antarafoto-singoulung160711.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 600,
+     "height": 400,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Yogie asmi / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3A20141115antarafoto-singoulung160711.jpg",
+     "description": "singo ulung"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tari_Lengger.jpg/1280px-Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3704,
+     "height": 2479,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Haridi123 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Lengger.jpg",
+     "description": "kesenian khas kabupaten wonosobo salah satunya adalah Tari lengger. kesenian ini hampir dimainkan di dalam berbagai acara budaya di setiap daerah di Wonosobo"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Seni_Tari_Piring.jpg/1280px-Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3648,
+     "height": 2432,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASeni_Tari_Piring.jpg",
+     "description": "Seni Tari Piring"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg/1280px-Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 6000,
+     "height": 4000,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASendratari_gandrung_sewu_banyuwangi.jpg",
+     "description": "Tari Gandrung sendiri merupakan tarian khas Banyuwangi yang telah ditetapkan sebagai Warisan Budaya Tak Benda Indonesia. Disebut Gandrung Sewu karena dibawakan oleh seribu lebih penari Gandrung. \nEvent ini masuk dalam \"10 Best Calendar of Event Wonderful Indonesia\" Kemenpar. Artinya, Gandrung Sewu dinilai layak menjadi satu dari 10 terbaik atraksi wisata Indonesia.\nPada saat ini Gandrung Sewu suda"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Tari_Saman_di_TMII.jpg/1280px-Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3000,
+     "height": 2000,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Herusutimbul / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Saman_di_TMII.jpg",
+     "description": "Tari Saman yg merupakan Tari dari daerah Aceh diperagakan pelajar Jakarta dalam peringatan Ulang tahun TMII"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "The dance is a required element of the Bersih Desa ritual ceremony in Blimbing village and is considered a main means that cannot be replaced.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "sisingaan"
+   ]
+  },
+  "mizmar": {
+   "slug": "mizmar",
+   "name": "Mizmar",
+   "country": "Saudi Arabia",
+   "country_code": "SA",
+   "region": "Middle East",
+   "family": "folk-circle",
+   "flag_emoji": "🇸🇦",
+   "era": "20th-21st century",
+   "tagline": "A rhythmic stick-dance of the Hejaz region featuring bamboo canes and drums.",
+   "profile": "The Mizmar is a traditional group performance from the Hejaz region of Saudi Arabia, characterized by the use of long bamboo canes. It involves 15 to 100 male participants who perform in two facing rows during weddings and national events. The dance serves as a vital expression of community identity and historical memory.",
+   "insight": "Despite its name, which refers to a wind instrument, the Mizmar dance is performed exclusively to the sound of drums and rhythmic clapping, with no wind instruments involved.",
+   "aliases": [
+    "Mezmar",
+    "almezmar",
+    "al-mizmar"
+   ],
+   "related": [
+    "tahtib",
+    "Ardah",
+    "Yowlah"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mezmar",
+    "https://www.wikidata.org/wiki/Q12242512",
+    "https://fr.wikipedia.org/wiki/Mezmar"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Mezmar",
+   "wikidata_qid": "Q12242512",
+   "unesco": true,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-12",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.45,
+   "last_researched_at": "2026-11-12T17:48:00Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Mizmar, or Almezmar, is a traditional stick dance rooted in the Hejaz region of western Saudi Arabia. Historically associated with competition and martial practice, the dance has evolved into a celebratory performance central to weddings and national festivities. It is performed by groups ranging from 15 to 100 men, who stand in two facing rows. The participants engage in a call-and-response structure, with row leaders singing verses while the group provides rhythmic accompaniment through drumming and clapping. A signature element of the performance is the manipulation of long bamboo canes, which dancers twirl with precision, sometimes in close proximity to fire or other objects. While the term 'mizmar' typically denotes a wind instrument in the region, the dance itself is strictly percussive, relying on drums and vocal chants. The tradition is passed down through observation and practice within the community, supported by local artisans who craft the necessary drums and bamboo sticks. In 2016, the dance was recognized by UNESCO as an intangible cultural heritage, highlighting its role in fostering social cohesion and preserving the collective identity of the Hejaz people. While women may participate in private settings or contribute to the creation of costumes, public performances are exclusively male.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "tahtib",
+    "ardah",
+    "yowlah"
+   ]
+  },
+  "baksa-kembang": {
+   "slug": "baksa-kembang",
+   "name": "Baksa Kembang",
+   "country": "Indonesia",
+   "country_code": "ID",
+   "region": "Southeast Asia",
+   "family": "classical-court",
+   "flag_emoji": "🇮🇩",
+   "era": "Historical to present",
+   "tagline": "A classical Banjar welcoming dance from South Kalimantan featuring floral offerings.",
+   "profile": "Baksa Kembang is a classical Indonesian dance originating from the Sultanate of Banjar in South Kalimantan. Traditionally performed by an odd number of female dancers, it serves as a formal welcoming ceremony for guests. The performance is characterized by elegant movements that mimic young girls gathering and arranging flowers in a garden.",
+   "insight": "Originally performed exclusively for royalty, this dance requires an odd number of female performers to present hand-arranged bouquets of roses, jasmine, and ylang to guests of honor in South Kalimantan.",
+   "aliases": [],
+   "related": [
+    "Srimpi",
+    "Gambyong",
+    "Gending Sriwijaya"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Baksa_kembang",
+    "https://www.wikidata.org/wiki/Q97240284"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Baksa_kembang",
+   "wikidata_qid": "Q97240284",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-12",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.3,
+   "last_researched_at": "2026-11-12T17:48:24Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Baksa Kembang is a classical dance tradition from South Kalimantan, Indonesia, historically rooted in the royal courts of the Sultanate of Banjar. Originally, it was performed exclusively to welcome royal relatives and guests of honor. As the Sultanate opened access to the public, the dance transitioned into a popular regional cultural practice. Today, it is a staple of welcoming ceremonies, traditional events, and cultural festivals throughout South Kalimantan. The performance is defined by its specific aesthetic requirements, including the use of an odd number of female dancers. The dancers move with grace, embodying the imagery of teenage girls playing in a flower garden. Central to the performance is the act of picking and arranging flowers into 'bogam' bouquets, which are presented to guests at the conclusion of the dance. The dancers' attire is highly specific, featuring a crown known as 'gajah gemuling,' which is decorated with two small bogam flowers and woven young coconut leaves called 'halilipan.' A scarf, or 'selendang,' is used to enhance the elegance of the dancers' movements. While the dance has evolved to include modern creative additions in costume and choreography, it remains a vital expression of South Kalimantan's heritage. The bogam flowers carried by the dancers consist of a specific selection of flora, including roses, jasmine, Magnolia × alba (kantil), and Cananga odorata (ylang).",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Bali-Danse_0710a.jpg/1280px-Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3504,
+     "height": 2336,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+     "description": "bali ubud danseur"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Baksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Baksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_01.jpg/1280px-Baksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2281,
+     "height": 3421,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ABaksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_01.jpg",
+     "description": "A student of the Lambung Mangkurat University performing the Baksa Kembang welcome dance at Aria Barito Hotel, Banjarmasin, on 2018-07-27 as part of the International Conference on the Education of Language, Literature, and Art in the Digital Era"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Baksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Baksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_03.jpg/1280px-Baksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2201,
+     "height": 3301,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ABaksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_03.jpg",
+     "description": "A student of the Lambung Mangkurat University performing the Baksa Kembang welcome dance at Aria Barito Hotel, Banjarmasin, on 2018-07-27 as part of the International Conference on the Education of Language, Literature, and Art in the Digital Era"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Baksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Baksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_02.jpg/1280px-Baksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2281,
+     "height": 3421,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ABaksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_02.jpg",
+     "description": "A student of the Lambung Mangkurat University performing the Baksa Kembang welcome dance at Aria Barito Hotel, Banjarmasin, on 2018-07-27 as part of the International Conference on the Education of Language, Literature, and Art in the Digital Era"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Baksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Baksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_04.jpg/1280px-Baksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2281,
+     "height": 3421,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ABaksa_Kembang_welcome_dance%2C_Aria_Barito_Hotel%2C_Banjarmasin_2018-07-27_04.jpg",
+     "description": "A student of the Lambung Mangkurat University performing the Baksa Kembang welcome dance at Aria Barito Hotel, Banjarmasin, on 2018-07-27 as part of the International Conference on the Education of Language, Literature, and Art in the Digital Era"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tari_Lengger.jpg/1280px-Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3704,
+     "height": 2479,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Haridi123 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Lengger.jpg",
+     "description": "kesenian khas kabupaten wonosobo salah satunya adalah Tari lengger. kesenian ini hampir dimainkan di dalam berbagai acara budaya di setiap daerah di Wonosobo"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Seni_Tari_Piring.jpg/1280px-Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3648,
+     "height": 2432,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASeni_Tari_Piring.jpg",
+     "description": "Seni Tari Piring"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg/1280px-Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 6000,
+     "height": 4000,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASendratari_gandrung_sewu_banyuwangi.jpg",
+     "description": "Tari Gandrung sendiri merupakan tarian khas Banyuwangi yang telah ditetapkan sebagai Warisan Budaya Tak Benda Indonesia. Disebut Gandrung Sewu karena dibawakan oleh seribu lebih penari Gandrung. \nEvent ini masuk dalam \"10 Best Calendar of Event Wonderful Indonesia\" Kemenpar. Artinya, Gandrung Sewu dinilai layak menjadi satu dari 10 terbaik atraksi wisata Indonesia.\nPada saat ini Gandrung Sewu suda"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "serimpi",
+    "gambyong"
+   ]
+  },
+  "quebradita": {
+   "slug": "quebradita",
+   "name": "Quebradita",
+   "country": "Mexico",
+   "country_code": "MX",
+   "region": "North America",
+   "family": "street-urban",
+   "flag_emoji": "🇲🇽",
+   "era": "1990s",
+   "tagline": "A high-energy Mexican partner dance defined by acrobatic back-bends and galloping steps.",
+   "profile": "The quebradita is a Mexican partner dance that emerged in the early 1990s, characterized by rapid, galloping footwork and dramatic acrobatic maneuvers. Performed to the driving rhythms of technobanda and cumbia banda, the dance centers on the \"tombé,\" a move where the male partner dips the female dancer backward toward the floor. It gained widespread popularity across the Southwestern United States before evolving into a performance-based competition style.",
+   "insight": "In the 1990s, the quebradita became a cultural phenomenon in Los Angeles, requiring such intense strength and coordination that many dancers were unable to perform its signature acrobatic \"break.\"",
+   "aliases": [
+    "Caballito",
+    "Charanga",
+    "Baile de Brinquito"
+   ],
+   "related": [
+    "Brinquito",
+    "Caballito"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Quebradita",
+    "https://www.wikidata.org/wiki/Q3413969",
+    "https://es.wikipedia.org/wiki/Quebradita",
+    "https://fr.wikipedia.org/wiki/Quebradita"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Quebradita",
+   "wikidata_qid": "Q3413969",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-12",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.1,
+   "last_researched_at": "2026-11-12T17:48:34Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The quebradita, meaning \"little break,\" is a Mexican dance style that gained significant prominence in the early 1990s, particularly within the Los Angeles metropolitan area and the Southwestern United States. The dance is performed in pairs, with partners maintaining a close hold around the waist. Its defining movement is the \"tombé,\" an acrobatic maneuver where the male dancer lowers his partner backward toward the floor before quickly pulling her back up, a motion that gives the dance its name. Unlike the related brinquito or caballito styles, which focus on athletic, trotting footwork, the quebradita emphasizes these dramatic, high-strength acrobatic elements.\n\nThe history of the quebradita is described as somewhat hazy, with origins attributed variously to the U.S.-Mexico border region, Jalisco, or Sinaloa. The music that accompanies the dance—often technobanda, charanga, or cumbia banda—is a fusion of traditional Sinaloan brass music and modern electronic arrangements, featuring electric guitars and synthesizers. During its peak in the 1990s, the dance was a staple of community groups, school programs, and television programs like Premios Furia Musical. While it remains a feature of concerts and parties along the U.S.-Mexico border, its status as a primary performance and competition dance has significantly declined since the late 20th century. The dance requires high levels of coordination, strength, and cooperation, making it a challenging form that historically saw many dancers unable to execute its full range of movements.",
+   "albums": [
+    {
+     "title": "La noche que murió Chicago",
+     "artist": "Banda Toro",
+     "year": "1994",
+     "mbid": "ea96038b-026a-39a4-8a39-55c13f08b244",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/ea96038b-026a-39a4-8a39-55c13f08b244",
+     "type": "Album",
+     "source": "https://es.wikipedia.org/wiki/Quebradita",
+     "verified": true
+    }
+   ],
+   "album_candidates": [
+    {
+     "title": "No bailes de caballito",
+     "artist": "Mi Banda El Mexicano",
+     "source": "https://es.wikipedia.org/wiki/Quebradita",
+     "verified": false
+    }
+   ],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/CCMDonation98.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/CCMDonation98.jpg/1280px-CCMDonation98.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1500,
+     "height": 1000,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Edil Villa / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ACCMDonation98.jpg",
+     "description": "Student performers of \"Quebradita\" at \"Semana de la cutura\" (Week of the culture) in the Monterrey Institute of Technology and Higher Education, Mexico City (ITESM CCM)."
+    }
+   ],
+   "movie_ready": true,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "gusharaveli": {
+   "slug": "gusharaveli",
+   "name": "Gusharaveli",
+   "country": "Montenegro",
+   "country_code": "ME",
+   "region": "Europe",
+   "family": "african-diaspora",
+   "flag_emoji": "🇲🇪",
+   "era": "Contemporary",
+   "tagline": "An Afro-Albanian group dance from Ulcinj, Montenegro.",
+   "profile": "Gusharaveli is an Afro-Albanian dance tradition practiced in the town of Ulcinj, Montenegro. It is characterized by its group formation and a rhythmic structure that merges African and local Albanian influences. The dance is primarily featured during local festivals and holidays rather than at weddings.",
+   "insight": "In the coastal town of Ulcinj, Montenegro, the Afro-Albanian community performs Gusharaveli, a group dance blending African and local rhythms in a distinct 2/2 meter.",
+   "aliases": [
+    "Dumsharaveli",
+    "Vallja e Detarëve"
+   ],
+   "related": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gusharaveli",
+    "https://www.wikidata.org/wiki/Q16841301"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Gusharaveli",
+   "wikidata_qid": "Q16841301",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-12",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 8.45,
+   "last_researched_at": "2026-11-12T17:59:25Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Gusharaveli, also known as Dumsharaveli or Vallja e Detarëve, is a dance tradition specific to the Afro-Albanian community in the coastal town of Ulcinj, Montenegro. The dance is performed in groups, distinguishing it as a collective rather than a solo or partner-based activity. The rhythmic foundation of the dance is believed to be a synthesis of African rhythmic patterns and local Albanian rhythmic traditions. \n\nIn terms of musical structure, the dance is performed in a 2/2 duple meter. This rhythmic framework serves as the basis for the movement, though specific technical details regarding footwork, arm gestures, or torso engagement are not described in sources. The dance holds a specific place in the social calendar of the Ulcinj community. Unlike many other Albanian dance traditions that are frequently performed at weddings, Gusharaveli is rarely seen in that context. Instead, it is more commonly presented during local festivals and public holidays. \n\nBecause the available documentation is limited to these foundational aspects, many elements of the dance remain unrecorded. There is no information regarding the specific costumes worn by the performers, the musical instruments used to accompany the rhythm, or the specific spatial patterns used during the group performance. Furthermore, there are no documented notable figures associated with the dance, nor are there regional variants or a detailed historical lineage beyond its Afro-Albanian origins in Ulcinj. The tradition remains a living practice within its specific community, though it is not widely performed outside of its local festival context.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "poikkaal-kuthirai-aattam": {
+   "slug": "poikkaal-kuthirai-aattam",
+   "name": "Poikkaal Kuthirai Aattam",
+   "country": "India",
+   "country_code": "IN",
+   "region": "South Asia",
+   "family": "folk-circle",
+   "flag_emoji": "🇮🇳",
+   "era": "not described in sources",
+   "tagline": "A Tamil Nadu folk dance featuring performers inside dummy horses to mimic galloping.",
+   "profile": "Poikkaal Kuthirai Aattam, also known as Puravi Aattam, is a folk dance from Tamil Nadu where performers inhabit a lightweight dummy horse frame. Dancers attach wooden legs to their own feet to create the rhythmic sound of galloping hooves. The performance, often involving a pair acting as a king and queen, is traditionally linked to the worship of Ayyanar. It requires significant skill and training, often incorporating acrobatics to entertain crowds during religious festivals.",
+   "insight": "In Thanjavur, performers wearing dummy horses and wooden extensions on their feet mimic the sound of hooves while brandishing swords or whips to honor the deity Ayyanar.",
+   "aliases": [
+    "Puravi Aattam",
+    "Dummy Horse Dance"
+   ],
+   "related": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Poikkaal_Kuthirai_Aattam",
+    "https://www.wikidata.org/wiki/Q16314303"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Poikkaal_Kuthirai_Aattam",
+   "wikidata_qid": "Q16314303",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-12",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.45,
+   "last_researched_at": "2026-11-12T17:59:57Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Poikkaal Kuthirai Aattam, translated as 'Dummy Horse Dance,' is a traditional folk performance originating from the Tamil Nadu region of India. The dance is defined by the use of a lightweight dummy horse frame, constructed from materials such as jute, cardboard, paper, and glass. The dancer fits their body inside this frame, which is draped with cloth that swings to conceal the performer's actual legs. To create the auditory effect of a horse, dancers attach wooden legs to their own feet, which produce a rhythmic tapping sound against the floor, mimicking the sound of hooves. Performers often brandish a sword or a whip as part of their movement repertoire. The dance is physically demanding and requires extensive training to master the coordination of the dummy frame and the rhythmic footwork. Performances are typically executed by a pair of dancers who portray a king and a queen. These performances are deeply connected to the worship of the deity Ayyanar and are most prevalent in the area surrounding Thanjavur. Beyond religious contexts, the dance serves as a major form of public entertainment, with performers often incorporating acrobatic feats to sustain the interest of the audience for hours. The tradition has gained national visibility, with folk artists from Tamil Nadu regularly performing the dance during Republic Day festivities in New Delhi. While historically associated with Maratha origins, recent research has challenged this narrative, suggesting a more complex history for the art form.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Poikkal-kuthirai-attam-performer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Poikkal-kuthirai-attam-performer.jpg/1280px-Poikkal-kuthirai-attam-performer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1536,
+     "height": 2048,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Krsmoorthi / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3APoikkal-kuthirai-attam-performer.jpg",
+     "description": "Poikkal Kuthirai Attam Performance"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "The dance is connected to the worship of the deity Ayyanar.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "payung-dance": {
+   "slug": "payung-dance",
+   "name": "Payung dance",
+   "country": "Indonesia",
+   "country_code": "ID",
+   "region": "Southeast Asia",
+   "family": "folk-circle",
+   "flag_emoji": "🇮🇩",
+   "era": "not described in sources",
+   "tagline": "A Minangkabau folk dance-drama using umbrellas to symbolize marital protection.",
+   "profile": "The Payung dance is a traditional folk dance-drama originating from the Minangkabau people of West Sumatra, Indonesia. It features dancers using umbrellas and shawls to enact themes of affection, security, and the marital bond. Performed at weddings and public celebrations, the dance serves as a symbolic representation of the protective relationship between spouses.",
+   "insight": "The male dancer uses an umbrella to shield the female dancer, a physical metaphor for the protective role of a husband in a Minangkabau household.",
+   "aliases": [
+    "tari Payuang"
+   ],
+   "related": [
+    "Lilin dance",
+    "Pasambahan dance",
+    "Piring dance",
+    "Randai"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Payung_dance",
+    "https://www.wikidata.org/wiki/Q16861359"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Payung_dance",
+   "wikidata_qid": "Q16861359",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-12",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.3,
+   "last_researched_at": "2026-11-12T18:05:39Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Payung dance, known in Minangkabau as tari Payuang, is a folk dance-drama tradition rooted in the Minangkabau-Malay ethnic group of West Sumatra, Indonesia. The dance is characterized by its use of specific props—the umbrella (payung) and the shawl (selendang)—which serve as central symbols of the marital relationship. Typically performed by three or four dancers, the choreography functions as a narrative of affection and the dynamics of young love. The male dancer carries the umbrella, which he uses to shield the female dancer, representing the protective role traditionally expected of a husband within the family structure. The female dancer utilizes the shawl to represent the sacred bond of love and her commitment to the household. This symbolic action is highlighted when the shawl is placed on the male dancer. The dance is frequently integrated into broader cultural performances, including toneel, sandiwara, and public exhibitions. It also serves as a staple of celebratory occasions, such as the opening of parties or wedding ceremonies among the Minangkabau people. Beyond its Indonesian roots, the dance has a distinct regional variant performed by Peranakan communities in Malaysia. This version, which traces its origins to the Chinese diaspora, has evolved over time by incorporating local Malay elements, demonstrating the dance's adaptability across different cultural landscapes.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Bali-Danse_0710a.jpg/1280px-Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3504,
+     "height": 2336,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+     "description": "bali ubud danseur"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Wayang_Wong_Bharata_Pandawa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Wayang_Wong_Bharata_Pandawa.jpg/1280px-Wayang_Wong_Bharata_Pandawa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2268,
+     "height": 1261,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Gunawan Kartapranata / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AWayang_Wong_Bharata_Pandawa.jpg",
+     "description": "Wayang Wong (Wayang Orang) Javanese dance performance in Wayang Orang Bharata Theatre, Senen, Jakarta. Depicting the character Pandawa Lima with their guard in left, and Sri Kresna in the right."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tari_Lengger.jpg/1280px-Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3704,
+     "height": 2479,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Haridi123 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Lengger.jpg",
+     "description": "kesenian khas kabupaten wonosobo salah satunya adalah Tari lengger. kesenian ini hampir dimainkan di dalam berbagai acara budaya di setiap daerah di Wonosobo"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Seni_Tari_Piring.jpg/1280px-Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3648,
+     "height": 2432,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASeni_Tari_Piring.jpg",
+     "description": "Seni Tari Piring"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg/1280px-Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 6000,
+     "height": 4000,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASendratari_gandrung_sewu_banyuwangi.jpg",
+     "description": "Tari Gandrung sendiri merupakan tarian khas Banyuwangi yang telah ditetapkan sebagai Warisan Budaya Tak Benda Indonesia. Disebut Gandrung Sewu karena dibawakan oleh seribu lebih penari Gandrung. \nEvent ini masuk dalam \"10 Best Calendar of Event Wonderful Indonesia\" Kemenpar. Artinya, Gandrung Sewu dinilai layak menjadi satu dari 10 terbaik atraksi wisata Indonesia.\nPada saat ini Gandrung Sewu suda"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Tari_Saman_di_TMII.jpg/1280px-Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3000,
+     "height": 2000,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Herusutimbul / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Saman_di_TMII.jpg",
+     "description": "Tari Saman yg merupakan Tari dari daerah Aceh diperagakan pelajar Jakarta dalam peringatan Ulang tahun TMII"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "not described in sources",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "tari-piring"
+   ]
+  },
+  "ramayana-ballet": {
+   "slug": "ramayana-ballet",
+   "name": "Ramayana Ballet",
+   "country": "Indonesia",
+   "country_code": "ID",
+   "region": "Southeast Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇮🇩",
+   "era": "20th century",
+   "tagline": "A stylized dance-drama visualization of the Indian epic Ramayana in Southeast Asia.",
+   "profile": "The Ramayana Ballet, known in Indonesia as Sendratari Ramayana, is a performance art form that synthesizes dance, drama, and music to narrate the Sanskrit epic of the same name. It is a significant cultural expression in Southeast Asia, particularly within Javanese and Balinese traditions. The performance is typically conducted without dialogue, relying on stylized movement and orchestral accompaniment. It serves as a visual representation of the Ramayana saga, drawing from a tradition that originated in India and evolved through dharmic influences in the region.",
+   "insight": "Performed without dialogue, the Ramayana Ballet at the Prambanan temple in Java integrates the epic saga into a live, open-air performance against the backdrop of a 9th-century Hindu monument.",
+   "aliases": [
+    "Sendratari Ramayana"
+   ],
+   "related": [
+    "Wayang wong",
+    "Kecak",
+    "Ramakien",
+    "Reamker"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ramayana_Ballet",
+    "https://www.wikidata.org/wiki/Q16744572"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Ramayana_Ballet",
+   "wikidata_qid": "Q16744572",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-12",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.15,
+   "last_researched_at": "2026-11-12T18:06:16Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Ramayana Ballet, or Sendratari Ramayana, functions as a visual and dramatic representation of the ancient Ramayana epic originally authored by Valmiki. This art form is a synthesis of three primary elements: dance, drama, and music. It is characterized by a highly stylized approach to movement and is typically presented without the use of spoken dialogue, relying instead on the performers' physical expression to convey the narrative. The tradition originated in India and expanded across Southeast Asia, where it became deeply integrated into local artistic practices influenced by dharmic civilization. In Indonesia, the tradition manifests primarily through Javanese and Balinese dance forms. In the Javanese context, the Ramayana Ballet is closely linked to the Wayang Wong tradition, which combines traditional Javanese dance, drama, and music. These performances are regularly staged at significant cultural and historical sites, including the Prambanan temple complex, the Purawisata cultural center in Yogyakarta, and various hotel venues. In Bali, the tradition takes two distinct forms: the stylized sendratari, often performed in Ubud, and the Kecak dance, which is frequently presented at the Uluwatu temple. Beyond Indonesia, the influence of the Ramayana is evident in other regional dance dramas, such as the Ramakien in Thailand and the Reamker in Cambodia. The performance requires a complete set of artistic components, most notably the inclusion of an intricate gamelan orchestra to provide the musical foundation. The ballet remains a living tradition, serving as both a cultural performance and a medium for storytelling, maintaining the narrative of the Ramayana through movement rather than text.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Bali-Danse_0710a.jpg/1280px-Bali-Danse_0710a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3504,
+     "height": 2336,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ABali-Danse_0710a.jpg",
+     "description": "bali ubud danseur"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ramayana_Java.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Ramayana_Java.jpg/1280px-Ramayana_Java.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1984,
+     "height": 2409,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Gunawan Kartapranata / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ARamayana_Java.jpg",
+     "description": "Ramayana Javanese ballet dance depicting Rama and Sita (upper right) accompanied by Lakshmana (bottom left) during their exile in Dandaka Forest."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Wayang_Wong_Bharata_Pandawa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Wayang_Wong_Bharata_Pandawa.jpg/1280px-Wayang_Wong_Bharata_Pandawa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2268,
+     "height": 1261,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Gunawan Kartapranata / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AWayang_Wong_Bharata_Pandawa.jpg",
+     "description": "Wayang Wong (Wayang Orang) Javanese dance performance in Wayang Orang Bharata Theatre, Senen, Jakarta. Depicting the character Pandawa Lima with their guard in left, and Sri Kresna in the right."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Ramayana_Bali_Ubud_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Ramayana_Bali_Ubud_1.jpg/1280px-Ramayana_Bali_Ubud_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3060,
+     "height": 1794,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Gunawan Kartapranata / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ARamayana_Bali_Ubud_1.jpg",
+     "description": "Balinese Ramayana dance drama performance in Pura Taman Saraswati, Ubud, Bali. Sita is in front."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tari_Lengger.jpg/1280px-Tari_Lengger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3704,
+     "height": 2479,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Haridi123 / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Lengger.jpg",
+     "description": "kesenian khas kabupaten wonosobo salah satunya adalah Tari lengger. kesenian ini hampir dimainkan di dalam berbagai acara budaya di setiap daerah di Wonosobo"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Seni_Tari_Piring.jpg/1280px-Seni_Tari_Piring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3648,
+     "height": 2432,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASeni_Tari_Piring.jpg",
+     "description": "Seni Tari Piring"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Sendratari_gandrung_sewu_banyuwangi.jpg/1280px-Sendratari_gandrung_sewu_banyuwangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 6000,
+     "height": 4000,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ASendratari_gandrung_sewu_banyuwangi.jpg",
+     "description": "Tari Gandrung sendiri merupakan tarian khas Banyuwangi yang telah ditetapkan sebagai Warisan Budaya Tak Benda Indonesia. Disebut Gandrung Sewu karena dibawakan oleh seribu lebih penari Gandrung. \nEvent ini masuk dalam \"10 Best Calendar of Event Wonderful Indonesia\" Kemenpar. Artinya, Gandrung Sewu dinilai layak menjadi satu dari 10 terbaik atraksi wisata Indonesia.\nPada saat ini Gandrung Sewu suda"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Tari_Saman_di_TMII.jpg/1280px-Tari_Saman_di_TMII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3000,
+     "height": 2000,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Herusutimbul / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ATari_Saman_di_TMII.jpg",
+     "description": "Tari Saman yg merupakan Tari dari daerah Aceh diperagakan pelajar Jakarta dalam peringatan Ulang tahun TMII"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "kecak"
+   ]
   }
  }
 }

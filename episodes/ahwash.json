@@ -1,0 +1,429 @@
+{
+ "slug": "ahwash",
+ "name": "Ahwash",
+ "pack_version": "e2",
+ "built_at": "2026-11-12T18:56:52Z",
+ "researched_at": "2026-11-12T18:24:00Z",
+ "qc_score": 8.55,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Ahwash",
+   "A7wach",
+   "ahouach",
+   "ahwach",
+   "aḥwash"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Ahwash",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Fireside Trance of the High Atlas",
+     "This is Ahwash. ancient."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (KiZuN0K9FsE)",
+     "Title card: Ahwash · Morocco · ancient"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originates from the Shilha people of southern Morocco, with some historians suggesting a potential origin in Telouet.",
+     "Due to the lack of written records, the exact historical timeline remains undocumented, though it is now found throughout the High Atlas and Souss regions."
+    ],
+    "on_screen": [
+     "Map: Morocco · Africa",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Ahwash celebrates weddings, births, and harvests.",
+     "It serves as a communal and spiritual practice, allowing participants to connect with their spirituality and express the experiences of the individual and the tribe.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed by two large groups, typically men and women on opposite sides, who alternate their performances of song, dance, and poetry.",
+     "The practice is a collective ritual that utilizes choreographic structures to manage the interaction between participants."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (KiZuN0K9FsE)",
+     "Signature moves — MISSING",
+     "Formation: Two large groups, typically men and women on opposite sides."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is performed using the tara (a type of tambourine), the tbel (drum), and the naqus (a metal instrument played with two iron sticks).",
+     "Listen for the tara, tbel, naqus.",
+     "A rhythmic, percussive soundscape dominated by frame drums and the metallic strike of the naqus, accompanying alternating vocal poetry."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Berbères du Maroc \"Ahwach\" — Éditions Musée de l'Homme-CNRS",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performances occur in village settings, often in front of a saint's tomb during religious holidays known as moussem."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The dance has developed independently among different villages, leading to variations in performance details.",
+     "Related to the central Moroccan dance known as Ahidous."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Ahwash is sibling of Ahidous: The central Moroccan counterpart to the southern Ahwash."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The dance is often performed at saint's tombs during religious holidays; some communities restrict it due to the belief that the performance involves the devil or carries spiritual power that may offend the saint."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "A look at the communal Ahwash, where village poetry and percussion meet at the threshold of the sacred.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "tara",
+   "tbel",
+   "naqus"
+  ],
+  "vocal_style": null,
+  "musical_form": "Alternating performance between two groups",
+  "mood": [
+   "trance",
+   "ecstatic",
+   "communal"
+  ],
+  "sound_description": "A rhythmic, percussive soundscape dominated by frame drums and the metallic strike of the naqus, accompanying alternating vocal poetry.",
+  "listen_before_composing": [
+   "Berbères du Maroc \"Ahwach\" — Éditions Musée de l'Homme-CNRS"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Ahwash (Morocco). Instruments: tara, tbel, naqus. Form: Alternating performance between two groups. Mood: trance, ecstatic, communal. It should sound like this: A rhythmic, percussive soundscape dominated by frame drums and the metallic strike of the naqus, accompanying alternating vocal poetry. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "KiZuN0K9FsE",
+   "checked_by_vision_model": false,
+   "title": "Imlil Cultural festival . Ahwash Aid Imlil 2019 #ahwach #morocco #traditional"
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performances occur in village settings, often in front of a saint's tomb during religious holidays known as moussem.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AAhwach_Agdez.png",
+    "https://commons.wikimedia.org/wiki/File%3AAhwach_Aoulouz.png",
+    "https://commons.wikimedia.org/wiki/File%3AAhwach_Ait_Baamrane.png"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ahwach_Agdez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Ahwach_Agdez.png/1280px-Ahwach_Agdez.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Agdez.png",
+    "description": "Ahwach Agdez"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Ahwach_Aoulouz.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Ahwach_Aoulouz.png/1280px-Ahwach_Aoulouz.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Aoulouz.png",
+    "description": "Ahwach Aoulouz"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ahwach_Ait_Baamrane.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Ahwach_Ait_Baamrane.png/1280px-Ahwach_Ait_Baamrane.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Ait_Baamrane.png",
+    "description": "Ahwach Ait Baamrane"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ahwach_Assa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Ahwach_Assa.png/1280px-Ahwach_Assa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Assa.png",
+    "description": "Ahwach Assa"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Ahwach_Kelaat_Mgouna.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Ahwach_Kelaat_Mgouna.png/1280px-Ahwach_Kelaat_Mgouna.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Kelaat_Mgouna.png",
+    "description": "Ahwach Kelaat Mgouna"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ahwach_Mirleft.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Ahwach_Mirleft.png/1280px-Ahwach_Mirleft.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Mirleft.png",
+    "description": "Ahwach Mirleft"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Ahwach_Ouarzazate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Ahwach_Ouarzazate.png/1280px-Ahwach_Ouarzazate.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Ouarzazate.png",
+    "description": "Ahwach Ouarzazate"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ahwach_Tafraout.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Ahwach_Tafraout.png/1280px-Ahwach_Tafraout.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAhwach_Tafraout.png",
+    "description": "Ahwach Tafraout"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Frame drums",
+   "Saint's tomb architecture",
+   "Large groups in traditional dress",
+   "High Atlas mountain backdrop"
+  ],
+  "costume_notes": "Performances occur in village settings, often in front of a saint's tomb during religious holidays known as moussem.",
+  "setting_notes": "Ahwash celebrates weddings, births, and harvests. It serves as a communal and spiritual practice, allowing participants to connect with their spirituality and express the experiences of the individual and the tribe.",
+  "map": {
+   "country": "Morocco",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "2 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 2,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed reference footage",
+  "signature moves",
+  "notable figures",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ahwash",
+  "https://www.wikidata.org/wiki/Q4696445",
+  "https://fr.wikipedia.org/wiki/Ahouach"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "bc8e2fccca7d7378a0b53a841709049db4c2c87665496e02471a0d59c3c444d9",
+ "hero_checked": null
+}

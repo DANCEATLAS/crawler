@@ -2,94 +2,90 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [],
-        "counts": "not derivable yet",
-        "duration_minutes": "not derivable yet",
-        "game_version": "not derivable yet"
+        "avoid": [
+          "Complex, fast-paced arm sequences"
+        ],
+        "counts": "Simplified 4-count sequences.",
+        "duration_minutes": "15",
+        "game_version": "Follow-the-leader style game using simplified arm movements."
       },
       "derived": true,
       "seniors": {
-        "avoid": [],
-        "counts": "not derivable yet",
-        "seated_version": "not derivable yet",
-        "standing_version": "not derivable yet",
-        "tempo_and_range": "not derivable yet"
+        "avoid": [
+          "Jumping",
+          "Rapid balance shifts"
+        ],
+        "counts": "Simplified counts for arm sequences.",
+        "seated_version": "Perform arm gestures while seated, focusing on range of motion.",
+        "standing_version": "Perform routines with reduced tempo and minimal foot movement.",
+        "tempo_and_range": "Reduced tempo to match comfort levels."
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Choreographed, precise arm and hand gestures synchronized to music and group",
-      "difficulty": "beginner to intermediate",
-      "footwork": "Side-to-side stepping in place, minimal leg movement except occasional hops or jumps",
-      "formation_and_space": "Groups dance in lines or clusters facing forward, maintaining spacing for arm movements",
-      "hips_and_torso": "Slight hip swaying accompanying arm movements",
-      "levels_and_jumps": "Mostly beginner to intermediate level; occasional jumps or hops in routines",
-      "partnering": "Not typical; danced individually but synchronized in groups",
-      "posture": "Upright with relaxed shoulders, focus on upper body",
+      "arms_and_hands": "Primary focus; complex, choreographed gestures that follow the melody and rhythm.",
+      "difficulty": "beginner",
+      "footwork": "Minimal; includes stepping side-to-side, stepping in place, and occasional hops.",
+      "formation_and_space": "Synchronized group formation, often facing a lead instructor or the front.",
+      "hips_and_torso": "Minimal movement, occasionally involving hip shifts.",
+      "levels_and_jumps": "Occasional jumping or hopping.",
+      "partnering": "None; performed as a solo or group synchronized dance.",
+      "posture": "Upright and alert, facilitating rapid arm movements.",
       "signature_moves": [
         {
-          "description": "Distinct choreography from Tokyo Bay clubs with specific arm patterns",
-          "name": "Wangan style"
-        },
-        {
-          "description": "Complex unofficial routines with unique arm and footwork",
-          "name": "Maniac routines"
-        },
-        {
-          "description": "Original routines created by individuals, often shared online",
-          "name": "OriPara"
+          "description": "Specific, song-dependent hand and arm gestures performed in unison.",
+          "name": "Arm sequences"
         }
       ],
-      "tempo_feel": "Fast-paced, energetic, matching Eurobeat tempo",
-      "what_to_avoid": "Avoid excessive lower body movement; maintain synchronization with group; respect official routines in club settings"
+      "tempo_feel": "Very fast, high-energy.",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "synthesizers",
-        "electronic drums",
-        "bass synth",
-        "vocals"
+        "Synthesizers",
+        "Drum machines"
       ],
       "meter": "4/4",
       "mood_keywords": [
-        "energetic",
-        "upbeat",
-        "fast-paced",
-        "danceable"
+        "Energetic",
+        "Fast",
+        "Upbeat"
       ],
-      "musical_form": "Structured with intro, verses, chorus, and instrumental breaks matching dance routine sections",
+      "musical_form": "Eurobeat",
       "reference_recordings": [
         {
           "artist": "Niko",
-          "source": "https://en.wikipedia.org/wiki/Para_Para",
           "title": "Night of Fire"
         },
         {
-          "artist": "Various",
-          "source": "https://en.wikipedia.org/wiki/Para_Para",
-          "title": "ParaPara Kyōten 0"
+          "artist": "Domino",
+          "title": "Mickey Mouse March (Eurobeat Version)"
         }
       ],
-      "rhythm_pattern": "steady four-on-the-floor kick drum with upbeat electronic synths and fast-paced percussion",
-      "sound_description": "Eurobeat tracks feature a driving four-on-the-floor beat with bright synthesizer melodies, rapid hi-hats, and catchy vocal hooks, creating a high-energy dance atmosphere.",
-      "tempo_bpm": "approximately 140-160",
-      "vocal_style": "Energetic, often high-pitched male or female vocals typical of Eurobeat"
+      "rhythm_pattern": "Four-on-the-floor",
+      "sound_description": "High-tempo electronic music characterized by driving synthesizer melodies and a steady, repetitive kick drum pattern.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Upbeat, energetic, often featuring English-language lyrics."
     },
     "teaching": {
       "basic_steps": [
-        "Step side to side in place to the beat",
-        "Move arms in choreographed synchronized patterns",
-        "Slight hip movements accompanying arm motions",
-        "Jump or hop lightly during certain routine parts",
-        "Repeat sequence matching the song's sections (intro, verses, chorus)"
+        "Step side-to-side in time with the 4/4 beat.",
+        "Execute synchronized arm gestures corresponding to the song's specific routine.",
+        "Maintain upper body focus while keeping footwork minimal.",
+        "Perform the routine in unison with the group."
       ],
-      "formation": "Group synchronized line or cluster formation facing the same direction",
-      "level_notes": "Beginners start by learning arm movements slowly without music, progressing to full routines with music and group synchronization",
-      "rhythm": "Four-on-the-floor beat typical of Eurobeat music"
+      "formation": "Group synchronization, often in lines or facing the front.",
+      "level_notes": "Beginners should focus on learning the specific arm choreography for a single track before attempting footwork.",
+      "rhythm": "Four-on-the-floor, high-tempo Eurobeat."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "c15111d0e7a12345e00fcaa5975af2e9027a27cfb0e2f9e63e0f0aa73bc1a694",
+  "fingerprint": "5a839cd9310a26791d7deab2c9dfa991eed00a01fc0b296471bf94067882b747",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -97,6 +93,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
+      "movement: what_to_avoid",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [

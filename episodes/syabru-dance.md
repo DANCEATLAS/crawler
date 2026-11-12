@@ -1,8 +1,8 @@
 # Syabru dance — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; notable figures; lineage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Sherpa or Yolmo cultural elder and dramnyen player who guides community dancers with warmth, communal patience, and cultural devotion.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Circles of the High Himalaya
 NARRATION: This is Syabru dance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (PduimfjXF3U)
 ON SCREEN: Title card: Syabru dance · Nepal · not described in sources
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (PduimfjXF3U)
 ON SCREEN: Signature moves — MISSING
 ON SCREEN: Formation: Group arrangement in a line or a circle (circulus)
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -111,7 +111,7 @@ NARRATION: Step 1: Gather in a communal line or circular formation alongside oth
 NARRATION: Step 2: Engage in traditional folk singing while maintaining position in the group
 NARRATION: Footwork from the sources: Slow progression moving in a line or circle (circulus)
 NARRATION: Drill: Assemble into a continuous circular formation with balanced spacing
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -179,7 +179,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Gather in a communal line or circular formation alongside other participants
 NARRATION: Step 2: Engage in traditional folk singing while maintaining position in the group
 NARRATION: Drill: Listen to and repeat simple traditional vocal phrases while standing in place
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -246,7 +246,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Engage in traditional folk singing while maintaining position in the group
 NARRATION: Step 2: Step slowly along the line or circulus in coordination with the vocal song and dramnyen accompaniment
 NARRATION: Drill: Identify the plucked strumming pattern of the dramnyen
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -299,7 +299,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'PduimfjXF3U', 'checked_by_vision_model': False, 'title': 'Syabru Dance |  Rotary Club Of Bouddha  | Sherpa Culture'}
 Images: 2 licensed — Less than 3 / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); S Pakhrin from NYC, USA / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: Traditional woven Himalayan ethnic attire worn by men and women, The wooden neck and strings of the dramnyen lute, Dancers slowly rounding in an expansive communal circle during Gyalpo Lhosar
@@ -311,7 +311,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (2): https://en.wikipedia.org/wiki/Syabru_(dance); https://www.wikidata.org/wiki/Q114552797

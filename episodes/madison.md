@@ -1,6 +1,6 @@
 # Madison — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; the costume & setting section
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: Step left foot forward
 NARRATION: Step 2: Place right foot beside left foot without weight and clap
 NARRATION: Footwork from the sources: Step sequences involve forward, backward, lateral steps and crossing feet; counts align with 4/4 rhythm
 NARRATION: Drill: Practice stepping left forward and clapping
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -191,7 +191,7 @@ NEEDS: tempo
 NARRATION: Step 1: Move left foot to the left side
 NARRATION: Step 2: Move left foot back and cross it over the right foot again
 NARRATION: Drill: Learn the Double Cross step
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -263,7 +263,7 @@ NEEDS: tempo
 NARRATION: Step 1: Move left foot to the left side
 NARRATION: Step 2: Move left foot back and cross it over the right foot again
 NARRATION: Drill: Respond to live calls during dance
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -332,7 +332,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (5): https://en.wikipedia.org/wiki/Madison_(dance); https://www.wikidata.org/wiki/Q3276118; https://es.wikipedia.org/wiki/Madison_(baile); https://fr.wikipedia.org/wiki/Madison_(danse); https://archive.org/details/childandchildho01chamgoog

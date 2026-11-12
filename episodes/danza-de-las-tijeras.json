@@ -1,0 +1,377 @@
+{
+ "slug": "danza-de-las-tijeras",
+ "name": "Danza de las Tijeras",
+ "pack_version": "e2",
+ "built_at": "2026-11-12T18:57:17Z",
+ "researched_at": "2026-11-12T18:30:31Z",
+ "qc_score": 9.6,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A master danzaq or cultural historian.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Danza de las Tijeras",
+   "Danza de gala",
+   "Supaypa wasin tusuq",
+   "Baile de tijera"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Danza de las Tijeras",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Dancers, known as danzaq, perform for up to ten hours in a competition called Atipanakuy, often testing their physical limits with acrobatic feats while wielding two independent metal plates.",
+     "This is Danza de las Tijeras. Pre-Hispanic origins."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (KKYWklE0tag)",
+     "Title card: Danza de las Tijeras · Peru · Pre-Hispanic origins"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originates from the Chanka region.",
+     "Dancers descend from pre-Hispanic 'tusuq laykas'—priests and healers who were persecuted during the colonial period.",
+     "They were forced to adapt their rituals to Catholic festivals, leading to a syncretic tradition that persists today."
+    ],
+    "on_screen": [
+     "Map: Peru · South America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed during the dry season and coincides with important agricultural calendar phases.",
+     "It serves as a ritual offering to the 'Huamani' (mountain spirits) and other Andean deities.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, La Senda del Danzante.webm (https://upload.wikimedia.org/wikipedia/commons/f/f7/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_La_Senda_del_Danzante.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed in a competitive format called Atipanakuy.",
+     "Dancers perform in turns, executing steps that increase in risk and complexity.",
+     "The sequence includes 'Marcha' (walking on toes), 'Ensayo' (the start of the duel), and 'Tuku Mayor' (acrobatic feats).",
+     "Watch for Atipanakuy."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (KKYWklE0tag)",
+     "Captions name each signature move as it appears",
+     "Formation: Competitive duel format; dancers perform in turns."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is provided by a duo of a harpist and a violinist.",
+     "The central instrument is the pair of metal scissors, consisting of two independent plates that are struck together to create a rhythmic sound.",
+     "Listen for the Harp, Violin, Metal scissors (two plates).",
+     "The sound is defined by the melodic interplay of a harp and violin, punctuated by the sharp, rhythmic metallic clashing of the scissors."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Rhythmic clashing of metal plates synchronized with harp and violin melodies."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear costumes decorated with gold stripes, sequins, and small mirrors.",
+     "They are traditionally prohibited from entering the interior of churches while wearing these costumes due to the belief that their skills result from a pact with the devil."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Peruvian writer José María Arguedas (1911-1969) is credited with immortalizing the danzaq in his literary works, most notably in the 1962 short story 'La agonía de Rasu Ñiti'.",
+     "In Apurímac, the dance is called 'Saqras'; in Ayacucho, the performer is a 'danzaq'; and in Huancavelica, the dancer is known as a 'Gala'.",
+     "The tradition is passed down orally from teacher to student, with training often beginning in early childhood."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Danza de las Tijeras is shares region of Huaconada: Both were recognized by UNESCO as Intangible Cultural Heritage on the same date."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The dance is considered a magical-religious ritual. Dancers are traditionally forbidden from entering churches in their performance costumes due to the belief that their abilities stem from a pact with the devil."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Witness the high-stakes ritual of the Peruvian danzaq, where dancers compete in a test of spirit and agility.",
+     "Sources: 5 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Rhythmic clashing of metal plates synchronized with harp and violin melodies.",
+  "instruments": [
+   "Harp",
+   "Violin",
+   "Metal scissors (two plates)"
+  ],
+  "vocal_style": null,
+  "musical_form": "Music varies by the stage of the dance, such as 'Pasacalle' for street processions.",
+  "mood": [
+   "Ritual",
+   "Competitive",
+   "Intense"
+  ],
+  "sound_description": "The sound is defined by the melodic interplay of a harp and violin, punctuated by the sharp, rhythmic metallic clashing of the scissors.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Danza de las Tijeras (Peru). Rhythm pattern: Rhythmic clashing of metal plates synchronized with harp and violin melodies.. Instruments: Harp, Violin, Metal scissors (two plates). Form: Music varies by the stage of the dance, such as 'Pasacalle' for street processions.. Mood: Ritual, Competitive, Intense. It should sound like this: The sound is defined by the melodic interplay of a harp and violin, punctuated by the sharp, rhythmic metallic clashing of the scissors. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "KKYWklE0tag",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers wear costumes decorated with gold stripes, sequins, and small mirrors. They are traditionally prohibited from entering the interior of churches while wearing these costumes due to the belief that their skills result from a pact with the devil.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AHuancavelica%2C_baile_regional.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Huancavelica%2C_baile_regional.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Huancavelica%2C_baile_regional.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Gustavo Madico from Valencia, Spain / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHuancavelica%2C_baile_regional.jpg",
+    "description": "Una de las zonas mas pobres de Perú y Latinoamerica tiene sorprendentemente el record en bailes regionales, este las tijeras, hace pensar que estamos ante acrobatas mas que ante bailarines... Ironico pero hasta los de alli tienen que sudar mas para bailar.\nLicensing\n\nThis file is licensed under the Creative Commons Attribution 2.0 Generic license.\nYou are free:\nto share – to copy, distribute and t"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:ICT4ID Information and Communication Technologies for Intercultural Dialogue, DVD 3, Peru, Proyecto Tokapu, Video Qeuchua En Villa El Salvador, La Senda del Danzante.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/ICT4ID_Information_and_Communication_Technologies_for_Intercultural_Dialogue%2C_DVD_3%2C_Peru%2C_Proyecto_Tokapu%2C_Video_Qeuchua_En_Villa_El_Salvador%2C_La_Senda_del_Danzante.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 3.0 igo",
+    "attribution": "UNESCO / Wikimedia Commons / CC BY-SA 3.0 igo"
+   }
+  ],
+  "motifs": [
+   "Polished metal scissors",
+   "Elaborate embroidered costumes with mirrors",
+   "Andean mountain landscapes"
+  ],
+  "costume_notes": "Dancers wear costumes decorated with gold stripes, sequins, and small mirrors. They are traditionally prohibited from entering the interior of churches while wearing these costumes due to the belief that their skills result from a pact with the devil.",
+  "setting_notes": "The dance is performed during the dry season and coincides with important agricultural calendar phases. It serves as a ritual offering to the 'Huamani' (mountain spirits) and other Andean deities.",
+  "map": {
+   "country": "Peru",
+   "region": "South America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "2 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 2,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Danza_de_tijeras",
+  "https://www.wikidata.org/wiki/Q5221455",
+  "https://es.wikipedia.org/wiki/Danza_de_las_tijeras",
+  "https://fr.wikipedia.org/wiki/Danza_de_las_tijeras",
+  "https://pt.wikipedia.org/wiki/Dança_das_tesouras"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "cf13db393acf18185ba267bca76368c0b2c0b863a83a71d27741f65a21dedc49",
+ "hero_checked": "pass"
+}

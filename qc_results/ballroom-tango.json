@@ -1,0 +1,127 @@
+{
+ "slug": "ballroom-tango",
+ "qc_at": "2026-11-12T18:36:44Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 9.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "ballroom tango"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "86"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "207"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Unlike other standard ballroom dances that rely on swinging motions, the Interna"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "537"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1762"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Global"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": false,
+   "detail": "{\"slug\": \"tango\", \"score\": 1.0, \"via_alias\": \"tango\"}"
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [
+   "La cumparsita",
+   "Libertango"
+  ],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and distinguishes clearly between the ballroom evolution and its Argentine roots. The album doubt is flagged because Gardel and Piazzolla represent Argentine tango, not the standardized ballroom tango music typically used in competition, which often utilizes pop or orchestral arrangements."
+ },
+ "judge_reused": false,
+ "duplicate_of": {
+  "slug": "tango",
+  "score": 1.0,
+  "via_alias": "tango"
+ },
+ "is_sacred": false,
+ "reasons": [
+  "country",
+  "not_duplicate",
+  "judge_score=9.1"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-12T17:58:36Z"
+}

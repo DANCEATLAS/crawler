@@ -1,13 +1,65 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "The right hand holds and manipulates the metal scissors, striking them in rhythm.",
+      "difficulty": "advanced",
+      "footwork": "Includes walking on the tips of the toes and complex zapateo (foot-tapping) patterns.",
+      "formation_and_space": "Competitive duel format; dancers perform in turns.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes acrobatic jumps and balancing acts, sometimes performed on church towers.",
+      "partnering": "not described in sources",
+      "posture": "Upright and athletic, often involving balancing on one foot.",
+      "signature_moves": [
+        {
+          "description": "A competitive duel where dancers challenge each other to perform increasingly difficult physical feats.",
+          "name": "Atipanakuy"
+        }
+      ],
+      "tempo_feel": "Increases in intensity as the competition progresses.",
+      "what_to_avoid": "Do not enter a church while wearing the performance costume."
+    },
+    "music_profile": {
+      "instruments": [
+        "Harp",
+        "Violin",
+        "Metal scissors (two plates)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "Ritual",
+        "Competitive",
+        "Intense"
+      ],
+      "musical_form": "Music varies by the stage of the dance, such as 'Pasacalle' for street processions.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmic clashing of metal plates synchronized with harp and violin melodies.",
+      "sound_description": "The sound is defined by the melodic interplay of a harp and violin, punctuated by the sharp, rhythmic metallic clashing of the scissors.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Marcha: Walking on the tips of the toes to greet the audience.",
+        "Zapateo: Rhythmic footwork performed during festivities.",
+        "Acrobatic feats: High-level physical challenges including balancing and jumping."
+      ],
+      "formation": "Competitive duel between two or more dancers, each with their own musician.",
+      "level_notes": "The dance is highly advanced, requiring years of training starting from childhood.",
+      "rhythm": "Rhythmic striking of metal plates in time with harp and violin music."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "1b1ed3adeca516a7525a5092806c01ad0015c277624749616debb1575e3f4552",
+  "fingerprint": "527e736378664cccc70323a8d09a5c55c421ecb3fdfa1a2d50012619ea768897",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +67,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "music_structure: meter",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +95,7 @@
   ],
   "music_options": [],
   "name": "Danza de las Tijeras",
-  "research_file": null,
+  "research_file": "research_results/danza-de-las-tijeras.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +105,13 @@
     "session_modes": []
   },
   "slug": "danza-de-las-tijeras",
-  "sources": [],
-  "state": "researching",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Danza_de_tijeras",
+    "https://www.wikidata.org/wiki/Q5221455",
+    "https://es.wikipedia.org/wiki/Danza_de_las_tijeras",
+    "https://fr.wikipedia.org/wiki/Danza_de_las_tijeras",
+    "https://pt.wikipedia.org/wiki/Dança_das_tesouras"
+  ],
+  "state": "teaching_withheld",
   "video_evidence": []
 }

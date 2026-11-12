@@ -1,8 +1,8 @@
 # Tipri dance — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; lineage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; notable figures; lineage; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local cultural historian or practitioner from Patiala.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Rhythmic Sticks of Patiala
 NARRATION: This is Tipri dance. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (iBgHjDXDBxs)
 ON SCREEN: Title card: Tipri dance · India · 20th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The dance is performed in a circle or in pairs.
 NARRATION: Participants use small sticks to create rhythm by striking them against their own sticks or those of other dancers.
 NARRATION: In one version, dancers hold ropes tied to a central pole, weaving them while dancing.
 NARRATION: Watch for Rope weaving, Stick striking.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (iBgHjDXDBxs)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circular formation or pairs.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -115,7 +115,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Striking own sticks together
 NARRATION: Step 2: Striking sticks with a partner
 NARRATION: Drill: Tap sticks together in 4/4 time
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -177,7 +177,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Striking own sticks together
 NARRATION: Step 2: Striking sticks with a partner
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -241,7 +241,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Striking sticks with a partner
 NARRATION: Step 2: Weaving ropes while moving in a circle
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -292,7 +292,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance is performed in the Patiala and Ambala districts, specifically during the Bavan Dvadasi festival. It is performed in open spaces or festival grounds where a central pole may be erected for the rope-weaving style.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'iBgHjDXDBxs', 'checked_by_vision_model': False, 'title': 'Jalwa tera jalwa | school girls tipri dance | deshbhakti song | republic day | independence day'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Sticks, Ropes, Central pole
@@ -304,7 +304,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (2): https://en.wikipedia.org/wiki/Tipri_dance_(Punjab); https://www.wikidata.org/wiki/Q85809800

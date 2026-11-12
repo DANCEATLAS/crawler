@@ -1,6 +1,6 @@
 # Yove male mome — episode pack
 
-*Status: draft · built 2026-11-11 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed)
 
@@ -121,7 +121,7 @@ NARRATION: Step 1: Grasp neighbouring dancers firmly by the belt or link hands i
 NARRATION: Step 2: Stand in an open circle or curved line facing slightly along the line of direction.
 NARRATION: Footwork from the sources: Complicated fast footwork moving along a curved line or open circle, organized into seven patterns of four bars each matching 3-2-2, 2-2-3-2-2 counts.
 NARRATION: Drill: Clap the 7/16 subdivision using slow-quick-quick (3-2-2).
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars · repetitions: 3
@@ -191,7 +191,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Progress through the seven choreographic patterns of four bars each while maintaining the line curvature.
 NARRATION: Drill: Adopt the belt hold in an open line with neutral weight.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars · repetitions: 3
@@ -263,7 +263,7 @@ NEEDS: tempo
 NARRATION: Step 1: Execute the 11/16 sub-bar with two quick steps on counts 1 and 2 (two pulses each), one slow step on count 3 (three pulses), and two quick steps on counts 4 and 5 (two pulses each).
 NARRATION: Step 2: Progress through the seven choreographic patterns of four bars each while maintaining the line curvature.
 NARRATION: Drill: Rehearse pattern one and two transitions across four-bar cycles.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars · repetitions: 3
@@ -335,7 +335,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: count the 18/16 (7/16 + 11/16) bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (2): https://en.wikipedia.org/wiki/Yove_male_mome; https://www.wikidata.org/wiki/Q8059399

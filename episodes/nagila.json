@@ -2,7 +2,7 @@
  "slug": "nagila",
  "name": "Nagila",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:11Z",
+ "built_at": "2026-11-12T18:57:17Z",
  "researched_at": "2026-11-11T17:58:34Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is Nagila. 21st century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (cR1kloYoPjs)",
      "Title card: Nagila · Ghana · 21st century"
     ],
     "music": "theme (30 s)"
@@ -104,7 +104,7 @@
      "Watch for Forward-bend stamp."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (cR1kloYoPjs)",
      "Captions name each signature move as it appears",
      "Formation: Solo dancer in the center."
     ],
@@ -270,7 +270,7 @@
       "Drill: Practice the hip hinge to reach a right angle."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -420,7 +420,7 @@
       "Step 2: Position elbows either in front of the body or behind the back."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -569,7 +569,7 @@
       "Step 2: Stamp feet on the ground in a rhythmic pattern."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -708,7 +708,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "cR1kloYoPjs",
+   "checked_by_vision_model": false,
+   "title": "HAVA NAGILA Jewish Punjabi Israel India Dance - Downtown Bhangra Vancouver"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -799,32 +803,32 @@
   "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 8"
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
    "rock step",
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "keep it flat on the ground",
-   "switch",
-   "slide",
-   "hit"
+   "step your right foot sideward",
+   "close your left foot",
+   "point your left foot",
+   "hold your skirt",
+   "put your hands at the back",
+   "take three steps forward",
+   "turn around",
+   "open your fan"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "full_demo",
    "count_in",
+   "full_demo",
    "warmup",
    "breakdown",
-   "music_practice",
    "slow_practice",
+   "music_practice",
    "recap"
   ],
   "steps_as_taught": []
@@ -833,7 +837,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "the costume & setting section",
   "notable figures",
@@ -848,6 +852,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "4668971f3ccad78e2bdca51c2e9b4fcce7534b9aa9f357b0eddadb0c64403088",
+ "input_fingerprint": "89e89c7bf83944fa174dc8226e3be30bafff0dfc88f07fe1ab35eec244daf911",
  "hero_checked": null
 }

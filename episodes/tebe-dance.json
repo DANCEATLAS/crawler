@@ -2,7 +2,7 @@
  "slug": "tebe-dance",
  "name": "Tebe dance",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:12Z",
+ "built_at": "2026-11-12T18:57:17Z",
  "researched_at": "2026-11-11T17:41:34Z",
  "qc_score": 9.7,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is Tebe dance. ancient to contemporary."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (0mYBp-YxfOc)",
      "Title card: Tebe dance · Indonesia, East Timor · ancient to contemporary"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Circle Stomp."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (0mYBp-YxfOc)",
      "Captions name each signature move as it appears"
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
@@ -274,7 +274,7 @@
       "Drill: Form a circle and hold hands."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -419,7 +419,7 @@
       "Step 2: Stomp feet in rhythm with the song."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -563,7 +563,7 @@
       "Step 2: Execute forward and backward movements."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -697,7 +697,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "0mYBp-YxfOc",
+   "checked_by_vision_model": false,
+   "title": "Wehali Timor Leste dansa musica tebe dahur no haksolok"
+  },
   "wardrobe": {
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
@@ -807,32 +811,32 @@
   "counting_basis": "missing",
   "demonstration": [
    "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 8"
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
    "rock step",
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "keep it flat on the ground",
-   "switch",
-   "slide",
-   "hit"
+   "step your right foot sideward",
+   "close your left foot",
+   "point your left foot",
+   "hold your skirt",
+   "put your hands at the back",
+   "take three steps forward",
+   "turn around",
+   "open your fan"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "full_demo",
    "count_in",
+   "full_demo",
    "warmup",
    "breakdown",
-   "music_practice",
    "slow_practice",
+   "music_practice",
    "recap"
   ],
   "steps_as_taught": []
@@ -841,7 +845,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed reference footage",
   "notable figures",
   "lineage",
@@ -856,6 +860,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "861dea8dc3651be7914971302fc8bea8333d26b7ee6d77f52bb295382f0ad979",
+ "input_fingerprint": "f64e8c11471cbab0dde98daf7d0aa6b309d2ecd957524665488938637339d2db",
  "hero_checked": null
 }

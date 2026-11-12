@@ -1,6 +1,6 @@
 # robot — episode pack
 
-*Status: draft · built 2026-11-09 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; licensed images (3 needed)
 
@@ -148,6 +148,8 @@ MUSIC: lesson_slow then lesson_full
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Loose or fluid movements that break the mechanical illusion.
 NARRATION: Teachers of this dance warn against: moving everything below the elbow instead of including the elbow
+NARRATION: Teachers of this dance warn against: not maintaining enough tension in the movements
+NARRATION: Teachers of this dance warn against: not coordinating the head and body movements
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice isolated arm and hand movements with dimestops while seated. · For children: Robot freeze game where children move like robots and freeze on cue.
 MUSIC: silence
@@ -221,6 +223,8 @@ MUSIC: lesson_slow then lesson_full
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Loose or fluid movements that break the mechanical illusion.
 NARRATION: Teachers of this dance warn against: moving everything below the elbow instead of including the elbow
+NARRATION: Teachers of this dance warn against: not maintaining enough tension in the movements
+NARRATION: Teachers of this dance warn against: not coordinating the head and body movements
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice isolated arm and hand movements with dimestops while seated. · For children: Robot freeze game where children move like robots and freeze on cue.
 MUSIC: silence
@@ -295,6 +299,8 @@ MUSIC: lesson_slow then lesson_full
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Loose or fluid movements that break the mechanical illusion.
 NARRATION: Teachers of this dance warn against: moving everything below the elbow instead of including the elbow
+NARRATION: Teachers of this dance warn against: not maintaining enough tension in the movements
+NARRATION: Teachers of this dance warn against: not coordinating the head and body movements
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Practice isolated arm and hand movements with dimestops while seated. · For children: Robot freeze game where children move like robots and freeze on cue.
 MUSIC: silence
@@ -340,10 +346,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 7-and-8-and-1-and-2-e-and-3-and-4-e-and-5-and-6-and-7-and-8-
 Demonstration: views used by most teachers: front, mirror; tempo progression: slow → full; repetitions per step: about 4
-Cues: swing stop; lean forward; arm up; elbow up
-Common mistakes the studied teachers name: moving everything below the elbow instead of including the elbow
+Cues: swing stop; lean forward; arm up; elbow up; twist your wrist; keep your arm tense; pivot your feet; turn your torso
+Common mistakes the studied teachers name: moving everything below the elbow instead of including the elbow; not maintaining enough tension in the movements; not coordinating the head and body movements
 
 Sources (5): https://en.wikipedia.org/wiki/Robot_(dance); https://www.wikidata.org/wiki/Q2725666; https://pt.wikipedia.org/wiki/Robô_(dança); https://it.wikipedia.org/wiki/Robot_(danza); https://archive.org/details/smash-hits-1979-12-13

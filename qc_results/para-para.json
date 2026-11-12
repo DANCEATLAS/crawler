@@ -1,10 +1,10 @@
 {
  "slug": "para-para",
- "qc_at": "2026-11-04T18:42:48Z",
+ "qc_at": "2026-11-12T18:36:00Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 10.0,
+ "qc_score": 9.85,
  "gates": [
   {
    "gate": "has_name",
@@ -14,37 +14,37 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "78"
+   "detail": "84"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "123"
+   "detail": "184"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "In 1999, Takuya Kimura's TV dance to 'Night of Fire' sparked Para Para's third b"
+   "detail": "In 1999, Takuya Kimura’s performance of 'Night of Fire' on the TV show SMAPxSMAP"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "458"
+   "detail": "630"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2714"
+   "detail": "2462"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,occasions_and_meaning,notable_figures,lineage"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "8/8 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "6 paras"
+   "detail": "4 paras"
   },
   {
    "gate": "not_duplicate",
@@ -91,7 +91,7 @@
   "accuracy": 10,
   "respect": 10,
   "specificity": 10,
-  "teaching_value": 10,
+  "teaching_value": 9,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
@@ -101,18 +101,18 @@
   "adaptations_safe": true,
   "overall": 10,
   "verdict": "publish",
-  "notes": "Profile is extremely well-researched, accurate to the evidence, culturally respectful, and fully detailed."
+  "notes": "Comprehensive, extremely well-documented, and accurate profile covering history, music style, and dance technique for Para Para."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "judge_score=10.0"
+  "judge_score=9.85"
  ],
  "citation": {
-  "claims": 8,
-  "supported": 8,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-04T18:21:56Z"
+ "researched_at": "2026-11-12T18:07:03Z"
 }

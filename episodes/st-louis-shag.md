@@ -1,6 +1,6 @@
 # St. Louis shag — episode pack
 
-*Status: draft · built 2026-11-11 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the occasions & meaning section; the costume & setting section; teaching steps written out; what to avoid / common mistakes
 
@@ -310,9 +310,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 48 tutorials across the atlas studied · videos studied: 48
+Source: 53 tutorials across the atlas studied · videos studied: 53
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: side close side; rock step; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; and one and three and five and seven; keep your feet together; relax your knees; step and point; turn turn turn; replace
+Cues: side close side; rock step; out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; keep your feet pointed; use your core
 
 Sources (2): https://en.wikipedia.org/wiki/St._Louis_shag; https://www.wikidata.org/wiki/Q2276336

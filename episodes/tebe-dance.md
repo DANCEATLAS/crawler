@@ -1,8 +1,8 @@
 # Tebe dance — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; notable figures; lineage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local community leader or cultural practitioner from the Belu or Malaka region.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Circle of Solidarity: Tebe Dance
 NARRATION: This is Tebe dance. ancient to contemporary.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (0mYBp-YxfOc)
 ON SCREEN: Title card: Tebe dance · Indonesia, East Timor · ancient to contemporary
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: Performers hold hands in a circle, moving in unison with left, right, forward, and backward steps while stomping their feet to the rhythm of the song.
 NARRATION: Women play Babadok hand drums.
 NARRATION: Watch for Circle Stomp.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (0mYBp-YxfOc)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -111,7 +111,7 @@ NARRATION: Step 1: Hold hands with neighbors to form a circle.
 NARRATION: Step 2: Stomp feet in rhythm with the song.
 NARRATION: Footwork from the sources: rhythmic stomping, left-right, forward-backward
 NARRATION: Drill: Form a circle and hold hands.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -177,7 +177,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Hold hands with neighbors to form a circle.
 NARRATION: Step 2: Stomp feet in rhythm with the song.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -242,7 +242,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Execute simultaneous left and right movements.
 NARRATION: Step 2: Execute forward and backward movements.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -292,7 +292,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance is performed at night, often in outdoor settings. It concludes with a shared meal on a large mat.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '0mYBp-YxfOc', 'checked_by_vision_model': False, 'title': 'Wehali Timor Leste dansa musica tebe dahur no haksolok'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); David Palazón, Tatoli ba Kultura / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); David Palazón, Tatoli ba Kultura / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Aditya Lay berek / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Aditya Lay berek / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: A large circle of dancers at night, Babadok drums, A woven mat with food
@@ -304,7 +304,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (3): https://en.wikipedia.org/wiki/Tebe_dance; https://www.wikidata.org/wiki/Q112061601; https://de.wikipedia.org/wiki/Tebe-Tebe_(Tanz)

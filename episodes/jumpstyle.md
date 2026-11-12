@@ -1,88 +1,80 @@
 # Jumpstyle — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.25 · 9/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed)
+**Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed); the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** Energetic European jumpstyle dancer with competition experience and social media presence
-**Say it:** Jumpstyle, jump style
+**Instructor:** An experienced 'jumper' from the European hard dance scene.
+**Say it:** Jumpstyle, jumpen, jump style
 
 ## Episode 1 · Meet Jumpstyle · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Jumpstyle: Europe's High-Energy Dance Revolution
+NARRATION: The Jumpstyle Revolution: From Belgian Clubs to Global Screens.
 NARRATION: This is Jumpstyle. Late 1990s to present.
 ON SCREEN: Hero video, first 10 seconds (iWRolPgp9JY)
 ON SCREEN: Title card: Jumpstyle · Belgium, Netherlands · Late 1990s to present
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: Jumpstyle originated in Belgium in the late 1990s, around 1997–1998, with early contributions from artists like Da Boy Tommy.
-NARRATION: It developed further in the Netherlands and Germany in the early 2000s.
-NARRATION: The genre peaked commercially between 2006 and 2008, with hits by Jeckyll & Hyde and Scooter's international success.
+NARRATION: Jumpstyle emerged in Belgium around 1997–1998, drawing roots from Chicago hard house and European hard dance.
+NARRATION: It gained significant commercial traction between 2006 and 2008, fueled by artists like Patrick Jumpen and Scooter, before evolving into a digital-first community in the 2010s and 2020s.
 ON SCREEN: Map: Belgium, Netherlands · Europe
 ON SCREEN: Image — MISSING
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Jumpstyle is danced socially at clubs, festivals, and competitions.
-NARRATION: It is a non-sacred, secular dance form associated with electronic music culture.
-NARRATION: Competitions occur both online and in person, including European Jump Masters and World Sidejump League.
+NARRATION: Jumpstyle is practiced as a social dance in clubs, at organized 'jumpmeetings' in public spaces, and through online video competitions.
+NARRATION: It is described as a 'solitaire and apolitique' dance that evolves based on regional influences.
 NARRATION: Today it is a living tradition.
 ON SCREEN: Footage: File:JumpStyle HardJump Shuffle oblivion doprigalsa vizhit siemka.webm (https://upload.wikimedia.org/wikipedia/commons/f/fa/JumpStyle_HardJump_Shuffle_oblivion_doprigalsa_vizhit_siemka.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Jumpstyle dance, called jumpen, involves energetic jumps, fast kicks, and rotational footwork timed to the music.
-NARRATION: Dancers keep a stiff upper body and focus movement in their legs.
-NARRATION: Variants include oldschool (simple 5-touch steps), hardjump (6-touch steps with faster tempo), sidejump (more rotations, less popular), hardfreestyle (blend of hardjump and sidejump), and ownstyle (innovative, incorporating spins and influences from hip-hop and ballet).
-NARRATION: Watch for Basic 5-touch step, Spin, Duo-kick.
+NARRATION: Dancers perform 'jumpen' by executing kicks and jumps in time with the 909 kick drum.
+NARRATION: The upper body remains relatively stiff, with expressive movement concentrated in the legs.
+NARRATION: Dancers may perform solo, in pairs (duojump), or in large groups, often synchronizing footwork and rotations.
+NARRATION: Watch for Duo-kick, Spins.
 ON SCREEN: Hero video full screen, 30–45 s (iWRolPgp9JY)
 ON SCREEN: Captions name each signature move as it appears
-ON SCREEN: Formation: Danced solo, duo side-by-side or facing, or in synchronized groups
+ON SCREEN: Formation: Solo, duo, or group; performed in clubs, parks, or online videos.
 MUSIC: diegetic (the video's own sound), underscore under narration
 
 ### 5. Listen (70 s) · `music`
-NARRATION: Jumpstyle music features tempos between 140 and 160 BPM, a four-on-the-floor 909 kick drum rhythm, and melodic elements from hardstyle such as pitched basslines and square wave synthesizers.
-NARRATION: It developed from tech-trance, hardstyle, gabber, and makina.
-NARRATION: Listen for the 909 kick drum, synthesizers with square waveforms, basslines, multiband distortion effects.
-NARRATION: The pulse is 4/4 at about 140 beats a minute.
-NARRATION: Jumpstyle music features a steady, driving four-on-the-floor 909 kick drum at 140–160 BPM, layered with pitched basslines and square wave synthesizers. The sound is minimal yet energetic, with rhythmic offbeats and melodic elements drawn from hardstyle and techno hardcore.
+NARRATION: The music is characterized by a 140–160 BPM tempo and a four-on-the-floor 909 kick drum.
+NARRATION: Later developments incorporated hardstyle influences, including pitched basslines, multiband distortion, and synthesizers utilizing square waveforms.
+NARRATION: Listen for the synthesizers with square waveforms, drum machine (909), distorted basslines.
+NARRATION: The pulse is 4/4 at about 150 beats a minute.
+NARRATION: A high-tempo electronic sound defined by a heavy, repetitive 909 kick drum and melodic, distorted synthesizer leads.
 ON SCREEN: Instrument names on screen as each is mentioned
-ON SCREEN: Listen later: Frozen Flame — Jeckyll & Hyde; Jumping All Over the World — Scooter; The Secret — Patrick Jumpen
-ON SCREEN: Waveform or rhythm-pattern graphic: Four-on-the-floor 909 kick drum with offbeat elements
+ON SCREEN: Listen later: Frozen Flame — Jeckyll & Hyde; Jumping All Over the World — Scooter; Jumping All Over the World — Scooter (2008)
+ON SCREEN: Waveform or rhythm-pattern graphic: Four-on-the-floor 909 kick drum.
 MUSIC: the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Jumpstyle dancers typically wear casual streetwear suitable for vigorous leg movements and jumps.
-NARRATION: Events take place in clubs, festivals, and public spaces across Europe, with notable venues in Belgium such as Complexe Cap'tain and Pulse Factory.
-NARRATION: Social media and online platforms also serve as venues for competitions and community gatherings.
 ON SCREEN: Images — MISSING
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
-NEEDS: images
+NEEDS: costume_and_setting, images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Patrick Jumpen is a seminal figure in jumpstyle dance and music, known for popularizing the dance and producing tutorials.
-NARRATION: DJs and producers like Da Boy Tommy, Jeckyll & Hyde, Scooter, and Lithuanian rapper Yabujin have been influential in the music scene.
-NARRATION: Variants of jumpstyle dance include oldschool, hardjump, sidejump, hardfreestyle, ownstyle, and tekstyle.
-NARRATION: Jumpstyle descends from European hard dance genres such as gabber, hardstyle, tech-trance, and makina, with early influences from Chicago hard house.
+NARRATION: Key figures include Da Boy Tommy, Patrick Jumpen, the duo Jeckyll & Hyde, and the Lithuanian rapper Yabujin, who pioneered the Yabujin-core revival.
+NARRATION: Variants include oldschool (early basic steps), hardjump (six-touch base), sidejump (rotational focus), hardfreestyle (hybrid of hardjump and sidejump), ownstyle (highly personalized, modern standard), and tekstyle (industrial jump).
+NARRATION: Jumpstyle evolved from tech-trance, hardstyle, gabber, and mákina, and has influenced modern internet-based genres like Yabujincore.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Jumpstyle is parent of gabber: Jumpstyle developed from gabber and shares rhythmic elements.
-NARRATION: Jumpstyle is parent of hardstyle: Incorporates melodic and bassline features from hardstyle.
-NARRATION: Jumpstyle is parent of tech-trance: Early influence on jumpstyle's sound.
-NARRATION: Jumpstyle is parent of makina: Contributed to jumpstyle's early development in Europe.
+NARRATION: Jumpstyle is influence of Hardstyle: Jumpstyle increasingly reflected hardstyle influences from 2002–2003 onwards.
+NARRATION: Jumpstyle is sibling of Hakken: Described as a 'globalized and well-groomed version of hakken'.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. Stand with feet together, knees slightly bent
-NARRATION: Jump and kick right foot forward while left foot stays grounded
+NARRATION: Before we go, one step. 5-touch basic step (oldschool)
+NARRATION: 6-touch basic step (hardjump)
 NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
@@ -90,49 +82,47 @@ ON SCREEN: Count on screen
 MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Explore jumpstyle's rise from Belgian clubs to global online communities through its music and signature jumps.
+NARRATION: Explore the high-octane world of jumpen, a dance style that turned European rave culture into a global digital phenomenon.
 NARRATION: Sources: 5 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
-## Chapter 1 · First steps — Learn basic 5-touch jumpstyle step · 13 min
+## Chapter 1 · First steps — Master the 5-touch basic step. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Learn basic 5-touch jumpstyle step.
-NARRATION: Level: Beginner. Difficulty of the dance overall: Beginner to advanced depending on complexity of steps and spins.
-NARRATION: Your instructor: Energetic European jumpstyle dancer with competition experience and social media presence
+NARRATION: Chapter 1 — First steps. Today: Master the 5-touch basic step..
+NARRATION: Level: Beginner. Difficulty of the dance overall: intermediate.
+NARRATION: Your instructor: An experienced 'jumper' from the European hard dance scene.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Relatively stiff upper body with slight knee bend for jumps
-NARRATION: Used mainly for balance, generally kept controlled and close to body
-NARRATION: Minimal torso movement, hips follow leg kicks subtly
+NARRATION: Relatively stiff upper body with most movement concentrated in the legs.
+NARRATION: Stable torso with rotational movement originating from the hips and legs.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
-NARRATION: Rhythm pattern: Four-on-the-floor 909 kick drum with offbeat elements.
+NARRATION: Rhythm pattern: Four-on-the-floor 909 kick drum..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
-ON SCREEN: Metronome at 98 bpm
+ON SCREEN: Metronome at 105 bpm
 MUSIC: lesson_slow (clicks only until the step lands)
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Stand with feet together, knees slightly bent
-NARRATION: Step 2: Jump and kick right foot forward while left foot stays grounded
-NARRATION: Footwork from the sources: Alternating kicks forward with feet, rotational pivots on supporting foot, fast jumps timed to beat
-NARRATION: Drill: Practice alternating forward kicks with feet
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+NARRATION: Step 1: 5-touch basic step (oldschool)
+NARRATION: Step 2: 6-touch basic step (hardjump)
+NARRATION: Footwork from the sources: Fast kicks, rotational footwork, and jumps in time with the kick drum.
+NARRATION: Drill: Rhythmic stepping
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Jump and switch feet, left foot forward, right foot grounded
-NARRATION: Step 4: Add rotational footwork by pivoting on supporting foot
-NARRATION: Drill: Maintain stiff upper body and slight knee bend
+NARRATION: Step 3: 4-touch basic step (sidejump)
+NARRATION: Drill: Torso stabilization
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -141,69 +131,70 @@ COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Count beats to 140 BPM music
+NARRATION: Drill: Basic kick timing
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid uncoordinated foot contact with others except in duo-kick; maintain balance to prevent injury
+NARRATION: Unintentional physical contact with other dancers outside of the duo-kick.
 ON SCREEN: Side-by-side: source-supported correction
-ON SCREEN: Options card: For children: simplified step-and-kick game with counting
+ON SCREEN: Options card: Seated or supported option: Seated rhythmic leg extensions and torso stabilization. · For children: Jump-and-freeze game using basic 4-touch steps.
 MUSIC: silence
-OPTIONS: For children: simplified step-and-kick game with counting (options are derived teaching suggestions, not facts from the sources)
+OPTIONS: Seated or supported option: Seated rhythmic leg extensions and torso stabilization. · For children: Jump-and-freeze game using basic 4-touch steps. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
-ON SCREEN: Track: lesson_full at 140 bpm
+ON SCREEN: Track: lesson_full at 150 bpm
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Learn basic 5-touch jumpstyle step.
-NARRATION: Jumpstyle is danced socially at clubs, festivals, and competitions.
+NARRATION: You can now: Master the 5-touch basic step..
+NARRATION: Jumpstyle is practiced as a social dance in clubs, at organized 'jumpmeetings' in public spaces, and through online video competitions.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
 
-## Chapter 2 · Building the dance — Incorporate spins and rotational footwork · 13 min
+## Chapter 2 · Building the dance — Execute hardjump transitions. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: Incorporate spins and rotational footwork.
-NARRATION: Level: Intermediate. Difficulty of the dance overall: Beginner to advanced depending on complexity of steps and spins.
-NARRATION: Your instructor: Energetic European jumpstyle dancer with competition experience and social media presence
+NARRATION: Chapter 2 — Building the dance. Today: Execute hardjump transitions..
+NARRATION: Level: Intermediate. Difficulty of the dance overall: intermediate.
+NARRATION: Your instructor: An experienced 'jumper' from the European hard dance scene.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Relatively stiff upper body with slight knee bend for jumps
-NARRATION: Used mainly for balance, generally kept controlled and close to body
-NARRATION: Minimal torso movement, hips follow leg kicks subtly
+NARRATION: Relatively stiff upper body with most movement concentrated in the legs.
+NARRATION: Stable torso with rotational movement originating from the hips and legs.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
-NARRATION: Rhythm pattern: Four-on-the-floor 909 kick drum with offbeat elements.
+NARRATION: Rhythm pattern: Four-on-the-floor 909 kick drum..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
-ON SCREEN: Metronome at 98 bpm
+ON SCREEN: Metronome at 105 bpm
 MUSIC: lesson_slow (clicks only until the step lands)
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Incorporate arm movements for balance, keeping upper body stiff
-NARRATION: Drill: Practice pivot turns on supporting foot
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+NARRATION: Step 1: 5-touch basic step (oldschool)
+NARRATION: Step 2: 6-touch basic step (hardjump)
+NARRATION: Drill: 6-touch footwork
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Basic 5-touch step: Five quick alternating kicks forward and backward
-NARRATION: Spin: Rotational turn on one foot, sometimes airborne
-NARRATION: Drill: Combine kicks with rotational steps
+NARRATION: Step 3: 4-touch basic step (sidejump)
+NARRATION: Duo-kick: Two dancers face each other and synchronize kicks.
+NARRATION: Spins: Rotational movements performed on the ground or in the air.
+NARRATION: Drill: Rotational kicks
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -213,70 +204,69 @@ COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Synchronize steps with partner in duo-jump
+NARRATION: Drill: Duo-jump synchronization
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid uncoordinated foot contact with others except in duo-kick; maintain balance to prevent injury
+NARRATION: Unintentional physical contact with other dancers outside of the duo-kick.
 ON SCREEN: Side-by-side: source-supported correction
-ON SCREEN: Options card: For children: simplified step-and-kick game with counting
+ON SCREEN: Options card: Seated or supported option: Seated rhythmic leg extensions and torso stabilization. · For children: Jump-and-freeze game using basic 4-touch steps.
 MUSIC: silence
-OPTIONS: For children: simplified step-and-kick game with counting (options are derived teaching suggestions, not facts from the sources)
+OPTIONS: Seated or supported option: Seated rhythmic leg extensions and torso stabilization. · For children: Jump-and-freeze game using basic 4-touch steps. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
-NARRATION: Full tempo, the whole sequence, twice. Formation: Danced solo, duo side-by-side or facing, or in synchronized groups
+NARRATION: Full tempo, the whole sequence, twice. Formation: Solo, duo, or group; performed in clubs, parks, or online videos.
 ON SCREEN: Wide shot, instructor and two students
-ON SCREEN: Track: lesson_full at 140 bpm
+ON SCREEN: Track: lesson_full at 150 bpm
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Incorporate spins and rotational footwork.
-NARRATION: Patrick Jumpen is a seminal figure in jumpstyle dance and music, known for popularizing the dance and producing tutorials.
+NARRATION: You can now: Execute hardjump transitions..
+NARRATION: Key figures include Da Boy Tommy, Patrick Jumpen, the duo Jeckyll & Hyde, and the Lithuanian rapper Yabujin, who pioneered the Yabujin-core revival.
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
 
-## Chapter 3 · Dancing it fully — Perform freestyle and aerial jumps · 13 min
+## Chapter 3 · Dancing it fully — Incorporate spins and ownstyle flair. · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: Perform freestyle and aerial jumps.
-NARRATION: Level: Advanced. Difficulty of the dance overall: Beginner to advanced depending on complexity of steps and spins.
-NARRATION: Your instructor: Energetic European jumpstyle dancer with competition experience and social media presence
+NARRATION: Chapter 3 — Dancing it fully. Today: Incorporate spins and ownstyle flair..
+NARRATION: Level: Advanced. Difficulty of the dance overall: intermediate.
+NARRATION: Your instructor: An experienced 'jumper' from the European hard dance scene.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Relatively stiff upper body with slight knee bend for jumps
-NARRATION: Used mainly for balance, generally kept controlled and close to body
-NARRATION: Minimal torso movement, hips follow leg kicks subtly
+NARRATION: Relatively stiff upper body with most movement concentrated in the legs.
+NARRATION: Stable torso with rotational movement originating from the hips and legs.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
-NARRATION: Rhythm pattern: Four-on-the-floor 909 kick drum with offbeat elements.
+NARRATION: Rhythm pattern: Four-on-the-floor 909 kick drum..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
-ON SCREEN: Metronome at 98 bpm
+ON SCREEN: Metronome at 105 bpm
 MUSIC: lesson_slow (clicks only until the step lands)
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Add rotational footwork by pivoting on supporting foot
-NARRATION: Step 2: Incorporate arm movements for balance, keeping upper body stiff
-NARRATION: Drill: Master airborne spins
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+NARRATION: Step 1: 6-touch basic step (hardjump)
+NARRATION: Step 2: 4-touch basic step (sidejump)
+NARRATION: Drill: Aerial spins
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Duo-kick: Facing partner, synchronized foot taps
-NARRATION: Jump kick: High energetic jump with forward kick
-NARRATION: Drill: Create smooth transitions between steps
+NARRATION: Duo-kick: Two dancers face each other and synchronize kicks.
+NARRATION: Spins: Rotational movements performed on the ground or in the air.
+NARRATION: Drill: Hybrid transitions
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -286,28 +276,28 @@ COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
 NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Develop personalized ownstyle combinations
+NARRATION: Drill: Freestyle improvisation
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid uncoordinated foot contact with others except in duo-kick; maintain balance to prevent injury
+NARRATION: Unintentional physical contact with other dancers outside of the duo-kick.
 ON SCREEN: Side-by-side: source-supported correction
-ON SCREEN: Options card: For children: simplified step-and-kick game with counting
+ON SCREEN: Options card: Seated or supported option: Seated rhythmic leg extensions and torso stabilization. · For children: Jump-and-freeze game using basic 4-touch steps.
 MUSIC: silence
-OPTIONS: For children: simplified step-and-kick game with counting (options are derived teaching suggestions, not facts from the sources)
+OPTIONS: Seated or supported option: Seated rhythmic leg extensions and torso stabilization. · For children: Jump-and-freeze game using basic 4-touch steps. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
-NARRATION: Full tempo, the whole sequence, twice. Formation: Danced solo, duo side-by-side or facing, or in synchronized groups
+NARRATION: Full tempo, the whole sequence, twice. Formation: Solo, duo, or group; performed in clubs, parks, or online videos.
 ON SCREEN: Wide shot, instructor and two students
-ON SCREEN: Track: lesson_full at 140 bpm
+ON SCREEN: Track: lesson_full at 150 bpm
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Perform freestyle and aerial jumps.
-NARRATION: Jumpstyle descends from European hard dance genres such as gabber, hardstyle, tech-trance, and makina, with early influences from Chicago hard house.
+NARRATION: You can now: Incorporate spins and ownstyle flair..
+NARRATION: Jumpstyle evolved from tech-trance, hardstyle, gabber, and mákina, and has influenced modern internet-based genres like Yabujincore.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -315,32 +305,32 @@ MUSIC: theme (10 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Jumpstyle (Belgium, Netherlands). Meter 4/4. Tempo about 140 bpm. Rhythm pattern: Four-on-the-floor 909 kick drum with offbeat elements. Instruments: 909 kick drum, synthesizers with square waveforms, basslines, multiband distortion effects. Vocal style: Typically instrumental; some tracks include sampled or minimal vocals. Form: Minimal melodic arrangement with emphasis on rhythm and bass. Mood: energetic, driving, rhythmic, dancefloor-focused. It should sound like this: Jumpstyle music features a steady, driving four-on-the-floor 909 kick drum at 140–160 BPM, layered with pitched basslines and square wave synthesizers. The sound is minimal yet energetic, with rhythmic offbeats and melodic elements drawn from hardstyle and techno hardcore. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Jumpstyle (Belgium, Netherlands). Meter 4/4. Tempo about 150 bpm. Rhythm pattern: Four-on-the-floor 909 kick drum.. Instruments: synthesizers with square waveforms, drum machine (909), distorted basslines. Form: Electronic dance music with hard house and hardstyle influences.. Mood: energetic, fast, intense. It should sound like this: A high-tempo electronic sound defined by a heavy, repetitive 909 kick drum and melodic, distorted synthesizer leads. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
-Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s, 98 bpm); lesson_full (chapters: dance it to the music, 240 s, 140 bpm)
+Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s, 105 bpm); lesson_full (chapters: dance it to the music, 240 s, 150 bpm)
 
-Listen before composing (never copy): Frozen Flame — Jeckyll & Hyde; Jumping All Over the World — Scooter; The Secret — Patrick Jumpen; Jumping All Over the World — Scooter (2008); Frozen Flame — Jeckyll & Hyde (2006)
+Listen before composing (never copy): Frozen Flame — Jeckyll & Hyde; Jumping All Over the World — Scooter; Jumping All Over the World — Scooter (2008); 101% Jumpstylemania — Various Artists (2009)
 
 Rules: Original composition only — no sampling, no melody of any existing recording, no lyrics from any song. Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom. Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe. Label every generated track with the tool, the date and this brief, so provenance is always clear.
 
 ## Visual brief
 
-Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
+Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
 Hero video: {'youtube_id': 'iWRolPgp9JY', 'checked_by_vision_model': False, 'title': 'JumpStyle HardJump Shuffle @ Berlin HardStyle Germany'}
 Images: 0 licensed
 Footage: File:JumpStyle HardJump Shuffle oblivion doprigalsa vizhit siemka.webm — https://upload.wikimedia.org/wikipedia/commons/f/fa/JumpStyle_HardJump_Shuffle_oblivion_doprigalsa_vizhit_siemka.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; jumpstyle — https://archive.org/details/jumpstyle_202306; Jump-Tonic - The Best Electro Dance Videoclips — https://archive.org/details/jump-tonic-the-best-electro-dance-videoclips-dvd-1196561495; Jeckyll & Hyde | Jumpstyle - La Danse Macabre — https://archive.org/details/youtube-cRHdqxcKY1M; Jumpstyle Tutorial ( English) — https://archive.org/details/jumpstyle-tutorial-english_202401
-Motifs: fast foot kicks, spinning dancers, group synchrony, club lighting, 909 kick drum visuals
-Costume notes: Jumpstyle dancers typically wear casual streetwear suitable for vigorous leg movements and jumps. Events take place in clubs, festivals, and public spaces across Europe, with notable venues in Belgium such as Complexe Cap'tain and Pulse Factory. Social media and online platforms also serve as venues for competitions and community gatherings.
+Motifs: Close-ups of rhythmic footwork, Archival footage of 2000s jumpmeetings, Split-screen comparisons of regional styles
+
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 
 ## Teaching formula
 
-Source: 48 tutorials across the atlas studied · videos studied: 48
+Source: 13 tutorial(s) of the street-urban family studied · videos studied: 13
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: side close side; rock step; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; and one and three and five and seven; keep your feet together; relax your knees; step and point; turn turn turn; replace
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
+Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; punch to the side; pull your head down; pivot them on your elbows; swing stop
 
 Sources (5): https://en.wikipedia.org/wiki/Jumpstyle; https://www.wikidata.org/wiki/Q389631; https://es.wikipedia.org/wiki/Jumpstyle; https://fr.wikipedia.org/wiki/Jumpstyle; https://de.wikipedia.org/wiki/Jumpstyle

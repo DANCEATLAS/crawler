@@ -2,7 +2,7 @@
  "slug": "redowa",
  "name": "redowa",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:12Z",
+ "built_at": "2026-11-12T18:57:17Z",
  "researched_at": "2026-11-11T17:54:49Z",
  "qc_score": 9.25,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is redowa. 19th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (tIZozQKadkw)",
      "Title card: redowa · Czech Republic · 19th century"
     ],
     "music": "theme (30 s)"
@@ -111,7 +111,7 @@
      "Watch for Pursuit."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (tIZozQKadkw)",
      "Captions name each signature move as it appears",
      "Formation: Couple dance moving in a line of direction."
     ],
@@ -275,7 +275,7 @@
       "Drill: Count 1-6 in 3/4 time"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -422,7 +422,7 @@
       "Step 2: Small leap step on count 6"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -567,7 +567,7 @@
       "Step 2: Small leap step on count 6"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 8",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -708,7 +708,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "tIZozQKadkw",
+   "checked_by_vision_model": false,
+   "title": "Redowa and Mazurka Waltzes"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -777,32 +781,32 @@
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
    "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 8"
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
-   "and out and out and in and in",
-   "double double",
-   "and cross and cross",
-   "right slap left slap",
    "rock step",
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "keep it flat on the ground",
-   "switch",
-   "slide",
-   "hit"
+   "step your right foot sideward",
+   "close your left foot",
+   "point your left foot",
+   "hold your skirt",
+   "put your hands at the back",
+   "take three steps forward",
+   "turn around",
+   "open your fan"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "full_demo",
    "count_in",
+   "full_demo",
    "warmup",
    "breakdown",
-   "music_practice",
    "slow_practice",
+   "music_practice",
    "recap"
   ],
   "steps_as_taught": []
@@ -810,7 +814,7 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "the costume & setting section"
  ],
@@ -827,6 +831,6 @@
  "claims_verified": 5,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "3ba081093b8059f193453550ed076fcb908da4ce327aae03232b43782219d09d",
+ "input_fingerprint": "e510c6b5c4d4772e366e4b955b3fcaa51ddf75f2426a7a3926cc349ae2a03396",
  "hero_checked": null
 }

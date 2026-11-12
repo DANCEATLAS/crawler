@@ -1,6 +1,6 @@
 # Orunyege-Ntogoro — episode pack
 
-*Status: draft · built 2026-11-11 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; two or more connections
 
@@ -118,7 +118,7 @@ NARRATION: Step 1: Fast rhythmic foot stamping to activate the ebinyege leg ratt
 NARRATION: Step 2: Isolated rhythmic hip swaying and rotational shaking to move the entogoro waist ring.
 NARRATION: Footwork from the sources: Rhythmic, continuous stamping and stepping that sounds leg-mounted rattles, executed in counts coordinated with live drum cues.
 NARRATION: Drill: Practice rhythmic single-leg stamping without rattles to align with basic drum pulse.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -187,7 +187,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Fast rhythmic foot stamping to activate the ebinyege leg rattles in synchronization with the drum rhythm.
 NARRATION: Step 2: Isolated rhythmic hip swaying and rotational shaking to move the entogoro waist ring.
 NARRATION: Drill: Execute isolated lateral hip shifts while maintaining grounded, flexed knees.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -259,7 +259,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Synchronized circular and linear group travel following the calls of the omukama.
 NARRATION: Step 2: Improvised individual solo displays featuring rapid spins and elevation jumps.
 NARRATION: Drill: Perform continuous 2-minute high-tempo stamping intervals to build physical stamina.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -326,7 +326,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (2): https://en.wikipedia.org/wiki/Orunyege-Ntogoro; https://www.wikidata.org/wiki/Q124251084

@@ -1,0 +1,123 @@
+{
+ "slug": "pagode",
+ "qc_at": "2026-11-12T18:36:42Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.5,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "pagode"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "66"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "193"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the late 1970s, the Cacique de Ramos block in Rio de Janeiro transformed back"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "474"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1782"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Brazil"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['god', 'religious', 'offering']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 4,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The profile identifies pagode as a 'dance tradition', but the evidence and the profile's own 'how_it_is_danced' section admit there is no specific dance technique or choreography described, as it is primarily a musical genre."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "publish",
+  "notes": "Pagode is fundamentally a musical genre, not a distinct dance style with its own codified movement vocabulary. While people dance to it, the profile correctly identifies the lack of specific technique. It is a high-quality cultural overview, though it should be framed more as a musical tradition than a dance tradition."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "judge_score=8.5",
+  "doubts=1",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-12T17:55:59Z"
+}

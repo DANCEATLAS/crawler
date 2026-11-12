@@ -1,6 +1,6 @@
 # Cakewalk — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; the how-it-is-danced section
 
@@ -122,7 +122,7 @@ NARRATION: Step 1: Couples link arms and stand erect with slight backward tilt o
 NARRATION: Step 2: Step forward with right foot, lifting knee high in a strut
 NARRATION: Footwork from the sources: High-stepping kicks alternating with slides and struts, performed in time with syncopated rhythm
 NARRATION: Drill: Practice erect posture with slight backward tilt
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -194,7 +194,7 @@ NEEDS: tempo
 NARRATION: Step 1: Repeat with left leg stepping and kicking
 NARRATION: Step 2: Alternate struts and slides in time with music
 NARRATION: Drill: Incorporate smooth slides between steps
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -267,7 +267,7 @@ NEEDS: tempo
 NARRATION: Step 1: Repeat with left leg stepping and kicking
 NARRATION: Step 2: Alternate struts and slides in time with music
 NARRATION: Drill: Experiment with timing variations
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -338,7 +338,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (5): https://en.wikipedia.org/wiki/Cakewalk; https://www.wikidata.org/wiki/Q1026113; https://es.wikipedia.org/wiki/Cakewalk_(baile); https://fr.wikipedia.org/wiki/Cake-walk; https://pt.wikipedia.org/wiki/Cakewalk

@@ -2,9 +2,9 @@
  "slug": "line-dance",
  "name": "Line dance",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:11Z",
- "researched_at": "2026-11-03T17:36:21Z",
- "qc_score": 10.0,
+ "built_at": "2026-11-12T18:57:17Z",
+ "researched_at": "2026-11-12T18:23:44Z",
+ "qc_score": 9.85,
  "status": "draft",
  "release_status": "not_validated",
  "sacred": false,
@@ -45,7 +45,7 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "An experienced, encouraging social dance teacher.",
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
@@ -61,7 +61,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Geometry of the Floor",
+     "The Global Row: How Line Dance Conquered the World",
      "This is Line dance. 20th century to present."
     ],
     "on_screen": [
@@ -75,8 +75,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Modern line dance emerged in the 20th century, drawing on 19th-century European folk traditions and American physical education curricula.",
-     "Key developments include the 1957 'Madison', the 1970s disco-era 'Electric Slide', and the 1990s country-western boom sparked by 'Achy Breaky Heart'."
+     "Modern line dance emerged in the 20th century, with roots in European folk dances brought to North America in the 1800s.",
+     "The 1957 'Madison' is considered one of the first true line dances.",
+     "The 1970s disco era introduced dances like the 'L.A. Hustle' and 'Electric Slide', while the 1980s and 90s saw a surge in country-western line dancing, popularized by films like 'Urban Cowboy' and songs like 'Achy Breaky Heart'."
     ],
     "on_screen": [
      "Map: United States · Global",
@@ -89,8 +90,8 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Line dance serves as a social activity and a recreational sport.",
-     "It is used for community building in social clubs and as a structured exercise format in sports associations.",
+     "Line dance serves as a social activity and a form of recreational exercise.",
+     "It is used in dance programs alongside other styles and is recognized as a competitive discipline in some regions.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -103,15 +104,15 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Dancers stand in parallel lines, repeating a fixed sequence of steps.",
-     "Movements are performed individually without physical contact.",
-     "Dancers rotate to face different 'walls' (front, back, sides) based on the specific choreography.",
-     "Watch for Electric Slide."
+     "Dancers stand in rows, repeating a set sequence of steps.",
+     "Movements are performed independently without physical contact.",
+     "Choreographies are often based on counts of 32, 48, or 64, with syncopated steps like shuffles or chassés.",
+     "Watch for Shuffle, Turn."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (9BhPdnxD6Xk)",
      "Captions name each signature move as it appears",
-     "Formation: Parallel lines; dancers move in unison."
+     "Formation: Parallel rows or lines; dancers face one or more 'walls'."
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
    },
@@ -120,20 +121,19 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Historically tied to country-western music, the genre now encompasses pop, disco, Latin, rock, and techno.",
-     "Music is typically chosen for its steady, repetitive beat that aligns with the 32, 48, or 64-step sequences.",
-     "Listen for the Country instrumentation, Synthesizers, Percussion.",
-     "The pulse is 4/4 (common) or 3/4 (waltz).",
-     "Recognizable by a consistent, driving beat that supports repetitive step patterns, often featuring a blend of acoustic country elements or electronic pop production."
+     "Originally tied to country-western music, line dance now incorporates pop, disco, Latin, rock, and techno.",
+     "Instruments vary by genre, but the music must be suitable for a repeating, rhythmic step sequence.",
+     "Music is chosen for its suitability to a repeating, rhythmic step sequence, spanning genres from country to pop and disco."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
      "Listen later: Electric Boogie — Marcia Griffiths; Achy Breaky Heart — Billy Ray Cyrus; Electric Boogie — Marcia Griffiths (1983)",
-     "Waveform or rhythm-pattern graphic: Repeating sequences often based on 32, 48, or 64 counts."
+     "Waveform or rhythm-pattern graphic: Repeating sequences, often 32, 48, or 64 counts."
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
-     "tempo"
+     "tempo",
+     "meter"
     ]
    },
    {
@@ -141,8 +141,8 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "While historically associated with western wear and boots, modern participants often wear casual clothing and specialized dance trainers.",
-     "It is practiced in dance bars, social clubs, and sports centers."
+     "While historically associated with Western-style clothing and boots, modern participants often wear casual clothing and dance trainers.",
+     "It is practiced in dance bars, social clubs, and ballrooms."
     ],
     "on_screen": [
      "Image gallery: 6 licensed images with attribution",
@@ -155,9 +155,9 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Ric Silver (choreographer of the Electric Slide), Max Perry, Jo Thompson Szymanski, and Scott Blevins.",
-     "Variations include contra-style (lines facing each other) and diverse regional adaptations of country-western, such as the 'Western Swing' and 'Honky Tonk' styles.",
-     "Derived from European folk dances and 20th-century American show dance; influenced by ballroom, disco, and global pop music."
+     "Ric L. Silver (choreographer of the Electric Slide), Max Perry, Jo Thompson Szymanski, Scott Blevins, and Bill Bader.",
+     "Variations include contra-dance (lines facing each other), and regional styles influenced by local music scenes in the US, Europe, and Quebec.",
+     "Evolved from 19th-century European folk dances and 20th-century show dance."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -170,23 +170,21 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Line dance is variant of Contra dance: Contra dance involves lines facing each other, whereas standard line dance usually involves lines facing the same direction."
+     "Line dance is variant of Contra dance: Lines face each other instead of the same direction.",
+     "Line dance is parent of Madison: An early 1957 line dance that influenced later styles."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
     ],
-    "music": "underscore",
-    "needs": [
-     "connections"
-    ]
+    "music": "underscore"
    },
    {
     "code": "first_step",
     "title": "Try one step",
     "duration_s": 60,
     "narration": [
-     "Before we go, one step. Grapevine (step side, cross behind, step side, touch)",
-     "Shuffle/Chassé (triple step)",
+     "Before we go, one step. Step forward",
+     "Step side",
      "Count it: 1-2-3-4 / 5-6-7-8 / and.",
      "Chapter 1 takes it slowly from here."
     ],
@@ -201,7 +199,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover how a simple line of dancers became a global phenomenon.",
+     "Explore the evolution of line dance from 19th-century folk roots to the global phenomenon of the 21st century.",
      "Sources: 5 references are listed with the profile."
     ],
     "on_screen": [
@@ -216,7 +214,7 @@
   {
    "chapter": 1,
    "title": "First steps",
-   "goal": "Master the basic grapevine step.",
+   "goal": "Learn a 4-wall sequence",
    "level": "Beginner",
    "scenes": [
     {
@@ -224,9 +222,9 @@
      "title": "Welcome",
      "duration_s": 45,
      "narration": [
-      "Chapter 1 — First steps. Today: Master the basic grapevine step..",
+      "Chapter 1 — First steps. Today: Learn a 4-wall sequence.",
       "Level: Beginner. Difficulty of the dance overall: beginner.",
-      "Your instructor: An experienced, encouraging social dance teacher."
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -237,21 +235,22 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "Upright and balanced."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 / 5-6-7-8 / and. The meter is 4/4 (common) or 3/4 (waltz).",
-      "Rhythm pattern: Repeating sequences often based on 32, 48, or 64 counts..",
+      "Count: 1-2-3-4 / 5-6-7-8 / and.",
+      "Rhythm pattern: Repeating sequences, often 32, 48, or 64 counts..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -260,7 +259,8 @@
      ],
      "music": "lesson_slow (clicks only until the step lands)",
      "needs": [
-      "tempo"
+      "tempo",
+      "meter"
      ]
     },
     {
@@ -268,10 +268,10 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Grapevine (step side, cross behind, step side, touch)",
-      "Step 2: Shuffle/Chassé (triple step)",
+      "Step 1: Step forward",
+      "Step 2: Step side",
       "Footwork from the sources: Repeating sequences of steps, shuffles, and turns.",
-      "Drill: Side-step practice"
+      "Drill: Basic forward step"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
@@ -286,16 +286,17 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Pivot turn (step forward and turn)",
-      "Step 4: Kick-ball-change",
-      "Drill: Weight transfer drills"
+      "Drill: Side step"
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo"
      ],
      "music": "lesson_slow",
      "counts": "1-2-3-4 / 5-6-7-8 / and",
-     "repetitions": 3
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
     },
     {
      "code": "combine",
@@ -305,7 +306,7 @@
       "Step A, then Step B, without stopping. Slow first.",
       "Now half tempo. Now full tempo.",
       "Mirror: the instructor faces you and mirrors, so your right is your right.",
-      "Drill: Adding the touch"
+      "Drill: 90-degree turn"
      ],
      "on_screen": [
       "Split screen: front view / back view",
@@ -322,14 +323,10 @@
       "Teachers of this dance warn against: people get confused on the turn in section 4"
      ],
      "on_screen": [
-      "Side-by-side: source-supported correction",
-      "Options card: Seated or supported option: Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping. · For children: Follow-the-leader style line dance using simple, repetitive animal-themed movements."
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
-     "options": [
-      "Seated or supported option: Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping.",
-      "For children: Follow-the-leader style line dance using simple, repetitive animal-themed movements."
-     ],
+     "options": [],
      "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
@@ -351,8 +348,8 @@
      "title": "Recap",
      "duration_s": 40,
      "narration": [
-      "You can now: Master the basic grapevine step..",
-      "Line dance serves as a social activity and a recreational sport.",
+      "You can now: Learn a 4-wall sequence.",
+      "Line dance serves as a social activity and a form of recreational exercise.",
       "Next: Chapter 2."
      ],
      "on_screen": [
@@ -376,7 +373,7 @@
      "narration": [
       "Chapter 2 — Building the dance. Today: the building the dance of Line dance.",
       "Level: intermediate. Difficulty of the dance overall: beginner.",
-      "Your instructor: An experienced, encouraging social dance teacher."
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -387,21 +384,22 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "Upright and balanced."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 / 5-6-7-8 / and. The meter is 4/4 (common) or 3/4 (waltz).",
-      "Rhythm pattern: Repeating sequences often based on 32, 48, or 64 counts..",
+      "Count: 1-2-3-4 / 5-6-7-8 / and.",
+      "Rhythm pattern: Repeating sequences, often 32, 48, or 64 counts..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -410,7 +408,8 @@
      ],
      "music": "lesson_slow (clicks only until the step lands)",
      "needs": [
-      "tempo"
+      "tempo",
+      "meter"
      ]
     },
     {
@@ -418,8 +417,8 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Grapevine (step side, cross behind, step side, touch)",
-      "Step 2: Shuffle/Chassé (triple step)"
+      "Step 1: Step forward",
+      "Step 2: Step side"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
@@ -434,9 +433,8 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Step 3: Pivot turn (step forward and turn)",
-      "Step 4: Kick-ball-change",
-      "Electric Slide: A specific sequence of steps including a grapevine and a turn."
+      "Shuffle: A syncopated step sequence.",
+      "Turn: Rotation to face a new wall."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -470,14 +468,10 @@
       "Teachers of this dance warn against: people get confused on the turn in section 4"
      ],
      "on_screen": [
-      "Side-by-side: source-supported correction",
-      "Options card: Seated or supported option: Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping. · For children: Follow-the-leader style line dance using simple, repetitive animal-themed movements."
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
-     "options": [
-      "Seated or supported option: Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping.",
-      "For children: Follow-the-leader style line dance using simple, repetitive animal-themed movements."
-     ],
+     "options": [],
      "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
@@ -486,7 +480,7 @@
      "duration_s": 120,
      "narration": [
       "Count-in: 1-2-3-4 / 5-6-7-8 / and.",
-      "Full tempo, the whole sequence, twice. Formation: Parallel lines; dancers move in unison."
+      "Full tempo, the whole sequence, twice. Formation: Parallel rows or lines; dancers face one or more 'walls'."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -500,7 +494,7 @@
      "duration_s": 40,
      "narration": [
       "You can now: the building the dance of Line dance.",
-      "Ric Silver (choreographer of the Electric Slide), Max Perry, Jo Thompson Szymanski, and Scott Blevins.",
+      "Ric L. Silver (choreographer of the Electric Slide), Max Perry, Jo Thompson Szymanski, Scott Blevins, and Bill Bader.",
       "Next: Chapter 3."
      ],
      "on_screen": [
@@ -524,7 +518,7 @@
      "narration": [
       "Chapter 3 — Dancing it fully. Today: the dancing it fully of Line dance.",
       "Level: advanced. Difficulty of the dance overall: beginner.",
-      "Your instructor: An experienced, encouraging social dance teacher."
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
      ],
      "on_screen": [
       "Instructor front view, name of the chapter, the three things you will learn"
@@ -535,21 +529,22 @@
      "code": "body",
      "title": "Body and posture",
      "duration_s": 60,
-     "narration": [
-      "Upright and balanced."
-     ],
+     "narration": [],
      "on_screen": [
-      "Instructor front then side view; freeze-frame on validated posture"
+      "Demonstration withheld until posture is sourced"
      ],
-     "music": "silence"
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
     },
     {
      "code": "count",
      "title": "Count and rhythm",
      "duration_s": 60,
      "narration": [
-      "Count: 1-2-3-4 / 5-6-7-8 / and. The meter is 4/4 (common) or 3/4 (waltz).",
-      "Rhythm pattern: Repeating sequences often based on 32, 48, or 64 counts..",
+      "Count: 1-2-3-4 / 5-6-7-8 / and.",
+      "Rhythm pattern: Repeating sequences, often 32, 48, or 64 counts..",
       "Clap it first, then step it in place."
      ],
      "on_screen": [
@@ -558,7 +553,8 @@
      ],
      "music": "lesson_slow (clicks only until the step lands)",
      "needs": [
-      "tempo"
+      "tempo",
+      "meter"
      ]
     },
     {
@@ -566,8 +562,8 @@
      "title": "Step A — slowly",
      "duration_s": 150,
      "narration": [
-      "Step 1: Pivot turn (step forward and turn)",
-      "Step 2: Kick-ball-change"
+      "Step 1: Step forward",
+      "Step 2: Step side"
      ],
      "on_screen": [
       "Instructor front view, then back view (student's perspective); three repetitions",
@@ -582,7 +578,8 @@
      "title": "Step B — the next layer",
      "duration_s": 150,
      "narration": [
-      "Electric Slide: A specific sequence of steps including a grapevine and a turn."
+      "Shuffle: A syncopated step sequence.",
+      "Turn: Rotation to face a new wall."
      ],
      "on_screen": [
       "Instructor front and back view; slow, then half tempo",
@@ -616,14 +613,10 @@
       "Teachers of this dance warn against: people get confused on the turn in section 4"
      ],
      "on_screen": [
-      "Side-by-side: source-supported correction",
-      "Options card: Seated or supported option: Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping. · For children: Follow-the-leader style line dance using simple, repetitive animal-themed movements."
+      "Side-by-side: source-supported correction"
      ],
      "music": "silence",
-     "options": [
-      "Seated or supported option: Perform footwork sequences while seated in a chair, focusing on leg extensions and rhythmic tapping.",
-      "For children: Follow-the-leader style line dance using simple, repetitive animal-themed movements."
-     ],
+     "options": [],
      "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
@@ -632,7 +625,7 @@
      "duration_s": 120,
      "narration": [
       "Count-in: 1-2-3-4 / 5-6-7-8 / and.",
-      "Full tempo, the whole sequence, twice. Formation: Parallel lines; dancers move in unison."
+      "Full tempo, the whole sequence, twice. Formation: Parallel rows or lines; dancers face one or more 'walls'."
      ],
      "on_screen": [
       "Wide shot, instructor and two students",
@@ -646,7 +639,7 @@
      "duration_s": 40,
      "narration": [
       "You can now: the dancing it fully of Line dance.",
-      "Derived from European folk dances and 20th-century American show dance; influenced by ballroom, disco, and global pop music.",
+      "Evolved from 19th-century European folk dances and 20th-century show dance.",
       "You know the dance. Go and dance it with people."
      ],
      "on_screen": [
@@ -663,28 +656,23 @@
   "rights_status": "not_assessed",
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
-  "meter": "4/4 (common) or 3/4 (waltz)",
-  "rhythm_pattern": "Repeating sequences often based on 32, 48, or 64 counts.",
-  "instruments": [
-   "Country instrumentation",
-   "Synthesizers",
-   "Percussion"
-  ],
+  "meter": null,
+  "rhythm_pattern": "Repeating sequences, often 32, 48, or 64 counts.",
+  "instruments": [],
   "vocal_style": null,
-  "musical_form": "Repeating song structures with clear, steady beats.",
+  "musical_form": null,
   "mood": [
-   "Upbeat",
-   "Social",
-   "Rhythmic"
+   "social",
+   "recreational"
   ],
-  "sound_description": "Recognizable by a consistent, driving beat that supports repetitive step patterns, often featuring a blend of acoustic country elements or electronic pop production.",
+  "sound_description": "Music is chosen for its suitability to a repeating, rhythmic step sequence, spanning genres from country to pop and disco.",
   "listen_before_composing": [
    "Electric Boogie — Marcia Griffiths",
    "Achy Breaky Heart — Billy Ray Cyrus",
    "Electric Boogie — Marcia Griffiths (1983)",
    "Achy Breaky Heart — Billy Ray Cyrus (2001)"
   ],
-  "prompt": "Original instrumental composition in the musical world of Line dance (United States). Meter 4/4 (common) or 3/4 (waltz). Rhythm pattern: Repeating sequences often based on 32, 48, or 64 counts.. Instruments: Country instrumentation, Synthesizers, Percussion. Form: Repeating song structures with clear, steady beats.. Mood: Upbeat, Social, Rhythmic. It should sound like this: Recognizable by a consistent, driving beat that supports repetitive step patterns, often featuring a blend of acoustic country elements or electronic pop production. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Line dance (United States). Rhythm pattern: Repeating sequences, often 32, 48, or 64 counts.. Mood: social, recreational. It should sound like this: Music is chosen for its suitability to a repeating, rhythmic step sequence, spanning genres from country to pop and disco. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -726,7 +714,7 @@
    "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
    "dress_the_narrator": true,
    "restricted_attire": false,
-   "from_sources": "While historically associated with western wear and boots, modern participants often wear casual clothing and specialized dance trainers. It is practiced in dance bars, social clubs, and sports centers.",
+   "from_sources": "While historically associated with Western-style clothing and boots, modern participants often wear casual clothing and dance trainers. It is practiced in dance bars, social clubs, and ballrooms.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3AMadison_%28dance%291.jpg",
     "https://commons.wikimedia.org/wiki/File%3ANeustadttreffen_2009-Linedance_01.JPG",
@@ -848,12 +836,12 @@
    }
   ],
   "motifs": [
-   "Parallel lines of feet",
-   "The rotation of the group to a new wall",
-   "Archive footage of 1970s disco halls"
+   "Parallel lines of dancers",
+   "Dance trainers",
+   "Step sheets"
   ],
-  "costume_notes": "While historically associated with western wear and boots, modern participants often wear casual clothing and specialized dance trainers. It is practiced in dance bars, social clubs, and sports centers.",
-  "setting_notes": "Line dance serves as a social activity and a recreational sport. It is used for community building in social clubs and as a structured exercise format in sports associations.",
+  "costume_notes": "While historically associated with Western-style clothing and boots, modern participants often wear casual clothing and dance trainers. It is practiced in dance bars, social clubs, and ballrooms.",
+  "setting_notes": "Line dance serves as a social activity and a form of recreational exercise. It is used in dance programs alongside other styles and is recognized as a competitive discipline in some regions.",
   "map": {
    "country": "United States",
    "region": "Global",
@@ -913,8 +901,11 @@
  },
  "gaps": [
   "tempo (bpm)",
+  "meter",
+  "instruments",
   "the hero video's vision check",
-  "two or more connections"
+  "posture, arms and hands",
+  "teaching steps written out"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Line_dance",
@@ -926,6 +917,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "2595ddac6e1170bfeba22151516a1aa3d2872832da2d5a9afe57e7075233d7eb",
+ "input_fingerprint": "3743cc61833d97c3106695476c0ea8231a8c14f1b4727d35b407b78540ebf856",
  "hero_checked": null
 }

@@ -1,8 +1,8 @@
 # Paiki dance — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.55 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-12 · judge 9.55 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; signature moves; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; signature moves; notable figures; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior Rautia or Munda practitioner carrying knowledge of paik weapon handling and ceremonial foot soldier tradition.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Swords of the Nagvanshi Foot Soldiers
 NARRATION: This is Paiki dance. Medieval origin, ongoing.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (9rnS3Gpd8Jk)
 ON SCREEN: Title card: Paiki dance · India · Medieval origin, ongoing
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ ON SCREEN: Footage: File:Paika dance in Khunti, Jharkhand.webm (https://upload.w
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (9rnS3Gpd8Jk)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -105,7 +105,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -166,7 +166,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -226,7 +226,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 NEEDS: teaching steps
@@ -277,7 +277,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performers wear a traditional dhoti along with a turban decorated with peacock feathers. The setting is typically an open ground or village space during celebrations.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '9rnS3Gpd8Jk', 'checked_by_vision_model': False, 'title': 'Paika Dance at Konark Festival 2017'}
 Images: 1 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: File:Paika dance in Khunti, Jharkhand.webm — https://upload.wikimedia.org/wikipedia/commons/b/ba/Paika_dance_in_Khunti%2C_Jharkhand.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Folk Dances of Jharkhand - Documentary - EZCC.webm — https://upload.wikimedia.org/wikipedia/commons/0/03/Folk_Dances_of_Jharkhand_-_Documentary_-_EZCC.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Martial Art of West Bengal (Vol. I) — https://archive.org/details/dni.ncaa.CCRT-337A-UMHB; Martial Art of West Bengal (Vol. II) — https://archive.org/details/dni.ncaa.CCRT-337B-UMHB; Folk Festival (Part II) — https://archive.org/details/dni.ncaa.CCRT-429B-BC; Martial Art of West Bengal (Vol. III) — https://archive.org/details/dni.ncaa.CCRT-337C-UMHB
 Motifs: Iridescent peacock feathers swaying in turbans, Gleaming sword blades held in right hands, Shields held forward defensively in left hands, Dhak and nagara percussionists striking their instruments, Long curved horns of the narsingh raised against the sky
@@ -289,7 +289,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 8
-Cues: and out and out and in and in; double double; and cross and cross; right slap left slap; rock step; side close side; triple step; rock step triple step triple step; keep it flat on the ground; switch; slide; hit
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
+Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
 
 Sources (2): https://en.wikipedia.org/wiki/Paiki_dance; https://www.wikidata.org/wiki/Q114352383

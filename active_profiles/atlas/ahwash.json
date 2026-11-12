@@ -1,13 +1,63 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "Two large groups, typically men and women on opposite sides.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "tara",
+        "tbel",
+        "naqus"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "trance",
+        "ecstatic",
+        "communal"
+      ],
+      "musical_form": "Alternating performance between two groups",
+      "reference_recordings": [
+        {
+          "artist": "Éditions Musée de l'Homme-CNRS",
+          "title": "Berbères du Maroc \"Ahwach\""
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "A rhythmic, percussive soundscape dominated by frame drums and the metallic strike of the naqus, accompanying alternating vocal poetry.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Poetic dialogue"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "Two large groups of men and women on opposite sides.",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "a90e9af9c2cf41cc3daed55e8eb5c20b08038d40160617a12978810d632412d1",
+  "fingerprint": "e2f60b6f6f5af38f3cf50e0628380bb42f0973211bd9eee2f652fda795f799c1",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +65,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +94,7 @@
   ],
   "music_options": [],
   "name": "Ahwash",
-  "research_file": null,
+  "research_file": "research_results/ahwash.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +104,11 @@
     "session_modes": []
   },
   "slug": "ahwash",
-  "sources": [],
-  "state": "researching",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ahwash",
+    "https://www.wikidata.org/wiki/Q4696445",
+    "https://fr.wikipedia.org/wiki/Ahouach"
+  ],
+  "state": "teaching_withheld",
   "video_evidence": []
 }
