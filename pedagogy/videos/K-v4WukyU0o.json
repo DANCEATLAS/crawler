@@ -1,0 +1,129 @@
+{
+ "youtube_id": "K-v4WukyU0o",
+ "slug": "jumpstyle",
+ "dance": "Jumpstyle",
+ "title": "JUMPSTYLE TUTORIAL | THE OLDSCHOOL | BASICS #01",
+ "channel": "POST NEO",
+ "viewer_ratio": 6.0,
+ "analysed_at": "2026-11-13T18:25:57Z",
+ "url": "https://www.youtube.com/watch?v=K-v4WukyU0o",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor breaks down old school jumpstyle basics step-by-step with clear voiceover instructions. They demonstrate movements from a side profile with numerical overlays to guide counting.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "full_demo",
+    "note": "Quick demonstration of jumpstyle basics."
+   },
+   {
+    "t": "0:11",
+    "segment": "breakdown",
+    "note": "Introduction of the 5 parts of the old school basic step."
+   },
+   {
+    "t": "0:19",
+    "segment": "slow_practice",
+    "note": "Counting 1 to 5 while demonstrating slow repetition."
+   },
+   {
+    "t": "0:56",
+    "segment": "layering",
+    "note": "Explanation of arm placement and balance."
+   },
+   {
+    "t": "1:15",
+    "segment": "slow_practice",
+    "note": "Practicing with arms and counts."
+   },
+   {
+    "t": "1:34",
+    "segment": "music_practice",
+    "note": "Full practice to music at normal speed."
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5",
+  "cues": [
+   "Feet Parallel",
+   "Relax & breath"
+  ],
+  "metaphors": [
+   "Use your arms as a balancer"
+  ],
+  "demonstration": {
+   "angles": [
+    "side"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": 5
+  },
+  "common_mistakes": [],
+  "safety": [
+   "Relax & breath"
+  ],
+  "steps_taught": [
+   {
+    "name": "Oldschool Basic",
+    "counts": "1-2-3-4-5",
+    "description": "Five-part jumpstyle basic starting with the right leg behind."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "On-screen numbers corresponding to the counts",
+    "Clear breakdown into five parts"
+   ],
+   "what_hinders": [
+    "Only side profile is shown during breakdown"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:12",
+    "text": "The old school basic step is divided into five parts."
+   },
+   {
+    "t": "0:56",
+    "text": "Use your arms as a balancer without exaggerating."
+   },
+   {
+    "t": "1:12",
+    "text": "The goal is to create balance while jumping."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 10,
+    "topic": "movement",
+    "observation": "Dancer demonstrates jumpstyle choreography in profile view.",
+    "viewpoint": "side, unknown mirror",
+    "cannot_infer": "exact foot weight distribution",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 19,
+    "end_s": 33,
+    "topic": "teaching",
+    "observation": "Numbers 1 through 5 appear on screen matching leg movements.",
+    "viewpoint": "side, unknown mirror",
+    "cannot_infer": "audio voiceover timing synchronization",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Breaking down a jumpstyle basic strictly into a numbered 1-5 sequence with on-screen numerical guides."
+ }
+}

@@ -1,6 +1,6 @@
 # postmodern dance — episode pack
 
-*Status: draft · built 2026-11-12 · judge 9.45 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 9.45 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -295,6 +295,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 5 tutorial(s) of the stage-contemporary family studied · videos studied: 5
 Counting: 
 Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; make a little bit space between feet; try to find some groove; keep the water inside; make it easy; try to make the shift; make some groovy in your chest; try to find in your spine; make the snake finish on your arms; short verbal cue the teacher repeats  8 words
+Cues: keep your feet pointed; use your core; lean your body back; knees to chest; straightening my legs; bringing my body up; bend both legs; opening my left arm; straightening my left leg; bringing my top leg down; make a little bit space between feet; try to find some groove
 
 Sources (4): https://en.wikipedia.org/wiki/Postmodern_dance; https://www.wikidata.org/wiki/Q673769; https://es.wikipedia.org/wiki/Danza_posmoderna; https://pt.wikipedia.org/wiki/Dança_pós-moderna

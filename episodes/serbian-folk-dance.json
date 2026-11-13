@@ -1,0 +1,886 @@
+{
+ "slug": "serbian-folk-dance",
+ "name": "Serbian folk dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-13T18:27:38Z",
+ "researched_at": "2026-11-13T17:36:12Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A member of a local Cultural Artistic Society.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Serbian folk dance",
+   "Serbian folk kola",
+   "Serbian folk kolo"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Serbian folk dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Wheel of Serbia: Understanding the Kolo",
+     "This is Serbian folk dance. 19th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Serbian folk dance · Serbia · 19th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Kolo dances originated in different parts of Serbia, shaped by local traditions, historical influences, and migration patterns.",
+     "The tradition is a collective practice that has been documented since at least the 19th century, with specific dances like Moravac and Kukunjest recorded in Central Serbia during that era."
+    ],
+    "on_screen": [
+     "Map: Serbia · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Kolo is a social dance used to celebrate community events.",
+     "It is a collective expression of unity, and in the case of the Šetnja, it was historically used to gather people into a growing chain during festivities.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Serbian Folk Dance (Balkan Folk Fest 2018) [WWW.ETOILE.APP] (https://archive.org/details/serbian-folk-dance-balkan-folk-fest-2018-www.-etoile.-app)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Kolo is danced in a closed or open circle with dancers holding hands in a V or W formation.",
+     "The kolovodja leads the group.",
+     "Steps are often laterally symmetrical, involving triple steps, cross steps, and hops.",
+     "Watch for Triple step, Hop."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Closed or open circle, moving laterally."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music is typically characterized by lively melodies in major scales.",
+     "Common time signatures include 2/4, 3/4, 7/8, and 7/16.",
+     "Listen for the accordion.",
+     "The pulse is 2/4, 3/4, 7/8, 7/16.",
+     "Lively major-scale melodies often played on the accordion, characterized by rhythmic consistency that aligns with the 8-measure dance structure."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Užičko kolo — Milija Spasojević",
+     "Waveform or rhythm-pattern graphic: Lively, often involving 8-measure phrasing that matches the dance steps."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers often wear full traditional costumes when performing on stage.",
+     "The dance occurs at weddings, festivals, and social gatherings in both urban and rural settings."
+    ],
+    "on_screen": [
+     "Image gallery: 6 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Milija Spasojević, an accordionist who composed the melody for Užičko kolo in 1962.",
+     "Saša Mutic, who composed the Robot Kolo in 1984.",
+     "Variants include the Šumadija-based Kolo in three steps, the northern Banat Malo Kolo, the eastern Serbian Rumenka Kolo, and the southeastern Čačak Kolo.",
+     "The tradition is part of the broader Slavic folk dance family, with influences from regional interactions and historical legacies."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Serbian folk dance is shares music of Lesnoto: Lako Kolo is identified as the same dance as Lesnoto."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Connect hands with neighbors in a V or W formation.",
+     "Move to the right using a triple step pattern.",
+     "Count it: 1-2, 1-2 (two beats a bar; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the collective spirit of the Kolo, a dance that has united Serbian communities for generations.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic lateral step.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic lateral step..",
+      "Level: Beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: A member of a local Cultural Artistic Society."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with hands connected in V or W formation.",
+      "Hands connected and hanging by the body or under the arms; Vojvodina grip used in some variants."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4, 3/4, 7/8, 7/16.",
+      "Rhythm pattern: Lively, often involving 8-measure phrasing that matches the dance steps..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Connect hands with neighbors in a V or W formation.",
+      "Step 2: Move to the right using a triple step pattern.",
+      "Footwork from the sources: Lateral steps, triple steps, and hops.",
+      "Drill: Side-step right, side-step left."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Hop in place while maintaining the bounce.",
+      "Step 4: Repeat the movement pattern to the left.",
+      "Drill: Adding the hop on the third beat."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Linking hands with a partner."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic lateral step..",
+      "Kolo is a social dance used to celebrate community events.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Serbian folk dance",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Serbian folk dance.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: A member of a local Cultural Artistic Society."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with hands connected in V or W formation.",
+      "Hands connected and hanging by the body or under the arms; Vojvodina grip used in some variants."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4, 3/4, 7/8, 7/16.",
+      "Rhythm pattern: Lively, often involving 8-measure phrasing that matches the dance steps..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Connect hands with neighbors in a V or W formation.",
+      "Step 2: Move to the right using a triple step pattern."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Hop in place while maintaining the bounce.",
+      "Step 4: Repeat the movement pattern to the left.",
+      "Triple step: A basic movement motif used in the Kolo in three steps.",
+      "Hop: A rhythmic hop performed in place."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Closed or open circle, moving laterally."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Serbian folk dance.",
+      "Milija Spasojević, an accordionist who composed the melody for Užičko kolo in 1962.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Serbian folk dance",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Serbian folk dance.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: A member of a local Cultural Artistic Society."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with hands connected in V or W formation.",
+      "Hands connected and hanging by the body or under the arms; Vojvodina grip used in some variants."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2, 1-2 (two beats a bar; practice pulse only). The meter is 2/4, 3/4, 7/8, 7/16.",
+      "Rhythm pattern: Lively, often involving 8-measure phrasing that matches the dance steps..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Hop in place while maintaining the bounce.",
+      "Step 2: Repeat the movement pattern to the left."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Triple step: A basic movement motif used in the Kolo in three steps.",
+      "Hop: A rhythmic hop performed in place."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2, 1-2 (two beats a bar; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2, 1-2 (two beats a bar; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Closed or open circle, moving laterally."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Serbian folk dance.",
+      "The tradition is part of the broader Slavic folk dance family, with influences from regional interactions and historical legacies.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "2/4, 3/4, 7/8, 7/16",
+  "rhythm_pattern": "Lively, often involving 8-measure phrasing that matches the dance steps.",
+  "instruments": [
+   "accordion"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "lively",
+   "energetic"
+  ],
+  "sound_description": "Lively major-scale melodies often played on the accordion, characterized by rhythmic consistency that aligns with the 8-measure dance structure.",
+  "listen_before_composing": [
+   "Užičko kolo — Milija Spasojević"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Serbian folk dance (Serbia). Meter 2/4, 3/4, 7/8, 7/16. Rhythm pattern: Lively, often involving 8-measure phrasing that matches the dance steps.. Instruments: accordion. Mood: lively, energetic. It should sound like this: Lively major-scale melodies often played on the accordion, characterized by rhythmic consistency that aligns with the 8-measure dance structure. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Dancers often wear full traditional costumes when performing on stage. The dance occurs at weddings, festivals, and social gatherings in both urban and rural settings.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AGKUD_Serbian.jpg",
+    "https://commons.wikimedia.org/wiki/File%3APraha%2C_Star%C3%A9_M%C4%9Bsto%2C_Ovocn%C3%BD_trh%2C_Pra%C5%BEsk%C3%BD_jarmark%2C_srbsk%C3%A9_lidov%C3%A9_tance_VI.JPG",
+    "https://commons.wikimedia.org/wiki/File%3AIgre_iz_okoline_Leskovca.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/GKUD_Serbian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/GKUD_Serbian.jpg/1280px-GKUD_Serbian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Björn Láczay / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AGKUD_Serbian.jpg",
+    "description": "Serbian Dance group from Sombor dancing Kolo in East Serbian folk attire"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Praha%2C_Star%C3%A9_M%C4%9Bsto%2C_Ovocn%C3%BD_trh%2C_Pra%C5%BEsk%C3%BD_jarmark%2C_srbsk%C3%A9_lidov%C3%A9_tance_VI.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Praha%2C_Star%C3%A9_M%C4%9Bsto%2C_Ovocn%C3%BD_trh%2C_Pra%C5%BEsk%C3%BD_jarmark%2C_srbsk%C3%A9_lidov%C3%A9_tance_VI.JPG/1280px-Praha%2C_Star%C3%A9_M%C4%9Bsto%2C_Ovocn%C3%BD_trh%2C_Pra%C5%BEsk%C3%BD_jarmark%2C_srbsk%C3%A9_lidov%C3%A9_tance_VI.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "I would appreciate being notified if you use my work outside Wikimedia.\nMore of my work can be found in my personal gallery. / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APraha%2C_Star%C3%A9_M%C4%9Bsto%2C_Ovocn%C3%BD_trh%2C_Pra%C5%BEsk%C3%BD_jarmark%2C_srbsk%C3%A9_lidov%C3%A9_tance_VI.JPG",
+    "description": "This photograph was taken with a DSLR from WMCZ's Camera grant."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Igre_iz_okoline_Leskovca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/00/Igre_iz_okoline_Leskovca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Sasa.mazinjanin / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AIgre_iz_okoline_Leskovca.jpg",
+    "description": "Международен фолклорен фестивал „Малешево пее и танцува“ (2008) в с. Микрево, община Струмяни, област Благоевград. Състав от гр. Нова Пазова, Сремски окръг играе танц от района на гр. Лесковац, Ябланишки окръг, Сърбия."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Narodnja_nosnja_Vranje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Narodnja_nosnja_Vranje.jpg/1280px-Narodnja_nosnja_Vranje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Dmitry Boyarin from Russia / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANarodnja_nosnja_Vranje.jpg",
+    "description": "Traditional dance from Vranje, Serbia"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/6The_Serbian_National_Folk_Dance_Ensemble_Kolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/6The_Serbian_National_Folk_Dance_Ensemble_Kolo.jpg/1280px-6The_Serbian_National_Folk_Dance_Ensemble_Kolo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Laslovarga / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A6The_Serbian_National_Folk_Dance_Ensemble_Kolo.jpg",
+    "description": "The Serbian National Folk Dance Ensemble Kolo presents presents Dances from Gnjilane. Hamilton, Canada - 2011. Choreographer Dejan Milosavljevic"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ensemble_%22Kolo%22_dancing_folk_dance_of_Gnjilane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Ensemble_%22Kolo%22_dancing_folk_dance_of_Gnjilane.jpg/1280px-Ensemble_%22Kolo%22_dancing_folk_dance_of_Gnjilane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Laslovarga / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AEnsemble_%22Kolo%22_dancing_folk_dance_of_Gnjilane.jpg",
+    "description": "The Serbian National Folk Dance Ensemble Kolo presents Dances from Gnjilane. Hamilton, Canada - 2011. Choreographer Dejan Milosavljevic"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Serbian Folk Dance (Balkan Folk Fest 2018) [WWW.ETOILE.APP]",
+    "url": "https://archive.org/details/serbian-folk-dance-balkan-folk-fest-2018-www.-etoile.-app",
+    "year": 2018,
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Šule Radosavljević - Sokolska pesma i Žikino kolo (1927)",
+    "url": "https://archive.org/details/youtube-2OGUBXvEgJY",
+    "year": 2014,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Vasa Bukvić - Arapsko kokonješte (1916)",
+    "url": "https://archive.org/details/youtube-sRidWraF2Tc",
+    "year": 2014,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Henrico Learning Today - Three Chopt Elementary School",
+    "url": "https://archive.org/details/hcpsva-Henrico_Learning_Today_-_Three_Chopt_Elementary_School",
+    "year": 2022,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Stevan Bačić-Trnda - Iz Skoplja pojdo",
+    "url": "https://archive.org/details/youtube-dg7WnRS-3rQ",
+    "year": 2020,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Hands linked in a circle",
+   "Traditional embroidered costumes",
+   "Accordion player"
+  ],
+  "costume_notes": "Dancers often wear full traditional costumes when performing on stage. The dance occurs at weddings, festivals, and social gatherings in both urban and rural settings.",
+  "setting_notes": "Kolo is a social dance used to celebrate community events. It is a collective expression of unity, and in the case of the Šetnja, it was historically used to gather people into a growing chain during festivities.",
+  "map": {
+   "country": "Serbia",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "16 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 16,
+  "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "keep those abs pulled in",
+   "engage all the muscles",
+   "keep those shoulders down",
+   "control control",
+   "left foot go",
+   "brush brush step",
+   "double step rock step",
+   "step back and instead of her hand being on my shoulder",
+   "we're going to bump sides just like this",
+   "we're going to step towards each other",
+   "we're going to do a spin a little bit",
+   "rock step"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Serbian_dances",
+  "https://www.wikidata.org/wiki/Q108438031",
+  "https://it.wikipedia.org/wiki/Danza_serba"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "7259b38fac202cae8fa55db748e8e9a28a5ee856208b39d133e2981857e13150",
+ "hero_checked": null
+}

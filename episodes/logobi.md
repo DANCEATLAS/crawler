@@ -1,6 +1,6 @@
 # logobi — episode pack
 
-*Status: draft · built 2026-11-12 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
 
@@ -118,7 +118,7 @@ NARRATION: Step 1: Rapid arm movements mimicking combat or street gestures
 NARRATION: Step 2: Jerky, rhythmic footwork patterns
 NARRATION: Footwork from the sources: Jerky, rapid, and saccadic
 NARRATION: Drill: Slow-motion arm extension
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -186,7 +186,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Rapid arm movements mimicking combat or street gestures
 NARRATION: Step 2: Jerky, rhythmic footwork patterns
 NARRATION: Drill: Saccadic step-touch
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -255,7 +255,7 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Jerky, rhythmic footwork patterns
 NARRATION: Step 2: Martial arts-inspired stances and strikes
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -320,9 +320,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the street-urban family studied · videos studied: 13
+Source: 16 tutorial(s) of the street-urban family studied · videos studied: 16
 Counting: 
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; punch to the side; pull your head down; pivot them on your elbows; swing stop
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: make sure you touch all the way back; down back out back up back out back; feet parallel; relax  breath; swing stop; lean forward; arm up; elbow up; 1-2-3-4; 1-2-3-4-5; 1-2-3-4-5-6; 1-2-3-4-5-6-7-8
 
 Sources (3): https://en.wikipedia.org/wiki/Logobi; https://www.wikidata.org/wiki/Q373982; https://fr.wikipedia.org/wiki/Logobi

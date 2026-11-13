@@ -1,13 +1,83 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Double hand hold at waist or shoulder level; shadow position.",
+      "difficulty": "beginner",
+      "footwork": "Steps are often mirrored; includes taps, triple steps, and skips.",
+      "formation_and_space": "Progressive along the line of dance or stationary.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes jumpy movements in Varu-Varu.",
+      "partnering": "Open or loose hold without body contact.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Step-step-step-hold, performed forward, backward, or with a turn.",
+          "name": "Russian triple step"
+        }
+      ],
+      "tempo_feel": "Medium to fast.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "2/4 or 4/4",
+      "mood_keywords": [
+        "vivid",
+        "light",
+        "soft",
+        "smooth"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "not described in sources",
+          "title": "Russian Lyrical"
+        },
+        {
+          "artist": "not described in sources",
+          "title": "Moscow Nights"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Music varies from folk-based melodies to disco-influenced tracks in 2/4 or 4/4 time.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Rylio: 1-2, 3-4, 5-6-7-8 (tap-step, tap-step, step-step-step-step)",
+        "Varu-Varu: 1-2-3-4, 5-6-7-8 (side-together-side-heel, side-together-side-heel)",
+        "Sudarushka: 1-2-3-4, 5-6-7-8 (step-step-step-tap, step-step-step-tap)"
+      ],
+      "formation": "Double hand hold or shadow position",
+      "level_notes": "not described in sources",
+      "rhythm": "2/4 or 4/4"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "0aa9574e312fdd6e73d0e2b0e9e94c06232181b11a40c91e695223d04388abed",
+  "fingerprint": "399ec345a1bb98f9db20e243be9d8b222536cd7cecfc06a4600385ae87f2e5b0",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +85,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: posture, what_to_avoid",
+      "music_structure: rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +114,7 @@
   ],
   "music_options": [],
   "name": "Soviet ballroom dances",
-  "research_file": null,
+  "research_file": "research_results/soviet-ballroom-dances.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +126,7 @@
   "slug": "soviet-ballroom-dances",
   "sources": [
     "https://en.wikipedia.org/wiki/Soviet_ballroom_dances",
-    "Source: Soviet ballroom dances on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Soviet_ballroom_dances"
+    "https://www.wikidata.org/wiki/Q7571748"
   ],
   "state": "researching",
   "video_evidence": []

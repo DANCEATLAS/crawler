@@ -1,13 +1,82 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "open spaces including streets, parks, and clubs",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Acrobatic floorwork involving musicality and ground-based movement.",
+          "name": "Breaking"
+        },
+        {
+          "description": "Movement characterized by sharp, saccadic muscle contractions.",
+          "name": "Popping"
+        },
+        {
+          "description": "Movement characterized by points and rapid, distinct stops.",
+          "name": "Locking"
+        },
+        {
+          "description": "Movement inspired by fashion magazine poses.",
+          "name": "Voguing"
+        }
+      ],
+      "tempo_feel": "energetic and unpredictable",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "energetic",
+        "expressive"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "rhythmic with heavy bass",
+      "sound_description": "Music is characterized by high energy, rhythmic complexity, and a strong emphasis on bass frequencies, often associated with hip-hop and funk genres.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "open spaces, circles, or facing spectators",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "2e39850b7b849d619ba2d31c9d361997fa3d703962ae5f2cb6c989375b1a372c",
+  "fingerprint": "324a0b920df44067fc79249c1b7a84c4cb62b9ce22af28c1bad2676e5f653800",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +84,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +113,7 @@
   ],
   "music_options": [],
   "name": "Street dance",
-  "research_file": null,
+  "research_file": "research_results/street-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +125,10 @@
   "slug": "street-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Street_dance",
-    "Source: Street dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Street_dance"
+    "https://www.wikidata.org/wiki/Q1061584",
+    "https://es.wikipedia.org/wiki/Baile_urbano",
+    "https://fr.wikipedia.org/wiki/Street_dance",
+    "https://pt.wikipedia.org/wiki/Dança_de_rua"
   ],
   "state": "researching",
   "video_evidence": []

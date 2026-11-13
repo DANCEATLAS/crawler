@@ -1,0 +1,122 @@
+{
+ "slug": "eunyul-talchum",
+ "qc_at": "2026-11-13T18:16:13Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 7.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Eunyul talchum"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "57"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "207"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Designated as Important Intangible Cultural Property No. 61, this mask drama pre"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "428"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2184"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "North Korea"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['monk']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 2,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The profile claims Eunyul talchum belongs to the sandaenori theatrical lineage, but the evidence quote suggests it is 'also one of sandaenori', which is a point of scholarly debate as Eunyul talchum is typically categorized as Hwanghae-do talchum, distinct from the sandaenori of the Seoul/Gyeonggi region.",
+   "The profile lists six acts but only names five in the text (Lion, Sangjwa, Mokjung, Old Monk, Old Couple)."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "review",
+  "notes": "The profile is well-researched but contains a structural error: it claims six acts exist but only lists five. Additionally, the classification as 'sandaenori' is contentious in dance history; it is safer to describe it as a regional Hwanghae-do mask dance. Teaching value is low due to lack of movement descriptions."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=7.6",
+  "doubts=2"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-13T17:34:51Z"
+}

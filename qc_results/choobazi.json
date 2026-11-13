@@ -1,0 +1,118 @@
+{
+ "slug": "choobazi",
+ "qc_at": "2026-11-13T18:15:47Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 10.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Choobazi"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "76"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "188"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the Bakhtiari tradition, the attacker screams to undermine their opponent's m"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "343"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2636"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Iran"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Middle East"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ritual']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 10,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "publish",
+  "notes": "Comprehensive, accurate profile of Choobazi supported fully by evidence claims."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=10.0"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-13T17:24:35Z"
+}

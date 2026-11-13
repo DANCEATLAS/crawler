@@ -1,0 +1,843 @@
+{
+ "slug": "duffmuttu",
+ "name": "Duffmuttu",
+ "pack_version": "e2",
+ "built_at": "2026-11-13T18:27:38Z",
+ "researched_at": "2026-11-13T17:25:03Z",
+ "qc_score": 9.55,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Duffmuttu",
+   "Dubhmuttu",
+   "Daf"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Duffmuttu",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Rhythms of the Malabar Coast",
+     "This is Duffmuttu."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Duffmuttu · India · Not described in sources"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Duffmuttu is prevalent in the Malabar region of Kerala and Karnataka, India.",
+     "The name derives from the duff, a percussion instrument of Arabic origin made of wood and ox skin."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Performed as social entertainment, at weddings, festivals, and uroos (festivals connected with mosques).",
+     "The songs are tributes to Islamic heroes and martyrs.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "A performance consists of ten members who stand or sit facing each other.",
+     "Performers sway their bodies to the tempo of the song, drum the duff with fingers or palms, and often toss the drums over their heads.",
+     "Watch for Duff toss."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Ten members facing each other"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is centered on the duff (thappitta).",
+     "A lead player sings the primary song, while the rest of the troupe provides the chorus.",
+     "Listen for the Duff (thappitta).",
+     "A vocal-led performance accompanied by the percussive, rhythmic striking of ox-skin drums."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Rhythmic beats set by the duff"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Image gallery: 7 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Aravana Muttu (or Arabana Muttu) is a closely related art form that uses a similar drum called the arabana.",
+     "Associated with Mappila culture."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Duffmuttu is variant of Aravana Muttu: Uses a similar drum called the arabana."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Rhythmic swaying of the body",
+     "Striking the duff with fingers or palms",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the ten-member Duffmuttu troupe and the history of the ox-skin drum.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "the first steps of Duffmuttu",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: the first steps of Duffmuttu.",
+      "Level: beginner. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Drumming with fingers or palms; tossing drums over the head"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Rhythmic beats set by the duff.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Rhythmic swaying of the body",
+      "Step 2: Striking the duff with fingers or palms"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Tossing the duff over the head"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the first steps of Duffmuttu.",
+      "Performed as social entertainment, at weddings, festivals, and uroos (festivals connected with mosques).",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Duffmuttu",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Duffmuttu.",
+      "Level: intermediate. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Drumming with fingers or palms; tossing drums over the head"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Rhythmic beats set by the duff.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Rhythmic swaying of the body",
+      "Step 2: Striking the duff with fingers or palms"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Tossing the duff over the head",
+      "Duff toss: Tossing the duff over the head while moving rhythmically"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Ten members facing each other"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Duffmuttu.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Duffmuttu",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Duffmuttu.",
+      "Level: advanced. ",
+      "Your instructor: a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Drumming with fingers or palms; tossing drums over the head"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Rhythmic beats set by the duff.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Striking the duff with fingers or palms",
+      "Step 2: Tossing the duff over the head"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 5",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Duff toss: Tossing the duff over the head while moving rhythmically"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Ten members facing each other"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Duffmuttu.",
+      "Associated with Mappila culture.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Rhythmic beats set by the duff",
+  "instruments": [
+   "Duff (thappitta)"
+  ],
+  "vocal_style": "Lead singer with chorus",
+  "musical_form": null,
+  "mood": [
+   "tribute",
+   "rhythmic",
+   "communal"
+  ],
+  "sound_description": "A vocal-led performance accompanied by the percussive, rhythmic striking of ox-skin drums.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Duffmuttu (India). Rhythm pattern: Rhythmic beats set by the duff. Instruments: Duff (thappitta). Vocal style: Lead singer with chorus. Mood: tribute, rhythmic, communal. It should sound like this: A vocal-led performance accompanied by the percussive, rhythmic striking of ox-skin drums. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ADuffmuttu20180219110544_25_1.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ADafmut_IMG_1345.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Odissi_Performance_DS.jpg/1280px-Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "description": "Odissi Perfomance"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Duffmuttu20180219110544_25_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Duffmuttu20180219110544_25_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Fathimathsafna1840254 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADuffmuttu20180219110544_25_1.jpg",
+    "description": "दुफ्फ्"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Dafmut_IMG_1345.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Dafmut_IMG_1345.jpg/1280px-Dafmut_IMG_1345.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Kannan Shanmugam, Shanmugam Studio, Kollam / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADafmut_IMG_1345.jpg",
+    "description": "Dafmut"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Duffmuttu_IUHSS_Parappur_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Duffmuttu_IUHSS_Parappur_01.jpg/1280px-Duffmuttu_IUHSS_Parappur_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Irshad P / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADuffmuttu_IUHSS_Parappur_01.jpg",
+    "description": "Duffmuttu (also: Dubhmuttu) is an art form prevalent in the Malabar region of the states of Kerala and Karnataka in south India. It derives its name from the duff, a percussion instrument made of wood and ox skin. The word duff is of Arabic origin and is also called a thappitta.\nDuffmuttu is performed as social entertainment and to commemorate festivals, uroos (festivals connected with mosques) an"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Duffmuttu_IUHSS_Parappur_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Duffmuttu_IUHSS_Parappur_04.jpg/1280px-Duffmuttu_IUHSS_Parappur_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Irshad P / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADuffmuttu_IUHSS_Parappur_04.jpg",
+    "description": "Duffmuttu (also: Dubhmuttu) is an art form prevalent in the Malabar region of the states of Kerala and Karnataka in south India. It derives its name from the duff, a percussion instrument made of wood and ox skin. The word duff is of Arabic origin and is also called a thappitta.\nDuffmuttu is performed as social entertainment and to commemorate festivals, uroos (festivals connected with mosques) an"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Duffmuttu_IUHSS_Parappur_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Duffmuttu_IUHSS_Parappur_06.jpg/1280px-Duffmuttu_IUHSS_Parappur_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Irshad P / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADuffmuttu_IUHSS_Parappur_06.jpg",
+    "description": "Duffmuttu (also: Dubhmuttu) is an art form prevalent in the Malabar region of the states of Kerala and Karnataka in south India. It derives its name from the duff, a percussion instrument made of wood and ox skin. The word duff is of Arabic origin and is also called a thappitta.\nDuffmuttu is performed as social entertainment and to commemorate festivals, uroos (festivals connected with mosques) an"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Duffmuttu_perfomance_by_IUHSS_Parappur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Duffmuttu_perfomance_by_IUHSS_Parappur.jpg/1280px-Duffmuttu_perfomance_by_IUHSS_Parappur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Irshad Yusuf / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADuffmuttu_perfomance_by_IUHSS_Parappur.jpg",
+    "description": "Duffmuttu perfomance by IUHSS Parappur"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Ox-skin drums",
+   "Facing rows of performers",
+   "The motion of the drum toss"
+  ],
+  "costume_notes": null,
+  "setting_notes": "Performed as social entertainment, at weddings, festivals, and uroos (festivals connected with mosques). The songs are tributes to Islamic heroes and martyrs.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "2 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 2,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage",
+  "the costume & setting section",
+  "notable figures",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Duffmuttu",
+  "https://www.wikidata.org/wiki/Q16209881"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "986307a926cd98a00707610775c0d02975c93bf967944c4a430b6a2235eed21a",
+ "hero_checked": null
+}

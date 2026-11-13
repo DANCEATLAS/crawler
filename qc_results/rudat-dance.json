@@ -1,0 +1,120 @@
+{
+ "slug": "rudat-dance",
+ "qc_at": "2026-11-13T18:15:46Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 8.1,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Rudat dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "63"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "189"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The Rudat dance of Lombok transforms the precision of pancak silat martial arts "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "349"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": false,
+   "detail": "1064"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "how_it_is_danced"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Indonesia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "review",
+  "notes": "Accurate profile based on the sparse evidence provided. Teaching value and movement profile are very limited due to lack of source details ('not described in sources'), which hinders practical guidance for beginners."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "profile_long_len",
+  "sections_filled",
+  "judge_score=8.1"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-13T17:24:20Z"
+}

@@ -1,8 +1,8 @@
 # Ramayana Ballet — episode pack
 
-*Status: draft · built 2026-11-12 · judge 9.15 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 9.15 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; posture, arms and hands; the how-it-is-danced section; signature moves; notable figures; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; posture, arms and hands; the how-it-is-danced section; signature moves; notable figures; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Cultural historian or dance ethnologist
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Silent Epic: Ramayana Ballet
 NARRATION: This is Ramayana Ballet. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (s8QFBnF2Kd0)
 ON SCREEN: Title card: Ramayana Ballet · Indonesia · 20th century
 MUSIC: theme (30 s)
 
@@ -31,7 +31,7 @@ ON SCREEN: Footage: Dance Drama by the Ramayana Ballet Troupe (https://archive.o
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (s8QFBnF2Kd0)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -273,7 +273,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 's8QFBnF2Kd0', 'checked_by_vision_model': False, 'title': 'Ramayana Ballet In Thailand | Traditional Javanese Dance Spectacle | WION World DNA'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Gunawan Kartapranata / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Gunawan Kartapranata / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Gunawan Kartapranata / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Dance Drama by the Ramayana Ballet Troupe — https://archive.org/details/dni.ncaa.ICCR-124-VHS
 Motifs: Prambanan temple architecture, Gamelan orchestra instruments, Stylized dance costumes

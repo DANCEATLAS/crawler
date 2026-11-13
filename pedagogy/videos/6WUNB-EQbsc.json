@@ -1,0 +1,72 @@
+{
+ "youtube_id": "6WUNB-EQbsc",
+ "slug": "line-dance",
+ "dance": "Line dance",
+ "title": "\"A Bar Song\" Beginner Linedance / A Bar Song (Tipsy) - Shaboozey",
+ "channel": "Ben Murphy",
+ "viewer_ratio": 2.0,
+ "analysed_at": "2026-11-13T18:27:16Z",
+ "url": "https://www.youtube.com/watch?v=6WUNB-EQbsc",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor performs the routine facing front alongside two other dancers to music without spoken instruction or breakdown in this segment. The demonstration is continuous and relies entirely on visual modeling.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Title card displaying dance name, wall count, and choreographer"
+   },
+   {
+    "t": "0:12",
+    "segment": "full_demo",
+    "note": "Full demonstration of the line dance to music with three dancers"
+   }
+  ],
+  "counting_scheme": "1-2-3-4",
+  "cues": [],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [],
+  "absorbability": {
+   "what_works": [
+    "Clear full-length demonstration with multiple dancers for visibility"
+   ],
+   "what_hinders": [
+    "No spoken instruction, breakdown, or count-in provided in this video segment"
+   ]
+  },
+  "quotes": [],
+  "evidence_segments": [
+   {
+    "start_s": 12,
+    "end_s": 50,
+    "topic": "movement",
+    "observation": "Three dancers performing a choreographed line dance facing forward in a mirrored studio",
+    "viewpoint": "front, unknown",
+    "cannot_infer": "exact footwork details and weight transfers due to distance",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Pure performance demonstration video without instructional voiceover or verbal breakdowns."
+ }
+}

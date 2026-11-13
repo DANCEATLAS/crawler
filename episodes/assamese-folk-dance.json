@@ -1,0 +1,381 @@
+{
+ "slug": "assamese-folk-dance",
+ "name": "Assamese folk dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-13T18:27:38Z",
+ "researched_at": "2026-11-13T17:23:56Z",
+ "qc_score": 10.0,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A local Assamese cultural practitioner or Satriya artist.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Assamese folk dance",
+   "Folk dances of Assam"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Assamese folk dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Rhythms of the Brahmaputra",
+     "This is Assamese folk dance. 17th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Assamese folk dance · India · 17th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Assamese folk dances have evolved from diverse tribal and religious roots.",
+     "The Bihu dance has records dating to 1694 under King Rudra Singha.",
+     "Sattriya was recognized as a classical dance in 2000."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Most tribal festivals occur in spring to celebrate cultivation or harvest.",
+     "Bihu welcomes the Assamese New Year.",
+     "Deodhani is used to appease goddesses.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Technique varies by style.",
+     "Bihu involves gender-specific lines, hip and wrist movements, and squats.",
+     "Jhumur involves holding waists and moving synchronously.",
+     "Watch for Bihu Twirls, Bhortal Cymbal Patterns."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Lines and circles; gender-based separation."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Instruments include the dhol (drum), mohor xingor pepa (horn), taal (cymbals), gogona (reed), toka (clapper), xutuli (whistle), serja (bowed), sifung (flute), tharkha (bamboo), and mandal.",
+     "Listen for the dhol, mohor xingor pepa, taal, gogona.",
+     "A blend of rhythmic percussion from the dhol and mandal, punctuated by the plaintive, high-pitched notes of the pepa or flute, and the metallic clatter of cymbals."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Formal rhythmic compositions called seus in Bihu; fast beat in Bhortal."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Costumes vary by tribe, such as the Bodo women's colourful dokhna and aronai.",
+     "Performers of Ojapali wear a pag-jama or ghuri, bangles, and a tangali.",
+     "Settings include open fields (Bihu), Satras (Sattriya/Jhumura), and temples (Devadasi)."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Narahari Burha Bhakat (Bhortal), King Rudra Singha (Bihu patron), Madhavdeva (Jhumura plays), Srimanta Sankardeva (Thiyo Naam).",
+     "Deori Bihu, Mising Bihu, Rati Bihu (Morans), and various types of Jhumura like Ramadani and Mela Nach.",
+     "Derived from tribal traditions, Satra monastic practices, and ancient Shakti religious rituals."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Assamese folk dance is variant of Sattriya: A classical dance form derived from the Satra monastic tradition.",
+     "Assamese folk dance is parent of Thiyo Naam: Bhortal dance is derived from the Thiyo Naam tradition."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Deodhani and Devadasi are ritualistic and sacred; outsiders should observe with respect and avoid participation unless invited by the community."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the vibrant folk traditions of Assam, from the spring-time energy of Bihu to the ancient rituals of the Satras.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Formal rhythmic compositions called seus in Bihu; fast beat in Bhortal.",
+  "instruments": [
+   "dhol",
+   "mohor xingor pepa",
+   "taal",
+   "gogona",
+   "toka",
+   "xutuli",
+   "serja",
+   "sifung"
+  ],
+  "vocal_style": "Chorus singing in Ojapali; singing in Bihu.",
+  "musical_form": "Traditional folk songs handed down for generations.",
+  "mood": [
+   "plaintive",
+   "brisk",
+   "festive",
+   "devotional"
+  ],
+  "sound_description": "A blend of rhythmic percussion from the dhol and mandal, punctuated by the plaintive, high-pitched notes of the pepa or flute, and the metallic clatter of cymbals.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Assamese folk dance (India). Rhythm pattern: Formal rhythmic compositions called seus in Bihu; fast beat in Bhortal.. Instruments: dhol, mohor xingor pepa, taal, gogona, toka, xutuli, serja, sifung. Vocal style: Chorus singing in Ojapali; singing in Bihu.. Form: Traditional folk songs handed down for generations.. Mood: plaintive, brisk, festive, devotional. It should sound like this: A blend of rhythmic percussion from the dhol and mandal, punctuated by the plaintive, high-pitched notes of the pepa or flute, and the metallic clatter of cymbals. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Costumes vary by tribe, such as the Bodo women's colourful dokhna and aronai. Performers of Ojapali wear a pag-jama or ghuri, bangles, and a tangali. Settings include open fields (Bihu), Satras (Sattriya/Jhumura), and temples (Devadasi).",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABodo_dance.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ABhortal_Dance.jpeg",
+    "https://commons.wikimedia.org/wiki/File%3ABihu_dance_of_Assam.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Bodo_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Bodo_dance.jpg/1280px-Bodo_dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Bodoland Territorial Council / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABodo_dance.jpg",
+    "description": "Bodo girls dancing"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Bhortal_Dance.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/93/Bhortal_Dance.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Bipul Rabha / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABhortal_Dance.jpeg",
+    "description": "বহাগ মাহত কামৰূপ জিলাৰ বকোত অনুষ্ঠিত হোৱা সুঁৱৰী উৎসৱৰ ২৩-০৪০২০১২ ইং তাৰিখে হোৱা সামৰণি অনুষ্ঠানত অংশ গ্ৰহণ কৰা বকো ভালুকঘাটাৰ সত্ৰীয়া দলৰ সত্ৰীয়া ভোৰতাল  নৃত্যৰ এক দৃশাংশ।"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bihu_dance_of_Assam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bihu_dance_of_Assam.jpg/1280px-Bihu_dance_of_Assam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Diganta Talukdar / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABihu_dance_of_Assam.jpg",
+    "description": "Youths perform Bihu dance in Assam"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "The Rang Ghar fields",
+   "Traditional dhol and pepa",
+   "Colourful dokhna fabrics",
+   "Metallic cymbals"
+  ],
+  "costume_notes": "Costumes vary by tribe, such as the Bodo women's colourful dokhna and aronai. Performers of Ojapali wear a pag-jama or ghuri, bangles, and a tangali. Settings include open fields (Bihu), Satras (Sattriya/Jhumura), and temples (Devadasi).",
+  "setting_notes": "Most tribal festivals occur in spring to celebrate cultivation or harvest. Bihu welcomes the Assamese New Year. Deodhani is used to appease goddesses. Bagurumba is performed during Bwisagu.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "2 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 2,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Folk_dances_of_Assam",
+  "https://www.wikidata.org/wiki/Q16246580"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "5505c76d12864e43aa833ce820318d121fc6aa31603b130a9d5b8e86d169d48a",
+ "hero_checked": null
+}

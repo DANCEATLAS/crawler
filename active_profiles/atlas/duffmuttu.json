@@ -1,0 +1,125 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Drumming with fingers or palms; tossing drums over the head",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "Ten members facing each other",
+      "hips_and_torso": "Swaying",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Swaying of the body",
+      "signature_moves": [
+        {
+          "description": "Tossing the duff over the head while moving rhythmically",
+          "name": "Duff toss"
+        }
+      ],
+      "tempo_feel": "Tempo of the song",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Duff (thappitta)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "tribute",
+        "rhythmic",
+        "communal"
+      ],
+      "musical_form": "Song-based tribute",
+      "reference_recordings": [],
+      "rhythm_pattern": "Rhythmic beats set by the duff",
+      "sound_description": "A vocal-led performance accompanied by the percussive, rhythmic striking of ox-skin drums.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Lead singer with chorus"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Rhythmic swaying of the body",
+        "Striking the duff with fingers or palms",
+        "Tossing the duff over the head"
+      ],
+      "formation": "Ten members standing or sitting, facing each other",
+      "level_notes": "not described in sources",
+      "rhythm": "Set by the rhythmic beats of the duff"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "ac226952dec0b96879a26476d9ae42b931a43ff6b78f24b23dbf737b5fcdee66",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:duffmuttu",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Duffmuttu",
+  "research_file": "research_results/duffmuttu.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "duffmuttu",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Duffmuttu",
+    "https://www.wikidata.org/wiki/Q16209881"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

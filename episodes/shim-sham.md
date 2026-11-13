@@ -1,6 +1,6 @@
 # Shim Sham — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; the hero video's vision check; licensed images (3 needed); two or more connections
 
@@ -137,9 +137,9 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
+NARRATION: Teachers of this dance warn against: doing a big full foot instead of a stomp
+NARRATION: Teachers of this dance warn against: falling into the wrong rhythm on the break
 NARRATION: Teachers of this dance warn against: making steps too big instead of using rhythm
-NARRATION: Teachers of this dance warn against: being too upright during stomp-off instead of using body movement
-NARRATION: Teachers of this dance warn against: making the kick too big instead of letting the movement do the work
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -207,9 +207,9 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
+NARRATION: Teachers of this dance warn against: doing a big full foot instead of a stomp
+NARRATION: Teachers of this dance warn against: falling into the wrong rhythm on the break
 NARRATION: Teachers of this dance warn against: making steps too big instead of using rhythm
-NARRATION: Teachers of this dance warn against: being too upright during stomp-off instead of using body movement
-NARRATION: Teachers of this dance warn against: making the kick too big instead of letting the movement do the work
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -275,9 +275,9 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
+NARRATION: Teachers of this dance warn against: doing a big full foot instead of a stomp
+NARRATION: Teachers of this dance warn against: falling into the wrong rhythm on the break
 NARRATION: Teachers of this dance warn against: making steps too big instead of using rhythm
-NARRATION: Teachers of this dance warn against: being too upright during stomp-off instead of using body movement
-NARRATION: Teachers of this dance warn against: making the kick too big instead of letting the movement do the work
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -324,7 +324,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 3 tutorial(s) of this dance studied · videos studied: 3
 Counting: 5-6-7-8 and 1-2-3-4-5-6-7
 Demonstration: views used by most teachers: back, front; tempo progression: slow → full
-Cues: left foot; right foot; step; touch; stomp off; push; 5-6-7-8-hold; lets build it up; now put them together; stomp spank step; stomp spank ball change; step toe step hop step hop out in
-Common mistakes the studied teachers name: making steps too big instead of using rhythm; being too upright during stomp-off instead of using body movement; making the kick too big instead of letting the movement do the work; doing a big full foot instead of a stomp; falling into the wrong rhythm on the break
+Cues: left foot; right foot; step; touch; stomp off; push; stomp spank step; stomp spank ball change; step toe step hop step hop out in; stomp heel stomp heel; 5-6-7-8-hold; lets build it up
+Common mistakes the studied teachers name: doing a big full foot instead of a stomp; falling into the wrong rhythm on the break; making steps too big instead of using rhythm; being too upright during stomp-off instead of using body movement; making the kick too big instead of letting the movement do the work
 
 Sources (4): https://en.wikipedia.org/wiki/Shim_Sham; https://www.wikidata.org/wiki/Q1428390; https://pt.wikipedia.org/wiki/Shim_Sham_Shimmy; https://de.wikipedia.org/wiki/Shim_Sham

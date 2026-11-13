@@ -1,8 +1,8 @@
 # Baksa Kembang — episode pack
 
-*Status: draft · built 2026-11-12 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed reference footage; the music & instruments section; notable figures; lineage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed reference footage; the music & instruments section; notable figures; lineage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Royal Garden of Banjar
 NARRATION: This is Baksa Kembang. Historical to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (ybK43LXtAwE)
 ON SCREEN: Title card: Baksa Kembang · Indonesia · Historical to present
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ NARRATION: The dance is performed by an odd number of female dancers.
 NARRATION: Movements are graceful and depict teenage girls playing in a flower garden, picking and arranging flowers.
 NARRATION: Dancers utilize a scarf to enhance the elegance of their performance.
 NARRATION: Watch for Flower gathering.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (ybK43LXtAwE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Odd number of female dancers.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -279,7 +279,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear a crown called gajah gemuling, decorated with two small bogam flowers and woven young coconut leaves known as halilipan. They carry a pair of bogam flowers, which are arrangements of roses, jasmine, Magnolia × alba, and Cananga odorata.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'ybK43LXtAwE', 'checked_by_vision_model': False, 'title': 'Tari Baksa Kembang dari Banjarmasin Kalimantan Selatan'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Gajah gemuling crown, Bogam flower bouquets, Selendang scarf

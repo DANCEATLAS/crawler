@@ -1,0 +1,119 @@
+{
+ "slug": "sheethankan-thullal",
+ "qc_at": "2026-11-13T18:17:18Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.65,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Sheethankan Thullal"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "83"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "154"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In the midnight air of Ambalappuzha, a performer adorned in coconut leaves tells"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "512"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1763"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "how_it_is_danced,costume_and_setting"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "8/8 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 5,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-supported by the evidence provided. While the teaching section is sparse due to the nature of the source material, the cultural context and descriptive elements are accurate and respectful. It correctly identifies the form as a specific branch of the Thullal tradition."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "sections_filled",
+  "judge_score=8.65"
+ ],
+ "citation": {
+  "claims": 8,
+  "supported": 8,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-13T17:37:09Z"
+}

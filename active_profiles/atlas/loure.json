@@ -3,102 +3,89 @@
     "adaptations": {
       "children": {
         "avoid": [
-          "complex footwork",
-          "long sequences",
-          "fast tempo"
+          "not derivable yet"
         ],
-        "counts": "Simplified 1-2 counts emphasizing first beat",
-        "duration_minutes": "5",
-        "game_version": "Clap and step to dotted rhythm, imitate turns without full rotation"
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
       },
       "derived": true,
       "seniors": {
         "avoid": [
-          "complex turns",
-          "fast tempo",
-          "balance-challenging steps"
+          "not derivable yet"
         ],
-        "counts": "Simplify counts to emphasize downbeat only",
-        "seated_version": "Practice arm movements and rhythm clapping while seated",
-        "standing_version": "Perform basic two-step pattern with support, slow tempo",
-        "tempo_and_range": "Reduced tempo, smaller step range"
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Graceful, often with flowing gestures complementing the noble character",
-      "difficulty": "Intermediate to advanced due to complex ornamentation and turns",
-      "footwork": "Two steps per measure emphasizing the first beat with dotted rhythms; smooth transitions and elegant turns",
-      "formation_and_space": "Performed solo or in couples on stage, with spatial patterns reflecting theatrical choreography",
-      "hips_and_torso": "Controlled, with subtle movements to maintain dignity",
-      "levels_and_jumps": "No jumps; focus on smooth, flowing movements",
-      "partnering": "Occasionally danced by couples but primarily a solo virtuosic dance",
-      "posture": "Upright, dignified, with controlled and ceremonious carriage",
+      "arms_and_hands": "Elegant and refined.",
+      "difficulty": "advanced",
+      "footwork": "Two steps per measure.",
+      "formation_and_space": "Theatrical stage performance.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Solo or pair.",
+      "posture": "Noble and upright.",
       "signature_moves": [
         {
-          "description": "A two-step pattern per measure with a dotted rhythm and accent on the first step",
-          "name": "Loure step"
-        },
-        {
-          "description": "Graceful rotations integrated into the step sequences",
-          "name": "Elegant turn"
+          "description": "Complex, refined rotations characteristic of Baroque theatrical dance.",
+          "name": "Elegant turns"
         }
       ],
-      "tempo_feel": "Slow to moderate tempo with lilting, dotted rhythm emphasizing the downbeat",
-      "what_to_avoid": "Avoid rushing the tempo; do not neglect the dotted rhythm and strong downbeat accent"
+      "tempo_feel": "Slow and ceremonious.",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Baroque strings",
-        "woodwinds",
-        "musette (bagpipe)"
+        "musette (bagpipe)",
+        "orchestra",
+        "harpsichord",
+        "violin"
       ],
-      "meter": "compound duple (6/4) or simple triple (3/4)",
+      "meter": "6/4 or 3/4",
       "mood_keywords": [
         "noble",
         "majestic",
         "languid",
         "ceremonious",
-        "pastoral"
+        "proud"
       ],
-      "musical_form": "binary dance suite form or rondo",
+      "musical_form": "Dance suite movement or theatrical air.",
       "reference_recordings": [
         {
-          "artist": "Jean-Philippe Rameau, Les Arts Florissants, William Christie",
-          "source": "https://de.wikipedia.org/wiki/Loure",
-          "title": "Les Indes galantes"
-        },
-        {
-          "artist": "Jean-Philippe Rameau, Les Arts Florissants, William Christie",
-          "source": "https://de.wikipedia.org/wiki/Loure",
+          "artist": "William Christie",
           "title": "Castor et Pollux"
         },
         {
-          "artist": "Johann Sebastian Bach, various performers",
-          "source": "https://en.wikipedia.org/wiki/Loure",
-          "title": "French Suite No. 5"
+          "artist": "Hilary Hahn",
+          "title": "Partita No. 3 for violin solo"
         }
       ],
-      "rhythm_pattern": "dotted rhythms with anacrusis (eighth note + quarter note)",
-      "sound_description": "The loure features a slow, lilting dotted rhythm with a strong downbeat preceded by a pickup note, creating a majestic and ceremonious sound. The music often includes contrapuntal textures and dynamic contrasts, with Baroque strings and woodwinds enriched by the musette's drone-like timbre.",
-      "tempo_bpm": "slow to moderate",
-      "vocal_style": "usually instrumental; some vocal loures exist in operas"
+      "rhythm_pattern": "Lilting dotted rhythm with anacrusis.",
+      "sound_description": "A slow, stately sound characterized by a strong, accented downbeat and a lilting, dotted rhythmic pulse that creates a sense of gravity and elegance.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Begin with an anacrusis (pickup) leading into the first beat",
-        "Step emphasizing the first beat with a dotted rhythm",
-        "Perform two steps per measure with smooth transitions",
-        "Incorporate elegant turns and ornamented footwork",
-        "Maintain dignified posture and slow tempo"
+        "not described in sources"
       ],
-      "formation": "Solo or couple theatrical dance",
-      "level_notes": "Beginners focus on rhythm and basic steps; advanced dancers add complex ornamentation and turns",
-      "rhythm": "Compound duple meter (6/4) or simple triple meter (3/4) with lilting dotted rhythms"
+      "formation": "Theatrical solo or pair.",
+      "level_notes": "Requires advanced technical skill due to complex choreography and ornamentation.",
+      "rhythm": "Compound duple (6/4) or simple triple (3/4) with a dotted rhythm."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "99f94f3ac603174e42a4a460e676c12d07eefbaa6e913b1a16741f235fb7ad9a",
+  "fingerprint": "d1df04789a34d312b001c55e1d4492931038d773f37c683c68123d741f9a220f",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -106,6 +93,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
+      "movement: what_to_avoid",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -148,10 +136,8 @@
     "https://www.wikidata.org/wiki/Q1205331",
     "https://es.wikipedia.org/wiki/Loure",
     "https://fr.wikipedia.org/wiki/Loure_(danse)",
-    "https://de.wikipedia.org/wiki/Loure",
-    "https://archive.org/details/b10334038",
-    "https://archive.org/details/classicromanticp01unse"
+    "https://de.wikipedia.org/wiki/Loure"
   ],
-  "state": "teaching_withheld",
+  "state": "researching",
   "video_evidence": []
 }

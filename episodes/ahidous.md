@@ -1,6 +1,6 @@
 # Ahidous — episode pack
 
-*Status: draft · built 2026-11-12 · judge 9.6 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-13 · judge 9.6 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; the origins & history section; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -106,7 +106,7 @@ MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: .
-NARRATION: Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping..
+NARRATION: Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -153,7 +153,7 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now: Master the shoulder-to-shoulder connection..
+NARRATION: You can now: Master the shoulder-to-shoulder connection.
 NARRATION: Ahidous is performed at festivals, weddings, naming ceremonies, and after the harvest.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
@@ -178,7 +178,7 @@ MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: .
-NARRATION: Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping..
+NARRATION: Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -247,7 +247,7 @@ MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count: .
-NARRATION: Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping..
+NARRATION: Rhythm pattern: Rhythmic pulse provided by the bendir frame drum and handclapping.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -320,9 +320,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
+Source: 16 tutorial(s) of the folk-circle family studied · videos studied: 16
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
+Cues: keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; left foot go; brush brush step; double step rock step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; rock step
 
 Sources (5): https://en.wikipedia.org/wiki/Ahidus; https://www.wikidata.org/wiki/Q2635155; https://fr.wikipedia.org/wiki/Ahidous; https://pt.wikipedia.org/wiki/Ahidous; https://de.wikipedia.org/wiki/Ahidous

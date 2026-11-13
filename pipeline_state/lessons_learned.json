@@ -1,38 +1,38 @@
 {
- "updated_at": "2026-11-12T17:38:18Z",
- "qc_records_considered": 519,
+ "updated_at": "2026-11-13T17:15:42Z",
+ "qc_records_considered": 552,
  "gate_failures": [
   [
    "sections_filled",
-   98
+   113
   ],
   [
    "citations",
-   75
+   78
   ],
   [
    "insight_concrete",
-   65
+   70
+  ],
+  [
+   "profile_long_len",
+   61
   ],
   [
    "sacred_handled",
-   57
+   56
+  ],
+  [
+   "country",
+   55
   ],
   [
    "banned_phrasing",
    54
   ],
   [
-   "country",
-   53
-  ],
-  [
-   "profile_long_len",
-   52
-  ],
-  [
    "not_duplicate",
-   22
+   24
   ],
   [
    "sources",
@@ -46,57 +46,57 @@
  "reasons": [
   [
    "sacred",
-   214
-  ],
-  [
-   "not_a_dance",
-   99
+   223
   ],
   [
    "sections_filled",
-   98
+   113
+  ],
+  [
+   "not_a_dance",
+   106
   ],
   [
    "citations",
-   75
+   78
   ],
   [
    "insight_concrete",
-   65
+   70
+  ],
+  [
+   "profile_long_len",
+   61
   ],
   [
    "sacred_handled",
-   57
+   56
+  ],
+  [
+   "country",
+   55
   ],
   [
    "banned_phrasing",
    54
   ],
   [
-   "country",
-   53
-  ],
-  [
-   "profile_long_len",
-   52
-  ],
-  [
    "doubts=1",
-   43
+   45
   ]
  ],
  "judge_notes": [
   [
    "judge notes mention 'unsupported'",
-   26
+   29
   ],
   [
    "judge notes mention 'thin'",
-   16
+   17
   ],
   [
    "judge notes mention 'missing'",
-   11
+   13
   ],
   [
    "judge notes mention 'generic'",
@@ -107,112 +107,112 @@
    6
   ],
   [
-   "doubt: The claim that Pilou was 'banned by France' is a common historical oversimplification; while colonial policies suppresse",
+   "doubt: The claim regarding a 'distinct military tradition of character dance' in France involving 'dance assaults' and 'provost",
    1
   ],
   [
-   "doubt: The claim that it was 'last reported in 1951' is factually dubious as the term 'Pilou' continues to be used in contempor",
-   1
-  ],
-  [
-   "doubt: The claim that Deverattam is currently performed using swords and spears is highly questionable; contemporary Deverattam",
-   1
-  ],
-  [
-   "doubt: The etymology provided is speculative and lacks linguistic consensus.",
+   "doubt: The profile describes 'Australian dance' as a single tradition, whereas it is a national category containing disparate, ",
    1
   ],
   [
    "doubt: Medieval dance is treated as a single unified entity rather than a broad historical era spanning diverse cultures and ce",
+   1
+  ],
+  [
+   "doubt: The profile conflates Mangalamkali with Irula Nritham throughout, using evidence exclusively about Irula Nritham to desc",
+   1
+  ],
+  [
+   "doubt: The dance is performed by men to impress the audience.",
    1
   ]
  ],
  "episode_gaps_top": [
   [
    "tempo (bpm)",
-   258
+   272
   ],
   [
    "a verified recording to listen to",
-   240
-  ],
-  [
-   "licensed images (3 needed)",
-   201
+   252
   ],
   [
    "meter",
-   195
+   206
+  ],
+  [
+   "licensed images (3 needed)",
+   206
   ],
   [
    "the hero video's vision check",
-   166
+   181
   ],
   [
    "licensed reference footage",
-   155
+   162
   ],
   [
    "two or more connections",
-   144
+   154
   ],
   [
    "what to avoid / common mistakes",
-   121
+   129
   ],
   [
    "instruments",
-   88
+   93
   ],
   [
    "signature moves",
-   79
+   83
   ],
   [
    "the how-it-is-danced section",
-   79
+   81
   ],
   [
    "posture, arms and hands",
-   70
+   74
   ]
  ],
  "avoid": [
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (98 pages in 30 days)",
-  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (75 pages in 30 days)",
-  "the insight line was vague — put a person, a place, a year or a number in it (65 pages in 30 days)",
-  "a sacred dance had no sacred_note — add one (57 pages in 30 days)",
-  "banned phrasing slipped in — no hype, no 'the sources say', no AI talk (54 pages in 30 days)"
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (113 pages in 30 days)",
+  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (78 pages in 30 days)",
+  "the insight line was vague — put a person, a place, a year or a number in it (70 pages in 30 days)",
+  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (61 pages in 30 days)",
+  "a sacred dance had no sacred_note — add one (56 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "tempo (bpm)",
-   "pages": 258,
+   "pages": 272,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
    "gap": "a verified recording to listen to",
-   "pages": 240,
+   "pages": 252,
    "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
   },
   {
-   "gap": "licensed images (3 needed)",
-   "pages": 201,
-   "what_helps": "a Wikimedia Commons category or file link in an editor note"
-  },
-  {
    "gap": "meter",
-   "pages": 195,
+   "pages": 206,
    "what_helps": "a source that states the time signature"
   },
   {
+   "gap": "licensed images (3 needed)",
+   "pages": 206,
+   "what_helps": "a Wikimedia Commons category or file link in an editor note"
+  },
+  {
    "gap": "the hero video's vision check",
-   "pages": 166,
+   "pages": 181,
    "what_helps": "the vision model has not reached it yet — it will (60 a day)"
   },
   {
    "gap": "licensed reference footage",
-   "pages": 155,
+   "pages": 162,
    "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
   }
  ]

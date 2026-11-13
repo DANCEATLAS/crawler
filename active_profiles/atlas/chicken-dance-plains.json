@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "106f3d777d3baedcfaf25b47c4ff6abc5b7f3eac3e0ed751994d973c86549b32",
+  "fingerprint": "001addbb9fb91f3d69a83c7a213e61531455b977adc3c0a347f87f2c47ecb8f3",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,7 +62,6 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
@@ -45,7 +91,7 @@
   ],
   "music_options": [],
   "name": "Chicken Dance (Prairie-Chicken)",
-  "research_file": null,
+  "research_file": "research_results/chicken-dance-plains.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +101,11 @@
     "session_modes": []
   },
   "slug": "chicken-dance-plains",
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Attwater%27s_prairie-chicken",
+    "https://www.wikidata.org/wiki/Q4818761",
+    "https://es.wikipedia.org/wiki/Tympanuchus_cupido_attwateri"
+  ],
   "state": "researching",
   "video_evidence": []
 }

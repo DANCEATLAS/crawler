@@ -2,85 +2,84 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [
-          "aggressive posturing"
-        ],
-        "counts": "Simple 1-2-3-4 rhythm.",
-        "duration_minutes": "2",
-        "game_version": "A call-and-response version of the chant."
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
       },
       "derived": true,
       "seniors": {
-        "avoid": [
-          "knee strikes",
-          "sudden movements"
-        ],
-        "counts": "Simplified 4-count rhythm.",
-        "seated_version": "Perform the spear-handling gestures while seated, focusing on arm movement.",
-        "standing_version": "Perform the gestures with a wide, stable base, omitting knee strikes.",
-        "tempo_and_range": "Reduced tempo to ensure comfort."
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Mimicking the handling of a spear.",
-      "difficulty": "beginner",
+      "arms_and_hands": "Mimic spear handling, striking knees rhythmically",
+      "difficulty": "Beginner to intermediate",
       "footwork": "not described in sources",
-      "formation_and_space": "Group formation facing the opposition.",
-      "hips_and_torso": "not described in sources",
-      "levels_and_jumps": "not described in sources",
-      "partnering": "not described in sources",
-      "posture": "Military and virile, grounded and upright.",
+      "formation_and_space": "Performed in a group standing formation facing opponents",
+      "hips_and_torso": "Engaged and stable to support vigorous gestures",
+      "levels_and_jumps": "None described",
+      "partnering": "None; performed as a group without partnering",
+      "posture": "Upright and strong, facing opponents directly",
       "signature_moves": [
         {
-          "description": "Mimicking the act of holding and thrusting a spear.",
-          "name": "Spear Handling"
+          "description": "Arm gestures mimicking the handling and thrusting of a spear",
+          "name": "Spear mimic"
         },
         {
-          "description": "Striking the knees to emphasize the rhythm and aggression.",
-          "name": "Knee Strike"
+          "description": "Rhythmic striking of knees with hands to emphasize the chant",
+          "name": "Knee strikes"
         }
       ],
-      "tempo_feel": "not described in sources",
-      "what_to_avoid": "not described in sources"
+      "tempo_feel": "Energetic, forceful, and aggressive",
+      "what_to_avoid": "Avoid disrespecting the cultural significance by performing without understanding Avoid unsafe vigorous movements without proper warm-up"
     },
     "music_profile": {
-      "instruments": [
-        "Vocal chant"
-      ],
+      "instruments": [],
       "meter": "not described in sources",
       "mood_keywords": [
         "aggressive",
-        "menacing",
+        "assertive",
         "proud",
         "dominant"
       ],
-      "musical_form": "Chant",
+      "musical_form": "Call-and-response style vocal chant",
       "reference_recordings": [
         {
           "artist": "Shepherds Reign",
-          "title": "Le Manu"
+          "source": "https://en.wikipedia.org/wiki/Siva_Tau",
+          "title": "\"Le Manu\""
         }
       ],
       "rhythm_pattern": "not described in sources",
-      "sound_description": "The sound is defined by a collective, rhythmic vocal chant that is both musical and menacing, emphasizing the power of the Samoan language.",
+      "sound_description": "The Siva Tau features a powerful, rhythmic vocal chant performed by multiple voices in unison, punctuated by sharp knee strikes and vigorous arm gestures that mimic spear handling, creating an atmosphere of martial intensity.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Direct, aggressive, and rhythmic chanting in the Samoan language."
+      "vocal_style": "Loud, commanding, rhythmic chanting with direct and threatening lyrics"
     },
     "teaching": {
       "basic_steps": [
-        "Stand with feet shoulder-width apart in a firm, grounded stance.",
-        "Mimic the motion of holding and thrusting a spear with the arms.",
-        "Perform rhythmic strikes to the knees or thighs to emphasize the beat.",
-        "Maintain a steady, aggressive vocal chant in unison with the group."
+        "Stand facing opponents in a group formation",
+        "Perform spear-handling gestures with arms",
+        "Strike knees rhythmically with hands",
+        "Chant loudly with direct, threatening words"
       ],
-      "formation": "Group formation, typically in a line or semi-circle facing the opposition.",
-      "level_notes": "Focus on the intensity of the gesture and the unity of the group.",
-      "rhythm": "not described in sources"
+      "formation": "Group standing formation facing opponents",
+      "level_notes": "Technique details such as footwork counts and arm positions are not described in sources",
+      "rhythm": "Energetic and forceful vocal chant with rhythmic knee strikes"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "6b2315104f2a509d1cf109a35f5e67bbeea5cb3bebe7fdd5d795d9a79f8ff127",
+  "fingerprint": "fc90c5871361b2bd2d0d4abec79b022d7bbf7fa3d17f6f164bfbbf3a309f77e3",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -88,7 +87,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork, what_to_avoid",
+      "movement: footwork",
       "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
@@ -134,6 +133,6 @@
     "https://pt.wikipedia.org/wiki/Siva_Tau",
     "https://it.wikipedia.org/wiki/Siva_Tau"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

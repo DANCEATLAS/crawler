@@ -1,13 +1,64 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "Stamping steps, side-steps, and the Manx Balance (swinging/kicking motion).",
+      "formation_and_space": "Processional form.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Dancers perform in pairs and rejoin partners after the sequence.",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "A distinctive swinging of the foot in a kicking motion.",
+          "name": "Manx Balance"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "ancient"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Nish as Rish",
+          "title": "The Flitter Dance tune"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stamping step",
+        "Side-steps",
+        "Manx Balance (swinging/kicking motion)"
+      ],
+      "formation": "Processional form",
+      "level_notes": "Simple and repetitive form, suitable for beginners and young dancers.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "a56a71f238ad00f49797099e1e54023961fdf1c7f60b32502dee159d4d3d592e",
+  "fingerprint": "7f552ea2f37885b4d9b8116c1b497c9e567e1889fbc74706f9e1197be4e8399f",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,8 +66,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: posture, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
@@ -45,7 +95,7 @@
   ],
   "music_options": [],
   "name": "Flitter Dance",
-  "research_file": null,
+  "research_file": "research_results/flitter-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +107,8 @@
   "slug": "flitter-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Flitter_Dance",
-    "Source: Flitter Dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Flitter_Dance"
+    "https://www.wikidata.org/wiki/Q48803504"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

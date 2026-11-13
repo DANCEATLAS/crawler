@@ -2,7 +2,7 @@
  "slug": "quebradita",
  "name": "Quebradita",
  "pack_version": "e2",
- "built_at": "2026-11-12T18:57:17Z",
+ "built_at": "2026-11-13T18:27:38Z",
  "researched_at": "2026-11-12T17:48:34Z",
  "qc_score": 9.1,
  "status": "draft",
@@ -67,7 +67,7 @@
      "This is Quebradita. 1990s."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (uIF8MrZ2ptA)",
      "Title card: Quebradita · Mexico · 1990s"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Watch for Tombé, Caballito."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (uIF8MrZ2ptA)",
      "Captions name each signature move as it appears",
      "Formation: Partnered, moving in place or around the dance floor."
     ],
@@ -279,7 +279,7 @@
       "Drill: Side-to-side weight transfer"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -428,7 +428,7 @@
       "Drill: Maintaining waist hold"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -580,7 +580,7 @@
       "Drill: Supported back-bend technique"
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 3",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -727,7 +727,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "uIF8MrZ2ptA",
+   "checked_by_vision_model": false,
+   "title": "New Quebradita Mix# 1 2019"
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -802,38 +806,37 @@
   ]
  },
  "teaching_formula": {
-  "source": "13 tutorial(s) of the street-urban family studied",
-  "videos_studied": 13,
+  "source": "16 tutorial(s) of the street-urban family studied",
+  "videos_studied": 16,
   "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
    "views used by most teachers: front, side, mirror",
    "tempo progression: slow → half → full",
-   "repetitions per step: about 3"
+   "repetitions per step: about 4"
   ],
   "cues": [
-   "right leg out front",
-   "jump split your legs",
-   "the back foot goes up",
-   "lift the left leg up",
-   "jump back on the left leg",
-   "kick the right leg up",
-   "take the right leg back",
-   "hop forward with the left leg",
-   "punch to the side",
-   "pull your head down",
-   "pivot them on your elbows",
-   "swing stop"
+   "make sure you touch all the way back",
+   "down back out back up back out back",
+   "feet parallel",
+   "relax  breath",
+   "swing stop",
+   "lean forward",
+   "arm up",
+   "elbow up",
+   "1-2-3-4",
+   "1-2-3-4-5",
+   "1-2-3-4-5-6",
+   "1-2-3-4-5-6-7-8"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "full_demo",
-   "count_in",
    "context",
    "breakdown",
-   "layering",
    "slow_practice",
+   "layering",
    "music_practice",
    "recap"
   ],
@@ -841,7 +844,7 @@
  },
  "gaps": [
   "tempo (bpm)",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "the costume & setting section"
  ],
@@ -854,6 +857,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "394e1bf3d496d4960bb0fa051525d7cd9d2639633a2f135219fde1a78095929e",
+ "input_fingerprint": "5ffdfaf9e011fdbacb27ec888c619d00d9a2648e06f258c364dd132c351f0d97",
  "hero_checked": null
 }

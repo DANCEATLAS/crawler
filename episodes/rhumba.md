@@ -1,6 +1,6 @@
 # Rhumba — episode pack
 
-*Status: draft · built 2026-11-09 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; the costume & setting section
 
@@ -77,7 +77,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. American style box step: slow step forward on beat 1, quick step to side on beat 3, quick step to close on beat 4
 NARRATION: International style basic: quick step on beat 2, quick step on beat 3, slow step on beat 4
-NARRATION: Count it: 4-1-2-3-4.
+NARRATION: Count it: 4-1-2-3.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -106,7 +106,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 4-1-2-3-4. The meter is 4/4.
+NARRATION: Count: 4-1-2-3. The meter is 4/4.
 NARRATION: Rhythm pattern: Adapted Afro-Cuban son cubano rhythms with big band swing.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -121,7 +121,7 @@ NARRATION: Drill: Step timing with counts slow-quick-quick and quick-quick-slow
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
+COUNTS: 4-1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Maintain pronounced hip sway over standing leg
@@ -129,7 +129,7 @@ NARRATION: Step 4: Keep steps compact without rise and fall
 NARRATION: Drill: Practice hip sway over standing leg
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
+COUNTS: 4-1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -142,16 +142,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rise and fall movements; maintain compact steps; no jumps or acrobatics
+NARRATION: Teachers of this dance warn against: moving the upper body and shoulders at the same time as the steps
 NARRATION: Teachers of this dance warn against: bringing ankles too close incorrectly
 NARRATION: Teachers of this dance warn against: arm too far behind yourself
-NARRATION: Teachers of this dance warn against: arm too behind follower
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Basic slow-quick-quick steps adapted to seated foot taps and hip sways · For children: Simplified box step as a follow-the-leader game with hip sway imitation
 MUSIC: silence
 OPTIONS: Seated or supported option: Basic slow-quick-quick steps adapted to seated foot taps and hip sways · For children: Simplified box step as a follow-the-leader game with hip sway imitation (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 4-1-2-3-4.
+NARRATION: Count-in: 4-1-2-3.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 96 bpm
@@ -182,7 +182,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 4-1-2-3-4. The meter is 4/4.
+NARRATION: Count: 4-1-2-3. The meter is 4/4.
 NARRATION: Rhythm pattern: Adapted Afro-Cuban son cubano rhythms with big band swing.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -195,7 +195,7 @@ NARRATION: Drill: Simple turns with timing
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
+COUNTS: 4-1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Box Step: Basic American style step forming a box shape with slow-quick-quick timing
@@ -204,7 +204,7 @@ NARRATION: Drill: Expressive arm gestures
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
+COUNTS: 4-1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -217,16 +217,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rise and fall movements; maintain compact steps; no jumps or acrobatics
+NARRATION: Teachers of this dance warn against: moving the upper body and shoulders at the same time as the steps
 NARRATION: Teachers of this dance warn against: bringing ankles too close incorrectly
 NARRATION: Teachers of this dance warn against: arm too far behind yourself
-NARRATION: Teachers of this dance warn against: arm too behind follower
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Basic slow-quick-quick steps adapted to seated foot taps and hip sways · For children: Simplified box step as a follow-the-leader game with hip sway imitation
 MUSIC: silence
 OPTIONS: Seated or supported option: Basic slow-quick-quick steps adapted to seated foot taps and hip sways · For children: Simplified box step as a follow-the-leader game with hip sway imitation (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 4-1-2-3-4.
+NARRATION: Count-in: 4-1-2-3.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced in closed ballroom hold; social and competition floor space
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 96 bpm
@@ -257,7 +257,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 4-1-2-3-4. The meter is 4/4.
+NARRATION: Count: 4-1-2-3. The meter is 4/4.
 NARRATION: Rhythm pattern: Adapted Afro-Cuban son cubano rhythms with big band swing.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -271,7 +271,7 @@ NARRATION: Drill: Multiple turns and spins
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
+COUNTS: 4-1-2-3 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Box Step: Basic American style step forming a box shape with slow-quick-quick timing
@@ -280,7 +280,7 @@ NARRATION: Drill: Precision in hip motion and foot placement
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 4-1-2-3-4 · repetitions: 3
+COUNTS: 4-1-2-3 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -293,16 +293,16 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rise and fall movements; maintain compact steps; no jumps or acrobatics
+NARRATION: Teachers of this dance warn against: moving the upper body and shoulders at the same time as the steps
 NARRATION: Teachers of this dance warn against: bringing ankles too close incorrectly
 NARRATION: Teachers of this dance warn against: arm too far behind yourself
-NARRATION: Teachers of this dance warn against: arm too behind follower
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Basic slow-quick-quick steps adapted to seated foot taps and hip sways · For children: Simplified box step as a follow-the-leader game with hip sway imitation
 MUSIC: silence
 OPTIONS: Seated or supported option: Basic slow-quick-quick steps adapted to seated foot taps and hip sways · For children: Simplified box step as a follow-the-leader game with hip sway imitation (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 4-1-2-3-4.
+NARRATION: Count-in: 4-1-2-3.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Danced in closed ballroom hold; social and competition floor space
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 96 bpm
@@ -342,9 +342,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 ## Teaching formula
 
 Source: 3 tutorial(s) of this dance studied · videos studied: 3
-Counting: 4-1-2-3-4
+Counting: 4-1-2-3
 Demonstration: views used by most teachers: back, front, mirror; tempo progression: slow → full
-Cues: side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot; transfer your weight fully; transfer your weight back; bring your leg back; pivot 90 degrees to your left
-Common mistakes the studied teachers name: bringing ankles too close incorrectly; arm too far behind yourself; arm too behind follower; too late with the under arm turn; moving the upper body and shoulders at the same time as the steps
+Cues: step to side on 4-1; crossover with your left foot; transfer your weight fully; transfer your weight back; bring your leg back; pivot 90 degrees to your left; extend your right arm; extend your left arm; side with the left; bring it in; switch weight; change weight onto the left
+Common mistakes the studied teachers name: moving the upper body and shoulders at the same time as the steps; bringing ankles too close incorrectly; arm too far behind yourself; arm too behind follower; too late with the under arm turn
 
 Sources (6): https://en.wikipedia.org/wiki/Ballroom_rumba; https://www.wikidata.org/wiki/Q221438; https://es.wikipedia.org/wiki/Rumba_de_salón; https://fr.wikipedia.org/wiki/Rumba_(danse_de_salon); https://pt.wikipedia.org/wiki/Rumba; https://archive.org/details/ERIC_ED146720

@@ -1,0 +1,396 @@
+{
+ "slug": "dhunuchi-dance",
+ "name": "Dhunuchi dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-13T18:27:38Z",
+ "researched_at": "2026-11-13T17:35:31Z",
+ "qc_score": 9.45,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A traditional Bengali dancer familiar with puja rituals.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Dhunuchi dance",
+   "Dhunuchi Naach"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Dhunuchi dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Smoke and the Drum: The Dhunuchi Dance",
+     "This is Dhunuchi dance. Traditional."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Dhunuchi dance · India · Traditional"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Dhunuchi Nritya is a Bengali Hindu traditional dance performed during puja and aarti ceremonies.",
+     "It celebrates the victory of Goddess Durga over Mahishasura."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Performed during the last days of Durga Puja, specifically between Ashtami and Dashami, to celebrate victory and empowerment.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Dhunuchi dance at Samajsevi Sangh V 20181017 112000.webm (https://upload.wikimedia.org/wikipedia/commons/c/c9/Dhunuchi_dance_at_Samajsevi_Sangh_V_20181017_112000.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance involves holding one or two dhunuchis, while experts may hold three (two in hands, one in mouth).",
+     "It is performed to the rhythm of the dhak, kansor, and ghanta.",
+     "Watch for Three-dhunuchi balance."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Communal, aiming to involve the community as a whole."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is purely instrumental, featuring the dhak, kansor, and ghanta.",
+     "These instruments produce loud, heavy sounds.",
+     "Listen for the Dhak, Kansor, Ghanta.",
+     "The sound is dominated by the loud, heavy, and rhythmic beat of the dhak drum, accompanied by the metallic resonance of the kansor and ghanta."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Women wear the garad sari.",
+     "Men wear dhoti and kurta-punjabi.",
+     "Both may carry a gamcha."
+    ],
+    "on_screen": [
+     "Image gallery: 4 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures",
+     "lineage"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "This is a devotional dance performed during Hindu puja and aarti ceremonies."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "A look at the devotional dance of Bengal that honors Goddess Durga through fire and rhythm.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "Dhak",
+   "Kansor",
+   "Ghanta"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "celebratory",
+   "loud",
+   "heavy"
+  ],
+  "sound_description": "The sound is dominated by the loud, heavy, and rhythmic beat of the dhak drum, accompanied by the metallic resonance of the kansor and ghanta.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Dhunuchi dance (India). Instruments: Dhak, Kansor, Ghanta. Mood: celebratory, loud, heavy. It should sound like this: The sound is dominated by the loud, heavy, and rhythmic beat of the dhak drum, accompanied by the metallic resonance of the kansor and ghanta. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Women wear the garad sari. Men wear dhoti and kurta-punjabi. Both may carry a gamcha.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AJor_Bangla_Temple_Arnab_Dutta_2011.JPG",
+    "https://commons.wikimedia.org/wiki/File%3ARoyal_Peacock_Barge_LACMA_M.82.154.jpg",
+    "https://commons.wikimedia.org/wiki/File%3A%E0%A6%97%E0%A7%8C%E0%A6%B0%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BF%E0%A6%A8%E0%A7%80_%E0%A7%A7.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Jor_Bangla_Temple_Arnab_Dutta_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Jor_Bangla_Temple_Arnab_Dutta_2011.JPG/1280px-Jor_Bangla_Temple_Arnab_Dutta_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Jonoikobangali / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJor_Bangla_Temple_Arnab_Dutta_2011.JPG",
+    "description": "Jor-Bangla Temple or Keshta Roy Temple (c. 1655), Bishnupur, Bankura dist., West Bengal, India."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Royal_Peacock_Barge_LACMA_M.82.154.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Royal_Peacock_Barge_LACMA_M.82.154.jpg/1280px-Royal_Peacock_Barge_LACMA_M.82.154.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ARoyal_Peacock_Barge_LACMA_M.82.154.jpg",
+    "description": "India, West Bengal, Murshidabad, late 19th century\nSculpture\nIvory\n24 3/8 x 42 x 6 1/2 in. (61.91 x 106.68 x 16.51 cm)\nGift of Cynthia and Ken Boettcher, Laguna Niguel, California (M.82.154)\nSouth and Southeast Asian Art\nCurrently on public view: Ahmanson Building, floor 4"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/%E0%A6%97%E0%A7%8C%E0%A6%B0%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BF%E0%A6%A8%E0%A7%80_%E0%A7%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/%E0%A6%97%E0%A7%8C%E0%A6%B0%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BF%E0%A6%A8%E0%A7%80_%E0%A7%A7.jpg/1280px-%E0%A6%97%E0%A7%8C%E0%A6%B0%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BF%E0%A6%A8%E0%A7%80_%E0%A7%A7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Ami.bangali / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A%E0%A6%97%E0%A7%8C%E0%A6%B0%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BF%E0%A6%A8%E0%A7%80_%E0%A7%A7.jpg",
+    "description": "গৌরাঙ্গিনী"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Traditional_Dhunuchi_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Traditional_Dhunuchi_Dance.jpg/1280px-Traditional_Dhunuchi_Dance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Bhuppigraphy / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ATraditional_Dhunuchi_Dance.jpg",
+    "description": "Dhunachi is a Bengali incense burner used for one of the stages during aarti, or ritualized dance worship."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Dhunuchi dance at Samajsevi Sangh V 20181017 112000.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Dhunuchi_dance_at_Samajsevi_Sangh_V_20181017_112000.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 3.0",
+    "attribution": "Sumita Roy Dutta / Wikimedia Commons / CC BY-SA 3.0"
+   },
+   {
+    "title": "screencast-www.facebook.com-2019.10.16-11_02_27",
+    "url": "https://archive.org/details/screencast-www.facebook.com-2019.10.16-11_02_27",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Burning incense smoke",
+   "The dhak drum",
+   "Garad sari",
+   "Clay dhunuchi"
+  ],
+  "costume_notes": "Women wear the garad sari. Men wear dhoti and kurta-punjabi. Both may carry a gamcha.",
+  "setting_notes": "Performed during the last days of Durga Puja, specifically between Ashtami and Dashami, to celebrate victory and empowerment.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "2 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 2,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "notable figures",
+  "lineage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Dhunuchi_Nritya",
+  "https://www.wikidata.org/wiki/Q107417480"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "2e1b886f71929d0ec8e03df57d4c1e423e8e4d5e7f3dbfb48c0790f8cb5ea971",
+ "hero_checked": null
+}

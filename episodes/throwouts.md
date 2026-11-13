@@ -1,6 +1,6 @@
 # Throwouts — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the music & instruments section; the costume & setting section; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -308,7 +308,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 Source: 4 tutorial(s) of the ballroom-partner family studied · videos studied: 4
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: side close side; step and point; turn turn turn; replace; side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot
+Demonstration: views used by most teachers: back, front, mirror; tempo progression: slow → full
+Cues: step to side on 4-1; crossover with your left foot; transfer your weight fully; transfer your weight back; bring your leg back; pivot 90 degrees to your left; extend your right arm; extend your left arm; side with the left; bring it in; switch weight; change weight onto the left
 
 Sources (3): https://en.wikipedia.org/wiki/Throwouts_(dance); https://www.wikidata.org/wiki/Q7798562; https://archive.org/details/NPDP19330425

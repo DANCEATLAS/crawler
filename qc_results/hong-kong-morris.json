@@ -1,0 +1,119 @@
+{
+ "slug": "hong-kong-morris",
+ "qc_at": "2026-11-13T18:15:53Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 10.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Hong Kong Morris"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "90"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "156"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1987, the Hong Kong Morris performed on a shipping container suspended by a c"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "468"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3230"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Hong Kong"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['funeral']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 10,
+  "teaching_value": 10,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 10,
+  "verdict": "reject",
+  "notes": "The profile is extremely detailed and accurate, but 'is_a_dance' must be false because the Hong Kong Morris is a dance group/side, not a dance tradition itself (the tradition is Cotswold morris). Therefore the verdict is reject based on the type flag."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=10.0",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-13T17:31:13Z"
+}

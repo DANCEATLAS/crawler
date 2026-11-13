@@ -1,13 +1,76 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "arms apart and fists (men); smooth, rotational hand movements (women)",
+      "difficulty": "not described in sources",
+      "footwork": "short, provocative movements with small jumps (men); exact movements of legs (women)",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "exact movements of shoulders (women)",
+      "levels_and_jumps": "small jumps (men)",
+      "partnering": "male and female partners, though some traditions suggest separate performance",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Smooth, continuous hand gestures performed by women.",
+          "name": "Rotational hand movement"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "9/8 or 7/8",
+      "mood_keywords": [
+        "cyclical",
+        "provocative"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Alexander Spendiaryan",
+          "title": "Khaytarma"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Characterised by cyclical motion and typically in 9/8 or 7/8 time, common to Turkic music.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Smooth rotational hand movements for women",
+        "Short, provocative jumps for men"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "9/8 or 7/8 time"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "2b7439b340463112e586774b9c044e56c26c020f7b12aed2e5c0c58c60c0d4e5",
+  "fingerprint": "ebff45ffb2c34f02f17bee17af0ec0cc425ffe272c1439a23f5c7d944c880cab",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +78,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: posture, formation_and_space, what_to_avoid",
+      "music_structure: rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +107,7 @@
   ],
   "music_options": [],
   "name": "Qaytarma",
-  "research_file": null,
+  "research_file": "research_results/qaytarma.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +119,7 @@
   "slug": "qaytarma",
   "sources": [
     "https://en.wikipedia.org/wiki/Qaytarma",
-    "Source: Qaytarma on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Qaytarma"
+    "https://www.wikidata.org/wiki/Q18225375"
   ],
   "state": "researching",
   "video_evidence": []

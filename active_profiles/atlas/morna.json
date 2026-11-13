@@ -2,93 +2,88 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [
-          "Complex partner holds",
-          "Extended emotional themes"
-        ],
-        "counts": "Two sways left, two sways right per bar.",
-        "duration_minutes": "3",
-        "game_version": "A mirror-sway game where children hold hands in pairs and sway together to a slow count."
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
       },
       "derived": true,
       "seniors": {
-        "avoid": [
-          "Deep knee bends",
-          "Rapid turns"
-        ],
-        "counts": "2-beat bar sway, left and right.",
-        "seated_version": "Perform the upper body sway and arm movements while seated in a stable chair.",
-        "standing_version": "Stand with feet hip-width apart and practice the gentle weight shifts and body sways without a partner.",
-        "tempo_and_range": "Reduced range of motion, maintaining a very slow tempo."
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "One arm embracing the partner, while with the other arm they hold hands",
+      "arms_and_hands": "One arm around partner, other hand held.",
       "difficulty": "beginner",
-      "footwork": "not described in sources",
-      "formation_and_space": "Ballroom dance, danced in pairs",
-      "hips_and_torso": "Swinging movement of the body",
-      "levels_and_jumps": "None; grounded swaying movement",
-      "partnering": "Couples dancing closely with an arm embrace and hand hold",
-      "posture": "Upright, closed partner embrace",
+      "footwork": "Two body swings per bar.",
+      "formation_and_space": "Pairs, ballroom style.",
+      "hips_and_torso": "Swaying motion.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Close embrace.",
+      "posture": "Upright, partnered embrace.",
       "signature_moves": [
         {
-          "description": "Swaying the body twice to one side for one musical bar, then twice to the opposite side on the next bar.",
-          "name": "The Two-Bar Body Swing"
+          "description": "Two rhythmic swings of the body to one side per bar.",
+          "name": "Body sway"
         }
       ],
-      "tempo_feel": "Lento (slow) or andante depending on regional variant",
+      "tempo_feel": "Lento, slow.",
       "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "guitar (violão)",
+        "guitar",
         "cavaquinho",
-        "violin (rabeca)",
+        "violin",
         "piano",
         "clarinet",
-        "accordion",
-        "ten/twelve-string guitar (viola)",
-        "percussion"
+        "accordion"
       ],
-      "meter": "2-beat bar (sometimes 4)",
+      "meter": "2/4 or 4/4",
       "mood_keywords": [
         "melancholic",
-        "nostalgic",
         "romantic",
-        "plaintive",
-        "saudade"
+        "plaintive"
       ],
-      "musical_form": "Strophic alternating with a refrain, featuring a solo instrumental intro and a middle instrumental improvisation",
+      "musical_form": "Strophes alternating with a refrain.",
       "reference_recordings": [
         {
           "artist": "Teté Alhinho",
           "title": "Rabilona"
         },
         {
-          "artist": "Chico Serra",
-          "title": "Eclipse"
+          "artist": "Celina Pereira",
+          "title": "Força di cretcheu"
         }
       ],
-      "rhythm_pattern": "Syncopated, where a note at the end of a bar is extended to the strong beat of the next; accented on the first and last half-beat",
-      "sound_description": "A slow, plaintive acoustic sound led by guitar fingerpicking (*mãozada*) intertwining a steady bass with arpeggiated chords, accompanied by expressive, sorrowful vocals exploring themes of longing and departure.",
+      "rhythm_pattern": "Syncopated, with the melody accentuated on the first beat and the last half-beat of the bar.",
+      "sound_description": "A slow, acoustic sound characterized by the interplay of guitar arpeggios and melodic solo instruments like the violin, conveying a sense of deep longing.",
       "tempo_bpm": "60",
-      "vocal_style": "Emotional, lyrical, sung in Cape Verdean Creole"
+      "vocal_style": "Emotive, lyrical, often in Cape Verdean Creole."
     },
     "teaching": {
       "basic_steps": [
-        "Embrace partner with one arm and hold hands with the other",
-        "Sway the body twice to one side during the first musical bar",
-        "Shift and sway the body twice to the opposite side during the second musical bar"
+        "Hold partner with one arm around waist and other hand held.",
+        "Sway body twice to the left side during one bar of music.",
+        "Sway body twice to the right side during the next bar of music."
       ],
-      "formation": "Couples in a ballroom setting",
-      "level_notes": "Beginner friendly, focusing on partner connection and synchronized swaying to a slow tempo.",
-      "rhythm": "2-beat bar with syncopation"
+      "formation": "Pairs.",
+      "level_notes": "not described in sources",
+      "rhythm": "Binary meter (2-beat bar)."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "908cbeccfe0630329c65df2e31fc2abb0d7835f8d4039bc63b225e0bafa0331d",
+  "fingerprint": "21920f716defc66436477cb0a373f106cd9dcc3961acf158ac0dc127452f3850",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -96,7 +91,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork, what_to_avoid",
+      "movement: what_to_avoid",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [

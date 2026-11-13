@@ -1,8 +1,8 @@
 # Quebradita — episode pack
 
-*Status: draft · built 2026-11-12 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable dance historian or former 90s competitor.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The 90s Break: The Quebradita
 NARRATION: This is Quebradita. 1990s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (uIF8MrZ2ptA)
 ON SCREEN: Title card: Quebradita · Mexico · 1990s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Partners dance in a close hold, with the male dancer holding the fema
 NARRATION: The footwork involves small, alternating jumps or gallops that create a side-to-side swaying motion.
 NARRATION: The male dancer performs the 'tombé' by dipping the female partner backward with a straight back, then pulling her up.
 NARRATION: Watch for Tombé, Caballito.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (uIF8MrZ2ptA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Partnered, moving in place or around the dance floor.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -120,7 +120,7 @@ NARRATION: Step 1: Establish a close hold with partner, hands on waist.
 NARRATION: Step 2: Execute small, alternating jumps to create a side-to-side sway.
 NARRATION: Footwork from the sources: Small, alternating jumps or gallops.
 NARRATION: Drill: Side-to-side weight transfer
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -192,7 +192,7 @@ NEEDS: tempo
 NARRATION: Step 1: Establish a close hold with partner, hands on waist.
 NARRATION: Step 2: Execute small, alternating jumps to create a side-to-side sway.
 NARRATION: Drill: Maintaining waist hold
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -267,7 +267,7 @@ NEEDS: tempo
 NARRATION: Step 1: Maintain synchronized footwork with partner.
 NARRATION: Step 2: Perform the tombé by dipping the partner backward with a straight back.
 NARRATION: Drill: Supported back-bend technique
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -326,7 +326,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'uIF8MrZ2ptA', 'checked_by_vision_model': False, 'title': 'New Quebradita Mix# 1 2019'}
 Images: 1 licensed — Edil Villa / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: L.A. Banda: Dance of the New L.A. — https://archive.org/details/clloy_000027; Baile de la Quebradita — https://archive.org/details/vid-20250927-223344; File:Danzantes aztecas en Plaza del Caballito en la Ciudad de México 01.webm — https://upload.wikimedia.org/wikipedia/commons/9/97/Danzantes_aztecas_en_Plaza_del_Caballito_en_la_Ciudad_de_M%C3%A9xico_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Danzantes aztecas en Plaza del Caballito en la Ciudad de México 02.webm — https://upload.wikimedia.org/wikipedia/commons/b/b8/Danzantes_aztecas_en_Plaza_del_Caballito_en_la_Ciudad_de_M%C3%A9xico_02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: 1990s television footage, Close-ups of footwork, Technobanda musical instruments
@@ -336,9 +336,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the street-urban family studied · videos studied: 13
+Source: 16 tutorial(s) of the street-urban family studied · videos studied: 16
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; punch to the side; pull your head down; pivot them on your elbows; swing stop
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: make sure you touch all the way back; down back out back up back out back; feet parallel; relax  breath; swing stop; lean forward; arm up; elbow up; 1-2-3-4; 1-2-3-4-5; 1-2-3-4-5-6; 1-2-3-4-5-6-7-8
 
 Sources (4): https://en.wikipedia.org/wiki/Quebradita; https://www.wikidata.org/wiki/Q3413969; https://es.wikipedia.org/wiki/Quebradita; https://fr.wikipedia.org/wiki/Quebradita

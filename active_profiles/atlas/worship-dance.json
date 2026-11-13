@@ -1,13 +1,48 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "193ace6fbca76c21d62314d9c30c3f48c6c6be638f9990455865a67ec5725a9f",
+  "fingerprint": "be9b1900ec3a6a59c76f4087792152b700bf81b21d64209cea433a416128fbac",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,7 +50,6 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
@@ -45,7 +79,7 @@
   ],
   "music_options": [],
   "name": "Worship dance",
-  "research_file": null,
+  "research_file": "research_results/worship-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +91,8 @@
   "slug": "worship-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Worship_dance",
-    "Source: Worship dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Worship_dance"
+    "https://www.wikidata.org/wiki/Q8036987"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

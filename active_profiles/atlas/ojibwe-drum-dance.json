@@ -1,13 +1,52 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "dream drum"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "sacred"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9204619f39f70249d509b8dbcbf5c4f599f872e99b3da42eaa5af74d2939d4a1",
+  "fingerprint": "e6ef807dc617e22dfbde09b7713ddfdda4cc0289042167bd4288517165f8448c",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,7 +54,6 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
@@ -45,7 +83,7 @@
   ],
   "music_options": [],
   "name": "Ojibwe drum dance",
-  "research_file": null,
+  "research_file": "research_results/ojibwe-drum-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +95,8 @@
   "slug": "ojibwe-drum-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Drum_dance",
-    "Source: Drum dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Drum_dance"
+    "https://www.wikidata.org/wiki/Q109482960"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

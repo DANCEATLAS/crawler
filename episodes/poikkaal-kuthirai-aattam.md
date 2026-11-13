@@ -1,8 +1,8 @@
 # Poikkaal Kuthirai Aattam — episode pack
 
-*Status: withheld-chapters · built 2026-11-12 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-13 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; notable figures; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; notable figures; lineage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A traditional folk artist from the Thanjavur region.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Galloping King: The Art of Poikkaal Kuthirai Aattam
 NARRATION: This is Poikkaal Kuthirai Aattam.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (U0P4EaHyEGI)
 ON SCREEN: Title card: Poikkaal Kuthirai Aattam · India · not described in sources
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ NARRATION: Dancers fit inside a dummy horse frame made of lightweight materials.
 NARRATION: They attach wooden legs to their feet to create a rhythmic tapping sound.
 NARRATION: Performers often carry a sword or whip and may perform acrobatic movements.
 NARRATION: Watch for Acrobatics.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (U0P4EaHyEGI)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Typically performed by a pair of dancers.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -94,7 +94,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'U0P4EaHyEGI', 'checked_by_vision_model': False, 'title': 'Folk Dance in DakshinaChitra Museum|Mayillattam|Poikkal kuthirai|Dummy horse dance|நாட்டுப்புற நடனம்'}
 Images: 1 licensed — Krsmoorthi / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: The dummy horse frame, Wooden leg extensions, Sword and whip props
@@ -104,9 +104,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
+Source: 16 tutorial(s) of the folk-circle family studied · videos studied: 16
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
+Cues: keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; left foot go; brush brush step; double step rock step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; rock step
 
 Sources (2): https://en.wikipedia.org/wiki/Poikkaal_Kuthirai_Aattam; https://www.wikidata.org/wiki/Q16314303

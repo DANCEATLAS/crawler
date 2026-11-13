@@ -1,0 +1,172 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "heavy costumes",
+          "complex acrobatics"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "acrobatic jumps",
+          "rapid directional changes"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [
+        {
+          "description": "Visible errors include lack of synchronization and missed drum cues; expressive variations allowed in gestures",
+          "source": "https://en.wikipedia.org/wiki/Lion_dance"
+        }
+      ],
+      "learning_units": [
+        {
+          "description": "Control lion head movements including eyes, mouth, and ears",
+          "source": "https://en.wikipedia.org/wiki/Lion_dance"
+        },
+        {
+          "description": "Coordinate footwork between head and tail dancers",
+          "source": "https://en.wikipedia.org/wiki/Lion_dance"
+        },
+        {
+          "description": "Synchronize movements with drum and cymbal rhythms",
+          "source": "https://en.wikipedia.org/wiki/Lion_dance"
+        }
+      ],
+      "prerequisites": [
+        {
+          "description": "Physical coordination and stamina for acrobatic movements",
+          "source": "https://en.wikipedia.org/wiki/Lion_dance"
+        }
+      ],
+      "social_formats": [
+        {
+          "description": "Performed by pairs (head and tail dancers) in open formations with shared rhythm",
+          "source": "https://en.wikipedia.org/wiki/Lion_dance"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Head dancer manipulates lion head features; tail dancer controls tail movements",
+      "difficulty": "intermediate to advanced",
+      "footwork": "Coordinated stepping, lifting, and balancing; acrobatic stunts in advanced performances",
+      "formation_and_space": "Two dancers per lion, performing in open spaces or on platforms",
+      "hips_and_torso": "Flexible and expressive to simulate lion's body language",
+      "levels_and_jumps": "Includes crouching, leaping, and balancing on raised platforms",
+      "partnering": "Close coordination between head and tail dancers essential",
+      "posture": "Dynamic, with dancers crouching and leaping to mimic lion movements",
+      "signature_moves": [
+        {
+          "description": "Head dancer blinks lion's eyes to express emotion",
+          "name": "Lion's blink"
+        },
+        {
+          "description": "Mouth opens and closes to simulate roaring",
+          "name": "Lion's roar"
+        },
+        {
+          "description": "Dancers perform jumps and balancing acts on platforms",
+          "name": "Acrobatic leap"
+        }
+      ],
+      "tempo_feel": "Rhythmic and lively, matching percussion tempo",
+      "what_to_avoid": "Disrespecting the ritual significance Improper handling of the lion head Unsafe acrobatic stunts without training"
+    },
+    "music_profile": {
+      "instruments": [
+        "drums",
+        "gongs",
+        "cymbals"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "energetic",
+        "festive",
+        "auspicious"
+      ],
+      "musical_form": "call-and-response patterns between drums and cymbals",
+      "reference_recordings": [],
+      "rhythm_pattern": "Percussion patterns correspond to lion movements, including drum rolls and cymbal crashes",
+      "sound_description": "The music features a vigorous drumbeat with sharp cymbal crashes and resonant gong strikes, creating a lively and auspicious atmosphere that guides the lion's movements.",
+      "tempo_bpm": "variable, generally lively and rhythmic",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "One dancer controls the lion head, coordinating eye, mouth, and ear movements",
+        "Second dancer controls the tail, maintaining rhythm and balance",
+        "Perform basic lion steps: stepping forward, backward, side to side with synchronized footwork",
+        "Practice lifting and lowering the lion to mimic natural movements",
+        "Coordinate with drum beats for timing and expression"
+      ],
+      "formation": "Performed by two dancers in a single lion costume, usually on open flat ground or raised platforms",
+      "level_notes": "Beginners focus on basic coordination and timing; advanced performers incorporate acrobatics and expressive gestures",
+      "rhythm": "Driven by vigorous drumbeats, gongs, and cymbals with specific patterns matching lion movements"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "6323b9bb9dcf0b48e6206d3ab761b085dbd66d3a3cf8ca1327455ffd7fc4a4b6",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: meter"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:malaysian-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Malaysian dance",
+  "research_file": "research_results/malaysian-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "malaysian-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lion_dance",
+    "https://www.wikidata.org/wiki/Q713866",
+    "https://es.wikipedia.org/wiki/Danza_del_león",
+    "https://fr.wikipedia.org/wiki/Danse_du_lion",
+    "https://pt.wikipedia.org/wiki/Dança_do_leão"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

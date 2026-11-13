@@ -1,10 +1,10 @@
 {
  "slug": "siva-tau",
- "qc_at": "2026-11-03T18:20:27Z",
+ "qc_at": "2026-11-13T18:15:42Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 8.7,
+ "qc_score": 9.3,
  "gates": [
   {
    "gate": "has_name",
@@ -19,7 +19,7 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "201"
+   "detail": "188"
   },
   {
    "gate": "insight_concrete",
@@ -29,22 +29,22 @@
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "388"
+   "detail": "404"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "3180"
+   "detail": "1562"
   },
   {
    "gate": "sections_filled",
    "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "7/7 rate=1.0"
+   "detail": "8/8 rate=1.0"
   },
   {
    "gate": "sources",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "3 paras"
+   "detail": "1 paras"
   },
   {
    "gate": "not_duplicate",
@@ -83,13 +83,13 @@
   },
   {
    "gate": "sacred_handled",
-   "ok": true,
-   "detail": "sacred=False cues=['trance']"
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'trance', 'spirit']"
   }
  ],
  "judge": {
-  "accuracy": 9,
-  "respect": 9,
+  "accuracy": 10,
+  "respect": 10,
   "specificity": 9,
   "teaching_value": 7,
   "is_a_dance": true,
@@ -97,24 +97,24 @@
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
-  "album_doubt": [
-   "Le Manu"
-  ],
+  "album_doubt": [],
   "adaptations_safe": true,
   "overall": 9,
   "verdict": "publish",
-  "notes": "The profile is well-researched and accurately reflects the origins and function of the Siva Tau. The distinction between the dance and its sporting context is clear. The album 'Le Manu' by Shepherds Reign is a heavy metal song that features the chant, not a traditional recording of the dance itself, hence the doubt."
+  "notes": "Well-sourced profile of the Siva Tau with accurate historical and cultural details. Teaching value is somewhat limited due to the nature of the war challenge, but appropriately contextualised."
  },
  "judge_reused": false,
  "duplicate_of": null,
- "is_sacred": false,
+ "is_sacred": true,
  "reasons": [
-  "judge_score=8.7"
+  "sacred_handled",
+  "judge_score=9.3",
+  "sacred"
  ],
  "citation": {
-  "claims": 7,
-  "supported": 7,
+  "claims": 8,
+  "supported": 8,
   "rate": 1.0
  },
- "researched_at": "2026-11-03T18:13:48Z"
+ "researched_at": "2026-11-13T17:52:57Z"
 }

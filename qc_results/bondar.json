@@ -1,0 +1,124 @@
+{
+ "slug": "bondar",
+ "qc_at": "2026-11-13T18:17:28Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 5.15,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Bondar"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "35"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "151"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Bondar is formally classified as a Ukrainian folk dance, representing a specific"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "175"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1345"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": ""
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "2/3 rate=0.667"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Ukraine"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "foundational"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 5,
+  "respect": 10,
+  "specificity": 3,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Bondar is a Ukrainian folk dance."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 4,
+  "verdict": "review",
+  "notes": "The profile correctly classifies Bondar as a dance type and subclass of Ukrainian folk dance but lacks direct evidence confirming it as a Ukrainian folk dance. The entry is respectful but very sparse, with no detailed description or teaching content, limiting its usefulness."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "sources",
+  "sections_filled",
+  "judge_score=5.15",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 3,
+  "supported": 2,
+  "rate": 0.667
+ },
+ "researched_at": "2026-11-13T18:09:13Z"
+}

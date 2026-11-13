@@ -1,6 +1,6 @@
 # Apanomeritis — episode pack
 
-*Status: draft · built 2026-11-12 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 10.0 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); the music & instruments section; the costume & setting section; notable figures; two or more connections
 
@@ -11,8 +11,8 @@
 ## Episode 1 · Meet Apanomeritis · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Stamping Sheep of Crete
-NARRATION: This is Apanomeritis. 20th century.
+NARRATION: The stamping sheep of Crete.
+NARRATION: This is Apanomeritis. Twentieth century.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Apanomeritis · Greece · 20th century
 MUSIC: theme (30 s)
@@ -25,7 +25,7 @@ ON SCREEN: Image — MISSING
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: The dance is alternatively known as provatinistikos ('sheep dance') because the stamping footwork reflects the way sheep stamp when agitated or nervous.
+NARRATION: The dance is alternatively known as provatinistikos, meaning sheep dance, because the stamping footwork reflects the way sheep stamp when agitated or nervous.
 NARRATION: It was performed communally until shortly after the war and continues primarily through women's performances.
 NARRATION: Today it is a living tradition.
 ON SCREEN: Footage: Onze Slag (Adhunik Hanpuriyan Album) (https://archive.org/details/onze-slag-adhunik-hanpuriyan-album)
@@ -35,14 +35,14 @@ MUSIC: underscore
 NARRATION: The dance is performed in a circle.
 NARRATION: Dancers hold hands palm-to-palm with their hands crossed down.
 NARRATION: The footwork consists of a ten-step pattern characterized by dancers stamping their feet against the ground, an action reminiscent of the movements of nervous sheep.
-NARRATION: Watch for Provatinistikos stamp.
+NARRATION: Watch for the Provatinistikos stamp.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
 ### 5. Listen (70 s) · `music`
 NARRATION: The pulse is 2/4.
-NARRATION: A 2/4 meter accompaniment structured around vocal singing, where mantinades form a significant part of the lyrics over an unadorned rhythmic beat that aligns with the dancers' stamps.
+NARRATION: A 2/4 meter accompaniment is structured around vocal singing, where mantinades form a significant part of the lyrics over an unadorned rhythmic beat that aligns with the dancers' stamps.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -56,7 +56,7 @@ MUSIC: underscore
 NEEDS: costume_and_setting, images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Historically performed in central Crete with specific regional traditions noted in Rethymno and Heraklion.
+NARRATION: It was historically performed in central Crete with specific regional traditions noted in Rethymno and Heraklion.
 NARRATION: Apanomeritis belongs to the broader lineage of Greek folk dances and Cretan circle dances, sharing connections with rural pastoral movement traditions.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
@@ -70,32 +70,32 @@ MUSIC: underscore
 NEEDS: connections
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. Form a circle holding hands with adjacent dancers, palms joined and arms crossed down.
+NARRATION: Before we go, try one step. Form a circle holding hands with adjacent dancers, palms joined and arms crossed down.
 NARRATION: Execute the repeating ten-step sequence moving along the circle.
-NARRATION: Count it: 1-2, 1-2 (two beats a bar; practice pulse only).
+NARRATION: Count it: 1-2, 1-2, using two beats a bar to practice the pulse only.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
 MUSIC: lesson_slow
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: In the villages of Rethymno and Heraklion, women preserve Apanomeritis—a ten-step circle dance that translates the nervous stamping of mountain sheep into song.
-NARRATION: Sources: 2 references are listed with the profile.
+NARRATION: In the villages of Rethymno and Heraklion, women preserve Apanomeritis, a ten-step circle dance that translates the nervous stamping of mountain sheep into song.
+NARRATION: Sources: two references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
 
 ## Chapter 1 · First steps — Master the palm grip with hands crossed down in a circle formation · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Master the palm grip with hands crossed down in a circle formation.
-NARRATION: Level: Level 1: Circle Hold & Grip. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor: A focused Cretan folklore teacher who emphasizes steady pacing, communal alignment, and the crisp execution of the sheep-stamp.
+NARRATION: Chapter 1 is first steps. Today, master the palm grip with hands crossed down in a circle formation.
+NARRATION: The level is Level 1: Circle Hold and Grip. Difficulty of the dance overall is beginner.
+NARRATION: Your instructor is a focused Cretan folklore teacher who emphasizes steady pacing, communal alignment, and the crisp execution of the sheep-stamp.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Grounded circle stance with arms crossed down
-NARRATION: Grip from the palms with hands crossed down
+NARRATION: Maintain a grounded circle stance with arms crossed down.
+NARRATION: Grip from the palms with hands crossed down.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -110,8 +110,8 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Form a circle holding hands with adjacent dancers, palms joined and arms crossed down.
 NARRATION: Step 2: Execute the repeating ten-step sequence moving along the circle.
-NARRATION: Footwork from the sources: Ten-step walking and stamping sequence; dancers stamp their feet on the ground
-NARRATION: Drill: Join palms with neighbors to either side with arms crossed downward
+NARRATION: Footwork from the sources: ten-step walking and stamping sequence; dancers stamp their feet on the ground.
+NARRATION: Drill: join palms with neighbors to either side with arms crossed downward.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -119,22 +119,22 @@ COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Incorporate the characteristic foot stamp against the floor mimicking nervous sheep.
-NARRATION: Drill: Maintain uniform distance and arm tension while static
+NARRATION: Drill: maintain uniform distance and arm tension while static.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Slow first.
-NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Practice shifting weight gently side to side without breaking the arm line
+NARRATION: Do Step A, then Step B, without stopping. Go slow first.
+NARRATION: Now do half tempo. Now full tempo.
+NARRATION: Mirror the instructor as they face you, so your right is your right.
+NARRATION: Drill: practice shifting weight gently side to side without breaking the arm line.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid releasing the crossed hand hold or dropping the distinct foot stamp on the floor
+NARRATION: Avoid releasing the crossed hand hold or dropping the distinct foot stamp on the floor.
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the ten-step sequence seated by tapping feet alternately on the floor, replacing full-body weight stamps with gentle sole taps while holding hands crossed down with neighbors. · For children: Play the 'Sheep Dance' game where children mimic sheep gathering in a pasture, stamping their hooves together on the ten-count cue.
 MUSIC: silence
@@ -158,15 +158,15 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — Execute the continuous ten-step sequence in 2/4 time · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: Execute the continuous ten-step sequence in 2/4 time.
-NARRATION: Level: Level 2: The Ten Steps. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor: A focused Cretan folklore teacher who emphasizes steady pacing, communal alignment, and the crisp execution of the sheep-stamp.
+NARRATION: Chapter 2 is building the dance. Today, execute the continuous ten-step sequence in 2/4 time.
+NARRATION: The level is Level 2: The Ten Steps. Difficulty of the dance overall is beginner.
+NARRATION: Your instructor is a focused Cretan folklore teacher who emphasizes steady pacing, communal alignment, and the crisp execution of the sheep-stamp.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Grounded circle stance with arms crossed down
-NARRATION: Grip from the palms with hands crossed down
+NARRATION: Maintain a grounded circle stance with arms crossed down.
+NARRATION: Grip from the palms with hands crossed down.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -181,7 +181,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Form a circle holding hands with adjacent dancers, palms joined and arms crossed down.
 NARRATION: Step 2: Execute the repeating ten-step sequence moving along the circle.
-NARRATION: Drill: Count out the 2/4 meter aloud
+NARRATION: Drill: count out the 2/4 meter aloud.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -189,24 +189,24 @@ COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Incorporate the characteristic foot stamp against the floor mimicking nervous sheep.
-NARRATION: Provatinistikos stamp: Foot stamp on the ground imitating the nervous stamping of sheep
-NARRATION: Drill: Walk through the ten steps slowly without stamping
+NARRATION: Provatinistikos stamp: a foot stamp on the ground imitating the nervous stamping of sheep.
+NARRATION: Drill: walk through the ten steps slowly without stamping.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Slow first.
-NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Link the ten steps in continuous circular cycles
+NARRATION: Do Step A, then Step B, without stopping. Go slow first.
+NARRATION: Now do half tempo. Now full tempo.
+NARRATION: Mirror the instructor as they face you, so your right is your right.
+NARRATION: Drill: link the ten steps in continuous circular cycles.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid releasing the crossed hand hold or dropping the distinct foot stamp on the floor
+NARRATION: Avoid releasing the crossed hand hold or dropping the distinct foot stamp on the floor.
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the ten-step sequence seated by tapping feet alternately on the floor, replacing full-body weight stamps with gentle sole taps while holding hands crossed down with neighbors. · For children: Play the 'Sheep Dance' game where children mimic sheep gathering in a pasture, stamping their hooves together on the ten-count cue.
 MUSIC: silence
@@ -229,15 +229,15 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — Integrate the sheep-mimicking foot stamp cleanly into the ten-step rhythm · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 — Dancing it fully. Today: Integrate the sheep-mimicking foot stamp cleanly into the ten-step rhythm.
-NARRATION: Level: Level 3: The Provatinistikos Stamp. Difficulty of the dance overall: beginner.
-NARRATION: Your instructor: A focused Cretan folklore teacher who emphasizes steady pacing, communal alignment, and the crisp execution of the sheep-stamp.
+NARRATION: Chapter 3 is dancing it fully. Today, integrate the sheep-mimicking foot stamp cleanly into the ten-step rhythm.
+NARRATION: The level is Level 3: The Provatinistikos Stamp. Difficulty of the dance overall is beginner.
+NARRATION: Your instructor is a focused Cretan folklore teacher who emphasizes steady pacing, communal alignment, and the crisp execution of the sheep-stamp.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Grounded circle stance with arms crossed down
-NARRATION: Grip from the palms with hands crossed down
+NARRATION: Maintain a grounded circle stance with arms crossed down.
+NARRATION: Grip from the palms with hands crossed down.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -252,31 +252,31 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Execute the repeating ten-step sequence moving along the circle.
 NARRATION: Step 2: Incorporate the characteristic foot stamp against the floor mimicking nervous sheep.
-NARRATION: Drill: Isolate the single foot stamp on the floor in place
+NARRATION: Drill: isolate the single foot stamp on the floor in place.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Provatinistikos stamp: Foot stamp on the ground imitating the nervous stamping of sheep
-NARRATION: Drill: Insert the stamp into its precise place within the ten-step sequence
+NARRATION: Provatinistikos stamp: a foot stamp on the ground imitating the nervous stamping of sheep.
+NARRATION: Drill: insert the stamp into its precise place within the ten-step sequence.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Slow first.
-NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Coordinate the full movement sequence while chanting mantinades lines
+NARRATION: Do Step A, then Step B, without stopping. Go slow first.
+NARRATION: Now do half tempo. Now full tempo.
+NARRATION: Mirror the instructor as they face you, so your right is your right.
+NARRATION: Drill: coordinate the full movement sequence while chanting mantinades lines.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid releasing the crossed hand hold or dropping the distinct foot stamp on the floor
+NARRATION: Avoid releasing the crossed hand hold or dropping the distinct foot stamp on the floor.
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the ten-step sequence seated by tapping feet alternately on the floor, replacing full-body weight stamps with gentle sole taps while holding hands crossed down with neighbors. · For children: Play the 'Sheep Dance' game where children mimic sheep gathering in a pasture, stamping their hooves together on the ten-count cue.
 MUSIC: silence
@@ -320,9 +320,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
+Source: 16 tutorial(s) of the folk-circle family studied · videos studied: 16
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
+Cues: keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; left foot go; brush brush step; double step rock step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; rock step
 
 Sources (2): https://en.wikipedia.org/wiki/Apanomeritis; https://www.wikidata.org/wiki/Q113103557

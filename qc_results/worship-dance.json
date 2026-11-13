@@ -1,0 +1,122 @@
+{
+ "slug": "worship-dance",
+ "qc_at": "2026-11-13T18:17:49Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.3,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Worship dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "86"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "196"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 2003, Cardinal Francis Arinze, then-Vatican liturgy chief, clarified that no "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "407"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2615"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Global"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'god', 'worship', 'liturg', 'spirit', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 2,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "publish",
+  "notes": "While the profile is accurate and respectful, it is not a single dance tradition but a broad category of practice. It lacks technical teaching value because the subject is diverse and lacks a codified movement vocabulary. The classification as 'is_a_dance' is false as it is a liturgical practice rather than a specific dance style."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "country",
+  "sections_filled",
+  "judge_score=8.3",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-13T18:14:51Z"
+}

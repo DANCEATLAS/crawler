@@ -1,6 +1,6 @@
 # Baalan Dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-12 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-13 · judge 9.45 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; signature moves; notable figures; two or more connections
 
@@ -102,9 +102,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
+Source: 16 tutorial(s) of the folk-circle family studied · videos studied: 16
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
+Cues: keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; left foot go; brush brush step; double step rock step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; rock step
 
 Sources (2): https://en.wikipedia.org/wiki/Baalan_Dance; https://www.wikidata.org/wiki/Q136659443

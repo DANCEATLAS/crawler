@@ -1,6 +1,6 @@
 # Women's Fancy Shawl Dance — episode pack
 
-*Status: draft · built 2026-11-12 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -295,9 +295,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 53 tutorials across the atlas studied · videos studied: 53
+Source: 58 tutorials across the atlas studied · videos studied: 58
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: side close side; rock step; out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; right leg out front; jump split your legs; the back foot goes up; lift the left leg up; keep your feet pointed; use your core
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: rock step; side close side; keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; make sure you touch all the way back; down back out back up back out back; make sure that you are wearing comfortable shoes; stand properly; don't do that; hold your knife out
 
 Sources (2): https://en.wikipedia.org/wiki/Fancy_dance; https://www.wikidata.org/wiki/Q5433706

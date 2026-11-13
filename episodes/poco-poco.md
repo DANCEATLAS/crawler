@@ -1,8 +1,8 @@
 # Poco-poco — episode pack
 
-*Status: draft · built 2026-11-12 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed reference footage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed reference footage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A community dance leader with knowledge of Indonesian folk traditions.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dance That Stopped a Riot
 NARRATION: This is Poco-poco. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (MHzlphKGOxI)
 ON SCREEN: Title card: Poco-poco · Indonesia · 20th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Dancers form lines and columns, moving in unison toward four directio
 NARRATION: The dance consists of six main figures involving swaying, shaking, and arm gestures.
 NARRATION: Each figure typically begins with two steps to the right, two to the left, followed by backward and forward movements and a turn.
 NARRATION: Watch for Four-direction turn.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (MHzlphKGOxI)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Lines and columns, moving toward four cardinal directions
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -316,7 +316,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performed in casual attire at weddings, family gatherings, military exercises, and public squares.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'MHzlphKGOxI', 'checked_by_vision_model': False, 'title': 'Video Panduan Poco Poco World Record 2018'}
 Images: 5 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain (Public domain); Ferry pepenk / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Herusutimbul / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Grids of dancers in public squares, Archival footage of 1998 protests, Close-ups of rhythmic footwork
@@ -326,9 +326,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 14 tutorial(s) of the folk-circle family studied · videos studied: 14
+Source: 16 tutorial(s) of the folk-circle family studied · videos studied: 16
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: rock step; side close side; triple step; rock step triple step triple step; step your right foot sideward; close your left foot; point your left foot; hold your skirt; put your hands at the back; take three steps forward; turn around; open your fan
+Cues: keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; left foot go; brush brush step; double step rock step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; rock step
 
 Sources (4): https://en.wikipedia.org/wiki/Poco-poco; https://www.wikidata.org/wiki/Q3392977; https://fr.wikipedia.org/wiki/Poco-poco; https://pt.wikipedia.org/wiki/Poco-poco

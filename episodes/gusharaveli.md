@@ -1,8 +1,8 @@
 # Gusharaveli — episode pack
 
-*Status: draft · built 2026-11-12 · judge 8.45 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 8.45 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; notable figures; lineage; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section; signature moves; the music & instruments section; the costume & setting section; notable figures; lineage; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Afro-Albanian Rhythm of Ulcinj
 NARRATION: This is Gusharaveli. Contemporary.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (VZxcgyxBs3E)
 ON SCREEN: Title card: Gusharaveli · Montenegro · Contemporary
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (VZxcgyxBs3E)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -277,7 +277,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'VZxcgyxBs3E', 'checked_by_vision_model': False, 'title': 'Folklori nga Ulqini: Valle e detarëve Dumsharaveli"'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Coastal scenery of Ulcinj, Group gathering in a festival setting
@@ -290,6 +290,6 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 Source: 10 tutorial(s) of the african-diaspora family studied · videos studied: 10
 Counting: count the 2/2 bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees
+Cues: make sure that you are wearing comfortable shoes; stand properly; don't do that; and out and out and in and in; double double; and cross and cross; right slap left slap; left foot; right foot; step; touch; stomp off
 
 Sources (2): https://en.wikipedia.org/wiki/Gusharaveli; https://www.wikidata.org/wiki/Q16841301

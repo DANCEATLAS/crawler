@@ -2,7 +2,7 @@
  "slug": "gusharaveli",
  "name": "Gusharaveli",
  "pack_version": "e2",
- "built_at": "2026-11-12T18:57:17Z",
+ "built_at": "2026-11-13T18:27:38Z",
  "researched_at": "2026-11-12T17:59:25Z",
  "qc_score": 8.45,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Gusharaveli. Contemporary."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (VZxcgyxBs3E)",
      "Title card: Gusharaveli · Montenegro · Contemporary"
     ],
     "music": "theme (30 s)"
@@ -105,7 +105,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (VZxcgyxBs3E)",
      "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -680,7 +680,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "VZxcgyxBs3E",
+   "checked_by_vision_model": false,
+   "title": "Folklori nga Ulqini: Valle e detarëve Dumsharaveli\""
+  },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
    "dress_the_narrator": false,
@@ -724,18 +728,18 @@
    "repetitions per step: about 4"
   ],
   "cues": [
-   "out in out half circle back close",
-   "one two tap accent with left shoulder",
-   "one and two and three",
-   "contract the pelvis it will pull you forward",
-   "and one and three and five and seven",
-   "keep your feet together",
-   "relax your knees",
+   "make sure that you are wearing comfortable shoes",
+   "stand properly",
+   "don't do that",
    "and out and out and in and in",
    "double double",
    "and cross and cross",
    "right slap left slap",
-   "bend the knees"
+   "left foot",
+   "right foot",
+   "step",
+   "touch",
+   "stomp off"
   ],
   "common_mistakes": [],
   "segment_order": [
@@ -753,7 +757,7 @@
   "tempo (bpm)",
   "instruments",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "posture, arms and hands",
@@ -774,6 +778,6 @@
  "claims_verified": 5,
  "claims": 5,
  "polished": false,
- "input_fingerprint": "17b6fe25244f69a57419f22541f1ae36b3fb8abfa31c3fc86a6ca1f65fd7b9c0",
+ "input_fingerprint": "b2688ad3fe245ae2230736b2b36bebc0069bbaa52ea80cfb706d956656426fdc",
  "hero_checked": null
 }

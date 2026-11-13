@@ -1,61 +1,70 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Huacones carry whips (tronadores) used as symbolic gestures during dance",
-      "difficulty": "Intermediate (requires moral integrity and inherited knowledge)",
-      "footwork": "Elders dance with freedom and improvisation; younger huacones perform limited, circumscribed steps around elders",
-      "formation_and_space": "Central village plaza; elders occupy central space with younger dancers moving around them",
-      "hips_and_torso": "Not described in sources",
-      "levels_and_jumps": "Not described in sources",
-      "partnering": "Not described in sources",
-      "posture": "Upright, authoritative posture reflecting moral authority",
+      "arms_and_hands": "Wielding whips (tronadores)",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "Younger huacones dance in circles around the elders",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
       "signature_moves": [
         {
-          "description": "Elders perform free, improvised dance movements expressing authority",
-          "name": "Improvised elder steps"
+          "description": "A movement involving circles.",
+          "name": "Cuti cuti"
         },
         {
-          "description": "Younger huacones move in limited steps around elders, symbolizing respect and subordination",
-          "name": "Circumscribed younger steps"
+          "description": "A traditional choreographic figure.",
+          "name": "Inti Palpoy"
+        },
+        {
+          "description": "A traditional choreographic figure.",
+          "name": "Anca Palpoy"
         }
       ],
-      "tempo_feel": "Rhythmic and solemn, paced by the tinya drum",
-      "what_to_avoid": "Outsiders should not attempt to perform or wear masks; respect the sacred nature and moral requirements of the dance"
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Do not attempt to perform as a huacone without being a member of the community and meeting the moral requirements."
     },
     "music_profile": {
       "instruments": [
-        "tinya (small indigenous drum)"
+        "Tinya (small indigenous drum)"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "solemn",
+        "ritual",
         "authoritative",
-        "ritualistic"
+        "solemn"
       ],
-      "musical_form": "Not described in sources",
+      "musical_form": "not described in sources",
       "reference_recordings": [],
-      "rhythm_pattern": "Not specified beyond tinya drum providing beat",
-      "sound_description": "The music centers on the steady beat of the tinya drum, providing a rhythmic foundation for the huacones' dance steps, accompanied by an orchestra playing varied rhythms that underscore the ritual's solemn and authoritative mood.",
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is defined by the steady, rhythmic beating of the tinya drum, which provides the tempo for the dancers' movements.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Not described in sources"
+      "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Stand in the village center with other huacones",
-        "Elders perform free and improvised steps with whips",
-        "Younger huacones move in limited, circumscribed steps around elders",
-        "Follow the rhythm of the tinya drum",
-        "Maintain solemnity and respect during movements"
+        "Circumscribed steps (younger huacones)",
+        "Improvised movements (elders)"
       ],
-      "formation": "Group formation with elders central and younger huacones moving around them",
-      "level_notes": "Beginners start by learning circumscribed steps around elders; advanced dancers (elders) improvise freely",
-      "rhythm": "Set by the tinya drum; specific meter not described"
+      "formation": "Center of the village; younger huacones circle the elders",
+      "level_notes": "Restricted to men of good conduct; technique not described in sources",
+      "rhythm": "Set by the tinya drum"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "249682c9fc6cd88d7a588ddc37c15e7721e83995710b2ea3ded8be6bbd1f96c4",
+  "fingerprint": "39ddb0343c784140845572097f3fcc0dd8b31b05c66c91d49479013b668fdc2d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -63,7 +72,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "music_structure: meter",
+      "movement: footwork, posture",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [

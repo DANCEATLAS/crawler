@@ -1,0 +1,120 @@
+{
+ "slug": "yak-dance",
+ "qc_at": "2026-11-13T18:16:08Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Yak dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "67"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "193"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 2017, a troupe performing the Yak dance at India’s 68th Republic Day parade i"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "563"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1843"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,how_it_is_danced,costume_and_setting"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "India"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['ritual', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 3,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and well-supported by the provided evidence. It correctly identifies the dance as a pantomime and provides clear cultural context. The teaching value is low due to the lack of technical movement descriptions, which is understandable given the source limitations. The content is respectful and avoids exoticism."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sections_filled",
+  "judge_score=8.7",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-13T17:34:24Z"
+}

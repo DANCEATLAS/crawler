@@ -1,0 +1,825 @@
+{
+ "slug": "bamboula",
+ "name": "Bamboula",
+ "pack_version": "e2",
+ "built_at": "2026-11-13T18:27:38Z",
+ "researched_at": "2026-11-13T18:11:55Z",
+ "qc_score": 8.5,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Musicologist or cultural historian",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Bamboula",
+   "bambala"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Bamboula",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Rhythm of Congo Square",
+     "This is Bamboula. 18th-19th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (4rdmlhb4ifI)",
+     "Title card: Bamboula · United States, Haiti · 18th-19th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance originated in West Africa and was brought to the Caribbean and the United States via the transatlantic slave trade.",
+     "It was documented in Haiti in 1757 and became a prominent feature of Congo Square in New Orleans during the 19th century."
+    ],
+    "on_screen": [
+     "Map: United States, Haiti · Global",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance served as a communal expression for enslaved populations.",
+     "It was also subject to colonial bans, such as the 1672 prohibition on St. Thomas.",
+     "Today it is a historical tradition."
+    ],
+    "on_screen": [
+     "Footage: BAAD Bamboula (https://archive.org/details/BAADBamboula)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (4rdmlhb4ifI)",
+     "Signature moves — MISSING"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The instrument is a cylindrical friction drum made from a rum barrel with skin stretched over the ends.",
+     "The music is defined by a 3+3+2 polyrhythmic pattern.",
+     "Listen for the bamboula drum (friction drum).",
+     "A syncopated, polyrhythmic sound driven by a friction drum made from a rum barrel."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Tan patate la ichuite — Marguerite Castellanos Taggart",
+     "Waveform or rhythm-pattern graphic: 3+3+2 polyrhythmic pattern"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Historically associated with festivals and ceremonies in Haiti and Sunday gatherings in New Orleans' Congo Square."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Louis Moreau Gottschalk, Marguerite Castellanos Taggart, and Samuel Coleridge-Taylor.",
+     "The tradition is documented in Haiti, the Virgin Islands, and New Orleans, Louisiana.",
+     "The dance is linked to West African Fon and Yoruba traditions and is considered a precursor to New Orleans jazz and second line rhythms."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Bamboula is sibling of calenda: Frequently cited alongside the bamboula as a popular dance in New Orleans' Congo Square."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow",
+    "needs": [
+     "teaching steps"
+    ]
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the history of the bamboula, from its West African roots to its influence on New Orleans jazz.",
+     "Sources: 4 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "the first steps of Bamboula",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: the first steps of Bamboula.",
+      "Level: beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: Musicologist or cultural historian"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: 3+3+2 polyrhythmic pattern.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the first steps of Bamboula.",
+      "The dance served as a communal expression for enslaved populations.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Bamboula",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Bamboula.",
+      "Level: intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: Musicologist or cultural historian"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: 3+3+2 polyrhythmic pattern.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Bamboula.",
+      "Louis Moreau Gottschalk, Marguerite Castellanos Taggart, and Samuel Coleridge-Taylor.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Bamboula",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Bamboula.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: Musicologist or cultural historian"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Demonstration withheld until posture is sourced"
+     ],
+     "music": "silence",
+     "needs": [
+      "posture"
+     ]
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: 3+3+2 polyrhythmic pattern.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "teaching steps"
+     ]
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3,
+     "needs": [
+      "signature moves"
+     ]
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Bamboula.",
+      "The dance is linked to West African Fon and Yoruba traditions and is considered a precursor to New Orleans jazz and second line rhythms.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "3+3+2 polyrhythmic pattern",
+  "instruments": [
+   "bamboula drum (friction drum)"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "syncopated",
+   "rhythmic"
+  ],
+  "sound_description": "A syncopated, polyrhythmic sound driven by a friction drum made from a rum barrel.",
+  "listen_before_composing": [
+   "Tan patate la ichuite — Marguerite Castellanos Taggart"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Bamboula (United States, Haiti). Rhythm pattern: 3+3+2 polyrhythmic pattern. Instruments: bamboula drum (friction drum). Mood: syncopated, rhythmic. It should sound like this: A syncopated, polyrhythmic sound driven by a friction drum made from a rum barrel. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "4rdmlhb4ifI",
+   "checked_by_vision_model": false,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Historically associated with festivals and ceremonies in Haiti and Sunday gatherings in New Orleans' Congo Square.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ADancing_in_Congo_Square_-_Edward_Winsor_Kemble%2C_1886.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ABamboula-drum.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Dancing_in_Congo_Square_-_Edward_Winsor_Kemble%2C_1886.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Dancing_in_Congo_Square_-_Edward_Winsor_Kemble%2C_1886.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Edward Winsor Kemble / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADancing_in_Congo_Square_-_Edward_Winsor_Kemble%2C_1886.jpg",
+    "description": "Dancing in Congo Square. \n\n1886 illustration depicting slave dances in New Orleans 40 some years earlier."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Bamboula-drum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/05/Bamboula-drum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Cynthia Keedy / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABamboula-drum.jpg",
+    "description": "The animal skin wooden drum from Africa came to Haiti in the late 1850's."
+   }
+  ],
+  "footage": [
+   {
+    "title": "BAAD Bamboula",
+    "url": "https://archive.org/details/BAADBamboula",
+    "year": 2015,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Rum barrel drum",
+   "Congo Square historical illustrations"
+  ],
+  "costume_notes": "Historically associated with festivals and ceremonies in Haiti and Sunday gatherings in New Orleans' Congo Square.",
+  "setting_notes": "The dance served as a communal expression for enslaved populations. It was also subject to colonial bans, such as the 1672 prohibition on St. Thomas.",
+  "map": {
+   "country": "United States, Haiti",
+   "region": "Global",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "10 tutorial(s) of the african-diaspora family studied",
+  "videos_studied": 10,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "make sure that you are wearing comfortable shoes",
+   "stand properly",
+   "don't do that",
+   "and out and out and in and in",
+   "double double",
+   "and cross and cross",
+   "right slap left slap",
+   "left foot",
+   "right foot",
+   "step",
+   "touch",
+   "stomp off"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "layering"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed images (3 needed)",
+  "posture, arms and hands",
+  "the how-it-is-danced section",
+  "signature moves",
+  "two or more connections",
+  "teaching steps written out",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Bamboula",
+  "https://www.wikidata.org/wiki/Q6658",
+  "https://es.wikipedia.org/wiki/Bamboula",
+  "https://fr.wikipedia.org/wiki/Bamboula"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "59a806a92a9e3f724973e422a8f3f05a3caf5d2dbb4a0fcb424d585bf7e7d430",
+ "hero_checked": "fail"
+}

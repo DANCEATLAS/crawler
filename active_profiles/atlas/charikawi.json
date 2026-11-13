@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9d30f99344ad2d34c04f5af13c1f6de2ee92e2dda64d498c6b1b690aa377999c",
+  "fingerprint": "86fc4ffc30c15f7b7daba54aabae15de1d25182beb567834262cd7ad25a9509d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -45,7 +92,7 @@
   ],
   "music_options": [],
   "name": "Charikawi",
-  "research_file": null,
+  "research_file": "research_results/charikawi.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -56,8 +103,7 @@
   },
   "slug": "charikawi",
   "sources": [
-    "https://en.wikipedia.org/wiki/Charikawi",
-    "Source: Charikawi on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Charikawi"
+    "https://www.wikidata.org/wiki/Q5074341"
   ],
   "state": "researching",
   "video_evidence": []

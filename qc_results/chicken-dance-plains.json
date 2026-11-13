@@ -1,0 +1,119 @@
+{
+ "slug": "chicken-dance-plains",
+ "qc_at": "2026-11-13T18:17:19Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 6.7,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Chicken Dance (Prairie-Chicken)"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "84"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "197"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "The male prairie-chicken inflates orange neck sacs and emits a 'woo-woo' sound t"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "456"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1728"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,occasions_and_meaning"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "USA"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "testament to"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['ritual']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 9,
+  "specificity": 6,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": "Chicken Dance (the popular European novelty dance)",
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "verdict": "review",
+  "notes": "The profile correctly identifies the Indigenous dance tradition but lacks any descriptive content regarding the actual movement, music, or performance. It is currently an encyclopedic entry about a bird rather than a dance profile. It must be distinguished from the unrelated European novelty 'Chicken Dance'."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "sections_filled",
+  "judge_score=6.7"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-13T17:56:56Z"
+}

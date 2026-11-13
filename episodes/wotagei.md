@@ -1,6 +1,6 @@
 # Wotagei — episode pack
 
-*Status: draft · built 2026-11-12 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; two or more connections
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: PPPH: A rhythmic sequence of claps and calls ('Pan, papan, hy
 NARRATION: Step 2: OAD: Swinging the body side to side while clapping.
 NARRATION: Footwork from the sources: Jumping, side-to-side swaying, and occasional sliding.
 NARRATION: Drill: Practice the PPPH rhythm.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -192,7 +192,7 @@ NEEDS: tempo
 NARRATION: Step 1: PPPH: A rhythmic sequence of claps and calls ('Pan, papan, hyu!').
 NARRATION: Step 2: OAD: Swinging the body side to side while clapping.
 NARRATION: Drill: Coordinate arm swings with torso movement.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -267,7 +267,7 @@ NEEDS: tempo
 NARRATION: Step 1: Romance: Swinging the body side to side while pointing upward.
 NARRATION: Step 2: Thundersnake: A complex arm movement sequence used during the chorus.
 NARRATION: Drill: Chain thundersnake and romance.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -336,9 +336,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the street-urban family studied · videos studied: 13
+Source: 16 tutorial(s) of the street-urban family studied · videos studied: 16
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; punch to the side; pull your head down; pivot them on your elbows; swing stop
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: make sure you touch all the way back; down back out back up back out back; feet parallel; relax  breath; swing stop; lean forward; arm up; elbow up; 1-2-3-4; 1-2-3-4-5; 1-2-3-4-5-6; 1-2-3-4-5-6-7-8
 
 Sources (5): https://en.wikipedia.org/wiki/Wotagei; https://www.wikidata.org/wiki/Q2636818; https://es.wikipedia.org/wiki/Wotagei; https://fr.wikipedia.org/wiki/Wotagei; https://it.wikipedia.org/wiki/Wotagei

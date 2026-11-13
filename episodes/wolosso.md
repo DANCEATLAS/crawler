@@ -1,6 +1,6 @@
 # Wolosso — episode pack
 
-*Status: draft · built 2026-11-12 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures; two or more connections
 
@@ -114,7 +114,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Stand with knees softly bent to prepare for pelvic isolation
 NARRATION: Step 2: Engage an offbeat rhythm in 4/4 meter
 NARRATION: Drill: Count the 4/4 pulse highlighting the offbeats at 55 bpm
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -182,7 +182,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Return the torso upright while keeping the circular pelvic rhythm uninterrupted
 NARRATION: Drill: Four-point pelvic compass isolation (front, right, back, left)
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -251,7 +251,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Lower the torso forward while maintaining the rolling hip circles to emphasize the buttocks
 NARRATION: Step 2: Return the torso upright while keeping the circular pelvic rhythm uninterrupted
 NARRATION: Drill: Hinging the upper body forward 45 degrees with a neutral spine
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -317,9 +317,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the street-urban family studied · videos studied: 13
+Source: 16 tutorial(s) of the street-urban family studied · videos studied: 16
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; punch to the side; pull your head down; pivot them on your elbows; swing stop
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: make sure you touch all the way back; down back out back up back out back; feet parallel; relax  breath; swing stop; lean forward; arm up; elbow up; 1-2-3-4; 1-2-3-4-5; 1-2-3-4-5-6; 1-2-3-4-5-6-7-8
 
 Sources (2): https://www.wikidata.org/wiki/Q2592787; https://de.wikipedia.org/wiki/Wolosso

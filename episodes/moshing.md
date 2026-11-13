@@ -1,6 +1,6 @@
 # moshing — episode pack
 
-*Status: draft · built 2026-11-12 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check
 
@@ -120,7 +120,7 @@ NARRATION: Step 1: Pogo: jumping up and down in place.
 NARRATION: Step 2: Two-step: running in place with legs crossing over one another.
 NARRATION: Footwork from the sources: Jumping, running, or crossing legs (two-step).
 NARRATION: Drill: Rhythmic jumping in place
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -192,7 +192,7 @@ NEEDS: tempo
 NARRATION: Step 1: Pogo: jumping up and down in place.
 NARRATION: Step 2: Two-step: running in place with legs crossing over one another.
 NARRATION: Drill: Crossing legs while running in place
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -267,7 +267,7 @@ NEEDS: tempo
 NARRATION: Step 1: Two-step: running in place with legs crossing over one another.
 NARRATION: Step 2: Circle running: moving in a circular path around the edge of the pit.
 NARRATION: Drill: Running in a circular path
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 3
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
@@ -337,9 +337,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 13 tutorial(s) of the street-urban family studied · videos studied: 13
+Source: 16 tutorial(s) of the street-urban family studied · videos studied: 16
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 3
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; punch to the side; pull your head down; pivot them on your elbows; swing stop
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: make sure you touch all the way back; down back out back up back out back; feet parallel; relax  breath; swing stop; lean forward; arm up; elbow up; 1-2-3-4; 1-2-3-4-5; 1-2-3-4-5-6; 1-2-3-4-5-6-7-8
 
 Sources (5): https://en.wikipedia.org/wiki/Moshing; https://www.wikidata.org/wiki/Q1463560; https://es.wikipedia.org/wiki/Mosh; https://fr.wikipedia.org/wiki/Mosh; https://pt.wikipedia.org/wiki/Mosh

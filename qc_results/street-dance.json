@@ -1,0 +1,120 @@
+{
+ "slug": "street-dance",
+ "qc_at": "2026-11-13T18:17:21Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.4,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Street dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "80"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "194"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Emerging from 1970s Bronx block parties and California funk scenes, street dance"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "646"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2373"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "5"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United States"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "codified,deeply rooted"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 5,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The profile is well-researched and respectful. It correctly identifies 'Street dance' as an umbrella term rather than a single dance, which is why is_a_dance is false. The inclusion of clogging provides good historical breadth. Teaching value is limited due to the broad nature of the term, which is expected."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "banned_phrasing",
+  "judge_score=8.4",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-13T18:08:46Z"
+}

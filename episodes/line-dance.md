@@ -1,6 +1,6 @@
 # Line dance — episode pack
 
-*Status: draft · built 2026-11-12 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-13 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; the hero video's vision check; posture, arms and hands; teaching steps written out
 
@@ -76,7 +76,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Step forward
 NARRATION: Step side
-NARRATION: Count it: 1-2-3-4 / 5-6-7-8 / and.
+NARRATION: Count it: 1-2-3-4.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -103,7 +103,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 / 5-6-7-8 / and.
+NARRATION: Count: 1-2-3-4.
 NARRATION: Rhythm pattern: Repeating sequences, often 32, 48, or 64 counts..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -119,13 +119,13 @@ NARRATION: Drill: Basic forward step
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 / 5-6-7-8 / and · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Side step
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 / 5-6-7-8 / and · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
@@ -144,7 +144,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 / 5-6-7-8 / and.
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -173,7 +173,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 / 5-6-7-8 / and.
+NARRATION: Count: 1-2-3-4.
 NARRATION: Rhythm pattern: Repeating sequences, often 32, 48, or 64 counts..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -187,7 +187,7 @@ NARRATION: Step 2: Step side
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 / 5-6-7-8 / and · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Shuffle: A syncopated step sequence.
@@ -195,7 +195,7 @@ NARRATION: Turn: Rotation to face a new wall.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 / 5-6-7-8 / and · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -212,7 +212,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 / 5-6-7-8 / and.
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Parallel rows or lines; dancers face one or more 'walls'.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -241,7 +241,7 @@ MUSIC: silence
 NEEDS: posture
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 / 5-6-7-8 / and.
+NARRATION: Count: 1-2-3-4.
 NARRATION: Rhythm pattern: Repeating sequences, often 32, 48, or 64 counts..
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -255,7 +255,7 @@ NARRATION: Step 2: Step side
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 / 5-6-7-8 / and · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Shuffle: A syncopated step sequence.
@@ -263,7 +263,7 @@ NARRATION: Turn: Rotation to face a new wall.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 / 5-6-7-8 / and · repetitions: 3
+COUNTS: 1-2-3-4 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -280,7 +280,7 @@ ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 / 5-6-7-8 / and.
+NARRATION: Count-in: 1-2-3-4.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Parallel rows or lines; dancers face one or more 'walls'.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -319,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
-Counting: 1-2-3-4 / 5-6-7-8 / and
-Demonstration: views used by most teachers: back; tempo progression: slow → full
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 1-2-3-4
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full
 Cues: step by step; right left right; one more time slow
 Common mistakes the studied teachers name: people get messed up on section 2 footwork; people get confused on the turn in section 4
 

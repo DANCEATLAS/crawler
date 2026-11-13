@@ -2,7 +2,7 @@
  "slug": "shim-sham",
  "name": "Shim Sham",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:12Z",
+ "built_at": "2026-11-13T18:27:38Z",
  "researched_at": "2026-11-11T18:19:46Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -319,9 +319,9 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Teachers of this dance warn against: making steps too big instead of using rhythm",
-      "Teachers of this dance warn against: being too upright during stomp-off instead of using body movement",
-      "Teachers of this dance warn against: making the kick too big instead of letting the movement do the work"
+      "Teachers of this dance warn against: doing a big full foot instead of a stomp",
+      "Teachers of this dance warn against: falling into the wrong rhythm on the break",
+      "Teachers of this dance warn against: making steps too big instead of using rhythm"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction"
@@ -464,9 +464,9 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Teachers of this dance warn against: making steps too big instead of using rhythm",
-      "Teachers of this dance warn against: being too upright during stomp-off instead of using body movement",
-      "Teachers of this dance warn against: making the kick too big instead of letting the movement do the work"
+      "Teachers of this dance warn against: doing a big full foot instead of a stomp",
+      "Teachers of this dance warn against: falling into the wrong rhythm on the break",
+      "Teachers of this dance warn against: making steps too big instead of using rhythm"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction"
@@ -607,9 +607,9 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Teachers of this dance warn against: making steps too big instead of using rhythm",
-      "Teachers of this dance warn against: being too upright during stomp-off instead of using body movement",
-      "Teachers of this dance warn against: making the kick too big instead of letting the movement do the work"
+      "Teachers of this dance warn against: doing a big full foot instead of a stomp",
+      "Teachers of this dance warn against: falling into the wrong rhythm on the break",
+      "Teachers of this dance warn against: making steps too big instead of using rhythm"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction"
@@ -796,19 +796,19 @@
    "touch",
    "stomp off",
    "push",
-   "5-6-7-8-hold",
-   "lets build it up",
-   "now put them together",
    "stomp spank step",
    "stomp spank ball change",
-   "step toe step hop step hop out in"
+   "step toe step hop step hop out in",
+   "stomp heel stomp heel",
+   "5-6-7-8-hold",
+   "lets build it up"
   ],
   "common_mistakes": [
+   "doing a big full foot instead of a stomp",
+   "falling into the wrong rhythm on the break",
    "making steps too big instead of using rhythm",
    "being too upright during stomp-off instead of using body movement",
-   "making the kick too big instead of letting the movement do the work",
-   "doing a big full foot instead of a stomp",
-   "falling into the wrong rhythm on the break"
+   "making the kick too big instead of letting the movement do the work"
   ],
   "segment_order": [
    "intro",
@@ -839,6 +839,21 @@
     "description": "Stomp off with weight on left foot going right then left"
    },
    {
+    "name": "Stomp Spank Step",
+    "counts": "1-2-3-4",
+    "description": "Stomp, spank, and step starting on count four."
+   },
+   {
+    "name": "Break",
+    "counts": "1-2-3-4",
+    "description": "Step toe step hop step hop out and in."
+   },
+   {
+    "name": "Push / Stomp Heel Stomp Heel",
+    "counts": "1-2-3-4",
+    "description": "Stomp heel stomp heel alternating feet."
+   },
+   {
     "name": "Shim Sham",
     "counts": "5-6-7-8",
     "description": "The foundational step of the routine starting on eight."
@@ -852,21 +867,6 @@
     "name": "Pushes",
     "counts": "5-6-7-8",
     "description": "Pushing movement incorporated into the choreography."
-   },
-   {
-    "name": "Tack Annie",
-    "counts": "5-6-7-8",
-    "description": "A rhythmic footwork movement featuring a stomp off."
-   },
-   {
-    "name": "Half Break",
-    "counts": "5-6-7-8",
-    "description": "A transitional break step in the dance."
-   },
-   {
-    "name": "Stomp Spank Step",
-    "counts": "1-2-3-4",
-    "description": "Stomp, spank, and step starting on count four."
    }
   ]
  },
@@ -886,6 +886,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "5b8b7b78bf03464b1fecc942b56af00b16ccf6352fb484da83626e914cc06fe2",
+ "input_fingerprint": "1e72068ea476e37a99b5bfc3addbcc1b4a2cd36db0e64df78d356111cdcf3d5c",
  "hero_checked": null
 }

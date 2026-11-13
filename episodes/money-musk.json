@@ -1,0 +1,821 @@
+{
+ "slug": "money-musk",
+ "name": "Money Musk",
+ "pack_version": "e2",
+ "built_at": "2026-11-13T18:27:38Z",
+ "researched_at": "2026-11-13T17:30:34Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable folk dance historian with a focus on contra dance mechanics.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Money Musk",
+   "Monymusk"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Money Musk",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Dance That Survived Two Centuries",
+     "This is Money Musk. 18th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Money Musk · Scotland, United States · 18th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "First published in 1785, the dance is named after the House of Monymusk in Aberdeenshire, Scotland.",
+     "It spread to North America by 1792 and became a traditional 'chestnut' through the 20th century."
+    ],
+    "on_screen": [
+     "Map: Scotland, United States · Global",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "It is a social dance, historically popular in ballrooms and folk dance settings.",
+     "It is considered a 'chestnut' and is associated with a 2009 revival campaign.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Money Musk at Youth Dance Weekend 2019.webm (https://upload.wikimedia.org/wikipedia/commons/4/48/Money_Musk_at_Youth_Dance_Weekend_2019.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed in a triple minor, proper formation.",
+     "It consists of three parts (A, B, C).",
+     "The active couple performs right-hand allemandes, moves down the outside of the set, and joins lines of three.",
+     "Watch for Right-hand allemande, Passing through."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Triple minor, proper formation; reoriented lines facing sides and ends of the hall"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music is a 1776 strathspey by Daniel Dow, originally titled 'Sir Archibald Grant of Moniemusk's Reel'.",
+     "It is played in 4/4 time, though modern contra versions often use a 24-bar reel sequence.",
+     "The pulse is 4/4.",
+     "A 1776 strathspey tune that bristles with irrepressible excitement, characterized by a unique metric structure that is considered difficult to play."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Sir Archibald Grant of Moniemusk's Reel — Daniel Dow",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Daniel Dow (composer), Ralph Page (dance historian), David Smukler and David Millstone (revivalists).",
+     "English country dance, Scottish country dance, and American contra dance.",
+     "Derived from 18th-century Scottish strathspeys and country dance traditions."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Money Musk is parent of Contra dance: Money Musk is a specific, well-known contra dance.",
+     "Money Musk is sibling of Scottish country dance: Shares the same name and musical origins."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Right-hand allemande",
+     "Moving down the outside of the set",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover the history and mechanics of Money Musk, the 'chestnut' dance that brought 1300 people together in 2009.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Understand the triple minor formation",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Understand the triple minor formation.",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable folk dance historian with a focus on contra dance mechanics."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Right-hand allemande, taking hands in lines of three"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Right-hand allemande",
+      "Step 2: Moving down the outside of the set",
+      "Drill: Forming lines of three"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Forward and back in lines of three",
+      "Step 4: Passing through the set",
+      "Drill: Basic right-hand turn"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand the triple minor formation.",
+      "It is a social dance, historically popular in ballrooms and folk dance settings.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute the A part sequence",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute the A part sequence.",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable folk dance historian with a focus on contra dance mechanics."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Right-hand allemande, taking hands in lines of three"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Turning as a pair",
+      "Drill: Right-hand allemande"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Right-hand allemande: Dancers join right hands and rotate around each other.",
+      "Passing through: Top two couples walk to each other's places, passing by the right shoulder.",
+      "Drill: Moving down the outside of the set"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Triple minor, proper formation; reoriented lines facing sides and ends of the hall"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the A part sequence.",
+      "Daniel Dow (composer), Ralph Page (dance historian), David Smukler and David Millstone (revivalists).",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Master the C part reorientation",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Master the C part reorientation.",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A knowledgeable folk dance historian with a focus on contra dance mechanics."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Right-hand allemande, taking hands in lines of three"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Passing through the set",
+      "Step 2: Turning as a pair",
+      "Drill: Passing through the set"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Right-hand allemande: Dancers join right hands and rotate around each other.",
+      "Passing through: Top two couples walk to each other's places, passing by the right shoulder.",
+      "Drill: Turning as a pair"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Triple minor, proper formation; reoriented lines facing sides and ends of the hall"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the C part reorientation.",
+      "Derived from 18th-century Scottish strathspeys and country dance traditions.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "4/4",
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": "24-bar reel (modern contra)",
+  "mood": [
+   "excitement",
+   "hypnotic"
+  ],
+  "sound_description": "A 1776 strathspey tune that bristles with irrepressible excitement, characterized by a unique metric structure that is considered difficult to play.",
+  "listen_before_composing": [
+   "Sir Archibald Grant of Moniemusk's Reel — Daniel Dow"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Money Musk (Scotland, United States). Meter 4/4. Form: 24-bar reel (modern contra). Mood: excitement, hypnotic. It should sound like this: A 1776 strathspey tune that bristles with irrepressible excitement, characterized by a unique metric structure that is considered difficult to play. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AHouse_of_Monymusk.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AMonymusk_music.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/House_of_Monymusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/House_of_Monymusk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Greg Stringham / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHouse_of_Monymusk.jpg",
+    "description": "House of Monymusk, Monymusk, Aberdeenshire"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Monymusk_music.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Monymusk_music.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Thomas Jefferson (scribe) and Daniel Dow (author) / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMonymusk_music.jpg",
+    "description": "The sheet music of the tune Monymusk, in Thomas Jefferson's handwriting."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Money Musk at Youth Dance Weekend 2019.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Money_Musk_at_Youth_Dance_Weekend_2019.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Dugan Murphy / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Contra dance in Richmond, NH, 1965.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Contra_dance_in_Richmond%2C_NH%2C_1965.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "David Hoffman / Wikimedia Commons / Public domain"
+   }
+  ],
+  "motifs": [
+   "18th-century tunebooks",
+   "Diagrams of triple minor sets",
+   "Modern dance hall footage"
+  ],
+  "costume_notes": null,
+  "setting_notes": "It is a social dance, historically popular in ballrooms and folk dance settings. It is considered a 'chestnut' and is associated with a 2009 revival campaign.",
+  "map": {
+   "country": "Scotland, United States",
+   "region": "Global",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "16 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 16,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "keep those abs pulled in",
+   "engage all the muscles",
+   "keep those shoulders down",
+   "control control",
+   "left foot go",
+   "brush brush step",
+   "double step rock step",
+   "step back and instead of her hand being on my shoulder",
+   "we're going to bump sides just like this",
+   "we're going to step towards each other",
+   "we're going to do a spin a little bit",
+   "rock step"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "the costume & setting section",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Money_Musk",
+  "https://www.wikidata.org/wiki/Q109297320",
+  "https://archive.org/details/danceman093"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "cc0f79f1b30ce856ab45ef898294a16e770f7029527d784573ad2f8e47cb961f",
+ "hero_checked": null
+}
