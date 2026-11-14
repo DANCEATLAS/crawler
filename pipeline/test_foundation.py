@@ -138,6 +138,7 @@ class CompletionTests(TemporaryProject):
         ev = {"wikipedia": {"url": "https://example.org", "text": "Unchanged evidence"}}
         prev = record("a")
         prev["evidence_fingerprint"] = hashlib.sha256(json.dumps(research._source_texts(ev), sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()
+        prev["readiness_question_revision"] = 1
         self.save("research_results/a.json", prev)
         with patch.object(research, "gather_evidence", return_value=ev), patch.object(research, "compose") as compose:
             result = research.research_one({"slug": "a", "_completion_retry": True}, Mock())
