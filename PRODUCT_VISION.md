@@ -1,5 +1,7 @@
 # Dance Atlas — complete product vision
 
+**Owner spending and communication update — 14 November 2026:** Preserve all V01–V18. Read COST_AND_CONTINUITY.md and pipeline_state/spending_policy.json. Automatic model API generation is paused; credentials and prepaid balances are not spending authority. The separate research task now runs weekly, retaining the two-profile/six-source cap and the full evolving-requirements mission. Keep ordinary findings for the simple weekly email. Clearly mark a verified owner-only request **ACTION NEEDED** and necessary awareness **PLEASE NOTE**; ordinary researcher questions are not owner tasks. No purchases, automatic model upgrades, builds or raised caps.
+
 ## Owner update — 11 November 2026: Active Profiles and human BDFs
 
 The destination is **Active Profile** readiness for an exceptional interactive platform, not movie production. Prepare many thousands of profiles, ultimately every living dance with meaningful variants, while retaining the full Atlas and Viral vision below. The first AI BDF guides learners into multiple consenting human BDF relationships matched to their musical and social desires: shared experiences, learning, synchronized movement and belonging. Support split-screen, live on-camera/shared-screen participation and optional future AR.
@@ -190,6 +192,8 @@ Maximize useful accepted growth per unit cost while preserving cultural breadth 
 - Measure cost per accepted profile, reviewed unit and successful lesson. Do not weaken gates to improve counts or let popularity erase preservation work.
 
 ### V16 — Monitoring and technology evolution
+
+**Owner correction, 11 November 2026:** continuously research what more a profile needs to become active, including overlooked requirements beyond the current schema. Improve the requirements through new sources, practitioner/learner evidence and measured technology trials. Link each finding to affected profiles, next evidence, validation and cost; feed it back into the work queue. CONTINUOUS_RESEARCH.md defines the operational loops and their current limits.
 
 Monitor stage outcomes, dependencies, freshness, quotas and unexpected spending. A green parent workflow is insufficient when an internal stage ignores errors. Maintain correction queues and the existing weekly report. Distinguish listed, researched, published, structurally complete, practitioner reviewed, rights assessed and release approved; add meaningful Atlas/Viral coverage separately.
 
