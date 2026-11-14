@@ -388,6 +388,7 @@ def compose(d, ev, llm, prev_gaps=None):
     user = (f"DANCE: {d.get('name') or d.get('slug')}\nSLUG: {d.get('slug')}\nEXISTING CATALOGUE ENTRY (may be thin or partly wrong; prefer the sources): {json.dumps(existing, ensure_ascii=False)[:1500]}{gaps_note}\n\n"
             + "\n\n".join(src_blocks))
     system = EDITORIAL.format(regions=", ".join(REGIONS), families=", ".join(FAMILIES.keys()))
+    system += """\nCONTINUING REQUIREMENTS RESEARCH: Ask what else this specific dance needs before excellent interactive teaching is possible, including needs absent from today's schema. Return activation_questions (at most 4), each {domain: research|video|rights|review|platform, question, why_needed, next_evidence, source}. The source must be an exact supplied evidence URL. Identify a concrete unanswered question and the evidence or experiment needed, not generic boilerplate or an invented answer. Consider competing methods/variants, hidden mechanics, learner outcomes, language/access, music, human partners and delivery limits where the source gives a reason. Empty list if no grounded new question. These are unreviewed research candidates, never permissions or approval. Keep all existing output limits."""
     return normalize(llm.json(system, user, strong=True, temperature=0.3, max_tokens=9000))
 
 def research_one(d, llm, sb=None):
@@ -401,7 +402,8 @@ def research_one(d, llm, sb=None):
         followups[slug] = {"checked_at": now_iso(), "evidence_fingerprint": evidence_fingerprint}
         save_state("completion_followups.json", followups)
         if (prev.get("status") == "researched" and prev.get("schema") == RESEARCH_SCHEMA
-                and prev.get("evidence_fingerprint") == evidence_fingerprint):
+                and prev.get("evidence_fingerprint") == evidence_fingerprint
+                and prev.get("readiness_question_revision") == 1):
             log(f"RESEARCH completion {slug}: evidence unchanged; no model call")
             return prev
     rec = {"slug": slug, "name": d.get("name"), "researched_at": now_iso(), "evidence": {k: v for k, v in ev.items() if k not in ("images",)},
@@ -425,7 +427,12 @@ def research_one(d, llm, sb=None):
         return rec
     prev_gaps = list(((prev.get("profile") or {}).get("gaps") or [])[:8]) + [("class is missing: " + m) for m in ((prev.get("class_checklist") or {}).get("missing") or [])[:8]]
     active_gaps = (((load_state("activation_gaps.json", {}) or {}).get("profiles") or {}).get("atlas:" + slug) or {}).get("gaps") or {}
-    prev_gaps += ["Active Profile needs: " + g for g in active_gaps.get("research", [])[:4]]
+    new_questions = [g for g in active_gaps.get("research", []) if g.startswith("Investigate:")]
+    known_needs = [g for g in active_gaps.get("research", []) if not g.startswith("Investigate:")]
+    # The composer accepts 12 hints. New questions must not disappear behind
+    # the legacy field checklist before reaching the model.
+    prev_gaps = (["Active Profile needs: " + g for g in new_questions[:4] + known_needs[:2]]
+                 + prev_gaps[:6])
     # what the episode pack could not fill (pipeline/episodes.py) is asked for too — the script layer tells research what it needs
     prev_gaps += [("the episode script is missing: " + g) for g in ((load_state("episode_gaps.json", {}) or {}).get(slug) or [])[:6] if isinstance(g, str)]
     comp = compose(d, ev, llm, prev_gaps=prev_gaps)
@@ -437,6 +444,9 @@ def research_one(d, llm, sb=None):
         jsave(out_path, rec)
         return rec
     claims, cstats = verify_claims(comp.get("claims"), ev)
+    from .readiness_research import questions, REVISION
+    questions_reviewed = isinstance(comp.get("activation_questions"), list)
+    comp["activation_questions"] = questions(comp.get("activation_questions"), allowed_sources=set(ev.get("sources") or []), limit=4)
     verified_albums, unverified_albums = verify_albums(comp.get("albums"))
     try:   # licensed reference footage for the future generator (links only; nothing is downloaded)
         footage = S.footage_for(comp.get("name") or d.get("name") or slug, aliases=(comp.get("aliases") or [])[:3])
@@ -452,7 +462,8 @@ def research_one(d, llm, sb=None):
     rec.update({
         "status": "researched",
         "profile": {k: comp.get(k) for k in ("name", "tagline", "insight", "profile", "profile_long", "sections", "era", "country", "aliases", "related", "is_sacred", "sacred_note", "unesco", "teaching",
-                                             "music_profile", "movement_profile", "interaction_profile", "episode_brief", "connections", "tradition_status", "adaptations", "confidence", "gaps")},
+                                             "music_profile", "movement_profile", "interaction_profile", "activation_questions", "episode_brief", "connections", "tradition_status", "adaptations", "confidence", "gaps")},
+        "readiness_question_revision": REVISION if questions_reviewed else 0,
         "footage": footage,
         "schema": RESEARCH_SCHEMA, "movie_ready": movie_ready(comp), "class_checklist": class_checklist(comp, ev.get("images", []), verified_albums, footage),
         "books": [{k: b.get(k) for k in ("identifier", "title", "year", "url")} for b in ev.get("books", [])],
@@ -567,7 +578,8 @@ def pick_enrichment_targets(catalog, n):
         research_gaps += ((active.get("atlas:" + d["slug"]) or {}).get("gaps") or {}).get("research", [])
         if (prev.get("status") == "researched" and (qc.get(d["slug"]) or {}).get("publish_gate") == "publish"
                 and research_gaps and checked[:10] < _days_ago(7)):
-            finish.append((-(prev.get("class_have") or 0), len(research_gaps), checked, d["slug"], d))
+            finish.append((0 if any(g.startswith("Investigate:") for g in research_gaps) else 1,
+                           -(prev.get("class_have") or 0), len(research_gaps), checked, d["slug"], d))
         if last and last[:10] >= _days_ago(60) and int(prev.get("schema") or 0) >= RESEARCH_SCHEMA:
             continue
         if prev.get("status") == "no_sources" and last and last[:10] >= _days_ago(60):
