@@ -1,0 +1,819 @@
+{
+ "slug": "kerala-natanam",
+ "name": "Kerala Natanam",
+ "pack_version": "e2",
+ "built_at": "2026-11-14T17:47:19Z",
+ "researched_at": "2026-11-14T16:28:38Z",
+ "qc_score": 9.7,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Experienced classical dancer with knowledge of Kathakali and Kerala Natanam",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Kerala Natanam"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Kerala Natanam",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Kerala Natanam: The Dance that Reimagined Tradition",
+     "This is Kerala Natanam. 20th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Kerala Natanam · India · 20th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Kerala Natanam was developed by Guru Gopinath, a Kathakali-trained dancer, and his wife Thankamani Gopinath, the first student of Mohiniyattam at Kerala Kalamandalam.",
+     "They created a new teaching and performance structure drawing from Kathakali and Mohiniyattam, incorporating solo, duet, dance drama, and folk dances.",
+     "The style was named Kerala Natanam in 1993 at a global conference in Trivandrum, decades after its creation."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Kerala Natanam is performed in solo, duet, group, and dance drama formats, including Indian ballets lasting several hours.",
+     "It presents a wide range of themes from mythology to social issues, using expressive body and facial movements to convey stories and emotions.",
+     "Male-female pair dancing is a distinct style within Kerala Natanam.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Tribhanga Pose."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Performed solo, in pairs, groups, or extended dance dramas"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Kerala Natanam incorporates Carnatic music compositions adapted for dance, expanding beyond the traditional Kathakali and Mohiniyattam instrumentation.",
+     "A variety of musical instruments are used to support the diverse themes and moods of the performances.",
+     "Listen for the varied Carnatic instruments beyond traditional Kathakali and Mohiniyattam ensembles.",
+     "Music features Carnatic compositions arranged for dance with a diverse instrumental palette, supporting a wide range of themes from mythological to social."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Costumes and facial makeup in Kerala Natanam are role-specific rather than fixed, differing from Kathakali's traditional attire.",
+     "For example, a dancer portraying Jesus Christ wears costume resembling Christ, while social dances use laborer or peasant attire.",
+     "Mythological and other characters have appropriate costumes to match their roles."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Guru Gopinath, the founder and developer of Kerala Natanam, and his wife Thankamani Gopinath, the first student of Mohiniyattam at Kerala Kalamandalam, are central figures.",
+     "Guru Chandrasekharan (1916–1998) was a classical dancer known for performing Kerala Natanam.",
+     "Kerala Natanam evolved from Kathakali and Mohiniyattam traditions, integrating elements from both and expanding them into a new classical dance style with broader thematic and musical scope."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Kerala Natanam is parent of Kathakali: Kerala Natanam evolved from Kathakali's body and facial expression techniques.",
+     "Kerala Natanam is parent of Mohiniyattam: Thankamani Gopinath's Mohiniyattam background influenced Kerala Natanam's development."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Adopt tribhanga stance replacing Kathakali's rigid posture",
+     "Use angika abhinaya with precise hand gestures",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how Guru Gopinath transformed Kathakali into Kerala Natanam, a versatile classical dance blending tradition and innovation.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn basic tribhanga posture and simple hand gestures",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn basic tribhanga posture and simple hand gestures.",
+      "Level: Beginner. Difficulty of the dance overall: beginner to advanced.",
+      "Your instructor: Experienced classical dancer with knowledge of Kathakali and Kerala Natanam"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Tribhanga stance replacing the traditional Kathakali posture",
+      "Use of angika abhinaya hand gestures derived from Kathakali",
+      "Fluid movements aligned with tribhanga posture"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Adopt tribhanga stance replacing Kathakali's rigid posture",
+      "Step 2: Use angika abhinaya with precise hand gestures",
+      "Drill: Practice standing in tribhanga pose"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Express emotions through satvika abhinaya (facial expressions)",
+      "Step 4: Perform role-appropriate costume and makeup",
+      "Drill: Perform basic angika hand gestures"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Mirror facial expressions for satvika abhinaya"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn basic tribhanga posture and simple hand gestures.",
+      "Kerala Natanam is performed in solo, duet, group, and dance drama formats, including Indian ballets lasting several hours.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Combine posture with expressive facial movements",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Combine posture with expressive facial movements.",
+      "Level: Intermediate. Difficulty of the dance overall: beginner to advanced.",
+      "Your instructor: Experienced classical dancer with knowledge of Kathakali and Kerala Natanam"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Tribhanga stance replacing the traditional Kathakali posture",
+      "Use of angika abhinaya hand gestures derived from Kathakali",
+      "Fluid movements aligned with tribhanga posture"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Dance in solo, duet, or group formations",
+      "Drill: Sequence simple solo movements"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Tribhanga Pose: A three-bend posture replacing Kathakali's rigid stance for fluidity",
+      "Drill: Introduce role-specific costume elements"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice duet coordination"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Performed solo, in pairs, groups, or extended dance dramas"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Combine posture with expressive facial movements.",
+      "Guru Gopinath, the founder and developer of Kerala Natanam, and his wife Thankamani Gopinath, the first student of Mohiniyattam at Kerala Kalamandalam, are central figures.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform extended dance drama excerpts",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform extended dance drama excerpts.",
+      "Level: Advanced. Difficulty of the dance overall: beginner to advanced.",
+      "Your instructor: Experienced classical dancer with knowledge of Kathakali and Kerala Natanam"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Tribhanga stance replacing the traditional Kathakali posture",
+      "Use of angika abhinaya hand gestures derived from Kathakali",
+      "Fluid movements aligned with tribhanga posture"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Perform role-appropriate costume and makeup",
+      "Step 2: Dance in solo, duet, or group formations",
+      "Drill: Master complex group formations"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Tribhanga Pose: A three-bend posture replacing Kathakali's rigid stance for fluidity",
+      "Drill: Integrate full costume and makeup"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Express narrative through abhinaya"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Performed solo, in pairs, groups, or extended dance dramas"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform extended dance drama excerpts.",
+      "Kerala Natanam evolved from Kathakali and Mohiniyattam traditions, integrating elements from both and expanding them into a new classical dance style with broader thematic and musical scope.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "varied Carnatic instruments beyond traditional Kathakali and Mohiniyattam ensembles"
+  ],
+  "vocal_style": "Carnatic compositions adapted for dance",
+  "musical_form": "Concert compositions rendered for dance performances",
+  "mood": [
+   "expressive",
+   "narrative",
+   "varied"
+  ],
+  "sound_description": "Music features Carnatic compositions arranged for dance with a diverse instrumental palette, supporting a wide range of themes from mythological to social.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Kerala Natanam (India). Instruments: varied Carnatic instruments beyond traditional Kathakali and Mohiniyattam ensembles. Vocal style: Carnatic compositions adapted for dance. Form: Concert compositions rendered for dance performances. Mood: expressive, narrative, varied. It should sound like this: Music features Carnatic compositions arranged for dance with a diverse instrumental palette, supporting a wide range of themes from mythological to social. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Costumes and facial makeup in Kerala Natanam are role-specific rather than fixed, differing from Kathakali's traditional attire. For example, a dancer portraying Jesus Christ wears costume resembling Christ, while social dances use laborer or peasant attire. Mythological and other characters have appropriate costumes to match their roles. Settings vary depending on the performance type, including solo recitals and extended dance dramas.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AKeralanadanam_hs_boys_5.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AKerala_Natanam_Dance_of_Kerala.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Keralanadanam_hs_boys_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Keralanadanam_hs_boys_5.jpg/1280px-Keralanadanam_hs_boys_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Shagil Kannur / Wikimedia Commons / CC BY 4.0",
+    "license": "CC BY 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKeralanadanam_hs_boys_5.jpg",
+    "description": "kerala school kalolsavam"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Kerala_Natanam_Dance_of_Kerala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Kerala_Natanam_Dance_of_Kerala.jpg/1280px-Kerala_Natanam_Dance_of_Kerala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Shagil Kannur / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKerala_Natanam_Dance_of_Kerala.jpg",
+    "description": "Kerala Natanam (literally Kerala Dance) is a new style of dance that is now recognised as a distinct art form evolved from Kathakali, a form of Indian dance-drama. In this photo dancer Theertha Prakash of Immanuval Higher Secondary School, Koothanellur, Kottayam performing Kerala Natanam at Kerala School Kalolsavam - 2024 held in kollam district.\n\n\n\n\n\nThis media has been taken in the country: Indi"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Tribhanga posture silhouette",
+   "Expressive hand gestures",
+   "Role-specific costumes",
+   "Carnatic musical instruments",
+   "Stage scenes from Indian ballets"
+  ],
+  "costume_notes": "Costumes and facial makeup in Kerala Natanam are role-specific rather than fixed, differing from Kathakali's traditional attire. For example, a dancer portraying Jesus Christ wears costume resembling Christ, while social dances use laborer or peasant attire. Mythological and other characters have appropriate costumes to match their roles. Settings vary depending on the performance type, including solo recitals and extended dance dramas.",
+  "setting_notes": "Kerala Natanam is performed in solo, duet, group, and dance drama formats, including Indian ballets lasting several hours. It presents a wide range of themes from mythology to social issues, using expressive body and facial movements to convey stories and emotions. Male-female pair dancing is a distinct style within Kerala Natanam.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "4 tutorial(s) of the classical-court family studied",
+  "videos_studied": 4,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, side",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "keep length in both sides of the waist",
+   "keep the supporting leg strong and stable",
+   "keep the spine long",
+   "demi-plie",
+   "pas de bourree",
+   "releve",
+   "fifth position",
+   "hold your placement",
+   "stay straight as a board",
+   "lift up in your lower abs",
+   "change feet"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "mistakes",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Kerala_Natanam",
+  "https://www.wikidata.org/wiki/Q3595273"
+ ],
+ "claims_verified": 11,
+ "claims": 11,
+ "polished": false,
+ "input_fingerprint": "d3ca8b4720968d54299ceb74dfad921cc044a3fc76246100ce80cf8869985f3c",
+ "hero_checked": null
+}

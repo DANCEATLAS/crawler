@@ -2,7 +2,7 @@
  "slug": "jumpstyle",
  "name": "Jumpstyle",
  "pack_version": "e2",
- "built_at": "2026-11-13T18:27:38Z",
+ "built_at": "2026-11-14T17:47:19Z",
  "researched_at": "2026-11-12T18:06:43Z",
  "qc_score": 9.1,
  "status": "draft",
@@ -786,23 +786,28 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "1-2-3-4-5",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: side",
+   "views used by most teachers: side, front",
    "tempo progression: slow → full",
    "repetitions per step: about 5"
   ],
   "cues": [
    "feet parallel",
-   "relax  breath"
+   "relax  breath",
+   "right foot out",
+   "kick it twice",
+   "left foot out",
+   "bring that foot back"
   ],
   "common_mistakes": [],
   "segment_order": [
-   "full_demo",
+   "intro",
    "breakdown",
+   "full_demo",
    "layering",
    "slow_practice",
    "music_practice"
@@ -812,6 +817,26 @@
     "name": "Oldschool Basic",
     "counts": "1-2-3-4-5",
     "description": "Five-part jumpstyle basic starting with the right leg behind."
+   },
+   {
+    "name": "The Basis",
+    "counts": "1-2-3-4-5-6-7",
+    "description": "Kick right foot out twice, then left foot out and bring back"
+   },
+   {
+    "name": "The Half Twist",
+    "counts": "1-2-3-4",
+    "description": "Kick and twist 90 degrees left and right"
+   },
+   {
+    "name": "The Full Twist",
+    "counts": "1-2-3-4-5-6-7",
+    "description": "Do the half twist and finish with a 360 kick"
+   },
+   {
+    "name": "The Knee Spin",
+    "counts": "1-2-3-4-5-6-7",
+    "description": "Grab your knee when twisting backwards and kick it out"
    }
   ]
  },
@@ -830,6 +855,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "3cc907b5632c3345db3da1c12fb025e102d96d77bcd5d56cdcf7d902a480f1f5",
+ "input_fingerprint": "a7884bb576fd4ae95826766b41ff3b064ae249bc24a1fc24a794dfb3e49e711b",
  "hero_checked": null
 }

@@ -1,0 +1,864 @@
+{
+ "slug": "bele",
+ "name": "Bele",
+ "pack_version": "e2",
+ "built_at": "2026-11-14T17:47:19Z",
+ "researched_at": "2026-11-14T17:20:10Z",
+ "qc_score": 9.45,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A knowledgeable elder from a bélé community, warm and encouraging, emphasizing cultural respect and musicality",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Bele",
+   "bel-air",
+   "belair",
+   "bèlè",
+   "fine-air"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Bele",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Bele: The Heartbeat of Caribbean Creole Culture",
+     "This is Bele. Afro-Creole 18th century to present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (wz_3f_5VnpI)",
+     "Title card: Bele · Martinique, Dominica, Trinidad and Tobago, Saint Lucia, Grenada, Guadeloupe, Haiti · Afro-Creole 18th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Bele originated from African fertility dances brought to the Caribbean by enslaved peoples and evolved through plantation-era social life.",
+     "It is considered possibly the oldest Creole dance in the French West Indies.",
+     "In Martinique, it developed among the 'Nouveaux Libres' (freed slaves) in rural areas called mornes between 1860 and 1960, symbolizing social values like mutual aid and resistance."
+    ],
+    "on_screen": [
+     "Map: Martinique, Dominica, Trinidad and Tobago, Saint Lucia, Grenada, Guadeloupe, Haiti · Caribbean",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Bele is performed during social celebrations, full moon nights, funeral wakes (lavèyé), and work-related gatherings.",
+     "It embodies social values of solidarity, mutual aid, and cultural resistance.",
+     "The dance and music serve as a medium for community bonding, storytelling, and expressing life events such as fertility, mourning, and joy.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Kostel v České Bělé.webm (https://upload.wikimedia.org/wikipedia/commons/9/92/Kostel_v_%C4%8Cesk%C3%A9_B%C4%9Bl%C3%A9.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Cavalier display, Dam response, Joint wild dance."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (wz_3f_5VnpI)",
+     "Captions name each signature move as it appears",
+     "Formation: Danced by a male-female couple in front of musicians and audience, often in a circle or open space"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music centers on the bélé drum, a large tambour played with hands, accompanied by the tibwa—two wooden sticks striking a bamboo mounted on a stand—and the chacha (maracas).",
+     "The tibwa maintains a steady rhythmic pattern, while the drum marks accents and improvises.",
+     "Listen for the bélé drum (large tambour), tibwa (two wooden sticks on bamboo), chacha (maracas).",
+     "The pulse is not explicitly described, implied complex Caribbean rhythms."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Tibwa plays a basic repeating pattern on bamboo; bélé drum marks accents and improvises"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "In Trinidad, female dancers wear plain underskirts with bright, flowing overskirts and matching headpieces, while male costumes are simpler with subtle references to female attire.",
+     "Performances occur during full moon evenings, funeral wakes, holidays, and festivals such as Easter and Independence Day.",
+     "The setting is communal, often outdoors or in social halls, with musicians, dancers, and audience forming an interactive circle or open space."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Variants exist across Caribbean islands: Dominica's bélé includes dances like bélé soté and bélé priòrité; Martinique's bèlè features bèlè dous and gran bèlè; Saint Lucia's bèlè includes bélè anlè and bélè matjé; Trinidad has over 14 types including Grand bélé and Congo bélé.",
+     "Bele descends from West African fertility dances, blended with European court dance elements and Caribbean cultural influences from the plantation era."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Bele is child of biguine: Bélé is the origin of biguine, a popular Martiniquan music and dance style.",
+     "Bele is child of chouval bwa: Chouval bwa evolved from bélé rhythms and instrumentation.",
+     "Bele is influence of zouk: Bélé influenced the development of zouk music and dance.",
+     "Bele is shares music of kompa: Kompa shares Caribbean rhythmic elements with bélé."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Cavalier initiates with a display of dance skill",
+     "Dam responds with a reactive movement",
+     "Count it: count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how Bele dance and music unite communities through rhythm, courtship, and history across the Caribbean.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn basic courtship steps and call-and-response singing",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn basic courtship steps and call-and-response singing.",
+      "Level: Beginner. Difficulty of the dance overall: Intermediate.",
+      "Your instructor: A knowledgeable elder from a bélé community, warm and encouraging, emphasizing cultural respect and musicality"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, elegant posture reflecting French ballroom influence combined with African groundedness",
+      "Graceful sweeping gestures and ceremonious bows",
+      "Expressive, reflecting African dance influences"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars. The meter is not explicitly described, implied complex Caribbean rhythms.",
+      "Rhythm pattern: Tibwa plays a basic repeating pattern on bamboo; bélé drum marks accents and improvises.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Cavalier initiates with a display of dance skill",
+      "Step 2: Dam responds with a reactive movement",
+      "Drill: Practice cavalier’s initial display"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Alternating turns between cavalier and dam",
+      "Step 4: Joint vigorous dance in the climax",
+      "Drill: Practice dam’s reactive steps"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Sing simple call-and-response phrases"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid disrespecting the call-and-response structure Avoid inappropriate imitation of sacred or ritual dances"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn basic courtship steps and call-and-response singing.",
+      "Bele is performed during social celebrations, full moon nights, funeral wakes (lavèyé), and work-related gatherings.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Coordinate dance with tibwa rhythm and drum accents",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Coordinate dance with tibwa rhythm and drum accents.",
+      "Level: Intermediate. Difficulty of the dance overall: Intermediate.",
+      "Your instructor: A knowledgeable elder from a bélé community, warm and encouraging, emphasizing cultural respect and musicality"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, elegant posture reflecting French ballroom influence combined with African groundedness",
+      "Graceful sweeping gestures and ceremonious bows",
+      "Expressive, reflecting African dance influences"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars. The meter is not explicitly described, implied complex Caribbean rhythms.",
+      "Rhythm pattern: Tibwa plays a basic repeating pattern on bamboo; bélé drum marks accents and improvises.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Graceful sweeping and gliding steps",
+      "Drill: Follow tibwa basic pattern"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Cavalier display: Male dancer shows off skill and courtship prowess",
+      "Dam response: Female dancer reacts to cavalier's movements",
+      "Drill: Respond to drum improvisations"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice partner interaction timing"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid disrespecting the call-and-response structure Avoid inappropriate imitation of sacred or ritual dances"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Danced by a male-female couple in front of musicians and audience, often in a circle or open space"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Coordinate dance with tibwa rhythm and drum accents.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Improvise within the bélé dialogue and engage audience",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Improvise within the bélé dialogue and engage audience.",
+      "Level: Advanced. Difficulty of the dance overall: Intermediate.",
+      "Your instructor: A knowledgeable elder from a bélé community, warm and encouraging, emphasizing cultural respect and musicality"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, elegant posture reflecting French ballroom influence combined with African groundedness",
+      "Graceful sweeping gestures and ceremonious bows",
+      "Expressive, reflecting African dance influences"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars. The meter is not explicitly described, implied complex Caribbean rhythms.",
+      "Rhythm pattern: Tibwa plays a basic repeating pattern on bamboo; bélé drum marks accents and improvises.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Joint vigorous dance in the climax",
+      "Step 2: Graceful sweeping and gliding steps",
+      "Drill: Create personal dance variations"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Joint wild dance: Both dancers perform vigorous movements together",
+      "Drill: Lead call-and-response singing"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Interact dynamically with drummer"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid disrespecting the call-and-response structure Avoid inappropriate imitation of sacred or ritual dances"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Danced by a male-female couple in front of musicians and audience, often in a circle or open space"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Improvise within the bélé dialogue and engage audience.",
+      "Bele descends from West African fertility dances, blended with European court dance elements and Caribbean cultural influences from the plantation era.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "not explicitly described, implied complex Caribbean rhythms",
+  "rhythm_pattern": "Tibwa plays a basic repeating pattern on bamboo; bélé drum marks accents and improvises",
+  "instruments": [
+   "bélé drum (large tambour)",
+   "tibwa (two wooden sticks on bamboo)",
+   "chacha (maracas)"
+  ],
+  "vocal_style": "Call-and-response between lead singer (chantwèl) and chorus (lavwa), with audience participation",
+  "musical_form": "Entry of singer and chorus, followed by tibwa rhythm, then bélé drum, then dancers",
+  "mood": [
+   "hypnotic",
+   "dialogic",
+   "mesmerizing",
+   "sensual",
+   "communicative"
+  ],
+  "sound_description": null,
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Bele (Martinique, Dominica, Trinidad and Tobago, Saint Lucia, Grenada, Guadeloupe, Haiti). Meter not explicitly described, implied complex Caribbean rhythms. Rhythm pattern: Tibwa plays a basic repeating pattern on bamboo; bélé drum marks accents and improvises. Instruments: bélé drum (large tambour), tibwa (two wooden sticks on bamboo), chacha (maracas). Vocal style: Call-and-response between lead singer (chantwèl) and chorus (lavwa), with audience participation. Form: Entry of singer and chorus, followed by tibwa rhythm, then bélé drum, then dancers. Mood: hypnotic, dialogic, mesmerizing, sensual, communicative. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "wz_3f_5VnpI",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "In Trinidad, female dancers wear plain underskirts with bright, flowing overskirts and matching headpieces, while male costumes are simpler with subtle references to female attire. Performances occur during full moon evenings, funeral wakes, holidays, and festivals such as Easter and Independence Day. The setting is communal, often outdoors or in social halls, with musicians, dancers, and audience forming an interactive circle or open space.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "File:Kostel v České Bělé.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Kostel_v_%C4%8Cesk%C3%A9_B%C4%9Bl%C3%A9.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Pohled 111 / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Padhana o bele.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Padhana_o_bele.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Kavitha Ganesh / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "File:Yenel the kabithe o bele - Made with Clipchamp.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Yenel_the_kabithe_o_bele_-_Made_with_Clipchamp.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Babitha Shetty / Wikimedia Commons / CC BY-SA 4.0"
+   },
+   {
+    "title": "(Hebrew, tune of \"Ele bele\") — Semyon Semyonovich Krotsh, Kolomyya 2005",
+    "url": "https://archive.org/details/aheym-song-0398-krotsh-hebrew-tune-of-ele-bele",
+    "year": 2005,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Destructoid 13: Black Ops on Wii, Kobe and Kimmel fight terrorists, Super Meat Boy Charity, and Naked Dancing!",
+    "url": "https://archive.org/details/Destructoid_13",
+    "year": 2010,
+    "license": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Oral Histories of UCLA Ethnomusicology: Hazel Chung Hood",
+    "url": "https://archive.org/details/hazel-chung-hood",
+    "year": 2024,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Neverwinter In Tha Club",
+    "url": "https://archive.org/details/NeverwinterInThaClub",
+    "year": 2015,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Large bélé drum",
+   "Tibwa sticks striking bamboo",
+   "Colorful flowing skirts",
+   "Full moon night setting",
+   "Call-and-response singing groups"
+  ],
+  "costume_notes": "In Trinidad, female dancers wear plain underskirts with bright, flowing overskirts and matching headpieces, while male costumes are simpler with subtle references to female attire. Performances occur during full moon evenings, funeral wakes, holidays, and festivals such as Easter and Independence Day. The setting is communal, often outdoors or in social halls, with musicians, dancers, and audience forming an interactive circle or open space.",
+  "setting_notes": "Bele is performed during social celebrations, full moon nights, funeral wakes (lavèyé), and work-related gatherings. It embodies social values of solidarity, mutual aid, and cultural resistance. The dance and music serve as a medium for community bonding, storytelling, and expressing life events such as fertility, mourning, and joy. In Martinique, it is linked to the identity of the 'Nouveaux Libres' and rural peasantry, symbolizing freedom and cultural continuity.",
+  "map": {
+   "country": "Martinique, Dominica, Trinidad and Tobago, Saint Lucia, Grenada, Guadeloupe, Haiti",
+   "region": "Caribbean",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "17 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 17,
+  "counting": "count the not explicitly described, implied complex Caribbean rhythms bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "step back and instead of her hand being on my shoulder",
+   "we're going to bump sides just like this",
+   "we're going to step towards each other",
+   "we're going to do a spin a little bit",
+   "step your right foot sideward",
+   "close your left foot",
+   "point your left foot",
+   "hold your skirt"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "the how-it-is-danced section",
+  "notable figures"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9",
+  "https://www.wikidata.org/wiki/Q2929369",
+  "https://fr.wikipedia.org/wiki/Bèlè"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "6f780f842b13e2ead20e961ee1df9d82b70316511d56a17e7dd164a646c43f0a",
+ "hero_checked": "pass"
+}

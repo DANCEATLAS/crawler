@@ -2,9 +2,9 @@
  "slug": "iranian-dance",
  "name": "Iranian dance",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:11Z",
- "researched_at": "2026-11-06T17:47:36Z",
- "qc_score": 9.7,
+ "built_at": "2026-11-14T17:47:19Z",
+ "researched_at": "2026-11-14T16:34:44Z",
+ "qc_score": 9.85,
  "status": "withheld-chapters",
  "release_status": "not_validated",
  "sacred": true,
@@ -45,15 +45,15 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A knowledgeable practitioner of Persian classical or folk dance.",
+   "persona": "A knowledgeable Iranian dance scholar and practitioner with experience teaching both traditional and contemporary styles",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
    "Iranian dance",
+   "dance in Iran",
    "dance of Iran",
-   "Persian dance",
    "dances in Iran",
-   "dance in Iran"
+   "Persian dance"
   ]
  },
  "episode_1": {
@@ -64,7 +64,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Hidden Rhythm of the Plateau",
+     "From Ancient Rituals to Modern Rhythms: The Dance of Iran",
      "This is Iranian dance. 6th millennium BC to present."
     ],
     "on_screen": [
@@ -78,9 +78,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Dance in Iran has been documented since the 6th millennium BC through archaeological artifacts.",
-     "Ancient traditions included the worship of Mithra, which involved ritual sacrifice and movement to promote vigor.",
-     "Throughout history, the tradition has been influenced by Greek, Arab, and Mongol occupations, leading to a slow disappearance of some heritage forms."
+     "Dance in Iran dates back to at least the 6th millennium BC, evidenced by artifacts from archaeological sites such as Tepe Sabz, Susa, and Tepe Sialk.",
+     "Early historic dances include Mithra worship involving bull sacrifice to promote vigor, described by Herodotus in the 5th century BC.",
+     "Over time, foreign occupations (Greeks, Arabs, Mongols) and political instability caused the decline of some dance traditions."
     ],
     "on_screen": [
      "Map: Iran · Middle East",
@@ -93,8 +93,9 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Dance is integral to social events, rites of passage, and religious ceremonies.",
-     "It serves as a form of celebration, a tool for spiritual healing (as in the 'le’b guati' exorcism rituals), and a method of physical training for warriors.",
+     "Iranian dances serve multiple social and spiritual functions: communal celebration in weddings and festivals; ritual healing and exorcism in trance dances like Baluchi le’b guati; warrior training in combat dances; and artistic expression in court and social improvisational dances.",
+     "Dance can symbolize cultural identity, spiritual connection, and social cohesion.",
+     "Restrictions on public dance after 1979 shifted many practices to private or diaspora contexts.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -107,33 +108,31 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Watch for Wrist circles."
+     "Iranian dance includes four main categories: chain or line dances performed in circles or lines often holding hands or waists; solo improvisational dances featuring delicate hand and arm movements with expressive facial gestures; war or combat dances mimicking fighting or training warriors, such as the zurkhaneh footwork dance Raghs-e-Pa; and ritual or spiritual dances like Sufi sama involving chanting and trance.",
+     "Watch for Wrist Circles, Hand Waves, Finger Snapping (Peshkan)."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (4QYphmwS8yY)",
      "Captions name each signature move as it appears",
-     "Formation: Circle, line, or solo"
+     "Formation: Circle or line formations for chain dances; solo space for improvisation; paired or small group formations in combat dances"
     ],
-    "music": "diegetic (the video's own sound), underscore under narration",
-    "needs": [
-     "how_it_is_danced"
-    ]
+    "music": "diegetic (the video's own sound), underscore under narration"
    },
    {
     "code": "music",
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The most common rhythm is 6/8, referred to as 'shir-e mâdar' (mother's milk).",
-     "Variations exist, such as the 7/8 meter found in Motrebi styles.",
-     "Listen for the Traditional percussion, String instruments.",
-     "The pulse is 6/8.",
-     "Characterized by the 6/8 'shir-e mâdar' rhythm, which dictates the pulse of the movement, often accompanied by fluid, melodic instrumental lines."
+     "The most common rhythm for Iranian dance music is 6/8 meter, known as shir-e mâdar, with melodic and rhythmic variations including 7/8 in some styles like Motrebi.",
+     "Traditional instruments include Persian percussion and melodic instruments supporting both communal and solo dances.",
+     "Listen for the Persian percussion instruments, Traditional melodic instruments.",
+     "The pulse is 6/8 commonly, with variations including 7/8.",
+     "Music features cyclical 6/8 rhythms with melodic ornamentation, supporting both communal and solo dance forms; vocal chanting or singing may accompany ritual or court dances."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
      "Verified recording — MISSING",
-     "Waveform or rhythm-pattern graphic: "
+     "Waveform or rhythm-pattern graphic: Cyclical rhythmic patterns emphasizing melody and dance steps; shir-e mâdar rhythm"
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
@@ -145,9 +144,9 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Classical court dances feature rich silks, brocades, and flowing long skirts.",
-     "Folk dancers often wear traditional ethnic clothing specific to their region, such as the colorful attire of the Basseri tribe.",
-     "Performances occur in diverse settings, from private homes and weddings to traditional gymnasiums (zurkhaneh) and theatrical spaces."
+     "Costumes vary widely by dance style and region.",
+     "Tribal dances like Basseri feature colorful traditional clothes, while classical Persian court dances use rich silks, brocades, and flowing long skirts.",
+     "Social dances may involve simpler attire suitable for parties or weddings."
     ],
     "on_screen": [
      "Image gallery: 4 licensed images with attribution",
@@ -160,9 +159,10 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Jamileh (belly dancer), Farzaneh Kaboli (actress and dancer), Mohammad Khordadian, Shahrokh Moshkin-Ghalam, and Azita Sahebjam.",
-     "Styles are highly regional.",
-     "The tradition is a composite of ancient indigenous practices, influenced by regional ethnic groups and historical courtly refinements."
+     "Notable dancers include Jamileh, a Los Angeles-based belly dancer; Farzaneh Kaboli, an Iranian actress and dancer; Mohammad Khordadian, an Iranian-American dancer; Shahrokh Moshkin-Ghalam, a Paris-based modern dancer; and Azita Sahebjam, director of the Vancouver Pars National Ballet.",
+     "Ballet Afsaneh is a prominent female dance troupe focused on Persian culture in the San Francisco Bay Area.",
+     "Iran’s ethnic diversity produces many regional dance styles: Bandari dance from the southern Persian Gulf with Arabic influences; Bojnordi dance from northeast Iran with finger snapping; Choob bazi stick dances from southwestern Iran; Yalli, an Azerbaijani folk dance; and Baluchi spiritual dances like le’b guati.",
+     "Iranian dance traditions descend from ancient ritual and court dances documented since prehistory and classical antiquity."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -175,22 +175,21 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Iranian dance is variant of Sufi whirling: Shares the spiritual focus of the sama."
+     "Iranian dance is parent of Middle Eastern dance: Iranian dance is a regional subset of Middle Eastern dance traditions.",
+     "Iranian dance is sibling of Azerbaijani dances: Shared cultural and ethnic influences, especially in northern Iran.",
+     "Iranian dance is shares music of Persian theatre: Traditional Persian theatre incorporates dance and music elements."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
     ],
-    "music": "underscore",
-    "needs": [
-     "connections"
-    ]
+    "music": "underscore"
    },
    {
     "code": "first_step",
     "title": "A respectful note",
     "duration_s": 30,
     "narration": [
-     "Certain ritual dances, such as the Sufi 'sama' and the Baluchi 'le’b guati', are spiritual practices intended for healing or achieving unity with the Divine and should be approached with cultural sensitivity."
+     "Certain ritual dances, such as Sufi sama and Baluchi trance healing dances, are sacred and involve trance states; these are restricted to initiated practitioners and should not be imitated by outsiders."
     ],
     "on_screen": [
      "Calm wide shot, no demonstration"
@@ -202,7 +201,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Explore the enduring legacy of Iranian dance, from ancient ritual to the vibrant expressions of the modern diaspora.",
+     "Explore Iran’s millennia-old dance traditions, from sacred trance to vibrant social celebrations, surviving history’s upheavals.",
      "Sources: 5 references are listed with the profile."
     ],
     "on_screen": [
@@ -219,22 +218,23 @@
   "rights_status": "not_assessed",
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
-  "meter": "6/8",
-  "rhythm_pattern": null,
+  "meter": "6/8 commonly, with variations including 7/8",
+  "rhythm_pattern": "Cyclical rhythmic patterns emphasizing melody and dance steps; shir-e mâdar rhythm",
   "instruments": [
-   "Traditional percussion",
-   "String instruments"
+   "Persian percussion instruments",
+   "Traditional melodic instruments"
   ],
-  "vocal_style": null,
-  "musical_form": "Improvisational or rhythmic folk patterns",
+  "vocal_style": "Includes chanting in ritual dances and expressive singing in court and social dances",
+  "musical_form": "Music closely follows dance rhythms with repetitive melodic cycles",
   "mood": [
-   "Joyful",
-   "Spiritual",
-   "Energetic"
+   "expressive",
+   "rhythmic",
+   "spiritual",
+   "celebratory"
   ],
-  "sound_description": "Characterized by the 6/8 'shir-e mâdar' rhythm, which dictates the pulse of the movement, often accompanied by fluid, melodic instrumental lines.",
+  "sound_description": "Music features cyclical 6/8 rhythms with melodic ornamentation, supporting both communal and solo dance forms; vocal chanting or singing may accompany ritual or court dances.",
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Iranian dance (Iran). Meter 6/8. Instruments: Traditional percussion, String instruments. Form: Improvisational or rhythmic folk patterns. Mood: Joyful, Spiritual, Energetic. It should sound like this: Characterized by the 6/8 'shir-e mâdar' rhythm, which dictates the pulse of the movement, often accompanied by fluid, melodic instrumental lines. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Iranian dance (Iran). Meter 6/8 commonly, with variations including 7/8. Rhythm pattern: Cyclical rhythmic patterns emphasizing melody and dance steps; shir-e mâdar rhythm. Instruments: Persian percussion instruments, Traditional melodic instruments. Vocal style: Includes chanting in ritual dances and expressive singing in court and social dances. Form: Music closely follows dance rhythms with repetitive melodic cycles. Mood: expressive, rhythmic, spiritual, celebratory. It should sound like this: Music features cyclical 6/8 rhythms with melodic ornamentation, supporting both communal and solo dance forms; vocal chanting or singing may accompany ritual or court dances. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -276,7 +276,7 @@
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
    "restricted_attire": true,
-   "from_sources": "Classical court dances feature rich silks, brocades, and flowing long skirts. Folk dancers often wear traditional ethnic clothing specific to their region, such as the colorful attire of the Basseri tribe. Performances occur in diverse settings, from private homes and weddings to traditional gymnasiums (zurkhaneh) and theatrical spaces.",
+   "from_sources": "Costumes vary widely by dance style and region. Tribal dances like Basseri feature colorful traditional clothes, while classical Persian court dances use rich silks, brocades, and flowing long skirts. Social dances may involve simpler attire suitable for parties or weddings. Performances occur in diverse settings including private homes, weddings, cultural festivals, traditional gymnasiums (zurkhaneh), and diaspora cultural centers. Some ritual dances are restricted and performed only by initiated practitioners.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3ARaghs-isfahan.jpg",
     "https://commons.wikimedia.org/wiki/File%3A%D8%AC%D8%B4%D9%86_%D9%87%D8%A7%DB%8C_%D8%B9%D8%B1%D9%88%D8%B3%DB%8C_%D8%AF%D8%B1_%D8%B9%D8%B4%D8%A7%DB%8C%D8%B1%2C_%D8%B7%D8%A7%D9%87%D8%B1%DB%8C_-_panoramio.jpg",
@@ -330,43 +330,18 @@
     "year": 2024,
     "license": "unknown (Internet Archive)",
     "attribution": "Internet Archive"
-   },
-   {
-    "title": "File:Persian Dance Programme.webm",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Persian_Dance_Programme.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "year": null,
-    "license": "Public domain",
-    "attribution": "National Iranian Radio and Television / Wikimedia Commons / Public domain"
-   },
-   {
-    "title": "ASIAN WOMEN OF WINNIPEG. Persian Dance. Ethno Fest 2020",
-    "url": "https://archive.org/details/umcmb-ASIAN_WOMEN_OF_WINNIPEG._Persian_Dance._Ethno_Fest_2020",
-    "year": 2020,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "Round Rock Parks and Recreation - International Dance Day - PARDcast Bonus Clip!",
-    "url": "https://archive.org/details/corrtx-Round_Rock_Parks_and_Recreation_-_International_Dance_Day_-_PARDcast_Bonus_Clip",
-    "year": 2024,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
-   },
-   {
-    "title": "S4 Ep10 We Can't Stop Dancing with Hannah Romanowsky",
-    "url": "https://archive.org/details/S4_Ep10_We_Can_t_Stop_Dancing_with_Hannah_Romanowsky",
-    "year": 2026,
-    "license": "unknown (Internet Archive)",
-    "attribution": "Internet Archive"
    }
   ],
   "motifs": [
-   "Ancient pottery",
-   "Traditional textiles",
-   "Flowing skirts"
+   "Ancient pottery and reliefs depicting dancers",
+   "Colorful traditional costumes and scarves",
+   "Circular dance formations",
+   "Flowing hand and wrist movements",
+   "Stick play and rhythmic foot stomps",
+   "Sufi dervishes in trance"
   ],
-  "costume_notes": "Classical court dances feature rich silks, brocades, and flowing long skirts. Folk dancers often wear traditional ethnic clothing specific to their region, such as the colorful attire of the Basseri tribe. Performances occur in diverse settings, from private homes and weddings to traditional gymnasiums (zurkhaneh) and theatrical spaces.",
-  "setting_notes": "Dance is integral to social events, rites of passage, and religious ceremonies. It serves as a form of celebration, a tool for spiritual healing (as in the 'le’b guati' exorcism rituals), and a method of physical training for warriors.",
+  "costume_notes": "Costumes vary widely by dance style and region. Tribal dances like Basseri feature colorful traditional clothes, while classical Persian court dances use rich silks, brocades, and flowing long skirts. Social dances may involve simpler attire suitable for parties or weddings. Performances occur in diverse settings including private homes, weddings, cultural festivals, traditional gymnasiums (zurkhaneh), and diaspora cultural centers. Some ritual dances are restricted and performed only by initiated practitioners.",
+  "setting_notes": "Iranian dances serve multiple social and spiritual functions: communal celebration in weddings and festivals; ritual healing and exorcism in trance dances like Baluchi le’b guati; warrior training in combat dances; and artistic expression in court and social improvisational dances. Dance can symbolize cultural identity, spiritual connection, and social cohesion. Restrictions on public dance after 1979 shifted many practices to private or diaspora contexts.",
   "map": {
    "country": "Iran",
    "region": "Middle East",
@@ -379,40 +354,46 @@
   ]
  },
  "teaching_formula": {
-  "source": "2 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 2,
+  "source": "64 tutorials across the atlas studied",
+  "videos_studied": 64,
   "counting": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
-   "views used by most teachers: front, back",
-   "tempo progression: slow → full",
-   "repetitions per step: about 5"
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
   ],
   "cues": [
-   "hold your knife out",
-   "every time the blade faces down",
-   "two thumbs are facing up",
-   "one two",
-   "over and spin"
+   "side close side",
+   "rock step",
+   "engage your core",
+   "hit",
+   "out in out half circle back close",
+   "one two tap accent with left shoulder",
+   "one and two and three",
+   "contract the pelvis it will pull you forward",
+   "right leg out front",
+   "jump split your legs",
+   "the back foot goes up",
+   "lift the left leg up"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "full_demo",
    "context",
+   "full_demo",
+   "warmup",
    "breakdown",
+   "slow_practice",
    "music_practice",
-   "recap",
-   "slow_practice"
+   "recap"
   ],
   "steps_as_taught": []
  },
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "the hero video's vision check",
-  "the how-it-is-danced section",
-  "two or more connections"
+  "the hero video's vision check"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Iranian_dance",
@@ -421,9 +402,9 @@
   "https://fr.wikipedia.org/wiki/Danses_d'Iran",
   "https://pt.wikipedia.org/wiki/Dança_persa"
  ],
- "claims_verified": 6,
- "claims": 6,
+ "claims_verified": 8,
+ "claims": 8,
  "polished": false,
- "input_fingerprint": "d9c2038bc2760e9e9705bfe828e244daea78a526948dcd7e415ed39bfc1872d7",
+ "input_fingerprint": "63648986339dbc6491581c5383361b4446125c3a591d0f9013950671fe30444d",
  "hero_checked": null
 }

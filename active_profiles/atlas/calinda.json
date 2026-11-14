@@ -1,13 +1,133 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [
+        {
+          "description": "Distinguish between controlled strikes and dangerous contact",
+          "source": "https://en.wikipedia.org/wiki/Calinda"
+        },
+        {
+          "description": "Recognize expressive variation in rhythm and movement",
+          "source": "https://en.wikipedia.org/wiki/Calinda"
+        },
+        {
+          "description": "Camera cannot assess adherence to ceremonial protocols",
+          "source": "https://en.wikipedia.org/wiki/Calinda"
+        }
+      ],
+      "learning_units": [
+        {
+          "description": "Learn basic stick handling and fighting stance",
+          "source": "https://en.wikipedia.org/wiki/Calinda"
+        },
+        {
+          "description": "Practice call-and-response chant synchronization",
+          "source": "https://en.wikipedia.org/wiki/Calinda"
+        },
+        {
+          "description": "Perform basic strikes and parries within the gayelle",
+          "source": "https://en.wikipedia.org/wiki/Calinda"
+        }
+      ],
+      "prerequisites": [
+        {
+          "description": "Basic physical balance and coordination",
+          "source": "https://en.wikipedia.org/wiki/Calinda"
+        },
+        {
+          "description": "Ability to handle a stick safely",
+          "source": "https://en.wikipedia.org/wiki/Calinda"
+        }
+      ],
+      "social_formats": [
+        {
+          "description": "Solo and paired stick-fighting roles within a circular arena",
+          "source": "https://en.wikipedia.org/wiki/Calinda"
+        },
+        {
+          "description": "Musicians and spectators form an outer circle providing rhythm and chants",
+          "source": "https://en.wikipedia.org/wiki/Calinda"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Stick handling with strikes, parries, and controlled arm movements",
+      "difficulty": "Intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Danced in a circular arena (gayelle) with fighters in the center",
+      "hips_and_torso": "Engaged for balance and movement, mimicking combat motions",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "One-on-one stick-fighting combat",
+      "posture": "Balanced fighting stance with knees bent, upright torso",
+      "signature_moves": [
+        {
+          "description": "A controlled forward strike with the stick aimed at the opponent",
+          "name": "Stick strike"
+        },
+        {
+          "description": "Deflecting an opponent's strike using the stick",
+          "name": "Parry"
+        },
+        {
+          "description": "In some Haitian variants, dancers jump over water bottles to demonstrate agility",
+          "name": "Jump over bottle"
+        }
+      ],
+      "tempo_feel": "Energetic and rhythmic, matching percussion and chants",
+      "what_to_avoid": "Avoid actual violent strikes to prevent injury Respect ceremonial rituals and do not perform sacred elements without permission"
+    },
+    "music_profile": {
+      "instruments": [
+        "drums",
+        "bamboula (bamboo drum)",
+        "banjo",
+        "quills (reed pipes)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "energetic",
+        "martial",
+        "ritualistic",
+        "celebratory"
+      ],
+      "musical_form": "Improvised call-and-response within a rhythmic percussion framework",
+      "reference_recordings": [],
+      "rhythm_pattern": "Percussion-driven with call-and-response vocal chants (lavways)",
+      "sound_description": "",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Lead vocalist (chantwell) sings call-and-response chants to encourage fighters"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Enter the gayelle (circle) with a stick in hand",
+        "Assume a balanced fighting stance with knees slightly bent",
+        "Perform rhythmic stick strikes and parries with controlled arm movements",
+        "Incorporate footwork to advance, retreat, and dodge within the circle",
+        "Respond to call-and-response chants by adjusting energy and timing"
+      ],
+      "formation": "Performed in a circular arena (gayelle) with fighters in the center and musicians and spectators forming the outer circle",
+      "level_notes": "Beginners start by learning basic stick handling, stance, and rhythm synchronization with chants; advanced practitioners engage in full stick-fighting contests.",
+      "rhythm": "Lively, energetic, driven by percussion with call-and-response vocal chants"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "921ba2f5997485b9defb3cca490cc099652b8fa8ed4936f5061fa4f20d8bf72f",
+  "fingerprint": "394ac813fab8b0f467c8d52906b991feea296446fdb634d6ef1ec72b6b74643c",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +135,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork",
+      "music_structure: meter, sound_description"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,7 +163,7 @@
   ],
   "music_options": [],
   "name": "Calinda",
-  "research_file": null,
+  "research_file": "research_results/calinda.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +175,12 @@
   "slug": "calinda",
   "sources": [
     "https://en.wikipedia.org/wiki/Calinda",
-    "Source: Calinda on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Calinda"
+    "https://www.wikidata.org/wiki/Q2741465",
+    "https://es.wikipedia.org/wiki/Kalenda",
+    "https://fr.wikipedia.org/wiki/Calinda",
+    "https://pt.wikipedia.org/wiki/Calinda",
+    "https://archive.org/details/playsofnegrolife00lock"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

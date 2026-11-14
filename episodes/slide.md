@@ -1,6 +1,6 @@
 # Slide — episode pack
 
-*Status: draft · built 2026-11-13 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-14 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; the occasions & meaning section; the how-it-is-danced section; signature moves; the costume & setting section; notable figures; teaching steps written out
 
@@ -120,6 +120,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Teachers of this dance warn against: picking up the leg instead of keeping it flat on the ground
+NARRATION: Teachers of this dance warn against: not moving the foot in the correct direction and pointing straight inside
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -181,6 +182,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Teachers of this dance warn against: picking up the leg instead of keeping it flat on the ground
+NARRATION: Teachers of this dance warn against: not moving the foot in the correct direction and pointing straight inside
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -242,6 +244,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Teachers of this dance warn against: picking up the leg instead of keeping it flat on the ground
+NARRATION: Teachers of this dance warn against: not moving the foot in the correct direction and pointing straight inside
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
@@ -283,10 +286,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Source: 3 tutorial(s) of this dance studied · videos studied: 3
 Counting: 1-2-3-4
-Demonstration: views used by most teachers: back, front, side; tempo progression: slow → full; repetitions per step: about 8
-Cues: step to the right; now kick; now twist and turn; grapevine; keep it flat on the ground; switch; slide; hit
-Common mistakes the studied teachers name: picking up the leg instead of keeping it flat on the ground
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → full; repetitions per step: about 8
+Cues: keep it flat on the ground; switch; slide; hit; step to the right; now kick; now twist and turn; grapevine; put your right leg or your left leg; give a push to the left side; point the other toe in the outer direction; take the left heel outside
+Common mistakes the studied teachers name: picking up the leg instead of keeping it flat on the ground; not moving the foot in the correct direction and pointing straight inside
 
 Sources (3): https://en.wikipedia.org/wiki/Slide_(tune_type); https://www.wikidata.org/wiki/Q2232258; https://archive.org/details/ERIC_ED379200

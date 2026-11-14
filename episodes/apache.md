@@ -1,6 +1,6 @@
 # Apache — episode pack
 
-*Status: draft · built 2026-11-13 · judge 9.85 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-14 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed)
 
@@ -11,7 +11,7 @@
 ## Episode 1 · Meet Apache · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Apache: Paris's Most Dangerous Dance.
+NARRATION: The Apache: Paris's Most Dangerous Dance
 NARRATION: This is Apache. Early 20th century.
 ON SCREEN: Hero video, first 10 seconds (3TAxfqPbl8U)
 ON SCREEN: Title card: Apache · France · Early 20th century
@@ -77,8 +77,8 @@ ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, one step. Waltz step sequence.
-NARRATION: Mock slap/punch sequence.
+NARRATION: Before we go, one step. Waltz step sequence
+NARRATION: Mock slap/punch sequence
 NARRATION: Count it: 1-2-3, 2-2-3 (three counts a bar).
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
@@ -101,9 +101,9 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Athletic and aggressive.
-NARRATION: Used for grabbing, slapping, and supporting lifts.
-NARRATION: Engaged for balance during throws and lifts.
+NARRATION: Athletic and aggressive
+NARRATION: Used for grabbing, slapping, and supporting lifts
+NARRATION: Engaged for balance during throws and lifts
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -116,19 +116,19 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Waltz step sequence.
-NARRATION: Step 2: Mock slap/punch sequence.
-NARRATION: Footwork from the sources: Waltz-based steps interrupted by lunges and combat footwork.
-NARRATION: Drill: Waltz box step.
+NARRATION: Step 1: Waltz step sequence
+NARRATION: Step 2: Mock slap/punch sequence
+NARRATION: Footwork from the sources: Waltz-based steps interrupted by lunges and combat footwork
+NARRATION: Drill: Waltz box step
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Controlled lift or throw.
-NARRATION: Step 4: Struggle and recovery.
-NARRATION: Drill: Partner connection.
+NARRATION: Step 3: Controlled lift or throw
+NARRATION: Step 4: Struggle and recovery
+NARRATION: Drill: Partner connection
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -173,9 +173,9 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Athletic and aggressive.
-NARRATION: Used for grabbing, slapping, and supporting lifts.
-NARRATION: Engaged for balance during throws and lifts.
+NARRATION: Athletic and aggressive
+NARRATION: Used for grabbing, slapping, and supporting lifts
+NARRATION: Engaged for balance during throws and lifts
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -188,20 +188,20 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Waltz step sequence.
-NARRATION: Step 2: Mock slap/punch sequence.
-NARRATION: Drill: Mock slap timing.
+NARRATION: Step 1: Waltz step sequence
+NARRATION: Step 2: Mock slap/punch sequence
+NARRATION: Drill: Mock slap timing
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: Controlled lift or throw.
-NARRATION: Step 4: Struggle and recovery.
+NARRATION: Step 3: Controlled lift or throw
+NARRATION: Step 4: Struggle and recovery
 NARRATION: The Throw: The male partner throws the female partner to the ground.
 NARRATION: The Lift: The male partner lifts the female partner while she struggles.
-NARRATION: Drill: Dramatic posture.
+NARRATION: Drill: Dramatic posture
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -247,9 +247,9 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Athletic and aggressive.
-NARRATION: Used for grabbing, slapping, and supporting lifts.
-NARRATION: Engaged for balance during throws and lifts.
+NARRATION: Athletic and aggressive
+NARRATION: Used for grabbing, slapping, and supporting lifts
+NARRATION: Engaged for balance during throws and lifts
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -262,9 +262,9 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: Controlled lift or throw.
-NARRATION: Step 2: Struggle and recovery.
-NARRATION: Drill: Safe lifting mechanics.
+NARRATION: Step 1: Controlled lift or throw
+NARRATION: Step 2: Struggle and recovery
+NARRATION: Drill: Safe lifting mechanics
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -273,7 +273,7 @@ COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Throw: The male partner throws the female partner to the ground.
 NARRATION: The Lift: The male partner lifts the female partner while she struggles.
-NARRATION: Drill: Choreographed struggle.
+NARRATION: Drill: Choreographed struggle
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -334,9 +334,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 5 tutorial(s) of the stage-contemporary family studied · videos studied: 5
+Source: 6 tutorial(s) of the stage-contemporary family studied · videos studied: 6
 Counting: 1-2-3, 2-2-3 (three counts a bar)
 Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; knees to chest; straightening my legs; bringing my body up; bend both legs; opening my left arm; straightening my left leg; bringing my top leg down; make a little bit space between feet; try to find some groove
+Cues: keep your feet pointed; use your core; lean your body back; make a little bit space between feet; try to find some groove; keep the water inside; make it easy; try to make the shift; make some groovy in your chest; try to find in your spine; make the snake finish on your arms; lean down
 
 Sources (8): https://en.wikipedia.org/wiki/Apache_(dance); https://www.wikidata.org/wiki/Q3702326; https://es.wikipedia.org/wiki/Apache_(baile); https://fr.wikipedia.org/wiki/Valse_chaloupée; https://it.wikipedia.org/wiki/Danse_Apache; https://archive.org/details/ghostdancerelig01moongoog; https://archive.org/details/landofpocotiempo00lummrich; https://archive.org/details/ERIC_ED128107

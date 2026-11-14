@@ -1,8 +1,8 @@
 # Kushan dance — episode pack
 
-*Status: draft · built 2026-11-13 · judge 8.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-14 · judge 8.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage; posture, arms and hands; signature moves; the costume & setting section; notable figures; lineage; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; posture, arms and hands; signature moves; the costume & setting section; notable figures; lineage; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Tracing its roots to the 15th-century Koch dynasty, the performance is named after Kush, the second son of Sita, and centers on the recitation of the Krittivasi Ramayan.
 NARRATION: This is Kushan dance. 15th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (1EGsfXGahak)
 ON SCREEN: Title card: Kushan dance · India, Bangladesh · 15th century
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: The performance involves men, known as sokra or chokra, who sing and dance.
 NARRATION: The mool or geedal narrates the story, while the doari, a jester, provides commentary and jokes to engage the audience.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (1EGsfXGahak)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: signature_moves
@@ -268,7 +268,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': '1EGsfXGahak', 'checked_by_vision_model': False, 'title': 'কুশান নৃত্য || kushan dance || kushan gaan || kushan nach || koch Rajbonshi Folk dance || kushan'}
 Images: 3 licensed — Jonoikobangali / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Ami.bangali / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 
@@ -278,9 +278,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the folk-circle family studied · videos studied: 16
+Source: 17 tutorial(s) of the folk-circle family studied · videos studied: 17
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; left foot go; brush brush step; double step rock step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; rock step
+Cues: rock step; side close side; triple step; rock step triple step triple step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; step your right foot sideward; close your left foot; point your left foot; hold your skirt
 
 Sources (2): https://en.wikipedia.org/wiki/Kushan_dance; https://www.wikidata.org/wiki/Q104866080

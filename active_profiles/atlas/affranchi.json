@@ -1,0 +1,129 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "line and square formations",
+      "hips_and_torso": "held torso during French-style figures, freer movement during improvisation",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "straight-backed, held torso",
+      "signature_moves": [
+        {
+          "description": "formal, upright movements with held torso",
+          "name": "French-style figures"
+        },
+        {
+          "description": "free, expressive movements in the final set",
+          "name": "African improvisation"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": ""
+    },
+    "music_profile": {
+      "instruments": [
+        "string instruments",
+        "woodwind instruments"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "regal",
+        "formal",
+        "improvisational"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Music features string and woodwind instruments, supporting formal French-style figures and African improvisation without drum rhythms.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Perform French-style figures with a straight back and held torso in line or square formation",
+        "Transition to African-styled improvisation in the final set"
+      ],
+      "formation": "line and square formations",
+      "level_notes": "Beginners start with French-style figures before attempting improvisation; technique details not described.",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "704b930e3a2bf999cffb1623fa80fa277d97b17597e8f8684a776e538a93511e",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:affranchi",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Affranchi",
+  "research_file": "research_results/affranchi.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "affranchi",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Affranchi_(dance)",
+    "https://www.wikidata.org/wiki/Q16147009"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

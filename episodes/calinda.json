@@ -1,0 +1,859 @@
+{
+ "slug": "calinda",
+ "name": "Calinda",
+ "pack_version": "e2",
+ "built_at": "2026-11-14T17:47:19Z",
+ "researched_at": "2026-11-14T16:50:56Z",
+ "qc_score": 8.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Experienced Calinda practitioner and cultural historian",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Calinda",
+   "kalinda",
+   "kalenda",
+   "calenda"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Calinda",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Calinda: The Dance of Combat and Culture",
+     "This is Calinda. 18th century to present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (gfWctshJaSk)",
+     "Title card: Calinda · Caribbean (Trinidad and Tobago, Haiti, Guadeloupe, Martinique), United States (Louisiana) · 18th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Calinda originated in the Caribbean in the 1720s, brought by enslaved Africans from the Kingdom of Kongo.",
+     "It developed as a martial art and war dance involving stick-fighting, practiced notably in Trinidad and Tobago, Haiti, Guadeloupe, Martinique, and Louisiana.",
+     "French colonial migration influenced its spread and integration into Carnival traditions."
+    ],
+    "on_screen": [
+     "Map: Caribbean (Trinidad and Tobago, Haiti, Guadeloupe, Martinique), United States (Louisiana) · Caribbean",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Calinda is performed during Carnival celebrations, particularly in Trinidad and Tobago, and during cultural and religious ceremonies such as Vodou events in Haiti.",
+     "It serves as both entertainment and a martial tradition, symbolizing African heritage, resistance, and community identity.",
+     "The dance and stick-fighting contests are occasions for social gathering, competition, and cultural expression.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Kalenda maya - villemann og magnhild (https://archive.org/details/youtube-IUgKk3wmJOY)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Stick strike, Parry, Jump over bottle."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (gfWctshJaSk)",
+     "Captions name each signature move as it appears",
+     "Formation: Danced in a circular arena (gayelle) with fighters in the center"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music of Calinda features percussion instruments including drums, bamboula (bamboo drums), banjos, and quills (reed pipes).",
+     "The rhythm is lively and supports the combative and performative nature of the dance.",
+     "Listen for the drums, bamboula (bamboo drum), banjo, quills (reed pipes)."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Percussion-driven with call-and-response vocal chants (lavways)"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers in Calinda wear specific costumes during stick-fighting contests, which may include embroidered coats, ruffled linen, silk stockings, and pumps, especially in historical contexts such as New Orleans.",
+     "The fights take place in gayelles—circular arenas designated for the combat dance.",
+     "Rituals and ceremonial songs precede the fights within these spaces."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "No specific notable figures are named in the sources.",
+     "However, the role of the chantwell (lead vocalist) is significant in performing lavways that accompany the dance and fights.",
+     "Calinda has regional variants across the Caribbean: in Haiti, it is a combat dance linked to Vodou ceremonies; in Guadeloupe and Martinique, it is practiced under names like l'agya, damaye, and mayolé; in Barbados, a related form is called stick-licking or stick science; in Puerto Rico, a similar dance called Kokobalé is performed with Bomba music.",
+     "Calinda descends from African combat dances from the Kingdom of Kongo, brought to the Caribbean by enslaved Africans."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Calinda is sibling of Tire machèt: Afro-Caribbean martial art from Haiti with shared origins and stick-fighting techniques.",
+     "Calinda is sibling of Bajan stick-licking: Barbadian stick-fighting tradition related to Calinda.",
+     "Calinda is sibling of Capoeira: Afro-diasporic martial art and dance with combat and musical elements.",
+     "Calinda is variant of Kokobalé: Puerto Rican dance with stick-fighting performed with Bomba music."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Enter the gayelle (circle) with a stick in hand",
+     "Assume a balanced fighting stance with knees slightly bent",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore Calinda, the Caribbean's martial art and war dance blending African combat with vibrant music and ritual.",
+     "Sources: 6 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn basic stance and stick handling",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn basic stance and stick handling.",
+      "Level: Beginner. Difficulty of the dance overall: Intermediate.",
+      "Your instructor: Experienced Calinda practitioner and cultural historian"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Balanced fighting stance with knees bent, upright torso",
+      "Stick handling with strikes, parries, and controlled arm movements",
+      "Engaged for balance and movement, mimicking combat motions"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Percussion-driven with call-and-response vocal chants (lavways).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Enter the gayelle (circle) with a stick in hand",
+      "Step 2: Assume a balanced fighting stance with knees slightly bent",
+      "Drill: Holding the stick correctly"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Perform rhythmic stick strikes and parries with controlled arm movements",
+      "Step 4: Incorporate footwork to advance, retreat, and dodge within the circle",
+      "Drill: Basic forward and backward steps"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Simple strikes and parries"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid actual violent strikes to prevent injury Respect ceremonial rituals and do not perform sacred elements without permission"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn basic stance and stick handling.",
+      "Calinda is performed during Carnival celebrations, particularly in Trinidad and Tobago, and during cultural and religious ceremonies such as Vodou events in Haiti.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Coordinate movements with rhythm and chants",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Coordinate movements with rhythm and chants.",
+      "Level: Intermediate. Difficulty of the dance overall: Intermediate.",
+      "Your instructor: Experienced Calinda practitioner and cultural historian"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Balanced fighting stance with knees bent, upright torso",
+      "Stick handling with strikes, parries, and controlled arm movements",
+      "Engaged for balance and movement, mimicking combat motions"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Percussion-driven with call-and-response vocal chants (lavways).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Respond to call-and-response chants by adjusting energy and timing",
+      "Drill: Responding to call-and-response"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Stick strike: A controlled forward strike with the stick aimed at the opponent",
+      "Parry: Deflecting an opponent's strike using the stick",
+      "Drill: Footwork within the gayelle"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Combining strikes and defensive moves"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid actual violent strikes to prevent injury Respect ceremonial rituals and do not perform sacred elements without permission"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Danced in a circular arena (gayelle) with fighters in the center"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Coordinate movements with rhythm and chants.",
+      "No specific notable figures are named in the sources.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Engage in ritualized stick-fighting contests",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Engage in ritualized stick-fighting contests.",
+      "Level: Advanced. Difficulty of the dance overall: Intermediate.",
+      "Your instructor: Experienced Calinda practitioner and cultural historian"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Balanced fighting stance with knees bent, upright torso",
+      "Stick handling with strikes, parries, and controlled arm movements",
+      "Engaged for balance and movement, mimicking combat motions"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Rhythm pattern: Percussion-driven with call-and-response vocal chants (lavways).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Incorporate footwork to advance, retreat, and dodge within the circle",
+      "Step 2: Respond to call-and-response chants by adjusting energy and timing",
+      "Drill: Timing attacks and defenses"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Jump over bottle: In some Haitian variants, dancers jump over water bottles to demonstrate agility",
+      "Drill: Maintaining balance and agility"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Respecting ceremonial protocols"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid actual violent strikes to prevent injury Respect ceremonial rituals and do not perform sacred elements without permission"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Danced in a circular arena (gayelle) with fighters in the center"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Engage in ritualized stick-fighting contests.",
+      "Calinda descends from African combat dances from the Kingdom of Kongo, brought to the Caribbean by enslaved Africans.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": "Percussion-driven with call-and-response vocal chants (lavways)",
+  "instruments": [
+   "drums",
+   "bamboula (bamboo drum)",
+   "banjo",
+   "quills (reed pipes)"
+  ],
+  "vocal_style": "Lead vocalist (chantwell) sings call-and-response chants to encourage fighters",
+  "musical_form": "Improvised call-and-response within a rhythmic percussion framework",
+  "mood": [
+   "energetic",
+   "martial",
+   "ritualistic",
+   "celebratory"
+  ],
+  "sound_description": null,
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Calinda (Caribbean (Trinidad and Tobago, Haiti, Guadeloupe, Martinique), United States (Louisiana)). Rhythm pattern: Percussion-driven with call-and-response vocal chants (lavways). Instruments: drums, bamboula (bamboo drum), banjo, quills (reed pipes). Vocal style: Lead vocalist (chantwell) sings call-and-response chants to encourage fighters. Form: Improvised call-and-response within a rhythmic percussion framework. Mood: energetic, martial, ritualistic, celebratory. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "gfWctshJaSk",
+   "checked_by_vision_model": true,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performers in Calinda wear specific costumes during stick-fighting contests, which may include embroidered coats, ruffled linen, silk stockings, and pumps, especially in historical contexts such as New Orleans. The fights take place in gayelles—circular arenas designated for the combat dance. Rituals and ceremonial songs precede the fights within these spaces. The setting is often outdoors during Carnival or community celebrations.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ACalinda-Dumoulin-IMG_5527.JPG"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Calinda-Dumoulin-IMG_5527.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Calinda-Dumoulin-IMG_5527.JPG/1280px-Calinda-Dumoulin-IMG_5527.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "François Aimé Louis Dumoulin / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACalinda-Dumoulin-IMG_5527.JPG",
+    "description": ""
+   }
+  ],
+  "footage": [
+   {
+    "title": "Kalenda maya - villemann og magnhild",
+    "url": "https://archive.org/details/youtube-IUgKk3wmJOY",
+    "year": 2010,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Kalenda maya - Iddan Hermund",
+    "url": "https://archive.org/details/youtube-hpMMaLlJE-I",
+    "year": 2010,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Kalenda Maya - Olavs Haraldssons kappsigling (folk/middleage song)",
+    "url": "https://archive.org/details/youtube-FM3mcDsxf4A",
+    "year": 2009,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Kalenda Maya - De Två systrarna",
+    "url": "https://archive.org/details/youtube-gKTy2A7qYLw",
+    "year": 2010,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Circular arena (gayelle)",
+   "Sticks in motion",
+   "Drummers and chantwell",
+   "Colorful Carnival costumes",
+   "Jumping over bottles (Haitian variant)"
+  ],
+  "costume_notes": "Performers in Calinda wear specific costumes during stick-fighting contests, which may include embroidered coats, ruffled linen, silk stockings, and pumps, especially in historical contexts such as New Orleans. The fights take place in gayelles—circular arenas designated for the combat dance. Rituals and ceremonial songs precede the fights within these spaces. The setting is often outdoors during Carnival or community celebrations.",
+  "setting_notes": "Calinda is performed during Carnival celebrations, particularly in Trinidad and Tobago, and during cultural and religious ceremonies such as Vodou events in Haiti. It serves as both entertainment and a martial tradition, symbolizing African heritage, resistance, and community identity. The dance and stick-fighting contests are occasions for social gathering, competition, and cultural expression. Historically, it was a form of entertainment for enslaved people and a means to preserve African combat traditions.",
+  "map": {
+   "country": "Caribbean (Trinidad and Tobago, Haiti, Guadeloupe, Martinique), United States (Louisiana)",
+   "region": "Caribbean",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "64 tutorials across the atlas studied",
+  "videos_studied": 64,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "side close side",
+   "rock step",
+   "engage your core",
+   "hit",
+   "out in out half circle back close",
+   "one two tap accent with left shoulder",
+   "one and two and three",
+   "contract the pelvis it will pull you forward",
+   "right leg out front",
+   "jump split your legs",
+   "the back foot goes up",
+   "lift the left leg up"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "licensed images (3 needed)",
+  "the how-it-is-danced section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Calinda",
+  "https://www.wikidata.org/wiki/Q2741465",
+  "https://es.wikipedia.org/wiki/Kalenda",
+  "https://fr.wikipedia.org/wiki/Calinda",
+  "https://pt.wikipedia.org/wiki/Calinda",
+  "https://archive.org/details/playsofnegrolife00lock"
+ ],
+ "claims_verified": 10,
+ "claims": 10,
+ "polished": false,
+ "input_fingerprint": "1af075295cf13a14d0fbee4ca00fefa84cc49ba4c54853026c05b8b6cdeef593",
+ "hero_checked": "pass"
+}

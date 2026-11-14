@@ -1,13 +1,102 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Restricted or stylized; minimal movement in Irish stepdance, more expressive in stepping",
+      "difficulty": "Beginner to advanced depending on complexity of footwork and speed",
+      "footwork": "Intricate heel, toe, and sole strikes producing rhythmic beats; feet often close to the floor in traditional forms",
+      "formation_and_space": "Solo, line, or group formations; African-American stepping uses synchronized group formations",
+      "hips_and_torso": "Generally stable with minor movement to support footwork",
+      "levels_and_jumps": "Primarily low-level footwork; jumps not emphasized in traditional step dance",
+      "partnering": "Typically solo or group; not partner-based",
+      "posture": "Upright torso with limited upper body movement; focus on controlled foot strikes",
+      "signature_moves": [
+        {
+          "description": "Striking the heel sharply on the floor to produce a percussive sound.",
+          "name": "Heel Tap"
+        },
+        {
+          "description": "Light tapping of the toe on the floor in rhythm.",
+          "name": "Toe Dig"
+        },
+        {
+          "description": "Quick brushing of the foot forward and backward on the floor.",
+          "name": "Shuffle"
+        }
+      ],
+      "tempo_feel": "Varies from moderate to fast; precise timing essential",
+      "what_to_avoid": "Excessive upper body movement in styles where arms are restricted Improper timing that disrupts synchronization with music Wearing inappropriate footwear that does not produce clear percussive sounds"
+    },
+    "music_profile": {
+      "instruments": [
+        "Fiddle",
+        "Pipes",
+        "Whistles",
+        "Piano",
+        "Vocal puirt-a-beul",
+        "Body percussion"
+      ],
+      "meter": "Commonly 2/4, 4/4, or 6/8 depending on dance type",
+      "mood_keywords": [
+        "Energetic",
+        "Rhythmic",
+        "Precise",
+        "Lively"
+      ],
+      "musical_form": "Strathspey, reel, jig, and other traditional folk forms",
+      "reference_recordings": [
+        {
+          "artist": "Carl MacKenzie",
+          "source": "https://en.wikipedia.org/wiki/Step_dance",
+          "title": "Cape Breton Strathspey"
+        },
+        {
+          "artist": "Howie MacDonald",
+          "source": "https://en.wikipedia.org/wiki/Step_dance",
+          "title": "Cape Breton Strathspey"
+        }
+      ],
+      "rhythm_pattern": "Percussive foot strikes aligned with musical beats; call-and-response in stepping",
+      "sound_description": "A percussive soundscape created by hard-soled shoes striking the floor in rhythmic patterns, often accompanied by fiddle-driven melodies and call-and-response vocals.",
+      "tempo_bpm": "Varies by style; Irish stepdance often 90-120 bpm",
+      "vocal_style": "Sometimes includes call-and-response chants, especially in African-American stepping"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Strike heel on floor with controlled timing",
+        "Tap toe lightly in rhythm",
+        "Alternate feet to produce continuous beats",
+        "Maintain upright posture with minimal arm movement",
+        "Practice synchronization with accompanying music"
+      ],
+      "formation": "Solo or group formations depending on variant; African-American stepping often in synchronized groups; Irish stepdance typically solo or in lines",
+      "level_notes": "Beginners start with basic heel and toe strikes, focusing on timing and rhythm; advanced dancers incorporate complex foot patterns and speed",
+      "rhythm": "Varies by style; commonly aligned with strathspey, reel, jig, or percussive call-and-response patterns"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "bec9bf5de6d3331f08534795f8eadad6d7428c18117caeb1071ad944395c7d4c",
+  "fingerprint": "cca7b33d15c6ec8c68b2e6cbfcbbe3153d8caf6284059ab7eb3b9a60b3ca2918",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +104,6 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -33,7 +119,6 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Timestamped movement and teaching evidence with observation limits",
       "Compare independent teachers/variants; preserve unique methods"
     ]
   },
@@ -45,7 +130,7 @@
   ],
   "music_options": [],
   "name": "Step dance",
-  "research_file": null,
+  "research_file": "research_results/step-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +142,16 @@
   "slug": "step-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Step_dance",
-    "Source: Step dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Step_dance"
+    "https://www.wikidata.org/wiki/Q3360620",
+    "https://fr.wikipedia.org/wiki/Step_dance",
+    "https://archive.org/details/ichupdate059"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/a5-ZnI4tDyI.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=a5-ZnI4tDyI"
+    }
+  ]
 }

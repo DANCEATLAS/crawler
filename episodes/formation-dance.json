@@ -1,0 +1,842 @@
+{
+ "slug": "formation-dance",
+ "name": "Formation dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-14T17:47:19Z",
+ "researched_at": "2026-11-14T16:51:42Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Experienced formation dance coach with competition background",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Formation dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Formation dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Art of Synchronized Ballroom: Formation Dance Unveiled",
+     "This is Formation dance. 20th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Formation dance · United Kingdom (origin) · 20th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Formation dancing began in 1932 at London's Astoria Ballroom, introduced by Olive Ripman as \"pattern dancing.\" It became a competitive sport in England during the 1930s and expanded internationally.",
+     "The dance form was featured on BBC's Come Dancing program in the 1960s and has grown globally since."
+    ],
+    "on_screen": [
+     "Map: United Kingdom (origin) · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Formation dance is performed in competitions governed by the International DanceSport Federation and national bodies.",
+     "It is a sport emphasizing teamwork, synchronization, and technical skill.",
+     "The dance is also performed for exhibitions and television programs.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Wild Turkey Trio (https://archive.org/details/wild-turkey-trio_202102)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Teams of 6 to 8 couples dance choreographed routines lasting up to six minutes, including walk-on and walk-off sections.",
+     "Couples perform synchronized steps to the beat, forming patterns such as diamonds, circles, and lines.",
+     "Latin formation includes Cha Cha, Rumba, Jive, Paso Doble, and Samba, while Standard formation includes Waltz, Quickstep, Tango, Viennese Waltz, and Foxtrot.",
+     "Watch for Chain Reaction, Roundabout, Velberter Rose."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Geometric patterns with clear spacing; transitions between shapes"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music for formation dance is arranged to fit the choreography, typically lasting six minutes with entrance, main, and exit parts separated by a gong.",
+     "The main part, which is judged, lasts 3 to 4.5 minutes.",
+     "The pulse is Varies by dance; Latin dances often in 4/4, Waltz in 3/4 at about 120 beats a minute."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Characteristic rhythms of each dance (e.g., Cha Cha syncopated steps, Waltz flowing 3/4)"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Men in Standard formation wear black or midnight blue tailcoats; in Latin formation, men wear uniform colored shirts, often black.",
+     "Women may wear varied dresses within competition rules.",
+     "The dance floor is used fully to display patterns, with clear visibility of formations prioritized."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Olive Ripman introduced formation dancing in 1932.",
+     "Specialist choreographers include Ona Skaistutė Idzelevičienė, Roberto Albanese, Horst Beer, and Rachael Holland.",
+     "Formation dancing is practiced internationally with notable competitions in England, Germany, and Austria.",
+     "Formation dance evolved from ballroom dancing and pattern dancing introduced in early 20th-century England."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Formation dance is variant of Bhangra formation: A type of formation dance exists in Bhangra, distinct from ballroom formation.",
+     "Formation dance is shares music of Latin dancesport: Formation Latin routines use the five International Latin dances.",
+     "Formation dance is shares music of Standard ballroom: Formation Standard routines use the five International Standard dances."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Couples line up in formation (e.g., diamond or line)",
+     "Start synchronized basic steps of chosen dance (e.g., Cha Cha basic step)",
+     "Count it: 5-6-7-8.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore how teams of ballroom dancers create stunning geometric patterns in synchronized formation routines.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn basic ballroom steps and simple formations",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn basic ballroom steps and simple formations.",
+      "Level: Beginner. Difficulty of the dance overall: Intermediate to advanced.",
+      "Your instructor: Experienced formation dance coach with competition background"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright ballroom posture with poised upper body",
+      "Held in ballroom frame; coordinated with partner and team",
+      "Movement follows dance style; Latin dances have more hip action"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is Varies by dance; Latin dances often in 4/4, Waltz in 3/4.",
+      "Rhythm pattern: Characteristic rhythms of each dance (e.g., Cha Cha syncopated steps, Waltz flowing 3/4).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Couples line up in formation (e.g., diamond or line)",
+      "Step 2: Start synchronized basic steps of chosen dance (e.g., Cha Cha basic step)",
+      "Footwork from the sources: Precise steps matching dance style; synchronized with team",
+      "Drill: Basic Cha Cha step"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute coordinated turns or chain reactions on beat",
+      "Step 4: Transition smoothly to next formation pattern",
+      "Drill: Forming a line"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Walking on beat"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Lifts during judged routine Out-of-sync movements Breaking formation patterns"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn basic ballroom steps and simple formations.",
+      "Formation dance is performed in competitions governed by the International DanceSport Federation and national bodies.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Perform synchronized patterns and transitions",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Perform synchronized patterns and transitions.",
+      "Level: Intermediate. Difficulty of the dance overall: Intermediate to advanced.",
+      "Your instructor: Experienced formation dance coach with competition background"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright ballroom posture with poised upper body",
+      "Held in ballroom frame; coordinated with partner and team",
+      "Movement follows dance style; Latin dances have more hip action"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is Varies by dance; Latin dances often in 4/4, Waltz in 3/4.",
+      "Rhythm pattern: Characteristic rhythms of each dance (e.g., Cha Cha syncopated steps, Waltz flowing 3/4).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Walk off formation in coordinated exit",
+      "Drill: Diamond formation"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Chain Reaction: Sequential movement passed through the team creating a wave effect",
+      "Roundabout: Couples rotate in a circular pattern around a point",
+      "Drill: Chain reaction practice"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Timing with gong"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Lifts during judged routine Out-of-sync movements Breaking formation patterns"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Geometric patterns with clear spacing; transitions between shapes"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform synchronized patterns and transitions.",
+      "Olive Ripman introduced formation dancing in 1932.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Master solo sections and complex choreography",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Master solo sections and complex choreography.",
+      "Level: Advanced. Difficulty of the dance overall: Intermediate to advanced.",
+      "Your instructor: Experienced formation dance coach with competition background"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright ballroom posture with poised upper body",
+      "Held in ballroom frame; coordinated with partner and team",
+      "Movement follows dance style; Latin dances have more hip action"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 5-6-7-8. The meter is Varies by dance; Latin dances often in 4/4, Waltz in 3/4.",
+      "Rhythm pattern: Characteristic rhythms of each dance (e.g., Cha Cha syncopated steps, Waltz flowing 3/4).",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Transition smoothly to next formation pattern",
+      "Step 2: Walk off formation in coordinated exit",
+      "Drill: Roundabout execution"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Velberter Rose: A specific formation figure unique to formation dance",
+      "Drill: Velberter Rose figure"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "5-6-7-8",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Smooth walk-off"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Lifts during judged routine Out-of-sync movements Breaking formation patterns"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 5-6-7-8.",
+      "Full tempo, the whole sequence, twice. Formation: Geometric patterns with clear spacing; transitions between shapes"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master solo sections and complex choreography.",
+      "Formation dance evolved from ballroom dancing and pattern dancing introduced in early 20th-century England.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 120,
+  "meter": "Varies by dance; Latin dances often in 4/4, Waltz in 3/4",
+  "rhythm_pattern": "Characteristic rhythms of each dance (e.g., Cha Cha syncopated steps, Waltz flowing 3/4)",
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": "Music arranged in three parts: entrance, main judged section, and exit, separated by a gong",
+  "mood": [
+   "energetic",
+   "synchronized",
+   "dynamic",
+   "elegant"
+  ],
+  "sound_description": null,
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Formation dance (United Kingdom (origin)). Meter Varies by dance; Latin dances often in 4/4, Waltz in 3/4. Tempo about 120 bpm. Rhythm pattern: Characteristic rhythms of each dance (e.g., Cha Cha syncopated steps, Waltz flowing 3/4). Form: Music arranged in three parts: entrance, main judged section, and exit, separated by a gong. Mood: energetic, synchronized, dynamic, elegant. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 84
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 120
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Men in Standard formation wear black or midnight blue tailcoats; in Latin formation, men wear uniform colored shirts, often black. Women may wear varied dresses within competition rules. The dance floor is used fully to display patterns, with clear visibility of formations prioritized. Walk-on and walk-off sections allow more freedom in costume and choreography.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ALatin_formation_%28atsc_bs_cteam_2007%29.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Latin_formation_%28atsc_bs_cteam_2007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Latin_formation_%28atsc_bs_cteam_2007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Thornard 13:41, 12 June 2007 (UTC) / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ALatin_formation_%28atsc_bs_cteam_2007%29.jpg",
+    "description": "Latin Formation (Aachener ATSC Blau-Silber C-Team 2007, Germany)"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Wild Turkey Trio",
+    "url": "https://archive.org/details/wild-turkey-trio_202102",
+    "year": null,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Levi Jackson Rose",
+    "url": "https://archive.org/details/levi-jackson-rose_202102",
+    "year": null,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Zippity Sicilian Circle",
+    "url": "https://archive.org/details/zippity-sicilian-circle_202102",
+    "year": null,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "F& D Sicilian Circle Dance",
+    "url": "https://archive.org/details/f-d-sicilian-circle-dance",
+    "year": null,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Scones & Tea Sicilain Circle Dance",
+    "url": "https://archive.org/details/scones-tea-sicilain-circle-dance",
+    "year": null,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "ONS Mescolanza",
+    "url": "https://archive.org/details/ons-mescolanza",
+    "year": null,
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Geometric floor patterns",
+   "Elegant ballroom attire",
+   "Gong signal",
+   "Team synchronization"
+  ],
+  "costume_notes": "Men in Standard formation wear black or midnight blue tailcoats; in Latin formation, men wear uniform colored shirts, often black. Women may wear varied dresses within competition rules. The dance floor is used fully to display patterns, with clear visibility of formations prioritized. Walk-on and walk-off sections allow more freedom in costume and choreography.",
+  "setting_notes": "Formation dance is performed in competitions governed by the International DanceSport Federation and national bodies. It is a sport emphasizing teamwork, synchronization, and technical skill. The dance is also performed for exhibitions and television programs. Judging focuses on synchronicity, pattern clarity, and execution.",
+  "map": {
+   "country": "United Kingdom (origin)",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "1 tutorial(s) of this dance studied",
+  "videos_studied": 1,
+  "counting": "5-6-7-8",
+  "counting_basis": "studied dance-specific tutorial",
+  "demonstration": [
+   "views used by most teachers: mirror",
+   "tempo progression: slow"
+  ],
+  "cues": [
+   "hit",
+   "swing",
+   "pop",
+   "cross",
+   "swag"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "breakdown"
+  ],
+  "steps_as_taught": [
+   {
+    "name": "Arm scoop and step back",
+    "counts": "1-2",
+    "description": "Scoop right arm across body, step out on right leg and push left hand underneath."
+   },
+   {
+    "name": "Swings and punch",
+    "counts": "3-4",
+    "description": "Swing right arm and step back, then punch with right arm."
+   },
+   {
+    "name": "Pottys and body roll",
+    "counts": "5-6",
+    "description": "Do pottypaws / grapevine footwork combined with body rolls and chest pops."
+   }
+  ]
+ },
+ "gaps": [
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Formation_dance",
+  "https://www.wikidata.org/wiki/Q1416037",
+  "https://de.wikipedia.org/wiki/Formationstanzen"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "4c0a46f97287198418da8adcaaab4a4d6f336f7df77e73bd2d20c6a86cd3d22b",
+ "hero_checked": null
+}

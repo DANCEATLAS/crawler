@@ -1,7 +1,7 @@
 {
  "contract": "dw_app_v1",
- "count": 1108,
- "generated_at": "2026-11-13T18:24:36Z",
+ "count": 1120,
+ "generated_at": "2026-11-14T17:43:08Z",
  "pipeline": "v3.3",
  "styles": {
   "son-cubano": {
@@ -13052,6 +13052,10 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "review",
+   "qc_score": 9.3,
+   "last_researched_at": "2026-11-14T16:52:10Z",
+   "pipeline_version": "v3.3",
    "hero_source": "crawler:crowd_wisdom_confident",
    "hero_qc": {
     "verdict": "pass",
@@ -15022,6 +15026,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:41:24Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "gnawa",
     "reggada",
@@ -15673,7 +15682,14 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-14T17:33:58Z",
+    "soft_fail": [
+     "named"
+    ]
+   },
    "related_slugs": [
     "capoeira"
    ]
@@ -18189,6 +18205,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:39:00Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "hopak",
     "arkan",
@@ -18660,6 +18683,11 @@
    "movie_ready": false,
    "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:39:26Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "pontic-greek-folk-dance": {
@@ -18810,6 +18838,10 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "reject",
+   "qc_score": 7.7,
+   "last_researched_at": "2026-11-14T17:16:48Z",
+   "pipeline_version": "v3.3",
    "hero_source": "crawler:qc_failed_pending_recrawl",
    "hero_qc": {
     "verdict": "fail",
@@ -18952,6 +18984,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "review",
+   "qc_score": 7.25,
+   "last_researched_at": "2026-11-14T16:52:32Z",
+   "pipeline_version": "v3.3",
+   "is_sacred": true,
+   "needs_eyes_on": true,
    "related_slugs": []
   },
   "syrtos": {
@@ -19436,6 +19474,11 @@
    "last_researched_at": "2026-11-13T18:08:46Z",
    "pipeline_version": "v3.3",
    "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:41:20Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "zervos": {
@@ -20421,6 +20464,14 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:39:22Z",
+    "soft_fail": [
+     "hd",
+     "not_vertical"
+    ]
+   },
    "related_slugs": []
   },
   "litefeet": {
@@ -20639,6 +20690,10 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "review",
+   "qc_score": 9.45,
+   "last_researched_at": "2026-11-14T17:17:27Z",
+   "pipeline_version": "v3.3",
    "hero_source": "crawler:crowd_wisdom_confident",
    "hero_qc": {
     "verdict": "pass",
@@ -21071,20 +21126,22 @@
   "formation-dance": {
    "slug": "formation-dance",
    "name": "Formation dance",
-   "country": null,
-   "country_code": null,
-   "flag_emoji": null,
-   "region": null,
-   "family": null,
-   "era": null,
-   "tagline": "style of ballroom dancing",
-   "profile": "Formation dance is a style of ballroom dancing. It is pattern or shadow team dancing by couples in a formation team. The choreography may be based on a particular dance or a medley of dances. Formation dancing may be done for exhibition or for competition between teams. There is also a type of formation in Bhangra.",
-   "insight": "== International style ballroom: dance sport ==\n\n\n=== History ===\nFormation dancing originated in 1932 in London's Astoria Ballroom.",
+   "country": "United Kingdom (origin)",
+   "country_code": "GB",
+   "flag_emoji": "🇬🇧",
+   "region": "Europe",
+   "family": "ballroom-partner",
+   "era": "20th century to present",
+   "tagline": "Team ballroom dancing with synchronized choreography and patterns",
+   "profile": "Formation dance is a style of ballroom dancing performed by teams of couples arranged in formations. It involves synchronized choreography where couples execute patterns such as diamonds, circles, and lines. Routines last about six minutes and combine individual couple technique with coordinated team movements. Formation dancing is practiced internationally in both Latin and Standard ballroom styles, often in competition.",
+   "insight": "Formation dancing began in 1932 at London's Astoria Ballroom, evolving into a competitive sport with teams of 6-8 couples performing synchronized routines judged on patterns and synchronicity.",
    "aliases": [],
    "related": [],
    "sources": [
     "https://en.wikipedia.org/wiki/Formation_dance",
-    "Source: Formation dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Formation_dance"
+    "Source: Formation dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Formation_dance",
+    "https://www.wikidata.org/wiki/Q1416037",
+    "https://de.wikipedia.org/wiki/Formationstanzen"
    ],
    "wikipedia_url": "https://en.wikipedia.org/wiki/Formation_dance",
    "wikidata_qid": "Q1416037",
@@ -21095,11 +21152,34 @@
    "image_significance": null,
    "lat": null,
    "lng": null,
-   "tier": "needs_curation",
+   "tier": "content_ready",
    "updated_at": null,
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "publish",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-11-14T16:51:42Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Formation dance originated in 1932 at the Astoria Ballroom in London, introduced by Olive Ripman under the name \"pattern dancing.\" It quickly became a competitive dance form, with contests beginning in England in the 1930s and spreading worldwide. Teams typically consist of 6 to 8 couples who perform choreographed routines that combine individual dancesport techniques with coordinated group patterns. These patterns, also called shapes or images, include diamonds, squares, diagonals, circles, and lines, and the clarity and transitions of these shapes are key judging criteria. The choreography may be based on a single dance or a medley of dances, with Latin formation including Cha Cha, Rumba, Jive, Paso Doble, and Samba, and Standard formation including Waltz, Quickstep, Tango, Viennese Waltz, and Foxtrot. Routines last up to six minutes, including walk-on and walk-off sections often featuring free-form choreography and lifts, which are prohibited during the judged segment. Synchronization and timing to the music's beat are critical, with judges marking teams on synchronicity and execution. Formation dance is governed internationally by the International DanceSport Federation (IDSF), with competitions such as the British National Championships at the Blackpool Dance Festival and the Donaupokal Invitational in Vienna. In German-speaking countries, formation teams follow similar rules under the Deutscher Tanzsportverband (DTV) and World DanceSport Federation (WDSF), with music structured into an entrance, main part, and exit, separated by gong signals. Music themes vary widely, often arranged from known pieces to suit the dance character. Special figures unique to formation dancing include roundabouts, chain reactions, and the Velberter Rose, which add visual impact. Men's attire in Standard formation is traditionally black or midnight blue tailcoats, while Latin formation allows more color but requires uniformity. Formation dancing remains a living tradition with active international competition and evolving choreography.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Latin_formation_%28atsc_bs_cteam_2007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Latin_formation_%28atsc_bs_cteam_2007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 1200,
+     "height": 488,
+     "license": "CC BY-SA 3.0",
+     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "attribution": "Thornard 13:41, 12 June 2007 (UTC) / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ALatin_formation_%28atsc_bs_cteam_2007%29.jpg",
+     "description": "Latin Formation (Aachener ATSC Blau-Silber C-Team 2007, Germany)"
+    }
+   ],
+   "publish_gate": "publish",
+   "movie_ready": false,
+   "tradition_status": "living",
    "tutorials": [
     {
      "youtube_id": "Suhz7IMYNwE",
@@ -22443,20 +22523,25 @@
   "faroese-chain-dance": {
    "slug": "faroese-chain-dance",
    "name": "Faroese chain dance",
-   "country": null,
-   "country_code": null,
-   "flag_emoji": null,
-   "region": null,
-   "family": null,
-   "era": null,
-   "tagline": "The Faroese chain dance (Faroese: Føroyskur dansur, Danish: Kædedans) is the national circle dance of the F…",
-   "profile": "The Faroese chain dance (Faroese: Føroyskur dansur, Danish: Kædedans) is the national circle dance of the Faroe Islands, accompanied by kvæði, the Faroese ballads. The dance is a typical Medieval dance. The dance is danced traditionally in a circle, but when there are many dancers, they usually let it swing around in various wobbles within the circle.",
-   "insight": "Tvøroyrar Dansifelag from Tvøroyri, founded in 1983 (first time in 1958).",
-   "aliases": [],
+   "country": "Faroe Islands",
+   "country_code": "FO",
+   "flag_emoji": "🇫🇴",
+   "region": "Europe",
+   "family": "folk-circle",
+   "era": "Medieval to present",
+   "tagline": "The national circle dance of the Faroe Islands, danced to traditional ballads called kvæði.",
+   "profile": "The Faroese chain dance is a medieval circle dance from the Faroe Islands, performed holding hands in a continuous chain. It is accompanied solely by singing of kvæði, traditional Faroese ballads, without instruments. Dancers move slowly leftward with a characteristic six-step pattern, expressing the ballads' narrative through gestures and facial expressions.",
+   "insight": "At Ólavsøka, the Faroe Islands' national holiday, dancers form unbroken circles that swell and contract, passing face-to-face twice each round.",
+   "aliases": [
+    "Føroyskur dansur",
+    "Kædedans"
+   ],
    "related": [],
    "sources": [
     "https://en.wikipedia.org/wiki/Faroese_chain_dance",
-    "Source: Faroese chain dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Faroese_chain_dance"
+    "Source: Faroese chain dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Faroese_chain_dance",
+    "https://www.wikidata.org/wiki/Q615031",
+    "https://de.wikipedia.org/wiki/Färöischer_Kettentanz"
    ],
    "wikipedia_url": "https://en.wikipedia.org/wiki/Faroese_chain_dance",
    "wikidata_qid": "Q615031",
@@ -22467,11 +22552,56 @@
    "image_significance": null,
    "lat": null,
    "lng": null,
-   "tier": "needs_curation",
+   "tier": "content_ready",
    "updated_at": null,
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "publish",
+   "qc_score": 8.9,
+   "last_researched_at": "2026-11-14T17:02:25Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The Faroese chain dance (Faroese: Føroyskur dansur) is the national folk dance of the Faroe Islands, rooted in medieval tradition and preserved as a living cultural practice. It is performed in a circle or chain formation where dancers hold hands—right hand overlapping the left of the neighbor—and move rhythmically to the left with a distinctive six-step pattern called stígingarstev. The dance is accompanied exclusively by the singing of kvæði, Faroese ballads that narrate heroic or historical stories. The lead singer, called the skipari, must know all verses, while the rest join in at the chorus. The dancers' movements and expressions reflect the ballad's emotions, such as clenching hands during battle scenes or cheering at moments of victory. When many dancers join, the circle bends inward, forming multiple concentric chains, with dancers passing face-to-face twice per round. Variations include the trokingarstev, where dancers stand mostly still or move backward during verses and step forward during refrains, favored in southern islands like Suðuroy, and the bandadansur or ribbon dance, where men and women stand in two rows holding ribbons, raising them during refrains to form tunnels through which dancers pass. The dance is traditionally practiced during the dark winter months, from autumn until Lent, with many Faroese dance associations active today, including some in Denmark. The dance is performed without instrumental music, relying solely on vocal ballads and rhythmic foot stamping. It remains a vibrant tradition, showcased notably at the national holiday Ólavsøka, where large groups dance late into the night. The Faroese chain dance is a rare example of a medieval circle dance still practiced in its original form, emphasizing communal singing and movement without instrumental accompaniment.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/K%C3%A6dedans.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3b/K%C3%A6dedans.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 640,
+     "height": 426,
+     "license": "CC BY-SA 3.0",
+     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "attribution": "Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AK%C3%A6dedans.JPG",
+     "description": ""
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Faroese_Chain_Dance_in_Sjonleikarhusid_on_Olavsoka_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Faroese_Chain_Dance_in_Sjonleikarhusid_on_Olavsoka_2011.jpg/1280px-Faroese_Chain_Dance_in_Sjonleikarhusid_on_Olavsoka_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3529,
+     "height": 2564,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Eileen Sandá / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AFaroese_Chain_Dance_in_Sjonleikarhusid_on_Olavsoka_2011.jpg",
+     "description": "Faroese (and perhaps some foreign too) are dancing Faroese chain dance in Tórshavn in a place called Sjónleikarhúsið (a former theatre). The Faroese dance is a very old tradition, no instruments are used, the dancers are only using their voices to sing the Faroese and Danish ballads (kvæði), which sometimes can be very long, more than 100 or 200 verses. This photo was taken on Ólavsøka (Sct. Olav'"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Faroese_Chain_Dance_in_Dansistovan_in_Sumba_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Faroese_Chain_Dance_in_Dansistovan_in_Sumba_2011.JPG/1280px-Faroese_Chain_Dance_in_Dansistovan_in_Sumba_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3648,
+     "height": 2736,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Eileen Sandá / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AFaroese_Chain_Dance_in_Dansistovan_in_Sumba_2011.JPG",
+     "description": "Faroese chain dance (folkdance) in the village Sumba, which is the southernmost village in Suðuroy and in the Faroe Islands. The people from Sumba have strong traditions regarding the Faroese chain dance (føroyskur dansur) and with the tradition with singing \"kvæði\" folk songs (the folk songs accompany the dance as the only music, no instruments are used). At the beginning of the Lent period they "
+    }
+   ],
+   "publish_gate": "publish",
+   "movie_ready": true,
+   "tradition_status": "living",
    "hero_source": "crawler:qc_failed_pending_recrawl",
    "hero_qc": {
     "verdict": "fail",
@@ -24447,20 +24577,29 @@
   "calinda": {
    "slug": "calinda",
    "name": "Calinda",
-   "country": null,
-   "country_code": null,
-   "flag_emoji": null,
-   "region": null,
+   "country": "Caribbean (Trinidad and Tobago, Haiti, Guadeloupe, Martinique), United States (Louisiana)",
+   "country_code": "HT",
+   "flag_emoji": "🇭🇹",
+   "region": "Caribbean",
    "family": null,
-   "era": null,
-   "tagline": "martial art, as well as a kind of folk music and war dance in the Caribbean which arose in the 1720s",
-   "profile": "Calinda (also spelled kalinda or kalenda) is a martial art, as well as a kind of folk music and war dance in the Caribbean which arose in the 1720s. It was brought to the Caribbean by Africans in the transatlantic slave trade and is based on native African combat dances.",
-   "insight": "Dancing the \"Calinda\" is also referred to in one of Louisiana writer Kate Chopin's most famous stories from Bayou Folk (1894), \"La Belle Zoraïde,\" which stresses the strong Afro-Caribbean presence in Louisiana.",
-   "aliases": [],
+   "era": "18th century to present",
+   "tagline": "Caribbean martial art and war dance with African roots, practiced since the 1720s",
+   "profile": "Calinda is a Caribbean martial art, folk music, and war dance originating in the 1720s from African combat dances brought by enslaved Africans. It is practiced notably in Trinidad and Tobago, Haiti, Guadeloupe, Martinique, and Louisiana. Calinda involves stick-fighting performed in ritualized arenas called gayelles, accompanied by call-and-response chants known as lavways, which evolved into calypso music.",
+   "insight": "In 1894, Louisiana writer Kate Chopin referenced Calinda dance in her story 'La Belle Zoraïde,' highlighting Afro-Caribbean cultural presence in New Orleans.",
+   "aliases": [
+    "kalinda",
+    "kalenda",
+    "calenda"
+   ],
    "related": [],
    "sources": [
     "https://en.wikipedia.org/wiki/Calinda",
-    "Source: Calinda on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Calinda"
+    "Source: Calinda on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Calinda",
+    "https://www.wikidata.org/wiki/Q2741465",
+    "https://es.wikipedia.org/wiki/Kalenda",
+    "https://fr.wikipedia.org/wiki/Calinda",
+    "https://pt.wikipedia.org/wiki/Calinda",
+    "https://archive.org/details/playsofnegrolife00lock"
    ],
    "wikipedia_url": "https://en.wikipedia.org/wiki/Calinda",
    "wikidata_qid": "Q2741465",
@@ -24471,7 +24610,7 @@
    "image_significance": null,
    "lat": null,
    "lng": null,
-   "tier": "needs_curation",
+   "tier": "content_ready",
    "updated_at": null,
    "_albums": [
     {
@@ -24489,6 +24628,31 @@
    ],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "publish",
+   "qc_score": 8.85,
+   "last_researched_at": "2026-11-14T16:50:56Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Calinda, also spelled kalinda or kalenda, is a martial art, folk music, and war dance that emerged in the Caribbean during the 1720s. It was introduced by enslaved Africans brought through the transatlantic slave trade, rooted in combat dances from the Kingdom of Kongo. In Trinidad and Tobago, Calinda is recognized as the national martial art and is commonly practiced during Carnival, where stick-fighting contests take place in arenas called gayelles. These contests begin with ritual songs and ceremonies, including call-and-response chants called lavways, which historically cheered on the fighters and contributed to the development of modern calypso music. The dance and martial art were initially a form of entertainment and cultural expression for enslaved people, evolving alongside Carnival traditions brought by French planters and migrants from neighboring islands such as Grenada, Guadeloupe, Martinique, and Dominica.\n\nCalinda's stick-fighting involves combatants known as boismen, who wear specific costumes and engage in ritualized fights that balance performance and martial skill. Despite the violent potential of stick-fighting, the dance form is widely practiced as a stylized performance. Annual Carnival competitions formalize these contests, preserving the martial art's combative roots. Similar stick-fighting traditions exist throughout the Caribbean, including l'agya, damaye, and mayolé in Guadeloupe and Martinique, and the Afro-Caribbean martial art Tire machèt in Haiti, which shares origins with Calinda. In Barbados, a related practice is called stick-licking or stick science, while in Puerto Rico, a comparable dance called Kokobalé is performed with Bomba music.\n\nIn Louisiana, Calinda was performed by Afro-Caribbean slaves and influenced local culture, as evidenced by the Cajun song \"Allons danser Colinda\" and literary references such as Kate Chopin's 1894 story \"La Belle Zoraïde,\" which underscores the Afro-Caribbean presence in New Orleans. The dance was historically banned in some regions during the 19th century for being considered indecent but persisted in Haiti, Guadeloupe, and Louisiana. In Haiti, Calinda is still danced during Vodou ceremonies and celebrations, often mimicking combat movements with sticks and incorporating ritual elements.\n\nThe music accompanying Calinda is characterized by percussion instruments such as drums, bamboo drums (bamboula), banjos, and quills (reed pipes), creating rhythmic patterns that support the dancers' movements. The dance is performed in a circle, with musicians and spectators surrounding the fighters or dancers. The tempo is lively and energetic, matching the martial and performative aspects of the tradition. Calinda's enduring presence across the Caribbean and its diasporic communities reflects its significance as a cultural expression of African heritage, resistance, and identity.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Calinda-Dumoulin-IMG_5527.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Calinda-Dumoulin-IMG_5527.JPG/1280px-Calinda-Dumoulin-IMG_5527.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3390,
+     "height": 2155,
+     "license": "Public domain",
+     "license_url": null,
+     "attribution": "François Aimé Louis Dumoulin / Wikimedia Commons / Public domain",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ACalinda-Dumoulin-IMG_5527.JPG",
+     "description": ""
+    }
+   ],
+   "publish_gate": "publish",
+   "is_sacred": true,
+   "needs_eyes_on": true,
+   "movie_ready": false,
+   "tradition_status": "living",
    "hero_source": "crawler:qc_replaced",
    "hero_qc": {
     "verdict": "pass",
@@ -24553,6 +24717,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:38:21Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "weapon-dance": {
@@ -26830,6 +26999,7 @@
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": [
+    "kolkali",
     "padayani"
    ]
   },
@@ -27061,6 +27231,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:38:18Z",
+    "soft_fail": [
+     "named"
+    ]
+   },
    "related_slugs": [
     "theyyam",
     "thidambu-nritham"
@@ -28176,7 +28353,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-14T17:34:50Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "sirtaki",
     "syrtos",
@@ -30414,6 +30596,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:34:54Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "tutorials": [
     {
      "youtube_id": "sha4KaXdl7s",
@@ -31332,6 +31521,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:36:03Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "garia",
     "lebang-boomani",
@@ -32455,43 +32649,18 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "reject",
+   "qc_score": 7.5,
+   "last_researched_at": "2026-11-14T17:01:33Z",
+   "pipeline_version": "v3.3",
+   "is_sacred": true,
+   "needs_eyes_on": true,
    "hero_source": "crawler:crowd_wisdom_confident",
    "hero_qc": {
     "verdict": "pass",
     "checked_at": "2026-11-01T18:01:33Z",
     "soft_fail": []
    },
-   "tutorials": [
-    {
-     "youtube_id": "SszmBTMg77Q",
-     "title": "[Koreos Tutorial] LOONA - BUTTERFLY (Mirrored)",
-     "channel": "Koreos",
-     "level": "general",
-     "pos": 9,
-     "neg": 0,
-     "ratio": 9.0,
-     "evidence": [
-      "ik ur not gonna see this but thankyouu so muchh for teaching this choreoo i learned this in like half an hour thanks to uuu being a great teacher!! ik this is l",
-      "It’s really hard but thank you so much hahah",
-      "Thank you so much! This choreography is so amazing"
-     ],
-     "lesson_status": "in_review"
-    },
-    {
-     "youtube_id": "d9Pp7hwa2Bo",
-     "title": "Pattampoochi / Neno Butterfly DANCE TUTORIAL Step By Step Explanation [Mirrored] | MamithaBaiju ",
-     "channel": "tejudance",
-     "level": "general",
-     "pos": 2,
-     "neg": 0,
-     "ratio": 2.0,
-     "evidence": [
-      "oh my god she taught me such an easy way thank you so much ❤❤❤",
-      "Very well explained and phased, thanks ❤"
-     ],
-     "lesson_status": "in_review"
-    }
-   ],
    "related_slugs": []
   },
   "kompa": {
@@ -33669,7 +33838,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-14T17:38:12Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "bharatanatyam",
     "kathak",
@@ -37739,19 +37913,12 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Ainu_culture",
    "wikidata_qid": "Q113025331",
    "unesco": true,
-   "hero_video_youtube_id": "zZEzuk424JQ",
+   "hero_video_youtube_id": "xvtEdVfAJtw",
    "hero_image": null,
    "video_stack": [
     {
-     "youtube_id": "zZEzuk424JQ",
-     "role": "hero",
-     "title": "Ainu Dance",
-     "channel": "jahgenji",
-     "hd": false
-    },
-    {
      "youtube_id": "xvtEdVfAJtw",
-     "role": "rendition",
+     "role": "hero",
      "title": "Akan Ainu Dance & Song: Crane Dance",
      "channel": "多言語で生きようプロジェクト Live Multilingually Project ",
      "hd": true
@@ -37771,7 +37938,15 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:34:01Z",
+    "soft_fail": [
+     "hd",
+     "camera_ok"
+    ]
+   },
    "related_slugs": []
   },
   "mongol-biyelgee": {
@@ -39407,6 +39582,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:38:13Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "lusheng-dance"
    ]
@@ -39866,33 +40046,12 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Padayani",
    "wikidata_qid": "Q3595849",
    "unesco": false,
-   "hero_video_youtube_id": "dyeO9f02yDg",
+   "hero_video_youtube_id": "WNbeCaCxnLQ",
    "hero_image": null,
    "video_stack": [
     {
-     "youtube_id": "dyeO9f02yDg",
-     "role": "hero",
-     "title": "Padayani | Traditional Art Form of Kerala | പടയണി | നാടൻ കലകൾ | Pacha Online",
-     "channel": "Pacha Online",
-     "hd": true
-    },
-    {
-     "youtube_id": "cTQi7S8ldPw",
-     "role": "rendition",
-     "title": "Othera Padayani | Padayani Festivals of Kerala",
-     "channel": "Kerala Tourism",
-     "hd": true
-    },
-    {
-     "youtube_id": "OFO0EdqSoNc",
-     "role": "rendition",
-     "title": "Padayani Documentary || Arjun creations || പടയണി",
-     "channel": "Arjun Creations",
-     "hd": true
-    },
-    {
      "youtube_id": "WNbeCaCxnLQ",
-     "role": "rendition",
+     "role": "hero",
      "title": "Kadammanitta Padayani | Padayani Festivals of Kerala",
      "channel": "Kerala Tourism",
      "hd": true
@@ -39912,7 +40071,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:39:09Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "theyyam"
    ]
@@ -40497,6 +40661,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:42:35Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "kazukuta": {
@@ -40761,6 +40930,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:35:57Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "assiko",
     "makossa"
@@ -41088,6 +41262,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:38:09Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "dabke",
     "khigga",
@@ -41560,6 +41739,13 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:38:31Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": []
   },
   "sofa-dance": {
@@ -41635,7 +41821,12 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-14T17:39:35Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "lamban",
     "mendiani"
@@ -41860,6 +42051,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:39:28Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "danza-de-tijeras": {
@@ -41936,6 +42132,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:38:16Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "huaconada",
     "huayno"
@@ -42101,6 +42302,11 @@
    "_gallery": [],
    "_is_sacred": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:38:40Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "kolo",
     "shota",
@@ -42269,6 +42475,13 @@
    "sacred_note": "Traditional dances served a spiritual purpose and were restricted by missionaries; modern performances are community-focused.",
    "movie_ready": false,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:42:54Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "zamba",
     "highland-fling",
@@ -42644,26 +42857,12 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Bidesiya_(play)",
    "wikidata_qid": "Q85746962",
    "unesco": false,
-   "hero_video_youtube_id": "gfej9x58jNc",
+   "hero_video_youtube_id": "OAXdx1rUTG8",
    "hero_image": null,
    "video_stack": [
     {
-     "youtube_id": "gfej9x58jNc",
-     "role": "hero",
-     "title": "Song: Bidesia - Kaise main gaun purvajon ki kahania ho",
-     "channel": "The Girmit Story",
-     "hd": true
-    },
-    {
-     "youtube_id": "k20HGsWfxgY",
-     "role": "rendition",
-     "title": "Bhojpuri-Bidesiya-Hansi hansi panwa",
-     "channel": "Amit Navendu",
-     "hd": false
-    },
-    {
      "youtube_id": "OAXdx1rUTG8",
-     "role": "rendition",
+     "role": "hero",
      "title": "Bidesiya Bhikhari Thakur ko SradhaSuman ! Folk Dance Of Bihar ! Amit Kunwar !",
      "channel": "Folk Dance of Bihar",
      "hd": true
@@ -42688,7 +42887,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:35:09Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "chumba": {
@@ -42757,6 +42961,11 @@
    "last_researched_at": "2026-11-01T17:30:30Z",
    "pipeline_version": "v3.3",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:42:42Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "punta",
     "wanaragua",
@@ -43631,7 +43840,14 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-14T17:39:30Z",
+    "soft_fail": [
+     "not_talking_head"
+    ]
+   },
    "tutorials": [
     {
      "youtube_id": "A9Rp_fm8n3w",
@@ -43816,6 +44032,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:39:24Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "dhol-cholom",
     "manipuri",
@@ -44172,6 +44393,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:38:33Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "azonto"
    ]
@@ -44799,19 +45025,12 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Tautoga",
    "wikidata_qid": "Q107416022",
    "unesco": false,
-   "hero_video_youtube_id": "pLSAqXr2kCM",
+   "hero_video_youtube_id": "I64w7vdO9Sg",
    "hero_image": null,
    "video_stack": [
     {
-     "youtube_id": "pLSAqXr2kCM",
-     "role": "hero",
-     "title": "Tautoga E Oo I Le Oti (SAMOAN WEDDING SONG - III) MT ACRE OFFICIAL #samoanmusic #mtacreband",
-     "channel": "Mt Acre BAND OFFICIAL",
-     "hd": true
-    },
-    {
      "youtube_id": "I64w7vdO9Sg",
-     "role": "rendition",
+     "role": "hero",
      "title": "Tautoga | Traditional Rotuman Dance by Malhaha Village – Christmas Fara, Rotuma Fiji",
      "channel": "Ian Osborn",
      "hd": false
@@ -44836,7 +45055,12 @@
    "_gallery": [],
    "_is_sacred": false,
    "publish_gate": "publish",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_replaced",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:41:27Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "lakalaka",
     "fatele",
@@ -45305,6 +45529,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:41:32Z",
+    "soft_fail": [
+     "camera_ok"
+    ]
+   },
    "tutorials": [
     {
      "youtube_id": "3FX0PqatzDk",
@@ -45536,6 +45767,11 @@
    "movie_ready": false,
    "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:42:56Z",
+    "soft_fail": []
+   },
    "tutorials": [
     {
      "youtube_id": "S_WgaAU0mSI",
@@ -45614,6 +45850,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:38:37Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": []
   },
   "xianzi": {
@@ -46217,6 +46460,14 @@
    "is_sacred": true,
    "needs_eyes_on": true,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:42:34Z",
+    "soft_fail": [
+     "not_vertical",
+     "camera_ok"
+    ]
+   },
    "related_slugs": [
     "raqs-sharqi",
     "hora",
@@ -46377,6 +46628,11 @@
    ],
    "movie_ready": false,
    "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:42:45Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "samba",
     "bossa-nova",
@@ -46439,6 +46695,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:41:22Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "indang",
     "tor-tor",
@@ -48392,6 +48653,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:42:40Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "mukuji"
    ]
@@ -50458,6 +50724,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:38:35Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": []
   },
   "idaw": {
@@ -53360,6 +53633,13 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:38:58Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "bwiti-dance"
    ]
@@ -54062,7 +54342,8 @@
     "soft_fail": []
    },
    "related_slugs": [
-    "singhi-chham"
+    "singhi-chham",
+    "dhan-nach"
    ]
   },
   "bagha-nacha": {
@@ -55946,16 +56227,19 @@
    "slug": "bele",
    "name": "Bele",
    "country": "Martinique/Trinidad",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "MQ",
+   "flag_emoji": "🇲🇶",
    "region": "Caribbean",
-   "family": null,
+   "family": "folk-circle",
    "era": "Afro-Creole",
    "tagline": "Possibly the oldest Creole dance",
    "profile": "Possibly the oldest Creole dance — Bele (Martinique/Trinidad). Full sourced 9-field A+ profile in research artifact W7; concise schema stub pending text expansion.",
    "insight": "",
    "aliases": [
-    "Bele"
+    "Bele",
+    "bel-air",
+    "belair",
+    "fine-air"
    ],
    "related": [
     "kompa",
@@ -55964,8 +56248,12 @@
     "bolero",
     "mambo"
    ],
-   "sources": [],
-   "wikipedia_url": "",
+   "sources": [
+    "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9",
+    "https://www.wikidata.org/wiki/Q2929369",
+    "https://fr.wikipedia.org/wiki/Bèlè"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9",
    "wikidata_qid": "Q2929369",
    "unesco": false,
    "hero_video_youtube_id": "wz_3f_5VnpI",
@@ -55983,6 +56271,16 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "publish",
+   "qc_score": 9.45,
+   "last_researched_at": "2026-11-14T17:20:10Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Bele is a multifaceted Creole dance and music tradition practiced across Caribbean islands such as Martinique, Dominica, Saint Lucia, Grenada, Guadeloupe, Haiti, and Trinidad and Tobago. It originated from a fusion of African fertility dances and Caribbean cultural influences shaped by the plantation era and the lives of enslaved and freed peoples. The dance typically involves a male and female pair, known as the cavalier and dam, who perform stylized courtship movements in a call-and-response format led by a chantwèl (lead singer) and lavwa (chorus). The percussion ensemble centers on the bélé drum, a large tambour that in Martinique is so big the player rides it like a horse, accompanied by the tibwa—two wooden sticks striking a bamboo mounted on a stand—and the chacha (maracas). The rhythmic patterns are intricate, with the tibwa maintaining a steady basic pattern while the drum marks accents and improvisations, creating a dynamic dialogue between drummer and dancers. The dance is performed in various social contexts including full moon celebrations, funeral wakes (lavèyé), holidays, and patron saint festivals. In Trinidad, the dance was influenced by French planter-class social dances, with enslaved people adopting and adapting the style and costume, adding their own rhythmic and sensual elements. The bélé tradition includes multiple dance forms such as bélé soté, bélé priòrité, and gran bèlè, each with distinct rhythms and social meanings. The tradition is codified with a socio-musical matrix involving roles like chantè (singer), bwatè (tibwa player), tanbouyé (drummer), and dancers, emphasizing community participation and cultural identity. The bélé is not only a dance but a social practice embodying values of solidarity, resistance, and cultural continuity among Creole communities. Its music influenced other Caribbean genres like biguine and zouk, underscoring its central role in the region's cultural heritage.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "movie_ready": false,
+   "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
    "hero_qc": {
     "verdict": "pass",
@@ -56204,7 +56502,7 @@
     ]
    },
    "related_slugs": [
-    "calenda"
+    "calinda"
    ]
   },
   "huayno": {
@@ -57298,7 +57596,12 @@
    ],
    "movie_ready": false,
    "tradition_status": "living",
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-14T17:42:37Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "sneak-up-dance",
     "salsa",
@@ -60852,10 +61155,10 @@
    "slug": "trojak",
    "name": "Trojak",
    "country": "Poland",
-   "country_code": null,
-   "flag_emoji": null,
+   "country_code": "PL",
+   "flag_emoji": "🇵🇱",
    "region": "Silesia",
-   "family": null,
+   "family": "folk-circle",
    "era": "traditional",
    "tagline": "The Silesian one-man-two-women trio",
    "profile": "The Silesian one-man-two-women trio — Trojak (Poland, Silesia). Full sourced 9-field A+ profile in research artifact W9; concise schema stub pending text expansion.",
@@ -60869,8 +61172,11 @@
     "sevillanas",
     "ballet"
    ],
-   "sources": [],
-   "wikipedia_url": "",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Trojak_(dance)",
+    "https://www.wikidata.org/wiki/Q7483878"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Trojak_(dance)",
    "wikidata_qid": "Q7483878",
    "unesco": false,
    "hero_video_youtube_id": "xh1chdtZ0YE",
@@ -60884,6 +61190,16 @@
    "_albums": [],
    "_gallery": [],
    "_is_sacred": false,
+   "research_gate": "publish",
+   "qc_score": 8.7,
+   "last_researched_at": "2026-11-14T17:20:54Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Trojak, meaning \"threesome\" or \"trio\" in Polish, is a folk dance originating from the Silesian region of Poland. It is traditionally performed by a group of three dancers: one male and two females. The dance is notable for its unique formation and partner interactions, where the male dancer alternates between the two female dancers, creating a dynamic and engaging performance. The trio often forms a circle, moving in synchronized steps from the same foot, which enhances the visual harmony of the dance. The figures include the male dancing with one female while the other dances alone, followed by a switch of partners. The female dancers perform rolling movements on and off the male dancer's arms, adding fluidity and grace. At times, the trio separates and moves in opposite directions before rejoining, showcasing coordinated spatial patterns. The music accompanying Trojak is distinctive, comprising two separate sections with different tempos and metres, which guide the dancers through varying rhythms and moods. This duality in music structure supports the dance's alternating figures and tempo changes. Trojak remains a living tradition within Silesian folk culture, celebrated for its representation of community and regional identity. While the dance is accessible to beginners through its basic formations and partner exchanges, detailed footwork and technique are not extensively documented in available sources. The dance is performed in traditional folk costume appropriate to Silesia, though specific costume details are not described in the sources. Trojak is not classified as a sacred dance and is commonly performed at cultural festivals and social gatherings. Its connections to other European folk dances are noted, but it maintains a distinct identity through its trio formation and musical structure.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "movie_ready": false,
+   "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
    "hero_qc": {
     "verdict": "pass",
@@ -61538,6 +61854,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:33:53Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "purpuri",
     "skolt-sami-quadrille"
@@ -62015,6 +62336,11 @@
    "_is_sacred": false,
    "publish_gate": "publish",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:38:48Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "kuku",
     "mendiani"
@@ -63009,6 +63335,11 @@
    "movie_ready": false,
    "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:41:34Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "raqs-sharqi",
     "hora",
@@ -64758,7 +65089,7 @@
     "kaladja",
     "lewoz",
     "graj",
-    "calenda"
+    "calinda"
    ]
   },
   "padjanbel": {
@@ -65058,6 +65389,13 @@
    ],
    "hero_image": null,
    "hero_source": "crawler:crowd_wisdom_weak",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:33:45Z",
+    "soft_fail": [
+     "hd"
+    ]
+   },
    "related_slugs": [
     "biguine",
     "gwoka"
@@ -65131,6 +65469,11 @@
    ],
    "hero_image": null,
    "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_qc": {
+    "verdict": "pass",
+    "checked_at": "2026-11-14T17:38:24Z",
+    "soft_fail": []
+   },
    "related_slugs": [
     "bedara-vesha"
    ]
@@ -65187,7 +65530,12 @@
     }
    ],
    "hero_image": null,
-   "hero_source": "crawler:crowd_wisdom_confident",
+   "hero_source": "crawler:qc_failed_pending_recrawl",
+   "hero_qc": {
+    "verdict": "fail",
+    "checked_at": "2026-11-14T17:38:27Z",
+    "soft_fail": []
+   },
    "related_slugs": []
   },
   "baalan-dance": {
@@ -67418,12 +67766,12 @@
    "era": "Late 17th century to present",
    "tagline": "Traditional Mexican son jarocho dance and song from Veracruz with vibrant footwork and improvisation.",
    "profile": "La Bamba is a traditional Mexican folk dance and song from Veracruz, rooted in the son jarocho style blending Spanish, indigenous, and African influences. It features couples performing intricate zapateado footwork, often tying a ribbon into a knot with their feet as a symbolic gesture. The music uses harp, jarana, and requinto guitars with a fast binary rhythm and chord progression I-IV-V. Lyrics are frequently improvised, personalized to occasions like weddings.",
-   "insight": "In La Bamba, dancers tie a large ribbon into a lover's knot with their feet, symbolizing union, while lyrics are often improvised, sometimes sparking heated reactions.",
+   "insight": "In Veracruz weddings, couples tie a large red ribbon into a lover's knot with their feet during La Bamba, while improvised lyrics can spark heated reactions.",
    "aliases": [],
    "related": [
     "Son Jarocho",
-    "Bamba (Spanish dance)",
-    "Bambara dance"
+    "Zapateado",
+    "Bamba (Spanish dance)"
    ],
    "sources": [
     "https://en.wikipedia.org/wiki/La_Bamba_(song)",
@@ -67472,27 +67820,48 @@
    "lng": null,
    "tier": "content_ready",
    "publish_gate": "publish",
-   "_is_sacred": true,
-   "is_sacred": true,
-   "updated_at": "2026-10-31",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-14",
    "origin": "pipeline",
    "research_gate": "publish",
-   "qc_score": 9.1,
-   "last_researched_at": "2026-10-31T16:06:57Z",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-11-14T16:49:00Z",
    "pipeline_version": "v3.3",
-   "profile_long": "La Bamba originates from the Mexican state of Veracruz and is a prime example of the son jarocho musical and dance tradition, which combines Spanish (Andalusian), indigenous, Afro-Mexican, and Afro-Caribbean elements. The dance is traditionally performed by couples, typically a man and a woman, though some communities dance with multiple couples. The dancers maintain a straight and erect posture, with the man’s body posture compared to that of Irish jig dancers. The footwork is intricate and fast, emphasizing zapateado—stamping with the right heel as a foundation for the dance. A signature moment in the dance is when couples use their feet to tie a large ribbon into a lover's knot on the dance floor, symbolizing their union. This act is often the climax of the performance and may be followed by the ribbon being tossed into the air.\n\nMusically, La Bamba is played on traditional son jarocho instruments including one or two arpa jarochas (harps), the jarana jarocha (a small guitar), and the requinto jarocho (a four-string guitar). The harp, with its 39 strings, plays rapid arpeggios that accompany the dancers’ footwork. The rhythm is a fast binary meter, supported by an ostinato pattern that can be arpeggiated by the bass, guitars, or harp. The harmonic progression is based on the I-IV-V chords in a major key, often cycling through C, F, and G chords when in the key of C major. The song’s lyrics are highly variable and often improvised, especially during social occasions such as weddings where guests personalize verses for the newlyweds. This improvisation can be playful but sometimes leads to disputes if lyrics are deemed insulting.\n\nHistorically, La Bamba dates back to the late 17th century, originally satirizing the ineffective efforts of the Mexican viceroy to defend Veracruz from pirates. The dance and song have evolved over centuries, maintaining their cultural significance in Veracruz and beyond. The song gained international fame through Ritchie Valens’ 1958 rock and roll adaptation, which introduced La Bamba to a global audience. Subsequent popular versions by Los Lobos in 1987 further cemented its place in popular culture. Despite these adaptations, traditional performances remain important in Mexican cultural events and ballet folklórico shows.\n\nThe dance is performed in social and celebratory contexts, including weddings and folkloric festivals. The improvisational nature of the lyrics and the symbolic ribbon tying reflect the communal and participatory spirit of the tradition. Costumes and settings are not rigidly defined in the sources but typically align with regional folkloric attire. The dance is not described as sacred or restricted, but respect for its cultural origins is essential.\n\nNotable figures associated with La Bamba include Ritchie Valens, who popularized the song internationally, and traditional musicians like Álvaro Hernández Ortiz, who recorded the earliest known version in 1938. Regional variants exist within Veracruz, with differences in tempo and lyrical style, but the core elements of son jarocho and the dance’s symbolic footwork remain consistent.\n\nLa Bamba is classified within the folk-circle family of dances in North America, specifically Mexico. It is a living tradition that continues to inspire musicians and dancers worldwide, bridging folk heritage and popular music.",
-   "albums": [],
+   "profile_long": "La Bamba is a traditional Mexican folk song and dance originating from the state of Veracruz, Mexico. It belongs to the son jarocho musical style, which combines Spanish (Andalusian), indigenous Mexican, Afro-Mexican, and Afro-Caribbean elements. The earliest known historical references to La Bamba date back to the late 17th century, with one account placing its creation around 1683 during the approach of Dutch pirate Laurent de Graff to Veracruz. The song originally satirized the late and ineffective efforts of the viceroy of Mexico to defend Veracruz from pirates, with lyrics describing a young sailor 'dancing the bomba' (water pump) to keep the ship afloat. The name 'Bamba' may derive from the Spanish verb 'bambolear' meaning 'to sway' or 'to wobble', or possibly from African origins linked to the Bamba or Bambara peoples, reflecting Veracruz's Afro-Mexican heritage.\n\nAs a dance, La Bamba is traditionally performed by couples, usually a man and a woman, though sometimes multiple couples dance together. The dance is characterized by intricate zapateado footwork, emphasizing the right heel, performed with a straight and erect posture reminiscent of Irish jigs. A distinctive feature is the tying of a large red ribbon into a lover's knot by the dancers' feet on the dance floor, symbolizing union and grace. This knot is then tossed into the air as a climax of the dance, often in a display of agility and competition between dancers. The arms, hands, hips, and torso movements are not extensively described in the sources, but the footwork is fast and precise.\n\nMusically, La Bamba is played on traditional son jarocho instruments: the arpa jarocha (harp with 39 strings), jarana jarocha (small guitar), and requinto jarocho (lead guitar). The rhythm is a fast binary meter with an ostinato pattern, and the harmonic progression follows the I-IV-V chords typical of son jarocho, sometimes with an added IV chord. The tempo is lively and brisk, supporting the energetic footwork. The lyrics are highly variable and often improvised, especially during social events like weddings, where guests personalize verses for the newlyweds. This improvisation can lead to humorous or even contentious exchanges.\n\nLa Bamba gained international fame through the 1958 rock and roll adaptation by Ritchie Valens, who learned the song from his cousin. Valens's version slowed the tempo to a quaternary rhythm but retained the traditional chord progression and riff. Later, Los Lobos popularized the song again in 1987 with the soundtrack of the biopic film La Bamba, which brought the song to the top of the Billboard Hot 100 chart, marking it as one of the few non-English language songs to achieve this.\n\nThe dance and song remain living traditions in Veracruz and Mexican communities worldwide, emblematic of Veracruz's cultural identity. They are performed at weddings, festivals, and folkloric shows, preserving the fusion of cultural influences and the joyful spirit of the region. The improvisational nature of the lyrics and the symbolic ribbon-tying dance make La Bamba a vibrant and interactive folk tradition.",
+   "albums": [
+    {
+     "title": "La Bamba",
+     "artist": "Ritchie Valens",
+     "year": null,
+     "mbid": "ebe9ec67-93ea-456e-840b-944efc41929a",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/ebe9ec67-93ea-456e-840b-944efc41929a",
+     "type": "Album",
+     "source": "https://en.wikipedia.org/wiki/La_Bamba_(song)",
+     "verified": true
+    },
+    {
+     "title": "La Bamba",
+     "artist": "Los Lobos",
+     "year": "2018",
+     "mbid": "1c79bfd9-9002-4e3a-947b-d94ad9e93144",
+     "musicbrainz_url": "https://musicbrainz.org/release-group/1c79bfd9-9002-4e3a-947b-d94ad9e93144",
+     "type": "Album",
+     "source": "https://en.wikipedia.org/wiki/La_Bamba_(song)",
+     "verified": true
+    }
+   ],
    "album_candidates": [
     {
-     "title": "The Secret Museum of Mankind Vol. 4",
+     "title": "La Bamba",
      "artist": "Álvaro Hernández Ortiz",
      "source": "https://en.wikipedia.org/wiki/La_Bamba_(song)",
      "verified": false
     }
    ],
    "images": [],
-   "needs_eyes_on": true,
    "movie_ready": true,
+   "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
@@ -73423,11 +73792,15 @@
    "tagline": "Fast-paced Dutch rave dance with rapid heel-driven steps to hardcore beats.",
    "profile": "Hakken is a Dutch rave dance from the 1990s hardcore and gabber scene, characterized by rapid heel-focused footwork matching bass drum beats up to 190 BPM. The lower body drives the movement, with arms and torso moving less prominently. Variants exist internationally, adapting to related hard dance genres, with distinct styles in Australia and Italy.",
    "insight": "In 1990s Rotterdam stadiums, fans danced hakken like mounting horses, inspiring the rave scene’s signature heel-stomping steps.",
-   "aliases": [],
+   "aliases": [
+    "hakkûh",
+    "gabba (in some countries)",
+    "gabbering (as verb in some countries)"
+   ],
    "related": [
-    "Gabber dance",
-    "Hardcore rave dance",
-    "Rawstyle dance"
+    "gabber dance",
+    "rawstyle dance",
+    "freestyle hakken"
    ],
    "sources": [
     "https://en.wikipedia.org/wiki/Hakken",
@@ -73475,55 +73848,22 @@
    "lng": null,
    "tier": "content_ready",
    "publish_gate": "publish",
-   "_is_sacred": false,
-   "is_sacred": false,
-   "updated_at": "2026-11-04",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-14",
    "origin": "pipeline",
    "research_gate": "publish",
-   "qc_score": 9.25,
-   "last_researched_at": "2026-11-04T18:03:25Z",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-11-14T16:29:23Z",
    "pipeline_version": "v3.3",
-   "profile_long": "Hakken originated in the early 1990s within the Dutch hardcore and gabber music scene, particularly around The Hague and Rotterdam. The dance’s name derives from the Dutch verb “hakken,” meaning to chop or strike with the heel, reflecting the dance’s hallmark rapid heel-driven steps. Early influences include movements seen among Rotterdam’s Feyenoord football club fans, who danced in stadium stands with repetitive, horse-mounting-like motions. This stadium dance culture fed directly into the rave scene’s development of hakken. The dance consists of small, fast-paced steps that follow the bass drum rhythm closely, often reaching tempos of 170 to 190 BPM or higher. The lower body, especially from the pelvis down, is the primary focus, while arms and torso may move but play a secondary role. Hakken is closely tied to the music genre known as hakmuziek, a subset of hardcore and gabber music, though contemporary dancers perform hakken to a variety of hard dance styles including hardstyle, rawstyle, uptempo hardcore, and frenchcore. Internationally, the dance has evolved with regional variations: Australian hakken often aligns with rawstyle music and is pronounced differently, while Italian freestyle hakken incorporates more freestyle movements beyond the traditional footwork. The dance’s cultural identity is also linked to fashion, with dancers typically wearing Nike Air Max Classics shoes. Hakken remains a living tradition within rave and hard dance communities, celebrated at festivals and clubs worldwide. The dance’s technique emphasizes continuous, rapid heel strikes timed precisely to the music’s kick drum, creating a distinctive rhythmic visual and physical experience. Despite its underground origins, hakken has become emblematic of Dutch rave culture and its global offshoots.",
-   "albums": [
-    {
-     "title": "Hakke & zage",
-     "artist": "Gabber Piet",
-     "year": "1996",
-     "mbid": "ee21f595-f707-3a89-b6c2-e629d9bbcb4f",
-     "musicbrainz_url": "https://musicbrainz.org/release-group/ee21f595-f707-3a89-b6c2-e629d9bbcb4f",
-     "type": "Single",
-     "source": "https://it.wikipedia.org/wiki/Hakken",
-     "verified": true
-    }
-   ],
-   "album_candidates": [
-    {
-     "title": "Hakkûhbar",
-     "artist": "Supergabber",
-     "source": "https://it.wikipedia.org/wiki/Hakken",
-     "verified": false
-    }
-   ],
+   "profile_long": "Hakken, also known as hakkûh, originated in the early 1990s within the Dutch hardcore and gabber rave scene, particularly around the cities of Rotterdam and The Hague. The dance takes its name from the Dutch verb 'hakken,' meaning to chop or hack, referring to the rapid heel-driven footwork that defines the style. The dance consists of small, quick steps that follow the rhythm of the bass drum, typically performed at tempos ranging from 170 to 190 beats per minute, sometimes reaching up to 200 BPM. The lower body, especially from the pelvis down, is the primary focus of movement, with dancers often landing their steps on the heels. While the arms and torso may move, they play a secondary role compared to the legs. \n\nThe style developed from movements seen in the stands of Rotterdam's Feyenoord football stadium, where fans danced as if mounting horses, a motion that was adapted into the hakken dance. This connection to a specific urban youth culture grounds hakken in a local social context rather than abstract rave culture. The dance is closely tied to the music genre known as hakmuziek, a subset of hardcore and gabber music characterized by fast, pounding bass drums.\n\nInternationally, hakken has evolved into various regional styles. In Australia, the dance is often pronounced 'hack' and is commonly danced to rawstyle music, a hard dance subgenre related to gabber but distinct in sound and culture. Italy's freestyle variant incorporates more improvisational movements beyond traditional hakken steps, reflecting the local Millennium hardcore subgenre's influence. Individual dancers like Hoeppi Hakken have contributed innovations such as the backstep, expanding the dance vocabulary.\n\nTypical attire includes Nike Air Max Classics shoes, favored for their support and style within the hakken community. The dance is performed in rave and festival settings, often in groups but also solo, and is associated with high-energy, repetitive footwork that matches the relentless pace of the music. Despite its fast tempo and vigorous movement, hakken is accessible to newcomers who start by mastering the basic heel-focused stepping rhythm.\n\nHakken is not a sacred or ritual dance and carries no known restrictions on participation or performance. It remains a living tradition within the global hard dance community, continually adapting to new music styles and regional influences while maintaining its core heel-driven footwork and rapid tempo.",
+   "albums": [],
+   "album_candidates": [],
    "images": [],
+   "needs_eyes_on": true,
    "movie_ready": true,
    "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_weak",
-   "tutorials": [
-    {
-     "youtube_id": "MKdlJgA07Fg",
-     "title": "Hakken Tutorial: Frontstep ( In 1 minute! )",
-     "channel": "Mindprinter Official",
-     "level": "general",
-     "pos": 2,
-     "neg": 0,
-     "ratio": 2.0,
-     "evidence": [
-      "Thank you so much for this tutorial! The best one ive come across🙏🙏",
-      "thank you so much"
-     ],
-     "lesson_status": "in_review"
-    }
-   ],
    "related_slugs": []
   },
   "para-para": {
@@ -75387,17 +75727,14 @@
    "flag_emoji": "🇵🇪",
    "era": "16th century to present",
    "tagline": "Ritual dance of Huari, Peru, blending pre-Inca and Spanish traditions.",
-   "profile": "Wari, also called Huaridanza, is a ritual dance from Huari district in Peru's Áncash region. It evolved from a pre-Inca agricultural festival dance, blending indigenous and Spanish elements. Traditionally performed by four dancers and two musicians with flute and drum, the choreography includes circular formations and rhythmic footwork. Costumes feature formal suits with floral shawls, embroidered knee pads with bells, and distinctive masks. Music is led by pinkullo flute and wanqar drum, creating a pattern typical of northern Peruvian highlands.",
+   "profile": "Wari, or Huaridanza, is a ritual dance from Huari district in Peru's Áncash region, rooted in a pre-Inca agricultural festival and shaped by Spanish colonial influence. Traditionally performed by four dancers and two musicians playing pinkullo flute and wanqar drum, the dance features circular formations and rhythmic footwork including a light step called arrebato and a strong zapateo ending. Costumes include formal suits with floral shawls, embroidered knee pads with bells, and distinctive pink mesh masks with painted facial features. The music combines flute and drum patterns typical of northern Peruvian highlands.",
    "insight": "In 1570, chronicler Cristóbal de Molina recorded the dance as Waritaki, marking its evolution amid Spanish cultural influence in Huari, Áncash.",
    "aliases": [
-    "Huaridanza",
     "Dance of the Knights of Huari",
+    "Huaridanza",
     "Waritaki"
    ],
-   "related": [
-    "Huayno (shares_music)",
-    "Chuscada (variant)"
-   ],
+   "related": [],
    "sources": [
     "https://www.wikidata.org/wiki/Q30905489",
     "https://es.wikipedia.org/wiki/Huaridanza"
@@ -75443,18 +75780,18 @@
    "publish_gate": "publish",
    "_is_sacred": true,
    "is_sacred": true,
-   "updated_at": "2026-11-06",
+   "updated_at": "2026-11-14",
    "origin": "pipeline",
    "research_gate": "publish",
-   "qc_score": 9.85,
-   "last_researched_at": "2026-11-06T16:51:12Z",
+   "qc_score": 10.0,
+   "last_researched_at": "2026-11-14T16:50:13Z",
    "pipeline_version": "v3.3",
-   "profile_long": "Wari, also known as Huaridanza or the dance of the knights of Huari, originates from the district of Huari in Peru's Áncash department. Its roots trace back to a pre-Inca agricultural festival called pocoy mita, which celebrated the arrival of the first rains between September and October. This festival included dances dedicated to huacas and ancestors, featuring deer skull wind instruments. With Spanish colonization, the dance syncretized with Christian celebrations such as the Exaltation of the Holy Cross and the Virgin of the Rosary, aligning with the agricultural calendar. The earliest recorded name, Waritaki, appears in 1570 by chronicler Cristóbal de Molina, reflecting the dance's evolution through cultural blending.\n\nThe dance is traditionally performed by four dancers accompanied by two musicians playing the pinkullo flute and wanqar drum. In urban Huari, groups may expand to eight dancers plus a captain or guide, sometimes joined by two Pallas from another local dance troupe. The choreography unfolds in three main phases: dancers form circles while executing rhythmic steps with a strong beat on the fourth count, a light step called arrebato, and a vigorous zapateo (foot stamping) resembling a huayno escape step, which concludes the performance.\n\nCostumes are formal and symbolic: dancers wear blue or black suits with white shirts and ties, covered by a floral shawl tied across the chest. A richly embroidered velvet sash with golden threads is worn at the waist. Two silk handkerchiefs match the shawl and adorn the jacket pockets. The head is covered with a white cloth called uma paño, sewn to the neck, leaving the face exposed but masked with a pink mesh featuring painted large eyes, eyebrows, mustache, and a small wool beard. The hat is a white toquilla straw with a raised front brim, decorated with a colored silk ribbon and an artificial flower crown mounted on wire. Knee pads embroidered with 35 to 40 bells each weigh heavily, symbolizing penitence and devotion to the Cross. White gloves and a command baton topped with a dog head and a leather whip complete the attire.\n\nMusically, the dance is accompanied by two cajeros playing the pinkullo, a wooden flute with four holes, and the wanqar, a large eucalyptus bark drum with animal skin heads. The pinkullo is held and played with the left hand, while the wanqar is carried on the left shoulder and struck with a stick in the right hand. The musicians often craft their own instruments, requiring deep material knowledge. The music follows traditional patterns throughout the dance, except during general dances when chuscadas—a local variant of huayno—are played.\n\nWari is performed during the Virgin of the Rosary festivities, the Exaltation of the Cross in Huari, and occasionally during the Virgin of the Assumption festival in Chacas. Variants exist in Pomabamba province and other northern Peruvian towns, differing in choreography and musical tempo. The dance is a living tradition, embodying the syncretism of indigenous and Spanish cultures and maintaining its ritual significance tied to agricultural cycles and religious devotion.",
+   "profile_long": "Wari, also known as Huaridanza or the Dance of the Knights of Huari, is a ritual dance originating from the district of Huari in the Áncash region of Peru. Its roots trace back to a pre-Inca agricultural festival called pocoy mita, which celebrated the arrival of the first rains between September and October. This festival involved dances dedicated to huacas (sacred places) and mallquis (ancestors), including the huaricu dance where deer skulls were used as wind instruments. With the Spanish conquest and evangelization campaigns, indigenous rituals were syncretized with Christian celebrations such as the Exaltation of the Holy Cross and the Virgin of the Rosary, both held in September and October, coinciding with the agricultural calendar. The dance was first documented in 1570 by the chronicler Cristóbal de Molina under the name Waritaki, reflecting its evolution through cultural blending.\n\nThe dance is traditionally performed during religious festivals honoring the Virgin of the Rosary, patron saint of Huari, and the Exaltation of the Cross, with occasional performances during the Virgin of the Assumption festival in Chacas. In the province of Pomabamba, a variant of the original Waritaki exists with distinct choreography and musical tempo, performed in towns such as Sihuas, Urpay, Taurija, and Pataz.\n\nThe ensemble typically consists of four dancers and two musicians called cajeros, who play the pinkullo flute and the wanqar drum. In some urban neighborhoods of Huari, the group may expand to eight dancers and include a captain or guide. Occasionally, two Pallas dancers from another local comparsa accompany the group. The choreography unfolds in three main parts: dancers move in circular formations, emphasizing rhythmic support on the fourth beat, followed by the arrebato, a light stepping movement, and concluding with the jaleo or zapateo, a strong foot stamping resembling a huayno fugue.\n\nCostumes are formal and symbolic: dancers wear blue or black suits with white shirts and ties, covered by a floral shawl with fringes tied across the chest. A golden embroidered sash is worn on the right waist, and two handkerchiefs are carried in the jacket pockets. The head is covered with a white neck-sewn cloth called uma paño, leaving the face exposed but covered by a pink mesh mask painted with large eyes, eyebrows, mustache, and a small wool beard. The hat is a white toquilla straw hat with a raised front brim, decorated with a colored silk ribbon and an artificial flower crown mounted on a wire frame. Pants are rolled up to mid-calf, covered by black velvet gaiters embroidered with 35 to 40 bells each, symbolizing penitence and devotion. White gloves and a command baton with a silver or bronze dog-head handle and a leather whip complete the attire.\n\nMusically, the dance is led by two cajeros playing the pinkullo, a four-holed wooden flute with a beak mouthpiece, and the wanqar, a large eucalyptus bark drum with animal skin heads, carried on the left shoulder and struck with a stick in the right hand. The musicians often craft their own instruments, requiring deep knowledge of materials. The musical pattern remains traditional throughout the dance, except during general dances when chuscadas—a regional variant of huayno—are played.\n\nWari remains a living tradition in Huari and surrounding areas, embodying a fusion of indigenous Andean and Spanish colonial cultural elements, performed with strict adherence to its ritual and festive contexts.",
    "albums": [],
    "album_candidates": [],
    "images": [],
    "needs_eyes_on": true,
-   "sacred_note": "Wari is a ritual dance with penitential symbolism, performed in religious festivals and embodying devotion to the Cross; outsiders should respect its sacred context and not appropriate its masks or costumes.",
+   "sacred_note": "Wari is a ritual dance performed during religious festivals with symbolic penitential elements such as the heavy bells on knee pads; it should be respected as a devotional practice.",
    "movie_ready": true,
    "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
@@ -76241,22 +76578,22 @@
    "country": "Iran",
    "country_code": "IR",
    "region": "Middle East",
-   "family": "ritual-sacred",
+   "family": null,
    "flag_emoji": "🇮🇷",
    "era": "6th millennium BC to present",
    "tagline": "A diverse spectrum of movement ranging from ancient ritual trance to refined courtly art.",
-   "profile": "Iranian dance encompasses a vast array of indigenous styles shaped by the country's diverse ethnic groups and historical epochs. These traditions range from sophisticated, improvisational court dances to energetic folk line dances and spiritual rituals. While the 1979 Revolution led to significant restrictions on public performance, these practices continue to thrive within private spheres and the global diaspora.",
-   "insight": "Archaeological evidence of dance in Iran, including depictions of performers, dates back to the 6th millennium BC, predating the rise of major empires.",
+   "profile": "Iranian dance encompasses a wide variety of indigenous styles shaped by the country's many ethnic groups and historical periods. It includes chain or line dances, solo improvisational court dances, war or combat dances, and ritual or spiritual dances. Despite restrictions after the 1979 Revolution, these dances continue privately and in the diaspora, reflecting Iran’s rich cultural mosaic.",
+   "insight": "Archaeological sites across Iran reveal dance depictions dating back to the 6th millennium BC, centuries before major empires rose.",
    "aliases": [
+    "dance in Iran",
     "dance of Iran",
-    "Persian dance",
     "dances in Iran",
-    "dance in Iran"
+    "Persian dance"
    ],
    "related": [
+    "Middle Eastern dance",
     "Azerbaijani dances",
-    "Sufi whirling",
-    "Belly dance"
+    "Persian theatre"
    ],
    "sources": [
     "https://en.wikipedia.org/wiki/Iranian_dance",
@@ -76306,13 +76643,13 @@
    "publish_gate": "publish",
    "_is_sacred": true,
    "is_sacred": true,
-   "updated_at": "2026-11-06",
+   "updated_at": "2026-11-14",
    "origin": "pipeline",
    "research_gate": "publish",
-   "qc_score": 9.7,
-   "last_researched_at": "2026-11-06T17:47:36Z",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-11-14T16:34:44Z",
    "pipeline_version": "v3.3",
-   "profile_long": "Iranian dance is not a singular style but a complex tapestry of traditions reflecting the diverse ethnic and regional identities of the Iranian plateau. Historically, these dances have served as vital components of social life, religious ritual, and artistic expression. Archaeological excavations across sites such as Tepe Sialk and Susa have unearthed artifacts depicting dancers and performers dating back to the 6th millennium BC, confirming that movement has been central to the culture since prehistory. The evolution of these traditions has been marked by periods of courtly refinement, such as the Safavid and Qajar eras, and periods of suppression, most notably following the 1979 Iranian Revolution, which led to the dissolution of the national ballet company and the migration of many artists to the West.\n\nGenres of Iranian dance are broadly categorized into four types: chain or line dances, solo improvisational dance, war or combat dances, and ritual or spiritual dances. Chain dances, often associated with specific ethnic groups like the Kurds or Azerbaijanis, emphasize rhythmic footwork and communal connection, with dancers often holding hands or linking arms. In contrast, solo improvisational dance—frequently seen in urban settings and social gatherings—focuses on the expressive potential of the upper body, particularly the hands, arms, and facial expressions. This style is closely linked to the 'Tehrani' dance, which emphasizes soft, fluid movements and is a staple of contemporary celebrations.\n\nSpiritual and ritual dances, such as the Sufi 'sama', serve as vehicles for achieving unity with the Divine through listening to music and rhythmic movement. Other ritual forms, like the Baluchi 'le’b guati', are performed as healing practices to address psychological distress or perceived spiritual possession. Combat dances, such as those performed in the 'zurkhaneh' (House of Strength), bridge the gap between martial arts and rhythmic performance, utilizing movements that build physical vigor and discipline. Despite the political and social shifts that have challenged the visibility of these arts, the tradition remains a living, evolving practice, preserved by both the domestic population and a vibrant diaspora that continues to innovate within the framework of Persian aesthetics.",
+   "profile_long": "Iranian dance is a complex and varied tradition reflecting the country's ethnic diversity and long history. Archaeological evidence from sites like Tepe Sabz, Susa, and Tepe Sialk shows that dance has been part of Iranian culture since at least the 6th millennium BC, often intertwined with music, drama, and ritual. Early historic dances include those worshiping Mithra, involving bull sacrifice to promote life's vigor, documented by Herodotus in the 5th century BC. Over centuries, foreign occupations and political upheavals led to the gradual disappearance of some heritage dances. The spread of Islam introduced religious prohibitions on dancing, which intensified after the 1979 Islamic Revolution, banning public mixed-gender dance and dissolving the national ballet company. Nonetheless, Iranian dance persists in private settings and among the diaspora.\n\nIranian dance styles fall into four main categories: chain or line dances, solo improvisational dances often linked to Safavid and Qajar court traditions, war or combat dances such as those practiced in the zurkhaneh gymnasiums (Raghs-e-Pa), and ritual or spiritual dances including Sufi sama and trance healing dances like the Baluchi le’b guati. Chain dances are typically ethnic or regional, performed in circles or lines with coordinated steps and handholds. Solo improvisational dances emphasize delicate hand and arm movements with expressive facial gestures, allowing personal interpretation within a Persian stylistic framework. War dances imitate combat or serve as warrior training, while ritual dances involve trance states for healing or spiritual connection.\n\nNotable Iranian dances include Bandari from the southern Persian Gulf region, characterized by rhythmic hand waves mimicking fishermen; Baba Karam, a chain dance with Sufi narrative origins; and Yalli, an Azerbaijani folk dance celebrating fire. Other styles include the combative Choob bazi stick dances, the elegant classical Persian court dances, and urban social dances like Tehrani. Professional dancers known as motrebi perform stylized dances often involving props like tea glasses or finger cymbals. Costumes vary widely by style but can include colorful tribal attire or rich silks and flowing skirts in court dances.\n\nMusic for Iranian dance commonly uses a 6/8 meter called shir-e mâdar, with rhythmic variations such as 7/8 in some styles like Motrebi. Instruments typically include traditional Persian percussion and melodic instruments, supporting both communal and solo dance forms. Despite political restrictions, Iranian dance remains a vital cultural expression, preserved in private, diaspora communities, and through contemporary ensembles like Ballet Afsaneh.\n\nThis overview draws on archaeological, historical, ethnographic, and contemporary sources to present a detailed portrait of Iranian dance’s origins, styles, music, and social significance.",
    "albums": [],
    "album_candidates": [],
    "images": [
@@ -76362,14 +76699,13 @@
     }
    ],
    "needs_eyes_on": true,
-   "sacred_note": "Certain ritual dances, such as the Sufi 'sama' and the Baluchi 'le’b guati', are spiritual practices intended for healing or achieving unity with the Divine and should be approached with cultural sensitivity.",
-   "movie_ready": false,
+   "sacred_note": "Certain ritual dances, such as Sufi sama and Baluchi trance healing dances, are sacred and involve trance states; these are restricted to initiated practitioners and should not be imitated by outsiders.",
+   "movie_ready": true,
    "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": [
-    "azerbaijani-folk-dance",
-    "sufi-whirling",
-    "belly-dance"
+    "belly-dance",
+    "azerbaijani-folk-dance"
    ]
   },
   "seann-triubhas": {
@@ -76544,18 +76880,18 @@
    "country": "Japan",
    "country_code": "JP",
    "region": "East Asia",
-   "family": "street-urban",
+   "family": "folk-circle",
    "flag_emoji": "🇯🇵",
    "era": "20th and 21st century",
    "tagline": "A high-energy performance art of rhythmic cheering and light-trail choreography.",
-   "profile": "Wotagei is a dynamic performance art originating from Japanese idol fan culture, characterized by synchronized cheering, rhythmic clapping, and complex arm movements often performed with glow sticks. Rooted in the ōendan cheering squads of the 1970s, it has evolved from simple audience participation into a sophisticated, highly technical dance form known as cyalume dance. Today, it is practiced globally, bridging the gap between concert-hall support and professional performance art.",
-   "insight": "In 2004, an estimated 100 to 200 fans performed a synchronized routine to Miki Fujimoto’s 'Romantic Ukare Mode' outside the Saitama Super Arena, transforming a concert parking lot into a viral performance space.",
+   "profile": "Wotagei is a dynamic performance art from Japanese idol fan culture involving synchronized cheering, clapping, arm-waving, and chanting, often with glow sticks. Originating from 1970s ōendan cheering squads, it evolved into a technical dance called cyalume dance. It is practiced globally, bridging concert support and professional performance.",
+   "insight": "In 2004, 100 to 200 fans performed synchronized wotagei to Miki Fujimoto’s 'Romantic Ukare Mode' outside Saitama Super Arena, viralizing the dance.",
    "aliases": [
     "otagei"
    ],
    "related": [
     "ōendan",
-    "shin'eitai"
+    "cyalume dance"
    ],
    "sources": [
     "https://en.wikipedia.org/wiki/Wotagei",
@@ -76605,13 +76941,13 @@
    "publish_gate": "publish",
    "_is_sacred": false,
    "is_sacred": false,
-   "updated_at": "2026-11-06",
+   "updated_at": "2026-11-14",
    "origin": "pipeline",
    "research_gate": "publish",
-   "qc_score": 9.25,
-   "last_researched_at": "2026-11-06T17:53:48Z",
+   "qc_score": 9.85,
+   "last_researched_at": "2026-11-14T16:29:55Z",
    "pipeline_version": "v3.3",
-   "profile_long": "Wotagei, also known as otagei, represents a unique evolution of fan culture into a structured performance art. Originating in Japan during the 1970s and 1980s, the practice emerged from the shin'eitai, organized cheering squads that supported idol singers at concerts and public appearances. These early fans, known as wota, established the foundational elements of the practice by shouting rhythmic calls in unison and performing coordinated gestures. By the 1990s, this support evolved further with the introduction of the 'MIX,' a specific pattern of calls performed during song intros and instrumental breaks, which became a staple of the idol concert experience. The practice gained significant cultural momentum in the early 2000s, particularly among fans of the Hello! Project, with Miki Fujimoto’s 2002 single 'Romantic Ukare Mode' becoming the definitive anthem for the movement. The song’s choreography, which includes elements like dogeza, calls, mawari, and the sliding romeo, remains a cornerstone of the repertoire today. As the practice grew, it moved beyond the confines of concert venues, finding homes at anime conventions, street events, and online platforms like YouTube and Niconico Douga. This transition allowed for the development of 'cyalume dance,' a more performance-oriented style that emphasizes the visual trails created by glow sticks and penlights. Professional groups such as GinyuforcE, Kita no Uchishitachi, and Zero-uchi Restart have since pushed the boundaries of the art form, transforming it from spontaneous audience participation into a disciplined, highly technical dance style. The professionalization of wotagei has been supported by commercial partnerships with manufacturers like Lumica and the establishment of the Cyalume Dance World Battle, a global competition that has seen qualifiers in cities across Asia and North America. In 2019, the art form received formal recognition when Cyalume Dance was awarded a Minister of Education, Culture, Sports, Science and Technology Award in Japan. Despite its evolution into a professional performance, the core of wotagei remains rooted in the connection between the performer and the music. The practice is divided into two primary styles: cyalume-gei, which focuses on the light trails produced by glow sticks, and chikagei, which utilizes the entire body to interpret the music. These styles share a common lineage but offer distinct aesthetic experiences. Techniques are often tied to specific sections of a song; for instance, the A-melody might feature OAD (over action dolphin) and ni-hai-o-hai, while the chorus typically incorporates thundersnake, muramasa, and amaterasu. The complexity of these movements requires significant space and coordination, leading many practitioners to perform in designated areas at the back of venues or in dedicated practice spaces. The global spread of wotagei has been facilitated by the internet, with instructional DVDs and social media tutorials allowing fans worldwide to learn the intricate choreography. Today, the practice continues to thrive, with national competitions like Wotagei Kōshien fostering the next generation of performers. Whether performed in a crowded concert hall or on a stage at an international gaming expo, wotagei remains a testament to the creative power of fan communities to transform support into art.",
+   "profile_long": "Wotagei (ヲタ芸), also known as otagei (オタ芸), is a dance and cheering style performed by wota, fans of Japanese idol singers, especially those of Hello! Project, AKB48, and Vocaloid idols like Hatsune Miku. It involves jumping, clapping, arm-waving, and chanting slogans, often with glow sticks or penlights, creating light trails known as cyalume dance. The practice developed from the ōendan cheering squads of the 1970s and 1980s, where fans shouted calls in unison and coordinated movements to support idols. The term wotagei is a contraction of \"the art of idol otaku\" (アイドルオタクの芸), distinguishing it from general otaku culture. Wotagei performances include named techniques such as thundersnake, rosario, amaterasu, and muramasa, combined choreographically to fit songs. The MIX call pattern, originating around 1993, is used during intros and instrumental breaks. The 2002 single \"Romantic Ukare Mode\" by Miki Fujimoto is closely associated with wotagei, featuring a sequence of signature moves. A notable event occurred in 2004 when 100 to 200 fans performed wotagei to this song outside Saitama Super Arena, and the footage spread widely. Wotagei expanded beyond concert halls to anime conventions and fan gatherings, aided by video sharing platforms like YouTube and Niconico Douga. In the 2010s, wotagei evolved into a professional performance art, supported by groups like GinyuforcE, who popularized cyalume dance worldwide and appeared on Japanese TV. The Cyalume Dance World Battle, started in 2018, formalized competitive wotagei performance. Styles include cyalume-gei, using glow sticks, and chikagei, focusing on full-body movement. Wotagei techniques are tied to song sections, with chorus moves like thundersnake and romance forming the core choreography. The dance is closely linked to Japanese idol fan culture and remains a vibrant, evolving tradition practiced internationally.",
    "albums": [],
    "album_candidates": [
     {
@@ -76634,7 +76970,7 @@
      "description": "Wotagei in Akihabara, Tokyo"
     }
    ],
-   "movie_ready": true,
+   "movie_ready": false,
    "tradition_status": "living",
    "hero_source": "crawler:crowd_wisdom_weak",
    "related_slugs": []
@@ -85641,8 +85977,23 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Lion_dance",
    "wikidata_qid": "Q713866",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "N3LR_nx4Nj4",
+   "video_stack": [
+    {
+     "youtube_id": "N3LR_nx4Nj4",
+     "role": "hero",
+     "title": "Traditional Malaysian Dance - Penang Airport",
+     "channel": "knitha urs",
+     "hd": true
+    },
+    {
+     "youtube_id": "peACL3cVEyM",
+     "role": "rendition",
+     "title": "Malaysian Dance | Malay Traditional Music | Children | Global Indian International School |",
+     "channel": "Shruti's Dance Studio: Wedding Choreography & More",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -85752,6 +86103,7 @@
    "needs_eyes_on": true,
    "movie_ready": true,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "assamese-folk-dance": {
@@ -85787,8 +86139,23 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Folk_dances_of_Assam",
    "wikidata_qid": "Q16246580",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "sA-A1YwA8jA",
+   "video_stack": [
+    {
+     "youtube_id": "sA-A1YwA8jA",
+     "role": "hero",
+     "title": "BIHU ll FOLK DANCE OF ASSAM ll RATI DUPOROLE ll Dance by Minu,Ruma(Riya),Deepanita,Ritu,Gitika",
+     "channel": "Minu's dance studio",
+     "hd": true
+    },
+    {
+     "youtube_id": "J-PN-8kU1_I",
+     "role": "rendition",
+     "title": "Assamese Folk Dance ... Stage performance",
+     "channel": "Sanvi Bodo",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -85844,6 +86211,7 @@
    "sacred_note": "Deodhani and Devadasi are ritualistic and sacred; outsiders should observe with respect and avoid participation unless invited by the community.",
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_weak",
    "related_slugs": [
     "sattriya",
     "bihu-dance",
@@ -85880,8 +86248,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Choobazi",
    "wikidata_qid": "Q16050652",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "IlKVEZqiemo",
+   "video_stack": [
+    {
+     "youtube_id": "IlKVEZqiemo",
+     "role": "hero",
+     "title": "چوب بازی جدید هراتی خیلی عالی و جذاب chub bazi jadid herati 2022",
+     "channel": "Daily Tech Dose",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -85913,6 +86289,7 @@
    ],
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "booger-dance": {
@@ -85993,8 +86370,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Duffmuttu",
    "wikidata_qid": "Q16209881",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "D-RiS71LR9I",
+   "video_stack": [
+    {
+     "youtube_id": "D-RiS71LR9I",
+     "role": "hero",
+     "title": "CBSE STATE KALOLSAV 2014 DUFFMUTTU-FIRST PRIZE LAKE FORD SCHOOL KOLLAM-",
+     "channel": "Manoj A S A S",
+     "hd": true
+    },
+    {
+     "youtube_id": "ELAHm8zFI98",
+     "role": "rendition",
+     "title": "Duffmuttu 04 | Duffmuttu | 55th Kerala school kalolsavam 2015",
+     "channel": "Kerala School Kalolsavam 2015",
+     "hd": true
+    },
+    {
+     "youtube_id": "wW77PvWPh-c",
+     "role": "rendition",
+     "title": "Duffmuttu Muslim Dance form",
+     "channel": "Kerala Tourism",
+     "hd": false
+    },
+    {
+     "youtube_id": "oYTAZWBq5vE",
+     "role": "rendition",
+     "title": "Kozhinjampara palli Nercha Duffmuttu Dance Performance",
+     "channel": "Azra World ",
+     "hd": false
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -86092,6 +86498,7 @@
    ],
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "money-musk": {
@@ -86199,8 +86606,30 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Folk_dance_forms_of_Odisha",
    "wikidata_qid": "Q97860859",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "issbpoLFBh8",
+   "video_stack": [
+    {
+     "youtube_id": "issbpoLFBh8",
+     "role": "hero",
+     "title": "Gopal laudi Puri ,Nagar dola yatra laudi khela",
+     "channel": "Swadhin senapati",
+     "hd": false
+    },
+    {
+     "youtube_id": "erYx4EIAfWo",
+     "role": "rendition",
+     "title": "Kandhapada,Laudi khela #laudikhela #shorts #viralvideo",
+     "channel": "Aj_multix",
+     "hd": false
+    },
+    {
+     "youtube_id": "g_QDo7s3UiI",
+     "role": "rendition",
+     "title": "ମୋ କହ୍ନେଁଇ ଯାଉଛି ମଥୁରାପୁର..🙏🔥 Boitakuda Kathi Laudi | Laudi Khela | Gopala Ogala | Laudi Gita #yadav",
+     "channel": "Gyanadipta das",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -86234,6 +86663,7 @@
    "sacred_note": "The dance is dedicated to Krishna and his consort Radha and performed during the religious festival of Dola Purnima.",
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "kushan-dance": {
@@ -86260,8 +86690,16 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Kushan_dance",
    "wikidata_qid": "Q104866080",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "1EGsfXGahak",
+   "video_stack": [
+    {
+     "youtube_id": "1EGsfXGahak",
+     "role": "hero",
+     "title": "কুশান নৃত্য || kushan dance || kushan gaan || kushan nach || koch Rajbonshi Folk dance || kushan",
+     "channel": "Raj Adhikari",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -86317,6 +86755,7 @@
    "sacred_note": "not described in sources",
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "yak-dance": {
@@ -86343,8 +86782,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Yak_dance",
    "wikidata_qid": "Q109254580",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "R7AqZsjBbgA",
+   "video_stack": [
+    {
+     "youtube_id": "R7AqZsjBbgA",
+     "role": "hero",
+     "title": "Beautiful Yak Dance & Song | LEH LADAKH | Tserkarmo monastery",
+     "channel": "Ladakh videos",
+     "hd": true
+    },
+    {
+     "youtube_id": "MWCpoL2siJs",
+     "role": "rendition",
+     "title": "YAK Dance Tutorials - GOKU Tutorial Electro Dance Concepts | YAK FILMS",
+     "channel": "YAKfilms",
+     "hd": true
+    },
+    {
+     "youtube_id": "xMZqB2x8dDE",
+     "role": "rendition",
+     "title": "\"Yak Chham Bhutia Dance\" from Sikkim performing at North East Fest",
+     "channel": "WildFilmsIndia",
+     "hd": true
+    },
+    {
+     "youtube_id": "sASW07C1Usw",
+     "role": "rendition",
+     "title": "Beautiful Yak Dance & Song || Ladakhi Artists At Vietnam",
+     "channel": "trending Ladakh ཕ་ཡུལ།",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -86378,6 +86846,7 @@
    "sacred_note": "Not described in sources as sacred, though it is a pantomime of the Mahayana sect of Buddhist Tribes.",
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "apatampa": {
@@ -86401,8 +86870,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Apatampa",
    "wikidata_qid": "Q106648224",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "gxnSDuuK7-I",
+   "video_stack": [
+    {
+     "youtube_id": "gxnSDuuK7-I",
+     "role": "hero",
+     "title": "Performance of Apatampa dance by B. S. 2",
+     "channel": "Carolina International School",
+     "hd": true
+    },
+    {
+     "youtube_id": "NEWq4dC3rH8",
+     "role": "rendition",
+     "title": "Apatampa",
+     "channel": "ProfGreat",
+     "hd": true
+    },
+    {
+     "youtube_id": "cU7iWS1_Ab0",
+     "role": "rendition",
+     "title": "HISTORY BEHIND APATAMPA (Ghanaian Fanti Dance)",
+     "channel": "Nanny Golfes",
+     "hd": false
+    },
+    {
+     "youtube_id": "nX4yoA6eghs",
+     "role": "rendition",
+     "title": "Performance of Apatampa by B.S.2 part 3",
+     "channel": "Carolina International School",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -86422,6 +86920,7 @@
    "images": [],
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "eunyul-talchum": {
@@ -86555,8 +87054,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Dhunuchi_Nritya",
    "wikidata_qid": "Q107417480",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "lYj4t0KGW5s",
+   "video_stack": [
+    {
+     "youtube_id": "lYj4t0KGW5s",
+     "role": "hero",
+     "title": "Dhunuchi Naach |Dhunuchi Dance |Performed by Sneha Ghosh|Durga Puja|Dhak beats | Dhaker Taal",
+     "channel": "Sneha Ghosh",
+     "hd": true
+    },
+    {
+     "youtube_id": "i9uGuUrMi4U",
+     "role": "rendition",
+     "title": "DHUNUCHI NAACH (Bengali Dance) | Bengal Club Shivaji Park | Mumbai  | Dhakis",
+     "channel": "Sagar Keluskar",
+     "hd": true
+    },
+    {
+     "youtube_id": "BCVrmIhsVy0",
+     "role": "rendition",
+     "title": "Bijoya Special | DHUNUCHI NAACH (Bengali Dance) | Performed  Sudeshna Mukherjee & Sukanya Mukherjee.",
+     "channel": "Sudeshna Mukherjee",
+     "hd": true
+    },
+    {
+     "youtube_id": "pleXEDYfRT8",
+     "role": "rendition",
+     "title": "Dhunuchi Dance X Silsila | Kumar Sharma | Kathak Rockers | Navratri Special",
+     "channel": "Kumar Sharma",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -86623,6 +87151,7 @@
    "sacred_note": "This is a devotional dance performed during Hindu puja and aarti ceremonies.",
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "khamba-thoibi-jagoi": {
@@ -86653,8 +87182,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Khamba_Thoibi_Jagoi",
    "wikidata_qid": "Q107612872",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "472kJx8MRi0",
+   "video_stack": [
+    {
+     "youtube_id": "472kJx8MRi0",
+     "role": "hero",
+     "title": "Khamba Thoibi Jagoi ( PG TEAM )🌹",
+     "channel": "Atiyagi Machu",
+     "hd": true
+    },
+    {
+     "youtube_id": "-u6zaT7wFAU",
+     "role": "rendition",
+     "title": "😍👌🏻Traditional Manipuri Khamba Thoibi Jagoi | Folk Tribal dance |Tarang Utsav 2k25 🎉 @Shubhumsing",
+     "channel": "Shubhu Msing",
+     "hd": true
+    },
+    {
+     "youtube_id": "LICGHwLiAC8",
+     "role": "rendition",
+     "title": "Khamba Thoibi Dance at Mandalay",
+     "channel": "Kate Kate Myan",
+     "hd": false
+    },
+    {
+     "youtube_id": "5XLnfAN7VA4",
+     "role": "rendition",
+     "title": "Khamba Thoibi Jagoi ll Chandpur Lai Haraoba ll Cachar Leichal ll",
+     "channel": "Cachar Leichal",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -86699,6 +87257,7 @@
    "sacred_note": "The dance is dedicated to the god Thangching and is performed in a ritual context, specifically linked to the Lai Haraoba festival.",
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": [
     "manipuri"
    ]
@@ -86732,8 +87291,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Serbian_dances",
    "wikidata_qid": "Q108438031",
    "unesco": true,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "lup58Ftu4S0",
+   "video_stack": [
+    {
+     "youtube_id": "lup58Ftu4S0",
+     "role": "hero",
+     "title": "Serbian Folk Dance | The Tamburitzans",
+     "channel": "The Tamburitzans",
+     "hd": true
+    },
+    {
+     "youtube_id": "NESU5Alvnnw",
+     "role": "rendition",
+     "title": "Mr. Giant React to Serbian folk dance: Sopska trojka i nadigravanje",
+     "channel": "Mr. Giant",
+     "hd": true
+    },
+    {
+     "youtube_id": "_fTahdXWL7g",
+     "role": "rendition",
+     "title": "Pleskavac Kolo, Serbian Folk Dance",
+     "channel": "dunavfolk",
+     "hd": true
+    },
+    {
+     "youtube_id": "x8T3MMKoR6k",
+     "role": "rendition",
+     "title": "Raca (Vlaski), Serbian folk dance",
+     "channel": "dunavfolk",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -86827,6 +87415,7 @@
    ],
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": [
     "lesnoto",
     "pembe"
@@ -86855,8 +87444,37 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Harul",
    "wikidata_qid": "Q106199770",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "Cn7J6ggDix0",
+   "video_stack": [
+    {
+     "youtube_id": "Cn7J6ggDix0",
+     "role": "hero",
+     "title": "Himachali Traditional Harul Dance in GDC Shillai Part-|",
+     "channel": "Mr. unique pojta",
+     "hd": true
+    },
+    {
+     "youtube_id": "q4KT-2T7quw",
+     "role": "rendition",
+     "title": "Natti Performance at BHKSA | Himachali Folk Dance at Chandigarh | Trigart 2025 | Aditya Parihar",
+     "channel": "HimAditya",
+     "hd": true
+    },
+    {
+     "youtube_id": "IlQzPkYTiic",
+     "role": "rendition",
+     "title": "Jounsari harul dance lakhamandal boys 2020 harul pufiye naro",
+     "channel": "देवभूमि लाखामंडल ",
+     "hd": true
+    },
+    {
+     "youtube_id": "z1dqLYKIpCc",
+     "role": "rendition",
+     "title": "Harul Dance || जौनसारी हारुल डांस !! आंगन डांस वीडियो !! Jaunsari Himachali Harul Dance Video",
+     "channel": "Pahadi Culture Records",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -86912,6 +87530,7 @@
    "sacred_note": "not described in sources",
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "gendang-beleq": {
@@ -86937,8 +87556,23 @@
    "wikipedia_url": "https://en.wikipedia.org/wiki/Gendang_Beleq_(dance)",
    "wikidata_qid": "Q104867810",
    "unesco": false,
-   "hero_video_youtube_id": null,
-   "video_stack": [],
+   "hero_video_youtube_id": "KP2A39zmmrw",
+   "video_stack": [
+    {
+     "youtube_id": "KP2A39zmmrw",
+     "role": "hero",
+     "title": "JANGGER \"LULUQ\" MENGELUARKAN TARIAN ANDALANNYA DIIRINGI GENDING \"GENDANG BELEQ GMS\"",
+     "channel": "Rul Kanter",
+     "hd": true
+    },
+    {
+     "youtube_id": "9-JyiLrZ8bc",
+     "role": "rendition",
+     "title": "GENDANG BELEQ _ JAYA BAKTI TABUH PUSPA WRESTI VERSI JABA OFFICIAL REAL VIDEO DI IRINGI TARIAN LULUQ",
+     "channel": "MANDI SUARE TV ",
+     "hd": true
+    }
+   ],
    "image_significance": null,
    "lat": null,
    "lng": null,
@@ -87049,6 +87683,7 @@
    "sacred_note": "The Gendang Beleq is a sacred folk dance tradition; outsiders should observe with respect and follow local guidance regarding participation or photography during ceremonies.",
    "movie_ready": false,
    "tradition_status": "living",
+   "hero_source": "crawler:crowd_wisdom_confident",
    "related_slugs": []
   },
   "sheethankan-thullal": {
@@ -87131,6 +87766,799 @@
    "movie_ready": false,
    "tradition_status": "living",
    "related_slugs": []
+  },
+  "pulimaranja-thondachan": {
+   "slug": "pulimaranja-thondachan",
+   "name": "Pulimaranja Thondachan",
+   "country": "India",
+   "country_code": "IN",
+   "region": "South Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇮🇳",
+   "era": "Traditional / Mythological",
+   "tagline": "A Theyyam deity of North Malabar embodying the tragic legend of Madai Kari Kurikkal.",
+   "profile": "Pulimaranja Thondachan, also known as Kari Kurikal, is a deity worshipped and performed as theyyam by the Pulayar community in the North Malabar region of Kerala, India. The tradition is rooted in the legend of Madai Kari Kurikkal, a man who possessed the magical skill to change his body into a leopard. After a tragic misunderstanding where he killed his frightened wife, he disappeared into the forest and became a revered spiritual figure. This powerful myth has also inspired modern regional culture, notably through the play and film Pulijanmam.",
+   "insight": "In the folklore of North Malabar, the mortal Madai Kari Kurikkal famously mastered animal transformation in eighteen kalaris before vanishing into the forest.",
+   "aliases": [
+    "Kari Kurikal"
+   ],
+   "related": [
+    "Theyyam",
+    "Pulijanmam"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pulimaranja_Thondachan",
+    "https://www.wikidata.org/wiki/Q16135355"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Pulimaranja_Thondachan",
+   "wikidata_qid": "Q16135355",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-14",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.7,
+   "last_researched_at": "2026-11-14T15:52:59Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Pulimaranja Thondachan, also known by the name Kari Kurikal, represents a sacred deity worshipped within the North Malabar region of Kerala, specifically spanning the present-day districts of Kannur and Kasargod. This tradition is practiced and performed as theyyam, holding deep religious significance for the Pulayar community. Within the local dialect of North Malabar, the word 'Thondachan' serves as a substitute term for grandfather. The roots of this tradition are anchored in a detailed local legend concerning a heroic figure who underwent a supernatural metamorphosis.\n\nThe narrative of the deity begins with his mortal origins. Kari was born to parents named Vallikudichi Virunthi and Maniyan Kanjan. His parents had been brought from Tiruvarkat Kav to work on the agricultural lands belonging to Kunjambu Nair, a jenmi residing at the Chenicherry house in Kunhimangalam. During his early education, Kari studied reading and writing under the guidance of Chempitar Kurikkal. Aspiring to further his martial training, Kari sought to study kalari vidya. However, because he belonged to the Pulayar community, he was initially denied admission to the traditional training grounds.\n\nTo bypass this systemic barrier, Kunjambu Nair devised a solution by allowing Kari to use his own name and family name in place of Kari's actual identity. Under this guise, Kari trained extensively across eighteen different kalaris throughout the region. Eventually, he learned the art of impersonation from Chothi Kalari, gaining the magical ability to alter his disguise into various creatures such as a scorpion, a snake, a dog, or a lion. Upon completing his rigorous education, Kari returned to Madai Kalari, where he earned the prestigious position of Kurikal. During this period of his life, he married a young woman named Kunhivellachi.\n\nKari's exceptional skills eventually drew the attention of regional authorities. The lord of Alladam suffered from severe insanity and summoned Kari on six separate occasions to provide treatment, though Kari was repeatedly prevented from attending. The seventh request arrived via a formal copper inscription, promising that half of the lord's property would be granted if Kari successfully cured him. Setting out for Alladam, Kari overcame numerous trials along the journey using his acquired magical expertise. Upon his arrival, he successfully performed the necessary magical rituals, which cured the lord's mental affliction.\n\nHowever, wishing to avoid surrendering half of his property as promised, the lord plotted to kill Kari despite his recovery. The lord declared he would only relinquish the property if Kari brought back a tiger, tiger's milk, and tiger hair. Returning home, Kari prepared to retrieve these items by transforming himself into a leopard. Before leaving, he instructed his wife not to panic if he returned in leopard form, telling her to dip a broom in dung water and slap his face. Ascending the mountain, Kari successfully used his magical skills to change his body into a leopard. He returned to Alladam, delivered the demanded tiger elements, and fulfilled the lord's harsh condition.\n\nWhen Kari arrived back at his own home, however, his wife became terrified upon seeing the leopard and bolted the door shut. Failing to follow his prior instructions, she forced Kari—now trapped in his animal form—to enter through the roof. In the ensuing chaos, he killed his wife, jumped out of the house, and permanently disappeared into the deep forest. Following this tragic event, the lord of Alladam relapsed into his state of insanity. Recognizing that this affliction stemmed from the mistreatment of Kari Kurikal, the local people began worshipping him as Pulimaranja Thondachan, a name signifying the tiger who disappeared.\n\nBeyond ritual worship and the sacred performance of theyyam, the legend of Pulimaranja Thondachan has crossed over into modern regional culture. The myth inspired the literary play Pulijanmam, written by author N Prabhakaran. This theatrical work was subsequently adapted into a Malayalam feature film of the same title, directed by Priyanandanan. Through both traditional religious observance and contemporary artistic expression, the legacy of Pulimaranja Thondachan continues to endure in Kerala.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Kurikkal_Theyyam_Kerala_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kurikkal_Theyyam_Kerala_India.jpg/1280px-Kurikkal_Theyyam_Kerala_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 4912,
+     "height": 3136,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Uajith / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKurikkal_Theyyam_Kerala_India.jpg",
+     "description": "Kurikkal theyyam,often performed alongside Kathivanoor Veeran Theyyam from Eripuram in Kannur District of Kerala,India"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "Pulimaranja Thondachan is a worshipped deity performed as theyyam by the Pulayar community, holding deep sacred and religious significance.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "theyyam"
+   ]
+  },
+  "affranchi": {
+   "slug": "affranchi",
+   "name": "Affranchi",
+   "country": "Haiti",
+   "country_code": "HT",
+   "region": "Caribbean",
+   "family": "folk-circle",
+   "flag_emoji": "🇭🇹",
+   "era": "colonial era to present",
+   "tagline": "A Haitian folk dance blending French formality with African improvisation, born in colonial Saint-Domingue.",
+   "profile": "Affranchi originated in colonial Saint-Domingue among free people of color known as affranchis. It combines French-style, straight-backed figures with African improvisation, performed to strings and woodwinds rather than drums. The dance spread through Haiti and the diaspora, influencing forms like Cuba's tumba francesa. Revived in the 1950s, it remains part of Haitian festivals and Vodou ceremonies.",
+   "insight": "In the 1950s, Haiti's National Troupe revived Affranchi, adding hip-hop-like moves to a dance once performed for colonial elites.",
+   "aliases": [],
+   "related": [
+    "tumba francesa"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Affranchi_(dance)",
+    "https://www.wikidata.org/wiki/Q16147009"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Affranchi_(dance)",
+   "wikidata_qid": "Q16147009",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-14",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.3,
+   "last_researched_at": "2026-11-14T15:58:05Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Affranchi is a traditional folk dance that emerged in Saint-Domingue, now Haiti, during the colonial era. The term 'affranchi' referred to free people of color, often of mixed French and African descent, who formed a distinct social class. Europeans and affranchis performed the dance in line and square formations, sometimes compelling enslaved people to dance for colonial entertainment. The dance features a blend of French formal figures characterized by straight backs and held torsos, followed by African-styled improvisation in the final set. Unlike many African-derived dances, Affranchi is performed to string and woodwind instruments instead of drums. This style and its regal associations spread beyond Haiti to Cuba, Puerto Rico, the United States, and other parts of the diaspora in the late eighteenth century, influencing dances such as the tumba francesa in Cuba. In the 1950s, Haiti's National Troupe revived Affranchi, incorporating movements reminiscent of hip-hop rhythms. Today, the dance is preserved in Haitian country festivals, Vodou services, and as a cultural attraction for visitors. The dance reflects the complex social history of free people of color and their cultural expressions in the Caribbean colonial context.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "tumba-francesa"
+   ]
+  },
+  "ch-unchu": {
+   "slug": "ch-unchu",
+   "name": "Ch'unchu",
+   "country": "Peru",
+   "country_code": "PE",
+   "region": "South America",
+   "family": "folk-circle",
+   "flag_emoji": "🇵🇪",
+   "era": "contemporary",
+   "tagline": "A vibrant folk dance from Peru's Cusco Region, performed at major local festivals.",
+   "profile": "Ch'unchu is a traditional folk dance from Peru's Cusco Region, notably performed during the Mamacha Carmen festival in Paucartambo and the Quyllur Rit'i festival. The dance features several varieties, including q'ara ch'unchu, qhapaq ch'unchu, and wayri ch'unchu. Its name derives from a Quechua and Aymara term historically used derogatorily for Amazonian natives. The dance is part of the region's rich festival culture, symbolizing indigenous Amazonian peoples.",
+   "insight": "In Paucartambo's Mamacha Carmen festival, dancers perform Ch'unchu embodying Amazonian natives, despite the term's original derogatory meaning.",
+   "aliases": [],
+   "related": [
+    "Qhapaq negro",
+    "Qhapaq Qulla",
+    "Saqra"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ch%27unchu_(dance)",
+    "https://www.wikidata.org/wiki/Q16986692"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Ch%27unchu_(dance)",
+   "wikidata_qid": "Q16986692",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-14",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 8.15,
+   "last_researched_at": "2026-11-14T15:58:46Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Ch'unchu is a folk dance indigenous to the Cusco Region of Peru, performed prominently during local festivals such as Mamacha Carmen in Paucartambo and Quyllur Rit'i. The dance represents Amazonian native inhabitants, a connection reflected in its name, which comes from a Quechua and Aymara word originally used derogatorily to describe these groups. Despite the negative connotation of the term, the dance is a respected cultural expression within these festivals, celebrating indigenous identity and heritage. There are several distinct varieties of Ch'unchu, including q'ara ch'unchu, qhapaq ch'unchu, and wayri ch'unchu, each likely representing different aspects or groups within the Amazonian context, though specific differences among these variants are not detailed in the sources. The dance is deeply embedded in the festival traditions of the Cusco Region, where it contributes to the vibrant cultural tapestry and communal celebrations. The festivals where Ch'unchu is performed are significant cultural events that draw participants and spectators alike, highlighting the dance's role in maintaining and expressing indigenous identity and regional heritage. Detailed descriptions of the dance's choreography, music, costumes, and specific cultural meanings are not provided in the current sources, indicating gaps in publicly available documentation. Similarly, information about notable figures associated with Ch'unchu, regional variations beyond the named types, and its lineage or historical development remains undocumented in the referenced materials. The dance is living and actively performed today, maintaining its place in the cultural life of the Cusco Region.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Qoyllur_Rit%27i_young_dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Qoyllur_Rit%27i_young_dancer.jpg/1280px-Qoyllur_Rit%27i_young_dancer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1551,
+     "height": 2354,
+     "license": "CC BY-SA 3.0",
+     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "attribution": "AgainErick / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AQoyllur_Rit%27i_young_dancer.jpg",
+     "description": "Qoyllur_Rit'i: Festival señor de Qoyllur Rit'i, young dancer"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "karadikali": {
+   "slug": "karadikali",
+   "name": "Karadikali",
+   "country": "India",
+   "country_code": "IN",
+   "region": "South Asia",
+   "family": "folk-circle",
+   "flag_emoji": "🇮🇳",
+   "era": "not described in sources",
+   "tagline": "The bear dance of Kerala's Onam festival, where hunters stalk a man in palm leaves.",
+   "profile": "Karadikali, also known as the dance of the bears, is a traditional folk art form performed across regions of Kerala like Kollam and Kayamkulam during the Onam festival. Performed in the courtyards of houses, the dance features a central performer disguised as a bear alongside hunters dressed as a 'Sayippu'. The performance concludes with the simulated shooting of the bear, marking the end of the courtyard visit.",
+   "insight": "On the evening of Onam in Kollam, a young man covered in coconut palm leaves acts as a bear before a wooden gun shoots him down.",
+   "aliases": [
+    "Karadi kali",
+    "dance of the bears"
+   ],
+   "related": [
+    "Pulikali"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Karadikali",
+    "https://www.wikidata.org/wiki/Q13110989"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Karadikali",
+   "wikidata_qid": "Q13110989",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-14",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.55,
+   "last_researched_at": "2026-11-14T15:59:24Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Karadikali, translated literally from Malayalam as the 'dance of the bears' and also written as Karadi kali, is a distinct folk art form deeply rooted in the cultural traditions of Kerala, India. Specifically documented in regions including Kollam and Kayamkulam, this performance takes place during the vibrant Onam festival. Unlike stage-bound theatrical productions, Karadikali is intimately tied to domestic spaces, performed directly in the open courtyards of local houses as evening descends.\n\nThe central visual and dramatic focus of Karadikali is the character of the bear, portrayed by a young performer. This individual undergoes a striking physical transformation: their body is painted black and heavily covered with coconut palm leaves, while a lightweight wooden mask crafted from banana leaves and bamboo is secured to their head. In some locations, this mask is supplemented or swapped for one constructed from areca leaves. Accompanying the bear are hunters who dress in the colonial-era guise of a 'Sayippu', complete with socks, a hat, and a prop gun made of wood. Additional props like a bow and arrow play a crucial narrative role as the performance unfolds.\n\nThe auditory landscape of Karadikali is driven by a dedicated ensemble of singers and drummers. Traditional folk instruments form the background soundscape, prominently featuring the kaimani, the kanjira, and traditional cymbals. The dancers move to the specific tunes of 'Karadippattu'. The dramatic action begins when the bear steps to the rhythm, moving through the courtyard. The narrative reaches its climax and resolution when the hunter 'shoots' the bear down using a bow and arrow, signaling the end of that specific iteration of the dance. The bear troupe visits multiple houses in a given locality, systematically enacting this courtyard death at each stop.\n\nAs a cultural counterpart to the more widely known Pulikali—the 'dance of the tigers'—Karadikali shares a thematic lineage of animal impersonation and festive street-and-courtyard performance during Onam. While the historical origins and specific codifications of its steps remain largely unrecorded in formal archives, its survival relies on community participation, seasonal continuity, and oral traditions handed down across generations in rural and semi-urban Kerala.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Karadikali_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Karadikali_1.jpg/1280px-Karadikali_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2976,
+     "height": 1984,
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0",
+     "attribution": "Kannan Shanmugam, Shanmugam Studio,Kollam / Wikimedia Commons / CC BY 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKaradikali_1.jpg",
+     "description": "Karadikali competition at Kovoor Kerala Library, Kollam"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "kolkali": {
+   "slug": "kolkali",
+   "name": "Kolkali",
+   "country": "India",
+   "country_code": "IN",
+   "region": "South Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇮🇳",
+   "era": "Ancient / Traditional",
+   "tagline": "A vigorous martial stick dance from Kerala and Lakshadweep expanding in rhythm.",
+   "profile": "Kolkali is a traditional folk and martial art performed in the Malabar region of Kerala and Lakshadweep. Dancers move in a circular formation, wielding two-foot-long sticks and striking them together to keep rhythm. The dance borrows heavily from the martial art Kalarippayattu in its training, postures, and footwork. Accompanied by small cymbals and drums, the performance begins at a slow tempo and gradually rises in pitch and speed toward a dramatic climax.",
+   "insight": "In Lakshadweep and Kerala, 10 to 20 men wielding two-foot sticks form expanding circles that accelerate to a fierce climax.",
+   "aliases": [],
+   "related": [
+    "Parichhamuttumkali",
+    "Velakali",
+    "Thacholikali",
+    "Rajasooyam"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kolkali",
+    "https://www.wikidata.org/wiki/Q3595225",
+    "https://archive.org/details/celebrationoflif0000pani"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Kolkali",
+   "wikidata_qid": "Q3595225",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-14",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.25,
+   "last_researched_at": "2026-11-14T15:59:45Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Kolkali is an energetic folk and martial art form deeply rooted in the cultural traditions of the Malabar region of Kerala, India, as well as the islands of Lakshadweep. Historically intertwined with the regional martial art Kalarippayattu, Kolkali draws extensively from martial techniques, including basic body preparative training, traditional body massages, body postures, choreography, and footwork. The origins of this art trace back to ancient days when Kalarippayattu was actively practiced across the region. As a living tradition, it is performed by both Hindus and Muslims, bridging cultural and religious communities through shared movement and rhythmic synchronization.\n\nThe dance is characterized by its dynamic use of space and percussion. Performers, numbering typically between 10 to 20 dancers (or 12 to 16 in Lakshadweep variants), wield two-foot-long wooden sticks. They arrange themselves in a circular formation, moving continuously while striking their sticks together in patterns of attack and defense. As the performance unfolds, the circle dynamically expands and contracts. The dancers sing specific songs while executing deep bends, body extensions, leaps, and turns that mirror the physical demands of Kalarippayattu.\n\nMusically, Kolkali relies on percussion provided by small cymbals and a smaller variety of the Chenda drum. In certain regional variants, a leader plays a pair of cymbals, or drum music is provided by an Urumi, occasionally accompanied by a long flute. The sonic structure is designed to build tension: the performance begins with a slow tempo that gradually increases, while the accompanying music progressively rises in pitch until the dance reaches an intense, energetic climax.\n\nCostumes vary slightly by region. In Lakshadweep, where the dance frequently serves as a traditional marriage celebration, performers wear a simple dress consisting of a lungi, a banian, and a scarf wrapped over the head. In Kerala, the art form has evolved into competitive and institutional settings, most notably appearing as a popular event in the Kerala School Kalolsavam, widely considered the largest cultural festival in Asia. Within Kerala, there are distinct styles, notably the actual Kolkali—which encompasses substyles like Thacholikali and Rajasooyam and is presently facing the verge of extinction—and Thekkan Koladi, which remains actively practiced and preserved through state-sponsored youth festivals.\n\nDespite the decline of its older, traditional substyles, Kolkali endures through adaptation and community participation. Its lineage connects it closely to other regional performance arts of Kerala, such as Parichhamuttumkali, Velakali, Oachirakah, and Yatrakali, all of which share foundational elements derived from Kalaripayettu training. The ongoing practice of Thekkan Koladi ensures that this vigorous expression of martial heritage and rhythmic coordination continues to be transmitted to new generations of performers.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Kolkkali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Kolkkali.jpg/1280px-Kolkkali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 2496,
+     "height": 1720,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Farisori / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKolkkali.jpg",
+     "description": "Presentación de kolkkali.\nThrissur, Kerala, India.\n\nDiciembre de 2010."
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Odissi_Performance_DS.jpg/1280px-Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1500,
+     "height": 2432,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+     "description": "Odissi Perfomance"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "not described in sources",
+   "movie_ready": true,
+   "tradition_status": "living",
+   "related_slugs": [
+    "velakali"
+   ]
+  },
+  "hyporchema": {
+   "slug": "hyporchema",
+   "name": "hyporchema",
+   "country": "ancient Greece",
+   "country_code": "GR",
+   "region": "Europe",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇬🇷",
+   "era": "ancient Greek period, lasting at least until 2nd century CE",
+   "tagline": "A lively ancient Greek mimic dance accompanying Apollo's worship songs, danced by men and women.",
+   "profile": "The hyporchema was a lively mimic dance performed by men and women during Apollo's worship, especially among the Dorians. It featured a chorus singing around the altar while dancers enacted the song's narrative with mimetic movements. Originating possibly in Crete, it was introduced early to Delos where it persisted until at least the 2nd century CE. The dance was playful, sometimes comic, and related to the geranos, a ritual 'crane dance' with complex turns symbolizing the Cretan labyrinth.",
+   "insight": "In Delos, the hyporchema was performed with mimic gestures alongside choral songs at Apollo's festivals, lasting until Lucian's era.",
+   "aliases": [
+    "hyperchema",
+    "iporchema",
+    "hiporquema"
+   ],
+   "related": [
+    "geranos"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hyporchema",
+    "https://www.wikidata.org/wiki/Q3559754",
+    "https://es.wikipedia.org/wiki/Hiporquema",
+    "https://it.wikipedia.org/wiki/Iporchema"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Hyporchema",
+   "wikidata_qid": "Q3559754",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-14",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 8.7,
+   "last_researched_at": "2026-11-14T16:00:02Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "The hyporchema (Greek: ὑπόρχημα) was an ancient Greek dance characterized by lively mimicry accompanying songs used in the worship of Apollo, particularly among the Dorian Greeks. Both men and women participated in this dance, which was performed during festivals dedicated to Apollo. Typically, a chorus of singers danced around the altar, while designated individuals performed mimetic actions that illustrated the content of the accompanying song. This lyric dance often evolved into playful and comic expressions, with ancient writer Athenaeus comparing it to the comedic cordax dance. The dance is believed to have originated in Crete, in line with the broader tradition of Dorian music and poetry, and was introduced early to the island of Delos, where it continued to be performed until the time of Lucian of Samosata in the 2nd century CE. The hyporchema is closely related to the geranos, or 'crane dance,' a ritual dance associated with the mythic hero Theseus. The geranos involved complex turns and windings, symbolizing the labyrinth of Crete, and was led by a figure called the geranoulkos. When the chorus rested, it formed a semicircle with leaders at both wings. The songs accompanying the hyporchema, also called hyporchemata, were first attributed to the Cretan poet Thaletas. These songs had light, imitative, and graphic rhythms, as confirmed by surviving fragments of Pindar's hyporchemata, reflecting the playful character of the dance itself. The hyporchema thus combined music, poetry, and dance into a dynamic ritual performance central to Apollo's cult among the Dorians.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "needs_eyes_on": true,
+   "sacred_note": "The hyporchema was performed as part of religious worship of Apollo and included ritual mimicry; it should be respected as a sacred cultural expression.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "deodhani-dance": {
+   "slug": "deodhani-dance",
+   "name": "Deodhani dance",
+   "country": "India",
+   "country_code": "IN",
+   "region": "South Asia",
+   "family": "folk-circle",
+   "flag_emoji": "🇮🇳",
+   "era": "not described in sources",
+   "tagline": "A shamanic folk dance of Assam performed by women possessed by the snake goddess Marei.",
+   "profile": "Deodhani dance is a shaman folk dance from Assam, India, performed solo or in groups of three to four women. It originates from the Bodo community and is dedicated to the snake goddess Marei. The dance features dancers wielding swords and shields, performing a vigorous war dance while possessed by spiritual beings. Accompaniment varies regionally, with songs by an Ojha chorus leader in Darrang and Kamrupi Bor-Dhol drums in Kamrup.",
+   "insight": "In Assam's Darrang district, Deodhani dancers wield swords and shields, embodying a shamanic trance to honor the snake goddess Marei.",
+   "aliases": [],
+   "related": [
+    "Deodha-Joki",
+    "Deodhai"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Deodhani_dance",
+    "https://www.wikidata.org/wiki/Q13423910"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Deodhani_dance",
+   "wikidata_qid": "Q13423910",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-14",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.55,
+   "last_researched_at": "2026-11-14T16:01:34Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Deodhani dance is a traditional shamanic folk dance rooted in the Indian state of Assam, specifically associated with the Bodo community. The name 'Deodhani' combines 'Deo' meaning God and 'Dhani' meaning woman, referring to a woman possessed by a deity. This possession is central to the dance's spiritual significance, as the performer embodies a shamanic trance state. Both female and male shamanic forms exist, with the male counterpart known as 'Deodha-Joki' in Kamrup and 'Deodhai' elsewhere in Assam. Typically, Deodhani is performed either solo or by a small group of three or four women. The dance is dedicated to the snake goddess Marei (also spelled Maroi), a deity revered in the region. Performers take up a sword and shield, presenting a vigorous and virile war dance that symbolizes spiritual possession and divine invocation. The musical accompaniment differs by region: in the undivided Darrang district, songs called Xuknoni are sung by an Ojha, a traditional chorus leader, while in the undivided Kamrup district, the dance is accompanied by the Kamrupi Bor-Dhol drum. The dance thus blends martial elements with spiritual and ritualistic expression, reflecting the cultural and religious fabric of Assam's Bodo people. Deodhani remains a living tradition practiced today, embodying a unique intersection of folk performance and shamanic ritual.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Odissi_Performance_DS.jpg/1280px-Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 1500,
+     "height": 2432,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+     "description": "Odissi Perfomance"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Deodhoni_Dance_Ritual-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Deodhoni_Dance_Ritual-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "width": 683,
+     "height": 1024,
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "attribution": "Ramesh Lalwani / Wikimedia Commons / CC BY 2.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ADeodhoni_Dance_Ritual-1.jpg",
+     "description": "Deodhani dance (Assamese: দেওধনী নৃত্য) is a Shaman folk dance from the Indian state of Assam. It is as a solo or group performance. Deodhani is of Bodo-kachari origin.[1] In the group performance, it essentially comprises 3 or 4 women. This dance form is associated with the worship of the snake goddess Manasa or Marei/Maroi.[citation needed] A Deodhani dance is generally performed to the accompan"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "Deodhani dance is a shamanic ritual dance performed by women possessed by the snake goddess Marei and should be respected as a sacred spiritual practice.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "deodhani"
+   ]
+  },
+  "kuttichathan-theyyam": {
+   "slug": "kuttichathan-theyyam",
+   "name": "Kuttichathan Theyyam",
+   "country": "India",
+   "country_code": "IN",
+   "region": "South Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇮🇳",
+   "era": "historical and living tradition",
+   "tagline": "A fiery ritual dance embodying the rebellious guardian deity Kuttichathan in North Malabar, Kerala.",
+   "profile": "Kuttichathan Theyyam is a ritual dance from North Malabar, Kerala, honoring Kuttichathan, a guardian deity linked to Kalakattu illam Brahmins. The performer wears a red costume with wooden cheek pieces and peacock-like back extensions, covering their eyes with a metallic cap pierced by a small hole. The myth involves Kuttichathan's rebellious acts against Brahminical authority and his rebirth after being killed, culminating in his worship through this dance.",
+   "insight": "In Kannur district, Kuttichathan Theyyam performers wear a metallic eye-cap with a central hole, symbolizing the fierce deity's gaze.",
+   "aliases": [
+    "Sasthappan Theyyam",
+    "Kalakattu Kuttichathan",
+    "Kuttichathan"
+   ],
+   "related": [
+    "Theyyam"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kuttichathan_Theyyam",
+    "https://www.wikidata.org/wiki/Q13111292"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Kuttichathan_Theyyam",
+   "wikidata_qid": "Q13111292",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-14",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.0,
+   "last_researched_at": "2026-11-14T16:02:32Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Kuttichathan Theyyam, also known as Sasthappan Theyyam or Kalakattu Kuttichathan, is a ritual dance form performed in the North Malabar region of Kerala, India, particularly associated with the Brahmin family of Kalakattu illam in Payyanur, Kannur district. This Theyyam honors Kuttichathan, a guardian deity whose mythological origins are deeply embedded in local Hindu folklore. According to one legend, Kuttichathan was born to Shiva and Parvati, disguised as Valluvan and Valluvathi, and given to a childless Namboodiri family. The child, born with a black body, a flower on his forehead, and three eyes, was sent to a Guru for education but rebelled against Brahmanical customs, ultimately killing the Guru. After being killed and dismembered by Brahmins, many Kuttichathans were said to have been born from the sacred kilns, leading to the worship of the deity through Theyyam performance. Another version of the myth describes Kuttichathan as the son of a Namboodiri and a lower-caste woman, who was neglected and became mischievous, eventually leaving after killing a bull to quench his thirst. The dance costume is striking, featuring a long rectangular waist garment, wooden pieces framing the cheeks, and peacock-like extensions on the back. Performers cover their eyes with a metallic cap pierced by a small central hole, symbolizing the deity's gaze. The overall color scheme is red, reflecting the fiery and fierce nature of Kuttichathan. This Theyyam is a living ritual dance deeply embedded in the cultural and religious fabric of North Malabar, performed to honor and appease the deity who represents resistance and protection.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Kuttichaathan_theyyam_make-up_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Kuttichaathan_theyyam_make-up_6.jpg/1280px-Kuttichaathan_theyyam_make-up_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 5568,
+     "height": 3712,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Shagil Kannur / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKuttichaathan_theyyam_make-up_6.jpg",
+     "description": "Theyyam at Kakkanam kottam, Edakkad, Kannur"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Kuttichathan_theyyam_Wayanad1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Kuttichathan_theyyam_Wayanad1.jpg/1280px-Kuttichathan_theyyam_Wayanad1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3416,
+     "height": 3416,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ajeeshkumar4u / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKuttichathan_theyyam_Wayanad1.jpg",
+     "description": "Kuttichathan theyyam performed in a temple in Wayanad, Kerala"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Kuttichathan_theyyam_Wayanad2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Kuttichathan_theyyam_Wayanad2.jpg/1280px-Kuttichathan_theyyam_Wayanad2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 5616,
+     "height": 3744,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Ajeeshkumar4u / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKuttichathan_theyyam_Wayanad2.jpg",
+     "description": "Kuttichathan theyyam performed in a temple in Wayanad, Kerala"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/A_photograph_of_Shasthappan_Theyyam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/A_photograph_of_Shasthappan_Theyyam.jpg/1280px-A_photograph_of_Shasthappan_Theyyam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 6000,
+     "height": 8000,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "TheRanchKeeper / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AA_photograph_of_Shasthappan_Theyyam.jpg",
+     "description": "A photograph of Shasthappan Theyyam"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "Kuttichathan Theyyam is a sacred ritual dance performed to honor the guardian deity Kuttichathan; it should be respected as a religious practice and not performed by outsiders without proper initiation.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "theyyam"
+   ]
+  },
+  "bappiriyan-theyyam": {
+   "slug": "bappiriyan-theyyam",
+   "name": "Bappiriyan Theyyam",
+   "country": "India",
+   "country_code": "IN",
+   "region": "South Asia",
+   "family": "ritual-sacred",
+   "flag_emoji": "🇮🇳",
+   "era": "not described in sources",
+   "tagline": "A vibrant theyyam of North Malabar blending Hindu and Muslim mythologies.",
+   "profile": "Bappiriyan Theyyam is performed in Kerala's North Malabar by the Vannan community, portraying a Muslim merchant intertwined with Hindu goddess Arya Poonkani's myth. The ritual includes climbing and kicking coconut trees, symbolizing Hanuman's search for Sita. This theyyam exemplifies Hindu-Islamic harmony in Kerala.",
+   "insight": "Bappiriyan Theyyam climaxes with the performer climbing and shaking coconut trees, often risking serious injury.",
+   "aliases": [
+    "Bappirian Theyyam"
+   ],
+   "related": [
+    "Mappila Theyyam"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bappiriyan_Theyyam",
+    "https://www.wikidata.org/wiki/Q13113611"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Bappiriyan_Theyyam",
+   "wikidata_qid": "Q13113611",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": true,
+   "is_sacred": true,
+   "updated_at": "2026-11-14",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 8.55,
+   "last_researched_at": "2026-11-14T16:11:17Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Bappiriyan Theyyam is a distinctive ritual dance form performed in the North Malabar region of Kerala, India, primarily by the Vannan community. It is a type of Mappila Theyyam, reflecting a unique cultural synthesis of Hindu and Muslim traditions. The central myth involves Bappiriyan, believed to be a Muslim merchant and ship captain, and Arya Poonkani, a Hindu goddess. According to the myth, Arya Poonkani and her brothers were shipwrecked while searching for pearls for a marriage. After seven days adrift, they reached shore but got separated. Arya Poonkani, worried and at sea, saw Bappiriyan in a small boat. Initially ignoring her calls, he was eventually compelled by her magical powers to help find her brothers. They reunited at Venmalatinkara, but her brothers chose to settle there, while Arya Poonkani and Bappiriyan continued to the Kooran hills, where they are enshrined at the Thaliparamba Kaithakeel temple.\n\nAnother myth links Bappiriyan Theyyam to Hanuman from the Ramayana. In this narrative, Bappiriyan represents Hanuman searching for Sita. Unable to find her, he climbs tall coconut trees, kicking them in frustration and causing coconuts to fall. This myth is physically enacted during the theyyam performance, where the performer climbs and shakes coconut trees, a dangerous act that sometimes leads to serious injuries.\n\nThe performance is a vivid example of religious harmony, blending Muslim and Hindu elements in Kerala's cultural fabric. The ritualistic climbing and shaking of coconut trees is a signature act, symbolizing the mythological search and frustration. The theyyam is deeply embedded in the local community's spiritual and cultural life, performed in temple festivals and sacred spaces. The dance is not only a religious offering but also a living tradition that reflects Kerala's pluralistic heritage.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Bappiriyan_Theyyam_at_Muchiriyan_Kavu_Kannur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Bappiriyan_Theyyam_at_Muchiriyan_Kavu_Kannur.jpg/1280px-Bappiriyan_Theyyam_at_Muchiriyan_Kavu_Kannur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3456,
+     "height": 5184,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Sumalkv / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3ABappiriyan_Theyyam_at_Muchiriyan_Kavu_Kannur.jpg",
+     "description": "Bappiriyan Theyyam will climb coconut tree. This one the rare theyyams"
+    }
+   ],
+   "needs_eyes_on": true,
+   "sacred_note": "Bappiriyan Theyyam is a sacred ritual performance deeply embedded in temple worship and religious festivals in North Malabar. The climbing of coconut trees is a dangerous sacred act and should not be attempted by outsiders.",
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "dhan-nach": {
+   "slug": "dhan-nach",
+   "name": "Dhan Nach",
+   "country": "Nepal",
+   "country_code": "NP",
+   "region": "South Asia",
+   "family": "folk-circle",
+   "flag_emoji": "🇳🇵",
+   "era": "Traditional, ongoing",
+   "tagline": "Traditional Limbu paddy dance from Eastern Nepal and neighboring Indian regions.",
+   "profile": "Dhan Nach is a traditional folk dance of the Limbu (Yakthung) community from Nepal's Limbuwan region and adjacent Indian areas. It is performed by men and women in pairs or groups, often holding hands in a line or circle, accompanied by the Palam folk song. The dance is linked to a local myth about a paddy bird and is traditionally performed during harvest festivals like Udhauli. Historically, it lasted seven days and nights but now faces decline among youth.",
+   "insight": "Dhan Nach, performed for seven days and nights, originated from a drought legend where a bird brought paddy seeds to starving villagers.",
+   "aliases": [
+    "Yalang",
+    "Yalakma",
+    "Chalakma"
+   ],
+   "related": [
+    "Palam (folk song)"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dhan_Nach",
+    "https://www.wikidata.org/wiki/Q13182447"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Dhan_Nach",
+   "wikidata_qid": "Q13182447",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-14",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.3,
+   "last_researched_at": "2026-11-14T16:21:48Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Dhan Nach, also known as Yalang, is a traditional folk dance of the Limbu community native to the Limbuwan region of Eastern Nepal and parts of India including Darjeeling, Kalimpong, and Sikkim. The name translates literally to \"paddy dance\" in Nepali, reflecting its close connection to rice cultivation and harvest rituals. The dance is also known by other names in Limbu dialects, such as Chalakma in Chhathare Limbu and Yalakma in Panthare Limbu, all meaning paddy dance.\n\nAccording to local Limbu legend, Dhan Nach originated during a severe drought when villagers faced starvation. A bird called Makcharepu, or paddy bird, brought seeds of a paddy variety called Khaiya to the villagers, enabling a bountiful harvest. However, the birds began eating the harvest, leading villagers to shout \"Ha... Ha... Ha...\" to scare them away. This call evolved into the rhythmic Palam song that accompanies the dance. While singing Palam, dancers hold hands and perform movements over the paddy to separate husks from rice. This ritualistic dance became an annual tradition during the month of Mangsir (mid-November to mid-December).\n\nDhan Nach is performed during various social occasions such as marriages, festivals like Udhauli (a harvest festival), carnivals, and celebrations. Both men and women participate, dancing in pairs or groups, holding hands without blood relation ties, arranged either in straight lines or circular formations. Historically, the dance was an extended event lasting seven days and seven nights, underscoring its cultural significance.\n\nIn recent decades, Dhan Nach has faced decline due to reduced participation by younger generations. Cultural organizations have initiated efforts to preserve and promote this dance form. In 2021, the short film \"Kheda\" was produced to raise awareness about Dhan Nach and its cultural importance.\n\nThe dance remains a vital expression of Limbu identity and agricultural heritage, embodying community cooperation and reverence for nature. Its accompanying Palam songs and hand-holding formations symbolize unity and the cyclical nature of farming life. Despite modern challenges, Dhan Nach continues to be a living tradition among Limbu people in Nepal and neighboring Indian regions.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": []
+  },
+  "waka-waka": {
+   "slug": "waka-waka",
+   "name": "Waka Waka",
+   "country": "Bolivia, Peru",
+   "country_code": "BO",
+   "region": "South America",
+   "family": "folk-circle",
+   "flag_emoji": "🇧🇴",
+   "era": "colonial to present",
+   "tagline": "A satirical Andean bullfight dance with dozens of skirts and lively characters.",
+   "profile": "Waka Waka is a vibrant folk dance from Bolivia and Peru that humorously reenacts a bullfight with dancers wearing many layered skirts and bull costumes. It originated in the highland regions around La Paz, Bolivia, and Puno, Peru, blending indigenous agricultural symbolism with colonial Spanish bullfighting. The dance features characters like milkmaids with over 16 skirts, bull dancers with bells, and playful young kusillos. It is performed in festivals such as the Oruro Carnival and Gran Poder in Bolivia, and the Virgen de la Candelaria in Peru.",
+   "insight": "In 2004, La Paz named Waka Waka emblematic of the Gran Poder festival, highlighting its urban Bolivian roots and satirical bullfight theme.",
+   "aliases": [
+    "waka thuqhuri",
+    "waka thuquri",
+    "waca waca",
+    "waka thoquris"
+   ],
+   "related": [
+    "Tinku",
+    "Diablada",
+    "Caporales"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Waka_waka_(dance)",
+    "https://www.wikidata.org/wiki/Q13191101",
+    "https://es.wikipedia.org/wiki/Waka_Waka_(danza)"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Waka_waka_(dance)",
+   "wikidata_qid": "Q13191101",
+   "unesco": true,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-14",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.7,
+   "last_researched_at": "2026-11-14T16:22:18Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Waka Waka, also known as Waka Thuqhuri or Waka Thoquris, is a colonial-era mestizo folk dance practiced today in Bolivia and Peru. Its origins trace to the highland communities of Umala in La Paz, Bolivia, and Ácora in Puno, Peru. The dance is a satirical reenactment of a bullfight, reflecting the introduction of cattle and Spanish bullfighting traditions into the Andean region during the colonial period. The name 'waka' means 'cow' in Quechua and Aymara, linking the dance to cattle symbolism. The dance combines agricultural motifs, such as the work of oxen (ttinti wacas), with the spectacle of bullfighting, evolving from rural agricultural rituals to urban popular performance.\n\nThe choreography includes characters such as the torero (bullfighter), bulls represented by dancers wearing bull skins with bells, lecheras or polleronas (milkmaids) who wear more than 16 colorful layered skirts (polleras), kusillos (young jesters who jump and entertain), jilakatas (older dancers), and camaleros negros wielding swords. Women dancers skillfully move their waists side to side despite the weight of their skirts, while men carry the bull costumes and bells. The dance is accompanied by brass bands or traditional Andean instruments like zampoñas, with music that supports the lively and rhythmic movements.\n\nWaka Waka is performed in major Andean festivals: in Bolivia during the Oruro Carnival, recognized by UNESCO as a Masterpiece of the Oral and Intangible Heritage of Humanity, and the Gran Poder festival, where it was declared emblematic in 2004. In Peru, it appears in the Fiesta de la Virgen de la Candelaria in Puno and the Fiesta de la Virgen del Carmen in Paucartambo, both important cultural events. The dance was declared Cultural and Intangible Historical Heritage of La Paz in 2007 and Intangible Cultural Heritage of Bolivia in 2012. Variants such as Waka Tinti and Waka Tinki exist in different Bolivian communities, differing in music, costume, and choreography.\n\nThe dance’s satirical portrayal of the Spanish bullfight, combined with indigenous agricultural symbolism and vibrant costumes, makes Waka Waka a unique cultural expression of Andean identity and history. It is a living tradition that continues to evolve while maintaining its deep roots in the shared heritage of Bolivia and Peru.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Wakawakabo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Wakawakabo.jpg/1280px-Wakawakabo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3872,
+     "height": 2592,
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "attribution": "Akizia / Wikimedia Commons / CC BY-SA 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AWakawakabo.jpg",
+     "description": "Bailarín de waka waka en el Carnaval boliviano #CarnavalBolivia"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "tinku",
+    "diablada",
+    "caporales"
+   ]
+  },
+  "kerala-natanam": {
+   "slug": "kerala-natanam",
+   "name": "Kerala Natanam",
+   "country": "India",
+   "country_code": "IN",
+   "region": "South Asia",
+   "family": "classical-court",
+   "flag_emoji": "🇮🇳",
+   "era": "20th century",
+   "tagline": "A modern classical dance style evolved from Kathakali by Guru Gopinath in Kerala.",
+   "profile": "Kerala Natanam is a classical dance form developed by Guru Gopinath and his wife Thankamani Gopinath, evolving from Kathakali and Mohiniyattam traditions. It integrates angika and satvika abhinaya from Kathakali with more accessible postures like tribhanga, and adapts costumes to fit diverse roles, including social and religious characters. It features solo, duet, group, and dance drama formats, often set to Carnatic music with varied instruments. The style emphasizes expressive body movements and facial expressions, and extends traditional dance dramas into longer Indian ballets.",
+   "insight": "In 1993, Kerala Natanam was formally named 'Keraleeya Shaastriya Sargaathmaka Nrittham' at a global conference in Trivandrum, decades after Guru Gopinath created it.",
+   "aliases": [],
+   "related": [
+    "Kathakali",
+    "Mohiniyattam"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kerala_Natanam",
+    "https://www.wikidata.org/wiki/Q3595273"
+   ],
+   "wikipedia_url": "https://en.wikipedia.org/wiki/Kerala_Natanam",
+   "wikidata_qid": "Q3595273",
+   "unesco": false,
+   "hero_video_youtube_id": null,
+   "video_stack": [],
+   "image_significance": null,
+   "lat": null,
+   "lng": null,
+   "tier": "content_ready",
+   "publish_gate": "publish",
+   "_is_sacred": false,
+   "is_sacred": false,
+   "updated_at": "2026-11-14",
+   "origin": "pipeline",
+   "research_gate": "publish",
+   "qc_score": 9.7,
+   "last_researched_at": "2026-11-14T16:28:38Z",
+   "pipeline_version": "v3.3",
+   "profile_long": "Kerala Natanam emerged in Kerala as a distinct classical dance form through the creative efforts of Guru Gopinath, a Kathakali-trained dancer, and his wife Thankamani Gopinath, the first student of Mohiniyattam at Kerala Kalamandalam. They developed a unique pedagogical and performance structure that combined traditional solo, duet, and dance drama pieces with folk dances, creating a versatile repertoire. The style retains the angika abhinaya, the precise body movements and gestures, and the satvika abhinaya, the nuanced facial expressions, from Kathakali, but modifies the rigid Kathakali stance into a more relaxed tribhanga pose, which allows greater fluidity and ease for dancers. \n\nCostuming in Kerala Natanam departs significantly from Kathakali's fixed makeup and attire; instead, costumes and facial makeup are adapted to the character portrayed. For example, a dance depicting Jesus Christ features a costume resembling Christ's traditional iconography, while social dances use attire of peasants or laborers. Roles such as Srikrishna, kings, snake charmers, and hunters are each given appropriate dress, enhancing narrative clarity and cultural relevance. \n\nMusically, Kerala Natanam incorporates Carnatic compositions traditionally used in concerts, but arranged for dance, and expands instrumentation beyond the classical percussion and melodic instruments typical of Kathakali and Mohiniyattam. This broad musical palette supports the varied themes and moods of the dance. \n\nKerala Natanam can be performed as Ekamga Nadanam (solo), Samgha Nadanam (group), or Nataka Nadanam (dance drama), with male-female pair dancing recognized as a distinct style within the form. Guru Gopinath extended the dance drama format into Indian ballets lasting five to six hours, showcasing the narrative depth and theatricality of the style. \n\nAlthough Guru Gopinath did not name his style during his lifetime, his students formalized the name Kerala Natanam in 1993 at a global conference in Trivandrum, defining it as 'Keraleeya Shaastriya Sargaathmaka Nrittham,' meaning a traditional creative dance style originating from Kerala. This recognition helped establish Kerala Natanam as a respected classical dance form distinct from its Kathakali roots.",
+   "albums": [],
+   "album_candidates": [],
+   "images": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Keralanadanam_hs_boys_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Keralanadanam_hs_boys_5.jpg/1280px-Keralanadanam_hs_boys_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3157,
+     "height": 4734,
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0",
+     "attribution": "Shagil Kannur / Wikimedia Commons / CC BY 4.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKeralanadanam_hs_boys_5.jpg",
+     "description": "kerala school kalolsavam"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Kerala_Natanam_Dance_of_Kerala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Kerala_Natanam_Dance_of_Kerala.jpg/1280px-Kerala_Natanam_Dance_of_Kerala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "width": 3712,
+     "height": 5568,
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "attribution": "Shagil Kannur / Wikimedia Commons / CC BY-SA 3.0",
+     "source_page": "https://commons.wikimedia.org/wiki/File%3AKerala_Natanam_Dance_of_Kerala.jpg",
+     "description": "Kerala Natanam (literally Kerala Dance) is a new style of dance that is now recognised as a distinct art form evolved from Kathakali, a form of Indian dance-drama. In this photo dancer Theertha Prakash of Immanuval Higher Secondary School, Koothanellur, Kottayam performing Kerala Natanam at Kerala School Kalolsavam - 2024 held in kollam district.\n\n\n\n\n\nThis media has been taken in the country: Indi"
+    }
+   ],
+   "movie_ready": false,
+   "tradition_status": "living",
+   "related_slugs": [
+    "kathakali",
+    "mohiniyattam"
+   ]
   }
  }
 }

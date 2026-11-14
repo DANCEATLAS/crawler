@@ -1,0 +1,124 @@
+{
+ "slug": "butterfly-dance",
+ "qc_at": "2026-11-14T17:27:39Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 7.5,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Butterfly dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "54"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "119"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Since the 1970s, Jamaican Dancehall dancers flutter their legs like butterfly wi"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "310"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1477"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Jamaica"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Caribbean"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'sacred', 'ceremon', 'spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 7,
+  "respect": 10,
+  "specificity": 6,
+  "teaching_value": 7,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "The claim that the Butterfly dance originated in the 1970s is historically questionable, as the term 'Dancehall' as a distinct musical genre and culture is generally associated with the late 1970s and 1980s, and the specific 'Butterfly' move is more commonly associated with the 1990s dancehall era."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "review",
+  "notes": "The subject is a specific dance move, not a full dance tradition, which complicates the 'is_a_dance' classification. The historical timeline (1970s) for the Butterfly move in Dancehall is likely inaccurate, as it is a hallmark of the 1990s dancehall explosion. The profile is respectful but lacks the depth of specific cultural practitioners."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sacred_handled",
+  "judge_score=7.5",
+  "doubts=1",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-14T17:01:33Z"
+}

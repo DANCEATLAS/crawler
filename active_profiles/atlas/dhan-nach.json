@@ -1,0 +1,125 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Holding hands in pairs or groups, performing movements over paddy",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Straight line or circular formation",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Men and women dance together holding hands without blood relation",
+      "posture": "Upright, holding hands with partners",
+      "signature_moves": [
+        {
+          "description": "Dancers hold hands and move rhythmically over the paddy to symbolically separate husks",
+          "name": "Hand-holding over paddy"
+        }
+      ],
+      "tempo_feel": "Rhythmic, matching Palam song",
+      "what_to_avoid": ""
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "ritualistic",
+        "community",
+        "harvest"
+      ],
+      "musical_form": "Call and response style in Palam folk song",
+      "reference_recordings": [],
+      "rhythm_pattern": "Derived from rhythmic chanting 'Ha... Ha... Ha...' in Palam song",
+      "sound_description": "The music features rhythmic vocal chanting evolved from villagers shouting to scare birds, forming the Palam folk song that guides the dance.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Folk singing with rhythmic calls to scare birds"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Hold hands with partners or group members",
+        "Form a straight line or circle",
+        "Step rhythmically in time with Palam song",
+        "Perform hand-holding movements over paddy",
+        "Repeat call 'Ha... Ha... Ha...' to mimic scaring birds"
+      ],
+      "formation": "Pairs or groups in straight line or circular formation",
+      "level_notes": "Historically performed for seven days and nights; beginners start with holding hands and stepping in time",
+      "rhythm": "Rhythmic pattern matching the Palam folk song"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "0fe8ee6b5abad1fa1ce4ed1251431b29d64ca6f9ee795fe62ab67c45c8061bfc",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:dhan-nach",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Dhan Nach",
+  "research_file": "research_results/dhan-nach.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "dhan-nach",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dhan_Nach",
+    "https://www.wikidata.org/wiki/Q13182447"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

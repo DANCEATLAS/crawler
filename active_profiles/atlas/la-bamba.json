@@ -1,38 +1,69 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex footwork",
+          "improvised lyrics with adult themes"
+        ],
+        "counts": "basic 2/4 rhythm foot taps",
+        "duration_minutes": "3",
+        "game_version": "simplified foot tapping game with ribbon passing"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "fast footwork",
+          "balance-challenging moves",
+          "jumps"
+        ],
+        "counts": "simplified to basic right heel taps",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "reduced tempo and smaller foot movements recommended"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Not described in sources",
-      "difficulty": "Intermediate (due to fast footwork and ribbon tying)",
-      "footwork": "Intricate zapateado emphasizing right heel stamping; fast and precise",
-      "formation_and_space": "Couples dancing together, sometimes multiple couples; spatially centered around ribbon tying",
-      "hips_and_torso": "Not described in sources",
-      "levels_and_jumps": "Not described in sources",
-      "partnering": "Couples perform coordinated footwork and ribbon tying",
-      "posture": "Straight and erect, similar to Irish jig dancers",
+      "arms_and_hands": "not described in sources",
+      "difficulty": "Intermediate due to precise footwork and coordination",
+      "footwork": "Intricate zapateado emphasizing right heel, performed to fast binary rhythm",
+      "formation_and_space": "Danced in couples, sometimes multiple couples; space used for footwork and ribbon tying",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Couples coordinate to tie and toss ribbon knot with feet",
+      "posture": "Straight, erect posture similar to Irish jigs",
       "signature_moves": [
         {
-          "description": "Couples use their feet to tie a large ribbon into a lover's knot on the dance floor, symbolizing union.",
-          "name": "Ribbon Knot Tying"
+          "description": "Dancers use their feet to tie a large red ribbon into a lover's knot on the floor",
+          "name": "Ribbon knot tying"
+        },
+        {
+          "description": "The tied ribbon knot is tossed into the air as a climax of the dance",
+          "name": "Ribbon toss"
         }
       ],
-      "tempo_feel": "Fast binary rhythm, lively and energetic",
-      "what_to_avoid": "Avoid insulting improvised lyrics in social settings to prevent conflicts"
+      "tempo_feel": "Lively, brisk tempo matching music's fast binary rhythm",
+      "what_to_avoid": "Avoid disrespecting the symbolic ribbon tying; do not improvise offensive lyrics in social settings"
     },
     "music_profile": {
       "instruments": [
-        "Arpa jarocha (harp)",
-        "Jarana jarocha (small guitar)",
-        "Requinto jarocho (four-string guitar)"
+        "arpa jarocha (harp)",
+        "jarana jarocha (small guitar)",
+        "requinto jarocho (lead guitar)"
       ],
-      "meter": "Binary meter",
+      "meter": "binary (2/4 or similar)",
       "mood_keywords": [
         "lively",
-        "joyous",
-        "festive"
+        "energetic",
+        "joyous"
       ],
-      "musical_form": "Simple verse-chorus",
+      "musical_form": "Simple verse-chorus with I-IV-V chord progression",
       "reference_recordings": [
         {
           "artist": "Álvaro Hernández Ortiz",
@@ -50,27 +81,26 @@
           "title": "La Bamba"
         }
       ],
-      "rhythm_pattern": "Ostinato arpeggiated pattern supporting zapateado footwork",
-      "sound_description": "Bright harp arpeggios intertwine with rhythmic guitar strumming and lively vocals, driven by a fast, binary rhythm that mirrors the dancers’ energetic footwork.",
-      "tempo_bpm": "Fast tempo (not numerically specified)",
-      "vocal_style": "Improvised lyrics, verse-chorus form"
+      "rhythm_pattern": "Ostinato pattern with arpeggiated bass and rhythmic strumming",
+      "sound_description": "Fast, rhythmic strumming and arpeggiated harp lines create a lively binary rhythm supporting intricate, percussive footwork; vocals are spirited and often improvised.",
+      "tempo_bpm": "fast (exact bpm not described in sources)",
+      "vocal_style": "Improvised lyrics personalized to occasion"
     },
     "teaching": {
       "basic_steps": [
         "Stand erect with straight posture",
-        "Begin with slow stamping of right heel (zapateado)",
-        "Increase tempo to fast binary rhythm",
-        "Perform intricate footwork emphasizing heel taps",
-        "Use feet to tie a ribbon into a knot on the floor",
-        "Toss the ribbon knot into the air to finish"
+        "Perform zapateado footwork emphasizing right heel",
+        "Practice tying a large ribbon into a knot using feet",
+        "Maintain fast, binary rhythm foot taps",
+        "Coordinate with partner to toss the tied ribbon into the air"
       ],
-      "formation": "Couples (traditionally one man and one woman), sometimes multiple couples",
-      "level_notes": "Beginners start with basic heel stamping and posture; advanced dancers perform fast zapateado and ribbon tying",
-      "rhythm": "Fast binary meter with ostinato pattern"
+      "formation": "Couples (man and woman), sometimes multiple couples dancing together",
+      "level_notes": "Beginners start with mastering zapateado footwork and posture; arm and torso movements are not detailed in sources.",
+      "rhythm": "Fast binary meter"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "fff017d71d0c0e1bb01304481a7f15c4444064b99c603f340f00c6795d823d4c",
+  "fingerprint": "398a2355883c67a1d01b7536bd81df2c21affb7ee1ff2efdcbb34cf126ed470d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -123,6 +153,6 @@
     "https://pt.wikipedia.org/wiki/La_Bamba_(canção_de_1958)",
     "https://archive.org/details/ERIC_ED342705"
   ],
-  "state": "teaching_withheld",
+  "state": "researching",
   "video_evidence": []
 }

@@ -1,13 +1,85 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Right hand overlaps left hand of neighbor; hands held firmly to maintain chain",
+      "difficulty": "beginner to intermediate",
+      "footwork": "Six-step pattern moving leftward: step left forward, right foot replaces left, repeat, then right foot steps sideways or back, left foot follows",
+      "formation_and_space": "Continuous circle or multiple concentric circles; dancers follow chain's curves, passing face-to-face twice per round",
+      "hips_and_torso": "Minimal hip movement; torso follows circle's curvature",
+      "levels_and_jumps": "No jumps; levels steady and grounded",
+      "partnering": "No partner dancing; communal holding of hands in chain",
+      "posture": "Upright, holding hands firmly with neighbors; relaxed upper body",
+      "signature_moves": [
+        {
+          "description": "Basic six-step leftward movement pattern matching ballad rhythm",
+          "name": "Stígingarstev"
+        },
+        {
+          "description": "Standing mostly still or moving backward during verses, stepping forward during refrains",
+          "name": "Trokingarstev"
+        },
+        {
+          "description": "Ribbon dance with two rows passing under raised ribbons during refrains",
+          "name": "Bandadansur"
+        }
+      ],
+      "tempo_feel": "Steady and rhythmic; tempo varies with ballad",
+      "what_to_avoid": "Avoid breaking the hand chain; avoid stepping out of rhythm; avoid excessive upper body movement that breaks circle integrity"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "six-bar phrases",
+      "mood_keywords": [
+        "solemn",
+        "lively",
+        "narrative",
+        "heroic"
+      ],
+      "musical_form": "ballads with verses and refrains",
+      "reference_recordings": [],
+      "rhythm_pattern": "monotonous foot stamping accompanying vocal ballads",
+      "sound_description": "A cappella ballad singing with steady, rhythmic foot stamping providing a percussive pulse; the voice leads the melody with communal chorus responses.",
+      "tempo_bpm": "varies with ballad mood; slow for solemn ballads, lively for quick ones",
+      "vocal_style": "lead singer (skipari) sings verses solo; dancers join chorus; unaccompanied singing"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Left foot steps forward to the left",
+        "Right foot steps to the left, replacing left foot's position",
+        "Left foot steps forward to the left again",
+        "Right foot follows forward",
+        "Right foot steps sideways to the right or one step backward",
+        "Left foot follows right foot"
+      ],
+      "formation": "Continuous circle holding hands with right hand overlapping left of neighbor; multiple concentric circles form when many dancers join",
+      "level_notes": "Beginners start with the basic six-step stígingarstev pattern and holding hands properly; learning to follow the chain's curves and passing face-to-face comes with experience.",
+      "rhythm": "Six-step pattern matching six-bar phrases of ballads"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "3d2df8a21bbc8d65899b6f86c4116f6e5a4e41c78c82fdc3c3a736279bac3b24",
+  "fingerprint": "77453a5d837a3e0dbb6e78639c78ab5e0e2bc0b642005b4ca46d0c50dc7c4bb2",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +87,6 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +114,7 @@
   ],
   "music_options": [],
   "name": "Faroese chain dance",
-  "research_file": null,
+  "research_file": "research_results/faroese-chain-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +126,8 @@
   "slug": "faroese-chain-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Faroese_chain_dance",
-    "Source: Faroese chain dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Faroese_chain_dance"
+    "https://www.wikidata.org/wiki/Q615031",
+    "https://de.wikipedia.org/wiki/Färöischer_Kettentanz"
   ],
   "state": "researching",
   "video_evidence": []

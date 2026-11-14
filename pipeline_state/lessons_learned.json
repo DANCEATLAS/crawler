@@ -1,34 +1,34 @@
 {
- "updated_at": "2026-11-13T17:15:42Z",
- "qc_records_considered": 552,
+ "updated_at": "2026-11-14T15:52:05Z",
+ "qc_records_considered": 587,
  "gate_failures": [
   [
    "sections_filled",
-   113
+   129
   ],
   [
    "citations",
-   78
+   83
   ],
   [
    "insight_concrete",
-   70
+   69
   ],
   [
    "profile_long_len",
+   64
+  ],
+  [
+   "country",
    61
   ],
   [
    "sacred_handled",
-   56
-  ],
-  [
-   "country",
-   55
+   58
   ],
   [
    "banned_phrasing",
-   54
+   58
   ],
   [
    "not_duplicate",
@@ -36,7 +36,7 @@
   ],
   [
    "sources",
-   10
+   14
   ],
   [
    "region",
@@ -46,49 +46,49 @@
  "reasons": [
   [
    "sacred",
-   223
+   239
   ],
   [
    "sections_filled",
-   113
+   129
   ],
   [
    "not_a_dance",
-   106
+   112
   ],
   [
    "citations",
-   78
+   83
   ],
   [
    "insight_concrete",
-   70
+   69
   ],
   [
    "profile_long_len",
+   64
+  ],
+  [
+   "country",
    61
   ],
   [
    "sacred_handled",
-   56
-  ],
-  [
-   "country",
-   55
+   58
   ],
   [
    "banned_phrasing",
-   54
+   58
   ],
   [
    "doubts=1",
-   45
+   47
   ]
  ],
  "judge_notes": [
   [
    "judge notes mention 'unsupported'",
-   29
+   32
   ],
   [
    "judge notes mention 'thin'",
@@ -96,7 +96,7 @@
   ],
   [
    "judge notes mention 'missing'",
-   13
+   14
   ],
   [
    "judge notes mention 'generic'",
@@ -107,112 +107,112 @@
    6
   ],
   [
-   "doubt: The claim regarding a 'distinct military tradition of character dance' in France involving 'dance assaults' and 'provost",
+   "judge notes mention 'placeholder'",
+   2
+  ],
+  [
+   "doubt: The claim that Pilou was 'banned by France' is a common historical oversimplification; while colonial policies suppresse",
    1
   ],
   [
-   "doubt: The profile describes 'Australian dance' as a single tradition, whereas it is a national category containing disparate, ",
+   "doubt: The claim that it was 'last reported in 1951' is factually dubious as the term 'Pilou' continues to be used in contempor",
    1
   ],
   [
-   "doubt: Medieval dance is treated as a single unified entity rather than a broad historical era spanning diverse cultures and ce",
+   "doubt: The claim that 6th-century figurines from the Martin's treasure are the 'oldest known depictions' of the hopak is a hist",
    1
   ],
   [
-   "doubt: The profile conflates Mangalamkali with Irula Nritham throughout, using evidence exclusively about Irula Nritham to desc",
-   1
-  ],
-  [
-   "doubt: The dance is performed by men to impress the audience.",
+   "doubt: The profile treats 'Hopak-Kolom' as a distinct, established dance tradition, whereas 'kolom' (circle) is a descriptive t",
    1
   ]
  ],
  "episode_gaps_top": [
   [
    "tempo (bpm)",
-   272
+   291
   ],
   [
    "a verified recording to listen to",
-   252
+   272
   ],
   [
    "meter",
-   206
+   221
   ],
   [
    "licensed images (3 needed)",
-   206
+   216
   ],
   [
    "the hero video's vision check",
-   181
+   190
   ],
   [
    "licensed reference footage",
-   162
+   177
   ],
   [
    "two or more connections",
-   154
+   170
   ],
   [
    "what to avoid / common mistakes",
-   129
+   140
   ],
   [
    "instruments",
-   93
+   102
   ],
   [
    "signature moves",
-   83
+   91
   ],
   [
    "the how-it-is-danced section",
-   81
+   87
   ],
   [
-   "posture, arms and hands",
-   74
+   "notable figures",
+   79
   ]
  ],
  "avoid": [
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (113 pages in 30 days)",
-  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (78 pages in 30 days)",
-  "the insight line was vague — put a person, a place, a year or a number in it (70 pages in 30 days)",
-  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (61 pages in 30 days)",
-  "a sacred dance had no sacred_note — add one (56 pages in 30 days)"
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (129 pages in 30 days)",
+  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (83 pages in 30 days)",
+  "the insight line was vague — put a person, a place, a year or a number in it (69 pages in 30 days)",
+  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (64 pages in 30 days)",
+  "a sacred dance had no sacred_note — add one (58 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "tempo (bpm)",
-   "pages": 272,
+   "pages": 291,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
    "gap": "a verified recording to listen to",
-   "pages": 252,
+   "pages": 272,
    "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
   },
   {
    "gap": "meter",
-   "pages": 206,
+   "pages": 221,
    "what_helps": "a source that states the time signature"
   },
   {
    "gap": "licensed images (3 needed)",
-   "pages": 206,
+   "pages": 216,
    "what_helps": "a Wikimedia Commons category or file link in an editor note"
   },
   {
    "gap": "the hero video's vision check",
-   "pages": 181,
+   "pages": 190,
    "what_helps": "the vision model has not reached it yet — it will (60 a day)"
   },
   {
    "gap": "licensed reference footage",
-   "pages": 162,
+   "pages": 177,
    "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
   }
  ]

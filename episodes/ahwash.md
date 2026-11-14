@@ -1,8 +1,8 @@
 # Ahwash — episode pack
 
-*Status: withheld-chapters · built 2026-11-12 · judge 8.55 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-14 · judge 8.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage; signature moves; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; signature moves; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -98,7 +98,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'KiZuN0K9FsE', 'checked_by_vision_model': False, 'title': 'Imlil Cultural festival . Ahwash Aid Imlil 2019 #ahwach #morocco #traditional'}
+Hero video: {'youtube_id': 'KiZuN0K9FsE', 'checked_by_vision_model': True, 'title': 'Imlil Cultural festival . Ahwash Aid Imlil 2019 #ahwach #morocco #traditional'}
 Images: 8 licensed — Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Dounia Benjelloun-Mezian / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Frame drums, Saint's tomb architecture, Large groups in traditional dress, High Atlas mountain backdrop

@@ -1,10 +1,10 @@
 {
  "slug": "iranian-dance",
- "qc_at": "2026-11-06T18:38:15Z",
+ "qc_at": "2026-11-14T17:24:36Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 9.7,
+ "qc_score": 9.85,
  "gates": [
   {
    "gate": "has_name",
@@ -19,22 +19,22 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "151"
+   "detail": "131"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Archaeological evidence of dance in Iran, including depictions of performers, da"
+   "detail": "Archaeological sites across Iran reveal dance depictions dating back to the 6th "
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "417"
+   "detail": "392"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "2318"
+   "detail": "2908"
   },
   {
    "gate": "sections_filled",
@@ -44,7 +44,7 @@
   {
    "gate": "citations",
    "ok": true,
-   "detail": "6/6 rate=1.0"
+   "detail": "8/8 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": "tapestry"
+   "detail": ""
   },
   {
    "gate": "ai_tells",
@@ -74,7 +74,7 @@
   {
    "gate": "no_repetition",
    "ok": true,
-   "detail": "3 paras"
+   "detail": "5 paras"
   },
   {
    "gate": "not_duplicate",
@@ -84,14 +84,14 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=True cues=['ritual', 'ceremon', 'possession', 'worship', 'exorcis', 'spirit', 'sufi', 'religious']"
+   "detail": "sacred=True cues=['ritual', 'trance', 'worship', 'exorcis', 'spirit', 'sufi', 'religious']"
   }
  ],
  "judge": {
   "accuracy": 10,
   "respect": 10,
   "specificity": 10,
-  "teaching_value": 8,
+  "teaching_value": 9,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
@@ -101,19 +101,19 @@
   "adaptations_safe": true,
   "overall": 10,
   "verdict": "publish",
-  "notes": "Comprehensive, highly accurate profile of Iranian dance traditions with strong historical and cultural context."
+  "notes": "Comprehensive, highly specific, and respectful profile adhering strictly to evidence claims and cultural boundaries."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "judge_score=9.7",
+  "judge_score=9.85",
   "sacred"
  ],
  "citation": {
-  "claims": 6,
-  "supported": 6,
+  "claims": 8,
+  "supported": 8,
   "rate": 1.0
  },
- "researched_at": "2026-11-06T17:47:36Z"
+ "researched_at": "2026-11-14T16:34:44Z"
 }

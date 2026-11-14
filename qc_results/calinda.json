@@ -1,0 +1,120 @@
+{
+ "slug": "calinda",
+ "qc_at": "2026-11-14T17:27:24Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 8.85,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Calinda"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "81"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "157"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1894, Louisiana writer Kate Chopin referenced Calinda dance in her story 'La "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "409"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2887"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "10/10 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "6"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Caribbean (Trinidad and Tobago, Haiti, Guadeloupe, Martinique), United States (Louisiana)"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Caribbean"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'ceremon', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 9,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "The profile is well-researched, accurately citing historical and cultural contexts. It correctly identifies the martial art and dance components. The distinction between the various regional stick-fighting traditions is handled with appropriate nuance. The teaching section provides a helpful, safe framework for beginners."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sacred_handled",
+  "judge_score=8.85",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 10,
+  "supported": 10,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-14T16:50:56Z"
+}

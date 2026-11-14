@@ -1,0 +1,119 @@
+{
+ "youtube_id": "Yk0qXQPN-So",
+ "slug": "robot",
+ "dance": "robot",
+ "title": "How to Do the Robot | MJ Dancing",
+ "channel": "Howcast",
+ "viewer_ratio": 1.5,
+ "analysed_at": "2026-11-14T17:46:38Z",
+ "url": "https://www.youtube.com/watch?v=Yk0qXQPN-So",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor breaks down Michael Jackson robot styles using casual explanations and rhythmic vocal sounds. He demonstrates each movement step-by-step from different angles to guide learners.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:10",
+    "segment": "intro",
+    "note": "Introduction to MJ robot styles"
+   },
+   {
+    "t": "0:33",
+    "segment": "breakdown",
+    "note": "Breakdown of the Billy Jean ticking robot style"
+   },
+   {
+    "t": "1:39",
+    "segment": "breakdown",
+    "note": "Breakdown of the Human Nature robot style"
+   }
+  ],
+  "counting_scheme": "5-6-7-8",
+  "cues": [
+   "tick each part",
+   "lock your arms"
+  ],
+  "metaphors": [
+   "puts his hand on the wall"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side",
+    "back"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Billy Jean Ticking Robot",
+    "counts": "free count",
+    "description": "Walking motion with rigid ticking isolation across body parts."
+   },
+   {
+    "name": "Human Nature Robot",
+    "counts": "free count",
+    "description": "Wide stance with arms pushing and locking against invisible walls."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "clear visual isolation of body parts",
+    "slow demonstrations from profile view"
+   ],
+   "what_hinders": [
+    "lack of explicit verbal counting",
+    "fast transitions between steps"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:34",
+    "text": "Let's do the first which would be the Billy Jean."
+   },
+   {
+    "t": "1:06",
+    "text": "What you want to do is tick every part of your body."
+   },
+   {
+    "t": "1:40",
+    "text": "Now we're going to do the Human Nature robot."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 10,
+    "end_s": 33,
+    "topic": "teaching",
+    "observation": "Instructor talking directly to camera introducing two robot variations.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 37,
+    "end_s": 60,
+    "topic": "movement",
+    "observation": "Instructor demonstrating profile ticking walk with bent knees and locked joints.",
+    "viewpoint": "side",
+    "cannot_infer": "exact weight distribution between steps",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Uses vocal sound effects like tick and shoop to emphasize robotic movements and locking actions."
+ }
+}

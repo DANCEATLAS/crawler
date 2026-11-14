@@ -2,7 +2,7 @@
  "slug": "slide",
  "name": "Slide",
  "pack_version": "e2",
- "built_at": "2026-11-13T18:27:38Z",
+ "built_at": "2026-11-14T17:47:19Z",
  "researched_at": "2026-11-05T17:52:09Z",
  "qc_score": 9.3,
  "status": "draft",
@@ -304,7 +304,8 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Teachers of this dance warn against: picking up the leg instead of keeping it flat on the ground"
+      "Teachers of this dance warn against: picking up the leg instead of keeping it flat on the ground",
+      "Teachers of this dance warn against: not moving the foot in the correct direction and pointing straight inside"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction"
@@ -441,7 +442,8 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Teachers of this dance warn against: picking up the leg instead of keeping it flat on the ground"
+      "Teachers of this dance warn against: picking up the leg instead of keeping it flat on the ground",
+      "Teachers of this dance warn against: not moving the foot in the correct direction and pointing straight inside"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction"
@@ -578,7 +580,8 @@
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
      "narration": [
-      "Teachers of this dance warn against: picking up the leg instead of keeping it flat on the ground"
+      "Teachers of this dance warn against: picking up the leg instead of keeping it flat on the ground",
+      "Teachers of this dance warn against: not moving the foot in the correct direction and pointing straight inside"
      ],
      "on_screen": [
       "Side-by-side: source-supported correction"
@@ -735,37 +738,49 @@
   ]
  },
  "teaching_formula": {
-  "source": "2 tutorial(s) of this dance studied",
-  "videos_studied": 2,
+  "source": "3 tutorial(s) of this dance studied",
+  "videos_studied": 3,
   "counting": "1-2-3-4",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: back, front, side",
+   "views used by most teachers: front, side, mirror",
    "tempo progression: slow → full",
    "repetitions per step: about 8"
   ],
   "cues": [
+   "keep it flat on the ground",
+   "switch",
+   "slide",
+   "hit",
    "step to the right",
    "now kick",
    "now twist and turn",
    "grapevine",
-   "keep it flat on the ground",
-   "switch",
-   "slide",
-   "hit"
+   "put your right leg or your left leg",
+   "give a push to the left side",
+   "point the other toe in the outer direction",
+   "take the left heel outside"
   ],
   "common_mistakes": [
-   "picking up the leg instead of keeping it flat on the ground"
+   "picking up the leg instead of keeping it flat on the ground",
+   "not moving the foot in the correct direction and pointing straight inside"
   ],
   "segment_order": [
    "intro",
+   "context",
    "slow_practice",
    "breakdown",
    "music_practice",
    "count_in",
+   "full_demo",
    "recap"
   ],
   "steps_as_taught": [
+   {
+    "name": "Slide Step",
+    "counts": "1-8",
+    "description": "Step out and slide the foot flat along the ground while coordinating arm movements"
+   },
    {
     "name": "Cupid Shuffle steps",
     "counts": "4",
@@ -797,9 +812,9 @@
     "description": "Step and kick with turn."
    },
    {
-    "name": "Slide Step",
-    "counts": "1-8",
-    "description": "Step out and slide the foot flat along the ground while coordinating arm movements"
+    "name": "Sidewalk / Glide",
+    "counts": "1-2",
+    "description": "Sliding the feet outward and inward with heel and toe pivots."
    }
   ]
  },
@@ -824,6 +839,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "5683eaf3224b7a3d9d3da933583cbd0ed55f097e2f8461ea88fb028a2f357d89",
+ "input_fingerprint": "3aab35be56873e0631d09ecb18f60bd1a01d401b2d99bae3877e56c0433187af",
  "hero_checked": null
 }

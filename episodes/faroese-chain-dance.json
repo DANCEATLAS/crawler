@@ -1,0 +1,836 @@
+{
+ "slug": "faroese-chain-dance",
+ "name": "Faroese chain dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-14T17:47:19Z",
+ "researched_at": "2026-11-14T17:02:25Z",
+ "qc_score": 8.9,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Experienced Faroese chain dance leader, knowledgeable in kvæði singing and dance variations, patient and encouraging",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Faroese chain dance",
+   "Føroyskur dansur",
+   "Kædedans"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Faroese chain dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Circle of Stories: The Faroese Chain Dance",
+     "This is Faroese chain dance. Medieval to present."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (__iXQgJencw)",
+     "Title card: Faroese chain dance · Faroe Islands · Medieval to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Faroese chain dance is a medieval dance form preserved in the Faroe Islands, where it remains a living tradition.",
+     "It is closely linked to the singing of kvæði, traditional Faroese ballads that tell stories of heroes and history.",
+     "Historically, the dance was not performed during Lent, a practice believed to date back to the Catholic Middle Ages."
+    ],
+    "on_screen": [
+     "Map: Faroe Islands · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The Faroese chain dance is a communal folk tradition practiced mainly during the dark winter months, from September or October until Lent.",
+     "It is traditionally not danced during Lent, reflecting historical religious customs.",
+     "The dance is central to social gatherings and cultural celebrations, including the national holiday Ólavsøka, where thousands participate in the midnight dance.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Dancers form a continuous circle holding hands, with the right hand overlapping the left hand of the neighbor.",
+     "The basic step, stígingarstev, involves six rhythmic foot movements to the left: left foot steps forward left, right foot steps to left, left foot steps forward left, right foot follows, right foot steps sideways or backward, left foot follows.",
+     "This pattern repeats steadily to the ballad's rhythm.",
+     "Watch for Stígingarstev, Trokingarstev, Bandadansur."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (__iXQgJencw)",
+     "Captions name each signature move as it appears",
+     "Formation: Continuous circle or multiple concentric circles; dancers follow chain's curves, passing face-to-face twice per round"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The dance is accompanied solely by singing of kvæði, Faroese ballads performed a cappella without instrumental accompaniment.",
+     "The ballads are sung by a lead singer called the skipari, who knows all verses, while the dancers join in at the chorus.",
+     "The pulse is six-bar phrases.",
+     "A cappella ballad singing with steady, rhythmic foot stamping providing a percussive pulse; the voice leads the melody with communal chorus responses."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: monotonous foot stamping accompanying vocal ballads"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The dance is traditionally performed indoors during the dark winter months, from autumn until the start of Lent, often in community halls or private gatherings.",
+     "At large events like Ólavsøka, the national holiday, the dance takes place outdoors late at night.",
+     "There is no specific costume mandated, but dancers often wear traditional or everyday clothing suitable for communal folk dancing."
+    ],
+    "on_screen": [
+     "Image gallery: 3 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The skipari, or lead singer, is a central figure in the dance, responsible for knowing and singing all verses of the kvæði.",
+     "Several Faroese dance associations have been instrumental in preserving and promoting the dance, including Tvøroyrar Dansifelag (founded 1983, originally 1958), Sumbiar Dansifelag (1966), and Dansifelagið í Havn (1952).",
+     "Three main variants exist: the common stígingarstev, characterized by slow leftward stepping; the trokingarstev, where dancers stand mostly still or move backward during verses and step forward during refrains, more common in southern islands like Suðuroy; and the bandadansur or ribbon dance, involving two rows holding ribbons and passing under raised ribbons during refrains.",
+     "The Faroese chain dance is a direct descendant of medieval circle dances, preserved uniquely in the Faroe Islands."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Faroese chain dance is shares region of Danish folk dance: Both are Nordic folk dances with circle formations, but Faroese chain dance uniquely uses only vocal ballads without instruments."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Left foot steps forward to the left",
+     "Right foot steps to the left, replacing left foot's position",
+     "Count it: count the six-bar phrases bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how the Faroe Islands' medieval chain dance brings ancient ballads to life through communal movement and song.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Learn basic hand hold and six-step pattern",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Learn basic hand hold and six-step pattern.",
+      "Level: Beginner. Difficulty of the dance overall: beginner to intermediate.",
+      "Your instructor: Experienced Faroese chain dance leader, knowledgeable in kvæði singing and dance variations, patient and encouraging"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, holding hands firmly with neighbors; relaxed upper body",
+      "Right hand overlaps left hand of neighbor; hands held firmly to maintain chain",
+      "Minimal hip movement; torso follows circle's curvature"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the six-bar phrases bar out loud, then in pairs of bars. The meter is six-bar phrases.",
+      "Rhythm pattern: monotonous foot stamping accompanying vocal ballads.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Left foot steps forward to the left",
+      "Step 2: Right foot steps to the left, replacing left foot's position",
+      "Footwork from the sources: Six-step pattern moving leftward: step left forward, right foot replaces left, repeat, then right foot steps sideways or back, left foot follows",
+      "Drill: Practice right hand overlapping left hand hold"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the six-bar phrases bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Left foot steps forward to the left again",
+      "Step 4: Right foot follows forward",
+      "Drill: Step left foot forward left slowly"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the six-bar phrases bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Follow with right foot replacing left foot position"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid breaking the hand chain; avoid stepping out of rhythm; avoid excessive upper body movement that breaks circle integrity"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the six-bar phrases bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Learn basic hand hold and six-step pattern.",
+      "The Faroese chain dance is a communal folk tradition practiced mainly during the dark winter months, from September or October until Lent.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Follow chain curves and join chorus singing",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Follow chain curves and join chorus singing.",
+      "Level: Intermediate. Difficulty of the dance overall: beginner to intermediate.",
+      "Your instructor: Experienced Faroese chain dance leader, knowledgeable in kvæði singing and dance variations, patient and encouraging"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, holding hands firmly with neighbors; relaxed upper body",
+      "Right hand overlaps left hand of neighbor; hands held firmly to maintain chain",
+      "Minimal hip movement; torso follows circle's curvature"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the six-bar phrases bar out loud, then in pairs of bars. The meter is six-bar phrases.",
+      "Rhythm pattern: monotonous foot stamping accompanying vocal ballads.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Right foot steps sideways to the right or one step backward",
+      "Step 2: Left foot follows right foot",
+      "Drill: Practice moving with chain's inward and outward curves"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the six-bar phrases bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Stígingarstev: Basic six-step leftward movement pattern matching ballad rhythm",
+      "Trokingarstev: Standing mostly still or moving backward during verses, stepping forward during refrains",
+      "Drill: Coordinate foot stamping with singing chorus"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the six-bar phrases bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Practice passing face-to-face with other dancers"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid breaking the hand chain; avoid stepping out of rhythm; avoid excessive upper body movement that breaks circle integrity"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the six-bar phrases bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Continuous circle or multiple concentric circles; dancers follow chain's curves, passing face-to-face twice per round"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Follow chain curves and join chorus singing.",
+      "The skipari, or lead singer, is a central figure in the dance, responsible for knowing and singing all verses of the kvæði.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform trokingarstev and bandadansur variants",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform trokingarstev and bandadansur variants.",
+      "Level: Advanced. Difficulty of the dance overall: beginner to intermediate.",
+      "Your instructor: Experienced Faroese chain dance leader, knowledgeable in kvæði singing and dance variations, patient and encouraging"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, holding hands firmly with neighbors; relaxed upper body",
+      "Right hand overlaps left hand of neighbor; hands held firmly to maintain chain",
+      "Minimal hip movement; torso follows circle's curvature"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the six-bar phrases bar out loud, then in pairs of bars. The meter is six-bar phrases.",
+      "Rhythm pattern: monotonous foot stamping accompanying vocal ballads.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Right foot steps sideways to the right or one step backward",
+      "Step 2: Left foot follows right foot",
+      "Drill: Practice stillness and backward steps during verses"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the six-bar phrases bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Bandadansur: Ribbon dance with two rows passing under raised ribbons during refrains",
+      "Drill: Practice forward steps during refrains"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the six-bar phrases bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Learn ribbon handling and passing under ribbons"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid breaking the hand chain; avoid stepping out of rhythm; avoid excessive upper body movement that breaks circle integrity"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction"
+     ],
+     "music": "silence",
+     "options": [],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the six-bar phrases bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Continuous circle or multiple concentric circles; dancers follow chain's curves, passing face-to-face twice per round"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform trokingarstev and bandadansur variants.",
+      "The Faroese chain dance is a direct descendant of medieval circle dances, preserved uniquely in the Faroe Islands.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "six-bar phrases",
+  "rhythm_pattern": "monotonous foot stamping accompanying vocal ballads",
+  "instruments": [],
+  "vocal_style": "lead singer (skipari) sings verses solo; dancers join chorus; unaccompanied singing",
+  "musical_form": "ballads with verses and refrains",
+  "mood": [
+   "solemn",
+   "lively",
+   "narrative",
+   "heroic"
+  ],
+  "sound_description": "A cappella ballad singing with steady, rhythmic foot stamping providing a percussive pulse; the voice leads the melody with communal chorus responses.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Faroese chain dance (Faroe Islands). Meter six-bar phrases. Rhythm pattern: monotonous foot stamping accompanying vocal ballads. Vocal style: lead singer (skipari) sings verses solo; dancers join chorus; unaccompanied singing. Form: ballads with verses and refrains. Mood: solemn, lively, narrative, heroic. It should sound like this: A cappella ballad singing with steady, rhythmic foot stamping providing a percussive pulse; the voice leads the melody with communal chorus responses. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "__iXQgJencw",
+   "checked_by_vision_model": false,
+   "title": null
+  },
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "The dance is traditionally performed indoors during the dark winter months, from autumn until the start of Lent, often in community halls or private gatherings. At large events like Ólavsøka, the national holiday, the dance takes place outdoors late at night. There is no specific costume mandated, but dancers often wear traditional or everyday clothing suitable for communal folk dancing. The setting emphasizes communal participation rather than performance spectacle.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AK%C3%A6dedans.JPG",
+    "https://commons.wikimedia.org/wiki/File%3AFaroese_Chain_Dance_in_Sjonleikarhusid_on_Olavsoka_2011.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AFaroese_Chain_Dance_in_Dansistovan_in_Sumba_2011.JPG"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/K%C3%A6dedans.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3b/K%C3%A6dedans.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AK%C3%A6dedans.JPG",
+    "description": ""
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Faroese_Chain_Dance_in_Sjonleikarhusid_on_Olavsoka_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Faroese_Chain_Dance_in_Sjonleikarhusid_on_Olavsoka_2011.jpg/1280px-Faroese_Chain_Dance_in_Sjonleikarhusid_on_Olavsoka_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Eileen Sandá / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AFaroese_Chain_Dance_in_Sjonleikarhusid_on_Olavsoka_2011.jpg",
+    "description": "Faroese (and perhaps some foreign too) are dancing Faroese chain dance in Tórshavn in a place called Sjónleikarhúsið (a former theatre). The Faroese dance is a very old tradition, no instruments are used, the dancers are only using their voices to sing the Faroese and Danish ballads (kvæði), which sometimes can be very long, more than 100 or 200 verses. This photo was taken on Ólavsøka (Sct. Olav'"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Faroese_Chain_Dance_in_Dansistovan_in_Sumba_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Faroese_Chain_Dance_in_Dansistovan_in_Sumba_2011.JPG/1280px-Faroese_Chain_Dance_in_Dansistovan_in_Sumba_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Eileen Sandá / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AFaroese_Chain_Dance_in_Dansistovan_in_Sumba_2011.JPG",
+    "description": "Faroese chain dance (folkdance) in the village Sumba, which is the southernmost village in Suðuroy and in the Faroe Islands. The people from Sumba have strong traditions regarding the Faroese chain dance (føroyskur dansur) and with the tradition with singing \"kvæði\" folk songs (the folk songs accompany the dance as the only music, no instruments are used). At the beginning of the Lent period they "
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Hands overlapping in chain",
+   "Feet stamping rhythmically",
+   "Concentric circles of dancers",
+   "Raised ribbons forming tunnels",
+   "Expressive faces reflecting ballad stories"
+  ],
+  "costume_notes": "The dance is traditionally performed indoors during the dark winter months, from autumn until the start of Lent, often in community halls or private gatherings. At large events like Ólavsøka, the national holiday, the dance takes place outdoors late at night. There is no specific costume mandated, but dancers often wear traditional or everyday clothing suitable for communal folk dancing. The setting emphasizes communal participation rather than performance spectacle.",
+  "setting_notes": "The Faroese chain dance is a communal folk tradition practiced mainly during the dark winter months, from September or October until Lent. It is traditionally not danced during Lent, reflecting historical religious customs. The dance is central to social gatherings and cultural celebrations, including the national holiday Ólavsøka, where thousands participate in the midnight dance. The dance expresses the narrative of Faroese ballads, with dancers physically embodying emotions and events described in the songs. It serves as a living link to Faroese history and identity.",
+  "map": {
+   "country": "Faroe Islands",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "17 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 17,
+  "counting": "count the six-bar phrases bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "step back and instead of her hand being on my shoulder",
+   "we're going to bump sides just like this",
+   "we're going to step towards each other",
+   "we're going to do a spin a little bit",
+   "step your right foot sideward",
+   "close your left foot",
+   "point your left foot",
+   "hold your skirt"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "count_in",
+   "full_demo",
+   "warmup",
+   "breakdown",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "instruments",
+  "a verified recording to listen to",
+  "the hero video's vision check",
+  "licensed reference footage",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Faroese_chain_dance",
+  "https://www.wikidata.org/wiki/Q615031",
+  "https://de.wikipedia.org/wiki/Färöischer_Kettentanz"
+ ],
+ "claims_verified": 6,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "9fd9bbf69d24cd64bcd7f602b797492e2f1f0586321fc9bc0ba851fe124f2829",
+ "hero_checked": "fail"
+}

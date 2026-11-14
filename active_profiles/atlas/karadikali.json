@@ -1,0 +1,135 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Performer moves through the courtyards of houses, visiting all houses in the locality.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Interaction between the bear character and the hunter character (Sayippu).",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "The bear steps to the rhythm of the music in the courtyard.",
+          "name": "Bear Rhythm Step"
+        },
+        {
+          "description": "The hunter shoots the bear down using a bow and arrow or a wooden gun, causing the bear to 'die' in the courtyard.",
+          "name": "The Hunter's Shot"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "kaimani",
+        "kanjira",
+        "cymbals",
+        "drums"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "festive",
+        "narrative",
+        "playful"
+      ],
+      "musical_form": "accompaniment songs for folk dance narrative",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "Accompanied by singers and drummers playing traditional folk instruments including kaimani, kanjira, and cymbals in the background while performers dance to the tune of Karadippattu.",
+      "tempo_bpm": "",
+      "vocal_style": "group singing of Karadippattu"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stepping to the rhythm as a bear in the courtyard",
+        "Enacting the final shooting sequence using a bow and arrow"
+      ],
+      "formation": "Performers move through the courtyards of houses, visiting multiple locations in a locality.",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "de1e51f196ce8ea6786d2428f47db5bafbc411ecea4783713479cdb329f303d8",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:karadikali",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Karadikali",
+  "research_file": "research_results/karadikali.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "karadikali",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Karadikali",
+    "https://www.wikidata.org/wiki/Q13110989"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

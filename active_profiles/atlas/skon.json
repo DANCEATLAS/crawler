@@ -1,13 +1,92 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "Fast, lively, energetic",
+      "what_to_avoid": ""
+    },
+    "music_profile": {
+      "instruments": [
+        "flute",
+        "oboe",
+        "clarinet",
+        "bassoon",
+        "horn",
+        "trumpet",
+        "trombone",
+        "timpani",
+        "cymbals",
+        "bass drum",
+        "triangle",
+        "strings"
+      ],
+      "meter": "2/4 or 2/2",
+      "mood_keywords": [
+        "lively",
+        "energetic",
+        "bright",
+        "colorful",
+        "rhythmic"
+      ],
+      "musical_form": "short orchestral dance piece with contrasting themes",
+      "reference_recordings": [
+        {
+          "artist": "Katia et Marielle Labèque",
+          "source": "https://fr.wikipedia.org/wiki/Danses_slaves",
+          "title": "Slavonic Dances Op. 46 & Op. 72"
+        },
+        {
+          "artist": "Czech Philharmonic, 1955",
+          "source": "https://en.wikipedia.org/wiki/Slavonic_Dances",
+          "title": "Václav Talich recording Dvořák Slavonic Dances"
+        }
+      ],
+      "rhythm_pattern": "accented, lively duple meter patterns evoking jumping movements",
+      "sound_description": "The skočná's music is characterized by brisk, accented rhythms in a lively duple meter, played by a full classical orchestra with bright woodwinds, bold brass, crisp percussion, and vibrant strings, creating an energetic and colorful sound that evokes the dance's jumping character.",
+      "tempo_bpm": "fast, vivace or allegro",
+      "vocal_style": "instrumental only"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "Technique not described in sources",
+      "rhythm": "Typically lively duple meter (2/4 or 2/2), fast tempo"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "cf900023a505adbfb016c08e2b449f7c7541b24132dc7bda7bc915e82da2afd9",
+  "fingerprint": "2a7bde8494c0872036e1b500bc8d0dbc3101e147ab99e78cec06306023379163",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +94,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +122,7 @@
   ],
   "music_options": [],
   "name": "Skočná",
-  "research_file": null,
+  "research_file": "research_results/skon.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -56,9 +133,12 @@
   },
   "slug": "skon",
   "sources": [
-    "https://en.wikipedia.org/wiki/Sko%C4%8Dn%C3%A1",
-    "Source: Skočná on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Sko%C4%8Dn%C3%A1"
+    "https://en.wikipedia.org/wiki/Slavonic_Dances",
+    "https://www.wikidata.org/wiki/Q1468901",
+    "https://es.wikipedia.org/wiki/Danzas_eslavas",
+    "https://fr.wikipedia.org/wiki/Danses_slaves",
+    "https://pt.wikipedia.org/wiki/Danças_Eslavas"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

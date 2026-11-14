@@ -1,8 +1,8 @@
 # Harul — episode pack
 
-*Status: draft · built 2026-11-13 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-14 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed reference footage; notable figures; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed reference footage; notable figures; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A community elder or traditional dancer from the region.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Living History of the Hills
 NARRATION: This is Harul. Traditional.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (Cn7J6ggDix0)
 ON SCREEN: Title card: Harul · India · Traditional
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ NARRATION: Participants form long lines or semi-circles, holding onto each other
 NARRATION: Men typically form the outer semi-circle and women the inner.
 NARRATION: The footwork involves slow and fast tapping, criss-crossing, and occasional knee bending in rhythm with the song.
 NARRATION: Watch for Criss-crossing.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (Cn7J6ggDix0)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Long line or semi-circles (men outer, women inner).
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -298,7 +298,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Participants wear colourful traditional clothing. The dance is performed in the context of local festivals and celebrations.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'Cn7J6ggDix0', 'checked_by_vision_model': False, 'title': 'Himachali Traditional Harul Dance in GDC Shillai Part-|'}
 Images: 3 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); ScienceStormer / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ramesh Lalwani / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: Colourful traditional clothing, Long lines of dancers in a landscape setting
@@ -308,9 +308,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the folk-circle family studied · videos studied: 16
+Source: 17 tutorial(s) of the folk-circle family studied · videos studied: 17
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; left foot go; brush brush step; double step rock step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; rock step
+Cues: rock step; side close side; triple step; rock step triple step triple step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; step your right foot sideward; close your left foot; point your left foot; hold your skirt
 
 Sources (2): https://en.wikipedia.org/wiki/Harul; https://www.wikidata.org/wiki/Q106199770

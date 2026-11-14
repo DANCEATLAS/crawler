@@ -1,13 +1,120 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [
+        {
+          "description": "Distinguish between out-of-sync errors and stylistic variations",
+          "source": "https://en.wikipedia.org/wiki/Formation_dance"
+        },
+        {
+          "description": "Camera cannot assess internal timing; focus on visible synchronization",
+          "source": "https://de.wikipedia.org/wiki/Formationstanzen"
+        }
+      ],
+      "learning_units": [
+        {
+          "description": "Learn basic ballroom steps in formation and maintain synchronization",
+          "source": "https://en.wikipedia.org/wiki/Formation_dance"
+        },
+        {
+          "description": "Practice transitions between geometric patterns like diamonds and circles",
+          "source": "https://en.wikipedia.org/wiki/Formation_dance"
+        },
+        {
+          "description": "Execute chain reactions and roundabout figures with timing",
+          "source": "https://de.wikipedia.org/wiki/Formationstanzen"
+        }
+      ],
+      "prerequisites": [
+        {
+          "description": "Basic ballroom dance technique and partner connection",
+          "source": "https://en.wikipedia.org/wiki/Formation_dance"
+        },
+        {
+          "description": "Ability to maintain timing and spatial awareness in a group",
+          "source": "https://de.wikipedia.org/wiki/Formationstanzen"
+        }
+      ],
+      "social_formats": [
+        {
+          "description": "Teams of 6-8 couples dancing in geometric formations with shared rhythm",
+          "source": "https://en.wikipedia.org/wiki/Formation_dance"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Held in ballroom frame; coordinated with partner and team",
+      "difficulty": "Intermediate to advanced",
+      "footwork": "Precise steps matching dance style; synchronized with team",
+      "formation_and_space": "Geometric patterns with clear spacing; transitions between shapes",
+      "hips_and_torso": "Movement follows dance style; Latin dances have more hip action",
+      "levels_and_jumps": "Intermediate to advanced complexity; jumps not described",
+      "partnering": "Couples dance in closed ballroom hold; solo sections allowed in Latin",
+      "posture": "Upright ballroom posture with poised upper body",
+      "signature_moves": [
+        {
+          "description": "Sequential movement passed through the team creating a wave effect",
+          "name": "Chain Reaction"
+        },
+        {
+          "description": "Couples rotate in a circular pattern around a point",
+          "name": "Roundabout"
+        },
+        {
+          "description": "A specific formation figure unique to formation dance",
+          "name": "Velberter Rose"
+        }
+      ],
+      "tempo_feel": "Strict tempo adherence; rhythmic precision critical",
+      "what_to_avoid": "Lifts during judged routine Out-of-sync movements Breaking formation patterns"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "Varies by dance; Latin dances often in 4/4, Waltz in 3/4",
+      "mood_keywords": [
+        "energetic",
+        "synchronized",
+        "dynamic",
+        "elegant"
+      ],
+      "musical_form": "Music arranged in three parts: entrance, main judged section, and exit, separated by a gong",
+      "reference_recordings": [],
+      "rhythm_pattern": "Characteristic rhythms of each dance (e.g., Cha Cha syncopated steps, Waltz flowing 3/4)",
+      "sound_description": "",
+      "tempo_bpm": "Varies by dance style; e.g., Cha Cha ~120 bpm, Waltz ~84 bpm",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Couples line up in formation (e.g., diamond or line)",
+        "Start synchronized basic steps of chosen dance (e.g., Cha Cha basic step)",
+        "Execute coordinated turns or chain reactions on beat",
+        "Transition smoothly to next formation pattern",
+        "Walk off formation in coordinated exit"
+      ],
+      "formation": "Teams of 6-8 couples arranged in geometric patterns such as diamonds, circles, lines, or squares",
+      "level_notes": "Beginners start with basic steps and simple formations; advanced dancers perform complex patterns and solo sections",
+      "rhythm": "Strict adherence to the beat and meter of the chosen dance style; synchronization is essential"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "b025aa661f47aca195998ae0162d6952df165189089d32e12e31f606a796df78",
+  "fingerprint": "6c66e22c3f515cb54c6f5a1188bb7ae7c400d2fcc148141445959a01485d0185",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +122,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: sound_description"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,7 +149,7 @@
   ],
   "music_options": [],
   "name": "Formation dance",
-  "research_file": null,
+  "research_file": "research_results/formation-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +161,15 @@
   "slug": "formation-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Formation_dance",
-    "Source: Formation dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Formation_dance"
+    "https://www.wikidata.org/wiki/Q1416037",
+    "https://de.wikipedia.org/wiki/Formationstanzen"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/Suhz7IMYNwE.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=Suhz7IMYNwE"
+    }
+  ]
 }

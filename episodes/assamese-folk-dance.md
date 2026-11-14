@@ -1,8 +1,8 @@
 # Assamese folk dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-13 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-14 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local Assamese cultural practitioner or Satriya artist.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Rhythms of the Brahmaputra
 NARRATION: This is Assamese folk dance. 17th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (sA-A1YwA8jA)
 ON SCREEN: Title card: Assamese folk dance · India · 17th century to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Technique varies by style.
 NARRATION: Bihu involves gender-specific lines, hip and wrist movements, and squats.
 NARRATION: Jhumur involves holding waists and moving synchronously.
 NARRATION: Watch for Bihu Twirls, Bhortal Cymbal Patterns.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (sA-A1YwA8jA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Lines and circles; gender-based separation.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -101,7 +101,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'sA-A1YwA8jA', 'checked_by_vision_model': False, 'title': 'BIHU ll FOLK DANCE OF ASSAM ll RATI DUPOROLE ll Dance by Minu,Ruma(Riya),Deepanita,Ritu,Gitika'}
 Images: 3 licensed — Bodoland Territorial Council / Wikimedia Commons / CC0 (CC0); Bipul Rabha / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Diganta Talukdar / Wikimedia Commons / CC0 (CC0)
 Footage: MISSING
 Motifs: The Rang Ghar fields, Traditional dhol and pepa, Colourful dokhna fabrics, Metallic cymbals

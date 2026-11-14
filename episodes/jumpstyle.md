@@ -1,6 +1,6 @@
 # Jumpstyle — episode pack
 
-*Status: draft · built 2026-11-13 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-14 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed); the costume & setting section
 
@@ -328,9 +328,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 1-2-3-4-5
-Demonstration: views used by most teachers: side; tempo progression: slow → full; repetitions per step: about 5
-Cues: feet parallel; relax  breath
+Demonstration: views used by most teachers: side, front; tempo progression: slow → full; repetitions per step: about 5
+Cues: feet parallel; relax  breath; right foot out; kick it twice; left foot out; bring that foot back
 
 Sources (5): https://en.wikipedia.org/wiki/Jumpstyle; https://www.wikidata.org/wiki/Q389631; https://es.wikipedia.org/wiki/Jumpstyle; https://fr.wikipedia.org/wiki/Jumpstyle; https://de.wikipedia.org/wiki/Jumpstyle

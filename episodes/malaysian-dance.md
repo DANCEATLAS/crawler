@@ -1,8 +1,8 @@
 # Malaysian dance — episode pack
 
-*Status: draft · built 2026-11-13 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-14 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced lion dance master from a Malaysian kung fu school, passionate about cultural heritage
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Roaring Spirit: Malaysia's Southern Lion Dance
 NARRATION: This is Malaysian dance. Tang dynasty to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (N3LR_nx4Nj4)
 ON SCREEN: Title card: Malaysian dance · Malaysia · Tang dynasty to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: The Southern Lion dance is performed by two dancers: one manipulating
 NARRATION: The dance involves acrobatic movements, mimicking the lion's expressions and gestures, often synchronized with vigorous drumbeats, gongs, and cymbals.
 NARRATION: The dance includes playful and martial elements, with movements inspired by kung fu.
 NARRATION: Watch for Lion's blink, Lion's roar, Acrobatic leap.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (N3LR_nx4Nj4)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Two dancers per lion, performing in open spaces or on platforms
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -315,7 +315,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The Southern Lion costume features a large head made of papier-mâché over a bamboo frame, decorated with fur and painted designs, including a single horn. The body is a durable cloth trimmed with fur, often with a long tail attached. Performances typically occur during Lunar New Year, weddings, business openings, and cultural festivals, often outdoors or in community halls.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'N3LR_nx4Nj4', 'checked_by_vision_model': False, 'title': 'Traditional Malaysian Dance - Penang Airport'}
 Images: 8 licensed — hojusaram / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); by lismith28 at Flickr / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); 663highland / Wikimedia Commons / CC BY 2.5 (CC BY 2.5); Michael Gunther / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Gap chuen / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Lion head close-ups, Drummers in action, Colorful festival scenes, Acrobatic leaps
@@ -325,9 +325,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the folk-circle family studied · videos studied: 16
+Source: 17 tutorial(s) of the folk-circle family studied · videos studied: 17
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; left foot go; brush brush step; double step rock step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; rock step
+Cues: rock step; side close side; triple step; rock step triple step triple step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; step your right foot sideward; close your left foot; point your left foot; hold your skirt
 
 Sources (5): https://en.wikipedia.org/wiki/Lion_dance; https://www.wikidata.org/wiki/Q713866; https://es.wikipedia.org/wiki/Danza_del_león; https://fr.wikipedia.org/wiki/Danse_du_lion; https://pt.wikipedia.org/wiki/Dança_do_leão

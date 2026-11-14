@@ -1,13 +1,76 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Expressive arm styling allowed especially in open and solo movements; hands maintain connection in closed hold",
+      "difficulty": "beginner to advanced depending on choreography",
+      "footwork": "not described in sources",
+      "formation_and_space": "Couple dances in closed and open formations; space used for solo and side-by-side steps",
+      "hips_and_torso": "Smooth, flowing torso movements with controlled hip action",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Partner connection maintained in closed hold; open hold and solo steps permitted",
+      "posture": "Upright, poised ballroom posture with frame maintained in closed hold; open positions allow freer upper body movement",
+      "signature_moves": [],
+      "tempo_feel": "Varies by dance; smooth and flowing for waltz and foxtrot, sharp and staccato for tango",
+      "what_to_avoid": "Lifts are banned in standard competition"
+    },
+    "music_profile": {
+      "instruments": [
+        "strings",
+        "piano",
+        "brass",
+        "woodwinds"
+      ],
+      "meter": "3/4 for waltz and Viennese waltz; 4/4 for foxtrot and tango",
+      "mood_keywords": [
+        "elegant",
+        "flowing",
+        "dramatic",
+        "expressive"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "Traditional ballroom rhythms characteristic of each dance",
+      "sound_description": "",
+      "tempo_bpm": "Varies by dance: waltz ~84-90 bpm, Viennese waltz ~180 bpm, foxtrot ~120 bpm, tango ~120 bpm",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Begin in closed ballroom hold",
+        "Perform basic waltz box step",
+        "Transition to open position for solo steps",
+        "Execute side-by-side movements",
+        "Return to closed hold for partnered steps"
+      ],
+      "formation": "Couple dancing, alternating between closed hold and open positions",
+      "level_notes": "Beginners start with basic closed hold steps; intermediate dancers incorporate open and solo movements; advanced dancers add expressive arm styling and complex footwork",
+      "rhythm": "Varies by dance: waltz and Viennese waltz in 3/4 time; foxtrot and tango in 4/4 time"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "04e278a964b3b0aa8f9b29774fc27660f73bd49970dfe27c9ac6b267bc11321b",
+  "fingerprint": "8f4c6a25b0478f99ff7590e2a8d707a5b469df31661e7b4be9c5d94d548c913d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +78,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: footwork",
+      "music_structure: sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +107,7 @@
   ],
   "music_options": [],
   "name": "American Smooth",
-  "research_file": null,
+  "research_file": "research_results/american-smooth.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -56,8 +118,8 @@
   },
   "slug": "american-smooth",
   "sources": [
-    "https://en.wikipedia.org/wiki/Glossary_of_partner_dance_terms",
-    "Source: Glossary of partner dance terms on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Glossary_of_partner_dance_terms"
+    "https://en.wikipedia.org/wiki/Dancesport_World_Champions_(smooth)",
+    "https://www.wikidata.org/wiki/Q5215420"
   ],
   "state": "researching",
   "video_evidence": []

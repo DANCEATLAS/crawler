@@ -16,84 +16,95 @@
         "tempo_and_range": "not derivable yet"
       }
     },
-    "interaction_profile": {},
-    "movement_profile": {
-      "arms_and_hands": "Arms move subtly or remain relaxed at sides; not emphasized.",
-      "difficulty": "Beginner to intermediate depending on speed and stamina.",
-      "footwork": "Rapid alternating heel taps landing on the heel with minimal airborne movement.",
-      "formation_and_space": "Danced solo or in informal groups without strict spatial patterns.",
-      "hips_and_torso": "Minimal torso movement; hips stable to support footwork.",
-      "levels_and_jumps": "No jumps; movement stays close to the ground.",
-      "partnering": "None; individual dance.",
-      "posture": "Slightly bent knees, upright torso, relaxed shoulders.",
-      "signature_moves": [
+    "interaction_profile": {
+      "feedback_rules": [
         {
-          "description": "Quickly striking the heel on the ground to the beat.",
-          "name": "Heel Tap"
+          "description": "Visible errors include mistimed heel steps or loss of rhythm; arm movement variations are expressive and not errors",
+          "source": "https://en.wikipedia.org/wiki/Hakken"
+        }
+      ],
+      "learning_units": [
+        {
+          "description": "Master rapid heel steps matching bass drum beats at 170-190 BPM",
+          "source": "https://en.wikipedia.org/wiki/Hakken"
         },
         {
-          "description": "A backward step incorporated by some dancers like Hoeppi Hakken.",
+          "description": "Incorporate backstep into basic hakken footwork",
+          "source": "https://en.wikipedia.org/wiki/Hakken"
+        }
+      ],
+      "prerequisites": [
+        {
+          "description": "Ability to maintain fast foot rhythm and balance at high tempo",
+          "source": "https://en.wikipedia.org/wiki/Hakken"
+        }
+      ],
+      "social_formats": [
+        {
+          "description": "Solo or group dancing with shared rhythm; no partnering required",
+          "source": "https://en.wikipedia.org/wiki/Hakken"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Moved less prominently, optional and secondary to footwork",
+      "difficulty": "Beginner to intermediate",
+      "footwork": "Rapid heel steps landing on heels in quick succession, moving forward, backward, and laterally",
+      "formation_and_space": "Solo or group, no fixed spatial pattern",
+      "hips_and_torso": "Minimal movement, secondary to legs",
+      "levels_and_jumps": "No jumps described; mostly low-level footwork",
+      "partnering": "Not typical",
+      "posture": "Upright with focus on lower body",
+      "signature_moves": [
+        {
+          "description": "A step backward incorporated into the rapid heel-driven sequence",
           "name": "Backstep"
         }
       ],
-      "tempo_feel": "Fast, continuous, steady rhythm matching bass drum beats.",
-      "what_to_avoid": "Avoid high jumps or excessive upper body movement that distracts from foot rhythm."
+      "tempo_feel": "Fast, steady, matching bass drum beats",
+      "what_to_avoid": "Avoid high jumps or aerial moves not typical of hakken Avoid overemphasis on arms that distracts from foot rhythm"
     },
     "music_profile": {
       "instruments": [
-        "Electronic kick drum",
-        "Synthesizers",
-        "Bass lines"
+        "Electronic drum machine (bass drum)",
+        "Synthesizers"
       ],
       "meter": "4/4",
       "mood_keywords": [
         "energetic",
+        "fast-paced",
         "intense",
-        "driving",
-        "pounding"
+        "relentless"
       ],
-      "musical_form": "Looped electronic beats with build-ups and drops",
-      "reference_recordings": [
-        {
-          "artist": "Gabber Piet",
-          "source": "https://it.wikipedia.org/wiki/Hakken",
-          "title": "Hakke & Zage"
-        },
-        {
-          "artist": "Supergabber",
-          "source": "https://it.wikipedia.org/wiki/Hakken",
-          "title": "Hakkûhbar"
-        }
-      ],
-      "rhythm_pattern": "Steady, rapid bass drum kick on each beat",
-      "sound_description": "A relentless electronic beat with a pounding bass drum at a fast tempo, layered with synthesized melodies and occasional vocal samples, creating a driving and hypnotic soundscape.",
+      "musical_form": "Looped repetitive structure",
+      "reference_recordings": [],
+      "rhythm_pattern": "Steady, pounding bass drum on each beat",
+      "sound_description": "A relentless pounding bass drum at high tempo drives the music, with electronic synth layers and occasional vocal samples creating an intense, energetic atmosphere.",
       "tempo_bpm": "170",
-      "vocal_style": "Occasional shouted samples or chants typical of hardcore music"
+      "vocal_style": "Rare or sampled vocal shouts"
     },
     "teaching": {
       "basic_steps": [
-        "Stand with feet shoulder-width apart.",
-        "Lift one heel quickly and tap it down to the beat.",
-        "Alternate heels rapidly in succession.",
-        "Keep knees slightly bent for shock absorption.",
-        "Add subtle arm movements if comfortable."
+        "Step quickly onto right heel",
+        "Step quickly onto left heel",
+        "Repeat steps in succession matching bass drum",
+        "Add slight forward, backward, or lateral movement",
+        "Incorporate optional backstep (advanced)"
       ],
-      "formation": "Usually danced solo or in loose groups without fixed formation.",
-      "level_notes": "Beginners start with slow heel taps, progressing to faster continuous steps matching the music tempo.",
-      "rhythm": "Driven by bass drum beats, typically 170-190 BPM."
+      "formation": "Solo or group, no fixed formation required",
+      "level_notes": "Beginners start with heel steps matching bass drum; arms and torso movement optional and secondary",
+      "rhythm": "Bass drum beat at 170-190 BPM, steady and repetitive"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "5de7c75d4953b993f324bede4f6c040d73345ac719226627ec323560ecfcaa0e",
+  "fingerprint": "f48aee1eca2cffd3dd5153df3778ad49a2a7857ce50e228da59b3d8e88d33601",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
       "Human BDF consent/matching, moderation and measured session synchronization",
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
-    "research": [
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
-    ],
+    "research": [],
     "review": [
       "practitioner: current human review with evidence and scope",
       "teaching: current human review with evidence and scope",
@@ -136,7 +147,7 @@
     "https://fr.wikipedia.org/wiki/Hakken",
     "https://it.wikipedia.org/wiki/Hakken"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": [
     {
       "file": "pedagogy/videos/MKdlJgA07Fg.json",

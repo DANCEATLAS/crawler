@@ -1,8 +1,8 @@
 # Danza de la Botella — episode pack
 
-*Status: draft · built 2026-11-13 · judge 9.85 · 16/16 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-14 · judge 9.85 · 16/16 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the music & instruments section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the music & instruments section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Paraguayan folk dancer with expertise in bottle balancing
@@ -302,7 +302,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear 19th-century rural Paraguayan costumes, including ankle-length skirts. Bottles are decorated with tricolored ribbons resembling the Paraguayan flag or with flowers. Performances occur in various settings, including cultural festivals and popular media events.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'QMacCsP9Oy4', 'checked_by_vision_model': False, 'title': 'BOTELLERAS PARAGUAY REKOVE'}
+Hero video: {'youtube_id': 'QMacCsP9Oy4', 'checked_by_vision_model': True, 'title': 'BOTELLERAS PARAGUAY REKOVE'}
 Images: 1 licensed — Manuel Martín Laguna / Wikimedia Commons / CC BY 3.0 (CC BY 3.0)
 Footage: MISSING
 Motifs: Glass bottles decorated with ribbons, Flowing ankle-length skirts, Close-ups of balanced bottles, Colorful Paraguayan flags, Dancers’ outstretched arms holding skirts
@@ -312,9 +312,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 16 tutorial(s) of the folk-circle family studied · videos studied: 16
+Source: 17 tutorial(s) of the folk-circle family studied · videos studied: 17
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: keep those abs pulled in; engage all the muscles; keep those shoulders down; control control; left foot go; brush brush step; double step rock step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; rock step
+Cues: rock step; side close side; triple step; rock step triple step triple step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; step your right foot sideward; close your left foot; point your left foot; hold your skirt
 
 Sources (3): https://en.wikipedia.org/wiki/Paraguayan_bottle_dance; https://www.wikidata.org/wiki/Q96398402; https://es.wikipedia.org/wiki/Danza_de_la_botella

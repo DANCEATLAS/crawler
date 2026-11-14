@@ -1,0 +1,132 @@
+{
+ "slug": "rasanritya",
+ "qc_at": "2026-11-14T17:27:13Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 4.05,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Rasanritya"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "94"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "139"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Rasanritya is a classical dance from the Indian subcontinent that visually narra"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "431"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1235"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "Indian subcontinent"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "South Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "1 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'spirit', 'devotional']"
+  }
+ ],
+ "judge": {
+  "accuracy": 4,
+  "respect": 8,
+  "specificity": 2,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "Rasanritya is a classical dance from the Indian subcontinent.",
+   "Rasanritya is a classical dance tradition originating from the Indian subcontinent.",
+   "Rasanritya holds cultural significance as a medium of devotional expression and artistic storytelling within the Indian classical dance repertoire."
+  ],
+  "harm_or_disrespect": [
+   "The profile treats 'Rasanritya' as a distinct classical dance form, whereas it is likely a descriptive term for 'Rasa-based dance' (Rasa + Nritya) within the Manipuri or other classical traditions, rather than a standalone classical style."
+  ],
+  "duplicate_suspicion": "Manipuri dance (specifically Rasa Lila)",
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 3,
+  "verdict": "reject",
+  "notes": "Rasanritya is not a recognized classical dance form; it is a descriptive term for dance involving 'rasa'. The profile incorrectly elevates a generic term to a specific classical style, lacking evidence for its existence as a distinct tradition. It provides no actionable teaching or technical information."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sources",
+  "country",
+  "sections_filled",
+  "sacred_handled",
+  "judge_score=4.05",
+  "doubts=3",
+  "harm",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-14T16:29:05Z"
+}

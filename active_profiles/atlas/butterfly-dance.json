@@ -1,13 +1,79 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Natural movement for balance, no defined gestures",
+      "difficulty": "beginner",
+      "footwork": "Rapid, repeated leg fluttering in place",
+      "formation_and_space": "Solo, stationary or small area",
+      "hips_and_torso": "Minimal hip movement, torso stable",
+      "levels_and_jumps": "No jumps or levels described",
+      "partnering": "None",
+      "posture": "Upright with knees slightly bent",
+      "signature_moves": [
+        {
+          "description": "Alternating rapid leg lifts resembling butterfly wings",
+          "name": "Flutter legs"
+        }
+      ],
+      "tempo_feel": "Fast and rhythmic",
+      "what_to_avoid": "Avoid excessive upper body tension Avoid off-beat leg movements"
+    },
+    "music_profile": {
+      "instruments": [
+        "drum machines",
+        "electronic bass",
+        "synthesizers"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "energetic",
+        "rhythmic",
+        "percussive"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "Syncopated, percussive beats typical of Dancehall music",
+      "sound_description": "The music features fast-paced, syncopated rhythms with electronic percussion and bass, supporting the fluttering leg movements of the dance.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "toasting or rhythmic speech"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand with feet shoulder-width apart",
+        "Lift legs alternately with a fluttering motion",
+        "Keep knees slightly bent for flexibility",
+        "Maintain rhythmic timing with music beats",
+        "Use arms naturally for balance without specific gestures"
+      ],
+      "formation": "Solo dance, no specific formation",
+      "level_notes": "Beginner dancers start by practicing leg fluttering slowly to the beat before increasing speed",
+      "rhythm": "Syncopated, fast-paced rhythm matching Dancehall music"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "9b802fe679e271b0cff98ab5cd81d77c9c93897d2cf2f17b60c10aa18bfd1558",
+  "fingerprint": "7391dd1bac065ad16a6218b064d71b68c6b1df9621799ef3a31e33374b09cc4d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +81,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "music_structure: meter",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +109,7 @@
   ],
   "music_options": [],
   "name": "Butterfly dance",
-  "research_file": null,
+  "research_file": "research_results/butterfly-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +121,10 @@
   "slug": "butterfly-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Butterfly_dance",
-    "Source: Butterfly dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Butterfly_dance"
+    "https://www.wikidata.org/wiki/Q25043108",
+    "https://archive.org/details/genusparadisaea2714lecr",
+    "https://archive.org/details/GAT_1923111301"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

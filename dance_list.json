@@ -130,6 +130,16 @@
   "is_sacred": false
  },
  {
+  "slug": "affranchi",
+  "name": "Affranchi",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Affranchi_(dance)",
+  "country": "Haiti",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "afro-fusion",
   "name": "Afro fusion",
   "aliases": [],
@@ -555,7 +565,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Apatampa",
   "country": "Ghana",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -692,7 +702,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Folk_dances_of_Assam",
   "country": "India",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -1269,6 +1279,18 @@
   "is_sacred": false
  },
  {
+  "slug": "bappiriyan-theyyam",
+  "name": "Bappiriyan Theyyam",
+  "aliases": [
+   "Bappirian Theyyam"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Bappiriyan_Theyyam",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "bar",
   "name": "Bar",
   "aliases": [],
@@ -1474,9 +1496,12 @@
   "slug": "bele",
   "name": "Bele",
   "aliases": [
-   "Bele"
+   "Bele",
+   "bel-air",
+   "belair",
+   "fine-air"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9",
   "country": "Martinique/Trinidad",
   "publish": true,
   "has_hero": true,
@@ -2348,7 +2373,7 @@
   "country": "",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "butterfly-dance-plains",
@@ -2541,12 +2566,16 @@
  {
   "slug": "calinda",
   "name": "Calinda",
-  "aliases": [],
+  "aliases": [
+   "kalinda",
+   "kalenda",
+   "calenda"
+  ],
   "wikipedia": "https://en.wikipedia.org/wiki/Calinda",
-  "country": "",
+  "country": "Caribbean (Trinidad and Tobago, Haiti, Guadeloupe, Martinique), United States (Louisiana)",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "calusari",
@@ -2768,6 +2797,16 @@
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Ceroc",
   "country": "United Kingdom",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
+  "slug": "ch-unchu",
+  "name": "Ch'unchu",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Ch%27unchu_(dance)",
+  "country": "Peru",
   "publish": true,
   "has_hero": false,
   "is_sacred": false
@@ -3066,7 +3105,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Choobazi",
   "country": "Iran",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -3954,6 +3993,16 @@
   "is_sacred": false
  },
  {
+  "slug": "deodhani-dance",
+  "name": "Deodhani dance",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Deodhani_dance",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "devakkoothu",
   "name": "Devakkoothu",
   "aliases": [
@@ -4010,6 +4059,20 @@
   "is_sacred": true
  },
  {
+  "slug": "dhan-nach",
+  "name": "Dhan Nach",
+  "aliases": [
+   "Yalang",
+   "Yalakma",
+   "Chalakma"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Dhan_Nach",
+  "country": "Nepal",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "dhol-cholom",
   "name": "Dhol Cholom",
   "aliases": [
@@ -4032,7 +4095,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Dhunuchi_Nritya",
   "country": "India",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -4238,7 +4301,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Duffmuttu",
   "country": "India",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -4589,9 +4652,12 @@
  {
   "slug": "faroese-chain-dance",
   "name": "Faroese chain dance",
-  "aliases": [],
+  "aliases": [
+   "Føroyskur dansur",
+   "Kædedans"
+  ],
   "wikipedia": "https://en.wikipedia.org/wiki/Faroese_chain_dance",
-  "country": "",
+  "country": "Faroe Islands",
   "publish": true,
   "has_hero": true,
   "is_sacred": false
@@ -4748,7 +4814,7 @@
   "name": "Formation dance",
   "aliases": [],
   "wikipedia": "https://en.wikipedia.org/wiki/Formation_dance",
-  "country": "",
+  "country": "United Kingdom (origin)",
   "publish": true,
   "has_hero": false,
   "is_sacred": false
@@ -5094,7 +5160,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Gendang_Beleq_(dance)",
   "country": "Indonesia",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -5582,12 +5648,16 @@
  {
   "slug": "hakken",
   "name": "Hakken",
-  "aliases": [],
+  "aliases": [
+   "hakkûh",
+   "gabba (in some countries)",
+   "gabbering (as verb in some countries)"
+  ],
   "wikipedia": "https://en.wikipedia.org/wiki/Hakken",
   "country": "Netherlands",
   "publish": true,
   "has_hero": true,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "halay",
@@ -5673,7 +5743,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Harul",
   "country": "India",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -6153,6 +6223,20 @@
   "is_sacred": false
  },
  {
+  "slug": "hyporchema",
+  "name": "hyporchema",
+  "aliases": [
+   "hyperchema",
+   "iporchema",
+   "hiporquema"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Hyporchema",
+  "country": "ancient Greece",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "idaw",
   "name": "Idaw",
   "aliases": [
@@ -6296,10 +6380,10 @@
   "slug": "iranian-dance",
   "name": "Iranian dance",
   "aliases": [
+   "dance in Iran",
    "dance of Iran",
-   "Persian dance",
    "dances in Iran",
-   "dance in Iran"
+   "Persian dance"
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Iranian_dance",
   "country": "Iran",
@@ -6945,6 +7029,19 @@
   "is_sacred": false
  },
  {
+  "slug": "karadikali",
+  "name": "Karadikali",
+  "aliases": [
+   "Karadi kali",
+   "dance of the bears"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Karadikali",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "karikz",
   "name": "Karikázó",
   "aliases": [],
@@ -7136,6 +7233,16 @@
   "is_sacred": true
  },
  {
+  "slug": "kerala-natanam",
+  "name": "Kerala Natanam",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Kerala_Natanam",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "kete-akan",
   "name": "Kete",
   "aliases": [
@@ -7190,7 +7297,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Khamba_Thoibi_Jagoi",
   "country": "India",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -7476,6 +7583,16 @@
   "is_sacred": true
  },
  {
+  "slug": "kolkali",
+  "name": "Kolkali",
+  "aliases": [],
+  "wikipedia": "https://en.wikipedia.org/wiki/Kolkali",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "kolo",
   "name": "Kolo",
   "aliases": [
@@ -7688,7 +7805,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Kushan_dance",
   "country": "India, Bangladesh",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -7700,6 +7817,20 @@
   "publish": true,
   "has_hero": true,
   "is_sacred": false
+ },
+ {
+  "slug": "kuttichathan-theyyam",
+  "name": "Kuttichathan Theyyam",
+  "aliases": [
+   "Sasthappan Theyyam",
+   "Kalakattu Kuttichathan",
+   "Kuttichathan"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Kuttichathan_Theyyam",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
  },
  {
   "slug": "kwadril-gwadloup",
@@ -7737,7 +7868,7 @@
   "country": "Mexico",
   "publish": true,
   "has_hero": true,
-  "is_sacred": true
+  "is_sacred": false
  },
  {
   "slug": "labi-labi",
@@ -7922,7 +8053,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Folk_dance_forms_of_Odisha",
   "country": "India",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -8439,7 +8570,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Lion_dance",
   "country": "Malaysia",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {
@@ -10711,6 +10842,18 @@
   "is_sacred": true
  },
  {
+  "slug": "pulimaranja-thondachan",
+  "name": "Pulimaranja Thondachan",
+  "aliases": [
+   "Kari Kurikal"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Pulimaranja_Thondachan",
+  "country": "India",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": true
+ },
+ {
   "slug": "punchdance",
   "name": "Punchdance",
   "aliases": [],
@@ -11928,7 +12071,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Serbian_dances",
   "country": "Serbia",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": false
  },
  {
@@ -12415,7 +12558,7 @@
   "country": "",
   "publish": true,
   "has_hero": false,
-  "is_sacred": false
+  "is_sacred": true
  },
  {
   "slug": "slangpolska",
@@ -13539,7 +13682,7 @@
   "aliases": [
    "Trojak"
   ],
-  "wikipedia": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Trojak_(dance)",
   "country": "Poland",
   "publish": true,
   "has_hero": true,
@@ -13974,6 +14117,21 @@
   "is_sacred": false
  },
  {
+  "slug": "waka-waka",
+  "name": "Waka Waka",
+  "aliases": [
+   "waka thuqhuri",
+   "waka thuquri",
+   "waca waca",
+   "waka thoquris"
+  ],
+  "wikipedia": "https://en.wikipedia.org/wiki/Waka_waka_(dance)",
+  "country": "Bolivia, Peru",
+  "publish": true,
+  "has_hero": false,
+  "is_sacred": false
+ },
+ {
   "slug": "walking-boston",
   "name": "Walking Boston",
   "aliases": [],
@@ -14033,8 +14191,8 @@
   "slug": "wari",
   "name": "Wari",
   "aliases": [
-   "Huaridanza",
    "Dance of the Knights of Huari",
+   "Huaridanza",
    "Waritaki"
   ],
   "wikipedia": "https://en.wikipedia.org/wiki/Wari_(dance)",
@@ -14202,7 +14360,7 @@
   "wikipedia": "https://en.wikipedia.org/wiki/Yak_dance",
   "country": "India",
   "publish": true,
-  "has_hero": false,
+  "has_hero": true,
   "is_sacred": true
  },
  {

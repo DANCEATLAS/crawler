@@ -1,13 +1,141 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [
+        {
+          "description": "Distinguish between timing errors and expressive improvisation",
+          "source": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9"
+        },
+        {
+          "description": "Camera cannot assess cultural respect or community engagement",
+          "source": "https://fr.wikipedia.org/wiki/Bèlè"
+        }
+      ],
+      "learning_units": [
+        {
+          "description": "Practice the cavalier's initial courtship dance display",
+          "source": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9"
+        },
+        {
+          "description": "Practice the dam's reactive dance movements",
+          "source": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9"
+        },
+        {
+          "description": "Learn call-and-response singing between chantwèl and lavwa",
+          "source": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9"
+        },
+        {
+          "description": "Follow the tibwa rhythm pattern on bamboo",
+          "source": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9"
+        },
+        {
+          "description": "Coordinate dance timing with bélé drum accents",
+          "source": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9"
+        }
+      ],
+      "prerequisites": [
+        {
+          "description": "Basic physical coordination and ability to follow rhythmic patterns",
+          "source": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9"
+        }
+      ],
+      "social_formats": [
+        {
+          "description": "Solo roles: cavalier and dam alternating dance turns",
+          "source": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9"
+        },
+        {
+          "description": "Group roles: chantwèl (lead singer), lavwa (chorus), tanbouyé (drummer), bwatè (tibwa player), audience participation",
+          "source": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9"
+        },
+        {
+          "description": "Formation: open space or circle with dancers in front of musicians and audience",
+          "source": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9"
+        },
+        {
+          "description": "Shared rhythm maintained by tibwa and drum, with vocal cues",
+          "source": "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Graceful sweeping gestures and ceremonious bows",
+      "difficulty": "Intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Danced by a male-female couple in front of musicians and audience, often in a circle or open space",
+      "hips_and_torso": "Expressive, reflecting African dance influences",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Courtship style with alternating solos and joint dancing",
+      "posture": "Upright, elegant posture reflecting French ballroom influence combined with African groundedness",
+      "signature_moves": [
+        {
+          "description": "Male dancer shows off skill and courtship prowess",
+          "name": "Cavalier display"
+        },
+        {
+          "description": "Female dancer reacts to cavalier's movements",
+          "name": "Dam response"
+        },
+        {
+          "description": "Both dancers perform vigorous movements together",
+          "name": "Joint wild dance"
+        }
+      ],
+      "tempo_feel": "Rhythmic and flowing, matching drum and tibwa patterns",
+      "what_to_avoid": "Avoid disrespecting the call-and-response structure Avoid inappropriate imitation of sacred or ritual dances"
+    },
+    "music_profile": {
+      "instruments": [
+        "bélé drum (large tambour)",
+        "tibwa (two wooden sticks on bamboo)",
+        "chacha (maracas)"
+      ],
+      "meter": "not explicitly described, implied complex Caribbean rhythms",
+      "mood_keywords": [
+        "hypnotic",
+        "dialogic",
+        "mesmerizing",
+        "sensual",
+        "communicative"
+      ],
+      "musical_form": "Entry of singer and chorus, followed by tibwa rhythm, then bélé drum, then dancers",
+      "reference_recordings": [],
+      "rhythm_pattern": "Tibwa plays a basic repeating pattern on bamboo; bélé drum marks accents and improvises",
+      "sound_description": "",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Call-and-response between lead singer (chantwèl) and chorus (lavwa), with audience participation"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Cavalier initiates with a display of dance skill",
+        "Dam responds with a reactive movement",
+        "Alternating turns between cavalier and dam",
+        "Joint vigorous dance in the climax",
+        "Graceful sweeping and gliding steps"
+      ],
+      "formation": "Male-female couple dancing in front of musicians and audience, typically in an open or circular space",
+      "level_notes": "Beginners start by learning the basic courtship steps and timing with the drum and tibwa; advanced dancers master improvisation and interaction with musicians",
+      "rhythm": "Call-and-response singing with steady tibwa rhythm and accented bélé drum improvisations"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "114a70051676dc1523cf45034c2de00fbd92df7749ce9a3bdfab2180d25ddea8",
+  "fingerprint": "d721a312375e52915e06fe4638727bc0766d8e82c8ca83dd9e583906261b8c12",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +143,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork",
+      "music_structure: sound_description"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,7 +171,7 @@
   ],
   "music_options": [],
   "name": "Bele",
-  "research_file": null,
+  "research_file": "research_results/bele.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -55,7 +181,11 @@
     "session_modes": []
   },
   "slug": "bele",
-  "sources": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/B%C3%A9l%C3%A9",
+    "https://www.wikidata.org/wiki/Q2929369",
+    "https://fr.wikipedia.org/wiki/Bèlè"
+  ],
   "state": "researching",
   "video_evidence": []
 }

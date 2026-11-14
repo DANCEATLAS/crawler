@@ -1,8 +1,8 @@
 # Choobazi — episode pack
 
-*Status: draft · built 2026-11-13 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-14 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; lineage; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; lineage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A tribal elder or experienced dancer from the Bakhtiari region.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Stick Dancers of the Zagros Mountains
 NARRATION: This is Choobazi. Traditional.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (IlKVEZqiemo)
 ON SCREEN: Title card: Choobazi · Iran · Traditional
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ NARRATION: In the Bakhtiari style, two players use sticks of different lengths.
 NARRATION: The attacker dances laps before attempting to strike the defender's legs with a short stick, while the defender uses a long stick to block.
 NARRATION: In the Baluchi style, dancers hold two small sticks and strike them against each other in a rhythmic, non-competitive circle or pair formation.
 NARRATION: Watch for Shirin kar.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (IlKVEZqiemo)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Two players in a playing field; can be a circle in the Baluchi variant.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -290,7 +290,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'IlKVEZqiemo', 'checked_by_vision_model': False, 'title': 'چوب بازی جدید هراتی خیلی عالی و جذاب chub bazi jadid herati 2022'}
 Images: 1 licensed — Bazofti / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: The long derak stick, The short tarkeh stick, Traditional Lori wedding attire
