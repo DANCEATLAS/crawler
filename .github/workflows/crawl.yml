@@ -19,8 +19,6 @@ jobs:
       - run: python crawler.py
         env:
           YT_API_KEYS: ${{ secrets.YT_API_KEYS }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MODE: all
           BUDGET_HERO: "600"
           BUDGET_TUTORIAL: "600"
