@@ -1,0 +1,404 @@
+{
+  "contract": "da_readiness_findings_v1",
+  "last_external_research": "2026-11-13",
+  "area_reviews": {
+    "movement_and_teaching": {
+      "checked_on": "2026-11-11",
+      "evidence": "research_journal/2026-11-11.md"
+    },
+    "learning_and_access": {
+      "checked_on": "2026-11-12",
+      "evidence": "research_journal/2026-11-12.md"
+    },
+    "music_and_rights": {
+      "checked_on": "2026-11-13",
+      "evidence": "research_journal/2026-11-13.md"
+    }
+  },
+  "profile_reviews": {
+    "atlas:aati-kalenja": {
+      "checked_on": "2026-11-12",
+      "fingerprint": "4070a529fcf227c273ac5ba1d435ce850edcb14782013c9087b77f8d813cf1bb",
+      "scope": "bounded requirements investigation; not practitioner/activation approval"
+    },
+    "viral:360-charli-xcx": {
+      "checked_on": "2026-11-12",
+      "fingerprint": "1117b94f0518a8f2ea1bd659a494f5bd5e2af276079a9e559044ab8980040c51",
+      "scope": "bounded requirements investigation; not practitioner/activation approval"
+    },
+    "atlas:abakua": {
+      "checked_on": "2026-11-13",
+      "fingerprint": "fbbcc5f16c3bed2ff5334a06d08c000d9c73f0cc10619e47fa5f5a9e2bd6459d",
+      "scope": "bounded requirements inquiry, not approval"
+    },
+    "viral:a-bar-song-tipsy": {
+      "checked_on": "2026-11-13",
+      "fingerprint": "6582bf3f56e50643cd46be4427fff7acc6261a7db6ce552a5e82b30fa10a6193",
+      "scope": "bounded requirements inquiry, not approval"
+    }
+  },
+  "findings": [
+    {
+      "id": "video-segment-coverage-and-cost",
+      "domain": "video",
+      "scope": "platform",
+      "profile_ids": [],
+      "question": "Can targeted inspection recover essential teaching beyond the first eight minutes and fast transitions within the existing budget?",
+      "why_needed": "Current extraction uses only the opening window. The provider documents selective segment inspection and configurable sampling; usefulness for dance remains untested.",
+      "next_evidence": "Compare timestamped practitioner labels with the existing extractor and a candidate targeted-clip method. Measure missed critical moments, timing errors, total tokens and failures before approving a change. No paid trial is authorized.",
+      "source": "https://aistudio.google.com/docs/video-understanding",
+      "source_location": "Agentic video processing; custom frame rate; technical details",
+      "checked_on": "2026-11-11",
+      "recheck_on": "2026-11-25",
+      "inference": "Documented controls are a candidate method, not validated learning or an established cost saving.",
+      "status": "candidate",
+      "cost_authorized": 0
+    },
+    {
+      "id": "partner-tracking-identity-and-recovery",
+      "domain": "platform",
+      "scope": "platform",
+      "profile_ids": [],
+      "question": "Can multi-person feedback keep each partner's identity and role through crossings, occlusion and tracking loss?",
+      "why_needed": "The pose tool exposes a maximum pose count with a default of one. Group feedback needs an explicit identity/recovery benchmark, beyond detecting several bodies.",
+      "next_evidence": "Prepare a consented partner/group test with crossing paths, matching clothing, partial occlusion and re-entry. Measure identity swaps, incorrect corrections, abstention and recovery; define acceptable outcomes with practitioners before activation.",
+      "source": "https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker?tab=Web",
+      "source_location": "Web configuration options: numPoses and tracking confidence",
+      "checked_on": "2026-11-11",
+      "recheck_on": "2026-11-25",
+      "inference": "A necessary Dance Atlas benchmark inferred from the group-use requirement; no claim that a tested implementation has failed.",
+      "status": "candidate",
+      "cost_authorized": 0
+    },
+    {
+      "id": "learning-prompt-dependence-and-retained-supports",
+      "domain": "review",
+      "scope": "platform",
+      "profile_ids": [],
+      "question": "Can learners retain the declared skill after instructional prompts fade, while keeping access supports and culturally essential musical cues?",
+      "why_needed": "Existing standards require retention but neither inspected dossier defines testing conditions. A coached success score cannot identify what the learner retained.",
+      "next_evidence": "First draft a unit-level rubric and cue inventory offline. When an authorized practitioner and consenting learners are available, compare equal-practice continuous prompting with gradually reduced or learner-requested prompting. Record immediate and delayed performance with instructional prompts absent, access supports retained, and one reviewed transfer condition. No recruitment or trial occurred.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/7644831/",
+      "source_location": "Abstract, sentences 1–7; DOI 10.1080/02701367.1995.10762218",
+      "source_date": "1995-06",
+      "checked_on": "2026-11-12",
+      "recheck_on": "2026-11-26",
+      "inference": "Candidate evaluation design, not proof that reduced feedback is always better. Separate temporary teaching prompts, essential music/calls and permanent access supports; never remove an access aid to manufacture an unaided test.",
+      "status": "candidate",
+      "cost_authorized": 0,
+      "additional_sources": [
+        "S2"
+      ],
+      "proposed_field": {
+        "learning_evaluation": [
+          "goal_kind",
+          "unit_version",
+          "essential_cues",
+          "instructional_prompts",
+          "access_supports",
+          "feedback_schedule",
+          "test_delay",
+          "intervening_practice",
+          "transfer_condition",
+          "scoring_dimensions",
+          "population_language_mode",
+          "reviewer",
+          "results"
+        ]
+      },
+      "affected_scope": "Atlas and Viral units claiming retained learning; AI BDF, human-led and shared practice. General method only, not blanket applicability to sacred instruction or every age/ability.",
+      "validation_criterion": "Before a trial, teaching/practitioner and access reviewers define measurable objectives, acceptable error and meaningful deterioration for the offered scope. Record sequence, rhythm and expression separately, prompting/rescue needs, comfort, enjoyment and missing follow-up. Withheld prompts must not be required access or cultural cues. A cheaper method is useful only if delayed objectives hold without unacceptable loss or extra rescue. Small feasibility samples cannot certify the catalogue.",
+      "disproof": "An immediate success disappears under the declared delayed condition; apparent improvement depends on extra prompts; or testing removes an access aid. Such results invalidate the scoped learning claim, not the person.",
+      "cheapest_next_test": "Zero-purchase rubric rehearsal with synthetic records: independently score coached success with failed retention versus supported retained success. Proposed later feasibility design: six consenting adults, two short permission-cleared units, counterbalanced matched practice and a seven-day follow-up; seven days is a proposed operational choice, not a source-mandated threshold. Agree sample and scoring with reviewers before use.",
+      "cost": "Current desk work: no paid API or purchases. Rubric preparation estimated 60–90 minutes. A later pilot needs consent, reviewer availability and a separate cost decision; no claim that human review is free."
+    },
+    {
+      "id": "reviewed-adaptation-bound-feedback",
+      "domain": "review",
+      "scope": "platform",
+      "profile_ids": [],
+      "question": "Can a learner perform an approved movement translation without being corrected back toward an unsuitable reference body?",
+      "why_needed": "Seated/low-impact alternatives alone do not specify what the movement must preserve or which differences feedback must accept. The inspected adaptation and interaction objects are empty.",
+      "next_evidence": "Draft a movement-intent contract and reviewer-labelled cases: accepted translation, meaningful timing/intent error, and unobservable detail. Bind the correction rubric to the selected reviewed version. An inclusive practitioner and the relevant cultural authority must assess applicability before real instruction.",
+      "source": "https://www.stopgapdance.com/inclusive-choreography/",
+      "source_location": "Translation, paragraphs 1–3",
+      "source_date": null,
+      "checked_on": "2026-11-12",
+      "recheck_on": "2026-11-26",
+      "inference": "Infer a versioned scoring requirement from a practitioner method. It is not an approval to transform every tradition, and supports agency rather than diagnosing bodies from camera images.",
+      "status": "candidate",
+      "cost_authorized": 0,
+      "proposed_field": {
+        "adaptation_contract": [
+          "canonical_unit",
+          "translation_version",
+          "movement_intent",
+          "cultural_invariants",
+          "allowed_variations",
+          "observable_dimensions",
+          "non_comparable_dimensions",
+          "learner_selected_supports",
+          "review_scope",
+          "feedback_rubric_version"
+        ]
+      },
+      "affected_scope": "Any Atlas/Viral mode offering adaptations, including mixed-ability human BDF groups. Profile applicability remains conditional on permission, identified units and review.",
+      "validation_criterion": "All review-labelled acceptable cases must avoid corrections solely caused by the approved physical difference; seeded errors on genuinely invariant dimensions must remain detectable or explicitly unobservable. Unknown adaptations trigger abstention and a self-check, never automatic diagnosis. Each offered language/version needs review. Fixture success is only a prerequisite to a consented learner test.",
+      "disproof": "A valid translated movement receives a corrective instruction that contradicts its approved version, or a waived/non-comparable dimension silently passes as observed mastery.",
+      "cheapest_next_test": "Prepare six text cases, then obtain qualified labels when access is available: two accepted translations, two invariant errors, two unobservable cases. No camera/model generation needed for rubric review.",
+      "cost": "No purchase/API authorized. Desk fixture draft estimated 45–60 minutes; reviewer time and actual learner validation unpriced."
+    },
+    {
+      "id": "dance-motion-versus-command-actuation",
+      "domain": "platform",
+      "scope": "platform",
+      "profile_ids": [],
+      "question": "Can command gestures be disabled independently of movement feedback, so dancing cannot accidentally skip, record, invite or publish?",
+      "why_needed": "Existing stop/alternative-control requirements do not explicitly separate observing dance from interpreting command gestures. A single camera toggle may unnecessarily remove feedback or leave accidental commands active.",
+      "next_evidence": "Specify separate command-gesture and movement-feedback states, conventional/assistive controls, and deliberate arming for optional gestures. At a future local prototype, replay the same event sequence with commands enabled/disabled and verify alternative pause/repeat/exit controls.",
+      "source": "https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html",
+      "source_location": "SC 2.5.4; Intent paragraphs 1–5; essential-motion exception",
+      "source_date": null,
+      "checked_on": "2026-11-12",
+      "recheck_on": "2026-11-26",
+      "inference": "Dance motion used for assessment may be essential to that feature; this does not make a wave-to-skip command essential. Accidental dance/command collision is an inferred risk, not an observed production fault.",
+      "status": "candidate",
+      "cost_authorized": 0,
+      "proposed_field": {
+        "interaction_control_contract": [
+          "command_gestures_enabled",
+          "movement_feedback_enabled",
+          "gesture_arming",
+          "alternative_controls",
+          "recording_and_publish_confirmation",
+          "collision_test_results"
+        ]
+      },
+      "affected_scope": "Camera/device-motion interfaces in AI BDF, human BDF groups, Viral recording and optional AR; platform-wide because the command layer is shared.",
+      "validation_criterion": "With command gestures disabled, every replayed gesture yields zero command actions while permitted feedback remains independently configurable. Pause/repeat/exit remain operable by the offered conventional/assistive controls. No gesture alone grants recording, contact or publication consent. Later tests include actual movement, tremor, camera/device conditions and chosen access methods.",
+      "disproof": "A practice movement triggers an unintended command, disabling gesture commands disables the only usable feedback path, or the alternative control cannot complete the same action.",
+      "cheapest_next_test": "Zero-purchase state-table review first; a local event-replay harness only after a control implementation exists. Do not fabricate sensor validation from synthetic events.",
+      "cost": "Current proposal has no paid API cost; state-table review estimated 30 minutes. Device/user testing costs remain unknown."
+    },
+    {
+      "id": "aati-kalenja-permitted-learning-objective",
+      "domain": "research",
+      "scope": "profile",
+      "profile_ids": [
+        "atlas:aati-kalenja"
+      ],
+      "question": "For the documented Mugera variant, which learner goals and movement translations are community-permitted, and which interactions must remain contextual only?",
+      "why_needed": "The current dossier has no research file, units or reviewed adaptations. Its linked source describes a ritual revival; public documentation does not establish instructional permission.",
+      "next_evidence": "Within an eligible existing Atlas research slot, find explicit public community-authored guidance on variant identity, permitted teaching and adaptation. Preserve unknowns and cultural holds. If guidance is absent, leave embodied objectives unresolved; no outreach or imitation exercise.",
+      "source": "https://diff.wikimedia.org/2024/11/04/reviving-tuluvas-aati-month-saving-the-endangered-mugera-aati-kalenja-tradition/",
+      "source_location": "Cultural Meaning; The Ritual of Aati Kalenja; Decline of the Tradition; Community Participation",
+      "source_date": "2024-11-04",
+      "checked_on": "2026-11-12",
+      "recheck_on": "2026-11-26",
+      "inference": "A focused applicability question, not a new prohibition inferred solely from sacred context or a claim of permission.",
+      "status": "candidate",
+      "cost_authorized": 0,
+      "proposed_field": {
+        "learning_goal_scope": [
+          "variant_id",
+          "contextual_or_embodied",
+          "permission_evidence",
+          "allowed_adaptations",
+          "withheld_actions"
+        ]
+      },
+      "affected_scope": "atlas:aati-kalenja; contextual discovery now under existing policy; any future embodied, human-group or AR teaching requires scoped review.",
+      "validation_criterion": "Public evidence and qualified review identify the variant, allowed learning goals and limits; missing authority remains unknown and cannot be replaced by generative content.",
+      "cost": "No additional model calls; existing Atlas completion allowance at most one third of enrichment, maximum five, seven-day cooldown. No current queue write."
+    },
+    {
+      "id": "360-version-and-assistance-baseline",
+      "domain": "research",
+      "scope": "profile",
+      "profile_ids": [
+        "viral:360-charli-xcx"
+      ],
+      "question": "Which credited 360 choreography/version and authorized short unit would permit measuring learning independently of coach prompts?",
+      "why_needed": "The current Viral dossier has no sources, research file, sequence, learning units or reviewed scope. A song title alone cannot define the movement or test objective.",
+      "next_evidence": "Through a future bounded Viral adapter, seek primary creator/version evidence and permitted instructional references; distinguish reference from reuse rights. Define timing, sequence and expressive objectives plus allowed support before testing. Never put this challenge into the Atlas queue.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/7644831/",
+      "source_location": "Abstract, sentences 1–7; DOI 10.1080/02701367.1995.10762218",
+      "source_date": "1995-06",
+      "checked_on": "2026-11-12",
+      "recheck_on": "2026-11-26",
+      "inference": "The study supports the testing question only; it supplies no factual evidence about 360, its creator, rights or sequence.",
+      "status": "candidate",
+      "cost_authorized": 0,
+      "proposed_field": {
+        "assessment_baseline": [
+          "creator_evidence",
+          "choreography_version",
+          "music_edit",
+          "unit_id",
+          "rights_scope",
+          "assistance_condition",
+          "outcome_rubric"
+        ]
+      },
+      "affected_scope": "viral:360-charli-xcx AI rehearsal and subsequent solo/group creation; distribution still needs separate rights and consent.",
+      "validation_criterion": "Trace one identified sequence to credible primary evidence and a permitted instructional use; then reviewer-approved goals can be measured. If identity/permission is unresolved, keep the learning test blocked without inventing choreography.",
+      "cost": "No model call or extra queue budget authorized. Viral adapter is absent in the public main standard; proposed namespaced intake only, not executable Atlas work."
+    },
+    {
+      "id": "music-delivery-claims-and-user-export-usability",
+      "domain": "rights",
+      "scope": "platform",
+      "profile_ids": [],
+      "question": "Can a properly licensed recording actually reach the intended learner export destination without unresolved automated claims, including exports from learners’ own channels?",
+      "why_needed": "The music contract records social_export permission but no claimant/release workflow or destination-specific operational result. Permission and usable delivery are distinct.",
+      "next_evidence": "Desk-audit one future cleared asset against intended destination, account ownership, duration and claimant chain. Record claim-resolution responsibility and costs. Any later private upload test requires separate explicit upload authorization; none was performed.",
+      "source": "https://support.google.com/youtube/answer/6070344?hl=en",
+      "source_location": "Notes; Add channels to your allowlist, final two paragraphs",
+      "source_date": null,
+      "checked_on": "2026-11-13",
+      "recheck_on": "2026-11-27",
+      "inference": "Add a candidate operational-delivery review alongside unchanged legal and music-quality gates. Do not promise universal allowlisting, automatic disputes or permanent platform availability.",
+      "status": "candidate",
+      "cost_authorized": 0,
+      "additional_sources": [
+        "S4",
+        "S5"
+      ],
+      "affected_modes": [
+        "Viral export",
+        "Atlas learner-performance export",
+        "human BDF group montage"
+      ],
+      "proposed_field": {
+        "delivery_clearance": [
+          "asset_hash",
+          "destination",
+          "format_duration",
+          "territory",
+          "channel_scope",
+          "content_id_administrator",
+          "other_claimants",
+          "reference_eligibility",
+          "release_process",
+          "resolution_owner_role",
+          "test_date",
+          "result",
+          "support_cost"
+        ]
+      },
+      "validation_criterion": "Rights reviewer confirms use scope separately. For each offered export route, document claimant handling and an authorized scoped delivery test with playable output and understood monetization/restrictions. A test on the project channel does not validate learner channels. Unknown routes remain unvalidated; no existing gate is relaxed.",
+      "disproof": "A licensed export is blocked or requires a channel-wide exemption the rights administrator will not provide; claimant resolution cost makes the offered route uneconomic.",
+      "cheapest_next_test": "A 30–45 minute metadata/tabletop check: licensed project channel, independent learner channel, multi-owner asset, pre-existing claim and a Short above one minute. Expected outcomes derived from platform rules, not real upload outcomes.",
+      "cost": "No paid API, upload, outreach or purchase. Human licensing/claim-support costs unknown; measure cost per successful export including support and re-edits."
+    },
+    {
+      "id": "music-transform-timebase-and-cue-fidelity",
+      "domain": "platform",
+      "scope": "platform",
+      "profile_ids": [],
+      "question": "After slowing, looping or changing speed, do musical accents and lesson cues remain correctly aligned to the exact recording version?",
+      "why_needed": "The strategy records tempo rights and phrase structure but not a source-to-output time map, renderer/version or validated transformation envelope. Pitch preservation alone does not establish groove or cue fidelity.",
+      "next_evidence": "Draft source-clock/output-clock fixtures for pause, seek, loop and rate changes. Then, only with permission-cleared audio, compare renderer outputs at musician-approved rates and loop boundaries on supported devices, including percussive and vocal material.",
+      "source": "https://www.w3.org/TR/webaudio/#playback-AudioBufferSourceNode",
+      "source_location": "Web Audio API 1.1 working draft, sections 1.9.5 and 1.9.6",
+      "source_date": "2026-09-22",
+      "checked_on": "2026-11-13",
+      "recheck_on": "2026-11-27",
+      "inference": "A derived engineering benchmark: source-time offsets and elapsed playback differ under rate changes. Documentation proves controls exist, not that Dance Atlas preserves accents, timbre, phrasing or shared synchronization.",
+      "status": "candidate",
+      "cost_authorized": 0,
+      "additional_sources": [
+        "S1"
+      ],
+      "affected_modes": [
+        "AI BDF slow/repeat",
+        "shared rhythm",
+        "live/split-screen practice",
+        "Viral rehearsal",
+        "optional AR cues"
+      ],
+      "proposed_field": {
+        "music_transform_contract": [
+          "asset_hash",
+          "source_timebase",
+          "rate_schedule",
+          "loop_boundaries",
+          "pickup_and_cycle_phase",
+          "source_to_output_map",
+          "renderer_version",
+          "pitch_mode",
+          "approved_rate_range",
+          "cue_tolerance",
+          "musician_review",
+          "device_results"
+        ]
+      },
+      "validation_criterion": "Synthetic fixtures preserve expected source event order, loop phase and output mapping, including seek and mid-cycle rate change. For real audio, practitioner/musician reviewers predefine cue tolerance and acceptable onset, pitch, groove and phrase quality for the offered scope; no universal BPM or eight-count assumption. Scope to tested devices/rates, abstain outside them.",
+      "disproof": "A cue drifts after rate change, a loop truncates a culturally meaningful response/pickup, or pitch-preserved audio fails musical review. A passed arithmetic fixture does not validate audio or network synchronization.",
+      "cheapest_next_test": "An offline source/output timeline fixture without sound or generation. Example: source event at 8 seconds under constant 0.5 rate maps to 16 output seconds, excluding pauses; changing rate requires piecewise integration. Compare deliberately wrong single-clock mapping to the correct expectation.",
+      "cost": "Zero purchases/model calls. Fixture design estimated 45 minutes; real audio review/device trials remain unpriced. Prefer existing browser controls before considering custom processing, subject to quality and rights."
+    },
+    {
+      "id": "abakua-permitted-music-cue-context",
+      "domain": "research",
+      "scope": "profile",
+      "profile_ids": [
+        "atlas:abakua"
+      ],
+      "question": "Which publicly permitted Abakua variant and recording can support instruction, and which drum/movement cues and cycle boundaries must survive any permitted slowing or looping?",
+      "why_needed": "Current dossier has empty music, teaching and interaction fields and no cleared choices. Its linked scholarly account distinguishes ritual from folkloric presentation; neither is a blanket reuse permission.",
+      "next_evidence": "Use one eligible existing Atlas research slot to find public community/practitioner evidence defining context, recording identity, cue meaning and permitted transformations. Retain unknowns; no ritual reconstruction, source-audio extraction or permission inference.",
+      "source": "https://theappendix.net/issues/2014/4/el-nanigo-spirit-dancer-of-afro-cuba",
+      "source_location": "Opening discussion paragraphs 2–3 and folkloric-performance caption",
+      "source_date": "2014-05-20",
+      "checked_on": "2026-11-13",
+      "recheck_on": "2026-11-27",
+      "inference": "Profile-specific applicability inquiry only. Sacred/cultural holds remain; researching state is not instructional approval.",
+      "status": "candidate",
+      "cost_authorized": 0,
+      "proposed_field": {
+        "music_cue_scope": [
+          "variant_context",
+          "recording_version",
+          "permission_evidence",
+          "essential_cues",
+          "permitted_transforms"
+        ]
+      },
+      "validation_criterion": "Evidence identifies the exact context and cue relationships; community/practitioner and rights review authorize intended use. If unavailable, keep embodied teaching unresolved.",
+      "cost": "Existing capped Atlas lane only; no additional model call, budget or outreach."
+    },
+    {
+      "id": "tipsy-exact-edit-export-route",
+      "domain": "research",
+      "scope": "profile",
+      "profile_ids": [
+        "viral:a-bar-song-tipsy"
+      ],
+      "question": "Which choreography and exact recording edit define A Bar Song (Tipsy) line dance, and which permitted music route supports the intended learner export duration and destination?",
+      "why_needed": "The current Viral dossier has no sources, movement/music data or cleared assets; neither a song title nor general export permission establishes the specific export route.",
+      "next_evidence": "Seek primary creator/version and recording evidence through separate bounded Viral intake. Keep original reference, cleared practice replacement and export asset distinct; verify platform restrictions for that asset rather than applying a general library assumption.",
+      "source": "https://support.google.com/youtube/answer/15424877?hl=en",
+      "source_location": "Third-party claimed content for Short that is over one minute; What music can I use?",
+      "source_date": null,
+      "checked_on": "2026-11-13",
+      "recheck_on": "2026-11-27",
+      "inference": "Platform documentation motivates the question; it supplies no evidence about this song’s ownership, choreography, availability or license.",
+      "status": "candidate",
+      "cost_authorized": 0,
+      "proposed_field": {
+        "export_music_route": [
+          "choreography_version",
+          "recording_edit",
+          "duration",
+          "destination",
+          "license_evidence",
+          "claim_handling",
+          "replacement_label"
+        ]
+      },
+      "validation_criterion": "Exact sequence/recording identity and use rights are evidenced, followed by route-specific review and an authorized test. Never infer cross-platform rights from a platform’s in-app library.",
+      "cost": "No current model call. Separate Viral adapter remains required; never inject into Atlas queue."
+    }
+  ]
+}
