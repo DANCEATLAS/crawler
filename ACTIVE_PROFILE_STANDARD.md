@@ -59,6 +59,8 @@ Two distinct cleared, musically reviewed recording options are the initial selec
 
 ## Research and vetting arms to operate
 
+The list below is deliberately revisable. CONTINUOUS_RESEARCH.md defines recurring investigation of additional requirements. New source-backed questions enter typed dossiers, alter the approval fingerprint and route to the relevant queue. Platform investigations remain explicit, distinct from per-dance facts. The standard must improve through evidence; a fixed checklist is not exhaustive.
+
 1. **Coverage:** maintain a region/community/language/variant coverage matrix, prioritize underserved living traditions without claiming a complete denominator. Discovery stays capped at 40 new candidates per run. Use practitioner and local-language institutional sources alongside existing reference sources.
 2. **Video laboratory:** compare at least two independent teachers per pilot; log exact movements and timestamps, teaching approach, uncertainty, accessibility and rights. Review disagreements rather than averaging them away. Learner trials compare comprehension, successful movement, retention, comfort and enjoyment; views/likes only select candidates.
 3. **Learning-unit editor:** turn verified methods into reusable units and branching interactions. Start with several contrasting forms: solo rhythm, partner, line/circle and fast Viral movement. The specific representative sample depends on available evidence and permission, not a claim these are the best cultures.
