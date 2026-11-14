@@ -85,7 +85,7 @@ def main(argv=None):
             if a.stage != "daily":
                 return 1
     print("SUMMARY", json.dumps({k: (v.get("counters") if isinstance(v, dict) else v) for k, v in results.items()}, ensure_ascii=False))
-    return 0
+    return 1 if any(isinstance(v, dict) and v.get("error") for v in results.values()) else 0
 
 if __name__ == "__main__":
     sys.exit(main())
