@@ -6,10 +6,12 @@ The destination is **BDF — Best Dance Friend**, a lifelong multilingual dance 
 
 ## Start here
 
-- [Complete product vision](PRODUCT_VISION.md) — DA-VISION-2026-11-09-BDF.
+- [Complete product vision](PRODUCT_VISION.md) — DA-VISION-2026-11-11-ACTIVE.
 - [Implementation/platform ledger](IMPLEMENTATION_LEDGER.md) — verified state, gaps, tests and next work.
 - [AI operating brief](AI_BRIEF.md) and [agent instructions](AGENTS.md).
 - [Quality standard](STANDARD.md), [pipeline](PIPELINE.md), [script preparation](MOVIE_PHASE.md) and [technology assessment](TECHNOLOGY_READINESS.md).
 - [Current status](STATUS.md), [QC queue](QC_REPORT.md) and [weekly report](WEEKLY_REPORT.md).
 
 Preserve budget caps and cultural restrictions. A script/model score is not approval to teach, reuse assets or launch. Requirements and implemented capabilities are distinguished in the ledger.
+
+Current spending and continuity rules: [COST_AND_CONTINUITY.md](COST_AND_CONTINUITY.md). Model API generation is paused; bounded external requirements research runs weekly.
