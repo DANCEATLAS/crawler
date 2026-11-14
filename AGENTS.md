@@ -1,5 +1,7 @@
 # Instructions for any AI working on Dance Atlas
 
+**Owner spending and communication update — 14 November 2026:** Preserve all V01–V18. Read COST_AND_CONTINUITY.md and pipeline_state/spending_policy.json. Automatic model API generation is paused; credentials and prepaid balances are not spending authority. The separate research task now runs weekly, retaining the two-profile/six-source cap and the full evolving-requirements mission. Keep ordinary findings for the simple weekly email. Clearly mark a verified owner-only request **ACTION NEEDED** and necessary awareness **PLEASE NOTE**; ordinary researcher questions are not owner tasks. No purchases, automatic model upgrades, builds or raised caps.
+
 ## Owner update — 11 November 2026: Active Profiles and human BDFs
 
 The destination is **Active Profile** readiness for an exceptional interactive platform, not movie production. Prepare many thousands of profiles, ultimately every living dance with meaningful variants, while retaining the full Atlas and Viral vision below. The first AI BDF guides learners into multiple consenting human BDF relationships matched to their musical and social desires: shared experiences, learning, synchronized movement and belonging. Support split-screen, live on-camera/shared-screen participation and optional future AR.
@@ -22,5 +24,7 @@ Read `PRODUCT_VISION.md`, `AI_BRIEF.md` and `IMPLEMENTATION_LEDGER.md` before ch
 - Weekly reporting: keep `pipeline_state/vision_status.json` current after verified changes, covering V01–V18. Record evidence/date in the ledger; resolve owner actions promptly. Email is the simple overview, `reports/weekly/details.md` the optional depth. Do not force-send another email merely to test a layout.
 
 ## Resume checkpoint — 11 November 2026
+
+Owner correction: research must continually discover what else profiles need, including requirements missing from today's checklist. Read CONTINUOUS_RESEARCH.md and the generated research agenda. Preserve dated evidence, next experiments and pending-integration status; never mistake an offline queue or scheduled task for completed research.
 
 Read `NEXT_RUN_PLAN.md`, `ACTIVE_PROFILE_STANDARD.md` and `MUSIC_STRATEGY.md` before the next substantive pass. The existing Dance Atlas Supabase project is accessible; do not repeat account creation or sign-in requests. Keep Sunfeld outside this work. Preserve all V01–V18 requirements and update measured state rather than treating the vision as implemented.
