@@ -1,5 +1,7 @@
 # DANCING ATLAS — BRIEF FOR ANY AI THAT CONTINUES THIS WORK
 
+**Owner spending and communication update — 14 November 2026:** Preserve all V01–V18. Read COST_AND_CONTINUITY.md and pipeline_state/spending_policy.json. Automatic model API generation is paused; credentials and prepaid balances are not spending authority. The separate research task now runs weekly, retaining the two-profile/six-source cap and the full evolving-requirements mission. Keep ordinary findings for the simple weekly email. Clearly mark a verified owner-only request **ACTION NEEDED** and necessary awareness **PLEASE NOTE**; ordinary researcher questions are not owner tasks. No purchases, automatic model upgrades, builds or raised caps.
+
 ## Owner update — 11 November 2026: Active Profiles and human BDFs
 
 The destination is **Active Profile** readiness for an exceptional interactive platform, not movie production. Prepare many thousands of profiles, ultimately every living dance with meaningful variants, while retaining the full Atlas and Viral vision below. The first AI BDF guides learners into multiple consenting human BDF relationships matched to their musical and social desires: shared experiences, learning, synchronized movement and belonging. Support split-screen, live on-camera/shared-screen participation and optional future AR.
@@ -158,5 +160,7 @@ Keep the library growing and the scripts honest. Make new technology serve the l
 The owner found the old weekly email too complicated. Keep the email and GitHub fallback to roughly 500–650 plain-language words with large headings and readable body text. Lead with actual weekly change; cover every vision requirement through the dated `pipeline_state/vision_status.json` register. Clearly distinguish working content, drafts, missing work and future capabilities. Link detailed evidence instead of placing dense technical tables in the email. Ask for one owner-only action only when currently verified; update or resolve it immediately when access changes. Never call configured language targets completed translations, removed profiles current growth, script assembly release approval, or absent error logs a healthy account balance. Actual spending is unknown until measured. Existing cadence, recipients and limits stay unchanged.
 
 ## Resume checkpoint — 11 November 2026
+
+Continuous research is an explicit requirement: investigate overlooked activation needs and better methods, then feed source-backed questions and tests into the dossiers. Read CONTINUOUS_RESEARCH.md. Daily dossier evaluation, questions within existing capped research calls and the separate scheduled external research task are different mechanisms. Preserve budgets and report actual integration/access honestly.
 
 Read `NEXT_RUN_PLAN.md`, `ACTIVE_PROFILE_STANDARD.md` and `MUSIC_STRATEGY.md` before the next substantive pass. The existing Dance Atlas Supabase project is accessible; do not repeat account creation or sign-in requests. Keep Sunfeld outside this work. Preserve all V01–V18 requirements and update measured state rather than treating the vision as implemented.
