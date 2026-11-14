@@ -46,19 +46,13 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           YT_API_KEYS: ${{ secrets.YT_API_KEYS }}
           RESEARCH_NEW: ${{ github.event.inputs.research_new || '25' }}
           RESEARCH_ENRICH: ${{ github.event.inputs.research_enrich || '15' }}
           HERO_QC_BUDGET: ${{ github.event.inputs.hero_qc_budget || '60' }}
           DISCOVER_MAX_NEW: ${{ github.event.inputs.discover_max_new || '40' }}
           AUDIT_LLM_BUDGET: "150"
-          # OpenAI is the fallback when the free Gemini quota is gone; mini models keep a prepaid credit lasting months.
-          # gpt-5* models answer 404 "organization must be verified" on this account, so the 4.x minis come first
-          # (a newer mini is still tried automatically if these fail).
-          OPENAI_MODELS: "gpt-4.1-mini,gpt-4o-mini"
-          OPENAI_STRONG_MODELS: "gpt-4.1-mini,gpt-4o-mini"
+          # Model API spending is paused; see pipeline_state/spending_policy.json.
           # the movie phase (MOVIE_PHASE.md): tutorial videos studied per day (Gemini watches the public YouTube URL, free tier),
           # and episode packs whose narration the model may polish per day (0 = assembled text only; polished text is verified)
           PEDAGOGY_BUDGET: "6"
@@ -77,6 +71,6 @@ jobs:
           git config user.name "danceworld-crawler"
           git config user.email "crawler@users.noreply.github.com"
           git add -A
-          git commit -m "pipeline: ${{ github.event.inputs.stage || 'daily' }} $(date -u +%F)" || echo "nothing to commit"
-          git pull --rebase --autostash origin main || true
-          git push || echo "push failed"
+          if ! git diff --cached --quiet; then git commit -m "pipeline: ${{ github.event.inputs.stage || 'daily' }} $(date -u +%F)"; fi
+          git pull --rebase origin main
+          git push
