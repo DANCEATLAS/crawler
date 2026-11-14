@@ -188,6 +188,7 @@ def measure(root):
          "episode_stored": len(all_epi), "episode_withheld": sum(v.get("status") == "withheld-chapters" for v in epi.values()),
          "catalogue_at": cat.get("generated_at"),
          "vision": _j(P("pipeline_state", "vision_status.json"), {}) or {},
+         "spending_policy": _j(P("pipeline_state", "spending_policy.json"), {}) or {},
          "activation": activation if activation.get("contract") == "da_active_profile_v1" else {},
          "topics": {lab: 0 for lab, *_ in TOPICS}, "published_slugs": [], "film_slugs": [], "closest": [], "movie_slugs": [], "names": {}}
     for s, v in qidx.items():
