@@ -1,8 +1,8 @@
 # Kuttichathan Theyyam — episode pack
 
-*Status: withheld-chapters · built 2026-11-14 · judge 9.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-15 · judge 9.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed reference footage; the how-it-is-danced section; signature moves; the music & instruments section; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed reference footage; the how-it-is-danced section; signature moves; the music & instruments section; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Theyyam practitioner from North Malabar, deeply familiar with Kuttichathan's myths and ritual significance.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Fiery Gaze of Kuttichathan: A North Malabar Ritual Dance
 NARRATION: This is Kuttichathan Theyyam. historical and living tradition.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (bFvOlDyu1Sk)
 ON SCREEN: Title card: Kuttichathan Theyyam · India · historical and living tradition
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (bFvOlDyu1Sk)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -93,7 +93,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'bFvOlDyu1Sk', 'checked_by_vision_model': False, 'title': 'Shasthappan [ Kuttichathan ] Theyyam with Thottam | Aaryapparamb | Koottakkalam'}
 Images: 4 licensed — Shagil Kannur / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ajeeshkumar4u / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ajeeshkumar4u / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); TheRanchKeeper / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Red costume, Wooden cheek pieces, Peacock-like back extensions, Metallic eye-cap with central hole

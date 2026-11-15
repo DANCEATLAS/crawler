@@ -1,8 +1,8 @@
 # Jatjatin Dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-14 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-15 · judge 9.45 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; signature moves; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; signature moves; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -94,7 +94,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'I3st0yDQ7jQ', 'checked_by_vision_model': False, 'title': 'Jat-Jatin dance of C.P.ACADEMY On the special occasion of 68th Republic Day'}
+Hero video: {'youtube_id': 'I3st0yDQ7jQ', 'checked_by_vision_model': True, 'title': 'Jat-Jatin dance of C.P.ACADEMY On the special occasion of 68th Republic Day'}
 Images: 1 licensed — Ramesh Lalwani / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 
@@ -104,9 +104,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 17 tutorial(s) of the folk-circle family studied · videos studied: 17
+Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: rock step; side close side; triple step; rock step triple step triple step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; step your right foot sideward; close your left foot; point your left foot; hold your skirt
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
 
 Sources (2): https://en.wikipedia.org/wiki/Jatjatin_Dance; https://www.wikidata.org/wiki/Q25543524

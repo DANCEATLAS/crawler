@@ -1,13 +1,84 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex pivot turns",
+          "Deep dips"
+        ],
+        "counts": "Simplified 1-2-3 count.",
+        "duration_minutes": "3",
+        "game_version": "A 'follow the leader' walking game where children practice the one-two-three rhythm."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rising on toes",
+          "Rapid pivots",
+          "Deep dips"
+        ],
+        "counts": "Maintain the 3/4 count but at a slower tempo.",
+        "seated_version": "Perform the walking steps with feet while seated, focusing on the weight shift of the balance.",
+        "standing_version": "Perform the walking steps with support from a partner or barre, omitting the rise on toes if balance is a concern.",
+        "tempo_and_range": "Reduce tempo to a comfortable walking pace; limit range of motion for pivots."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Closed position; hands held throughout, even during crossing figures.",
+      "difficulty": "beginner",
+      "footwork": "Walking steps, balancing, skipping, and pivoting.",
+      "formation_and_space": "Closed ballroom position or side-by-side; moves in a line or rotation.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Rising on toes; no jumps described.",
+      "partnering": "Man leads with left foot, lady follows with right.",
+      "posture": "Upright, rising on toes with each step.",
+      "signature_moves": [
+        {
+          "description": "Throwing weight successively onto one foot and then the other.",
+          "name": "Balance"
+        },
+        {
+          "description": "Making every other step a skipping step.",
+          "name": "Skipping"
+        }
+      ],
+      "tempo_feel": "Graceful and swinging.",
+      "what_to_avoid": "Do not bring the trailing foot forward when balancing forward, and do not bring the forward foot backward when balancing backward."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "3/4 (implied by waltz time)",
+      "mood_keywords": [
+        "graceful",
+        "swinging"
+      ],
+      "musical_form": "Waltz",
+      "reference_recordings": [],
+      "rhythm_pattern": "One, two, three count.",
+      "sound_description": "The music follows the standard waltz time, characterized by a consistent one, two, three pulse that supports walking and balancing steps.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Step forward (man) or backward (lady) on the count of one, two, three.",
+        "Rise on toes with each step.",
+        "Balance by shifting weight between feet without bringing the trailing foot forward or backward.",
+        "Pivot on the man's right foot (lady's left) to perform turns."
+      ],
+      "formation": "Closed ballroom position or side-by-side.",
+      "level_notes": "Beginner-friendly due to the walking nature, but requires practice for graceful balancing.",
+      "rhythm": "Waltz time (one, two, three count)."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "e211e30c8867c9f031806e5a3ac3bfc6645503b501cd2bb02b1fd93b3c1fb752",
+  "fingerprint": "d89fcf3feefec38a0ccc86155797df6a6a97d1bbc9d5973e6dbce4201452889b",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +86,6 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +113,7 @@
   ],
   "music_options": [],
   "name": "Walking Boston",
-  "research_file": null,
+  "research_file": "research_results/walking-boston.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +125,7 @@
   "slug": "walking-boston",
   "sources": [
     "https://en.wikipedia.org/wiki/Walking_Boston",
-    "Source: Walking Boston on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Walking_Boston"
+    "https://www.wikidata.org/wiki/Q7962441"
   ],
   "state": "researching",
   "video_evidence": []

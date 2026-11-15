@@ -1,0 +1,120 @@
+{
+ "slug": "pasambahan-dance",
+ "qc_at": "2026-11-15T17:53:41Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 7.15,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Pasambahan dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "57"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "146"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In West Sumatra, Minangkabau hosts stage the Pasambahan dance specifically when "
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "474"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2060"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,costume_and_setting,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Indonesia"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Southeast Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "8 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['ritual', 'ceremon']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 4,
+  "teaching_value": 1,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 6,
+  "review": "review",
+  "notes": "Profile is strictly factual based on evidence claims, but lacks actionable teaching and movement details due to source limitations. Verdict is review because teaching value is extremely low."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sacred_handled",
+  "judge_score=7.15",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-15T17:14:01Z"
+}

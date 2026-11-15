@@ -1,6 +1,6 @@
 # Huaconada — episode pack
 
-*Status: withheld-chapters · built 2026-11-13 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-15 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; notable figures; two or more connections
 

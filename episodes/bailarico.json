@@ -1,0 +1,811 @@
+{
+ "slug": "bailarico",
+ "name": "Bailarico",
+ "pack_version": "e2",
+ "built_at": "2026-11-15T18:05:17Z",
+ "researched_at": "2026-11-15T17:10:36Z",
+ "qc_score": 9.75,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A warm and energetic Portuguese folklore instructor focusing on community connection, posture, and sharp transitions.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Bailarico",
+   "bailharico"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Bailarico",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Bouncing Spin of Portugal",
+     "This is Bailarico."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Bailarico · Portugal · not described in sources"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [],
+    "on_screen": [
+     "Map: Portugal · Europe",
+     "Image — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "origins_and_history"
+    ]
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore",
+    "needs": [
+     "occasions_and_meaning"
+    ]
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed by pairs facing each other without holding hands, positioned with their backs turned to the neighboring pair to form a wider circle.",
+     "In the first part of the music, the circle rotates as the girls back up and the boys step forward toward them.",
+     "Both boys and girls raise their hands in the air and execute baby bouncing steps.",
+     "Watch for Bouncing Circle Advance, Embraced Waltz Spin."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Circle of pairs facing each other with backs turned to neighboring couples, rotating spatially before anchoring in place for spinning."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "costume_and_setting",
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Bailarico is classified taxonomically as a type of dance and a subclass of Portuguese folk dance."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Form a circle of facing pairs without hand contact, backs turned to neighboring couples.",
+     "Raise hands in the air.",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Step into a Portuguese village circle where facing partners dance with raised hands before locking into a whirlwind waltz spin.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the circle setup and bouncing footwork with raised arms.",
+   "level": "Level 1: Formation & Bouncing",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the circle setup and bouncing footwork with raised arms..",
+      "Level: Level 1: Formation & Bouncing. Difficulty of the dance overall: beginner.",
+      "Your instructor: A warm and energetic Portuguese folklore instructor focusing on community connection, posture, and sharp transitions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with hands held raised in the air during the non-partnered phase, followed by a closed ballroom or social embrace.",
+      "Both dancers raise their hands in the air during the first part; arms transition into an embrace during the second part.",
+      "Facing partner directly without contact initially, followed by close-contact torso orientation during the waltz spin."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form a circle of facing pairs without hand contact, backs turned to neighboring couples.",
+      "Step 2: Raise hands in the air.",
+      "Footwork from the sources: Baby bouncing steps during the circle rotation; waltz footwork during the spinning section.",
+      "Drill: Stand facing partner without touching, hands held high above head."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Execute baby bouncing steps while rotating the circle, boys moving forward and girls backing up.",
+      "Step 4: Embrace partner at the start of the second musical part.",
+      "Drill: Practice baby bouncing steps traveling forward (leader) and backward (follower)."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Synchronize the bouncing advance along the curve of a rotating circle."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid traveling away from the spot during the waltz spin; avoid dropping hands during the opening circle rotation."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform seated facing a partner; lift arms overhead and bounce the heels or tap toes alternately forward and back, then lower arms to clasp hands and gently sway torso side to side in a waltz rhythm. · For children: Play 'Approach and Spin': children take tiny bunny hops toward and away from their partners with hands up like rabbit ears, then shout 'Embrace!' on the music change to link elbows and spin like tops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform seated facing a partner; lift arms overhead and bounce the heels or tap toes alternately forward and back, then lower arms to clasp hands and gently sway torso side to side in a waltz rhythm.",
+      "For children: Play 'Approach and Spin': children take tiny bunny hops toward and away from their partners with hands up like rabbit ears, then shout 'Embrace!' on the music change to link elbows and spin like tops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the circle setup and bouncing footwork with raised arms..",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute the closed embrace and smooth waltz rotation on the spot.",
+   "level": "Level 2: The Embrace & Waltz",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute the closed embrace and smooth waltz rotation on the spot..",
+      "Level: Level 2: The Embrace & Waltz. Difficulty of the dance overall: beginner.",
+      "Your instructor: A warm and energetic Portuguese folklore instructor focusing on community connection, posture, and sharp transitions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with hands held raised in the air during the non-partnered phase, followed by a closed ballroom or social embrace.",
+      "Both dancers raise their hands in the air during the first part; arms transition into an embrace during the second part.",
+      "Facing partner directly without contact initially, followed by close-contact torso orientation during the waltz spin."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Waltz and spin in place to one side.",
+      "Step 2: Reverse the spin in place to the opposite side.",
+      "Drill: Practice quick transition from raised hands to a secure closed embrace."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Bouncing Circle Advance: Facing partners rotate the circle with raised hands using baby bouncing steps, boys advancing as girls retreat.",
+      "Embraced Waltz Spin: Couples embrace and execute a waltz spinning on the spot, first to one side and then to the other.",
+      "Drill: Drill stationary waltz turning steps to the right."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Drill reverse stationary waltz turning steps to the left."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid traveling away from the spot during the waltz spin; avoid dropping hands during the opening circle rotation."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform seated facing a partner; lift arms overhead and bounce the heels or tap toes alternately forward and back, then lower arms to clasp hands and gently sway torso side to side in a waltz rhythm. · For children: Play 'Approach and Spin': children take tiny bunny hops toward and away from their partners with hands up like rabbit ears, then shout 'Embrace!' on the music change to link elbows and spin like tops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform seated facing a partner; lift arms overhead and bounce the heels or tap toes alternately forward and back, then lower arms to clasp hands and gently sway torso side to side in a waltz rhythm.",
+      "For children: Play 'Approach and Spin': children take tiny bunny hops toward and away from their partners with hands up like rabbit ears, then shout 'Embrace!' on the music change to link elbows and spin like tops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Circle of pairs facing each other with backs turned to neighboring couples, rotating spatially before anchoring in place for spinning."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the closed embrace and smooth waltz rotation on the spot..",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Integrate the two musical sections seamlessly with a partner.",
+   "level": "Level 3: Full Two-Part Transition",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Integrate the two musical sections seamlessly with a partner..",
+      "Level: Level 3: Full Two-Part Transition. Difficulty of the dance overall: beginner.",
+      "Your instructor: A warm and energetic Portuguese folklore instructor focusing on community connection, posture, and sharp transitions."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright with hands held raised in the air during the non-partnered phase, followed by a closed ballroom or social embrace.",
+      "Both dancers raise their hands in the air during the first part; arms transition into an embrace during the second part.",
+      "Facing partner directly without contact initially, followed by close-contact torso orientation during the waltz spin."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Waltz and spin in place to one side.",
+      "Step 2: Reverse the spin in place to the opposite side.",
+      "Drill: Rehearse the exact musical cue signaling the change from bounce to embrace."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Bouncing Circle Advance: Facing partners rotate the circle with raised hands using baby bouncing steps, boys advancing as girls retreat.",
+      "Embraced Waltz Spin: Couples embrace and execute a waltz spinning on the spot, first to one side and then to the other.",
+      "Drill: Complete the bouncing circle advance and immediately transition into the spin."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Execute the full sequence: bounce advance, right spin, reverse left spin."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid traveling away from the spot during the waltz spin; avoid dropping hands during the opening circle rotation."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform seated facing a partner; lift arms overhead and bounce the heels or tap toes alternately forward and back, then lower arms to clasp hands and gently sway torso side to side in a waltz rhythm. · For children: Play 'Approach and Spin': children take tiny bunny hops toward and away from their partners with hands up like rabbit ears, then shout 'Embrace!' on the music change to link elbows and spin like tops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform seated facing a partner; lift arms overhead and bounce the heels or tap toes alternately forward and back, then lower arms to clasp hands and gently sway torso side to side in a waltz rhythm.",
+      "For children: Play 'Approach and Spin': children take tiny bunny hops toward and away from their partners with hands up like rabbit ears, then shout 'Embrace!' on the music change to link elbows and spin like tops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Circle of pairs facing each other with backs turned to neighboring couples, rotating spatially before anchoring in place for spinning."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Integrate the two musical sections seamlessly with a partner..",
+      "Bailarico is classified taxonomically as a type of dance and a subclass of Portuguese folk dance.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": "Two-part musical structure supporting a traveling bouncing circle followed by a turning waltz.",
+  "mood": [
+   "festive",
+   "lively",
+   "partnered",
+   "social"
+  ],
+  "sound_description": null,
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Bailarico (Portugal). Form: Two-part musical structure supporting a traveling bouncing circle followed by a turning waltz.. Mood: festive, lively, partnered, social. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress: the sources do not describe the costume yet",
+   "dress_the_narrator": false,
+   "restricted_attire": false,
+   "from_sources": null,
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "A ring of hands lifted against the sky.",
+   "Feet taking small, rapid bouncing steps in unison.",
+   "A sudden closing of distance into a tight partner embrace.",
+   "A bird's-eye view of couples spinning simultaneously in fixed spots."
+  ],
+  "costume_notes": null,
+  "setting_notes": null,
+  "map": {
+   "country": "Portugal",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "19 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 19,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "pull back and lean to the left",
+   "close in open on and",
+   "milk down knees are bent",
+   "cross with our left leg",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "get up from the sleep",
+   "take your chest out",
+   "punch it",
+   "jump like a baby"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "count_in",
+   "full_demo",
+   "breakdown",
+   "warmup",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the origins & history section",
+  "the occasions & meaning section",
+  "the music & instruments section",
+  "the costume & setting section",
+  "notable figures",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Bailarico",
+  "https://www.wikidata.org/wiki/Q4848300"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "68677fef89127abbd56959bf397cdb86783dfb75ee0a67b3605fecc6953c7bbe",
+ "hero_checked": null
+}

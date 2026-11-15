@@ -1,42 +1,42 @@
 {
- "updated_at": "2026-11-14T15:52:05Z",
- "qc_records_considered": 587,
+ "updated_at": "2026-11-15T16:26:14Z",
+ "qc_records_considered": 622,
  "gate_failures": [
   [
    "sections_filled",
-   129
+   133
   ],
   [
    "citations",
-   83
+   86
   ],
   [
    "insight_concrete",
-   69
+   70
   ],
   [
    "profile_long_len",
-   64
-  ],
-  [
-   "country",
-   61
+   65
   ],
   [
    "sacred_handled",
-   58
+   65
+  ],
+  [
+   "country",
+   64
   ],
   [
    "banned_phrasing",
-   58
+   59
   ],
   [
    "not_duplicate",
-   24
+   26
   ],
   [
    "sources",
-   14
+   16
   ],
   [
    "region",
@@ -46,43 +46,43 @@
  "reasons": [
   [
    "sacred",
-   239
+   257
   ],
   [
    "sections_filled",
-   129
+   133
   ],
   [
    "not_a_dance",
-   112
+   121
   ],
   [
    "citations",
-   83
+   86
   ],
   [
    "insight_concrete",
-   69
+   70
   ],
   [
    "profile_long_len",
-   64
-  ],
-  [
-   "country",
-   61
+   65
   ],
   [
    "sacred_handled",
-   58
+   65
+  ],
+  [
+   "country",
+   64
   ],
   [
    "banned_phrasing",
-   58
+   59
   ],
   [
    "doubts=1",
-   47
+   50
   ]
  ],
  "judge_notes": [
@@ -92,19 +92,19 @@
   ],
   [
    "judge notes mention 'thin'",
-   17
+   18
   ],
   [
    "judge notes mention 'missing'",
-   14
+   16
   ],
   [
    "judge notes mention 'generic'",
-   6
+   8
   ],
   [
    "judge notes mention 'inaccura'",
-   6
+   8
   ],
   [
    "judge notes mention 'placeholder'",
@@ -130,89 +130,89 @@
  "episode_gaps_top": [
   [
    "tempo (bpm)",
-   291
+   307
   ],
   [
    "a verified recording to listen to",
-   272
+   290
   ],
   [
    "meter",
-   221
+   233
   ],
   [
    "licensed images (3 needed)",
-   216
+   231
   ],
   [
    "the hero video's vision check",
-   190
+   199
   ],
   [
    "licensed reference footage",
-   177
+   187
   ],
   [
    "two or more connections",
-   170
+   177
   ],
   [
    "what to avoid / common mistakes",
-   140
+   147
   ],
   [
    "instruments",
-   102
-  ],
-  [
-   "signature moves",
-   91
+   110
   ],
   [
    "the how-it-is-danced section",
-   87
+   100
+  ],
+  [
+   "signature moves",
+   94
   ],
   [
    "notable figures",
-   79
+   88
   ]
  ],
  "avoid": [
-  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (129 pages in 30 days)",
-  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (83 pages in 30 days)",
-  "the insight line was vague — put a person, a place, a year or a number in it (69 pages in 30 days)",
-  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (64 pages in 30 days)",
-  "a sacred dance had no sacred_note — add one (58 pages in 30 days)"
+  "fewer than four sections had real content — fill every section the sources allow; say 'not described in sources' only when they truly do not (133 pages in 30 days)",
+  "too few claims had an exact quote from a source — give 6 or more claims, each with its verbatim quote (86 pages in 30 days)",
+  "the insight line was vague — put a person, a place, a year or a number in it (70 pages in 30 days)",
+  "profile_long was too short — 600 to 1200 words of continuous prose from the sections (65 pages in 30 days)",
+  "a sacred dance had no sacred_note — add one (65 pages in 30 days)"
  ],
  "help_most": [
   {
    "gap": "tempo (bpm)",
-   "pages": 291,
+   "pages": 307,
    "what_helps": "a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json"
   },
   {
    "gap": "a verified recording to listen to",
-   "pages": 272,
+   "pages": 290,
    "what_helps": "a recording title the composer can verify in MusicBrainz (an album or single named in a source)"
   },
   {
    "gap": "meter",
-   "pages": 221,
+   "pages": 233,
    "what_helps": "a source that states the time signature"
   },
   {
    "gap": "licensed images (3 needed)",
-   "pages": 216,
+   "pages": 231,
    "what_helps": "a Wikimedia Commons category or file link in an editor note"
   },
   {
    "gap": "the hero video's vision check",
-   "pages": 190,
+   "pages": 199,
    "what_helps": "the vision model has not reached it yet — it will (60 a day)"
   },
   {
    "gap": "licensed reference footage",
-   "pages": 177,
+   "pages": 187,
    "what_helps": "a Commons video or an Internet Archive film naming the dance in its title"
   }
  ]

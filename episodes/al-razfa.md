@@ -1,6 +1,6 @@
 # Al-Razfa — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.6 · 7/7 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-15 · judge 9.6 · 7/7 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed reference footage; posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
 
@@ -11,7 +11,7 @@
 ## Episode 1 · Meet Al-Razfa · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Al-Razfa begins as a communal celebration of battle victory. Two rows of men face each other, chanting Nabati poetry while dancers wield wooden replica rifles.
+NARRATION: Al-Razfa begins as a communal celebration of battle victory. Two facing rows of men chant Nabati poetry while dancers wield wooden replica rifles.
 NARRATION: This is traditional Al-Razfa.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Al-Razfa · United Arab Emirates and Oman · traditional
@@ -20,28 +20,28 @@ MUSIC: theme (30 s)
 ### 2. Where and when (70 s) · `where`
 NARRATION: Al-Razfa starts as a communal celebration of victory.
 NARRATION: It evolves from a post-battle ritual into social entertainment across the United Arab Emirates and Oman.
-NARRATION: Modern practitioners adapt instruments and compose melodies to reach younger audiences while preserving traditional oral heritage.
+NARRATION: Modern practitioners adapt instruments and compose melodies to engage younger audiences while preserving traditional oral heritage.
 ON SCREEN: Map: United Arab Emirates and Oman · Middle East
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Once performed to mark victory, Al-Razfa now serves as social entertainment at national festivals and weddings.
-NARRATION: It brings together elders, heads of State, and young children in a shared tradition.
+NARRATION: Once performed for victory, Al-Razfa is now social entertainment for national festivals and weddings.
+NARRATION: It brings together elders, heads of State, and young children.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Performers form two facing lines with dancers in the center.
-NARRATION: A main singer leads the rows in antiphonal chants.
-NARRATION: Dancers carry wooden replica rifles, moving to the rhythm. Occasionally, young girls swing their hair in time with the music.
+NARRATION: A main singer leads the two rows in antiphonal chants.
+NARRATION: Dancers carry wooden replica rifles, moving to the rhythm. Young girls sometimes swing their hair in time with the music.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: signature_moves
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The music features a dual chorus singing chants of traditional Nabati poetry.
+NARRATION: A dual chorus sings chants based on traditional Nabati poetry.
 NARRATION: Drums and other instruments accompany the vocals, with contemporary artists adding new melodies and arrangements.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
@@ -51,15 +51,15 @@ NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: The dance takes place at social occasions like weddings and national festivals.
-NARRATION: Dancers carry wooden replica rifles, and participating girls swing their long hair to the rhythm.
+NARRATION: Dancers carry wooden replica rifles. Participating girls swing their long hair to the rhythm.
 ON SCREEN: Image gallery: 3 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 
 ### 7. The people (60 s) · `people`
 NARRATION: Dancers learn their roles through practical experience at social events. Girls receive instruction from mothers and older sisters.
-NARRATION: Al-Razfa is practiced across the United Arab Emirates and the Sultanate of Oman as shared intangible cultural heritage.
-NARRATION: Families handle the transmission of the dance.
+NARRATION: Al-Razfa is practiced throughout the United Arab Emirates and the Sultanate of Oman as shared intangible cultural heritage.
+NARRATION: Families handle the transmission.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
@@ -88,7 +88,7 @@ MUSIC: theme (20 s)
 ### 1. Welcome (45 s) · `welcome`
 NARRATION: Chapter 1 covers the first steps of Al-Razfa.
 NARRATION: Level: beginner.
-NARRATION: Your instructor counts out loud, demonstrates from front and back, repeats each step three times, and corrects mistakes kindly.
+NARRATION: Your instructor counts out loud, demonstrates from the front and back, repeats every step three times, and corrects mistakes kindly.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -114,14 +114,14 @@ MUSIC: lesson_slow
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Step into the space between lines while carrying a wooden replica rifle.
-NARRATION: Step 4: Execute choreographed movements with the rifle to the drum rhythm.
+NARRATION: Step 4: Execute choreographed movements holding the rifle in time to the drum rhythm.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Slow first.
-NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Perform Step A and Step B without stopping. Start slow.
+NARRATION: Move to half tempo, then full tempo.
+NARRATION: The instructor faces you and mirrors your movements.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -139,8 +139,8 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You have completed the first steps of Al-Razfa.
-NARRATION: Historically performed for victory, it is now social entertainment for festivals and weddings.
+NARRATION: You can now perform the first steps of Al-Razfa.
+NARRATION: While historically performed to mark a victory, Al-Razfa is now performed as social entertainment during national festivals and weddings.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -151,7 +151,7 @@ MUSIC: theme (10 s)
 ### 1. Welcome (45 s) · `welcome`
 NARRATION: Chapter 2 focuses on building the dance of Al-Razfa.
 NARRATION: Level: intermediate.
-NARRATION: Your instructor counts out loud, demonstrates from front and back, repeats each step three times, and corrects mistakes kindly.
+NARRATION: Your instructor counts out loud, demonstrates from the front and back, repeats every step three times, and corrects mistakes kindly.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -177,14 +177,14 @@ MUSIC: lesson_slow
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Step into the space between lines while carrying a wooden replica rifle.
-NARRATION: Step 4: Execute choreographed movements with the rifle to the drum rhythm.
+NARRATION: Step 4: Execute choreographed movements holding the rifle in time to the drum rhythm.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Slow first.
-NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Perform Step A and Step B without stopping. Start slow.
+NARRATION: Move to half tempo, then full tempo.
+NARRATION: The instructor faces you and mirrors your movements.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -202,8 +202,8 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You have completed the building of the Al-Razfa dance.
-NARRATION: Individual roles are learned through practical experience at social events, with girls instructed by mothers and older sisters.
+NARRATION: You can now perform the building steps of Al-Razfa.
+NARRATION: Individual roles within the dance are learned through practical experience at social events, with girls receiving instruction directly from their mothers and older sisters.
 NARRATION: Next: Chapter 3.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -212,9 +212,9 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — the dancing it fully of Al-Razfa · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3 focuses on dancing Al-Razfa fully.
+NARRATION: Chapter 3 covers dancing Al-Razfa fully.
 NARRATION: Level: advanced.
-NARRATION: Your instructor counts out loud, demonstrates from front and back, repeats each step three times, and corrects mistakes kindly.
+NARRATION: Your instructor counts out loud, demonstrates from the front and back, repeats every step three times, and corrects mistakes kindly.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
@@ -233,7 +233,7 @@ NEEDS: tempo, meter
 
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Step into the space between lines while carrying a wooden replica rifle.
-NARRATION: Step 2: Execute choreographed movements with the rifle to the drum rhythm.
+NARRATION: Step 2: Execute choreographed movements holding the rifle in time to the drum rhythm.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -244,9 +244,9 @@ MUSIC: lesson_slow
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Slow first.
-NARRATION: Now half tempo. Now full tempo.
-NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
+NARRATION: Perform Step A and Step B without stopping. Start slow.
+NARRATION: Move to half tempo, then full tempo.
+NARRATION: The instructor faces you and mirrors your movements.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -264,9 +264,9 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You have learned to dance Al-Razfa fully.
+NARRATION: You can now perform Al-Razfa fully.
 NARRATION: Transmission occurs directly within families.
-NARRATION: You know the dance. Go and dance it with others.
+NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
@@ -294,9 +294,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 17 tutorial(s) of the folk-circle family studied · videos studied: 17
+Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: rock step; side close side; triple step; rock step triple step triple step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; step your right foot sideward; close your left foot; point your left foot; hold your skirt
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
 
 Sources (4): https://en.wikipedia.org/wiki/Yowlah; https://www.wikidata.org/wiki/Q12213610; https://it.wikipedia.org/wiki/Yowlah; https://ich.unesco.org/en/RL/01078

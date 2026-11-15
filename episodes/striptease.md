@@ -1,6 +1,6 @@
 # Striptease — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.35 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.35 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): a verified recording to listen to; a hero video; licensed reference footage
 
@@ -329,9 +329,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 6 tutorial(s) of the stage-contemporary family studied · videos studied: 6
+Source: 3 tutorial(s) of the stage-contemporary family studied · videos studied: 3
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; make a little bit space between feet; try to find some groove; keep the water inside; make it easy; try to make the shift; make some groovy in your chest; try to find in your spine; make the snake finish on your arms; lean down
+Demonstration: views used by most teachers: front, side; tempo progression: slow → full
+Cues: keep your feet pointed; use your core; lean your body back; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest; straightening my legs; bringing my body up; bend both legs
 
 Sources (5): https://en.wikipedia.org/wiki/Striptease; https://www.wikidata.org/wiki/Q152213; https://es.wikipedia.org/wiki/Striptease; https://fr.wikipedia.org/wiki/Striptease; https://pt.wikipedia.org/wiki/Striptease

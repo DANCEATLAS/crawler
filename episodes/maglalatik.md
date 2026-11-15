@@ -1,8 +1,8 @@
 # Maglalatik — episode pack
 
-*Status: draft · built 2026-11-09 · judge 8.6 · 9/11 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 8.6 · 9/11 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the how-it-is-danced section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Filipino male dance expert familiar with traditional folk dances and martial arts
@@ -311,7 +311,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'KhDB9VQDmGk', 'checked_by_vision_model': False, 'title': 'Maglalatik - Philippine Folkdance'}
+Hero video: {'youtube_id': 'KhDB9VQDmGk', 'checked_by_vision_model': True, 'title': 'Maglalatik - Philippine Folkdance'}
 Images: 1 licensed — Ahmed Younis Sif / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Red clothing and bare torsos, Coconut shells strapped above nipples, Hands striking shells in rhythmic patterns, Close-up of fast drumbeat, Facial expressions of focus and intensity

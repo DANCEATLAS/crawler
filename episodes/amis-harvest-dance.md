@@ -1,87 +1,83 @@
 # Amis harvest dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-14 · judge 9.85 · 12/12 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-15 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the music & instruments section
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
-**Instructor:** An Amis elder or cultural expert who guides learners with respect and warmth
-**Say it:** Amis harvest dance, Ilisin, Malalikid, Kiloma'an, Amis harvest dance
+**Instructor:** A tribal elder or knowledgeable community member.
+**Say it:** Amis harvest dance, Ilisin, Kiloma'an, Malalikid
 
 ## Episode 1 · Meet Amis harvest dance · 8 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: Circle of Life: The Amis Harvest Dance
+NARRATION: The Circle of the Harvest
 NARRATION: This is Amis harvest dance. traditional.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Amis harvest dance · Taiwan · traditional
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: The Amis Harvest Festival, also called Ilisin, Malalikid, or Kiloma'an, is a traditional indigenous festival in Taiwan celebrated after the rice harvest, primarily in the Taitung and Hualien regions.
-NARRATION: It evolved from earlier millet harvest ceremonies and is held between July and September according to the lunar calendar.
-NARRATION: The festival lasts from one to seven days depending on the tribe and includes rituals to honor ancestral gods and pray for future prosperity.
+NARRATION: The festival is held after the rice harvest, though it was historically tied to the reaping of millet.
+NARRATION: It is a time for ancestral worship and the strengthening of tribal bonds.
 ON SCREEN: Map: Taiwan · East Asia
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: The dance is performed during the Ilisin Harvest Festival to celebrate the harvest, honor ancestors, and ensure future prosperity.
-NARRATION: It also serves social functions such as partner selection among youth and the selection of future tribe leaders by elders.
-NARRATION: The festival includes rites of passage like the adult ceremony for boys transitioning to manhood.
+NARRATION: The dance is performed during the Ilisin Harvest Festival.
+NARRATION: It serves to honor ancestors, celebrate the harvest, facilitate partner selection, and allow elders to identify future leaders.
+NARRATION: Today it is a living tradition.
 ON SCREEN: Footage — MISSING (use images)
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-NARRATION: Dancers form a hand-in-hand circle around elders seated in the center.
-NARRATION: Movements include walking, running, and jumping, with coastal tribes performing more complex steps.
-NARRATION: A lead singer initiates songs that the group follows.
-NARRATION: Watch for Circle Walk, Running Step, Jumping Step.
+NARRATION: Participants dance hand-in-hand in a circle.
+NARRATION: The primary movements consist of walking, running, and jumping.
+NARRATION: The dance is led by a soloist who initiates the singing, with the rest of the group following in a chorus.
+NARRATION: Watch for Circle dance.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Captions name each signature move as it appears
-ON SCREEN: Formation: Circle around seated elders; dancers move clockwise or counterclockwise
 MUSIC: diegetic (the video's own sound), underscore under narration
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The music features a lead vocal line with a responsive chorus, creating a layered communal sound that supports the rhythmic walking, running, and jumping of the dancers.
+NARRATION: Music is vocal-based, consisting of a lead singer and a chorus.
+NARRATION: The songs are described as serious and unchangeable, serving as a medium for spiritual communication.
+NARRATION: The music is defined by a lead vocalist singing traditional, serious songs while a chorus of participants responds, creating a rhythmic vocal foundation for the circle dance.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
-ON SCREEN: Waveform or rhythm-pattern graphic: Call-and-response singing led by a soloist with chorus
+ON SCREEN: Waveform or rhythm-pattern graphic: 
 MUSIC: the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original
-NEEDS: music_and_instruments, tempo, meter
+NEEDS: tempo, meter
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: Participants wear traditional festival clothes, including hats decorated with rooster feathers indicating status.
-NARRATION: The dance takes place around a campfire during the festival nights, often under the full moon, creating a communal and ceremonial atmosphere.
+NARRATION: Participants wear festival-specific clothing.
+NARRATION: A key element is the hat, which is decorated with rooster feathers; the quantity of feathers denotes the wearer's status within the tribe.
 ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
 
 ### 7. The people (60 s) · `people`
-NARRATION: The priest plays a central role, overseeing agricultural rituals and communication with the gods.
-NARRATION: The priest must be knowledgeable about the calendar, weather, tribal history, dance, and spiritual communication.
-NARRATION: The dance movements vary between coastal and mountainous tribes, with coastal dances being more complex.
-NARRATION: The Amis harvest dance is a traditional indigenous dance of Taiwan, linked closely to agricultural cycles and ancestral worship.
+NARRATION: The tribal priest, who is a knowledgeable and wise man responsible for instructing agricultural activities and sacrificial rituals.
+NARRATION: Dancing styles vary by location.
+NARRATION: An indigenous tradition of the Amis people in Taiwan, passed down through generations as part of the age-structure-based social system.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Amis harvest dance is shares music of awa-odori: Both are communal circle dances with call-and-response singing in East Asia.
-NARRATION: Amis harvest dance is shares music of bon-odori: Similar circle dance form performed during harvest-related festivals in Japan.
-NARRATION: Amis harvest dance is shares region of lion-dance: Traditional East Asian dance, but with different ritual and performance context.
-NARRATION: Amis harvest dance is shares region of buchaechum: Korean fan dance from East Asia, distinct in style and purpose.
-ON SCREEN: Graph: the connections with their relation labels
+ON SCREEN: Connections — MISSING
 MUSIC: underscore
+NEEDS: connections
 
 ### 9. A respectful note (30 s) · `first_step`
-NARRATION: The dance is part of sacred harvest ceremonies involving ancestral worship and rituals led by the priest; outsiders should respect the ritual context and not disrupt ceremonies.
+NARRATION: The songs and rituals are serious and unchangeable, serving as a medium for communicating with ancestors and gods; outsiders should observe with respect and follow local guidance regarding participation.
 ON SCREEN: Calm wide shot, no demonstration
 MUSIC: underscore
 
 ### 10. Until next time (25 s) · `close`
-NARRATION: Discover how the Amis people of Taiwan celebrate their harvest with a dance that unites generations and chooses future leaders.
+NARRATION: Discover the Ilisin, where the Amis people of Taiwan unite through song, dance, and ancestral ritual.
 NARRATION: Sources: 2 references are listed with the profile.
 ON SCREEN: Credits: sources, image and footage licences, music provenance
 MUSIC: theme (20 s)
@@ -90,7 +86,7 @@ MUSIC: theme (20 s)
 
 ## Music brief (original, copyright-free)
 
-Original instrumental composition in the musical world of Amis harvest dance (Taiwan). Rhythm pattern: Call-and-response singing led by a soloist with chorus. Vocal style: Lead singer initiates song, chorus follows; lyrics vary by age and tribe. Form: Choral call-and-response. Mood: ceremonial, communal, respectful, joyful. It should sound like this: The music features a lead vocal line with a responsive chorus, creating a layered communal sound that supports the rhythmic walking, running, and jumping of the dancers. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
+Original instrumental composition in the musical world of Amis harvest dance (Taiwan). Vocal style: One person leads a chorus and others follow.. Mood: serious, solemn, celebratory. It should sound like this: The music is defined by a lead vocalist singing traditional, serious songs while a chorus of participants responds, creating a rhythmic vocal foundation for the circle dance. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.
 
 Tracks: theme (cold open and closing, 30 s); underscore (narration bed, low dynamics, 180 s); lesson_slow (chapters: step practice, 240 s); lesson_full (chapters: dance it to the music, 240 s)
 
@@ -104,16 +100,16 @@ Care: every element traceable to the costume notes or a licensed image; nothing 
 Hero video: MISSING
 Images: 1 licensed — Danieltw93 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
-Motifs: Full moon over the village, Feathered festival hats, Hand-in-hand circle around elders, Campfire glow, Betel nut exchange
-Costume notes: Participants wear traditional festival clothes, including hats decorated with rooster feathers indicating status. The dance takes place around a campfire during the festival nights, often under the full moon, creating a communal and ceremonial atmosphere.
+Motifs: Rooster feather hats, Hand-in-hand circles, Campfire light, Betel nuts
+Costume notes: Participants wear festival-specific clothing. A key element is the hat, which is decorated with rooster feathers; the quantity of feathers denotes the wearer's status within the tribe.
 
 Rules: Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen. No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe. Licensed images and footage are shown with their attribution and licence text.
 
 ## Teaching formula
 
-Source: 17 tutorial(s) of the folk-circle family studied · videos studied: 17
+Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: rock step; side close side; triple step; rock step triple step triple step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; step your right foot sideward; close your left foot; point your left foot; hold your skirt
+Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (2): https://en.wikipedia.org/wiki/Amis_harvest_festivals; https://www.wikidata.org/wiki/Q21041633

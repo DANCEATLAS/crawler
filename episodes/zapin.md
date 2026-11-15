@@ -1,8 +1,8 @@
 # Zapin — episode pack
 
-*Status: draft · built 2026-11-14 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed reference footage; the how-it-is-danced section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Majid bin Rawino, a seasoned cultural practitioner and custodian of Zapin Lenga tradition
@@ -322,7 +322,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'GINseLXDLEI', 'checked_by_vision_model': False, 'title': 'Tugas Seni Budaya Tari "Zapin Melayu" ✧･ﾟ'}
+Hero video: {'youtube_id': 'GINseLXDLEI', 'checked_by_vision_model': True, 'title': 'Tugas Seni Budaya Tari "Zapin Melayu" ✧･ﾟ'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Airiz / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Aliff12 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Goverment of Jakarta Special Capital Region / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Close-ups of gambus lute and marwas drums, Pairs of dancers in traditional Malay attire, Slow-motion of kopak and wainab movements, Colorful songket fabrics and selendang shawls, Village wedding and Quran ceremony settings
@@ -332,9 +332,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 17 tutorial(s) of the folk-circle family studied · videos studied: 17
+Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: rock step; side close side; triple step; rock step triple step triple step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; step your right foot sideward; close your left foot; point your left foot; hold your skirt
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
 
 Sources (7): https://en.wikipedia.org/wiki/Zapin; https://www.wikidata.org/wiki/Q147371; https://fr.wikipedia.org/wiki/Zapin; https://de.wikipedia.org/wiki/Zapin; https://it.wikipedia.org/wiki/Zapin; https://pemetaanbudaya.jkkn.gov.my/en/senibudaya/detail/1036; https://pemetaanbudaya.jkkn.gov.my/en/senibudaya/detail/1038

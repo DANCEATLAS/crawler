@@ -1,6 +1,6 @@
 # The Freddie — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.65 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.65 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; two or more connections; what to avoid / common mistakes
 

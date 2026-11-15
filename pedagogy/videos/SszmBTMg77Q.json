@@ -1,0 +1,128 @@
+{
+ "youtube_id": "SszmBTMg77Q",
+ "slug": "butterfly-dance",
+ "dance": "Butterfly dance",
+ "title": "[Koreos Tutorial] LOONA - BUTTERFLY (Mirrored)",
+ "channel": "Koreos",
+ "viewer_ratio": 9.0,
+ "analysed_at": "2026-11-15T18:03:04Z",
+ "url": "https://www.youtube.com/watch?v=SszmBTMg77Q",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher breaks down K-pop choreography step-by-step with counts, providing verbal details on arm and leg placements. She demonstrates movements slowly and mirrors tutorial instructions for the learners.",
+  "language": "English",
+  "level": "intermediate",
+  "lesson_structure": [
+   {
+    "t": "0:03",
+    "segment": "intro",
+    "note": "Teacher introduces herself and the dance tutorial."
+   },
+   {
+    "t": "0:31",
+    "segment": "breakdown",
+    "note": "Detailed breakdown of Part 1 choreography counts and movement."
+   },
+   {
+    "t": "7:33",
+    "segment": "slow_practice",
+    "note": "Putting Part 1 together with counts slowly."
+   }
+  ],
+  "counting_scheme": "5-6-7-8 / 1-and-2-and",
+  "cues": [
+   "pull back and lean to the left",
+   "close in, open on and",
+   "milk down, knees are bent",
+   "cross with our left leg"
+  ],
+  "metaphors": [
+   "milking texture",
+   "touching a wall",
+   "swim kind of"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "side"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [
+   "We snap up on 2, snap down on and"
+  ],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Part 1 Opening",
+    "counts": "8 - 1 & 2 &",
+    "description": "Pull back, close and open arms with torso rotation."
+   },
+   {
+    "name": "Milking Texture Section",
+    "counts": "3 - 8 &",
+    "description": "Foot crosses, arm milkings and leg kicks with upper body isolation."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Mirrored tutorial format helps followers match sides easily",
+    "Detailed breakdown of arm and leg coordination"
+   ],
+   "what_hinders": [
+    "Fast transitions without repetition can make complex arm paths hard to follow immediately"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:06",
+    "text": "for today I'll be teaching Butterfly by Loona"
+   },
+   {
+    "t": "0:31",
+    "text": "the first move is going to start on 8"
+   },
+   {
+    "t": "2:57",
+    "text": "correction: we snap up on 2, snap down on and"
+   },
+   {
+    "t": "3:35",
+    "text": "you can just feel free to move around your space"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 3,
+    "end_s": 15,
+    "topic": "teaching",
+    "observation": "Teacher stands facing the camera and introduces the lesson content in a studio.",
+    "viewpoint": "front, mirrored",
+    "cannot_infer": "exact lighting setup off-camera",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 31,
+    "end_s": 50,
+    "topic": "movement",
+    "observation": "Teacher demonstrates stepping back and doing arm movements while counting.",
+    "viewpoint": "front, mirrored",
+    "cannot_infer": "subtle weight shifts on carpet",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Explicitly instructing students to travel in a circle around the room during transitions to match the members' stage movement."
+ }
+}

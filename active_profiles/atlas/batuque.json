@@ -1,0 +1,158 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Overly complex 3-against-2 polyrhythmic footwork",
+          "Prolonged continuous knee flexing without rest breaks"
+        ],
+        "counts": "Simplified 1-2 downbeat marching counts before speeding up for 8 counts of shaking.",
+        "duration_minutes": "15",
+        "game_version": "Circle switch game: children sit in a circle clapping 2-beat pulses while one child dances in the center; when the leader calls 'txabéta!', the dancer shakes their panu sash until tagging a replacement."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid deep knee bends",
+          "Sudden acceleration",
+          "Unsupported rapid pelvic twisting"
+        ],
+        "counts": "Count a simple 1-2 downbeat pulse instead of managing the full 3-against-2 polyrhythm.",
+        "seated_version": "Perform the galion sway seated upright in a chair, shifting weight across the sit bones; during the txabéta, pulse the heels gently against the floor to articulate the hip movement without stressing joints.",
+        "standing_version": "Hold onto the back of a sturdy chair for balance while stepping side-to-side for the galion, executing very shallow knee bends for the da ku tornu.",
+        "tempo_and_range": "Maintain a moderate tempo; reduce hip oscillation amplitude by half."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "Alternate stepping of the legs marking the downbeat during the first movement; grounded foot placement supporting rapid knee flexions in the second movement",
+      "formation_and_space": "Solo dancer working within the interior space of a circular ring of performers (terreru)",
+      "hips_and_torso": "Subtle torso swaying in the galion, shifting to rapid, isolated hip oscillations (da ku tornu) in the txabéta",
+      "levels_and_jumps": "Grounded level; no jumps described in sources",
+      "partnering": "Solo dancer performing in dynamic relation to the surrounding seated or standing chorus",
+      "posture": "Upright, grounded stance with slightly bent knees ready for rapid flexion",
+      "signature_moves": [
+        {
+          "description": "Initial body swaying with alternating leg weight transfers pacing the downbeat.",
+          "name": "galion movement"
+        },
+        {
+          "description": "Dynamic pelvic and hip oscillation generated through rapid, repetitive knee flexions.",
+          "name": "da ku tornu"
+        }
+      ],
+      "tempo_feel": "Starts at an andante swaying pace and culminates in a driving, fast-paced percussive climax",
+      "what_to_avoid": "Avoid stiffening the knees or attempting to swivel the hips without active knee flexion"
+    },
+    "music_profile": {
+      "instruments": [
+        "Cloths slapped between thighs (pano)",
+        "Hand clapping",
+        "Cimboa (extinct / historical)"
+      ],
+      "meter": "6/8 or 3/4",
+      "mood_keywords": [
+        "polyrhythmic",
+        "communal",
+        "percussive",
+        "resilient",
+        "celebratory"
+      ],
+      "musical_form": "Two-part crescendo: galion (introductory call-and-response) building to txabéta (climactic unison acceleration)",
+      "reference_recordings": [
+        {
+          "artist": "Bulimundo",
+          "title": "Batuco"
+        },
+        {
+          "artist": "Lura",
+          "title": "Rabóita di Rubõ Manel"
+        },
+        {
+          "artist": "Mayra Andrade",
+          "title": "Dispidida"
+        },
+        {
+          "artist": "Nancy Vieira",
+          "title": "Nha kumadri"
+        }
+      ],
+      "rhythm_pattern": "Polyrhythmic 3 against 2 pulse",
+      "sound_description": "A dense, driving acoustic texture characterized by bare hands slapping folded cloths held between thighs in an insistent three-over-two polyrhythm. A solo female voice delivers poetic, improvised lines that are answered by a full-throated unison female chorus, building gradually from an andante dialogue into a rapid, thumping percussive climax.",
+      "tempo_bpm": "andante",
+      "vocal_style": "Responsorial call-and-response; solo improvised finason answered by unison choral refrain"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Stand in the center of the terreru with a panu tied around the hips.",
+        "Execute the galion phase by swaying the body gently while shifting weight between alternate legs on the downbeat.",
+        "Upon the shift to txabéta, soften the knees into an athletic stance.",
+        "Perform da ku tornu: rapidly flex and release the knees to drive rhythmic oscillation through the hips."
+      ],
+      "formation": "Solo dancer in the center of a female vocal and percussion circle (terreru)",
+      "level_notes": "Beginners start with weight transfer and body swaying during the galion before developing the knee-driven isolation needed for the fast da ku tornu.",
+      "rhythm": "6/8 or 3/4 meter; 3-beat rhythm superimposed over a 2-beat pulse"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "b34f86dd25f3eb7b00e5cf40a9094c90e8b9e3275a2b7499ce3046334750a5c7",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:batuque",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Batuque",
+  "research_file": "research_results/batuque.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "batuque",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+    "https://www.wikidata.org/wiki/Q2891921",
+    "https://fr.wikipedia.org/wiki/Batuque_(Cap-Vert)",
+    "https://pt.wikipedia.org/wiki/Batuque_(Cabo_Verde)"
+  ],
+  "state": "teaching_withheld",
+  "video_evidence": []
+}

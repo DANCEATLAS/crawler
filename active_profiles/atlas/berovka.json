@@ -1,0 +1,163 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Rough tugging on hands in the line",
+          "Heavy flat-footed landings"
+        ],
+        "counts": "Count 1 (step), Count 2 (hop or jump).",
+        "duration_minutes": "10",
+        "game_version": "Form a curving train holding hands, challenging dancers to stay up on their tiptoes like birds and jump together every time the bagpipe trills."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Airborne jumps",
+          "Fast lateral turns",
+          "Prolonged unsupported balancing on toes"
+        ],
+        "counts": "Count 1: step on right ball of foot; Count 2: step on left ball of foot.",
+        "seated_version": "Perform heel-to-toe and ball-of-foot taps seated in a chair along with light seated knee-lifts to a steady 2/4 beat while holding adjacent hands or keeping arms outstretched.",
+        "standing_version": "Hold a stable barre or chair back, performing low calf raises and stepping in place on the balls of the feet without taking airborne jumps.",
+        "tempo_and_range": "Reduce the tempo to a moderate walk; keep lateral displacement within a few inches."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [
+        {
+          "description": "Ensure dancers stay elevated on the half-feet; falling flat onto heels between jumps breaks the regional technique.",
+          "source": "https://en.wikipedia.org/wiki/Berovka"
+        }
+      ],
+      "learning_units": [
+        {
+          "description": "Establish the half-circle formation with held hands, rising onto the half-feet for fast travel steps in 2/4 rhythm.",
+          "source": "https://en.wikipedia.org/wiki/Berovka"
+        },
+        {
+          "description": "Execute repeated jumps off the half-feet while maintaining line tempo and hold.",
+          "source": "https://en.wikipedia.org/wiki/Berovka"
+        }
+      ],
+      "prerequisites": [
+        {
+          "description": "Calf and ankle strength required for sustained fast movement on the balls of the feet and repetitive jumps.",
+          "source": "https://en.wikipedia.org/wiki/Berovka"
+        }
+      ],
+      "social_formats": [
+        {
+          "description": "Women's communal line dance beginning in an open half-circle with joined handholds.",
+          "source": "https://en.wikipedia.org/wiki/Berovka"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Dancers hold hands across the half-circle formation.",
+      "difficulty": "intermediate",
+      "footwork": "Fast steps danced on the half-feet combined with frequent vertical jumps.",
+      "formation_and_space": "Open half-circle moving through the dance space.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Upright elevation with repeated jumps.",
+      "partnering": "Non-partnered chain dance; communal handhold connection.",
+      "posture": "Erect and elevated, supporting weight primarily on the balls of the feet (half-feet).",
+      "signature_moves": [
+        {
+          "description": "Rapid step on the balls of the feet followed immediately by a light jump.",
+          "name": "Half-foot spring"
+        }
+      ],
+      "tempo_feel": "Fast and brisk.",
+      "what_to_avoid": "Dropping flat onto the heels or breaking hand contact in the curve."
+    },
+    "music_profile": {
+      "instruments": [
+        "Gajda (bagpipe)"
+      ],
+      "meter": "2/4",
+      "mood_keywords": [
+        "brisk",
+        "energetic",
+        "driving",
+        "uplifting"
+      ],
+      "musical_form": "Traditional instrumental oro melody",
+      "reference_recordings": [
+        {
+          "artist": "Pece Atanasovski",
+          "title": "Berovka"
+        },
+        {
+          "artist": "Ivan Terziev",
+          "title": "Berovka"
+        }
+      ],
+      "rhythm_pattern": "Fast duple meter (2/4)",
+      "sound_description": "A brisk duple-meter tune led by the ornate, continuous drone and trills of the Macedonian bagpipe, driving an energetic tempo suited for synchronized leaping.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form an open half-circle while holding hands with neighboring dancers.",
+        "Rise onto the half-feet (balls of the feet) to establish a lifted posture.",
+        "Execute rapid travel steps along the curve of the half-circle in 2/4 time.",
+        "Incorporate light, springing vertical jumps off the half-feet while maintaining line connection."
+      ],
+      "formation": "Half-circle (open chain)",
+      "level_notes": "Demands balance and calf endurance due to continuous movement on the balls of the feet and recurring jumps.",
+      "rhythm": "2/4 meter"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "b38574f9a4b1d4af02e91d83305d99cad5b6532122fe51e4046d05d600370ccb",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:berovka",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Berovka",
+  "research_file": "research_results/berovka.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "berovka",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Berovka",
+    "https://www.wikidata.org/wiki/Q4894655"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

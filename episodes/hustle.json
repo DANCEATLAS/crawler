@@ -1,0 +1,863 @@
+{
+ "slug": "hustle",
+ "name": "Hustle",
+ "pack_version": "e2",
+ "built_at": "2026-11-15T18:05:17Z",
+ "researched_at": "2026-11-15T16:48:42Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An authentic New York social dancer carrying the living history of South Bronx street footwork and smooth nightclub elegance.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Hustle",
+   "Latin hustle",
+   "Spanish hustle",
+   "New York hustle",
+   "The Hustle"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Hustle",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "From South Bronx Basements to the Top of the Charts",
+     "This is Hustle. 1970s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Hustle · United States · 1970s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Hustle began in late 1972 when Puerto Rican teenagers in the South Bronx created a 5-step dance with no turns, directly reacting against elders who objected to a grinding slow dance called the 500.",
+     "It was initially shared at hooky gigs, house parties, and basement clubs.",
+     "In 1973, musician Joe Bataan witnessed this early 6-step movement at the Bronx club '310 1/2' and recorded 'Latin Strut', whose faster tempo inspired teenagers to add fancier gyrations, transforming it into the Latin hustle."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The Hustle served as a youthful social rebellion against parental restrictions on slow grinding dances, quickly transforming into a tool for community peacemaking.",
+     "Members of the Imperial Bachelors street gang ran hustle parties at St. Mary's Recreation Center specifically to curb neighborhood violence in the South Bronx during 1974.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:2025-3-17 Engine AI plays Axe Gang Dance.webm (https://upload.wikimedia.org/wikipedia/commons/c/cf/2025-3-17_Engine_AI_plays_Axe_Gang_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Hustle is danced as a couple dance moving freely over the dance floor rather than following a strict line of dance.",
+     "The dance uses a lead-and-follow structure where the leader initiates back-forward steps starting on the left foot without a traditional swing rocking action due to the rapid tempo.",
+     "Counting patterns syncopate against 4/4 disco music; common timings include '&1 2 3 &1 2 3' (leader stepping Left-Right, Left, Right), as well as '1, 2 & 3' (Slow-Quick-Quick-Slow), '1&23', '12&3', or '123&'.",
+     "Watch for The Basic, Turn, Left Turn."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Traveling couple dance moving fluidly across the room rather than staying in a rigid line of dance."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Hustle is performed to disco and funk music structured in 4/4 meter with an accented, steady pulse on every beat, lacking swing bounce or oscillation.",
+     "Landmark songs associated with its development include Joe Bataan's 'Latin Strut' (1973), the Fatback Band's 'Spanish Hustle' (1975–1976), and Van McCoy and the Soul City Symphony's chart-topping instrumental 'The Hustle' (1975).",
+     "Listen for the funk bass, drums, horns, strings.",
+     "The pulse is 4/4.",
+     "Evenly accented four-on-the-floor disco beat without swing oscillation, anchored by driving bass guitar, rhythmic brass, swelling orchestral strings, and up-tempo Latin percussion."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Latin Strut — Joe Bataan; The Hustle — Van McCoy and the Soul City Symphony; Spanish Hustle — The Fatback Band",
+     "Waveform or rhythm-pattern graphic: Even, un-oscillated four-on-the-floor disco pulse with syncopated phrasing over 3 or 6 counts"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Hustle was historically danced in social and urban settings including South Bronx basements, hooky gigs, house parties, church recreation centers such as St. Mary's Recreation Center, and discotheques like New York City's Adam's Apple and club '310 1/2'.",
+     "Instructional vinyl releases like 'New York Hustle Incorporated' featured period disco attire and instructional photos to guide home learners."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key pioneers include Willie 'Marine Boy' Estrada, author of 'The Dancing Gangsters of the South Bronx: Rise of the Latin Hustle'; members of the Imperial Bachelors gang; Billy Fajardo and the performance team Disco Dance Dimensions; Latin Symbolics; television producer Marty Angelo, who created 'Disco Step-by-Step' and the Hustle Hall of Fame (later managed by Ron Bess and Mark James); musician Joe Bataan; DJ David Todd; songwriter Van McCoy; producer Charlie Kipps Jr.; and choreographer Deney Terrio.",
+     "The dance emerged as the Latin Hustle or Spanish Hustle in the South Bronx, characterized by a 5-step count that evolved into a 6-step pattern.",
+     "Hustle shares technical and stylistic ancestry with Mambo, Salsa, and single-step Swing, while integrating the undulating torso and hip isolations of son cubano."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Hustle is parent of Mambo: Hustle shares steps and rotational movement concepts directly with Mambo.",
+     "Hustle is parent of Salsa: Cuban immigrants integrated salsa footwork and Latin hip motion into disco dancing to shape the Latin hustle.",
+     "Hustle is influence of Swing: Hustle incorporates basic foot mechanics and figures like the inside loop turn and wrap from swing, but places the rock step at the start.",
+     "Hustle is sibling of Discofox: Emerging in Europe around the same era, Discofox shares similar basic step structures with Hustle."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Leader steps back on the left foot, followed by a forward replacement step on the right foot (&1 count)",
+     "Leader steps forward or sideways on the left foot (count 2)",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "How Puerto Rican teenagers in the South Bronx transformed street gang rivalries and disco beats into a global dance sensation.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the '&1 2 3' rhythm without swinging or rocking the hips aggressively.",
+   "level": "Level 1: The Syncopated Basic",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the '&1 2 3' rhythm without swinging or rocking the hips aggressively..",
+      "Level: Level 1: The Syncopated Basic. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An authentic New York social dancer carrying the living history of South Bronx street footwork and smooth nightclub elegance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, mobile social partner stance allowing rapid rotational momentum and free spatial travel across the floor.",
+      "Single or double hand-holds; bellows-like arm pumping during the Wheel figure; high arm arch allowing 360-degree counterclockwise spins in the Inside/Loop Turn; wrap and two-hand switch positions.",
+      "Smooth, undulating Cuban-derived hip movement during counts 2 and 3 that should feel soft without exaggerated impact."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Even, un-oscillated four-on-the-floor disco pulse with syncopated phrasing over 3 or 6 counts.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Leader steps back on the left foot, followed by a forward replacement step on the right foot (&1 count)",
+      "Step 2: Leader steps forward or sideways on the left foot (count 2)",
+      "Footwork from the sources: Leader begins back-forward steps with the left foot (&1 or 1, 2), stepping without swinging or rocking due to high speed; follower executes natural opposite footwork; count patterns include '&1 2 3', '1, 2 & 3', '1&23', '12&3', or '123&'.",
+      "Drill: Practice the back-and-forward foot action on '&1' in place without shifting body weight too far backward."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Leader steps forward or sideways on the right foot (count 3), completing the basic syncopated module",
+      "Step 4: Rotate 180 degrees clockwise between counts 2 and 3 after the rock-step for a basic Turn",
+      "Drill: Walk counts '2' and '3' with continuous forward movement, adding a soft hip roll."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Count out loud: '&1, 2, 3' against a straight four-on-the-floor disco beat."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rocking back on the heels during the rock-step; avoid jerky or over-accentuated hip hits on counts 2 and 3; avoid dancing with swing-style delayed bounce."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the '&1 2 3' foot rhythm seated by tapping the left heel and toe on '&1', followed by alternate flat foot steps on 2 and 3, mimicking the arm bellows of the Wheel with hands clasped. · For children: 'The Bellows Wheel Challenge': Partners link hands and try to steer together like a ship's wheel for 180 degrees before freezing on the count of 3."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the '&1 2 3' foot rhythm seated by tapping the left heel and toe on '&1', followed by alternate flat foot steps on 2 and 3, mimicking the arm bellows of the Wheel with hands clasped.",
+      "For children: 'The Bellows Wheel Challenge': Partners link hands and try to steer together like a ship's wheel for 180 degrees before freezing on the count of 3."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the '&1 2 3' rhythm without swinging or rocking the hips aggressively..",
+      "The Hustle served as a youthful social rebellion against parental restrictions on slow grinding dances, quickly transforming into a tool for community peacemaking.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute clean 180-degree clockwise turns and side breaks with partner connection.",
+   "level": "Level 2: Directional Turns and Breaks",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute clean 180-degree clockwise turns and side breaks with partner connection..",
+      "Level: Level 2: Directional Turns and Breaks. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An authentic New York social dancer carrying the living history of South Bronx street footwork and smooth nightclub elegance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, mobile social partner stance allowing rapid rotational momentum and free spatial travel across the floor.",
+      "Single or double hand-holds; bellows-like arm pumping during the Wheel figure; high arm arch allowing 360-degree counterclockwise spins in the Inside/Loop Turn; wrap and two-hand switch positions.",
+      "Smooth, undulating Cuban-derived hip movement during counts 2 and 3 that should feel soft without exaggerated impact."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Even, un-oscillated four-on-the-floor disco pulse with syncopated phrasing over 3 or 6 counts.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Rotate 180 degrees counterclockwise between counts 1 and 2 after the rock-step for a Left Turn",
+      "Step 2: Execute the Wheel by maintaining a double hand-hold and pumping arms like a bellows while revolving 180 degrees clockwise",
+      "Drill: Drill individual 180-degree clockwise pivot between counts 2 and 3, recovering directly into '&1'."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Basic: Back-forward step initiated at the beginning of the count sequence without a rocking delay.",
+      "Turn: 180-degree clockwise rotation executed between counts 2 and 3, followed by a rock-step.",
+      "Drill: Practice the Left Turn pivot between counts 1 and 2."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Partner drill: Lead the Follower into an open Side Break, catching the left hand smoothly on count 3."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rocking back on the heels during the rock-step; avoid jerky or over-accentuated hip hits on counts 2 and 3; avoid dancing with swing-style delayed bounce."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the '&1 2 3' foot rhythm seated by tapping the left heel and toe on '&1', followed by alternate flat foot steps on 2 and 3, mimicking the arm bellows of the Wheel with hands clasped. · For children: 'The Bellows Wheel Challenge': Partners link hands and try to steer together like a ship's wheel for 180 degrees before freezing on the count of 3."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the '&1 2 3' foot rhythm seated by tapping the left heel and toe on '&1', followed by alternate flat foot steps on 2 and 3, mimicking the arm bellows of the Wheel with hands clasped.",
+      "For children: 'The Bellows Wheel Challenge': Partners link hands and try to steer together like a ship's wheel for 180 degrees before freezing on the count of 3."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Traveling couple dance moving fluidly across the room rather than staying in a rigid line of dance."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute clean 180-degree clockwise turns and side breaks with partner connection..",
+      "Key pioneers include Willie 'Marine Boy' Estrada, author of 'The Dancing Gangsters of the South Bronx: Rise of the Latin Hustle'; members of the Imperial Bachelors gang; Billy Fajardo and the performance team Disco Dance Dimensions; Latin Symbolics; television producer Marty Angelo, who created 'Disco Step-by-Step' and the Hustle Hall of Fame (later managed by Ron Bess and Mark James); musician Joe Bataan; DJ David Todd; songwriter Van McCoy; producer Charlie Kipps Jr.; and choreographer Deney Terrio.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Combine the bellows-action Wheel with dynamic inside loop spins.",
+   "level": "Level 3: Rotational Figures and Styling",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Combine the bellows-action Wheel with dynamic inside loop spins..",
+      "Level: Level 3: Rotational Figures and Styling. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An authentic New York social dancer carrying the living history of South Bronx street footwork and smooth nightclub elegance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, mobile social partner stance allowing rapid rotational momentum and free spatial travel across the floor.",
+      "Single or double hand-holds; bellows-like arm pumping during the Wheel figure; high arm arch allowing 360-degree counterclockwise spins in the Inside/Loop Turn; wrap and two-hand switch positions.",
+      "Smooth, undulating Cuban-derived hip movement during counts 2 and 3 that should feel soft without exaggerated impact."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Even, un-oscillated four-on-the-floor disco pulse with syncopated phrasing over 3 or 6 counts.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Rotate 180 degrees counterclockwise between counts 1 and 2 after the rock-step for a Left Turn",
+      "Step 2: Execute the Wheel by maintaining a double hand-hold and pumping arms like a bellows while revolving 180 degrees clockwise",
+      "Drill: Double hand-hold bellows arm pump drill while executing a 180-degree clockwise unit rotation."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Left Turn: 180-degree counterclockwise rotation taken between counts 1 and 2, followed by a rock-step.",
+      "Side Break: The leader releases the follower outward while retaining the left hand connection, then retrieves them.",
+      "The Wheel: Couple joins in double hand-hold, pumps arms like a bellows, and rotates 180 degrees clockwise as a unit.",
+      "Drill: Follower 360-degree counterclockwise Inside Turn drill under leader's arched left hand."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Continuous combination linking Basic, Inside Turn, Wheel, and Side Break."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid rocking back on the heels during the rock-step; avoid jerky or over-accentuated hip hits on counts 2 and 3; avoid dancing with swing-style delayed bounce."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the '&1 2 3' foot rhythm seated by tapping the left heel and toe on '&1', followed by alternate flat foot steps on 2 and 3, mimicking the arm bellows of the Wheel with hands clasped. · For children: 'The Bellows Wheel Challenge': Partners link hands and try to steer together like a ship's wheel for 180 degrees before freezing on the count of 3."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the '&1 2 3' foot rhythm seated by tapping the left heel and toe on '&1', followed by alternate flat foot steps on 2 and 3, mimicking the arm bellows of the Wheel with hands clasped.",
+      "For children: 'The Bellows Wheel Challenge': Partners link hands and try to steer together like a ship's wheel for 180 degrees before freezing on the count of 3."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Traveling couple dance moving fluidly across the room rather than staying in a rigid line of dance."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Combine the bellows-action Wheel with dynamic inside loop spins..",
+      "Hustle shares technical and stylistic ancestry with Mambo, Salsa, and single-step Swing, while integrating the undulating torso and hip isolations of son cubano.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "4/4",
+  "rhythm_pattern": "Even, un-oscillated four-on-the-floor disco pulse with syncopated phrasing over 3 or 6 counts",
+  "instruments": [
+   "funk bass",
+   "drums",
+   "horns",
+   "strings",
+   "percussion"
+  ],
+  "vocal_style": "Soul, disco, and funk vocals or purely instrumental dance orchestrations",
+  "musical_form": "Cyclic disco and funk groove with verse-chorus or instrumental vamps",
+  "mood": [
+   "energetic",
+   "driving",
+   "smooth",
+   "celebratory",
+   "syncopated"
+  ],
+  "sound_description": "Evenly accented four-on-the-floor disco beat without swing oscillation, anchored by driving bass guitar, rhythmic brass, swelling orchestral strings, and up-tempo Latin percussion.",
+  "listen_before_composing": [
+   "Latin Strut — Joe Bataan",
+   "The Hustle — Van McCoy and the Soul City Symphony",
+   "Spanish Hustle — The Fatback Band",
+   "Everybody's Doin' the Hustle & Dead on the Double Bump — James Brown",
+   "Hustle with Speed — The JB's",
+   "The Hustle — Van McCoy & The Soul City Symphony (1975)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Hustle (United States). Meter 4/4. Rhythm pattern: Even, un-oscillated four-on-the-floor disco pulse with syncopated phrasing over 3 or 6 counts. Instruments: funk bass, drums, horns, strings, percussion. Vocal style: Soul, disco, and funk vocals or purely instrumental dance orchestrations. Form: Cyclic disco and funk groove with verse-chorus or instrumental vamps. Mood: energetic, driving, smooth, celebratory, syncopated. It should sound like this: Evenly accented four-on-the-floor disco beat without swing oscillation, anchored by driving bass guitar, rhythmic brass, swelling orchestral strings, and up-tempo Latin percussion. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "Hustle was historically danced in social and urban settings including South Bronx basements, hooky gigs, house parties, church recreation centers such as St. Mary's Recreation Center, and discotheques like New York City's Adam's Apple and club '310 1/2'. Instructional vinyl releases like 'New York Hustle Incorporated' featured period disco attire and instructional photos to guide home learners. Television shows like Marty Angelo's 'Disco Step-by-Step' brought nightclub dress into living rooms, while Saturday Night Fever broadcast club-based disco styling internationally.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AJames-Brown_1973.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/James-Brown_1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/James-Brown_1973.jpg/1280px-James-Brown_1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Heinrich Klaffs / Wikimedia Commons / CC BY-SA 2.0",
+    "license": "CC BY-SA 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AJames-Brown_1973.jpg",
+    "description": "James Brown — performing in the Musikhalle of Hamburg, in February 1973."
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:2025-3-17 Engine AI plays Axe Gang Dance.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/2025-3-17_Engine_AI_plays_Axe_Gang_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 4.0",
+    "attribution": "Chine News Service / Wikimedia Commons / CC BY 4.0"
+   },
+   {
+    "title": "Disney Sing Along Songs: Disneyland Fun (2002 Print)",
+    "url": "https://archive.org/details/DisneylandFun2002",
+    "year": 1990,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Kung Fu Hustle [DVD] [Thai] [Region 3]",
+    "url": "https://archive.org/details/kung-fu-hustle",
+    "year": 2005,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "St. Mary's Recreation Center gymnasium filled with teenagers in 1974.",
+   "The glowing dance floor and spinning mirror ball of 1970s New York discotheques.",
+   "Close-up of pumping forearm grips executing 'The Wheel'.",
+   "Vintage CRT television playing 1975 episodes of 'Disco Step-by-Step'."
+  ],
+  "costume_notes": "Hustle was historically danced in social and urban settings including South Bronx basements, hooky gigs, house parties, church recreation centers such as St. Mary's Recreation Center, and discotheques like New York City's Adam's Apple and club '310 1/2'. Instructional vinyl releases like 'New York Hustle Incorporated' featured period disco attire and instructional photos to guide home learners. Television shows like Marty Angelo's 'Disco Step-by-Step' brought nightclub dress into living rooms, while Saturday Night Fever broadcast club-based disco styling internationally.",
+  "setting_notes": "The Hustle served as a youthful social rebellion against parental restrictions on slow grinding dances, quickly transforming into a tool for community peacemaking. Members of the Imperial Bachelors street gang ran hustle parties at St. Mary's Recreation Center specifically to curb neighborhood violence in the South Bronx during 1974. Across Florida and New York, it became a shared social language for Latin, Black, and White urban youth seeking recreation in nightclubs, maintaining its status as an enduring social dance alongside swing, salsa, mambo, and tango.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "18 tutorial(s) of the street-urban family studied",
+  "videos_studied": 18,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, mirror",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "right leg out front",
+   "jump split your legs",
+   "the back foot goes up",
+   "lift the left leg up",
+   "jump back on the left leg",
+   "kick the right leg up",
+   "take the right leg back",
+   "hop forward with the left leg",
+   "feet parallel",
+   "relax  breath",
+   "land on the balls of your feet",
+   "engage your core"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "layering",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hustle_(dance)",
+  "https://www.wikidata.org/wiki/Q2914794",
+  "https://es.wikipedia.org/wiki/Hustle_(baile)"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "75a943295d8940708e7f57bb0c260bc9b942c641e7e3cc79aeeeb603c2c1d156",
+ "hero_checked": null
+}

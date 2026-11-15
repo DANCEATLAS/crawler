@@ -1,0 +1,129 @@
+{
+ "slug": "wu-tang",
+ "qc_at": "2026-11-15T17:54:03Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 3.6,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Wu-tang"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "74"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "166"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Catalogued under Wikidata entity Q8038870, Wu-tang stands as a recognized hip-ho"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "425"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2187"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": false,
+   "detail": "origins_and_history"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "3/6 rate=0.5"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": false,
+   "detail": "not described in sources"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Global"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "foundational,codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 2,
+  "respect": 10,
+  "specificity": 1,
+  "teaching_value": 1,
+  "is_a_dance": false,
+  "factual_doubt": [
+   "Wu-tang is an established form of hip-hop dance identified within international open dance registries.",
+   "The tradition is categorized as a specific type of dance within street and urban movement styles.",
+   "The entity is registered under identifier Q8038870 in the global open knowledge repository."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": false,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 1,
+  "verdict": "reject",
+  "notes": "The profile is a circular reference to a Wikidata entity (Q8038870) which is a disambiguation page for the hip-hop group, not a dance style. There is no evidence that 'Wu-tang' is a recognized dance tradition. The profile contains no actual information, only statements that information is missing."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "citations",
+  "sources",
+  "country",
+  "sections_filled",
+  "banned_phrasing",
+  "judge_score=3.6",
+  "doubts=3",
+  "not_a_dance"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 3,
+  "rate": 0.5
+ },
+ "researched_at": "2026-11-15T17:26:47Z"
+}

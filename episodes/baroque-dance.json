@@ -1,0 +1,883 @@
+{
+ "slug": "baroque-dance",
+ "name": "Baroque dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-15T18:05:17Z",
+ "researched_at": "2026-11-15T17:39:02Z",
+ "qc_score": 9.85,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A historical dance researcher or specialist in Baroque performance.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Baroque dance",
+   "belle danse"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Baroque dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Lost Language of the French Court",
+     "This is Baroque dance. 17th and 18th century."
+    ],
+    "on_screen": [
+     "Hero video, first 10 seconds (3uoHr22VmFQ)",
+     "Title card: Baroque dance · France · 17th and 18th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The style originated in the 17th-century French court under Louis XIV, evolving from Renaissance court dance.",
+     "It was heavily influenced by French, Italian, Spanish, and English forms, eventually becoming the 'belle danse' codified by masters like Beauchamp and Feuillet."
+    ],
+    "on_screen": [
+     "Map: France · Europe",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally performed at social events, court ceremonies, and theatrical productions like opera-ballets, it served as a display of elegance, social status, and artistic refinement.",
+     "Today it is a revived tradition."
+    ],
+    "on_screen": [
+     "Footage: Baroque Dance Rhythms - Music that Moves the Heart and the Feet - 10/12/2018 (https://archive.org/details/cctv17vt-Baroque_Dance_Rhythms_-_Music_that_Moves_the_Heart_and_the_Feet_-_10_12_2018)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is characterized by an upright, refined posture and fluid, complex movements of the arms and legs.",
+     "It is highly codified, with specific steps linked to the musical meter of the period.",
+     "Watch for Five positions."
+    ],
+    "on_screen": [
+     "Hero video full screen, 30–45 s (3uoHr22VmFQ)",
+     "Captions name each signature move as it appears",
+     "Formation: Social ballroom patterns or theatrical stage paths."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Baroque dance is intrinsically linked to Baroque music, including suites, minuets, bourrées, and gavottes.",
+     "It is often accompanied by chamber music or court ensembles.",
+     "Listen for the Chamber ensemble, Court orchestra.",
+     "The pulse is Varies by dance type (e.g., minuet, bourrée)..",
+     "Characterized by the structured, rhythmic clarity of the Baroque period, often featuring strings and harpsichord, designed to support the precise footwork of the dancers."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Les Boréades — Jean-Philippe Rameau; Atys — Jean-Baptiste Lully; Les Boréades — Jean‐Philippe Rameau, Sabine Devieilhe, Reinoud Van Mechelen, Orfeo Orchestra, György Vashegyi (2024)",
+     "Waveform or rhythm-pattern graphic: Coded by dance type and musical bar structure."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers traditionally wore elaborate, heavy costumes, often adorned with jewelry, reflecting the status of the nobility and the theatrical nature of court entertainments."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key figures include Louis XIV, Pierre Beauchamp, Raoul Auger Feuillet, Pierre Rameau, Melusine Wood, Belinda Quirey, Mary Skeaping, Wendy Hilton, Catherine Turocy, and Francine Lancelot.",
+     "Variants include the French noble style, English country dance, and less-studied Italian and Spanish court styles.",
+     "It is considered the first clear stylistic ancestor of classical ballet, with its technique influencing the development of later theatrical dance forms."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Baroque dance is child of classical ballet: Baroque dance is the first clear stylistic ancestor of classical ballet."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Upright posture maintenance",
+     "Footwork based on the five positions",
+     "Count it: count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Discover how 18th-century dance notation brought the elegant world of Baroque movement back to life.",
+     "Sources: 5 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Understand basic posture and alignment.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Understand basic posture and alignment..",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A historical dance researcher or specialist in Baroque performance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and refined.",
+      "Fluid, graceful movements.",
+      "Controlled, upright."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars. The meter is Varies by dance type (e.g., minuet, bourrée)..",
+      "Rhythm pattern: Coded by dance type and musical bar structure..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Upright posture maintenance",
+      "Step 2: Footwork based on the five positions",
+      "Footwork from the sources: Complex steps based on five positions, recorded in Beauchamp-Feuillet notation.",
+      "Drill: Standing in first position"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Fluid arm movements",
+      "Step 4: Step-sequences corresponding to musical bars",
+      "Drill: Graceful arm carriage"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Focus on arm movements and upper body carriage while seated. · For children: Simplified floor pattern games based on English country dance."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Focus on arm movements and upper body carriage while seated.",
+      "For children: Simplified floor pattern games based on English country dance."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Understand basic posture and alignment..",
+      "Originally performed at social events, court ceremonies, and theatrical productions like opera-ballets, it served as a display of elegance, social status, and artistic refinement.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "the building the dance of Baroque dance",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: the building the dance of Baroque dance.",
+      "Level: intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A historical dance researcher or specialist in Baroque performance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and refined.",
+      "Fluid, graceful movements.",
+      "Controlled, upright."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars. The meter is Varies by dance type (e.g., minuet, bourrée)..",
+      "Rhythm pattern: Coded by dance type and musical bar structure..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Upright posture maintenance",
+      "Step 2: Footwork based on the five positions"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Fluid arm movements",
+      "Step 4: Step-sequences corresponding to musical bars",
+      "Five positions: The foundational foot positions codified in the 17th century."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Focus on arm movements and upper body carriage while seated. · For children: Simplified floor pattern games based on English country dance."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Focus on arm movements and upper body carriage while seated.",
+      "For children: Simplified floor pattern games based on English country dance."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Social ballroom patterns or theatrical stage paths."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the building the dance of Baroque dance.",
+      "Key figures include Louis XIV, Pierre Beauchamp, Raoul Auger Feuillet, Pierre Rameau, Melusine Wood, Belinda Quirey, Mary Skeaping, Wendy Hilton, Catherine Turocy, and Francine Lancelot.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Baroque dance",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Baroque dance.",
+      "Level: advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A historical dance researcher or specialist in Baroque performance."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright and refined.",
+      "Fluid, graceful movements.",
+      "Controlled, upright."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars. The meter is Varies by dance type (e.g., minuet, bourrée)..",
+      "Rhythm pattern: Coded by dance type and musical bar structure..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Fluid arm movements",
+      "Step 2: Step-sequences corresponding to musical bars"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Five positions: The foundational foot positions codified in the 17th century."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [],
+     "on_screen": [
+      "Correction withheld until evidence is available",
+      "Options card: Seated or supported option: Focus on arm movements and upper body carriage while seated. · For children: Simplified floor pattern games based on English country dance."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Focus on arm movements and upper body carriage while seated.",
+      "For children: Simplified floor pattern games based on English country dance."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources",
+     "needs": [
+      "what_to_avoid"
+     ]
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Social ballroom patterns or theatrical stage paths."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Baroque dance.",
+      "It is considered the first clear stylistic ancestor of classical ballet, with its technique influencing the development of later theatrical dance forms.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "Varies by dance type (e.g., minuet, bourrée).",
+  "rhythm_pattern": "Coded by dance type and musical bar structure.",
+  "instruments": [
+   "Chamber ensemble",
+   "Court orchestra"
+  ],
+  "vocal_style": null,
+  "musical_form": "Stylized suites, opera-ballet, court entertainment music.",
+  "mood": [
+   "elegant",
+   "refined",
+   "courtly"
+  ],
+  "sound_description": "Characterized by the structured, rhythmic clarity of the Baroque period, often featuring strings and harpsichord, designed to support the precise footwork of the dancers.",
+  "listen_before_composing": [
+   "Les Boréades — Jean-Philippe Rameau",
+   "Atys — Jean-Baptiste Lully",
+   "Les Boréades — Jean‐Philippe Rameau, Sabine Devieilhe, Reinoud Van Mechelen, Orfeo Orchestra, György Vashegyi (2024)",
+   "Atys — Jean‐Baptiste Lully, Guy de Mey, Guillemette Laurens, Agnès Mellon, Jean-François Gardeil, Les Arts Florissants, William Christie (1987)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Baroque dance (France). Meter Varies by dance type (e.g., minuet, bourrée).. Rhythm pattern: Coded by dance type and musical bar structure.. Instruments: Chamber ensemble, Court orchestra. Form: Stylized suites, opera-ballet, court entertainment music.. Mood: elegant, refined, courtly. It should sound like this: Characterized by the structured, rhythmic clarity of the Baroque period, often featuring strings and harpsichord, designed to support the precise footwork of the dancers. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": {
+   "youtube_id": "3uoHr22VmFQ",
+   "checked_by_vision_model": true,
+   "title": "Menuet Excerpt from Introduction to Baroque Dance"
+  },
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers traditionally wore elaborate, heavy costumes, often adorned with jewelry, reflecting the status of the nobility and the theatrical nature of court entertainments.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABallet_de_la_nuit_1653.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AHistorical_dancing_baroque_at_time_travellers_ball_earthly_delights_dance_group.JPG"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ballet_de_la_nuit_1653.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ballet_de_la_nuit_1653.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Henri de Gissey / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABallet_de_la_nuit_1653.jpg",
+    "description": "Louis XIV dans Le Ballet de la nuit. The ballet was choreographed in 1653. It was significant because Louis XIV made his debut at court. This court ballet lasted 12 hours, beginning at sundown and lasting until morning, and consisted of 45 dances. Louis XIV appeared in 5 of them. The most famous dance of Ballet de la Nuit portrays Louis XIV as Apollo the Sun King. Art by Henri de Gissey published "
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Historical_dancing_baroque_at_time_travellers_ball_earthly_delights_dance_group.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Historical_dancing_baroque_at_time_travellers_ball_earthly_delights_dance_group.JPG/1280px-Historical_dancing_baroque_at_time_travellers_ball_earthly_delights_dance_group.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "John Hewat of Canberra, Australia / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AHistorical_dancing_baroque_at_time_travellers_ball_earthly_delights_dance_group.JPG",
+    "description": "Dance held at All Saints Church Hall Ainslie Canberra in November 2015. Time travellers ball with called dances from all time eras from 15th to 20th century. Dance called by group Earthly Delights Danced to live music"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Baroque Dance Rhythms - Music that Moves the Heart and the Feet - 10/12/2018",
+    "url": "https://archive.org/details/cctv17vt-Baroque_Dance_Rhythms_-_Music_that_Moves_the_Heart_and_the_Feet_-_10_12_2018",
+    "year": 2019,
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "[ 09] Dance A Journey Across Europe, Choreographed By ' La Compagnie De L' Eventail' [ Etcohod]",
+    "url": "https://archive.org/details/09-dance-a-journey-across-europe-choreographed-by-la-compagnie-de-l-eventail-etcohod",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "D' Auvergne: Les Troquers (1983) (Opera - VHS)",
+    "url": "https://archive.org/details/d-auvergne-les-troquers",
+    "year": 2026,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Preußische Tänze im Stil Friedrich des Großen-Prussian Dances in the Style of Frederick the Great",
+    "url": "https://archive.org/details/vimeo-1104909249",
+    "year": 2025,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Preußische Tänze im Stil Friedrich des Großen-Prussian Dances in the Style of Frederick the Great",
+    "url": "https://archive.org/details/vimeo-1104911306",
+    "year": 2025,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "[ 62] Dance La Belle Dame, Chorégraphie De Béatrice Massin 2011 [ Etcohod]",
+    "url": "https://archive.org/details/62-dance-la-belle-dame-choregraphie-de-beatrice-massin-2011-etcohod",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "[ 10] Dance The Fair Lady, Choreography By Béatrice Massin[ Etcohod]",
+    "url": "https://archive.org/details/10-dance-the-fair-lady-choreography-by-beatrice-massin-etcohod",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Historical dance manuals",
+   "Beauchamp-Feuillet notation diagrams",
+   "Courtly attire"
+  ],
+  "costume_notes": "Dancers traditionally wore elaborate, heavy costumes, often adorned with jewelry, reflecting the status of the nobility and the theatrical nature of court entertainments.",
+  "setting_notes": "Originally performed at social events, court ceremonies, and theatrical productions like opera-ballets, it served as a display of elegance, social status, and artistic refinement.",
+  "map": {
+   "country": "France",
+   "region": "Europe",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "4 tutorial(s) of the classical-court family studied",
+  "videos_studied": 4,
+  "counting": "count the Varies by dance type (e.g., minuet, bourrée). bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "keep length in both sides of the waist",
+   "keep the supporting leg strong and stable",
+   "keep the spine long",
+   "demi-plie",
+   "pas de bourree",
+   "releve",
+   "fifth position",
+   "hold your placement",
+   "stay straight as a board",
+   "lift up in your lower abs",
+   "change feet"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "mistakes",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "licensed images (3 needed)",
+  "two or more connections",
+  "what to avoid / common mistakes"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Baroque_dance",
+  "https://www.wikidata.org/wiki/Q3015601",
+  "https://es.wikipedia.org/wiki/Danza_barroca",
+  "https://fr.wikipedia.org/wiki/Danse_baroque",
+  "https://pt.wikipedia.org/wiki/Belle_danse"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "0724c26d3e19425a255e455b8476d2f9ec800fca9bfddfb80eee2b93252b3a71",
+ "hero_checked": "pass"
+}

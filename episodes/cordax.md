@@ -1,8 +1,8 @@
 # cordax — episode pack
 
-*Status: withheld-chapters · built 2026-11-11 · judge 9.55 · 11/11 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-15 · judge 9.55 · 11/11 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A rigorous classical antiquity scholar with a passion for the unvarnished, earthy realities of ancient popular culture.
@@ -98,7 +98,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'U9gHiAHIrfo', 'checked_by_vision_model': False, 'title': 'Zorba, ¡enséñame a bailar! El baile final - Las Notas del Vino 2018'}
+Hero video: {'youtube_id': 'U9gHiAHIrfo', 'checked_by_vision_model': True, 'title': 'Zorba, ¡enséñame a bailar! El baile final - Las Notas del Vino 2018'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Ancient Greek theatrical masks, Terracotta vase paintings of comic actors, Clicking castanets and bronze finger cymbals

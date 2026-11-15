@@ -1,8 +1,8 @@
 # Kerala Natanam — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.7 · 11/11 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.7 · 11/11 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced classical dancer with knowledge of Kathakali and Kerala Natanam
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Kerala Natanam: The Dance that Reimagined Tradition
 NARRATION: This is Kerala Natanam. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (OhMN85bx750)
 ON SCREEN: Title card: Kerala Natanam · India · 20th century
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Tribhanga Pose.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (OhMN85bx750)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Performed solo, in pairs, groups, or extended dance dramas
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -305,7 +305,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Costumes and facial makeup in Kerala Natanam are role-specific rather than fixed, differing from Kathakali's traditional attire. For example, a dancer portraying Jesus Christ wears costume resembling Christ, while social dances use laborer or peasant attire. Mythological and other characters have appropriate costumes to match their roles. Settings vary depending on the performance type, including solo recitals and extended dance dramas.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'OhMN85bx750', 'checked_by_vision_model': False, 'title': 'Pahi Parvatha :: Kerala Natanam'}
 Images: 2 licensed — Shagil Kannur / Wikimedia Commons / CC BY 4.0 (CC BY 4.0); Shagil Kannur / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: MISSING
 Motifs: Tribhanga posture silhouette, Expressive hand gestures, Role-specific costumes, Carnatic musical instruments, Stage scenes from Indian ballets

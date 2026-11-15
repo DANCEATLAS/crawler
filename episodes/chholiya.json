@@ -1,0 +1,391 @@
+{
+ "slug": "chholiya",
+ "name": "Chholiya",
+ "pack_version": "e2",
+ "built_at": "2026-11-15T18:05:17Z",
+ "researched_at": "2026-11-15T17:11:50Z",
+ "qc_score": 9.85,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A senior Kumaoni dancer or dholie musician, steeped in the martial heritage of Almora, guiding students with disciplined respect for tradition.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Chholiya",
+   "Chhaliya",
+   "Hudkeli",
+   "Hudke",
+   "Hudkya"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Chholiya",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Blades on the Mountain Pass",
+     "This is Chholiya. 10th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Chholiya · India · 10th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Chholiya traces its lineage back more than a thousand years to the warring Kshatriya clans of the Kumaon hills, including the Katyuris and Khasas, during an era when alliances and marriages were sealed at the point of the sword.",
+     "When the Chand Dynasty rose in the 10th century, arriving Rajput lineages merged with local communities and adopted Pahari language and customs, establishing a lasting martial ethos."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "While rooted in martial pageantry, Chholiya possesses significant religious and apotropaic weight, particularly among Rajput communities.",
+     "Wedding processions were traditionally believed to be open targets for demons and malevolent spirits seeking to ruin human happiness.",
+     "By waving swords, engaging in mock battles, and sounding martial horns, Chholiya dancers actively purify the procession path, warding off demonic forces to protect the bride and groom.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Saraanv, Nishana waving."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Synchronized ensemble moving in procession, deploying eight dancers and fourteen musicians behind a triangular red flag."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The musical accompaniment is provided by fourteen musicians playing traditional martial and regional instruments.",
+     "Percussion is driven by the dhol and damau, played by hereditary musicians called dholies.",
+     "Listen for the turi, nagphani, ransing, dhol.",
+     "A booming, warlike outdoor soundscape defined by the thunderous pairing of dhol and damau drums played by dholies, punctured by the piercing brass calls of the turi, ransing, and serpentine nagphani. Over this martial percussion, the wailing reed drone of the masakbeen bagpipe intertwines with high woodwind melodies of the nausuriya muruli and twin flutes."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers wear traditional Kumaoni warrior attire consisting of a chola over white churidar payajama, topped with a taanka headpiece.",
+     "Their faces are smeared with sandalwood paste, mirroring warriors sanctifying themselves for war.",
+     "Each dancer carries a steel tulwar sword and a round brass shield, accompanied by the nishana, a triangular red flag."
+    ],
+    "on_screen": [
+     "Image gallery: 2 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The sources mention historical groups rather than individual performers: the Chand Kings of the 10th century, the Katyuri kings, the Khasas, and the Rajput lineages who shaped Pahari culture, alongside hereditary dholie drummers who maintain the musical lineages.",
+     "The dance exists across multiple named regional and stylistic forms: Bisu nritya, Saranv (focused on mock duels), Rann Nritya ('war dance'), Sarankar, Veerangna, Depanshu, Chholiya Baja, Paitan Baja, and Shauka Shaili, which is native to the Johar region of Kumaon.",
+     "Historically passed through Rajput and Khas communities of the Central Himalayas alongside hereditary dholie percussionist castes."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Chholiya carries an apotropaic religious function: performed during wedding processions (barat/baryat), it is believed to actively protect the couple by warding off malevolent spirits and demons attracted to human happiness. Outsiders should respect its ceremonial protective role during marriage rituals."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "High in the Himalayas of Kumaon and Nepal, twenty-two men sound war horns and clash tulwar swords to protect a bridegroom from demonic ambush.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "turi",
+   "nagphani",
+   "ransing",
+   "dhol",
+   "damau",
+   "masakbeen",
+   "nausuriya muruli",
+   "jyonya"
+  ],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "martial",
+   "warlike",
+   "auspicious",
+   "defensive",
+   "resounding"
+  ],
+  "sound_description": "A booming, warlike outdoor soundscape defined by the thunderous pairing of dhol and damau drums played by dholies, punctured by the piercing brass calls of the turi, ransing, and serpentine nagphani. Over this martial percussion, the wailing reed drone of the masakbeen bagpipe intertwines with high woodwind melodies of the nausuriya muruli and twin flutes.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Chholiya (India). Instruments: turi, nagphani, ransing, dhol, damau, masakbeen, nausuriya muruli, jyonya. Mood: martial, warlike, auspicious, defensive, resounding. It should sound like this: A booming, warlike outdoor soundscape defined by the thunderous pairing of dhol and damau drums played by dholies, punctured by the piercing brass calls of the turi, ransing, and serpentine nagphani. Over this martial percussion, the wailing reed drone of the masakbeen bagpipe intertwines with high woodwind melodies of the nausuriya muruli and twin flutes. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers wear traditional Kumaoni warrior attire consisting of a chola over white churidar payajama, topped with a taanka headpiece. Their faces are smeared with sandalwood paste, mirroring warriors sanctifying themselves for war. Each dancer carries a steel tulwar sword and a round brass shield, accompanied by the nishana, a triangular red flag. The dance is performed outdoors, traversing mountain paths during wedding processions (baryat/barat) or standing before auspicious communal celebrations.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3A%E0%A4%9B%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%A8%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%AF.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACholliyar.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/%E0%A4%9B%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%A8%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/85/%E0%A4%9B%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%A8%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Punya / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3A%E0%A4%9B%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%A8%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%AF.jpg",
+    "description": "छलिया नृत्य"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Cholliyar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Cholliyar.jpg/1280px-Cholliyar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Amitsah8888 / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACholliyar.jpg",
+    "description": "This is a traditional dance of uttarakhand India called Choliya dance"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "The triangular red nishana banner against Himalayan peaks",
+   "Sunlight catching polished round brass shields and steel tulwars",
+   "White sandalwood paste smeared on dancers' battle-ready faces",
+   "The groom riding horseback with a ceremonial khukuri at his waist"
+  ],
+  "costume_notes": "Dancers wear traditional Kumaoni warrior attire consisting of a chola over white churidar payajama, topped with a taanka headpiece. Their faces are smeared with sandalwood paste, mirroring warriors sanctifying themselves for war. Each dancer carries a steel tulwar sword and a round brass shield, accompanied by the nishana, a triangular red flag. The dance is performed outdoors, traversing mountain paths during wedding processions (baryat/barat) or standing before auspicious communal celebrations.",
+  "setting_notes": "While rooted in martial pageantry, Chholiya possesses significant religious and apotropaic weight, particularly among Rajput communities. Wedding processions were traditionally believed to be open targets for demons and malevolent spirits seeking to ruin human happiness. By waving swords, engaging in mock battles, and sounding martial horns, Chholiya dancers actively purify the procession path, warding off demonic forces to protect the bride and groom.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "19 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 19,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "pull back and lean to the left",
+   "close in open on and",
+   "milk down knees are bent",
+   "cross with our left leg",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "get up from the sleep",
+   "take your chest out",
+   "punch it",
+   "jump like a baby"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "count_in",
+   "full_demo",
+   "breakdown",
+   "warmup",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the how-it-is-danced section",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Chholiya",
+  "https://www.wikidata.org/wiki/Q5094924",
+  "https://fr.wikipedia.org/wiki/Chholiya"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "4dfa1ff828f5f07da1e761c522e7dd385513987494ce7439951de3c265350f65",
+ "hero_checked": null
+}

@@ -1,8 +1,8 @@
 # Deodhani dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-14 · judge 9.55 · 9/9 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-15 · judge 9.55 · 9/9 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the costume & setting section; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the costume & setting section; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Bodo cultural practitioner and shamanic dance expert
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Possessed by the Snake Goddess: The Deodhani Dance of Assam
 NARRATION: This is Deodhani dance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (CWdjauYDJ7s)
 ON SCREEN: Title card: Deodhani dance · India · not described in sources
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Sword and Shield Dance.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (CWdjauYDJ7s)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo or small group formation
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -98,7 +98,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'CWdjauYDJ7s', 'checked_by_vision_model': False, 'title': 'Deodhani Festival Kamakhya Mandir 2022 | Deodhani Dance Kamakhya Mandir'}
 Images: 2 licensed — Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Ramesh Lalwani / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: Sword and shield, Snake goddess imagery, Traditional Assamese attire, Drummers and chorus singers
@@ -108,9 +108,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 17 tutorial(s) of the folk-circle family studied · videos studied: 17
+Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: rock step; side close side; triple step; rock step triple step triple step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; step your right foot sideward; close your left foot; point your left foot; hold your skirt
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
 
 Sources (2): https://en.wikipedia.org/wiki/Deodhani_dance; https://www.wikidata.org/wiki/Q13423910

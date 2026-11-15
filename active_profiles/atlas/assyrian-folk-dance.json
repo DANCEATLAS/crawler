@@ -1,13 +1,88 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Not derivable yet"
+        ],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Not derivable yet"
+        ],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "W, V, and T holds; arms move independently of legs, swinging or bouncing.",
+      "difficulty": "beginner",
+      "footwork": "Step, leap, run, hop, jump, stamps, stomps, and kicks.",
+      "formation_and_space": "Open circle or line, curved or spiral.",
+      "hips_and_torso": "Torso bounces up and down rhythmically.",
+      "levels_and_jumps": "Includes knee bends, deep squats, and leg extensions.",
+      "partnering": "Connected by hands or pinkies.",
+      "posture": "Upright with rhythmic torso and shoulder bouncing.",
+      "signature_moves": [
+        {
+          "description": "Gently move one leg forward, backward and repeat with the next leg while shifting to the right.",
+          "name": "Khigga step"
+        }
+      ],
+      "tempo_feel": "Varies from slow (70 bpm) to fast (140 bpm).",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "4/4",
+      "mood_keywords": [
+        "jubilant",
+        "lively",
+        "sentimental"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [
+        {
+          "artist": "Evin Agassi",
+          "title": "Moralon"
+        },
+        {
+          "artist": "Ashur Bet Sargis",
+          "title": "Ahela Yoni"
+        }
+      ],
+      "rhythm_pattern": "Shuffle beat for Khigga",
+      "sound_description": "Music ranges from slow, sentimental ballads to fast-paced, upbeat rhythms similar to jigs or electronic dance music.",
+      "tempo_bpm": "70",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Step: A simple weight transfer.",
+        "Leap: A transfer of weight from one foot to the other with a flight phase.",
+        "Run: A sequence of steps.",
+        "Hop: A spring from one foot to the same foot.",
+        "Jump: A spring from one or both feet to both feet."
+      ],
+      "formation": "Open circle or line.",
+      "level_notes": "Beginners start with the basic Khigga step.",
+      "rhythm": "2/4, 4/4, 6/8, 9/8, 10/8"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "dbdbba2e8a0ded901262d74ca64db84f98446a4d825f5e3a6a392b4d2e9d7350",
+  "fingerprint": "8245ebb683b65a784f8c7d6e4bae1cf6c4cc60896d83159a2b941c5ca84865f4",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +90,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: what_to_avoid",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +118,7 @@
   ],
   "music_options": [],
   "name": "Assyrian folk dance",
-  "research_file": null,
+  "research_file": "research_results/assyrian-folk-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +130,7 @@
   "slug": "assyrian-folk-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Assyrian_folk_dance",
-    "Source: Assyrian folk dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Assyrian_folk_dance"
+    "https://www.wikidata.org/wiki/Q3727626"
   ],
   "state": "researching",
   "video_evidence": []

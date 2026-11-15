@@ -1,6 +1,6 @@
 # morna — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed); the costume & setting section; what to avoid / common mistakes
 
@@ -116,7 +116,7 @@ NARRATION: Step 1: Hold partner with one arm around waist and other hand held.
 NARRATION: Step 2: Sway body twice to the left side during one bar of music.
 NARRATION: Footwork from the sources: Two body swings per bar.
 NARRATION: Drill: Practice swaying to a 2/4 beat.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -183,7 +183,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Hold partner with one arm around waist and other hand held.
 NARRATION: Step 2: Sway body twice to the left side during one bar of music.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -250,7 +250,7 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Sway body twice to the left side during one bar of music.
 NARRATION: Step 2: Sway body twice to the right side during the next bar of music.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -315,9 +315,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 5 tutorial(s) of the ballroom-partner family studied · videos studied: 5
+Source: 6 tutorial(s) of the ballroom-partner family studied · videos studied: 6
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: side close side; step and point; turn turn turn; replace; side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
+Cues: side close side; step and point; turn turn turn; replace; jump jump; step step; circle arms; twist out; clap; drop down; side replace close; rock replace side
 
 Sources (7): https://en.wikipedia.org/wiki/Morna_(music); https://www.wikidata.org/wiki/Q502535; https://es.wikipedia.org/wiki/Morna; https://fr.wikipedia.org/wiki/Morna; https://pt.wikipedia.org/wiki/Morna; https://ich.unesco.org/en/RL/01469; https://archive.org/details/WWS_1932110201

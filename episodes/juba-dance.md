@@ -1,8 +1,8 @@
 # Juba dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-14 · judge 9.85 · 5/5 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-15 · judge 9.85 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A rhythmic historian or percussionist specializing in African diaspora traditions.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Drumless Beat: How the Juba Dance Survived
 NARRATION: This is Juba dance. 18th-19th century.
-ON SCREEN: Hero video, first 10 seconds (hpNdQDWgy7I)
+ON SCREEN: Hero video, first 10 seconds (raAwu-CF6mM)
 ON SCREEN: Title card: Juba dance · United States · 18th-19th century
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ MUSIC: underscore
 NARRATION: The dance involves stomping and slapping the body, including arms, legs, chest, and cheeks.
 NARRATION: It includes specific steps such as the 'Yaller Cat', 'Pigeon Wing', 'Blow That Candle Out', and concludes with the 'Long Dog Scratch'.
 NARRATION: Watch for Yaller Cat, Pigeon Wing, Blow That Candle Out.
-ON SCREEN: Hero video full screen, 30–45 s (hpNdQDWgy7I)
+ON SCREEN: Hero video full screen, 30–45 s (raAwu-CF6mM)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -98,7 +98,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'hpNdQDWgy7I', 'checked_by_vision_model': False, 'title': 'JUBA DANCE: The dance of African slaves in American plantations'}
+Hero video: {'youtube_id': 'raAwu-CF6mM', 'checked_by_vision_model': True, 'title': 'juba dance @amaqaqamusic5605'}
 Images: 1 licensed — William H. Johnson / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Sunlight hitting the ground, Close-ups of hands striking skin, Archival sketches of plantation life
@@ -108,7 +108,7 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 10 tutorial(s) of the african-diaspora family studied · videos studied: 10
+Source: 13 tutorial(s) of the african-diaspora family studied · videos studied: 13
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
 Cues: out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; and one and three and five and seven; keep your feet together; relax your knees; and out and out and in and in; double double; and cross and cross; right slap left slap; bend the knees

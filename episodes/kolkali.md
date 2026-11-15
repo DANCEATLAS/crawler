@@ -1,8 +1,8 @@
 # Kolkali — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); notable figures; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A traditional practitioner grounded in regional folk arts and martial conditioning.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Striking Rhythm: The Martial Roots of Kolkali
 NARRATION: This is Kolkali. Ancient / Traditional.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (MfkfGjlqaf4)
 ON SCREEN: Title card: Kolkali · India · Ancient / Traditional
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Performers move in a circular formation, wielding two-foot-long stick
 NARRATION: The circle dynamically expands and contracts as the dance progresses.
 NARRATION: Dancers execute deep bends, body extensions, leaps, and turns, accompanied by singing and rhythmic footwork.
 NARRATION: Watch for Stick Striking Circle.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (MfkfGjlqaf4)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circular formation where the circle expands and contracts as the dance progresses
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -313,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'MfkfGjlqaf4', 'checked_by_vision_model': False, 'title': 'Kolkali akmas college'}
 Images: 2 licensed — Farisori / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: File:Kolkali of Hindus of Malabar.webm — https://upload.wikimedia.org/wikipedia/commons/b/bc/Kolkali_of_Hindus_of_Malabar.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Kolkali performance at Kerala School Kalolsavam.webm — https://upload.wikimedia.org/wikipedia/commons/b/b7/Kolkali_performance_at_Kerala_School_Kalolsavam.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Two-foot wooden sticks striking against each other, Expanding and contracting human circles, Traditional white lungi and headscarf in Lakshadweep

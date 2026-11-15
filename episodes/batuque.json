@@ -1,0 +1,844 @@
+{
+ "slug": "batuque",
+ "name": "Batuque",
+ "pack_version": "e2",
+ "built_at": "2026-11-15T18:05:17Z",
+ "researched_at": "2026-11-15T16:34:40Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A seasoned Santiago batukadera with authoritative presence, warm cadence, and exacting rhythm.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Batuque",
+   "batuku",
+   "batuk"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Batuque",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Rhythms They Tried to Silence",
+     "This is Batuque. 18th century to present."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Batuque · Cape Verde · 18th century to present"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Batuque is widely regarded as the oldest musical and dance tradition in Cape Verde.",
+     "While musicologist Carlos Gonçalves notes it is not simply an unmediated African import but rather an adaptation of African dance forms that evolved distinct local features in Cape Verde, written records trace it back to the 18th century.",
+     "The earliest documented colonial decree against it was signed in September 1772 by Governor Joaquim Salema de Saldanha Lobo, citing nighttime disruptions and scandalous gatherings."
+    ],
+    "on_screen": [
+     "Map: Cape Verde · Africa",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "In earlier centuries, batuque held specific social, ritual, and ceremonial importance.",
+     "It was danced on Christian saints' feast days, at local festivals, and especially prior to and during weddings.",
+     "Scholars have suggested that the pelvic movements originally evoked fertility and marital sexuality to bless the bride.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Caique Vidal (https://archive.org/details/tognc-Caique_Vidal)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "A batuque dance takes place within an open circle called a terreru, situated in an outdoor patio or town square.",
+     "Women form the circle, acting as musicians and chorus.",
+     "When the first musical movement (galion) begins, a solo dancer ties a cloth sash (panu) around her hips and moves into the center.",
+     "Watch for galion movement, da ku tornu."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Solo dancer working within the interior space of a circular ring of performers (terreru)"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Musically, batuque is characterized by an andante tempo set in 6/8 or 3/4 meter and defined by call-and-response vocal structures.",
+     "It is Cape Verde's only native polyrhythmic tradition, overlaying a 3-beat rhythm across a 2-beat pulse.",
+     "Listen for the Cloths slapped between thighs (pano), Hand clapping, Cimboa (extinct / historical).",
+     "The pulse is 6/8 or 3/4.",
+     "A dense, driving acoustic texture characterized by bare hands slapping folded cloths held between thighs in an insistent three-over-two polyrhythm. A solo female voice delivers poetic, improvised lines that are answered by a full-throated unison female chorus, building gradually from an andante dialogue into a rapid, thumping percussive climax."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: Batuco — Bulimundo; Rabóita di Rubõ Manel — Lura; Dispidida — Mayra Andrade",
+     "Waveform or rhythm-pattern graphic: Polyrhythmic 3 against 2 pulse"
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Batuque requires no specialized architecture and takes place in a terreru, typically an open-air domestic backyard or a public village square.",
+     "Dancers wear everyday attire accented by a panu—a traditional fabric cloth tied securely around the waist or hips to visually accentuate the oscillatory movements of the pelvis.",
+     "The seated or crouching batukaderas place folded cloths firmly between their thighs, turning everyday textiles into percussive striking surfaces."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key historic and modern practitioners include singer Nácia Gomes, whose lyrics highlighted the hardships of rural life, and the late composer Orlando Pantera, who led the genre's artistic revival in the 1990s alongside composers Tcheka and Vadú.",
+     "Contemporary vocalists such as Lura, Mayra Andrade, and Nancy Vieira popularized batuque internationally.",
+     "While historical evidence suggests batuque was once widespread across all Cape Verdean islands, it survived into modern times almost exclusively on the island of Santiago.",
+     "Batuque developed as a Creole adaptation of continental African dances during the early colonial settlement of the Cape Verde archipelago."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Batuque is variant of Batucada: Shares linguistic roots and polyrhythmic percussion structures across the Lusophone Atlantic."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand in the center of the terreru with a panu tied around the hips.",
+     "Execute the galion phase by swaying the body gently while shifting weight between alternate legs on the downbeat.",
+     "Count it: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "On the dusty terraces of Santiago, Cape Verdean batukaderas keep an 18th-century forbidden rhythm alive using nothing more than folded cloth and the power of the da ku tornu.",
+     "Sources: 4 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Internalize the basic 2-beat downbeat and body sway",
+   "level": "Level 1: The Galion Walk",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Internalize the basic 2-beat downbeat and body sway.",
+      "Level: Level 1: The Galion Walk. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A seasoned Santiago batukadera with authoritative presence, warm cadence, and exacting rhythm."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, grounded stance with slightly bent knees ready for rapid flexion",
+      "Subtle torso swaying in the galion, shifting to rapid, isolated hip oscillations (da ku tornu) in the txabéta"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 or 3/4.",
+      "Rhythm pattern: Polyrhythmic 3 against 2 pulse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand in the center of the terreru with a panu tied around the hips.",
+      "Step 2: Execute the galion phase by swaying the body gently while shifting weight between alternate legs on the downbeat.",
+      "Footwork from the sources: Alternate stepping of the legs marking the downbeat during the first movement; grounded foot placement supporting rapid knee flexions in the second movement",
+      "Drill: Step right foot on downbeat 1, step left foot on downbeat 2."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Upon the shift to txabéta, soften the knees into an athletic stance.",
+      "Step 4: Perform da ku tornu: rapidly flex and release the knees to drive rhythmic oscillation through the hips.",
+      "Drill: Add gentle torso swaying over the alternating steps."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Coordinate the walk to a 6/8 vocal call-and-response tempo."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiffening the knees or attempting to swivel the hips without active knee flexion"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the galion sway seated upright in a chair, shifting weight across the sit bones; during the txabéta, pulse the heels gently against the floor to articulate the hip movement without stressing joints. · For children: Circle switch game: children sit in a circle clapping 2-beat pulses while one child dances in the center; when the leader calls 'txabéta!', the dancer shakes their panu sash until tagging a replacement."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the galion sway seated upright in a chair, shifting weight across the sit bones; during the txabéta, pulse the heels gently against the floor to articulate the hip movement without stressing joints.",
+      "For children: Circle switch game: children sit in a circle clapping 2-beat pulses while one child dances in the center; when the leader calls 'txabéta!', the dancer shakes their panu sash until tagging a replacement."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Internalize the basic 2-beat downbeat and body sway.",
+      "In earlier centuries, batuque held specific social, ritual, and ceremonial importance.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Master the knee flexions that power pelvic oscillation",
+   "level": "Level 2: The Knee Pump",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Master the knee flexions that power pelvic oscillation.",
+      "Level: Level 2: The Knee Pump. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A seasoned Santiago batukadera with authoritative presence, warm cadence, and exacting rhythm."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, grounded stance with slightly bent knees ready for rapid flexion",
+      "Subtle torso swaying in the galion, shifting to rapid, isolated hip oscillations (da ku tornu) in the txabéta"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 or 3/4.",
+      "Rhythm pattern: Polyrhythmic 3 against 2 pulse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand in the center of the terreru with a panu tied around the hips.",
+      "Step 2: Execute the galion phase by swaying the body gently while shifting weight between alternate legs on the downbeat.",
+      "Drill: Assume a grounded parallel stance with soft knees."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Upon the shift to txabéta, soften the knees into an athletic stance.",
+      "Step 4: Perform da ku tornu: rapidly flex and release the knees to drive rhythmic oscillation through the hips.",
+      "galion movement: Initial body swaying with alternating leg weight transfers pacing the downbeat.",
+      "da ku tornu: Dynamic pelvic and hip oscillation generated through rapid, repetitive knee flexions.",
+      "Drill: Perform continuous rapid knee bends without moving the upper torso."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Tie a cloth (panu) around the hips to monitor pelvic vibration."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiffening the knees or attempting to swivel the hips without active knee flexion"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the galion sway seated upright in a chair, shifting weight across the sit bones; during the txabéta, pulse the heels gently against the floor to articulate the hip movement without stressing joints. · For children: Circle switch game: children sit in a circle clapping 2-beat pulses while one child dances in the center; when the leader calls 'txabéta!', the dancer shakes their panu sash until tagging a replacement."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the galion sway seated upright in a chair, shifting weight across the sit bones; during the txabéta, pulse the heels gently against the floor to articulate the hip movement without stressing joints.",
+      "For children: Circle switch game: children sit in a circle clapping 2-beat pulses while one child dances in the center; when the leader calls 'txabéta!', the dancer shakes their panu sash until tagging a replacement."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Solo dancer working within the interior space of a circular ring of performers (terreru)"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the knee flexions that power pelvic oscillation.",
+      "Key historic and modern practitioners include singer Nácia Gomes, whose lyrics highlighted the hardships of rural life, and the late composer Orlando Pantera, who led the genre's artistic revival in the 1990s alongside composers Tcheka and Vadú.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute the full txabéta transition and sustained hip oscillation",
+   "level": "Level 3: The Da Ku Tornu Climax",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute the full txabéta transition and sustained hip oscillation.",
+      "Level: Level 3: The Da Ku Tornu Climax. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A seasoned Santiago batukadera with authoritative presence, warm cadence, and exacting rhythm."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright, grounded stance with slightly bent knees ready for rapid flexion",
+      "Subtle torso swaying in the galion, shifting to rapid, isolated hip oscillations (da ku tornu) in the txabéta"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only). The meter is 6/8 or 3/4.",
+      "Rhythm pattern: Polyrhythmic 3 against 2 pulse.",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Upon the shift to txabéta, soften the knees into an athletic stance.",
+      "Step 2: Perform da ku tornu: rapidly flex and release the knees to drive rhythmic oscillation through the hips.",
+      "Drill: Transition on cue from the slow galion sway to the rapid knee pump."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "galion movement: Initial body swaying with alternating leg weight transfers pacing the downbeat.",
+      "da ku tornu: Dynamic pelvic and hip oscillation generated through rapid, repetitive knee flexions.",
+      "Drill: Sustain the da ku tornu across an extended 16-count polyrhythmic flurry."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Step into and exit the center circle smoothly while keeping time."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiffening the knees or attempting to swivel the hips without active knee flexion"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the galion sway seated upright in a chair, shifting weight across the sit bones; during the txabéta, pulse the heels gently against the floor to articulate the hip movement without stressing joints. · For children: Circle switch game: children sit in a circle clapping 2-beat pulses while one child dances in the center; when the leader calls 'txabéta!', the dancer shakes their panu sash until tagging a replacement."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the galion sway seated upright in a chair, shifting weight across the sit bones; during the txabéta, pulse the heels gently against the floor to articulate the hip movement without stressing joints.",
+      "For children: Circle switch game: children sit in a circle clapping 2-beat pulses while one child dances in the center; when the leader calls 'txabéta!', the dancer shakes their panu sash until tagging a replacement."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only).",
+      "Full tempo, the whole sequence, twice. Formation: Solo dancer working within the interior space of a circular ring of performers (terreru)"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the full txabéta transition and sustained hip oscillation.",
+      "Batuque developed as a Creole adaptation of continental African dances during the early colonial settlement of the Cape Verde archipelago.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "6/8 or 3/4",
+  "rhythm_pattern": "Polyrhythmic 3 against 2 pulse",
+  "instruments": [
+   "Cloths slapped between thighs (pano)",
+   "Hand clapping",
+   "Cimboa (extinct / historical)"
+  ],
+  "vocal_style": "Responsorial call-and-response; solo improvised finason answered by unison choral refrain",
+  "musical_form": "Two-part crescendo: galion (introductory call-and-response) building to txabéta (climactic unison acceleration)",
+  "mood": [
+   "polyrhythmic",
+   "communal",
+   "percussive",
+   "resilient",
+   "celebratory"
+  ],
+  "sound_description": "A dense, driving acoustic texture characterized by bare hands slapping folded cloths held between thighs in an insistent three-over-two polyrhythm. A solo female voice delivers poetic, improvised lines that are answered by a full-throated unison female chorus, building gradually from an andante dialogue into a rapid, thumping percussive climax.",
+  "listen_before_composing": [
+   "Batuco — Bulimundo",
+   "Rabóita di Rubõ Manel — Lura",
+   "Dispidida — Mayra Andrade",
+   "Nha kumadri — Nancy Vieira",
+   "Batuco — Bulimundo (1982)",
+   "Di korpu ku alma — Lura (2004)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Batuque (Cape Verde). Meter 6/8 or 3/4. Rhythm pattern: Polyrhythmic 3 against 2 pulse. Instruments: Cloths slapped between thighs (pano), Hand clapping, Cimboa (extinct / historical). Vocal style: Responsorial call-and-response; solo improvised finason answered by unison choral refrain. Form: Two-part crescendo: galion (introductory call-and-response) building to txabéta (climactic unison acceleration). Mood: polyrhythmic, communal, percussive, resilient, celebratory. It should sound like this: A dense, driving acoustic texture characterized by bare hands slapping folded cloths held between thighs in an insistent three-over-two polyrhythm. A solo female voice delivers poetic, improvised lines that are answered by a full-throated unison female chorus, building gradually from an andante dialogue into a rapid, thumping percussive climax. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Batuque requires no specialized architecture and takes place in a terreru, typically an open-air domestic backyard or a public village square. Dancers wear everyday attire accented by a panu—a traditional fabric cloth tied securely around the waist or hips to visually accentuate the oscillatory movements of the pelvis. The seated or crouching batukaderas place folded cloths firmly between their thighs, turning everyday textiles into percussive striking surfaces.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [
+   {
+    "title": "Caique Vidal",
+    "url": "https://archive.org/details/tognc-Caique_Vidal",
+    "year": 2021,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "File:Obat Batuk.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Obat_Batuk.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Annidafattiya / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "A patterned panu sash tied snugly across the hips",
+   "Hands drumming forcefully against folded cloths between knees",
+   "A circle of women singing face-to-face in an open terreru",
+   "Dust kicking up under rhythmic knee flexions"
+  ],
+  "costume_notes": "Batuque requires no specialized architecture and takes place in a terreru, typically an open-air domestic backyard or a public village square. Dancers wear everyday attire accented by a panu—a traditional fabric cloth tied securely around the waist or hips to visually accentuate the oscillatory movements of the pelvis. The seated or crouching batukaderas place folded cloths firmly between their thighs, turning everyday textiles into percussive striking surfaces.",
+  "setting_notes": "In earlier centuries, batuque held specific social, ritual, and ceremonial importance. It was danced on Christian saints' feast days, at local festivals, and especially prior to and during weddings. Scholars have suggested that the pelvic movements originally evoked fertility and marital sexuality to bless the bride. In modern times, while continuing as communal folklore, it is frequently featured on concert stages, at official state events, and at international cultural exhibitions.",
+  "map": {
+   "country": "Cape Verde",
+   "region": "Africa",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "19 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 19,
+  "counting": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "pull back and lean to the left",
+   "close in open on and",
+   "milk down knees are bent",
+   "cross with our left leg",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "get up from the sleep",
+   "take your chest out",
+   "punch it",
+   "jump like a baby"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "count_in",
+   "full_demo",
+   "breakdown",
+   "warmup",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a hero video",
+  "licensed images (3 needed)",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+  "https://www.wikidata.org/wiki/Q2891921",
+  "https://fr.wikipedia.org/wiki/Batuque_(Cap-Vert)",
+  "https://pt.wikipedia.org/wiki/Batuque_(Cabo_Verde)"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "22b4cd7733781aa3a56b7101ed8e26cf7651b1a861d1251683354e42b1f4b43a",
+ "hero_checked": null
+}

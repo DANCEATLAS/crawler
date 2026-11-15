@@ -1,8 +1,8 @@
 # Veerabhadra — episode pack
 
-*Status: withheld-chapters · built 2026-11-11 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-15 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; signature moves; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; signature moves; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: At dawn, the dancer collapses in a trance after 'destroying' a theatrical play, only to be revived by temple holy water.
 NARRATION: This is Veerabhadra. Ancient/Medieval origin; documented in modern Goa.
-ON SCREEN: Hero video, first 10 seconds (6Z763hWdA50)
+ON SCREEN: Hero video, first 10 seconds (PaTicy6gpIk)
 ON SCREEN: Title card: Veerabhadra · India · Ancient/Medieval origin; documented in modern Goa
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 NARRATION: The dancer carries an unsheathed sword in each hand, executing rhythmic cycles that simulate a battle.
 NARRATION: While stationary during proclamations, the dancer moves his head in sync with the 'Horavani' chants.
 NARRATION: Upon entering the temple mandap, the movements become more aggressive and expansive to mimic the destruction of the Yajna.
-ON SCREEN: Hero video full screen, 30–45 s (6Z763hWdA50)
+ON SCREEN: Hero video full screen, 30–45 s (PaTicy6gpIk)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: signature_moves
@@ -95,7 +95,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '6Z763hWdA50', 'checked_by_vision_model': False, 'title': 'ಶಿವಾನಮಗ ವೀರಭದ್ರ SHIVANAMAGA VEERABHADRA | Veeragase kunitha By Dr.Veeresh,Chetan | Jhankar Music'}
+Hero video: {'youtube_id': 'PaTicy6gpIk', 'checked_by_vision_model': True, 'title': 'Veeragase Kunitha - Veerabhadra Dance - Folk Dance of Karnataka'}
 Images: 0 licensed
 Footage: MISSING
 

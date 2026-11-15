@@ -1,13 +1,92 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Intricate footwork",
+          "Long choreographic sequences"
+        ],
+        "counts": "Simplified 1-4 counts.",
+        "duration_minutes": "15",
+        "game_version": "Simplified floor pattern games based on English country dance."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Complex balance requirements"
+        ],
+        "counts": "Simplified counts.",
+        "seated_version": "Focus on arm movements and upper body carriage while seated.",
+        "standing_version": "Reduced tempo and simplified footwork patterns.",
+        "tempo_and_range": "Slower tempo, limited range of motion."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Fluid, graceful movements.",
+      "difficulty": "intermediate",
+      "footwork": "Complex steps based on five positions, recorded in Beauchamp-Feuillet notation.",
+      "formation_and_space": "Social ballroom patterns or theatrical stage paths.",
+      "hips_and_torso": "Controlled, upright.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "Upright and refined.",
+      "signature_moves": [
+        {
+          "description": "The foundational foot positions codified in the 17th century.",
+          "name": "Five positions"
+        }
+      ],
+      "tempo_feel": "Elegant and measured.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Chamber ensemble",
+        "Court orchestra"
+      ],
+      "meter": "Varies by dance type (e.g., minuet, bourrée).",
+      "mood_keywords": [
+        "elegant",
+        "refined",
+        "courtly"
+      ],
+      "musical_form": "Stylized suites, opera-ballet, court entertainment music.",
+      "reference_recordings": [
+        {
+          "artist": "Jean-Philippe Rameau",
+          "title": "Les Boréades"
+        },
+        {
+          "artist": "Jean-Baptiste Lully",
+          "title": "Atys"
+        }
+      ],
+      "rhythm_pattern": "Coded by dance type and musical bar structure.",
+      "sound_description": "Characterized by the structured, rhythmic clarity of the Baroque period, often featuring strings and harpsichord, designed to support the precise footwork of the dancers.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Upright posture maintenance",
+        "Footwork based on the five positions",
+        "Fluid arm movements",
+        "Step-sequences corresponding to musical bars"
+      ],
+      "formation": "Social ballroom patterns or theatrical stage formations.",
+      "level_notes": "Requires understanding of historical notation and musicality.",
+      "rhythm": "Strictly tied to musical meter and tempo of specific dance types like minuet or bourrée."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "f9dc8dffd327199dd76ad0aef047b244fdcbcf99b6c9097754aa6fc7c4976b61",
+  "fingerprint": "326e75fe97e8a18a16ca19739b895a124c8bff83020ea4ab9e6e867410e64a31",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +94,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: what_to_avoid",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +122,7 @@
   ],
   "music_options": [],
   "name": "Baroque dance",
-  "research_file": null,
+  "research_file": "research_results/baroque-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +134,11 @@
   "slug": "baroque-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Baroque_dance",
-    "Source: Baroque dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Baroque_dance"
+    "https://www.wikidata.org/wiki/Q3015601",
+    "https://es.wikipedia.org/wiki/Danza_barroca",
+    "https://fr.wikipedia.org/wiki/Danse_baroque",
+    "https://pt.wikipedia.org/wiki/Belle_danse"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

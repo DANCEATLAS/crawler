@@ -1,13 +1,94 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Gang-related terminology"
+        ],
+        "counts": "Simplified 4-count rhythm",
+        "duration_minutes": "15 minutes",
+        "game_version": "Footwork game tracing shapes"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumps",
+          "Rapid balance shifts"
+        ],
+        "counts": "Simplified counts",
+        "seated_version": "Perform footwork patterns while seated",
+        "standing_version": "Supportive standing with reduced range",
+        "tempo_and_range": "Reduced tempo"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "Intricate, rapid movements, V-shapes, heel-toe transitions",
+      "formation_and_space": "Solo performance",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes jumping in the Xhop variant",
+      "partnering": "None",
+      "posture": "Relaxed with knees slightly bent",
+      "signature_moves": [
+        {
+          "description": "Tracing the letters C-R-I-P with the feet",
+          "name": "V-move"
+        },
+        {
+          "description": "Alternating heel and toe contact with the floor",
+          "name": "Heeltoe"
+        }
+      ],
+      "tempo_feel": "Slow for Crip/Crown, fast for Clown",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "Synthesizers",
+        "Bass guitar"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "rhythmic",
+        "repetitive",
+        "dynamic"
+      ],
+      "musical_form": "G-funk, gangsta rap",
+      "reference_recordings": [
+        {
+          "artist": "Kurupt",
+          "title": "C-Walk"
+        },
+        {
+          "artist": "Xzibit",
+          "title": "Get Your Walk on"
+        }
+      ],
+      "rhythm_pattern": "Steady, repetitive beat",
+      "sound_description": "Characterized by G-funk's heavy, melodic basslines and repetitive synth hooks that provide a steady pulse for intricate footwork.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Rap"
+    },
+    "teaching": {
+      "basic_steps": [
+        "V-move: shifting weight to trace a V-shape with the feet",
+        "Heeltoe: alternating heel and toe contact with the floor",
+        "Xhop: a jumping movement used in Crown Walk"
+      ],
+      "formation": "Solo",
+      "level_notes": "Beginner: focus on the V-move; Intermediate: focus on beat-matching; Advanced: incorporate Clown/Crown variations.",
+      "rhythm": "4/4 time, typically slow for Crip/Crown and fast for Clown"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "e567fa56f057db156aa8c10d0a40736295d950353fc7c46f0d6ed265bbea858e",
+  "fingerprint": "35dd3b9308c945e5d5d57f5cd2abe7b5fd6da20efef7afb2002bcaa8d2fa8f5d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +96,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: what_to_avoid",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +124,7 @@
   ],
   "music_options": [],
   "name": "Crip Walk",
-  "research_file": null,
+  "research_file": "research_results/crip-walk.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +136,10 @@
   "slug": "crip-walk",
   "sources": [
     "https://en.wikipedia.org/wiki/Crip_Walk",
-    "Source: Crip Walk on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Crip_Walk"
+    "https://www.wikidata.org/wiki/Q1140117",
+    "https://es.wikipedia.org/wiki/Crip_Walk",
+    "https://fr.wikipedia.org/wiki/Crip-Walk",
+    "https://pt.wikipedia.org/wiki/C-Walk"
   ],
   "state": "researching",
   "video_evidence": []

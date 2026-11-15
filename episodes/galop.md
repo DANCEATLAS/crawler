@@ -1,6 +1,6 @@
 # galop — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed)
 
@@ -119,7 +119,7 @@ NARRATION: Step 1: Stand in a closed ballroom position with a partner.
 NARRATION: Step 2: Execute a glissade (a sliding step) to the side.
 NARRATION: Footwork from the sources: Glissade combined with a chassé on alternate feet.
 NARRATION: Drill: Side-step slide (glissade).
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -191,7 +191,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Stand in a closed ballroom position with a partner.
 NARRATION: Step 2: Execute a glissade (a sliding step) to the side.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -263,7 +263,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Follow with a chassé step on alternate feet.
 NARRATION: Step 2: Repeat the sequence in a rapid, sliding motion while moving in a circular path.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -330,9 +330,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 5 tutorial(s) of the ballroom-partner family studied · videos studied: 5
+Source: 6 tutorial(s) of the ballroom-partner family studied · videos studied: 6
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: side close side; step and point; turn turn turn; replace; side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
+Cues: side close side; step and point; turn turn turn; replace; jump jump; step step; circle arms; twist out; clap; drop down; side replace close; rock replace side
 
 Sources (8): https://en.wikipedia.org/wiki/Galop; https://www.wikidata.org/wiki/Q698092; https://es.wikipedia.org/wiki/Galop; https://fr.wikipedia.org/wiki/Galop_(danse); https://de.wikipedia.org/wiki/Galopp_(Tanz); https://archive.org/details/concertinahowtop00devi; https://archive.org/details/danceman093; https://archive.org/details/danceman186

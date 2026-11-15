@@ -1,6 +1,6 @@
 # Throwouts — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the music & instruments section; the costume & setting section; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -107,7 +107,7 @@ NARRATION: Step 1: Begin in a comearound position.
 NARRATION: Step 2: On counts 5-6, the lead releases the right arm.
 NARRATION: Footwork from the sources: On counts 7-8, lead and follow may kick and hold in the swing out variation.
 NARRATION: Drill: Practice the comearound.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -173,7 +173,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Begin in a comearound position.
 NARRATION: Step 2: On counts 5-6, the lead releases the right arm.
 NARRATION: Drill: Practice the kick and hold on 7-8.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -242,7 +242,7 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Allow the follower to move to arm's distance.
 NARRATION: Step 2: On count 7, begin the next variation.
 NARRATION: Drill: Practice the block on count 1.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -306,9 +306,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 5 tutorial(s) of the ballroom-partner family studied · videos studied: 5
+Source: 6 tutorial(s) of the ballroom-partner family studied · videos studied: 6
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: side close side; step and point; turn turn turn; replace; side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
+Cues: side close side; step and point; turn turn turn; replace; jump jump; step step; circle arms; twist out; clap; drop down; side replace close; rock replace side
 
 Sources (3): https://en.wikipedia.org/wiki/Throwouts_(dance); https://www.wikidata.org/wiki/Q7798562; https://archive.org/details/NPDP19330425

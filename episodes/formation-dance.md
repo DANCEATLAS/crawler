@@ -1,6 +1,6 @@
 # Formation dance — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): instruments; a verified recording to listen to; a hero video; licensed images (3 needed)
 
@@ -79,7 +79,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Couples line up in formation (e.g., diamond or line)
 NARRATION: Start synchronized basic steps of chosen dance (e.g., Cha Cha basic step)
-NARRATION: Count it: 5-6-7-8.
+NARRATION: Count it: 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -108,7 +108,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is Varies by dance; Latin dances often in 4/4, Waltz in 3/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is Varies by dance; Latin dances often in 4/4, Waltz in 3/4.
 NARRATION: Rhythm pattern: Characteristic rhythms of each dance (e.g., Cha Cha syncopated steps, Waltz flowing 3/4).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -120,10 +120,10 @@ NARRATION: Step 1: Couples line up in formation (e.g., diamond or line)
 NARRATION: Step 2: Start synchronized basic steps of chosen dance (e.g., Cha Cha basic step)
 NARRATION: Footwork from the sources: Precise steps matching dance style; synchronized with team
 NARRATION: Drill: Basic Cha Cha step
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Execute coordinated turns or chain reactions on beat
@@ -131,7 +131,7 @@ NARRATION: Step 4: Transition smoothly to next formation pattern
 NARRATION: Drill: Forming a line
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -144,11 +144,12 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Lifts during judged routine Out-of-sync movements Breaking formation patterns
+NARRATION: Teachers of this dance warn against: putting the foot down when it should be kept up
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 120 bpm
@@ -179,7 +180,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is Varies by dance; Latin dances often in 4/4, Waltz in 3/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is Varies by dance; Latin dances often in 4/4, Waltz in 3/4.
 NARRATION: Rhythm pattern: Characteristic rhythms of each dance (e.g., Cha Cha syncopated steps, Waltz flowing 3/4).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -189,10 +190,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Walk off formation in coordinated exit
 NARRATION: Drill: Diamond formation
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Chain Reaction: Sequential movement passed through the team creating a wave effect
@@ -201,7 +202,7 @@ NARRATION: Drill: Chain reaction practice
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -214,11 +215,12 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Lifts during judged routine Out-of-sync movements Breaking formation patterns
+NARRATION: Teachers of this dance warn against: putting the foot down when it should be kept up
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Geometric patterns with clear spacing; transitions between shapes
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 120 bpm
@@ -249,7 +251,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 5-6-7-8. The meter is Varies by dance; Latin dances often in 4/4, Waltz in 3/4.
+NARRATION: Count: 1-2-3-4-5-6-7-8. The meter is Varies by dance; Latin dances often in 4/4, Waltz in 3/4.
 NARRATION: Rhythm pattern: Characteristic rhythms of each dance (e.g., Cha Cha syncopated steps, Waltz flowing 3/4).
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -260,10 +262,10 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NARRATION: Step 1: Transition smoothly to next formation pattern
 NARRATION: Step 2: Walk off formation in coordinated exit
 NARRATION: Drill: Roundabout execution
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Velberter Rose: A specific formation figure unique to formation dance
@@ -271,7 +273,7 @@ NARRATION: Drill: Velberter Rose figure
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 5-6-7-8 · repetitions: 3
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -284,11 +286,12 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Lifts during judged routine Out-of-sync movements Breaking formation patterns
+NARRATION: Teachers of this dance warn against: putting the foot down when it should be kept up
 ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 5-6-7-8.
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Geometric patterns with clear spacing; transitions between shapes
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full at 120 bpm
@@ -325,9 +328,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
-Counting: 5-6-7-8
-Demonstration: views used by most teachers: mirror; tempo progression: slow
-Cues: hit; swing; pop; cross; swag
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Counting: 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: mirror, front; tempo progression: slow → full; repetitions per step: about 4
+Cues: jump jump; step step; circle arms; twist out; clap; drop down; hit; swing; pop; cross; swag
+Common mistakes the studied teachers name: putting the foot down when it should be kept up
 
 Sources (3): https://en.wikipedia.org/wiki/Formation_dance; https://www.wikidata.org/wiki/Q1416037; https://de.wikipedia.org/wiki/Formationstanzen

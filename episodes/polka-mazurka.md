@@ -1,6 +1,6 @@
 # polka-mazurka — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; posture, arms and hands; what to avoid / common mistakes
 
@@ -117,7 +117,7 @@ NARRATION: Step 1: Glide left foot sidewise to 2nd position (count one)
 NARRATION: Step 2: Draw right foot to 1st position (count two)
 NARRATION: Footwork from the sources: One Mazurka step and one Polka step, totaling six counts over two measures.
 NARRATION: Drill: Clapping the 1-2-3 beat
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -184,7 +184,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Repeat sequence with opposite foot for counts five and six
 NARRATION: Drill: Glide-draw-hop sequence
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -251,7 +251,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Hop on right foot (count four)
 NARRATION: Step 2: Repeat sequence with opposite foot for counts five and six
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
@@ -316,9 +316,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 5 tutorial(s) of the ballroom-partner family studied · videos studied: 5
+Source: 6 tutorial(s) of the ballroom-partner family studied · videos studied: 6
 Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: side close side; step and point; turn turn turn; replace; side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
+Cues: side close side; step and point; turn turn turn; replace; jump jump; step step; circle arms; twist out; clap; drop down; side replace close; rock replace side
 
 Sources (6): https://en.wikipedia.org/wiki/Polka-mazurka; https://www.wikidata.org/wiki/Q2745989; https://fr.wikipedia.org/wiki/Polka-mazurka; https://archive.org/details/danceman235; https://archive.org/details/danceman084; https://archive.org/details/dancesocietyacr00garmgoog

@@ -1,13 +1,84 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "complex footwork"
+        ],
+        "counts": "Simplified 1-2-3-4 rhythm.",
+        "duration_minutes": "3-5 minutes",
+        "game_version": "Follow-the-leader circle game using a handkerchief."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "stamping",
+          "deep knee bends"
+        ],
+        "counts": "Simplified 4/4 counts.",
+        "seated_version": "Seated in a circle, focusing on shoulder and arm movements.",
+        "standing_version": "Standing with support, focusing on rhythmic torso bouncing.",
+        "tempo_and_range": "Reduced tempo."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Hand-holding or pinky-linking; arms move independently with bouncing, swinging, or side-to-side motions.",
+      "difficulty": "beginner",
+      "footwork": "Steps, stomps, and stamps.",
+      "formation_and_space": "Open circle, curved line, or spiral/curvy shapes in restricted spaces.",
+      "hips_and_torso": "Torso and shoulders bounce up and down rhythmically.",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Group connection via hands or pinkies.",
+      "posture": "Upright with rhythmic torso and shoulder bouncing.",
+      "signature_moves": [
+        {
+          "description": "The head of the line leads the movement, often using a Yalekhta or copala.",
+          "name": "Resha d'khigga lead"
+        }
+      ],
+      "tempo_feel": "Moderate, 100-115 bpm.",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "zurna",
+        "davul",
+        "acoustic instruments",
+        "electronic instruments"
+      ],
+      "meter": "4/4",
+      "mood_keywords": [
+        "joyous",
+        "moderate",
+        "rhythmic"
+      ],
+      "musical_form": "Folk and pop music",
+      "reference_recordings": [],
+      "rhythm_pattern": "Moderate dance beat",
+      "sound_description": "A moderate, rhythmic beat typically driven by the zurna and davul, though modern versions incorporate electronic elements.",
+      "tempo_bpm": "100-115",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form an open circle or line holding hands or pinkies.",
+        "Engage in rhythmic up-and-down bouncing of the torso and shoulders.",
+        "Execute steps, stomps, or stamps according to the regional variant.",
+        "Move the line in the direction consistent with the regional style (left-to-right or right-to-left)."
+      ],
+      "formation": "Open circle or curved line",
+      "level_notes": "Simple to learn, suitable for communal participation.",
+      "rhythm": "4/4 time signature"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "280be2ee06a36aa69405bf132ef4b9dd9a97c821011a566f12c5fc26b09f5ae9",
+  "fingerprint": "e2c7a5bdc4e099d9b7d8d49bb1f76ba6ea9e41ae4b6e66a941c99c7ae9812d18",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +86,7 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: what_to_avoid",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +114,7 @@
   ],
   "music_options": [],
   "name": "Khigga",
-  "research_file": null,
+  "research_file": "research_results/khigga.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +126,7 @@
   "slug": "khigga",
   "sources": [
     "https://en.wikipedia.org/wiki/Khigga",
-    "Source: Khigga on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Khigga"
+    "https://www.wikidata.org/wiki/Q6401581"
   ],
   "state": "researching",
   "video_evidence": []

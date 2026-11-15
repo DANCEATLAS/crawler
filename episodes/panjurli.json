@@ -1,0 +1,393 @@
+{
+ "slug": "panjurli",
+ "name": "Panjurli",
+ "pack_version": "e2",
+ "built_at": "2026-11-15T18:05:17Z",
+ "researched_at": "2026-11-15T16:36:59Z",
+ "qc_score": 10.0,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A senior elder or cultural custodian from Tulu Nadu discussing the heritage, ecological meaning, and sacred etiquette of daiva worship.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Panjurli",
+   "Panchuruli",
+   "Panjuruli",
+   "Panjurli Daiva",
+   "Panjurli Theyyam"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Panjurli",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Spirit of the Boar: Forest Justice in Tulu Nadu",
+     "This is Panjurli. Ancient (predating Vedic traditions)."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Panjurli · India · Ancient (predating Vedic traditions)"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Panjurli is venerated in Tulu Nadu, spanning coastal Karnataka and Northern Kerala, where its worship has existed for millennia as part of Bhoota Kola spirit traditions predating mainstream Vedic Hinduism.",
+     "Rooted in Dravidian folk belief, the deity stems from an agrarian society intimately connected to cycles of the earth.",
+     "According to sacred legend, Panjurli began as an orphaned piglet on Mount Kailash adopted by Goddess Parvati."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Panjurli is invoked during annual festivals, Bhoota Kola gatherings, and Theyyam rituals.",
+     "The deity symbolizes environmental stewardship, communal protection, fertility, and justice.",
+     "Regarded as a mandatory deity in Tuluva families, Panjurli's ritual functions as a venue for communal decision-making and cross-caste participation, maintaining social harmony and settling disputes.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:Padhana on Panjurli Daiva (video-converter.com).webm (https://upload.wikimedia.org/wikipedia/commons/5/5d/Padhana_on_Panjurli_Daiva_%28video-converter.com%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Trance mediumship."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Ritual performance arena at sacred shrines, groves, and community grounds during Bhoota Kola and Theyyam festivals."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The sonic atmosphere of the ritual is defined by vocal invocations and chants recited in the Tulu language, accompanying the trance state and offering rituals of the Bhoota Kola and Theyyam performances."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Ceremonies take place during annual festivals and community gatherings in Tulu Nadu and Northern Kerala shrines.",
+     "In the Kasaragod Theyyam tradition, the performer's face is painted in the design known as Rudra Minukku.",
+     "The deity represents the divine wild boar, and rituals incorporate ceremonial offerings, including chickens offered by devotees."
+    ],
+    "on_screen": [
+     "Image gallery: 4 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The mythological lore centers on Goddess Parvati and Lord Shiva, whose actions led to the boar's transformation and exile to Earth.",
+     "In regional pantheons, Panjurli is linked with the sister spirit Kallurti daiva and paired with Guliga, who acts as an enforcer of retribution alongside Panjurli's merciful nature.",
+     "In coastal Karnataka, the spirit is invoked as a central daiva within Bhoota Kola.",
+     "Panjurli is a hereditary spirit-worship ritual belonging to the Dravidian folk tradition of coastal Karnataka and Northern Kerala, classified as a Theyyam ritual dance in Kerala and a core daiva of Bhoota Kola in Tulu Nadu."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Panjurli is parent of Theyyam: Panjurli is manifested in Kasaragod as Panjurli daiva Theyyam.",
+     "Panjurli is parent of Bhoota Kola: Panjurli is a mandatory central daiva within the Bhoota Kola spirit-worship rituals of Tulu Nadu."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Panjurli is a sacred daiva worship and trance ritual embodying a divine deity; outsiders must not imitate, choreograph, or trivialise the sacred trance, ritual invocations, or ceremonial face painting outside their sanctified spiritual and communal context."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the sacred groves of coastal Karnataka and Northern Kerala, an ancient boar deity awakens through trance, chant, and firelit ritual to deliver communal justice.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": "Chanting and reciting spoken formulas in the Tulu language",
+  "musical_form": null,
+  "mood": [
+   "sacred",
+   "invocatory",
+   "ritualistic",
+   "trance"
+  ],
+  "sound_description": "The sonic atmosphere of the ritual is defined by vocal invocations and chants recited in the Tulu language, accompanying the trance state and offering rituals of the Bhoota Kola and Theyyam performances.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Panjurli (India). Vocal style: Chanting and reciting spoken formulas in the Tulu language. Mood: sacred, invocatory, ritualistic, trance. It should sound like this: The sonic atmosphere of the ritual is defined by vocal invocations and chants recited in the Tulu language, accompanying the trance state and offering rituals of the Bhoota Kola and Theyyam performances. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Ceremonies take place during annual festivals and community gatherings in Tulu Nadu and Northern Kerala shrines. In the Kasaragod Theyyam tradition, the performer's face is painted in the design known as Rudra Minukku. The deity represents the divine wild boar, and rituals incorporate ceremonial offerings, including chickens offered by devotees.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AVarahi_mask%2C_India%2C_Kerala%2C_18th-19th_century%2C_brass%2C_HAA.JPG",
+    "https://commons.wikimedia.org/wiki/File%3ADancer%27s_Headpiece_in_the_Form_of_a_Panjurli_Bhuta_%28boar_spirit_deity%29_LACMA_M.2005.49a-b_%282_of_3%29.jpg",
+    "https://commons.wikimedia.org/wiki/File%3APanjurli_daiva.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Varahi_mask%2C_India%2C_Kerala%2C_18th-19th_century%2C_brass%2C_HAA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Varahi_mask%2C_India%2C_Kerala%2C_18th-19th_century%2C_brass%2C_HAA.JPG/1280px-Varahi_mask%2C_India%2C_Kerala%2C_18th-19th_century%2C_brass%2C_HAA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Hiart / Wikimedia Commons / CC0",
+    "license": "CC0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVarahi_mask%2C_India%2C_Kerala%2C_18th-19th_century%2C_brass%2C_HAA.JPG",
+    "description": "Vārāhī mask, India, Kerala, 18th-19th century, brass, Honolulu Museum of Art"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Dancer%27s_Headpiece_in_the_Form_of_a_Panjurli_Bhuta_%28boar_spirit_deity%29_LACMA_M.2005.49a-b_%282_of_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Dancer%27s_Headpiece_in_the_Form_of_a_Panjurli_Bhuta_%28boar_spirit_deity%29_LACMA_M.2005.49a-b_%282_of_3%29.jpg/1280px-Dancer%27s_Headpiece_in_the_Form_of_a_Panjurli_Bhuta_%28boar_spirit_deity%29_LACMA_M.2005.49a-b_%282_of_3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ADancer%27s_Headpiece_in_the_Form_of_a_Panjurli_Bhuta_%28boar_spirit_deity%29_LACMA_M.2005.49a-b_%282_of_3%29.jpg",
+    "description": "India, Kerala, 18th century\nSculpture\nCopper alloy\nSouth and Southeast Asian Acquisition Fund (M.2005.49a-b)\nSouth and Southeast Asian Art"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Panjurli_daiva.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Panjurli_daiva.jpg/1280px-Panjurli_daiva.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Vaishakh Mijar / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APanjurli_daiva.jpg",
+    "description": "Panjurli kola at kasaragod"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Panjurli_Daiva.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Panjurli_Daiva.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Mosharie / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3APanjurli_Daiva.jpg",
+    "description": "The word is derived from būta (Tulu for ‘spirit’, ‘deity’; in turn derived from Sanskrit भूत for ‘free elements’, 'which is purified', 'fit', 'proper', ‘true’, 'past', 'creatures'; Anglicized: ‘bhūta’, ‘bhoota’, ‘bootha’) and kōla (Tulu for ‘play, performance, festival’, or 'shape/form').\nA bhūta kōlā or nēmā is typically an annual ritual performance where local spirits or deities (bhūtas, daivas)"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:Padhana on Panjurli Daiva (video-converter.com).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Padhana_on_Panjurli_Daiva_%28video-converter.com%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY-SA 4.0",
+    "attribution": "Kavitha Ganesh / Wikimedia Commons / CC BY-SA 4.0"
+   }
+  ],
+  "motifs": [
+   "Rudra Minukku face painting",
+   "Wild boar iconography and symbolic attributes",
+   "Nighttime ritual arena illuminated by ceremonial lamps",
+   "Community assemblies gathered across caste lines"
+  ],
+  "costume_notes": "Ceremonies take place during annual festivals and community gatherings in Tulu Nadu and Northern Kerala shrines. In the Kasaragod Theyyam tradition, the performer's face is painted in the design known as Rudra Minukku. The deity represents the divine wild boar, and rituals incorporate ceremonial offerings, including chickens offered by devotees.",
+  "setting_notes": "Panjurli is invoked during annual festivals, Bhoota Kola gatherings, and Theyyam rituals. The deity symbolizes environmental stewardship, communal protection, fertility, and justice. Regarded as a mandatory deity in Tuluva families, Panjurli's ritual functions as a venue for communal decision-making and cross-caste participation, maintaining social harmony and settling disputes.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "2 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 2,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "the how-it-is-danced section",
+  "the music & instruments section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Panjurli",
+  "https://www.wikidata.org/wiki/Q97261910"
+ ],
+ "claims_verified": 8,
+ "claims": 8,
+ "polished": false,
+ "input_fingerprint": "727de3242b8fa61314d055ea140680f1f055cac7627b4c4de974de5227fd3b34",
+ "hero_checked": null
+}

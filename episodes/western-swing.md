@@ -1,6 +1,6 @@
 # Western swing — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.85 · 4/4 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.85 · 4/4 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; what to avoid / common mistakes
 
@@ -116,7 +116,7 @@ NARRATION: Step 1: Two-step
 NARRATION: Step 2: Lindy Hop
 NARRATION: Footwork from the sources: simple couples dances, two steps and the Lindy Hop with a few Western twirls added for good measure
 NARRATION: Drill: Step-touch weight shifts to a 2/4 beat
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -187,7 +187,7 @@ NEEDS: tempo
 NARRATION: Step 1: Two-step
 NARRATION: Step 2: Lindy Hop
 NARRATION: Drill: Single-hand Western twirl turn
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -261,7 +261,7 @@ NEEDS: tempo
 NARRATION: Step 1: Western twirls
 NARRATION: Step 2: Subdued jitterbug step
 NARRATION: Drill: Syncopated weight changes
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 1-2, 1-2 (two beats a bar; practice pulse only) · repetitions: 3
@@ -331,9 +331,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 5 tutorial(s) of the ballroom-partner family studied · videos studied: 5
+Source: 6 tutorial(s) of the ballroom-partner family studied · videos studied: 6
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: side close side; step and point; turn turn turn; replace; side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
+Cues: side close side; step and point; turn turn turn; replace; jump jump; step step; circle arms; twist out; clap; drop down; side replace close; rock replace side
 
 Sources (6): https://en.wikipedia.org/wiki/Western_swing; https://www.wikidata.org/wiki/Q1730388; https://es.wikipedia.org/wiki/Western_swing; https://fr.wikipedia.org/wiki/Western_swing; https://pt.wikipedia.org/wiki/Western_swing; https://archive.org/details/festivalofameric00fe

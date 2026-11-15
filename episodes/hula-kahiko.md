@@ -1,8 +1,8 @@
 # Hula kahiko — episode pack
 
-*Status: withheld-chapters · built 2026-11-14 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-15 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respected kumu hula, patient and knowledgeable, emphasizing spiritual respect and precise technique.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Hula Kahiko: Dance of the Sacred Chant
 NARRATION: This is Hula kahiko. Pre-1894.
-ON SCREEN: Hero video, first 10 seconds (8LkJsw9-ypg)
+ON SCREEN: Hero video, first 10 seconds (mPW5LA3zy2Y)
 ON SCREEN: Title card: Hula kahiko · USA (Hawaii) · Pre-1894
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Hula kahiko is performed standing (luna) or sitting (noho).
 NARRATION: Dancers use complex hand gestures to interpret the mele's words, representing nature and emotions.
 NARRATION: Footwork relies on a core set of steps: kāholo, kaʻo, kāwelu, hela, ʻuwehe, and ʻami.
 NARRATION: Watch for ʻAmi, Kāholo.
-ON SCREEN: Hero video full screen, 30–45 s (8LkJsw9-ypg)
+ON SCREEN: Hero video full screen, 30–45 s (mPW5LA3zy2Y)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Performed solo or in groups; dancers maintain spacing to allow clear hand gesture visibility; spatial path varies by choreography.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '8LkJsw9-ypg', 'checked_by_vision_model': False, 'title': '2013 Merrie Monarch Winners- Hula Kahiko (Kāne Division)'}
+Hero video: {'youtube_id': 'mPW5LA3zy2Y', 'checked_by_vision_model': True, 'title': '2015 Merrie Monarch Winners- Hula Kahiko (Wahine Division)'}
 Images: 8 licensed — Charles Haynes / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Ron Ardis / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Ron Ardis / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); This file was created by Thomas Tunsch. It is not in the public domain and use of this file outside of the licensing terms is a copyright violation.
 Please credit authorship as follows:
  © CC BY-SA Thomas Tunsch / Hula0081110.jpg (Wikimedia Commons).
@@ -123,9 +123,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 17 tutorial(s) of the folk-circle family studied · videos studied: 17
+Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
 Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: rock step; side close side; triple step; rock step triple step triple step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; step your right foot sideward; close your left foot; point your left foot; hold your skirt
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
 
 Sources (5): https://en.wikipedia.org/wiki/Hula; https://www.wikidata.org/wiki/Q866636; https://es.wikipedia.org/wiki/Hula_(danza); https://fr.wikipedia.org/wiki/Hula; https://pt.wikipedia.org/wiki/Hula

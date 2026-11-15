@@ -1,0 +1,820 @@
+{
+ "slug": "ula",
+ "name": "Ula",
+ "pack_version": "e2",
+ "built_at": "2026-11-15T18:05:17Z",
+ "researched_at": "2026-11-15T17:05:50Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An elder Tongan dance instructor emphasizing aristocratic decorum, precise alignment, and the historic weight of royal choreography",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Ula",
+   "fahaʻi-ula",
+   "fahaʻiula",
+   "split dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Ula",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Split Dance of Tonga",
+     "This is Ula. Pre-18th century."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Ula · Tonga · Pre-18th century"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The ula is an ancient Tongan group dance whose antiquity is attested by early European navigators, including Captain James Cook, who recorded it during eighteenth-century voyages to the Friendly Islands.",
+     "Prior to the arrival of Christianity, the ula stood as Tonga's primary dance performed by women."
+    ],
+    "on_screen": [
+     "Map: Tonga · Oceania",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Traditionally scheduled after the ʻotuhaka, the ula functions as a formal group dance expressing royal and communal poetry through synchronized gesture.",
+     "Before Christian missionization transformed Tongan social aesthetics, it served as the foremost female dance expression across the kingdom.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is performed almost exclusively by girls, with boys joining only on rare occasions.",
+     "The hallmark structure that gives the dance its alternate name—fahaʻi-ula, or split dance—lies in its entrance: the ensemble divides into two or more contingents, with one half entering from the left and the other from the right.",
+     "The groups converge in the center of the performance space, merging into one or more horizontal rows.",
+     "Watch for Fahaʻi entry, Haka hand shaping."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Bilateral entrance from stage left and stage right, converging at the center into one or more parallel lines"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The sonic texture is built on vocalized Tongan chants, featuring rhythmic vocal delivery, collective affirmation syllables, and recurring ancestral poetry sung by an accompanying choir or the dancers themselves."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Performers dress in attire identical in structure to that worn for the tauʻolunga, though red dress is distinctly favored and most popular for the ula.",
+     "The setting typically places the dance within a larger ceremonial order: traditionally, the ula is performed immediately after an ʻotuhaka."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Captain James Cook noted and reported the dance during his early European explorations of Tonga.",
+     "Historic poetic texts linked to the dance explicitly memorialize noble figures such as Tuʻi Vaea ('Laulau tuʻi Vaea ē, / Vaea lau mānaʻia').",
+     "The ula is an ancestral group dance from which the widely known Tongan tauʻolunga developed as a direct descendant, ultimately replacing the ula as the kingdom's preeminent female dance."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Ula is parent of ʻotuhaka: Traditionally, the ula is performed directly after an ʻotuhaka.",
+     "Ula is child of tauʻolunga: The tauʻolunga is a direct descendant of the ula and largely replaced it in modern popularity."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Divide the ensemble into two flanking groups offstage to the left and right",
+     "Process inward toward center stage until lines meet and merge into a single row",
+     "Count it: .",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "How a royal decree transformed an ancient, fast-paced Tongan spectacle into an exquisite art of hands, heads, and red dresses.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the split-entry convergence into a straight line and establish a conservative, upright posture",
+   "level": "Level 1: Spacing and Stance",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the split-entry convergence into a straight line and establish a conservative, upright posture.",
+      "Level: Level 1: Spacing and Stance. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An elder Tongan dance instructor emphasizing aristocratic decorum, precise alignment, and the historic weight of royal choreography"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Stiff, conservative, upright body posture with suppressed hip and upper body swaying",
+      "Supple, beautiful hand gestures (fola haka) that carry the primary artistic and narrative expression",
+      "Stiff torso kept deliberately stationary; hip movement historically present but eliminated following Christian royal intervention"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Divide the ensemble into two flanking groups offstage to the left and right",
+      "Step 2: Process inward toward center stage until lines meet and merge into a single row",
+      "Footwork from the sources: Minimal lower-body involvement; occasional steps or lowering to a kneeling position",
+      "Drill: Left-and-right entry marching drill to center mark"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Assume an upright, stiff torso posture with minimal leg movement",
+      "Step 4: Execute subtle, supple hand postures in coordination with head tilts while holding a seated, standing, or occasional kneeling posture",
+      "Drill: Line merging drill ensuring equal spacing between performers"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Torso stabilization posture exercise"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid exaggerated hip movement or loose upper-body swaying, which were explicitly banned by royal reforms in favor of conservative stiffness"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the entire sequence seated upright on a chair, executing the supple hand movements and head tilts while omitting the marching entrance and kneeling transitions. · For children: The Mirror River game: two equal teams start on opposite sides of the room, walk slowly toward the center tape line to make one straight row, then freeze like statues while moving only their hands and heads."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the entire sequence seated upright on a chair, executing the supple hand movements and head tilts while omitting the marching entrance and kneeling transitions.",
+      "For children: The Mirror River game: two equal teams start on opposite sides of the room, walk slowly toward the center tape line to make one straight row, then freeze like statues while moving only their hands and heads."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the split-entry convergence into a straight line and establish a conservative, upright posture.",
+      "Traditionally scheduled after the ʻotuhaka, the ula functions as a formal group dance expressing royal and communal poetry through synchronized gesture.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Execute supple hand shapes without disrupting upper-body stillness",
+   "level": "Level 2: Hand and Head Articulation",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Execute supple hand shapes without disrupting upper-body stillness.",
+      "Level: Level 2: Hand and Head Articulation. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An elder Tongan dance instructor emphasizing aristocratic decorum, precise alignment, and the historic weight of royal choreography"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Stiff, conservative, upright body posture with suppressed hip and upper body swaying",
+      "Supple, beautiful hand gestures (fola haka) that carry the primary artistic and narrative expression",
+      "Stiff torso kept deliberately stationary; hip movement historically present but eliminated following Christian royal intervention"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Divide the ensemble into two flanking groups offstage to the left and right",
+      "Step 2: Process inward toward center stage until lines meet and merge into a single row",
+      "Drill: Wrist flexibility and finger placement drill"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Assume an upright, stiff torso posture with minimal leg movement",
+      "Step 4: Execute subtle, supple hand postures in coordination with head tilts while holding a seated, standing, or occasional kneeling posture",
+      "Fahaʻi entry: Ensemble splits into wings and enters from left and right to merge into unified central lines",
+      "Haka hand shaping: Supple, expressive posturing of the hands executed while keeping the torso stiff",
+      "Drill: Coordinating head tilts with lateral hand presentations"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Maintaining stationary legs during hand transitions"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid exaggerated hip movement or loose upper-body swaying, which were explicitly banned by royal reforms in favor of conservative stiffness"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the entire sequence seated upright on a chair, executing the supple hand movements and head tilts while omitting the marching entrance and kneeling transitions. · For children: The Mirror River game: two equal teams start on opposite sides of the room, walk slowly toward the center tape line to make one straight row, then freeze like statues while moving only their hands and heads."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the entire sequence seated upright on a chair, executing the supple hand movements and head tilts while omitting the marching entrance and kneeling transitions.",
+      "For children: The Mirror River game: two equal teams start on opposite sides of the room, walk slowly toward the center tape line to make one straight row, then freeze like statues while moving only their hands and heads."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Bilateral entrance from stage left and stage right, converging at the center into one or more parallel lines"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute supple hand shapes without disrupting upper-body stillness.",
+      "Captain James Cook noted and reported the dance during his early European explorations of Tonga.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform the complete sequence with entrance, line merge, and kneeling transition",
+   "level": "Level 3: Chanted Convergence",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform the complete sequence with entrance, line merge, and kneeling transition.",
+      "Level: Level 3: Chanted Convergence. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An elder Tongan dance instructor emphasizing aristocratic decorum, precise alignment, and the historic weight of royal choreography"
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Stiff, conservative, upright body posture with suppressed hip and upper body swaying",
+      "Supple, beautiful hand gestures (fola haka) that carry the primary artistic and narrative expression",
+      "Stiff torso kept deliberately stationary; hip movement historically present but eliminated following Christian royal intervention"
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: .",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo",
+      "meter"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Assume an upright, stiff torso posture with minimal leg movement",
+      "Step 2: Execute subtle, supple hand postures in coordination with head tilts while holding a seated, standing, or occasional kneeling posture",
+      "Drill: Reciting the 'tulituli faiva' chant while advancing"
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); three repetitions",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Fahaʻi entry: Ensemble splits into wings and enters from left and right to merge into unified central lines",
+      "Haka hand shaping: Supple, expressive posturing of the hands executed while keeping the torso stiff",
+      "Drill: Smooth transition from standing line to kneeling posture"
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Full ula sequence from opposing wings to final gesture"
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid exaggerated hip movement or loose upper-body swaying, which were explicitly banned by royal reforms in favor of conservative stiffness"
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the entire sequence seated upright on a chair, executing the supple hand movements and head tilts while omitting the marching entrance and kneeling transitions. · For children: The Mirror River game: two equal teams start on opposite sides of the room, walk slowly toward the center tape line to make one straight row, then freeze like statues while moving only their hands and heads."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the entire sequence seated upright on a chair, executing the supple hand movements and head tilts while omitting the marching entrance and kneeling transitions.",
+      "For children: The Mirror River game: two equal teams start on opposite sides of the room, walk slowly toward the center tape line to make one straight row, then freeze like statues while moving only their hands and heads."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: .",
+      "Full tempo, the whole sequence, twice. Formation: Bilateral entrance from stage left and stage right, converging at the center into one or more parallel lines"
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform the complete sequence with entrance, line merge, and kneeling transition.",
+      "The ula is an ancestral group dance from which the widely known Tongan tauʻolunga developed as a direct descendant, ultimately replacing the ula as the kingdom's preeminent female dance.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": "Poetic group chanting with call-and-response refrain lines",
+  "musical_form": "Sequential poetic stanzas with recurring refrains (e.g., 'tulituli faiva, he tuli faiva ē')",
+  "mood": [
+   "ceremonial",
+   "poetic",
+   "stately",
+   "restrained"
+  ],
+  "sound_description": "The sonic texture is built on vocalized Tongan chants, featuring rhythmic vocal delivery, collective affirmation syllables, and recurring ancestral poetry sung by an accompanying choir or the dancers themselves.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Ula (Tonga). Vocal style: Poetic group chanting with call-and-response refrain lines. Form: Sequential poetic stanzas with recurring refrains (e.g., 'tulituli faiva, he tuli faiva ē'). Mood: ceremonial, poetic, stately, restrained. It should sound like this: The sonic texture is built on vocalized Tongan chants, featuring rhythmic vocal delivery, collective affirmation syllables, and recurring ancestral poetry sung by an accompanying choir or the dancers themselves. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Performers dress in attire identical in structure to that worn for the tauʻolunga, though red dress is distinctly favored and most popular for the ula. The setting typically places the dance within a larger ceremonial order: traditionally, the ula is performed immediately after an ʻotuhaka.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AVava%CA%BBu_girls.png"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Vava%CA%BBu_girls.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Vava%CA%BBu_girls.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Félix Danvin / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AVava%CA%BBu_girls.png",
+    "description": "Games of girls in the archipel of Tonga"
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "Vibrant red dresses moving across the open performance area",
+   "Two opposing files of dancers converging into a single horizontal row",
+   "Delicate hand flourishes highlighted against stationary torsos"
+  ],
+  "costume_notes": "Performers dress in attire identical in structure to that worn for the tauʻolunga, though red dress is distinctly favored and most popular for the ula. The setting typically places the dance within a larger ceremonial order: traditionally, the ula is performed immediately after an ʻotuhaka.",
+  "setting_notes": "Traditionally scheduled after the ʻotuhaka, the ula functions as a formal group dance expressing royal and communal poetry through synchronized gesture. Before Christian missionization transformed Tongan social aesthetics, it served as the foremost female dance expression across the kingdom.",
+  "map": {
+   "country": "Tonga",
+   "region": "Oceania",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "4 tutorial(s) of the classical-court family studied",
+  "videos_studied": 4,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, side",
+   "tempo progression: slow → full"
+  ],
+  "cues": [
+   "keep length in both sides of the waist",
+   "keep the supporting leg strong and stable",
+   "keep the spine long",
+   "demi-plie",
+   "pas de bourree",
+   "releve",
+   "fifth position",
+   "hold your placement",
+   "stay straight as a board",
+   "lift up in your lower abs",
+   "change feet"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "warmup",
+   "context",
+   "breakdown",
+   "mistakes",
+   "music_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage",
+  "the music & instruments section"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ula_(dance)",
+  "https://www.wikidata.org/wiki/Q11650728"
+ ],
+ "claims_verified": 10,
+ "claims": 10,
+ "polished": false,
+ "input_fingerprint": "6d4d55dda329c3555b5096efcf315322ec7744c9a5f0fc97b33c7b79824caf63",
+ "hero_checked": null
+}

@@ -1,8 +1,8 @@
 # Country Swing — episode pack
 
-*Status: draft · built 2026-11-12 · judge 9.0 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.0 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; signature moves; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -295,7 +295,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Country Swing is most commonly found in bars, clubs, and social dance halls. The setting is often crowded, which dictates the dance's compact, stationary nature. Attire is generally casual country-western wear, suitable for the physical demands of lifts and fast rotations.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'rP7vsrc5o8g', 'checked_by_vision_model': False, 'title': 'Hard To Love Country Swing'}
+Hero video: {'youtube_id': 'rP7vsrc5o8g', 'checked_by_vision_model': True, 'title': 'Hard To Love Country Swing'}
 Images: 0 licensed
 Footage: MISSING
 

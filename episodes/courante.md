@@ -1,8 +1,8 @@
 # Courante — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.85 · 9/9 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A meticulous historical dance specialist who treats every step as a coded document of courtly psychology.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Running Dance That Learned to Wait
 NARRATION: This is Courante. 16th to 18th century (Late Renaissance and Baroque).
-ON SCREEN: Hero video, first 10 seconds (GJFBf4G0zRI)
+ON SCREEN: Hero video, first 10 seconds (KdYoW6lhf6A)
 ON SCREEN: Title card: Courante · France and Italy · 16th to 18th century (Late Renaissance and Baroque)
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 NARRATION: Danced by couples, the traditional Renaissance and early Baroque courante utilizes combinations of 'simples' and 'doubles' executed with a slight spring or jump (*pas sauté*).
 NARRATION: The French Baroque style emphasizes a moderate, majestic tempo with hemiolas and crossed accents, while the Italian corrente favors a faster, more continuous flow.
 NARRATION: Watch for Pas sauté, Hemiola cadence.
-ON SCREEN: Hero video full screen, 30–45 s (GJFBf4G0zRI)
+ON SCREEN: Hero video full screen, 30–45 s (KdYoW6lhf6A)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Couples traveling along the perimeter of the hall, turning, and executing advances and retreats.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -319,7 +319,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Danced in the formal halls of European courts and elite salons, participants wore heavy silk court gowns, doublets, ruffs, and heeled shoes suited for measured steps, jumps, and formal bows.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'GJFBf4G0zRI', 'checked_by_vision_model': False, 'title': 'Understanding Form: The Courante'}
+Hero video: {'youtube_id': 'KdYoW6lhf6A', 'checked_by_vision_model': True, 'title': 'Courante'}
 Images: 1 licensed — Wikimedia Commons / Attribution (Attribution)
 Footage: MISSING
 Motifs: Ornate sheet music manuscript pages, Historical dance shoes resting on a polished wood floor, Dancers in 17th-century velvet costume executing a turn, Close-up of harpsichord keys striking an upbeat

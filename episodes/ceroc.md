@@ -1,6 +1,6 @@
 # Ceroc — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.2 · 5/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.2 · 5/6 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): meter; instruments; a verified recording to listen to; a hero video; licensed images (3 needed); posture, arms and hands; the costume & setting section
 
@@ -113,7 +113,7 @@ NARRATION: Step 1: Beginner moves are taught in a structured routine of three mo
 NARRATION: Step 2: Partners rotate every few minutes.
 NARRATION: Footwork from the sources: Some intermediate moves contain footwork; Australian schools teach 'Step' footwork.
 NARRATION: Drill: Basic step practice
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -179,7 +179,7 @@ NEEDS: meter
 NARRATION: Step 1: Beginner moves are taught in a structured routine of three moves.
 NARRATION: Step 2: Partners rotate every few minutes.
 NARRATION: Drill: Classic move sequence
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -246,7 +246,7 @@ NEEDS: meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Beginners practice with taxi dancers.
 NARRATION: Step 2: Intermediate moves include more complex footwork and classic moves.
-ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
@@ -307,9 +307,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 5 tutorial(s) of the ballroom-partner family studied · videos studied: 5
+Source: 6 tutorial(s) of the ballroom-partner family studied · videos studied: 6
 Counting: 
-Demonstration: views used by most teachers: front, back, mirror; tempo progression: slow → full
-Cues: side close side; step and point; turn turn turn; replace; side replace close; rock replace side; side with the left; bring it in; switch weight; change weight onto the left; step to side on 4-1; crossover with your left foot
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 4
+Cues: side close side; step and point; turn turn turn; replace; jump jump; step step; circle arms; twist out; clap; drop down; side replace close; rock replace side
 
 Sources (3): https://en.wikipedia.org/wiki/Ceroc; https://www.wikidata.org/wiki/Q859676; https://de.wikipedia.org/wiki/Ceroc

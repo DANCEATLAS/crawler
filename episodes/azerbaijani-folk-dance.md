@@ -1,8 +1,8 @@
 # Azerbaijani folk dance — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.5 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.5 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed reference footage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A master folk ensemble dancer rooted in traditional Azerbaijani choreography.
@@ -309,7 +309,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear traditional Azerbaijani clothing, which is well-preserved through performance. Women's costumes feature long skirts that shape footwork and colourful garments suited for festive gatherings like Nowruz spring celebrations and weddings.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'VlSeUtRN6g4', 'checked_by_vision_model': False, 'title': '2019 | Azerbaijani Folk Dance | BUTA Dance Ensemble | "Nelbeki Dance"'}
+Hero video: {'youtube_id': 'VlSeUtRN6g4', 'checked_by_vision_model': True, 'title': '2019 | Azerbaijani Folk Dance | BUTA Dance Ensemble | "Nelbeki Dance"'}
 Images: 6 licensed — Gulustan / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Vugarİbadov / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Vugarİbadov / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Vugarİbadov / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Post of Azerbaijan/Azermarka / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Colorful traditional costumes, Stone petroglyphs, Drums and balabans
@@ -319,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 17 tutorial(s) of the folk-circle family studied · videos studied: 17
+Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: rock step; side close side; triple step; rock step triple step triple step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; step your right foot sideward; close your left foot; point your left foot; hold your skirt
+Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
+Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
 
 Sources (5): https://en.wikipedia.org/wiki/Azerbaijani_dances; https://www.wikidata.org/wiki/Q724234; https://es.wikipedia.org/wiki/Bailes_nacionales_de_Azerbaiyán; https://fr.wikipedia.org/wiki/Danses_azerbaïdjanaises; https://de.wikipedia.org/wiki/Aserbaidschanische_Volkstänze

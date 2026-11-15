@@ -1,13 +1,70 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Women hold each other's hand.",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Women hold each other's hand, form a linear line and dance in a circle.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "mandar",
+        "dhol",
+        "bansi"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "graceful",
+        "festive"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music features the rhythmic percussion of the mandar and dhol drums, accompanied by the melodic sound of the bansi flute, with vocal accompaniment provided by the dancers.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Women sing while dancing."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Form a linear line by holding hands with other participants.",
+        "Move in a circular path while maintaining the line."
+      ],
+      "formation": "Linear line moving in a circle.",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "fd620b12aa7572a949a073f199df3417ed344a8adc914ad8b709c55c1112dad6",
+  "fingerprint": "e76549a0dcf66f0b0135e32e15472a05a3d999a5ef90c8964e37983524da432e",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,9 +72,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -45,7 +101,7 @@
   ],
   "music_options": [],
   "name": "Janani Jhumar",
-  "research_file": null,
+  "research_file": "research_results/janani-jhumar.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +113,7 @@
   "slug": "janani-jhumar",
   "sources": [
     "https://en.wikipedia.org/wiki/Janani_Jhumar",
-    "Source: Janani Jhumar on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Janani_Jhumar"
+    "https://www.wikidata.org/wiki/Q60749913"
   ],
   "state": "researching",
   "video_evidence": []

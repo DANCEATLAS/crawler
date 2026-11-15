@@ -1,8 +1,8 @@
 # Waka Waka — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-15 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); the how-it-is-danced section; the music & instruments section
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; the music & instruments section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Andean folk dancer with knowledge of cultural history and character roles
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Waka Waka: The Andean Dance of Bulls and Skirts
 NARRATION: This is Waka Waka. colonial to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (FFtzqqgE3kA)
 ON SCREEN: Title card: Waka Waka · Bolivia, Peru · colonial to present
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Waist sway, Bull charge, Kusillo jumps.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (FFtzqqgE3kA)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: group formations with characters interacting dynamically
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -78,7 +78,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Women move waists side to side rhythmically
 NARRATION: Men simulate bull charges carrying bull costumes
-NARRATION: Count it: .
+NARRATION: Count it: 5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -107,7 +107,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -118,9 +118,10 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Women move waists side to side rhythmically
 NARRATION: Step 2: Men simulate bull charges carrying bull costumes
 NARRATION: Drill: Waist side-to-side sway
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Kusillos jump and move playfully among dancers
@@ -128,6 +129,7 @@ NARRATION: Step 4: Lecheras distract bulls with hand gestures and containers
 NARRATION: Drill: Basic foot placement
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -140,13 +142,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: disrespecting the satirical nature damaging heavy skirts unsafe jumps
+NARRATION: Teachers of this dance warn against: not taking the chest out
+NARRATION: Teachers of this dance warn against: not transferring the body weight correctly
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: For children: simplified playful mimicry of bull and milkmaid roles
 MUSIC: silence
 OPTIONS: For children: simplified playful mimicry of bull and milkmaid roles (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -177,7 +181,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -187,9 +191,10 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Torero performs mock bullfighting movements
 NARRATION: Drill: Simulated bull charge steps
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Waist sway: Women sway waists side to side rhythmically under many skirts
@@ -198,6 +203,7 @@ NARRATION: Drill: Kusillo jump practice
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -210,13 +216,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: disrespecting the satirical nature damaging heavy skirts unsafe jumps
+NARRATION: Teachers of this dance warn against: not taking the chest out
+NARRATION: Teachers of this dance warn against: not transferring the body weight correctly
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: For children: simplified playful mimicry of bull and milkmaid roles
 MUSIC: silence
 OPTIONS: For children: simplified playful mimicry of bull and milkmaid roles (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: group formations with characters interacting dynamically
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -247,7 +255,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 5-6-7-8.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -258,9 +266,10 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Lecheras distract bulls with hand gestures and containers
 NARRATION: Step 2: Torero performs mock bullfighting movements
 NARRATION: Drill: Timing with music
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Kusillo jumps: Young dancers jump energetically to entertain
@@ -268,6 +277,7 @@ NARRATION: Drill: Partner and group coordination
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
+COUNTS: 5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -280,13 +290,15 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: disrespecting the satirical nature damaging heavy skirts unsafe jumps
+NARRATION: Teachers of this dance warn against: not taking the chest out
+NARRATION: Teachers of this dance warn against: not transferring the body weight correctly
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: For children: simplified playful mimicry of bull and milkmaid roles
 MUSIC: silence
 OPTIONS: For children: simplified playful mimicry of bull and milkmaid roles (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: group formations with characters interacting dynamically
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -313,7 +325,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Women dancers wear more than 16 colorful layered skirts called polleras, an alpaca mantilla covering the head, and embroidered jubón jackets. Men wear bull costumes made from dried and shaped animal skins with bells hanging from the bulls' necks. The dance is performed in urban and rural settings, notably during festivals such as the Oruro Carnival and Gran Poder in Bolivia, and the Virgen de la Candelaria in Peru.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'FFtzqqgE3kA', 'checked_by_vision_model': False, 'title': 'Waka Waka Biggest flashmob in the Netherlands'}
 Images: 1 licensed — Akizia / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Werra Son (Congo) Music video of "Waka Waka".webm — https://upload.wikimedia.org/wikipedia/commons/6/68/Werra_Son_%28Congo%29_Music_video_of_%22Waka_Waka%22.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; MTV TOP HITS 007 — https://archive.org/details/top-hits-n-o-p
 Motifs: Layered colorful skirts, Bells on bull costumes, Jumping kusillos, Brass band instruments
@@ -323,9 +335,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 17 tutorial(s) of the folk-circle family studied · videos studied: 17
-Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → full; repetitions per step: about 4
-Cues: rock step; side close side; triple step; rock step triple step triple step; step back and instead of her hand being on my shoulder; we're going to bump sides just like this; we're going to step towards each other; we're going to do a spin a little bit; step your right foot sideward; close your left foot; point your left foot; hold your skirt
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 5-6-7-8
+Demonstration: views used by most teachers: front, mirror; tempo progression: slow → half → full; repetitions per step: about 2
+Cues: get up from the sleep; take your chest out; punch it; jump like a baby; switch your body weight
+Common mistakes the studied teachers name: not taking the chest out; not transferring the body weight correctly
 
 Sources (3): https://en.wikipedia.org/wiki/Waka_waka_(dance); https://www.wikidata.org/wiki/Q13191101; https://es.wikipedia.org/wiki/Waka_Waka_(danza)
