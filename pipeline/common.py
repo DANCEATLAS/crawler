@@ -267,6 +267,7 @@ class LLM:
         self.cfg_gemini_strong = [m.strip() for m in os.environ.get("GEMINI_STRONG_MODELS", "").split(",") if m.strip()]
         self._gemini_avail = None
         self._openai_avail = None
+        self._list_tries, self._lane_logged, self._last_call = 0, False, {}
         self.dead = set()
         self.strikes = {}          # model -> consecutive failures; MAX_STRIKES in a row retires the model for this run
         self.MAX_STRIKES = int(os.environ.get("LLM_MAX_STRIKES", "2"))
@@ -291,8 +292,47 @@ class LLM:
         m = re.search(r"-(\d+)(?:\.(\d+))?-", name + "-")
         return (int(m.group(1)), int(m.group(2) or 0)) if m else (0, 0)
 
+    def _gemini_free_lane(self):
+        """Policy schema 2: read the provider's model list (no generation call) and keep only the allowed free-tier
+        families — stable before preview, newest first, a few per family — so a retired model name never stops the run."""
+        fams = self.allowance.families("gemini")
+        if not fams or not self.gemini_key:
+            return {}
+        if not self._gemini_avail and self._list_tries < 3:
+            self._list_tries += 1
+            try:
+                j = get_json("https://generativelanguage.googleapis.com/v1beta/models?pageSize=1000&key=" + urllib.parse.quote(self.gemini_key), timeout=60, retries=2)
+                self._gemini_avail = [(m.get("name") or "").replace("models/", "") for m in (j or {}).get("models") or []
+                                      if "generateContent" in (m.get("supportedGenerationMethods") or [])]
+            except Exception as e:
+                warn("gemini model list failed:", str(e)[:120])
+        from .spending import family_of
+        per = int(os.environ.get("GEMINI_MODELS_PER_FAMILY", "4"))
+        out = {}
+        for fam in fams:
+            names = [n for n in (self._gemini_avail or []) if family_of(n) == fam]
+            names.sort(key=lambda n: (("preview" in n) or bool(re.search(r"-\d{2}-\d{2,4}$", n)), tuple(-x for x in self._ver(n)), len(n)))
+            out[fam] = names[:per]
+        if out and not self._lane_logged:
+            self._lane_logged = True
+            log("gemini free lane:", json.dumps(out))
+        return out
+
     def gemini_models(self, strong=False):
-        return [m for m in self.allowance.models("gemini") if m not in self.dead]
+        lane = self._gemini_free_lane()
+        # the composer (strong) gets the scarce flash quota first; judges and classifiers start on flash-lite so they do not burn it
+        order = ("flash", "flash-lite") if strong else ("flash-lite", "flash")
+        names = self.allowance.models("gemini") + [m for fam in order for m in lane.get(fam, [])]
+        return [m for m in dict.fromkeys(names) if m not in self.dead]
+
+    def _pace(self, model):
+        """Stay under the free tier's per-minute limits (flash 5 a minute, flash-lite 15) instead of collecting 429s."""
+        from .spending import family_of
+        gap = {"flash": 12.5, "flash-lite": 4.2}.get(family_of(model), 0)
+        wait = self._last_call.get(model, 0) + gap - time.time()
+        if 0 < wait <= 15:
+            time.sleep(wait)
+        self._last_call[model] = time.time()
 
     def openai_models(self, strong=False):
         return [m for m in self.allowance.models("openai") if m not in self.dead]
@@ -302,6 +342,8 @@ class LLM:
         if self.dry:
             raise SpendingBlocked("Dry run blocks model requests")
         settings[token_key] = self.allowance.reserve(provider, model, settings[token_key])
+        if provider == "gemini":
+            self._pace(model)
         self.calls += 1
         return http(url, retries=0, **kwargs)
 
@@ -452,7 +494,9 @@ class LLM:
                         m = re.search(r'"retrydelay":\s*"(\d+)', low)
                         delay = int(m.group(1)) if m else 0
                         if "perday" in low or "per_day" in low or "insufficient_quota" in low or "billing" in low and not delay:
-                            self.dead.add(model); self.allowance.stopped.add(prov); self.failures += 1
+                            self.dead.add(model); self.failures += 1
+                            if prov == "openai":   # one account-wide balance; a Gemini free-tier day quota belongs to ONE model
+                                self.allowance.stopped.add(prov)
                             warn(f"llm {prov}/{model}: quota exhausted, retired for this run: {short[:120]}")
                             break
                         if attempt == 0:

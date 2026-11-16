@@ -22,6 +22,27 @@ VIDEOS_DIR = os.path.join(PEDAGOGY_DIR, "videos")
 PATTERNS = os.path.join(PEDAGOGY_DIR, "teaching_patterns.json")
 PLAYBOOK = "ULTIMATE_TEACHER.md"
 RETRY_DAYS = 30
+PERF_DIR = os.path.join(PEDAGOGY_DIR, "performances")   # what each dance looks and sounds like, observed in its hero video
+PERF_SECONDS = 300
+PERF_TEXT = ("setting", "dancers", "formation_and_space", "posture", "footwork", "arms_and_hands", "hips_and_torso", "partnering",
+             "levels_jumps_turns", "costume_and_props", "cannot_infer")
+PERF_SYSTEM = """You are documenting what a dance LOOKS and SOUNDS like in a public performance video, for a dance encyclopedia. Report only what is seen or heard in the supplied part of the video.
+Output a single JSON object:
+{"shows_dance": true|false  (people are visibly dancing the named dance or a close variant of it; false for talk, slideshows, music-only videos, or a different dance),
+ "setting": "<where and at what kind of occasion, as visible>",
+ "dancers": "<how many; men, women, children or mixed as visible; solo, couples or group>",
+ "formation_and_space": "<lines, circle, couples, procession; how the group travels>",
+ "posture": "<torso, knees and weight, as visible>",
+ "footwork": "<the stepping pattern as visible and how it sits on the beat; say what cannot be seen>",
+ "arms_and_hands": "<what the arms and hands do; holds; held objects>",
+ "hips_and_torso": "<isolations, bends, shimmies, or stillness>",
+ "partnering": "<contact, holds, lead and follow, or none>",
+ "levels_jumps_turns": "<jumps, squats, floor work, turns>",
+ "costume_and_props": "<worn or held items visible>",
+ "music_heard": {"instruments": ["<instrument clearly heard or seen>"], "vocals": "<none | solo | chorus | call and response>", "tempo_feel": "slow|moderate|fast|accelerating|varied", "meter_feel": "<duple | triple | compound | free; empty unless clear>"},
+ "signature_moments": [{"start_s": 0, "end_s": 10, "what": "<one characteristic movement, described so a learner could recognise it>"}],
+ "cannot_infer": "<occlusion, camera cuts, speed, low resolution, anything uncertain>"}
+Rules: describe what is visible; never name a step you cannot see; never give history, meanings or origins (a video cannot show them); at most 6 signature_moments with real timestamps inside the supplied window; if shows_dance is false leave every other field empty. Low-resolution sampled frames do not establish exact weight transfer or fast footwork: say so in cannot_infer. This is an unreviewed observation, not a verified fact."""
 SEGMENTS = ["intro", "context", "warmup", "full_demo", "breakdown", "count_in", "slow_practice", "follow_along", "layering", "mistakes", "music_practice", "recap", "other"]
 SEGMENT_LABEL = {"intro": "welcome and what you will learn", "context": "where the dance comes from", "warmup": "warm-up", "full_demo": "the whole step at full speed, once",
                  "breakdown": "breakdown, one movement at a time", "count_in": "the count, out loud", "slow_practice": "slow practice", "follow_along": "follow-along with the teacher",
@@ -89,27 +110,84 @@ def pick_targets(budget, only=None):
             return today - time.mktime(time.strptime(t[:10], "%Y-%m-%d")) >= RETRY_DAYS * 86400
         except Exception:
             return True
+    line = (load_state("active_ready.json", {}) or {}).get("profiles") or {}
     cands = []
     for slug, v in tut.items():
         if only and slug not in only:
             continue
         pub = (qidx.get(slug) or {}).get("publish_gate") == "publish"
         movie = bool((ridx.get(slug) or {}).get("movie_ready"))
+        short = len((line.get(slug) or {}).get("missing") or []) or 99   # how far the page is from active-ready (99 = not measured)
         for i, l in enumerate((v.get("lessons") or [])[:4]):
             yid = l.get("youtube_id")
             if not yid or (yid in done and not retry_ok(done[yid])):
                 continue
-            # the best teachers first: published dances, movie-ready ones, the lesson viewers liked most, one video per dance per day
-            cands.append(((0 if pub else 1), (0 if movie else 1), i, -(float(l.get("ratio") or 0)), slug, yid, l))
-    cands.sort(key=lambda c: c[:4])
+            # published dances first, then the pages closest to active-ready, the lesson viewers liked most, one video per dance per day
+            cands.append(((0 if pub else 1), short, (0 if movie else 1), i, -(float(l.get("ratio") or 0)), slug, yid, l))
+    cands.sort(key=lambda c: c[:5])
     out, seen = [], set()
     for c in cands:
-        if c[4] in seen:
+        if c[5] in seen:
             continue
-        seen.add(c[4]); out.append((c[4], c[5], c[6]))
+        seen.add(c[5]); out.append((c[5], c[6], c[7]))
         if len(out) >= budget:
             break
     return out
+
+# ------------------------------------------------------------------ performances: what the dance looks and sounds like
+def _records(folder):
+    return {os.path.basename(f)[:-5]: jload(f, {}) or {} for f in glob.glob(os.path.join(folder, "*.json"))}
+
+def pick_performances(budget, only=None):
+    """Hero videos that passed the vision check, one per dance, never twice: published pages first, then the pages
+    closest to active-ready. Sacred or restricted dances are left alone. Most dances have no tutorial on the web;
+    their best footage still shows posture, formation, arms, dress and the instruments."""
+    if budget <= 0:
+        return []
+    cat = (jload(os.path.join("public", "catalog", "dances.app.json"), {}) or {}).get("styles") or {}
+    qidx = load_state("qc_index.json", {}) or {}
+    line = (load_state("active_ready.json", {}) or {}).get("profiles") or {}
+    done = _records(PERF_DIR)
+    seen_ok = {v.get("slug") for v in done.values() if v.get("status") == "ok"}
+    now, cands = time.time(), []
+    for slug, st in cat.items():
+        yid = (st.get("hero_video_youtube_id") or "").strip()
+        if (only and slug not in only) or slug in seen_ok or not re.fullmatch(r"[A-Za-z0-9_-]{11}", yid):
+            continue
+        if (st.get("hero_qc") or {}).get("verdict") != "pass" or st.get("is_sacred") or st.get("_is_sacred") or st.get("sacred_note"):
+            continue
+        prev = done.get(yid)
+        if prev:
+            try:
+                if now - time.mktime(time.strptime((prev.get("analysed_at") or "")[:10], "%Y-%m-%d")) < RETRY_DAYS * 86400:
+                    continue
+            except Exception:
+                pass
+        pub = (qidx.get(slug) or {}).get("publish_gate") == "publish"
+        cands.append(((0 if pub else 1), len((line.get(slug) or {}).get("missing") or []) or 99, slug, yid))
+    cands.sort()
+    return [(slug, yid) for *_, slug, yid in cands[:budget]]
+
+def observe(slug, yid, dance_name, llm):
+    url = f"https://www.youtube.com/watch?v={yid}"
+    jd = llm.json(PERF_SYSTEM, f"DANCE: {dance_name}\nWatch the video (first minutes) and report what is visible and audible, as specified.",
+                  strong=False, temperature=0.1, max_tokens=2500, video_url=url, video_seconds=PERF_SECONDS)
+    rec = {"youtube_id": yid, "slug": slug, "dance": dance_name, "kind": "performance", "analysed_at": now_iso(), "url": url,
+           "observation_window": {"start_s": 0, "end_s": PERF_SECONDS, "resolution": "low", "sampling": "provider default; not continuous motion capture", "human_verified": False}}
+    if not isinstance(jd, dict):
+        rec["status"] = "failed"; return rec
+    if jd.get("shows_dance") is not True:
+        rec["status"] = "not_the_dance"; return rec
+    ob = {k: str(jd.get(k) or "").strip()[:500] for k in PERF_TEXT}
+    mh = jd.get("music_heard") if isinstance(jd.get("music_heard"), dict) else {}
+    ob["music_heard"] = {"instruments": [str(x)[:60] for x in (mh.get("instruments") or []) if isinstance(x, str) and x.strip()][:10],
+                         "vocals": str(mh.get("vocals") or "")[:60], "tempo_feel": str(mh.get("tempo_feel") or "")[:20], "meter_feel": str(mh.get("meter_feel") or "")[:40]}
+    ob["signature_moments"] = [{"start_s": m["start_s"], "end_s": m["end_s"], "what": str(m.get("what") or "")[:300]}
+                               for m in (jd.get("signature_moments") or []) if isinstance(m, dict) and m.get("what")
+                               and type(m.get("start_s")) in (int, float) and type(m.get("end_s")) in (int, float)
+                               and 0 <= m["start_s"] < m["end_s"] <= PERF_SECONDS][:6]
+    rec["status"], rec["observation"], rec["verification"] = "ok", ob, "model_candidate"
+    return rec
 
 # ------------------------------------------------------------------ extraction
 def analyse(slug, yid, lesson, dance_name, llm):
@@ -285,6 +363,19 @@ def run(budget=6, only=None):
             log(f"PEDAGOGY {slug} {yid}: {rec['status']}" + (f" counting={rec['extraction'].get('counting_scheme')} steps={len(rec['extraction'].get('steps_taught') or [])}" if rec.get("status") == "ok" else ""))
         except Exception as e:
             rep.error(f"pedagogy {slug} {yid}: {e}")
+    # the second mission: observe the hero performance of dances that have no studied lesson (PERFORMANCE_BUDGET a day)
+    from .health import scaled
+    shows = pick_performances(scaled("PERFORMANCE_BUDGET", 0) if (llm.gemini_key and not llm.dry) else 0, only=only)
+    rep.note(f"performances to observe: {len(shows)}")
+    os.makedirs(PERF_DIR, exist_ok=True)
+    for slug, yid in shows:
+        try:
+            rec = observe(slug, yid, (cat.get(slug) or {}).get("name") or slug.replace("-", " "), llm)
+            jsave(os.path.join(PERF_DIR, yid + ".json"), rec)
+            rep.inc("performance_" + rec["status"])
+            log(f"PERFORMANCE {slug} {yid}: {rec['status']}")
+        except Exception as e:
+            rep.error(f"performance {slug} {yid}: {e}")
     pt = aggregate()
     llm.record(rep)
     rep.note(f"playbook: {pt.get('videos_ok')} lessons across {(pt.get('global') or {}).get('dances')} dances")

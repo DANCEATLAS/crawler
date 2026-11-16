@@ -18,6 +18,13 @@ def age_days(value, when):
         return None
 
 
+def days_left(value, when):
+    try:
+        return (dt.date.fromisoformat(str(value)[:10]) - when.date()).days
+    except (TypeError, ValueError):
+        return None
+
+
 def fresh(value, when, limit):
     age = age_days(value, when)
     return age is not None and 0 <= age <= limit
@@ -76,14 +83,15 @@ def readiness_summary(now, when):
         return "Active Profile readiness audit unavailable."
     date = active.get("evaluated_on")
     prefix = "" if fresh(date, when, 2) else "Needs recheck. Last recorded: "
-    return (prefix + f"{active.get('count', 0):,} Active Profile dossiers; "
+    return (prefix + f"{now.get('active_ready', 0):,} active-ready profile{'' if now.get('active_ready') == 1 else 's'} (machine-complete and source-checked; {now.get('active_near', 0):,} more within two items). "
+            f"{active.get('count', 0):,} Active Profile dossiers; "
             f"{(active.get('states') or {}).get('ready_for_activation', 0):,} ready for activation "
             f"(audit {date or 'undated'}).")
 
 
 def highlights(now, week):
     result = []
-    for key, label in [("published", "Published deep profiles"), ("with_tutorials", "Dances with tutorial references"), ("episode_packs", "Draft script packs")]:
+    for key, label in [("active_ready", "Active-ready profiles (the starting line)"), ("published", "Published deep profiles"), ("with_tutorials", "Dances with tutorial references"), ("episode_packs", "Draft script packs")]:
         result.append(f"{label}: {now[key]:,} — {change(now[key], week.get(key) if week else None)}.")
     if week and now["dances_live"] < week["dances_live"]:
         result.append("The catalogue is smaller this week. Removals and merges can improve quality; see the editorial log for the reasons.")
@@ -102,8 +110,23 @@ def operating_notes(now, h, when):
     if h["retries"]:
         run += " Some requests also needed retries or an alternative model; details are linked below."
     policy = now.get("spending_policy") or {}
-    mode = "Pipeline model API calls are paused by policy." if policy.get("llm_enabled") is False else "Model API permission must be checked against the dated spending policy."
-    budget = "Budget: " + mode + " External research runs weekly and uses ChatGPT plan capacity. Actual spending and remaining balance are not measured by this report."
+    since = (when - dt.timedelta(days=7)).isoformat().replace("+00:00", "Z")
+    wrote = sum(int((r.get("counters") or {}).get("researched_researched") or 0) for r in now.get("runs", []) if r.get("stage") == "research" and (r.get("finished") or "") >= since)
+    free = bool((policy.get("free_tier_families") or {}).get("gemini")) and not (policy.get("models") or {}).get("openai")
+    if policy.get("llm_enabled") is not True:
+        mode = "PLEASE NOTE — the writing engine is switched off by policy. Nothing new is being written."
+    elif free:
+        mode = "The writing engine runs on Google's free tier only (no billing is attached to that key, so it cannot charge). Paid model use is off."
+    else:
+        mode = "Model permission follows the dated spending policy."
+    if policy.get("llm_enabled") is True and not wrote:
+        mode += " PLEASE NOTE — no new profile was written in the last seven days; the engine needs a look."
+    elif wrote:
+        mode += f" It wrote or deepened {wrote:,} profiles this week."
+    left = days_left(policy.get("expires_on"), when)
+    if policy.get("llm_enabled") is True and left is not None and left <= 45:
+        mode += f" ACTION NEEDED soon — the engine's permission ends on {policy.get('expires_on')}; any AI session can renew it in pipeline_state/spending_policy.json."
+    budget = "Budget: " + mode + " Actual spending and remaining balance are not measured by this report."
     if h["quota"]:
         budget += " A quota refusal was recorded; no automatic top-up is allowed."
     database = "Database: no dated mirror count is available."
@@ -134,7 +157,7 @@ def render_md(now, week, month, start, labels, hist, when, h):
     action = owner_action(now, when)
     lines = [f"# Dance Atlas — weekly report · {when.strftime('%a %d %b %Y')}", "",
              "## Your week at a glance", "", *["- " + x for x in highlights(now, week)], "",
-             "**Draft scripts and automated checks are preparation, not validated classes.**", "",
+             "**Active-ready means the machine has gathered and source-checked what a teaching service needs. Draft scripts and automated checks are preparation, not validated classes.**", "",
              "## " + action["title"], "", action["reason"]]
     if action["url"]:
         lines += ["", f"[Open the page]({action['url']})"]
@@ -165,14 +188,14 @@ def render_html(now, week, month, start, labels, hist, when, h):
     body += f"<h1 style='margin:0 0 10px;{font}font-size:34px;line-height:1.15;color:{ink}'>Your weekly progress</h1>"
     body += p(when.strftime("%d %B %Y") + " · A clear view of the whole vision", 16)
     body += "<table role='presentation' width='100%' cellpadding='0' cellspacing='0' style='width:100%;margin-top:20px;border-collapse:collapse'><tr>"
-    for key, label in [("published", "deep profiles"), ("episode_packs", "draft scripts")]:
+    for key, label in [("active_ready", "active-ready profiles"), ("published", "published deep profiles")]:
         body += (f"<td class='metric' width='50%' style='vertical-align:top;background:#edf4ee;padding:18px;border:4px solid white;{font}'>"
                  f"<div style='font-size:36px;line-height:1.15;font-weight:bold;color:{ink}'>{now[key]:,}</div>"
                  f"<div style='font-size:18px;color:{ink};margin-top:6px'>{label}</div>"
                  f"<div style='font-size:15px;line-height:1.4;color:{muted};margin-top:8px'>{esc(change(now[key], week.get(key) if week else None))}</div></td>")
     body += "</tr></table>"
-    body += p(f"{now['dances_live']:,} Atlas entries · {now['with_tutorials']:,} dances with tutorial references", 16)
-    body += p("Draft scripts are preparation. They are not yet validated classes.")
+    body += p(f"{now['dances_live']:,} Atlas entries · {now.get('active_near', 0):,} more profiles within two items of active-ready · {now['with_tutorials']:,} dances with tutorial references", 16)
+    body += p("Active-ready means the machine has gathered and source-checked what a teaching service needs. They are not yet validated classes.")
     body += f"<div style='background:#fff3db;border-left:5px solid #a87613;padding:18px 20px;margin:22px 0'>"
     body += f"<h2 style='margin:0 0 8px;{font}font-size:23px;line-height:1.25;color:{ink}'>{esc(action['title'])}</h2>" + p(action["reason"])
     if action["url"]:

@@ -11,6 +11,7 @@
   python -m pipeline.run pedagogy [--budget N]   # study N tutorial videos: how the best teachers teach (pedagogy/, ULTIMATE_TEACHER.md)
   python -m pipeline.run episodes [--only slug]  # episode packs for every published profile (episodes/, public/catalog/episodes.json)
   python -m pipeline.run translate [--budget N]  # narration of gap-free packs into TRANSLATE_LANGS (episodes/i18n/<lang>/)
+  python -m pipeline.run readiness    # active-ready: every profile against the starting line (ACTIVE_READY.md); offline
   python -m pipeline.run health       # self-tuning (pipeline_state/tuning.json) and lessons learned from QC (pipeline_state/lessons_learned.json)
   python -m pipeline.run daily        # bootstrap → health → audit → discover → research → qc → hero_qc → build → pedagogy → episodes → translate → sync → report
   python -m pipeline.run selftest     # offline checks, no network
@@ -35,7 +36,7 @@ def main(argv=None):
     a = ap.parse_args(argv)
     only = [s.strip() for s in a.only.split(",") if s.strip()] or None
     results = {}
-    stages = ["bootstrap", "health", "audit", "discover", "research", "qc", "hero_qc", "build", "pedagogy", "episodes", "translate", "activation", "sync", "report"] if a.stage == "daily" else [a.stage]
+    stages = ["bootstrap", "health", "audit", "discover", "research", "qc", "hero_qc", "build", "pedagogy", "episodes", "translate", "activation", "readiness", "sync", "report"] if a.stage == "daily" else [a.stage]
     daily = a.stage == "daily"
     def budget(name, value):
         """In the daily run the budgets follow pipeline_state/tuning.json (health stage): less when the models were failing, never more than set."""
@@ -69,6 +70,8 @@ def main(argv=None):
                 from . import translate; results[st] = translate.run(budget=budget("TRANSLATE_BUDGET", _env_int("TRANSLATE_BUDGET", 6)) if daily else min(a.budget, 12), only=only)
             elif st == "activation":
                 from . import activation; results[st] = activation.run()
+            elif st == "readiness":
+                from . import readiness; results[st] = readiness.run()
             elif st == "sync":
                 from . import sync; results[st] = sync.run(only=only)
             elif st == "report":

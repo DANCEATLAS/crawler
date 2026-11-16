@@ -5,7 +5,7 @@ is fetched first; the model may only write what the evidence supports and must
 attach a verbatim quote to every claim.  Quotes are then checked mechanically
 against the fetched text, so hallucinated facts are caught before QC.
 """
-import re, os, json, hashlib
+import re, os, json, hashlib, unicodedata
 from .common import LLM, log, warn, norm, slugify, now_iso, jsave, jload, state_path, sha1, Report, load_state, save_state, Supabase
 from .catalog import load_catalog, NameIndex, completeness
 from .taxonomy import FAMILIES, REGIONS, country_lookup, sacred_hint
@@ -19,7 +19,7 @@ os.makedirs(RESULTS_DIR, exist_ok=True)
 EDITORIAL = """You are the senior editor of the Dancing Atlas, an encyclopedia of every living dance tradition, written to the standard of a major documentary studio.
 RULES
 1. Write ONLY what the provided sources support. Never invent dates, names, places, numbers or claims. If the sources are thin, write less and list the gaps.
-2. Every factual sentence must be traceable: produce a `claims` list where each claim carries the source URL and a VERBATIM quote (6-30 words, copied exactly) from that source's text that supports it.
+2. Every factual sentence must be traceable: produce a `claims` list where each claim carries the source URL and a VERBATIM quote (6-30 words, copied exactly) from that source's text that supports it. Sources may be in other languages and scripts: read them, write the profile in English, and copy each quote exactly as it stands in the source's own language.
 3. Honour the culture: describe people and communities with respect and precision; name the people and places; no exoticising, no stereotypes, no "mysterious East" language. Where a dance is sacred or restricted, say so plainly and note what outsiders should not do.
 4. Voice: vivid, concrete, documentary. One specific image per paragraph (a person, a place, an object, a year, a sound). Avoid academic filler ("foundational", "codified", "rich heritage", "communal spirit"), hedging adverbs ("arguably", "often") and generic dates without context.
 5. The `insight` is the gate: ONE sentence (max 220 characters) carrying one startling fact, contradiction, precise moment or concrete image that makes a stranger want to stay. Not literary criticism.
@@ -83,6 +83,21 @@ def canon_placeholder(s):
         return PLACEHOLDER
     return _reduce_source_talk(s)
 
+WIKI_LANGS = ("es", "fr", "pt", "de", "it", "ru", "ja", "id", "tr", "ar", "hi", "pl", "nl", "fa", "zh", "ko", "vi", "th", "el", "he", "uk", "sv", "cs", "ro", "hu", "sw", "ta", "bn")
+NATIVE = {}   # ISO country code -> the Wikipedia languages its own writers use
+for _row in ("es:MX,AR,ES,CO,PE,CL,CU,VE,BO,EC,DO,PR,UY,PY,GT,PA,CR,HN,NI,SV pt:BR,PT,AO,MZ,CV fr:FR,BE,HT,SN,ML,CI,CM,CD,BF,GN,BJ,TG,MG de:DE,AT,CH it:IT ru:RU,BY,KZ,KG "
+             "uk:UA ja:JP id:ID ms:MY tr:TR ar:EG,SA,MA,DZ,TN,IQ,SY,LB,JO,AE,YE,OM,KW,QA,BH,LY,SD,PS hi:IN bn:BD,IN ta:IN,LK te:IN mr:IN ml:IN kn:IN gu:IN pa:IN,PK ur:PK ne:NP si:LK "
+             "pl:PL nl:NL,BE,SR fa:IR,AF,TJ zh:CN,TW,HK ko:KR,KP vi:VN th:TH el:GR,CY he:IL sv:SE cs:CZ sk:SK ro:RO,MD hu:HU sw:KE,TZ,UG bg:BG sr:RS,ME,BA hr:HR sl:SI mk:MK sq:AL,XK "
+             "lt:LT lv:LV et:EE fi:FI no:NO da:DK is:IS ga:IE ca:ES,AD eu:ES gl:ES ka:GE hy:AM az:AZ kk:KZ uz:UZ mn:MN km:KH lo:LA my:MM tl:PH am:ET ha:NG,NE yo:NG ig:NG zu:ZA af:ZA,NA").split():
+    for _code in _row.split(":")[1].split(","):
+        NATIVE.setdefault(_code, []).append(_row.split(":")[0])
+
+def lang_order(d, countries=()):
+    """Other-language articles to read: the tradition's own languages first (a Hungarian dance is described best in
+    Hungarian, a Georgian one in Georgian), then the large Wikipedias."""
+    codes = [d.get("country_code")] + [country_lookup(c)[0] for c in [d.get("country")] + list(countries) if isinstance(c, str) and c]
+    return list(dict.fromkeys([l for c in codes if c for l in NATIVE.get(c, [])] + list(WIKI_LANGS)))
+
 def gather_evidence(d):
     """d: catalogue entry or candidate. Returns evidence dict with fetched texts."""
     ev = {"fetched_at": now_iso(), "sources": []}
@@ -120,9 +135,9 @@ def gather_evidence(d):
         ev["sources"].append(ev["wikidata"]["url"])
         # other-language articles for depth
         extra = []
-        for lang in ("es", "fr", "pt", "de", "it", "ru", "ja", "id", "tr", "ar", "hi", "pl", "nl", "fa", "zh", "ko", "vi", "th", "el", "he", "uk", "sv", "cs", "ro", "hu", "sw", "ta", "bn"):
+        for lang in lang_order(d, (facts.get("country_of_origin") or []) + (facts.get("country") or [])):
             t = (wd.get("sitelinks") or {}).get(lang + "wiki")
-            if t and len(extra) < 3:
+            if t and len(extra) < 4:
                 try:
                     api = f"https://{lang}.wikipedia.org/w/api.php"
                     from urllib.parse import urlencode
@@ -131,7 +146,7 @@ def gather_evidence(d):
                     p = ((j.get("query") or {}).get("pages") or [{}])[0]
                     if p.get("extract") and len(p["extract"]) > 600:
                         url = f"https://{lang}.wikipedia.org/wiki/" + t.replace(" ", "_")
-                        extra.append({"lang": lang, "title": t, "url": url, "text": _trim(p["extract"], 6000)})
+                        extra.append({"lang": lang, "title": t, "url": url, "text": _trim(p["extract"], 8000)})
                         ev["sources"].append(url)
                 except Exception as e:
                     warn("other-lang wiki", lang, t, e)
@@ -207,26 +222,48 @@ def _source_texts(ev):
         texts[x["url"]] = x["text"]
     return texts
 
+def _vnorm(s):
+    """Quote matching for every script: case-folded, accent-free, letters and digits of ANY alphabet kept.
+    norm() keeps a-z0-9 only, so a quote from a Russian, Japanese, Hindi or Arabic article could never be verified."""
+    s = unicodedata.normalize("NFKD", str(s or "")).casefold()
+    return re.sub(r"[\W_]+", " ", "".join(c for c in s if unicodedata.category(c) != "Mn")).strip()
+
+def _quote_in(q, t):
+    """q, t normalised the same way. Words when the script has spaces; characters when it does not (Chinese, Japanese, Thai)."""
+    w = q.split()
+    if len(w) >= 4:
+        if q in t:
+            return True
+        grams = [" ".join(w[i:i + 5]) for i in range(max(1, len(w) - 4))]   # fuzzy: 5-gram overlap
+        return sum(1 for g in grams if g in t) / max(1, len(grams)) >= 0.6
+    qq, tt = q.replace(" ", ""), t.replace(" ", "")
+    if len(qq) < 12 or qq.isascii():
+        return False
+    if qq in tt:
+        return True
+    grams = [qq[i:i + 8] for i in range(max(1, len(qq) - 7))]
+    return sum(1 for g in grams if g in tt) / max(1, len(grams)) >= 0.6
+
 def verify_claims(claims, ev):
     """Check each claim's quote against the fetched source text. Returns (verified_claims, stats)."""
-    texts = {u: norm(t) for u, t in _source_texts(ev).items()}
+    raw = _source_texts(ev)
+    texts = {u: norm(t) for u, t in raw.items()}
+    wide = {}
     out, ok = [], 0
     for c in claims or []:
         q = norm(c.get("quote") or "")
         src = c.get("source") or ""
-        t = texts.get(src)
-        if t is None:  # tolerate URL variants (mobile, trailing slash)
-            for u, tt in texts.items():
+        key = src if src in texts else None
+        if key is None:  # tolerate URL variants (mobile, trailing slash)
+            for u in texts:
                 if src and (u.rstrip("/") == src.rstrip("/") or norm(u) == norm(src)):
-                    t = tt; break
-        supported = False
-        if t and len(q.split()) >= 4:
-            if q in t:
-                supported = True
-            else:  # fuzzy: 5-gram overlap
-                grams = [" ".join(q.split()[i:i + 5]) for i in range(max(1, len(q.split()) - 4))]
-                hit = sum(1 for g in grams if g in t)
-                supported = hit / max(1, len(grams)) >= 0.6
+                    key = u; break
+        t = texts.get(key)
+        supported = bool(t and len(q.split()) >= 4 and _quote_in(q, t))
+        if not supported and key and not str(c.get("quote") or "").isascii():
+            if key not in wide:
+                wide[key] = _vnorm(raw[key])
+            supported = _quote_in(_vnorm(c.get("quote")), wide[key])
         c = dict(c, supported=supported)
         ok += 1 if supported else 0
         out.append(c)
@@ -391,6 +428,8 @@ def compose(d, ev, llm, prev_gaps=None):
     system += """\nCONTINUING REQUIREMENTS RESEARCH: Ask what else this specific dance needs before excellent interactive teaching is possible, including needs absent from today's schema. Return activation_questions (at most 4), each {domain: research|video|rights|review|platform, question, why_needed, next_evidence, source}. The source must be an exact supplied evidence URL. Identify a concrete unanswered question and the evidence or experiment needed, not generic boilerplate or an invented answer. Consider competing methods/variants, hidden mechanics, learner outcomes, language/access, music, human partners and delivery limits where the source gives a reason. Empty list if no grounded new question. These are unreviewed research candidates, never permissions or approval. Keep all existing output limits."""
     return normalize(llm.json(system, user, strong=True, temperature=0.3, max_tokens=9000))
 
+KEPT = {}   # slug -> why this run kept the existing profile instead of writing a new one (read by run())
+
 def research_one(d, llm, sb=None):
     slug = d.get("slug") or slugify(d.get("name"))
     out_path = os.path.join(RESULTS_DIR, slug + ".json")
@@ -420,8 +459,9 @@ def research_one(d, llm, sb=None):
     if "extra" in rec["evidence"]:
         rec["evidence"]["extra"] = [{kk: vv for kk, vv in x.items() if kk != "text"} for x in rec["evidence"]["extra"]]
     if not ev.get("wikipedia") and not ev.get("wikidata"):
-        if d.get("_completion_retry") and prev.get("status") == "researched":
+        if prev.get("status") == "researched":   # a source outage must never erase a written profile
             warn("completion refresh found no sources; keeping existing research", slug)
+            KEPT[slug] = "no_sources"
             return prev
         jsave(out_path, rec)
         return rec
@@ -431,17 +471,21 @@ def research_one(d, llm, sb=None):
     known_needs = [g for g in active_gaps.get("research", []) if not g.startswith("Investigate:")]
     # The composer accepts 12 hints. New questions must not disappear behind
     # the legacy field checklist before reaching the model.
-    prev_gaps = (["Active Profile needs: " + g for g in new_questions[:4] + known_needs[:2]]
+    line = (((load_state("active_ready.json", {}) or {}).get("profiles") or {}).get(slug) or {}).get("missing") or []
+    prev_gaps = ((["to be ACTIVE-READY this page still needs: " + ", ".join(line[:8])] if line else [])
+                 + ["Active Profile needs: " + g for g in new_questions[:4] + known_needs[:2]]
                  + prev_gaps[:6])
     # what the episode pack could not fill (pipeline/episodes.py) is asked for too — the script layer tells research what it needs
     prev_gaps += [("the episode script is missing: " + g) for g in ((load_state("episode_gaps.json", {}) or {}).get(slug) or [])[:6] if isinstance(g, str)]
     comp = compose(d, ev, llm, prev_gaps=prev_gaps)
     if not comp:
-        if d.get("_completion_retry") and prev.get("status") == "researched":
+        if prev.get("status") == "researched":   # a failed or switched-off writer must never erase a written profile
             warn("completion refresh failed; keeping existing research", slug)
+            KEPT[slug] = "llm_failed"
             return prev
         rec["status"] = "llm_failed" if llm.enabled else "dry_run"
-        jsave(out_path, rec)
+        if llm.enabled:
+            jsave(out_path, rec)
         return rec
     claims, cstats = verify_claims(comp.get("claims"), ev)
     from .readiness_research import questions, REVISION
@@ -551,6 +595,7 @@ def pick_enrichment_targets(catalog, n):
     active = (load_state("activation_gaps.json", {}) or {}).get("profiles") or {}
     qc = load_state("qc_index.json", {}) or {}
     followups = load_state("completion_followups.json", {}) or {}
+    line = (load_state("active_ready.json", {}) or {}).get("profiles") or {}
     # The public export includes discoveries that may not yet be in Supabase.
     published = (jload("public/catalog/dances.app.json", {}) or {}).get("styles") or {}
     by_slug = {d["slug"]: d for d in catalog}
@@ -573,12 +618,15 @@ def pick_enrichment_targets(catalog, n):
         last = prev.get("researched_at", "")
         if flagged(d["slug"]):
             priority.append(d); continue
+        if (prev.get("attempted_at") or "")[:10] >= _days_ago(7):
+            continue   # the writer failed on this page within the week: the next runs go elsewhere
         checked = max(last, (followups.get(d["slug"]) or {}).get("checked_at") or "")
         research_gaps = [g for g in gaps.get(d["slug"], []) if g not in media_only]
         research_gaps += ((active.get("atlas:" + d["slug"]) or {}).get("gaps") or {}).get("research", [])
         if (prev.get("status") == "researched" and (qc.get(d["slug"]) or {}).get("publish_gate") == "publish"
                 and research_gaps and checked[:10] < _days_ago(7)):
-            finish.append((0 if any(g.startswith("Investigate:") for g in research_gaps) else 1,
+            finish.append((len((line.get(d["slug"]) or {}).get("missing") or []) or 99,
+                           0 if any(g.startswith("Investigate:") for g in research_gaps) else 1,
                            -(prev.get("class_have") or 0), len(research_gaps), checked, d["slug"], d))
         if last and last[:10] >= _days_ago(60) and int(prev.get("schema") or 0) >= RESEARCH_SCHEMA:
             continue
@@ -588,7 +636,7 @@ def pick_enrichment_targets(catalog, n):
     scored.sort(key=lambda x: x[0])
     picked = priority[:n]
     finish.sort(key=lambda x: x[:-1])
-    slots = min(5, n // 3, n - len(picked))
+    slots = min(int(os.environ.get("RESEARCH_COMPLETION_MAX", "5")), n // 3, n - len(picked))
     regions = set()
     # First cover different regions, then fill any remaining reserved slots.
     for diverse in (True, False):
@@ -614,6 +662,10 @@ def _days_ago(n):
 def run(budget_new=20, budget_enrich=20, only=None):
     rep = Report("research")
     llm = LLM()
+    if not llm.enabled:
+        rep.note("ENGINE OFF: no model is permitted (pipeline_state/spending_policy.json, or the key is missing). Nothing was researched and nothing was changed.")
+        rep.inc("engine_off")
+        return rep.finish()
     sb = Supabase()
     catalog = load_catalog(sb)
     index = load_state("research_index.json", {})
@@ -656,7 +708,13 @@ def run(budget_new=20, budget_enrich=20, only=None):
     for kind, d in targets:
         slug = d.get("slug")
         try:
+            KEPT.pop(slug, None)
             rec = research_one(d, llm, sb)
+            if slug in KEPT:   # the existing profile stands; remember the attempt so the queue moves on
+                index[slug] = dict(index.get(slug) or {}, attempted_at=now_iso(), attempt=KEPT[slug])
+                rep.inc("kept_existing")
+                save_state("research_index.json", index)
+                continue
             index[slug] = {"researched_at": rec["researched_at"], "status": rec["status"], "kind": kind, "schema": rec.get("schema"), "movie_ready": rec.get("movie_ready"),
                            "class_have": (rec.get("class_checklist") or {}).get("have"), "class_of": (rec.get("class_checklist") or {}).get("of"), "class_missing": (rec.get("class_checklist") or {}).get("missing"),
                            "tradition_status": (rec.get("profile") or {}).get("tradition_status"), "footage": len(rec.get("footage") or []),
@@ -669,6 +727,10 @@ def run(budget_new=20, budget_enrich=20, only=None):
                     save_state("editor_notes.json", notes)
             if kind == "new" and slug in cands:
                 cands[slug]["status"] = "researched" if rec["status"] == "researched" else ("no_sources" if rec["status"] == "no_sources" else "queued")
+                if rec["status"] == "llm_failed":   # three failed writes and the candidate leaves the queue (listed for a person, not retried daily for ever)
+                    cands[slug]["attempts"] = int(cands[slug].get("attempts") or 0) + 1
+                    if cands[slug]["attempts"] >= 3:
+                        cands[slug]["status"] = "writer_failed"
                 cands[slug]["researched_at"] = rec["researched_at"]
             log(f"RESEARCH {kind} {slug}: {rec['status']} claims={(rec.get('citation') or {}).get('claims')} rate={(rec.get('citation') or {}).get('rate')} albums={len(rec.get('albums') or [])} images={len(rec.get('images') or [])} movie_ready={rec.get('movie_ready')}")
         except Exception as e:
