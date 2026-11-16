@@ -311,8 +311,11 @@ class LLM:
         out = {}
         for fam in fams:
             names = [n for n in (self._gemini_avail or []) if family_of(n) == fam]
-            names.sort(key=lambda n: (("preview" in n) or bool(re.search(r"-\d{2}-\d{2,4}$", n)), tuple(-x for x in self._ver(n)), len(n)))
-            out[fam] = names[:per]
+            names.sort(key=lambda n: (("preview" in n) or bool(re.search(r"-\d{2}-\d{2,4}$", n)), len(n)))
+            best = {}   # one name per version: an alias and its dated twin share one day quota
+            for n in names:
+                best.setdefault(self._ver(n), n)
+            out[fam] = [best[v] for v in sorted(best, reverse=True)[:per]]
         if out and not self._lane_logged:
             self._lane_logged = True
             log("gemini free lane:", json.dumps(out))
