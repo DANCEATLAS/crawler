@@ -131,6 +131,7 @@ class NothingIsLostTests(Project):
         self.assertEqual(research.lang_order({"country": "Hungary"})[0], "hu")
         self.assertEqual(research.lang_order({"country_code": "GE"})[0], "ka")
         self.assertEqual(research.lang_order({})[:2], ["es", "fr"])
+        self.assertIn("ca", research.lang_order({}))   # unknown country: the smaller Wikipedias still get a turn
 
     def test_unconfirmed_and_rejected_lessons_stay_off_the_site(self):
         lessons = {"a": {"lessons": [{"youtube_id": "praised", "lesson_status": "in_review"}, {"youtube_id": "cand", "lesson_status": "candidate"},

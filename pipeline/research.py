@@ -94,9 +94,10 @@ for _row in ("es:MX,AR,ES,CO,PE,CL,CU,VE,BO,EC,DO,PR,UY,PY,GT,PA,CR,HN,NI,SV pt:
 
 def lang_order(d, countries=()):
     """Other-language articles to read: the tradition's own languages first (a Hungarian dance is described best in
-    Hungarian, a Georgian one in Georgian), then the large Wikipedias."""
+    Hungarian, a Georgian one in Georgian), then the large Wikipedias, then every other language we know of — when the
+    country is unknown (seen live: a Catalan stick dance read in Spanish and French only) the smaller Wikipedias still get a turn."""
     codes = [d.get("country_code")] + [country_lookup(c)[0] for c in [d.get("country")] + list(countries) if isinstance(c, str) and c]
-    return list(dict.fromkeys([l for c in codes if c for l in NATIVE.get(c, [])] + list(WIKI_LANGS)))
+    return list(dict.fromkeys([l for c in codes if c for l in NATIVE.get(c, [])] + list(WIKI_LANGS) + [l for ls in NATIVE.values() for l in ls]))
 
 def gather_evidence(d):
     """d: catalogue entry or candidate. Returns evidence dict with fetched texts."""
