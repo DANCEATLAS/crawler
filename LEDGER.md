@@ -11,7 +11,7 @@ Reach the **starting line**: many thousands of **active-ready** profiles, built 
 - 1,140 dances in the atlas, 345 published deep profiles (+128 in the last week), **1 active-ready**, 16 within two items, 75 within five. What holds pages back most: steps with counts, a studied video, a checked hero video.
 - The other AI's 14 November spending pause went live on 16 November and switched the writing engine off. It was lifted the same day on the owner's direction: the engine runs on **Google Gemini's free tier only**. Checked in Google AI Studio: billing tier Free, no billing attached, so it cannot charge. OpenAI is off and its key is not passed to any workflow.
 - Free limits seen that day: flash models 20 requests a day each (kept for the writer), flash-lite 500 a day each (judges and video). Budgets are sized to that.
-- Proven live the same day (run 33, a three-page test): engine on, three profiles written, every claim quote-checked, nothing unanswered, results committed. The first full nightly run with the new budgets had not happened when this was written.
+- Proven live the same day in two small test runs: run 33 wrote three profiles (every claim quote-checked, nothing unanswered); run 34 studied two lessons and observed two hero performances. The first full nightly run with the new budgets had not happened when this was written.
 
 ## What runs by itself (GitHub Actions, no Claude, no Lovable, $0)
 
