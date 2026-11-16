@@ -62,6 +62,10 @@ jobs:
           PEDAGOGY_BUDGET: "24"
           # performances observed per day: what a dance looks and sounds like in its own hero video (dances without a lesson on the web)
           PERFORMANCE_BUDGET: "30"
+          # time guards: a slow model day must not eat the run (the judge, the build and the report still have to happen)
+          RESEARCH_MAX_MINUTES: "180"
+          PEDAGOGY_MAX_MINUTES: "60"
+          LLM_TIMEOUT_STRONG: "300"
           EPISODE_POLISH: "4"
           # one narrator, every language: gap-free packs are translated scene by scene (TRANSLATE_BUDGET calls a day) into these languages
           TRANSLATE_BUDGET: "6"
