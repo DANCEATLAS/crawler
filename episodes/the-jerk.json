@@ -2,7 +2,7 @@
  "slug": "the-jerk",
  "name": "The Jerk",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:12Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-10T17:19:51Z",
  "qc_score": 9.6,
  "status": "draft",
@@ -273,7 +273,7 @@
       "Drill: Practice crossing wrists at chest level."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -316,9 +316,12 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [],
+     "narration": [
+      "Teachers of this dance warn against: leaning forward or diagonal during the pin drop instead of to the side",
+      "Teachers of this dance warn against: landing flat on the foot during the pin drop before building ankle strength"
+     ],
      "on_screen": [
-      "Correction withheld until evidence is available",
+      "Side-by-side: source-supported correction",
       "Options card: Seated or supported option: Perform the arm sweeps and finger snaps while seated. · For children: A 'follow the leader' game mimicking the conductor arm movements."
      ],
      "music": "silence",
@@ -326,10 +329,7 @@
       "Seated or supported option: Perform the arm sweeps and finger snaps while seated.",
       "For children: A 'follow the leader' game mimicking the conductor arm movements."
      ],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
@@ -422,7 +422,7 @@
       "Step 2: Sweep arms outward on count 1."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -465,9 +465,12 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [],
+     "narration": [
+      "Teachers of this dance warn against: leaning forward or diagonal during the pin drop instead of to the side",
+      "Teachers of this dance warn against: landing flat on the foot during the pin drop before building ankle strength"
+     ],
      "on_screen": [
-      "Correction withheld until evidence is available",
+      "Side-by-side: source-supported correction",
       "Options card: Seated or supported option: Perform the arm sweeps and finger snaps while seated. · For children: A 'follow the leader' game mimicking the conductor arm movements."
      ],
      "music": "silence",
@@ -475,10 +478,7 @@
       "Seated or supported option: Perform the arm sweeps and finger snaps while seated.",
       "For children: A 'follow the leader' game mimicking the conductor arm movements."
      ],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
@@ -571,7 +571,7 @@
       "Step 2: Move hips and legs in rhythm with the arm sweeps."
      ],
      "on_screen": [
-      "Instructor front view, then back view (student's perspective); repetitions per step: about 2",
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
       "Counts on screen"
      ],
      "music": "lesson_slow",
@@ -612,9 +612,12 @@
      "code": "mistakes",
      "title": "Common mistakes and what to avoid",
      "duration_s": 60,
-     "narration": [],
+     "narration": [
+      "Teachers of this dance warn against: leaning forward or diagonal during the pin drop instead of to the side",
+      "Teachers of this dance warn against: landing flat on the foot during the pin drop before building ankle strength"
+     ],
      "on_screen": [
-      "Correction withheld until evidence is available",
+      "Side-by-side: source-supported correction",
       "Options card: Seated or supported option: Perform the arm sweeps and finger snaps while seated. · For children: A 'follow the leader' game mimicking the conductor arm movements."
      ],
      "music": "silence",
@@ -622,10 +625,7 @@
       "Seated or supported option: Perform the arm sweeps and finger snaps while seated.",
       "For children: A 'follow the leader' game mimicking the conductor arm movements."
      ],
-     "derived_note": "options are derived teaching suggestions, not facts from the sources",
-     "needs": [
-      "what_to_avoid"
-     ]
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
     },
     {
      "code": "music_run",
@@ -782,25 +782,34 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "5-6-7-8",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: mirror",
+   "views used by most teachers: mirror, front, back",
    "tempo progression: slow → full",
-   "repetitions per step: about 2"
+   "repetitions per step: about 4"
   ],
   "cues": [
    "jump back on the left leg",
    "kick the right leg up",
    "take the right leg back",
-   "hop forward with the left leg"
+   "hop forward with the left leg",
+   "and-1",
+   "swap",
+   "around town",
+   "spin up",
+   "rock with me"
   ],
-  "common_mistakes": [],
+  "common_mistakes": [
+   "leaning forward or diagonal during the pin drop instead of to the side",
+   "landing flat on the foot during the pin drop before building ankle strength"
+  ],
   "segment_order": [
    "intro",
    "full_demo",
+   "slow_practice",
    "breakdown",
    "music_practice"
   ],
@@ -809,6 +818,21 @@
     "name": "The Reject",
     "counts": "1-2",
     "description": "A hop-based step involving alternating leg kicks and jumps."
+   },
+   {
+    "name": "The Reject",
+    "counts": "and-1-and-2",
+    "description": "A backward-moving step where one leg kicks back while the other hops forward."
+   },
+   {
+    "name": "The Pin Drop",
+    "counts": "1-2",
+    "description": "A descent to the floor where one leg tucks behind the other knee, followed by a spin back up."
+   },
+   {
+    "name": "The Sway",
+    "counts": "1-2-3-4",
+    "description": "A rhythmic rocking motion involving opening and closing the knees while descending."
    }
   ]
  },
@@ -817,8 +841,7 @@
   "instruments",
   "the hero video's vision check",
   "licensed images (3 needed)",
-  "the costume & setting section",
-  "what to avoid / common mistakes"
+  "the costume & setting section"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Jerk_(dance)",
@@ -828,6 +851,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "64b01b1939c6b5138e4b2b9c1e492b959df7b6f4354ee8a6b15e5465e82ccff3",
+ "input_fingerprint": "51da147ab833e6a3f548ae22ed0564e8b285f807bac49cba084e6e76087b505b",
  "hero_checked": null
 }

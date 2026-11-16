@@ -1,6 +1,6 @@
 # Fatele — episode pack
 
-*Status: withheld-chapters · built 2026-11-15 · judge 9.1 · 5/5 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-16 · judge 9.1 · 5/5 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; signature moves; two or more connections
 
@@ -108,9 +108,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (3): https://en.wikipedia.org/wiki/Fatele; https://www.wikidata.org/wiki/Q17048829; https://de.wikipedia.org/wiki/Fatele

@@ -2,72 +2,97 @@
   "candidate_material": {
     "adaptations": {
       "children": {
-        "avoid": [],
-        "counts": "not derivable yet",
-        "duration_minutes": "not derivable yet",
-        "game_version": "not derivable yet"
+        "avoid": [
+          "High-altitude drops",
+          "Complex neck wraps",
+          "Unsupervised inversions"
+        ],
+        "counts": "Simple 1-2-3-4 counts for climbing.",
+        "duration_minutes": "30",
+        "game_version": "The 'Cocoon' game: sitting inside a low-hung silk hammock."
       },
       "derived": true,
       "seniors": {
-        "avoid": [],
-        "counts": "not derivable yet",
-        "seated_version": "not derivable yet",
-        "standing_version": "not derivable yet",
-        "tempo_and_range": "not derivable yet"
+        "avoid": [
+          "Inversions",
+          "Weight-bearing hangs",
+          "Rapid spins"
+        ],
+        "counts": "Slow 4/4 time.",
+        "seated_version": "Seated movements using low-hung silks for upper body stretching and resistance.",
+        "standing_version": "Using the fabric as a balance support for gentle swaying and weight-shifting exercises.",
+        "tempo_and_range": "Slow, controlled movements; range limited to shoulder height."
       }
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "High demand for grip strength and arm endurance.",
+      "arms_and_hands": "High grip strength; arms used for pulling (ascents) and stabilizing (poses).",
       "difficulty": "advanced",
-      "footwork": "Not applicable in the traditional sense; involves wrapping and hooking feet on apparatus.",
-      "formation_and_space": "Three-dimensional; uses vertical and horizontal paths.",
-      "hips_and_torso": "Central to balance and initiating movement in the air.",
-      "levels_and_jumps": "Explores all vertical levels; jumps are replaced by drops and swings.",
-      "partnering": "Often involves partnering with the apparatus itself.",
-      "posture": "Requires a strong, engaged core and precise alignment to manage suspension.",
+      "footwork": "Climbing techniques using the feet to grip fabric; 'panino' (sandwiching the fabric between feet).",
+      "formation_and_space": "Three-dimensional; utilizes vertical, horizontal, and diagonal paths.",
+      "hips_and_torso": "The center of gravity; used for 'hip keys' and controlling rotation.",
+      "levels_and_jumps": "Extensive use of high levels; 'jumps' are often assisted by bungee or rope tension.",
+      "partnering": "Involves weight-sharing while suspended; one dancer may act as a 'porteur'.",
+      "posture": "Engaged core with elongated limbs; requires 'hollow body' positioning for inversions.",
       "signature_moves": [
         {
-          "description": "A method of ascending the aerial fabric.",
-          "name": "French climb"
+          "description": "A high-risk controlled drop involving multiple body rotations.",
+          "name": "Kamikaze"
         },
         {
-          "description": "A controlled fall or drop maneuver.",
+          "description": "A dramatic fall where the dancer unravels from a wrapped position into a star shape.",
           "name": "Star drop"
         }
       ],
-      "tempo_feel": "Fluid and controlled.",
-      "what_to_avoid": "Unsupervised rigging, lack of safety mats, and improper warm-up."
+      "tempo_feel": "Fluid and sustained during poses; explosive and rapid during drops.",
+      "what_to_avoid": "Avoid wrapping fabric around the neck; avoid releasing grips without a confirmed 'lock'; avoid practicing without crash mats."
     },
     "music_profile": {
-      "instruments": [],
-      "meter": "not described in sources",
-      "mood_keywords": [
-        "contemporary",
-        "experimental"
+      "instruments": [
+        "Synthesizers",
+        "Percussion",
+        "Strings",
+        "Electronic soundscapes"
       ],
-      "musical_form": "not described in sources",
-      "reference_recordings": [],
-      "rhythm_pattern": "not described in sources",
-      "sound_description": "not described in sources",
-      "tempo_bpm": "not described in sources",
-      "vocal_style": "not described in sources"
+      "meter": "Variable",
+      "mood_keywords": [
+        "Ethereal",
+        "Dynamic",
+        "Suspenseful",
+        "Atmospheric"
+      ],
+      "musical_form": "Through-composed or modular to match choreographic sequences.",
+      "reference_recordings": [
+        {
+          "artist": "De La Guarda",
+          "title": "Villa Villa"
+        }
+      ],
+      "rhythm_pattern": "Often atmospheric or driving, synchronized with the swing or spin of the apparatus.",
+      "sound_description": "The soundscape typically features sweeping electronic or orchestral textures that emphasize the scale of the vertical space, often punctuated by rhythmic beats that cue drops or transitions.",
+      "tempo_bpm": "Variable",
+      "vocal_style": "Often non-verbal or operatic in theatrical contexts."
     },
     "teaching": {
       "basic_steps": [
-        "Floor-based core conditioning",
-        "Grip and hold techniques on apparatus",
-        "Basic ascensions (e.g., French climb)",
-        "Controlled inversions",
-        "Static poses"
+        "French climb (subida francesa)",
+        "Foot lock (llave de pie)",
+        "Inversion (invertida)",
+        "Hip key (llave de vientre)",
+        "Basic drop (caída simple)"
       ],
-      "formation": "Solo or ensemble, often utilizing vertical or three-dimensional space.",
-      "level_notes": "Requires high degree of strength, flexibility, and professional rigging supervision.",
-      "rhythm": "not described in sources"
+      "formation": "Solo, duo (partnering), or ensemble; often vertical or suspended.",
+      "level_notes": "Beginners start with low-height silks and basic climbs; advanced students master high-altitude drops and complex wraps.",
+      "rhythm": "Variable; follows the momentum of the apparatus and musical score."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "b59fc1928c369b40c76a70fd7b730f8fe10cc28c0cc37713be97b42c4bf914e4",
+  "fingerprint": "0f565d632067e391b5367d119d91bebd34c32471ac91b6a6eda6c29cbe529b2f",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -75,8 +100,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific safety certifications required for aerial dance rigging in different regions? Evidence needed: https://pt.wikipedia.org/wiki/Tecido_acrobático"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -91,7 +116,8 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: Are there standardized video demonstrations for the 'Kamikaze' drop to establish safety parameters? Evidence needed: https://it.wikipedia.org/wiki/Tessuti_aerei"
     ]
   },
   "id": "atlas:aerial-dance",
@@ -102,6 +128,26 @@
   ],
   "music_options": [],
   "name": "Aerial dance",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "8bd70d8be6c37867",
+      "next_evidence": "https://pt.wikipedia.org/wiki/Tecido_acrobático",
+      "question": "What are the specific safety certifications required for aerial dance rigging in different regions?",
+      "source": "https://pt.wikipedia.org/wiki/Tecido_acrobático",
+      "status": "candidate_unreviewed",
+      "why_needed": "To ensure that interactive teaching modules include correct legal and safety standards for practitioners."
+    },
+    {
+      "domain": "video",
+      "id": "e1ed488033894371",
+      "next_evidence": "https://it.wikipedia.org/wiki/Tessuti_aerei",
+      "question": "Are there standardized video demonstrations for the 'Kamikaze' drop to establish safety parameters?",
+      "source": "https://it.wikipedia.org/wiki/Tessuti_aerei",
+      "status": "candidate_unreviewed",
+      "why_needed": "The source mentions it is dangerous and sometimes banned; visual evidence is needed to define 'safe' vs 'unsafe' execution."
+    }
+  ],
   "research_file": "research_results/aerial-dance.json",
   "runtime_active": false,
   "scope": {
@@ -117,7 +163,8 @@
     "https://www.wikidata.org/wiki/Q507033",
     "https://es.wikipedia.org/wiki/Danza_aérea",
     "https://fr.wikipedia.org/wiki/Danse_aérienne",
-    "https://pt.wikipedia.org/wiki/Tecido_acrobático"
+    "https://pt.wikipedia.org/wiki/Tecido_acrobático",
+    "https://it.wikipedia.org/wiki/Tessuti_aerei"
   ],
   "state": "researching",
   "video_evidence": [

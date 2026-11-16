@@ -1,6 +1,6 @@
 # Ahidous — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.6 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-16 · judge 9.6 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; the origins & history section; notable figures; two or more connections; what to avoid / common mistakes
 
@@ -12,7 +12,7 @@
 
 ### 1. Cold open (35 s) · `hook`
 NARRATION: This is the pulse of the Atlas.
-NARRATION: This is Ahidous, an ancient dance.
+NARRATION: This is Ahidous, an ancient tradition.
 ON SCREEN: Hero video, first 10 seconds (8VbcXz-o2G4)
 ON SCREEN: Title card: Ahidous · Morocco · Ancient
 MUSIC: theme (30 s)
@@ -32,19 +32,19 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Dancers stand shoulder to shoulder in a circle, semicircle, or two facing lines.
-NARRATION: The movement is collective, involving rhythmic stomping, trembling, and large, undulating motions.
-NARRATION: Participants move in unison, creating a visual effect of juxtaposition where everyone performs the same gesture simultaneously.
-NARRATION: Watch for collective undulation.
+NARRATION: The movement is collective, featuring rhythmic stomping, trembling, and large, undulating motions.
+NARRATION: Participants move in unison, creating a visual effect where everyone performs the same gesture simultaneously.
+NARRATION: Watch for the collective undulation.
 ON SCREEN: Hero video full screen, 30–45 s (8VbcXz-o2G4)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circle, semicircle, or two facing lines.
 MUSIC: diegetic (the video's own sound), underscore under narration
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The dance is accompanied by the bendir, also called alloun, a frame drum, and the rhythmic clapping of the dancers.
+NARRATION: The dance is accompanied by the bendir, also called the alloun, and the rhythmic clapping of the dancers.
 NARRATION: Vocal accompaniment consists of songs in the Berber language, known as izli or izlan, though some tribes in the Taza corridor use Arabic.
 NARRATION: Listen for the bendir.
-NARRATION: The sound is defined by the steady, resonant beat of the bendir frame drum, punctuated by the rhythmic clapping of the dancers and the communal singing of traditional Berber chants.
+NARRATION: The sound is defined by the steady, resonant beat of the frame drum, punctuated by rhythmic clapping and communal Berber chants.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Verified recording — MISSING
 ON SCREEN: Waveform or rhythm-pattern graphic: Rhythmic pulse provided by the bendir frame drum and handclapping.
@@ -54,13 +54,13 @@ NEEDS: tempo, meter
 ### 6. The costume and the setting (60 s) · `costume`
 NARRATION: Men typically wear a white djellaba and a turban.
 NARRATION: Women wear white or colorful kaftans, often accessorized with silver jewelry.
-NARRATION: It is performed in village squares, at festivals, and during weddings.
+NARRATION: The dance takes place in village squares, at festivals, and during weddings.
 ON SCREEN: Image gallery: 8 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 
 ### 7. The people (60 s) · `people`
-NARRATION: Ahidous is practiced across the Middle and High Atlas, including provinces like Khenifra, Azrou, Ifrane, Beni Mellal, and Midelt.
+NARRATION: Ahidous is practiced across the Middle and High Atlas, including the provinces of Khenifra, Azrou, Ifrane, Beni Mellal, and Midelt.
 NARRATION: The dance is linked to the Amazigh people and is often compared to the Ahwash of the Western Atlas.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
@@ -68,7 +68,7 @@ MUSIC: underscore
 NEEDS: notable_figures
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Ahidous is a sibling of Ahwash, a related Berber dance from the Western Atlas with distinct regional characteristics.
+NARRATION: Ahidous is a sibling to Ahwash, a related Berber dance from the Western Atlas with its own distinct regional characteristics.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 NEEDS: connections
@@ -99,14 +99,14 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Stand upright, shoulder to shoulder in a compact block.
-NARRATION: Arms are often linked or held close to neighbors; hands are used for clapping.
+NARRATION: Arms are often linked or held close to neighbors, and hands are used for clapping.
 NARRATION: Trembling and undulating movements ripple through the group.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count.
-NARRATION: Rhythm pattern: rhythmic pulse provided by the bendir frame drum and handclapping.
+NARRATION: Rhythm pattern: A rhythmic pulse provided by the bendir frame drum and handclapping.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -116,8 +116,8 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Stand shoulder to shoulder with partners.
 NARRATION: Step 2: Execute collective rhythmic stomping.
-NARRATION: Footwork from the sources: collective stomping and rhythmic stepping.
-NARRATION: Drill: stand in a line with neighbors.
+NARRATION: Footwork from the sources: Collective stomping and rhythmic stepping.
+NARRATION: Drill: Stand in a line with neighbors.
 ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
@@ -125,7 +125,7 @@ MUSIC: lesson_slow
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Perform trembling movements through the torso.
 NARRATION: Step 4: Create large, undulating waves with the arms and body.
-NARRATION: Drill: match the rhythm of the drum with your feet.
+NARRATION: Drill: Match the rhythm of the drum with your feet.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
 
@@ -171,14 +171,14 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Stand upright, shoulder to shoulder in a compact block.
-NARRATION: Arms are often linked or held close to neighbors; hands are used for clapping.
+NARRATION: Arms are often linked or held close to neighbors, and hands are used for clapping.
 NARRATION: Trembling and undulating movements ripple through the group.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count.
-NARRATION: Rhythm pattern: rhythmic pulse provided by the bendir frame drum and handclapping.
+NARRATION: Rhythm pattern: A rhythmic pulse provided by the bendir frame drum and handclapping.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -195,7 +195,7 @@ MUSIC: lesson_slow
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Perform trembling movements through the torso.
 NARRATION: Step 4: Create large, undulating waves with the arms and body.
-NARRATION: Collective undulation: a wave-like motion that moves through the line of dancers, resembling wind over wheat.
+NARRATION: Collective Undulation: A wave-like motion that moves through the line of dancers, resembling wind over wheat.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -240,14 +240,14 @@ MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Stand upright, shoulder to shoulder in a compact block.
-NARRATION: Arms are often linked or held close to neighbors; hands are used for clapping.
+NARRATION: Arms are often linked or held close to neighbors, and hands are used for clapping.
 NARRATION: Trembling and undulating movements ripple through the group.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
 NARRATION: Count.
-NARRATION: Rhythm pattern: rhythmic pulse provided by the bendir frame drum and handclapping.
+NARRATION: Rhythm pattern: A rhythmic pulse provided by the bendir frame drum and handclapping.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -262,7 +262,7 @@ ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Collective undulation: a wave-like motion that moves through the line of dancers, resembling wind over wheat.
+NARRATION: Collective Undulation: A wave-like motion that moves through the line of dancers, resembling wind over wheat.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
@@ -290,7 +290,7 @@ ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now dance the Ahidous fully.
+NARRATION: You can now dance Ahidous fully.
 NARRATION: The dance is linked to the Amazigh people and is often compared to the Ahwash of the Western Atlas.
 NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
@@ -320,9 +320,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (5): https://en.wikipedia.org/wiki/Ahidus; https://www.wikidata.org/wiki/Q2635155; https://fr.wikipedia.org/wiki/Ahidous; https://pt.wikipedia.org/wiki/Ahidous; https://de.wikipedia.org/wiki/Ahidous

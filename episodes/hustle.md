@@ -1,8 +1,8 @@
 # Hustle — episode pack
 
-*Status: draft · built 2026-11-15 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An authentic New York social dancer carrying the living history of South Bronx street footwork and smooth nightclub elegance.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: From South Bronx Basements to the Top of the Charts
 NARRATION: This is Hustle. 1970s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (frCnHr1CmDg)
 ON SCREEN: Title card: Hustle · United States · 1970s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Hustle is danced as a couple dance moving freely over the dance floor
 NARRATION: The dance uses a lead-and-follow structure where the leader initiates back-forward steps starting on the left foot without a traditional swing rocking action due to the rapid tempo.
 NARRATION: Counting patterns syncopate against 4/4 disco music; common timings include '&1 2 3 &1 2 3' (leader stepping Left-Right, Left, Right), as well as '1, 2 & 3' (Slow-Quick-Quick-Slow), '1&23', '12&3', or '123&'.
 NARRATION: Watch for The Basic, Turn, Left Turn.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (frCnHr1CmDg)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Traveling couple dance moving fluidly across the room rather than staying in a rigid line of dance.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -81,7 +81,7 @@ MUSIC: underscore
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Leader steps back on the left foot, followed by a forward replacement step on the right foot (&1 count)
 NARRATION: Leader steps forward or sideways on the left foot (count 2)
-NARRATION: Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count it: 1-2-3-4 / and-1-and-2.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -110,7 +110,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4 / and-1-and-2. The meter is 4/4.
 NARRATION: Rhythm pattern: Even, un-oscillated four-on-the-floor disco pulse with syncopated phrasing over 3 or 6 counts.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -123,10 +123,10 @@ NARRATION: Step 1: Leader steps back on the left foot, followed by a forward rep
 NARRATION: Step 2: Leader steps forward or sideways on the left foot (count 2)
 NARRATION: Footwork from the sources: Leader begins back-forward steps with the left foot (&1 or 1, 2), stepping without swinging or rocking due to high speed; follower executes natural opposite footwork; count patterns include '&1 2 3', '1, 2 & 3', '1&23', '12&3', or '123&'.
 NARRATION: Drill: Practice the back-and-forward foot action on '&1' in place without shifting body weight too far backward.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4 / and-1-and-2 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Leader steps forward or sideways on the right foot (count 3), completing the basic syncopated module
@@ -134,7 +134,7 @@ NARRATION: Step 4: Rotate 180 degrees clockwise between counts 2 and 3 after the
 NARRATION: Drill: Walk counts '2' and '3' with continuous forward movement, adding a soft hip roll.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4 / and-1-and-2 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -147,13 +147,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rocking back on the heels during the rock-step; avoid jerky or over-accentuated hip hits on counts 2 and 3; avoid dancing with swing-style delayed bounce.
+NARRATION: Teachers of this dance warn against: putting all weight on the rock step
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the '&1 2 3' foot rhythm seated by tapping the left heel and toe on '&1', followed by alternate flat foot steps on 2 and 3, mimicking the arm bellows of the Wheel with hands clasped. · For children: 'The Bellows Wheel Challenge': Partners link hands and try to steer together like a ship's wheel for 180 degrees before freezing on the count of 3.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the '&1 2 3' foot rhythm seated by tapping the left heel and toe on '&1', followed by alternate flat foot steps on 2 and 3, mimicking the arm bellows of the Wheel with hands clasped. · For children: 'The Bellows Wheel Challenge': Partners link hands and try to steer together like a ship's wheel for 180 degrees before freezing on the count of 3. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4 / and-1-and-2.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -184,7 +185,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4 / and-1-and-2. The meter is 4/4.
 NARRATION: Rhythm pattern: Even, un-oscillated four-on-the-floor disco pulse with syncopated phrasing over 3 or 6 counts.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -196,10 +197,10 @@ NEEDS: tempo
 NARRATION: Step 1: Rotate 180 degrees counterclockwise between counts 1 and 2 after the rock-step for a Left Turn
 NARRATION: Step 2: Execute the Wheel by maintaining a double hand-hold and pumping arms like a bellows while revolving 180 degrees clockwise
 NARRATION: Drill: Drill individual 180-degree clockwise pivot between counts 2 and 3, recovering directly into '&1'.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4 / and-1-and-2 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: The Basic: Back-forward step initiated at the beginning of the count sequence without a rocking delay.
@@ -208,7 +209,7 @@ NARRATION: Drill: Practice the Left Turn pivot between counts 1 and 2.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4 / and-1-and-2 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -221,13 +222,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rocking back on the heels during the rock-step; avoid jerky or over-accentuated hip hits on counts 2 and 3; avoid dancing with swing-style delayed bounce.
+NARRATION: Teachers of this dance warn against: putting all weight on the rock step
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the '&1 2 3' foot rhythm seated by tapping the left heel and toe on '&1', followed by alternate flat foot steps on 2 and 3, mimicking the arm bellows of the Wheel with hands clasped. · For children: 'The Bellows Wheel Challenge': Partners link hands and try to steer together like a ship's wheel for 180 degrees before freezing on the count of 3.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the '&1 2 3' foot rhythm seated by tapping the left heel and toe on '&1', followed by alternate flat foot steps on 2 and 3, mimicking the arm bellows of the Wheel with hands clasped. · For children: 'The Bellows Wheel Challenge': Partners link hands and try to steer together like a ship's wheel for 180 degrees before freezing on the count of 3. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4 / and-1-and-2.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Traveling couple dance moving fluidly across the room rather than staying in a rigid line of dance.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -258,7 +260,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.
+NARRATION: Count: 1-2-3-4 / and-1-and-2. The meter is 4/4.
 NARRATION: Rhythm pattern: Even, un-oscillated four-on-the-floor disco pulse with syncopated phrasing over 3 or 6 counts.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -270,10 +272,10 @@ NEEDS: tempo
 NARRATION: Step 1: Rotate 180 degrees counterclockwise between counts 1 and 2 after the rock-step for a Left Turn
 NARRATION: Step 2: Execute the Wheel by maintaining a double hand-hold and pumping arms like a bellows while revolving 180 degrees clockwise
 NARRATION: Drill: Double hand-hold bellows arm pump drill while executing a 180-degree clockwise unit rotation.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4 / and-1-and-2 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Left Turn: 180-degree counterclockwise rotation taken between counts 1 and 2, followed by a rock-step.
@@ -283,7 +285,7 @@ NARRATION: Drill: Follower 360-degree counterclockwise Inside Turn drill under l
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3-4 then 5-6-7-8 (eight counts, two bars) · repetitions: 3
+COUNTS: 1-2-3-4 / and-1-and-2 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -296,13 +298,14 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: Avoid rocking back on the heels during the rock-step; avoid jerky or over-accentuated hip hits on counts 2 and 3; avoid dancing with swing-style delayed bounce.
+NARRATION: Teachers of this dance warn against: putting all weight on the rock step
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the '&1 2 3' foot rhythm seated by tapping the left heel and toe on '&1', followed by alternate flat foot steps on 2 and 3, mimicking the arm bellows of the Wheel with hands clasped. · For children: 'The Bellows Wheel Challenge': Partners link hands and try to steer together like a ship's wheel for 180 degrees before freezing on the count of 3.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the '&1 2 3' foot rhythm seated by tapping the left heel and toe on '&1', followed by alternate flat foot steps on 2 and 3, mimicking the arm bellows of the Wheel with hands clasped. · For children: 'The Bellows Wheel Challenge': Partners link hands and try to steer together like a ship's wheel for 180 degrees before freezing on the count of 3. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).
+NARRATION: Count-in: 1-2-3-4 / and-1-and-2.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Traveling couple dance moving fluidly across the room rather than staying in a rigid line of dance.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -331,7 +334,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Hustle was historically danced in social and urban settings including South Bronx basements, hooky gigs, house parties, church recreation centers such as St. Mary's Recreation Center, and discotheques like New York City's Adam's Apple and club '310 1/2'. Instructional vinyl releases like 'New York Hustle Incorporated' featured period disco attire and instructional photos to guide home learners. Television shows like Marty Angelo's 'Disco Step-by-Step' brought nightclub dress into living rooms, while Saturday Night Fever broadcast club-based disco styling internationally.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'frCnHr1CmDg', 'checked_by_vision_model': False, 'title': 'The Hustle / VAN McCOY / Dance / Perfume'}
 Images: 1 licensed — Heinrich Klaffs / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0)
 Footage: File:2025-3-17 Engine AI plays Axe Gang Dance.webm — https://upload.wikimedia.org/wikipedia/commons/c/cf/2025-3-17_Engine_AI_plays_Axe_Gang_Dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Disney Sing Along Songs: Disneyland Fun (2002 Print) — https://archive.org/details/DisneylandFun2002; Kung Fu Hustle [DVD] [Thai] [Region 3] — https://archive.org/details/kung-fu-hustle
 Motifs: St. Mary's Recreation Center gymnasium filled with teenagers in 1974., The glowing dance floor and spinning mirror ball of 1970s New York discotheques., Close-up of pumping forearm grips executing 'The Wheel'., Vintage CRT television playing 1975 episodes of 'Disco Step-by-Step'.
@@ -341,9 +344,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the street-urban family studied · videos studied: 18
-Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4 / and-1-and-2
+Demonstration: views used by most teachers: front; tempo progression: slow → full
+Cues: rock step on 1-2; palm to the sky; open the newspaper
+Common mistakes the studied teachers name: putting all weight on the rock step
 
 Sources (3): https://en.wikipedia.org/wiki/Hustle_(dance); https://www.wikidata.org/wiki/Q2914794; https://es.wikipedia.org/wiki/Hustle_(baile)

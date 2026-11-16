@@ -1,0 +1,154 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Forceful arm pulling during turns"
+        ],
+        "counts": "Simple 1-2 alternating counts.",
+        "duration_minutes": "15",
+        "game_version": "Hand-switch game practicing switching between open-handed and cross-handed holds in rhythm."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Rapid underarm turns",
+          "Abrupt weight transfers"
+        ],
+        "counts": "Counts 1-2-3-4-5-6.",
+        "seated_version": "Execute alternating step-touches while seated, practicing open-handed and cross-handed arm positions at waist height.",
+        "standing_version": "Perform stationary alternating foot steps with supported hand connections and reduced turn velocity.",
+        "tempo_and_range": "Slower tempo, stationary or small step range."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Executing open-handed and cross-handed partner grips at waist height.",
+          "source": "https://en.wikipedia.org/wiki/Cajun_Jitterbug"
+        },
+        {
+          "description": "Applying subtle leg weighting (lead right leg / follower left leg) to facilitate smooth step turns.",
+          "source": "https://en.wikipedia.org/wiki/Cajun_Jitterbug"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "Partner dance with lead and follower in face-to-face open or cross-handed holds.",
+          "source": "https://en.wikipedia.org/wiki/Cajun_Jitterbug"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "Open-handed position (right hand to left, left to right below waist) or cross-handed position (right hands crossed on top, left hands below).",
+      "difficulty": "intermediate",
+      "footwork": "Alternating feet stepping or walking in time to the music; subtle weighting down of lead right leg / follower left leg to free the opposite leg.",
+      "formation_and_space": "Couples dancing face-to-face with underarm turns and open/cross hand transitions.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Low to ground, no jumps described in sources.",
+      "partnering": "Lead and follower connect via open-handed or cross-handed holds.",
+      "posture": "Partners face each other with hands connected slightly below waist level.",
+      "signature_moves": [
+        {
+          "description": "Alternating foot stepping resembling stepping on and off a curb, caused by exaggerated leg weighting.",
+          "name": "Hobble Step"
+        },
+        {
+          "description": "Underarm turn executed from a crossed-hand connection with right hands joined on top.",
+          "name": "Cross-Handed Turn"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Avoid overly rigid arm tension or forcing turns without proper leg weight shifts."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "6-count",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Open-handed or cross-handed hold below waist level",
+        "Alternating stepping in time with the music",
+        "Weighting down lead right leg / follower left leg",
+        "Freeing opposite leg for underarm turns and swings"
+      ],
+      "formation": "Partnering face-to-face in open-handed or cross-handed positions.",
+      "level_notes": "Beginners often display an exaggerated hobble step; instruction focuses on refining weight placement.",
+      "rhythm": "Six-count meter adaptation or continuous alternating stepping in time to the music."
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "a574c369fd30366b2eab8357ac2cf170ee523df74c53d5117ee4b5b19a450a17",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "music_structure: rhythm_pattern, sound_description",
+      "interaction: feedback_rules, prerequisites",
+      "Investigate: What standard musical tempo range in beats per minute defines the two variations of Cajun Jitterbug in social settings? Evidence needed: Field documentation or musical analysis of traditional Cajun swing recordings."
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods"
+    ]
+  },
+  "id": "atlas:cajun-jitterbug",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Cajun Jitterbug",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "43917fda2e62099f",
+      "next_evidence": "Field documentation or musical analysis of traditional Cajun swing recordings.",
+      "question": "What standard musical tempo range in beats per minute defines the two variations of Cajun Jitterbug in social settings?",
+      "source": "https://en.wikipedia.org/wiki/Cajun_Jitterbug",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required to set precise tempo metadata for automated musical accompaniment."
+    }
+  ],
+  "research_file": "research_results/cajun-jitterbug.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "cajun-jitterbug",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cajun_Jitterbug",
+    "https://www.wikidata.org/wiki/Q5018008"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

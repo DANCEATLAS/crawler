@@ -1,8 +1,8 @@
 # Stomp dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-11 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-16 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A respectful tribal elder or designated community leader.
@@ -102,7 +102,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'mSRdqn2U-T8', 'checked_by_vision_model': False, 'title': 'Stomp Dancing'}
+Hero video: {'youtube_id': 'mSRdqn2U-T8', 'checked_by_vision_model': True, 'title': 'Stomp Dancing'}
 Images: 0 licensed
 Footage: American Indian Speaks, The — https://archive.org/details/AmericanIndianSpeaks; Native American Social Dance and Stomp Dance — https://archive.org/details/grfldma-Native_American_Social_Dance_and_Stomp_Dance; The Wiggles: Wiggledancing! Live In Concert [2007] (HD) — https://archive.org/details/wiggledancing-live-in-concert-2007-hd
 Motifs: The central ceremonial fire, Turtle shell leg shakers, The spiral formation of dancers, The Square Ground arbors
@@ -112,9 +112,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
+Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
 Counting: 
-Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (2): https://en.wikipedia.org/wiki/Stomp_dance; https://www.wikidata.org/wiki/Q2183272

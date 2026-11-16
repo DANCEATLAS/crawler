@@ -1,8 +1,8 @@
 # Traditional Square Dance — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.6 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed images (3 needed); what to avoid / common mistakes
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned regional caller who teaches by walking dancers through steps rather than formal lessons.
@@ -306,7 +306,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Events take place in community spaces, local halls, or revival venues. Dancers wear casual attire or dress up slightly, without requiring standardized square-dance-specific costumes.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'ZWuQK0WFE44', 'checked_by_vision_model': False, 'title': 'The Ninepin square dance'}
+Hero video: {'youtube_id': 'ZWuQK0WFE44', 'checked_by_vision_model': True, 'title': 'The Ninepin square dance'}
 Images: 1 licensed — Harrison Keely / Wikimedia Commons / CC BY 4.0 (CC BY 4.0)
 Footage: Alliance for Appalachia blockades Obama's Council on Environmental Quality over MTR coal mining — https://archive.org/details/MTRAppalachiaCD992014540p; Two Lady Around Figures — https://archive.org/details/two-lady-around-figures; Dip & Dive Square — https://archive.org/details/dip-dive-square; The Tunnel Square Dance — https://archive.org/details/the-tunnel-square-dance; Life On An Ocean Wave — https://archive.org/details/life-on-an-ocean-wave; Split The Sides Of The Square — https://archive.org/details/split-the-sides-of-the-square
 Motifs: A fiddler drawing a bow across strings under warm hall lighting, Four couples forming a square on wooden floorboards, A caller speaking into a microphone before a live string band
@@ -316,9 +316,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (3): https://en.wikipedia.org/wiki/Traditional_square_dance; https://www.wikidata.org/wiki/Q2447772; https://de.wikipedia.org/wiki/Traditional_Square_Dance

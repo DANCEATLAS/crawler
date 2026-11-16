@@ -1,8 +1,8 @@
 # Giddha — episode pack
 
-*Status: draft · built 2026-11-15 · judge 8.7 · 11/11 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 8.7 · 11/11 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; signature moves; notable figures; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; signature moves; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Punjabi woman with deep cultural knowledge and storytelling skill
@@ -75,7 +75,7 @@ NEEDS: connections
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Form a circle with other women
 NARRATION: Clap hands rhythmically in unison
-NARRATION: Count it: .
+NARRATION: Count it: 1-2-3-4-5-6-7-8.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -102,7 +102,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4-5-6-7-8.
 NARRATION: Rhythm pattern: Call-and-response boliyan with rhythmic clapping.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -114,9 +114,10 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Form a circle with other women
 NARRATION: Step 2: Clap hands rhythmically in unison
 NARRATION: Drill: Practice standing in a circle
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Step 3: Listen to lead woman reciting boli
@@ -124,6 +125,7 @@ NARRATION: Step 4: Repeat boli in call-and-response
 NARRATION: Drill: Clap steady beats with group
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -135,12 +137,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: locking the knees during double addi
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -169,7 +171,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4-5-6-7-8.
 NARRATION: Rhythm pattern: Call-and-response boliyan with rhythmic clapping.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -180,14 +182,16 @@ NEEDS: tempo, meter
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Move with grace and flexibility within the circle
 NARRATION: Drill: Lead a boli recitation
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Respond to leader with chorus
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -200,12 +204,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: locking the knees during double addi
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancers stand in a circle
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -233,7 +237,7 @@ ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: .
+NARRATION: Count: 1-2-3-4-5-6-7-8.
 NARRATION: Rhythm pattern: Call-and-response boliyan with rhythmic clapping.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
@@ -245,14 +249,16 @@ NEEDS: tempo, meter
 NARRATION: Step 1: Repeat boli in call-and-response
 NARRATION: Step 2: Move with grace and flexibility within the circle
 NARRATION: Drill: Improvise boliyan based on personal stories
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 8
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
 NARRATION: Drill: Incorporate graceful body movements
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
+COUNTS: 1-2-3-4-5-6-7-8 · repetitions: 3
 NEEDS: signature moves
 
 ### 6. Put it together (120 s) · `combine`
@@ -265,12 +271,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: locking the knees during double addi
+ON SCREEN: Side-by-side: source-supported correction
 MUSIC: silence
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: .
+NARRATION: Count-in: 1-2-3-4-5-6-7-8.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Dancers stand in a circle
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -297,7 +303,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Women traditionally wear brightly colored salwar kameez or ghagra, accessorized with folk jewelry. Hair is styled in two braids with folk ornaments and a tikka on the forehead. The dance is performed in social and festive settings, especially weddings.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'U166QxgmCqw', 'checked_by_vision_model': False, 'title': 'Giddha performance for Sangeet night!'}
+Hero video: {'youtube_id': 'U166QxgmCqw', 'checked_by_vision_model': True, 'title': 'Giddha performance for Sangeet night!'}
 Images: 1 licensed — Dr. Manavpreet Kaur / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Punjabi Dance Performance at Cultural Fest, Himachal Pradesh University, Shimla.webm — https://upload.wikimedia.org/wikipedia/commons/1/17/Punjabi_Dance_Performance_at_Cultural_Fest%2C_Himachal_Pradesh_University%2C_Shimla.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; A Dance performance by Bhangra Giddha Group led by Ms. Pushpa Rani — https://archive.org/details/dni.ncaa.ICCR-891-VHS; Performances: Folk Dance and Music of India by Groups from Sangeet Natak Akademi — https://archive.org/details/dni.ncaa.ICCR-866-UM; Performance by Bhangra and Giddha Group (Vol. IV) — https://archive.org/details/dni.ncaa.ICCR-838-UM; Folk Performance by a Group from Ludhiana — https://archive.org/details/dni.ncaa.ICCR-2447-VHS; Folk Performance by Asian Folk Dance Club — https://archive.org/details/dni.ncaa.ICCR-2407-VHS; Performance by Bhangra and Giddha Group (Vol. III) — https://archive.org/details/dni.ncaa.ICCR-837-UM
 Motifs: Brightly colored traditional Punjabi dress, Hands clapping in unison, Braided hair with tikka, Circle formation, Expressive facial expressions during boliyan
@@ -307,9 +313,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
-Counting: 
-Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-4-5-6-7-8
+Demonstration: views used by most teachers: front; tempo progression: slow → full; repetitions per step: about 8
+Cues: say the count before the move; name the body part, then the direction; one correction at a time
+Common mistakes the studied teachers name: locking the knees during double addi
 
 Sources (4): https://en.wikipedia.org/wiki/Giddha; https://www.wikidata.org/wiki/Q985135; https://pt.wikipedia.org/wiki/Giddha; https://de.wikipedia.org/wiki/Giddha

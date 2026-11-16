@@ -1,8 +1,8 @@
 # robot — episode pack
 
-*Status: draft · built 2026-11-14 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable street dance artist with experience in mime and popping, patient and precise in teaching mechanical illusions.
@@ -336,7 +336,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'wt_nbTRzYrk', 'checked_by_vision_model': False, 'title': 'Amazing Robot Dance Battle | Robot Vall'}
+Hero video: {'youtube_id': 'wt_nbTRzYrk', 'checked_by_vision_model': True, 'title': 'Amazing Robot Dance Battle | Robot Vall'}
 Images: 1 licensed — Stefan Bootin / Wikimedia Commons / CC BY-SA 2.5 (CC BY-SA 2.5)
 Footage: File:Robot Monster trailer (1953).webm — https://upload.wikimedia.org/wikipedia/commons/5/5d/Robot_Monster_trailer_%281953%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Waarom hebben we nog steeds geen robot als BFF- - Het LAB -4.webm — https://upload.wikimedia.org/wikipedia/commons/9/96/Waarom_hebben_we_nog_steeds_geen_robot_als_BFF-_-_Het_LAB_-4.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:The Iris Robot of the Bureau of Fire Protection.webm — https://upload.wikimedia.org/wikipedia/commons/d/d0/The_Iris_Robot_of_the_Bureau_of_Fire_Protection.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Window cleaning robot in action seen through window.webm — https://upload.wikimedia.org/wikipedia/commons/3/3d/Window_cleaning_robot_in_action_seen_through_window.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Hand-made robotic arm with Arduino.webm — https://upload.wikimedia.org/wikipedia/commons/9/9c/Hand-made_robotic_arm_with_Arduino.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Will robots outsmart us.webm — https://upload.wikimedia.org/wikipedia/commons/1/17/Will_robots_outsmart_us.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Sony Robot Dances — https://archive.org/details/Sony_Robot_Dances; DTV Pop & Rock PAL.480p — https://archive.org/details/dtv-pop-rock-pal
 Motifs: Mechanical joints, Abrupt stops, Angular arm movements, Retro-futuristic costumes

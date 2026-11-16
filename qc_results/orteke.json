@@ -1,10 +1,10 @@
 {
  "slug": "orteke",
- "qc_at": "2026-11-07T17:28:50Z",
+ "qc_at": "2026-11-16T21:51:21Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "publish",
- "qc_score": 9.85,
+ "qc_score": 9.7,
  "gates": [
   {
    "gate": "has_name",
@@ -14,27 +14,27 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "91"
+   "detail": "80"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "200"
+   "detail": "187"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "In 1935, Kazakh composer Akhmet Zhubanov documented orteke, where a carved goat "
+   "detail": "In 1935, composer Akhmet Kuanovich Zhubanov detailed orteke in Kazachstanskaja p"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "693"
+   "detail": "646"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "3971"
+   "detail": "2864"
   },
   {
    "gate": "sections_filled",
@@ -44,7 +44,7 @@
   {
    "gate": "citations",
    "ok": true,
-   "detail": "11/11 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -91,7 +91,7 @@
   "accuracy": 10,
   "respect": 10,
   "specificity": 10,
-  "teaching_value": 9,
+  "teaching_value": 8,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
@@ -101,19 +101,19 @@
   "adaptations_safe": true,
   "overall": 10,
   "verdict": "publish",
-  "notes": "An exceptionally well-researched and accurate profile. The distinction between the mechanical puppetry and the human dance mimicry is handled with cultural sensitivity and technical clarity."
+  "notes": "An exemplary profile. It accurately synthesizes historical, technical, and cultural data regarding the Orteke tradition. The handling of the sacred/shamanic origins is respectful and contextually appropriate. The distinction between the performer (küyshi) and the puppet mechanics is clear and well-supported by the provided evidence."
  },
  "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "judge_score=9.85",
+  "judge_score=9.7",
   "sacred"
  ],
  "citation": {
-  "claims": 11,
-  "supported": 11,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-11-07T17:01:16Z"
+ "researched_at": "2026-11-16T20:51:28Z"
 }

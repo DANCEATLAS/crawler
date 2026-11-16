@@ -2,7 +2,7 @@
  "slug": "dangdut",
  "name": "dangdut",
  "pack_version": "e2",
- "built_at": "2026-11-15T18:05:17Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-03T18:12:46Z",
  "qc_score": 8.1,
  "status": "draft",
@@ -64,7 +64,7 @@
      "This is dangdut. 20th century."
     ],
     "on_screen": [
-     "Hero video, first 10 seconds (ZFvBPBgJBL4)",
+     "Hero video, first 10 seconds (iXM4jg2MaA0)",
      "Title card: dangdut · Indonesia · 20th century"
     ],
     "music": "theme (30 s)"
@@ -103,7 +103,7 @@
     "duration_s": 75,
     "narration": [],
     "on_screen": [
-     "Hero video full screen, 30–45 s (ZFvBPBgJBL4)",
+     "Hero video full screen, 30–45 s (iXM4jg2MaA0)",
      "Signature moves — MISSING"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
@@ -697,9 +697,9 @@
  },
  "visual_brief": {
   "hero_video": {
-   "youtube_id": "ZFvBPBgJBL4",
-   "checked_by_vision_model": false,
-   "title": "KOPI DANGDUT - VITA ALVIA | DANGDUT | ZUMBA | SENAM KREASI | ZIN IDHO BATAM"
+   "youtube_id": "iXM4jg2MaA0",
+   "checked_by_vision_model": true,
+   "title": "JAYANTI || Senam Kreasi Dangdut by Euis Ababil"
   },
   "wardrobe": {
    "policy": "neutral dress: the sources do not describe the costume yet",
@@ -826,8 +826,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "19 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 19,
+  "source": "24 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 24,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -836,6 +836,9 @@
    "repetitions per step: about 4"
   ],
   "cues": [
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
    "pull back and lean to the left",
    "close in open on and",
    "milk down knees are bent",
@@ -844,18 +847,15 @@
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "get up from the sleep",
-   "take your chest out",
-   "punch it",
-   "jump like a baby"
+   "open your right leg"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "count_in",
-   "full_demo",
    "breakdown",
    "warmup",
+   "full_demo",
    "slow_practice",
    "music_practice",
    "recap"
@@ -865,7 +865,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "the hero video's vision check",
   "posture, arms and hands",
   "the how-it-is-danced section",
   "signature moves",
@@ -882,6 +881,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "8b98899bbf77f218e1882a9bd6cd0d8208e23ac5e03bb78ad27f772372b8e0f7",
- "hero_checked": null
+ "input_fingerprint": "a1f27cec5a188c97177faf9444a5413f16ff7cec926e6caf8c60114f4fe8faaf",
+ "hero_checked": "pass"
 }

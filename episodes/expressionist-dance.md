@@ -1,8 +1,8 @@
 # expressionist dance — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.1 · 9/9 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.1 · 9/9 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed reference footage; the how-it-is-danced section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed reference footage; the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A passionate modern dance teacher with deep knowledge of Ausdruckstanz history and improvisational technique.
@@ -318,7 +318,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '37sEaUhFzpI', 'checked_by_vision_model': False, 'title': 'Mary Wigman - Dancer, Choreographer and Pioneer of Expressionist Dance 3'}
+Hero video: {'youtube_id': '37sEaUhFzpI', 'checked_by_vision_model': True, 'title': 'Mary Wigman - Dancer, Choreographer and Pioneer of Expressionist Dance 3'}
 Images: 4 licensed — Frederick Whitman Glasier / Wikimedia Commons / Public domain (Public domain); UnknownUnknown / Wikimedia Commons / CC BY-SA 3.0 de (CC BY-SA 3.0 de); Schütz, Klaus / Wikimedia Commons / CC BY-SA 3.0 de (CC BY-SA 3.0 de); Josef Anton Trčka / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: bare feet, flowing tunics, dramatic shadows, floor contact, breath visible in movement
@@ -328,9 +328,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the stage-contemporary family studied · videos studied: 3
+Source: 4 tutorial(s) of the stage-contemporary family studied · videos studied: 4
 Counting: count the variable bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest; straightening my legs; bringing my body up; bend both legs
+Cues: keep your feet pointed; use your core; lean your body back; cross over your partner; trade places with one another; cross body lead; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest
 
 Sources (5): https://en.wikipedia.org/wiki/Expressionist_dance; https://www.wikidata.org/wiki/Q778382; https://es.wikipedia.org/wiki/Danza_expresionista; https://fr.wikipedia.org/wiki/Danse_expressionniste; https://de.wikipedia.org/wiki/Ausdruckstanz

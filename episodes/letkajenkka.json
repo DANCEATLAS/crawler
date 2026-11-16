@@ -2,7 +2,7 @@
  "slug": "letkajenkka",
  "name": "Letkajenkka",
  "pack_version": "e2",
- "built_at": "2026-11-15T18:05:17Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-05T17:59:37Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Letkajenkka. 1960s."
     ],
     "on_screen": [
-     "Hero video, first 10 seconds (IDbIYXEsdx0)",
+     "Hero video, first 10 seconds (AZxL4rdeJ44)",
      "Title card: Letkajenkka · Finland · 1960s"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Side Kick, Forward/Backward Jump."
     ],
     "on_screen": [
-     "Hero video full screen, 30–45 s (IDbIYXEsdx0)",
+     "Hero video full screen, 30–45 s (AZxL4rdeJ44)",
      "Captions name each signature move as it appears",
      "Formation: Conga line or circle."
     ],
@@ -722,8 +722,8 @@
  },
  "visual_brief": {
   "hero_video": {
-   "youtube_id": "IDbIYXEsdx0",
-   "checked_by_vision_model": false,
+   "youtube_id": "AZxL4rdeJ44",
+   "checked_by_vision_model": true,
    "title": "Letkajenkka"
   },
   "wardrobe": {
@@ -760,8 +760,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "19 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 19,
+  "source": "24 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 24,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -770,6 +770,9 @@
    "repetitions per step: about 4"
   ],
   "cues": [
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
    "pull back and lean to the left",
    "close in open on and",
    "milk down knees are bent",
@@ -778,18 +781,15 @@
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "get up from the sleep",
-   "take your chest out",
-   "punch it",
-   "jump like a baby"
+   "open your right leg"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "count_in",
-   "full_demo",
    "breakdown",
    "warmup",
+   "full_demo",
    "slow_practice",
    "music_practice",
    "recap"
@@ -799,7 +799,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage"
  ],
@@ -813,6 +812,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "2320e3190fa13f6d6f68ce47aed6c89990f7a3369cf4079d1b1323663539b067",
- "hero_checked": null
+ "input_fingerprint": "806095981434d1e24275aaf373826466e6408215d693d4b561d0fa4e5e50ee0f",
+ "hero_checked": "pass"
 }

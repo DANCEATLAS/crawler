@@ -1,6 +1,6 @@
 # Calinda — episode pack
 
-*Status: draft · built 2026-11-15 · judge 8.85 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 8.85 · 10/10 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section
 
@@ -322,9 +322,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 69 tutorials across the atlas studied · videos studied: 69
+Source: 91 tutorials across the atlas studied · videos studied: 91
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: side close side; rock step; engage your core; hit; out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; right leg out front; jump split your legs; the back foot goes up; lift the left leg up
+Cues: side close side; rock step; engage your core; right left right; hit; 1-2-3-4; lock your arms; out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; let's do this
 
 Sources (6): https://en.wikipedia.org/wiki/Calinda; https://www.wikidata.org/wiki/Q2741465; https://es.wikipedia.org/wiki/Kalenda; https://fr.wikipedia.org/wiki/Calinda; https://pt.wikipedia.org/wiki/Calinda; https://archive.org/details/playsofnegrolife00lock

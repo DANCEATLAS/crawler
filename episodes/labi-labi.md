@@ -1,8 +1,8 @@
 # Labi-labi — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local cultural historian or traditional dancer from Pahang.
@@ -280,7 +280,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'tayism0CExw', 'checked_by_vision_model': False, 'title': 'The Labi-Labi Dance'}
+Hero video: {'youtube_id': 'tayism0CExw', 'checked_by_vision_model': True, 'title': 'The Labi-Labi Dance'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Rivers of Pahang, Soft-shell turtles, Village gatherings
@@ -290,9 +290,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (2): https://en.wikipedia.org/wiki/Labi-labi_(dance); https://www.wikidata.org/wiki/Q7447178

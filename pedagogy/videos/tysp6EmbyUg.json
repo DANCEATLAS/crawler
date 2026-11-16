@@ -5,7 +5,7 @@
  "title": "How to Jerk in 2021 | Dance Tutorial",
  "channel": "Lord Hec",
  "viewer_ratio": 2.5,
- "analysed_at": "2026-11-12T18:54:59Z",
+ "analysed_at": "2026-11-16T22:13:12Z",
  "url": "https://www.youtube.com/watch?v=tysp6EmbyUg",
  "evidence_version": 2,
  "observation_window": {
@@ -15,5 +15,163 @@
   "sampling": "provider default; not continuous motion capture",
   "human_verified": false
  },
- "status": "failed"
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher uses a high-energy, enthusiastic approach with frequent verbal encouragement and sound effects. He breaks down complex movements into simple components before demonstrating them at full speed.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "full_demo",
+    "note": "Teacher performs a high-energy Jerk routine with various steps."
+   },
+   {
+    "t": "0:07",
+    "segment": "intro",
+    "note": "Teacher introduces himself and the goal of the tutorial."
+   },
+   {
+    "t": "0:24",
+    "segment": "breakdown",
+    "note": "Introduction of the three main moves, starting with the Reject."
+   },
+   {
+    "t": "1:06",
+    "segment": "slow_practice",
+    "note": "Practicing the Reject step with counts."
+   },
+   {
+    "t": "4:25",
+    "segment": "breakdown",
+    "note": "Introduction and breakdown of the Pin Drop."
+   },
+   {
+    "t": "7:01",
+    "segment": "breakdown",
+    "note": "Introduction and breakdown of the Sway."
+   }
+  ],
+  "counting_scheme": "5-6-7-8 / and-1-and-2",
+  "cues": [
+   "and-1",
+   "swap",
+   "around town",
+   "spin up",
+   "rock with me"
+  ],
+  "metaphors": [
+   "reverse running man",
+   "clean bean recipe",
+   "around town"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back",
+    "side"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": 4
+  },
+  "common_mistakes": [
+   "leaning forward or diagonal during the pin drop instead of to the side",
+   "landing flat on the foot during the pin drop before building ankle strength"
+  ],
+  "safety": [
+   "Advice to tap the floor for support during the pin drop if ankle strength is not yet developed."
+  ],
+  "steps_taught": [
+   {
+    "name": "The Reject",
+    "counts": "and-1-and-2",
+    "description": "A backward-moving step where one leg kicks back while the other hops forward."
+   },
+   {
+    "name": "The Pin Drop",
+    "counts": "1-2",
+    "description": "A descent to the floor where one leg tucks behind the other knee, followed by a spin back up."
+   },
+   {
+    "name": "The Sway",
+    "counts": "1-2-3-4",
+    "description": "A rhythmic rocking motion involving opening and closing the knees while descending."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear breakdown of weight transfer and foot placement.",
+    "Use of multiple camera angles to show the back and side views of complex moves."
+   ],
+   "what_hinders": [
+    "High-speed transitions between talking and dancing can be distracting.",
+    "Frequent use of slang and sound effects might obscure technical instructions for some learners."
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:24",
+    "text": "There's three moves that you need to learn when learning the jerk."
+   },
+   {
+    "t": "0:41",
+    "text": "This is your and, this is called and, right?"
+   },
+   {
+    "t": "3:39",
+    "text": "Why do I say it looks like a reverse running man?"
+   },
+   {
+    "t": "5:04",
+    "text": "You land on the balls of your feet."
+   },
+   {
+    "t": "7:13",
+    "text": "It's the easiest step, but it's easy to get it wrong."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 32,
+    "end_s": 45,
+    "topic": "teaching",
+    "observation": "Teacher demonstrates the Reject at full speed then breaks it down to the 'and' count.",
+    "viewpoint": "front",
+    "cannot_infer": "exact weight distribution during the hop",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 118,
+    "end_s": 135,
+    "topic": "movement",
+    "observation": "Teacher shows the foot swap transition in the Reject step.",
+    "viewpoint": "front",
+    "cannot_infer": "pressure on the back foot",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 342,
+    "end_s": 358,
+    "topic": "teaching",
+    "observation": "Teacher compares the Reject to the Running Man to illustrate the rhythm.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 435,
+    "end_s": 455,
+    "topic": "movement",
+    "observation": "Teacher demonstrates the leg tuck and side lean for the Pin Drop.",
+    "viewpoint": "front and side",
+    "cannot_infer": "knee strain level",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "The teacher uses a 'reverse running man' comparison to explain the mechanics of the Reject, helping students relate a new move to a familiar one."
+ },
+ "attempts": 2
 }

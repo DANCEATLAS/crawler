@@ -1,8 +1,8 @@
 # Line dance — episode pack
 
-*Status: draft · built 2026-11-13 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; the hero video's vision check; posture, arms and hands; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; posture, arms and hands; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -309,7 +309,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: While historically associated with Western-style clothing and boots, modern participants often wear casual clothing and dance trainers. It is practiced in dance bars, social clubs, and ballrooms.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '9BhPdnxD6Xk', 'checked_by_vision_model': False, 'title': "Kane's Boots - Line Dance (Dance & Teach in English & 中文)"}
+Hero video: {'youtube_id': '9BhPdnxD6Xk', 'checked_by_vision_model': True, 'title': "Kane's Boots - Line Dance (Dance & Teach in English & 中文)"}
 Images: 6 licensed — Tangopaso / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Bernd Hannemann / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); quinn.anya / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Sebastiaan ter Burg from Utrecht, The Netherlands / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); The White House from Washington, DC / Wikimedia Commons / Public domain (Public domain)
 Footage: Line-Dance Videos — https://archive.org/details/Line-danceVideos; Line-Dance Videos — https://archive.org/details/Line-Dance_Videos; CBEEBIES Balamory The Line Dance — https://archive.org/details/cbeebiesbalamorythelinedance; Soul Train (Season 1, Episode 7) — https://archive.org/details/soul-train-season-1-episode-7-partially-full-episode; Soul Train (Season 8, Episode 25) — https://archive.org/details/soul-train-season-8-episode-25; 1992 VHS • Kickin' Country Workout with Denise Austin 60 FPS — https://archive.org/details/TheVistaGroup-KickinCountryWorkoutwithDeniseAustin1992; File:1929-07-13 Irish GP Eireann Cup video.webm — https://upload.wikimedia.org/wikipedia/commons/c/cd/1929-07-13_Irish_GP_Eireann_Cup_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; DeSoto Steppers - Easy to Learn Dance Moves — https://archive.org/details/desotx-DeSoto_Steppers_-_Easy_to_Learn_Dance_Moves
 Motifs: Parallel lines of dancers, Dance trainers, Step sheets
@@ -319,10 +319,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of this dance studied · videos studied: 2
+Source: 3 tutorial(s) of this dance studied · videos studied: 3
 Counting: 1-2-3-4
 Demonstration: views used by most teachers: front, back; tempo progression: slow → full
-Cues: step by step; right left right; one more time slow
+Cues: out in out in; heel heel toe toe; step kick step and touch; right behind right touch; step by step; right left right; one more time slow
 Common mistakes the studied teachers name: people get messed up on section 2 footwork; people get confused on the turn in section 4
 
 Sources (5): https://en.wikipedia.org/wiki/Line_dance; https://www.wikidata.org/wiki/Q912389; https://es.wikipedia.org/wiki/Line_dance; https://fr.wikipedia.org/wiki/Danse_en_ligne; https://de.wikipedia.org/wiki/Line_Dance

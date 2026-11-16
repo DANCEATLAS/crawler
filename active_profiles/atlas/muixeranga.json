@@ -1,13 +1,70 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Arms are often used for balance or to support other performers; the child at the top holds arms open.",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Two rows for the initial dance; dense, circular human tower for the figures.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Multi-level human structures.",
+      "partnering": "High level of physical contact and trust required for building human towers.",
+      "posture": "Upright, stable, and focused.",
+      "signature_moves": [
+        {
+          "description": "Building a multi-level human structure to form a symbolic shape.",
+          "name": "Tower construction"
+        }
+      ],
+      "tempo_feel": "Steady and deliberate.",
+      "what_to_avoid": "Not described in sources, but requires professional training to avoid injury."
+    },
+    "music_profile": {
+      "instruments": [
+        "tabalet (drum)",
+        "dolçaina (shawm)"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "solemn",
+        "festive",
+        "rhythmic"
+      ],
+      "musical_form": "Traditional, ancient folk melody.",
+      "reference_recordings": [
+        {
+          "artist": "Xavier Richart",
+          "title": "Muixeranga music"
+        }
+      ],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is defined by the piercing, high-pitched, and loud sound of the dolçaina, supported by the steady, rhythmic beat of the tabalet drum.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Processional dance in two rows",
+        "Formation of the base (pinya)",
+        "Ascent of the tower levels",
+        "Crowning of the tower by the child"
+      ],
+      "formation": "Two rows for the initial dance, transitioning into a dense circular base for the tower.",
+      "level_notes": "Requires significant physical strength, balance, and coordination; training is conducted under a master.",
+      "rhythm": "Traditional, rhythmic pulse set by the tabalet and dolçaina."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "f79b82ca10c1a890b4bee7241f8fede49f45b6b45b771f8e8b62d3cdc592b4a2",
+  "fingerprint": "69971e057f6c0da88ab5f645028e9bd2185fc6cdefc59a3e6650d68b5ec46043",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +72,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork, what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific technical footwork sequences used during the initial processional dance? Evidence needed: Technical manuals from the 'Associació del ritual de La Muixeranga d’Algemesí'."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,7 +102,18 @@
   ],
   "music_options": [],
   "name": "Muixeranga",
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "9c42a97a948c512b",
+      "next_evidence": "Technical manuals from the 'Associació del ritual de La Muixeranga d’Algemesí'.",
+      "question": "What are the specific technical footwork sequences used during the initial processional dance?",
+      "source": "https://en.wikipedia.org/wiki/Muixeranga",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate instructional material for the 'how_it_is_danced' section."
+    }
+  ],
+  "research_file": "research_results/muixeranga.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +125,12 @@
   "slug": "muixeranga",
   "sources": [
     "https://en.wikipedia.org/wiki/Muixeranga",
-    "Source: Muixeranga on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Muixeranga"
+    "https://www.wikidata.org/wiki/Q619696",
+    "https://es.wikipedia.org/wiki/Muixeranga",
+    "https://fr.wikipedia.org/wiki/Muixeranga",
+    "https://de.wikipedia.org/wiki/Muixeranga",
+    "https://it.wikipedia.org/wiki/Muixeranga"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

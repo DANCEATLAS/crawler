@@ -1,0 +1,881 @@
+{
+ "slug": "dinka-dance",
+ "name": "Dinka jumping dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-16T22:22:18Z",
+ "researched_at": "2026-11-16T21:00:35Z",
+ "qc_score": 9.25,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "A community elder or a respected lead dancer who emphasizes precision and respect for tradition.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Dinka jumping dance",
+   "Dinka courtship dance",
+   "Jieng dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Dinka jumping dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "The Leaps of the Nile",
+     "This is Dinka jumping dance. Traditional; ongoing."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Dinka jumping dance · South Sudan · Traditional; ongoing"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Dinka are Nilotic peoples who have inhabited the Nile basin for centuries, maintaining an agro-pastoral lifestyle.",
+     "Their music and dance traditions are part of a broader Nilotic complex shared with the Nuer and Maasai, characterized by a focus on cattle-related symbolism and physical endurance.",
+     "Historically, these dances have served to celebrate warriors returning from conflict, mark the passage of age sets, and facilitate courtship in a society where cattle are the primary dowry."
+    ],
+    "on_screen": [
+     "Map: South Sudan · East Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The dance is performed for rites of passage, marriage, and funerals.",
+     "It serves to 'inculcate social patterns and values' and reinforce community structures such as kinship and age status.",
+     "In a courtship context, the jumping acts as a competitive display of a man's vitality.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The dance is characterized by high vertical leaps performed by men and circular movement by women.",
+     "Men jump from a stationary or slightly rhythmic standing position, aiming for maximum height while keeping the torso relatively stable.",
+     "Women often move in a circle around the jumpers or in a separate line, raising their arms to mimic cattle horns.",
+     "Watch for The Horn Gesture, The Vertical Leap."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Participatory circle or open communal gathering space."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Dinka music is primarily pentatonic and features prominent polyrhythms.",
+     "While the sources note that many Sudanese traditions use percussion and singing, the Dinka specifically utilize group chants and rhythmic clapping.",
+     "Listen for the Drums, Human voice (chanting), Handclapping.",
+     "The pulse is Polyrhythmic.",
+     "A dense layer of polyrhythmic drumming and handclaps supporting a pentatonic vocal melody. The sound is communal and driving, lacking the complex string harmonies of West Africa but emphasizing rhythmic entrainment."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: Simultaneous beats of percussion and polyrhythmic singing."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dances take place in open communal spaces within Dinka settlements in the Bahr el Ghazal and Upper Nile regions.",
+     "While specific modern attire varies, traditional contexts involve the use of beads and skins.",
+     "The setting is often outdoors, integrated into the daily environment of the cattle camps or villages."
+    ],
+    "on_screen": [
+     "Image gallery: 8 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "The sources do not name individual Dinka dancers, but note that 'master dancers and drummers' are responsible for teaching the youth to perform the movements exactly as passed down through generations.",
+     "The Dinka are spread across several regions including Jonglei and southern Kordufan; while the core jumping mechanic is consistent, local linguistic communities (among the 133 in Sudan) may introduce specific song variations or rhythmic nuances.",
+     "The dance belongs to the Nilotic family of traditions, sharing traits with the Nuer and Maasai."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Dinka jumping dance is sibling of Adumu: The Maasai jumping dance shares the Nilotic emphasis on verticality and warrior prowess.",
+     "Dinka jumping dance is variant of Dudu: A Luo dance used during beer parties, sharing the functional Nilotic roots."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand with feet hip-width apart, weight on the balls of the feet.",
+     "Raise arms above the head, curving them inward to mimic bull horns.",
+     "Count it: count the Polyrhythmic bar out loud, then in pairs of bars.",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "In the heart of South Sudan, Dinka youth transform the grace of their sacred cattle into a gravity-defying display of strength and courtship.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the cattle-horn posture and basic pulse.",
+   "level": "Foundation",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the cattle-horn posture and basic pulse..",
+      "Level: Foundation. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A community elder or a respected lead dancer who emphasizes precision and respect for tradition."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Erect, straight-backed during the leap; arms held high in a curved 'horn' shape.",
+      "Arms raised above the head, curved inward to mimic cattle horns.",
+      "Stable torso to facilitate vertical height."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Polyrhythmic bar out loud, then in pairs of bars. The meter is Polyrhythmic.",
+      "Rhythm pattern: Simultaneous beats of percussion and polyrhythmic singing..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand with feet hip-width apart, weight on the balls of the feet.",
+      "Step 2: Raise arms above the head, curving them inward to mimic bull horns.",
+      "Footwork from the sources: Vertical jumping from the balls of the feet; rhythmic stepping in circular formations.",
+      "Drill: Static arm hold in 'horn' shape for 2 minutes."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Polyrhythmic bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Engage the core and perform a vertical leap, extending the legs fully.",
+      "Step 4: Land softly on the balls of the feet and immediately prepare for the next pulse.",
+      "Drill: Rhythmic weight shifting to a pentatonic beat."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Polyrhythmic bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Synchronized handclapping in 4/4 against a 3/4 pulse."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid improvisation before mastering the traditional form; respect the gender-segregated roles of the specific performance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the 'horn' arm gestures and rhythmic handclapping while seated. · For children: A 'follow the leader' jumping game where children mimic the height of the leader."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 'horn' arm gestures and rhythmic handclapping while seated.",
+      "For children: A 'follow the leader' jumping game where children mimic the height of the leader."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Polyrhythmic bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the cattle-horn posture and basic pulse..",
+      "The dance is performed for rites of passage, marriage, and funerals.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Develop the calf strength for the Nilotic leap.",
+   "level": "The Pulse",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Develop the calf strength for the Nilotic leap..",
+      "Level: The Pulse. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A community elder or a respected lead dancer who emphasizes precision and respect for tradition."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Erect, straight-backed during the leap; arms held high in a curved 'horn' shape.",
+      "Arms raised above the head, curved inward to mimic cattle horns.",
+      "Stable torso to facilitate vertical height."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Polyrhythmic bar out loud, then in pairs of bars. The meter is Polyrhythmic.",
+      "Rhythm pattern: Simultaneous beats of percussion and polyrhythmic singing..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Join the communal circle, moving rhythmically to the pentatonic chant.",
+      "Drill: Repeated small bounces on the balls of the feet."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Polyrhythmic bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Horn Gesture: Raising both arms above the head and curving them to represent the horns of a bull.",
+      "The Vertical Leap: A high jump performed from a standing start to demonstrate physical strength.",
+      "Drill: Low-impact jumps maintaining a straight spine."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Polyrhythmic bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Coordinating the 'horn' arms with a rhythmic step-touch."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid improvisation before mastering the traditional form; respect the gender-segregated roles of the specific performance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the 'horn' arm gestures and rhythmic handclapping while seated. · For children: A 'follow the leader' jumping game where children mimic the height of the leader."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 'horn' arm gestures and rhythmic handclapping while seated.",
+      "For children: A 'follow the leader' jumping game where children mimic the height of the leader."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Polyrhythmic bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Participatory circle or open communal gathering space."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Develop the calf strength for the Nilotic leap..",
+      "The sources do not name individual Dinka dancers, but note that 'master dancers and drummers' are responsible for teaching the youth to perform the movements exactly as passed down through generations.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Execute the full vertical leap within the circle.",
+   "level": "The Display",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Execute the full vertical leap within the circle..",
+      "Level: The Display. Difficulty of the dance overall: intermediate.",
+      "Your instructor: A community elder or a respected lead dancer who emphasizes precision and respect for tradition."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Erect, straight-backed during the leap; arms held high in a curved 'horn' shape.",
+      "Arms raised above the head, curved inward to mimic cattle horns.",
+      "Stable torso to facilitate vertical height."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: count the Polyrhythmic bar out loud, then in pairs of bars. The meter is Polyrhythmic.",
+      "Rhythm pattern: Simultaneous beats of percussion and polyrhythmic singing..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Land softly on the balls of the feet and immediately prepare for the next pulse.",
+      "Step 2: Join the communal circle, moving rhythmically to the pentatonic chant.",
+      "Drill: Maximum height vertical jumps from a standing start."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Polyrhythmic bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "The Horn Gesture: Raising both arms above the head and curving them to represent the horns of a bull.",
+      "The Vertical Leap: A high jump performed from a standing start to demonstrate physical strength.",
+      "Drill: Jumping in sequence with other dancers."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "count the Polyrhythmic bar out loud, then in pairs of bars",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right.",
+      "Drill: Maintaining the 'horn' gesture at the apex of the jump."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid improvisation before mastering the traditional form; respect the gender-segregated roles of the specific performance."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the 'horn' arm gestures and rhythmic handclapping while seated. · For children: A 'follow the leader' jumping game where children mimic the height of the leader."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 'horn' arm gestures and rhythmic handclapping while seated.",
+      "For children: A 'follow the leader' jumping game where children mimic the height of the leader."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: count the Polyrhythmic bar out loud, then in pairs of bars.",
+      "Full tempo, the whole sequence, twice. Formation: Participatory circle or open communal gathering space."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Execute the full vertical leap within the circle..",
+      "The dance belongs to the Nilotic family of traditions, sharing traits with the Nuer and Maasai.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "Polyrhythmic",
+  "rhythm_pattern": "Simultaneous beats of percussion and polyrhythmic singing.",
+  "instruments": [
+   "Drums",
+   "Human voice (chanting)",
+   "Handclapping"
+  ],
+  "vocal_style": "Pentatonic, group chants, sometimes solo melismatic singing in related Sahelian-influenced styles.",
+  "musical_form": "Functional and repetitive, designed for endurance.",
+  "mood": [
+   "energetic",
+   "communal",
+   "praising",
+   "rhythmic"
+  ],
+  "sound_description": "A dense layer of polyrhythmic drumming and handclaps supporting a pentatonic vocal melody. The sound is communal and driving, lacking the complex string harmonies of West Africa but emphasizing rhythmic entrainment.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Dinka jumping dance (South Sudan). Meter Polyrhythmic. Rhythm pattern: Simultaneous beats of percussion and polyrhythmic singing.. Instruments: Drums, Human voice (chanting), Handclapping. Vocal style: Pentatonic, group chants, sometimes solo melismatic singing in related Sahelian-influenced styles.. Form: Functional and repetitive, designed for endurance.. Mood: energetic, communal, praising, rhythmic. It should sound like this: A dense layer of polyrhythmic drumming and handclaps supporting a pentatonic vocal melody. The sound is communal and driving, lacking the complex string harmonies of West Africa but emphasizing rhythmic entrainment. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dances take place in open communal spaces within Dinka settlements in the Bahr el Ghazal and Upper Nile regions. While specific modern attire varies, traditional contexts involve the use of beads and skins. The setting is often outdoors, integrated into the daily environment of the cattle camps or villages.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AKora_%28African_lute_instrument%29.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e_diola_Boucotte2.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AAfrican_Pygmies_%28labeled%29.png"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Kora_%28African_lute_instrument%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/65/Kora_%28African_lute_instrument%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Steve Evans / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKora_%28African_lute_instrument%29.jpg",
+    "description": "A kora; a harp-lute used by Mandingo peoples in West Africa."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Mus%C3%A9e_diola_Boucotte2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Mus%C3%A9e_diola_Boucotte2.jpg/1280px-Mus%C3%A9e_diola_Boucotte2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Olivier Epron Olivierkeita / Wikimedia Commons / CC BY 3.0",
+    "license": "CC BY 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AMus%C3%A9e_diola_Boucotte2.jpg",
+    "description": "Guide du musée en plein air consacré à la culture des Diolas à Boucotte en Casamance (Sénégal) jouant de l’écontine, instrument de musique traditionnel"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/African_Pygmies_%28labeled%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/27/African_Pygmies_%28labeled%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Denis Jacquerye Moyogo, text added by KwamiKagami / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAfrican_Pygmies_%28labeled%29.png",
+    "description": "maps of distribution of African Pygmies (labeled)"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Africa_ethnic_groups_1996.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Africa_ethnic_groups_1996.jpg/1280px-Africa_ethnic_groups_1996.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "United States. Central Intelligence Agency. / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AAfrica_ethnic_groups_1996.jpg",
+    "description": "Ethnolinguistic groups of Africa, 1996 publication by the Library of Congress Geography and Map Division.\nFrom the map legend:\n\nNOTE: Principal source: Africa, its peoples and their cultural history, G.P. Murdock, 1959.\nTribal or ethnic names may vary, depending on source\nOnly large ethnolinguistic areas of intrusiveness are shown\nEthnolinguistic boundaries are generalized\nSparsely populated or un"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Kora_boy_gambia_apr2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Kora_boy_gambia_apr2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Kotoviski photographed by Henryk Kotowski / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKora_boy_gambia_apr2006.jpg",
+    "description": "A local boy with an improptu cora instrument. Photographed near Banjul in The Gambia."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Balafon_children_burkina_faso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Balafon_children_burkina_faso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Kotoviski photograph by Henryk Kotowski / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABalafon_children_burkina_faso.jpg",
+    "description": "Children from Burkina Faso perform during the 5th Cross Culture Festival in Warszawa, Poland"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/The_native_African_dance_at_Dakawa%2CMorogoro%2CTanzania.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/The_native_African_dance_at_Dakawa%2CMorogoro%2CTanzania.JPG/1280px-The_native_African_dance_at_Dakawa%2CMorogoro%2CTanzania.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Chen Hualin / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AThe_native_African_dance_at_Dakawa%2CMorogoro%2CTanzania.JPG",
+    "description": "The native African dance at Dakawa,Morogoro,Tanzania.This photo has been taken by Mr.Chen Hualin."
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Orchestra_impa-abmpix-17288.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Orchestra_impa-abmpix-17288.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOrchestra_impa-abmpix-17288.jpeg",
+    "description": ""
+   }
+  ],
+  "footage": [],
+  "motifs": [
+   "The silhouette of curved arms against the sky.",
+   "Dust rising from the feet of the jumpers.",
+   "The long horns of Dinka cattle mirroring the dancers' arms."
+  ],
+  "costume_notes": "Dances take place in open communal spaces within Dinka settlements in the Bahr el Ghazal and Upper Nile regions. While specific modern attire varies, traditional contexts involve the use of beads and skins. The setting is often outdoors, integrated into the daily environment of the cattle camps or villages.",
+  "setting_notes": "The dance is performed for rites of passage, marriage, and funerals. It serves to 'inculcate social patterns and values' and reinforce community structures such as kinship and age status. In a courtship context, the jumping acts as a competitive display of a man's vitality. It is also used to 'praise or criticize members of the community' and to 'recite history, proverbs and poetry.'",
+  "map": {
+   "country": "South Sudan",
+   "region": "East Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "24 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 24,
+  "counting": "count the Polyrhythmic bar out loud, then in pairs of bars",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, back, side",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
+   "pull back and lean to the left",
+   "close in open on and",
+   "milk down knees are bent",
+   "cross with our left leg",
+   "rock step",
+   "side close side",
+   "triple step",
+   "rock step triple step triple step",
+   "open your right leg"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "count_in",
+   "breakdown",
+   "warmup",
+   "full_demo",
+   "slow_practice",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Sub-Saharan_African_music_traditions",
+  "https://www.wikidata.org/wiki/Q7630590"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "3c2cba572aa8a6768c7842d8176e9aa4663a8e1cd06733e16335bcd264138543",
+ "hero_checked": null
+}

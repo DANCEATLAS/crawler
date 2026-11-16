@@ -1,8 +1,8 @@
 # logobi — episode pack
 
-*Status: draft · built 2026-11-14 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic, street-style dancer with knowledge of Ivorian urban history.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dance of the Big Arms: Abidjan's Street Rebellion
 NARRATION: This is logobi. 1980s to present.
-ON SCREEN: Hero video, first 10 seconds (xU8SgMIoD0Y)
+ON SCREEN: Hero video, first 10 seconds (R_zJ87Y1osE)
 ON SCREEN: Title card: logobi · Ivory Coast · 1980s to present
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The dance is characterized by rapid, expressive arm movements and jer
 NARRATION: It incorporates mimes of street combat and martial arts.
 NARRATION: The style relies heavily on individual improvisation and high-energy execution.
 NARRATION: Watch for Combat mimes.
-ON SCREEN: Hero video full screen, 30–45 s (xU8SgMIoD0Y)
+ON SCREEN: Hero video full screen, 30–45 s (R_zJ87Y1osE)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Improvisational; performed in streets, stations, and public spaces
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -310,7 +310,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historically performed in the ghettos and maquis of Abidjan, the dance moved to public spaces in France, including metro stations, train stations, and shopping malls, where it was performed in street battles.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'xU8SgMIoD0Y', 'checked_by_vision_model': False, 'title': 'BATTLE DE LOGOBI avec KingChris (édition rentrée)'}
+Hero video: {'youtube_id': 'R_zJ87Y1osE', 'checked_by_vision_model': True, 'title': 'LOGOBI GT DANSE 2'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Urban Abidjan street scenes, Fast-cut editing to match the high tempo, Close-ups on hand gestures
@@ -320,9 +320,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the street-urban family studied · videos studied: 18
+Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
 Counting: 
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
 
 Sources (3): https://en.wikipedia.org/wiki/Logobi; https://www.wikidata.org/wiki/Q373982; https://fr.wikipedia.org/wiki/Logobi

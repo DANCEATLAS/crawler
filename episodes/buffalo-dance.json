@@ -1,0 +1,410 @@
+{
+ "slug": "buffalo-dance",
+ "name": "Buffalo dance",
+ "pack_version": "e2",
+ "built_at": "2026-11-16T22:22:18Z",
+ "researched_at": "2026-11-16T19:56:28Z",
+ "qc_score": 10.0,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "Documentary narrator presenting historical and ethnographic records with profound cultural respect.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Buffalo dance",
+   "Bison Dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Buffalo dance",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Spirit of the Bison: The Sacred Buffalo Dance of the Plains",
+     "This is Buffalo dance. Traditional / Historical."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Buffalo dance · United States · Traditional / Historical"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Buffalo Dance traditionally coincided with the annual return of the buffalo herds among Plains Native groups including the Mandan, Sioux, Cheyenne, Pawnee, and Omaha.",
+     "The bison was central to Plains Native society, making the dance vital for securing food, resources, and community survival.",
+     "In 1894, a 16-second silent film recorded people performing the dance, making it one of the earliest films featuring Native Americans."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "The ceremony coincided with the return of buffalo herds, incorporating feasts and spiritual requests for abundance.",
+     "It also functioned as a section of larger ceremonies like the Sun Dance or as a curing dance calling on the spirit of the buffalo for healing.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: File:1894 Sioux Buffalo Dance anagoria.webm (https://upload.wikimedia.org/wikipedia/commons/3/3b/1894_Sioux_Buffalo_Dance_anagoria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Signature moves — MISSING",
+     "Formation: Performed inside a large earth lodge facing an east-facing opening, centered around an altar displaying a painted buffalo skull."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced",
+     "signature_moves"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music consists of ceremonial songs led by singers who inherited the right to perform them, such as Wicita Blain of the Skidi Band of Pawnee.",
+     "Recorded songs include ancient compositions in minor tonality describing historical tribal events involving buffalo herds.",
+     "Listen for the voice.",
+     "Historical Pawnee recordings feature inherited ceremonial songs in a minor tonality led by a lead singer positioned near a sacred altar inside an earth lodge."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Participants traditionally wore buffalo and other animal skins.",
+     "Among the Chaui Band of Pawnee, the dance took place inside a large earth lodge facing east, with a painted buffalo skull resting on a folded blanket in front of an altar opposite the entrance."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Historical figures associated with Pawnee ceremonial performances include Wicita Blain (a blind singer of the Skidi Band who inherited Buffalo dance songs), Mrs. Effie Blain, John Luwak (chief of the Chaui Band), and Stacy Matlock (who managed the Painting the Buffalo Skull ceremony).",
+     "The dance was practiced with distinct societal rules across multiple Plains tribes, including the Mandan, Sioux, Cheyenne, Pawnee (Chaui and Skidi bands), and Omaha.",
+     "The songs and ceremonial rights of the Buffalo Dance were passed down through inheritance within specific tribal societies, such as the Buffalo Society of the Pawnee."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Buffalo dance is variant of Sun Dance: The Buffalo Dance can form a section within larger Plains Native ceremonies such as the Sun Dance.",
+     "Buffalo dance is sibling of Lance Dance: Performed alongside the Buffalo Dance as part of Pawnee lodge ceremonies."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "The Buffalo Dance is a sacred ritual with spiritual and curing functions; ceremonial details and song rights are restricted to authorized members of tribal societies."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Explore the history, sacred songs, and vital cultural heritage of the Plains Native Buffalo Dance ceremony.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [
+   "voice"
+  ],
+  "vocal_style": "Spiritual ceremonial singing, minor tonality in recorded Pawnee examples.",
+  "musical_form": "Inherited ceremonial song cycle.",
+  "mood": [
+   "sacred",
+   "solemn",
+   "reverent"
+  ],
+  "sound_description": "Historical Pawnee recordings feature inherited ceremonial songs in a minor tonality led by a lead singer positioned near a sacred altar inside an earth lodge.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Buffalo dance (United States). Instruments: voice. Vocal style: Spiritual ceremonial singing, minor tonality in recorded Pawnee examples.. Form: Inherited ceremonial song cycle.. Mood: sacred, solemn, reverent. It should sound like this: Historical Pawnee recordings feature inherited ceremonial songs in a minor tonality led by a lead singer positioned near a sacred altar inside an earth lodge. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Participants traditionally wore buffalo and other animal skins. Among the Chaui Band of Pawnee, the dance took place inside a large earth lodge facing east, with a painted buffalo skull resting on a folded blanket in front of an altar opposite the entrance.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AKarl_Bodmer_Travels_in_America_%2851%29.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Karl_Bodmer_Travels_in_America_%2851%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Karl_Bodmer_Travels_in_America_%2851%29.jpg/1280px-Karl_Bodmer_Travels_in_America_%2851%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Karl Bodmer / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AKarl_Bodmer_Travels_in_America_%2851%29.jpg",
+    "description": "Aquatint by Karl Bodmer (1809 - 1893)"
+   }
+  ],
+  "footage": [
+   {
+    "title": "File:1894 Sioux Buffalo Dance anagoria.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/1894_Sioux_Buffalo_Dance_anagoria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Thomas A. Edison, Inc. ; producer, W.K.L. Dickson / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Zuni and Hopi Buffalo Dance Group 2.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Zuni_and_Hopi_Buffalo_Dance_Group_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "CC BY 3.0",
+    "attribution": "Bowannie Kaden / Wikimedia Commons / CC BY 3.0"
+   },
+   {
+    "title": "File:Buffalo Dance (1894).webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Buffalo_Dance_%281894%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "William Kennedy Dickson / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "File:Buffalo Dance (1894) Best quality.webm",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Buffalo_Dance_%281894%29_Best_quality.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "year": null,
+    "license": "Public domain",
+    "attribution": "Directed by William Kennedy Dickson / Wikimedia Commons / Public domain"
+   },
+   {
+    "title": "Buffalo Dance (Standard 4:3)",
+    "url": "https://archive.org/details/SF126",
+    "year": 1894,
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Buffalo Dance",
+    "url": "https://archive.org/details/buffalo_dance_1894",
+    "year": 1894,
+    "license": "http://creativecommons.org/licenses/publicdomain/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "More Treasures from American Film Archives (1894-1931) \"Program 1\"",
+    "url": "https://archive.org/details/more-treasures-program-1",
+    "year": 2004,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Painted buffalo skull on a folded blanket near the lodge altar.",
+   "East-facing entrance of a traditional Pawnee earth lodge.",
+   "Traditional buffalo and animal skin ceremonial attire."
+  ],
+  "costume_notes": "Participants traditionally wore buffalo and other animal skins. Among the Chaui Band of Pawnee, the dance took place inside a large earth lodge facing east, with a painted buffalo skull resting on a folded blanket in front of an altar opposite the entrance.",
+  "setting_notes": "The ceremony coincided with the return of buffalo herds, incorporating feasts and spiritual requests for abundance. It also functioned as a section of larger ceremonies like the Sun Dance or as a curing dance calling on the spirit of the buffalo for healing.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "3 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 3,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, mirror, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "let's do this",
+   "praise freestyle",
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "full_demo",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "the how-it-is-danced section",
+  "signature moves"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Buffalo_dance",
+  "https://www.wikidata.org/wiki/Q4985916",
+  "https://archive.org/details/pawneemusic00dens_0"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "306c8f4e5525b1203b7044af4422da858d4ce82e63452caf6fa571904d93c178",
+ "hero_checked": null
+}

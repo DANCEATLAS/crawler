@@ -1,6 +1,6 @@
 # Larakaraka — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.3 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.3 · 7/7 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed reference footage; posture, arms and hands; notable figures; what to avoid / common mistakes
 
@@ -297,9 +297,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (3): https://en.wikipedia.org/wiki/Larakaraka; https://www.wikidata.org/wiki/Q124241594; https://fr.wikipedia.org/wiki/Larakaraka

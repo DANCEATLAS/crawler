@@ -2,7 +2,7 @@
  "slug": "waka-waka",
  "name": "Waka Waka",
  "pack_version": "e2",
- "built_at": "2026-11-15T18:05:17Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-14T16:22:18Z",
  "qc_score": 9.7,
  "status": "draft",
@@ -328,6 +328,7 @@
      "duration_s": 60,
      "narration": [
       "disrespecting the satirical nature damaging heavy skirts unsafe jumps",
+      "Teachers of this dance warn against: separating the arms and waist",
       "Teachers of this dance warn against: not taking the chest out",
       "Teachers of this dance warn against: not transferring the body weight correctly"
      ],
@@ -479,6 +480,7 @@
      "duration_s": 60,
      "narration": [
       "disrespecting the satirical nature damaging heavy skirts unsafe jumps",
+      "Teachers of this dance warn against: separating the arms and waist",
       "Teachers of this dance warn against: not taking the chest out",
       "Teachers of this dance warn against: not transferring the body weight correctly"
      ],
@@ -630,6 +632,7 @@
      "duration_s": 60,
      "narration": [
       "disrespecting the satirical nature damaging heavy skirts unsafe jumps",
+      "Teachers of this dance warn against: separating the arms and waist",
       "Teachers of this dance warn against: not taking the chest out",
       "Teachers of this dance warn against: not transferring the body weight correctly"
      ],
@@ -795,16 +798,22 @@
   ]
  },
  "teaching_formula": {
-  "source": "1 tutorial(s) of this dance studied",
-  "videos_studied": 1,
+  "source": "2 tutorial(s) of this dance studied",
+  "videos_studied": 2,
   "counting": "5-6-7-8",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front, mirror",
+   "views used by most teachers: front, side, mirror",
    "tempo progression: slow → half → full",
    "repetitions per step: about 2"
   ],
   "cues": [
+   "step up",
+   "step back",
+   "tiny steps in your spot",
+   "hands placed here",
+   "chest pushes up",
+   "hit your hands out",
    "get up from the sleep",
    "take your chest out",
    "punch it",
@@ -812,6 +821,7 @@
    "switch your body weight"
   ],
   "common_mistakes": [
+   "separating the arms and waist",
    "not taking the chest out",
    "not transferring the body weight correctly"
   ],
@@ -819,10 +829,16 @@
    "intro",
    "slow_practice",
    "breakdown",
+   "layering",
    "music_practice",
    "recap"
   ],
   "steps_as_taught": [
+   {
+    "name": "Waka Waka chorus",
+    "counts": "1-2-3-4-5-6-7-8",
+    "description": "A sequence involving specific footwork, arm movements, and chest pushes."
+   },
    {
     "name": "Getting up from sleep",
     "counts": "5-6-7-8",
@@ -872,6 +888,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "359b84cefef6556f727611e017110da2055ebfca9aa976b711a0ef2355d181fa",
+ "input_fingerprint": "c5322a450df1106323e277c4e5cca192af0d6e9df4a423ee9beff2b4260b371c",
  "hero_checked": null
 }

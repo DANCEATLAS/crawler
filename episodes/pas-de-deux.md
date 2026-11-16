@@ -1,8 +1,8 @@
 # pas de deux — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Classical ballet historian or principal dancer
@@ -302,7 +302,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'qy6dlGpC3Ns', 'checked_by_vision_model': False, 'title': 'The Nutcracker – Sugar Plum pas de deux: Adagio (Nuñez, Muntagirov, The Royal Ballet)'}
+Hero video: {'youtube_id': 'qy6dlGpC3Ns', 'checked_by_vision_model': True, 'title': 'The Nutcracker – Sugar Plum pas de deux: Adagio (Nuñez, Muntagirov, The Royal Ballet)'}
 Images: 6 licensed — jeff from denver, US / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Fanny Schertzer / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Fanny Schertzer
 derivative work: Maedin\talk / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Lambtron / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Lambtron / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: KIPC 39 - "Spin! Sunda-Senpai!" [Engsub | HD | CC] - Kimi to Idol Precure♪ — https://archive.org/details/kimi-to-idol-precure-39; Cuba: Bay of Pigs (1964) — https://archive.org/details/cubabayofpigs; The Nutcracker, Op. 71, Act II: No. 14c, Pas de deux. Variation II "Danse de la Fee-Dragee (Dance of the Sugar-Plum Fairy)" (P. I. Tchaikovsky) (Colors in motion Music Video) — https://archive.org/details/in-shot-20220412-071547800; Cuba: Bay of Pigs — https://archive.org/details/cubabayofpigs_202603

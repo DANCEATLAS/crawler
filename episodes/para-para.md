@@ -1,8 +1,8 @@
 # Para Para — episode pack
 
-*Status: draft · built 2026-11-12 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced 'paralist' with deep knowledge of club history and routine choreography.
@@ -316,7 +316,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historically performed in high-class discos and clubs; costume specifics are generally described as club attire.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'nah1-LwkJGQ', 'checked_by_vision_model': False, 'title': 'ParaPara Paradise 4 - 01 - Go Go Girls - Cyber Dance'}
+Hero video: {'youtube_id': 'nah1-LwkJGQ', 'checked_by_vision_model': True, 'title': 'ParaPara Paradise 4 - 01 - Go Go Girls - Cyber Dance'}
 Images: 0 licensed
 Footage: File:Parapara dance 2009 France.webm — https://upload.wikimedia.org/wikipedia/commons/2/23/Parapara_dance_2009_France.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; ParaPara Paradise 3 (DVD, 2001) — https://archive.org/details/para-para-paradise-3-2001; ParaPara Paradise 2 (DVD, 2001) — https://archive.org/details/para-para-paradise-2-2001; ParaPara Paradise 5 (DVD, 2001) — https://archive.org/details/para-para-paradise-5-2001; ParaPara Paradise 6 (2002, DVD) — https://archive.org/details/para-para-paradise-6-2002; ParaPara Paradise 4 (2001, DVD) — https://archive.org/details/para-para-paradise-4-2001; ParaPara Paradise Presents ガッチャ！ ラフ君 With ASH (2001, VHS) — https://archive.org/details/para-para-paradise-presents-with-ash-2001; File:Parapara Valley Road flooded.webm — https://upload.wikimedia.org/wikipedia/commons/f/f5/Parapara_Valley_Road_flooded.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Neon-lit club interiors, Synchronized arm movements in a group, Historical VHS footage of 1990s club events

@@ -1,0 +1,105 @@
+{
+ "slug": "dunhuang-dance",
+ "qc_at": "2026-11-16T21:54:13Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 0.0,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Dunhuang dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "68"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "155"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1979, choreographers transformed static 4th-century Buddhist murals into a li"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "602"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3567"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "China"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "East Asia"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": false,
+   "detail": "codified,testament to"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "5 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=True cues=['sacred', 'religious']"
+  }
+ ],
+ "judge": null,
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "banned_phrasing",
+  "no_judge",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-16T20:26:35Z"
+}

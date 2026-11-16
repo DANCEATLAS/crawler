@@ -2,9 +2,9 @@
  "slug": "danza-de-los-diablos",
  "name": "Danza de los Diablos (Diablada)",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:11Z",
- "researched_at": "2026-11-08T16:57:51Z",
- "qc_score": 9.85,
+ "built_at": "2026-11-16T22:22:18Z",
+ "researched_at": "2026-11-16T20:49:11Z",
+ "qc_score": 9.35,
  "status": "withheld-chapters",
  "release_status": "not_validated",
  "sacred": true,
@@ -45,12 +45,13 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "An experienced dancer from an Oruro-based Diablada squad",
+   "persona": "A veteran 'Caporal' or squad leader from Oruro with decades of experience.",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
    "Danza de los Diablos (Diablada)",
-   "Danza de los Diablos"
+   "Danza de los Diablos",
+   "Llama llama"
   ]
  },
  "episode_1": {
@@ -61,7 +62,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "The Devil's Dance of Oruro",
+     "The 30kg Devil: Dancing for the Virgin and the Mine",
      "This is Danza de los Diablos (Diablada). 18th century."
     ],
     "on_screen": [
@@ -75,9 +76,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "The dance originated in the Andean Altiplano, with roots in the Uru civilization's Llama llama dance honoring the deity Tiw.",
-     "During the Spanish colonial period, it was influenced by autos sacramentales and the process of Christianization.",
-     "The first institutionalized squad, Gran Tradicional y Auténtica Diablada Oruro, was founded in 1904."
+     "The dance is believed to have originated 2000 years ago as the Llama llama ritual of the Uru civilization in Oruro.",
+     "During the colonial era, Spanish authorities banned indigenous ceremonies, leading the Uru to conceal their gods behind Christian icons.",
+     "The god Tiw was transformed into 'El Tío' and the devil of Christian liturgy."
     ],
     "on_screen": [
      "Map: Bolivia · South America",
@@ -90,8 +91,8 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "The dance represents the struggle between good and evil.",
-     "It is a central feature of the Carnaval de Oruro, the Fiesta de la Candelaria, and the Fiesta de La Tirana.",
+     "The dance is the centerpiece of the Carnaval de Oruro and the Fiesta de la Candelaria.",
+     "It represents the struggle between good and evil, the Seven Deadly Sins, and the syncretic relationship between miners and the spirits of the underworld.",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -104,15 +105,15 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "The dance is performed in two camps: angels and demons.",
-     "Dancers execute complex geometric figures like circles and crosses.",
-     "The choreography features jumps and sword-play, culminating in the defeat of the devil by Saint Michael.",
-     "Watch for Demon jump."
+     "The dance is a series of three versions, each consisting of seven moves.",
+     "It features a confrontation between angels and demons who move continuously in formations like circles and crosses.",
+     "Demons perform 'kick jumps' (pieds sautés) while the Archangel uses a sword and shield to direct the troop.",
+     "Watch for Pieds sautés."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (IIQfU7N84gw)",
      "Captions name each signature move as it appears",
-     "Formation: Two opposing camps forming circles and crosses"
+     "Formation: Linear columns, circular rotations, and intersecting crosses in public squares."
     ],
     "music": "diegetic (the video's own sound), underscore under narration"
    },
@@ -121,15 +122,15 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "Originally performed with the siku (panpipe) by Sikuris, modern versions use orchestras.",
+     "Originally performed with Sikuris (panpipe bands), modern versions use brass orchestras.",
      "The music consists of two parts: the March and the Devil's Mecapaqueña.",
-     "Listen for the siku, orchestra.",
-     "A rhythmic, driving sound featuring panpipes or orchestral brass, characterized by a steady, march-like cadence that transitions into the more complex Mecapaqueña."
+     "Listen for the Siku, Bass drum, Snare drum, Cymbals.",
+     "A powerful brass-heavy sound characterized by crashing cymbals and driving percussion, transitioning from a formal military-style march to a faster, syncopated Andean rhythm."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
-     "Verified recording — MISSING",
-     "Waveform or rhythm-pattern graphic: March and Mecapaqueña"
+     "Listen later: Marcha de la Diablada — Banda Intercontinental Poopó",
+     "Waveform or rhythm-pattern graphic: Syncopated huaynos and formal marches."
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
@@ -142,9 +143,9 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Performers wear elaborate devil masks with horns and capes embroidered with gold thread.",
-     "Angels wear white-silver outfits with swords and shields.",
-     "Costumes can weigh over 30kg."
+     "Performers wear monstrous masks with horns and bulging eyes, and heavy capes embroidered with gold thread and multicolored motifs.",
+     "The Archangel wears a blouse, short skirt, and wings.",
+     "Settings range from the streets and public squares of Oruro and Puno to indoor theaters."
     ],
     "on_screen": [
      "Image gallery: 2 licensed images with attribution",
@@ -160,9 +161,10 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Pedro Pablo Corrales, founder of the first institutionalized Diablada squad in 1904.",
-     "Diablada Puneña (Peru) incorporates influences from the Lupaka people and the Virgin Mary.",
-     "Descended from the Uru Llama llama dance, influenced by Spanish autos sacramentales, and institutionalized in the 20th century."
+     "Pedro Pablo Corrales founded the first formal squad in 1904.",
+     "The Archangel Saint Michael is the lead character, while Lucifer and Satan lead the demonic ranks.",
+     "The Diablada Puneña (Peru) includes characters like the 'Old Man' and 'Red Skin' and was influenced by Jesuit autos sacramentales.",
+     "Descended from the Uru Llama llama and Aymara rituals to Anchanchu."
     ],
     "on_screen": [
      "Names on screen as they are spoken",
@@ -175,22 +177,20 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Danza de los Diablos (Diablada) is parent of Llama llama: Ancient Uru dance from which the Diablada is believed to have descended."
+     "Danza de los Diablos (Diablada) is influence of Tinku: Some theories suggest the Diablada originated from miners combining Tinku rituals with Christian icons.",
+     "Danza de los Diablos (Diablada) is same region of Morenada: Another major dance of the Carnaval de Oruro sharing the same syncretic history."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
     ],
-    "music": "underscore",
-    "needs": [
-     "connections"
-    ]
+    "music": "underscore"
    },
    {
     "code": "first_step",
     "title": "A respectful note",
     "duration_s": 30,
     "narration": [
-     "The dance is a ritualized religious performance involving sacred figures and syncretic Andean-Christian theology."
+     "The dance is a ritual performance honoring the Virgen del Socavón and the spirits of the mines; masks and costumes are treated with high ceremonial respect."
     ],
     "on_screen": [
      "Calm wide shot, no demonstration"
@@ -202,8 +202,8 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "A look at the syncretic ritual where Andean deities and Christian archangels battle for the soul of the Altiplano.",
-     "Sources: 5 references are listed with the profile."
+     "Descend into the Oruro mines to discover how a 2,000-year-old indigenous ritual became a spectacular battle between heaven and hell.",
+     "Sources: 6 references are listed with the profile."
     ],
     "on_screen": [
      "Credits: sources, image and footage licences, music provenance"
@@ -220,21 +220,28 @@
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
-  "rhythm_pattern": "March and Mecapaqueña",
+  "rhythm_pattern": "Syncopated huaynos and formal marches.",
   "instruments": [
-   "siku",
-   "orchestra"
+   "Siku",
+   "Bass drum",
+   "Snare drum",
+   "Cymbals",
+   "Triangle",
+   "Brass instruments"
   ],
   "vocal_style": null,
-  "musical_form": "Two-part structure: March and Devil's Mecapaqueña",
+  "musical_form": "Two-part structure: March followed by Mecapaqueña.",
   "mood": [
-   "dramatic",
-   "ritualistic",
-   "energetic"
+   "Aggressive",
+   "Triumphant",
+   "Festive",
+   "Ritualistic"
   ],
-  "sound_description": "A rhythmic, driving sound featuring panpipes or orchestral brass, characterized by a steady, march-like cadence that transitions into the more complex Mecapaqueña.",
-  "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Danza de los Diablos (Diablada) (Bolivia). Rhythm pattern: March and Mecapaqueña. Instruments: siku, orchestra. Form: Two-part structure: March and Devil's Mecapaqueña. Mood: dramatic, ritualistic, energetic. It should sound like this: A rhythmic, driving sound featuring panpipes or orchestral brass, characterized by a steady, march-like cadence that transitions into the more complex Mecapaqueña. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "sound_description": "A powerful brass-heavy sound characterized by crashing cymbals and driving percussion, transitioning from a formal military-style march to a faster, syncopated Andean rhythm.",
+  "listen_before_composing": [
+   "Marcha de la Diablada — Banda Intercontinental Poopó"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Danza de los Diablos (Diablada) (Bolivia). Rhythm pattern: Syncopated huaynos and formal marches.. Instruments: Siku, Bass drum, Snare drum, Cymbals, Triangle, Brass instruments. Form: Two-part structure: March followed by Mecapaqueña.. Mood: Aggressive, Triumphant, Festive, Ritualistic. It should sound like this: A powerful brass-heavy sound characterized by crashing cymbals and driving percussion, transitioning from a formal military-style march to a faster, syncopated Andean rhythm. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -276,7 +283,7 @@
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
    "restricted_attire": true,
-   "from_sources": "Performers wear elaborate devil masks with horns and capes embroidered with gold thread. Angels wear white-silver outfits with swords and shields. Costumes can weigh over 30kg.",
+   "from_sources": "Performers wear monstrous masks with horns and bulging eyes, and heavy capes embroidered with gold thread and multicolored motifs. The Archangel wears a blouse, short skirt, and wings. Settings range from the streets and public squares of Oruro and Puno to indoor theaters.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3ACarnaval_de_Oruro_dia_I_%2860%29.JPG",
     "https://commons.wikimedia.org/wiki/File%3AFiesta_de_los_Collasuyos.jpg"
@@ -316,12 +323,12 @@
    }
   ],
   "motifs": [
-   "Intricate devil masks",
-   "Gold-thread embroidery",
-   "The high-altitude Altiplano landscape"
+   "Bulging glass eyes of the devil masks",
+   "Gold thread shimmering in the Altiplano sun",
+   "The contrast between white angel wings and red devil capes"
   ],
-  "costume_notes": "Performers wear elaborate devil masks with horns and capes embroidered with gold thread. Angels wear white-silver outfits with swords and shields. Costumes can weigh over 30kg.",
-  "setting_notes": "The dance represents the struggle between good and evil. It is a central feature of the Carnaval de Oruro, the Fiesta de la Candelaria, and the Fiesta de La Tirana.",
+  "costume_notes": "Performers wear monstrous masks with horns and bulging eyes, and heavy capes embroidered with gold thread and multicolored motifs. The Archangel wears a blouse, short skirt, and wings. Settings range from the streets and public squares of Oruro and Puno to indoor theaters.",
+  "setting_notes": "The dance is the centerpiece of the Carnaval de Oruro and the Fiesta de la Candelaria. It represents the struggle between good and evil, the Seven Deadly Sins, and the syncretic relationship between miners and the spirits of the underworld.",
   "map": {
    "country": "Bolivia",
    "region": "South America",
@@ -334,16 +341,18 @@
   ]
  },
  "teaching_formula": {
-  "source": "2 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 2,
+  "source": "3 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 3,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back",
+   "views used by most teachers: front, mirror, back",
    "tempo progression: slow → full",
    "repetitions per step: about 5"
   ],
   "cues": [
+   "let's do this",
+   "praise freestyle",
    "hold your knife out",
    "every time the blade faces down",
    "two thumbs are facing up",
@@ -353,9 +362,9 @@
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "full_demo",
    "context",
    "breakdown",
+   "full_demo",
    "music_practice",
    "recap",
    "slow_practice"
@@ -366,19 +375,19 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "licensed images (3 needed)",
-  "two or more connections"
+  "licensed images (3 needed)"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Diablada",
   "https://www.wikidata.org/wiki/Q17080921",
   "https://es.wikipedia.org/wiki/Diablada",
   "https://fr.wikipedia.org/wiki/Diablada",
-  "https://pt.wikipedia.org/wiki/Diablada"
+  "https://pt.wikipedia.org/wiki/Diablada",
+  "https://it.wikipedia.org/wiki/Diablada"
  ],
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "2b584b84c6824dc2933828b0342d3411a5a2a1f79bdc4a396d8bb7eb63a354a0",
+ "input_fingerprint": "8524c68174d147ea3861463a756c8f1b011765544af457b3e04a43e4644506e4",
  "hero_checked": "pass"
 }

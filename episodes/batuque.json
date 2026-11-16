@@ -2,7 +2,7 @@
  "slug": "batuque",
  "name": "Batuque",
  "pack_version": "e2",
- "built_at": "2026-11-15T18:05:17Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-15T16:34:40Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -66,7 +66,7 @@
      "This is Batuque. 18th century to present."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (Nvld-GrNt5Y)",
      "Title card: Batuque · Cape Verde · 18th century to present"
     ],
     "music": "theme (30 s)"
@@ -112,7 +112,7 @@
      "Watch for galion movement, da ku tornu."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (Nvld-GrNt5Y)",
      "Captions name each signature move as it appears",
      "Formation: Solo dancer working within the interior space of a circular ring of performers (terreru)"
     ],
@@ -737,7 +737,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "Nvld-GrNt5Y",
+   "checked_by_vision_model": false,
+   "title": "\"Baiana\" Barbatuques | Galen Hooks Choreography"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -788,8 +792,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "19 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 19,
+  "source": "24 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 24,
   "counting": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -798,6 +802,9 @@
    "repetitions per step: about 4"
   ],
   "cues": [
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
    "pull back and lean to the left",
    "close in open on and",
    "milk down knees are bent",
@@ -806,18 +813,15 @@
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "get up from the sleep",
-   "take your chest out",
-   "punch it",
-   "jump like a baby"
+   "open your right leg"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "count_in",
-   "full_demo",
    "breakdown",
    "warmup",
+   "full_demo",
    "slow_practice",
    "music_practice",
    "recap"
@@ -826,7 +830,7 @@
  },
  "gaps": [
   "tempo (bpm)",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "two or more connections"
  ],
@@ -839,6 +843,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "22b4cd7733781aa3a56b7101ed8e26cf7651b1a861d1251683354e42b1f4b43a",
+ "input_fingerprint": "d8571d01d604b939bf83d388130a92ff1dc1f3741f1496addb260aeeba993dc3",
  "hero_checked": null
 }

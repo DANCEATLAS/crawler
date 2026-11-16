@@ -1,8 +1,8 @@
 # Chholiya — episode pack
 
-*Status: withheld-chapters · built 2026-11-15 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-16 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A senior Kumaoni dancer or dholie musician, steeped in the martial heritage of Almora, guiding students with disciplined respect for tradition.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Blades on the Mountain Pass
 NARRATION: This is Chholiya. 10th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (X_qCnIl9qYw)
 ON SCREEN: Title card: Chholiya · India · 10th century
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Saraanv, Nishana waving.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (X_qCnIl9qYw)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Synchronized ensemble moving in procession, deploying eight dancers and fourteen musicians behind a triangular red flag.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -99,7 +99,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'X_qCnIl9qYw', 'checked_by_vision_model': False, 'title': 'Kumauni marriage dance video||Chholiya dance in village ||Khadak_weds_ganga'}
 Images: 2 licensed — Punya / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Amitsah8888 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: The triangular red nishana banner against Himalayan peaks, Sunlight catching polished round brass shields and steel tulwars, White sandalwood paste smeared on dancers' battle-ready faces, The groom riding horseback with a ceremonial khukuri at his waist
@@ -109,9 +109,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (3): https://en.wikipedia.org/wiki/Chholiya; https://www.wikidata.org/wiki/Q5094924; https://fr.wikipedia.org/wiki/Chholiya

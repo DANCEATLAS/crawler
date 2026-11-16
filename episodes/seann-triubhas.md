@@ -1,8 +1,8 @@
 # Seann Triubhas — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A competitive Highland dance champion with a focus on historical accuracy.
@@ -308,7 +308,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear the standard Highland kilt outfit. Historically, the dance was performed in tartan trews, and in the 19th century, it was sometimes performed in regular shoes with heels.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'iuyBkJThXiY', 'checked_by_vision_model': False, 'title': 'Cowal 2015 - Friday adult Seann Triubhas - Rebecca Thow,'}
+Hero video: {'youtube_id': 'iuyBkJThXiY', 'checked_by_vision_model': True, 'title': 'Cowal 2015 - Friday adult Seann Triubhas - Rebecca Thow,'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: The swing of the kilt, Close-ups of footwork in ghillies, The piper's fingers on the chanter
@@ -318,9 +318,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (3): https://en.wikipedia.org/wiki/Seann_triubhas; https://www.wikidata.org/wiki/Q2262295; https://de.wikipedia.org/wiki/Seann_Triubhas

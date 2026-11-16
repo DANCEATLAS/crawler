@@ -1,8 +1,8 @@
 # loure — episode pack
 
-*Status: draft · built 2026-11-13 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Historical dance scholar
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Loure: The Baroque Dance of Dignity
 NARRATION: This is loure. late 17th to early 18th century.
-ON SCREEN: Hero video, first 10 seconds (dOGGI7qeEOs)
+ON SCREEN: Hero video, first 10 seconds (6xY5KrF2qGc)
 ON SCREEN: Title card: loure · France · late 17th to early 18th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: The dance is performed at a slow or moderate tempo with a noble and m
 NARRATION: It involves two steps per measure, characterized by elegant turns and complex, highly ornamented sequences.
 NARRATION: The weight is consistently placed on the first beat, often preceded by an anacrusis.
 NARRATION: Watch for Elegant turns.
-ON SCREEN: Hero video full screen, 30–45 s (dOGGI7qeEOs)
+ON SCREEN: Hero video full screen, 30–45 s (6xY5KrF2qGc)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Theatrical stage performance.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -299,7 +299,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The loure was primarily a theatrical dance performed by virtuosos on the French stage. It was associated with noble, majestic, and sometimes pastoral settings, requiring costumes suitable for the refined aesthetic of the Baroque court and theater.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'dOGGI7qeEOs', 'checked_by_vision_model': False, 'title': 'Understanding Form: The Loure'}
+Hero video: {'youtube_id': '6xY5KrF2qGc', 'checked_by_vision_model': True, 'title': 'Loure Aimable Vainqueur'}
 Images: 0 licensed
 Footage: La Naissance de Vénus — https://archive.org/details/Naissance_de_Venus
 Motifs: 18th-century dance notation, Baroque stage architecture, Historical bagpipes

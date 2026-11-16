@@ -1,0 +1,115 @@
+{
+ "youtube_id": "t1SJptgtUz8",
+ "slug": "chaabi",
+ "dance": "Chaabi",
+ "title": "تعلمي معايا هاد الشطحة ديال التعريضة المغربية خطوة بخطوة | Moroccan Chaabi 💃🏻",
+ "channel": "YASMINE",
+ "viewer_ratio": 0.5,
+ "analysed_at": "2026-11-16T22:09:30Z",
+ "url": "https://www.youtube.com/watch?v=t1SJptgtUz8",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher breaks down Moroccan Chaabi dance combinations step-by-step, addressing beginners and intermediate dancers separately. She demonstrates movements slowly and explains body mechanics, posture, and common adjustments.",
+  "language": "Arabic",
+  "level": "mixed",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "full_demo",
+    "note": "Full demonstration of the Chaabi dance sequence with music"
+   },
+   {
+    "t": "0:47",
+    "segment": "intro",
+    "note": "Introduction to the channel, the host Yasmine, and the lesson topic"
+   },
+   {
+    "t": "1:31",
+    "segment": "full_demo",
+    "note": "Second demonstration of the dance sequence"
+   },
+   {
+    "t": "2:17",
+    "segment": "breakdown",
+    "note": "Detailed breakdown and instruction of the first step"
+   }
+  ],
+  "counting_scheme": "1-2 / 8 counts",
+  "cues": [],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Reverse Maya",
+    "counts": "8 counts",
+    "description": "Hip movement starting from bottom and bending knees"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Step-by-step breakdown",
+    "Differentiating instructions for beginners and intermediates",
+    "Clear visual demonstrations from multiple angles"
+   ],
+   "what_hinders": [
+    "Long explanations without music practice during the breakdown"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "1:11",
+    "text": "المبتدئات غادي يبقاو معايا من الاول"
+   },
+   {
+    "t": "2:18",
+    "text": "اوكي الحركة الاولى reverse maya ومعها ركبة متنية"
+   },
+   {
+    "t": "4:03",
+    "text": "صعيبا I know ولكن practice"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 15,
+    "topic": "movement",
+    "observation": "Full body dance demo facing front under purple lighting",
+    "viewpoint": "front, unknown mirror",
+    "cannot_infer": "exact foot weight distribution",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 47,
+    "end_s": 60,
+    "topic": "teaching",
+    "observation": "Teacher speaking to camera with folded arms, introducing herself",
+    "viewpoint": "front, unknown mirror",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Explaining the anatomy and muscle engagement required for specific hip movements before demonstrating them."
+ },
+ "attempts": 1
+}

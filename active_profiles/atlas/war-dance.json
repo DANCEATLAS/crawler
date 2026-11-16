@@ -1,13 +1,52 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "not described in sources",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "mock combat",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "ferocious",
+        "rhythmic",
+        "ceremonial"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "Strong percussive rhythms",
+      "sound_description": "Music is characterized by strong, driving percussive rhythms that coordinate the movements of the dancers and emphasize the martial nature of the performance.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "Strong percussive rhythms"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "58e4e6de266083549e87fa5744ae995a9ab3df9d1e9ad8616aa4c7eedb0774eb",
+  "fingerprint": "bf4bd92f472bc656ac8225f95be0aa605daa41fbb23634f728ef83312323295f",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +54,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork and posture patterns for a representative war dance like the Haka or Capoeira? Evidence needed: Ethnographic studies or instructional manuals for specific war dance traditions."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,7 +84,18 @@
   ],
   "music_options": [],
   "name": "War dance",
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "3f28b416d9dfcc5a",
+      "next_evidence": "Ethnographic studies or instructional manuals for specific war dance traditions.",
+      "question": "What are the specific footwork and posture patterns for a representative war dance like the Haka or Capoeira?",
+      "source": "https://en.wikipedia.org/wiki/War_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources provide a general definition but lack the technical detail required for an interactive teaching platform."
+    }
+  ],
+  "research_file": "research_results/war-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +107,10 @@
   "slug": "war-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/War_dance",
-    "Source: War dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/War_dance"
+    "https://www.wikidata.org/wiki/Q130403",
+    "https://pt.wikipedia.org/wiki/Dança_de_guerra",
+    "https://de.wikipedia.org/wiki/Kampftanz"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

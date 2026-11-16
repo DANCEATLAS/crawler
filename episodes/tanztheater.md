@@ -1,8 +1,8 @@
 # Tanztheater — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.55 · 12/12 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.55 · 12/12 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced Tanztheater rehearsal director, emphasizing emotional honesty, dramatic intent, and patient exploration over superficial technical lines.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Rejecting balletic fairy tales, Pina Bausch transformed choreography by asking not how people move, but what moves them.
 NARRATION: This is Tanztheater. 20th century.
-ON SCREEN: Hero video, first 10 seconds (43L754iMmkI)
+ON SCREEN: Hero video, first 10 seconds (N1ohT4_tSNs)
 ON SCREEN: Title card: Tanztheater · Germany · 20th century
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Tanztheater is not danced as an onstage improvisation; instead, chore
 NARRATION: The dancer acts as both actor and dancer, devoid of a singular codified kinetic style.
 NARRATION: The form relies heavily on scenic repetition, dramatic situations, gesture, and the expressive handling of time, silence, and musical phrasing.
 NARRATION: Watch for Emotional improvisation (Bewegungen), Scenic repetition.
-ON SCREEN: Hero video full screen, 30–45 s (43L754iMmkI)
+ON SCREEN: Hero video full screen, 30–45 s (N1ohT4_tSNs)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Varies across the entire theatrical stage or chosen scenic space
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -299,7 +299,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Tanztheater stages distance themselves from classical ballet sets and tutus, placing dancers in contemporary, dramatic, or everyday environments. Sets often incorporate specific, physically demanding environments that reflect internal human obsessions, philosophical dilemmas, and psychoanalytic states. Performers frequently appear in ordinary dress or dramatic character attire suitable for their dual identity as dancers and actors.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '43L754iMmkI', 'checked_by_vision_model': False, 'title': 'MOVEment: Prada x Dancers of Tanztheater Wuppertal'}
+Hero video: {'youtube_id': 'N1ohT4_tSNs', 'checked_by_vision_model': True, 'title': 'Pina Bausch   Nelken   The man I love, dancer Hans Beenhakker at Wuppertaler Tanztheater'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Empty chairs scattered across a bare stage, Performers in everyday mid-century clothing, Relentless physical repetition of human contact, Dramatic stage lighting highlighting facial expression and gaze
@@ -309,9 +309,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the stage-contemporary family studied · videos studied: 3
+Source: 4 tutorial(s) of the stage-contemporary family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest; straightening my legs; bringing my body up; bend both legs
+Cues: keep your feet pointed; use your core; lean your body back; cross over your partner; trade places with one another; cross body lead; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest
 
 Sources (5): https://en.wikipedia.org/wiki/Tanztheater; https://www.wikidata.org/wiki/Q1425858; https://es.wikipedia.org/wiki/Danza_teatro; https://fr.wikipedia.org/wiki/Danse-théâtre; https://de.wikipedia.org/wiki/Tanztheater

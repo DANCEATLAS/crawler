@@ -1,8 +1,8 @@
 # Apache — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.85 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A professional dancer with a background in stage combat and historical dance.
@@ -11,24 +11,24 @@
 ## Episode 1 · Meet Apache · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: The Apache is Paris's most dangerous dance.
-NARRATION: It dates to the early 20th century.
+NARRATION: The Apache: Paris's Most Dangerous Dance
+NARRATION: This is Apache. Early 20th century.
 ON SCREEN: Hero video, first 10 seconds (3TAxfqPbl8U)
 ON SCREEN: Title card: Apache · France · Early 20th century
 MUSIC: theme (30 s)
 
 ### 2. Where and when (70 s) · `where`
-NARRATION: The dance originated in 1908 Paris, created by Maurice Mouvet and Max Dearly after they observed street gangs.
-NARRATION: It gained popularity at the Moulin Rouge and in early silent films.
-NARRATION: The name comes from the press's label for local street gangs, borrowed from North American Indigenous tribes.
+NARRATION: The dance originated in 1908 Paris, created by performers Maurice Mouvet and Max Dearly after observing street gangs.
+NARRATION: It was popularized at the Moulin Rouge and through early silent films.
+NARRATION: The name was adopted from the press's label for local street gangs, which in turn was borrowed from North American Indigenous tribes.
 ON SCREEN: Map: France · Europe
 ON SCREEN: Image 1 with attribution
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: It began as a theatrical performance piece for cabarets and music halls.
-NARRATION: The dance represents urban conflict and the volatile dynamics of a street-level relationship.
-NARRATION: Today, it is a revived tradition.
+NARRATION: Originally a theatrical performance piece for cabarets and music halls.
+NARRATION: It serves as a dramatic representation of urban conflict and the volatile dynamics of a street-level relationship.
+NARRATION: Today it is a revived tradition.
 ON SCREEN: Footage: File:How to make a MOTIONER - 01.webm (https://upload.wikimedia.org/wikipedia/commons/0/08/How_to_make_a_MOTIONER_-_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original)
 MUSIC: underscore
 
@@ -43,11 +43,11 @@ ON SCREEN: Formation: Couple-based, utilizing stage space for dramatic movement
 MUSIC: diegetic (the video's own sound), underscore under narration
 
 ### 5. Listen (70 s) · `music`
-NARRATION: The music is a waltz, most famously 'Valse des Rayons' by Jacques Offenbach.
+NARRATION: The music is typically a waltz, most famously 'Valse des Rayons' by Jacques Offenbach.
 NARRATION: Other arrangements include 'Valse Chaloupée' by Charles Dubourg and 'Valse Apache' by Fernand Le Borne.
-NARRATION: Listen for the orchestra and piano.
+NARRATION: Listen for the Orchestra, Piano.
 NARRATION: The pulse is 3/4.
-NARRATION: This dramatic orchestral waltz transitions between flowing sections and sharp, rhythmic accents to underscore the combat.
+NARRATION: A dramatic, orchestral waltz that transitions between melodic, flowing sections and sharp, rhythmic accents to underscore the physical combat.
 ON SCREEN: Instrument names on screen as each is mentioned
 ON SCREEN: Listen later: Valse des Rayons — Jacques Offenbach; Valse Chaloupée — Charles Dubourg
 ON SCREEN: Waveform or rhythm-pattern graphic: 
@@ -55,31 +55,31 @@ MUSIC: the music brief's underscore at its own tempo; drop narration under the h
 NEEDS: tempo
 
 ### 6. The costume and the setting (60 s) · `costume`
-NARRATION: The style reflects the 'Apache' street gang aesthetic of early 20th-century Paris.
-NARRATION: Performances take place in seedy bars, cabarets, and Parisian street scenes.
+NARRATION: Historically associated with the 'Apache' street gang aesthetic of early 20th-century Paris.
+NARRATION: Settings include seedy bars, cabarets, and Parisian street scenes.
 ON SCREEN: Image gallery: 1 licensed images with attribution
 ON SCREEN: Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'
 MUSIC: underscore
 NEEDS: images
 
 ### 7. The people (60 s) · `people`
-NARRATION: Key figures include Max Dearly, Maurice Mouvet, Mistinguett, Leona, and later performers like Clara Bow and Buster Keaton.
-NARRATION: It is also known as 'Valse Chaloupée' or 'Tough Dance'.
-NARRATION: The dance evolved from Parisian street culture and 'cake-walk' variations performed by Mistinguett.
+NARRATION: Max Dearly, Maurice Mouvet, Mistinguett, Leona, and later performers like Clara Bow and Buster Keaton.
+NARRATION: Known as 'Valse Chaloupée' or 'Tough Dance' in various contexts.
+NARRATION: Evolved from Parisian street culture and the 'cake-walk' variations performed by Mistinguett.
 ON SCREEN: Names on screen as they are spoken
 ON SCREEN: Variant names as a small list
 MUSIC: underscore
 
 ### 8. Family tree (40 s) · `family`
-NARRATION: Apache is a parent of the Waltz, as it uses waltz music and steps.
-NARRATION: It is an influence on the Java, with possible roots in the French Java dance.
+NARRATION: Apache is parent of Waltz: The dance is performed to waltz music and incorporates waltz steps.
+NARRATION: Apache is influence of Java: Possible roots in the French Java dance.
 ON SCREEN: Graph: the connections with their relation labels
 MUSIC: underscore
 
 ### 9. Try one step (60 s) · `first_step`
 NARRATION: Before we go, one step. Waltz step sequence
 NARRATION: Mock slap/punch sequence
-NARRATION: Count it: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count it: 1-2-3-5-6-7.
 NARRATION: Chapter 1 takes it slowly from here.
 ON SCREEN: Instructor, front view, slow
 ON SCREEN: Count on screen
@@ -101,14 +101,14 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: The posture is athletic and aggressive.
-NARRATION: It is used for grabbing, slapping, and supporting lifts.
-NARRATION: The body stays engaged for balance during throws and lifts.
+NARRATION: Athletic and aggressive
+NARRATION: Used for grabbing, slapping, and supporting lifts
+NARRATION: Engaged for balance during throws and lifts
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.
+NARRATION: Count: 1-2-3-5-6-7. The meter is 3/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -116,22 +116,22 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: The waltz sequence.
-NARRATION: Step 2: The mock slap and punch sequence.
-NARRATION: Footwork includes waltz-based steps interrupted by lunges and combat moves.
-NARRATION: Drill: The waltz box step.
+NARRATION: Step 1: Waltz step sequence
+NARRATION: Step 2: Mock slap/punch sequence
+NARRATION: Footwork from the sources: Waltz-based steps interrupted by lunges and combat footwork
+NARRATION: Drill: Waltz box step
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-3-5-6-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: A controlled lift or throw.
-NARRATION: Step 4: Struggle and recovery.
-NARRATION: Drill: Practice partner connection.
+NARRATION: Step 3: Controlled lift or throw
+NARRATION: Step 4: Struggle and recovery
+NARRATION: Drill: Partner connection
 ON SCREEN: Instructor front and back view; slow, then half tempo
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-3-5-6-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -142,22 +142,23 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid unsupervised stage combat, improper lifting techniques, and lack of partner communication.
+NARRATION: Unsupervised stage combat, improper lifting techniques, and lack of partner communication.
+NARRATION: Teachers of this dance warn against: hammerlock hand placement difficulty
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 1-2-3-5-6-7.
 NARRATION: Full tempo, the whole sequence, twice.
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now master the basic waltz step.
-NARRATION: The dance was originally a theatrical piece for cabarets and music halls.
+NARRATION: You can now: Master the basic waltz step.
+NARRATION: Originally a theatrical performance piece for cabarets and music halls.
 NARRATION: Next: Chapter 2.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
@@ -173,14 +174,14 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: The posture is athletic and aggressive.
-NARRATION: It is used for grabbing, slapping, and supporting lifts.
-NARRATION: The body stays engaged for balance during throws and lifts.
+NARRATION: Athletic and aggressive
+NARRATION: Used for grabbing, slapping, and supporting lifts
+NARRATION: Engaged for balance during throws and lifts
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.
+NARRATION: Count: 1-2-3-5-6-7. The meter is 3/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -188,24 +189,24 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: The waltz sequence.
-NARRATION: Step 2: The mock slap and punch sequence.
-NARRATION: Drill: Practice mock slap timing.
+NARRATION: Step 1: Waltz step sequence
+NARRATION: Step 2: Mock slap/punch sequence
+NARRATION: Drill: Mock slap timing
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-3-5-6-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: Step 3: A controlled lift or throw.
-NARRATION: Step 4: Struggle and recovery.
-NARRATION: The throw: The male partner throws the female to the ground.
-NARRATION: The lift: The male partner lifts the female while she struggles.
-NARRATION: Drill: Practice dramatic posture.
+NARRATION: Step 3: Controlled lift or throw
+NARRATION: Step 4: Struggle and recovery
+NARRATION: The Throw: The male partner throws the female partner to the ground.
+NARRATION: The Lift: The male partner lifts the female partner while she struggles.
+NARRATION: Drill: Dramatic posture
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-3-5-6-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -216,14 +217,15 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid unsupervised stage combat, improper lifting techniques, and lack of partner communication.
+NARRATION: Unsupervised stage combat, improper lifting techniques, and lack of partner communication.
+NARRATION: Teachers of this dance warn against: hammerlock hand placement difficulty
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 1-2-3-5-6-7.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couple-based, utilizing stage space for dramatic movement
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
@@ -247,14 +249,14 @@ ON SCREEN: Instructor front view, name of the chapter, the three things you will
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: The posture is athletic and aggressive.
-NARRATION: It is used for grabbing, slapping, and supporting lifts.
-NARRATION: The body stays engaged for balance during throws and lifts.
+NARRATION: Athletic and aggressive
+NARRATION: Used for grabbing, slapping, and supporting lifts
+NARRATION: Engaged for balance during throws and lifts
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
 ### 3. Count and rhythm (60 s) · `count`
-NARRATION: Count: 1-2-3, 2-2-3 (three counts a bar). The meter is 3/4.
+NARRATION: Count: 1-2-3-5-6-7. The meter is 3/4.
 NARRATION: Clap it first, then step it in place.
 ON SCREEN: Counts on screen, flashing on the beat
 ON SCREEN: Metronome — tempo MISSING, use a slow comfortable pulse
@@ -262,22 +264,22 @@ MUSIC: lesson_slow (clicks only until the step lands)
 NEEDS: tempo
 
 ### 4. Step A — slowly (150 s) · `step_a`
-NARRATION: Step 1: A controlled lift or throw.
-NARRATION: Step 2: Struggle and recovery.
-NARRATION: Drill: Practice safe lifting mechanics.
+NARRATION: Step 1: Controlled lift or throw
+NARRATION: Step 2: Struggle and recovery
+NARRATION: Drill: Safe lifting mechanics
 ON SCREEN: Instructor front view, then back view (student's perspective); three repetitions
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-3-5-6-7 · repetitions: 3
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: The throw: The male partner throws the female to the ground.
-NARRATION: The lift: The male partner lifts the female while she struggles.
-NARRATION: Drill: Practice the choreographed struggle.
+NARRATION: The Throw: The male partner throws the female partner to the ground.
+NARRATION: The Lift: The male partner lifts the female partner while she struggles.
+NARRATION: Drill: Choreographed struggle
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
-COUNTS: 1-2-3, 2-2-3 (three counts a bar) · repetitions: 3
+COUNTS: 1-2-3-5-6-7 · repetitions: 3
 
 ### 6. Put it together (120 s) · `combine`
 NARRATION: Step A, then Step B, without stopping. Slow first.
@@ -288,23 +290,24 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-NARRATION: Avoid unsupervised stage combat, improper lifting techniques, and lack of partner communication.
+NARRATION: Unsupervised stage combat, improper lifting techniques, and lack of partner communication.
+NARRATION: Teachers of this dance warn against: hammerlock hand placement difficulty
 ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting.
 MUSIC: silence
 OPTIONS: Seated or supported option: Seated waltz arm movements and rhythmic swaying. · For children: A rhythmic movement game focusing on waltz steps and dramatic acting. (options are derived teaching suggestions, not facts from the sources)
 
 ### 8. Dance it to the music (120 s) · `music_run`
-NARRATION: Count-in: 1-2-3, 2-2-3 (three counts a bar).
+NARRATION: Count-in: 1-2-3-5-6-7.
 NARRATION: Full tempo, the whole sequence, twice. Formation: Couple-based, utilizing stage space for dramatic movement
 ON SCREEN: Wide shot, instructor and two students
 ON SCREEN: Track: lesson_full (tempo MISSING)
 MUSIC: lesson_full
 
 ### 9. Recap (40 s) · `close`
-NARRATION: You can now execute controlled lifts.
-NARRATION: The dance evolved from Parisian street culture and 'cake-walk' variations performed by Mistinguett.
-NARRATION: You know the dance. Go and dance it with others.
+NARRATION: You can now: Execute controlled lifts.
+NARRATION: Evolved from Parisian street culture and the 'cake-walk' variations performed by Mistinguett.
+NARRATION: You know the dance. Go and dance it with people.
 ON SCREEN: Recap card with the counts
 ON SCREEN: Next chapter card
 MUSIC: theme (10 s)
@@ -324,7 +327,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historically associated with the 'Apache' street gang aesthetic of early 20th-century Paris. Settings include seedy bars, cabarets, and Parisian street scenes.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '3TAxfqPbl8U', 'checked_by_vision_model': False, 'title': 'Just Dance 3 Apache Jump On It'}
+Hero video: {'youtube_id': '3TAxfqPbl8U', 'checked_by_vision_model': True, 'title': 'Just Dance 3 Apache Jump On It'}
 Images: 1 licensed — Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain)
 Footage: File:How to make a MOTIONER - 01.webm — https://upload.wikimedia.org/wikipedia/commons/0/08/How_to_make_a_MOTIONER_-_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Grand Canyon Native American Heritage Day 2010- Video 02 (5188538311).webm — https://upload.wikimedia.org/wikipedia/commons/5/59/Grand_Canyon_Native_American_Heritage_Day_2010-_Video_02_%285188538311%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Workout Music ( 54 Songs) — https://archive.org/details/Workout-Music-54-Songs; Getvid Gggg 1 — https://archive.org/details/20220320_20220320_1734; File:Bowery Waltz (1897).webm — https://upload.wikimedia.org/wikipedia/commons/f/f3/Bowery_Waltz_%281897%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Black and white film clips, Cabaret stage lights, Vintage Parisian street signs
@@ -334,9 +337,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the stage-contemporary family studied · videos studied: 3
-Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest; straightening my legs; bringing my body up; bend both legs
+Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Counting: 1-2-3-5-6-7
+Demonstration: views used by most teachers: front; tempo progression: full
+Cues: cross over your partner; trade places with one another; cross body lead
+Common mistakes the studied teachers name: hammerlock hand placement difficulty
 
 Sources (8): https://en.wikipedia.org/wiki/Apache_(dance); https://www.wikidata.org/wiki/Q3702326; https://es.wikipedia.org/wiki/Apache_(baile); https://fr.wikipedia.org/wiki/Valse_chaloupée; https://it.wikipedia.org/wiki/Danse_Apache; https://archive.org/details/ghostdancerelig01moongoog; https://archive.org/details/landofpocotiempo00lummrich; https://archive.org/details/ERIC_ED128107

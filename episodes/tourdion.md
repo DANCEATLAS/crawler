@@ -1,8 +1,8 @@
 # Tourdion — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A historical dance specialist with a focus on Renaissance treatises.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Twist of the Renaissance
 NARRATION: This is Tourdion. 16th century.
-ON SCREEN: Hero video, first 10 seconds (J-_ZJZhwC84)
+ON SCREEN: Hero video, first 10 seconds (P8RlYeu5GBs)
 ON SCREEN: Title card: Tourdion · France · 16th century
 MUSIC: theme (30 s)
 
@@ -34,7 +34,7 @@ MUSIC: underscore
 NARRATION: The dance is based on the 'cinq pas' (five-step) sequence.
 NARRATION: It involves alternating between 'posture droit' and 'posture gauche,' utilizing 'pied en l'air' (kicks) and 'petit saut' (small hops), concluding with a 'saut moyen' to transition postures.
 NARRATION: Watch for Cinq pas, Saut moyen.
-ON SCREEN: Hero video full screen, 30–45 s (J-_ZJZhwC84)
+ON SCREEN: Hero video full screen, 30–45 s (P8RlYeu5GBs)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Couple dance, moving through the space.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -313,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'J-_ZJZhwC84', 'checked_by_vision_model': False, 'title': 'Culomba - Tourdion/Quand je bois du vin clairet (Anon. France, 16th Century)'}
+Hero video: {'youtube_id': 'P8RlYeu5GBs', 'checked_by_vision_model': True, 'title': 'Tourdion - French Renaissance'}
 Images: 0 licensed
 Footage: Medieval Music vol.3 (1000-1450) — https://archive.org/details/youtube-I8CW7P4k7II; Tudor and Renaissance Music vol.3 (1450-1600) — https://archive.org/details/youtube-yIEF8Mf-FcI; Tourdion (1530) French Renaissance Song — https://archive.org/details/youtube-ArgDiJQ41Sg; Le Tourdion - French Renaissance Song — https://archive.org/details/le-tourdion-french-renaissance-song-farya
 Motifs: Renaissance lute manuscripts, Courtly attire of the 16th century, Close-ups of footwork on wooden floors

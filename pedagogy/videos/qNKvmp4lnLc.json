@@ -5,7 +5,150 @@
  "title": "SINGLE ADDI || DOUBLE ADDI || TAALI GIDDHA  TUTORIAL in PUNJABI",
  "channel": "Kaur Gurpreet",
  "viewer_ratio": 2.0,
- "analysed_at": "2026-11-10T19:21:39Z",
+ "analysed_at": "2026-11-16T22:09:04Z",
  "url": "https://www.youtube.com/watch?v=qNKvmp4lnLc",
- "status": "failed"
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor patiently explains the steps of Giddha, demonstrating each breakdown in detail. She pairs verbal explanations with slow demonstrations to make learning accessible for beginners.",
+  "language": "Punjabi",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:01",
+    "segment": "intro",
+    "note": "Instructor introduces herself and the tutorial topics"
+   },
+   {
+    "t": "1:18",
+    "segment": "breakdown",
+    "note": "Demonstrating first clapping variant step"
+   },
+   {
+    "t": "1:55",
+    "segment": "count_in",
+    "note": "Counting 1 to 8 while demonstrating clap pattern"
+   },
+   {
+    "t": "2:06",
+    "segment": "breakdown",
+    "note": "Demonstrating second clapping variation"
+   },
+   {
+    "t": "3:29",
+    "segment": "breakdown",
+    "note": "Breaking down single addi footwork"
+   },
+   {
+    "t": "5:14",
+    "segment": "follow_along",
+    "note": "Practicing single addi steps with music rhythm"
+   },
+   {
+    "t": "5:34",
+    "segment": "breakdown",
+    "note": "Breaking down double addi footwork"
+   }
+  ],
+  "counting_scheme": "1-2-3-4-5-6-7-8",
+  "cues": [
+   "ਇੱਕ ਲਾਉਡ ਕਲੈਪ ਕਰੋ",
+   "ਆਪਣੇ ਨੀਜ਼ ਨੂੰ ਲਾਕ ਨਹੀਂ ਕਰਨਾ"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": 8
+  },
+  "common_mistakes": [
+   "locking the knees during double addi"
+  ],
+  "safety": [
+   "Keep knees slightly bent and do not lock them"
+  ],
+  "steps_taught": [
+   {
+    "name": "Taali Giddha (Clapping variation)",
+    "counts": "1-8",
+    "description": "Clapping patterns with alternating high and low hits"
+   },
+   {
+    "name": "Single Addi",
+    "counts": "1-8",
+    "description": "Basic single heel tapping step of Giddha"
+   },
+   {
+    "name": "Double Addi",
+    "counts": "1-8",
+    "description": "Advanced double heel tapping step with knee bounce"
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Clear counting and slow initial breakdown",
+    "Repetition of steps from different angles"
+   ],
+   "what_hinders": [
+    "Long stretches of talking without demonstration"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:36",
+    "text": "ਮੈਂ ਇਹਨੂੰ ਬਹੁਤ ਹੀ ਇਜ਼ੀ ਵੇ ਨਾਲ ਦੱਸੂਗੀ"
+   },
+   {
+    "t": "1:37",
+    "text": "ਇੱਕ ਲਾਉਡ ਕਲੈਪ ਕਰੋਗੇ ਫਿਰ ਲਾਈਟ ਕਲੈਪ ਕਰੋਗੇ"
+   },
+   {
+    "t": "6:30",
+    "text": "ਆਪਣੇ ਨੀਜ਼ ਨੂੰ ਲਾਕ ਨਹੀਂ ਕਰਨਾ"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 1,
+    "end_s": 7,
+    "topic": "teaching",
+    "observation": "Instructor stands facing front with hands folded in greeting while talking to the camera",
+    "viewpoint": "front, mirror",
+    "cannot_infer": "exact foot placement",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 118,
+    "end_s": 124,
+    "topic": "movement",
+    "observation": "Instructor demonstrates clapping pattern standing in place",
+    "viewpoint": "front, mirror",
+    "cannot_infer": "weight transfer",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 330,
+    "end_s": 352,
+    "topic": "movement",
+    "observation": "Instructor demonstrates single addi footwork with hands on hips",
+    "viewpoint": "front, mirror",
+    "cannot_infer": "exact heel pressure",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Detailed verbal explanation of cultural context and utility of steps before demonstrating each variation."
+ },
+ "attempts": 2
 }

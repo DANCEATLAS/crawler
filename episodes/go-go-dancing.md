@@ -1,8 +1,8 @@
 # go-go dancing — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.55 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; the how-it-is-danced section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; the how-it-is-danced section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic dance historian
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Cage and the Beat
 NARRATION: This is go-go dancing. 1960s.
-ON SCREEN: Hero video, first 10 seconds (79DcpO0_4-U)
+ON SCREEN: Hero video, first 10 seconds (ELxtDruXj70)
 ON SCREEN: Title card: go-go dancing · United States · 1960s
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Twist.
-ON SCREEN: Hero video full screen, 30–45 s (79DcpO0_4-U)
+ON SCREEN: Hero video full screen, 30–45 s (ELxtDruXj70)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Stages, tables, platforms, or suspended cages
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -296,7 +296,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers often wear mini skirts, fringed dresses, and knee-high vinyl go-go boots. Settings include stages, tables, platforms, and suspended cages.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '79DcpO0_4-U', 'checked_by_vision_model': False, 'title': 'How to Gogo Dance + Performance Tips'}
+Hero video: {'youtube_id': 'ELxtDruXj70', 'checked_by_vision_model': True, 'title': 'Humberto Moro on "Untitled" (Go-Go Dancing Platform) by Felix Gonzalez-Torres'}
 Images: 4 licensed — Ctjf83 / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Peter Chiapperino: a concert photographer in Lexington, Kentucky / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Peter Chiapperino: a concert photographer in Lexington, Kentucky / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Bahnfrend / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Funny or Die Video 1c0b5cfb1b: Halloween Night 2007 — https://archive.org/details/funny_or_die_video_1c0b5cfb1b; DNA Lounge: Day Walkers: 90s-to-Now Day Party (2026-03-29c) — https://archive.org/details/DNALOUNGE-VIDEO-2026-03-29c
 Motifs: Go-go boots, Glass cages, Fringed skirts
@@ -306,9 +306,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the street-urban family studied · videos studied: 18
+Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
 Counting: 
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
 
 Sources (5): https://en.wikipedia.org/wiki/Go-go_dancing; https://www.wikidata.org/wiki/Q862488; https://es.wikipedia.org/wiki/Gogó; https://fr.wikipedia.org/wiki/Go-go_dancing; https://pt.wikipedia.org/wiki/Go-go_dancing

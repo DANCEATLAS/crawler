@@ -1,0 +1,143 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": [
+        {
+          "description": "A troupe performance format consisting of a leader, a chorus, comedians, and musicians performing on stage.",
+          "source": "https://en.wikipedia.org/wiki/Boria_(theatre)"
+        }
+      ]
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "Troupe structure featuring a leader, chorus, comedians, and musicians on stage",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "lively western dance styles including rumbas, cha-cha-cha, or soul",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "violin",
+        "Western drums",
+        "Malay drums",
+        "Indian drums",
+        "Chinese cymbals"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "theatrical",
+        "comic",
+        "lively"
+      ],
+      "musical_form": "short comic sketches followed by song-dance routine",
+      "reference_recordings": [],
+      "rhythm_pattern": "rumbas, cha-cha-cha, or soul styles",
+      "sound_description": "A melodic violin line leads the performance, supported by rhythmic accompaniment from Western, Malay, or Indian drums and Chinese cymbals. The vocal structure features alternating solo lines and choral responses set to Western-influenced popular dance rhythms.",
+      "tempo_bpm": "",
+      "vocal_style": "juxtaposition of choral and solo parts"
+    },
+    "teaching": {
+      "basic_steps": [
+        "not described in sources"
+      ],
+      "formation": "Stage performance featuring leader, chorus, comedians, and musicians",
+      "level_notes": "technique not described in sources",
+      "rhythm": "Western styles including rumbas, cha-cha-cha, or soul rhythms"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "a5d31fa1e8e072febc3c983eab4d1fc6f203508b77f4b9c011cd795884888fc1",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific movement patterns and footwork steps are executed by the chorus during the cha-cha-cha or rumba sections of a Penang Boria performance? Evidence needed: Video documentation or instructional manuals of contemporary Penang Boria dance performances."
+    ]
+  },
+  "id": "atlas:boria",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Boria",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "e2182155a169bd00",
+      "next_evidence": "Video documentation or instructional manuals of contemporary Penang Boria dance performances.",
+      "question": "What specific movement patterns and footwork steps are executed by the chorus during the cha-cha-cha or rumba sections of a Penang Boria performance?",
+      "source": "https://en.wikipedia.org/wiki/Boria_(theatre)",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement technical details are absent in text sources, preventing step-by-step dance instruction modeling."
+    }
+  ],
+  "research_file": "research_results/boria.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "boria",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Boria_(theatre)",
+    "https://www.wikidata.org/wiki/Q4945110"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

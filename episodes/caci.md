@@ -1,8 +1,8 @@
 # Caci — episode pack
 
-*Status: withheld-chapters · built 2026-11-11 · judge 9.25 · 6/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-16 · judge 9.25 · 6/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Manggarai caci fighter and cultural custodian
@@ -104,7 +104,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'BMPYB1WgVig', 'checked_by_vision_model': False, 'title': 'CACI‼️Tarian Perang/Permainan Rakyat Manggarai - Flores - NTT @Sa.Ate.Channel'}
+Hero video: {'youtube_id': 'BMPYB1WgVig', 'checked_by_vision_model': True, 'title': 'CACI‼️Tarian Perang/Permainan Rakyat Manggarai - Flores - NTT @Sa.Ate.Channel'}
 Images: 6 licensed — Rosino / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Rosino / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Rosino / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Rosino / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Fakhri Anindita / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Penis — https://archive.org/details/penis_20260922
 Motifs: horned helmets, jingling bells, whips and shields, drum and gong ensembles, village communal yards
@@ -114,9 +114,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
+Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
 Counting: 
-Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (2): https://en.wikipedia.org/wiki/Caci_(fighting); https://www.wikidata.org/wiki/Q12478150

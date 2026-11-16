@@ -1,0 +1,899 @@
+{
+ "slug": "charleston-stroll",
+ "name": "Charleston Stroll",
+ "pack_version": "e2",
+ "built_at": "2026-11-16T22:22:18Z",
+ "researched_at": "2026-11-16T20:00:27Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "An energetic swing historian and master dancer who combines precise technical footwork breakdowns with lively historical storytelling.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Charleston Stroll",
+   "20s Charleston",
+   "The Charleston",
+   "Geechie dance"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Charleston Stroll",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Twisting Feet and Fast Kicks: The Birth of the Charleston",
+     "This is Charleston Stroll. 1920s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Charleston Stroll · United States · 1920s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The dance traces back to traditional African-American plantation dances like the Juba and challenge step routines.",
+     "James P. Johnson recalled hearing its signature beat from dockworkers in Charleston, South Carolina, and seeing early iterations around 1913 at the Jungles Casino in New York's San Juan Hill.",
+     "Willie 'The Lion' Smith recalled a predecessor performed by Russell Brown under the name 'Geechie dance'."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally a casual social and challenge dance among African-American communities, the Charleston became an emblem of post-WWI liberation, youth culture, and defiance of alcohol prohibition in American speakeasies.",
+     "In contemporary swing dance culture, it functions as both a high-energy solo showpiece and a core element within Lindy Hop social dancing and jam circles.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Josephine Baker - rare topless dance clip & lost color Clara Bow film (https://archive.org/details/JosephineBaker-RareToplessDanceClipLostColorClaraBowFilm)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The Charleston can be danced solo, with a partner, or in group lines and circles.",
+     "Dancers maintain slightly bent knees with feet turned inward and outward, creating alternating knock-kneed and bow-legged positions while keeping feet at right angles to the leg at the ankle.",
+     "The arm action mirrors natural walking: as the left leg steps forward, the right arm moves forward while bent at the elbow and wrist.",
+     "Watch for Basic 8-Count Step, Savoy Kicks, Johnny's Drop."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Danced in place, traveling in stroll lines, or arranged in social circles and jam formats."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "Music for the 1920s Charleston features early hot jazz, ragtime, and stride piano played at rapid tempos ranging from 50 to 75 bars per minute (200 to over 300 beats per minute).",
+     "The fundamental rhythm incorporates the syncopated clave beat, which composer Gunther Schuller linked to the habanera and the Spanish Tinge.",
+     "Listen for the Piano, Trumpet, Trombone, Clarinet.",
+     "The pulse is 4/4.",
+     "Bright stride piano bass chords on downbeats matched with syncopated treble accents, driving brass melodies, and rapid banjo or drum backbeats."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: The Charleston — James P. Johnson; The Charleston — Golden Gate Orchestra",
+     "Waveform or rhythm-pattern graphic: Syncopated 4/4 rhythm incorporating the clave beat and stride piano syncopations."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "tempo"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "During the 1920s, women wore short flapper dresses or skirts adorned with hanging ribbons, fringe, sequins, or feathers designed to highlight dynamic leg and hip movements, paired with short 'à la garçonne' hair.",
+     "Men wore black pinstriped suits with bow ties or neckties.",
+     "Settings ranged from Broadway theaters and Parisian cabarets to American speakeasies, floor contests, and public stunts."
+    ],
+    "on_screen": [
+     "Image gallery: 4 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Key historic figures include composer James P. Johnson, performer Elisabeth Welch, dancer Russell Brown, cabaret star Josephine Baker, film stars Bessie Love, Ann Pennington, Ginger Rogers, Joan Crawford, and dancers Santos Casani and Josie Lennard.",
+     "Variants include 1920s Solo Charleston, 20s Partner Charleston, 30s/40s Partner Charleston (incorporating jockey, side-by-side, and tandem positions), Collegiate Charleston, Crawl Charleston (a 1933 slow variation resembling a tango or waltz), and Black Bottom.",
+     "Rooted in African-American Juba and dockworker rhythms, the Charleston evolved through 1920s stage revues into social partner and solo forms."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Charleston Stroll is parent of Lindy Hop: Charleston steps were integrated directly into Lindy Hop during the 1930s and 1940s.",
+     "Charleston Stroll is sibling of Black Bottom: A contemporary 1920s trend featuring similar binary syncopated rhythms and hopping steps.",
+     "Charleston Stroll is child of Quickstep: Collegiate Charleston served as a direct precursor to the ballroom Quickstep."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Stand with knees slightly bent and feet turned slightly inward at ankles.",
+     "On counts 1-2, step or touch the left foot back without shifting full weight.",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Trace how African-American plantation steps and Harlem stride piano sparked a global dance craze that defined the 1920s.",
+     "Sources: 6 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the basic 8-count walking and weight-shifting pattern in place.",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the basic 8-count walking and weight-shifting pattern in place..",
+      "Level: Beginner. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic swing historian and master dancer who combines precise technical footwork breakdowns with lively historical storytelling."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright torso with slight forward pitch; knees constantly flexed; ankles relaxed to allow inward/outward foot rotation.",
+      "Arms swing in counter-motion to legs, bent at 90 degrees at elbows and wrists; palms facing down or out.",
+      "Torso pulses rhythmic isolation; hips twist naturally with leg movement and foot rotation."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Syncopated 4/4 rhythm incorporating the clave beat and stride piano syncopations..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Stand with knees slightly bent and feet turned slightly inward at ankles.",
+      "Step 2: On counts 1-2, step or touch the left foot back without shifting full weight.",
+      "Footwork from the sources: Alternating weight transfers, toe touches forward and back, inward (knock-kneed) and outward (bow-legged) ankle twists.",
+      "Drill: Practice touch-step forward and back slowly without music."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: On counts 3-4, step onto the left foot, shifting full body weight onto it.",
+      "Step 4: On counts 5-6, touch the right foot forward while swinging left arm forward with bent elbow.",
+      "Drill: Add 90-degree elbow arm swings in opposition to leg movement."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiff knees or rigid ankles; avoid locking joints during rapid leg twists and high kicks."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the 8-count pattern seated in a sturdy chair, tapping toes back on counts 1-2, weight placing on 3-4, tapping forward on 5-6, and returning on 7-8 while swinging bent arms. · For children: Charleston Freeze Tag: Children dance the basic step in a circle and must freeze in a bow-legged or knock-kneed position when the music stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 8-count pattern seated in a sturdy chair, tapping toes back on counts 1-2, weight placing on 3-4, tapping forward on 5-6, and returning on 7-8 while swinging bent arms.",
+      "For children: Charleston Freeze Tag: Children dance the basic step in a circle and must freeze in a bow-legged or knock-kneed position when the music stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the basic 8-count walking and weight-shifting pattern in place..",
+      "Originally a casual social and challenge dance among African-American communities, the Charleston became an emblem of post-WWI liberation, youth culture, and defiance of alcohol prohibition in American speakeasies.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Incorporate foot twisting (inward/outward rotation) and increase tempo to 200 BPM.",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Incorporate foot twisting (inward/outward rotation) and increase tempo to 200 BPM..",
+      "Level: Intermediate. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic swing historian and master dancer who combines precise technical footwork breakdowns with lively historical storytelling."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright torso with slight forward pitch; knees constantly flexed; ankles relaxed to allow inward/outward foot rotation.",
+      "Arms swing in counter-motion to legs, bent at 90 degrees at elbows and wrists; palms facing down or out.",
+      "Torso pulses rhythmic isolation; hips twist naturally with leg movement and foot rotation."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Syncopated 4/4 rhythm incorporating the clave beat and stride piano syncopations..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: On counts 7-8, bring the right foot back into standing position, shifting weight to repeat.",
+      "Drill: Alternate knock-kneed and bow-legged ankle twists on each count."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Basic 8-Count Step: Touch foot back on 1-2, step on 3-4, touch foot forward on 5-6, step back on 7-8 while swinging arms.",
+      "Savoy Kicks: High forward and backward swinging kicks executed during 8-count footwork.",
+      "Drill: Execute basic steps while traveling forward and backward."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiff knees or rigid ankles; avoid locking joints during rapid leg twists and high kicks."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the 8-count pattern seated in a sturdy chair, tapping toes back on counts 1-2, weight placing on 3-4, tapping forward on 5-6, and returning on 7-8 while swinging bent arms. · For children: Charleston Freeze Tag: Children dance the basic step in a circle and must freeze in a bow-legged or knock-kneed position when the music stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 8-count pattern seated in a sturdy chair, tapping toes back on counts 1-2, weight placing on 3-4, tapping forward on 5-6, and returning on 7-8 while swinging bent arms.",
+      "For children: Charleston Freeze Tag: Children dance the basic step in a circle and must freeze in a bow-legged or knock-kneed position when the music stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Danced in place, traveling in stroll lines, or arranged in social circles and jam formats."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Incorporate foot twisting (inward/outward rotation) and increase tempo to 200 BPM..",
+      "Key historic figures include composer James P. Johnson, performer Elisabeth Welch, dancer Russell Brown, cabaret star Josephine Baker, film stars Bessie Love, Ann Pennington, Ginger Rogers, Joan Crawford, and dancers Santos Casani and Josie Lennard.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "Perform high kicks, tandem partner turns, and solo jam circle improvisations.",
+   "level": "Advanced",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: Perform high kicks, tandem partner turns, and solo jam circle improvisations..",
+      "Level: Advanced. Difficulty of the dance overall: intermediate.",
+      "Your instructor: An energetic swing historian and master dancer who combines precise technical footwork breakdowns with lively historical storytelling."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright torso with slight forward pitch; knees constantly flexed; ankles relaxed to allow inward/outward foot rotation.",
+      "Arms swing in counter-motion to legs, bent at 90 degrees at elbows and wrists; palms facing down or out.",
+      "Torso pulses rhythmic isolation; hips twist naturally with leg movement and foot rotation."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Syncopated 4/4 rhythm incorporating the clave beat and stride piano syncopations..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome — tempo MISSING, use a slow comfortable pulse"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)",
+     "needs": [
+      "tempo"
+     ]
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: On counts 5-6, touch the right foot forward while swinging left arm forward with bent elbow.",
+      "Step 2: On counts 7-8, bring the right foot back into standing position, shifting weight to repeat.",
+      "Drill: Drill Savoy kicks on counts 5 and 6 at 250+ BPM."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Johnny's Drop: A sudden knee drop or lowered accent performed during a freeze phrase.",
+      "Drill: Transition fluidly between solo 20s Charleston and side-by-side partner holds."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Avoid stiff knees or rigid ankles; avoid locking joints during rapid leg twists and high kicks."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the 8-count pattern seated in a sturdy chair, tapping toes back on counts 1-2, weight placing on 3-4, tapping forward on 5-6, and returning on 7-8 while swinging bent arms. · For children: Charleston Freeze Tag: Children dance the basic step in a circle and must freeze in a bow-legged or knock-kneed position when the music stops."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the 8-count pattern seated in a sturdy chair, tapping toes back on counts 1-2, weight placing on 3-4, tapping forward on 5-6, and returning on 7-8 while swinging bent arms.",
+      "For children: Charleston Freeze Tag: Children dance the basic step in a circle and must freeze in a bow-legged or knock-kneed position when the music stops."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Danced in place, traveling in stroll lines, or arranged in social circles and jam formats."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full (tempo MISSING)"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Perform high kicks, tandem partner turns, and solo jam circle improvisations..",
+      "Rooted in African-American Juba and dockworker rhythms, the Charleston evolved through 1920s stage revues into social partner and solo forms.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": "4/4",
+  "rhythm_pattern": "Syncopated 4/4 rhythm incorporating the clave beat and stride piano syncopations.",
+  "instruments": [
+   "Piano",
+   "Trumpet",
+   "Trombone",
+   "Clarinet",
+   "Drums",
+   "Banjo"
+  ],
+  "vocal_style": "Vivid solo or chorus revue singing; often purely instrumental stride or hot jazz.",
+  "musical_form": "32-bar AABA or ABAC jazz structures with repeating rhythmic phrases.",
+  "mood": [
+   "energetic",
+   "playful",
+   "syncopated",
+   "fast",
+   "exuberant"
+  ],
+  "sound_description": "Bright stride piano bass chords on downbeats matched with syncopated treble accents, driving brass melodies, and rapid banjo or drum backbeats.",
+  "listen_before_composing": [
+   "The Charleston — James P. Johnson",
+   "The Charleston — Golden Gate Orchestra"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Charleston Stroll (United States). Meter 4/4. Rhythm pattern: Syncopated 4/4 rhythm incorporating the clave beat and stride piano syncopations.. Instruments: Piano, Trumpet, Trombone, Clarinet, Drums, Banjo. Vocal style: Vivid solo or chorus revue singing; often purely instrumental stride or hot jazz.. Form: 32-bar AABA or ABAC jazz structures with repeating rhythmic phrases.. Mood: energetic, playful, syncopated, fast, exuberant. It should sound like this: Bright stride piano bass chords on downbeats matched with syncopated treble accents, driving brass melodies, and rapid banjo or drum backbeats. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "During the 1920s, women wore short flapper dresses or skirts adorned with hanging ribbons, fringe, sequins, or feathers designed to highlight dynamic leg and hip movements, paired with short 'à la garçonne' hair. Men wore black pinstriped suits with bow ties or neckties. Settings ranged from Broadway theaters and Parisian cabarets to American speakeasies, floor contests, and public stunts.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3ABaker_Charleston.jpg",
+    "https://commons.wikimedia.org/wiki/File%3AFrank_Farnum_coaching_Pauline_Starke.jpg",
+    "https://commons.wikimedia.org/wiki/File%3ACharleston_fun_%2849204751006%29.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Baker_Charleston.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Baker_Charleston.jpg/1280px-Baker_Charleston.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Walery, Polish-British, 1863-1929 / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ABaker_Charleston.jpg",
+    "description": "Josephine Baker dancing the Charleston, in the silent film La Folie du jour (1926), from  La Revue nègre, at the w:Folies Bergère, Paris"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Frank_Farnum_coaching_Pauline_Starke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Frank_Farnum_coaching_Pauline_Starke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Unknown photographer, National Photo Company / Wikimedia Commons / Public domain",
+    "license": "Public domain",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AFrank_Farnum_coaching_Pauline_Starke.jpg",
+    "description": "Original caption: \"Frank Farnum coaching Pauline Starke. And now the Charleston is moving into the movies! Pauline Starke will introduce it to the movie public at large when in the role of a chorus girl in Metro-Goldwyn-Mayer's A Little bit of Broadway, she performs it on the screen. Frank Farnum, originator of the step, gave her first-hand (or foot) instructions.\" The film version of the story A "
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Charleston_fun_%2849204751006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Charleston_fun_%2849204751006%29.jpg/1280px-Charleston_fun_%2849204751006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Thomas Quine / Wikimedia Commons / CC BY 2.0",
+    "license": "CC BY 2.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACharleston_fun_%2849204751006%29.jpg",
+    "description": "2018 Lindy Bout XII swing and jazz dance competition, Vancouver, Canada"
+   },
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Charleston_dancers_at_the_California_Dance_Festival_2025_10_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Charleston_dancers_at_the_California_Dance_Festival_2025_10_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "attribution": "Rosiestep / Wikimedia Commons / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ACharleston_dancers_at_the_California_Dance_Festival_2025_10_%28cropped%29.jpg",
+    "description": "California Dance Festival in Sacramento, California in June 2025."
+   }
+  ],
+  "footage": [
+   {
+    "title": "Josephine Baker - rare topless dance clip & lost color Clara Bow film",
+    "url": "https://archive.org/details/JosephineBaker-RareToplessDanceClipLostColorClaraBowFilm",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Short Clips",
+    "url": "https://archive.org/details/ShortClips_251",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "YESTERDAY'S NEWSREEL BATTLE OF BRITAIN 1940-41 DANCING THE CHARLESTON TRAIN WRECK 52254",
+    "url": "https://archive.org/details/52254YesterdaysNewsreelBattleForBritain116",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Kidsongs - I Can Dance! (1997; VHS Record)",
+    "url": "https://archive.org/details/kidsongs-i-can-dance-1997-vhs-record",
+    "year": 1997,
+    "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "YESTERDAY'S NEWSREEL ORVILLE & WILBUR WRIGHT THE CHARLESTON POPE PIUS XI 52244",
+    "url": "https://archive.org/details/52244YesterdaysNewsreelMemorialAtKittyhawk9",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Dancing With the Celebrities Week Two",
+    "url": "https://archive.org/details/Dancing_With_the_Celebrities_Week_Two",
+    "year": 2015,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Close-up shots of twisting feet and ankle angles.",
+   "Fringe and ribbon momentum on 1920s dresses.",
+   "Pianist hands flying across stride piano keys."
+  ],
+  "costume_notes": "During the 1920s, women wore short flapper dresses or skirts adorned with hanging ribbons, fringe, sequins, or feathers designed to highlight dynamic leg and hip movements, paired with short 'à la garçonne' hair. Men wore black pinstriped suits with bow ties or neckties. Settings ranged from Broadway theaters and Parisian cabarets to American speakeasies, floor contests, and public stunts.",
+  "setting_notes": "Originally a casual social and challenge dance among African-American communities, the Charleston became an emblem of post-WWI liberation, youth culture, and defiance of alcohol prohibition in American speakeasies. In contemporary swing dance culture, it functions as both a high-energy solo showpiece and a core element within Lindy Hop social dancing and jam circles.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "24 tutorial(s) of the street-urban family studied",
+  "videos_studied": 24,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "right leg out front",
+   "jump split your legs",
+   "the back foot goes up",
+   "lift the left leg up",
+   "jump back on the left leg",
+   "kick the right leg up",
+   "take the right leg back",
+   "hop forward with the left leg",
+   "feet parallel",
+   "relax  breath",
+   "land on the balls of your feet",
+   "engage your core"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "layering",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "a verified recording to listen to",
+  "a hero video"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Charleston_(dance)",
+  "https://www.wikidata.org/wiki/Q1066703",
+  "https://es.wikipedia.org/wiki/Charlestón",
+  "https://fr.wikipedia.org/wiki/Charleston_(danse)",
+  "https://pt.wikipedia.org/wiki/Charleston_(dança)",
+  "https://de.wikipedia.org/wiki/Charleston_(Tanz)"
+ ],
+ "claims_verified": 7,
+ "claims": 7,
+ "polished": false,
+ "input_fingerprint": "348c9dbace35c26a6190bb98fcdcd41a389b82d0bfa3ed8eea3979a3f2e757c6",
+ "hero_checked": null
+}

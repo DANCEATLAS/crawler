@@ -1,8 +1,8 @@
 # Bush dance — episode pack
 
-*Status: draft · built 2026-11-15 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; a hero video; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic community dance caller who guides the room with clear spatial prompts, warm humour, and an emphasis on inclusion.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Inside the Australian Woolshed Bush Dance
 NARRATION: This is Bush dance. 18th–20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (qHqzjQty7aY)
 ON SCREEN: Title card: Bush dance · Australia · 18th–20th century
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Bush dance places minimal emphasis on complex footwork, prioritising communal floor geometry and ensuring dancers reach the right place in sequence.
 NARRATION: Watch for Heel-Toe Polka Slap Sequence, The Drongo Partner Exclusion.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (qHqzjQty7aY)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Big circles, Sicilian progressive circles, longways sets of 3 to 8 couples, trios, and quadrille squares
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -323,7 +323,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Bush dance takes place in relaxed social environments, traditionally woolsheds, rural halls, and social club venues for Bushy Balls. Unlike colonial dance, which typically calls for period costume, bush dance adheres to relaxed dress codes.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'qHqzjQty7aY', 'checked_by_vision_model': False, 'title': 'Koala Nutbush - Line Dance'}
 Images: 0 licensed
 Footage: Bush Dance Against Terorism — https://archive.org/details/Bush_Dance_Against_Terorism_3; Sarah Bush Dance Project Part Two — https://archive.org/details/JoeyWilliams-SarahBushDanceProjectPartTwo527; Sarah Bush Dance Project Part One — https://archive.org/details/JoeyWilliams-SarahBushDanceProjectPartOne897
 Motifs: The lagerphone shaker covered in bottle caps, Opposing longways lines moving along wooden hall floorboards, Dancers clapping hands together in Heel-Toe Polka, A lone dancer standing in the middle of a square quadrille
@@ -333,9 +333,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 1-2-3, 2-2-3 (three counts a bar)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (2): https://en.wikipedia.org/wiki/Bush_dance; https://www.wikidata.org/wiki/Q5001436

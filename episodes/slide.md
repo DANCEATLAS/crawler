@@ -1,8 +1,8 @@
 # Slide — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.3 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; the occasions & meaning section; the how-it-is-danced section; signature moves; the costume & setting section; notable figures; teaching steps written out
+**Gaps** (handed to the research queue): instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; the occasions & meaning section; the how-it-is-danced section; signature moves; the costume & setting section; notable figures; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Sliabh Luachra Slide
 NARRATION: This is Slide. 19th century.
-ON SCREEN: Hero video, first 10 seconds (MC6xjO1JoR8)
+ON SCREEN: Hero video, first 10 seconds (x-3WYlJVOxU)
 ON SCREEN: Title card: Slide · Ireland · 19th century
 MUSIC: theme (30 s)
 
@@ -30,7 +30,7 @@ MUSIC: underscore
 NEEDS: occasions_and_meaning
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video full screen, 30–45 s (MC6xjO1JoR8)
+ON SCREEN: Hero video full screen, 30–45 s (x-3WYlJVOxU)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -276,7 +276,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'MC6xjO1JoR8', 'checked_by_vision_model': False, 'title': 'Cha Cha Slide - SNL'}
+Hero video: {'youtube_id': 'x-3WYlJVOxU', 'checked_by_vision_model': True, 'title': 'Slide Step Irish Dance Company'}
 Images: 0 licensed
 Footage: File:OSIRIS-REx L-30 Press Briefing Graphics (SVS12976 - 1 Morris Slide2).webm — https://upload.wikimedia.org/wikipedia/commons/d/d4/OSIRIS-REx_L-30_Press_Briefing_Graphics_%28SVS12976_-_1_Morris_Slide2%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:A Team Hero Slide Hoburg 2020-12-03 LR (757012372941).webm — https://upload.wikimedia.org/wikipedia/commons/a/a0/A_Team_Hero_Slide_Hoburg_2020-12-03_LR_%28757012372941%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:A Team Hero Slide Chari 2020-12-03 LR (757013085436).webm — https://upload.wikimedia.org/wikipedia/commons/d/dc/A_Team_Hero_Slide_Chari_2020-12-03_LR_%28757013085436%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Erawan Waterfall Rock Slide video by Don Ramey Logan.webm — https://upload.wikimedia.org/wikipedia/commons/c/c6/Erawan_Waterfall_Rock_Slide_video_by_Don_Ramey_Logan.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Southwest Irish landscape, Traditional set dancing groups

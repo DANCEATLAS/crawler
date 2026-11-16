@@ -1,8 +1,8 @@
 # La Bamba — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); the how-it-is-danced section; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Veracruz son jarocho dancer with deep knowledge of La Bamba's history and social context
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Tying the Knot: The Dance of La Bamba
 NARRATION: This is La Bamba. Late 17th century to present.
-ON SCREEN: Hero video, first 10 seconds (HwjkTH5xCTw)
+ON SCREEN: Hero video, first 10 seconds (Z8OYQq9jGww)
 ON SCREEN: Title card: La Bamba · Mexico · Late 17th century to present
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Ribbon knot tying, Ribbon toss.
-ON SCREEN: Hero video full screen, 30–45 s (HwjkTH5xCTw)
+ON SCREEN: Hero video full screen, 30–45 s (Z8OYQq9jGww)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Danced in couples, sometimes multiple couples; space used for footwork and ribbon tying
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -320,7 +320,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'HwjkTH5xCTw', 'checked_by_vision_model': False, 'title': 'La Bamba: Ritchie Valens Performs La Bamba (Lou Diamond Phillips) HD Scene'}
+Hero video: {'youtube_id': 'Z8OYQq9jGww', 'checked_by_vision_model': True, 'title': 'La Bamba (bongo mix) by Monkey Circus - Basic Warm up - JamieZumba - 줌바댄스'}
 Images: 0 licensed
 Footage: File:La bamba o twist and shout ritmo.webm — https://upload.wikimedia.org/wikipedia/commons/2/2e/La_bamba_o_twist_and_shout_ritmo.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Andrés Flores explicando como tocar la Bamba.webm — https://upload.wikimedia.org/wikipedia/commons/d/d6/Andr%C3%A9s_Flores_explicando_como_tocar_la_Bamba.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Bailando la bamba en el museo de antropologia.webm — https://upload.wikimedia.org/wikipedia/commons/9/91/Bailando_la_bamba_en_el_museo_de_antropologia.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Fandango en Xalapa, Suena y se baila la Bamba.webm — https://upload.wikimedia.org/wikipedia/commons/6/6b/Fandango_en_Xalapa%2C_Suena_y_se_baila_la_Bamba.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Bailando la Bamba en el fandango en el estadio xalapeño.webm — https://upload.wikimedia.org/wikipedia/commons/0/04/Bailando_la_Bamba_en_el_fandango_en_el_estadio_xalape%C3%B1o.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; The Wiggles You Make Me Feel Like Dancing! ( 2008) — https://archive.org/details/the-wiggles-you-make-me-feel-like-dancing-2008; Billy & Ruby's Sing & Play Along — https://archive.org/details/billy-rubys-sing-play-along_202207; CantaJuego - Lo Mejor de Puli — https://archive.org/details/youtube-PZGtIi-E2js
 Motifs: Red ribbon knot, Wooden dance floor, Traditional Veracruz attire, Arpa jarocha harp, Zapateado footwork close-ups
@@ -330,9 +330,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: count the binary (2/4 or similar) bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (6): https://en.wikipedia.org/wiki/La_Bamba_(song); https://www.wikidata.org/wiki/Q641677; https://es.wikipedia.org/wiki/La_bamba; https://fr.wikipedia.org/wiki/La_bamba; https://pt.wikipedia.org/wiki/La_Bamba_(canção_de_1958); https://archive.org/details/ERIC_ED342705

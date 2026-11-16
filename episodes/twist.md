@@ -1,8 +1,8 @@
 # Twist — episode pack
 
-*Status: draft · built 2026-11-14 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed)
+**Gaps** (handed to the research queue): licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic, retro-style dance historian.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Dance That Conquered the World
 NARRATION: This is Twist. 1950s–1960s.
-ON SCREEN: Hero video, first 10 seconds (F9WxQDnFpWA)
+ON SCREEN: Hero video, first 10 seconds (ofBp0Mvt3S8)
 ON SCREEN: Title card: Twist · United States · 1950s–1960s
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ NARRATION: Dancers stand with feet shoulder-width apart and knees slightly bent.
 NARRATION: The hips, torso, and legs rotate as a single unit while the feet grind back and forth on the floor.
 NARRATION: Arms are held out from the body, bent at the elbows, and move independently of the lower body.
 NARRATION: Watch for The Cigarette Grind.
-ON SCREEN: Hero video full screen, 30–45 s (F9WxQDnFpWA)
+ON SCREEN: Hero video full screen, 30–45 s (ofBp0Mvt3S8)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo or crowd, requires minimal space.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -317,7 +317,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: There is no specific costume, though it is associated with 1960s casual fashion. It was performed in dance halls, television studios, and social clubs like the Peppermint Lounge.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'F9WxQDnFpWA', 'checked_by_vision_model': False, 'title': 'Lets twist again'}
+Hero video: {'youtube_id': 'ofBp0Mvt3S8', 'checked_by_vision_model': True, 'title': 'RTSF 2019 – Stephen & Chanzie – Twisting The Night Away'}
 Images: 1 licensed — Hochneder, Christa / Wikimedia Commons / CC BY-SA 3.0 de (CC BY-SA 3.0 de)
 Footage: File:Kettlebell Lunge and Twist.webm — https://upload.wikimedia.org/wikipedia/commons/2/21/Kettlebell_Lunge_and_Twist.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; PRINCESS OLANMA THE DANCER nigerian movies - Nollywood Latest Movies 2016 | Latest Nigerian Movies — https://archive.org/details/youtube-geddAAhzswY; The Wiggles: Magical Adventure! (A Wiggly Movie) 2007 Warner Home Video DVD Rip — https://archive.org/details/MAGICALADVENTURENTSCTitle2; The Wiggles: Yummy Yummy 2007 Warner Home Video DVD Rip — https://archive.org/details/YUMMYYUMMYNTSCTitle2; The Wiggles: Dance Party 2003 DVD — https://archive.org/details/WigglesDancePartyTitle1; (VHS 50fps) The Wiggles: Wiggledance! (Original 1997 Version) — https://archive.org/details/the-wiggles-wiggledance-1997-vhs-50fps; The Wiggles - Big Red Car 1995 VHS — https://archive.org/details/the-wiggles-big-red-car-1995-vhs; The Wiggles: Dance Party (2001) US VHS — https://archive.org/details/wiggles-the-dance-party-2001
 Motifs: 1960s dance halls, Chubby Checker performance footage, Close-ups of feet grinding on the floor
@@ -327,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the street-urban family studied · videos studied: 18
+Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
 
 Sources (5): https://en.wikipedia.org/wiki/Twist_(dance); https://www.wikidata.org/wiki/Q387916; https://es.wikipedia.org/wiki/Twist_(baile); https://fr.wikipedia.org/wiki/Twist; https://pt.wikipedia.org/wiki/Twist

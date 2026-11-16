@@ -2,7 +2,7 @@
  "slug": "wotagei",
  "name": "Wotagei",
  "pack_version": "e2",
- "built_at": "2026-11-15T18:05:17Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-14T16:29:55Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -716,7 +716,7 @@
  "visual_brief": {
   "hero_video": {
    "youtube_id": "MuvJR2Pc9Vc",
-   "checked_by_vision_model": false,
+   "checked_by_vision_model": true,
    "title": "Butter-Fly / 和田光司 ヲタ芸で表現してみた｜Digimon op Butter-Fly Light Dance [北の打ち師達×有志×DJ和]"
   },
   "wardrobe": {
@@ -765,8 +765,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "19 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 19,
+  "source": "24 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 24,
   "counting": "count the not explicitly described; follows J-pop song structure bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -775,6 +775,9 @@
    "repetitions per step: about 4"
   ],
   "cues": [
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
    "pull back and lean to the left",
    "close in open on and",
    "milk down knees are bent",
@@ -783,18 +786,15 @@
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "get up from the sleep",
-   "take your chest out",
-   "punch it",
-   "jump like a baby"
+   "open your right leg"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "count_in",
-   "full_demo",
    "breakdown",
    "warmup",
+   "full_demo",
    "slow_practice",
    "music_practice",
    "recap"
@@ -804,7 +804,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage"
  ],
@@ -818,6 +817,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "546eb495c977c643a98d3dc8e74f45b68f55f5fc650250baf89df72d7bb27bfb",
- "hero_checked": null
+ "input_fingerprint": "478e575957e1e31334ec2303daa378d8f147eabc1f1ba7a94c852e2b58378bf2",
+ "hero_checked": "pass"
 }

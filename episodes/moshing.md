@@ -1,8 +1,8 @@
 # moshing — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check
+**Gaps** (handed to the research queue): tempo (bpm)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced concert-goer with a focus on safety and community.
@@ -327,7 +327,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: There is no specific costume for moshing; it is typically performed in casual concert attire. The setting is a 'mosh pit,' a designated area of the crowd, often near the front of the stage or in the center of the venue floor.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'xS5o0bZT4zY', 'checked_by_vision_model': False, 'title': 'a guide to moshing and concert survival'}
+Hero video: {'youtube_id': 'xS5o0bZT4zY', 'checked_by_vision_model': True, 'title': 'a guide to moshing and concert survival'}
 Images: 5 licensed — [][tatu] from Porto Alegre, Brasil / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); Joe Mabel / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Seis Pasos Mas Abajo / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); EnglishLoverWillie at English Wikipedia / Wikimedia Commons / CC0 (CC0); vxla from Chicago, US / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: .unpalatable Punk Rock Disco 2 @ Unaffiliated 777 (vid,audio,info) — https://archive.org/details/unpalatable-unaffiliated-777; Radio Clash 21-2-6_ToneChange, Ratrace, Zero One — https://archive.org/details/radio-clash-21-2-6; File:PogoCarCrashControlMotocultor2022.mpg — https://upload.wikimedia.org/wikipedia/commons/0/0d/PogoCarCrashControlMotocultor2022.mpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:WikiSlam.webm — https://upload.wikimedia.org/wikipedia/commons/3/3f/WikiSlam.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Justice- Tax break for veterans is a "slam dunk win".webm — https://upload.wikimedia.org/wikipedia/commons/d/df/Justice-_Tax_break_for_veterans_is_a_%22slam_dunk_win%22.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Fabelstapler-poetry-slam.webm — https://upload.wikimedia.org/wikipedia/commons/f/fa/Fabelstapler-poetry-slam.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Hector slam use.webm — https://upload.wikimedia.org/wikipedia/commons/0/04/Hector_slam_use.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:WWE Mark Henry - World Strongest Slam finisher.webm — https://upload.wikimedia.org/wikipedia/commons/0/00/WWE_Mark_Henry_-_World_Strongest_Slam_finisher.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Close-ups of footwork, Wide shots of the pit formation, Archival footage of 1980s hardcore shows
@@ -337,9 +337,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the street-urban family studied · videos studied: 18
+Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
 
 Sources (5): https://en.wikipedia.org/wiki/Moshing; https://www.wikidata.org/wiki/Q1463560; https://es.wikipedia.org/wiki/Mosh; https://fr.wikipedia.org/wiki/Mosh; https://pt.wikipedia.org/wiki/Mosh

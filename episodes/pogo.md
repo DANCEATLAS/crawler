@@ -1,8 +1,8 @@
 # Pogo — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.1 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.1 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned punk chronicler with direct insight into 70s club culture.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Birth of the Pogo
 NARRATION: This is Pogo. 1970s.
-ON SCREEN: Hero video, first 10 seconds (Wtvk9KVv0kA)
+ON SCREEN: Hero video, first 10 seconds (mi2q5-Ia-RU)
 ON SCREEN: Title card: Pogo · United Kingdom · 1970s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers jump up and down while either remaining on the spot or moving
 NARRATION: The classic version involves keeping the torso stiff, arms rigid at the sides, and legs close together like a pogo stick.
 NARRATION: Variations allow for thrashing torsos, flailing arms, kicking legs, spinning in the air, and horizontal pushing.
 NARRATION: Watch for Up-and-down.
-ON SCREEN: Hero video full screen, 30–45 s (Wtvk9KVv0kA)
+ON SCREEN: Hero video full screen, 30–45 s (mi2q5-Ia-RU)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: dancers remaining on the spot or moving around in a crowd / mosh pit
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -317,7 +317,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performed in underground music venues, clubs, and massive outdoor festivals (such as Monsters of Rock or large punk/metal gatherings). Attire reflects punk, underground, and counter-culture styles, historically including leather jackets, ponchos, and everyday street clothing.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'Wtvk9KVv0kA', 'checked_by_vision_model': False, 'title': 'POGO Super Dance Session - Jamie Powers | Die Martina Hill Show | SAT.1'}
+Hero video: {'youtube_id': 'mi2q5-Ia-RU', 'checked_by_vision_model': True, 'title': 'Punks - Pogo - Stage Diving and The Mosh Pit'}
 Images: 0 licensed
 Footage: File:PogoCarCrashControlMotocultor2022.mpg — https://upload.wikimedia.org/wikipedia/commons/0/0d/PogoCarCrashControlMotocultor2022.mpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Parks, Spawns, Nests & Pikachu- OpenStreetMap & Pokemon GO players - Christopher Greene-Szmadzinski.webm — https://upload.wikimedia.org/wikipedia/commons/7/70/Parks%2C_Spawns%2C_Nests_%26_Pikachu-_OpenStreetMap_%26_Pokemon_GO_players_-_Christopher_Greene-Szmadzinski.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:WikiConecta - Introdução.webm — https://upload.wikimedia.org/wikipedia/commons/0/07/WikiConecta_-_Introdu%C3%A7%C3%A3o.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:WikiConecta - Módulo 1.webm — https://upload.wikimedia.org/wikipedia/commons/3/3c/WikiConecta_-_M%C3%B3dulo_1.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:WikiConecta - Módulo 2.webm — https://upload.wikimedia.org/wikipedia/commons/e/ec/WikiConecta_-_M%C3%B3dulo_2.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:WikiConecta - Módulo 3.webm — https://upload.wikimedia.org/wikipedia/commons/5/59/WikiConecta_-_M%C3%B3dulo_3.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Growth of mung bean seedlings.webm — https://upload.wikimedia.org/wikipedia/commons/4/40/Growth_of_mung_bean_seedlings.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Is it safe to mosh-.webm — https://upload.wikimedia.org/wikipedia/commons/c/cd/Is_it_safe_to_mosh-.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: leather jackets, crowded club stages, frantic jumping crowds
@@ -327,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the street-urban family studied · videos studied: 18
+Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
 Counting: 
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
 
 Sources (5): https://en.wikipedia.org/wiki/Pogo_(dance); https://www.wikidata.org/wiki/Q840880; https://es.wikipedia.org/wiki/Pogo_(baile); https://fr.wikipedia.org/wiki/Pogo_(danse); https://de.wikipedia.org/wiki/Pogo

@@ -1,8 +1,8 @@
 # Passamezzo — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.85 · 12/13 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 12/13 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A historically informed dance specialist with expertise in Renaissance court dances and music
@@ -313,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'A7AzGhMV1T8', 'checked_by_vision_model': False, 'title': 'Passamezzo'}
+Hero video: {'youtube_id': 'A7AzGhMV1T8', 'checked_by_vision_model': True, 'title': 'Passamezzo'}
 Images: 0 licensed
 Footage: Jordi Savall, La Capella Reial De Catalunya & Hespèrion XXI： Chancons, Villancico's & Danza's From The Neapolitan Renaissance Under Aragón (Songs From Cancionero De Montecassino) — https://archive.org/details/jordi-savall-la-capella-reial-de-catalunya-hesperion-xxi-chancons-villancicos-da
 Motifs: Renaissance court costumes, Lute and keyboard instruments, Manuscript pages with dance notation, Couples in procession, Chalk or wooden floor of a palace hall
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: count the 2/2 or 4/4 (binary rhythm) bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (5): https://en.wikipedia.org/wiki/Passamezzo; https://www.wikidata.org/wiki/Q1294481; https://es.wikipedia.org/wiki/Passamezzo; https://fr.wikipedia.org/wiki/Passamezzo; https://de.wikipedia.org/wiki/Passamezzo

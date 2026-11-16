@@ -2,7 +2,7 @@
  "slug": "jazz-dance",
  "name": "Jazz dance",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:11Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-09T20:54:18Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -849,15 +849,18 @@
   ]
  },
  "teaching_formula": {
-  "source": "2 tutorial(s) of this dance studied",
-  "videos_studied": 2,
+  "source": "3 tutorial(s) of this dance studied",
+  "videos_studied": 3,
   "counting": "5-6-7-8",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
-   "views used by most teachers: front, side",
+   "views used by most teachers: front, back, side",
    "tempo progression: full"
   ],
   "cues": [
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
    "don't forget to breathe",
    "drop your shoulders",
    "keep a flat back",
@@ -874,43 +877,60 @@
   ],
   "segment_order": [
    "intro",
-   "warmup"
+   "breakdown",
+   "warmup",
+   "recap"
   ],
   "steps_as_taught": [
    {
-    "name": "Jumping jacks",
-    "counts": "5-6-7-8",
-    "description": "Standard jumping jacks for cardio warm-up"
+    "name": "Jazz Walks",
+    "counts": "null",
+    "description": "Walking across the floor in jazz style."
    },
    {
-    "name": "High knees",
-    "counts": "5-6-7-8",
-    "description": "Marching with high knees and heel kicks"
+    "name": "Ball Change",
+    "counts": "null",
+    "description": "Stepping on the ball of the foot and changing weight."
    },
    {
-    "name": "Plie",
-    "counts": "1-2-3-4",
-    "description": "Bend knees in first and second position"
+    "name": "Pivot",
+    "counts": "null",
+    "description": "Pivoting around on the feet."
    },
    {
-    "name": "Jumping Jacks",
-    "counts": "4-3-2-1",
-    "description": "A full-body exercise involving jumping with legs apart and arms overhead."
+    "name": "Chainé Turns",
+    "counts": "null",
+    "description": "Linked turns rotating in a circle."
    },
    {
-    "name": "Plié",
-    "counts": "4-3-2-1",
-    "description": "A bending of the knees while keeping the back straight."
+    "name": "Piqué Turn",
+    "counts": "null",
+    "description": "Pricked turn stepping directly onto pointe or half-pointe."
    },
    {
-    "name": "Sumo Squat",
-    "counts": "4-3-2-1",
-    "description": "A wide-stance squat with knees pointing outward."
+    "name": "Pirouette",
+    "counts": "null",
+    "description": "Turn on one leg."
    },
    {
-    "name": "Runner's Lunge",
-    "counts": "4-3-2-1",
-    "description": "A deep lunge with one leg forward and the other extended back."
+    "name": "Battement",
+    "counts": "null",
+    "description": "High kick with straight legs and pointed toes."
+   },
+   {
+    "name": "Lindy",
+    "counts": "null",
+    "description": "Chassé ball change combination."
+   },
+   {
+    "name": "Chassé",
+    "counts": "null",
+    "description": "Gallop step chasing one foot with the other."
+   },
+   {
+    "name": "Jazz Leap",
+    "counts": "null",
+    "description": "Leaping across the room with arms in a high V."
    }
   ]
  },
@@ -928,6 +948,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "4c5c389e64f5976862ec61eced1e9ad8b92e616a64895483d3bae190e87d88de",
+ "input_fingerprint": "fe031ee73197fd781c34045d96894a9ecbe52fbd515a5e1aec00f6fcdfbbc072",
  "hero_checked": "pass"
 }

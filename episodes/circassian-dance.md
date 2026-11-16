@@ -1,8 +1,8 @@
 # Circassian dance — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.5 · 7/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.5 · 7/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed reference footage
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Circassian dance master with decades of teaching experience, emphasizing cultural respect and technical precision
@@ -318,7 +318,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'ua95fPR6HC8', 'checked_by_vision_model': False, 'title': 'Черкесский (адыгский) танец ЛЪАПЭРИСЭ, Caucasian dance'}
+Hero video: {'youtube_id': 'ua95fPR6HC8', 'checked_by_vision_model': True, 'title': 'Черкесский (адыгский) танец ЛЪАПЭРИСЭ, Caucasian dance'}
 Images: 5 licensed — Ragim West at Russian Wikipedia / Wikimedia Commons / Public domain (Public domain); Wikimedia Commons / Public domain (Public domain); Mechislav Dalkevich / Wikimedia Commons / Public domain (Public domain); Yegor Karneyev / Wikimedia Commons / Public domain (Public domain); John Augustus Longworth / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Leather boots and bullet cartridge belts, Gliding women in flowing dresses, Circle formations and partner bows, Hands behind back and precise arm gestures, Dagger and sword props
@@ -328,9 +328,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (3): https://en.wikipedia.org/wiki/Circassian_dance; https://www.wikidata.org/wiki/Q55607663; https://en.wikipedia.org/wiki/Circassian_music

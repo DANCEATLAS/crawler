@@ -1,8 +1,8 @@
 # Wotagei — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced wotagei performer and fan, enthusiastic and clear in teaching moves
@@ -323,7 +323,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performers are fans (wota) usually dressed casually or in fan-related attire. Glow sticks or penlights are standard accessories. Wotagei is performed at idol concerts, anime and manga conventions, fan meetings, and sometimes outside venues or at DJ events. Because of space needs, performances often occur at the back of venues or designated areas at festivals. The setting is informal but energetic, with a communal atmosphere.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'MuvJR2Pc9Vc', 'checked_by_vision_model': False, 'title': 'Butter-Fly / 和田光司 ヲタ芸で表現してみた｜Digimon op Butter-Fly Light Dance [北の打ち師達×有志×DJ和]'}
+Hero video: {'youtube_id': 'MuvJR2Pc9Vc', 'checked_by_vision_model': True, 'title': 'Butter-Fly / 和田光司 ヲタ芸で表現してみた｜Digimon op Butter-Fly Light Dance [北の打ち師達×有志×DJ和]'}
 Images: 1 licensed — Ryo FUKAsawa / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: Glow sticks creating light trails, Fans clapping and chanting in unison, Close-ups of arm and body movements, Crowd scenes at concerts and conventions
@@ -333,9 +333,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: count the not explicitly described; follows J-pop song structure bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (5): https://en.wikipedia.org/wiki/Wotagei; https://www.wikidata.org/wiki/Q2636818; https://es.wikipedia.org/wiki/Wotagei; https://fr.wikipedia.org/wiki/Wotagei; https://it.wikipedia.org/wiki/Wotagei

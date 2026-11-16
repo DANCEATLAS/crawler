@@ -1,8 +1,8 @@
 # passacaglia — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A musicologist with a background in both Baroque organ performance and Andean folk music.
@@ -306,7 +306,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historically performed in court settings in Europe. In the Andean context, it is performed in public squares, streets, and during civic festivals, often by municipal bands.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '3AICNrKts3A', 'checked_by_vision_model': False, 'title': 'Passacaglia'}
+Hero video: {'youtube_id': '3AICNrKts3A', 'checked_by_vision_model': True, 'title': 'Passacaglia'}
 Images: 0 licensed
 Footage: File:Passacaglia - 파사칼리아 Handel-Halvorsen 헨델-할보르센 piano cover ピアノ.webm — https://upload.wikimedia.org/wikipedia/commons/a/aa/Passacaglia_-_%ED%8C%8C%EC%82%AC%EC%B9%BC%EB%A6%AC%EC%95%84_Handel-Halvorsen_%ED%97%A8%EB%8D%B8-%ED%95%A0%EB%B3%B4%EB%A5%B4%EC%84%BC_piano_cover_%E3%83%94%E3%82%A2%E3%83%8E.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Toccata 9, Passacaglia, Corrente 5 et Gagliarda 5.webm — https://upload.wikimedia.org/wikipedia/commons/7/76/Toccata_9%2C_Passacaglia%2C_Corrente_5_et_Gagliarda_5.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Bach - Passacaglia and Fugue in C Minor on Melodica Quartet.webm — https://upload.wikimedia.org/wikipedia/commons/8/8e/Bach_-_Passacaglia_and_Fugue_in_C_Minor_on_Melodica_Quartet.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Ottorino Respighi, ANTICHE ARIE E DANZE PER LIUTO, TRITTICO BOTTICELLIANO - Seiji Ozawa, Geoffrey Simon — https://archive.org/details/respighi-antiche-arie-e-danze-per-liuto-i-ii-iii-trittico-botticelliano; File:Entrevista en pasacalle de San Borja.webm — https://upload.wikimedia.org/wikipedia/commons/b/bb/Entrevista_en_pasacalle_de_San_Borja.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Pasacalles Navideño - Municipalidad de Maipú - 2023.webm — https://upload.wikimedia.org/wikipedia/commons/0/03/Pasacalles_Navide%C3%B1o_-_Municipalidad_de_Maip%C3%BA_-_2023.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Procesión (video-converter.com).webm — https://upload.wikimedia.org/wikipedia/commons/6/6a/Procesi%C3%B3n_%28video-converter.com%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Pasacalle comisión fallera.webm — https://upload.wikimedia.org/wikipedia/commons/0/00/Pasacalle_comisi%C3%B3n_fallera.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Close-up of a Baroque guitar fretboard., Architectural shots of a 17th-century Spanish street., Wide shots of a brass band marching in an Ecuadorian plaza.
@@ -316,9 +316,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 1-2-3, 2-2-3 (three counts a bar)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (6): https://en.wikipedia.org/wiki/Passacaglia; https://www.wikidata.org/wiki/Q752329; https://es.wikipedia.org/wiki/Pasacalle; https://fr.wikipedia.org/wiki/Passacaille; https://de.wikipedia.org/wiki/Passacaglia; https://archive.org/details/31761034841437

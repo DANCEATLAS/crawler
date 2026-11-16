@@ -2,7 +2,7 @@
  "slug": "traditional-square-dance",
  "name": "Traditional Square Dance",
  "pack_version": "e2",
- "built_at": "2026-11-15T18:05:17Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-06T17:36:16Z",
  "qc_score": 9.6,
  "status": "draft",
@@ -704,7 +704,7 @@
  "visual_brief": {
   "hero_video": {
    "youtube_id": "ZWuQK0WFE44",
-   "checked_by_vision_model": false,
+   "checked_by_vision_model": true,
    "title": "The Ninepin square dance"
   },
   "wardrobe": {
@@ -795,8 +795,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "19 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 19,
+  "source": "24 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 24,
   "counting": "1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -805,6 +805,9 @@
    "repetitions per step: about 4"
   ],
   "cues": [
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
    "pull back and lean to the left",
    "close in open on and",
    "milk down knees are bent",
@@ -813,18 +816,15 @@
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "get up from the sleep",
-   "take your chest out",
-   "punch it",
-   "jump like a baby"
+   "open your right leg"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "count_in",
-   "full_demo",
    "breakdown",
    "warmup",
+   "full_demo",
    "slow_practice",
    "music_practice",
    "recap"
@@ -833,7 +833,6 @@
  },
  "gaps": [
   "a verified recording to listen to",
-  "the hero video's vision check",
   "licensed images (3 needed)",
   "what to avoid / common mistakes"
  ],
@@ -845,6 +844,6 @@
  "claims_verified": 7,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "c53b3375da7bf65c84b818ddd82227ad5f6d64854ba4b371c72343848926762c",
- "hero_checked": null
+ "input_fingerprint": "64d0887a2d44cdb626a64f49855bff3d18d6c6cfd4368661679cf196be84deff",
+ "hero_checked": "pass"
 }

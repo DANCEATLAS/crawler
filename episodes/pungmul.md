@@ -1,8 +1,8 @@
 # Pungmul — episode pack
 
-*Status: draft · built 2026-11-15 · judge 10.0 · 6/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 6/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; the how-it-is-danced section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced pungmul performer with deep knowledge of traditional rhythms and dance, approachable and encouraging
@@ -327,7 +327,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '4oiODXIUkiY', 'checked_by_vision_model': False, 'title': 'Korean Folk Village: Nongak (farmer’s music)'}
+Hero video: {'youtube_id': '4oiODXIUkiY', 'checked_by_vision_model': True, 'title': 'Korean Folk Village: Nongak (farmer’s music)'}
 Images: 8 licensed — Gisling / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); by mary_gaston22 / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); leigh cooper / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); hojusaram / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Jamie Price / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: Samulnori. Musiche e danze della Corea, compagnia PUNG-MU-AK: 6 novembre 2000 - Arena del Sole — https://archive.org/details/20001106.samulnori; e_history_StreamRoot_DH_0342_19611130_01 — https://archive.org/details/e_history_StreamRoot_DH_0342_19611130_01
 Motifs: Spinning ribbons, Colorful costumes, Outdoor village streets, Drumsticks striking drums, Processional banners
@@ -337,9 +337,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (6): https://en.wikipedia.org/wiki/Pungmul; https://www.wikidata.org/wiki/Q497674; https://es.wikipedia.org/wiki/Pungmul; https://fr.wikipedia.org/wiki/Pungmul; https://de.wikipedia.org/wiki/Pungmul; https://en.wikipedia.org/wiki/Traditional_Korean_rhythm

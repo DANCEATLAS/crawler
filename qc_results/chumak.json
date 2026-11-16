@@ -1,0 +1,119 @@
+{
+ "slug": "chumak",
+ "qc_at": "2026-11-16T21:53:34Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 9.45,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Chumak"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "65"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "176"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": false,
+   "detail": "In one variation, a young dancer performs a dramatic fall to the ground, feignin"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "458"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2444"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "7/7 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "2"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Ukraine"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "3 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=['spirit']"
+  }
+ ],
+ "judge": {
+  "accuracy": 10,
+  "respect": 10,
+  "specificity": 9,
+  "teaching_value": 8,
+  "is_a_dance": true,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 9,
+  "verdict": "publish",
+  "notes": "Accurate and well-written entry supported entirely by the provided evidence claims. Captures both the narrative occupational mime and the specific solo character variations of the Ukrainian Chumak dance accurately and respectfully."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "insight_concrete",
+  "judge_score=9.45"
+ ],
+ "citation": {
+  "claims": 7,
+  "supported": 7,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-16T20:16:46Z"
+}

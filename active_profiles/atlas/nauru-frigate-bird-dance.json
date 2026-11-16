@@ -1,18 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "Rhythmic singing."
+    },
     "teaching": {
       "basic_steps": [],
-      "formation": "traditional reigen",
-      "level_notes": "Technique not described in sources.",
-      "rhythm": "rhythmic singing"
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "ae4b7665c9a82d7d0939091289d594234e3e9cf528e302c385bb7d820b396ece",
+  "fingerprint": "a12103f0683febb72982a16259979f7f0f53232bc781c5d66c77e81719659c80",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -22,7 +64,8 @@
     "research": [
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Are there extant video archives or ethnographic field notes detailing the specific movements of the Frigate Bird Dance? Evidence needed: Ethnographic records or contemporary performance footage from Nauruan cultural festivals."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -49,6 +92,17 @@
   ],
   "music_options": [],
   "name": "Frigate Bird Dance (Nauru)",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "5d11a8289e8c2731",
+      "next_evidence": "Ethnographic records or contemporary performance footage from Nauruan cultural festivals.",
+      "question": "Are there extant video archives or ethnographic field notes detailing the specific movements of the Frigate Bird Dance?",
+      "source": "https://en.wikipedia.org/wiki/Culture_of_Nauru",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only name the dance; they do not describe the movement, making it impossible to teach or reconstruct."
+    }
+  ],
   "research_file": "research_results/nauru-frigate-bird-dance.json",
   "runtime_active": false,
   "scope": {

@@ -1,6 +1,6 @@
 # Sheethankan Thullal — episode pack
 
-*Status: draft · built 2026-11-13 · judge 8.65 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 8.65 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); instruments; a verified recording to listen to; a hero video; licensed reference footage; signature moves; teaching steps written out; what to avoid / common mistakes
 
@@ -292,9 +292,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
+Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
 Counting: count the Kakali bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (2): https://en.wikipedia.org/wiki/Sheethankan_Thullal; https://www.wikidata.org/wiki/Q16134567

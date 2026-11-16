@@ -1,8 +1,8 @@
 # Farruca — episode pack
 
-*Status: draft · built 2026-11-15 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A professional flamenco dancer with a focus on stage presence and rhythmic precision.
@@ -325,7 +325,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historically associated with male dress, including capes in older descriptions. Women have performed it in male clothing or contemporary stage attire.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '3j5IRvgQAS8', 'checked_by_vision_model': False, 'title': 'Pablo Egea - Farruca'}
+Hero video: {'youtube_id': '3j5IRvgQAS8', 'checked_by_vision_model': True, 'title': 'Pablo Egea - Farruca'}
 Images: 0 licensed
 Footage: Men Dancing 10 — https://archive.org/details/csfpal_000160; Bailes Tipicos Españoles Angelita Y Mª Del Carmen Romero ( 1984) LP Completo — https://archive.org/details/BailesTipicosEspaolesAngelitaYMDelCarmenRomero1984LPCompleto; The Art Of Guitar Flamenco By Pepe Romero Spanish Dance, Zorrongo, Farruca Y Rumba .. ( Ct.rc..) — https://archive.org/details/the-art-of-guitar-flamenco-by-pepe-romero-spanish-dance-zorrongo-farruca-y-rumba-..-ct.rc..
 Motifs: Close-up of feet striking the floor., The silhouette of a dancer in a dramatic pause., Guitarist's hands on the fretboard.
@@ -335,9 +335,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
+Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (7): https://en.wikipedia.org/wiki/Farruca; https://www.wikidata.org/wiki/Q2557688; https://fr.wikipedia.org/wiki/Farruca; https://de.wikipedia.org/wiki/Farruca; https://it.wikipedia.org/wiki/Farruca; https://archive.org/details/elsombrerodetres00fall_0; https://archive.org/details/31761034898247

@@ -1,0 +1,121 @@
+{
+ "slug": "carol",
+ "qc_at": "2026-11-16T21:51:40Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "reject",
+ "qc_score": 8.4,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Carol"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "71"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "153"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Originating as an Old French circle dance from the 1150s, the carol evolved into"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "531"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "1616"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "6/6 rate=1.0"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "Kingdom of England"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "4 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['sacred', 'liturg', 'religious']"
+  }
+ ],
+ "judge": {
+  "accuracy": 9,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 5,
+  "is_a_dance": false,
+  "factual_doubt": [],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "The subject is a musical form that evolved from a dance, rather than a living dance tradition. While the historical context is excellent, the 'teaching' section is necessarily sparse due to the lack of surviving movement documentation. It is accurately framed as a historical dance form that has transitioned into a vocal tradition."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "sacred_handled",
+  "judge_score=8.4",
+  "not_a_dance",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
+ },
+ "researched_at": "2026-11-16T06:50:15Z"
+}

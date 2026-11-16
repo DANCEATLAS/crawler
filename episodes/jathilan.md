@@ -1,8 +1,8 @@
 # Jathilan — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.55 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.55 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced East Javanese dance elder and troupe leader from Ponorogo who teaches precise cavalry formations and bamboo horse manipulation.
@@ -300,7 +300,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'xYvUGPcGM-8', 'checked_by_vision_model': False, 'title': 'Esti Indah P.L- The Glamourous of Jathilan Ponorogo'}
+Hero video: {'youtube_id': 'xYvUGPcGM-8', 'checked_by_vision_model': True, 'title': 'Esti Indah P.L- The Glamourous of Jathilan Ponorogo'}
 Images: 8 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Gunawan Kartapranata / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Unknown authorUnknown author / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Crisco 1492 / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Haridi123 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Tarian jathilan.webm — https://upload.wikimedia.org/wikipedia/commons/d/da/Tarian_jathilan.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Seni tari jathilan.webm — https://upload.wikimedia.org/wikipedia/commons/6/62/Seni_tari_jathilan.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Intricately painted woven bamboo horses with sequin trim., Small brass ankle bells ringing in rhythm with footwork., Cordoned circular performance dirt arenas filled with spectators.
@@ -310,9 +310,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (3): https://en.wikipedia.org/wiki/Kuda_Lumping; https://www.wikidata.org/wiki/Q11233468; https://archive.org/details/ERIC_EJ1157154

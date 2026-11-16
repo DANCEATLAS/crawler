@@ -1,10 +1,10 @@
 {
  "slug": "shamia-e-beqarit",
- "qc_at": "2026-11-02T14:49:08Z",
+ "qc_at": "2026-11-16T21:50:41Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "review",
- "qc_score": 7.3,
+ "qc_score": 7.15,
  "gates": [
   {
    "gate": "has_name",
@@ -19,32 +19,32 @@
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "126"
+   "detail": "175"
   },
   {
    "gate": "insight_concrete",
-   "ok": true,
-   "detail": "Performed as the final act of an Albanian wedding, the bride and groom dance whi"
+   "ok": false,
+   "detail": "The bride and groom conclude their wedding ceremony by dancing together while ri"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "345"
+   "detail": "304"
   },
   {
    "gate": "profile_long_len",
    "ok": false,
-   "detail": "567"
+   "detail": "1093"
   },
   {
    "gate": "sections_filled",
-   "ok": false,
-   "detail": "origins_and_history,occasions_and_meaning"
+   "ok": true,
+   "detail": "origins_and_history,music_and_instruments,costume_and_setting,occasions_and_meaning"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "4/4 rate=1.0"
+   "detail": "5/5 rate=1.0"
   },
   {
    "gate": "sources",
@@ -91,31 +91,31 @@
   "accuracy": 10,
   "respect": 10,
   "specificity": 4,
-  "teaching_value": 2,
+  "teaching_value": 1,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
+  "adaptations_safe": true,
   "overall": 6,
-  "review": "review",
-  "notes": "Accurate to the very sparse evidence provided, but lacks specific details on technique, music, and history, limiting its teaching value.",
-  "verdict": "review"
+  "verdict": "publish",
+  "notes": "The profile is highly accurate based on the provided evidence but lacks depth due to the scarcity of documented technical details. It correctly identifies the ritual nature of the dance and maintains a respectful tone. The lack of teaching value is appropriate given the sacred/ritual nature of the practice."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
+  "insight_concrete",
   "profile_long_len",
-  "sections_filled",
-  "judge_score=7.3",
+  "judge_score=7.15",
   "sacred"
  ],
  "citation": {
-  "claims": 4,
-  "supported": 4,
+  "claims": 5,
+  "supported": 5,
   "rate": 1.0
  },
- "researched_at": "2026-10-29T16:28:06Z"
+ "researched_at": "2026-11-16T21:41:26Z"
 }

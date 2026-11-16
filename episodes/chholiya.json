@@ -2,7 +2,7 @@
  "slug": "chholiya",
  "name": "Chholiya",
  "pack_version": "e2",
- "built_at": "2026-11-15T18:05:17Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-15T17:11:50Z",
  "qc_score": 9.85,
  "status": "withheld-chapters",
@@ -68,7 +68,7 @@
      "This is Chholiya. 10th century."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video, first 10 seconds (X_qCnIl9qYw)",
      "Title card: Chholiya · India · 10th century"
     ],
     "music": "theme (30 s)"
@@ -110,7 +110,7 @@
      "Watch for Saraanv, Nishana waving."
     ],
     "on_screen": [
-     "Hero video — MISSING",
+     "Hero video full screen, 30–45 s (X_qCnIl9qYw)",
      "Captions name each signature move as it appears",
      "Formation: Synchronized ensemble moving in procession, deploying eight dancers and fourteen musicians behind a triangular red flag."
     ],
@@ -276,7 +276,11 @@
   ]
  },
  "visual_brief": {
-  "hero_video": null,
+  "hero_video": {
+   "youtube_id": "X_qCnIl9qYw",
+   "checked_by_vision_model": false,
+   "title": "Kumauni marriage dance video||Chholiya dance in village ||Khadak_weds_ganga"
+  },
   "wardrobe": {
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
@@ -332,8 +336,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "19 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 19,
+  "source": "24 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 24,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
@@ -342,6 +346,9 @@
    "repetitions per step: about 4"
   ],
   "cues": [
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
    "pull back and lean to the left",
    "close in open on and",
    "milk down knees are bent",
@@ -350,18 +357,15 @@
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "get up from the sleep",
-   "take your chest out",
-   "punch it",
-   "jump like a baby"
+   "open your right leg"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "count_in",
-   "full_demo",
    "breakdown",
    "warmup",
+   "full_demo",
    "slow_practice",
    "music_practice",
    "recap"
@@ -372,7 +376,7 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "a hero video",
+  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the how-it-is-danced section",
@@ -386,6 +390,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "4dfa1ff828f5f07da1e761c522e7dd385513987494ce7439951de3c265350f65",
+ "input_fingerprint": "abab7888ab022516dd5ee311c8235d13d56c12f9b09640190d8ad224b7351ab1",
  "hero_checked": null
 }

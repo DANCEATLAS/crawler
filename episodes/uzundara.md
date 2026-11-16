@@ -1,8 +1,8 @@
 # Uzundara — episode pack
 
-*Status: draft · built 2026-11-15 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; lineage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; lineage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A cultural historian or traditional dance expert from the Caucasus.
@@ -301,7 +301,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Traditionally performed by women at weddings, following the solemn dances of the matchmaker, parents, and groom.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'Ru4QHbnEuaI', 'checked_by_vision_model': False, 'title': 'Uzundara reqsi (alireza.alizad/sahar janeshin)     #dance #azarbaijan #uzundere'}
+Hero video: {'youtube_id': 'Ru4QHbnEuaI', 'checked_by_vision_model': True, 'title': 'Uzundara reqsi (alireza.alizad/sahar janeshin)     #dance #azarbaijan #uzundere'}
 Images: 0 licensed
 Footage: File:Uzundara, ancient Armenian ritual dance.webm — https://upload.wikimedia.org/wikipedia/commons/0/0b/Uzundara%2C_ancient_Armenian_ritual_dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: The landscape of the Karabakh valley, Traditional wedding attire, Close-ups of footwork
@@ -311,9 +311,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (2): https://en.wikipedia.org/wiki/Uzundara; https://www.wikidata.org/wiki/Q2508077

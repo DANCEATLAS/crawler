@@ -2,7 +2,7 @@
  "slug": "seungmu",
  "name": "Seungmu",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:12Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-02T20:33:19Z",
  "qc_score": 9.5,
  "status": "draft",
@@ -722,7 +722,7 @@
  "visual_brief": {
   "hero_video": {
    "youtube_id": "cutUivfBScc",
-   "checked_by_vision_model": false,
+   "checked_by_vision_model": true,
    "title": "SEUNGMU (僧舞, KOREAN BUDDHIST DANCE)"
   },
   "wardrobe": {
@@ -779,16 +779,18 @@
   ]
  },
  "teaching_formula": {
-  "source": "2 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 2,
+  "source": "3 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 3,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back",
+   "views used by most teachers: front, mirror, back",
    "tempo progression: slow → full",
    "repetitions per step: about 5"
   ],
   "cues": [
+   "let's do this",
+   "praise freestyle",
    "hold your knife out",
    "every time the blade faces down",
    "two thumbs are facing up",
@@ -798,9 +800,9 @@
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "full_demo",
    "context",
    "breakdown",
+   "full_demo",
    "music_practice",
    "recap",
    "slow_practice"
@@ -811,7 +813,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "two or more connections",
@@ -825,6 +826,6 @@
  "claims_verified": 5,
  "claims": 5,
  "polished": false,
- "input_fingerprint": "e359aab21425ff0fb343ab8ecaf1d5f43d421879acf8bfea64fddcbf05cd3864",
- "hero_checked": null
+ "input_fingerprint": "c0b48b06d82f61c6a0913cb089590553d89948c8b25fcae0918c153437e07198",
+ "hero_checked": "pass"
 }

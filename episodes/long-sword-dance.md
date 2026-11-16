@@ -1,8 +1,8 @@
 # Long Sword dance — episode pack
 
-*Status: draft · built 2026-11-11 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; posture, arms and hands; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; posture, arms and hands; the music & instruments section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Steel Star of Yorkshire
 NARRATION: This is Long Sword dance. 18th-21st century.
-ON SCREEN: Hero video, first 10 seconds (ke5kw7jjlzg)
+ON SCREEN: Hero video, first 10 seconds (Jk8wtdD_5fM)
 ON SCREEN: Title card: Long Sword dance · England · 18th-21st century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance uses rigid metal or wooden swords.
 NARRATION: It is a hilt-and-point style.
 NARRATION: Movements vary by team, ranging from slow and militaristic to fast-paced.
 NARRATION: Watch for The Lock.
-ON SCREEN: Hero video full screen, 30–45 s (ke5kw7jjlzg)
+ON SCREEN: Hero video full screen, 30–45 s (Jk8wtdD_5fM)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -278,7 +278,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'ke5kw7jjlzg', 'checked_by_vision_model': False, 'title': '[No. 05] Korea\'s Traditional Sword Danceㅡ"Gyeok Vigor"'}
+Hero video: {'youtube_id': 'Jk8wtdD_5fM', 'checked_by_vision_model': True, 'title': 'Yorkshire Long Sword Dance'}
 Images: 4 licensed — Gerry Bates at English Wikipedia / Wikimedia Commons / Public domain (Public domain); Gerry Bates at English Wikipedia / Wikimedia Commons / Public domain (Public domain); Gerry Bates at English Wikipedia / Wikimedia Commons / Public domain (Public domain); donald judge / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: Paris Dijon 1961 Long Sword Dancing — https://archive.org/details/paris-dijon-1961-long-sword-dancing; File:Newcastle Kingsmen performing longsword dance at Sidmouth Folk Festival, 2011 (01) (video-converter.com).webm — https://upload.wikimedia.org/wikipedia/commons/e/e3/Newcastle_Kingsmen_performing_longsword_dance_at_Sidmouth_Folk_Festival%2C_2011_%2801%29_%28video-converter.com%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Newcastle Kingsmen performing Grenoside longsword dance at Sidmouth Folk Festival, 2011 (01) (video-converter.com).webm — https://upload.wikimedia.org/wikipedia/commons/c/c1/Newcastle_Kingsmen_performing_Grenoside_longsword_dance_at_Sidmouth_Folk_Festival%2C_2011_%2801%29_%28video-converter.com%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Southport Sword at the JMO Day of Dance in Liverpool, 9 April 2022.webm — https://upload.wikimedia.org/wikipedia/commons/5/53/Southport_Sword_at_the_JMO_Day_of_Dance_in_Liverpool%2C_9_April_2022.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Newcastle Kingsmen dancing Grenoside longsword dance.webm — https://upload.wikimedia.org/wikipedia/commons/d/d0/Newcastle_Kingsmen_dancing_Grenoside_longsword_dance.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; John Savill's Morris & Sword Dances of England Videos 1 & 2 — https://archive.org/details/vts-01-1-2_20240912; John Savill's Morris and Sword Dances of England Video 1 — https://archive.org/details/vts-01-1_20240912
 Motifs: Rigid metal swords, The woven star lock, Village streets in winter
@@ -288,9 +288,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
+Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
 Counting: 
-Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (4): https://en.wikipedia.org/wiki/Long_sword_dance; https://www.wikidata.org/wiki/Q1762817; https://fr.wikipedia.org/wiki/Long_Sword_dance; https://de.wikipedia.org/wiki/Long_Sword_Dance

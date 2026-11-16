@@ -1,8 +1,8 @@
 # Romantic ballet — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.7 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; the hero video's vision check; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Dance historian or classical ballet master
@@ -293,7 +293,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'p44uqVJ2fuo', 'checked_by_vision_model': False, 'title': 'Romantic Ballet Performance for a wedding.'}
+Hero video: {'youtube_id': 'p44uqVJ2fuo', 'checked_by_vision_model': True, 'title': 'Romantic Ballet Performance for a wedding.'}
 Images: 1 licensed — Alfred Edward Chalon (1780-1860) / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: White tulle, Gaslight glow, Moonlit stage

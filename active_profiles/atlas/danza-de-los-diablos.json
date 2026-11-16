@@ -4,57 +4,75 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Angels use swords and shields; demons use expressive, monstrous gestures",
+      "arms_and_hands": "Angels carry swords and shields; demons often hold capes or serpents.",
       "difficulty": "advanced",
-      "footwork": "Marching steps and jumped kicks",
-      "formation_and_space": "Two opposing camps forming circles and crosses",
+      "footwork": "High-stepping marches and explosive kick-jumps (pieds sautés).",
+      "formation_and_space": "Linear columns, circular rotations, and intersecting crosses in public squares.",
       "hips_and_torso": "not described in sources",
-      "levels_and_jumps": "Includes jumps and ground-level engagement",
-      "partnering": "Angels and demons engage in symbolic combat",
-      "posture": "Upright and aggressive for demons; poised and defensive for angels",
+      "levels_and_jumps": "Frequent high jumps and occasional kneeling during the 'defeat' sequence.",
+      "partnering": "Confrontational pairing where each demon faces an angel.",
+      "posture": "Upright and commanding for angels; crouched and aggressive for demons.",
       "signature_moves": [
         {
-          "description": "Aggressive jumping movement performed by the devil characters",
-          "name": "Demon jump"
+          "description": "Explosive kick-jumps performed by the devil characters.",
+          "name": "Pieds sautés"
         }
       ],
-      "tempo_feel": "Steady and driving",
-      "what_to_avoid": "Do not attempt with heavy costumes without proper physical conditioning."
+      "tempo_feel": "Stately during the march, accelerating during the Mecapaqueña.",
+      "what_to_avoid": "Avoid excessive spinal strain when wearing the heavy 30kg masks."
     },
     "music_profile": {
       "instruments": [
-        "siku",
-        "orchestra"
+        "Siku",
+        "Bass drum",
+        "Snare drum",
+        "Cymbals",
+        "Triangle",
+        "Brass instruments"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "dramatic",
-        "ritualistic",
-        "energetic"
+        "Aggressive",
+        "Triumphant",
+        "Festive",
+        "Ritualistic"
       ],
-      "musical_form": "Two-part structure: March and Devil's Mecapaqueña",
-      "reference_recordings": [],
-      "rhythm_pattern": "March and Mecapaqueña",
-      "sound_description": "A rhythmic, driving sound featuring panpipes or orchestral brass, characterized by a steady, march-like cadence that transitions into the more complex Mecapaqueña.",
+      "musical_form": "Two-part structure: March followed by Mecapaqueña.",
+      "reference_recordings": [
+        {
+          "artist": "Banda Intercontinental Poopó",
+          "title": "Marcha de la Diablada"
+        }
+      ],
+      "rhythm_pattern": "Syncopated huaynos and formal marches.",
+      "sound_description": "A powerful brass-heavy sound characterized by crashing cymbals and driving percussion, transitioning from a formal military-style march to a faster, syncopated Andean rhythm.",
       "tempo_bpm": "not described in sources",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Marching in rhythm with the music",
-        "Lateral movement in two opposing lines",
-        "Coordinated jumps for the demon characters",
-        "Sword-wielding gestures for the angel characters"
+        "The March: A rhythmic, high-stepping walk used for the entrance.",
+        "The Jump: Demons perform explosive, two-footed or alternating kick-jumps.",
+        "The Cross: A group formation where lines of dancers intersect.",
+        "The Circle: Dancers rotate around a central point, often the Archangel.",
+        "The Confrontation: A series of aggressive lunges toward the opposing side.",
+        "The Mecapaqueña: A faster, more syncopated footwork sequence.",
+        "The Defeat: A kneeling or bowing gesture performed by the devils at the end."
       ],
-      "formation": "Two opposing lines or groups representing angels and demons",
-      "level_notes": "Requires significant physical endurance due to the weight of traditional costumes.",
-      "rhythm": "March tempo"
+      "formation": "Two columns (angels vs. demons) led by the Archangel.",
+      "level_notes": "Requires extreme physical stamina due to costume weight.",
+      "rhythm": "Syncopated march and huayno-influenced rhythms."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "2a9adf496e4e505b7397cf5e4a9359bd1bdc22d2b8d37c596adeabc578f98795",
+  "fingerprint": "9c12317a27c0256245431df1fdc33dc22d38e6b96d110309a98d370a01142278",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -63,7 +81,8 @@
     ],
     "research": [
       "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What is the exact musical meter (e.g., 2/4 or 4/4) of the Mecapaqueña section? Evidence needed: https://en.wikipedia.org/wiki/Diablada"
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -79,7 +98,8 @@
     ],
     "video": [
       "Timestamped movement and teaching evidence with observation limits",
-      "Compare independent teachers/variants; preserve unique methods"
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific mechanics of the 'seven moves' in the Oruro choreography? Evidence needed: https://en.wikipedia.org/wiki/Diablada"
     ]
   },
   "id": "atlas:danza-de-los-diablos",
@@ -90,6 +110,26 @@
   ],
   "music_options": [],
   "name": "Danza de los Diablos (Diablada)",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "f8d9892850a9b6e7",
+      "next_evidence": "https://en.wikipedia.org/wiki/Diablada",
+      "question": "What are the specific mechanics of the 'seven moves' in the Oruro choreography?",
+      "source": "https://en.wikipedia.org/wiki/Diablada",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a usable lesson ladder beyond the basic march and jump."
+    },
+    {
+      "domain": "research",
+      "id": "ac76d7b27d0c7770",
+      "next_evidence": "https://en.wikipedia.org/wiki/Diablada",
+      "question": "What is the exact musical meter (e.g., 2/4 or 4/4) of the Mecapaqueña section?",
+      "source": "https://en.wikipedia.org/wiki/Diablada",
+      "status": "candidate_unreviewed",
+      "why_needed": "To allow a composer or drummer to accurately recreate the rhythm pattern."
+    }
+  ],
   "research_file": "research_results/danza-de-los-diablos.json",
   "runtime_active": false,
   "scope": {
@@ -105,7 +145,8 @@
     "https://www.wikidata.org/wiki/Q17080921",
     "https://es.wikipedia.org/wiki/Diablada",
     "https://fr.wikipedia.org/wiki/Diablada",
-    "https://pt.wikipedia.org/wiki/Diablada"
+    "https://pt.wikipedia.org/wiki/Diablada",
+    "https://it.wikipedia.org/wiki/Diablada"
   ],
   "state": "teaching_withheld",
   "video_evidence": []

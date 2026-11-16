@@ -42,7 +42,7 @@
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "be9b1900ec3a6a59c76f4087792152b700bf81b21d64209cea433a416128fbac",
+  "fingerprint": "7d56c31c6ac448a000ba3d160485699c703c449038d251422b0a30079d3fe1fa",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -67,7 +67,6 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Timestamped movement and teaching evidence with observation limits",
       "Compare independent teachers/variants; preserve unique methods"
     ]
   },
@@ -79,6 +78,7 @@
   ],
   "music_options": [],
   "name": "Worship dance",
+  "open_questions": [],
   "research_file": "research_results/worship-dance.json",
   "runtime_active": false,
   "scope": {
@@ -94,5 +94,11 @@
     "https://www.wikidata.org/wiki/Q8036987"
   ],
   "state": "teaching_withheld",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/DU5bMb1KNsk.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=DU5bMb1KNsk"
+    }
+  ]
 }

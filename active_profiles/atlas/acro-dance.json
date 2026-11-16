@@ -1,13 +1,77 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "duration_minutes": "Not derivable yet",
+        "game_version": "Not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "Not derivable yet",
+        "seated_version": "Not derivable yet",
+        "standing_version": "Not derivable yet",
+        "tempo_and_range": "Not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "Utilizes jazz shoes or foot thongs for traction and cushioning on hard surfaces.",
+      "formation_and_space": "Solo, pair, or group formations; requires fluid transitions across the performance space.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes various tricks of varying complexity; requires strength, flexibility, and balance.",
+      "partnering": "Includes lifts, adagio, and partner tricks like the pitch tuck.",
+      "posture": "Upright and form-fitting; body lines are emphasized.",
+      "signature_moves": [
+        {
+          "description": "One dancer forms a saddle with hands to propel a partner upward for a rotation.",
+          "name": "Pitch tuck"
+        },
+        {
+          "description": "A group trick involving multiple dancers forming a pyramid structure.",
+          "name": "Bridge pyramid"
+        },
+        {
+          "description": "A group acrobatic movement.",
+          "name": "Triple cartwheel"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Loose clothing that does not move synchronously with the body; performing on surfaces without proper traction or cushioning."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Press up handstand",
+        "Cartwheel",
+        "Bridge pyramid"
+      ],
+      "formation": "Solo, pair (partnering), or group.",
+      "level_notes": "Requires training in both dance technique and acrobatic skills.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "7cbe185d638be1b3d3f5273cb69a9a3d249c38509a2be99a4784ee934f0990a3",
+  "fingerprint": "871c0d8602e87ea5f62152eb6f4ff836b85d1d31794bac201688ac8749564de1",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +79,9 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the standard musical accompaniments or rhythmic structures used in competitive acro dance? Evidence needed: Music theory analysis of competitive acro routines."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,7 +108,18 @@
   ],
   "music_options": [],
   "name": "Acro dance",
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "fa00850cffea123b",
+      "next_evidence": "Music theory analysis of competitive acro routines.",
+      "question": "What are the standard musical accompaniments or rhythmic structures used in competitive acro dance?",
+      "source": "https://en.wikipedia.org/wiki/Acro_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources do not define the musicality of the dance, which is essential for teaching."
+    }
+  ],
+  "research_file": "research_results/acro-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +131,10 @@
   "slug": "acro-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Acro_dance",
-    "Source: Acro dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Acro_dance"
+    "https://www.wikidata.org/wiki/Q2603192",
+    "https://es.wikipedia.org/wiki/Danza_acrobática",
+    "https://pt.wikipedia.org/wiki/Dança_acrobática",
+    "https://it.wikipedia.org/wiki/Danza_acrobatica"
   ],
   "state": "researching",
   "video_evidence": []

@@ -1,8 +1,8 @@
 # St. Louis shag — episode pack
 
-*Status: draft · built 2026-11-15 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the occasions & meaning section; the costume & setting section; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the occasions & meaning section; the costume & setting section; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable swing dance historian and practitioner.
@@ -300,7 +300,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '6JHQSCt1Zbk', 'checked_by_vision_model': False, 'title': 'RTSF 2015 - Christian & Jenny - St. Louis Shag Showcase'}
+Hero video: {'youtube_id': '6JHQSCt1Zbk', 'checked_by_vision_model': True, 'title': 'RTSF 2015 - Christian & Jenny - St. Louis Shag Showcase'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Archival footage of 1930s dance halls, Close-ups of footwork, Rhythmic percussion overlays
@@ -310,9 +310,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 69 tutorials across the atlas studied · videos studied: 69
+Source: 91 tutorials across the atlas studied · videos studied: 91
 Counting: 
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: side close side; rock step; engage your core; hit; out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; right leg out front; jump split your legs; the back foot goes up; lift the left leg up
+Cues: side close side; rock step; engage your core; right left right; hit; 1-2-3-4; lock your arms; out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; let's do this
 
 Sources (2): https://en.wikipedia.org/wiki/St._Louis_shag; https://www.wikidata.org/wiki/Q2276336

@@ -1,8 +1,8 @@
 # Letkajenkka — episode pack
 
-*Status: draft · built 2026-11-15 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic, clear, and focused on group coordination.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Letkis Craze: Finland's Global Line Dance
 NARRATION: This is Letkajenkka. 1960s.
-ON SCREEN: Hero video, first 10 seconds (IDbIYXEsdx0)
+ON SCREEN: Hero video, first 10 seconds (AZxL4rdeJ44)
 ON SCREEN: Title card: Letkajenkka · Finland · 1960s
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ MUSIC: underscore
 NARRATION: Participants form a conga-style line, holding the shoulders or waist of the person in front.
 NARRATION: The sequence involves kicking the left foot twice, the right foot twice, followed by a jump forward, a jump backward, and three jumps forward.
 NARRATION: Watch for Side Kick, Forward/Backward Jump.
-ON SCREEN: Hero video full screen, 30–45 s (IDbIYXEsdx0)
+ON SCREEN: Hero video full screen, 30–45 s (AZxL4rdeJ44)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Conga line or circle.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -320,7 +320,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'IDbIYXEsdx0', 'checked_by_vision_model': False, 'title': 'Letkajenkka'}
+Hero video: {'youtube_id': 'AZxL4rdeJ44', 'checked_by_vision_model': True, 'title': 'Letkajenkka'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Conga lines in 1960s footage, Vintage record covers, Modern group dancing
@@ -330,9 +330,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (5): https://en.wikipedia.org/wiki/Letkajenkka; https://www.wikidata.org/wiki/Q1859644; https://fr.wikipedia.org/wiki/Letkiss; https://de.wikipedia.org/wiki/Letkiss; https://it.wikipedia.org/wiki/Letkiss

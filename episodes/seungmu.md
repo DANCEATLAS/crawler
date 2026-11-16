@@ -1,8 +1,8 @@
 # Seungmu — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.5 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.5 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A formal, respectful practitioner of Korean traditional dance.
@@ -308,7 +308,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dancer wears a 'jangsam' (a robe with long, white sleeves) and a 'gokkal' (a white hood). The costume is described as radiant with elegant lines.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'cutUivfBScc', 'checked_by_vision_model': False, 'title': 'SEUNGMU (僧舞, KOREAN BUDDHIST DANCE)'}
+Hero video: {'youtube_id': 'cutUivfBScc', 'checked_by_vision_model': True, 'title': 'SEUNGMU (僧舞, KOREAN BUDDHIST DANCE)'}
 Images: 2 licensed — Richy! / Wikimedia Commons / CC BY-SA 2.0 (CC BY-SA 2.0); Lychi / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: White sleeves against a dark background, The bubgo drum, Slow-motion captures of sleeve whirls
@@ -318,9 +318,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
+Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
 Counting: 
-Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (3): https://en.wikipedia.org/wiki/Seungmu; https://www.wikidata.org/wiki/Q625558; https://es.wikipedia.org/wiki/Seungmu

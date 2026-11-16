@@ -1,8 +1,8 @@
 # Cakewalk — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; the how-it-is-danced section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable African American dance historian and skilled cakewalk performer who honors the dance's cultural roots and teaches with respect and enthusiasm.
@@ -326,7 +326,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wore discarded finery such as top hats, tailcoats, wide bow ties, canes, hoop skirts, and long dresses with ruffles, emulating and mocking the formal attire of white slaveholders. Performances took place at plantation gatherings, community parties, minstrel shows, and later on Broadway stages and music halls. Settings ranged from outdoor plantation yards to large urban theaters. The dance was often competitive, with judges awarding cakes to the best performers.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'LqpINmqxlsc', 'checked_by_vision_model': False, 'title': 'Cake Walk'}
+Hero video: {'youtube_id': 'LqpINmqxlsc', 'checked_by_vision_model': True, 'title': 'Cake Walk'}
 Images: 8 licensed — Dan Walker / Wikimedia Commons / Public domain (Public domain); Strobridge Lithographing Co., Cincinnati &amp; New York / Wikimedia Commons / Public domain (Public domain); Adrien Barrère / Wikimedia Commons / Public domain (Public domain); Leo Rauth / Wikimedia Commons / Public domain (Public domain); Wisconsin Center for Film and Theater Research / Wikimedia Commons / Public domain (Public domain)
 Footage: File:Cakewalk 1903.webm — https://upload.wikimedia.org/wikipedia/commons/3/33/Cakewalk_1903.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Le Cakewalk infernal (1903).webm — https://upload.wikimedia.org/wikipedia/commons/8/87/Le_Cakewalk_infernal_%281903%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Le Cakewalk infernal (clip, 1903).webm — https://upload.wikimedia.org/wikipedia/commons/3/39/Le_Cakewalk_infernal_%28clip%2C_1903%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Kiddies Cakewalk — https://archive.org/details/silent-kiddies-cakewalk; The Dog & Pony Show: Primera Temporada por Música de Producción (The Complete First Season of Production Music) — https://archive.org/details/the-dog-pony-show-s-01-e-01-baile-de-la-basura-globomania-audio-latino; spinshift 05-15-2015 — https://archive.org/details/spinshift05-15-15; File:Les Elkes champions du cake-walk (1903).webm — https://upload.wikimedia.org/wikipedia/commons/9/95/Les_Elkes_champions_du_cake-walk_%281903%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Le cake-walk au nouveau cirque.webm — https://upload.wikimedia.org/wikipedia/commons/3/34/Le_cake-walk_au_nouveau_cirque.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Victorian finery costumes, High-stepping kicks, Prize cakes, Plantation settings, Minstrel show stages
@@ -336,9 +336,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (5): https://en.wikipedia.org/wiki/Cakewalk; https://www.wikidata.org/wiki/Q1026113; https://es.wikipedia.org/wiki/Cakewalk_(baile); https://fr.wikipedia.org/wiki/Cake-walk; https://pt.wikipedia.org/wiki/Cakewalk

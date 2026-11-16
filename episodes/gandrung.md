@@ -1,8 +1,8 @@
 # Gandrung — episode pack
 
-*Status: draft · built 2026-11-15 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; notable figures; lineage; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; notable figures; lineage; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local practitioner from Banyuwangi.
@@ -296,7 +296,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dancer is dressed in traditional costume, with a fan, shawl, and ornamental headgear. It is usually performed in an all-night performance that begins sometime around 9 p.m. and ends just before dawn.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '-dxcamTUIsw', 'checked_by_vision_model': False, 'title': 'Tari Gama Gandrung by Wiryatama (Banyuwangi Traditional Dance)'}
+Hero video: {'youtube_id': '-dxcamTUIsw', 'checked_by_vision_model': True, 'title': 'Tari Gama Gandrung by Wiryatama (Banyuwangi Traditional Dance)'}
 Images: 4 licensed — Yves Picq http://veton.picq.fr / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Unknown authorUnknown author / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Candra Firmansyah / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Rvianry / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: UCLA Ethnomusicology Spring Festival of World Music 2025: Music of Java Ensemble — https://archive.org/details/calauem_200201_omvf0000672_pt1_ac
 Motifs: Ornate headgear, Traditional fans, Gamelan instruments
@@ -306,9 +306,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (2): https://en.wikipedia.org/wiki/Gandrung; https://www.wikidata.org/wiki/Q797450

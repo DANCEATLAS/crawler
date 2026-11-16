@@ -1,8 +1,8 @@
 # Hand Jive — episode pack
 
-*Status: draft · built 2026-11-15 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed)
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A lively 1950s dance enthusiast with deep knowledge of rhythm and blues culture and hand dance history
@@ -330,7 +330,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The dance originated in informal, crowded coffee bars like The Cat's Whisker in Soho, where space was limited. Performers typically wore casual 1950s youth attire suitable for social gatherings. The setting was intimate and lively, often with seated participants or standing in tight quarters, emphasizing hand and arm movements over footwork.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'QvOuTInrue0', 'checked_by_vision_model': False, 'title': 'Johnny Otis - Willie And The Hand Jive (1958)'}
+Hero video: {'youtube_id': 'QvOuTInrue0', 'checked_by_vision_model': True, 'title': 'Johnny Otis - Willie And The Hand Jive (1958)'}
 Images: 0 licensed
 Footage: Ding Dong Daddy Hand Jive — https://archive.org/details/ding-dong-daddy-hand-jive; Ding Dong Daddy — https://archive.org/details/ding-dong-daddy_202101
 Motifs: Close-ups of hands in motion, Crowded coffee bar interiors, 1950s youth fashion, Musical instruments of R&B bands, Film clips from Grease and Hairspray
@@ -340,9 +340,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (4): https://en.wikipedia.org/wiki/Hand_jive; https://www.wikidata.org/wiki/Q2392517; https://fr.wikipedia.org/wiki/Hand_jive; https://history-of-rock.com/dancing_in_the_fifties.htm

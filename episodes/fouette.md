@@ -1,8 +1,8 @@
 # Fouetté — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the costume & setting section; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A rigorous classical ballet répétiteur
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The 32-Turn Sensation That Mesmerized St. Petersburg
 NARRATION: This is Fouetté. 19th century.
-ON SCREEN: Hero video, first 10 seconds (l5VgOdgptRg)
+ON SCREEN: Hero video, first 10 seconds (Rq0ovsiB4MQ)
 ON SCREEN: Title card: Fouetté · Russia / Italy · 19th century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: A fouetté turn begins standing on one flat foot in plié with the kn
 NARRATION: The working leg is extended and whipped to the side to create momentum, then pulled into a retiré or passé position while the supporting foot rises to relevé or en pointe.
 NARRATION: This creates the angular momentum needed for a rotation in place.
 NARRATION: Watch for 32 consecutive fouettés.
-ON SCREEN: Hero video full screen, 30–45 s (l5VgOdgptRg)
+ON SCREEN: Hero video full screen, 30–45 s (Rq0ovsiB4MQ)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: rotating in place on the supporting foot without traveling
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -322,7 +322,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'l5VgOdgptRg', 'checked_by_vision_model': False, 'title': 'The physics of the "hardest move" in ballet - Arleen Sugano'}
+Hero video: {'youtube_id': 'Rq0ovsiB4MQ', 'checked_by_vision_model': True, 'title': 'How To Do Pirouettes, Fouettés, and À La Seconde Turns! I Dance Turn Tutorial with @trainwithkendall'}
 Images: 1 licensed — Tony Hisgett from Birmingham, UK / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: MISSING
 Motifs: A dancer spinning on a single point, The sweeping whip motion of the working leg, Audience members counting turns

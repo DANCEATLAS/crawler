@@ -1,8 +1,8 @@
 # Collegiate Shag — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed images (3 needed); what to avoid / common mistakes
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An energetic swing dance historian with a focus on technique and historical context.
@@ -310,7 +310,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historically associated with 1930s collegiate social settings. Modern practice occurs in dance studios, festivals, and social dance events.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'uUGsLoZYXb4', 'checked_by_vision_model': False, 'title': 'RTSF 2013  Stephen & Chandrae - Shag Showcase'}
+Hero video: {'youtube_id': 'uUGsLoZYXb4', 'checked_by_vision_model': True, 'title': 'RTSF 2013  Stephen & Chandrae - Shag Showcase'}
 Images: 0 licensed
 Footage: Collegiate Shag (Part 2): Jenni's Joint #16 — https://archive.org/details/Collegiate_Shag_Part_2_-_Jenni_s_Joint_16; COLLEGIATE SHAG (Part 1): Jenni's Joint #15 — https://archive.org/details/COLLEGIATE_SHAG_Part_1_-_Jenni_s_Joint_15; File:Shag-1013365, Dingle Peninsula, Co. Kerry, Ireland.webm — https://upload.wikimedia.org/wikipedia/commons/9/99/Shag-1013365%2C_Dingle_Peninsula%2C_Co._Kerry%2C_Ireland.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Shags-1013540, Dingle Peninsula, Co. Kerry, Ireland.webm — https://upload.wikimedia.org/wikipedia/commons/f/f9/Shags-1013540%2C_Dingle_Peninsula%2C_Co._Kerry%2C_Ireland.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Shag (1985 documentary on the 1930s-50s dance fad) — https://archive.org/details/shag-1985-documentary-on-southern-dance; Shag — https://archive.org/details/img-20251002-153321; Learn To Dance The Carolina Shag — https://archive.org/details/learn-to-dance-the-carolina-shag; City Talk: Shagging on Main — https://archive.org/details/City_Talk_-_Shagging_on_Main
 Motifs: Close-up of feet bouncing on the floor, High arm positions in closed dance hold, Archive footage of 1930s collegiate dancers

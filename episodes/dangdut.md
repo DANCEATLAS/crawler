@@ -1,8 +1,8 @@
 # dangdut — episode pack
 
-*Status: draft · built 2026-11-15 · judge 8.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 8.1 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; posture, arms and hands; the how-it-is-danced section; signature moves; the costume & setting section; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An ethnomusicologist specializing in Southeast Asian popular music.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Beat of the Archipelago
 NARRATION: This is dangdut. 20th century.
-ON SCREEN: Hero video, first 10 seconds (ZFvBPBgJBL4)
+ON SCREEN: Hero video, first 10 seconds (iXM4jg2MaA0)
 ON SCREEN: Title card: dangdut · Indonesia · 20th century
 MUSIC: theme (30 s)
 
@@ -32,7 +32,7 @@ ON SCREEN: Footage: File:Dangdut in the context of a healthy walk event in Watua
 MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
-ON SCREEN: Hero video full screen, 30–45 s (ZFvBPBgJBL4)
+ON SCREEN: Hero video full screen, 30–45 s (iXM4jg2MaA0)
 ON SCREEN: Signature moves — MISSING
 MUSIC: diegetic (the video's own sound), underscore under narration
 NEEDS: how_it_is_danced, signature_moves
@@ -286,7 +286,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'ZFvBPBgJBL4', 'checked_by_vision_model': False, 'title': 'KOPI DANGDUT - VITA ALVIA | DANGDUT | ZUMBA | SENAM KREASI | ZIN IDHO BATAM'}
+Hero video: {'youtube_id': 'iXM4jg2MaA0', 'checked_by_vision_model': True, 'title': 'JAYANTI || Senam Kreasi Dangdut by Euis Ababil'}
 Images: 8 licensed — Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); fir0002  flagstaffotos [at] gmail.com
 		Canon 20D + Tamron 28-75mm f/2.8 / Wikimedia Commons / GFDL 1.2 (GFDL 1.2); Sakurai Midori / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Mahbob Yusof from Kuala Lumpur, Malaysia / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); User:Chachatriomacan / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: File:Dangdut in the context of a healthy walk event in Watualang village.webm — https://upload.wikimedia.org/wikipedia/commons/b/bd/Dangdut_in_the_context_of_a_healthy_walk_event_in_Watualang_village.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Sexy Dance Hot Banget Live Mahkota Raja King Bikin Dagdigdug — https://archive.org/details/SexyDanceHotBangetLiveMahkotaRajaKingBikinDagdigdug; UCLA Ethnomusicology Spring Festival of World Music 2025: Music of Java Ensemble — https://archive.org/details/calauem_200201_omvf0000672_pt1_ac
@@ -297,9 +297,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (4): https://en.wikipedia.org/wiki/Dangdut; https://www.wikidata.org/wiki/Q1159539; https://fr.wikipedia.org/wiki/Dangdut; https://de.wikipedia.org/wiki/Dangdut

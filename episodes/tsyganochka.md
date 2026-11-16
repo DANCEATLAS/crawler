@@ -1,8 +1,8 @@
 # Tsyganochka — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.45 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the how-it-is-danced section; the music & instruments section; the costume & setting section; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the occasions & meaning section; the how-it-is-danced section; the music & instruments section; the costume & setting section; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Russian folk dance teacher with Roma music expertise
@@ -303,7 +303,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'kNPudJGGCyU', 'checked_by_vision_model': False, 'title': 'КРАСАВИЦЫ ЦЫГАНОЧКИ! Цыганские танцы от души!'}
+Hero video: {'youtube_id': 'kNPudJGGCyU', 'checked_by_vision_model': True, 'title': 'КРАСАВИЦЫ ЦЫГАНОЧКИ! Цыганские танцы от души!'}
 Images: 1 licensed — Солнцев, Фёдор Григорьевич / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: solo dancer entering stage, guitar silhouette, minor key musical notes, gradual tempo graph
@@ -313,9 +313,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (4): https://en.wikipedia.org/wiki/Tsyganochka; https://www.wikidata.org/wiki/Q52555151; https://es.wikipedia.org/wiki/Tsyganochka; https://it.wikipedia.org/wiki/Cyganočka

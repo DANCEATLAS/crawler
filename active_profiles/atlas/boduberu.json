@@ -1,0 +1,140 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "intermediate",
+      "footwork": "technique not described in sources",
+      "formation_and_space": "group of around 20 performers with 1 or 2 soloists stepping out during crescendo",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Frantic solo or duo movements at peak crescendo leading in some cases to a trance state.",
+          "name": "trance dance"
+        }
+      ],
+      "tempo_feel": "starts slow and deliberately, accelerating into a frantic wild beat",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [
+        "bodu beru drum",
+        "onugandu",
+        "bell"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "ecstatic",
+        "energetic",
+        "frantic",
+        "rhythmic",
+        "vibrant"
+      ],
+      "musical_form": "slow prelude evolving into high-tempo rhythmic crescendo",
+      "reference_recordings": [],
+      "rhythm_pattern": "accelerating beat reaching a crescendo",
+      "sound_description": "A prominent trio of wooden coconut-trunk drums delivers deep pulsing strokes, punctuated by the metallic ping of a small bell and the dry raspy scrape of an onugandu bamboo scraper. Over this layered percussion, a lead singer and chorus chant building phrases that accelerate into a loud, frantic rhythmic peak.",
+      "tempo_bpm": "",
+      "vocal_style": "lead singer with vocal chorus singing Dhivehi, regional, or African non-lexical lyrics"
+    },
+    "teaching": {
+      "basic_steps": [
+        "technique not described in sources"
+      ],
+      "formation": "group of about 20 performers including drummers and lead singer",
+      "level_notes": "technique not described in sources",
+      "rhythm": "accelerating beat from slow prelude to fast crescendo"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "e583652e74af350b60404eaec424ec711b7bd0e62c96fa7f570292af49688993",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What specific step patterns and footwork mechanics do dancers execute during the slow prelude vs the rapid crescendo phase? Evidence needed: Video documentation or direct field transcription of Boduberu dance footwork."
+    ]
+  },
+  "id": "atlas:boduberu",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "boduberu",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "2491ab4e2c46dfc6",
+      "next_evidence": "Video documentation or direct field transcription of Boduberu dance footwork.",
+      "question": "What specific step patterns and footwork mechanics do dancers execute during the slow prelude vs the rapid crescendo phase?",
+      "source": "https://en.wikipedia.org/wiki/Boduberu",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profile footwork details are absent from available texts, preventing interactive instruction."
+    }
+  ],
+  "research_file": "research_results/boduberu.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "boduberu",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Boduberu",
+    "https://www.wikidata.org/wiki/Q4936753",
+    "https://es.wikipedia.org/wiki/Boduberu"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

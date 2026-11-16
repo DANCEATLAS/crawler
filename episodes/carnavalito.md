@@ -1,8 +1,8 @@
 # carnavalito — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.25 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); licensed reference footage; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A local community leader or traditional dancer from Jujuy or Santa Cruz.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Carnavalito: A Human Bridge
 NARRATION: This is carnavalito. Pre-Hispanic to present.
-ON SCREEN: Hero video, first 10 seconds (2Ip3wl73Ld0)
+ON SCREEN: Hero video, first 10 seconds (48XoxiM-c-g)
 ON SCREEN: Title card: carnavalito · Bolivia, Argentina, Chile, Peru · Pre-Hispanic to present
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers move in rows, wheels, or serpentine lines.
 NARRATION: A leader with a handkerchief directs the group.
 NARRATION: Common figures include 'el puente' (the bridge), 'las alas' (the wings), and 'las calles' (the streets).
 NARRATION: Watch for El puente, Las calles.
-ON SCREEN: Hero video full screen, 30–45 s (2Ip3wl73Ld0)
+ON SCREEN: Hero video full screen, 30–45 s (48XoxiM-c-g)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Rows, wheels, and serpentine lines
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -313,7 +313,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: In eastern Bolivia, women wear a colorful tipoy and flowers in their hair. Men wear white shirts, trousers, and a 'sombrero de Sao'. In the Andes, attire varies by local indigenous tradition.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '2Ip3wl73Ld0', 'checked_by_vision_model': False, 'title': 'Carnavalito mix | tonifica piernas con esta Rutina de baile | quema grasa bailando ft Marichuy Dance'}
+Hero video: {'youtube_id': '48XoxiM-c-g', 'checked_by_vision_model': True, 'title': 'Gran Ballet Argentino "Carnavalito" Fribourg Suiza'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: Ribbon-adorned pennants, Andean mountain landscapes, Colorful tipoy dresses
@@ -323,9 +323,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
+Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
 Counting: 1-2-3, 2-2-3 (three counts a bar)
-Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (5): https://en.wikipedia.org/wiki/Carnavalito; https://www.wikidata.org/wiki/Q1154911; https://es.wikipedia.org/wiki/Carnavalito; https://fr.wikipedia.org/wiki/Carnavalito; https://it.wikipedia.org/wiki/Carnavalito

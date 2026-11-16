@@ -1,8 +1,8 @@
 # Batuque — episode pack
 
-*Status: draft · built 2026-11-15 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a hero video; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned Santiago batukadera with authoritative presence, warm cadence, and exacting rhythm.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Rhythms They Tried to Silence
 NARRATION: This is Batuque. 18th century to present.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (Nvld-GrNt5Y)
 ON SCREEN: Title card: Batuque · Cape Verde · 18th century to present
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: A batuque dance takes place within an open circle called a terreru, s
 NARRATION: Women form the circle, acting as musicians and chorus.
 NARRATION: When the first musical movement (galion) begins, a solo dancer ties a cloth sash (panu) around her hips and moves into the center.
 NARRATION: Watch for galion movement, da ku tornu.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (Nvld-GrNt5Y)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo dancer working within the interior space of a circular ring of performers (terreru)
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -330,7 +330,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'Nvld-GrNt5Y', 'checked_by_vision_model': False, 'title': '"Baiana" Barbatuques | Galen Hooks Choreography'}
 Images: 0 licensed
 Footage: Caique Vidal — https://archive.org/details/tognc-Caique_Vidal; File:Obat Batuk.webm — https://upload.wikimedia.org/wikipedia/commons/4/44/Obat_Batuk.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: A patterned panu sash tied snugly across the hips, Hands drumming forcefully against folded cloths between knees, A circle of women singing face-to-face in an open terreru, Dust kicking up under rhythmic knee flexions
@@ -340,9 +340,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (4): https://en.wikipedia.org/wiki/Batuque_(Cape_Verde); https://www.wikidata.org/wiki/Q2891921; https://fr.wikipedia.org/wiki/Batuque_(Cap-Vert); https://pt.wikipedia.org/wiki/Batuque_(Cabo_Verde)

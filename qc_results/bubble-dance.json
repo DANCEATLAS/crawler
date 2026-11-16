@@ -1,0 +1,121 @@
+{
+ "slug": "bubble-dance",
+ "qc_at": "2026-11-16T21:53:03Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "publish",
+ "qc_score": 7.9,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Bubble dance"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "61"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "106"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "In 1930s America, Sally Rand transformed theatrical burlesque by dancing naked b"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "548"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "2777"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,lineage"
+  },
+  {
+   "gate": "citations",
+   "ok": true,
+   "detail": "5/6 rate=0.833"
+  },
+  {
+   "gate": "sources",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "United States"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "North America"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "8 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": true,
+   "detail": "sacred=False cues=[]"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 8,
+  "teaching_value": 4,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "Beyond theatrical stage routines, local social gatherings—such as the Oil Bubble Dance hosted at Memorial Hall in 1926 by the Wheaton Lodge of the Knights of Pythias—demonstrate that bubble-themed events existed within community social dance contexts prior to late 1930s film depictions."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 8,
+  "verdict": "publish",
+  "notes": "Accurate, respectful profile of a historical American burlesque performance style. One minor claim about a 1926 lodge dance lacked mechanical verification support in the provided evidence claims, but the core narrative regarding Sally Rand and 1930s stage performance is fully backed."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": false,
+ "reasons": [
+  "judge_score=7.9",
+  "doubts=1"
+ ],
+ "citation": {
+  "claims": 6,
+  "supported": 5,
+  "rate": 0.833
+ },
+ "researched_at": "2026-11-16T20:14:35Z"
+}

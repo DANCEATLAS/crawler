@@ -1,8 +1,8 @@
 # The Jerk — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.6 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; the hero video's vision check; licensed images (3 needed); the costume & setting section; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); instruments; the hero video's vision check; licensed images (3 needed); the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic, knowledgeable dance historian.
@@ -116,7 +116,7 @@ NEEDS: tempo
 NARRATION: Step 1: Cross wrists in front of the chest.
 NARRATION: Step 2: Sweep arms outward on count 1.
 NARRATION: Drill: Practice crossing wrists at chest level.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 5-6-7-8 · repetitions: 3
@@ -139,11 +139,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: leaning forward or diagonal during the pin drop instead of to the side
+NARRATION: Teachers of this dance warn against: landing flat on the foot during the pin drop before building ankle strength
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm sweeps and finger snaps while seated. · For children: A 'follow the leader' game mimicking the conductor arm movements.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm sweeps and finger snaps while seated. · For children: A 'follow the leader' game mimicking the conductor arm movements. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 5-6-7-8.
@@ -187,7 +188,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Cross wrists in front of the chest.
 NARRATION: Step 2: Sweep arms outward on count 1.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 5-6-7-8 · repetitions: 3
@@ -210,11 +211,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: leaning forward or diagonal during the pin drop instead of to the side
+NARRATION: Teachers of this dance warn against: landing flat on the foot during the pin drop before building ankle strength
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm sweeps and finger snaps while seated. · For children: A 'follow the leader' game mimicking the conductor arm movements.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm sweeps and finger snaps while seated. · For children: A 'follow the leader' game mimicking the conductor arm movements. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 5-6-7-8.
@@ -258,7 +260,7 @@ NEEDS: tempo
 ### 4. Step A — slowly (150 s) · `step_a`
 NARRATION: Step 1: Snap fingers on the first and third counts of the hand motion.
 NARRATION: Step 2: Move hips and legs in rhythm with the arm sweeps.
-ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 2
+ON SCREEN: Instructor front view, then back view (student's perspective); repetitions per step: about 4
 ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 COUNTS: 5-6-7-8 · repetitions: 3
@@ -279,11 +281,12 @@ ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
-ON SCREEN: Correction withheld until evidence is available
+NARRATION: Teachers of this dance warn against: leaning forward or diagonal during the pin drop instead of to the side
+NARRATION: Teachers of this dance warn against: landing flat on the foot during the pin drop before building ankle strength
+ON SCREEN: Side-by-side: source-supported correction
 ON SCREEN: Options card: Seated or supported option: Perform the arm sweeps and finger snaps while seated. · For children: A 'follow the leader' game mimicking the conductor arm movements.
 MUSIC: silence
 OPTIONS: Seated or supported option: Perform the arm sweeps and finger snaps while seated. · For children: A 'follow the leader' game mimicking the conductor arm movements. (options are derived teaching suggestions, not facts from the sources)
-NEEDS: what_to_avoid
 
 ### 8. Dance it to the music (120 s) · `music_run`
 NARRATION: Count-in: 5-6-7-8.
@@ -325,9 +328,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 5-6-7-8
-Demonstration: views used by most teachers: mirror; tempo progression: slow → full; repetitions per step: about 2
-Cues: jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg
+Demonstration: views used by most teachers: mirror, front, back; tempo progression: slow → full; repetitions per step: about 4
+Cues: jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; and-1; swap; around town; spin up; rock with me
+Common mistakes the studied teachers name: leaning forward or diagonal during the pin drop instead of to the side; landing flat on the foot during the pin drop before building ankle strength
 
 Sources (3): https://en.wikipedia.org/wiki/Jerk_(dance); https://www.wikidata.org/wiki/Q3177374; https://fr.wikipedia.org/wiki/Jerk_(danse)

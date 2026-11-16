@@ -1,13 +1,73 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "duration_minutes": "not derivable yet",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "not derivable yet"
+        ],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "rotate the hoop around parts of the body other than the waist, including the hips, chest, neck, shoulders, thighs, knees, arms, hands, thumbs, feet, and toes",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "rotate the hoop around the waist and hips",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Stepping through the hoop while it is still rotating around the body",
+          "name": "Portal trick"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "Any skill where fire is a component risks injury to the person doing it."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "rotating the hoop around the waist",
+        "rotating the hoop around the hips",
+        "stepping through the rotating hoop in a portal trick"
+      ],
+      "formation": "not described in sources",
+      "level_notes": "Beginners typically begin with a larger, heavier hoop of approximately 38-44 inches diameter to learn skills quickly, advancing to smaller 30-36 inch hoops as skill improves.",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "91db025bac20c1db689ab65057dee4003e5f41ef3642d6c162af32f60d225e80",
+  "fingerprint": "cb31495cf567cec24cd56b45aea7a46cd95b2d7d2690da378200158ed30ede3c",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +75,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
+      "movement: footwork, posture, formation_and_space",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What specific musical genres and tempo ranges are most commonly utilized by hoop dancers during freestyle performances? Evidence needed: Observational studies or artist surveys from hoop dance camps and festivals."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -33,7 +93,6 @@
       "Two musically reviewed choices with composition AND recording rights for intended uses"
     ],
     "video": [
-      "Timestamped movement and teaching evidence with observation limits",
       "Compare independent teachers/variants; preserve unique methods"
     ]
   },
@@ -45,7 +104,18 @@
   ],
   "music_options": [],
   "name": "Hooping",
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "b0f3fac1198ec6a5",
+      "next_evidence": "Observational studies or artist surveys from hoop dance camps and festivals.",
+      "question": "What specific musical genres and tempo ranges are most commonly utilized by hoop dancers during freestyle performances?",
+      "source": "https://en.wikipedia.org/wiki/Hooping",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current music profile lacks concrete tempo and meter data."
+    }
+  ],
+  "research_file": "research_results/hooping.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +127,14 @@
   "slug": "hooping",
   "sources": [
     "https://en.wikipedia.org/wiki/Hooping",
-    "Source: Hooping on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Hooping"
+    "https://www.wikidata.org/wiki/Q15779900"
   ],
   "state": "researching",
-  "video_evidence": []
+  "video_evidence": [
+    {
+      "file": "pedagogy/videos/JW-Wph0msuw.json",
+      "status": "candidate_unreviewed",
+      "url": "https://www.youtube.com/watch?v=JW-Wph0msuw"
+    }
+  ]
 }

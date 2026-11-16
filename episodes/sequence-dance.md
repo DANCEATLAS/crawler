@@ -1,8 +1,8 @@
 # Sequence dance — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); posture, arms and hands; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); posture, arms and hands; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A seasoned ballroom dance teacher from a local dance club.
@@ -301,7 +301,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Performed in ballrooms, at Tea Dances, and in dance clubs. The British Sequence Championships are held in the Empress Ballroom, Winter Gardens, Blackpool.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'daepSH4v6ZQ', 'checked_by_vision_model': False, 'title': 'ALLES WALZER SEQUENCE DANCE at Blackpool Tower Ballroom (Aug 2026)'}
+Hero video: {'youtube_id': 'daepSH4v6ZQ', 'checked_by_vision_model': True, 'title': 'ALLES WALZER SEQUENCE DANCE at Blackpool Tower Ballroom (Aug 2026)'}
 Images: 1 licensed — Johnscotaus / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Latown Sequence Dance Group presents Shall We Dance? (VHS) — https://archive.org/details/ShallWeDance_201811; Latown Sequence Dance Group presents Dance On (VHS) — https://archive.org/details/DanceOn
 Motifs: Empress Ballroom architecture, Dance script notation, Couples moving in unison

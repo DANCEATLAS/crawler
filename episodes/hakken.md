@@ -1,8 +1,8 @@
 # Hakken — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced hakken dancer with roots in Dutch rave culture, approachable and energetic
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Hakken: The Dutch Heel-Stomping Rave Dance
 NARRATION: This is Hakken. 1990s.
-ON SCREEN: Hero video, first 10 seconds (FUD-HExh9ow)
+ON SCREEN: Hero video, first 10 seconds (l-cffsL7DTM)
 ON SCREEN: Title card: Hakken · Netherlands · 1990s
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Backstep.
-ON SCREEN: Hero video full screen, 30–45 s (FUD-HExh9ow)
+ON SCREEN: Hero video full screen, 30–45 s (l-cffsL7DTM)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo or group, no fixed spatial pattern
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -318,7 +318,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'FUD-HExh9ow', 'checked_by_vision_model': False, 'title': 'Gabber Dance'}
+Hero video: {'youtube_id': 'l-cffsL7DTM', 'checked_by_vision_model': True, 'title': 'Hardshock 2019 Hakkuh Gabber Hakken'}
 Images: 0 licensed
 Footage: File:Middelste bonte specht hakkend-4961794.webm — https://upload.wikimedia.org/wikipedia/commons/a/aa/Middelste_bonte_specht_hakkend-4961794.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; LE "HAKKEN", MÉKÈSKECÉ ??? 🤔 — https://archive.org/details/youtube-mikHSKzzXSk; Free 24h En El Skatepark La Francia — https://archive.org/details/muy-aspero-el-ultimo-free-24h-en-el-skatepark-la-francia
 Motifs: Heel stomps, Rotterdam stadium stands, Nike Air Max shoes, Fast-paced footwork, Rave lighting and crowd

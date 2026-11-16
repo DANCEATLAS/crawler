@@ -1,0 +1,149 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "High impact jumps",
+          "Complex tap patterns"
+        ],
+        "counts": "1-2-3-4 simple counts",
+        "duration_minutes": "15",
+        "game_version": "Rhythm tap game copying the fiddle sound with heel and toe taps."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "Jumping high off floor",
+          "Fast reels",
+          "Unsupported balance"
+        ],
+        "counts": "Count 1-2-3-4 in slow tempo.",
+        "seated_version": "Perform heel taps, toe taps, and rhythm shuffles seated in a sturdy chair.",
+        "standing_version": "Perform foot taps holding a chair back for support without jumping.",
+        "tempo_and_range": "Slower tempo using clog half-time rhythm and small foot movement range."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [
+        {
+          "description": "Basic percussive tap combination featuring heel tap, toe tap, and shuffle.",
+          "source": "https://en.wikipedia.org/wiki/Canadian_stepdance"
+        }
+      ],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Flowing arm movements or hands on hips",
+      "difficulty": "intermediate",
+      "footwork": "Heel taps, toe taps, and shuffles in small space with limited lateral movement",
+      "formation_and_space": "Solo percussive stepdance performed in a small space",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Steps danced high off the floor in Ottawa Valley style",
+      "partnering": "not described in sources",
+      "posture": "Relaxed but upright upper-body posture",
+      "signature_moves": [
+        {
+          "description": "Variable steps danced high off the floor incorporating tap dance elements.",
+          "name": "Ottawa Valley aggressive step"
+        }
+      ],
+      "tempo_feel": "Fast and lively for reels, energetic march feel for jigs, graceful half-time for clogs",
+      "what_to_avoid": "Excessive lateral movement or tense, rigid upper body posture."
+    },
+    "music_profile": {
+      "instruments": [
+        "Fiddle"
+      ],
+      "meter": "4/4 or 6/8",
+      "mood_keywords": [
+        "fast",
+        "lively",
+        "fun",
+        "energetic",
+        "graceful"
+      ],
+      "musical_form": "Reels, jigs, strathspeys, clogs, hornpipes, two-steps, polkas",
+      "reference_recordings": [],
+      "rhythm_pattern": "4/4 reel or 6/8 jig percussive accentuation",
+      "sound_description": "Bright, melodic Celtic fiddle music driving acoustic percussive foot taps and shuffles.",
+      "tempo_bpm": "115-130",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Heel tap",
+        "Toe tap",
+        "Shuffle"
+      ],
+      "formation": "Solo stepdance in a small space with limited lateral movement",
+      "level_notes": "Beginners focus on clear heel taps, toe taps, and shuffles while keeping upper body relaxed and upright in a compact space.",
+      "rhythm": "4/4 for reels, 6/8 for jigs, half-time for clogs"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "91d6fff6a240cddcc05d57ea886c6ff7e55c929ce55995dc94e4c1a0c2b5e2bb",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "interaction: feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the exact footwork patterns and count breakdowns for Ottawa Valley high steps versus Cape Breton steps? Evidence needed: Video analysis of traditional dancers from Ottawa Valley and Cape Breton."
+    ]
+  },
+  "id": "atlas:canadian-stepdance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Canadian stepdance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "ba9900bbcc9d78c0",
+      "next_evidence": "Video analysis of traditional dancers from Ottawa Valley and Cape Breton.",
+      "question": "What are the exact footwork patterns and count breakdowns for Ottawa Valley high steps versus Cape Breton steps?",
+      "source": "https://en.wikipedia.org/wiki/Canadian_stepdance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Required to design interactive motion-tracking and instructional visual guides."
+    }
+  ],
+  "research_file": "research_results/canadian-stepdance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "canadian-stepdance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Canadian_stepdance",
+    "https://www.wikidata.org/wiki/Q5030884"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

@@ -2,9 +2,9 @@
  "slug": "subli",
  "name": "Subli",
  "pack_version": "e2",
- "built_at": "2026-11-15T18:05:17Z",
- "researched_at": "2026-11-04T18:28:48Z",
- "qc_score": 9.55,
+ "built_at": "2026-11-16T22:22:18Z",
+ "researched_at": "2026-11-16T20:51:52Z",
+ "qc_score": 9.7,
  "status": "withheld-chapters",
  "release_status": "not_validated",
  "sacred": true,
@@ -45,12 +45,13 @@
    "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
   },
   "instructor": {
-   "persona": "A knowledgeable local manunublî experienced in both devotional and theatrical Subli",
+   "persona": "A respectful cultural researcher grounded in Batangas traditions",
    "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
   },
   "pronunciation": [
    "Subli",
-   "Subli"
+   "Subli",
+   "Sublî"
   ]
  },
  "episode_1": {
@@ -61,7 +62,7 @@
     "title": "Cold open",
     "duration_s": 35,
     "narration": [
-     "Subli: The Dance of the Holy Cross",
+     "The Blinding Tree of Batangas",
      "This is Subli. 18th century or earlier."
     ],
     "on_screen": [
@@ -75,9 +76,9 @@
     "title": "Where and when",
     "duration_s": 70,
     "narration": [
-     "Subli originated in the towns of Bauan and Alitagtag in Batangas, Philippines.",
-     "Its origin is linked to a local legend where a husband discovered a blinding light emanating from a cross-shaped tree, leading to his repentance.",
-     "This event inspired the dance as a devotional practice honoring the Holy Cross of Alitagtag."
+     "The dance originated in Bauan and Alitagtag, Batangas.",
+     "Its birth is tied to the legend of a gambler husband who followed his wife to a spring beneath a cross-shaped tree, where a blinding light caused him to repent.",
+     "Music scholars suggest the frenetic drum rhythms reflect prehispanic animist origins adapted into Catholic devotion."
     ],
     "on_screen": [
      "Map: Philippines · Southeast Asia",
@@ -90,9 +91,7 @@
     "title": "When it is danced",
     "duration_s": 60,
     "narration": [
-     "Subli is a devotional dance honoring the Holy Cross of Alitagtag, performed during the Feast of the Mahal na Poon on May 3 and other special events like birthdays, graduations, and healing rituals.",
-     "It is not performed during Lent.",
-     "The dance fulfills a panata, or sacred negotiation, expressing religious devotion.",
+     "Performed during the Feast of the Mahal na Poon on May 3, birthdays, graduations, and healing rituals on any day except Lent, primarily to fulfill a panata (sacred negotiation).",
      "Today it is a living tradition."
     ],
     "on_screen": [
@@ -105,16 +104,18 @@
     "title": "Watch it",
     "duration_s": 75,
     "narration": [
-     "Watch for Hat Salute."
+     "Performed in pairs by men and women called manunublî in various formations.",
+     "Male dancers maintain a distinct bent and stooped posture derived from the Tagalog words subsób and balî.",
+     "Women use straw hats adorned with ribbons, waving, removing, or tipping them in salute to an altar cross."
     ],
     "on_screen": [
      "Hero video full screen, 30–45 s (Qe_kINYb89s)",
-     "Captions name each signature move as it appears",
-     "Formation: Performed in pairs and various formations"
+     "Signature moves — MISSING",
+     "Formation: performed in pairs and various formations"
     ],
     "music": "diegetic (the video's own sound), underscore under narration",
     "needs": [
-     "how_it_is_danced"
+     "signature_moves"
     ]
    },
    {
@@ -122,15 +123,15 @@
     "title": "Listen",
     "duration_s": 70,
     "narration": [
-     "The music of Subli is driven by the constant beating of drums and the clacking of wooden castanets (kalaste) played by men.",
-     "The rhythm is frenetic and is linked to prehispanic origins.",
-     "Listen for the drums, wooden castanets (kalaste), rondalla ensemble (theatrical versions).",
-     "The music features a continuous, driving drum rhythm punctuated by sharp wooden castanet clicks, creating a lively, ritualistic atmosphere. Women’s chants narrate the discovery of the Holy Cross in metaphorical language."
+     "Accompanied by the constant beating of drums and the clacking of wooden castanets (kalaste) played by men.",
+     "Performances often begin with women chanting in archaic metaphorical language (talinghaga).",
+     "Listen for the drums, wooden castanets (kalaste), rondalla ensemble.",
+     "Constant beating of drums punctuated by the clacking of wooden castanets, accompanied by women chanting in an archaic metaphorical language."
     ],
     "on_screen": [
      "Instrument names on screen as each is mentioned",
      "Verified recording — MISSING",
-     "Waveform or rhythm-pattern graphic: Constant beating of drums punctuated by wooden castanets"
+     "Waveform or rhythm-pattern graphic: frenetic rhythm of the drums punctuated by castanets"
     ],
     "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
     "needs": [
@@ -143,8 +144,8 @@
     "title": "The costume and the setting",
     "duration_s": 60,
     "narration": [
-     "Women wear straw hats adorned with ribbons used as props for gestures such as waving, removing, and tipping in salute to the Holy Cross placed on an altar.",
-     "The dance is performed during the Feast of the Mahal na Poon on May 3 and other auspicious occasions, usually in community or church settings in Batangas."
+     "Women wear straw hats adorned with ribbons used for graceful gestures and salutes toward a copy of the Holy Cross set on an altar.",
+     "Men participate in traditional attire matching the devotional setting."
     ],
     "on_screen": [
      "Image gallery: 1 licensed images with attribution",
@@ -160,11 +161,13 @@
     "title": "The people",
     "duration_s": 60,
     "narration": [
-     "Juan P. Silos is noted for composing tunes used in theatrical versions of Subli performed outside devotional contexts.",
-     "Subli is a Philippine folk dance with prehispanic animist roots that was Christianized to honor the Holy Cross."
+     "Juan P. Silos composed the rondalla tune used for theatrical versions of the dance.",
+     "Regional variants include the Agoncillo version, the Sinala version (considered the original style using the tagunggo mode), and the Talumpok version.",
+     "A Christianized version of older, prehispanic animist rites, maintaining ties to the tagunggo musical mode while integrated into Catholic devotion to the Holy Cross."
     ],
     "on_screen": [
-     "Names on screen as they are spoken"
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
     ],
     "music": "underscore"
    },
@@ -173,7 +176,7 @@
     "title": "Family tree",
     "duration_s": 40,
     "narration": [
-     "Subli is shares region of tinikling: Both are traditional Philippine folk dances from Luzon with rhythmic percussion."
+     "Subli is shares music of Tagunggo: The rhythmic mode done in Sinala, Bauan is identical to the tagunggo mode."
     ],
     "on_screen": [
      "Graph: the connections with their relation labels"
@@ -188,7 +191,7 @@
     "title": "A respectful note",
     "duration_s": 30,
     "narration": [
-     "Subli is a Catholic devotional dance performed as a prayer honoring the Holy Cross and is traditionally not performed during Lent."
+     "Subli is a Catholic devotional practice and prayer honoring the Holy Cross of Alitagtag, performed to fulfill a panata."
     ],
     "on_screen": [
      "Calm wide shot, no demonstration"
@@ -200,7 +203,7 @@
     "title": "Until next time",
     "duration_s": 25,
     "narration": [
-     "Discover how a repentant husband's vision inspired a vibrant dance honoring the Holy Cross in Batangas.",
+     "Explore the Catholic devotional dance of Subli, honoring the Holy Cross of Alitagtag through drums, castanets, and bent postures.",
      "Sources: 2 references are listed with the profile."
     ],
     "on_screen": [
@@ -218,22 +221,22 @@
   "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
   "tempo_bpm": null,
   "meter": null,
-  "rhythm_pattern": "Constant beating of drums punctuated by wooden castanets",
+  "rhythm_pattern": "frenetic rhythm of the drums punctuated by castanets",
   "instruments": [
    "drums",
    "wooden castanets (kalaste)",
-   "rondalla ensemble (theatrical versions)"
+   "rondalla ensemble"
   ],
-  "vocal_style": "Chants sung by women in archaic, metaphorical language",
-  "musical_form": "Call-and-response chant followed by rhythmic percussion",
+  "vocal_style": "dense, archaic, metaphorical language (talinghaga) chant by women",
+  "musical_form": null,
   "mood": [
    "devotional",
-   "frenetic",
-   "ritualistic"
+   "reverent",
+   "frenetic"
   ],
-  "sound_description": "The music features a continuous, driving drum rhythm punctuated by sharp wooden castanet clicks, creating a lively, ritualistic atmosphere. Women’s chants narrate the discovery of the Holy Cross in metaphorical language.",
+  "sound_description": "Constant beating of drums punctuated by the clacking of wooden castanets, accompanied by women chanting in an archaic metaphorical language.",
   "listen_before_composing": [],
-  "prompt": "Original instrumental composition in the musical world of Subli (Philippines). Rhythm pattern: Constant beating of drums punctuated by wooden castanets. Instruments: drums, wooden castanets (kalaste), rondalla ensemble (theatrical versions). Vocal style: Chants sung by women in archaic, metaphorical language. Form: Call-and-response chant followed by rhythmic percussion. Mood: devotional, frenetic, ritualistic. It should sound like this: The music features a continuous, driving drum rhythm punctuated by sharp wooden castanet clicks, creating a lively, ritualistic atmosphere. Women’s chants narrate the discovery of the Holy Cross in metaphorical language. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "prompt": "Original instrumental composition in the musical world of Subli (Philippines). Rhythm pattern: frenetic rhythm of the drums punctuated by castanets. Instruments: drums, wooden castanets (kalaste), rondalla ensemble. Vocal style: dense, archaic, metaphorical language (talinghaga) chant by women. Mood: devotional, reverent, frenetic. It should sound like this: Constant beating of drums punctuated by the clacking of wooden castanets, accompanied by women chanting in an archaic metaphorical language. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
   "tracks": [
    {
     "id": "theme",
@@ -275,7 +278,7 @@
    "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
    "dress_the_narrator": false,
    "restricted_attire": true,
-   "from_sources": "Women wear straw hats adorned with ribbons used as props for gestures such as waving, removing, and tipping in salute to the Holy Cross placed on an altar. The dance is performed during the Feast of the Mahal na Poon on May 3 and other auspicious occasions, usually in community or church settings in Batangas.",
+   "from_sources": "Women wear straw hats adorned with ribbons used for graceful gestures and salutes toward a copy of the Holy Cross set on an altar. Men participate in traditional attire matching the devotional setting.",
    "reference_images": [
     "https://commons.wikimedia.org/wiki/File%3ASubli.jpg"
    ],
@@ -298,13 +301,12 @@
   ],
   "footage": [],
   "motifs": [
-   "Cross-shaped tree",
-   "Ribbon-adorned straw hats",
-   "Drums and wooden castanets",
-   "Altar with Holy Cross"
+   "Copy of the Holy Cross on an altar",
+   "Ribboned straw hats",
+   "Wooden castanets (kalaste)"
   ],
-  "costume_notes": "Women wear straw hats adorned with ribbons used as props for gestures such as waving, removing, and tipping in salute to the Holy Cross placed on an altar. The dance is performed during the Feast of the Mahal na Poon on May 3 and other auspicious occasions, usually in community or church settings in Batangas.",
-  "setting_notes": "Subli is a devotional dance honoring the Holy Cross of Alitagtag, performed during the Feast of the Mahal na Poon on May 3 and other special events like birthdays, graduations, and healing rituals. It is not performed during Lent. The dance fulfills a panata, or sacred negotiation, expressing religious devotion.",
+  "costume_notes": "Women wear straw hats adorned with ribbons used for graceful gestures and salutes toward a copy of the Holy Cross set on an altar. Men participate in traditional attire matching the devotional setting.",
+  "setting_notes": "Performed during the Feast of the Mahal na Poon on May 3, birthdays, graduations, and healing rituals on any day except Lent, primarily to fulfill a panata (sacred negotiation).",
   "map": {
    "country": "Philippines",
    "region": "Southeast Asia",
@@ -317,39 +319,33 @@
   ]
  },
  "teaching_formula": {
-  "source": "19 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 19,
+  "source": "3 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 3,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back, side",
-   "tempo progression: slow → half → full",
-   "repetitions per step: about 4"
+   "views used by most teachers: front, mirror, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
   ],
   "cues": [
-   "pull back and lean to the left",
-   "close in open on and",
-   "milk down knees are bent",
-   "cross with our left leg",
-   "rock step",
-   "side close side",
-   "triple step",
-   "rock step triple step triple step",
-   "get up from the sleep",
-   "take your chest out",
-   "punch it",
-   "jump like a baby"
+   "let's do this",
+   "praise freestyle",
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "count_in",
-   "full_demo",
+   "context",
    "breakdown",
-   "warmup",
-   "slow_practice",
+   "full_demo",
    "music_practice",
-   "recap"
+   "recap",
+   "slow_practice"
   ],
   "steps_as_taught": []
  },
@@ -359,16 +355,16 @@
   "a verified recording to listen to",
   "licensed images (3 needed)",
   "licensed reference footage",
-  "the how-it-is-danced section",
+  "signature moves",
   "two or more connections"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Subli",
   "https://www.wikidata.org/wiki/Q7631473"
  ],
- "claims_verified": 9,
- "claims": 9,
+ "claims_verified": 7,
+ "claims": 7,
  "polished": false,
- "input_fingerprint": "447e3c1432c7b7dd01333b556c8e337c6b779cfafefd0a8b34aed559540b8fd8",
+ "input_fingerprint": "bd5c88af0737d89b38df9335747123554f627ac9f11a29335124067f94694c6f",
  "hero_checked": "pass"
 }

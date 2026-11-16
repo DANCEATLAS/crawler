@@ -1,10 +1,10 @@
 {
  "slug": "harlem-shuffle",
- "qc_at": "2026-11-02T14:49:10Z",
+ "qc_at": "2026-11-16T21:50:51Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "review",
- "qc_score": 6.75,
+ "publish_gate": "reject",
+ "qc_score": 4.6,
  "gates": [
   {
    "gate": "has_name",
@@ -14,37 +14,37 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "65"
+   "detail": "88"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "136"
+   "detail": "190"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "The Harlem Shuffle evolved from Harlem Renaissance dance clubs into a popular 19"
+   "detail": "The Harlem Shuffle exists as a complex 25-step line dance or a simplified two-st"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "340"
+   "detail": "346"
   },
   {
    "gate": "profile_long_len",
-   "ok": false,
-   "detail": "1175"
+   "ok": true,
+   "detail": "1235"
   },
   {
    "gate": "sections_filled",
-   "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,occasions_and_meaning,lineage"
+   "ok": false,
+   "detail": "origins_and_history,how_it_is_danced,occasions_and_meaning"
   },
   {
    "gate": "citations",
-   "ok": false,
-   "detail": "4/5 rate=0.8"
+   "ok": true,
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -84,42 +84,44 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=False cues=['sacred']"
+   "detail": "sacred=False cues=[]"
   }
  ],
  "judge": {
-  "accuracy": 6,
+  "accuracy": 4,
   "respect": 8,
-  "specificity": 7,
-  "teaching_value": 6,
-  "is_a_dance": true,
+  "specificity": 3,
+  "teaching_value": 3,
+  "is_a_dance": false,
   "factual_doubt": [
-   "The Harlem Shuffle is a versatile dance maneuver originating from Harlem's dance culture during the Harlem Renaissance.",
-   "The Harlem Shuffle gained renewed recognition in the 1980s as a tribute to African-American artistic influence.",
-   "This gesture is emblematic and has become a signature aspect of the dance.",
-   "The Harlem Shuffle is performed as a social dance and as a tribute to the African-American artistic legacy of Harlem."
+   "The claim that the 'Harlem Shuffle' is a 25-step line dance originating in the Harlem Renaissance is historically unsubstantiated and likely conflates the 1963 R&B song 'Harlem Shuffle' with various unrelated social dance steps.",
+   "There is no evidence of a standardized '25-step line dance' known as the Harlem Shuffle."
   ],
-  "harm_or_disrespect": [],
-  "duplicate_suspicion": null,
-  "insight_ok": true,
+  "harm_or_disrespect": [
+   "The profile risks misrepresenting popular culture phenomena as historical folk traditions, potentially erasing the actual origins of specific dance steps by attributing them to a vague 'Harlem Renaissance' lineage."
+  ],
+  "duplicate_suspicion": "The Harlem Shuffle (song/dance move associated with the 1963 Bob & Earl track)",
+  "insight_ok": false,
   "album_doubt": [],
-  "overall": 6,
-  "verdict": "review",
-  "notes": "Core form claims are supported, but several broader historical and cultural statements go beyond the evidence. Good concrete movement detail, though sourcing for history is thin and the profile sometimes reads as explanatory rather than verified."
+  "adaptations_safe": true,
+  "overall": 3,
+  "verdict": "reject",
+  "notes": "The profile conflates a pop-culture dance move (often associated with the 1963 song) with a non-existent '25-step line dance' tradition. It lacks historical rigor and treats a generic move as a formal cultural heritage practice. It fails the 'is_a_dance' criteria as it describes a move/song-associated gesture rather than a distinct dance tradition."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "citations",
-  "profile_long_len",
-  "judge_score=6.75",
-  "doubts=4"
+  "sections_filled",
+  "judge_score=4.6",
+  "doubts=2",
+  "harm",
+  "not_a_dance"
  ],
  "citation": {
-  "claims": 5,
-  "supported": 4,
-  "rate": 0.8
+  "claims": 6,
+  "supported": 6,
+  "rate": 1.0
  },
- "researched_at": "2026-10-31T15:50:25Z"
+ "researched_at": "2026-11-16T21:41:14Z"
 }

@@ -1,8 +1,8 @@
 # Contact Improvisation — episode pack
 
-*Status: draft · built 2026-11-15 · judge 10.0 · 12/12 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 12/12 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed reference footage
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed reference footage
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced somatic practitioner who speaks with quiet precision, focusing on physical sensations, anatomy, and balance rather than theatrical presentation.
@@ -309,7 +309,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Participants dance casually in comfortable, non-restrictive clothing such as sweatpants, tracksuits, leotards, or loose T-shirts chosen specifically to facilitate movement and friction while avoiding zippers or hard hardware. CI takes place in open studios, residential dance centers, art galleries, bookstores, and theaters, usually on sprung wooden floors, gym mats, or tatami. The physical environment is informal and non-hierarchical, designed for uninhibited rolling and floor work.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'q4wUEiHowSU', 'checked_by_vision_model': False, 'title': 'Embraced - Contact Improvisation'}
+Hero video: {'youtube_id': 'q4wUEiHowSU', 'checked_by_vision_model': True, 'title': 'Embraced - Contact Improvisation'}
 Images: 3 licensed — David Gómez Fontanills / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Koyaanisqatsi12 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Romain Bigé / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Bare feet sweeping across unfinished loft floorboards., A moving point of touch sliding along a dancer's curved spine., Gymnastic mats catching high-impact collisions in soft focus., Archival black-and-white video footage shot from hand-held cameras.
@@ -319,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the stage-contemporary family studied · videos studied: 3
+Source: 4 tutorial(s) of the stage-contemporary family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest; straightening my legs; bringing my body up; bend both legs
+Cues: keep your feet pointed; use your core; lean your body back; cross over your partner; trade places with one another; cross body lead; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest
 
 Sources (5): https://en.wikipedia.org/wiki/Contact_improvisation; https://www.wikidata.org/wiki/Q1128456; https://es.wikipedia.org/wiki/Contact_improvisación; https://fr.wikipedia.org/wiki/Contact_Improvisation; https://pt.wikipedia.org/wiki/Contato_improvisação

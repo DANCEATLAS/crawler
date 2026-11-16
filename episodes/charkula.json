@@ -1,0 +1,395 @@
+{
+ "slug": "charkula",
+ "name": "Charkula",
+ "pack_version": "e2",
+ "built_at": "2026-11-16T22:22:18Z",
+ "researched_at": "2026-11-16T06:40:16Z",
+ "qc_score": 8.85,
+ "status": "withheld-chapters",
+ "release_status": "not_validated",
+ "sacred": true,
+ "chapters_note": "withheld: sacred or restricted dance — Episode 1 only",
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Charkula"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Charkula",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Lamps of Braj: The 50-Kilo Pyramids of Charkula",
+     "This is Charkula."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Charkula · India · not described in sources"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "Charkula originates from the Braj region of Uttar Pradesh and is rooted in Krishna mythology.",
+     "According to legend, Radha's grandmother ran out of her house balancing a charkula on her head to announce the birth of Radha.",
+     "Another account links the tradition to Krishna lifting Mount Govardhan to protect the cowherd community of Braj from Indra, turning the performance into a symbolic re-enactment of the Govardhan Leela."
+    ],
+    "on_screen": [
+     "Map: India · South Asia",
+     "Image 1 with attribution"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Charkula is performed during various community festivities and specifically on the third day after Holi, the day Radha is believed to have been born.",
+     "The dance serves as a symbol of happiness and joyful rapture, celebrating both the birth of Radha and the victory over Indra by Lord Krishna and the cowherd community of Braj.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage: Gaahya, Saakhi, Rasiya, Charkula: Folk Music form of Uttar Pradesh (https://archive.org/details/dni.ncaa.CCRT-30-UMHB)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "Watch for Charkula balancing."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears"
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration",
+    "needs": [
+     "how_it_is_danced"
+    ]
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "The music consists of traditional songs dedicated to Lord Krishna performed during festivities in the Braj region of Uttar Pradesh."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Verified recording — MISSING",
+     "Waveform or rhythm-pattern graphic: "
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original",
+    "needs": [
+     "music_and_instruments",
+     "tempo",
+     "meter"
+    ]
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "Dancers perform veiled.",
+     "The primary prop and visual feature is a 50-kilogram multi-tiered circular wooden pyramid balanced on the dancer's head, which holds 108 lighted oil lamps arranged in a spiral.",
+     "The setting is traditionally outdoor festival spaces within the Braj area of Uttar Pradesh."
+    ],
+    "on_screen": [
+     "Image gallery: 1 licensed images with attribution",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Rooted in the folk traditions and Krishna legends of the Braj region in Uttar Pradesh, India."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken"
+    ],
+    "music": "underscore",
+    "needs": [
+     "notable_figures"
+    ]
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [],
+    "on_screen": [
+     "Connections — MISSING"
+    ],
+    "music": "underscore",
+    "needs": [
+     "connections"
+    ]
+   },
+   {
+    "code": "first_step",
+    "title": "A respectful note",
+    "duration_s": 30,
+    "narration": [
+     "Associated with Lord Krishna and the birth of Radha; re-enacts the legend of Govardhan Leela."
+    ],
+    "on_screen": [
+     "Calm wide shot, no demonstration"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Veiled dancers in the Braj region perform a high-stakes balancing act with 108 lit lamps to celebrate Radha's birth and Krishna's triumphs.",
+     "Sources: 2 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 525
+ },
+ "chapters": [],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": null,
+  "meter": null,
+  "rhythm_pattern": null,
+  "instruments": [],
+  "vocal_style": null,
+  "musical_form": null,
+  "mood": [
+   "joyful",
+   "festive",
+   "devotional"
+  ],
+  "sound_description": "The music consists of traditional songs dedicated to Lord Krishna performed during festivities in the Braj region of Uttar Pradesh.",
+  "listen_before_composing": [],
+  "prompt": "Original instrumental composition in the musical world of Charkula (India). Mood: joyful, festive, devotional. It should sound like this: The music consists of traditional songs dedicated to Lord Krishna performed during festivities in the Braj region of Uttar Pradesh. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": null
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": null
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred",
+   "dress_the_narrator": false,
+   "restricted_attire": true,
+   "from_sources": "Dancers perform veiled. The primary prop and visual feature is a 50-kilogram multi-tiered circular wooden pyramid balanced on the dancer's head, which holds 108 lighted oil lamps arranged in a spiral. The setting is traditionally outdoor festival spaces within the Braj area of Uttar Pradesh.",
+   "reference_images": [
+    "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg"
+   ],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Odissi_Performance_DS.jpg/1280px-Odissi_Performance_DS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "attribution": "Augustus Binu/ facebook / Wikimedia Commons / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3AOdissi_Performance_DS.jpg",
+    "description": "Odissi Perfomance"
+   }
+  ],
+  "footage": [
+   {
+    "title": "Gaahya, Saakhi, Rasiya, Charkula: Folk Music form of Uttar Pradesh",
+    "url": "https://archive.org/details/dni.ncaa.CCRT-30-UMHB",
+    "year": 1986,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Das Kathia: A narrative form of Orissa; Charkula: A dance form of Uttar Pradesh",
+    "url": "https://archive.org/details/dni.ncaa.CCRT-63-UMHB",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Folk Dance Performance by Shri Ramesh Chand Sharma and Group",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-2495-VHS",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Folk Performance by Shri Naad Sangit Kala Kendra",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-2422-VHS",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   },
+   {
+    "title": "Holi Ke Rang Anek: Folk Performance by Charkula Swastik Group",
+    "url": "https://archive.org/details/dni.ncaa.ICCR-2574-VHS",
+    "year": null,
+    "license": "unknown (Internet Archive)",
+    "attribution": "Internet Archive"
+   }
+  ],
+  "motifs": [
+   "Multi-tiered circular wooden pyramid",
+   "108 lighted oil lamps arranged in a spiral",
+   "Veiled female dancer maintaining delicate balance",
+   "Festive Braj gatherings following Holi"
+  ],
+  "costume_notes": "Dancers perform veiled. The primary prop and visual feature is a 50-kilogram multi-tiered circular wooden pyramid balanced on the dancer's head, which holds 108 lighted oil lamps arranged in a spiral. The setting is traditionally outdoor festival spaces within the Braj area of Uttar Pradesh.",
+  "setting_notes": "Charkula is performed during various community festivities and specifically on the third day after Holi, the day Radha is believed to have been born. The dance serves as a symbol of happiness and joyful rapture, celebrating both the birth of Radha and the victory over Indra by Lord Krishna and the cowherd community of Braj.",
+  "map": {
+   "country": "India",
+   "region": "South Asia",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "3 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 3,
+  "counting": "",
+  "counting_basis": "missing",
+  "demonstration": [
+   "views used by most teachers: front, mirror, back",
+   "tempo progression: slow → full",
+   "repetitions per step: about 5"
+  ],
+  "cues": [
+   "let's do this",
+   "praise freestyle",
+   "hold your knife out",
+   "every time the blade faces down",
+   "two thumbs are facing up",
+   "one two",
+   "over and spin"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "context",
+   "breakdown",
+   "full_demo",
+   "music_practice",
+   "recap",
+   "slow_practice"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "tempo (bpm)",
+  "meter",
+  "instruments",
+  "a verified recording to listen to",
+  "a hero video",
+  "licensed images (3 needed)",
+  "the how-it-is-danced section",
+  "the music & instruments section",
+  "notable figures",
+  "two or more connections"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Charkula",
+  "https://www.wikidata.org/wiki/Q5074581"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "2ed7642c4e9fc7a81224e8c402e75bde44af643ee933b00e6c9bd5c7f0833500",
+ "hero_checked": null
+}

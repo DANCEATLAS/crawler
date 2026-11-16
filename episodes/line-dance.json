@@ -2,7 +2,7 @@
  "slug": "line-dance",
  "name": "Line dance",
  "pack_version": "e2",
- "built_at": "2026-11-13T18:27:38Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-12T18:23:44Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -707,7 +707,7 @@
  "visual_brief": {
   "hero_video": {
    "youtube_id": "9BhPdnxD6Xk",
-   "checked_by_vision_model": false,
+   "checked_by_vision_model": true,
    "title": "Kane's Boots - Line Dance (Dance & Teach in English & 中文)"
   },
   "wardrobe": {
@@ -854,8 +854,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "2 tutorial(s) of this dance studied",
-  "videos_studied": 2,
+  "source": "3 tutorial(s) of this dance studied",
+  "videos_studied": 3,
   "counting": "1-2-3-4",
   "counting_basis": "studied dance-specific tutorial",
   "demonstration": [
@@ -863,6 +863,10 @@
    "tempo progression: slow → full"
   ],
   "cues": [
+   "out in out in",
+   "heel heel toe toe",
+   "step kick step and touch",
+   "right behind right touch",
    "step by step",
    "right left right",
    "one more time slow"
@@ -878,6 +882,26 @@
    "slow_practice"
   ],
   "steps_as_taught": [
+   {
+    "name": "Fan motion / Heels and Toes",
+    "counts": "1-2-3-4",
+    "description": "Fan right toe out-in-out-in, then two heels forward and two toes back."
+   },
+   {
+    "name": "Alternating Heels and Toes",
+    "counts": "5-6-7-8",
+    "description": "Right heel forward, right toe back, right heel forward, right toe back."
+   },
+   {
+    "name": "Step Kick Step Touch",
+    "counts": "1-2-3-4",
+    "description": "Step forward right, kick left, step left, touch right toe back. Repeated twice."
+   },
+   {
+    "name": "Grapevine",
+    "counts": "1-2-3-4",
+    "description": "Step right out, step left behind, step right out, touch left next to right."
+   },
    {
     "name": "Section 1 steps",
     "counts": "1-2-3-4 5-6-7-8",
@@ -904,7 +928,6 @@
   "tempo (bpm)",
   "meter",
   "instruments",
-  "the hero video's vision check",
   "posture, arms and hands",
   "teaching steps written out"
  ],
@@ -918,6 +941,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "709e1b3d6bed14c64a60b2f0c5fd7baa14dfe2960eafcf270aff5e90a3e92c4f",
- "hero_checked": null
+ "input_fingerprint": "2b345b7fdbd1691373acda19be3afc1e9295d4db2e54c0fe6f7304e97f25340a",
+ "hero_checked": "pass"
 }

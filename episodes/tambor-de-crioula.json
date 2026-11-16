@@ -2,7 +2,7 @@
  "slug": "tambor-de-crioula",
  "name": "Tambor de Crioula",
  "pack_version": "e2",
- "built_at": "2026-11-11T18:54:12Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-08T16:48:16Z",
  "qc_score": 9.85,
  "status": "withheld-chapters",
@@ -271,7 +271,7 @@
  "visual_brief": {
   "hero_video": {
    "youtube_id": "mFLhyKpG4ok",
-   "checked_by_vision_model": false,
+   "checked_by_vision_model": true,
    "title": "Danças Brasileiras - Tambor de Crioula (2 de 3)"
   },
   "wardrobe": {
@@ -336,16 +336,18 @@
   ]
  },
  "teaching_formula": {
-  "source": "2 tutorial(s) of the ritual-sacred family studied",
-  "videos_studied": 2,
+  "source": "3 tutorial(s) of the ritual-sacred family studied",
+  "videos_studied": 3,
   "counting": "",
   "counting_basis": "missing",
   "demonstration": [
-   "views used by most teachers: front, back",
+   "views used by most teachers: front, mirror, back",
    "tempo progression: slow → full",
    "repetitions per step: about 5"
   ],
   "cues": [
+   "let's do this",
+   "praise freestyle",
    "hold your knife out",
    "every time the blade faces down",
    "two thumbs are facing up",
@@ -355,9 +357,9 @@
   "common_mistakes": [],
   "segment_order": [
    "intro",
-   "full_demo",
    "context",
    "breakdown",
+   "full_demo",
    "music_practice",
    "recap",
    "slow_practice"
@@ -368,7 +370,6 @@
   "tempo (bpm)",
   "meter",
   "a verified recording to listen to",
-  "the hero video's vision check",
   "licensed images (3 needed)",
   "notable figures",
   "two or more connections"
@@ -383,6 +384,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "e82072cc03362c9f425fc98c2ca6ab086eb7b90898c4eae57162b9a7489a51e3",
- "hero_checked": null
+ "input_fingerprint": "520d0f81f725002214ebe3bc8089f16b9dda17e91b34c79e95b343fdbe6203ba",
+ "hero_checked": "pass"
 }

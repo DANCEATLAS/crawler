@@ -4,59 +4,56 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Women wave, remove, and tip straw hats with ribbons; men play castanets",
-      "difficulty": "beginner",
+      "arms_and_hands": "women wave, remove, or tip straw hats adorned with ribbons in salute to an altar cross",
+      "difficulty": "not described in sources",
       "footwork": "not described in sources",
-      "formation_and_space": "Performed in pairs and various formations",
+      "formation_and_space": "performed in pairs and various formations",
       "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
-      "partnering": "Danced in pairs",
-      "posture": "Men adopt a bent or stooped posture; women stand upright",
-      "signature_moves": [
-        {
-          "description": "Women tip their ribbon-adorned straw hats in salute to the Holy Cross",
-          "name": "Hat Salute"
-        }
-      ],
-      "tempo_feel": "Frenetic rhythm matching drumbeats",
-      "what_to_avoid": "Performing during Lent"
+      "partnering": "paired male and female dancers",
+      "posture": "bent, stooped posture adopted by male dancers (subsób and balî)",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
         "drums",
         "wooden castanets (kalaste)",
-        "rondalla ensemble (theatrical versions)"
+        "rondalla ensemble"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
         "devotional",
-        "frenetic",
-        "ritualistic"
+        "reverent",
+        "frenetic"
       ],
-      "musical_form": "Call-and-response chant followed by rhythmic percussion",
+      "musical_form": "tagunggo mode",
       "reference_recordings": [],
-      "rhythm_pattern": "Constant beating of drums punctuated by wooden castanets",
-      "sound_description": "The music features a continuous, driving drum rhythm punctuated by sharp wooden castanet clicks, creating a lively, ritualistic atmosphere. Women’s chants narrate the discovery of the Holy Cross in metaphorical language.",
+      "rhythm_pattern": "frenetic rhythm of the drums punctuated by castanets",
+      "sound_description": "Constant beating of drums punctuated by the clacking of wooden castanets, accompanied by women chanting in an archaic metaphorical language.",
       "tempo_bpm": "not described in sources",
-      "vocal_style": "Chants sung by women in archaic, metaphorical language"
+      "vocal_style": "dense, archaic, metaphorical language (talinghaga) chant by women"
     },
     "teaching": {
       "basic_steps": [
-        "Adopt a bent or stooped posture (men)",
-        "Perform in pairs with a partner",
-        "Women wave, remove, or tip straw hats with ribbons",
-        "Begin with a chant sung by women",
-        "Move rhythmically to drumbeats and castanet clacking"
+        "Maintain a bent, stooped male posture (subsób and balî)",
+        "Wave, remove, or tip the ribboned straw hat in salute to the altar cross (women)"
       ],
-      "formation": "Pairs and various formations",
-      "level_notes": "Technique specifics such as footwork and counts are not described in sources",
-      "rhythm": "Frenetic drumbeat with wooden castanet clacking"
+      "formation": "Performed in pairs and various formations by men and women.",
+      "level_notes": "Technique details beyond posture, hat gestures, and partnering are not described in sources.",
+      "rhythm": "Frenetic drum rhythm punctuated by wooden castanets (kalaste); tagunggo mode in Sinala."
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "eb80c3094e0ca721ca6b94de7ba1b35d160ee9a77472fcd94417684b8272ea80",
+  "fingerprint": "a6ef2174a223c26096d52cce4342632f32b9162054da7c0cddaf751ac10b467d",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -64,9 +61,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "movement: footwork",
+      "movement: footwork, what_to_avoid",
       "music_structure: meter",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific choreographic differences between the Agoncillo, Sinala, and Talumpok regional versions of Subli? Evidence needed: Ethnomusicological field notes or regional dance documentation from Batangas."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -93,6 +91,17 @@
   ],
   "music_options": [],
   "name": "Subli",
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "1e5552fe6ac243e0",
+      "next_evidence": "Ethnomusicological field notes or regional dance documentation from Batangas.",
+      "question": "What are the specific choreographic differences between the Agoncillo, Sinala, and Talumpok regional versions of Subli?",
+      "source": "https://en.wikipedia.org/wiki/Subli",
+      "status": "candidate_unreviewed",
+      "why_needed": "The Wikipedia article mentions these three versions as external links/variants without detailing their specific movement differences."
+    }
+  ],
   "research_file": "research_results/subli.json",
   "runtime_active": false,
   "scope": {

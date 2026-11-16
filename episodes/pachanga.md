@@ -1,8 +1,8 @@
 # pachanga — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.25 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Knowledgeable salsa historian and practitioner.
@@ -322,7 +322,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'BwjN0t7eFPU', 'checked_by_vision_model': False, 'title': 'PACHANGA Eddie Torres and Grisel Ponce'}
+Hero video: {'youtube_id': 'BwjN0t7eFPU', 'checked_by_vision_model': True, 'title': 'PACHANGA Eddie Torres and Grisel Ponce'}
 Images: 1 licensed — Joel Riedesel / Wikimedia Commons / CC BY 2.0 (CC BY 2.0)
 Footage: Videos Hits ; 35 Cumbias, Pachanga, Latín Dance, Reggaeton, Tribal, Pop, Kitsch, Retro — https://archive.org/details/karicia-la-discoteka; 2026 Latinx Theatre Commons Carnaval of New Latinx Musicals — https://archive.org/details/2026-latinx-theatre-commons-carnaval-of-new-latinx-musicals
 Motifs: Archival footage of 1950s dance halls, Close-ups of footwork on wooden floors, Vintage record labels

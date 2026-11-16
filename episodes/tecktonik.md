@@ -1,8 +1,8 @@
 # Tecktonik — episode pack
 
-*Status: draft · built 2026-11-09 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); the hero video's vision check; licensed images (3 needed); the how-it-is-danced section
+**Gaps** (handed to the research queue): tempo (bpm); licensed images (3 needed); the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A former Metropolis club dancer turned online coach, knowledgeable about Tecktonik history and trademark culture
@@ -326,7 +326,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The Tecktonik visual identity includes neon colors, fingerless gloves, tight clothing such as slim pants and fitted tops, and punk-inspired hairstyles like mohawks. This style was developed alongside the dance at the Metropolis nightclub and became part of the culture. Settings include nightclubs, street gatherings, and online video platforms. The brand also commercialized clothing and energy drinks. The style's fashion was sometimes criticized as outdated or superficial.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'e4MM2lxrnBw', 'checked_by_vision_model': False, 'title': 'Tecktonik vs. Shuffle Girls'}
+Hero video: {'youtube_id': 'e4MM2lxrnBw', 'checked_by_vision_model': True, 'title': 'Tecktonik vs. Shuffle Girls'}
 Images: 0 licensed
 Footage: Freestyle Dance Styles - EDM ( DnB Step, Electro Shuffle, Tectonic). — https://archive.org/details/dance-stylez-edm-dn-b-step-electro-shuffle-tecktonik; Électro Style Difficile - Tecktonik Danse. — https://archive.org/details/electro-style-hard-style-tecktonik-danse; Jump-Tonic - The Best Electro Dance Videoclips — https://archive.org/details/jump-tonic-the-best-electro-dance-videoclips-dvd-1196561495; DIGITAL DAWN - Start time — https://archive.org/details/Lordnetzwerk-DIGITALDAWNStartTime672-2; 【MMD】Groovy Dancing SSBB【Kirby Dance】 — https://archive.org/details/youtube-cwSuF-x_I44; Electro - ¡NUBE de azúcar! ¡VUELVE A BAILAR! ¡EQUIPO DEL MODO VENCER! — https://archive.org/details/sugar-cloud-come-back-to-dancee-beat-mode-crew; Touch By Touch (Modern Talking) - Supermodel Video 2022 & Party Music Remix — https://archive.org/details/youtube-qTbopXeh-40; Bhangra 2013 Kamal Supreme — https://archive.org/details/Bhangra2013KamalSupreme
 Motifs: Neon colors and fingerless gloves, Fast arm movements tracing light trails, Crowds gathered in street and club settings, Close-ups of angular poses and foot shuffles

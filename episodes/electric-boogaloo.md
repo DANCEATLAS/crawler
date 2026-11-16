@@ -1,8 +1,8 @@
 # electric boogaloo — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the costume & setting section; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A street dance historian and veteran popping practitioner.
@@ -305,7 +305,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'twkQ4ToK5D0', 'checked_by_vision_model': False, 'title': "Breakin' 2: Electric Boogaloo (1984) Ozone  Shabba Doo Turbo Michael Chambers Susie Coelho WARPITER"}
+Hero video: {'youtube_id': 'twkQ4ToK5D0', 'checked_by_vision_model': True, 'title': "Breakin' 2: Electric Boogaloo (1984) Ozone  Shabba Doo Turbo Michael Chambers Susie Coelho WARPITER"}
 Images: 1 licensed — Stefan Bootin / Wikimedia Commons / CC BY-SA 2.5 (CC BY-SA 2.5)
 Footage: MISSING
 Motifs: Rubik's cube body joints, Side-to-side hits, Fluid leg rolls
@@ -315,9 +315,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the street-urban family studied · videos studied: 18
+Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
 Counting: 
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
 
 Sources (3): https://en.wikipedia.org/wiki/Electric_boogaloo_(dance); https://www.wikidata.org/wiki/Q354363; https://de.wikipedia.org/wiki/Electric_Boogie

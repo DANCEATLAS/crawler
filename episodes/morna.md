@@ -1,8 +1,8 @@
 # morna — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed); the costume & setting section; what to avoid / common mistakes
+**Gaps** (handed to the research queue): licensed images (3 needed); the costume & setting section; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Cape Verdean cultural historian or traditional dancer.
@@ -305,7 +305,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'aN8KsbFz3jE', 'checked_by_vision_model': False, 'title': 'Clip 9 (morna a par).'}
+Hero video: {'youtube_id': 'aN8KsbFz3jE', 'checked_by_vision_model': True, 'title': 'Clip 9 (morna a par).'}
 Images: 1 licensed — Original uploader was Kotoviski at sv.wikipedia / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: File:Morna Sodade na Praia Branca.webm — https://upload.wikimedia.org/wikipedia/commons/1/1b/Morna_Sodade_na_Praia_Branca.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Ocean waves, Acoustic guitar strings, Couples dancing in a ballroom setting

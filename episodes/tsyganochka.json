@@ -2,7 +2,7 @@
  "slug": "tsyganochka",
  "name": "Tsyganochka",
  "pack_version": "e2",
- "built_at": "2026-11-15T18:05:17Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-09T20:22:54Z",
  "qc_score": 9.45,
  "status": "draft",
@@ -703,7 +703,7 @@
  "visual_brief": {
   "hero_video": {
    "youtube_id": "kNPudJGGCyU",
-   "checked_by_vision_model": false,
+   "checked_by_vision_model": true,
    "title": "КРАСАВИЦЫ ЦЫГАНОЧКИ! Цыганские танцы от души!"
   },
   "wardrobe": {
@@ -752,8 +752,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "19 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 19,
+  "source": "24 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 24,
   "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -762,6 +762,9 @@
    "repetitions per step: about 4"
   ],
   "cues": [
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
    "pull back and lean to the left",
    "close in open on and",
    "milk down knees are bent",
@@ -770,18 +773,15 @@
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "get up from the sleep",
-   "take your chest out",
-   "punch it",
-   "jump like a baby"
+   "open your right leg"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "count_in",
-   "full_demo",
    "breakdown",
    "warmup",
+   "full_demo",
    "slow_practice",
    "music_practice",
    "recap"
@@ -791,7 +791,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "the occasions & meaning section",
@@ -809,6 +808,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "b4b370999fc2edd92f03650e6219e8840e6dbf0a5d305a24228aeb09297bd9f2",
- "hero_checked": null
+ "input_fingerprint": "d464e71932cdc0bb876382d8ce993063d84da67b29458c132b6dc07c504fee16",
+ "hero_checked": "pass"
 }

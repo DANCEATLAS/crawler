@@ -2,7 +2,7 @@
  "slug": "classical-ballet",
  "name": "Classical Ballet",
  "pack_version": "e2",
- "built_at": "2026-11-09T21:52:47Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-05T18:28:35Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -719,7 +719,7 @@
  "visual_brief": {
   "hero_video": {
    "youtube_id": "0GsajWIF3ws",
-   "checked_by_vision_model": false,
+   "checked_by_vision_model": true,
    "title": "Swan Lake – Dance of the cygnets (The Royal Ballet)"
   },
   "wardrobe": {
@@ -899,8 +899,7 @@
  "gaps": [
   "tempo (bpm)",
   "meter",
-  "a verified recording to listen to",
-  "the hero video's vision check"
+  "a verified recording to listen to"
  ],
  "sources": [
   "https://en.wikipedia.org/wiki/Classical_ballet",
@@ -911,6 +910,6 @@
  "claims_verified": 6,
  "claims": 6,
  "polished": false,
- "input_fingerprint": "d73418200963dda1bdf022ccd453226373bcd23ffbef5f02f227dadfb21acd7e",
- "hero_checked": null
+ "input_fingerprint": "96145afb40e28ee18881ac7b16bab5afcc8665586c894bc269153c660a1e2a3e",
+ "hero_checked": "pass"
 }

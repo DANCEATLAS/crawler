@@ -1,0 +1,159 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Unsupervised falls",
+          "Heavy lifting mimes that strain the back"
+        ],
+        "counts": "Simple 1-2-3-4 counts for the mining actions.",
+        "duration_minutes": "3",
+        "game_version": "A 'follow the leader' journey where children must mine salt and then 'carry' it home without dropping it."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "The choreographed fall",
+          "Deep squats",
+          "Rapid direction changes"
+        ],
+        "counts": "Use a steady 4/4 count for all gestures.",
+        "seated_version": "Perform the mining and salt-sprinkling gestures with the arms while seated, focusing on rhythmic upper-body movement.",
+        "standing_version": "Perform the traveling steps at a reduced pace, using a chair for balance during the 'mining' leans.",
+        "tempo_and_range": "Reduce tempo by 30%; limit the depth of the mining lunges."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Gestures include mining salt, processing it, and sprinkling it on pretzels.",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Moves from a localized 'mine' area to a traveling path across the floor.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes floor work (the fall) and standing sequences.",
+      "partnering": "none",
+      "posture": "Grounded and heavy during the mining sequences; upright and energetic during the travel sequences.",
+      "signature_moves": [
+        {
+          "description": "Dancers interpret the physical act of extracting salt from a cave.",
+          "name": "The Salt Mine Mime"
+        },
+        {
+          "description": "A solo dancer falls to the ground as if injured before rising to continue.",
+          "name": "The Dramatic Fall"
+        }
+      ],
+      "tempo_feel": "Shifts from the weight of labor to the lightness of a journey home.",
+      "what_to_avoid": "When performing the fall, ensure proper impact distribution to avoid actual injury."
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "industrious",
+        "resilient",
+        "celebratory",
+        "theatrical"
+      ],
+      "musical_form": "Narrative-driven, likely accelerating from labor to celebration",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The soundscape follows the narrative of the salt merchant, likely beginning with steady, percussive rhythms that match the mining actions and transitioning into traditional Ukrainian folk melodies for the journey home.",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Mimic the heavy striking and lifting motions of mining salt from a cave",
+        "Perform rhythmic movements representing the desalination of salt",
+        "Execute a symbolic gesture of sprinkling salt onto food",
+        "Transition into a traveling step representing the walk home",
+        "For the solo version: perform a controlled fall to the ground, pause, and rise quickly"
+      ],
+      "formation": "Can be performed as a solo or by a professional ensemble",
+      "level_notes": "Requires both mimetic acting skills for the labor sequences and athletic ability for the folk dance steps and choreographed falls.",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "bd93221651139da2705f454684d9865e312962c6a87fa2230a7184a9a7e15925",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Is there a specific musical composition or traditional folk tune that is standard for the Chumak dance? Evidence needed: https://en.wikipedia.org/wiki/Chumak_(dance)"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What are the specific footwork patterns used during the 'traveling home' section of the dance? Evidence needed: https://en.wikipedia.org/wiki/Chumak_(dance)"
+    ]
+  },
+  "id": "atlas:chumak",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Chumak",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "3dfdfed53ba57b4c",
+      "next_evidence": "https://en.wikipedia.org/wiki/Chumak_(dance)",
+      "question": "What are the specific footwork patterns used during the 'traveling home' section of the dance?",
+      "source": "https://en.wikipedia.org/wiki/Chumak_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "The current sources only describe the narrative and mime, but not the technical footwork required for teaching."
+    },
+    {
+      "domain": "research",
+      "id": "5c956fc9b4dc4fa1",
+      "next_evidence": "https://en.wikipedia.org/wiki/Chumak_(dance)",
+      "question": "Is there a specific musical composition or traditional folk tune that is standard for the Chumak dance?",
+      "source": "https://en.wikipedia.org/wiki/Chumak_(dance)",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide a music_profile that allows a composer to recreate the sound accurately."
+    }
+  ],
+  "research_file": "research_results/chumak.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "chumak",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chumak_(dance)",
+    "https://www.wikidata.org/wiki/Q5116137"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

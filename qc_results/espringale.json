@@ -1,0 +1,126 @@
+{
+ "slug": "espringale",
+ "qc_at": "2026-11-16T21:54:02Z",
+ "version": "v3.3",
+ "judge_version": "j3",
+ "publish_gate": "review",
+ "qc_score": 7.95,
+ "gates": [
+  {
+   "gate": "has_name",
+   "ok": true,
+   "detail": "Espringale"
+  },
+  {
+   "gate": "tagline_len",
+   "ok": true,
+   "detail": "58"
+  },
+  {
+   "gate": "insight_len",
+   "ok": true,
+   "detail": "175"
+  },
+  {
+   "gate": "insight_concrete",
+   "ok": true,
+   "detail": "Mentioned in the 13th-century 'Roman de la Rose', the Espringale was a 'springin"
+  },
+  {
+   "gate": "profile_len",
+   "ok": true,
+   "detail": "602"
+  },
+  {
+   "gate": "profile_long_len",
+   "ok": true,
+   "detail": "3945"
+  },
+  {
+   "gate": "sections_filled",
+   "ok": true,
+   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,regional_variants"
+  },
+  {
+   "gate": "citations",
+   "ok": false,
+   "detail": "1/4 rate=0.25"
+  },
+  {
+   "gate": "sources",
+   "ok": false,
+   "detail": "1"
+  },
+  {
+   "gate": "country",
+   "ok": true,
+   "detail": "France"
+  },
+  {
+   "gate": "region",
+   "ok": true,
+   "detail": "Europe"
+  },
+  {
+   "gate": "banned_phrasing",
+   "ok": true,
+   "detail": "codified"
+  },
+  {
+   "gate": "ai_tells",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "no_repetition",
+   "ok": true,
+   "detail": "6 paras"
+  },
+  {
+   "gate": "not_duplicate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "gate": "sacred_handled",
+   "ok": false,
+   "detail": "sacred=True cues=['sacred', 'liturg']"
+  }
+ ],
+ "judge": {
+  "accuracy": 8,
+  "respect": 10,
+  "specificity": 7,
+  "teaching_value": 6,
+  "is_a_dance": true,
+  "factual_doubt": [
+   "The Espringale represents a shift in medieval social dancing toward more individualistic expression.",
+   "Dancers likely performed in a line or circle but incorporated 'springs'—small leaps or hops—on specific beats of the music."
+  ],
+  "harm_or_disrespect": [],
+  "duplicate_suspicion": null,
+  "insight_ok": true,
+  "album_doubt": [],
+  "adaptations_safe": true,
+  "overall": 7,
+  "verdict": "publish",
+  "notes": "The profile is a solid reconstruction based on the limited literary evidence available. While specific footwork is speculative (as noted in the text), the etymological and literary links to 'springing' are well-handled. The distinction between the Espringale and Carole is historically supported by the 'Roman de la Rose' context."
+ },
+ "judge_reused": false,
+ "duplicate_of": null,
+ "is_sacred": true,
+ "reasons": [
+  "citations",
+  "sources",
+  "sacred_handled",
+  "judge_score=7.95",
+  "doubts=2",
+  "sacred"
+ ],
+ "citation": {
+  "claims": 4,
+  "supported": 1,
+  "rate": 0.25
+ },
+ "researched_at": "2026-11-16T20:25:47Z"
+}

@@ -1,8 +1,8 @@
 # Kamarinskaya — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.3 · 5/5 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.3 · 5/5 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A musicologist or dance historian with a focus on Russian folk traditions.
@@ -286,7 +286,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '93UeF2JMxYg', 'checked_by_vision_model': False, 'title': '"Камаринская", Ансамбль Локтева. "Kamarinskaya", Loktev Ensemble.'}
+Hero video: {'youtube_id': '93UeF2JMxYg', 'checked_by_vision_model': True, 'title': '"Камаринская", Ансамбль Локтева. "Kamarinskaya", Loktev Ensemble.'}
 Images: 2 licensed — unknown, upload by Adrian Michael / Wikimedia Commons / Public domain (Public domain); Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Balalaika strings, Orchestral scores, Solo dancer in a traditional setting
@@ -296,9 +296,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (4): https://en.wikipedia.org/wiki/Kamarinskaya; https://www.wikidata.org/wiki/Q1055478; https://fr.wikipedia.org/wiki/Kamarinskaïa; https://archive.org/details/31761037443744

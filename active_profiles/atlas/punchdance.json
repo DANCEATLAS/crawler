@@ -1,13 +1,60 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "beginner",
+      "footwork": "not described in sources",
+      "formation_and_space": "not described in sources",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "not described in sources",
+      "posture": "not described in sources",
+      "signature_moves": [],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [],
+      "formation": "not described in sources",
+      "level_notes": "not described in sources",
+      "rhythm": "not described in sources"
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "46b2c81881fc559f4c238c6d94e8c19549f5da5e25a8fcb8f156ab4c85883271",
+  "fingerprint": "fd1ce1593f46d9b98caa3388c4375eddaa360fddf6a3edf4668b390ab8ed4d11",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +62,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
       "movement: footwork, posture, formation_and_space, what_to_avoid",
       "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: Is there evidence of punchdance being practiced outside of cinematic parody or reference? Evidence needed: Ethnographic studies or community dance documentation."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,7 +92,18 @@
   ],
   "music_options": [],
   "name": "Punchdance",
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "ae0e2344b1b4f925",
+      "next_evidence": "Ethnographic studies or community dance documentation.",
+      "question": "Is there evidence of punchdance being practiced outside of cinematic parody or reference?",
+      "source": "https://en.wikipedia.org/wiki/Punchdance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To determine if this is a living tradition or purely a cultural reference."
+    }
+  ],
+  "research_file": "research_results/punchdance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +115,7 @@
   "slug": "punchdance",
   "sources": [
     "https://en.wikipedia.org/wiki/Punchdance",
-    "Source: Punchdance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Punchdance"
+    "https://www.wikidata.org/wiki/Q25345663"
   ],
   "state": "researching",
   "video_evidence": []

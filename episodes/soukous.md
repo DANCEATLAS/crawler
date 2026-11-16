@@ -1,8 +1,8 @@
 # soukous — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): a verified recording to listen to; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic, knowledgeable dance historian.
@@ -307,7 +307,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historically associated with dance halls and urban clubs in Kinshasa and Brazzaville, soukous is a staple of weddings and public festivals. Fashion and elegance, particularly within the Sapeur movement, are integral to the performance culture.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'XS4ErzpF9uw', 'checked_by_vision_model': False, 'title': 'Soukous Vibration Dancers - II'}
+Hero video: {'youtube_id': 'XS4ErzpF9uw', 'checked_by_vision_model': True, 'title': 'Soukous Vibration Dancers - II'}
 Images: 8 licensed — unknown, Ngoma / Wikimedia Commons / Public domain (Public domain); BIB39 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); BIB39 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Mbokamosika / Wikimedia Commons / Public domain (Public domain); Unknown author / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: 0cbf 58305382f 8916e 69800315e 14e 6c 56185588 360p — https://archive.org/details/0cbf-58305382f-8916e-69800315e-14e-6c-56185588-360p; AFRICA DANCE VOL. 1 (2002) 🌍 — COMPILATION AFRICAINE – DVD COMPLET — https://archive.org/details/africa-dance-1; File:Werra Son (Congo) Music video of "Waka Waka".webm — https://upload.wikimedia.org/wikipedia/commons/6/68/Werra_Son_%28Congo%29_Music_video_of_%22Waka_Waka%22.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Moise speaking French, English, Lingala, Hunde, Congo Swahili.webm — https://upload.wikimedia.org/wikipedia/commons/5/5d/Moise_speaking_French%2C_English%2C_Lingala%2C_Hunde%2C_Congo_Swahili.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Hbd Lingala gâteau 05.webm — https://upload.wikimedia.org/wikipedia/commons/4/4c/Hbd_Lingala_g%C3%A2teau_05.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Guitar fretboard close-ups, Urban dance hall scenes, Vibrant fashion

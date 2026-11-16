@@ -1,8 +1,8 @@
 # Tobas — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.7 · 16/16 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.7 · 16/16 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; two or more connections; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; two or more connections; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Tobas dancer from Oruro, passionate about preserving indigenous heritage and teaching physical technique
@@ -311,7 +311,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Dancers wear elaborate costumes featuring full feathered headdresses decorated with jewels, colorful skirts and tops adorned with beads and fringes, and anklets with sewn cow hooves that add rhythmic sounds. They carry symbolic weapons such as spears or hatchets and wear feather bracelets. The dance is performed outdoors during religious and cultural festivals like Carnaval de Oruro and Fiesta del Gran Poder, as well as international events in Chile, Peru, and Argentina.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '-LGqf8TMNrU', 'checked_by_vision_model': False, 'title': 'Campeones Nacionales de Tobas 2017, Fraternidad Cultural Sayani Huajchas'}
+Hero video: {'youtube_id': '-LGqf8TMNrU', 'checked_by_vision_model': True, 'title': 'Campeones Nacionales de Tobas 2017, Fraternidad Cultural Sayani Huajchas'}
 Images: 1 licensed — Pierre André Leclercq / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Feathered headdresses shimmering in sunlight, Cow hooves tied to ankles striking the ground, Dancers mid-air in high jumps, Colorful beadwork and fringes swaying, Brass instruments playing lively rhythms
@@ -321,9 +321,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (3): https://en.wikipedia.org/wiki/Tobas; https://www.wikidata.org/wiki/Q951315; https://es.wikipedia.org/wiki/Tobas_(danza)

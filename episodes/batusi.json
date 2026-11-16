@@ -1,0 +1,804 @@
+{
+ "slug": "batusi",
+ "name": "Batusi",
+ "pack_version": "e2",
+ "built_at": "2026-11-16T22:22:18Z",
+ "researched_at": "2026-11-16T19:58:09Z",
+ "qc_score": 10.0,
+ "status": "draft",
+ "release_status": "not_validated",
+ "sacred": false,
+ "chapters_note": null,
+ "formula": {
+  "episode_1": [
+   "hook",
+   "where",
+   "occasion",
+   "watch",
+   "music",
+   "costume",
+   "people",
+   "family",
+   "first_step",
+   "close"
+  ],
+  "chapter": [
+   "welcome",
+   "body",
+   "count",
+   "step_a",
+   "step_b",
+   "combine",
+   "mistakes",
+   "music_run",
+   "close"
+  ]
+ },
+ "voice": {
+  "narrator": {
+   "role": "narrator",
+   "name": "The Atlas narrator",
+   "voice": "warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly",
+   "rule": "The narrator only says what the profile says. Every sentence can be traced to a section, a claim or the music/movement DNA.",
+   "identity": "one narrator for the whole atlas: the same face and animation everywhere; a native-speaker voice of the same character per language (studio-grade); the viewer chooses the language",
+   "wardrobe": "in each episode the narrator wears the traditional apparel associated with the dance, reconstructed with meticulous care from the profile's costume notes and the licensed images — genuine and respectful, never a caricature; sacred, ceremonial or restricted attire is never worn (the narrator stays in neutral dress with a respectful nod in colour and fabric); the pack's visual_brief.wardrobe says which",
+   "languages": "master narration in English; translations per language in episodes/i18n/<lang>/<slug>.json with the same scene structure (pipeline/translate.py); names, places and counts are never translated"
+  },
+  "instructor": {
+   "persona": "High-energy, charismatic retro-pop dance historian.",
+   "rule": "counts out loud; demonstrates front and back; three slow repetitions before tempo; one correction at a time"
+  },
+  "pronunciation": [
+   "Batusi",
+   "Bat-tusi"
+  ]
+ },
+ "episode_1": {
+  "title": "Meet Batusi",
+  "scenes": [
+   {
+    "code": "hook",
+    "title": "Cold open",
+    "duration_s": 35,
+    "narration": [
+     "Holy Dance Craze, Batman!",
+     "This is Batusi. 1960s."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Title card: Batusi · United States · 1960s"
+    ],
+    "music": "theme (30 s)"
+   },
+   {
+    "code": "where",
+    "title": "Where and when",
+    "duration_s": 70,
+    "narration": [
+     "The Batusi emerged in 1960s American television culture as a playful variation of the Watusi, a hugely popular dance craze of the era.",
+     "It made its screen debut on January 12, 1966, during 'Hi Diddle Riddle', the premiere episode of the Batman television series.",
+     "It appeared again three months later in the episode 'The Pharaoh's in a Rut', broadcast on April 14, 1966."
+    ],
+    "on_screen": [
+     "Map: United States · North America",
+     "Image — MISSING"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "occasion",
+    "title": "When it is danced",
+    "duration_s": 60,
+    "narration": [
+     "Originally staged for comic effect within a television narrative, the Batusi quickly exploded into a national dance craze across 1960s dance halls.",
+     "Over subsequent decades, it transitioned from a fad into a widely recognized pop-culture trope, referenced and parodied in animated series such as The Simpsons, Pinky and the Brain, and The Lego Batman Movie, as well as live-action shows like Xena: Warrior Princess and Titans.",
+     "Today it is a living tradition."
+    ],
+    "on_screen": [
+     "Footage — MISSING (use images)"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "watch",
+    "title": "Watch it",
+    "duration_s": 75,
+    "narration": [
+     "The defining upper-body mechanic of the Batusi is performed by forming a horizontal V-sign using the index and middle fingers of both hands.",
+     "The dancer holds the palms toward the face and draws the fingers horizontally past the eyes, moving away from the center of the face simultaneously so that the eyes pass roughly between the fingers.",
+     "This motion is repeated in time with the music.",
+     "Watch for Eye Swipe V-Sign."
+    ],
+    "on_screen": [
+     "Hero video — MISSING",
+     "Captions name each signature move as it appears",
+     "Formation: Solo informal floor space."
+    ],
+    "music": "diegetic (the video's own sound), underscore under narration"
+   },
+   {
+    "code": "music",
+    "title": "Listen",
+    "duration_s": 70,
+    "narration": [
+     "As a novelty go-go style, the Batusi is danced to 1960s rock and roll, surf guitar, pop, or go-go discothèque music.",
+     "Its namesake roots tie directly to early-1960s hit singles, notably 'The Wah-Watusi' recorded by The Orlons in 1962 (and later covered by Chubby Checker), as well as Ray Barretto's 1963 Latin jazz hit 'El Watusi'.",
+     "Listen for the Electric guitar, Bass guitar, Drums, Brass section.",
+     "The pulse is 4/4 at about 120 beats a minute.",
+     "Mid-tempo 1960s pop and go-go music characterized by electric surf guitar, steady drum kits, and lively brass accents."
+    ],
+    "on_screen": [
+     "Instrument names on screen as each is mentioned",
+     "Listen later: The Wah-Watusi — The Orlons; El Watusi — Ray Barretto; The Wah-Watusi — The Orlons (1962)",
+     "Waveform or rhythm-pattern graphic: Standard 1960s 4/4 go-go pop beat with driving snare drum and steady bassline."
+    ],
+    "music": "the music brief's underscore at its own tempo; drop narration under the hook of a verified recording if licensed, else original"
+   },
+   {
+    "code": "costume",
+    "title": "The costume and the setting",
+    "duration_s": 60,
+    "narration": [
+     "The Batusi requires no specific traditional attire, though its iconic origins place it within the context of 1960s discothèques and television studios, originally performed by Adam West in full Batman costume.",
+     "In casual social settings, it is performed as an informal solo or party go-go dance."
+    ],
+    "on_screen": [
+     "Images — MISSING",
+     "Reconstruction imagery allowed only from the costume notes, labelled 'reconstruction'"
+    ],
+    "music": "underscore",
+    "needs": [
+     "images"
+    ]
+   },
+   {
+    "code": "people",
+    "title": "The people",
+    "duration_s": 60,
+    "narration": [
+     "Adam West played a central role in popularizing the Batusi on television and claimed credit in 2005 for creating its distinct gestures.",
+     "Dance instructor Arthur Murray is also cited in historical accounts as the potential choreographer behind the routine.",
+     "While the core gesture remains identical, variants exist primarily in pop-culture adaptations.",
+     "The Batusi is a direct derivative subclass of 1960s go-go dancing inspired by the Watusi dance craze of the early 1960s."
+    ],
+    "on_screen": [
+     "Names on screen as they are spoken",
+     "Variant names as a small list"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "family",
+    "title": "Family tree",
+    "duration_s": 40,
+    "narration": [
+     "Batusi is parent of Watusi: The Batusi is a pun and derivative dance based on the popular 1960s Watusi dance craze.",
+     "Batusi is parent of Go-Go: Batusi is classified as a style of 1960s go-go dancing."
+    ],
+    "on_screen": [
+     "Graph: the connections with their relation labels"
+    ],
+    "music": "underscore"
+   },
+   {
+    "code": "first_step",
+    "title": "Try one step",
+    "duration_s": 60,
+    "narration": [
+     "Before we go, one step. Form a horizontal V-sign with the index and middle fingers of both hands, palms facing toward your face.",
+     "Position your fingers in front of your eyes so your eyes look between the V-shape.",
+     "Count it: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+     "Chapter 1 takes it slowly from here."
+    ],
+    "on_screen": [
+     "Instructor, front view, slow",
+     "Count on screen"
+    ],
+    "music": "lesson_slow"
+   },
+   {
+    "code": "close",
+    "title": "Until next time",
+    "duration_s": 25,
+    "narration": [
+     "Uncover how a 1966 superhero premiere birthed the Batusi, transforming a TV prop move into a decade-defining go-go trend.",
+     "Sources: 3 references are listed with the profile."
+    ],
+    "on_screen": [
+     "Credits: sources, image and footage licences, music provenance"
+    ],
+    "music": "theme (20 s)"
+   }
+  ],
+  "runtime_s": 555
+ },
+ "chapters": [
+  {
+   "chapter": 1,
+   "title": "First steps",
+   "goal": "Master the eye-swipe finger gesture",
+   "level": "Beginner",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 1 — First steps. Today: Master the eye-swipe finger gesture.",
+      "Level: Beginner. Difficulty of the dance overall: beginner.",
+      "Your instructor: High-energy, charismatic retro-pop dance historian."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright or slightly bent at knees, relaxed discothèque posture.",
+      "Horizontal V-sign formed with index and middle fingers, palms facing the face, drawing outward across the eyes.",
+      "Rhythmic lower-body twist or sway performed simultaneously with hand gestures."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Standard 1960s 4/4 go-go pop beat with driving snare drum and steady bassline..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form a horizontal V-sign with the index and middle fingers of both hands, palms facing toward your face.",
+      "Step 2: Position your fingers in front of your eyes so your eyes look between the V-shape.",
+      "Footwork from the sources: Simple rhythmic weight shifts, 1960s go-go stepping or foot tapping on the beat.",
+      "Drill: Practice forming the horizontal V-sign with palms facing inward."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Draw both hands outward away from the center of the face horizontally in time with the music beat.",
+      "Step 4: Maintain a continuous rhythmic go-go step or torso twist with the lower body.",
+      "Drill: Draw fingers slowly across the eyes on beat counts 1-2 and 3-4."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Turning palms outward away from face (which reflects the Pulp Fiction variation rather than the 1966 original)."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm and finger V-sign eye swipes while seated upright in a chair. · For children: Superhero Mask Game: Perform the eye-swipe move while pretending to peer through superhero goggles on signal."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm and finger V-sign eye swipes while seated upright in a chair.",
+      "For children: Superhero Mask Game: Perform the eye-swipe move while pretending to peer through superhero goggles on signal."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Master the eye-swipe finger gesture.",
+      "Originally staged for comic effect within a television narrative, the Batusi quickly exploded into a national dance craze across 1960s dance halls.",
+      "Next: Chapter 2."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "title": "Building the dance",
+   "goal": "Combine upper body gesture with go-go footwork",
+   "level": "Intermediate",
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 2 — Building the dance. Today: Combine upper body gesture with go-go footwork.",
+      "Level: Intermediate. Difficulty of the dance overall: beginner.",
+      "Your instructor: High-energy, charismatic retro-pop dance historian."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright or slightly bent at knees, relaxed discothèque posture.",
+      "Horizontal V-sign formed with index and middle fingers, palms facing the face, drawing outward across the eyes.",
+      "Rhythmic lower-body twist or sway performed simultaneously with hand gestures."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Standard 1960s 4/4 go-go pop beat with driving snare drum and steady bassline..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Form a horizontal V-sign with the index and middle fingers of both hands, palms facing toward your face.",
+      "Step 2: Position your fingers in front of your eyes so your eyes look between the V-shape.",
+      "Drill: Add side-to-side weight transfer while executing eye swipes."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Step 3: Draw both hands outward away from the center of the face horizontally in time with the music beat.",
+      "Step 4: Maintain a continuous rhythmic go-go step or torso twist with the lower body.",
+      "Eye Swipe V-Sign: Drawing horizontal finger V-signs across the eyes away from the face center with palms inward.",
+      "Drill: Introduce subtle lower-body hip twisting in rhythm."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Turning palms outward away from face (which reflects the Pulp Fiction variation rather than the 1966 original)."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm and finger V-sign eye swipes while seated upright in a chair. · For children: Superhero Mask Game: Perform the eye-swipe move while pretending to peer through superhero goggles on signal."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm and finger V-sign eye swipes while seated upright in a chair.",
+      "For children: Superhero Mask Game: Perform the eye-swipe move while pretending to peer through superhero goggles on signal."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Solo informal floor space."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: Combine upper body gesture with go-go footwork.",
+      "Adam West played a central role in popularizing the Batusi on television and claimed credit in 2005 for creating its distinct gestures.",
+      "Next: Chapter 3."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "title": "Dancing it fully",
+   "goal": "the dancing it fully of Batusi",
+   "level": null,
+   "scenes": [
+    {
+     "code": "welcome",
+     "title": "Welcome",
+     "duration_s": 45,
+     "narration": [
+      "Chapter 3 — Dancing it fully. Today: the dancing it fully of Batusi.",
+      "Level: advanced. Difficulty of the dance overall: beginner.",
+      "Your instructor: High-energy, charismatic retro-pop dance historian."
+     ],
+     "on_screen": [
+      "Instructor front view, name of the chapter, the three things you will learn"
+     ],
+     "music": "theme (10 s) then silence"
+    },
+    {
+     "code": "body",
+     "title": "Body and posture",
+     "duration_s": 60,
+     "narration": [
+      "Upright or slightly bent at knees, relaxed discothèque posture.",
+      "Horizontal V-sign formed with index and middle fingers, palms facing the face, drawing outward across the eyes.",
+      "Rhythmic lower-body twist or sway performed simultaneously with hand gestures."
+     ],
+     "on_screen": [
+      "Instructor front then side view; freeze-frame on validated posture"
+     ],
+     "music": "silence"
+    },
+    {
+     "code": "count",
+     "title": "Count and rhythm",
+     "duration_s": 60,
+     "narration": [
+      "Count: 1-2-3-4 then 5-6-7-8 (eight counts, two bars). The meter is 4/4.",
+      "Rhythm pattern: Standard 1960s 4/4 go-go pop beat with driving snare drum and steady bassline..",
+      "Clap it first, then step it in place."
+     ],
+     "on_screen": [
+      "Counts on screen, flashing on the beat",
+      "Metronome at 84 bpm"
+     ],
+     "music": "lesson_slow (clicks only until the step lands)"
+    },
+    {
+     "code": "step_a",
+     "title": "Step A — slowly",
+     "duration_s": 150,
+     "narration": [
+      "Step 1: Draw both hands outward away from the center of the face horizontally in time with the music beat.",
+      "Step 2: Maintain a continuous rhythmic go-go step or torso twist with the lower body."
+     ],
+     "on_screen": [
+      "Instructor front view, then back view (student's perspective); repetitions per step: about 4",
+      "Counts on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "step_b",
+     "title": "Step B — the next layer",
+     "duration_s": 150,
+     "narration": [
+      "Eye Swipe V-Sign: Drawing horizontal finger V-signs across the eyes away from the face center with palms inward."
+     ],
+     "on_screen": [
+      "Instructor front and back view; slow, then half tempo",
+      "Name of the signature move on screen"
+     ],
+     "music": "lesson_slow",
+     "counts": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+     "repetitions": 3
+    },
+    {
+     "code": "combine",
+     "title": "Put it together",
+     "duration_s": 120,
+     "narration": [
+      "Step A, then Step B, without stopping. Slow first.",
+      "Now half tempo. Now full tempo.",
+      "Mirror: the instructor faces you and mirrors, so your right is your right."
+     ],
+     "on_screen": [
+      "Split screen: front view / back view",
+      "Tempo label changes: slow → half → full"
+     ],
+     "music": "lesson_slow then lesson_full"
+    },
+    {
+     "code": "mistakes",
+     "title": "Common mistakes and what to avoid",
+     "duration_s": 60,
+     "narration": [
+      "Turning palms outward away from face (which reflects the Pulp Fiction variation rather than the 1966 original)."
+     ],
+     "on_screen": [
+      "Side-by-side: source-supported correction",
+      "Options card: Seated or supported option: Perform the arm and finger V-sign eye swipes while seated upright in a chair. · For children: Superhero Mask Game: Perform the eye-swipe move while pretending to peer through superhero goggles on signal."
+     ],
+     "music": "silence",
+     "options": [
+      "Seated or supported option: Perform the arm and finger V-sign eye swipes while seated upright in a chair.",
+      "For children: Superhero Mask Game: Perform the eye-swipe move while pretending to peer through superhero goggles on signal."
+     ],
+     "derived_note": "options are derived teaching suggestions, not facts from the sources"
+    },
+    {
+     "code": "music_run",
+     "title": "Dance it to the music",
+     "duration_s": 120,
+     "narration": [
+      "Count-in: 1-2-3-4 then 5-6-7-8 (eight counts, two bars).",
+      "Full tempo, the whole sequence, twice. Formation: Solo informal floor space."
+     ],
+     "on_screen": [
+      "Wide shot, instructor and two students",
+      "Track: lesson_full at 120 bpm"
+     ],
+     "music": "lesson_full"
+    },
+    {
+     "code": "close",
+     "title": "Recap",
+     "duration_s": 40,
+     "narration": [
+      "You can now: the dancing it fully of Batusi.",
+      "The Batusi is a direct derivative subclass of 1960s go-go dancing inspired by the Watusi dance craze of the early 1960s.",
+      "You know the dance. Go and dance it with people."
+     ],
+     "on_screen": [
+      "Recap card with the counts",
+      "Next chapter card"
+     ],
+     "music": "theme (10 s)"
+    }
+   ]
+  }
+ ],
+ "music_brief": {
+  "purpose": "original soundtrack faithful to the tradition, with documented commercial reuse rights and no recurring royalties",
+  "rights_status": "not_assessed",
+  "rights_rule": "A composition brief does not clear an output. Record the provider/model/version, terms and date, input rights, output licence, restrictions and review before release.",
+  "tempo_bpm": 120,
+  "meter": "4/4",
+  "rhythm_pattern": "Standard 1960s 4/4 go-go pop beat with driving snare drum and steady bassline.",
+  "instruments": [
+   "Electric guitar",
+   "Bass guitar",
+   "Drums",
+   "Brass section"
+  ],
+  "vocal_style": "Instrumental or pop/rock vocals",
+  "musical_form": "Verse-chorus pop/rock structure",
+  "mood": [
+   "playful",
+   "retro",
+   "energetic",
+   "campy"
+  ],
+  "sound_description": "Mid-tempo 1960s pop and go-go music characterized by electric surf guitar, steady drum kits, and lively brass accents.",
+  "listen_before_composing": [
+   "The Wah-Watusi — The Orlons",
+   "El Watusi — Ray Barretto",
+   "The Wah-Watusi — The Orlons (1962)",
+   "El Watusi / Ritmo sabroso — Ray Barretto (1963)",
+   "Let’s Go! — The Ventures (1963)"
+  ],
+  "prompt": "Original instrumental composition in the musical world of Batusi (United States). Meter 4/4. Tempo about 120 bpm. Rhythm pattern: Standard 1960s 4/4 go-go pop beat with driving snare drum and steady bassline.. Instruments: Electric guitar, Bass guitar, Drums, Brass section. Vocal style: Instrumental or pop/rock vocals. Form: Verse-chorus pop/rock structure. Mood: playful, retro, energetic, campy. It should sound like this: Mid-tempo 1960s pop and go-go music characterized by electric surf guitar, steady drum kits, and lively brass accents. New melody, new arrangement: do not quote or imitate any specific recorded song; keep the idiom, the instruments, the pulse and the proportions.",
+  "tracks": [
+   {
+    "id": "theme",
+    "use": "cold open and closing",
+    "length_s": 30
+   },
+   {
+    "id": "underscore",
+    "use": "narration bed, low dynamics",
+    "length_s": 180
+   },
+   {
+    "id": "lesson_slow",
+    "use": "chapters: step practice",
+    "length_s": 240,
+    "tempo_bpm": 84
+   },
+   {
+    "id": "lesson_full",
+    "use": "chapters: dance it to the music",
+    "length_s": 240,
+    "tempo_bpm": 120
+   }
+  ],
+  "rules": [
+   "Original composition only — no sampling, no melody of any existing recording, no lyrics from any song.",
+   "Traditional public-domain tunes may be used only when the profile names them and a public-domain source is on file; otherwise compose new material in the idiom.",
+   "Keep the proportions true: the meter, the tempo range and the instrument roles the sources describe.",
+   "Label every generated track with the tool, the date and this brief, so provenance is always clear."
+  ]
+ },
+ "visual_brief": {
+  "hero_video": null,
+  "wardrobe": {
+   "policy": "the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources",
+   "dress_the_narrator": true,
+   "restricted_attire": false,
+   "from_sources": "The Batusi requires no specific traditional attire, though its iconic origins place it within the context of 1960s discothèques and television studios, originally performed by Adam West in full Batman costume. In casual social settings, it is performed as an informal solo or party go-go dance.",
+   "reference_images": [],
+   "care": [
+    "every element traceable to the costume notes or a licensed image; nothing added for effect",
+    "no caricature, no exaggeration, no mixing of regions or eras",
+    "a culture bearer reviews the wardrobe before production; the review is recorded in the pack",
+    "credits name the tradition and the sources of the reconstruction"
+   ]
+  },
+  "images": [],
+  "footage": [],
+  "motifs": [
+   "Pop-art comic bubbles",
+   "Retro 1960s discothèque lighting",
+   "Horizontal eye-level camera framing"
+  ],
+  "costume_notes": "The Batusi requires no specific traditional attire, though its iconic origins place it within the context of 1960s discothèques and television studios, originally performed by Adam West in full Batman costume. In casual social settings, it is performed as an informal solo or party go-go dance.",
+  "setting_notes": "Originally staged for comic effect within a television narrative, the Batusi quickly exploded into a national dance craze across 1960s dance halls. Over subsequent decades, it transitioned from a fad into a widely recognized pop-culture trope, referenced and parodied in animated series such as The Simpsons, Pinky and the Brain, and The Lego Batman Movie, as well as live-action shows like Xena: Warrior Princess and Titans.",
+  "map": {
+   "country": "United States",
+   "region": "North America",
+   "coords": null
+  },
+  "generation_rules": [
+   "Generated imagery reconstructs costume and setting ONLY from the costume notes above and the licensed images; it is labelled 'reconstruction' on screen.",
+   "No likeness of a real, named person. No sacred objects or ceremonies beyond what the sources describe.",
+   "Licensed images and footage are shown with their attribution and licence text."
+  ]
+ },
+ "teaching_formula": {
+  "source": "24 tutorial(s) of the street-urban family studied",
+  "videos_studied": 24,
+  "counting": "1-2-3-4 then 5-6-7-8 (eight counts, two bars)",
+  "counting_basis": "meter-derived practice pulse; step timing not validated",
+  "demonstration": [
+   "views used by most teachers: front, side, back",
+   "tempo progression: slow → half → full",
+   "repetitions per step: about 4"
+  ],
+  "cues": [
+   "right leg out front",
+   "jump split your legs",
+   "the back foot goes up",
+   "lift the left leg up",
+   "jump back on the left leg",
+   "kick the right leg up",
+   "take the right leg back",
+   "hop forward with the left leg",
+   "feet parallel",
+   "relax  breath",
+   "land on the balls of your feet",
+   "engage your core"
+  ],
+  "common_mistakes": [],
+  "segment_order": [
+   "intro",
+   "full_demo",
+   "context",
+   "breakdown",
+   "slow_practice",
+   "layering",
+   "music_practice",
+   "recap"
+  ],
+  "steps_as_taught": []
+ },
+ "gaps": [
+  "a hero video",
+  "licensed images (3 needed)",
+  "licensed reference footage"
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Batusi",
+  "https://www.wikidata.org/wiki/Q4873372",
+  "https://es.wikipedia.org/wiki/Batusi"
+ ],
+ "claims_verified": 6,
+ "claims": 6,
+ "polished": false,
+ "input_fingerprint": "7c24c4f90b99dd56c804084daadf5904e6c4349c671e937db738891597fa1637",
+ "hero_checked": null
+}

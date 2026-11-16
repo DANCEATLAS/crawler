@@ -1,6 +1,6 @@
 # Affranchi — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.3 · 6/6 claims verified · narration polished by the model and verified*
+*Status: draft · built 2026-11-16 · judge 9.3 · 6/6 claims verified · narration polished by the model and verified*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; the costume & setting section; two or more connections; teaching steps written out; what to avoid / common mistakes
 
@@ -11,8 +11,7 @@
 ## Episode 1 · Meet Affranchi · 9 min
 
 ### 1. Cold open (35 s) · `hook`
-NARRATION: This is Affranchi. Dance of the Free People of Color.
-NARRATION: It spans from the colonial era to the present.
+NARRATION: This is Affranchi. Dance of the Free People of Color, from the colonial era to the present.
 ON SCREEN: Hero video — MISSING
 ON SCREEN: Title card: Affranchi · Haiti · colonial era to present
 MUSIC: theme (30 s)
@@ -26,7 +25,7 @@ ON SCREEN: Image — MISSING
 MUSIC: underscore
 
 ### 3. When it is danced (60 s) · `occasion`
-NARRATION: Affranchi was performed for colonial entertainment by Europeans and affranchis and sometimes involved enslaved people dancing for guests.
+NARRATION: Affranchi was performed for colonial entertainment by Europeans and affranchis, and sometimes involved enslaved people dancing for guests.
 NARRATION: It is associated with African-descended Kings and Queens and carries regal connotations.
 NARRATION: Today, it is performed at Haitian country festivals, Vodou services, and as a tourist attraction.
 NARRATION: Today it is a living tradition.
@@ -73,8 +72,7 @@ MUSIC: underscore
 NEEDS: connections
 
 ### 9. Try one step (60 s) · `first_step`
-NARRATION: Before we go, learn one step.
-NARRATION: Perform French-style figures with a straight back and held torso in line or square formation.
+NARRATION: Before we go, try one step. Perform French-style figures with a straight back and held torso in line or square formation.
 NARRATION: Transition to African-styled improvisation in the final set.
 NARRATION: Count it.
 NARRATION: Chapter 1 takes it slowly from here.
@@ -91,15 +89,15 @@ MUSIC: theme (20 s)
 ## Chapter 1 · First steps — Learn French-style figures · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 1 — First steps. Today: Learn French-style figures.
-NARRATION: Level: beginner. 
-NARRATION: Your instructor: A Haitian cultural historian and dance practitioner
+NARRATION: Chapter 1, first steps. Today, learn French-style figures.
+NARRATION: Level: beginner.
+NARRATION: Your instructor is a Haitian cultural historian and dance practitioner.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
 NARRATION: Keep a straight-backed, held torso.
-NARRATION: Hold your torso during French-style figures, and allow freer movement during improvisation.
+NARRATION: Hold the torso during French-style figures, and allow freer movement during improvisation.
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -126,10 +124,10 @@ MUSIC: lesson_slow
 NEEDS: teaching steps
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Go slow first.
+NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
-NARRATION: Drill: Hold your torso steady during movements.
+NARRATION: Drill: Hold torso steady during movements.
 ON SCREEN: Split screen: front view / back view
 ON SCREEN: Tempo label changes: slow → half → full
 MUSIC: lesson_slow then lesson_full
@@ -157,15 +155,15 @@ MUSIC: theme (10 s)
 ## Chapter 2 · Building the dance — Add African improvisation · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 2 — Building the dance. Today: Add African improvisation.
-NARRATION: Level: intermediate. 
-NARRATION: Your instructor: A Haitian cultural historian and dance practitioner
+NARRATION: Chapter 2, building the dance. Today, add African improvisation.
+NARRATION: Level: intermediate.
+NARRATION: Your instructor is a Haitian cultural historian and dance practitioner.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Keep a straight-backed, held torso.
-NARRATION: Hold your torso during French-style figures, and allow freer movement during improvisation.
+NARRATION: straight-backed, held torso
+NARRATION: held torso during French-style figures, freer movement during improvisation
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -194,7 +192,7 @@ ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Go slow first.
+NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
 NARRATION: Drill: Experiment with expressive arm gestures.
@@ -225,15 +223,15 @@ MUSIC: theme (10 s)
 ## Chapter 3 · Dancing it fully — Combine formality and improvisation fluidly · 13 min
 
 ### 1. Welcome (45 s) · `welcome`
-NARRATION: Chapter 3. Dancing it fully. Today, combine formality and improvisation fluidly.
+NARRATION: Chapter 3, dancing it fully. Today, combine formality and improvisation fluidly.
 NARRATION: Level: advanced.
 NARRATION: Your instructor is a Haitian cultural historian and dance practitioner.
 ON SCREEN: Instructor front view, name of the chapter, the three things you will learn
 MUSIC: theme (10 s) then silence
 
 ### 2. Body and posture (60 s) · `body`
-NARRATION: Keep a straight-backed, held torso.
-NARRATION: Hold your torso during French-style figures, and allow freer movement during improvisation.
+NARRATION: straight-backed, held torso
+NARRATION: held torso during French-style figures, freer movement during improvisation
 ON SCREEN: Instructor front then side view; freeze-frame on validated posture
 MUSIC: silence
 
@@ -254,15 +252,15 @@ ON SCREEN: Counts on screen
 MUSIC: lesson_slow
 
 ### 5. Step B — the next layer (150 s) · `step_b`
-NARRATION: French-style figures feature formal, upright movements with a held torso.
-NARRATION: African improvisation features free, expressive movements in the final set.
+NARRATION: French-style figures use formal, upright movements with a held torso.
+NARRATION: African improvisation uses free, expressive movements in the final set.
 NARRATION: Drill: Develop personal improvisational style.
 ON SCREEN: Instructor front and back view; slow, then half tempo
 ON SCREEN: Name of the signature move on screen
 MUSIC: lesson_slow
 
 ### 6. Put it together (120 s) · `combine`
-NARRATION: Step A, then Step B, without stopping. Go slow first.
+NARRATION: Step A, then Step B, without stopping. Slow first.
 NARRATION: Now half tempo. Now full tempo.
 NARRATION: Mirror: the instructor faces you and mirrors, so your right is your right.
 NARRATION: Drill: Perform in square formations.
@@ -313,9 +311,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (2): https://en.wikipedia.org/wiki/Affranchi_(dance); https://www.wikidata.org/wiki/Q16147009

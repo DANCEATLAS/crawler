@@ -1,8 +1,8 @@
 # Ballet de cour — episode pack
 
-*Status: draft · built 2026-11-11 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.55 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; posture, arms and hands; the how-it-is-danced section; teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; posture, arms and hands; the how-it-is-danced section; teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A precise court historian and baroque ballet master focused on floor architecture, royal etiquette, and spatial discipline.
@@ -294,7 +294,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'ahtN4XSsTcs', 'checked_by_vision_model': False, 'title': '#OS34 - História da ópera: A ópera na França – Ballet de Cour'}
+Hero video: {'youtube_id': 'ahtN4XSsTcs', 'checked_by_vision_model': True, 'title': '#OS34 - História da ópera: A ópera na França – Ballet de Cour'}
 Images: 3 licensed — Jacques Patin / Wikimedia Commons / Public domain (Public domain); Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain); anonymous / Wikimedia Commons / Public domain (Public domain)
 Footage: GALLOP POG DVD 2010 — https://archive.org/details/gallop-pog-2010
 Motifs: High-angle overhead shots showing complex human geometric figures on parquet floors, Tiered wooden viewing scaffolds filled with candlelit audiences, Elaborate wooden pageant floats and mechanical fountains wheeled across palace halls, Costumed courtiers holding printed livret librettos

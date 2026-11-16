@@ -1,8 +1,8 @@
 # Tsutsube — episode pack
 
-*Status: withheld-chapters · built 2026-11-11 · judge 8.3 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-16 · judge 8.3 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; the costume & setting section; notable figures; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); licensed reference footage; the how-it-is-danced section; signature moves; the costume & setting section; notable figures; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Basarwa cultural elder and dance practitioner
@@ -91,7 +91,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'SzjrDdhyW7g', 'checked_by_vision_model': False, 'title': 'CREDIT; NCA’ANCA’ASE TRADITIONAL TROUPE'}
+Hero video: {'youtube_id': 'SzjrDdhyW7g', 'checked_by_vision_model': True, 'title': 'CREDIT; NCA’ANCA’ASE TRADITIONAL TROUPE'}
 Images: 1 licensed — Mompati Dikunwane / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
 Motifs: Basarwa hunters, Botswana desert landscapes, ritual fire circles, ancestral spirit imagery
@@ -101,9 +101,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
+Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
 Counting: 
-Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (2): https://en.wikipedia.org/wiki/Tsutsube; https://www.wikidata.org/wiki/Q48783464

@@ -1,8 +1,8 @@
 # Queer Tango — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; posture, arms and hands; the how-it-is-danced section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable queer tango dancer and activist who encourages openness and experimentation
@@ -312,7 +312,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Costumes in Queer Tango vary widely, reflecting the inclusive and non-traditional nature of the dance. Unlike traditional tango, which often features gendered attire, Queer Tango dancers wear clothing that suits their chosen roles or personal expression. Settings include milongas, queer tango festivals, and social dance events worldwide, often organized by LGBTQIA+ communities or allies.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'onynuHmBUmQ', 'checked_by_vision_model': False, 'title': '(Tango Queer)// A Don Agustín Bardi - Francisco y Lucrecio'}
+Hero video: {'youtube_id': 'onynuHmBUmQ', 'checked_by_vision_model': True, 'title': '(Tango Queer)// A Don Agustín Bardi - Francisco y Lucrecio'}
 Images: 1 licensed — Unknown authorUnknown author / Wikimedia Commons / Public domain (Public domain)
 Footage: MISSING
 Motifs: Embraces with role reversal, Same-sex couples dancing, Historic tango postcards, Festival crowds, Hands exchanging lead signals
@@ -322,9 +322,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 1-2, 1-2 (two beats a bar; practice pulse only)
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (5): https://en.wikipedia.org/wiki/Queer_Tango; https://www.wikidata.org/wiki/Q526878; https://es.wikipedia.org/wiki/Tango_queer; https://fr.wikipedia.org/wiki/Tango_queer; https://de.wikipedia.org/wiki/Queer_Tango

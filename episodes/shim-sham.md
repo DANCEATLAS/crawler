@@ -1,8 +1,8 @@
 # Shim Sham — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); instruments; the hero video's vision check; licensed images (3 needed); two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); instruments; licensed images (3 needed); two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable swing dance historian or experienced tap dancer.
@@ -311,7 +311,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '268jUcVRdoY', 'checked_by_vision_model': False, 'title': 'Shim Sham for Absolute Beginners'}
+Hero video: {'youtube_id': '268jUcVRdoY', 'checked_by_vision_model': True, 'title': 'Shim Sham for Absolute Beginners'}
 Images: 0 licensed
 Footage: File:Shim Sham at CCX 2022.webm — https://upload.wikimedia.org/wikipedia/commons/9/93/Shim_Sham_at_CCX_2022.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Let's Tap! [VHS, 1992] — https://archive.org/details/lets-tap-vhs; Tap With Ginger--90 Minutes Beginner Level (1994) — https://archive.org/details/tap-with-ginger-90-minutes-beginner; File:Rainy night in Sham Shui Po.webm — https://upload.wikimedia.org/wikipedia/commons/3/36/Rainy_night_in_Sham_Shui_Po.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Bharatanatyam, Vol. 2 — https://archive.org/details/dli.pb.bhartnatyam.2
 Motifs: Archival footage of 1930s Harlem theatres., Modern swing dance ballrooms., Close-ups of footwork.

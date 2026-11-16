@@ -1,13 +1,83 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "children": {
+        "avoid": [
+          "Complex technical lifts"
+        ],
+        "counts": "Simplified.",
+        "duration_minutes": "Shortened rounds.",
+        "game_version": "Simplified rhythm games."
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [
+          "High-impact jumps",
+          "Extreme spinal rotation"
+        ],
+        "counts": "Simplified.",
+        "seated_version": "Para dancesport categories allow for wheelchair participation.",
+        "standing_version": "Reduced tempo and range of motion.",
+        "tempo_and_range": "Lowered intensity."
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Defined frame for couples; expressive movement for soloists.",
+      "difficulty": "intermediate",
+      "footwork": "Technical footwork including rise and fall, weight transfer, and specific alignment.",
+      "formation_and_space": "Navigation of the floor craft is essential to avoid collisions.",
+      "hips_and_torso": "Hip action is central to Latin styles; torso stability is key for Standard.",
+      "levels_and_jumps": "Lifts are generally prohibited in standard competitions except for Show Dance.",
+      "partnering": "Close hold or open connection depending on the style.",
+      "posture": "Upright, elongated spine, and engaged core.",
+      "signature_moves": [
+        {
+          "description": "Vertical movement through the legs used in Standard dances.",
+          "name": "Rise and Fall"
+        }
+      ],
+      "tempo_feel": "Precise adherence to the musical beat.",
+      "what_to_avoid": "Lifts (in standard categories), poor floor craft, and timing errors."
+    },
+    "music_profile": {
+      "instruments": [
+        "Orchestral (Standard)",
+        "Percussion (Latin/Caribbean)",
+        "Electronic (Urban)"
+      ],
+      "meter": "Varies by dance (e.g., 3/4 for Waltz, 4/4 for Cha-Cha)",
+      "mood_keywords": [
+        "Energetic",
+        "Elegant",
+        "Precise"
+      ],
+      "musical_form": "Standardized for competition.",
+      "reference_recordings": [],
+      "rhythm_pattern": "Strictly defined by the specific dance style.",
+      "sound_description": "Music is characterized by a consistent, driving beat that supports the specific technical requirements of the dance, often kept confidential until the competition begins.",
+      "tempo_bpm": "26-62 bpm (varies by dance)",
+      "vocal_style": "Instrumental or lyrical depending on the genre."
+    },
+    "teaching": {
+      "basic_steps": [
+        "Posture alignment",
+        "Footwork (rise and fall techniques)",
+        "Partner connection",
+        "Floor craft navigation"
+      ],
+      "formation": "Couples, solo, or group formation.",
+      "level_notes": "Levels range from Beginner (D-class) to Amateur/Professional (S-class).",
+      "rhythm": "Varies by dance; Ballroom follows strict tempo (e.g., 28-62 bpm depending on the dance)."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "de07bfa2fda08ce8d83fea4d65df98423211571706f9ec256c2dc8b60aa521d2",
+  "fingerprint": "4bb1724a85da4063683ae3bb852bbd2f7cb8461eec45cda71e2caa08a1c3bc42",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +85,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific biomechanical differences between the 'Standard' and 'Latin' styles that lead to the observed energy expenditure differences? Evidence needed: Physiological studies comparing specific muscle group activation in Standard vs. Latin."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,7 +113,18 @@
   ],
   "music_options": [],
   "name": "Dancesport",
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "3c8fcf653d6d9ae6",
+      "next_evidence": "Physiological studies comparing specific muscle group activation in Standard vs. Latin.",
+      "question": "What are the specific biomechanical differences between the 'Standard' and 'Latin' styles that lead to the observed energy expenditure differences?",
+      "source": "https://en.wikipedia.org/wiki/Dancesport",
+      "status": "candidate_unreviewed",
+      "why_needed": "To better tailor training programs for different categories."
+    }
+  ],
+  "research_file": "research_results/dancesport.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,7 +136,11 @@
   "slug": "dancesport",
   "sources": [
     "https://en.wikipedia.org/wiki/Dancesport",
-    "Source: Dancesport on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Dancesport"
+    "https://www.wikidata.org/wiki/Q738622",
+    "https://es.wikipedia.org/wiki/Baile_deportivo",
+    "https://fr.wikipedia.org/wiki/Danse_sportive",
+    "https://pt.wikipedia.org/wiki/Dança_esportiva",
+    "https://de.wikipedia.org/wiki/Tanzsport"
   ],
   "state": "researching",
   "video_evidence": []

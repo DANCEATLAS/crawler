@@ -4,57 +4,62 @@
       "derived": true,
       "withheld": "sacred or restricted dance: no teaching adaptations"
     },
-    "interaction_profile": {},
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
     "movement_profile": {
-      "arms_and_hands": "Use of Hansam (long sleeves) to extend lines; sword handling in the Geommu section.",
-      "difficulty": "advanced",
-      "footwork": "Three-advances and three-retreats.",
-      "formation_and_space": "Circular, centered around a large drum.",
-      "hips_and_torso": "Controlled and steady to maintain ritual focus.",
+      "arms_and_hands": "Use of Hansam (long sleeves) and sword handling",
+      "difficulty": "intermediate",
+      "footwork": "3-advances and 3-retreats",
+      "formation_and_space": "Circular formation around a central drum",
+      "hips_and_torso": "not described in sources",
       "levels_and_jumps": "not described in sources",
-      "partnering": "Group coordination around the central drum.",
-      "posture": "Upright and formal, reflecting courtly tradition.",
+      "partnering": "not described in sources",
+      "posture": "Upright and formal, consistent with court dance tradition",
       "signature_moves": [
         {
-          "description": "A rhythmic movement pattern defining the spatial progression of the dance.",
-          "name": "Three-advances/Three-retreats"
+          "description": "Expert, rapid rotation of swords during the dance climax.",
+          "name": "Sword Twirling"
         }
       ],
-      "tempo_feel": "Steady and deliberate.",
-      "what_to_avoid": "Avoid casual or irreverent handling of the swords or the drum."
+      "tempo_feel": "Nimble and magnificent",
+      "what_to_avoid": "not described in sources"
     },
     "music_profile": {
       "instruments": [
-        "Large drum",
+        "Drum",
         "Traditional orchestra"
       ],
       "meter": "not described in sources",
       "mood_keywords": [
-        "solemn",
         "triumphant",
-        "ritualistic"
+        "solemn",
+        "spirited"
       ],
-      "musical_form": "Yeongsan Hoisang",
+      "musical_form": "Samhyeun Dodeuri and Taryeong from Yeongsan Hoisang",
       "reference_recordings": [],
-      "rhythm_pattern": "3-advances and 3-retreats",
-      "sound_description": "The music is characterized by the resonant, heartbeat-like thrum of the large drum, accompanied by the melodic, antique tones of a traditional court orchestra.",
-      "tempo_bpm": "not described in sources",
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is characterized by the rhythmic beating of a large drum, intended to emulate the heartbeat of soldiers, accompanied by a traditional orchestra playing court-style melodies.",
+      "tempo_bpm": "",
       "vocal_style": "not described in sources"
     },
     "teaching": {
       "basic_steps": [
-        "Three-advances: A rhythmic forward progression.",
-        "Three-retreats: A rhythmic backward progression.",
-        "Drumming: Striking the drum in coordination with the ensemble.",
-        "Sword twirling: Rapid, controlled rotation of the blades."
+        "3-advances (forward movement sequence)",
+        "3-retreats (backward movement sequence)",
+        "Sword twirling (climax movement)",
+        "Drum beating (rhythmic accompaniment)"
       ],
-      "formation": "Circular, with four central dancers and optional peripheral dancers.",
-      "level_notes": "Requires high level of coordination for sword handling and rhythmic precision.",
-      "rhythm": "Traditional Korean court rhythm, specifically Samhyeun Dodeuri and Taryeong."
+      "formation": "Circular formation around a central drum",
+      "level_notes": "Requires precision in sword handling and rhythmic coordination with the orchestra.",
+      "rhythm": "not described in sources"
     }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "0925561faf8f06815b4844d515291d93b4057f0840c6b11dcde661b2203d3334",
+  "fingerprint": "1b3d9e68f0c99ae1859f00af6e5a538b75eb6ec34f8e71cff6d3fde9173698f3",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -62,7 +67,8 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "music_structure: meter",
+      "movement: what_to_avoid",
+      "music_structure: meter, rhythm_pattern",
       "interaction: learning_units, feedback_rules, social_formats, prerequisites"
     ],
     "review": [
@@ -90,6 +96,7 @@
   ],
   "music_options": [],
   "name": "Seungjeonmu",
+  "open_questions": [],
   "research_file": "research_results/seungjeonmu.json",
   "runtime_active": false,
   "scope": {

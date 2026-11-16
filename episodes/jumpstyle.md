@@ -1,8 +1,8 @@
 # Jumpstyle — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.1 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed); the costume & setting section
+**Gaps** (handed to the research queue): licensed images (3 needed); the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced 'jumper' from the European hard dance scene.
@@ -318,7 +318,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'iWRolPgp9JY', 'checked_by_vision_model': False, 'title': 'JumpStyle HardJump Shuffle @ Berlin HardStyle Germany'}
+Hero video: {'youtube_id': 'iWRolPgp9JY', 'checked_by_vision_model': True, 'title': 'JumpStyle HardJump Shuffle @ Berlin HardStyle Germany'}
 Images: 0 licensed
 Footage: File:JumpStyle HardJump Shuffle oblivion doprigalsa vizhit siemka.webm — https://upload.wikimedia.org/wikipedia/commons/f/fa/JumpStyle_HardJump_Shuffle_oblivion_doprigalsa_vizhit_siemka.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; jumpstyle — https://archive.org/details/jumpstyle_202306; Jump-Tonic - The Best Electro Dance Videoclips — https://archive.org/details/jump-tonic-the-best-electro-dance-videoclips-dvd-1196561495; Jeckyll & Hyde | Jumpstyle - La Danse Macabre — https://archive.org/details/youtube-cRHdqxcKY1M; Jumpstyle Tutorial ( English) — https://archive.org/details/jumpstyle-tutorial-english_202401
 Motifs: Close-ups of rhythmic footwork, Archival footage of 2000s jumpmeetings, Split-screen comparisons of regional styles

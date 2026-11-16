@@ -1,8 +1,8 @@
 # Buzzard lope — episode pack
 
-*Status: draft · built 2026-11-15 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 7/7 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; licensed images (3 needed); licensed reference footage; the music & instruments section; the costume & setting section; notable figures
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the music & instruments section; the costume & setting section; notable figures
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A grounded cultural historian and vernacular dancer who explains early African American mimetic traditions with historical clarity and physical precision.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Wings Over Carrion: The Georgia Buzzard Lope
 NARRATION: This is Buzzard lope. 1880s.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (jyv35oHSkho)
 ON SCREEN: Title card: Buzzard lope · United States · 1880s
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: Dancers stretch out their arms to mimic birds of prey while executing
 NARRATION: In the center of the floor, a piece of cloth is laid down to represent carrion.
 NARRATION: While the dancer circles this focal object, people gathered on the sidelines clap their hands and pat their thighs to generate the rhythm.
 NARRATION: Watch for Buzzard Wing Hop.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (jyv35oHSkho)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circular floor path around a central piece of cloth representing carrion.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -310,7 +310,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'jyv35oHSkho', 'checked_by_vision_model': False, 'title': "Buzzard Lope (Truo Mi Eniweh) - Gullah Teacha, Sunn m'Cheaux (Harvard)"}
 Images: 0 licensed
 Footage: MISSING
 Motifs: A simple piece of cloth lying flat on bare ground., Silhouetted outstretched arms mimicking bird wings against the sky., Hands patting thighs and clapping in sharp rhythmic unison.

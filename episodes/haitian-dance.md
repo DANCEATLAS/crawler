@@ -1,8 +1,6 @@
 # Haitian dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-15 · judge 8.75 · 6/7 claims verified · narration assembled from the profile*
-
-**Gaps** (handed to the research queue): the hero video's vision check
+*Status: withheld-chapters · built 2026-11-16 · judge 8.75 · 6/7 claims verified · narration assembled from the profile*
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Haitian dance master with deep cultural roots and teaching experience
@@ -107,7 +105,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '26eXGFrKOXU', 'checked_by_vision_model': False, 'title': 'Konpa Dance with Caleb to Nickenson Prudhomme ( Haitian Dance ) 2020'}
+Hero video: {'youtube_id': '26eXGFrKOXU', 'checked_by_vision_model': True, 'title': 'Konpa Dance with Caleb to Nickenson Prudhomme ( Haitian Dance ) 2020'}
 Images: 6 licensed — Calvin Hennick, for WBUR Boston / Wikimedia Commons / CC BY 3.0 (CC BY 3.0); Erwin509 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Kitanago / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ccini06 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); FranzoP / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Divine Horseman The Living Gods Of Haiti - Maya Deren (1947-54) — https://archive.org/details/divine-horseman-the-living-gods-of-haiti-maya-deren-1947-54; DREAM QUEEN THE COMPLETE FILMS OF MAYA DEREN [ 2024 Cut] — https://archive.org/details/dream-queen-the-complete-films-of-maya-deren-2024-cut; Yanvalou Drum and Dance Ensemble — https://archive.org/details/wpmma-Yanvalou_Drum_and_Dance_Ensemble; 2005 children's workshop — https://archive.org/details/cabeuroh_000419; Montclair #2 3/10/2005 — https://archive.org/details/cabeuroh_000420; Yanvalou Drum and Dance Ensmble presents: Reyinyon — https://archive.org/details/wpmma-Yanvalou_Drum_and_Dance_Ensmble_presents_-_Reyinyon
 Motifs: Colorful costumes, Drummers with conch trumpets, Couples dancing closely, Festival street scenes, Spiritual masks
@@ -117,9 +115,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: count the Mostly duple (2/4 or 4/4), with polyrhythmic layering in Vodou music bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (2): https://en.wikipedia.org/wiki/Dance_in_Haiti; https://www.wikidata.org/wiki/Q125268369

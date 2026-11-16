@@ -1,8 +1,8 @@
 # Iranian dance — episode pack
 
-*Status: withheld-chapters · built 2026-11-15 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-16 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A knowledgeable Iranian dance scholar and practitioner with experience teaching both traditional and contemporary styles
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: From Ancient Rituals to Modern Rhythms: The Dance of Iran
 NARRATION: This is Iranian dance. 6th millennium BC to present.
-ON SCREEN: Hero video, first 10 seconds (4QYphmwS8yY)
+ON SCREEN: Hero video, first 10 seconds (x1tNJAOEPhw)
 ON SCREEN: Title card: Iranian dance · Iran · 6th millennium BC to present
 MUSIC: theme (30 s)
 
@@ -36,7 +36,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Iranian dance includes four main categories: chain or line dances performed in circles or lines often holding hands or waists; solo improvisational dances featuring delicate hand and arm movements with expressive facial gestures; war or combat dances mimicking fighting or training warriors, such as the zurkhaneh footwork dance Raghs-e-Pa; and ritual or spiritual dances like Sufi sama involving chanting and trance.
 NARRATION: Watch for Wrist Circles, Hand Waves, Finger Snapping (Peshkan).
-ON SCREEN: Hero video full screen, 30–45 s (4QYphmwS8yY)
+ON SCREEN: Hero video full screen, 30–45 s (x1tNJAOEPhw)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circle or line formations for chain dances; solo space for improvisation; paired or small group formations in combat dances
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '4QYphmwS8yY', 'checked_by_vision_model': False, 'title': 'Quick Style - Iranian Dance'}
+Hero video: {'youtube_id': 'x1tNJAOEPhw', 'checked_by_vision_model': True, 'title': 'Shiraz Dance Group. Persian Dance.'}
 Images: 4 licensed — Wikimedia Commons / Public domain (Public domain); jtaheri41@gmail.com / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Z9897 / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Getty.edu / Wikimedia Commons / CC0 (CC0)
 Footage: The Best Street Food in Iran Ahvaz with dancing & joy Persian Food | Kebab , food street — https://archive.org/details/youtube-oq0oie2DBHQ
 Motifs: Ancient pottery and reliefs depicting dancers, Colorful traditional costumes and scarves, Circular dance formations, Flowing hand and wrist movements, Stick play and rhythmic foot stomps, Sufi dervishes in trance
@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 69 tutorials across the atlas studied · videos studied: 69
+Source: 91 tutorials across the atlas studied · videos studied: 91
 Counting: 1-2-3, 4-5-6 (six subdivisions grouped in two; practice pulse only)
 Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: side close side; rock step; engage your core; hit; out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; right leg out front; jump split your legs; the back foot goes up; lift the left leg up
+Cues: side close side; rock step; engage your core; right left right; hit; 1-2-3-4; lock your arms; out in out half circle back close; one two tap accent with left shoulder; one and two and three; contract the pelvis it will pull you forward; let's do this
 
 Sources (5): https://en.wikipedia.org/wiki/Iranian_dance; https://www.wikidata.org/wiki/Q2351372; https://es.wikipedia.org/wiki/Danza_persa; https://fr.wikipedia.org/wiki/Danses_d'Iran; https://pt.wikipedia.org/wiki/Dança_persa

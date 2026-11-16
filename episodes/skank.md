@@ -1,8 +1,8 @@
 # Skank — episode pack
 
-*Status: draft · built 2026-11-14 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.6 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); notable figures; lineage; two or more connections; teaching steps written out
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); notable figures; lineage; two or more connections; teaching steps written out
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Energetic and inclusive
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Skank: More Than Just a Mosh
 NARRATION: This is Skank. 1950s-present.
-ON SCREEN: Hero video, first 10 seconds (O4260OyOjd4)
+ON SCREEN: Hero video, first 10 seconds (km6Zyw81pP4)
 ON SCREEN: Title card: Skank · Jamaica · 1950s-present
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 NARRATION: The basic form involves a running-man leg motion combined with alternating bent-elbow fist-punches.
 NARRATION: Variations include the 'stroll' (swaying and marching in a circle) and 'x-stepping' (fast, technical movements).
 NARRATION: Watch for Stroll, X-stepping.
-ON SCREEN: Hero video full screen, 30–45 s (O4260OyOjd4)
+ON SCREEN: Hero video full screen, 30–45 s (km6Zyw81pP4)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Circle pit or individual
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -309,7 +309,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Typically performed in dance halls, concert venues, or at raves. No specific costume is required, though it is associated with mod, skinhead, and punk subcultures.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'O4260OyOjd4', 'checked_by_vision_model': False, 'title': 'How To Skank'}
+Hero video: {'youtube_id': 'km6Zyw81pP4', 'checked_by_vision_model': True, 'title': 'DRUM N BASS DANCE DNB STEP/SKANK FREESTYLE'}
 Images: 0 licensed
 Footage: File:Skank ao vivo em Porto Alegre - É Uma Partida de Futebol, novembro de 2022.webm — https://upload.wikimedia.org/wikipedia/commons/7/76/Skank_ao_vivo_em_Porto_Alegre_-_%C3%89_Uma_Partida_de_Futebol%2C_novembro_de_2022.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; VA - Viva La Disco 1 — https://archive.org/details/va-viva-la-disco-1; Brazilian Music Dance Remix Vol.01 — https://archive.org/details/brazilian-music-dance-remix-vol.-1; MTV Dancefloor 2022.12.09 — https://archive.org/details/mtv-dancefloor-2022.12.09; Just Dance Raw Files — https://archive.org/details/crazy-in-love-beta-hd; Bohemian Rhapsody In Jamaican Ska Style | Queen Classic With Island Vibes [ By AI Not Real] — https://archive.org/details/bohemian-rhapsody-in-jamaican-ska-style-queen-classic-with-island-vibes-by-ai-not-real; Radio Clash 21-2-6_ToneChange, Ratrace, Zero One — https://archive.org/details/radio-clash-21-2-6
 Motifs: Archival dance hall footage, Fast-paced editing in a pit, Close-ups of footwork
@@ -319,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 18 tutorial(s) of the street-urban family studied · videos studied: 18
+Source: 24 tutorial(s) of the street-urban family studied · videos studied: 24
 Counting: 1-2-3-4 then 5-6-7-8 (eight counts, two bars)
-Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 4
+Demonstration: views used by most teachers: front, side, back; tempo progression: slow → half → full; repetitions per step: about 4
 Cues: right leg out front; jump split your legs; the back foot goes up; lift the left leg up; jump back on the left leg; kick the right leg up; take the right leg back; hop forward with the left leg; feet parallel; relax  breath; land on the balls of your feet; engage your core
 
 Sources (4): https://en.wikipedia.org/wiki/Skank_(dance); https://www.wikidata.org/wiki/Q1801948; https://es.wikipedia.org/wiki/Skanking; https://it.wikipedia.org/wiki/Skank_(danza)

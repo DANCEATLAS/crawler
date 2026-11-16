@@ -2,7 +2,7 @@
  "slug": "queer-tango",
  "name": "Queer Tango",
  "pack_version": "e2",
- "built_at": "2026-11-15T18:05:17Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-05T17:29:05Z",
  "qc_score": 9.85,
  "status": "draft",
@@ -714,7 +714,7 @@
  "visual_brief": {
   "hero_video": {
    "youtube_id": "onynuHmBUmQ",
-   "checked_by_vision_model": false,
+   "checked_by_vision_model": true,
    "title": "(Tango Queer)// A Don Agustín Bardi - Francisco y Lucrecio"
   },
   "wardrobe": {
@@ -764,8 +764,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "19 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 19,
+  "source": "24 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 24,
   "counting": "1-2, 1-2 (two beats a bar; practice pulse only)",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -774,6 +774,9 @@
    "repetitions per step: about 4"
   ],
   "cues": [
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
    "pull back and lean to the left",
    "close in open on and",
    "milk down knees are bent",
@@ -782,18 +785,15 @@
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "get up from the sleep",
-   "take your chest out",
-   "punch it",
-   "jump like a baby"
+   "open your right leg"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "count_in",
-   "full_demo",
    "breakdown",
    "warmup",
+   "full_demo",
    "slow_practice",
    "music_practice",
    "recap"
@@ -803,7 +803,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "the hero video's vision check",
   "licensed images (3 needed)",
   "licensed reference footage",
   "posture, arms and hands",
@@ -819,6 +818,6 @@
  "claims_verified": 8,
  "claims": 8,
  "polished": false,
- "input_fingerprint": "a0e67830b6b3eff10dc18f3af43d1ac20131632784ad9dab5cce31bd61296548",
- "hero_checked": null
+ "input_fingerprint": "2ffe79d8790aaca5d93c9164fc2552b71f4ccc7438bc149fff3cce95ac4668c9",
+ "hero_checked": "pass"
 }

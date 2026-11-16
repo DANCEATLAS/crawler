@@ -1,8 +1,8 @@
 # makossa — episode pack
 
-*Status: draft · built 2026-11-15 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 8.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): the hero video's vision check; licensed images (3 needed); teaching steps written out; what to avoid / common mistakes
+**Gaps** (handed to the research queue): licensed images (3 needed); teaching steps written out; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A Cameroonian music historian or dance practitioner
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Beat That Conquered the World
 NARRATION: This is makossa. 20th century.
-ON SCREEN: Hero video, first 10 seconds (bSserJ8WaUs)
+ON SCREEN: Hero video, first 10 seconds (-NyJDecUdSE)
 ON SCREEN: Title card: makossa · Cameroon · 20th century
 MUSIC: theme (30 s)
 
@@ -33,7 +33,7 @@ MUSIC: underscore
 ### 4. Watch it (75 s) · `watch`
 NARRATION: The dance involves energetic and suggestive hip movements, particularly during the high-intensity 'secousse' section of the music.
 NARRATION: Watch for Secousse.
-ON SCREEN: Hero video full screen, 30–45 s (bSserJ8WaUs)
+ON SCREEN: Hero video full screen, 30–45 s (-NyJDecUdSE)
 ON SCREEN: Captions name each signature move as it appears
 MUSIC: diegetic (the video's own sound), underscore under narration
 
@@ -289,7 +289,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: Historically associated with urban 'palm wine bars' and popular balls known as 'bol' in Douala.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'bSserJ8WaUs', 'checked_by_vision_model': False, 'title': 'Makossa / Master Class / @Daniel'}
+Hero video: {'youtube_id': '-NyJDecUdSE', 'checked_by_vision_model': True, 'title': 'Makossa Dance'}
 Images: 1 licensed — Arch-Angel Raphael the Artist / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: File:Female Makossa Dancer - Enugu State - Nigeria.webm — https://upload.wikimedia.org/wikipedia/commons/d/de/Female_Makossa_Dancer_-_Enugu_State_-_Nigeria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Male Makossa Dancer - Industrial Chemistry (ICH) Department Award Night Dance - Enugu State University of Science and Technology (ESUT) - Enugu State - Nigeria.webm — https://upload.wikimedia.org/wikipedia/commons/2/2e/Male_Makossa_Dancer_-_Industrial_Chemistry_%28ICH%29_Department_Award_Night_Dance_-_Enugu_State_University_of_Science_and_Technology_%28ESUT%29_-_Enugu_State_-_Nigeria.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; MARLOZ DANCE VIDEO MIX VOL. 114 Disco & Funk! — https://archive.org/details/MARLOZDANCEVIDEOMIXVOL.114DiscoFunk; AFRICA DANCE 5 (2005) – 24 CLIPS | Compilation Africaine – DVD COMPLET — https://archive.org/details/africa-dance-5-complet
 Motifs: Urban Douala streets, Vintage guitar equipment, Bottle percussion

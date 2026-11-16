@@ -5,7 +5,177 @@
  "title": "LOCKING DANCE | VIDEO TUTORIAL [23 Locking Basics + 8 Locking Combos] FOR BEGINNERS!",
  "channel": "Funky Bros Locking",
  "viewer_ratio": 5.0,
- "analysed_at": "2026-11-10T19:21:53Z",
+ "analysed_at": "2026-11-16T22:10:31Z",
  "url": "https://www.youtube.com/watch?v=y7_cQiktu7Y",
- "status": "failed"
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher demonstrates each move in a clear, straightforward manner without verbal explanation. The video relies on on-screen text to identify each step and combination.",
+  "language": "none",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:02",
+    "segment": "breakdown",
+    "note": "The teacher performs individual locking steps one by one."
+   },
+   {
+    "t": "6:48",
+    "segment": "other",
+    "note": "The teacher performs combinations of the previously taught steps."
+   }
+  ],
+  "counting_scheme": "",
+  "cues": [],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": 1
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Strong Man",
+    "counts": "",
+    "description": "A pose with arms flexed and raised."
+   },
+   {
+    "name": "Lock",
+    "counts": "",
+    "description": "A sharp, sudden stop of a movement."
+   },
+   {
+    "name": "Twirl",
+    "counts": "",
+    "description": "A circular motion of the wrist and arm."
+   },
+   {
+    "name": "Pace",
+    "counts": "",
+    "description": "A rhythmic movement involving arm swings."
+   },
+   {
+    "name": "Point",
+    "counts": "",
+    "description": "A gesture pointing in a specific direction."
+   },
+   {
+    "name": "Five/Clap",
+    "counts": "",
+    "description": "A sequence involving a hand gesture and a clap."
+   },
+   {
+    "name": "Volkswagen",
+    "counts": "",
+    "description": "A rhythmic leg and arm movement."
+   },
+   {
+    "name": "Scooby doo",
+    "counts": "",
+    "description": "A rhythmic step involving leg kicks and arm movements."
+   },
+   {
+    "name": "Skeeter Rabit",
+    "counts": "",
+    "description": "A rhythmic step involving leg kicks and hops."
+   },
+   {
+    "name": "Scoobot",
+    "counts": "",
+    "description": "A complex step involving leg and arm coordination."
+   },
+   {
+    "name": "Scoobot Hop",
+    "counts": "",
+    "description": "A variation of the Scoobot with a hop."
+   },
+   {
+    "name": "Leo Walk",
+    "counts": "",
+    "description": "A walking step with specific arm movements."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "The on-screen text clearly labels each step.",
+    "The teacher performs each step in isolation."
+   ],
+   "what_hinders": [
+    "There is no verbal instruction or counting.",
+    "The video is a rapid-fire list of steps without detailed breakdown."
+   ]
+  },
+  "quotes": [],
+  "evidence_segments": [
+   {
+    "start_s": 2,
+    "end_s": 8,
+    "topic": "movement",
+    "observation": "The teacher performs the 'Strong Man' step, flexing arms while standing.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 11,
+    "end_s": 16,
+    "topic": "movement",
+    "observation": "The teacher performs the 'Lock' step, stopping arm movement abruptly.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 34,
+    "end_s": 40,
+    "topic": "movement",
+    "observation": "The teacher performs the 'Twirl' step, rotating the wrist.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 47,
+    "end_s": 53,
+    "topic": "movement",
+    "observation": "The teacher performs the 'Pace' step, swinging arms rhythmically.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 59,
+    "end_s": 65,
+    "topic": "movement",
+    "observation": "The teacher performs the 'Point' step, extending an arm to point.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 111,
+    "end_s": 117,
+    "topic": "movement",
+    "observation": "The teacher performs the 'Five/Clap' step, clapping hands.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "The video uses a purely visual, non-verbal approach, relying entirely on on-screen text to identify and sequence the dance steps."
+ },
+ "attempts": 2
 }

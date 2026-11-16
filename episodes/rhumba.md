@@ -1,8 +1,8 @@
 # Rhumba — episode pack
 
-*Status: draft · built 2026-11-14 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; the costume & setting section
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced ballroom dancer with knowledge of Latin dance history and technique
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Rhumba: The Sensual Ballroom Dance Born from a Peanut Vendor's Hit
 NARRATION: This is Rhumba. 1930s.
-ON SCREEN: Hero video, first 10 seconds (I-kvGrHvWYE)
+ON SCREEN: Hero video, first 10 seconds (LCszIfVPdtM)
 ON SCREEN: Title card: Rhumba · United States · 1930s
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Box Step, Cuban Motion.
-ON SCREEN: Hero video full screen, 30–45 s (I-kvGrHvWYE)
+ON SCREEN: Hero video full screen, 30–45 s (LCszIfVPdtM)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Danced in closed ballroom hold; social and competition floor space
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -331,7 +331,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'I-kvGrHvWYE', 'checked_by_vision_model': False, 'title': 'Riccardo Cocchi - Yulia Zagoruychenko I Rumba I World Pro Latin 2019'}
+Hero video: {'youtube_id': 'LCszIfVPdtM', 'checked_by_vision_model': True, 'title': 'Dance Legends 2014 - Slavik Kryklyvyy & Karina Smirnoff - Rumba'}
 Images: 2 licensed — Ailura / Wikimedia Commons / CC BY-SA 3.0 at (CC BY-SA 3.0 at); Dicklyon / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: The Wiggles: Yummy Yummy (1999) US VHS — https://archive.org/details/wiggles-the-yummy-yummy-1999; 1940s NOVELTY NEWSREELS DIVING, UNDERWATER BALLET, RISQUE LATIN RHUMBA DANCE 63004b — https://archive.org/details/63004b-diving-exhibitions-vwr; The Wiggles: Yummy Yummy (1998, Extended Version) — https://archive.org/details/TheWigglesYummyYummy1998Extended; "ARTHUR MURRAY STEPS IN THE RUMBA & MAMBO " 1940s DANCE INSTRUCTIONAL FILM LATIN DANCING 50934 — https://archive.org/details/50934-the-arthur-murray-steps-in-the-rumba-mamba; The Wiggles - Yummy Yummy (1994) — https://archive.org/details/the-wiggles-yummy-yummy-1994_202203; How 2 Go To School — https://archive.org/details/how2gotoschool
 Motifs: Big band orchestra, Couple dancing box step, Hip sway close-up, Vintage 1930s New York, Monsieur Pierre in Cuba

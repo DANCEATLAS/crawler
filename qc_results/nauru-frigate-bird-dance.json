@@ -1,10 +1,10 @@
 {
  "slug": "nauru-frigate-bird-dance",
- "qc_at": "2026-11-02T14:47:02Z",
+ "qc_at": "2026-11-16T21:50:32Z",
  "version": "v3.3",
  "judge_version": "j3",
  "publish_gate": "review",
- "qc_score": 6.35,
+ "qc_score": 6.2,
  "gates": [
   {
    "gate": "has_name",
@@ -14,37 +14,37 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "64"
+   "detail": "78"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "138"
+   "detail": "207"
   },
   {
    "gate": "insight_concrete",
-   "ok": false,
-   "detail": "On an island where traditional arts were largely eroded by colonial influence, t"
+   "ok": true,
+   "detail": "While colonial influence eroded many indigenous customs, the Frigate Bird Dance "
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "335"
+   "detail": "417"
   },
   {
    "gate": "profile_long_len",
-   "ok": false,
-   "detail": "838"
+   "ok": true,
+   "detail": "2220"
   },
   {
    "gate": "sections_filled",
    "ok": false,
-   "detail": "origins_and_history,costume_and_setting,occasions_and_meaning"
+   "detail": "origins_and_history,music_and_instruments"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "4/4 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "codified"
   },
   {
    "gate": "ai_tells",
@@ -91,30 +91,29 @@
   "accuracy": 8,
   "respect": 9,
   "specificity": 4,
-  "teaching_value": 2,
+  "teaching_value": 1,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
+  "adaptations_safe": true,
   "overall": 5,
   "verdict": "review",
-  "notes": "The profile is accurate based on the provided evidence but lacks sufficient detail to be useful. The 'how_it_is_danced' and 'teaching' sections are empty, providing no actionable information for a reader. It relies heavily on the narrative of cultural loss rather than describing the dance itself."
+  "notes": "The profile is accurate based on the limited evidence provided, but it lacks sufficient substance to be a functional guide. It functions more as a cultural note than a dance profile. It is safe and respectful, but the lack of technical information makes it difficult to categorize as a 'teaching' resource."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": false,
  "reasons": [
-  "insight_concrete",
-  "profile_long_len",
   "sections_filled",
-  "judge_score=6.35"
+  "judge_score=6.2"
  ],
  "citation": {
-  "claims": 4,
-  "supported": 4,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-10-28T16:26:02Z"
+ "researched_at": "2026-11-16T21:38:46Z"
 }

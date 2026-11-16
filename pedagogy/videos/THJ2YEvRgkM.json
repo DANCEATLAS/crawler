@@ -1,0 +1,179 @@
+{
+ "youtube_id": "THJ2YEvRgkM",
+ "slug": "step-dance",
+ "dance": "Step dance",
+ "title": "Beginner Step with a Bass Beat | Step Dance",
+ "channel": "Howcast",
+ "viewer_ratio": 2.0,
+ "analysed_at": "2026-11-16T22:13:47Z",
+ "url": "https://www.youtube.com/watch?v=THJ2YEvRgkM",
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The teacher uses a clear, step-by-step approach, breaking down complex movements into manageable segments. He frequently uses his assistant to demonstrate the steps, ensuring the viewer can follow along easily.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:05",
+    "segment": "intro",
+    "note": "The teacher introduces himself and his assistant."
+   },
+   {
+    "t": "0:18",
+    "segment": "breakdown",
+    "note": "The teacher breaks down the base beat."
+   },
+   {
+    "t": "0:36",
+    "segment": "breakdown",
+    "note": "The teacher demonstrates the base beat with a single stomp."
+   },
+   {
+    "t": "1:16",
+    "segment": "breakdown",
+    "note": "The teacher adds a left stomp and a hand clap."
+   },
+   {
+    "t": "1:55",
+    "segment": "breakdown",
+    "note": "The teacher explains the next stomp on the left leg."
+   },
+   {
+    "t": "2:35",
+    "segment": "breakdown",
+    "note": "The teacher explains how to loop the steps."
+   },
+   {
+    "t": "3:20",
+    "segment": "breakdown",
+    "note": "The teacher adds the actual step to the base beat."
+   },
+   {
+    "t": "4:54",
+    "segment": "breakdown",
+    "note": "The teacher explains the ending of the step."
+   },
+   {
+    "t": "6:12",
+    "segment": "full_demo",
+    "note": "The teacher and his assistant perform the full step with the base beat."
+   }
+  ],
+  "counting_scheme": "5-6-7-8",
+  "cues": [
+   "Right, left, clap",
+   "Stomp with our right leg",
+   "Stomp with our left leg",
+   "Hit both your thighs with your hands"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Base beat",
+    "counts": "5-6-7-8",
+    "description": "A rhythmic sequence of stomps and claps."
+   },
+   {
+    "name": "Step",
+    "counts": "5-6-7-8",
+    "description": "A sequence of stomps and claps combined with the base beat."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "The teacher breaks down the steps into small, manageable parts.",
+    "The teacher uses a clear counting scheme."
+   ],
+   "what_hinders": [
+    "The video does not provide a mirror view, which can make it difficult for the viewer to follow along."
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:18",
+    "text": "So we're going to start off teaching you the base beat."
+   },
+   {
+    "t": "1:55",
+    "text": "So now right now, you got to understand that we just, our last stomp was on our left leg."
+   },
+   {
+    "t": "3:20",
+    "text": "So now we're going to add the actual step that we need to learn to combine with this base beat."
+   },
+   {
+    "t": "6:12",
+    "text": "So now we're going to take that step and mix it with the base beat to create a whole new beat."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 0,
+    "end_s": 10,
+    "topic": "teaching",
+    "observation": "The teacher stands in front of the camera and introduces himself and his assistant.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 36,
+    "end_s": 45,
+    "topic": "movement",
+    "observation": "The teacher demonstrates a single stomp with his right leg, followed by a stomp with his left leg.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 50,
+    "end_s": 55,
+    "topic": "movement",
+    "observation": "The teacher and his assistant perform a stomp and a clap together.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 116,
+    "end_s": 120,
+    "topic": "movement",
+    "observation": "The teacher adds a left stomp and a hand clap to the sequence.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 212,
+    "end_s": 218,
+    "topic": "movement",
+    "observation": "The teacher demonstrates a stomp and a clap, followed by a stomp and two claps.",
+    "viewpoint": "front",
+    "cannot_infer": "none",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "The teacher uses his assistant to demonstrate the steps, which allows the viewer to see the movement from a different perspective."
+ },
+ "attempts": 1
+}

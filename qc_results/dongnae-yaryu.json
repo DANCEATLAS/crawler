@@ -1,10 +1,10 @@
 {
  "slug": "dongnae-yaryu",
- "qc_at": "2026-11-02T14:49:08Z",
+ "qc_at": "2026-11-16T21:50:38Z",
  "version": "v3.3",
  "judge_version": "j3",
- "publish_gate": "publish",
- "qc_score": 8.7,
+ "publish_gate": "review",
+ "qc_score": 8.2,
  "gates": [
   {
    "gate": "has_name",
@@ -14,37 +14,37 @@
   {
    "gate": "tagline_len",
    "ok": true,
-   "detail": "78"
+   "detail": "75"
   },
   {
    "gate": "insight_len",
    "ok": true,
-   "detail": "133"
+   "detail": "184"
   },
   {
    "gate": "insight_concrete",
    "ok": true,
-   "detail": "Performed on the 15th of the Lunar New Year, this masked drama features masks ma"
+   "detail": "On the 15th day of the Lunar New Year, performers wearing masks of gourd and lea"
   },
   {
    "gate": "profile_len",
    "ok": true,
-   "detail": "344"
+   "detail": "394"
   },
   {
    "gate": "profile_long_len",
    "ok": true,
-   "detail": "1805"
+   "detail": "2346"
   },
   {
    "gate": "sections_filled",
-   "ok": true,
-   "detail": "origins_and_history,how_it_is_danced,music_and_instruments,costume_and_setting,occasions_and_meaning,notable_figures,regional_variants"
+   "ok": false,
+   "detail": "origins_and_history,costume_and_setting,occasions_and_meaning"
   },
   {
    "gate": "citations",
    "ok": true,
-   "detail": "5/5 rate=1.0"
+   "detail": "6/6 rate=1.0"
   },
   {
    "gate": "sources",
@@ -64,7 +64,7 @@
   {
    "gate": "banned_phrasing",
    "ok": true,
-   "detail": ""
+   "detail": "deeply rooted"
   },
   {
    "gate": "ai_tells",
@@ -84,35 +84,37 @@
   {
    "gate": "sacred_handled",
    "ok": true,
-   "detail": "sacred=True cues=['ritual', 'prayer']"
+   "detail": "sacred=True cues=['ritual', 'prayer', 'spirit']"
   }
  ],
  "judge": {
-  "accuracy": 10,
+  "accuracy": 9,
   "respect": 10,
   "specificity": 9,
-  "teaching_value": 3,
+  "teaching_value": 2,
   "is_a_dance": true,
   "factual_doubt": [],
   "harm_or_disrespect": [],
   "duplicate_suspicion": null,
   "insight_ok": true,
   "album_doubt": [],
+  "adaptations_safe": true,
   "overall": 8,
-  "verdict": "review",
-  "notes": "Good factual adherence to claims, but teaching field lacks specific movement technique since sources do not detail choreography."
+  "verdict": "publish",
+  "notes": "The profile is highly accurate and respectful, correctly identifying the tradition as a masked drama (talchum). While it lacks technical teaching details, this is transparently noted. The decision to withhold adaptations due to the sacred/community-based nature of the practice is appropriate and responsible."
  },
- "judge_reused": true,
+ "judge_reused": false,
  "duplicate_of": null,
  "is_sacred": true,
  "reasons": [
-  "judge_score=8.7",
+  "sections_filled",
+  "judge_score=8.2",
   "sacred"
  ],
  "citation": {
-  "claims": 5,
-  "supported": 5,
+  "claims": 6,
+  "supported": 6,
   "rate": 1.0
  },
- "researched_at": "2026-10-29T16:27:41Z"
+ "researched_at": "2026-11-16T21:38:59Z"
 }

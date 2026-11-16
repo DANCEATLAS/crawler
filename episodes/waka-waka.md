@@ -1,6 +1,6 @@
 # Waka Waka — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.7 · 8/8 claims verified · narration assembled from the profile*
 
 **Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; the music & instruments section
 
@@ -142,6 +142,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: disrespecting the satirical nature damaging heavy skirts unsafe jumps
+NARRATION: Teachers of this dance warn against: separating the arms and waist
 NARRATION: Teachers of this dance warn against: not taking the chest out
 NARRATION: Teachers of this dance warn against: not transferring the body weight correctly
 ON SCREEN: Side-by-side: source-supported correction
@@ -216,6 +217,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: disrespecting the satirical nature damaging heavy skirts unsafe jumps
+NARRATION: Teachers of this dance warn against: separating the arms and waist
 NARRATION: Teachers of this dance warn against: not taking the chest out
 NARRATION: Teachers of this dance warn against: not transferring the body weight correctly
 ON SCREEN: Side-by-side: source-supported correction
@@ -290,6 +292,7 @@ MUSIC: lesson_slow then lesson_full
 
 ### 7. Common mistakes and what to avoid (60 s) · `mistakes`
 NARRATION: disrespecting the satirical nature damaging heavy skirts unsafe jumps
+NARRATION: Teachers of this dance warn against: separating the arms and waist
 NARRATION: Teachers of this dance warn against: not taking the chest out
 NARRATION: Teachers of this dance warn against: not transferring the body weight correctly
 ON SCREEN: Side-by-side: source-supported correction
@@ -335,10 +338,10 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 1 tutorial(s) of this dance studied · videos studied: 1
+Source: 2 tutorial(s) of this dance studied · videos studied: 2
 Counting: 5-6-7-8
-Demonstration: views used by most teachers: front, mirror; tempo progression: slow → half → full; repetitions per step: about 2
-Cues: get up from the sleep; take your chest out; punch it; jump like a baby; switch your body weight
-Common mistakes the studied teachers name: not taking the chest out; not transferring the body weight correctly
+Demonstration: views used by most teachers: front, side, mirror; tempo progression: slow → half → full; repetitions per step: about 2
+Cues: step up; step back; tiny steps in your spot; hands placed here; chest pushes up; hit your hands out; get up from the sleep; take your chest out; punch it; jump like a baby; switch your body weight
+Common mistakes the studied teachers name: separating the arms and waist; not taking the chest out; not transferring the body weight correctly
 
 Sources (3): https://en.wikipedia.org/wiki/Waka_waka_(dance); https://www.wikidata.org/wiki/Q13191101; https://es.wikipedia.org/wiki/Waka_Waka_(danza)

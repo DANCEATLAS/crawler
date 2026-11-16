@@ -1,8 +1,8 @@
 # Serpentine dance — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.85 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; the hero video's vision check; licensed images (3 needed); the how-it-is-danced section; the music & instruments section
+**Gaps** (handed to the research queue): tempo (bpm); meter; instruments; a verified recording to listen to; licensed images (3 needed); the how-it-is-danced section; the music & instruments section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A dance historian and performer specializing in early modern dance and theatrical lighting.
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Loïe Fuller’s Serpentine Dance: Silk, Light, and the Birth of Modern Stage Magic
 NARRATION: This is Serpentine dance. 1890s.
-ON SCREEN: Hero video, first 10 seconds (sNXNfcEo5dQ)
+ON SCREEN: Hero video, first 10 seconds (5yx3xhz_svg)
 ON SCREEN: Title card: Serpentine dance · United States · 1890s
 MUSIC: theme (30 s)
 
@@ -35,7 +35,7 @@ MUSIC: underscore
 
 ### 4. Watch it (75 s) · `watch`
 NARRATION: Watch for Spiral wave, Billowing arcs.
-ON SCREEN: Hero video full screen, 30–45 s (sNXNfcEo5dQ)
+ON SCREEN: Hero video full screen, 30–45 s (5yx3xhz_svg)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Solo dancer uses circular and spiral arm movements to fill surrounding space with fabric.
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -309,7 +309,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: the narrator wears the dance's traditional apparel, reconstructed meticulously and respectfully from the sources — from the sources: The costume consists of hundreds of yards of lightweight China silk sewn into a large conical skirt, attached to the dancer’s shoulders or head. Aluminum rods sewn invisibly into the fabric extend the dancer’s arms, allowing her to manipulate the silk expansively. The dance is performed on stage with multi-colored lighting designed by Fuller to project onto the silk, creating shifting patterns and illusions of fire, flowers, and butterflies. The setting is theatrical, often in vaudeville or variety theaters and early film studios.
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'sNXNfcEo5dQ', 'checked_by_vision_model': False, 'title': 'Annabelle - Serpentine Dance (1894, silent, DVD) [Edison]'}
+Hero video: {'youtube_id': '5yx3xhz_svg', 'checked_by_vision_model': True, 'title': 'Annabelle Serpentine Dance (1895) William L. Dickson'}
 Images: 1 licensed — Frederick Whitman Glasier / Wikimedia Commons / Public domain (Public domain)
 Footage: File:Serpentine Dance (1895) - yt.webm — https://upload.wikimedia.org/wikipedia/commons/d/d0/Serpentine_Dance_%281895%29_-_yt.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Butterfly dance (1895).webm — https://upload.wikimedia.org/wikipedia/commons/2/25/Butterfly_dance_%281895%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Lumière Brothers - The Serpentine Dance (c.1899).webm — https://upload.wikimedia.org/wikipedia/commons/4/4f/Lumi%C3%A8re_Brothers_-_The_Serpentine_Dance_%28c.1899%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Danse serpentine (Lumière, 1897).webm — https://upload.wikimedia.org/wikipedia/commons/1/11/Danse_serpentine_%28Lumi%C3%A8re%2C_1897%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Annabelle Dances and Dances (1894-1897).webm — https://upload.wikimedia.org/wikipedia/commons/8/81/Annabelle_Dances_and_Dances_%281894-1897%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; Serpentine Dance — https://archive.org/details/dance1895; Loie Fuller — https://archive.org/details/LoieFuller; Miss Lina Esbrard, danseuse cosmopolitaine et serpentine AKA Serpentine Dance — https://archive.org/details/silent-miss-lina-esbrard-danseuse-cosmopolitaine-et-serpentine-aka-serpentine-dance
 Motifs: Flowing silk fabric, Colored stage lights, Spiral and wave shapes, Belle Époque costumes, Early film footage
@@ -319,9 +319,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 3 tutorial(s) of the stage-contemporary family studied · videos studied: 3
+Source: 4 tutorial(s) of the stage-contemporary family studied · videos studied: 4
 Counting: 
 Demonstration: views used by most teachers: front, side; tempo progression: slow → full
-Cues: keep your feet pointed; use your core; lean your body back; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest; straightening my legs; bringing my body up; bend both legs
+Cues: keep your feet pointed; use your core; lean your body back; cross over your partner; trade places with one another; cross body lead; lean down; knees up; legs straighten; engage your core; feet inside silks; knees to chest
 
 Sources (6): https://en.wikipedia.org/wiki/Serpentine_dance; https://www.wikidata.org/wiki/Q7455127; https://fr.wikipedia.org/wiki/Danse_serpentine; https://pt.wikipedia.org/wiki/Dança_serpentina; https://de.wikipedia.org/wiki/Serpentinentanz; https://archive.org/details/NPTG18941018

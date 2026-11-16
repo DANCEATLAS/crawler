@@ -1,13 +1,67 @@
 {
   "candidate_material": {
-    "adaptations": {},
-    "interaction_profile": {},
-    "movement_profile": {},
-    "music_profile": {},
-    "teaching": {}
+    "adaptations": {
+      "derived": true,
+      "withheld": "sacred or restricted dance: no teaching adaptations"
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "Active, holding weapons or implements",
+      "difficulty": "intermediate",
+      "footwork": "not described in sources",
+      "formation_and_space": "Circles, rows, or corridors",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "Includes leaps in some traditions",
+      "partnering": "Mock combat or synchronized movement",
+      "posture": "Upright and alert",
+      "signature_moves": [
+        {
+          "description": "Simulated fighting movements between dancers.",
+          "name": "Mock combat"
+        }
+      ],
+      "tempo_feel": "Energetic",
+      "what_to_avoid": "Unsafe handling of weapons or implements"
+    },
+    "music_profile": {
+      "instruments": [
+        "frame drums",
+        "cymbals",
+        "gongs",
+        "sticks",
+        "swords"
+      ],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "fierce",
+        "ceremonial",
+        "rhythmic"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "The music is characterized by percussive, rhythmic clashing of implements and energetic drumming, often accompanied by vocal chants.",
+      "tempo_bpm": "not described in sources",
+      "vocal_style": "Chanting"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Rhythmic stepping in formation",
+        "Clashing of implements",
+        "Mock combat engagement"
+      ],
+      "formation": "Rows, circles, or solo performance.",
+      "level_notes": "Difficulty varies; requires coordination and awareness of weapon handling.",
+      "rhythm": "Varies by region; often driven by drums or the clashing of weapons."
+    }
   },
   "contract": "da_active_profile_v1",
-  "fingerprint": "98554fadd3ecc3601c1dc5a83ff41fc98424f13942cc357b09d95c8d81494493",
+  "fingerprint": "f6b176e6b3a2f11ed4c3982ff2d1cdefe64974a03cab2a1d7f9561554d9cf475",
   "gaps": {
     "platform": [
       "Validated voice/movement feedback and accessible controls",
@@ -15,10 +69,10 @@
       "Tested camera/split-screen delivery; AR remains an optional future adapter"
     ],
     "research": [
-      "Cited identity, community/variant and living-status evidence",
-      "movement: footwork, posture, formation_and_space, what_to_avoid",
-      "music_structure: meter, rhythm_pattern, sound_description",
-      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+      "movement: footwork",
+      "music_structure: meter, rhythm_pattern",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites",
+      "Investigate: What are the specific footwork patterns for the Khattak Wal Atanrh? Evidence needed: Ethnographic field studies of Khattak dance."
     ],
     "review": [
       "practitioner: current human review with evidence and scope",
@@ -45,7 +99,18 @@
   ],
   "music_options": [],
   "name": "Weapon dance",
-  "research_file": null,
+  "open_questions": [
+    {
+      "domain": "research",
+      "id": "b606724973f9124e",
+      "next_evidence": "Ethnographic field studies of Khattak dance.",
+      "question": "What are the specific footwork patterns for the Khattak Wal Atanrh?",
+      "source": "https://en.wikipedia.org/wiki/Weapon_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "To provide accurate teaching material for the movement profile."
+    }
+  ],
+  "research_file": "research_results/weapon-dance.json",
   "runtime_active": false,
   "scope": {
     "audiences": [],
@@ -57,8 +122,8 @@
   "slug": "weapon-dance",
   "sources": [
     "https://en.wikipedia.org/wiki/Weapon_dance",
-    "Source: Weapon dance on Wikipedia, CC BY-SA 4.0. Read: https://en.wikipedia.org/wiki/Weapon_dance"
+    "https://www.wikidata.org/wiki/Q7978056"
   ],
-  "state": "researching",
+  "state": "teaching_withheld",
   "video_evidence": []
 }

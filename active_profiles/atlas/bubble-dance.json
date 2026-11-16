@@ -1,0 +1,134 @@
+{
+  "candidate_material": {
+    "adaptations": {
+      "children": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "duration_minutes": "",
+        "game_version": "not derivable yet"
+      },
+      "derived": true,
+      "seniors": {
+        "avoid": [],
+        "counts": "not derivable yet",
+        "seated_version": "not derivable yet",
+        "standing_version": "not derivable yet",
+        "tempo_and_range": "not derivable yet"
+      }
+    },
+    "interaction_profile": {
+      "feedback_rules": [],
+      "learning_units": [],
+      "prerequisites": [],
+      "social_formats": []
+    },
+    "movement_profile": {
+      "arms_and_hands": "not described in sources",
+      "difficulty": "advanced",
+      "footwork": "not described in sources",
+      "formation_and_space": "Solo stage placement maintaining the bubble prop between the body and the audience.",
+      "hips_and_torso": "not described in sources",
+      "levels_and_jumps": "not described in sources",
+      "partnering": "Solo performance using prop",
+      "posture": "not described in sources",
+      "signature_moves": [
+        {
+          "description": "Manipulating a large spherical balloon prop between the dancer's body and the audience while making stage poses.",
+          "name": "Bubble concealing pose"
+        }
+      ],
+      "tempo_feel": "not described in sources",
+      "what_to_avoid": "not described in sources"
+    },
+    "music_profile": {
+      "instruments": [],
+      "meter": "not described in sources",
+      "mood_keywords": [
+        "theatrical",
+        "sensual",
+        "playful"
+      ],
+      "musical_form": "not described in sources",
+      "reference_recordings": [],
+      "rhythm_pattern": "not described in sources",
+      "sound_description": "not described in sources",
+      "tempo_bpm": "",
+      "vocal_style": "not described in sources"
+    },
+    "teaching": {
+      "basic_steps": [
+        "Technique not described in sources"
+      ],
+      "formation": "Solo stage performance positioned between prop and audience",
+      "level_notes": "requires advanced prop manipulation and audience perspective control",
+      "rhythm": "not described in sources"
+    }
+  },
+  "contract": "da_active_profile_v1",
+  "fingerprint": "f483a0958fbbc8b2f064ae2136ef7f661e09c39f6503efb4257335034576e6d2",
+  "gaps": {
+    "platform": [
+      "Validated voice/movement feedback and accessible controls",
+      "Human BDF consent/matching, moderation and measured session synchronization",
+      "Tested camera/split-screen delivery; AR remains an optional future adapter"
+    ],
+    "research": [
+      "movement: footwork, posture, what_to_avoid",
+      "music_structure: meter, rhythm_pattern, sound_description",
+      "interaction: learning_units, feedback_rules, social_formats, prerequisites"
+    ],
+    "review": [
+      "practitioner: current human review with evidence and scope",
+      "teaching: current human review with evidence and scope",
+      "learner_outcomes: current human review with evidence and scope",
+      "language: current human review with evidence and scope",
+      "rights: current human review with evidence and scope",
+      "social_accessibility: current human review with evidence and scope",
+      "Declare languages, audiences, session modes and territories covered by review"
+    ],
+    "rights": [
+      "Two musically reviewed choices with composition AND recording rights for intended uses"
+    ],
+    "video": [
+      "Timestamped movement and teaching evidence with observation limits",
+      "Compare independent teachers/variants; preserve unique methods",
+      "Investigate: What primary movement techniques and footwork patterns did Sally Rand use while balancing the bubble prop in her 1938 performance? Evidence needed: Frame-by-frame analysis of film footage from Sunset Murder Case (1938)."
+    ]
+  },
+  "id": "atlas:bubble-dance",
+  "kind": "atlas",
+  "limitations": [
+    "Presence of data does not establish teaching accuracy or permission.",
+    "Video model observations are candidates, not motion capture or expert verification."
+  ],
+  "music_options": [],
+  "name": "Bubble dance",
+  "open_questions": [
+    {
+      "domain": "video",
+      "id": "198d4d9a1ac12751",
+      "next_evidence": "Frame-by-frame analysis of film footage from Sunset Murder Case (1938).",
+      "question": "What primary movement techniques and footwork patterns did Sally Rand use while balancing the bubble prop in her 1938 performance?",
+      "source": "https://en.wikipedia.org/wiki/Bubble_dance",
+      "status": "candidate_unreviewed",
+      "why_needed": "Movement profile fields for footwork, posture, and tempo feel are missing from the text sources."
+    }
+  ],
+  "research_file": "research_results/bubble-dance.json",
+  "runtime_active": false,
+  "scope": {
+    "audiences": [],
+    "languages": [
+      "unreviewed"
+    ],
+    "session_modes": []
+  },
+  "slug": "bubble-dance",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Bubble_dance",
+    "https://www.wikidata.org/wiki/Q4982223",
+    "https://archive.org/details/SBS_1926042801"
+  ],
+  "state": "researching",
+  "video_evidence": []
+}

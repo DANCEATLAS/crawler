@@ -1,8 +1,8 @@
 # Tribal Fusion Belly Dance — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.7 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; signature moves; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; signature moves; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** a patient, precise instructor who counts out loud, demonstrates from the front and the back, repeats every step slowly three times before speeding up, names mistakes kindly and never rushes
@@ -300,7 +300,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': '8XGIRLwcw4o', 'checked_by_vision_model': False, 'title': 'WOW Arabic Belly Dance Sword Dance "Justice" by Irina Akulenko | Tribal Fusion World Dance Heritage'}
+Hero video: {'youtube_id': '8XGIRLwcw4o', 'checked_by_vision_model': True, 'title': 'WOW Arabic Belly Dance Sword Dance "Justice" by Irina Akulenko | Tribal Fusion World Dance Heritage'}
 Images: 3 licensed — Georges Seguin (Okki) / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Trizek / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Danecarney / Wikimedia Commons / CC0 (CC0)
 Footage: Belly Dance: Cues and Tattoos Festival 2015 - Bindu Bolar Tribalina. — https://archive.org/details/cues-and-tattoos-festival-2015-bindu-bolar-tribalina; BINDU BOLAR - TRIBAL FUSION BELLY-DANCE - HYPNOSIS 2015 — https://archive.org/details/bindu-bolar-tribal-fusion-bellydance-hypnosis-2015; Tribal Fusion Belly Dance - Bindu - Lost and Found, Fools Rhythm, Beat of Passion - Taal — https://archive.org/details/tribal-fusion-belly-dance-bindu-lost-and-found-fools-rhythm-beat-of-passion-taal; Tribal Fusion Belly Dance Tribalina Bindu Bolar - Links 2 - 3 - 4 Claw-finger Remix, Mechanic Puppet — https://archive.org/details/tribal-fusion-belly-dance-tribalina-bindu-bolar-links-2-3-4-clawfinger-remix-mecanic-puppet; Best Bellydance Safari Desert Dubai #72 — https://archive.org/details/youtube-Kk1cbJGXe5s; Best Belly Dance - Safari Desert Dubai #71 — https://archive.org/details/youtube-9ojbNc0D6QA; Best Bellydance Safari Desert Dubai #46 — https://archive.org/details/youtube-uvD9smyY2Gs; BELLYDANCE Teach In Dubai #4 — https://archive.org/details/youtube-3mQQbQk3Vfo
 Motifs: Antique silver jewelry, Cowrie shell hair falls, Modern electronic stage lighting

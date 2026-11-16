@@ -1,0 +1,259 @@
+{
+  "contract": "da_readiness_research_v1",
+  "evaluated_on": "2026-11-16",
+  "execution_note": "Offline agenda only. External research requires the scheduled task or an authorized researcher. Pending integration is not publication.",
+  "last_external_research": "2026-11-13",
+  "limits": {
+    "additional_pipeline_model_calls": 0,
+    "external_source_pages": 6,
+    "profiles_per_external_pass": 2
+  },
+  "next_focus": "ai_interaction",
+  "open_external_findings": 11,
+  "platform_findings": [
+    {
+      "checked_on": "2026-11-11",
+      "cost_authorized": 0,
+      "domain": "video",
+      "id": "video-segment-coverage-and-cost",
+      "inference": "Documented controls are a candidate method, not validated learning or an established cost saving.",
+      "next_evidence": "Compare timestamped practitioner labels with the existing extractor and a candidate targeted-clip method. Measure missed critical moments, timing errors, total tokens and failures before approving a change. No paid trial is authorized.",
+      "profile_ids": [],
+      "question": "Can targeted inspection recover essential teaching beyond the first eight minutes and fast transitions within the existing budget?",
+      "recheck_on": "2026-11-25",
+      "scope": "platform",
+      "source": "https://aistudio.google.com/docs/video-understanding",
+      "source_location": "Agentic video processing; custom frame rate; technical details",
+      "status": "candidate",
+      "why_needed": "Current extraction uses only the opening window. The provider documents selective segment inspection and configurable sampling; usefulness for dance remains untested."
+    },
+    {
+      "checked_on": "2026-11-11",
+      "cost_authorized": 0,
+      "domain": "platform",
+      "id": "partner-tracking-identity-and-recovery",
+      "inference": "A necessary Dance Atlas benchmark inferred from the group-use requirement; no claim that a tested implementation has failed.",
+      "next_evidence": "Prepare a consented partner/group test with crossing paths, matching clothing, partial occlusion and re-entry. Measure identity swaps, incorrect corrections, abstention and recovery; define acceptable outcomes with practitioners before activation.",
+      "profile_ids": [],
+      "question": "Can multi-person feedback keep each partner's identity and role through crossings, occlusion and tracking loss?",
+      "recheck_on": "2026-11-25",
+      "scope": "platform",
+      "source": "https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker?tab=Web",
+      "source_location": "Web configuration options: numPoses and tracking confidence",
+      "status": "candidate",
+      "why_needed": "The pose tool exposes a maximum pose count with a default of one. Group feedback needs an explicit identity/recovery benchmark, beyond detecting several bodies."
+    },
+    {
+      "additional_sources": [
+        "S2"
+      ],
+      "affected_scope": "Atlas and Viral units claiming retained learning; AI BDF, human-led and shared practice. General method only, not blanket applicability to sacred instruction or every age/ability.",
+      "cheapest_next_test": "Zero-purchase rubric rehearsal with synthetic records: independently score coached success with failed retention versus supported retained success. Proposed later feasibility design: six consenting adults, two short permission-cleared units, counterbalanced matched practice and a seven-day follow-up; seven days is a proposed operational choice, not a source-mandated threshold. Agree sample and scoring with reviewers before use.",
+      "checked_on": "2026-11-12",
+      "cost": "Current desk work: no paid API or purchases. Rubric preparation estimated 60–90 minutes. A later pilot needs consent, reviewer availability and a separate cost decision; no claim that human review is free.",
+      "cost_authorized": 0,
+      "disproof": "An immediate success disappears under the declared delayed condition; apparent improvement depends on extra prompts; or testing removes an access aid. Such results invalidate the scoped learning claim, not the person.",
+      "domain": "review",
+      "id": "learning-prompt-dependence-and-retained-supports",
+      "inference": "Candidate evaluation design, not proof that reduced feedback is always better. Separate temporary teaching prompts, essential music/calls and permanent access supports; never remove an access aid to manufacture an unaided test.",
+      "next_evidence": "First draft a unit-level rubric and cue inventory offline. When an authorized practitioner and consenting learners are available, compare equal-practice continuous prompting with gradually reduced or learner-requested prompting. Record immediate and delayed performance with instructional prompts absent, access supports retained, and one reviewed transfer condition. No recruitment or trial occurred.",
+      "profile_ids": [],
+      "proposed_field": {
+        "learning_evaluation": [
+          "goal_kind",
+          "unit_version",
+          "essential_cues",
+          "instructional_prompts",
+          "access_supports",
+          "feedback_schedule",
+          "test_delay",
+          "intervening_practice",
+          "transfer_condition",
+          "scoring_dimensions",
+          "population_language_mode",
+          "reviewer",
+          "results"
+        ]
+      },
+      "question": "Can learners retain the declared skill after instructional prompts fade, while keeping access supports and culturally essential musical cues?",
+      "recheck_on": "2026-11-26",
+      "scope": "platform",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/7644831/",
+      "source_date": "1995-06",
+      "source_location": "Abstract, sentences 1–7; DOI 10.1080/02701367.1995.10762218",
+      "status": "candidate",
+      "validation_criterion": "Before a trial, teaching/practitioner and access reviewers define measurable objectives, acceptable error and meaningful deterioration for the offered scope. Record sequence, rhythm and expression separately, prompting/rescue needs, comfort, enjoyment and missing follow-up. Withheld prompts must not be required access or cultural cues. A cheaper method is useful only if delayed objectives hold without unacceptable loss or extra rescue. Small feasibility samples cannot certify the catalogue.",
+      "why_needed": "Existing standards require retention but neither inspected dossier defines testing conditions. A coached success score cannot identify what the learner retained."
+    },
+    {
+      "affected_scope": "Any Atlas/Viral mode offering adaptations, including mixed-ability human BDF groups. Profile applicability remains conditional on permission, identified units and review.",
+      "cheapest_next_test": "Prepare six text cases, then obtain qualified labels when access is available: two accepted translations, two invariant errors, two unobservable cases. No camera/model generation needed for rubric review.",
+      "checked_on": "2026-11-12",
+      "cost": "No purchase/API authorized. Desk fixture draft estimated 45–60 minutes; reviewer time and actual learner validation unpriced.",
+      "cost_authorized": 0,
+      "disproof": "A valid translated movement receives a corrective instruction that contradicts its approved version, or a waived/non-comparable dimension silently passes as observed mastery.",
+      "domain": "review",
+      "id": "reviewed-adaptation-bound-feedback",
+      "inference": "Infer a versioned scoring requirement from a practitioner method. It is not an approval to transform every tradition, and supports agency rather than diagnosing bodies from camera images.",
+      "next_evidence": "Draft a movement-intent contract and reviewer-labelled cases: accepted translation, meaningful timing/intent error, and unobservable detail. Bind the correction rubric to the selected reviewed version. An inclusive practitioner and the relevant cultural authority must assess applicability before real instruction.",
+      "profile_ids": [],
+      "proposed_field": {
+        "adaptation_contract": [
+          "canonical_unit",
+          "translation_version",
+          "movement_intent",
+          "cultural_invariants",
+          "allowed_variations",
+          "observable_dimensions",
+          "non_comparable_dimensions",
+          "learner_selected_supports",
+          "review_scope",
+          "feedback_rubric_version"
+        ]
+      },
+      "question": "Can a learner perform an approved movement translation without being corrected back toward an unsuitable reference body?",
+      "recheck_on": "2026-11-26",
+      "scope": "platform",
+      "source": "https://www.stopgapdance.com/inclusive-choreography/",
+      "source_date": null,
+      "source_location": "Translation, paragraphs 1–3",
+      "status": "candidate",
+      "validation_criterion": "All review-labelled acceptable cases must avoid corrections solely caused by the approved physical difference; seeded errors on genuinely invariant dimensions must remain detectable or explicitly unobservable. Unknown adaptations trigger abstention and a self-check, never automatic diagnosis. Each offered language/version needs review. Fixture success is only a prerequisite to a consented learner test.",
+      "why_needed": "Seated/low-impact alternatives alone do not specify what the movement must preserve or which differences feedback must accept. The inspected adaptation and interaction objects are empty."
+    },
+    {
+      "affected_scope": "Camera/device-motion interfaces in AI BDF, human BDF groups, Viral recording and optional AR; platform-wide because the command layer is shared.",
+      "cheapest_next_test": "Zero-purchase state-table review first; a local event-replay harness only after a control implementation exists. Do not fabricate sensor validation from synthetic events.",
+      "checked_on": "2026-11-12",
+      "cost": "Current proposal has no paid API cost; state-table review estimated 30 minutes. Device/user testing costs remain unknown.",
+      "cost_authorized": 0,
+      "disproof": "A practice movement triggers an unintended command, disabling gesture commands disables the only usable feedback path, or the alternative control cannot complete the same action.",
+      "domain": "platform",
+      "id": "dance-motion-versus-command-actuation",
+      "inference": "Dance motion used for assessment may be essential to that feature; this does not make a wave-to-skip command essential. Accidental dance/command collision is an inferred risk, not an observed production fault.",
+      "next_evidence": "Specify separate command-gesture and movement-feedback states, conventional/assistive controls, and deliberate arming for optional gestures. At a future local prototype, replay the same event sequence with commands enabled/disabled and verify alternative pause/repeat/exit controls.",
+      "profile_ids": [],
+      "proposed_field": {
+        "interaction_control_contract": [
+          "command_gestures_enabled",
+          "movement_feedback_enabled",
+          "gesture_arming",
+          "alternative_controls",
+          "recording_and_publish_confirmation",
+          "collision_test_results"
+        ]
+      },
+      "question": "Can command gestures be disabled independently of movement feedback, so dancing cannot accidentally skip, record, invite or publish?",
+      "recheck_on": "2026-11-26",
+      "scope": "platform",
+      "source": "https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html",
+      "source_date": null,
+      "source_location": "SC 2.5.4; Intent paragraphs 1–5; essential-motion exception",
+      "status": "candidate",
+      "validation_criterion": "With command gestures disabled, every replayed gesture yields zero command actions while permitted feedback remains independently configurable. Pause/repeat/exit remain operable by the offered conventional/assistive controls. No gesture alone grants recording, contact or publication consent. Later tests include actual movement, tremor, camera/device conditions and chosen access methods.",
+      "why_needed": "Existing stop/alternative-control requirements do not explicitly separate observing dance from interpreting command gestures. A single camera toggle may unnecessarily remove feedback or leave accidental commands active."
+    },
+    {
+      "additional_sources": [
+        "S4",
+        "S5"
+      ],
+      "affected_modes": [
+        "Viral export",
+        "Atlas learner-performance export",
+        "human BDF group montage"
+      ],
+      "cheapest_next_test": "A 30–45 minute metadata/tabletop check: licensed project channel, independent learner channel, multi-owner asset, pre-existing claim and a Short above one minute. Expected outcomes derived from platform rules, not real upload outcomes.",
+      "checked_on": "2026-11-13",
+      "cost": "No paid API, upload, outreach or purchase. Human licensing/claim-support costs unknown; measure cost per successful export including support and re-edits.",
+      "cost_authorized": 0,
+      "disproof": "A licensed export is blocked or requires a channel-wide exemption the rights administrator will not provide; claimant resolution cost makes the offered route uneconomic.",
+      "domain": "rights",
+      "id": "music-delivery-claims-and-user-export-usability",
+      "inference": "Add a candidate operational-delivery review alongside unchanged legal and music-quality gates. Do not promise universal allowlisting, automatic disputes or permanent platform availability.",
+      "next_evidence": "Desk-audit one future cleared asset against intended destination, account ownership, duration and claimant chain. Record claim-resolution responsibility and costs. Any later private upload test requires separate explicit upload authorization; none was performed.",
+      "profile_ids": [],
+      "proposed_field": {
+        "delivery_clearance": [
+          "asset_hash",
+          "destination",
+          "format_duration",
+          "territory",
+          "channel_scope",
+          "content_id_administrator",
+          "other_claimants",
+          "reference_eligibility",
+          "release_process",
+          "resolution_owner_role",
+          "test_date",
+          "result",
+          "support_cost"
+        ]
+      },
+      "question": "Can a properly licensed recording actually reach the intended learner export destination without unresolved automated claims, including exports from learners’ own channels?",
+      "recheck_on": "2026-11-27",
+      "scope": "platform",
+      "source": "https://support.google.com/youtube/answer/6070344?hl=en",
+      "source_date": null,
+      "source_location": "Notes; Add channels to your allowlist, final two paragraphs",
+      "status": "candidate",
+      "validation_criterion": "Rights reviewer confirms use scope separately. For each offered export route, document claimant handling and an authorized scoped delivery test with playable output and understood monetization/restrictions. A test on the project channel does not validate learner channels. Unknown routes remain unvalidated; no existing gate is relaxed.",
+      "why_needed": "The music contract records social_export permission but no claimant/release workflow or destination-specific operational result. Permission and usable delivery are distinct."
+    },
+    {
+      "additional_sources": [
+        "S1"
+      ],
+      "affected_modes": [
+        "AI BDF slow/repeat",
+        "shared rhythm",
+        "live/split-screen practice",
+        "Viral rehearsal",
+        "optional AR cues"
+      ],
+      "cheapest_next_test": "An offline source/output timeline fixture without sound or generation. Example: source event at 8 seconds under constant 0.5 rate maps to 16 output seconds, excluding pauses; changing rate requires piecewise integration. Compare deliberately wrong single-clock mapping to the correct expectation.",
+      "checked_on": "2026-11-13",
+      "cost": "Zero purchases/model calls. Fixture design estimated 45 minutes; real audio review/device trials remain unpriced. Prefer existing browser controls before considering custom processing, subject to quality and rights.",
+      "cost_authorized": 0,
+      "disproof": "A cue drifts after rate change, a loop truncates a culturally meaningful response/pickup, or pitch-preserved audio fails musical review. A passed arithmetic fixture does not validate audio or network synchronization.",
+      "domain": "platform",
+      "id": "music-transform-timebase-and-cue-fidelity",
+      "inference": "A derived engineering benchmark: source-time offsets and elapsed playback differ under rate changes. Documentation proves controls exist, not that Dance Atlas preserves accents, timbre, phrasing or shared synchronization.",
+      "next_evidence": "Draft source-clock/output-clock fixtures for pause, seek, loop and rate changes. Then, only with permission-cleared audio, compare renderer outputs at musician-approved rates and loop boundaries on supported devices, including percussive and vocal material.",
+      "profile_ids": [],
+      "proposed_field": {
+        "music_transform_contract": [
+          "asset_hash",
+          "source_timebase",
+          "rate_schedule",
+          "loop_boundaries",
+          "pickup_and_cycle_phase",
+          "source_to_output_map",
+          "renderer_version",
+          "pitch_mode",
+          "approved_rate_range",
+          "cue_tolerance",
+          "musician_review",
+          "device_results"
+        ]
+      },
+      "question": "After slowing, looping or changing speed, do musical accents and lesson cues remain correctly aligned to the exact recording version?",
+      "recheck_on": "2026-11-27",
+      "scope": "platform",
+      "source": "https://www.w3.org/TR/webaudio/#playback-AudioBufferSourceNode",
+      "source_date": "2026-09-22",
+      "source_location": "Web Audio API 1.1 working draft, sections 1.9.5 and 1.9.6",
+      "status": "candidate",
+      "validation_criterion": "Synthetic fixtures preserve expected source event order, loop phase and output mapping, including seek and mid-cycle rate change. For real audio, practitioner/musician reviewers predefine cue tolerance and acceptable onset, pitch, groove and phrase quality for the offered scope; no universal BPM or eight-count assumption. Scope to tested devices/rates, abstain outside them.",
+      "why_needed": "The strategy records tempo rights and phrase structure but not a source-to-output time map, renderer/version or validated transformation envelope. Pitch preservation alone does not establish groove or cue fidelity."
+    }
+  ],
+  "profile_questions_by_domain": {
+    "research": 30,
+    "video": 14
+  },
+  "profile_sample": [
+    "atlas:aati-kalenja",
+    "viral:360-charli-xcx"
+  ]
+}

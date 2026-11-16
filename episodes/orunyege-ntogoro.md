@@ -1,8 +1,8 @@
 # Orunyege-Ntogoro — episode pack
 
-*Status: draft · built 2026-11-15 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 10/10 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** An experienced master dancer from western Uganda who embodies both the stamina of Orunyege and the poise of Ntogoro, balancing discipline with humor.
@@ -314,7 +314,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'H_2lVBWAH3U', 'checked_by_vision_model': False, 'title': 'ORUNYEGE DANCE PERFOMED BY KABALEGA ROYAL TROUPE HOIMA'}
+Hero video: {'youtube_id': 'H_2lVBWAH3U', 'checked_by_vision_model': True, 'title': 'ORUNYEGE DANCE PERFOMED BY KABALEGA ROYAL TROUPE HOIMA'}
 Images: 4 licensed — Ngumenawe / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Nyakairuj / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Ian.musinguzi / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Sagiomhza / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: Africa2U - Orunyege (Sample) - A dance from Uganda — https://archive.org/details/actonma-Africa2U_-_Orunyege_Sample_-_A_dance_from_Uganda
 Motifs: Close-ups of dried calabashes vibrating on moving ankles, Beaded entogoro waist rings swinging against bright fabrics, Bare earth kicking up under energetic foot strikes, The gesturing omukama conducting dancers and audience
@@ -324,9 +324,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: 
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (2): https://en.wikipedia.org/wiki/Orunyege-Ntogoro; https://www.wikidata.org/wiki/Q124251084

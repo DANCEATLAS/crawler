@@ -1,8 +1,8 @@
 # Waacking — episode pack
 
-*Status: draft · built 2026-11-14 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 8/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): a verified recording to listen to; the hero video's vision check; licensed images (3 needed)
+**Gaps** (handed to the research queue): a verified recording to listen to; licensed images (3 needed)
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A sharp, charismatic street-dance historian and master waacker who insists on dramatic musical intention and historical respect.
@@ -334,7 +334,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'zuIPARqaNsg', 'checked_by_vision_model': False, 'title': 'Khwab Dekhe | Monali Thakur | Neeraj Shridhar | Waacking Choreography | Nritya Shakti'}
+Hero video: {'youtube_id': 'zuIPARqaNsg', 'checked_by_vision_model': True, 'title': 'Khwab Dekhe | Monali Thakur | Neeraj Shridhar | Waacking Choreography | Nritya Shakti'}
 Images: 0 licensed
 Footage: Waacking: Psychedelic Flow! — https://archive.org/details/psychedelic-flow; Waacking: Flute Cover! — https://archive.org/details/flute-cover; Rockwell - 'Somebody's Watching Me' | Waacking Freestyle (Berfu) — https://archive.org/details/rockwell-somebodys-watching-me-waacking-freestyle-berfu; WAACKING: PINK PARADE | ICONIC EDITION - The Royal Family Waacking Virtual Experience! — https://archive.org/details/pink-parade-iconic-edition-the-royal-family-virtual-experience; Elahood Waacking - ¡Danza! — https://archive.org/details/elahood-waacking; Lên sàn | Jack đen | Phong cách tự do Waacking Vogue | Kẹp 02 | 2010 — https://archive.org/details/get-on-the-floor-black-jack-freestyle-waacking-vogue-clip-02-2010; Aversión al agua | Garay | Whacking. — https://archive.org/details/aversion-al-agua-garay-whacking
 Motifs: Spun disco balls reflecting fractured light across spinning forearms, Vintage black-and-white Hollywood movie stills intercut with modern club cyphers, Slow-motion captures of wrists wrapping around the crown of the head

@@ -1,8 +1,8 @@
 # Finnish tango — episode pack
 
-*Status: draft · built 2026-11-15 · judge 9.5 · 7/8 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 9.5 · 7/8 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the costume & setting section
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** Experienced Finnish tango dancer with deep knowledge of music and cultural history
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: Finnish Tango: Melancholy in Motion
 NARRATION: This is Finnish tango. 20th century.
-ON SCREEN: Hero video, first 10 seconds (Xbj5IOB0PK8)
+ON SCREEN: Hero video, first 10 seconds (6e8i0A_K8ZI)
 ON SCREEN: Title card: Finnish tango · Finland · 20th century
 MUSIC: theme (30 s)
 
@@ -38,7 +38,7 @@ NARRATION: Finnish tango is danced in close contact with emphasis on pelvis, upp
 NARRATION: The basic step sequence is SSQQ (slow, slow, quick, quick), with variations like QQS or SQQ to match rhythm changes.
 NARRATION: Movements are low and horizontal with optional rises and falls, frequent dips, and rotations.
 NARRATION: Watch for Dip, Rotation.
-ON SCREEN: Hero video full screen, 30–45 s (Xbj5IOB0PK8)
+ON SCREEN: Hero video full screen, 30–45 s (6e8i0A_K8ZI)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Danced as couples in close embrace; requires ample space for long steps and fluid movement
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -317,7 +317,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'Xbj5IOB0PK8', 'checked_by_vision_model': False, 'title': 'FINNISH TANGO NIGHT by Markku Lahdesmaki'}
+Hero video: {'youtube_id': '6e8i0A_K8ZI', 'checked_by_vision_model': True, 'title': 'Finnish tango 100 years!!     (more info in text section)'}
 Images: 0 licensed
 Footage: MISSING
 Motifs: close embrace, accordion player, Seinäjoki festival crowds, autumn Finnish nature, black and white archival photos
@@ -327,9 +327,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 19 tutorial(s) of the folk-circle family studied · videos studied: 19
+Source: 24 tutorial(s) of the folk-circle family studied · videos studied: 24
 Counting: count the not explicitly described; rhythm follows ballroom tango with habanera and beguine influences bar out loud, then in pairs of bars
 Demonstration: views used by most teachers: front, back, side; tempo progression: slow → half → full; repetitions per step: about 4
-Cues: pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; get up from the sleep; take your chest out; punch it; jump like a baby
+Cues: step together step; brush the foot; arms open close in a circle; pull back and lean to the left; close in open on and; milk down knees are bent; cross with our left leg; rock step; side close side; triple step; rock step triple step triple step; open your right leg
 
 Sources (5): https://en.wikipedia.org/wiki/Finnish_tango; https://www.wikidata.org/wiki/Q1762761; https://es.wikipedia.org/wiki/Tango_de_Finlandia; https://fr.wikipedia.org/wiki/Tango_finlandais; https://pt.wikipedia.org/wiki/Tango_finlandês

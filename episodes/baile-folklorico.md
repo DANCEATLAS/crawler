@@ -1,8 +1,8 @@
 # baile folklorico — episode pack
 
-*Status: withheld-chapters · built 2026-11-15 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
+*Status: withheld-chapters · built 2026-11-16 · judge 8.95 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; a hero video; two or more connections
+**Gaps** (handed to the research queue): tempo (bpm); meter; a verified recording to listen to; the hero video's vision check; two or more connections
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A professional dancer from a Mexican folkloric company
@@ -13,7 +13,7 @@
 ### 1. Cold open (35 s) · `hook`
 NARRATION: The Rhythm of Mestizaje
 NARRATION: This is baile folklorico. 20th century.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video, first 10 seconds (L1zsP1plkCY)
 ON SCREEN: Title card: baile folklorico · Mexico · 20th century
 MUSIC: theme (30 s)
 
@@ -37,7 +37,7 @@ NARRATION: The dance is defined by the zapateado, a percussive heel-stomping tec
 NARRATION: Dancers often perform in couples, with men wearing charro-inspired suits and women wearing regional dresses.
 NARRATION: Choreography often incorporates props such as fans or bandanas.
 NARRATION: Watch for Zapateado.
-ON SCREEN: Hero video — MISSING
+ON SCREEN: Hero video full screen, 30–45 s (L1zsP1plkCY)
 ON SCREEN: Captions name each signature move as it appears
 ON SCREEN: Formation: Couples in front of musicians
 MUSIC: diegetic (the video's own sound), underscore under narration
@@ -103,7 +103,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress with a respectful nod (palette and fabric only): the sources describe sacred, ceremonial or restricted attire, or the dance is sacred
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: MISSING
+Hero video: {'youtube_id': 'L1zsP1plkCY', 'checked_by_vision_model': False, 'title': 'Ballet Folklórico México Danza - Jalisco (San Francisco Ethnic Dance Festival 2016)'}
 Images: 4 licensed — Jürgen from Sandesneben, Germany / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); AlejandroLinaresGarcia / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0); Yodigo / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0); Talento Tec / Wikimedia Commons / CC BY-SA 3.0 (CC BY-SA 3.0)
 Footage: baile folklorico reynosa 260 — https://archive.org/details/BaileFolkloricoReynosa260; ISD283 Park Spanish Immersion Baile Folklorico pt1 5-11-2018 -- ParkTV15 — https://archive.org/details/slpmn-ISD283_Park_Spanish_Immersion_Baile_Folklorico_pt1_5-11-2018_--_ParkTV15; ISD283 Park Spanish Immersion Baile Folklorico pt2 5-11-2018 -- ParkTV15 — https://archive.org/details/slpmn-ISD283_Park_Spanish_Immersion_Baile_Folklorico_pt2_5-11-2018_--_ParkTV15; ISD283 PSI Baile Folklorico 1-6-2017 -- ParkTV15 — https://archive.org/details/ISD283_PSI_Baile_Folklorico_1-6-2017_--_ParkTV15; ISD283 PSI's Baile Folklorico pt1 5-5-2017 -- ParkTV15 — https://archive.org/details/ISD283_PSI_s_Baile_Folklorico_pt1_5-5-2017_--_ParkTV15; Baile Folklorico pt2 12-8-2017 -- ParkTV15 — https://archive.org/details/Baile_Folklorico_pt2_12-8-2017_--_ParkTV15; File:Desfile XXXIV Festival Folklórico Internacional de Extremadura.webm — https://upload.wikimedia.org/wikipedia/commons/9/96/Desfile_XXXIV_Festival_Folkl%C3%B3rico_Internacional_de_Extremadura.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original; File:Ballet Folklórico de Orizaba en el Teatro Llave 2019 01.webm — https://upload.wikimedia.org/wikipedia/commons/6/6a/Ballet_Folkl%C3%B3rico_de_Orizaba_en_el_Teatro_Llave_2019_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
 Motifs: Ruffled skirts, Charro suits, Wooden performance platforms
@@ -113,9 +113,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
+Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
 Counting: 
-Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (3): https://en.wikipedia.org/wiki/Baile_folkl%C3%B3rico; https://www.wikidata.org/wiki/Q4848308; https://es.wikipedia.org/wiki/Danza_folclórica_mexicana

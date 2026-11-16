@@ -2,7 +2,7 @@
  "slug": "pungmul",
  "name": "Pungmul",
  "pack_version": "e2",
- "built_at": "2026-11-15T18:05:17Z",
+ "built_at": "2026-11-16T22:22:18Z",
  "researched_at": "2026-11-09T20:55:18Z",
  "qc_score": 10.0,
  "status": "draft",
@@ -732,7 +732,7 @@
  "visual_brief": {
   "hero_video": {
    "youtube_id": "4oiODXIUkiY",
-   "checked_by_vision_model": false,
+   "checked_by_vision_model": true,
    "title": "Korean Folk Village: Nongak (farmer’s music)"
   },
   "wardrobe": {
@@ -855,8 +855,8 @@
   ]
  },
  "teaching_formula": {
-  "source": "19 tutorial(s) of the folk-circle family studied",
-  "videos_studied": 19,
+  "source": "24 tutorial(s) of the folk-circle family studied",
+  "videos_studied": 24,
   "counting": "count the varies; includes 12-beat gutgeori, 9/8 semachi, 4/4 or 12/8 hwimori, and fast 12/8 jajinmori bar out loud, then in pairs of bars",
   "counting_basis": "meter-derived practice pulse; step timing not validated",
   "demonstration": [
@@ -865,6 +865,9 @@
    "repetitions per step: about 4"
   ],
   "cues": [
+   "step together step",
+   "brush the foot",
+   "arms open close in a circle",
    "pull back and lean to the left",
    "close in open on and",
    "milk down knees are bent",
@@ -873,18 +876,15 @@
    "side close side",
    "triple step",
    "rock step triple step triple step",
-   "get up from the sleep",
-   "take your chest out",
-   "punch it",
-   "jump like a baby"
+   "open your right leg"
   ],
   "common_mistakes": [],
   "segment_order": [
    "intro",
    "count_in",
-   "full_demo",
    "breakdown",
    "warmup",
+   "full_demo",
    "slow_practice",
    "music_practice",
    "recap"
@@ -894,7 +894,6 @@
  "gaps": [
   "tempo (bpm)",
   "a verified recording to listen to",
-  "the hero video's vision check",
   "the how-it-is-danced section"
  ],
  "sources": [
@@ -908,6 +907,6 @@
  "claims_verified": 6,
  "claims": 7,
  "polished": false,
- "input_fingerprint": "af07cf1fb92920b7475e0d75b601f64583d87c270ba32c0a560bfb075da1c3d7",
- "hero_checked": null
+ "input_fingerprint": "e70b9bbb474ec0209ecda74ad4f192653e753d3d9ba615353fcdb3ef0ba4a28f",
+ "hero_checked": "pass"
 }

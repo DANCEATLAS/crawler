@@ -1,8 +1,8 @@
 # siguiriyas — episode pack
 
-*Status: draft · built 2026-11-11 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
+*Status: draft · built 2026-11-16 · judge 10.0 · 6/6 claims verified · narration assembled from the profile*
 
-**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; the hero video's vision check; licensed images (3 needed); licensed reference footage; the costume & setting section; what to avoid / common mistakes
+**Gaps** (handed to the research queue): tempo (bpm); a verified recording to listen to; licensed images (3 needed); licensed reference footage; the costume & setting section; what to avoid / common mistakes
 
 **Narrator:** warm, unhurried, curious; a documentary voice that never oversells; speaks the dance's own words (names, counts) clearly
 **Instructor:** A rigorous flamenco historian emphasizing emotional gravity, historical respect, and rhythmic precision.
@@ -317,7 +317,7 @@ Rules: Original composition only — no sampling, no melody of any existing reco
 Narrator's wardrobe: neutral dress: the sources do not describe the costume yet
 Care: every element traceable to the costume notes or a licensed image; nothing added for effect; no caricature, no exaggeration, no mixing of regions or eras; a culture bearer reviews the wardrobe before production; the review is recorded in the pack; credits name the tradition and the sources of the reconstruction
 
-Hero video: {'youtube_id': 'xumQS4tDDdk', 'checked_by_vision_model': False, 'title': 'Antonio Gades y Cristina Hoyos (baile) Seguiriyas'}
+Hero video: {'youtube_id': 'xumQS4tDDdk', 'checked_by_vision_model': True, 'title': 'Antonio Gades y Cristina Hoyos (baile) Seguiriyas'}
 Images: 2 licensed — Enrique_morente_3353510495_26547d0a8c_o.jpg: alterna2 https://www.alterna2.com/
 derivative work: Kadellar (talk) / Wikimedia Commons / CC BY 2.0 (CC BY 2.0); TheEaterofCorn / Wikimedia Commons / CC BY-SA 4.0 (CC BY-SA 4.0)
 Footage: MISSING
@@ -328,9 +328,9 @@ Rules: Generated imagery reconstructs costume and setting ONLY from the costume 
 
 ## Teaching formula
 
-Source: 2 tutorial(s) of the ritual-sacred family studied · videos studied: 2
+Source: 3 tutorial(s) of the ritual-sacred family studied · videos studied: 3
 Counting: count the 12-count compás bar out loud, then in pairs of bars
-Demonstration: views used by most teachers: front, back; tempo progression: slow → full; repetitions per step: about 5
-Cues: hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
+Demonstration: views used by most teachers: front, mirror, back; tempo progression: slow → full; repetitions per step: about 5
+Cues: let's do this; praise freestyle; hold your knife out; every time the blade faces down; two thumbs are facing up; one two; over and spin
 
 Sources (5): https://en.wikipedia.org/wiki/Siguiriyas; https://www.wikidata.org/wiki/Q2339999; https://es.wikipedia.org/wiki/Seguiriya; https://fr.wikipedia.org/wiki/Seguiriya; https://de.wikipedia.org/wiki/Seguiriya
