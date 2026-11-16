@@ -1,4 +1,4 @@
-# Next work — 2026-11-11
+# Next work — 2026-11-16
 
 Read PRODUCT_VISION.md, AI_BRIEF.md, IMPLEMENTATION_LEDGER.md and NEXT_RUN_PLAN.md first. Continue independently within existing limits.
 
@@ -10,15 +10,15 @@ Read PRODUCT_VISION.md, AI_BRIEF.md, IMPLEMENTATION_LEDGER.md and NEXT_RUN_PLAN.
 
 ## Specific research gaps
 
-- tempo (bpm): 207 pages — a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json.
-- a verified recording to listen to: 195 pages — a recording title the composer can verify in MusicBrainz (an album or single named in a source).
-- licensed images (3 needed): 169 pages — a Wikimedia Commons category or file link in an editor note.
-- meter: 154 pages — a source that states the time signature.
-- licensed reference footage: 139 pages — a Commons video or an Internet Archive film naming the dance in its title.
+- tempo (bpm): 307 pages — a source that states the tempo — a teacher's page or a music reference, added via pipeline_state/sources_extra.json.
+- a verified recording to listen to: 290 pages — a recording title the composer can verify in MusicBrainz (an album or single named in a source).
+- meter: 233 pages — a source that states the time signature.
+- licensed images (3 needed): 231 pages — a Wikimedia Commons category or file link in an editor note.
+- the hero video's vision check: 199 pages — the vision model has not reached it yet — it will (60 a day).
 
 ## Owner-only action
 
-Nothing needs you this week. No owner-only action is currently recorded.
+NO ACTION NEEDED. No owner-only action is currently recorded.
 
 Do not ask the owner to select production vendors, buy credits or copy files when independent preparation can continue. Present only one necessary action, in large plain language.
 
