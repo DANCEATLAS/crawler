@@ -59,6 +59,18 @@ class FreeLaneTests(unittest.TestCase):
         self.assertTrue(a.permitted("gemini"))
         self.assertEqual(llm.unanswered, 0)
 
+    def test_overloaded_model_rests_and_is_not_retired_for_the_run(self):
+        llm = self.llm(spending.ModelAllowance(free_policy()))
+        answer = (200, json.dumps({"candidates": [{"content": {"parts": [{"text": "{\"ok\": true}"}]}}]}), {})
+        busy = common.HttpError(503, '{"error": {"status": "UNAVAILABLE", "message": "high demand"}}', "https://example.org")
+        with patch.object(common, "get_json", return_value=LISTED), patch.object(common, "http", side_effect=[busy, answer, answer]), patch.object(common.time, "sleep"):
+            self.assertEqual(llm.json("system", "user", strong=True), {"ok": True})
+            self.assertNotIn("gemini-3.8-flash", llm.dead)
+            self.assertNotIn("gemini-3.8-flash", llm.gemini_models(True)[:0])
+            llm._rest["gemini-3.8-flash"] = 0   # five minutes later
+            self.assertEqual(llm.json("system", "user", strong=True), {"ok": True})
+        self.assertEqual(llm.strikes.get("gemini-3.8-flash"), 0)
+
 
 class Project(unittest.TestCase):
     def setUp(self):

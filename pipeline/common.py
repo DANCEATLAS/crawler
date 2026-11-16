@@ -267,7 +267,7 @@ class LLM:
         self.cfg_gemini_strong = [m.strip() for m in os.environ.get("GEMINI_STRONG_MODELS", "").split(",") if m.strip()]
         self._gemini_avail = None
         self._openai_avail = None
-        self._list_tries, self._lane_logged, self._last_call = 0, False, {}
+        self._list_tries, self._lane_logged, self._last_call, self._rest = 0, False, {}, {}
         self.dead = set()
         self.strikes = {}          # model -> consecutive failures; MAX_STRIKES in a row retires the model for this run
         self.MAX_STRIKES = int(os.environ.get("LLM_MAX_STRIKES", "2"))
@@ -307,7 +307,7 @@ class LLM:
             except Exception as e:
                 warn("gemini model list failed:", str(e)[:120])
         from .spending import family_of
-        per = int(os.environ.get("GEMINI_MODELS_PER_FAMILY", "4"))
+        per = int(os.environ.get("GEMINI_MODELS_PER_FAMILY", "6"))   # some listed models have no free quota: each costs one refused call a run
         out = {}
         for fam in fams:
             names = [n for n in (self._gemini_avail or []) if family_of(n) == fam]
@@ -476,7 +476,7 @@ class LLM:
         system = system + "\nRespond with a single JSON object only."
         timeout = self.timeout_strong if strong else self.timeout_fast
         for prov, model in order:
-            if model in self.dead or not self.allowance.permitted(prov):
+            if model in self.dead or self._rest.get(model, 0) > time.time() or not self.allowance.permitted(prov):
                 continue
             for attempt in (0, 1):
                 try:
@@ -507,7 +507,12 @@ class LLM:
                             warn(f"llm {prov}/{model}: rate limited, waiting {wait}s and retrying once")
                             time.sleep(wait)
                             continue
-                    if e.code == 404 or (e.code == 400 and ("not found" in low or "no longer available" in low or "not supported" in low)):
+                    if e.code in (500, 502, 503, 504):
+                        # the provider is overloaded ("high demand"): rest this model for five minutes; retiring it for a
+                        # four-hour run would throw away its whole day quota over a spike that lasts minutes
+                        self._rest[model] = time.time() + int(os.environ.get("LLM_REST_SECONDS", "300"))
+                        self.failures += 1
+                    elif e.code == 404 or (e.code == 400 and ("not found" in low or "no longer available" in low or "not supported" in low)):
                         self.dead.add(model)  # missing model: never again this run
                         self.failures += 1
                     else:
