@@ -28,12 +28,29 @@ jobs:
                   except: return 0
               except urllib.error.HTTPError as e:
                   print('ERR', table, slug, e.code, e.read()[:120]); return -1
+          def current(table, cols):
+              """What the database already holds. Every PATCH, even one that changes nothing, is copied whole into the
+              audit log (541 MB by 11 Nov 2026), so rows that already match are skipped."""
+              rows={}; off=0
+              while True:
+                  req=urllib.request.Request(BASE+'/'+table+'?select='+cols+'&order=slug.asc&limit=1000&offset='+str(off), headers=H)
+                  try:
+                      with urllib.request.urlopen(req) as r: page=json.loads(r.read().decode())
+                  except Exception as ex:
+                      print('current rows unreadable, writing everything:', str(ex)[:80]); return None
+                  for row in page: rows[row.get('slug')]=row
+                  if len(page)<1000: return rows
+                  off+=1000
+          def unchanged(cur, slug, payload):
+              row=(cur or {}).get(slug)
+              return row is not None and all(row.get(k)==v for k,v in payload.items())
           try:
               data=json.load(open('viral_results.json'))
           except FileNotFoundError:
               print('no viral_results.json'); data=[]
           rows = list(data.values()) if isinstance(data, dict) else data
-          ok=nomatch=err=skip=0
+          ok=nomatch=err=skip=same=0
+          cur=current('viral_challenges','slug,hero_video_youtube_id,video_stack')
           for rec in rows:
               if not isinstance(rec, dict): skip+=1; continue
               slug = rec.get('slug')
@@ -41,9 +58,11 @@ jobs:
               if not slug or not vid: skip+=1; continue
               payload = {'hero_video_youtube_id': vid}
               if rec.get('video_stack'): payload['video_stack'] = rec['video_stack']
+              if unchanged(cur, slug, payload): same+=1; continue
+              if cur is not None and slug not in cur: nomatch+=1; continue
               n = patch('viral_challenges', slug, payload)
               if n>0: ok+=1
               elif n==0: nomatch+=1
               else: err+=1
-          print('VIRAL ok',ok,'nomatch',nomatch,'err',err,'skip',skip)
+          print('VIRAL changed',ok,'same (no write)',same,'nomatch',nomatch,'err',err,'skip',skip)
           PY

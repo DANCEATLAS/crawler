@@ -31,17 +31,37 @@ jobs:
                       except Exception: return 0
               except urllib.error.HTTPError as e:
                   print('ERR', table, slug, e.code, e.read()[:120]); return -1
+          def current(table, cols):
+              """What the database already holds. Every PATCH, even one that changes nothing, is copied whole into the
+              audit log (541 MB by 11 Nov 2026), so rows that already match are skipped."""
+              rows={}; off=0
+              while True:
+                  req=urllib.request.Request(BASE+'/'+table+'?select='+cols+'&order=slug.asc&limit=1000&offset='+str(off), headers=H)
+                  try:
+                      with urllib.request.urlopen(req) as r: page=json.loads(r.read().decode())
+                  except Exception as ex:
+                      print('current rows unreadable, writing everything:', str(ex)[:80]); return None
+                  for row in page: rows[row.get('slug')]=row
+                  if len(page)<1000: return rows
+                  off+=1000
+          def unchanged(cur, slug, payload):
+              row=(cur or {}).get(slug)
+              return row is not None and all(row.get(k)==v for k,v in payload.items())
           try:
               heroes=json.load(open('hero_results.json'))
           except Exception as ex:
               print('no hero_results.json', ex); heroes={}
-          ok=0; nomatch=0; err=0
+          ok=0; nomatch=0; err=0; same=0
+          cur=current('dances','slug,hero_video_youtube_id,video_stack')
           for slug,res in heroes.items():
               vid=(res or {}).get('hero_video_youtube_id')
               if not vid: continue
-              n=patch('dances', slug, {'hero_video_youtube_id': vid, **({'video_stack': res['video_stack']} if (res or {}).get('video_stack') else {})})
+              payload={'hero_video_youtube_id': vid, **({'video_stack': res['video_stack']} if (res or {}).get('video_stack') else {})}
+              if unchanged(cur, slug, payload): same+=1; continue
+              if cur is not None and slug not in cur: nomatch+=1; continue
+              n=patch('dances', slug, payload)
               if n>0: ok+=1
               elif n==0: nomatch+=1
               else: err+=1
-          print('HEROES matched and set:', ok, '| slug-not-in-db:', nomatch, '| errors:', err, '| file total:', len(heroes))
+          print('HEROES changed and set:', ok, '| already the same (no write):', same, '| slug-not-in-db:', nomatch, '| errors:', err, '| file total:', len(heroes))
           PY
