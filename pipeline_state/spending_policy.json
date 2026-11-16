@@ -1,15 +1,22 @@
 {
-  "schema": 1,
-  "reviewed_on": "2026-11-14",
-  "llm_enabled": false,
+  "schema": 2,
+  "reviewed_on": "2026-11-16",
+  "llm_enabled": true,
+  "authorization_reference": "Owner direction, 16 November 2026: keep the automatic updates strong and save tokens on every platform. Free tier only; no paid model use.",
+  "expires_on": "2027-12-31",
   "models": {},
-  "authorization_reference": "",
-  "expires_on": "2026-11-14",
-  "max_http_attempts_per_process": 60,
-  "max_output_tokens_per_request": 8192,
-  "max_reserved_output_tokens_per_process": 120000,
-  "reason": "Owner requested control of ongoing spending. Model API generation is paused pending an explicit dated allowance; existing credentials do not authorize spending.",
-  "external_research": "One bounded ChatGPT pass each Sunday at 16:00 Asia/Tokyo; consumes ChatGPT plan capacity, with no API spending authority.",
-  "other_platforms": "No Lovable builds, purchases, subscriptions or budget increases. Existing hosting, database, crawler and GitHub usage may still consume provider allowances; balances and invoices are unverified.",
-  "scope": "This policy governs pipeline/common.py model requests, not account-wide billing or third-party subscriptions. Request and output reservations are not total input/output usage or a dollar cap."
+  "free_tier_families": {
+    "gemini": [
+      "flash-lite",
+      "flash"
+    ]
+  },
+  "max_http_attempts_per_process": 1500,
+  "max_output_tokens_per_request": 9000,
+  "max_reserved_output_tokens_per_process": 6000000,
+  "reason": "The writing engine runs on Google's Gemini free tier only. Verified in Google AI Studio on 16 November 2026: project 'Default Gemini Project', billing tier Free, no billing account attached, so these calls cannot be charged. Free limits seen that day: flash models 20 requests a day each, flash-lite models 500 a day each. OpenAI is off: no model is listed for it and the workflows do not receive its key.",
+  "if_billing_is_ever_attached": "Attaching billing to that Google project would turn these calls into paid ones. Set llm_enabled to false first, or pin exact models and accept the cost knowingly.",
+  "external_research": "One bounded ChatGPT pass each Sunday at 16:00 Asia/Tokyo; it uses ChatGPT plan capacity, not this policy.",
+  "other_platforms": "No Lovable builds, purchases, subscriptions or paid budget increases. Hosting, database, crawler and GitHub usage stay inside their free allowances; their balances are not measured here.",
+  "scope": "Governs pipeline/common.py model requests. Request and output reservations are run-away guards, not a dollar cap; the free lane costs nothing only while the key stays unbilled."
 }

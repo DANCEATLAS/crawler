@@ -7,20 +7,20 @@ on:
   workflow_dispatch:
     inputs:
       stage:
-        description: "daily | bootstrap | audit | discover | research | qc | hero_qc | build | pedagogy | episodes | translate | activation | sync | report | selftest"
+        description: "daily | bootstrap | audit | discover | research | qc | hero_qc | build | pedagogy | episodes | translate | activation | readiness | sync | report | selftest"
         default: "daily"
       research_new:
         description: "new dances to research this run"
-        default: "25"
+        default: "40"
       research_enrich:
         description: "existing dances to deepen this run"
-        default: "15"
+        default: "30"
       hero_qc_budget:
         description: "hero videos to check this run"
-        default: "60"
+        default: "120"
       discover_max_new:
         description: "max new candidates to queue"
-        default: "40"
+        default: "60"
       only:
         description: "comma-separated slugs (optional)"
         default: ""
@@ -32,7 +32,7 @@ concurrency:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 170
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -47,15 +47,21 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
           YT_API_KEYS: ${{ secrets.YT_API_KEYS }}
-          RESEARCH_NEW: ${{ github.event.inputs.research_new || '25' }}
-          RESEARCH_ENRICH: ${{ github.event.inputs.research_enrich || '15' }}
-          HERO_QC_BUDGET: ${{ github.event.inputs.hero_qc_budget || '60' }}
-          DISCOVER_MAX_NEW: ${{ github.event.inputs.discover_max_new || '40' }}
+          # The writing engine: Google's Gemini FREE tier only (no billing is attached to this key; pipeline_state/spending_policy.json).
+          # The OpenAI key is deliberately not passed: no paid model can be called from here.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RESEARCH_NEW: ${{ github.event.inputs.research_new || '40' }}
+          RESEARCH_ENRICH: ${{ github.event.inputs.research_enrich || '30' }}
+          RESEARCH_COMPLETION_MAX: "10"
+          HERO_QC_BUDGET: ${{ github.event.inputs.hero_qc_budget || '120' }}
+          DISCOVER_MAX_NEW: ${{ github.event.inputs.discover_max_new || '60' }}
           AUDIT_LLM_BUDGET: "150"
-          # Model API spending is paused; see pipeline_state/spending_policy.json.
+          # budgets are sized to the free tier: flash 20 requests a day per model (kept for the writer), flash-lite 500 a day per model (judges, video)
           # the movie phase (MOVIE_PHASE.md): tutorial videos studied per day (Gemini watches the public YouTube URL, free tier),
           # and episode packs whose narration the model may polish per day (0 = assembled text only; polished text is verified)
-          PEDAGOGY_BUDGET: "6"
+          PEDAGOGY_BUDGET: "24"
+          # performances observed per day: what a dance looks and sounds like in its own hero video (dances without a lesson on the web)
+          PERFORMANCE_BUDGET: "30"
           EPISODE_POLISH: "4"
           # one narrator, every language: gap-free packs are translated scene by scene (TRANSLATE_BUDGET calls a day) into these languages
           TRANSLATE_BUDGET: "6"
@@ -72,5 +78,10 @@ jobs:
           git config user.email "crawler@users.noreply.github.com"
           git add -A
           if ! git diff --cached --quiet; then git commit -m "pipeline: ${{ github.event.inputs.stage || 'daily' }} $(date -u +%F)"; fi
-          git pull --rebase origin main
-          git push
+          pushed=0
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push; then pushed=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 30
+          done
+          [ "$pushed" = "1" ]

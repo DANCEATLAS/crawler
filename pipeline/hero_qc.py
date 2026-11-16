@@ -170,7 +170,8 @@ def run(budget=80, recheck_days=120, use_vision=True, only=None):
         slugs = [s for s in slugs if s in only]
     def age_key(s):
         return (hq.get(s) or {}).get("checked_at", "")
-    slugs.sort(key=age_key)
+    published = {s for s, v in (load_state("qc_index.json", {}) or {}).items() if v.get("publish_gate") == "publish"}
+    slugs.sort(key=lambda s: (age_key(s), s not in published))
     cutoff = _days_ago(recheck_days)
     slugs = [s for s in slugs if not (hq.get(s) or {}).get("checked_at") or (hq.get(s) or {}).get("checked_at", "")[:10] < cutoff][:budget]
     rep.note(f"hero qc targets: {len(slugs)} of {len(heroes)} heroes (vision={use_vision and llm.enabled})")

@@ -2,6 +2,8 @@
 
 Revision **DA-VISION-2026-11-11-ACTIVE**. Owner direction, 11 November 2026. Read with PRODUCT_VISION.md; this changes the destination from movie production to interactive readiness. A movie/script is one possible output, not the product or a readiness certificate.
 
+**Two lines, in order (16 November 2026).** First the **starting line, active-ready**: the machine has gathered and source-checked everything an AI teaching service needs to write the lesson for that dance. It is measured automatically every day by `pipeline/readiness.py` against fifteen items (`ACTIVE_READY.md`), it needs no human, and it is the owner's present goal: many thousands. Then **activation**: the human reviews, music rights and platform tests described below, done per pilot when the owner chooses a delivery service. Active-ready is never reported as activated, and nothing below is weakened by it.
+
 An **Active Profile** is a versioned body of dance knowledge prepared to power excellent interaction when a delivery platform meets the standard. The ambition is many thousands of profiles: every living dance, meaningful local variants and new forms. Preserve historical/revived context and distinct Viral identities. There is no verified total of all living dances; never report percentage-of-the-world coverage from catalogue size.
 
 ## What the experience must enable

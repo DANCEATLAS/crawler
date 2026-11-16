@@ -6,6 +6,8 @@ The destination is **BDF — Best Dance Friend**, a lifelong multilingual dance 
 
 ## Start here
 
+- **[LEDGER.md](LEDGER.md) — one short page: the mission now, the state, the rules, what is open. Any AI reads this first.**
+- [The starting line](ACTIVE_READY.md) — how many profiles are active-ready and what the rest still need.
 - [Complete product vision](PRODUCT_VISION.md) — DA-VISION-2026-11-11-ACTIVE.
 - [Implementation/platform ledger](IMPLEMENTATION_LEDGER.md) — verified state, gaps, tests and next work.
 - [AI operating brief](AI_BRIEF.md) and [agent instructions](AGENTS.md).
@@ -14,4 +16,4 @@ The destination is **BDF — Best Dance Friend**, a lifelong multilingual dance 
 
 Preserve budget caps and cultural restrictions. A script/model score is not approval to teach, reuse assets or launch. Requirements and implemented capabilities are distinguished in the ledger.
 
-Current spending and continuity rules: [COST_AND_CONTINUITY.md](COST_AND_CONTINUITY.md). Model API generation is paused; bounded external requirements research runs weekly.
+Current spending and continuity rules: [COST_AND_CONTINUITY.md](COST_AND_CONTINUITY.md). The writing engine runs on Google Gemini's free tier only; paid model use is off.

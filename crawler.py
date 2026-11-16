@@ -17,7 +17,18 @@ MOVIE=re.compile(r"(movieclips|netflix|\bmovie\b|\bfilm\b|trailer|scene\s*\(|\(2
 STRONG=re.compile(r"(choreo|coreograf|baile|danza|dance|dancing|folklor|tradition|festival|ballet|competition|championship|ensemble|troupe|performance)",re.I)
 DANCE_OK=re.compile(r"(danc|choreo|coreograf|footwork|\bmoves\b|performance|beautiful|tradition|culture|heritage|proud|\bfolk\b|costume|steps)",re.I)
 SONG_SIG=re.compile(r"(\bsong\b|\blyric|\baudio\b|on\s*repeat|spotify|apple\s*music|great\s*song|love\s*this\s*song)",re.I)
-TUT_WORD=re.compile(r"(tutorial|lesson|how\s*to|learn|beginner|step[\s-]*by[\s-]*step|basics|class|breakdown|easy)",re.I)
+TUT_WORD=re.compile(r"(tutorial|lesson|how\s*to|learn|beginner|step[\s-]*by[\s-]*step|basics|class|breakdown|easy|paso\s*a\s*paso|aprend|c[oó]mo\s*bailar|pasos\s*b[aá]sicos|passo\s*a\s*passo|como\s*dan[cç]ar|tutoriel|apprendre|cours\s*de|lernen|grundschritt|lezione|imparare|урок|обучение|как\s*танцевать|öğren|dersi|belajar|cara\s*menari|教学|教程|踊り方|レッスン|배우기|강좌|μάθημα|nauka|kroki|सीखें|تعليم|تعلم)",re.I)
+# the same search in the tradition's own language: most teachers of a regional dance do not title their lessons in English
+TUT_LOCAL={"es":["como bailar {n} paso a paso","aprender {n} pasos basicos"],"pt":["como dançar {n} passo a passo","aula de {n} para iniciantes"],"fr":["apprendre {n} danse tutoriel","cours de {n} débutant"],
+           "de":["{n} tanz lernen","{n} grundschritt tutorial"],"it":["imparare {n} ballo tutorial","lezione di {n} passi base"],"ru":["{n} танец обучение","как танцевать {n}"],"tr":["{n} oyunu öğren","{n} dersi"],
+           "id":["belajar tari {n}","tutorial tari {n}"],"ja":["{n} 踊り方","{n} レッスン"],"ko":["{n} 배우기","{n} 강좌"],"zh":["{n} 教学","{n} 教程"],"hi":["{n} dance sikhe","{n} नृत्य सीखें"],
+           "ar":["تعلم رقصة {n}","تعليم {n}"],"el":["{n} χορός μάθημα","{n} βήματα"],"pl":["{n} taniec nauka kroków","{n} kroki podstawowe"]}
+TUT_LANG={}
+for _l,_cs in {"es":"mexico,argentina,spain,colombia,peru,chile,cuba,venezuela,bolivia,ecuador,dominican republic,puerto rico,uruguay,paraguay,guatemala,panama,costa rica,honduras,nicaragua,el salvador",
+               "pt":"brazil,portugal,angola,mozambique,cape verde","fr":"france,haiti,senegal,mali,ivory coast,côte d'ivoire,cameroon,guinea,martinique,guadeloupe,réunion","de":"germany,austria,switzerland","it":"italy",
+               "ru":"russia,belarus,kazakhstan","tr":"turkey,türkiye","id":"indonesia,malaysia","ja":"japan","ko":"south korea,korea","zh":"china,taiwan","hi":"india","ar":"egypt,saudi arabia,morocco,algeria,tunisia,iraq,syria,lebanon,jordan,united arab emirates,yemen,oman,palestine",
+               "el":"greece,cyprus","pl":"poland"}.items():
+    for _c in _cs.split(","): TUT_LANG[_c]=_l
 TUT_POS=["finally clicked","best teacher","so clear","i learned so much","wish i had this earlier","made it simple","thank you so much","understand now","perfect breakdown","amazing instructor","patient teacher","easy to follow","changed my life","this works","helped me a lot","great teacher","well explained","makes sense now"]
 TUT_NEG=["too fast","confusing","wrong","misleading","inappropriate","cultural appropriation","incorrect","misrepresents","hard to follow","can't keep up"]
 TUT_HARD=["cultural appropriation","misrepresents","inappropriate","disrespectful"]
@@ -75,9 +86,12 @@ def _ytdlp_search(q,n=20):
     except Exception as e:
         sys.stderr.write("ytdlp fail "+q+": "+str(e)+"\n"); return []
 
+API_SEARCHES=[0]; API_SEARCH_MAX=int(os.environ.get("API_SEARCH_MAX","80"))
 def search_ids(q,keys,n=14):
     ids=_ytdlp_search(q,n=max(n,20))
     if ids: return ids[:max(n,20)]
+    if API_SEARCHES[0]>=API_SEARCH_MAX: return []   # the paid-in-quota search (100 units a call) is capped per run: hero QC needs the rest of the day's quota
+    API_SEARCHES[0]+=1
     try:
         sj=api("search",{"part":"snippet","type":"video","videoEmbeddable":"true","maxResults":str(min(n,50)),"q":q},keys)
         return [it["id"]["videoId"] for it in sj.get("items",[]) if it.get("id",{}).get("videoId")]
@@ -148,9 +162,12 @@ def lesson_eval(dance,keys):
     name=dance.get("name") or dance.get("slug")
     names=[norm(name)]+[norm(a) for a in dance.get("aliases",[])]; names=[x for x in names if x and len(x)>=3]
     ids=[]
+    local=TUT_LOCAL.get(TUT_LANG.get(norm((dance.get("country") or "").split(",")[0]).strip()),[])
     for q in [name+" dance tutorial", name+" dance for beginners", "learn "+name+" dance"]:
         ids+=search_ids(q,keys,12)
-    ids=list(dict.fromkeys(ids))[:30]
+    for t in local:   # own-language searches cost no API quota: yt-dlp only
+        ids+=_ytdlp_search(t.replace("{n}",name),20)
+    ids=list(dict.fromkeys(ids))[:45]
     cands=[]
     for it in videos(ids,keys):
         sn=it.get("snippet",{}); st=it.get("statistics",{}); cd=it.get("contentDetails",{})
@@ -162,7 +179,7 @@ def lesson_eval(dance,keys):
         relevant=name_in(nt,names) or name_in(nd,names)
         is_tut=bool(TUT_WORD.search(t)) or bool(TUT_WORD.search(desc[:200]))
         ok=relevant and is_tut and cat!="10" and not SONGHARD.search(t+" "+ch) and not MOVIE.search(t+" "+ch) and emb and 60<=D<=4800 and ncom>0 and healthy
-        if ok: cands.append({"id":it["id"],"title":t,"channel":ch,"likes":likes,"ncom":ncom,"hd":hd})
+        if ok: cands.append({"id":it["id"],"title":t,"channel":ch,"likes":likes,"ncom":ncom,"hd":hd,"strong":name_in(nt,names) and bool(TUT_WORD.search(t)) and views>=1500 and lvr>=0.008 and 120<=D<=3600})
     cands.sort(key=lambda c:-((c["ncom"]*5+c["likes"])*(1.2 if c.get("hd") else 1.0)))
     lessons=[]
     for c in cands[:6]:
@@ -170,12 +187,16 @@ def lesson_eval(dance,keys):
         if sum(low.count(s) for s in TUT_HARD)>=2: continue
         pos=sum(low.count(s) for s in TUT_POS); neg=sum(low.count(s) for s in TUT_NEG)
         ratio=pos/(neg+1.0)
+        lvl="general"
+        for nm,rx in LEVELS:
+            if rx.search(c["title"].lower()): lvl=nm; break
         if pos>=2 and ratio>1.0:
             ev=[c2[:160] for c2 in cs if any(s in c2.lower() for s in TUT_POS)][:3]
-            lvl="general"
-            for nm,rx in LEVELS:
-                if rx.search(c["title"].lower()): lvl=nm; break
             lessons.append({"youtube_id":c["id"],"title":c["title"][:140],"channel":c["channel"],"level":lvl,"pos":pos,"neg":neg,"ratio":round(ratio,2),"evidence":ev,"lesson_status":"in_review"})
+        elif c.get("strong") and neg<=pos+1 and sum(1 for l in lessons if l["lesson_status"]=="candidate")<2:
+            # no praise in the listed (English) phrases, but the title names the dance and a lesson, and viewers engage:
+            # a candidate. The video-study stage watches it and keeps it only when it really teaches this dance.
+            lessons.append({"youtube_id":c["id"],"title":c["title"][:140],"channel":c["channel"],"level":lvl,"pos":pos,"neg":neg,"ratio":0.5,"evidence":[],"lesson_status":"candidate"})
         if len(lessons)>=3: break
     lessons.sort(key=lambda l:-l["ratio"])
     return lessons
@@ -259,13 +280,22 @@ def main():
 
     if MODE in ("all","tutorial"):
         tcache=jload("tutorial_cache.json",{}); tout=jload("tutorial_results.json",{}); done=0; wrote=0; skipped=0
-        elig=[d for d in dances if d.get("publish") and d.get("slug") not in SACRED and not d.get("is_sacred") and d.get("slug") not in tcache and d.get("wikipedia")]
+        TUT_RETRY=int(os.environ.get("TUT_RETRY_DAYS","45")); tday=time.strftime("%Y-%m-%d")
+        def _tut_due(slug):
+            """Never tried, or tried and found nothing at least TUT_RETRY days ago (lessons appear on the web all the time)."""
+            c=tcache.get(slug)
+            if c is None: return True
+            if not isinstance(c,dict) or c.get("n"): return False
+            try: return (time.mktime(time.strptime(tday,"%Y-%m-%d"))-time.mktime(time.strptime(c.get("at") or "2026-01-01","%Y-%m-%d")))/86400.0>=TUT_RETRY
+            except Exception: return True
+        elig=[d for d in dances if d.get("publish") and d.get("slug") not in SACRED and not d.get("is_sacred") and _tut_due(d.get("slug")) and d.get("wikipedia")]
+        elig.sort(key=lambda d: 0 if d.get("slug") not in tcache else 1)   # never-tried dances first
         for d in elig:
             if done>=B_TUT: break
             try: lessons=lesson_eval(d,keys); done+=1
             except RuntimeError as e: print("tut stop: "+str(e)); break
             except Exception as e: lessons=[]; print("tut err "+d["slug"]+" "+str(e)[:60])
-            tcache[d["slug"]]={"n":len(lessons)}
+            tcache[d["slug"]]={"n":len(lessons),"at":tday}
             if lessons: tout[d["slug"]]={"lessons":lessons,"status":"in_review"}; wrote+=1; print("TUT ok "+d["slug"]+" lessons="+str(len(lessons)))
             else: print("TUT -- "+d["slug"]+" none")
             jsave("tutorial_cache.json",tcache); jsave("tutorial_results.json",tout)

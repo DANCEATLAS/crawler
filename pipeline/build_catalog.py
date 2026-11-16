@@ -34,7 +34,7 @@ def _flag(cc):
         return None
     return "".join(chr(0x1F1E6 + ord(c.upper()) - ord("A")) for c in cc)
 
-def attach_media(slug, style, heroes, hero_qc, tutorials):
+def attach_media(slug, style, heroes, hero_qc, tutorials, studied=None):
     """Attach crawler results after research has established the final sacred flags.
 
     Both original and discovered entries use this path. Restriction flags always
@@ -55,7 +55,15 @@ def attach_media(slug, style, heroes, hero_qc, tutorials):
     if style.get("_is_sacred") or style.get("is_sacred"):
         style.pop("tutorials", None)
     elif isinstance(t, dict) and t.get("lessons"):
-        style["tutorials"] = t["lessons"]
+        # a candidate lesson (found by title and engagement only) is shown once the video study confirmed it teaches
+        # this dance; a lesson the study rejected is never shown
+        seen = studied or {}
+        shown = [l for l in t["lessons"] if seen.get(l.get("youtube_id")) != "not_a_lesson"
+                 and (l.get("lesson_status") != "candidate" or seen.get(l.get("youtube_id")) == "ok")]
+        if shown:
+            style["tutorials"] = shown
+        else:
+            style.pop("tutorials", None)
 
 def run(include_review=False):
     rep = Report("build")
@@ -65,6 +73,8 @@ def run(include_review=False):
     heroes = jload("hero_results.json", {}) or {}
     hq = load_state("hero_qc.json", {})
     tutorials = jload("tutorial_results.json", {}) or {}
+    import glob
+    studied = {os.path.basename(f)[:-5]: (jload(f, {}) or {}).get("status") for f in glob.glob(os.path.join("pedagogy", "videos", "*.json"))}
     qindex = load_state("qc_index.json", {})
     styles = {}
     v2 = {}
@@ -150,7 +160,7 @@ def run(include_review=False):
         styles[slug] = st
     # Final pass: new and original entries receive the same media treatment.
     for slug, st in styles.items():
-        attach_media(slug, st, heroes, hq, tutorials)
+        attach_media(slug, st, heroes, hq, tutorials, studied)
     # retired: existing app dances whose research+QC concluded duplicate/reject AND judge says reject (conservative: only explicit duplicates)
     for slug, q in qindex.items():
         qc = jload(os.path.join(QC_DIR, slug + ".json")) or {}

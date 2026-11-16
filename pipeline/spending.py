@@ -1,15 +1,31 @@
 """Fail-closed model permission and process-wide request limits; no network.
 
-These limits are not a billing-account dollar cap. All model calls are currently
-disabled. A later authorization must name exact models and a dated allowance.
+Schema 1 names exact models. Schema 2 (16 Nov 2026) adds a zero-cost lane:
+``free_tier_families`` lets a provider whose key has NO billing attached use
+whole model families (Gemini flash / flash-lite), so a retired model name does
+not silently stop the library for months. Paid providers still need exact
+names and stay off unless listed. These limits are not a billing-account
+dollar cap: the free lane costs nothing only while the key stays unbilled.
 """
 import datetime as dt
 import json
 from pathlib import Path
 
+FAMILIES = ("flash-lite", "flash")          # never "pro": not part of the free lane
+SKIP = ("image", "tts", "live", "audio", "embedding", "thinking", "exp", "dialog", "computer-use", "robotics",
+        "deep-research", "veo", "imagen", "learnlm", "gemma", "aqa", "nano", "vision", "8b", "omni", "lyria", "pro")
+
 
 class SpendingBlocked(RuntimeError):
     pass
+
+
+def family_of(model):
+    """'flash-lite' | 'flash' | None for a Gemini model name; None for anything outside the free lane."""
+    low = str(model or "").lower()
+    if not low.startswith("gemini-") or "latest" in low or any(k in low for k in SKIP):
+        return None
+    return "flash-lite" if "flash-lite" in low else ("flash" if "flash" in low else None)
 
 
 class ModelAllowance:
@@ -19,25 +35,45 @@ class ModelAllowance:
         self.reserved_output_tokens = 0
         self.stopped = set()
 
-    def permitted(self, provider):
+    def _base_ok(self):
         p = self.policy
         try:
-            valid = (p.get("schema") == 1 and p.get("llm_enabled") is True
-                     and dt.date.today() <= dt.date.fromisoformat(p["expires_on"])
-                     and bool(p.get("authorization_reference"))
-                     and isinstance(p["models"][provider], list)
-                     and all(isinstance(m, str) and m and "latest" not in m
-                             for m in p["models"][provider]))
-            return bool(valid and p["models"][provider] and provider not in self.stopped)
+            return bool(p.get("schema") in (1, 2) and p.get("llm_enabled") is True
+                        and dt.date.today() <= dt.date.fromisoformat(p["expires_on"])
+                        and p.get("authorization_reference"))
         except (KeyError, TypeError, ValueError):
             return False
 
+    def _exact(self, provider):
+        try:
+            names = self.policy["models"][provider]
+        except (KeyError, TypeError):
+            return []
+        if not isinstance(names, list) or not all(isinstance(m, str) and m and "latest" not in m for m in names):
+            return []
+        return names[:]
+
+    def families(self, provider):
+        """Free-lane families for this provider (schema 2 only); [] when the lane is closed."""
+        if not self._base_ok() or self.policy.get("schema") != 2 or provider in self.stopped:
+            return []
+        fams = (self.policy.get("free_tier_families") or {}).get(provider) if isinstance(self.policy.get("free_tier_families"), dict) else None
+        if provider != "gemini" or not isinstance(fams, list):
+            return []
+        return [f for f in fams if f in FAMILIES]
+
+    def permitted(self, provider):
+        return bool(self._base_ok() and provider not in self.stopped and (self._exact(provider) or self.families(provider)))
+
     def models(self, provider):
-        return self.policy["models"][provider][:] if self.permitted(provider) else []
+        return self._exact(provider) if self.permitted(provider) else []
+
+    def allows(self, provider, model):
+        return bool(self.permitted(provider) and (model in self._exact(provider) or family_of(model) in self.families(provider)))
 
     def reserve(self, provider, model, tokens):
         """Reserve before EACH HTTP attempt, including retries and malformed replies."""
-        if model not in self.models(provider):
+        if not self.allows(provider, model):
             raise SpendingBlocked("Model API calls are not authorized by the spending policy")
         try:
             p = self.policy

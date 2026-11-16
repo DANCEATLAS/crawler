@@ -91,7 +91,7 @@ def tune():
                 alerts.append("OpenAI balance is spent (insufficient_quota): research continues on Gemini alone; a top-up is the owner's call")
                 break
     out = {"updated_at": now_iso(), "scale": new, "good_streak": streak, "failure_rate": round(rate, 3), "calls_considered": calls, "reason": reason,
-           "applies_to": ["RESEARCH_NEW", "RESEARCH_ENRICH", "HERO_QC_BUDGET", "PEDAGOGY_BUDGET", "EPISODE_POLISH", "TRANSLATE_BUDGET"], "alerts": sorted(set(alerts))}
+           "applies_to": ["RESEARCH_NEW", "RESEARCH_ENRICH", "HERO_QC_BUDGET", "PEDAGOGY_BUDGET", "PERFORMANCE_BUDGET", "EPISODE_POLISH", "TRANSLATE_BUDGET"], "alerts": sorted(set(alerts))}
     save_state("tuning.json", out)
     return out
 

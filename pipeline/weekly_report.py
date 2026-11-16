@@ -166,6 +166,7 @@ def measure(root):
     all_epi = epi_idx.get("packs") or {}
     activation = _j(P("public", "catalog", "active_profiles.json"), {}) or {}
     ped = _j(P("pedagogy", "teaching_patterns.json"), {}) or {}
+    line = (_j(P("public", "catalog", "active_ready.json"), {}) or {}).get("counts") or {}
     live = {s for s in styles if s not in retired}
     # QC history can retain removed/merged entries. Report the catalogue actually offered.
     epi = {s: v for s, v in all_epi.items() if s in live and (qidx.get(s) or {}).get("publish_gate") == "publish"}
@@ -190,6 +191,8 @@ def measure(root):
          "vision": _j(P("pipeline_state", "vision_status.json"), {}) or {},
          "spending_policy": _j(P("pipeline_state", "spending_policy.json"), {}) or {},
          "activation": activation if activation.get("contract") == "da_active_profile_v1" else {},
+         "active_ready": int(line.get("active_ready") or 0), "active_near": int(line.get("one_short") or 0) + int(line.get("two_short") or 0),
+         "performances_observed": int(line.get("performances_observed") or 0),
          "topics": {lab: 0 for lab, *_ in TOPICS}, "published_slugs": [], "film_slugs": [], "closest": [], "movie_slugs": [], "names": {}}
     for s, v in qidx.items():
         g = v.get("publish_gate")
@@ -368,7 +371,7 @@ def next_steps(now, lessons_path, when):
     from .progress_digest import owner_action, priorities
     lessons = _j(lessons_path, {}) or {}
     action = owner_action(now, when)
-    lines = [f"# Next work — {when:%Y-%m-%d}", "", "Read PRODUCT_VISION.md, AI_BRIEF.md, IMPLEMENTATION_LEDGER.md and NEXT_RUN_PLAN.md first. Continue independently within existing limits.", "",
+    lines = [f"# Next work — {when:%Y-%m-%d}", "", "Read LEDGER.md first: it is short and current. Open the long documents only for the section a task needs. Continue independently within existing limits.", "",
              "## Current priorities", ""] + ["- " + x for x in priorities(now, when)]
     lines += ["", "## Specific research gaps", ""]
     for gap in (lessons.get('help_most') or [])[:5]:

@@ -28,19 +28,43 @@ jobs:
                   except: return 0
               except urllib.error.HTTPError as e:
                   print('ERR', table, slug, e.code, e.read()[:120]); return -1
+          def current(table, cols):
+              """What the database already holds. Every PATCH, even one that changes nothing, is copied whole into the
+              audit log (541 MB by 11 Nov 2026), so rows that already match are skipped."""
+              rows={}; off=0
+              while True:
+                  req=urllib.request.Request(BASE+'/'+table+'?select='+cols+'&order=slug.asc&limit=1000&offset='+str(off), headers=H)
+                  try:
+                      with urllib.request.urlopen(req) as r: page=json.loads(r.read().decode())
+                  except Exception as ex:
+                      print('current rows unreadable, writing everything:', str(ex)[:80]); return None
+                  for row in page: rows[row.get('slug')]=row
+                  if len(page)<1000: return rows
+                  off+=1000
+          def unchanged(cur, slug, payload):
+              row=(cur or {}).get(slug)
+              return row is not None and all(row.get(k)==v for k,v in payload.items())
+          import glob
+          # a candidate lesson is published once the video study confirmed it teaches this dance; a rejected one never is
+          studied={os.path.basename(f)[:-5]: json.load(open(f)).get('status') for f in glob.glob('pedagogy/videos/*.json')}
           try:
               tut=json.load(open('tutorial_results.json'))
           except FileNotFoundError:
               print('no tutorial_results.json'); tut={}
           items = tut.items() if isinstance(tut, dict) else [((r.get('slug') if isinstance(r,dict) else None), r) for r in tut]
-          ok=nomatch=err=skip=0
+          ok=nomatch=err=skip=same=0
+          cur=current('dances','slug,tutorials')
           for slug, rec in items:
               if not slug: skip+=1; continue
               lessons = rec.get('lessons') if isinstance(rec, dict) else rec
+              lessons = [l for l in (lessons or []) if isinstance(l, dict) and studied.get(l.get('youtube_id'))!='not_a_lesson'
+                         and (l.get('lesson_status')!='candidate' or studied.get(l.get('youtube_id'))=='ok')]
               if not lessons: skip+=1; continue
+              if unchanged(cur, slug, {'tutorials': lessons}): same+=1; continue
+              if cur is not None and slug not in cur: nomatch+=1; continue
               n = patch('dances', slug, {'tutorials': lessons})
               if n>0: ok+=1
               elif n==0: nomatch+=1
               else: err+=1
-          print('TUTORIALS ok',ok,'nomatch',nomatch,'err',err,'skip',skip)
+          print('TUTORIALS changed',ok,'same (no write)',same,'nomatch',nomatch,'err',err,'skip',skip)
           PY
