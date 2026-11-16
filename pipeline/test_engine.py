@@ -173,6 +173,13 @@ class StartingLineTests(unittest.TestCase):
         out = readiness.evaluate(self.style, full_record(), self.qc, [self.lesson], [])
         self.assertEqual((out["state"], out["missing"]), ("active_ready", []))
 
+    def test_a_stand_in_for_nothing_is_not_a_count(self):
+        rec = full_record()
+        rec["profile"]["movement_profile"]["footwork"] = "Small quick steps close to the floor."
+        rec["profile"]["teaching"] = {}
+        empty = {"extraction": {"steps_taught": [{"name": "walk", "counts": "null"}, {"name": "turn", "counts": "N/A"}], "lesson_structure": [{}, {}, {}], "common_mistakes": ["rushing"]}}
+        self.assertIn("footwork_counts", readiness.evaluate(self.style, rec, self.qc, [empty])["missing"])
+
     def test_no_video_study_no_checked_video_or_unpublished_is_not_ready(self):
         self.assertEqual(readiness.evaluate(self.style, full_record(), self.qc)["missing"], ["study_video"])
         self.assertEqual(readiness.evaluate({}, full_record(), self.qc, [self.lesson])["missing"], ["hero_video"])

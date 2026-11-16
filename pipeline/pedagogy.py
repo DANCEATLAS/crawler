@@ -91,7 +91,8 @@ def _norm_cue(s):
     return re.sub(r"[^a-z0-9' -]", "", (s or "").lower()).strip()
 
 def _norm_count(s):
-    s = (s or "").lower().replace("–", "-").replace("—", "-")
+    s = "" if str(s or "").strip().lower() in ("null", "none", "n/a", "unknown", "not given") else str(s)   # a model's stand-in for 'nothing' is nothing
+    s = s.lower().replace("–", "-").replace("—", "-")
     s = re.sub(r"\s+", " ", s).strip(" .")
     return s[:60]
 
@@ -234,7 +235,7 @@ def analyse(slug, yid, lesson, dance_name, llm):
                            "repetitions_per_step": d.get("repetitions_per_step") if isinstance(d.get("repetitions_per_step"), int) else None}
     ex["common_mistakes"] = [str(c)[:160] for c in (jd.get("common_mistakes") or []) if isinstance(c, str) and c.strip()][:10]
     ex["safety"] = [str(c)[:160] for c in (jd.get("safety") or []) if isinstance(c, str) and c.strip()][:6]
-    ex["steps_taught"] = [{"name": str(x.get("name") or "")[:80], "counts": str(x.get("counts") or "")[:60], "description": str(x.get("description") or "")[:200]}
+    ex["steps_taught"] = [{"name": str(x.get("name") or "")[:80], "counts": _norm_count(x.get("counts"))[:60], "description": str(x.get("description") or "")[:200]}
                           for x in (jd.get("steps_taught") or []) if isinstance(x, dict) and x.get("name")][:12]
     ab = jd.get("absorbability") if isinstance(jd.get("absorbability"), dict) else {}
     ex["absorbability"] = {"what_works": [str(c)[:160] for c in (ab.get("what_works") or []) if isinstance(c, str)][:6],

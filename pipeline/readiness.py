@@ -53,6 +53,11 @@ def _load(path, default):
         return default
 
 
+def _given(v):
+    """A count the teacher actually gave: not empty and not a model's stand-in for 'nothing' (seen live: the string "null")."""
+    return bool(v) and str(v).strip().lower() not in ("null", "none", "n/a", "na", "unknown", "-", "not given", "not specified")
+
+
 def _by_slug(folder):
     out = {}
     for f in glob.glob(os.path.join(folder, "*.json")):
@@ -84,14 +89,14 @@ def evaluate(style, rec, qc, lessons=(), shows=()):
     put("status", p.get("tradition_status") in ("living", "revived", "historical"))
     steps = [str(s) for s in (teach.get("basic_steps") or []) if len(str(s).strip()) >= 12 and not _said_not(str(s))]
     put("footwork_counts", (_said(mv.get("footwork")) and has_count_sequence(mv.get("footwork"))) or has_count_sequence(" ".join(steps)),
-        lesson=any(len([s for s in (x.get("steps_taught") or []) if s.get("counts")]) >= 2 for x in L))
+        lesson=any(len([s for s in (x.get("steps_taught") or []) if _given(s.get("counts"))]) >= 2 for x in L))
     put("posture", _said(mv.get("posture")), performance=any(_said(s.get("posture")) for s in S))
     put("arms", _said(mv.get("arms_and_hands")), performance=any(_said(s.get("arms_and_hands")) for s in S))
     put("formation", _said(mv.get("formation_and_space")) or _said(teach.get("formation")), performance=any(_said(s.get("formation_and_space")) for s in S))
     put("signature_moves", len(mv.get("signature_moves") or []) >= 2,
         lesson=any(len(x.get("steps_taught") or []) >= 2 for x in L), performance=any(len(s.get("signature_moments") or []) >= 2 for s in S))
     put("rhythm", (not _said_not(mp.get("tempo_bpm"))) or (not _said_not(mp.get("meter"))),
-        lesson=any(x.get("counting_scheme") for x in L), performance=any((s.get("music_heard") or {}).get("meter_feel") for s in S))
+        lesson=any(_given(x.get("counting_scheme")) for x in L), performance=any(_given((s.get("music_heard") or {}).get("meter_feel")) for s in S))
     heard = any((s.get("music_heard") or {}).get("instruments") for s in S)
     put("sound", bool(mp.get("instruments")) and (_said(mp.get("sound_description")) or _said(mp.get("rhythm_pattern"))),
         performance=(bool(mp.get("instruments")) or heard) and (_said(mp.get("sound_description")) or _said(mp.get("rhythm_pattern")) or heard))
