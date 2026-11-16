@@ -1,4 +1,19 @@
-# Spending and durable research — 14 November 2026
+# Spending and durable research
+
+## 16 November 2026 — the free lane
+
+The 14 November pause below went live on 16 November and switched the writing engine off. Two things followed that nobody intended: the library stopped growing (it had been adding about 128 published profiles a week), and the research stage would have replaced six to ten existing profiles a day with empty stubs, because a failed writer overwrote the page it was deepening. Both are fixed.
+
+- **Free tier only.** Verified in Google AI Studio on 16 November: project Default Gemini Project, billing tier Free, no billing attached. Those calls cannot be charged. `pipeline_state/spending_policy.json` (schema 2) opens only the Gemini flash and flash-lite families; OpenAI has no model listed and its key is not passed to any workflow. The OpenAI balance was not inspected.
+- **Sized to the free limits** seen that day: flash 20 requests a day per model (kept for the writer), flash-lite 500 a day per model (judges, video). One model's day quota retires that model for the run, not the provider.
+- **Names are not pinned** inside the free lane: the model list is read at run time and filtered to the allowed families, so a retired model name cannot stop the library for months. Paid providers still need exact names.
+- **The policy ends on 31 December 2027.** The weekly e-mail warns 45 days before. If billing is ever attached to that Google project, switch `llm_enabled` off first.
+- **Nothing is lost:** a failed or switched-off writer keeps the existing profile; an engine-off run changes nothing and says ENGINE OFF in `STATUS.md` and the weekly e-mail.
+- **Database:** the video, tutorial and Viral push jobs now write only rows that changed (they rewrote about 1,600 unchanged rows a day into the audit log). The existing log of about 541 MB still needs the owner's decision.
+
+The sections below are the 14 November record; where they say generation is paused, this section governs.
+
+## 14 November 2026
 
 The full mission remains V01–V18: every living dance and meaningful variant, Atlas and Viral, an AI BDF leading into consenting human dance friendships, adaptive voice/movement teaching, shared rhythm/camera/split-screen and optional AR, multilingual accessible life-stage teaching, cultural care, creation, music/rights and independent continuity. Better technology can accelerate delivery; it cannot replace permissions, qualified review or demonstrated learning.
 

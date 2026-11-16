@@ -1,30 +1,21 @@
 # Instructions for any AI working on Dance Atlas
 
-**Owner spending and communication update — 14 November 2026:** Preserve all V01–V18. Read COST_AND_CONTINUITY.md and pipeline_state/spending_policy.json. Automatic model API generation is paused; credentials and prepaid balances are not spending authority. The separate research task now runs weekly, retaining the two-profile/six-source cap and the full evolving-requirements mission. Keep ordinary findings for the simple weekly email. Clearly mark a verified owner-only request **ACTION NEEDED** and necessary awareness **PLEASE NOTE**; ordinary researcher questions are not owner tasks. No purchases, automatic model upgrades, builds or raised caps.
+**Read `LEDGER.md` first. It is short and current (16 November 2026). Then `STATUS.md` and `ACTIVE_READY.md`.** Open `PRODUCT_VISION.md`, `AI_BRIEF.md` and `IMPLEMENTATION_LEDGER.md` only for the section a task needs: the owner pays for every page an AI reads.
 
-## Owner update — 11 November 2026: Active Profiles and human BDFs
+## Current direction — owner, 16 November 2026
 
-The destination is **Active Profile** readiness for an exceptional interactive platform, not movie production. Prepare many thousands of profiles, ultimately every living dance with meaningful variants, while retaining the full Atlas and Viral vision below. The first AI BDF guides learners into multiple consenting human BDF relationships matched to their musical and social desires: shared experiences, learning, synchronized movement and belonging. Support split-screen, live on-camera/shared-screen participation and optional future AR.
+The mission is the starting line: many thousands of **active-ready** profiles, reached by the machine alone over the coming months, at no cost. Keep the automatic updates strong, the filtering strict and the monitoring honest. The 14 November spending pause is lifted: the writing engine runs on Google Gemini's free tier only (`pipeline_state/spending_policy.json`); OpenAI stays off; no purchases, subscriptions, billing, paid models or Lovable builds without the owner's explicit yes.
 
-Read **ACTIVE_PROFILE_STANDARD.md** for the executable gap/review process and **MUSIC_STRATEGY.md** for masterpiece references, cleared choices and use-specific rights. Study both movement and distinctive teaching methods from videos; compare evidence and learner outcomes, not popularity. Keep dated technology research and benchmark requirements in **TECHNOLOGY_READINESS.md** and **pipeline_state/technology_watch.json**. Prepare content without betting on a vendor or arrival date. Preserve all free/prepaid caps; spend only where it resolves a concrete readiness gap.
+## Standing rules
 
-Maintain the current vision and actual progress on GitHub, Lovable Project instructions and Supabase's AI context mirror, so any authorized AI can continue. These records describe requirements separately from implementation. Legacy movie/episode fields are compatibility and presentation assets; they are never proof of interactive readiness.
+- The destination is BDF (Best Dance Friend): the lifelong personal dance mentor across Atlas, Viral, creation, human dance friendships and future AR. All of V01–V18 in `PRODUCT_VISION.md` stay in force. Never drop Viral or apply tradition-only exclusions to its valid challenges. Atlas and Viral identities stay separate.
+- Active-ready is measured by `pipeline/readiness.py` and is not activation. Human review, music rights and platform tests come after it (`ACTIVE_PROFILE_STANDARD.md`, `MUSIC_STRATEGY.md`). Scripts, model scores and translations never prove readiness.
+- Preserve evidence, cultural restrictions and uncertainty. Never invent mechanics, origins, counts, rights or popularity. Never loosen a quality gate to publish more. A failed writer never replaces a written profile.
+- Work independently within authorization. Involve the owner only when access, a secret, money or an irreducible decision needs him: one simple action, large plain words. Never request secrets in chat. In reports, mark a verified owner-only request **ACTION NEEDED** and necessary awareness **PLEASE NOTE**.
+- Content changes belong in this repository. Lovable credits are for one prepared, scoped UI batch the owner approves; saving the instructions mirror there must not trigger a build. No two-way Lovable–GitHub sync, no launch, no promotion.
+- For code changes run Python 3.11 compilation and `python -m pipeline.run selftest`. Tests are offline; they do not prove deployment. Never expose credentials.
+- Publish through supported authenticated tools or the normal signed-in browser UI, on a branch, then merge. Do not execute scripts that send network calls from inside browser pages.
+- After substantive work: update the numbers and the open list in `LEDGER.md`, add a dated entry to `IMPLEMENTATION_LEDGER.md`, keep `pipeline_state/vision_status.json` true for the weekly e-mail, and refresh the Lovable instructions mirror (`LOVABLE_KNOWLEDGE.md`). Do not add new ledger files. Private learner or BDF memory never belongs in this public repository.
+- Do not force-send an e-mail to test a layout. The existing Dance Atlas Supabase project is `maojpsywvbksrwkrxmjx`; Sunfeld is a separate project and out of scope.
 
-Read `PRODUCT_VISION.md`, `AI_BRIEF.md` and `IMPLEMENTATION_LEDGER.md` before changes. Current vision: **DA-VISION-2026-11-11-ACTIVE**. Historical handoffs provide context; current owner direction governs conflicts.
-
-- BDF (Best Dance Friend) is the lifelong personal mentor across Atlas, Viral, creation and future global/spatial participation. Never omit Viral or apply tradition-only exclusions to its valid challenges.
-- Preserve evidence, cultural restrictions and uncertainty. Structural completeness is not expert/release approval. Never invent mechanics, origins, rights or popularity.
-- Work independently within authorization. Involve the owner only when necessary: one simple action at a time in prominent plain language. Never request secrets in chat.
-- Preserve free/prepaid limits, workflow caps and contracts. No purchases, new billing/subscriptions, launch/promotion or two-way Lovable GitHub sync without explicit approval.
-- Content changes belong here. Maintain Lovable's instructions mirror without triggering a build merely to save prose. Its credits are for a prepared, scoped UI batch.
-- Run Python 3.11 compilation and `python -m pipeline.run selftest` for code changes. Prefer bounded offline fixtures. Never expose credentials or equate local tests with deployment.
-- Publish through supported authenticated tools or normal browser UI. Do not execute legacy upload scripts that inject network calls into browser pages.
-- Update the ledger and relevant mirrors with scope, validation, publication state, costs and limits. Private learner/BDF memory never belongs in this public repository.
-
-- Weekly reporting: keep `pipeline_state/vision_status.json` current after verified changes, covering V01–V18. Record evidence/date in the ledger; resolve owner actions promptly. Email is the simple overview, `reports/weekly/details.md` the optional depth. Do not force-send another email merely to test a layout.
-
-## Resume checkpoint — 11 November 2026
-
-Owner correction: research must continually discover what else profiles need, including requirements missing from today's checklist. Read CONTINUOUS_RESEARCH.md and the generated research agenda. Preserve dated evidence, next experiments and pending-integration status; never mistake an offline queue or scheduled task for completed research.
-
-Read `NEXT_RUN_PLAN.md`, `ACTIVE_PROFILE_STANDARD.md` and `MUSIC_STRATEGY.md` before the next substantive pass. The existing Dance Atlas Supabase project is accessible; do not repeat account creation or sign-in requests. Keep Sunfeld outside this work. Preserve all V01–V18 requirements and update measured state rather than treating the vision as implemented.
+Continuous research into what profiles still need is a standing requirement (`CONTINUOUS_RESEARCH.md`). A queue or a scheduled task is not completed research; record dated evidence.
