@@ -352,8 +352,11 @@ def run(budget=6, only=None):
         targets = pick_targets(budget, only=only)
     rep.note(f"lessons to study: {len(targets)} (budget {budget})")
     cat = (jload(os.path.join("public", "catalog", "dances.app.json"), {}) or {}).get("styles") or {}
+    deadline = time.time() + 60 * int(os.environ.get("PEDAGOGY_MAX_MINUTES", "60"))   # lessons and performances share it
     for slug, yid, lesson in targets:
         name = (cat.get(slug) or {}).get("name") or slug.replace("-", " ")
+        if time.time() > deadline:
+            rep.inc("time_budget_reached"); break
         try:
             if llm.dry:
                 rep.inc("dry_run"); continue
@@ -369,6 +372,8 @@ def run(budget=6, only=None):
     rep.note(f"performances to observe: {len(shows)}")
     os.makedirs(PERF_DIR, exist_ok=True)
     for slug, yid in shows:
+        if time.time() > deadline:
+            rep.inc("time_budget_reached"); break
         try:
             rec = observe(slug, yid, (cat.get(slug) or {}).get("name") or slug.replace("-", " "), llm)
             jsave(os.path.join(PERF_DIR, yid + ".json"), rec)

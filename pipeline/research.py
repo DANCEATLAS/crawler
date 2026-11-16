@@ -94,9 +94,10 @@ for _row in ("es:MX,AR,ES,CO,PE,CL,CU,VE,BO,EC,DO,PR,UY,PY,GT,PA,CR,HN,NI,SV pt:
 
 def lang_order(d, countries=()):
     """Other-language articles to read: the tradition's own languages first (a Hungarian dance is described best in
-    Hungarian, a Georgian one in Georgian), then the large Wikipedias."""
+    Hungarian, a Georgian one in Georgian), then the large Wikipedias, then every other language we know of — when the
+    country is unknown (seen live: a Catalan stick dance read in Spanish and French only) the smaller Wikipedias still get a turn."""
     codes = [d.get("country_code")] + [country_lookup(c)[0] for c in [d.get("country")] + list(countries) if isinstance(c, str) and c]
-    return list(dict.fromkeys([l for c in codes if c for l in NATIVE.get(c, [])] + list(WIKI_LANGS)))
+    return list(dict.fromkeys([l for c in codes if c for l in NATIVE.get(c, [])] + list(WIKI_LANGS) + [l for ls in NATIVE.values() for l in ls]))
 
 def gather_evidence(d):
     """d: catalogue entry or candidate. Returns evidence dict with fetched texts."""
@@ -705,8 +706,14 @@ def run(budget_new=20, budget_enrich=20, only=None):
         targets += [("new", c) for c in picked]
         targets += [("enrich", d) for d in pick_enrichment_targets(catalog, budget_enrich)]
     rep.note(f"targets: {len(targets)} (llm enabled={llm.enabled})")
+    import time
+    deadline = time.time() + 60 * int(os.environ.get("RESEARCH_MAX_MINUTES", "180"))
     for kind, d in targets:
         slug = d.get("slug")
+        if time.time() > deadline:   # slow models must not eat the run: the judge, the build and the report still have to happen today
+            rep.note(f"time budget reached: {rep.counters.get('researched_researched', 0)} written, the rest wait for the next run")
+            rep.inc("time_budget_reached")
+            break
         try:
             KEPT.pop(slug, None)
             rec = research_one(d, llm, sb)

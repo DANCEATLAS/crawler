@@ -11,6 +11,7 @@ Reach the **starting line**: many thousands of **active-ready** profiles, built 
 - 1,140 dances in the atlas, 345 published deep profiles (+128 in the last week), **1 active-ready**, 16 within two items, 75 within five. What holds pages back most: steps with counts, a studied video, a checked hero video.
 - The other AI's 14 November spending pause went live on 16 November and switched the writing engine off. It was lifted the same day on the owner's direction: the engine runs on **Google Gemini's free tier only**. Checked in Google AI Studio: billing tier Free, no billing attached, so it cannot charge. OpenAI is off and its key is not passed to any workflow.
 - Free limits seen that day: flash models 20 requests a day each (kept for the writer), flash-lite 500 a day each (judges and video). Budgets are sized to that.
+- Proven live the same day (run 33, a three-page test): engine on, three profiles written, every claim quote-checked, nothing unanswered, results committed. The first full nightly run with the new budgets had not happened when this was written.
 
 ## What runs by itself (GitHub Actions, no Claude, no Lovable, $0)
 
@@ -42,7 +43,7 @@ Platforms: GitHub `DANCEATLAS/crawler` (source of truth) · Lovable project `f79
 
 ## Open, in order
 
-1. **Watch the first runs after 16 November.** `STATUS.md` must say "Writing engine: on" and a non-zero number written. If it says OFF, read the research note in `pipeline_state/runs.json`.
+1. **Watch the first full runs after 16 November.** `STATUS.md` must say "Writing engine: on" and a non-zero number written. If it says OFF, read the research note in `pipeline_state/runs.json`. Google's models answered "high demand" several times in the test: a model now rests five minutes instead of leaving the run, and research stops taking new pages after 180 minutes so the judge, the build and the report always run.
 2. **Lessons are the lever.** Active-ready needs steps with counts, and those come from lessons. If the count stalls, improve lesson finding (`crawler.py`, `lesson_eval`) before anything else.
 3. **Sacred flags.** About half of the withheld pages are judgment calls by the writer. A second opinion from the QC judge, quoting the source sentence that restricts teaching, is the next refinement.
 4. **Database size.** The Supabase audit log held about 541 MB on 11 November (free limit 500 MB). The cause, daily rewrites of unchanged rows, is fixed. The old log still needs the owner's yes to clear, from the Supabase account that owns the project.
