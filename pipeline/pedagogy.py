@@ -95,6 +95,21 @@ def _norm_count(s):
     s = re.sub(r"\s+", " ", s).strip(" .")
     return s[:60]
 
+def wait_days(v):
+    """A failed read is usually the model or the day's video quota, not the video: two quick retries, then monthly."""
+    return 2 if (v.get("status") == "failed" and int(v.get("attempts") or 1) < 3) else RETRY_DAYS
+
+def keep_or_save(path, rec):
+    """Never lose a studied video: when a new attempt fails, the earlier good record stays and only the attempt is noted."""
+    prev = jload(path, {}) or {}
+    rec["attempts"] = int(prev.get("attempts") or (1 if prev else 0)) + 1
+    if rec.get("status") != "ok" and prev.get("status") == "ok":
+        prev["attempted_at"], prev["attempts"] = rec["analysed_at"], rec["attempts"]
+        jsave(path, prev)
+        return "kept"
+    jsave(path, rec)
+    return rec["status"]
+
 # ------------------------------------------------------------------ candidate selection
 def pick_targets(budget, only=None):
     tut = jload("tutorial_results.json", {}) or {}
@@ -105,9 +120,9 @@ def pick_targets(budget, only=None):
     def retry_ok(v):
         if (v.get("status") == "ok" and v.get("evidence_version") == 2) or v.get("status") == "not_a_lesson":
             return False
-        t = v.get("analysed_at") or ""
+        t = v.get("attempted_at") or v.get("analysed_at") or ""
         try:
-            return today - time.mktime(time.strptime(t[:10], "%Y-%m-%d")) >= RETRY_DAYS * 86400
+            return today - time.mktime(time.strptime(t[:10], "%Y-%m-%d")) >= wait_days(v) * 86400
         except Exception:
             return True
     line = (load_state("active_ready.json", {}) or {}).get("profiles") or {}
@@ -159,7 +174,7 @@ def pick_performances(budget, only=None):
         prev = done.get(yid)
         if prev:
             try:
-                if now - time.mktime(time.strptime((prev.get("analysed_at") or "")[:10], "%Y-%m-%d")) < RETRY_DAYS * 86400:
+                if now - time.mktime(time.strptime((prev.get("analysed_at") or "")[:10], "%Y-%m-%d")) < wait_days(prev) * 86400:
                     continue
             except Exception:
                 pass
@@ -341,7 +356,7 @@ def render_playbook(pt):
     return "\n".join(L)
 
 # ------------------------------------------------------------------ run
-def run(budget=6, only=None):
+def run(budget=6, only=None, performances=None):
     rep = Report("pedagogy")
     os.makedirs(VIDEOS_DIR, exist_ok=True)
     llm = LLM()
@@ -353,31 +368,33 @@ def run(budget=6, only=None):
     rep.note(f"lessons to study: {len(targets)} (budget {budget})")
     cat = (jload(os.path.join("public", "catalog", "dances.app.json"), {}) or {}).get("styles") or {}
     deadline = time.time() + 60 * int(os.environ.get("PEDAGOGY_MAX_MINUTES", "60"))   # lessons and performances share it
+    misses = 0   # three unreadable videos in a row mean the model or the day's video quota is gone: stop, do not burn attempts
     for slug, yid, lesson in targets:
         name = (cat.get(slug) or {}).get("name") or slug.replace("-", " ")
-        if time.time() > deadline:
-            rep.inc("time_budget_reached"); break
+        if time.time() > deadline or misses >= 3:
+            rep.inc("stopped_early"); break
         try:
             if llm.dry:
                 rep.inc("dry_run"); continue
             rec = analyse(slug, yid, lesson, name, llm)
-            jsave(os.path.join(VIDEOS_DIR, yid + ".json"), rec)
-            rep.inc("video_" + rec["status"])
+            rep.inc("video_" + keep_or_save(os.path.join(VIDEOS_DIR, yid + ".json"), rec))
+            misses = misses + 1 if rec["status"] == "failed" else 0
             log(f"PEDAGOGY {slug} {yid}: {rec['status']}" + (f" counting={rec['extraction'].get('counting_scheme')} steps={len(rec['extraction'].get('steps_taught') or [])}" if rec.get("status") == "ok" else ""))
         except Exception as e:
             rep.error(f"pedagogy {slug} {yid}: {e}")
     # the second mission: observe the hero performance of dances that have no studied lesson (PERFORMANCE_BUDGET a day)
     from .health import scaled
-    shows = pick_performances(scaled("PERFORMANCE_BUDGET", 0) if (llm.gemini_key and not llm.dry) else 0, only=only)
+    want = scaled("PERFORMANCE_BUDGET", 0) if performances is None else performances
+    shows = pick_performances(want if (llm.gemini_key and not llm.dry and misses < 3) else 0, only=only)
     rep.note(f"performances to observe: {len(shows)}")
     os.makedirs(PERF_DIR, exist_ok=True)
     for slug, yid in shows:
-        if time.time() > deadline:
-            rep.inc("time_budget_reached"); break
+        if time.time() > deadline or misses >= 3:
+            rep.inc("stopped_early"); break
         try:
             rec = observe(slug, yid, (cat.get(slug) or {}).get("name") or slug.replace("-", " "), llm)
-            jsave(os.path.join(PERF_DIR, yid + ".json"), rec)
-            rep.inc("performance_" + rec["status"])
+            rep.inc("performance_" + keep_or_save(os.path.join(PERF_DIR, yid + ".json"), rec))
+            misses = misses + 1 if rec["status"] == "failed" else 0
             log(f"PERFORMANCE {slug} {yid}: {rec['status']}")
         except Exception as e:
             rep.error(f"performance {slug} {yid}: {e}")

@@ -63,7 +63,7 @@ def main(argv=None):
             elif st == "hero_qc":
                 from . import hero_qc; results[st] = hero_qc.run(budget=budget("HERO_QC_BUDGET", a.budget), use_vision=not a.no_vision, only=only)
             elif st == "pedagogy":
-                from . import pedagogy; results[st] = pedagogy.run(budget=budget("PEDAGOGY_BUDGET", _env_int("PEDAGOGY_BUDGET", 6)) if daily else min(a.budget, 12), only=only)
+                from . import pedagogy; results[st] = pedagogy.run(budget=budget("PEDAGOGY_BUDGET", _env_int("PEDAGOGY_BUDGET", 6)) if daily else min(a.budget, 12), only=only, performances=None if daily else min(a.budget, 12))
             elif st == "episodes":
                 from . import episodes; results[st] = episodes.run(polish_budget=budget("EPISODE_POLISH", _env_int("EPISODE_POLISH", 0)), only=only)
             elif st == "translate":

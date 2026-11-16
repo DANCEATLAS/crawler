@@ -133,6 +133,15 @@ class NothingIsLostTests(Project):
         self.assertEqual(research.lang_order({})[:2], ["es", "fr"])
         self.assertIn("ca", research.lang_order({}))   # unknown country: the smaller Wikipedias still get a turn
 
+    def test_a_failed_video_read_never_replaces_a_studied_one_and_is_retried_soon(self):
+        from . import pedagogy
+        good = {"status": "ok", "slug": "a", "analysed_at": "2026-10-01T00:00:00Z", "extraction": {"counting_scheme": "1-2-3"}}
+        jsave("v.json", good)
+        self.assertEqual(pedagogy.keep_or_save("v.json", {"status": "failed", "analysed_at": "2026-11-16T00:00:00Z"}), "kept")
+        self.assertEqual(jload("v.json")["extraction"], good["extraction"])
+        self.assertEqual(pedagogy.keep_or_save("w.json", {"status": "failed", "analysed_at": "2026-11-16T00:00:00Z"}), "failed")
+        self.assertEqual((pedagogy.wait_days(jload("w.json")), pedagogy.wait_days({"status": "failed", "attempts": 3}), pedagogy.wait_days({"status": "ok"})), (2, 30, 30))
+
     def test_unconfirmed_and_rejected_lessons_stay_off_the_site(self):
         lessons = {"a": {"lessons": [{"youtube_id": "praised", "lesson_status": "in_review"}, {"youtube_id": "cand", "lesson_status": "candidate"},
                                      {"youtube_id": "seen", "lesson_status": "candidate"}, {"youtube_id": "bad", "lesson_status": "in_review"}]}}
