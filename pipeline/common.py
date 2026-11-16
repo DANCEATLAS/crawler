@@ -84,7 +84,8 @@ def save_state(name, obj):
 class HttpError(Exception):
     def __init__(self, code, body, url):
         short = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", body or "")).strip()[:160]
-        super().__init__(f"HTTP {code} {url} :: {short}")
+        safe_url = urllib.parse.urlsplit(url)._replace(query="", fragment="").geturl()
+        super().__init__(f"HTTP {code} {safe_url} :: {short}")
         self.code, self.body, self.url = code, body, url
 
 def http(url, method="GET", data=None, headers=None, timeout=60, retries=3, json_body=None, ok=(200, 201, 202, 204, 206)):
@@ -251,18 +252,15 @@ class Supabase:
 
 # ----------------------------------------------------------------- LLM clients
 class LLM:
-    """Gemini and/or OpenAI chat with JSON-only outputs.
-
-    Model names are NOT hard-wired: at first use the available models are listed from each provider and the
-    best stable flash/pro (Gemini) or mini/full (OpenAI) model is chosen, so deprecations do not stop the
-    pipeline. GEMINI_MODELS / OPENAI_MODELS / OPENAI_STRONG_MODELS still take precedence when set and available.
-    Models that answer 'not found' are dropped for the rest of the run."""
+    """JSON model calls require the repository spending policy; no automatic upgrades."""
     GEMINI_SKIP = ("image", "tts", "live", "audio", "embedding", "thinking", "exp", "dialog", "computer-use", "robotics",
                    "deep-research", "veo", "imagen", "learnlm", "gemma", "aqa", "nano", "vision", "8b")
 
     def __init__(self):
-        self.openai_key = os.environ.get("OPENAI_API_KEY", "").strip()
-        self.gemini_key = os.environ.get("GEMINI_API_KEY", "").strip()
+        from .spending import allowance
+        self.allowance = allowance()
+        self.openai_key = os.environ.get("OPENAI_API_KEY", "").strip() if self.allowance.permitted("openai") else ""
+        self.gemini_key = os.environ.get("GEMINI_API_KEY", "").strip() if self.allowance.permitted("gemini") else ""
         self.cfg_openai = [m.strip() for m in os.environ.get("OPENAI_MODELS", "").split(",") if m.strip()]
         self.cfg_openai_strong = [m.strip() for m in os.environ.get("OPENAI_STRONG_MODELS", "").split(",") if m.strip()]
         self.cfg_gemini = [m.strip() for m in os.environ.get("GEMINI_MODELS", "").split(",") if m.strip()]
@@ -293,87 +291,19 @@ class LLM:
         m = re.search(r"-(\d+)(?:\.(\d+))?-", name + "-")
         return (int(m.group(1)), int(m.group(2) or 0)) if m else (0, 0)
 
-    def gemini_available(self):
-        if self._gemini_avail is None:
-            names = []
-            try:
-                u = "https://generativelanguage.googleapis.com/v1beta/models?pageSize=1000&key=" + urllib.parse.quote(self.gemini_key)
-                j = get_json(u, timeout=60, retries=2)
-                for m in j.get("models") or []:
-                    if "generateContent" in (m.get("supportedGenerationMethods") or []):
-                        names.append((m.get("name") or "").replace("models/", ""))
-            except Exception as e:
-                warn("gemini model list failed:", str(e)[:120])
-            self._gemini_avail = names
-            if names:
-                log(f"gemini models available: {len(names)}; chosen fast={self.gemini_models(False)[:3]} strong={self.gemini_models(True)[:3]}")
-        return self._gemini_avail
-
     def gemini_models(self, strong=False):
-        avail = self.gemini_available() or []
-        cfg = (self.cfg_gemini_strong or self.cfg_gemini) if strong else self.cfg_gemini
-        out = [m for m in cfg if (not avail or m in avail)]
-        if avail:
-            alias = "gemini-pro-latest" if strong else "gemini-flash-latest"
-            cands = []
-            for n in avail:
-                low = n.lower()
-                if not low.startswith("gemini-") or any(k in low for k in self.GEMINI_SKIP):
-                    continue
-                tier = "lite" if "flash-lite" in low else ("flash" if "flash" in low else ("pro" if "pro" in low else None))
-                if not tier:
-                    continue
-                preview = ("preview" in low) or re.search(r"-\d{2}-\d{2}$", low) is not None  # dated snapshots
-                cands.append((n, tier, preview, self._ver(low)))
-            order = {"pro": 0, "flash": 1, "lite": 2} if strong else {"flash": 0, "lite": 1, "pro": 2}
-            cands.sort(key=lambda c: (order[c[1]], -c[3][0], -c[3][1], c[2], len(c[0])))  # tier, newest version, stable before preview
-            # at most two models per tier, so a strong call still reaches a flash model when every pro quota is gone
-            # (the free tier gives pro previews almost nothing per day) and a fast call keeps a lite model as its last resort
-            per_tier = {}
-            ranked = []
-            for c in cands:
-                per_tier[c[1]] = per_tier.get(c[1], 0) + 1
-                if per_tier[c[1]] <= 2:
-                    ranked.append(c[0])
-            if alias in avail:  # the rolling alias goes second: newest concrete model first, alias as the safety net
-                ranked.insert(1, alias)
-            out += ranked
-        else:  # listing failed: last-known names, best effort
-            out += ["gemini-flash-latest", "gemini-pro-latest", "gemini-2.5-flash"]
-        seen, uniq = set(), []
-        for m in out:
-            if m not in seen and m not in self.dead:
-                seen.add(m); uniq.append(m)
-        return uniq[:6]
-
-    def openai_available(self):
-        if self._openai_avail is None:
-            ids = []
-            try:
-                j = get_json("https://api.openai.com/v1/models", headers={"Authorization": "Bearer " + self.openai_key}, timeout=60, retries=2)
-                ids = [m.get("id") for m in (j.get("data") or []) if m.get("id")]
-            except Exception as e:
-                warn("openai model list failed:", str(e)[:120])
-            self._openai_avail = ids
-            if ids:
-                log(f"openai models available: {len(ids)}; chosen fast={self.openai_models(False)[:3]} strong={self.openai_models(True)[:3]}")
-        return self._openai_avail
+        return [m for m in self.allowance.models("gemini") if m not in self.dead]
 
     def openai_models(self, strong=False):
-        avail = self.openai_available() or []
-        cfg = (self.cfg_openai_strong or self.cfg_openai) if strong else self.cfg_openai
-        out = [m for m in cfg if (not avail or m in avail)]
-        pat = r"^gpt-(\d+)(?:\.(\d+))?$" if strong else r"^gpt-(\d+)(?:\.(\d+))?-mini$"
-        cands = [(m, self._ver("-" + m[4:] + "-")) for m in avail if re.match(pat, m)]
-        cands.sort(key=lambda c: (-c[1][0], -c[1][1]))
-        out += [c[0] for c in cands]
-        if not avail:
-            out += ["gpt-4.1", "gpt-4o"] if strong else ["gpt-4.1-mini", "gpt-4o-mini"]
-        seen, uniq = set(), []
-        for m in out:
-            if m not in seen and m not in self.dead:
-                seen.add(m); uniq.append(m)
-        return uniq[:3]
+        return [m for m in self.allowance.models("openai") if m not in self.dead]
+
+    def _model_http(self, provider, model, token_key, settings, url, **kwargs):
+        from .spending import SpendingBlocked
+        if self.dry:
+            raise SpendingBlocked("Dry run blocks model requests")
+        settings[token_key] = self.allowance.reserve(provider, model, settings[token_key])
+        self.calls += 1
+        return http(url, retries=0, **kwargs)
 
     # ---- providers
     def _openai(self, model, system, user, temperature=0.2, max_tokens=4000, image_b64=None, timeout=240):
@@ -384,13 +314,13 @@ class LLM:
                 "response_format": {"type": "json_object"},
                 "messages": [{"role": "system", "content": system}, {"role": "user", "content": content}]}
         try:
-            st, txt, _ = http("https://api.openai.com/v1/chat/completions", method="POST", json_body=body,
-                              headers={"Authorization": "Bearer " + self.openai_key}, timeout=timeout, retries=0)
+            st, txt, _ = self._model_http("openai", model, "max_tokens", body, "https://api.openai.com/v1/chat/completions", method="POST", json_body=body,
+                              headers={"Authorization": "Bearer " + self.openai_key}, timeout=timeout)
         except HttpError as e:
             if e.code == 400 and ("max_tokens" in e.body or "temperature" in e.body):
                 body.pop("max_tokens", None); body.pop("temperature", None); body["max_completion_tokens"] = max_tokens
-                st, txt, _ = http("https://api.openai.com/v1/chat/completions", method="POST", json_body=body,
-                                  headers={"Authorization": "Bearer " + self.openai_key}, timeout=timeout, retries=0)
+                st, txt, _ = self._model_http("openai", model, "max_completion_tokens", body, "https://api.openai.com/v1/chat/completions", method="POST", json_body=body,
+                                  headers={"Authorization": "Bearer " + self.openai_key}, timeout=timeout)
             else:
                 raise
         j = json.loads(txt)
@@ -403,7 +333,7 @@ class LLM:
         if video_url:
             # a public YouTube URL is read by Gemini itself (nothing is downloaded here); the first video_seconds only, low resolution
             parts.append({"file_data": {"file_uri": video_url}, "video_metadata": {"start_offset": "0s", "end_offset": f"{int(video_seconds)}s"}})
-        gen = {"temperature": temperature, "maxOutputTokens": min(65536, max(8192, max_tokens * 3)), "responseMimeType": "application/json"}
+        gen = {"temperature": temperature, "maxOutputTokens": max_tokens, "responseMimeType": "application/json"}
         if video_url:
             gen["mediaResolution"] = "MEDIA_RESOLUTION_LOW"
         # Bound the "thinking" phase: unbounded thinking is what made 12-item judge calls exceed the socket timeout.
@@ -413,13 +343,13 @@ class LLM:
         body = {"system_instruction": {"parts": [{"text": system}]}, "contents": [{"role": "user", "parts": parts}], "generationConfig": gen}
         u = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={urllib.parse.quote(self.gemini_key)}"
         try:
-            st, txt, _ = http(u, method="POST", json_body=body, timeout=timeout, retries=0)
+            st, txt, _ = self._model_http("gemini", model, "maxOutputTokens", gen, u, method="POST", json_body=body, timeout=timeout)
         except HttpError as e:
             if e.code == 400 and "thinkingConfig" in gen:  # e.g. flash-lite answers a bare "invalid argument" for thinkingBudget
                 warn(f"llm gemini/{model}: 400 with thinkingConfig, retrying without it")
                 self.no_thinking_cfg.add(model)
                 gen.pop("thinkingConfig", None)
-                st, txt, _ = http(u, method="POST", json_body=body, timeout=timeout, retries=0)
+                st, txt, _ = self._model_http("gemini", model, "maxOutputTokens", gen, u, method="POST", json_body=body, timeout=timeout)
             else:
                 raise
         j = json.loads(txt)
@@ -487,8 +417,9 @@ class LLM:
     def json(self, system, user, strong=False, temperature=0.2, max_tokens=4000, image_b64=None, prefer=None, video_url=None, video_seconds=480):
         """Return parsed JSON from the first provider/model that works. None if all fail.
         video_url: a public YouTube URL to be watched (Gemini only; OpenAI models are skipped for that call)."""
-        if self.dry:
+        if not self.enabled:
             return None
+        from .spending import SpendingBlocked
         self.requests += 1
         order = []
         if self.gemini_key:
@@ -500,16 +431,18 @@ class LLM:
         system = system + "\nRespond with a single JSON object only."
         timeout = self.timeout_strong if strong else self.timeout_fast
         for prov, model in order:
-            if model in self.dead:
+            if model in self.dead or not self.allowance.permitted(prov):
                 continue
             for attempt in (0, 1):
                 try:
-                    self.calls += 1
                     t0 = time.time()
                     txt = self._openai(model, system, user, temperature, max_tokens, image_b64, timeout) if prov == "openai" else self._gemini(model, system, user, temperature, max_tokens, image_b64, timeout, strong, video_url, video_seconds)
                     out = self.parse_json(txt)
                     self.strikes[model] = 0
                     return out
+                except SpendingBlocked:
+                    self.unanswered += 1
+                    return None
                 except HttpError as e:
                     low = (e.body or "").lower()
                     short = re.sub(r"\s+", " ", e.body or "")[:200]
@@ -519,11 +452,11 @@ class LLM:
                         m = re.search(r'"retrydelay":\s*"(\d+)', low)
                         delay = int(m.group(1)) if m else 0
                         if "perday" in low or "per_day" in low or "insufficient_quota" in low or "billing" in low and not delay:
-                            self.dead.add(model); self.failures += 1
+                            self.dead.add(model); self.allowance.stopped.add(prov); self.failures += 1
                             warn(f"llm {prov}/{model}: quota exhausted, retired for this run: {short[:120]}")
                             break
                         if attempt == 0:
-                            wait = min(max(delay, 20), 70)
+                            wait = min(max(delay, 20), 60)
                             warn(f"llm {prov}/{model}: rate limited, waiting {wait}s and retrying once")
                             time.sleep(wait)
                             continue
@@ -536,7 +469,7 @@ class LLM:
                     break
                 except Exception as e:
                     self._strike(model)
-                    warn(f"llm {prov}/{model} failed after {time.time() - t0:.0f}s: {str(e)[:200]}")
+                    warn(f"llm {prov}/{model} failed after {time.time() - t0:.0f}s: {type(e).__name__}")
                     break
         self.unanswered += 1
         return None

@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "reviewed_at": "2026-11-11",
+  "reviewed_at": "2026-11-14",
   "review_due_days": 30,
   "evidence": "IMPLEMENTATION_LEDGER.md",
   "owner_action": {
     "status": "resolved",
-    "verified_at": "2026-11-11",
+    "verified_at": "2026-11-14",
     "valid_days": 7,
-    "reason": "The owning Supabase organization and existing Dance Atlas project are accessible. No sign-in or new project is needed."
+    "reason": "No owner-only decision is needed to reduce automatic spending and clarify reports. Existing services were not purchased or upgraded."
   },
   "areas": [
     {
@@ -131,9 +131,9 @@
         "V16"
       ],
       "title": "Low costs & better technology",
-      "status": "Monitored",
-      "text": "Capped jobs and reusable assets support long-term growth. Actual spending and new technology need dated evidence.",
-      "next": "Investigate audit-log growth and no-op writes; preserve history before proposing retention or paid capacity."
+      "status": "Spending paused",
+      "text": "Model API generation is paused by policy and workflow credentials removed. Bounded external research now runs weekly; existing hosting and subscription charges are unverified.",
+      "next": "Verify the next scheduled run, fix unchanged database writes and measure usage before authorizing any model allowance."
     },
     {
       "id": "continuity",
@@ -143,7 +143,7 @@
       ],
       "title": "Continuity across platforms",
       "status": "Recorded",
-      "text": "GitHub holds the full vision; Lovable mirrors it. Future AIs must preserve BDF, Viral and one-step owner requests.",
+      "text": "The full vision and bounded research contract remain in GitHub. Prior research findings are preserved; mirrored publication must be verified separately.",
       "next": "Keep this register and the platform ledger current after verified changes."
     }
   ],

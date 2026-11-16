@@ -1,5 +1,7 @@
 # Dance Atlas — next run, reconciled 11 November 2026
 
+**Owner spending and communication update — 14 November 2026:** Preserve all V01–V18. Read COST_AND_CONTINUITY.md and pipeline_state/spending_policy.json. Automatic model API generation is paused; credentials and prepaid balances are not spending authority. The separate research task now runs weekly, retaining the two-profile/six-source cap and the full evolving-requirements mission. Keep ordinary findings for the simple weekly email. Clearly mark a verified owner-only request **ACTION NEEDED** and necessary awareness **PLEASE NOTE**; ordinary researcher questions are not owner tasks. No purchases, automatic model upgrades, builds or raised caps.
+
 Start with `PRODUCT_VISION.md`, `AI_BRIEF.md` and `IMPLEMENTATION_LEDGER.md`. The owner asked to recover all earlier requests, find the existing backend and carry the complete vision into the next run. This checkpoint replaces the obsolete sign-in blocker; it does not replace the full V01–V18 requirements.
 
 ## Correct project map
@@ -22,6 +24,8 @@ The `viral_chart` view repeats the same catalogue across `all`, `year` and `mont
 `audit_log` occupies 567,517,184 bytes (about 541 MiB); `pg_database_size` was 586,517,651 bytes. Dashboard organization usage showed 601 / 500 MB, a different usage measure. The audit trigger runs after every insert, update and delete of `dances`; its function writes full old/new rows without a no-change condition. Existing video/tutorial push jobs PATCH saved results repeatedly. This is evidence of a growth risk; measure actual no-op proportions before claiming a fix or savings.
 
 ## Ordered work — Active Profile mission
+
+**Continuous research requirement:** begin with CONTINUOUS_RESEARCH.md, CONTINUOUS_RESEARCH_REPORT.md and pipeline_state/readiness_research_agenda.json. Conduct the oldest-due investigation into overlooked requirements, connect findings to exact profiles/modes and evidence/tests, then update the register and mirrors. The separate weekly research task is scheduled; verify its actual runs and any pending integration. A queue or watchlist alone is not ongoing research.
 
 1. **Continue Active Profile preparation.** Run the offline activation stage; read ACTIVE_PROFILE_REPORT.md and the per-profile research/video/rights/review/platform queues. Research missing mechanics and teaching units within existing enrichment caps. Preserve practitioner variants and sacred holds. Build the missing bounded Viral research adapter separately; never treat a challenge as an Atlas tradition just to reuse the research path.
 2. **Operate the video and learning laboratory.** Compare independent teachers, record timestamped movement and distinctive methods, identify uncertainty and test a small representative set with qualified reviewers before expanding production. Review native language, accessibility and learner outcomes separately. No model certifies its own evidence.

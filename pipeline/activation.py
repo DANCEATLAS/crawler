@@ -9,6 +9,7 @@ import json
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
+from . import readiness_research as RR
 
 SCHEMA = "da_active_profile_v1"
 REVIEW_ROLES = ("practitioner", "teaching", "learner_outcomes", "language", "rights", "social_accessibility")
@@ -68,10 +69,12 @@ def music_cleared(track, today):
             and all((track.get("uses") or {}).get(k) is True for k in MUSIC_USES))
 
 
-def build_profile(kind, slug, entry, research, videos, supplement, approvals, today):
+def build_profile(kind, slug, entry, research, videos, supplement, approvals, today, discovered_questions=None):
     profile = research.get("profile") or {}
     material = {"entry": entry, "research": research, "videos": videos, "supplement": supplement}
-    fingerprint = digest({"schema": SCHEMA, "material": material})
+    open_questions = RR.questions(profile.get("activation_questions"), allowed_sources=set(research.get("sources") or []))
+    open_questions += discovered_questions or []
+    fingerprint = digest({"schema": SCHEMA, "material": material, "open_questions": open_questions})
     gaps = {"research": [], "video": [], "rights": [], "review": [], "platform": [
         "Validated voice/movement feedback and accessible controls",
         "Human BDF consent/matching, moderation and measured session synchronization",
@@ -107,6 +110,8 @@ def build_profile(kind, slug, entry, research, videos, supplement, approvals, to
     scope = supplement.get("scope") or {}
     if not all(real(scope.get(k)) for k in ("languages", "audiences", "session_modes", "territories")):
         gaps["review"].append("Declare languages, audiences, session modes and territories covered by review")
+    for question in open_questions:
+        gaps[question["domain"]].append("Investigate: " + question["question"] + " Evidence needed: " + question["next_evidence"])
     restricted = bool(profile.get("is_sacred") or entry.get("is_sacred") or research.get("sacred_cue_flag")
                       or supplement.get("teaching_withheld"))
     # Research and contextual appreciation continue; a flag cannot override the
@@ -121,7 +126,7 @@ def build_profile(kind, slug, entry, research, videos, supplement, approvals, to
         state = "ready_for_activation"
     return {"contract": SCHEMA, "id": kind + ":" + slug, "kind": kind, "slug": slug,
             "name": entry.get("name") or profile.get("name") or slug, "fingerprint": fingerprint,
-            "state": state, "runtime_active": False, "gaps": gaps, "sources": sources,
+            "state": state, "runtime_active": False, "gaps": gaps, "sources": sources, "open_questions": open_questions,
             "research_file": ("research_results/" + slug + ".json" if kind == "atlas" else "pipeline_state/activation_inputs.json") if research else None,
             "video_evidence": [{"url": v.get("url"), "file": "pedagogy/videos/" + v.get("youtube_id", "") + ".json",
                                 "status": "candidate_unreviewed"} for v in teaching],
@@ -141,6 +146,9 @@ def run(root=".", today=None):
     retired = {x.get("slug") for x in read(root / "public/catalog/retired.json").get("retired", [])}
     supplements = read(root / "pipeline_state/activation_inputs.json").get("profiles") or {}
     approvals = read(root / "pipeline_state/activation_approvals.json").get("profiles") or {}
+    registry = RR.read(root / "pipeline_state/readiness_findings.json", {})
+    findings = RR.open_findings(registry, today)
+    question_counts = Counter()
     by_slug = defaultdict(list)
     for path in sorted((root / "pedagogy/videos").glob("*.json")):
         rec = read(path)
@@ -159,7 +167,9 @@ def run(root=".", today=None):
             supplement = supplements.get(pid, {})
             research = read(root / "research_results" / (slug + ".json")) if kind == "atlas" else supplement.get("research", {})
             videos = by_slug.get(slug, []) if kind == "atlas" else supplement.get("videos", [])
-            dossier = build_profile(kind, slug, entry, research, videos, supplement, approvals.get(pid, []), today)
+            dossier = build_profile(kind, slug, entry, research, videos, supplement, approvals.get(pid, []), today,
+                                    RR.for_profile(findings, pid))
+            question_counts.update(q["domain"] for q in dossier["open_questions"])
             path = "active_profiles/" + kind + "/" + slug + ".json"
             written += write_changed(root / path, dossier)
             summaries[pid] = {k: dossier[k] for k in ("name", "state", "fingerprint", "runtime_active")}
@@ -170,6 +180,7 @@ def run(root=".", today=None):
              "runtime_active": 0, "profiles": summaries}
     write_changed(root / "public/catalog/active_profiles.json", index)
     write_changed(root / "pipeline_state/activation_gaps.json", {"evaluated_on": today.isoformat(), "profiles": queue})
+    RR.write_agenda(root, summaries, today, registry, question_counts)
     lines = ["# Active Profile readiness", "", "Evaluated " + today.isoformat() + ". No model calls; existing budgets unchanged.", "",
              f"{len(summaries):,} dossiers; {counts.get('ready_for_activation', 0):,} ready for activation; 0 running interactive experiences.", "",
              "## Missing work across the catalogue", "", "| Work stream | Profiles with gaps |", "|---|---:|"]

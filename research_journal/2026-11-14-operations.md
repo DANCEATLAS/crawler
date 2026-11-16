@@ -1,0 +1,13 @@
+# 14 November 2026 — operational continuity review
+
+This was the owner's requested spending/communication review, not the next external six-page research pass. All V01–V18 remain. Main baseline was 13fe8c6 (daily 13 November). Prior successful learning/accessibility and music investigations from 12–13 November were read and preserved; registry contains eleven findings. No external area-review dates were advanced. AI interaction/controllable memory remains next.
+
+Exact project evidence locations: pipeline/common.py LLM.gemini_models/openai_models/json and compatibility retries; .github/workflows/atlas_daily.yml model environment and commit step; .github/workflows/watchdog.yml last-success lookup; pipeline/run.py exception loop; .github/workflows/weekly_report.yml report-date guard; NEXT_RUN_PLAN.md database audit/schema observations dated 11 November. Canonical source prefix: https://github.com/DANCEATLAS/crawler/blob/13fe8c6/ . Project evidence checked 14 November; no new external source or profile inspection was required.
+
+Observed: model preferences did not constrain fallback; attempt budgets were per-stage and compatibility retries not counted; watchdog could restart an unsuccessful daily run repeatedly; report-file date was treated as email delivery. Inference: these can waste allowance or hide failed work. Amount spent is unknown; no loss or invoice total was established.
+
+Implemented candidate remedy in the prepared code: pause model spending by default, remove scheduled credentials, require explicit dated model lists, count all model HTTP attempts in a shared process allowance, stop a provider after quota exhaustion, recover missed schedules only after prior success, fail on stage/push exceptions. Offline validation passed; live execution remains to verify after publication. Email-delivery receipts, no-op database writes, Viral schema repair and restore tests remain explicit questions, not completed fixes.
+
+Scope: platform across Atlas and Viral. These are operational controls, not new dance-mechanics claims and not a reason to auto-approve profiles. Cheapest adequate next test: zero-network policy/failure fixtures, exact remote-source comparison and the existing activation-only stage with all generation budgets zero. Cost: no model API calls or purchases; GitHub/provider allowances and ChatGPT plan usage may apply. Next review: 21 November 2026, or earlier on the next scheduled job's observed failure.
+
+See IMPLEMENTATION_LEDGER.md for verified publication and mirror state. Routine owner questions are suppressed; a necessary action or awareness is prominent and plain-language.

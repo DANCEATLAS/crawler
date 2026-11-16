@@ -1,9 +1,6 @@
 name: watchdog
-# The machine watches itself. GitHub sometimes drops or delays a scheduled run for hours; this job runs every six hours
-# and, if the daily run has not succeeded in the last 30 hours (and none is running or queued), starts it. From Monday
-# 06:00 UTC to Wednesday it also checks that this week's report went out (WEEKLY_REPORT.md dated on or after Sunday) and
-# runs it if not — the report's own guard stops a second e-mail if the late scheduled run arrives afterwards. No model calls,
-# no secrets beyond the workflow token, nothing to maintain. Everything it does is visible in the Actions list.
+# Recover a missed schedule, never replay a failed job every six hours.
+# A report file is not proof that an email was delivered.
 on:
   schedule:
     - cron: "41 */6 * * *"
@@ -23,16 +20,18 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           set -e
-          LAST=$(gh run list --repo "$REPO" --workflow atlas_daily.yml --status success --limit 1 --json updatedAt --jq '.[0].updatedAt // empty')
+          LAST=$(gh run list --repo "$REPO" --workflow atlas_daily.yml --limit 1 --json createdAt --jq '.[0].createdAt // empty')
           ACTIVE=$(gh run list --repo "$REPO" --workflow atlas_daily.yml --limit 5 --json status --jq '[.[] | select(.status != "completed")] | length')
+          CONCLUSION=$(gh run list --repo "$REPO" --workflow atlas_daily.yml --limit 1 --json conclusion --jq '.[0].conclusion // empty')
+          STATE=$(gh api "repos/$REPO/actions/workflows/atlas_daily.yml" --jq '.state')
           NOW=$(date -u +%s)
           if [ -n "$LAST" ]; then AGE=$(( (NOW - $(date -u -d "$LAST" +%s)) / 3600 )); else AGE=999; fi
-          echo "last successful daily run: ${LAST:-none} (${AGE} h ago); active runs: ${ACTIVE}"
-          if [ "$AGE" -ge 30 ] && [ "$ACTIVE" = "0" ]; then
-            echo "no successful daily run in ${AGE} h and nothing running: starting atlas_daily"
+          echo "last daily attempt: ${LAST:-none} (${AGE} h ago); active runs: ${ACTIVE}"
+          if [ "$STATE" = "active" ] && [ "$CONCLUSION" = "success" ] && [ "$AGE" -ge 30 ] && [ "$ACTIVE" = "0" ]; then
+            echo "last attempt ${AGE} h ago succeeded; recovering one missed schedule"
             gh workflow run atlas_daily.yml --repo "$REPO" -f stage=daily
           else
-            echo "daily run is fine"
+            echo "no recovery: recent, active, disabled, or failed/unproven previous run; inspect Actions if needed"
           fi
       - name: Weekly report — run it when Sunday night's schedule was dropped
         env:
@@ -51,5 +50,5 @@ jobs:
             ACTIVE=$(gh run list --repo "$REPO" --workflow weekly_report.yml --limit 3 --json status --jq '[.[] | select(.status != "completed")] | length')
             if [ "$ACTIVE" = "0" ]; then echo "this week's report is missing: running weekly_report"; gh workflow run weekly_report.yml --repo "$REPO"; else echo "a report run is already queued or running"; fi
           else
-            echo "this week's report went out"
+            echo "this week's report exists; delivery requires separate verification"
           fi

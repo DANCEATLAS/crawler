@@ -56,11 +56,11 @@ class ProgressDigestTests(unittest.TestCase):
     def test_missing_stale_or_future_action_does_not_request_login(self):
         for day in ('2026-01-01','2027-01-01','bad',None):
             m={'vision':{'owner_action':{'status':'open','verified_at':day,'title':'Sign in'}}}
-            self.assertEqual(d.owner_action(m,WHEN)['title'],'No current request for you')
+            self.assertEqual(d.owner_action(m,WHEN)['title'],'NO ACTION NEEDED')
 
     def test_resolved_action_removes_signin(self):
         m={'vision':{'owner_action':{'status':'resolved','verified_at':'2026-11-10'}}}
-        self.assertEqual(d.owner_action(m,WHEN)['title'],'Nothing needs you this week')
+        self.assertEqual(d.owner_action(m,WHEN)['title'],'NO ACTION NEEDED')
 
     def test_equal_database_totals_do_not_claim_a_sync_gap(self):
         m=self.fixture(); m.update(database_dances=1, database_at='2026-11-10')

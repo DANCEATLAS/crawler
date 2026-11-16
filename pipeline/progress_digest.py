@@ -39,10 +39,10 @@ def owner_action(now, when):
     state = now.get("vision") or {}
     action = state.get("owner_action") or {}
     if action.get("status") == "open" and fresh(action.get("verified_at"), when, action.get("valid_days", 7)):
-        return {"title": action.get("title") or "One action needs you", "reason": action.get("reason") or "See the project ledger.", "url": safe_url(action.get("url"))}
+        return {"title": "ACTION NEEDED — " + (action.get("title") or "One action needs you"), "reason": action.get("reason") or "See the project ledger.", "url": safe_url(action.get("url"))}
     if action.get("status") == "resolved" and fresh(action.get("verified_at"), when, action.get("valid_days", 7)):
-        return {"title": "Nothing needs you this week", "reason": "No owner-only action is currently recorded.", "url": None}
-    return {"title": "No current request for you", "reason": "The access/decision record needs a fresh check before asking you to act.", "url": None}
+        return {"title": "NO ACTION NEEDED", "reason": "No owner-only action is currently recorded.", "url": None}
+    return {"title": "NO ACTION NEEDED", "reason": "There is no verified owner-only request. Routine checking remains with the research process.", "url": None}
 
 
 def vision_rows(now, when):
@@ -101,9 +101,11 @@ def operating_notes(now, h, when):
         run += " No recent completed report is recorded; check the jobs."
     if h["retries"]:
         run += " Some requests also needed retries or an alternative model; details are linked below."
-    budget = "Budget: this report uses no paid AI calls. Existing free/prepaid limits are unchanged. Actual spending and remaining balance are not measured by this report."
+    policy = now.get("spending_policy") or {}
+    mode = "Pipeline model API calls are paused by policy." if policy.get("llm_enabled") is False else "Model API permission must be checked against the dated spending policy."
+    budget = "Budget: " + mode + " External research runs weekly and uses ChatGPT plan capacity. Actual spending and remaining balance are not measured by this report."
     if h["quota"]:
-        budget += " A quota refusal was recorded; its provider balance needs checking. No top-up is assumed."
+        budget += " A quota refusal was recorded; no automatic top-up is allowed."
     database = "Database: no dated mirror count is available."
     if now.get("database_dances") is not None:
         comparison = "match" if now["database_dances"] == now["dances_live"] else "differ"
