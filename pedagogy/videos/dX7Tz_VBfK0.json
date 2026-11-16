@@ -5,7 +5,218 @@
  "title": "10 Basic Jazz Dance Moves",
  "channel": "BodyKinect by Kendall",
  "viewer_ratio": 4.0,
- "analysed_at": "2026-11-10T19:17:42Z",
+ "analysed_at": "2026-11-16T06:59:57Z",
  "url": "https://www.youtube.com/watch?v=dX7Tz_VBfK0",
- "status": "failed"
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "The instructor demonstrates 10 basic jazz dance moves one by one while providing verbal breakdowns. She maintains an encouraging and upbeat tone throughout the tutorial.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:00",
+    "segment": "intro",
+    "note": "Teacher introduces the rapid fire listicle of 10 basic jazz dance moves."
+   },
+   {
+    "t": "0:09",
+    "segment": "breakdown",
+    "note": "Demonstrating and explaining Jazz Walks."
+   },
+   {
+    "t": "0:20",
+    "segment": "breakdown",
+    "note": "Demonstrating and explaining Ball Change."
+   },
+   {
+    "t": "0:39",
+    "segment": "breakdown",
+    "note": "Demonstrating and explaining Pivot."
+   },
+   {
+    "t": "0:59",
+    "segment": "breakdown",
+    "note": "Demonstrating and explaining Chainé Turns."
+   },
+   {
+    "t": "1:21",
+    "segment": "breakdown",
+    "note": "Demonstrating and explaining Piqué Turn."
+   },
+   {
+    "t": "1:45",
+    "segment": "breakdown",
+    "note": "Demonstrating and explaining Pirouette."
+   },
+   {
+    "t": "2:22",
+    "segment": "breakdown",
+    "note": "Demonstrating and explaining Battement."
+   },
+   {
+    "t": "2:40",
+    "segment": "breakdown",
+    "note": "Demonstrating and explaining Lindy."
+   },
+   {
+    "t": "3:10",
+    "segment": "breakdown",
+    "note": "Demonstrating and explaining Chassé."
+   },
+   {
+    "t": "3:32",
+    "segment": "breakdown",
+    "note": "Demonstrating and explaining Jazz Leap."
+   },
+   {
+    "t": "4:12",
+    "segment": "recap",
+    "note": "Teacher wraps up the lesson."
+   }
+  ],
+  "counting_scheme": "5-6-7-8",
+  "cues": [
+   "Step together step",
+   "Brush the foot",
+   "Arms open close in a circle"
+  ],
+  "metaphors": [
+   "High V"
+  ],
+  "demonstration": {
+   "angles": [
+    "front",
+    "back"
+   ],
+   "tempo_progression": [
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Jazz Walks",
+    "counts": "null",
+    "description": "Walking across the floor in jazz style."
+   },
+   {
+    "name": "Ball Change",
+    "counts": "null",
+    "description": "Stepping on the ball of the foot and changing weight."
+   },
+   {
+    "name": "Pivot",
+    "counts": "null",
+    "description": "Pivoting around on the feet."
+   },
+   {
+    "name": "Chainé Turns",
+    "counts": "null",
+    "description": "Linked turns rotating in a circle."
+   },
+   {
+    "name": "Piqué Turn",
+    "counts": "null",
+    "description": "Pricked turn stepping directly onto pointe or half-pointe."
+   },
+   {
+    "name": "Pirouette",
+    "counts": "null",
+    "description": "Turn on one leg."
+   },
+   {
+    "name": "Battement",
+    "counts": "null",
+    "description": "High kick with straight legs and pointed toes."
+   },
+   {
+    "name": "Lindy",
+    "counts": "null",
+    "description": "Chassé ball change combination."
+   },
+   {
+    "name": "Chassé",
+    "counts": "null",
+    "description": "Gallop step chasing one foot with the other."
+   },
+   {
+    "name": "Jazz Leap",
+    "counts": "null",
+    "description": "Leaping across the room with arms in a high V."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "On-screen text labels for each movement name",
+    "Clear verbal instructions alongside visual demonstration"
+   ],
+   "what_hinders": [
+    "Pacing is very fast as a rapid-fire list"
+   ]
+  },
+  "quotes": [
+   {
+    "t": "0:01",
+    "text": "Today we're doing a rapid fire listicle, 10 basic jazz dance."
+   },
+   {
+    "t": "1:11",
+    "text": "You're always turning over the same shoulder."
+   },
+   {
+    "t": "4:12",
+    "text": "Great job, my loves. So that's kind of a crash course into jazz dance technique."
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 9,
+    "end_s": 18,
+    "topic": "movement",
+    "observation": "Teacher demonstrates jazz walks moving away from the camera.",
+    "viewpoint": "back, unknown",
+    "cannot_infer": "exact foot placement details due to distance",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 22,
+    "end_s": 38,
+    "topic": "movement",
+    "observation": "Teacher demonstrates ball change facing away from the camera.",
+    "viewpoint": "back, unknown",
+    "cannot_infer": "weight distribution between feet",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 105,
+    "end_s": 120,
+    "topic": "teaching",
+    "observation": "Teacher explains arm positioning during chainé turns while demonstrating.",
+    "viewpoint": "back, unknown",
+    "cannot_infer": "spotting technique",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 222,
+    "end_s": 239,
+    "topic": "movement",
+    "observation": "Teacher demonstrates battement kicks to the side.",
+    "viewpoint": "side, unknown",
+    "cannot_infer": "hip alignment precision",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Presenting 10 fundamental jazz moves in a rapid-fire listicle format with on-screen text titles for each technique."
+ },
+ "attempts": 2
 }

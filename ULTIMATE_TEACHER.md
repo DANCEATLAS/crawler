@@ -1,13 +1,13 @@
 # THE ULTIMATE TEACHER — how the best online dance teachers teach
 
-*Built by the machine from 69 tutorial lessons across 40 dances and 7 dance families (studied: 80 videos; 3 were not lessons; 8 could not be read). Updated 2026-11-15. It grows every day. The chapter scripts in `episodes/` follow it. See `MOVIE_PHASE.md`.*
+*Built by the machine from 71 tutorial lessons across 40 dances and 7 dance families (studied: 80 videos; 3 were not lessons; 6 could not be read). Updated 2026-11-16. It grows every day. The chapter scripts in `episodes/` follow it. See `MOVIE_PHASE.md`.*
 
 ## The lesson skeleton the best teachers share
 
 1. **welcome and what you will learn**
 2. **where the dance comes from**
-3. **the whole step at full speed, once**
-4. **warm-up**
+3. **warm-up**
+4. **the whole step at full speed, once**
 5. **breakdown, one movement at a time**
 6. **slow practice**
 7. **practice with the music, full tempo**
@@ -33,10 +33,10 @@ Most common: **5-6-7-8** — also: 1-2-3-4 (7); 1-2-3-4-5-6-7-8 (3); 1-2-3-4-5 (
 - one two tap accent with left shoulder
 - one and two and three
 - contract the pelvis it will pull you forward
+- step together step
+- brush the foot
+- arms open close in a circle
 - right leg out front
-- jump split your legs
-- the back foot goes up
-- lift the left leg up
 
 ## Images they use
 
@@ -45,9 +45,9 @@ Most common: **5-6-7-8** — also: 1-2-3-4 (7); 1-2-3-4-5-6-7-8 (3); 1-2-3-4-5 (
 - the pinnacle of any classical ballet
 - climbing Everest
 - appetizer
+- High V
 - The feeling is like unhook and immediately hook again
 - imagine you are like a doll and it's a plastic doll
-- It's like riding a horse
 
 ## Mistakes they name most
 
@@ -84,9 +84,9 @@ Most common: **5-6-7-8** — also: 1-2-3-4 (7); 1-2-3-4-5-6-7-8 (3); 1-2-3-4-5 (
 - repetition of steps
 - clear visual examples from professional ballet performances
 - structured timeline breaking down the grand pas de deux sections
+- on-screen text labels for each movement name
+- clear verbal instructions alongside visual demonstration
 - side angle view for clear visibility of footwork
-- counting aloud with the movements
-- gradual addition of style and speed
 
 ## What gets in the way
 
@@ -94,10 +94,10 @@ Most common: **5-6-7-8** — also: 1-2-3-4 (7); 1-2-3-4-5-6-7-8 (3); 1-2-3-4-5 (
 - lack of explicit verbal counting
 - fast-paced transitions between steps
 - lots of historical and theoretical talk before any physical demonstration of sections
+- pacing is very fast as a rapid-fire list
 - no counting scheme
 - long verbal explanations before full speed practice
 - no music during the initial breakdown
-- no mirrors or multiple students to follow along with
 
 ## In their words
 
@@ -105,16 +105,16 @@ Most common: **5-6-7-8** — also: 1-2-3-4 (7); 1-2-3-4-5-6-7-8 (3); 1-2-3-4-5 (
 - "Trust me leaders, you want to learn and use your isolations." — Tarraxinha lesson, 1:07 (youtube qtqs3Oni5yM)
 - "The Grand Pas de Deux is definitely the pinnacle of any classical ballet." — pas de deux lesson, 0:16 (youtube 9u6PDCrW948)
 - "Pas de deux in its most basic translation means step for two." — pas de deux lesson, 0:52 (youtube 9u6PDCrW948)
+- "Today we're doing a rapid fire listicle, 10 basic jazz dance." — Jazz dance lesson, 0:01 (youtube dX7Tz_VBfK0)
+- "You're always turning over the same shoulder." — Jazz dance lesson, 1:11 (youtube dX7Tz_VBfK0)
 - "Doesn't matter which foot you have out, let's say it's the right foot." — the running man lesson, 0:16 (youtube k22Bm2pMyD4)
 - "Now that's at its simplest form." — the running man lesson, 0:51 (youtube k22Bm2pMyD4)
 - "I'm sharing with you one of the safest drops" — Aerial dance lesson, 0:08 (youtube YXneG5jMgrI)
 - "Don't forget to be extra careful if you're trying this drop for the first time" — Aerial dance lesson, 0:20 (youtube YXneG5jMgrI)
-- "in this lesson I'm going to show you a basic pachanga step" — pachanga lesson, 0:21 (youtube qM9C2B-87Mo)
-- "they are not squats" — pachanga lesson, 1:36 (youtube qM9C2B-87Mo)
 
 ## By dance family
 
-**folk-circle** (19 lessons): counting 1-2-3-4; order: welcome and what you will learn → the count, out loud → the whole step at full speed, once → breakdown, one movement at a time → warm-up → slow practice → practice with the music, full tempo → recap and homework; cues: pull back and lean to the left, close in open on and, milk down knees are bent, cross with our left leg, rock step
+**folk-circle** (21 lessons): counting 5-6-7-8; order: welcome and what you will learn → breakdown, one movement at a time → warm-up → the whole step at full speed, once → slow practice → practice with the music, full tempo → recap and homework; cues: step together step, brush the foot, arms open close in a circle, pull back and lean to the left, close in open on and
 **street-urban** (18 lessons): counting 5-6-7-8; order: welcome and what you will learn → the whole step at full speed, once → where the dance comes from → breakdown, one movement at a time → slow practice → adding the next layer (arms, turns, partner) → practice with the music, full tempo → recap and homework; cues: right leg out front, jump split your legs, the back foot goes up, lift the left leg up, jump back on the left leg
 **african-diaspora** (13 lessons): counting 5-6-7-8; order: welcome and what you will learn → where the dance comes from → warm-up → the whole step at full speed, once → breakdown, one movement at a time → slow practice → practice with the music, full tempo → adding the next layer (arms, turns, partner); cues: out in out half circle back close, one two tap accent with left shoulder, one and two and three, contract the pelvis it will pull you forward, and one and three and five and seven
 **ballroom-partner** (6 lessons): counting 1-2-3-4; order: welcome and what you will learn → where the dance comes from → the whole step at full speed, once → breakdown, one movement at a time → common mistakes and corrections; cues: side close side, step and point, turn turn turn, replace, jump jump
@@ -137,9 +137,9 @@ Most common: **5-6-7-8** — also: 1-2-3-4 (7); 1-2-3-4-5-6-7-8 (3); 1-2-3-4-5 (
 - **grand-pas** — 1 lesson; counting 5-6-7-8; steps as taught: demi-plie (5-6-7-8); pas de bourree (1-2-3); releve (various); mistakes: going up and down instead of staying at the same level during transitions
 - **gumboot-dance** — 1 lesson; counting 5-6-7-8; steps as taught: Step 1 (and-out and-out and-in and-in); Step 2 (doubles doubles); Step 3 (and-cross and-cross); Step 4 (1-2-3 left-2-3)
 - **hakken** — 1 lesson; counting —; steps as taught: The Frontstep; mistakes: don't tense your legs
-- **jazz-dance** — 2 lessons; counting 5-6-7-8; steps as taught: Jumping jacks (5-6-7-8); High knees (5-6-7-8); Plie (1-2-3-4); Jumping Jacks (4-3-2-1); mistakes: rounding over instead of keeping a flat back during stretches, pitching forward during a sumo squat, leaning back during a sumo squat
+- **jazz-dance** — 3 lessons; counting 5-6-7-8; steps as taught: Jazz Walks (null); Ball Change (null); Pivot (null); Chainé Turns (null); mistakes: rounding over instead of keeping a flat back during stretches, pitching forward during a sumo squat, leaning back during a sumo squat
 - **jumpstyle** — 2 lessons; counting 1-2-3-4-5; steps as taught: Oldschool Basic (1-2-3-4-5); The Basis (1-2-3-4-5-6-7); The Half Twist (1-2-3-4); The Full Twist (1-2-3-4-5-6-7)
-- **line-dance** — 2 lessons; counting 1-2-3-4; steps as taught: Section 1 steps (1-2-3-4 5-6-7-8); Section 2 weave (5 and 6 and 7 and 8 and); Section 3 steps (5-6-7-8); Section 4 turn (5-6-7-8 and); mistakes: people get messed up on section 2 footwork, people get confused on the turn in section 4
+- **line-dance** — 3 lessons; counting 1-2-3-4; steps as taught: Fan motion / Heels and Toes (1-2-3-4); Alternating Heels and Toes (5-6-7-8); Step Kick Step Touch (1-2-3-4); Grapevine (1-2-3-4); mistakes: people get messed up on section 2 footwork, people get confused on the turn in section 4
 - **maglalatik** — 1 lesson; counting —; steps as taught: Hayon-hayon; Jump; Clockwise; Counter-clockwise
 - **nae-nae** — 1 lesson; counting 5-6-7-8; steps as taught: Step 1 (5-6-7-8); Step 2 (5-6-7-8); Step 3 (5-6-7-8)
 - **pachanga** — 3 lessons; counting 1-3-5-7 with and-counts (and-1, and-3, and-5, and-7); steps as taught: Pachanga Basic Step (and-1, and-3, and-5, and-7); Pachanga basic (1-and-3-and-5-and-7); Pachanga bounce and basic footwork (8-1-2-3-5-6-7); mistakes: doing squats instead of small forward and back movements, making big upper body movements, bringing upper body too much back

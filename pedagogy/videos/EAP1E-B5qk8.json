@@ -5,7 +5,151 @@
  "title": "BEGINNER LINE DANCE - COWBOY HUSTLE - TUTORIAL!",
  "channel": "Line Dance with Coral",
  "viewer_ratio": 8.5,
- "analysed_at": "2026-11-05T19:33:29Z",
+ "analysed_at": "2026-11-16T07:00:09Z",
  "url": "https://www.youtube.com/watch?v=EAP1E-B5qk8",
- "status": "failed"
+ "evidence_version": 2,
+ "observation_window": {
+  "start_s": 0,
+  "end_s": 480,
+  "resolution": "low",
+  "sampling": "provider default; not continuous motion capture",
+  "human_verified": false
+ },
+ "status": "ok",
+ "extraction": {
+  "teacher_style": "Coral breaks down each section of the line dance step-by-step while facing away from the camera so viewers can easily mirror her movements. She speaks in an encouraging and upbeat tone, combining verbal descriptions with counts and foot close-ups.",
+  "language": "English",
+  "level": "beginner",
+  "lesson_structure": [
+   {
+    "t": "0:23",
+    "segment": "intro",
+    "note": "Introduction to Coral and the Cowboy Hustle line dance."
+   },
+   {
+    "t": "0:46",
+    "segment": "breakdown",
+    "note": "Breakdown of the first part: fan motion and heels/toes."
+   },
+   {
+    "t": "1:52",
+    "segment": "breakdown",
+    "note": "Breakdown of the second part: step, kick, step, touch."
+   },
+   {
+    "t": "2:41",
+    "segment": "breakdown",
+    "note": "Breakdown of the third part: grapevine with quarter turn."
+   },
+   {
+    "t": "3:48",
+    "segment": "breakdown",
+    "note": "Breakdown of the final part: step out and back hops."
+   },
+   {
+    "t": "4:08",
+    "segment": "full_demo",
+    "note": "Full practice of the dance with counts from the top."
+   }
+  ],
+  "counting_scheme": "1-2-3-4 / 5-6-7-8",
+  "cues": [
+   "out, in, out, in",
+   "heel, heel, toe, toe",
+   "step, kick, step, and touch",
+   "right behind right touch"
+  ],
+  "metaphors": [],
+  "demonstration": {
+   "angles": [
+    "back",
+    "front"
+   ],
+   "tempo_progression": [
+    "slow",
+    "full"
+   ],
+   "repetitions_per_step": null
+  },
+  "common_mistakes": [],
+  "safety": [],
+  "steps_taught": [
+   {
+    "name": "Fan motion / Heels and Toes",
+    "counts": "1-2-3-4",
+    "description": "Fan right toe out-in-out-in, then two heels forward and two toes back."
+   },
+   {
+    "name": "Alternating Heels and Toes",
+    "counts": "5-6-7-8",
+    "description": "Right heel forward, right toe back, right heel forward, right toe back."
+   },
+   {
+    "name": "Step Kick Step Touch",
+    "counts": "1-2-3-4",
+    "description": "Step forward right, kick left, step left, touch right toe back. Repeated twice."
+   },
+   {
+    "name": "Grapevine",
+    "counts": "1-2-3-4",
+    "description": "Step right out, step left behind, step right out, touch left next to right."
+   }
+  ],
+  "absorbability": {
+   "what_works": [
+    "Turning around to face away from the camera so students can mirror her footwork",
+    "Inserting dedicated close-up shots of footwork during explanations"
+   ],
+   "what_hinders": []
+  },
+  "quotes": [
+   {
+    "t": "0:46",
+    "text": "You're going to start with your weight on your left foot."
+   },
+   {
+    "t": "1:39",
+    "text": "Now let's try this all from the top."
+   },
+   {
+    "t": "2:38",
+    "text": "And that's pretty much the complicated part of the dance."
+   },
+   {
+    "t": "4:38",
+    "text": "And that's the whole dance!"
+   }
+  ],
+  "evidence_segments": [
+   {
+    "start_s": 46,
+    "end_s": 65,
+    "topic": "teaching",
+    "observation": "Teacher stands facing away from the camera with weight on left foot, explaining foot positioning.",
+    "viewpoint": "back, unmirrored",
+    "cannot_infer": "exact weight distribution between feet",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 103,
+    "end_s": 107,
+    "topic": "movement",
+    "observation": "Close-up shot of cowboy boots demonstrating out-in-out-in toe fan.",
+    "viewpoint": "feet close-up, unknown mirror status",
+    "cannot_infer": "upper body posture during foot movement",
+    "verification": "model_candidate"
+   },
+   {
+    "start_s": 211,
+    "end_s": 217,
+    "topic": "movement",
+    "observation": "Close-up shot of boots demonstrating step and kick forward.",
+    "viewpoint": "feet close-up, unknown mirror status",
+    "cannot_infer": "balance and knee alignment",
+    "verification": "model_candidate"
+   }
+  ],
+  "distinctive_method": "Integrating specific close-up insert cuts of the instructor's boots directly into the explanation of footwork."
+ },
+ "attempts": 2
 }
