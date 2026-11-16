@@ -705,8 +705,14 @@ def run(budget_new=20, budget_enrich=20, only=None):
         targets += [("new", c) for c in picked]
         targets += [("enrich", d) for d in pick_enrichment_targets(catalog, budget_enrich)]
     rep.note(f"targets: {len(targets)} (llm enabled={llm.enabled})")
+    import time
+    deadline = time.time() + 60 * int(os.environ.get("RESEARCH_MAX_MINUTES", "180"))
     for kind, d in targets:
         slug = d.get("slug")
+        if time.time() > deadline:   # slow models must not eat the run: the judge, the build and the report still have to happen today
+            rep.note(f"time budget reached: {rep.counters.get('researched_researched', 0)} written, the rest wait for the next run")
+            rep.inc("time_budget_reached")
+            break
         try:
             KEPT.pop(slug, None)
             rec = research_one(d, llm, sb)

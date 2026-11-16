@@ -110,6 +110,14 @@ class NothingIsLostTests(Project):
         self.assertEqual(rec["counters"].get("engine_off"), 1)
         self.assertTrue(any("ENGINE OFF" in n for n in rec["notes"]))
 
+    def test_slow_day_stops_at_the_time_budget_without_touching_the_rest(self):
+        jsave("pipeline_state/candidates.json", {"x": {"slug": "x", "name": "X", "status": "queued", "description": "a folk dance"}})
+        with patch.object(spending, "_ALLOWANCE", spending.ModelAllowance(free_policy())), patch.object(research, "research_one") as one, \
+                patch.object(research, "load_catalog", return_value=[]), patch.dict("os.environ", {"GEMINI_API_KEY": "fixture", "RESEARCH_MAX_MINUTES": "-1"}):
+            rec = research.run(budget_new=1, budget_enrich=0)
+        one.assert_not_called()
+        self.assertEqual(rec["counters"].get("time_budget_reached"), 1)
+
     def test_quotes_in_other_scripts_are_checked_not_waved_through(self):
         ev = {"wikipedia_other": [{"url": "https://ru.wikipedia.org/wiki/X", "text": "Барыня — русская народная пляска и музыка, под которую она исполняется."},
                                   {"url": "https://ja.wikipedia.org/wiki/Y", "text": "阿波踊りは、徳島県を発祥とする盆踊りである。"}]}
