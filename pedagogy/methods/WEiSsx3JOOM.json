@@ -6,10 +6,10 @@
  "teacher": "Baila Facilito",
  "teacher_key": "baila-facilito",
  "teacher_score": 67.6,
- "analysed_at": "2026-11-17T06:08:21Z",
+ "analysed_at": "2026-11-17T06:30:00Z",
  "url": "https://www.youtube.com/watch?v=WEiSsx3JOOM",
  "comments_read": 60,
- "schema": 2,
+ "schema": 3,
  "window": {
   "start_s": 0,
   "end_s": 600,
@@ -17,76 +17,76 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher breaks down basic body isolation movements starting from the shoulders, then hips, and finally knees. Each movement is explained step by step, practiced without music, and then integrated with music at a steady pace.",
-  "signature": "Explaining how body parts move independently to overcome the feeling of being stiff like a 'tronco'.",
+  "teacher_system": "The teacher introduces three foundational body isolations (shoulders, hips, and knees) to help beginners unblock rigid movements. She breaks down each exercise step-by-step, practises them with counts, and finally combines them into a full routine with music.",
+  "signature": "Focusing specifically on overcoming the feeling of being a 'trunk' by isolating upper body, hips, and knees one by one.",
   "screen": {
    "views": [
     "front"
    ],
    "on_screen": [
-    "captions"
+    "counts",
+    "step_names"
    ],
    "editing": []
   },
   "practices": [
    {
     "tag": "chunking",
-    "t": "0:46",
-    "what": "Break down shoulder movement by circling backwards one by one in a relaxed way."
+    "t": "0:45",
+    "what": "The teacher introduces the first movement focusing on the shoulders, making circles backwards one by one."
    },
    {
     "tag": "music_early",
-    "t": "3:32",
-    "what": "Practice the shoulder movement along with a chosen musical track."
+    "t": "3:30",
+    "what": "The teacher puts on music to practise the shoulder movement with the rhythm."
    },
    {
     "tag": "chunking",
     "t": "4:20",
-    "what": "Break down hip movements by shifting weight and flexing knees side to side."
+    "what": "The teacher breaks down the second movement focusing on the hips and pelvis with weight shifting."
    },
    {
     "tag": "music_early",
     "t": "6:27",
-    "what": "Practice the hip movement with music, keeping arms relaxed or at mid-level."
+    "what": "The teacher practises the hip movement with music."
    },
    {
     "tag": "chunking",
-    "t": "7:09",
-    "what": "Break down knee bouncing movements, ensuring knees align with feet without going inward."
+    "t": "7:02",
+    "what": "The teacher introduces the third movement focusing on the knees with a bouncing motion."
    },
    {
     "tag": "music_early",
     "t": "9:26",
-    "what": "Combine all three learned movements in a continuous flow with music."
+    "what": "The teacher practises the knee bounce movement with music."
+   },
+   {
+    "tag": "repetition",
+    "t": "8:30",
+    "what": "The teacher combines all three movements together into a continuous sequence."
    }
   ],
   "adaptations": [
    {
     "t": "1:31",
-    "difficulty": "Choosing arm positions for different rhythm styles",
-    "adjustment": "Keep arms low for urban rhythms like reggaeton, or at medium level for Latin rhythms like salsa and cumbia.",
-    "kind": "easier"
-   },
-   {
-    "t": "2:15",
-    "difficulty": "Exaggerating shoulder movement too much",
-    "adjustment": "Do smooth, moderate half-circles instead of large, tiring movements.",
-    "kind": "slower"
+    "difficulty": "Adapting arms for different music genres like urban versus latin rhythms",
+    "adjustment": "Keep arms down for urban rhythms or at medium level for Latin rhythms",
+    "kind": "different_body"
    },
    {
     "t": "5:50",
-    "difficulty": "Feeling pain in the legs while moving hips",
-    "adjustment": "Make the hip flexions smaller and focus entirely on pushing the hip outward.",
-    "kind": "easier"
+    "difficulty": "Feeling pain or tension in the legs during hip movements",
+    "adjustment": "Make the knee flexion much smaller and focus on pushing the hip",
+    "kind": "other"
    }
   ],
   "entry_points": [
    "feet_first",
-   "feel_first"
+   "rhythm_first"
   ],
   "pace": {
    "talk_vs_move": "balanced",
-   "seconds_before_first_movement": 46,
+   "seconds_before_first_movement": 45,
    "pieces_taught": 3
   },
   "mentor": {
@@ -98,11 +98,7 @@
    "beliefs": [
     {
      "t": "0:20",
-     "belief": "Feeling like a tronco happens when you move your whole body in a single block."
-    },
-    {
-     "t": "0:36",
-     "belief": "Moving the body part by part helps you stop feeling stiff and start dancing."
+     "belief": "Feeling like a trunk happens when you move your whole body in a single block instead of by parts."
     }
    ],
    "feelings": []
@@ -110,61 +106,51 @@
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Feeling stiff like a log or tree trunk when dancing",
+     "theme": "Feeling like a wooden trunk or lacking rhythm",
      "tag": "other",
-     "count": 10
+     "count": 14
     },
     {
-     "theme": "Struggling with lack of coordination and 2 left feet",
+     "theme": "Struggling with lack of coordination or clumsiness",
      "tag": "other",
-     "count": 7
+     "count": 6
     },
     {
-     "theme": "Difficulty in moving the hips correctly",
+     "theme": "Feeling too old or restricted by depression",
      "tag": "other",
-     "count": 2
-    },
-    {
-     "theme": "Shyness and embarrassment to dance in public",
-     "tag": "other",
-     "count": 2
+     "count": 3
     }
    ],
    "clicked": [
     {
-     "theme": "Clear step-by-step instructions from absolute zero",
+     "theme": "Explanation is very clear and step-by-step from zero",
      "tag": "other",
      "count": 12
     },
     {
-     "theme": "Slow and calm teaching pace that builds confidence",
+     "theme": "Helped loosen up the body and coordinate movements",
      "tag": "other",
      "count": 5
     }
    ],
    "requests": [
     {
-     "theme": "Asking for a second part or continuation of the class",
+     "theme": "Asking for a second part or follow-up video",
      "tag": "other",
-     "count": 14
+     "count": 16
     }
    ],
    "meant": [
     {
-     "theme": "Helped overcome depression, sadness, and grief",
+     "theme": "Brought joy, confidence, and hope to start dancing",
      "tag": "other",
-     "count": 2
-    },
-    {
-     "theme": "Brought joy, excitement, and readiness for special events",
-     "tag": "other",
-     "count": 3
+     "count": 8
     }
    ]
   },
-  "limits": "The video cannot show individual feedback for home learners or verify if they are maintaining proper posture off-camera."
+  "limits": "The video does not show partner work or floor spatial displacement exercises."
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 2
 }

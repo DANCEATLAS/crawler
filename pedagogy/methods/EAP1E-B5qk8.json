@@ -1,15 +1,15 @@
 {
  "youtube_id": "EAP1E-B5qk8",
- "slug": "basics-first-steps",
- "dance": "First steps (basics)",
+ "slug": "hustle",
+ "dance": "Hustle",
  "title": "BEGINNER LINE DANCE - COWBOY HUSTLE - TUTORIAL!",
  "teacher": "Line Dance with Coral",
  "teacher_key": "line-dance-with-coral",
  "teacher_score": 76.2,
- "analysed_at": "2026-11-17T06:08:07Z",
+ "analysed_at": "2026-11-17T06:29:07Z",
  "url": "https://www.youtube.com/watch?v=EAP1E-B5qk8",
  "comments_read": 60,
- "schema": 2,
+ "schema": 3,
  "window": {
   "start_s": 0,
   "end_s": 600,
@@ -17,65 +17,93 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher introduces the basic line dance steps using a mirror-free setup, facing the same direction as the learner. She breaks down each movement into small, manageable chunks, counts through them, and then runs through the entire routine with music at the end.",
-  "signature": "mirror_view",
+  "teacher_system": "The teacher demonstrates and breaks down each section of the line dance facing away from the camera, explains weight placement and counts, combines the sections progressively, and finishes with a full run-through to music.",
+  "signature": "Demonstrating the entire routine with the same orientation as the learner while maintaining clear, encouraging narration from start to finish.",
   "screen": {
    "views": [
-    "front",
     "back",
     "feet_closeup"
    ],
-   "on_screen": [],
+   "on_screen": [
+    "captions"
+   ],
    "editing": []
   },
   "practices": [
    {
-    "tag": "counts_and_rhythm",
+    "tag": "chunking",
     "t": "0:46",
-    "what": "Explains starting weight distribution on the left foot and introduces the fan motion with the right foot."
+    "what": "Starts by explaining weight distribution on the left foot and introduces the first step pattern with the right foot."
+   },
+   {
+    "tag": "counts_and_rhythm",
+    "t": "1:09",
+    "what": "Counts out loud 1, 2, 3, 4 for the initial foot movement pattern."
+   },
+   {
+    "tag": "layering",
+    "t": "1:14",
+    "what": "Adds two heels forward and two toes back with the right foot following the initial steps."
+   },
+   {
+    "tag": "tempo_ramp",
+    "t": "1:23",
+    "what": "Introduces alternating heels and toes in a sequence and then combines all heel and toe movements together."
+   },
+   {
+    "tag": "repetition",
+    "t": "1:41",
+    "what": "Reviews the first part of the dance from the top before adding new movement."
    },
    {
     "tag": "chunking",
-    "t": "1:52",
-    "what": "Teaches the next segment involving step, kick, step, and touch cycles."
+    "t": "1:55",
+    "what": "Breaks down the next section featuring forward steps, kicks, and toe touches, repeating the cycle twice."
+   },
+   {
+    "tag": "repetition",
+    "t": "2:22",
+    "what": "Puts together the first and second sections of the dance to ensure clarity."
    },
    {
     "tag": "chunking",
-    "t": "2:41",
-    "what": "Introduces grapevines and breaks down the footwork for moving side to side."
+    "t": "2:46",
+    "what": "Introduces the final section consisting of grapevines, breaking down the steps and adding a quarter turn."
    },
    {
     "tag": "music_early",
-    "t": "5:02",
-    "what": "Performs the complete line dance routine to full music from start to finish."
+    "t": "5:03",
+    "what": "Performs the entire cowboy hustle line dance from start to finish accompanied by country music."
    }
   ],
   "adaptations": [
    {
     "t": "3:59",
-    "difficulty": "Doing turns or standard steps can be challenging for some beginners",
-    "adjustment": "Offers an option to hop or to take it easy and just step out and back",
+    "difficulty": "the footwork sequence can feel challenging or fast",
+    "adjustment": "you can hop together and hop back, or you can take it easy and just step out and back",
     "kind": "easier"
    }
   ],
   "entry_points": [
-   "rhythm_first",
-   "feet_first"
+   "feet_first",
+   "rhythm_first"
   ],
   "pace": {
    "talk_vs_move": "balanced",
-   "seconds_before_first_movement": 46,
-   "pieces_taught": 4
+   "seconds_before_first_movement": 44,
+   "pieces_taught": 3
   },
   "mentor": {
    "voice": [
     "warm",
-    "patient"
+    "patient",
+    "precise",
+    "energetic"
    ],
    "beliefs": [
     {
-     "t": "0:30",
-     "belief": "Line dancing is versatile because the steps fit nearly any country song you hear."
+     "t": "0:29",
+     "belief": "This line dance is versatile because it works with nearly any song at a country club and can be danced individually or in a group."
     }
    ],
    "feelings": []
@@ -83,35 +111,30 @@
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Finding traditional classes too fast or difficult to follow",
+     "theme": "feeling embarrassed or uncoordinated while trying to learn",
      "tag": "other",
-     "count": 3
-    },
-    {
-     "theme": "Feeling uncoordinated or having no prior dance experience",
-     "tag": "other",
-     "count": 3
+     "count": 6
     }
    ],
    "clicked": [
     {
-     "theme": "Clear step-by-step instructions and facing the same direction",
+     "theme": "clear step-by-step instructions and facing the same direction",
      "tag": "other",
-     "count": 8
+     "count": 18
     }
    ],
    "requests": [],
    "meant": [
     {
-     "theme": "Bringing joy, therapy, and the ability to finally dance with confidence",
+     "theme": "bringing back fond memories and providing accessible therapy or exercise",
      "tag": "other",
-     "count": 6
+     "count": 12
     }
    ]
   },
-  "limits": "The video does not show partner interactions or advanced variations, focusing purely on solo beginner line dance steps."
+  "limits": "The video does not show front-facing instruction of the full body steps during the breakdown, only back-facing and foot close-up views."
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 2
+ "attempts": 3
 }

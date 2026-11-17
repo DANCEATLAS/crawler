@@ -6,10 +6,10 @@
  "teacher": "Oleg Astakhov",
  "teacher_key": "oleg-astakhov",
  "teacher_score": 73.1,
- "analysed_at": "2026-11-17T06:09:06Z",
+ "analysed_at": "2026-11-17T06:29:40Z",
  "url": "https://www.youtube.com/watch?v=RUCbV8C9CVE",
  "comments_read": 60,
- "schema": 2,
+ "schema": 3,
  "window": {
   "start_s": 0,
   "end_s": 600,
@@ -17,148 +17,104 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher breaks down the swing dance into small, manageable steps, starting with side-to-side movement. He then introduces a rock step and combines these elements into a basic rhythm. Finally, he adds counts and speeds up the tempo to help learners practice.",
-  "signature": "He explicitly frames the lesson as 'social dancing' rather than 'technique', focusing on the ability to move to music in a social setting rather than perfect form.",
+  "teacher_system": "The teacher first introduces the swing dance concept, then breaks down simple side steps and rocking steps, adds counts and rhythm, and finally combines them into partner practice.",
+  "signature": "",
   "screen": {
    "views": [
     "front",
     "back"
    ],
-   "on_screen": [
-    "counts"
-   ],
+   "on_screen": [],
    "editing": []
   },
   "practices": [
    {
     "tag": "chunking",
-    "t": "1:10",
-    "what": "The teacher breaks the dance down into simple side-to-side steps."
+    "t": "1:18",
+    "what": "Teach side to side stepping with upper body sway."
    },
    {
     "tag": "counts_and_rhythm",
-    "t": "2:22",
-    "what": "The teacher introduces counting to the side-to-side steps."
+    "t": "2:24",
+    "what": "Count 1, 2, 3, 4 while side stepping."
    },
    {
     "tag": "chunking",
-    "t": "3:53",
-    "what": "The teacher introduces the rock step as a separate, backward movement."
-   },
-   {
-    "tag": "layering",
-    "t": "5:10",
-    "what": "The teacher combines the side-to-side steps with the rock step."
+    "t": "4:09",
+    "what": "Introduce backward rock steps with weight shift."
    },
    {
     "tag": "counts_and_rhythm",
-    "t": "6:17",
-    "what": "The teacher adds specific counts to the combined steps."
+    "t": "6:39",
+    "what": "Count 1, 2, 3, 4 combining side steps and rock steps."
    },
    {
     "tag": "tempo_ramp",
-    "t": "7:46",
-    "what": "The teacher increases the speed of the counts to practice the steps at a faster tempo."
+    "t": "8:22",
+    "what": "Speed up counts and practice with faster tempo."
    }
   ],
-  "adaptations": [
-   {
-    "t": "4:18",
-    "difficulty": "The learner may be unsure about whether to put their heel back during the rock step.",
-    "adjustment": "The teacher clarifies that it does not matter, focusing on the act of rocking instead.",
-    "kind": "easier"
-   }
-  ],
+  "adaptations": [],
   "entry_points": [
-   "rhythm_first",
-   "feet_first"
+   "feet_first",
+   "rhythm_first"
   ],
   "pace": {
    "talk_vs_move": "balanced",
-   "seconds_before_first_movement": 110,
+   "seconds_before_first_movement": 118,
    "pieces_taught": 3
   },
   "mentor": {
    "voice": [
-    "energetic",
-    "precise",
-    "patient"
+    "warm",
+    "patient",
+    "direct"
    ],
-   "beliefs": [
-    {
-     "t": "0:20",
-     "belief": "The goal is to learn how to dance socially, not to master complex technique."
-    },
-    {
-     "t": "3:17",
-     "belief": "If you can do these simple steps, you can dance."
-    },
-    {
-     "t": "4:59",
-     "belief": "The focus should be on moving in a social setting, not on perfect technique."
-    }
-   ],
-   "feelings": [
-    {
-     "t": "0:34",
-     "feeling": "awkward",
-     "response": "The teacher encourages the learner to imagine being in a social situation where everyone is dancing and having fun."
-    }
-   ]
+   "beliefs": [],
+   "feelings": []
   },
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Difficulty applying steps to music",
+     "theme": "Applying steps when music is playing",
      "tag": "other",
      "count": 1
     },
     {
-     "theme": "Stiff body",
+     "theme": "Stiff body and feeling uncoordinated",
      "tag": "other",
-     "count": 2
-    },
-    {
-     "theme": "Fear of looking silly",
-     "tag": "other",
-     "count": 1
+     "count": 3
     }
    ],
    "clicked": [
     {
-     "theme": "Simple, clear, and small-step breakdown",
+     "theme": "Broken down into small, simple steps",
      "tag": "chunking",
-     "count": 10
+     "count": 4
     },
     {
-     "theme": "Encouraging and patient teaching style",
-     "tag": "praise_and_expectancy",
-     "count": 5
+     "theme": "Clear instructions for both leaders and followers",
+     "tag": "other",
+     "count": 3
     }
    ],
-   "requests": [
-    {
-     "theme": "More music application",
-     "tag": "music_early",
-     "count": 1
-    }
-   ],
+   "requests": [],
    "meant": [
     {
-     "theme": "Feeling capable of dancing",
-     "tag": "learner_as_dancer",
-     "count": 3
+     "theme": "Gives confidence to dance at social events and weddings",
+     "tag": "other",
+     "count": 5
     },
     {
-     "theme": "Fun and social connection",
-     "tag": "social_connection",
-     "count": 2
+     "theme": "Joy of finally understanding how to dance",
+     "tag": "other",
+     "count": 4
     }
    ]
   },
-  "limits": "The video does not show how to transition between different dance partners or how to handle more complex music rhythms."
+  "limits": "The video ends at 10:00 during the introduction of partner practice."
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 2
+ "attempts": 3
 }

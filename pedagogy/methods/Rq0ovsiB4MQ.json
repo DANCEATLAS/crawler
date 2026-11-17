@@ -6,10 +6,10 @@
  "teacher": "BodyKinect by Kendall",
  "teacher_key": "bodykinect-by-kendall",
  "teacher_score": 72.7,
- "analysed_at": "2026-11-17T06:09:31Z",
+ "analysed_at": "2026-11-17T06:29:51Z",
  "url": "https://www.youtube.com/watch?v=Rq0ovsiB4MQ",
  "comments_read": 60,
- "schema": 2,
+ "schema": 3,
  "window": {
   "start_s": 0,
   "end_s": 600,
@@ -17,13 +17,15 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher breaks down complex turns into foundational steps, emphasizing specific body mechanics like rib cage alignment and core engagement. She encourages learners to practice these small, isolated movements repeatedly before attempting the full turn. Finally, she integrates these components into a fluid, complete turn.",
-  "signature": "The teacher uses a 'slap' prep to teach the rhythm and momentum needed for turns.",
+  "teacher_system": "The teacher breaks down dance turns into clear, sequential pieces: parallel pirouettes, ballet pirouettes, à la seconde turns, and fouettés. She teaches foundational positions and alignments like rib cage closure before adding rotation.",
+  "signature": "Her playful, highly encouraging tone combined with self-deprecating humor (\"try this a couple million times\") makes intimidating ballet turns feel achievable.",
   "screen": {
    "views": [
-    "front"
+    "front",
+    "side"
    ],
    "on_screen": [
+    "captions",
     "step_names"
    ],
    "editing": []
@@ -31,40 +33,66 @@
   "practices": [
    {
     "tag": "chunking",
-    "t": "0:31",
-    "what": "The teacher breaks down the pirouette into a series of small, manageable steps."
+    "t": "0:08",
+    "what": "Breaks down the tutorial into three main sections: pirouettes, fouettés, and à la seconde turns."
+   },
+   {
+    "tag": "layering",
+    "t": "1:31",
+    "what": "Focuses on upper body alignment by lifting the chin, pressing shoulders down, and closing the rib cage before turning."
    },
    {
     "tag": "repetition",
     "t": "2:25",
-    "what": "The teacher encourages the learner to practice the plié and passé sequence multiple times."
+    "what": "Practices the plié and passé position connection multiple times before attempting to add rotation."
    },
    {
     "tag": "chunking",
-    "t": "6:25",
-    "what": "The teacher introduces a 'slap' prep to help the learner understand the rhythm and momentum for turns."
+    "t": "3:43",
+    "what": "Teaches ballet pirouettes by adapting the parallel pirouette mechanics into first position with outward rotators."
+   },
+   {
+    "tag": "repetition",
+    "t": "4:59",
+    "what": "Instructs learners to practice the plié-passé combination multiple times to build muscle memory."
+   },
+   {
+    "tag": "chunking",
+    "t": "6:37",
+    "what": "Breaks down the à la seconde turn into progressive steps: slap prep, corner hold, and then rotation."
    },
    {
     "tag": "repetition",
     "t": "6:54",
-    "what": "The teacher instructs the learner to perform the slap prep and corner position ten times."
+    "what": "Suggests doing 10 repetitions of just the slap prep and corner position before turning."
    },
    {
     "tag": "chunking",
-    "t": "9:24",
-    "what": "The teacher breaks down the fouetté into three distinct positions: front, side, and passé."
+    "t": "8:21",
+    "what": "Outlines a structured practice routine: slap prep, corner hold, second hold, and finally piecing them together."
+   },
+   {
+    "tag": "body_adaptation",
+    "t": "9:12",
+    "what": "Suggests using a chair, bar, or stable household object as a support when practicing fouettés at home."
+   },
+   {
+    "tag": "layering",
+    "t": "9:30",
+    "what": "Breaks down fouetté preparation at the barre using three distinct leg positions: front, side, and passé."
    }
   ],
   "adaptations": [
    {
-    "t": "9:03",
-    "difficulty": "The learner may not have a ballet barre at home.",
-    "adjustment": "The teacher suggests using a chair or any sturdy object to hold onto.",
-    "kind": "no_partner"
+    "t": "9:04",
+    "difficulty": "Needing support for fouetté turns at home without a ballet barre",
+    "adjustment": "Grab a chair or something stable in your house to hold onto",
+    "kind": "small_space"
    }
   ],
   "entry_points": [
-   "feet_first"
+   "feet_first",
+   "rhythm_first"
   ],
   "pace": {
    "talk_vs_move": "balanced",
@@ -76,89 +104,76 @@
     "warm",
     "playful",
     "calm",
-    "patient"
+    "patient",
+    "humorous"
    ],
    "beliefs": [
     {
-     "t": "3:16",
-     "belief": "Turns should be as tight and compact as possible to be effective."
-    },
-    {
-     "t": "8:55",
-     "belief": "Once you understand the mechanics, turns become muscle memory."
+     "t": "3:14",
+     "belief": "Turns should be compact and executed as a single, cohesive movement rather than disconnected sections."
     }
    ],
    "feelings": [
     {
-     "t": "1:41",
+     "t": "5:54",
      "feeling": "frustrated",
-     "response": "The teacher validates the confusion around the term 'close your rib cage' by explaining it simply."
-    },
-    {
-     "t": "6:09",
-     "feeling": "afraid_of_looking_silly",
-     "response": "The teacher encourages the learner to bring it back to basics when they feel lost or overwhelmed."
+     "response": "Acknowledge that à la seconde turns are complicated, but encourage learners not to give up on them."
     }
    ]
   },
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Difficulty holding the leg high in à la seconde turns",
+     "theme": "À la seconde turns were very difficult and exhausting",
+     "tag": "other",
+     "count": 3
+    },
+    {
+     "theme": "Not enough space in the room to practice leg extensions",
      "tag": "other",
      "count": 1
     },
     {
-     "theme": "Lack of space in the room",
+     "theme": "Struggling to hold leg high enough during turns",
      "tag": "other",
      "count": 1
     },
     {
-     "theme": "Falling out of pirouettes",
+     "theme": "Always falling out of pirouettes",
      "tag": "other",
-     "count": 1
+     "count": 2
     }
    ],
    "clicked": [
     {
-     "theme": "Explanation of closing the rib cage",
+     "theme": "Explanation of closing the rib cage made turns finally click",
      "tag": "other",
-     "count": 3
+     "count": 4
     },
     {
-     "theme": "Step-by-step breakdown of turns",
-     "tag": "chunking",
-     "count": 5
-    },
-    {
-     "theme": "Teacher's calm and patient demeanor",
-     "tag": "praise_and_expectancy",
-     "count": 3
+     "theme": "Step-by-step instructions are easy to understand and apply",
+     "tag": "other",
+     "count": 6
     }
    ],
    "requests": [
     {
-     "theme": "Request for the teacher to start a dance academy",
-     "tag": "social_connection",
-     "count": 1
+     "theme": "Ask the teacher to hold a dance academy or be their ongoing teacher",
+     "tag": "reason_to_return",
+     "count": 3
     }
    ],
    "meant": [
     {
-     "theme": "Feeling inspired and capable of learning at home",
-     "tag": "autonomy",
-     "count": 4
-    },
-    {
-     "theme": "Feeling happy and proud after mastering a turn",
-     "tag": "praise_and_expectancy",
-     "count": 4
+     "theme": "Helped adult beginners and self-taught dancers learn proper technique at home",
+     "tag": "other",
+     "count": 8
     }
    ]
   },
-  "limits": "The video is limited to a front-facing view, which may make it difficult for learners to see the back or side angles of the movements."
+  "limits": "The video is recorded in a plain studio setting with only one instructor, so partner-work and full-group spatial dynamics cannot be shown."
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 2
+ "attempts": 3
 }
