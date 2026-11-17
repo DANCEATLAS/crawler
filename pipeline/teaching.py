@@ -93,7 +93,8 @@ EDITING = ("slow_motion", "loop_replay", "freeze_frame", "speed_labels")
 ENTRY = ("watch_first", "count_first", "rhythm_first", "feet_first", "feel_first", "story_first")
 VOICE = ("warm", "playful", "calm", "energetic", "precise", "humorous", "patient", "direct", "gentle", "passionate")
 FEELINGS = ("awkward", "afraid_of_looking_silly", "frustrated", "overwhelmed", "bored", "tired", "self_doubt", "impatient", "proud", "joyful")
-SCHEMA = 2   # 2 = the mentor block (voice, beliefs, feelings met) and what a lesson meant to learners; older records are watched once more
+SCHEMA = 3   # 2 = the mentor block (voice, beliefs, feelings met) and what a lesson meant to learners; 3 = a belief is about dancing and learning, never a step technique.
+             # A record older than this is watched once more, in its teacher's turn.
 ADAPT_KINDS = {"easier": "regression", "harder": "progression", "slower": "tempo_ramp", "different_body": "body_adaptation",
                "no_partner": "body_adaptation", "small_space": "body_adaptation", "mindset": "normalise_mistakes", "other": None}
 TAG_LIST = "\n".join(f"- {k}: {v}" for k, v in PRACTICES.items())
@@ -404,7 +405,7 @@ def _due(rec, today=None):
     if not rec:
         return True
     if rec.get("status") == "ok":
-        return int(rec.get("schema") or 1) < SCHEMA   # watched before the mentor block existed: once more
+        return int(rec.get("schema") or 1) < SCHEMA   # watched with an earlier reading: once more
     if rec.get("status") == "not_a_lesson":
         return False
     wait = 2 if (rec.get("status") == "failed" and int(rec.get("attempts") or 1) < 3) else RETRY_DAYS
@@ -424,6 +425,14 @@ def pick_methods(teachers, methods, budget, per_teacher=3, today=None, want=None
                     picked.append((t, l)); taken[t["key"]] += 1
                     break
     return picked
+
+def tonight(teachers, methods, n, per=3, basics_share=3, talk_share=1, today=None):
+    """Tonight's lessons: first a teacher explaining how they teach, when one is waiting (the mentor's own words), then the basics, then the dances."""
+    talk = pick_methods(teachers, methods, min(n, talk_share), per, today=today, want=lambda l: l["slug"] == BASICS + TALKS)
+    basics = talk + pick_methods(teachers, methods, max(0, min(n, basics_share) - len(talk)), per, today=today,
+                                 want=lambda l: l["slug"].startswith(BASICS), skip={l["youtube_id"] for _, l in talk})
+    rest = pick_methods(teachers, methods, n - len(basics), per, today=today, skip={l["youtube_id"] for _, l in basics})
+    return basics + rest, len(basics), len(talk)
 
 def _voice(v):
     out = []
@@ -710,7 +719,7 @@ def fuse(teachers, methods, notes, family_of=None, today=None):
                        "families_covered": len({fam(m) for m in oks}), "adaptations_seen": len(adapt),
                        "comments_read": sum(int(m.get("comments_read") or 0) for m in oks),
                        "talks_studied": sum(1 for m in oks if m.get("kind") == "teacher_talk"), "beliefs_recorded": len(beliefs),
-                       "feelings_answered": sum(f["seen"] for f in felt), "lessons_with_mentor_reading": sum(1 for m in oks if int(m.get("schema") or 1) >= SCHEMA),
+                       "feelings_answered": sum(f["seen"] for f in felt), "lessons_with_mentor_reading": sum(1 for m in oks if int(m.get("schema") or 1) >= 2),
                        "science_notes": len(topics), "science_topics_total": len(SCIENCE), "paper_notes": len(papers),
                        "science_findings_checked": sum(len(n.get("findings") or []) for n in sci),
                        "practices_total": len(PRACTICES), "practices_with_two_or_more_kinds": sum(1 for p in practices if p["evidence_kinds"] >= 2),
@@ -870,11 +879,10 @@ def run(budget=8, science=None, only=None):
     lessons = all_lessons(jload(LESSONS, {}) or {}, store)
     teachers = build_teachers(lessons, studied, methods)
     per, n = env("METHOD_PER_TEACHER", "3"), (budget if live else 0)
-    basics = pick_methods(teachers, methods, min(n, env("BASICS_SHARE", "3")), per, want=lambda l: l["slug"].startswith(BASICS))
-    targets = basics + pick_methods(teachers, methods, n - len(basics), per, skip={l["youtube_id"] for _, l in basics})
+    targets, n_basics, n_talks = tonight(teachers, methods, n, per, env("BASICS_SHARE", "3"), env("TALK_SHARE", "1"))
     if only:
         targets = [(t, l) for t, l in targets if l["slug"] in only or l["youtube_id"] in only]
-    rep.note(f"teachers ranked: {len(teachers)}; lessons to study for method: {len(targets)} (budget {budget}, {len(basics)} on the basics); engine {'on' if live else 'off: tables only'}")
+    rep.note(f"teachers ranked: {len(teachers)}; lessons to study for method: {len(targets)} (budget {budget}, {n_basics} on the basics, {n_talks} of them a teacher's talk); engine {'on' if live else 'off: tables only'}")
     misses = 0
     for t, l in targets:
         if time.time() > deadline or misses >= 3:   # three unreadable videos in a row: the model or the day's quota is gone
