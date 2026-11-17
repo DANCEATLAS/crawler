@@ -16,7 +16,7 @@ The long vision is unchanged: BDF, the best dance teacher in the world, a search
 - That night 71 of 312 model questions went unanswered and no performance was observed. One flash-lite model carried most of the work, answered "overloaded" 46 times, and each question that arrived while it rested was dropped; one unreadable video put a strike on six models. Fixed 17 November: a question waits for a resting model (at most 40 minutes a run), rests are short, an unusable answer is the question's fault. Each stage writes `model trouble: …` into `pipeline_state/runs.json`: no log reading needed.
 - Engine: **Google Gemini's free tier only** (AI Studio, 16 November: tier Free, no billing attached). OpenAI is off; its key is not passed to any workflow. Free limits seen: flash 20 requests a day per model; only the newest flash-lite model has a large day quota.
 - Database jobs, proven live 16 November: 16 rows written where the old jobs wrote 1,191 a day.
-- Teaching research, first live run (run 36, 17 November, 6 minutes): 270 teachers ranked from 423 lessons, 3 lessons studied for method with 180 comments read, 3 research notes with 12 checked findings, no question unanswered although the model answered "overloaded" three times.
+- Teaching research after two live runs on 17 November (runs 36 and 37, 6 and 3 minutes): 272 teachers ranked, 8 basics lessons found by free search, 7 lessons of 6 teachers studied for method with 420 comments read, 6 research topics and 1 paper with 24 checked findings, 4 practices with two kinds of evidence, no question unanswered although the model answered "overloaded" five times.
 
 ## What runs by itself (GitHub Actions, no Claude, no Lovable, $0)
 
