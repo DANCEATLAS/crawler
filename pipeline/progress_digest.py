@@ -95,7 +95,7 @@ def highlights(now, week):
         result.append(f"{label}: {now[key]:,} — {change(now[key], week.get(key) if week else None)}.")
     if now.get("teaching_lessons") or now.get("teaching_notes"):
         result.append(f"Teaching research for the Best Dance Friend: {now.get('teaching_lessons', 0):,} lessons of {now.get('teaching_teachers', 0):,} teachers studied for method — "
-                      f"{change(now.get('teaching_lessons', 0), week.get('teaching_lessons') if week else None)}; {now.get('teaching_notes', 0)} research notes; "
+                      f"{change(now.get('teaching_lessons', 0), week.get('teaching_lessons') if week else None)}; {now.get('teaching_notes', 0)} research topics and {now.get('teaching_papers', 0)} papers read; "
                       f"{now.get('teaching_practices', 0)} teaching practices backed by two or more kinds of evidence (BDF_TEACHING_SYSTEM.md).")
     if week and now["dances_live"] < week["dances_live"]:
         result.append("The catalogue is smaller this week. Removals and merges can improve quality; see the editorial log for the reasons.")

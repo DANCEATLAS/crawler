@@ -62,7 +62,7 @@ def run():
              ("- **WRITING ENGINE: OFF.** No model is permitted (pipeline_state/spending_policy.json or the key): nothing new is being written." if off
               else f"- Writing engine: on. Last research run wrote {wrote} profiles ({(engine.get('finished') or '')[:10] or 'no run recorded'})."), "",
              "## Teaching research (for the Best Dance Friend)",
-             f"- Teachers ranked by learners' words: {bdf.get('teachers_ranked', 0)} · method studied: {bdf.get('lessons_studied_for_method', 0)} lessons of {bdf.get('teachers_studied', 0)} teachers · research notes with checked quotes: {bdf.get('science_notes', 0)} of {bdf.get('science_topics_total', 0)} · practices with two or more kinds of evidence: {bdf.get('practices_with_two_or_more_kinds', 0)}. See BDF_TEACHING_SYSTEM.md.", "",
+             f"- Teachers ranked by learners' words: {bdf.get('teachers_ranked', 0)} · method studied: {bdf.get('lessons_studied_for_method', 0)} lessons of {bdf.get('teachers_studied', 0)} teachers · research notes with checked quotes: {bdf.get('science_notes', 0)} of {bdf.get('science_topics_total', 0)} topics and {bdf.get('paper_notes', 0)} papers · practices with two or more kinds of evidence: {bdf.get('practices_with_two_or_more_kinds', 0)}. See BDF_TEACHING_SYSTEM.md.", "",
              "## Catalogue (Supabase)"]
     if db:
         lines += [f"- Dances: **{db.get('dances')}** · with hero video: **{db.get('with_hero')}** · content_ready: {db.get('content_ready')} · publish gate: {db.get('gate_publish')} · sacred: {db.get('sacred')} · UNESCO refs: {db.get('unesco')}"]

@@ -194,7 +194,7 @@ def measure(root):
          "active_ready": int(line.get("active_ready") or 0), "active_near": int(line.get("one_short") or 0) + int(line.get("two_short") or 0),
          "performances_observed": int(line.get("performances_observed") or 0),
          **{"teaching_" + k: int(((_j(P("pedagogy", "bdf_system.json"), {}) or {}).get("counts") or {}).get(v) or 0)
-            for k, v in (("lessons", "lessons_studied_for_method"), ("teachers", "teachers_studied"), ("notes", "science_notes"), ("practices", "practices_with_two_or_more_kinds"))},
+            for k, v in (("lessons", "lessons_studied_for_method"), ("teachers", "teachers_studied"), ("notes", "science_notes"), ("papers", "paper_notes"), ("practices", "practices_with_two_or_more_kinds"))},
          "topics": {lab: 0 for lab, *_ in TOPICS}, "published_slugs": [], "film_slugs": [], "closest": [], "movie_slugs": [], "names": {}}
     for s, v in qidx.items():
         g = v.get("publish_gate")
