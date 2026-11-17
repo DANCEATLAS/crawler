@@ -1,30 +1,175 @@
 {
  "contract": "da_bdf_teaching_v1",
- "generated_at": "2026-11-17T05:15:37Z",
+ "generated_at": "2026-11-17T05:32:12Z",
  "counts": {
-  "teachers_ranked": 270,
-  "teachers_studied": 3,
-  "lessons_studied_for_method": 3,
-  "dances_covered": 3,
-  "adaptations_seen": 6,
-  "comments_read": 180,
-  "science_notes": 3,
-  "science_findings_checked": 12,
-  "science_topics_total": 37,
-  "practices_with_two_or_more_kinds": 3
+  "teachers_ranked": 272,
+  "teachers_studied": 6,
+  "lessons_studied_for_method": 7,
+  "dances_covered": 4,
+  "basics_lessons_studied": 3,
+  "families_covered": 4,
+  "adaptations_seen": 10,
+  "comments_read": 420,
+  "science_notes": 6,
+  "science_topics_total": 49,
+  "paper_notes": 1,
+  "science_findings_checked": 24,
+  "practices_total": 27,
+  "practices_with_two_or_more_kinds": 4,
+  "practices_with_all_three": 0
  },
+ "new_in_7_days": {
+  "lessons": 7,
+  "teachers": [
+   "BodyKinect by Kendall",
+   "Country Dance X",
+   "FitLara Dance",
+   "Line Dance with Coral",
+   "MihranTV",
+   "Oleg Astakhov"
+  ],
+  "research_notes": 7
+ },
+ "dna": [
+  {
+   "theme": "Build it",
+   "tag": "chunking",
+   "do": "Teach one small piece at a time and practise it before adding the next.",
+   "evidence_kinds": 2,
+   "teachers": 6,
+   "families": 4,
+   "learner_comments": 36,
+   "research_notes": 0
+  },
+  {
+   "theme": "Build it",
+   "tag": "repetition",
+   "do": "Repeat more than feels necessary, with follow-along rounds.",
+   "evidence_kinds": 2,
+   "teachers": 3,
+   "families": 2,
+   "learner_comments": 7,
+   "research_notes": 0
+  },
+  {
+   "theme": "Feel it",
+   "tag": "imagery",
+   "do": "Give an image to aim at instead of a muscle to control.",
+   "evidence_kinds": 2,
+   "teachers": 1,
+   "families": 1,
+   "learner_comments": 4,
+   "research_notes": 1
+  },
+  {
+   "theme": "Stay with it",
+   "tag": "praise_and_expectancy",
+   "do": "Tell learners they can do it, and name each small win.",
+   "evidence_kinds": 2,
+   "teachers": 0,
+   "families": 0,
+   "learner_comments": 11,
+   "research_notes": 3
+  }
+ ],
+ "adjustments": [
+  {
+   "tag": "error_correction",
+   "comments": 3,
+   "learners_say": [
+    "losing balance during pirouettes and turning over"
+   ],
+   "teachers_offer": [
+    {
+     "difficulty": "",
+     "adjustment": "Shows correct knee alignment over toes during plie to prevent overextension.",
+     "teacher": "BodyKinect by Kendall",
+     "dance": "Fouetté",
+     "url": "https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=67s"
+    }
+   ],
+   "research": []
+  },
+  {
+   "tag": "counts_and_rhythm",
+   "comments": 2,
+   "learners_say": [
+    "difficulty with the rhythm and counting"
+   ],
+   "teachers_offer": [
+    {
+     "difficulty": "",
+     "adjustment": "The teacher introduces counting 'one, two, three, four' to the side-to-side step.",
+     "teacher": "Oleg Astakhov",
+     "dance": "swing dance",
+     "url": "https://www.youtube.com/watch?v=RUCbV8C9CVE&t=142s"
+    },
+    {
+     "difficulty": "",
+     "adjustment": "Connects both parts together using counts 5, 6, 7, 8 and jump 1, 2.",
+     "teacher": "MihranTV",
+     "dance": "The Jerk",
+     "url": "https://www.youtube.com/watch?v=fMEBZ59AQLk&t=60s"
+    }
+   ],
+   "research": []
+  },
+  {
+   "tag": "body_adaptation",
+   "comments": 1,
+   "learners_say": [
+    "hitting surrounding furniture in a small room"
+   ],
+   "teachers_offer": [
+    {
+     "difficulty": "Practicing turns without a studio ballet barre",
+     "adjustment": "Use a household chair to hold onto for balance.",
+     "teacher": "BodyKinect by Kendall",
+     "dance": "Fouetté",
+     "url": "https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=544s"
+    }
+   ],
+   "research": []
+  },
+  {
+   "tag": "music_early",
+   "comments": 1,
+   "learners_say": [
+    "applying steps to music"
+   ],
+   "teachers_offer": [
+    {
+     "difficulty": "",
+     "adjustment": "The teacher performs the full dance routine to music, allowing the learner to see the steps in context.",
+     "teacher": "Line Dance with Coral",
+     "dance": "First steps for people who believe they cannot dance (dance basics)",
+     "url": "https://www.youtube.com/watch?v=EAP1E-B5qk8&t=300s"
+    },
+    {
+     "difficulty": "",
+     "adjustment": "Practices the learned reject step sequence together with music at a slow tempo.",
+     "teacher": "MihranTV",
+     "dance": "The Jerk",
+     "url": "https://www.youtube.com/watch?v=fMEBZ59AQLk&t=247s"
+    }
+   ],
+   "research": []
+  }
+ ],
  "practices": [
   {
    "tag": "chunking",
    "meaning": "small pieces, each practised before the next one is added",
-   "lessons": 3,
-   "teachers": 3,
+   "do": "Teach one small piece at a time and practise it before adding the next.",
+   "lessons": 7,
+   "teachers": 6,
+   "families": 4,
    "share_of_lessons": 1.0,
-   "share_best_ranked": null,
-   "share_others": null,
+   "share_best_ranked": 1.0,
+   "share_others": 1.0,
    "learner_voice": {
     "struggles": 0,
-    "clicked": 27,
+    "clicked": 36,
     "requests": 0
    },
    "learner_themes": [
@@ -40,11 +185,17 @@
     },
     {
      "kind": "clicked",
+     "theme": "clear, step-by-step instructions",
+     "count": 5
+    },
+    {
+     "kind": "clicked",
      "theme": "clear breakdowns and explanations make learning very accessible",
      "count": 4
     }
    ],
    "science": [],
+   "science_notes": 0,
    "examples": [
     {
      "teacher": "FitLara Dance",
@@ -52,6 +203,13 @@
      "t": "1:23",
      "what": "Breaks down the first set of locking moves step by step, starting with the arms.",
      "url": "https://www.youtube.com/watch?v=uuxFumbQ3WM&t=83s"
+    },
+    {
+     "teacher": "Line Dance with Coral",
+     "dance": "First steps for people who believe they cannot dance (dance basics)",
+     "t": "0:56",
+     "what": "The teacher breaks down the first movement, a fan motion with the right foot, into small, repeatable steps.",
+     "url": "https://www.youtube.com/watch?v=EAP1E-B5qk8&t=56s"
     },
     {
      "teacher": "Oleg Astakhov",
@@ -71,13 +229,74 @@
    "evidence_kinds": 2
   },
   {
+   "tag": "repetition",
+   "meaning": "many repetitions, loops and follow-along rounds",
+   "do": "Repeat more than feels necessary, with follow-along rounds.",
+   "lessons": 4,
+   "teachers": 3,
+   "families": 2,
+   "share_of_lessons": 0.57,
+   "share_best_ranked": 0.5,
+   "share_others": 0.6,
+   "learner_voice": {
+    "struggles": 0,
+    "clicked": 7,
+    "requests": 0
+   },
+   "learner_themes": [
+    {
+     "kind": "clicked",
+     "theme": "teacher repeats every move repeatedly making it easy to follow",
+     "count": 3
+    },
+    {
+     "kind": "clicked",
+     "theme": "putting it all together at the end",
+     "count": 2
+    },
+    {
+     "kind": "clicked",
+     "theme": "repetitive practice helps with learning",
+     "count": 2
+    }
+   ],
+   "science": [],
+   "science_notes": 0,
+   "examples": [
+    {
+     "teacher": "Line Dance with Coral",
+     "dance": "First steps for people who believe they cannot dance (dance basics)",
+     "t": "4:08",
+     "what": "The teacher leads the learner through the entire routine from the beginning, putting all the learned chunks together.",
+     "url": "https://www.youtube.com/watch?v=EAP1E-B5qk8&t=248s"
+    },
+    {
+     "teacher": "MihranTV",
+     "dance": "The Jerk",
+     "t": "0:42",
+     "what": "Repeats the first segment multiple times with verbal counts.",
+     "url": "https://www.youtube.com/watch?v=fMEBZ59AQLk&t=42s"
+    },
+    {
+     "teacher": "Country Dance X",
+     "dance": "First steps for people who believe they cannot dance (dance basics)",
+     "t": "1:55",
+     "what": "The teacher and partner repeat the basic step in the dance position.",
+     "url": "https://www.youtube.com/watch?v=lgMy5Gn84_c&t=115s"
+    }
+   ],
+   "evidence_kinds": 2
+  },
+  {
    "tag": "imagery",
    "meaning": "an image or comparison instead of anatomy (\"paint the floor with your toe\")",
+   "do": "Give an image to aim at instead of a muscle to control.",
    "lessons": 1,
    "teachers": 1,
-   "share_of_lessons": 0.33,
-   "share_best_ranked": null,
-   "share_others": null,
+   "families": 1,
+   "share_of_lessons": 0.14,
+   "share_best_ranked": 0.0,
+   "share_others": 0.2,
    "learner_voice": {
     "struggles": 0,
     "clicked": 4,
@@ -93,6 +312,7 @@
    "science": [
     {
      "key": "external_focus",
+     "topic": "external focus",
      "principle": "Directing a learner's attention to the external effects of their movements rather than to the body movements themselves enhances motor learning and performance.",
      "for_the_teacher": [
       "Instruct users to focus on the external effects of their movements rather than on how their body parts are moving.",
@@ -106,6 +326,7 @@
      ]
     }
    ],
+   "science_notes": 1,
    "examples": [
     {
      "teacher": "BodyKinect by Kendall",
@@ -120,11 +341,13 @@
   {
    "tag": "praise_and_expectancy",
    "meaning": "telling learners they can do it and celebrating small wins",
+   "do": "Tell learners they can do it, and name each small win.",
    "lessons": 0,
    "teachers": 0,
+   "families": 0,
    "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
    "learner_voice": {
     "struggles": 0,
     "clicked": 11,
@@ -145,6 +368,7 @@
    "science": [
     {
      "key": "expectancies_and_autonomy",
+     "topic": "expectancies and autonomy",
      "principle": "Enhanced performance expectancies and autonomy support both improve motor learning and performance, and their benefits can be additive when combined.",
      "for_the_teacher": [
       "Provide learners with small choices during practice, such as selecting the color of a practice tool, to support their autonomy.",
@@ -157,51 +381,143 @@
       "https://europepmc.org/article/MED/28813352",
       "https://europepmc.org/article/MED/24875153"
      ]
+    },
+    {
+     "key": "early_success",
+     "topic": "early success",
+     "principle": "Enhancing learner expectancies for successful performance and providing early positive experiences help build motivation and support motor learning.",
+     "for_the_teacher": [
+      "Design early exercises to ensure learners achieve immediate successful outcomes to boost confidence and expectancy."
+     ],
+     "sources": [
+      "https://europepmc.org/article/MED/26833314",
+      "https://europepmc.org/article/MED/32721370",
+      "https://europepmc.org/article/MED/31455577",
+      "https://europepmc.org/article/MED/31126044"
+     ]
+    },
+    {
+     "key": "self_efficacy",
+     "topic": "self efficacy",
+     "principle": "Belief in one's ability to succeed, supported by choice and positive expectations, directly improves the learning of motor skills.",
+     "for_the_teacher": [
+      "Give learners small choices during practice, such as picking the practice speed or song variation, to support their sense of autonomy.",
+      "Let learners choose when they want to view video recordings of their own movement."
+     ],
+     "sources": [
+      "https://en.wikipedia.org/wiki/Self-efficacy",
+      "https://europepmc.org/article/MED/21425889",
+      "https://europepmc.org/article/MED/25046402",
+      "https://europepmc.org/article/MED/24875153"
+     ]
     }
    ],
+   "science_notes": 3,
    "examples": [],
    "evidence_kinds": 2
   },
   {
-   "tag": "error_correction",
-   "meaning": "the common mistake is named and its fix is shown",
-   "lessons": 1,
-   "teachers": 1,
-   "share_of_lessons": 0.33,
-   "share_best_ranked": null,
-   "share_others": null,
+   "tag": "counts_and_rhythm",
+   "meaning": "counting, or the rhythm spoken or clapped (quick-quick-slow, boom-cha)",
+   "do": "Count out loud or speak the rhythm.",
+   "lessons": 3,
+   "teachers": 3,
+   "families": 3,
+   "share_of_lessons": 0.43,
+   "share_best_ranked": 0.0,
+   "share_others": 0.6,
    "learner_voice": {
-    "struggles": 3,
+    "struggles": 2,
     "clicked": 0,
     "requests": 0
    },
    "learner_themes": [
     {
      "kind": "struggles",
-     "theme": "losing balance during pirouettes and turning over",
-     "count": 3
+     "theme": "difficulty with the rhythm and counting",
+     "count": 2
     }
    ],
    "science": [],
+   "science_notes": 0,
    "examples": [
     {
-     "teacher": "BodyKinect by Kendall",
-     "dance": "Fouetté",
-     "t": "1:07",
-     "what": "Shows correct knee alignment over toes during plie to prevent overextension.",
-     "url": "https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=67s"
+     "teacher": "Oleg Astakhov",
+     "dance": "swing dance",
+     "t": "2:22",
+     "what": "The teacher introduces counting 'one, two, three, four' to the side-to-side step.",
+     "url": "https://www.youtube.com/watch?v=RUCbV8C9CVE&t=142s"
+    },
+    {
+     "teacher": "MihranTV",
+     "dance": "The Jerk",
+     "t": "1:00",
+     "what": "Connects both parts together using counts 5, 6, 7, 8 and jump 1, 2.",
+     "url": "https://www.youtube.com/watch?v=fMEBZ59AQLk&t=60s"
+    },
+    {
+     "teacher": "Country Dance X",
+     "dance": "First steps for people who believe they cannot dance (dance basics)",
+     "t": "0:55",
+     "what": "The teacher introduces the rhythm of two quick steps and two slow steps while walking.",
+     "url": "https://www.youtube.com/watch?v=lgMy5Gn84_c&t=55s"
     }
    ],
    "evidence_kinds": 1
   },
   {
-   "tag": "repetition",
-   "meaning": "many repetitions, loops and follow-along rounds",
-   "lessons": 0,
-   "teachers": 0,
-   "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
+   "tag": "tempo_ramp",
+   "meaning": "slow first, then faster, then full speed",
+   "do": "Start slow and speed up in steps to full tempo.",
+   "lessons": 3,
+   "teachers": 3,
+   "families": 2,
+   "share_of_lessons": 0.43,
+   "share_best_ranked": 0.5,
+   "share_others": 0.4,
+   "learner_voice": {
+    "struggles": 0,
+    "clicked": 0,
+    "requests": 0
+   },
+   "learner_themes": [],
+   "science": [],
+   "science_notes": 0,
+   "examples": [
+    {
+     "teacher": "FitLara Dance",
+     "dance": "Locking",
+     "t": "6:28",
+     "what": "Practises the routine with the music slowly first, then at normal speed.",
+     "url": "https://www.youtube.com/watch?v=uuxFumbQ3WM&t=388s"
+    },
+    {
+     "teacher": "Oleg Astakhov",
+     "dance": "swing dance",
+     "t": "7:50",
+     "what": "The teacher increases the speed of the counting and the steps, transitioning from a slow to a faster tempo.",
+     "url": "https://www.youtube.com/watch?v=RUCbV8C9CVE&t=470s"
+    },
+    {
+     "teacher": "MihranTV",
+     "dance": "The Jerk",
+     "t": "2:21",
+     "what": "Reviews the entire sequence slowly from the top with continuous counts.",
+     "url": "https://www.youtube.com/watch?v=fMEBZ59AQLk&t=141s"
+    }
+   ],
+   "evidence_kinds": 1
+  },
+  {
+   "tag": "mirror_view",
+   "meaning": "a mirrored or back view, so the learner copies without flipping left and right",
+   "do": "Show the step from behind or mirrored, so it can be copied directly.",
+   "lessons": 2,
+   "teachers": 2,
+   "families": 1,
+   "share_of_lessons": 0.29,
+   "share_best_ranked": 0.5,
+   "share_others": 0.2,
    "learner_voice": {
     "struggles": 0,
     "clicked": 3,
@@ -210,77 +526,12 @@
    "learner_themes": [
     {
      "kind": "clicked",
-     "theme": "teacher repeats every move repeatedly making it easy to follow",
+     "theme": "back view makes it easy to follow",
      "count": 3
     }
    ],
    "science": [],
-   "examples": [],
-   "evidence_kinds": 1
-  },
-  {
-   "tag": "autonomy",
-   "meaning": "the learner chooses: pause, pick a tempo, pick a variation, own style",
-   "lessons": 0,
-   "teachers": 0,
-   "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
-   "learner_voice": {
-    "struggles": 0,
-    "clicked": 0,
-    "requests": 0
-   },
-   "learner_themes": [],
-   "science": [
-    {
-     "key": "autonomy_support",
-     "principle": "Supporting a learner's autonomy through small choices improves skill acquisition and retention, even when those choices are entirely unrelated to the physical task.",
-     "for_the_teacher": [
-      "Allow learners to make small choices during the lesson, such as selecting the color of a virtual prop or the order of practice routines.",
-      "Combine autonomy support with positive feedback regarding the learner's progress to further enhance motor learning."
-     ],
-     "sources": [
-      "https://en.wikipedia.org/wiki/Self-determination_theory",
-      "https://europepmc.org/article/MED/25046402",
-      "https://europepmc.org/article/MED/28813352",
-      "https://europepmc.org/article/MED/25732095"
-     ]
-    },
-    {
-     "key": "expectancies_and_autonomy",
-     "principle": "Enhanced performance expectancies and autonomy support both improve motor learning and performance, and their benefits can be additive when combined.",
-     "for_the_teacher": [
-      "Provide learners with small choices during practice, such as selecting the color of a practice tool, to support their autonomy.",
-      "Give positive social-comparative feedback to enhance learners' performance expectancies.",
-      "Combine autonomy support and enhanced expectancies in lessons to maximize learning and retention accuracy."
-     ],
-     "sources": [
-      "https://europepmc.org/article/MED/26833314",
-      "https://europepmc.org/article/MED/25046402",
-      "https://europepmc.org/article/MED/28813352",
-      "https://europepmc.org/article/MED/24875153"
-     ]
-    }
-   ],
-   "examples": [],
-   "evidence_kinds": 1
-  },
-  {
-   "tag": "mirror_view",
-   "meaning": "a mirrored or back view, so the learner copies without flipping left and right",
-   "lessons": 2,
-   "teachers": 2,
-   "share_of_lessons": 0.67,
-   "share_best_ranked": null,
-   "share_others": null,
-   "learner_voice": {
-    "struggles": 0,
-    "clicked": 0,
-    "requests": 0
-   },
-   "learner_themes": [],
-   "science": [],
+   "science_notes": 0,
    "examples": [
     {
      "teacher": "FitLara Dance",
@@ -297,108 +548,124 @@
      "url": "https://www.youtube.com/watch?v=RUCbV8C9CVE&t=160s"
     }
    ],
-   "evidence_kinds": 0
+   "evidence_kinds": 1
   },
   {
-   "tag": "tempo_ramp",
-   "meaning": "slow first, then faster, then full speed",
+   "tag": "music_early",
+   "meaning": "practice with the music early and often",
+   "do": "Bring in the music early, not only at the end.",
    "lessons": 2,
    "teachers": 2,
-   "share_of_lessons": 0.67,
-   "share_best_ranked": null,
-   "share_others": null,
+   "families": 2,
+   "share_of_lessons": 0.29,
+   "share_best_ranked": 0.5,
+   "share_others": 0.2,
    "learner_voice": {
-    "struggles": 0,
+    "struggles": 1,
     "clicked": 0,
-    "requests": 0
+    "requests": 2
    },
-   "learner_themes": [],
-   "science": [],
-   "examples": [
+   "learner_themes": [
     {
-     "teacher": "FitLara Dance",
-     "dance": "Locking",
-     "t": "6:28",
-     "what": "Practises the routine with the music slowly first, then at normal speed.",
-     "url": "https://www.youtube.com/watch?v=uuxFumbQ3WM&t=388s"
+     "kind": "requests",
+     "theme": "demonstration with music",
+     "count": 2
     },
     {
-     "teacher": "Oleg Astakhov",
-     "dance": "swing dance",
-     "t": "7:50",
-     "what": "The teacher increases the speed of the counting and the steps, transitioning from a slow to a faster tempo.",
-     "url": "https://www.youtube.com/watch?v=RUCbV8C9CVE&t=470s"
+     "kind": "struggles",
+     "theme": "applying steps to music",
+     "count": 1
     }
    ],
-   "evidence_kinds": 0
-  },
-  {
-   "tag": "counts_and_rhythm",
-   "meaning": "counting, or the rhythm spoken or clapped (quick-quick-slow, boom-cha)",
-   "lessons": 1,
-   "teachers": 1,
-   "share_of_lessons": 0.33,
-   "share_best_ranked": null,
-   "share_others": null,
-   "learner_voice": {
-    "struggles": 0,
-    "clicked": 0,
-    "requests": 0
-   },
-   "learner_themes": [],
    "science": [],
+   "science_notes": 0,
    "examples": [
     {
-     "teacher": "Oleg Astakhov",
-     "dance": "swing dance",
-     "t": "2:22",
-     "what": "The teacher introduces counting 'one, two, three, four' to the side-to-side step.",
-     "url": "https://www.youtube.com/watch?v=RUCbV8C9CVE&t=142s"
+     "teacher": "Line Dance with Coral",
+     "dance": "First steps for people who believe they cannot dance (dance basics)",
+     "t": "5:00",
+     "what": "The teacher performs the full dance routine to music, allowing the learner to see the steps in context.",
+     "url": "https://www.youtube.com/watch?v=EAP1E-B5qk8&t=300s"
+    },
+    {
+     "teacher": "MihranTV",
+     "dance": "The Jerk",
+     "t": "4:07",
+     "what": "Practices the learned reject step sequence together with music at a slow tempo.",
+     "url": "https://www.youtube.com/watch?v=fMEBZ59AQLk&t=247s"
     }
    ],
-   "evidence_kinds": 0
+   "evidence_kinds": 1
   },
   {
-   "tag": "layering",
-   "meaning": "feet first, then arms, styling, turns or a partner on top",
+   "tag": "error_correction",
+   "meaning": "the common mistake is named and its fix is shown",
+   "do": "Name the common mistake and show the fix.",
    "lessons": 1,
    "teachers": 1,
-   "share_of_lessons": 0.33,
-   "share_best_ranked": null,
-   "share_others": null,
+   "families": 1,
+   "share_of_lessons": 0.14,
+   "share_best_ranked": 0.0,
+   "share_others": 0.2,
    "learner_voice": {
-    "struggles": 0,
+    "struggles": 3,
     "clicked": 0,
     "requests": 0
    },
-   "learner_themes": [],
+   "learner_themes": [
+    {
+     "kind": "struggles",
+     "theme": "losing balance during pirouettes and turning over",
+     "count": 3
+    }
+   ],
    "science": [],
+   "science_notes": 0,
    "examples": [
     {
      "teacher": "BodyKinect by Kendall",
      "dance": "Fouetté",
-     "t": "2:15",
-     "what": "Combines lower body plie to passe transition with matching arm movements.",
-     "url": "https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=135s"
+     "t": "1:07",
+     "what": "Shows correct knee alignment over toes during plie to prevent overextension.",
+     "url": "https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=67s"
     }
    ],
-   "evidence_kinds": 0
+   "evidence_kinds": 1
   },
   {
    "tag": "normalise_mistakes",
    "meaning": "mistakes are expected; the teacher makes light of them or shows their own",
+   "do": "Treat mistakes as normal, and show your own.",
    "lessons": 1,
    "teachers": 1,
-   "share_of_lessons": 0.33,
-   "share_best_ranked": null,
-   "share_others": null,
+   "families": 1,
+   "share_of_lessons": 0.14,
+   "share_best_ranked": 0.0,
+   "share_others": 0.2,
    "learner_voice": {
     "struggles": 0,
     "clicked": 0,
     "requests": 0
    },
    "learner_themes": [],
-   "science": [],
+   "science": [
+    {
+     "key": "self_efficacy",
+     "topic": "self efficacy",
+     "principle": "Belief in one's ability to succeed, supported by choice and positive expectations, directly improves the learning of motor skills.",
+     "for_the_teacher": [
+      "Give learners small choices during practice, such as picking the practice speed or song variation, to support their sense of autonomy.",
+      "Let learners choose when they want to view video recordings of their own movement."
+     ],
+     "sources": [
+      "https://en.wikipedia.org/wiki/Self-efficacy",
+      "https://europepmc.org/article/MED/21425889",
+      "https://europepmc.org/article/MED/25046402",
+      "https://europepmc.org/article/MED/24875153"
+     ]
+    }
+   ],
+   "science_notes": 1,
    "examples": [
     {
      "teacher": "BodyKinect by Kendall",
@@ -408,16 +675,270 @@
      "url": "https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=154s"
     }
    ],
-   "evidence_kinds": 0
+   "evidence_kinds": 1
   },
   {
-   "tag": "progression",
-   "meaning": "a harder version, styling or speed for those who are ready",
-   "lessons": 1,
-   "teachers": 1,
-   "share_of_lessons": 0.33,
-   "share_best_ranked": null,
-   "share_others": null,
+   "tag": "reason_to_return",
+   "meaning": "a reason to come back: the next lesson, a series, a challenge, a daily routine",
+   "do": "Give a reason to come back: the next step, a series, a routine.",
+   "lessons": 0,
+   "teachers": 0,
+   "families": 0,
+   "share_of_lessons": 0.0,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
+   "learner_voice": {
+    "struggles": 0,
+    "clicked": 0,
+    "requests": 1
+   },
+   "learner_themes": [
+    {
+     "kind": "requests",
+     "theme": "a complete playlist for beginners",
+     "count": 1
+    }
+   ],
+   "science": [
+    {
+     "key": "enjoyment_and_staying_with_it",
+     "topic": "enjoyment and staying with it",
+     "principle": "Exercise enjoyment, which heavily drives continued participation, is strongly boosted by music satisfaction, positive instructor interactions, and supportive social or partner dynamics.",
+     "for_the_teacher": [
+      "Play music that learners genuinely enjoy to maximize their overall satisfaction and motivation.",
+      "Foster positive social interactions and community elements within the online platform to support engagement and well-being."
+     ],
+     "sources": [
+      "https://europepmc.org/article/MED/17590968",
+      "https://europepmc.org/article/MED/28482703",
+      "https://europepmc.org/article/MED/27723781",
+      "https://europepmc.org/article/MED/37537758"
+     ]
+    }
+   ],
+   "science_notes": 1,
+   "examples": [],
+   "evidence_kinds": 1
+  },
+  {
+   "tag": "autonomy",
+   "meaning": "the learner chooses: pause, pick a tempo, pick a variation, own style",
+   "do": "Offer choices: the tempo, the variation, when to pause.",
+   "lessons": 0,
+   "teachers": 0,
+   "families": 0,
+   "share_of_lessons": 0.0,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
+   "learner_voice": {
+    "struggles": 0,
+    "clicked": 0,
+    "requests": 0
+   },
+   "learner_themes": [],
+   "science": [
+    {
+     "key": "expectancies_and_autonomy",
+     "topic": "expectancies and autonomy",
+     "principle": "Enhanced performance expectancies and autonomy support both improve motor learning and performance, and their benefits can be additive when combined.",
+     "for_the_teacher": [
+      "Provide learners with small choices during practice, such as selecting the color of a practice tool, to support their autonomy.",
+      "Give positive social-comparative feedback to enhance learners' performance expectancies.",
+      "Combine autonomy support and enhanced expectancies in lessons to maximize learning and retention accuracy."
+     ],
+     "sources": [
+      "https://europepmc.org/article/MED/26833314",
+      "https://europepmc.org/article/MED/25046402",
+      "https://europepmc.org/article/MED/28813352",
+      "https://europepmc.org/article/MED/24875153"
+     ]
+    },
+    {
+     "key": "autonomy_support",
+     "topic": "autonomy support",
+     "principle": "Supporting a learner's autonomy through small choices improves skill acquisition and retention, even when those choices are entirely unrelated to the physical task.",
+     "for_the_teacher": [
+      "Allow learners to make small choices during the lesson, such as selecting the color of a virtual prop or the order of practice routines.",
+      "Combine autonomy support with positive feedback regarding the learner's progress to further enhance motor learning."
+     ],
+     "sources": [
+      "https://en.wikipedia.org/wiki/Self-determination_theory",
+      "https://europepmc.org/article/MED/25046402",
+      "https://europepmc.org/article/MED/28813352",
+      "https://europepmc.org/article/MED/25732095"
+     ]
+    },
+    {
+     "key": "paper-med-28742426",
+     "topic": "Educating Students for a Lifetime of Physical Activity: Enhancing Mindfulness, Motivation, and Meaning",
+     "principle": "To foster lifelong physical activity, teachers should create a nurturing environment that emphasizes personal meaning, cognitive decision-making, and self-motivation.",
+     "for_the_teacher": [
+      "Ask students to reflect on what personal meaning they find in a specific dance style to increase their connection to the movement.",
+      "Provide suggestions for how students can practice or explore the dance steps in their own time outside of the lesson.",
+      "Use encouraging language that highlights the student's autonomy in making cognitive decisions about their own movement style."
+     ],
+     "sources": [
+      "https://europepmc.org/article/MED/28742426"
+     ]
+    }
+   ],
+   "science_notes": 3,
+   "examples": [],
+   "evidence_kinds": 1
+  },
+  {
+   "tag": "culture_and_meaning",
+   "meaning": "where the dance comes from and what it means, inside the lesson",
+   "do": "Say where the dance comes from and what it means.",
+   "lessons": 0,
+   "teachers": 0,
+   "families": 0,
+   "share_of_lessons": 0.0,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
+   "learner_voice": {
+    "struggles": 0,
+    "clicked": 0,
+    "requests": 0
+   },
+   "learner_themes": [],
+   "science": [
+    {
+     "key": "paper-med-28742426",
+     "topic": "Educating Students for a Lifetime of Physical Activity: Enhancing Mindfulness, Motivation, and Meaning",
+     "principle": "To foster lifelong physical activity, teachers should create a nurturing environment that emphasizes personal meaning, cognitive decision-making, and self-motivation.",
+     "for_the_teacher": [
+      "Ask students to reflect on what personal meaning they find in a specific dance style to increase their connection to the movement.",
+      "Provide suggestions for how students can practice or explore the dance steps in their own time outside of the lesson.",
+      "Use encouraging language that highlights the student's autonomy in making cognitive decisions about their own movement style."
+     ],
+     "sources": [
+      "https://europepmc.org/article/MED/28742426"
+     ]
+    }
+   ],
+   "science_notes": 1,
+   "examples": [],
+   "evidence_kinds": 1
+  },
+  {
+   "tag": "fun_and_energy",
+   "meaning": "humour, play and the teacher's own visible joy",
+   "do": "Bring humour and visible joy.",
+   "lessons": 0,
+   "teachers": 0,
+   "families": 0,
+   "share_of_lessons": 0.0,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
+   "learner_voice": {
+    "struggles": 0,
+    "clicked": 0,
+    "requests": 0
+   },
+   "learner_themes": [],
+   "science": [
+    {
+     "key": "enjoyment_and_staying_with_it",
+     "topic": "enjoyment and staying with it",
+     "principle": "Exercise enjoyment, which heavily drives continued participation, is strongly boosted by music satisfaction, positive instructor interactions, and supportive social or partner dynamics.",
+     "for_the_teacher": [
+      "Play music that learners genuinely enjoy to maximize their overall satisfaction and motivation.",
+      "Foster positive social interactions and community elements within the online platform to support engagement and well-being."
+     ],
+     "sources": [
+      "https://europepmc.org/article/MED/17590968",
+      "https://europepmc.org/article/MED/28482703",
+      "https://europepmc.org/article/MED/27723781",
+      "https://europepmc.org/article/MED/37537758"
+     ]
+    }
+   ],
+   "science_notes": 1,
+   "examples": [],
+   "evidence_kinds": 1
+  },
+  {
+   "tag": "quick_win",
+   "meaning": "the learner is dancing something real within the first minutes",
+   "do": "Get the learner dancing something real in the first minutes.",
+   "lessons": 0,
+   "teachers": 0,
+   "families": 0,
+   "share_of_lessons": 0.0,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
+   "learner_voice": {
+    "struggles": 0,
+    "clicked": 0,
+    "requests": 0
+   },
+   "learner_themes": [],
+   "science": [
+    {
+     "key": "early_success",
+     "topic": "early success",
+     "principle": "Enhancing learner expectancies for successful performance and providing early positive experiences help build motivation and support motor learning.",
+     "for_the_teacher": [
+      "Design early exercises to ensure learners achieve immediate successful outcomes to boost confidence and expectancy."
+     ],
+     "sources": [
+      "https://europepmc.org/article/MED/26833314",
+      "https://europepmc.org/article/MED/32721370",
+      "https://europepmc.org/article/MED/31455577",
+      "https://europepmc.org/article/MED/31126044"
+     ]
+    }
+   ],
+   "science_notes": 1,
+   "examples": [],
+   "evidence_kinds": 1
+  },
+  {
+   "tag": "recap_and_practice_plan",
+   "meaning": "a recap, homework or a practice routine to take away",
+   "do": "End with a recap and one small practice to take away.",
+   "lessons": 0,
+   "teachers": 0,
+   "families": 0,
+   "share_of_lessons": 0.0,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
+   "learner_voice": {
+    "struggles": 0,
+    "clicked": 0,
+    "requests": 0
+   },
+   "learner_themes": [],
+   "science": [
+    {
+     "key": "paper-med-28742426",
+     "topic": "Educating Students for a Lifetime of Physical Activity: Enhancing Mindfulness, Motivation, and Meaning",
+     "principle": "To foster lifelong physical activity, teachers should create a nurturing environment that emphasizes personal meaning, cognitive decision-making, and self-motivation.",
+     "for_the_teacher": [
+      "Ask students to reflect on what personal meaning they find in a specific dance style to increase their connection to the movement.",
+      "Provide suggestions for how students can practice or explore the dance steps in their own time outside of the lesson.",
+      "Use encouraging language that highlights the student's autonomy in making cognitive decisions about their own movement style."
+     ],
+     "sources": [
+      "https://europepmc.org/article/MED/28742426"
+     ]
+    }
+   ],
+   "science_notes": 1,
+   "examples": [],
+   "evidence_kinds": 1
+  },
+  {
+   "tag": "layering",
+   "meaning": "feet first, then arms, styling, turns or a partner on top",
+   "do": "Feet first; add arms, styling and turns only when the feet are steady.",
+   "lessons": 2,
+   "teachers": 2,
+   "families": 2,
+   "share_of_lessons": 0.29,
+   "share_best_ranked": 0.0,
+   "share_others": 0.4,
    "learner_voice": {
     "struggles": 0,
     "clicked": 0,
@@ -425,6 +946,72 @@
    },
    "learner_themes": [],
    "science": [],
+   "science_notes": 0,
+   "examples": [
+    {
+     "teacher": "BodyKinect by Kendall",
+     "dance": "Fouetté",
+     "t": "2:15",
+     "what": "Combines lower body plie to passe transition with matching arm movements.",
+     "url": "https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=135s"
+    },
+    {
+     "teacher": "Country Dance X",
+     "dance": "First steps for people who believe they cannot dance (dance basics)",
+     "t": "1:30",
+     "what": "The teacher demonstrates the dance position, explaining where to place hands and how to hold the partner.",
+     "url": "https://www.youtube.com/watch?v=lgMy5Gn84_c&t=90s"
+    }
+   ],
+   "evidence_kinds": 0
+  },
+  {
+   "tag": "demo_first",
+   "meaning": "the whole step or phrase shown once at speed before it is broken down",
+   "do": "Show the whole thing once at speed before breaking it down.",
+   "lessons": 1,
+   "teachers": 1,
+   "families": 1,
+   "share_of_lessons": 0.14,
+   "share_best_ranked": 0.0,
+   "share_others": 0.2,
+   "learner_voice": {
+    "struggles": 0,
+    "clicked": 0,
+    "requests": 0
+   },
+   "learner_themes": [],
+   "science": [],
+   "science_notes": 0,
+   "examples": [
+    {
+     "teacher": "MihranTV",
+     "dance": "The Jerk",
+     "t": "0:21",
+     "what": "Demonstrates the reject step once to music from a side profile view.",
+     "url": "https://www.youtube.com/watch?v=fMEBZ59AQLk&t=21s"
+    }
+   ],
+   "evidence_kinds": 0
+  },
+  {
+   "tag": "progression",
+   "meaning": "a harder version, styling or speed for those who are ready",
+   "do": "Offer a harder version to those who are ready.",
+   "lessons": 1,
+   "teachers": 1,
+   "families": 1,
+   "share_of_lessons": 0.14,
+   "share_best_ranked": 0.0,
+   "share_others": 0.2,
+   "learner_voice": {
+    "struggles": 0,
+    "clicked": 0,
+    "requests": 0
+   },
+   "learner_themes": [],
+   "science": [],
+   "science_notes": 0,
    "examples": [
     {
      "teacher": "BodyKinect by Kendall",
@@ -439,11 +1026,13 @@
   {
    "tag": "body_adaptation",
    "meaning": "options for knees, balance, age, a small room or no partner",
+   "do": "Give options for different bodies, small rooms and no partner.",
    "lessons": 0,
    "teachers": 0,
+   "families": 0,
    "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
    "learner_voice": {
     "struggles": 1,
     "clicked": 0,
@@ -457,77 +1046,20 @@
     }
    ],
    "science": [],
-   "examples": [],
-   "evidence_kinds": 0
-  },
-  {
-   "tag": "music_early",
-   "meaning": "practice with the music early and often",
-   "lessons": 0,
-   "teachers": 0,
-   "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
-   "learner_voice": {
-    "struggles": 1,
-    "clicked": 0,
-    "requests": 0
-   },
-   "learner_themes": [
-    {
-     "kind": "struggles",
-     "theme": "applying steps to music",
-     "count": 1
-    }
-   ],
-   "science": [],
-   "examples": [],
-   "evidence_kinds": 0
-  },
-  {
-   "tag": "culture_and_meaning",
-   "meaning": "where the dance comes from and what it means, inside the lesson",
-   "lessons": 0,
-   "teachers": 0,
-   "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
-   "learner_voice": {
-    "struggles": 0,
-    "clicked": 0,
-    "requests": 0
-   },
-   "learner_themes": [],
-   "science": [],
-   "examples": [],
-   "evidence_kinds": 0
-  },
-  {
-   "tag": "demo_first",
-   "meaning": "the whole step or phrase shown once at speed before it is broken down",
-   "lessons": 0,
-   "teachers": 0,
-   "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
-   "learner_voice": {
-    "struggles": 0,
-    "clicked": 0,
-    "requests": 0
-   },
-   "learner_themes": [],
-   "science": [],
+   "science_notes": 0,
    "examples": [],
    "evidence_kinds": 0
   },
   {
    "tag": "feel_and_groove",
    "meaning": "the feeling, bounce, weight and musicality before precision",
+   "do": "Teach the feeling and the bounce before precision.",
    "lessons": 0,
    "teachers": 0,
+   "families": 0,
    "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
    "learner_voice": {
     "struggles": 0,
     "clicked": 0,
@@ -535,17 +1067,20 @@
    },
    "learner_themes": [],
    "science": [],
+   "science_notes": 0,
    "examples": [],
    "evidence_kinds": 0
   },
   {
    "tag": "on_screen_counts",
    "meaning": "counts, step names or arrows written on the screen",
+   "do": "Put the counts and the step names on the screen.",
    "lessons": 0,
    "teachers": 0,
+   "families": 0,
    "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
    "learner_voice": {
     "struggles": 0,
     "clicked": 0,
@@ -553,17 +1088,20 @@
    },
    "learner_themes": [],
    "science": [],
+   "science_notes": 0,
    "examples": [],
    "evidence_kinds": 0
   },
   {
    "tag": "play_and_variation",
    "meaning": "improvise, vary, make it yours",
+   "do": "Invite the learner to vary it and make it their own.",
    "lessons": 0,
    "teachers": 0,
+   "families": 0,
    "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
    "learner_voice": {
     "struggles": 0,
     "clicked": 0,
@@ -571,35 +1109,20 @@
    },
    "learner_themes": [],
    "science": [],
-   "examples": [],
-   "evidence_kinds": 0
-  },
-  {
-   "tag": "recap_and_practice_plan",
-   "meaning": "a recap, homework or a practice routine to take away",
-   "lessons": 0,
-   "teachers": 0,
-   "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
-   "learner_voice": {
-    "struggles": 0,
-    "clicked": 0,
-    "requests": 0
-   },
-   "learner_themes": [],
-   "science": [],
+   "science_notes": 0,
    "examples": [],
    "evidence_kinds": 0
   },
   {
    "tag": "regression",
    "meaning": "an easier version is offered when the step is hard",
+   "do": "Offer an easier version the moment a step is hard.",
    "lessons": 0,
    "teachers": 0,
+   "families": 0,
    "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
    "learner_voice": {
     "struggles": 0,
     "clicked": 0,
@@ -607,17 +1130,20 @@
    },
    "learner_themes": [],
    "science": [],
+   "science_notes": 0,
    "examples": [],
    "evidence_kinds": 0
   },
   {
    "tag": "self_check",
    "meaning": "how to check yourself: a mirror, filming, landmarks, questions to ask",
+   "do": "Teach learners how to check themselves.",
    "lessons": 0,
    "teachers": 0,
+   "families": 0,
    "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
    "learner_voice": {
     "struggles": 0,
     "clicked": 0,
@@ -625,17 +1151,20 @@
    },
    "learner_themes": [],
    "science": [],
+   "science_notes": 0,
    "examples": [],
    "evidence_kinds": 0
   },
   {
    "tag": "social_connection",
    "meaning": "community, challenges, dancing with others, sharing",
+   "do": "Connect the learner with others: a partner, a challenge, something to share.",
    "lessons": 0,
    "teachers": 0,
+   "families": 0,
    "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
    "learner_voice": {
     "struggles": 0,
     "clicked": 0,
@@ -643,17 +1172,20 @@
    },
    "learner_themes": [],
    "science": [],
+   "science_notes": 0,
    "examples": [],
    "evidence_kinds": 0
   },
   {
    "tag": "split_screen",
    "meaning": "two views at once: feet and whole body, front and back, or two speeds",
+   "do": "Show two views at once when feet and body both matter.",
    "lessons": 0,
    "teachers": 0,
+   "families": 0,
    "share_of_lessons": 0.0,
-   "share_best_ranked": null,
-   "share_others": null,
+   "share_best_ranked": 0.0,
+   "share_others": 0.0,
    "learner_voice": {
     "struggles": 0,
     "clicked": 0,
@@ -661,6 +1193,7 @@
    },
    "learner_themes": [],
    "science": [],
+   "science_notes": 0,
    "examples": [],
    "evidence_kinds": 0
   }
@@ -683,6 +1216,15 @@
    "teacher": "FitLara Dance",
    "dance": "Locking",
    "url": "https://www.youtube.com/watch?v=uuxFumbQ3WM&t=455s"
+  },
+  {
+   "kind": "harder",
+   "tag": "progression",
+   "difficulty": "The step-back movement might feel too simple or not energetic enough for some.",
+   "adjustment": "The teacher suggests adding a hop to the step-back movement for those who want more energy.",
+   "teacher": "Line Dance with Coral",
+   "dance": "First steps for people who believe they cannot dance (dance basics)",
+   "url": "https://www.youtube.com/watch?v=EAP1E-B5qk8&t=240s"
   },
   {
    "kind": "easier",
@@ -719,9 +1261,51 @@
    "teacher": "BodyKinect by Kendall",
    "dance": "Fouetté",
    "url": "https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=544s"
+  },
+  {
+   "kind": "easier",
+   "tag": "regression",
+   "difficulty": "Beginners often feel stiff and do not know what to do with their arms.",
+   "adjustment": "The teacher suggests clapping to keep the beat and keep the arms moving.",
+   "teacher": "MihranTV",
+   "dance": "First steps for people who believe they cannot dance (dance basics)",
+   "url": "https://www.youtube.com/watch?v=ujREEgxEP7g&t=44s"
+  },
+  {
+   "kind": "easier",
+   "tag": "regression",
+   "difficulty": "Beginners may feel awkward or unsure about arm movements.",
+   "adjustment": "The teacher offers various arm variations, such as pushing or using both hands, to allow for personal expression.",
+   "teacher": "MihranTV",
+   "dance": "First steps for people who believe they cannot dance (dance basics)",
+   "url": "https://www.youtube.com/watch?v=ujREEgxEP7g&t=250s"
+  },
+  {
+   "kind": "easier",
+   "tag": "regression",
+   "difficulty": "The leader is afraid of stepping on the follower's feet.",
+   "adjustment": "The teacher advises the leader to keep knees and ankles close to each other as they pass through.",
+   "teacher": "Country Dance X",
+   "dance": "First steps for people who believe they cannot dance (dance basics)",
+   "url": "https://www.youtube.com/watch?v=lgMy5Gn84_c&t=225s"
   }
  ],
  "struggles": [
+  {
+   "tag": "other",
+   "theme": "feeling awkward or cringey while dancing alone",
+   "count": 6
+  },
+  {
+   "tag": "other",
+   "theme": "difficulty following along with other instructors",
+   "count": 3
+  },
+  {
+   "tag": "other",
+   "theme": "embarrassment when filming for class",
+   "count": 3
+  },
   {
    "tag": "error_correction",
    "theme": "losing balance during pirouettes and turning over",
@@ -729,7 +1313,32 @@
   },
   {
    "tag": "other",
+   "theme": "difficulty with coordination or feeling stiff",
+   "count": 3
+  },
+  {
+   "tag": "other",
+   "theme": "difficulty with the basic step",
+   "count": 3
+  },
+  {
+   "tag": "other",
    "theme": "stiff body",
+   "count": 2
+  },
+  {
+   "tag": "other",
+   "theme": "putting leg back instead of forward and mixing up legs",
+   "count": 2
+  },
+  {
+   "tag": "counts_and_rhythm",
+   "theme": "difficulty with the rhythm and counting",
+   "count": 2
+  },
+  {
+   "tag": "other",
+   "theme": "getting stepped on",
    "count": 2
   },
   {
@@ -751,16 +1360,30 @@
    "tag": "body_adaptation",
    "theme": "hitting surrounding furniture in a small room",
    "count": 1
+  },
+  {
+   "tag": "other",
+   "theme": "trouble keeping balance and staying on one leg",
+   "count": 1
+  },
+  {
+   "tag": "other",
+   "theme": "gathering momentum on the second step",
+   "count": 1
   }
  ],
  "screen": {
   "views": [
    [
     "front",
-    3
+    5
    ],
    [
     "back",
+    3
+   ],
+   [
+    "side",
     2
    ],
    [
@@ -768,17 +1391,17 @@
     1
    ],
    [
-    "side",
+    "feet_closeup",
     1
    ]
   ],
   "on_screen": [
    [
-    "step_names",
-    1
+    "captions",
+    2
    ],
    [
-    "captions",
+    "step_names",
     1
    ]
   ],
@@ -787,27 +1410,27 @@
  "entry_points": [
   [
    "feet_first",
-   3
+   7
   ],
   [
    "count_first",
-   1
+   2
+  ],
+  [
+   "watch_first",
+   2
   ],
   [
    "rhythm_first",
    1
-  ],
-  [
-   "watch_first",
-   1
   ]
  ],
  "pace": {
-  "median_seconds_before_first_movement": 111,
+  "median_seconds_before_first_movement": 40,
   "talk_vs_move": [
    [
     "balanced",
-    3
+    7
    ]
   ]
  },
@@ -830,6 +1453,22 @@
   },
   {
    "rank": 2,
+   "teacher": "Line Dance with Coral",
+   "score": 76.2,
+   "praise": 54,
+   "complaints": 3,
+   "lessons_found": 3,
+   "methods_studied": 1,
+   "system": "The teacher breaks the dance into small, manageable chunks, demonstrating each one clearly from a back view. She then combines these chunks into a sequence, repeating the full routine multiple times to ensure the learner can follow along. Finally, she performs the entire dance to music to demonstrate the final result.",
+   "signature": "The teacher uses a back view throughout the entire tutorial, allowing learners to mirror her movements without having to mentally flip left and right.",
+   "dances": [
+    "basics-first-steps",
+    "hustle",
+    "line-dance"
+   ]
+  },
+  {
+   "rank": 3,
    "teacher": "Oleg Astakhov",
    "score": 73.1,
    "praise": 41,
@@ -844,7 +1483,7 @@
    ]
   },
   {
-   "rank": 3,
+   "rank": 4,
    "teacher": "BodyKinect by Kendall",
    "score": 72.7,
    "praise": 62,
@@ -858,6 +1497,42 @@
     "calypso-tt",
     "fouette",
     "jazz-dance"
+   ]
+  },
+  {
+   "rank": 5,
+   "teacher": "MihranTV",
+   "score": 66.9,
+   "praise": 36,
+   "complaints": 2,
+   "lessons_found": 6,
+   "methods_studied": 2,
+   "system": "The teacher demonstrates the move once with music, then breaks down the footwork step-by-step from a mirrored angle. He repeats the sequence slowly, gradually adding counts and momentum before practicing with music at increasing speeds.",
+   "signature": "Explicitly stating that the video has been mirrored for the learner to follow along easily.",
+   "dances": [
+    "basics-first-steps",
+    "hip-hop",
+    "hip-hop-dance",
+    "rabbit-dance",
+    "slide",
+    "the-jerk"
+   ]
+  },
+  {
+   "rank": 12,
+   "teacher": "Country Dance X",
+   "score": 63.9,
+   "praise": 25,
+   "complaints": 0,
+   "lessons_found": 6,
+   "methods_studied": 1,
+   "system": "The teacher introduces the basic step by having the learner walk in a straight line. He then adds the rhythm of two quick steps and two slow steps, while emphasizing the importance of maintaining a consistent body speed. Finally, he explains the dance position and the importance of maintaining distance between partners to avoid stepping on each other's feet.",
+   "signature": "The teacher explicitly frames the responsibility for not stepping on feet as the follower's job to maintain distance and stay in sync with the leader's body movement.",
+   "dances": [
+    "basics-first-steps",
+    "english-country-dance",
+    "step-dance",
+    "west-coast-swing"
    ]
   }
  ],
@@ -896,6 +1571,7 @@
     "Combine autonomy support with positive feedback regarding the learner's progress to further enhance motor learning."
    ],
    "when_it_does_not_apply": "",
+   "cited_by": 80,
    "sources": [
     {
      "url": "https://en.wikipedia.org/wiki/Self-determination_theory",
@@ -935,6 +1611,129 @@
    ]
   },
   {
+   "key": "early_success",
+   "topic": "early success",
+   "tags": [
+    "quick_win",
+    "praise_and_expectancy"
+   ],
+   "principle": "Enhancing learner expectancies for successful performance and providing early positive experiences help build motivation and support motor learning.",
+   "findings": [
+    {
+     "finding": "Conditions that enhance expectancies for future performance contribute to motor performance and learning by strengthening goal-action coupling.",
+     "quote": "These include research on (a) conditions that enhance expectancies for future performance",
+     "source": "https://europepmc.org/article/MED/26833314"
+    },
+    {
+     "finding": "Expected success helps consolidate memories and propels the cognitive and motor systems forward.",
+     "quote": "Expected success presumably breeds further success and helps consolidate memories.",
+     "source": "https://europepmc.org/article/MED/26833314"
+    },
+    {
+     "finding": "Groups experiencing higher success rates and enhanced expectancies can make more hits and achieve heightened outcome expectancies.",
+     "quote": "As predicted, the Large-target group made more hits and had heightened outcome expectancies compared to the Small-target group.",
+     "source": "https://europepmc.org/article/MED/31126044"
+    }
+   ],
+   "for_the_teacher": [
+    "Design early exercises to ensure learners achieve immediate successful outcomes to boost confidence and expectancy."
+   ],
+   "when_it_does_not_apply": "",
+   "cited_by": 599,
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/26833314",
+     "title": "Optimizing performance through intrinsic motivation and attention for learning: The OPTIMAL theory of motor learning",
+     "authors": "Wulf G, Lewthwaite R.",
+     "year": "2016",
+     "journal": "Psychonomic bulletin & review"
+    },
+    {
+     "url": "https://europepmc.org/article/MED/32721370",
+     "title": "A test of optimal theory on young adolescents' standing long jump performance and motivation",
+     "authors": "Simpson T, Cronin L, Ellison P, Carnegie E, Marchant D.",
+     "year": "2020",
+     "journal": "Human movement science"
+    },
+    {
+     "url": "https://europepmc.org/article/MED/31455577",
+     "title": "Can the Perceived Difficulty of a Task Enhance Trainee Performance?",
+     "authors": "Aljamal Y, Prabhakar N, Saleem H, Farley DR.",
+     "year": "2019",
+     "journal": "Journal of surgical education"
+    },
+    {
+     "url": "https://europepmc.org/article/MED/31126044",
+     "title": "Target Size Manipulations Affect Error-Processing Duration and Success Perceptions but not Behavioural Indices of Learning",
+     "authors": "Ong NT, Hawke J, Hodges NJ.",
+     "year": "2019",
+     "journal": "Brain sciences"
+    }
+   ]
+  },
+  {
+   "key": "enjoyment_and_staying_with_it",
+   "topic": "enjoyment and staying with it",
+   "tags": [
+    "fun_and_energy",
+    "reason_to_return"
+   ],
+   "principle": "Exercise enjoyment, which heavily drives continued participation, is strongly boosted by music satisfaction, positive instructor interactions, and supportive social or partner dynamics.",
+   "findings": [
+    {
+     "finding": "Satisfaction with the music used in an exercise setting accounts for the largest share of variance in exercise enjoyment.",
+     "quote": "satisfaction with music (21%) accounted for the most variance in exercise enjoyment",
+     "source": "https://europepmc.org/article/MED/17590968"
+    },
+    {
+     "finding": "Participants experience greater enjoyment and achievement when dancing with partners who share good rapport and compatible approaches.",
+     "quote": "gained greater enjoyment and sense of achievement from dance classes in comparison to couples who did not enjoy dancing together",
+     "source": "https://europepmc.org/article/MED/28482703"
+    },
+    {
+     "finding": "Enjoyment is a significant predictor of out-of-class physical activity levels among participants.",
+     "quote": "Significant effects of gender, group, enjoyment, and intensity on out-of-class weekly aerobic activity were observed",
+     "source": "https://europepmc.org/article/MED/27723781"
+    }
+   ],
+   "for_the_teacher": [
+    "Play music that learners genuinely enjoy to maximize their overall satisfaction and motivation.",
+    "Foster positive social interactions and community elements within the online platform to support engagement and well-being."
+   ],
+   "when_it_does_not_apply": "",
+   "cited_by": 29,
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/17590968",
+     "title": "Assessment of factors associated with exercise enjoyment",
+     "authors": "Wininger SR, Pargman D.",
+     "year": "2003",
+     "journal": "Journal of music therapy"
+    },
+    {
+     "url": "https://europepmc.org/article/MED/28482703",
+     "title": "It takes two: the influence of dance partners on the perceived enjoyment and benefits during participation in partnered ballroom dance classes for people with Parkinson's",
+     "authors": "Kunkel D, Robison J, Fitton C, Hulbert S, Hulbert S, Roberts L, Wiles R, Pickering R, Roberts H, Ashburn A.",
+     "year": "2018",
+     "journal": "Disability and rehabilitation"
+    },
+    {
+     "url": "https://europepmc.org/article/MED/27723781",
+     "title": "Contamination by an Active Control Condition in a Randomized Exercise Trial",
+     "authors": "Ehlers DK, Fanning J, Awick EA, Kramer AF, McAuley E.",
+     "year": "2016",
+     "journal": "PloS one"
+    },
+    {
+     "url": "https://europepmc.org/article/MED/37537758",
+     "title": "A Safe and Feasible Online Dance Intervention for Older Adults With and Without Parkinson's Disease",
+     "authors": "Pinto C, Figueiredo C, Mabilia V, Cruz T, Jeffrey ER, Pagnussat AS.",
+     "year": "2023",
+     "journal": "Journal of dance medicine & science : official publication of the International Association for Dance Medicine & Science"
+    }
+   ]
+  },
+  {
    "key": "expectancies_and_autonomy",
    "topic": "expectancies and autonomy",
    "tags": [
@@ -970,6 +1769,7 @@
     "Combine autonomy support and enhanced expectancies in lessons to maximize learning and retention accuracy."
    ],
    "when_it_does_not_apply": "",
+   "cited_by": 599,
    "sources": [
     {
      "url": "https://europepmc.org/article/MED/26833314",
@@ -1035,6 +1835,7 @@
     "Design feedback cues that direct attention further away from the user's body to promote more effective movement control."
    ],
    "when_it_does_not_apply": "",
+   "cited_by": 599,
    "sources": [
     {
      "url": "https://europepmc.org/article/MED/26833314",
@@ -1063,6 +1864,120 @@
      "authors": "Wulf G, McConnel N, Gärtner M, Schwarz A.",
      "year": "2002",
      "journal": "Journal of motor behavior"
+    }
+   ]
+  },
+  {
+   "key": "self_efficacy",
+   "topic": "self efficacy",
+   "tags": [
+    "praise_and_expectancy",
+    "normalise_mistakes"
+   ],
+   "principle": "Belief in one's ability to succeed, supported by choice and positive expectations, directly improves the learning of motor skills.",
+   "findings": [
+    {
+     "finding": "Giving learners a small choice and positive performance expectations improves their accuracy and increases their self-efficacy.",
+     "quote": "Autonomy support and enhanced expectancies had additive advantages for learning, with both main effects being significant for retention and transfer.",
+     "source": "https://europepmc.org/article/MED/25046402"
+    },
+    {
+     "finding": "External focus instructions combined with enhanced expectancies increase self-efficacy and improve motor skill retention and transfer.",
+     "quote": "Furthermore, self-efficacy was increased by both external focus and enhanced expectancy, and predicted retention and transfer performance.",
+     "source": "https://europepmc.org/article/MED/24875153"
+    },
+    {
+     "finding": "Allowing learners to control when they view video feedback leads to greater increases in self-efficacy and better skill progression.",
+     "quote": "Analysis of the acquisition data showed the LC group had greater increases in self-efficacy as compared to the EC group.",
+     "source": "https://europepmc.org/article/MED/23355826"
+    }
+   ],
+   "for_the_teacher": [
+    "Give learners small choices during practice, such as picking the practice speed or song variation, to support their sense of autonomy.",
+    "Let learners choose when they want to view video recordings of their own movement."
+   ],
+   "when_it_does_not_apply": "",
+   "cited_by": 149,
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Self-efficacy",
+     "title": "Self-efficacy",
+     "authors": "Wikipedia contributors",
+     "year": "",
+     "journal": "Wikipedia"
+    },
+    {
+     "url": "https://europepmc.org/article/MED/21425889",
+     "title": "Interactive processes link the multiple symptoms of fatigue in sport competition",
+     "authors": "Knicker AJ, Renshaw I, Oldham AR, Cairns SP.",
+     "year": "2011",
+     "journal": "Sports medicine (Auckland, N.Z.)"
+    },
+    {
+     "url": "https://europepmc.org/article/MED/25046402",
+     "title": "Additive benefits of autonomy support and enhanced expectancies for motor learning",
+     "authors": "Wulf G, Chiviacowsky S, Cardozo PL.",
+     "year": "2014",
+     "journal": "Human movement science"
+    },
+    {
+     "url": "https://europepmc.org/article/MED/24875153",
+     "title": "Additive benefits of external focus and enhanced performance expectancy for motor learning",
+     "authors": "Pascua LA, Wulf G, Lewthwaite R.",
+     "year": "2015",
+     "journal": "Journal of sports sciences"
+    },
+    {
+     "url": "https://europepmc.org/article/MED/23355826",
+     "title": "Learner-Controlled Self-Observation is Advantageous for Motor Skill Acquisition",
+     "authors": "Ste-Marie DM, Vertes KA, Law B, Rymal AM.",
+     "year": "2012",
+     "journal": "Frontiers in psychology"
+    }
+   ]
+  }
+ ],
+ "papers": [
+  {
+   "key": "paper-med-28742426",
+   "topic": "Educating Students for a Lifetime of Physical Activity: Enhancing Mindfulness, Motivation, and Meaning",
+   "tags": [
+    "culture_and_meaning",
+    "autonomy",
+    "recap_and_practice_plan"
+   ],
+   "principle": "To foster lifelong physical activity, teachers should create a nurturing environment that emphasizes personal meaning, cognitive decision-making, and self-motivation.",
+   "findings": [
+    {
+     "finding": "Teachers should prioritize strategies that encourage students to engage in physical activity outside of the classroom setting.",
+     "quote": "It will require teachers and program leaders to focus programmatic attention on strategies to actually increase students' out-of-class physical activity behavior.",
+     "source": "https://europepmc.org/article/MED/28742426"
+    },
+    {
+     "finding": "A supportive and motivating teaching environment is essential for creating transformative learning experiences.",
+     "quote": "Transformative PE provides physical activity content within a nurturing and motivating environment that can change students' lives.",
+     "source": "https://europepmc.org/article/MED/28742426"
+    },
+    {
+     "finding": "Connecting physical activities to personal meaning helps students find relevance and motivation.",
+     "quote": "It focuses on PE students' role in cognitive decision making, self-motivation, and their search for personal meaning that can add connection and relevance to physical activities.",
+     "source": "https://europepmc.org/article/MED/28742426"
+    }
+   ],
+   "for_the_teacher": [
+    "Ask students to reflect on what personal meaning they find in a specific dance style to increase their connection to the movement.",
+    "Provide suggestions for how students can practice or explore the dance steps in their own time outside of the lesson.",
+    "Use encouraging language that highlights the student's autonomy in making cognitive decisions about their own movement style."
+   ],
+   "when_it_does_not_apply": "",
+   "cited_by": 41,
+   "sources": [
+    {
+     "url": "https://europepmc.org/article/MED/28742426",
+     "title": "Educating Students for a Lifetime of Physical Activity: Enhancing Mindfulness, Motivation, and Meaning",
+     "authors": "Ennis CD.",
+     "year": "2017",
+     "journal": "Research quarterly for exercise and sport"
     }
    ]
   }
