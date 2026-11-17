@@ -217,6 +217,9 @@ class TeachingResearchTests(Project):
         self.assertEqual(mentor["meant_to_learners"][0], {"theme": "first time i felt i could dance", "count": 15})
         self.assertEqual((s["learner_model"][0]["seen_most"], s["learner_model"][1]["seen_most"], s["learner_model"][2]["seen_most"]), ([("tempo_ramp", 12)], [("mirror_view", 18)], [["awkward", 3]]))
         self.assertEqual((s["counts"]["feelings_answered"], s["counts"]["lessons_with_mentor_reading"], len(s["how_to_use"])), (3, 3, 5))
+        # a feeling that is named and answered counts as evidence for the practice of naming the feeling
+        named = next(p for p in s["practices"] if p["tag"] == "names_the_feeling")
+        self.assertEqual((named["teachers"], named["examples"][0]["t"]), (3, "2:40"))
         self.assertEqual(next(p for p in s["practices"] if p["tag"] == "chunking")["evidence_kinds"], 1)
         self.assertEqual((s["counts"]["lessons_studied_for_method"], s["counts"]["adaptations_seen"], s["counts"]["practices_with_two_or_more_kinds"]), (3, 3, 1))
         self.assertEqual(s["struggles"][0], {"tag": "tempo_ramp", "theme": "the turn is too fast", "count": 12})
@@ -271,6 +274,12 @@ class TeachingResearchTests(Project):
         self.assertEqual([(l["youtube_id"], l["slug"]) for _, l in basics], [("F1", "basics-first-steps")])
         self.assertEqual(teaching.basics_name("basics-first-steps"), "First steps (basics)")
         self.assertEqual(teaching.praise(["Muchas gracias, easy to follow", "trop vite"]), (2, 1))
+        # with two or more searches a night, the last one looks for a teacher explaining how they teach
+        asked, state2 = [], {}
+        with patch.object(teaching, "ytdlp_search", side_effect=lambda q, n=15: asked.append(q) or []):
+            teaching.discover_foundations({}, state2, 3)
+        talk_phrases = [q for slug, _, qs in teaching.FOUNDATIONS if slug == teaching.TALKS for q in qs]
+        self.assertEqual((asked[2], asked[0] in talk_phrases, state2["foundation_search"], state2["talk_search"]), (talk_phrases[0], False, 2, 1))
 
     def test_the_open_search_never_reads_a_paper_twice_and_the_model_proposes_its_tags(self):
         papers = [dict(PAPER, url="https://europepmc.org/article/MED/%d" % i, title="Paper %d" % i) for i in (1, 2, 3)]
