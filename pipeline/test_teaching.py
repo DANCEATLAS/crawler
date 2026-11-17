@@ -188,14 +188,19 @@ class TeachingResearchTests(Project):
         notes = {"mirrors_in_dance": {"key": "mirrors_in_dance", "status": "ok", "topic": "mirrors in dance", "tags": ["mirror_view"], "principle": "A mirror view helps copying.",
                                       "findings": [{"finding": "f", "quote": "q", "source": PAPER["url"]}], "for_the_teacher": ["Turn your back."], "when_it_does_not_apply": "",
                                       "sources": [{"url": PAPER["url"], "title": "t", "authors": "a", "year": "2001", "journal": "j"}]}}
-        s = teaching.fuse(teaching.build_teachers(LESSONS, {}, methods), methods, notes)
+        s = teaching.fuse(teaching.build_teachers(LESSONS, {}, methods), methods, notes, family_of={"salsa": "latin"}, today=dt.date(2026, 11, 17))
         first = s["practices"][0]
-        self.assertEqual((first["tag"], first["evidence_kinds"], first["teachers"], first["learner_voice"]["clicked"]), ("mirror_view", 3, 3, 18))
+        self.assertEqual((first["tag"], first["evidence_kinds"], first["teachers"], first["families"], first["learner_voice"]["clicked"]), ("mirror_view", 3, 3, 1, 18))
+        # the DNA is only what two or more kinds of evidence agree on; the adjustment table starts from what learners find hard
+        self.assertEqual([(d["theme"], d["tag"]) for d in s["dna"]], [("See it", "mirror_view")])
+        self.assertEqual((s["adjustments"][0]["tag"], s["adjustments"][0]["comments"], s["adjustments"][0]["learners_say"]), ("tempo_ramp", 12, ["the turn is too fast"]))
+        self.assertEqual(set(t for _, tags in teaching.THEMES for t in tags), set(teaching.PRACTICES))
         self.assertEqual(next(p for p in s["practices"] if p["tag"] == "chunking")["evidence_kinds"], 1)
         self.assertEqual((s["counts"]["lessons_studied_for_method"], s["counts"]["adaptations_seen"], s["counts"]["practices_with_two_or_more_kinds"]), (3, 3, 1))
         self.assertEqual(s["struggles"][0], {"tag": "tempo_ramp", "theme": "the turn is too fast", "count": 12})
         page = teaching.render(s)
-        for must in ("### Mirror view ●●●", "&t=20s", "walk it without turning first", "Turn your back.", "## The teachers studied so far"):
+        for must in ("### Mirror view ●●●", "&t=20s", "walk it without turning first", "Turn your back.", "## The teachers studied so far",
+                     "## The teaching DNA so far", "Show the step from behind or mirrored, so it can be copied directly. ●●●", "## How the Best Dance Friend adjusts"):
             self.assertIn(must, page)
         self.assertNotIn("someone", json.dumps(s))
 
@@ -203,7 +208,7 @@ class TeachingResearchTests(Project):
         jsave("tutorial_results.json", LESSONS)
         model = Model()
         with patch.object(teaching, "LLM", return_value=model), patch.object(teaching, "fetch_comments", return_value=["the back view finally made it click"]), \
-                patch.object(teaching, "science_sources", return_value=[PAPER]), patch.object(common, "log"):
+                patch.object(teaching, "science_sources", return_value=[PAPER]), patch.object(teaching, "ytdlp_search", return_value=[]), patch.object(common, "log"):
             rec = teaching.run(budget=2, science=1)
         self.assertEqual((rec["counters"].get("method_ok"), rec["counters"].get("science_ok"), model.asked), (2, 1, ["method", "method", "science"]))
         self.assertEqual(jload("pedagogy/methods/A1.json")["comments_read"], 1)
@@ -212,7 +217,7 @@ class TeachingResearchTests(Project):
             self.assertIn("Ana Dance", f.read())
         self.assertEqual(jload("pedagogy/teachers.json")["teachers"][0]["methods_studied"], 1)
         broken = Model(method=None, note=None)
-        with patch.object(teaching, "LLM", return_value=broken), patch.object(teaching, "fetch_comments", return_value=[]), \
+        with patch.object(teaching, "LLM", return_value=broken), patch.object(teaching, "fetch_comments", return_value=[]), patch.object(teaching, "ytdlp_search", return_value=[]), \
                 patch.object(teaching, "science_sources", return_value=[PAPER]), patch.object(common, "log"), patch.object(common, "warn"):
             rec = teaching.run(budget=5, science=2)
         self.assertEqual(jload("pedagogy/methods/A1.json")["status"], "ok")
@@ -220,10 +225,54 @@ class TeachingResearchTests(Project):
         self.assertEqual((rec["counters"].get("method_failed"), broken.asked), (3, ["method"] * 3))
         self.assertEqual(jload("pedagogy/bdf_system.json")["counts"]["lessons_studied_for_method"], 2)
 
+    def test_basics_lessons_come_from_a_free_search_and_stay_only_when_learners_praise_them(self):
+        store, state = {}, {}
+        facts = [{"youtube_id": "F1", "title": "How to find the beat", "channel": "Beat Coach", "comments": 90}, {"youtube_id": "F2", "title": "Rhythm", "channel": "Other", "comments": 50}]
+        said = {"F1": ["This finally clicked for me", "Best teacher ever, so clear"], "F2": ["too fast", "confusing"]}
+        with patch.object(teaching, "ytdlp_search", return_value=["F1", "F2"]), patch.object(teaching, "video_facts", return_value=facts), \
+                patch.object(teaching, "fetch_comments", side_effect=lambda yid, n=60: said[yid]):
+            self.assertEqual(teaching.discover_foundations(store, state, 1, today=dt.date(2026, 11, 17)), 1)
+            self.assertEqual(teaching.discover_foundations(store, state, 1), 0)          # the same videos are never judged twice
+        self.assertEqual((state["foundation_search"], [l["channel"] for l in store["topics"]["first-steps"]["lessons"]]), (2, ["Beat Coach"]))
+        lessons = teaching.all_lessons(LESSONS, store)
+        teachers = teaching.build_teachers(lessons)
+        self.assertIn("Beat Coach", [t["teacher"] for t in teachers])
+        basics = teaching.pick_methods(teachers, {}, 3, want=lambda l: l["slug"].startswith(teaching.BASICS))
+        self.assertEqual([(l["youtube_id"], l["slug"]) for _, l in basics], [("F1", "basics-first-steps")])
+        self.assertEqual(teaching.basics_name("basics-first-steps"), "First steps for people who believe they cannot dance (dance basics)")
+        self.assertEqual(teaching.praise(["Muchas gracias, easy to follow", "trop vite"]), (2, 1))
+
+    def test_the_open_search_never_reads_a_paper_twice_and_the_model_proposes_its_tags(self):
+        papers = [dict(PAPER, url="https://europepmc.org/article/MED/%d" % i, title="Paper %d" % i) for i in (1, 2, 3)]
+        state, search = {}, (lambda q, n=20: papers)
+        self.assertEqual([teaching.paper_key(p) for p in teaching.discover_papers(state, {}, 2, search=search)], ["paper-med-1", "paper-med-2"])
+        self.assertEqual([teaching.paper_key(p) for p in teaching.discover_papers(state, {}, 2, search=search)], ["paper-med-3"])
+        self.assertEqual((teaching.discover_papers(state, {}, 2, search=search), state["paper_search"]), ([], 3))
+        item = (teaching.paper_key(papers[0]), "", "", [])
+        note = teaching.science_note(item, Model(note=dict(NOTE, tags=["imagery", "nonsense", "quick_win"])), sources=[papers[0]], topic=papers[0]["title"])
+        self.assertEqual((note["status"], note["tags"], note["topic"]), ("ok", ["imagery", "quick_win"], "Paper 1"))
+        self.assertEqual(teaching.science_note(item, Model(), sources=[papers[0]])["status"], "thin")       # no practice named: it cannot be joined
+        self.assertEqual(len(set(teaching.PAPER_QUERIES)), len(teaching.PAPER_QUERIES))
+
+    def test_a_night_of_reading_topic_notes_and_papers_from_the_open_search(self):
+        jsave("tutorial_results.json", LESSONS)
+        papers = [dict(PAPER, url="https://europepmc.org/article/MED/%d" % i, title="Paper %d" % i) for i in (1, 2)]
+        model = Model(note=dict(NOTE, tags=["imagery"]))
+        with patch.object(teaching, "LLM", return_value=model), patch.object(teaching, "ytdlp_search", return_value=[]), patch.object(teaching, "science_sources", return_value=[PAPER]), \
+                patch.object(teaching, "europe_pmc", return_value=papers), patch.object(common, "log"):
+            rec = teaching.run(budget=0)
+        # three topics and two papers; the second paper's quotes are not in its own abstract, so its note is not used
+        self.assertEqual((rec["counters"].get("science_ok"), rec["counters"].get("paper_ok"), rec["counters"].get("paper_thin"), model.asked), (3, 1, 1, ["science"] * 5))
+        counts = jload("pedagogy/bdf_system.json")["counts"]
+        self.assertEqual((counts["science_notes"], counts["paper_notes"], counts["practices_total"]), (3, 1, 27))
+        with open("BDF_TEACHING_SYSTEM.md", encoding="utf-8") as f:
+            self.assertIn("## Papers found by the open search (1;", f.read())
+
     def test_with_the_engine_off_nothing_is_asked_and_the_tables_are_still_rebuilt(self):
         jsave("tutorial_results.json", LESSONS)
         model = Model(enabled=False)
         with patch.object(teaching, "LLM", return_value=model), patch.object(teaching, "fetch_comments", side_effect=AssertionError("no network when off")), \
+                patch.object(teaching, "ytdlp_search", side_effect=AssertionError("no network when off")), patch.object(teaching, "europe_pmc", side_effect=AssertionError("no network when off")), \
                 patch.object(teaching, "science_sources", side_effect=AssertionError("no network when off")), patch.object(common, "log"):
             rec = teaching.run(budget=5, science=3)
         self.assertEqual((model.asked, rec["errors"]), ([], []))

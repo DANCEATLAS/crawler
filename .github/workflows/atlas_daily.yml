@@ -64,10 +64,15 @@ jobs:
           # performances observed per day: what a dance looks and sounds like in its own hero video (dances without a lesson on the web)
           PERFORMANCE_BUDGET: "30"
           # teaching research for the Best Dance Friend (BDF_TEACHING_SYSTEM.md): lessons watched a day for HOW the teacher teaches
-          # (one free video call each, read together with the public comments), and research notes written a day from open sources
+          # (one free video call each, read together with the public comments; BASICS_SHARE of them teach what every dance shares),
+          # free searches a day for such basics lessons (yt-dlp, no API search quota), research topics written a day from open sources,
+          # and papers a day from the open search (Europe PMC, most cited first)
           TEACHING_BUDGET: "10"
+          BASICS_SHARE: "3"
+          FOUNDATION_SEARCHES: "3"
           SCIENCE_BUDGET: "3"
-          TEACHING_MAX_MINUTES: "30"
+          PAPER_BUDGET: "2"
+          TEACHING_MAX_MINUTES: "40"
           # time guards: a slow model day must not eat the run (the judge, the build and the report still have to happen)
           RESEARCH_MAX_MINUTES: "180"
           PEDAGOGY_MAX_MINUTES: "60"
