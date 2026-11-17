@@ -166,6 +166,21 @@ class TeachingResearchTests(Project):
         before = {"A1": {"status": "ok", "teacher_key": "ana-dance", "method": teaching.normalise_method(METHOD)}}
         self.assertEqual(pick(before, 2), ["A1", "B1"])
 
+    def test_a_teachers_talk_is_studied_first_each_night_when_one_is_waiting(self):
+        today, out = dt.date(2026, 11, 17), {"X9": {"status": "not_a_lesson"}}
+        lessons = dict(LESSONS, **{teaching.BASICS + "first-steps": {"lessons": [{"youtube_id": "F1", "channel": "Ana Dance", "title": "Your first steps", "pos": 20, "neg": 0}]},
+                                   teaching.BASICS + teaching.TALKS: {"lessons": [{"youtube_id": "T1", "channel": "Quiet Teacher", "title": "How I teach adults", "pos": 2, "neg": 0}]}})
+        ids = lambda r: [l["youtube_id"] for _, l in r[0]]
+        got = teaching.tonight(teaching.build_teachers(lessons, out, {}), {}, 4, today=today)
+        # the talk first although its teacher ranks low, then the basics, then the dances
+        self.assertEqual((ids(got), got[1], got[2]), (["T1", "F1", "A1", "B1"], 2, 1))
+        done = {"T1": {"status": "ok", "schema": teaching.SCHEMA, "teacher_key": teaching.channel_key("Quiet Teacher"), "method": teaching.normalise_method(METHOD)}}
+        again = teaching.tonight(teaching.build_teachers(lessons, out, done), done, 4, today=today)
+        # no talk waiting: its place goes back to the basics and the dances
+        self.assertEqual((ids(again), again[1], again[2]), (["F1", "A1", "B1", "C1"], 1, 0))
+        # a lesson read before beliefs were kept apart from step technique is read once more
+        self.assertTrue(teaching._due(dict(done["T1"], schema=2), today))
+
     def test_only_the_vocabulary_real_timestamps_and_nameless_themes_are_kept(self):
         m = teaching.normalise_method(METHOD)
         self.assertEqual(m["screen"]["views"], ["mirror", "feet_closeup"])
