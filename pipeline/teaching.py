@@ -189,7 +189,7 @@ PAPER_QUERIES = [
 ]
 # What every dance shares. Lessons for people who believe they cannot dance: slug, title, searches (free, yt-dlp).
 FOUNDATIONS = [
-    ("first-steps", "First steps for people who believe they cannot dance", [
+    ("first-steps", "First steps", [   # for people who believe they cannot dance
         "how to dance for absolute beginners", "learn to dance at home for beginners step by step", "two step dance tutorial for beginners",
         "como aprender a bailar desde cero principiantes", "como dançar para iniciantes passo a passo", "apprendre à danser débutant pas de base",
         "tanzen lernen für anfänger grundschritt", "как научиться танцевать с нуля", "ダンス 初心者 基礎 練習", "डांस कैसे सीखें शुरुआत से", "belajar dance dasar untuk pemula", "零基础 学跳舞 教学"]),
@@ -208,6 +208,9 @@ FOUNDATIONS = [
     ("older-beginners", "Older beginners", ["dance lesson for seniors beginners", "chair dance for seniors beginners follow along"]),
     ("party", "Dancing at a party", ["how to dance at a party for beginners", "simple dance moves for weddings beginners"]),
 ]
+# In a paper database "dance" is also the honeybee's waggle dance, and those papers are cited most: keep the search on people.
+PEOPLE = (" AND (ABSTRACT:participants OR ABSTRACT:students OR ABSTRACT:dancers OR ABSTRACT:learners OR ABSTRACT:adults OR ABSTRACT:children)"
+          " NOT ABSTRACT:bees NOT ABSTRACT:honeybee NOT ABSTRACT:honeybees")
 PRAISE = ["finally clicked", "best teacher", "so clear", "i learned so much", "wish i had this earlier", "made it simple", "thank you so much", "understand now", "perfect breakdown",
           "amazing instructor", "patient teacher", "easy to follow", "changed my life", "this works", "helped me a lot", "great teacher", "well explained", "makes sense now",
           "muchas gracias", "muito obrigad", "merci beaucoup", "vielen dank", "спасибо", "ありがとう", "谢谢", "謝謝", "धन्यवाद", "شكرا", "terima kasih", "grazie mille", "teşekkür", "감사합니다"]
@@ -241,7 +244,7 @@ def _days_since(stamp, today=None):
         return 10 ** 6
 
 def basics_name(slug):
-    return next((title for s, title, _ in FOUNDATIONS if BASICS + s == slug), slug.replace("-", " ")) + " (dance basics)"
+    return next((title for s, title, _ in FOUNDATIONS if BASICS + s == slug), slug.replace("-", " ")) + " (basics)"
 
 def all_lessons(per_dance, foundations):
     """One list: the crawler's lessons per dance, and the lessons that teach what every dance shares."""
@@ -437,7 +440,7 @@ def europe_pmc(query, n=4):
     if not query:
         return []
     u = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?" + urllib.parse.urlencode(
-        {"query": query + " AND HAS_ABSTRACT:y", "format": "json", "resultType": "core", "pageSize": str(max(12, min(60, 3 * n))), "sort": "CITED desc"})
+        {"query": query + (PEOPLE if "ABSTRACT:dance" in query else "") + " AND HAS_ABSTRACT:y", "format": "json", "resultType": "core", "pageSize": str(max(12, min(60, 3 * n))), "sort": "CITED desc"})
     out = []
     for r in ((get_json(u, timeout=60, retries=2) or {}).get("resultList") or {}).get("result") or []:
         ab = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", r.get("abstractText") or "")).strip()
@@ -632,7 +635,7 @@ def render(s):
           f"| Dances and dance families those lessons cover | {c['dances_covered']:,} dances, {c['families_covered']:,} families |",
           f"| Learner comments read (kept as themes, no names) | {c['comments_read']:,} |",
           f"| Moments where a teacher adapts to a difficulty | {c['adaptations_seen']:,} |",
-          f"| Research notes with checked quotes | {c['science_notes']} of {c['science_topics_total']} topics, and {c['paper_notes']:,} papers from the open search ({c['science_findings_checked']:,} findings) |",
+          f"| Research notes with checked quotes | {c['science_notes']} of {c['science_topics_total']} topics, and {pl(c['paper_notes'], 'paper')} from the open search ({c['science_findings_checked']:,} findings) |",
           f"| Teaching practices backed by two or more kinds of evidence | {c['practices_with_two_or_more_kinds']} of {c['practices_total']} ({c['practices_with_all_three']} by all three) |", "",
           "Three kinds of evidence are joined for every practice: **teachers** (at least three ranked teachers do it), **learners** (their comments speak of it) and **research** (a note with checked quotes). ●●● means all three.", ""]
     n7 = s["new_in_7_days"]

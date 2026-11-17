@@ -239,7 +239,7 @@ class TeachingResearchTests(Project):
         self.assertIn("Beat Coach", [t["teacher"] for t in teachers])
         basics = teaching.pick_methods(teachers, {}, 3, want=lambda l: l["slug"].startswith(teaching.BASICS))
         self.assertEqual([(l["youtube_id"], l["slug"]) for _, l in basics], [("F1", "basics-first-steps")])
-        self.assertEqual(teaching.basics_name("basics-first-steps"), "First steps for people who believe they cannot dance (dance basics)")
+        self.assertEqual(teaching.basics_name("basics-first-steps"), "First steps (basics)")
         self.assertEqual(teaching.praise(["Muchas gracias, easy to follow", "trop vite"]), (2, 1))
 
     def test_the_open_search_never_reads_a_paper_twice_and_the_model_proposes_its_tags(self):
@@ -253,6 +253,11 @@ class TeachingResearchTests(Project):
         self.assertEqual((note["status"], note["tags"], note["topic"]), ("ok", ["imagery", "quick_win"], "Paper 1"))
         self.assertEqual(teaching.science_note(item, Model(), sources=[papers[0]])["status"], "thin")       # no practice named: it cannot be joined
         self.assertEqual(len(set(teaching.PAPER_QUERIES)), len(teaching.PAPER_QUERIES))
+        # in a paper database "dance" is also the honeybee's dance: a dance query is kept on people, other queries are left alone
+        asked = []
+        with patch.object(teaching, "get_json", side_effect=lambda u, **kw: asked.append(u) or {}):
+            teaching.europe_pmc('ABSTRACT:dance AND ABSTRACT:learning'); teaching.europe_pmc('ABSTRACT:"external focus"')
+        self.assertEqual(["honeybee" in u and "participants" in u for u in asked], [True, False])
 
     def test_a_night_of_reading_topic_notes_and_papers_from_the_open_search(self):
         jsave("tutorial_results.json", LESSONS)
