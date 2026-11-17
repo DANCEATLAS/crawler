@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       stage:
-        description: "daily | bootstrap | audit | discover | research | qc | hero_qc | build | pedagogy | episodes | translate | activation | readiness | sync | report | selftest"
+        description: "daily | bootstrap | audit | discover | research | qc | hero_qc | build | pedagogy | teaching | episodes | translate | activation | readiness | sync | report | selftest"
         default: "daily"
       research_new:
         description: "new dances to research this run"
@@ -43,6 +43,7 @@ jobs:
       - name: Self-test (offline)
         run: python -m pipeline.run selftest
       - name: Run pipeline
+        timeout-minutes: 310   # the step may be cut short; the commit step below still runs and saves what was done
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
@@ -56,16 +57,23 @@ jobs:
           HERO_QC_BUDGET: ${{ github.event.inputs.hero_qc_budget || '120' }}
           DISCOVER_MAX_NEW: ${{ github.event.inputs.discover_max_new || '60' }}
           AUDIT_LLM_BUDGET: "150"
-          # budgets are sized to the free tier: flash 20 requests a day per model (kept for the writer), flash-lite 500 a day per model (judges, video)
+          # budgets are sized to the free tier: flash 20 requests a day per model (kept for the writer); flash-lite carries judges and video (on 16 Nov only the newest flash-lite model had a large day quota)
           # the movie phase (MOVIE_PHASE.md): tutorial videos studied per day (Gemini watches the public YouTube URL, free tier),
           # and episode packs whose narration the model may polish per day (0 = assembled text only; polished text is verified)
           PEDAGOGY_BUDGET: "24"
           # performances observed per day: what a dance looks and sounds like in its own hero video (dances without a lesson on the web)
           PERFORMANCE_BUDGET: "30"
+          # teaching research for the Best Dance Friend (BDF_TEACHING_SYSTEM.md): lessons watched a day for HOW the teacher teaches
+          # (one free video call each, read together with the public comments), and research notes written a day from open sources
+          TEACHING_BUDGET: "10"
+          SCIENCE_BUDGET: "3"
+          TEACHING_MAX_MINUTES: "30"
           # time guards: a slow model day must not eat the run (the judge, the build and the report still have to happen)
           RESEARCH_MAX_MINUTES: "180"
           PEDAGOGY_MAX_MINUTES: "60"
           LLM_TIMEOUT_STRONG: "300"
+          # when every usable model is resting (overloaded), a question waits for it instead of being dropped: at most this long a run
+          LLM_WAIT_BUDGET_SECONDS: "2400"
           EPISODE_POLISH: "4"
           # one narrator, every language: gap-free packs are translated scene by scene (TRANSLATE_BUDGET calls a day) into these languages
           TRANSLATE_BUDGET: "6"
