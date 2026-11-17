@@ -287,3 +287,14 @@ What was built for it (`pipeline/teaching.py`):
 - **A moment is evidence:** a moment that shows a practice counts for that practice in the join (`_practices()`), so the practices that keep a learner (a quick win, praise, mistakes made normal, a reason to return) can gain teacher evidence.
 - **The talk search keeps talks:** a video found by it stays only when its title speaks of teaching or learning (`TALK_TITLE`).
 - The page's mentor section and `mentor` in `bdf_teaching_system.json` now carry `moments`, `creed` and `what_stays` beside voice, feelings and beliefs. 88 tests pass. The proof of each night's looks is the `mentor_look_ok` counter of the `teaching` stage in `pipeline_state/runs.json`.
+
+Pull request 16 (merge `711f2af`) carried the mentor look; the 4 files on main matched the tested copies. Live run 40 (stage `teaching`, budget 2, 10 minutes, commit `d7254bb`): 5 more lessons found, 2 studied (one from the talk search), **10 mentor looks**, 2 looks and all 5 research notes unanswered. On the page after it: 48 moments (the opening 10, before a hard part 13, after a mistake 9, after a success 7, checking in 5, the close 4), feelings met 12 where there had been 1, beliefs of 12 teachers under the four headings, and teacher evidence for three practices that keep a learner (praise and small wins, mistakes made normal, a reason to return): 7 practices with two or more kinds of evidence, 2 with all three.
+
+The unanswered questions of that run were not the lessons' fault: the day's free quota was spent (`model trouble: day_quota_used_up 6, no_model_available 5`). Counted from `pipeline_state/runs.json` for that Pacific day: 328 calls by the night of 16 November, 84 by the five live tests, then nothing more. So the free day is about 400 calls, and the night alone uses most of it.
+
+What followed (pull request 17):
+
+- **The mentor research runs last of the stages that ask a model** (`pipeline/run.py`: … pedagogy → episodes → translate → activation → teaching → readiness → sync → report). It takes what is left of the day and can never take from the stages that grow the library.
+- **A spent quota is not a failed lesson:** when a question fails because no model could be asked, nothing is written against the lesson, the look or the research topic, and the stage stops asking (`gone()` in `run()`). Before this, a lesson would have waited two days, and after three such nights a month.
+- **Descriptions only:** the look is asked for the third person, and a moment written in the first person (the teacher's own words) is dropped on reading and on the page (`_described()`). Two of the 48 moments were such sentences.
+- 89 tests pass. No live run followed: the day's quota was spent; the night of 17 November is the first to run all of it.
