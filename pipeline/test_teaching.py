@@ -101,7 +101,12 @@ LESSONS = {"salsa": {"lessons": [{"youtube_id": "A1", "channel": "Ana Dance", "t
            "bachata": {"lessons": [{"youtube_id": "A2", "channel": "Ana Dance", "title": "Bachata basics", "pos": 25, "neg": 0},
                                    {"youtube_id": "C1", "channel": "Cy", "title": "Bachata", "pos": 2, "neg": 6},
                                    {"youtube_id": "X9", "channel": "Clips", "title": "Bachata show", "pos": 9, "neg": 0}]}}
-METHOD = {"is_lesson": True, "teacher_system": "Shows the whole step, then three small pieces, then the music.", "signature": "Counts in the rhythm's own words.",
+METHOD = {"is_lesson": True, "kind": "lesson",
+          "mentor": {"voice": ["warm", "playful", "robotic"],
+                     "beliefs": [{"t": "0:05", "belief": "Anyone who can walk can dance."}, {"t": "", "belief": "no timestamp, dropped"}],
+                     "feelings": [{"t": "2:40", "feeling": "awkward", "response": "Says she felt silly in her first class too, and laughs with the camera."},
+                                  {"t": "3:00", "feeling": "hungry", "response": "not a feeling in the list"}]},
+          "teacher_system": "Shows the whole step, then three small pieces, then the music.", "signature": "Counts in the rhythm's own words.",
           "screen": {"views": ["mirror", "feet_closeup", "hologram"], "on_screen": ["counts"], "editing": ["slow_motion"]},
           "practices": [{"tag": "mirror_view", "t": "0:20", "what": "turns her back so learners copy directly"},
                         {"tag": "chunking", "t": "1:05", "what": "three pieces, one at a time"},
@@ -112,7 +117,8 @@ METHOD = {"is_lesson": True, "teacher_system": "Shows the whole step, then three
           "entry_points": ["feet_first", "by_magic"], "pace": {"talk_vs_move": "balanced", "seconds_before_first_movement": 40, "pieces_taught": 3},
           "learner_voice": {"struggles": [{"theme": "The turn is too fast", "tag": "tempo_ramp", "count": 4}],
                             "clicked": [{"theme": "the back view", "tag": "mirror_view", "count": 6, "author": "someone"}],
-                            "requests": [{"theme": "a slower version", "tag": "nonsense", "count": 2}]},
+                            "requests": [{"theme": "a slower version", "tag": "nonsense", "count": 2}],
+                            "meant": [{"theme": "First time I felt I could dance", "tag": "quick_win", "count": 5}]},
           "limits": "the feet leave the frame"}
 PAPER = {"url": "https://europepmc.org/article/MED/1", "kind": "paper", "title": "Focus of attention", "authors": "W", "year": "2001", "journal": "J", "cited_by": 5,
          "text": "Learners who directed attention to the effect of the movement learned the skill faster than learners who attended to their own limbs. "
@@ -150,12 +156,15 @@ class TeachingResearchTests(Project):
         today = dt.date(2026, 11, 17)
         pick = lambda methods, n: [l["youtube_id"] for _, l in teaching.pick_methods(teaching.build_teachers(LESSONS, {"X9": {"status": "not_a_lesson"}}, methods), methods, n, today=today)]
         self.assertEqual(pick({}, 4), ["A1", "B1", "C1", "A2"])
-        done = {"A1": {"status": "ok", "teacher_key": "ana-dance", "method": teaching.normalise_method(METHOD)},
+        done = {"A1": {"status": "ok", "schema": teaching.SCHEMA, "teacher_key": "ana-dance", "method": teaching.normalise_method(METHOD)},
                 "B1": {"status": "failed", "analysed_at": "2026-11-16T22:00:00Z", "attempts": 1}}
         self.assertEqual(pick(done, 4), ["C1", "A2"])
         done["B1"]["analysed_at"] = "2026-11-14T22:00:00Z"
         self.assertEqual(pick(done, 4), ["B1", "C1", "A2"])
         self.assertFalse(teaching._due({"status": "not_a_lesson", "analysed_at": "2020-01-01T00:00:00Z"}, today))
+        # a lesson watched before the mentor reading existed is watched once more, in its teacher's turn
+        before = {"A1": {"status": "ok", "teacher_key": "ana-dance", "method": teaching.normalise_method(METHOD)}}
+        self.assertEqual(pick(before, 2), ["A1", "B1"])
 
     def test_only_the_vocabulary_real_timestamps_and_nameless_themes_are_kept(self):
         m = teaching.normalise_method(METHOD)
@@ -165,6 +174,10 @@ class TeachingResearchTests(Project):
         self.assertEqual(m["entry_points"], ["feet_first"])
         self.assertEqual(m["learner_voice"]["clicked"], [{"theme": "the back view", "tag": "mirror_view", "count": 6}])
         self.assertEqual(m["learner_voice"]["requests"][0]["tag"], "other")
+        # the mentor reading: only listed voices and feelings, only beliefs and feelings with a real moment in the video
+        self.assertEqual((m["mentor"]["voice"], [b["belief"] for b in m["mentor"]["beliefs"]], [f["feeling"] for f in m["mentor"]["feelings"]]),
+                         (["warm", "playful"], ["Anyone who can walk can dance."], ["awkward"]))
+        self.assertEqual(m["learner_voice"]["meant"], [{"theme": "First time I felt I could dance", "tag": "quick_win", "count": 5}])
         self.assertEqual((teaching._secs("1:05"), teaching._secs("1:02:03"), teaching._secs("soon")), (65, 3723, None))
 
     def test_a_research_note_stands_only_on_quotes_that_are_in_the_source(self):
@@ -183,7 +196,8 @@ class TeachingResearchTests(Project):
     def test_three_kinds_of_evidence_are_joined_per_practice(self):
         methods = {}
         for yid, who in (("A1", "Ana Dance"), ("B1", "Bo"), ("C1", "Cy")):
-            methods[yid] = {"youtube_id": yid, "status": "ok", "teacher": who, "teacher_key": teaching.channel_key(who), "teacher_score": 50, "slug": "salsa", "dance": "Salsa",
+            methods[yid] = {"youtube_id": yid, "status": "ok", "schema": teaching.SCHEMA, "kind": "teacher_talk" if yid == "C1" else "lesson",
+                            "teacher": who, "teacher_key": teaching.channel_key(who), "teacher_score": 50, "slug": "salsa", "dance": "Salsa",
                             "url": "https://www.youtube.com/watch?v=" + yid, "comments_read": 60, "method": teaching.normalise_method(METHOD)}
         notes = {"mirrors_in_dance": {"key": "mirrors_in_dance", "status": "ok", "topic": "mirrors in dance", "tags": ["mirror_view"], "principle": "A mirror view helps copying.",
                                       "findings": [{"finding": "f", "quote": "q", "source": PAPER["url"]}], "for_the_teacher": ["Turn your back."], "when_it_does_not_apply": "",
@@ -195,14 +209,30 @@ class TeachingResearchTests(Project):
         self.assertEqual([(d["theme"], d["tag"]) for d in s["dna"]], [("See it", "mirror_view")])
         self.assertEqual((s["adjustments"][0]["tag"], s["adjustments"][0]["comments"], s["adjustments"][0]["learners_say"]), ("tempo_ramp", 12, ["the turn is too fast"]))
         self.assertEqual(set(t for _, tags in teaching.THEMES for t in tags), set(teaching.PRACTICES))
+        # two teachers show the practice in a lesson, one says it in a talk
+        self.assertEqual((first["show_it"], first["say_it"], first["lessons"], first["talks"], s["counts"]["talks_studied"]), (2, 1, 2, 1, 1))
+        # the mentor: voice, beliefs (said once, kept once), feelings met, what the lessons meant; and what to remember about a learner
+        mentor = s["mentor"]
+        self.assertEqual((dict(mentor["voice"]), len(mentor["beliefs"]), mentor["feelings"][0]["feeling"], mentor["feelings"][0]["seen"]), ({"warm": 3, "playful": 3}, 1, "awkward", 3))
+        self.assertEqual(mentor["meant_to_learners"][0], {"theme": "first time i felt i could dance", "count": 15})
+        self.assertEqual((s["learner_model"][0]["seen_most"], s["learner_model"][1]["seen_most"], s["learner_model"][2]["seen_most"]), ([("tempo_ramp", 12)], [("mirror_view", 18)], [["awkward", 3]]))
+        self.assertEqual((s["counts"]["feelings_answered"], s["counts"]["lessons_with_mentor_reading"], len(s["how_to_use"])), (3, 3, 5))
         self.assertEqual(next(p for p in s["practices"] if p["tag"] == "chunking")["evidence_kinds"], 1)
         self.assertEqual((s["counts"]["lessons_studied_for_method"], s["counts"]["adaptations_seen"], s["counts"]["practices_with_two_or_more_kinds"]), (3, 3, 1))
         self.assertEqual(s["struggles"][0], {"tag": "tempo_ramp", "theme": "the turn is too fast", "count": 12})
         page = teaching.render(s)
         for must in ("### Mirror view ●●●", "&t=20s", "walk it without turning first", "Turn your back.", "## The teachers studied so far",
-                     "## The teaching DNA so far", "Show the step from behind or mirrored, so it can be copied directly. ●●●", "## How the Best Dance Friend adjusts"):
+                     "## The teaching DNA so far", "Show the step from behind or mirrored, so it can be copied directly. ●●●", "## How the Best Dance Friend adjusts",
+                     "## The mentor: voice, beliefs and how feelings are met", "When the learner feels **awkward** (met 3 times)", "Anyone who can walk can dance.",
+                     "## What the Best Dance Friend should remember about each learner", "# The evidence", "1 teacher say it in talks"):
             self.assertIn(must, page)
         self.assertNotIn("someone", json.dumps(s))
+        # a lesson watched before the mentor reading existed still counts as evidence and breaks nothing
+        early = json.loads(json.dumps(methods["A1"]))
+        early.update(youtube_id="Z9", teacher="Zed", teacher_key="zed"); early.pop("schema"); early.pop("kind"); early["method"].pop("mentor"); early["method"]["learner_voice"].pop("meant")
+        s2 = teaching.fuse(teaching.build_teachers(LESSONS, {}, methods), dict(methods, Z9=early), notes)
+        self.assertEqual((s2["counts"]["lessons_studied_for_method"], s2["counts"]["lessons_with_mentor_reading"]), (4, 3))
+        self.assertIn("the earlier ones are watched once more", teaching.render(s2))
 
     def test_the_stage_studies_writes_the_page_and_never_loses_a_studied_lesson(self):
         jsave("tutorial_results.json", LESSONS)
@@ -211,7 +241,7 @@ class TeachingResearchTests(Project):
                 patch.object(teaching, "science_sources", return_value=[PAPER]), patch.object(teaching, "ytdlp_search", return_value=[]), patch.object(common, "log"):
             rec = teaching.run(budget=2, science=1)
         self.assertEqual((rec["counters"].get("method_ok"), rec["counters"].get("science_ok"), model.asked), (2, 1, ["method", "method", "science"]))
-        self.assertEqual(jload("pedagogy/methods/A1.json")["comments_read"], 1)
+        self.assertEqual([jload("pedagogy/methods/A1.json")[k] for k in ("comments_read", "schema", "kind")], [1, teaching.SCHEMA, "lesson"])
         self.assertEqual(jload("public/catalog/bdf_teaching_system.json")["contract"], "da_bdf_teaching_v1")
         with open("BDF_TEACHING_SYSTEM.md", encoding="utf-8") as f:
             self.assertIn("Ana Dance", f.read())
@@ -269,7 +299,7 @@ class TeachingResearchTests(Project):
         # three topics and two papers; the second paper's quotes are not in its own abstract, so its note is not used
         self.assertEqual((rec["counters"].get("science_ok"), rec["counters"].get("paper_ok"), rec["counters"].get("paper_thin"), model.asked), (3, 1, 1, ["science"] * 5))
         counts = jload("pedagogy/bdf_system.json")["counts"]
-        self.assertEqual((counts["science_notes"], counts["paper_notes"], counts["practices_total"]), (3, 1, 27))
+        self.assertEqual((counts["science_notes"], counts["paper_notes"], counts["practices_total"]), (3, 1, 34))
         with open("BDF_TEACHING_SYSTEM.md", encoding="utf-8") as f:
             self.assertIn("## Papers found by the open search (1;", f.read())
 

@@ -70,17 +70,29 @@ PRACTICE = {
     "progression": ("a harder version, styling or speed for those who are ready", "Offer a harder version to those who are ready."),
     "body_adaptation": ("options for knees, balance, age, a small room or no partner", "Give options for different bodies, small rooms and no partner."),
     "self_check": ("how to check yourself: a mirror, filming, landmarks, questions to ask", "Teach learners how to check themselves."),
+    # the mentor: not what is taught but who is teaching, and how the learner is met as a person
+    "names_the_feeling": ("the teacher says out loud what the learner may be feeling (awkward, lost, frustrated) and answers it", "Say what the learner may be feeling, and answer it."),
+    "own_story": ("the teacher shares their own beginnings, struggles or mistakes", "Share your own beginnings and struggles."),
+    "dance_is_for_everyone": ("anyone can dance: any body, any age, no talent needed", "Say, and show, that dance belongs to everybody."),
+    "learner_as_dancer": ("the learner is treated as a dancer already: \"you are dancing\", \"your style\"", "Treat the learner as a dancer from the first minute."),
+    "long_road": ("the road ahead: what this leads to, how long it honestly takes, patience", "Show the road ahead and how long it honestly takes."),
+    "checks_in": ("the learner is asked to notice: how did that feel, where is your weight, what changed", "Ask the learner to notice how it felt."),
+    "rest_and_kindness": ("permission to pause, breathe or stop for today; kindness to oneself", "Give permission to pause and to come back tomorrow."),
 }
 PRACTICES = {k: v[0] for k, v in PRACTICE.items()}
 THEMES = [("See it", ["mirror_view", "split_screen", "on_screen_counts", "demo_first"]),
           ("Build it", ["chunking", "layering", "tempo_ramp", "counts_and_rhythm", "music_early", "repetition", "recap_and_practice_plan"]),
           ("Feel it", ["imagery", "feel_and_groove", "culture_and_meaning", "play_and_variation"]),
           ("Stay with it", ["quick_win", "praise_and_expectancy", "normalise_mistakes", "fun_and_energy", "autonomy", "social_connection", "reason_to_return"]),
-          ("Fit the person", ["error_correction", "regression", "progression", "body_adaptation", "self_check"])]
+          ("Fit the person", ["error_correction", "regression", "progression", "body_adaptation", "self_check"]),
+          ("Be a mentor", ["names_the_feeling", "own_story", "dance_is_for_everyone", "learner_as_dancer", "long_road", "checks_in", "rest_and_kindness"])]
 VIEWS = ("front", "back", "mirror", "side", "overhead", "feet_closeup", "split_screen", "picture_in_picture")
 ON_SCREEN = ("counts", "step_names", "arrows_or_diagrams", "captions", "timer_or_progress")
 EDITING = ("slow_motion", "loop_replay", "freeze_frame", "speed_labels")
 ENTRY = ("watch_first", "count_first", "rhythm_first", "feet_first", "feel_first", "story_first")
+VOICE = ("warm", "playful", "calm", "energetic", "precise", "humorous", "patient", "direct", "gentle", "passionate")
+FEELINGS = ("awkward", "afraid_of_looking_silly", "frustrated", "overwhelmed", "bored", "tired", "self_doubt", "impatient", "proud", "joyful")
+SCHEMA = 2   # 2 = the mentor block (voice, beliefs, feelings met) and what a lesson meant to learners; older records are watched once more
 ADAPT_KINDS = {"easier": "regression", "harder": "progression", "slower": "tempo_ramp", "different_body": "body_adaptation",
                "no_partner": "body_adaptation", "small_space": "body_adaptation", "mindset": "normalise_mistakes", "other": None}
 TAG_LIST = "\n".join(f"- {k}: {v}" for k, v in PRACTICES.items())
@@ -88,23 +100,31 @@ TAG_LIST = "\n".join(f"- {k}: {v}" for k, v in PRACTICES.items())
 METHOD_SYSTEM = """You are studying HOW an online dance class teaches, for the design of an AI dance teacher. Two sources, kept apart:
 (A) the VIDEO: report only what is seen or heard in it. (B) the LEARNER COMMENTS written under it: report only what the comments say.
 Output a single JSON object:
-{"is_lesson": true|false  (false for performances, vlogs, music videos, trailers),
+{"is_lesson": true|false  (true for a dance lesson, and for a talk in which a dance teacher explains how to teach or how to learn dancing;
+                           false for performances, music videos, trailers and vlogs about something else),
+ "kind": "lesson|teacher_talk",
  "teacher_system": "<two or three sentences: what this teacher does, in order, to get a beginner dancing>",
  "signature": "<the one thing this teacher does that most teachers do not; empty if nothing stands out>",
  "screen": {"views": [<any of: """ + ", ".join(VIEWS) + """>], "on_screen": [<any of: """ + ", ".join(ON_SCREEN) + """>], "editing": [<any of: """ + ", ".join(EDITING) + """>]},
- "practices": [{"tag": "<one tag from the list below>", "t": "m:ss", "what": "<what the teacher does, at most 25 words; describe, do not transcribe>"}],
+ "practices": [{"tag": "<one tag from the list below>", "t": "m:ss", "what": "<what the teacher does (in a talk: what the teacher says a teacher or a learner should do), at most 25 words; describe, do not transcribe>"}],
  "adaptations": [{"t": "m:ss", "difficulty": "<what a learner may find hard, as the teacher frames it>", "adjustment": "<what the teacher offers instead>",
                   "kind": "<one of: """ + ", ".join(ADAPT_KINDS) + """>"}],
  "entry_points": [<any of: """ + ", ".join(ENTRY) + """>],
  "pace": {"talk_vs_move": "mostly_talk|balanced|mostly_move", "seconds_before_first_movement": <integer or null>, "pieces_taught": <integer or null>},
+ "mentor": {"voice": [<any of: """ + ", ".join(VOICE) + """>],
+            "beliefs": [{"t": "m:ss", "belief": "<what the teacher says about dancing or about learning, in your own words, at most 25 words>"}],
+            "feelings": [{"t": "m:ss", "feeling": "<one of: """ + ", ".join(FEELINGS) + """>", "response": "<what the teacher says or does about that feeling, at most 25 words>"}]},
  "learner_voice": {"struggles": [{"theme": "<what learners say they find hard, at most 12 words>", "tag": "<a tag from the list, or other>", "count": <comments saying it>}],
                    "clicked": [{"theme": "<what learners say made it work for them>", "tag": "<tag or other>", "count": <integer>}],
-                   "requests": [{"theme": "<what learners ask the teacher for>", "tag": "<tag or other>", "count": <integer>}]},
+                   "requests": [{"theme": "<what learners ask the teacher for>", "tag": "<tag or other>", "count": <integer>}],
+                   "meant": [{"theme": "<what learners say the lesson meant to them or how it made them feel>", "tag": "<tag or other>", "count": <integer>}]},
  "limits": "<what the video cannot show, or what you could not tell>"}
 Tags:
 """ + TAG_LIST + """
 Rules: at most 12 practices and 6 adaptations, each with a real timestamp from the video; never invent a timestamp.
 An adaptation is only what the teacher actually offers ("if this is hard, do this", "you can also"), never your own advice.
+The mentor block is about the person teaching: at most 4 beliefs and 6 feelings, each with a real timestamp. A feeling is listed only
+when the teacher names it or plainly speaks to it ("if you feel silly right now, good, so did I"); never guess what learners feel.
 learner_voice comes ONLY from the comments: no names, no quotations, themes in your own words; empty lists when the comments
 say nothing of the kind or none are supplied. Do not judge how good the teacher is. If is_lesson is false, keep every list empty.
 Only the first """ + str(METHOD_SECONDS) + """ seconds of the video are supplied."""
@@ -174,6 +194,24 @@ SCIENCE = [
     ("dance_across_life", "Dance and health", 'ABSTRACT:dance AND ABSTRACT:lifespan', ["body_adaptation", "reason_to_return"]),
     ("embodied_cognition", "Embodied cognition", "", ["feel_and_groove", "culture_and_meaning"]),
     ("gamification", "Gamification of learning", 'ABSTRACT:gamification AND ABSTRACT:"physical activity" AND ABSTRACT:motivation', ["social_connection", "reason_to_return"]),
+    # the mentor: the relationship, the voice, how feelings are met, how a tutor adapts to one person over time
+    ("coach_and_learner_relationship", "", 'ABSTRACT:"coach-athlete relationship" AND ABSTRACT:motivation', ["checks_in", "own_story", "social_connection"]),
+    ("working_alliance", "Therapeutic relationship", 'ABSTRACT:"working alliance" AND ABSTRACT:coaching', ["checks_in", "names_the_feeling"]),
+    ("teacher_enthusiasm", "", 'ABSTRACT:"teacher enthusiasm" AND ABSTRACT:motivation', ["fun_and_energy"]),
+    ("need_supportive_teaching", "", 'ABSTRACT:"need-supportive" AND ABSTRACT:"physical education"', ["autonomy", "learner_as_dancer", "checks_in"]),
+    ("teacher_expectations", "Pygmalion effect", 'ABSTRACT:"teacher expectations" AND ABSTRACT:achievement', ["learner_as_dancer", "praise_and_expectancy"]),
+    ("self_compassion", "Self-compassion", 'ABSTRACT:"self-compassion" AND ABSTRACT:exercise', ["rest_and_kindness", "normalise_mistakes"]),
+    ("embarrassment_and_body_image", "", 'ABSTRACT:dance AND ABSTRACT:"body image" AND ABSTRACT:adults', ["names_the_feeling", "dance_is_for_everyone"]),
+    ("anxiety_and_confidence", "Stage fright", 'ABSTRACT:dance AND ABSTRACT:anxiety AND ABSTRACT:"self-confidence"', ["names_the_feeling", "rest_and_kindness"]),
+    ("emotion_and_learning", "", 'ABSTRACT:emotions AND ABSTRACT:"motor learning" AND ABSTRACT:performance', ["names_the_feeling", "fun_and_energy"]),
+    ("identity_and_staying", "", 'ABSTRACT:"exercise identity" AND ABSTRACT:adherence', ["learner_as_dancer", "reason_to_return"]),
+    ("human_tutoring", "Bloom's 2 sigma problem", 'ABSTRACT:"human tutoring" AND ABSTRACT:"intelligent tutoring systems"', ["checks_in", "regression", "progression"]),
+    ("adaptive_tutors", "Intelligent tutoring system", 'ABSTRACT:"intelligent tutoring" AND ABSTRACT:adaptive AND ABSTRACT:learning', ["checks_in", "regression", "progression"]),
+    ("virtual_coaches", "", 'ABSTRACT:"conversational agent" AND ABSTRACT:"physical activity" AND ABSTRACT:coaching', ["checks_in", "reason_to_return"]),
+    ("mentoring", "Mentorship", 'ABSTRACT:mentoring AND ABSTRACT:"self-efficacy" AND ABSTRACT:learning', ["own_story", "long_road"]),
+    ("deliberate_practice", "Practice (learning method)", 'ABSTRACT:"deliberate practice" AND ABSTRACT:expertise', ["long_road", "repetition"]),
+    ("adult_learners", "Andragogy", 'ABSTRACT:"adult learners" AND ABSTRACT:motivation AND ABSTRACT:"physical activity"', ["long_road", "autonomy"]),
+    ("dance_for_everyone", "", 'ABSTRACT:dance AND ABSTRACT:inclusive AND ABSTRACT:disability', ["dance_is_for_everyone", "body_adaptation"]),
 ]
 # The open search: one of these a night, in turn; the most cited papers not yet read get a note each. It never ends.
 PAPER_QUERIES = [
@@ -186,6 +224,11 @@ PAPER_QUERIES = [
     'ABSTRACT:"motor learning" AND ABSTRACT:motivation AND ABSTRACT:autonomy', 'ABSTRACT:"skill acquisition" AND ABSTRACT:"augmented feedback"', 'ABSTRACT:dance AND ABSTRACT:"cross-cultural"',
     'ABSTRACT:exergame AND ABSTRACT:dance', 'ABSTRACT:dance AND ABSTRACT:pedagogy AND ABSTRACT:inclusive', 'ABSTRACT:dance AND ABSTRACT:memory AND ABSTRACT:choreography',
     'ABSTRACT:dance AND ABSTRACT:partner AND ABSTRACT:coordination', 'ABSTRACT:dance AND ABSTRACT:anxiety AND ABSTRACT:confidence', 'ABSTRACT:dance AND ABSTRACT:"social bonding"',
+    # the mentor
+    'ABSTRACT:"coach-athlete relationship"', 'ABSTRACT:"teacher enthusiasm"', 'ABSTRACT:"need-supportive teaching"', 'ABSTRACT:"autonomy-supportive" AND ABSTRACT:coaching',
+    'ABSTRACT:"virtual coach" AND ABSTRACT:"physical activity"', 'ABSTRACT:"intelligent tutoring systems" AND ABSTRACT:motor', 'ABSTRACT:dance AND ABSTRACT:"body image"',
+    'ABSTRACT:dance AND ABSTRACT:teacher AND ABSTRACT:relationship', 'ABSTRACT:dance AND ABSTRACT:lifelong', 'ABSTRACT:"motor learning" AND ABSTRACT:emotion',
+    'ABSTRACT:mentoring AND ABSTRACT:motivation AND ABSTRACT:"skill"', 'ABSTRACT:"self-compassion" AND ABSTRACT:"physical activity"',
 ]
 # What every dance shares. Lessons for people who believe they cannot dance: slug, title, searches (free, yt-dlp).
 FOUNDATIONS = [
@@ -207,6 +250,10 @@ FOUNDATIONS = [
     ("children", "Teaching children", ["dance lesson for kids beginners follow along", "creative movement dance class for kids"]),
     ("older-beginners", "Older beginners", ["dance lesson for seniors beginners", "chair dance for seniors beginners follow along"]),
     ("party", "Dancing at a party", ["how to dance at a party for beginners", "simple dance moves for weddings beginners"]),
+    # teachers explaining HOW they teach and how to learn: talks, not lessons; the mentor's own words
+    ("how-teachers-teach", "How teachers teach", ["how to teach dance to adult beginners tips for teachers", "how to teach rhythm to someone with no rhythm", "what makes a great dance teacher",
+                                                   "dance teaching philosophy master teacher interview", "how to teach dance to shy beginners", "how to learn dance faster advice from a teacher",
+                                                   "why adults struggle to learn to dance and how to fix it", "how to motivate dance students to keep practicing"]),
 ]
 # In a paper database "dance" is also the honeybee's waggle dance, and those papers are cited most: keep the search on people.
 PEOPLE = (" AND (ABSTRACT:participants OR ABSTRACT:students OR ABSTRACT:dancers OR ABSTRACT:learners OR ABSTRACT:adults OR ABSTRACT:children)"
@@ -340,7 +387,7 @@ def build_teachers(lessons, studied=None, methods=None):
         t["lessons"].sort(key=lambda l: (-l["pos"], l["youtube_id"]))
         out.append({"key": t["key"], "teacher": t["teacher"], "score": score, "praise": t["praise"], "complaints": t["complaints"],
                     "lessons_found": len(t["lessons"]), "dances": sorted(t["dances"]), "lessons": t["lessons"][:12],
-                    "methods_studied": len(ok), "system": (ok[-1]["method"].get("teacher_system") if ok else ""),
+                    "methods_studied": len(ok), "methods_current": sum(1 for m in ok if int(m.get("schema") or 1) >= SCHEMA), "system": (ok[-1]["method"].get("teacher_system") if ok else ""),
                     "signature": next((m["method"]["signature"] for m in reversed(ok) if m["method"].get("signature")), "")})
     out.sort(key=lambda t: (-t["score"], -t["lessons_found"], t["key"]))
     for i, t in enumerate(out):
@@ -352,7 +399,9 @@ def _due(rec, today=None):
     """A studied video is done; a failed read waits two days (twice), then a month."""
     if not rec:
         return True
-    if rec.get("status") in ("ok", "not_a_lesson"):
+    if rec.get("status") == "ok":
+        return int(rec.get("schema") or 1) < SCHEMA   # watched before the mentor block existed: once more
+    if rec.get("status") == "not_a_lesson":
         return False
     wait = 2 if (rec.get("status") == "failed" and int(rec.get("attempts") or 1) < 3) else RETRY_DAYS
     return _days_since(rec.get("attempted_at") or rec.get("analysed_at"), today) >= wait
@@ -364,7 +413,7 @@ def pick_methods(teachers, methods, budget, per_teacher=3, today=None, want=None
         for t in teachers:
             if len(picked) >= budget:
                 return picked
-            if t["methods_studied"] + taken[t["key"]] != depth:
+            if t.get("methods_current", t["methods_studied"]) + taken[t["key"]] != depth:
                 continue
             for l in t["lessons"]:
                 if (want is None or want(l)) and l["youtube_id"] not in skip and _due(methods.get(l["youtube_id"]), today) and all(l["youtube_id"] != p[1]["youtube_id"] for p in picked):
@@ -388,6 +437,8 @@ def normalise_method(jd):
     sc = jd.get("screen") if isinstance(jd.get("screen"), dict) else {}
     pc = jd.get("pace") if isinstance(jd.get("pace"), dict) else {}
     lv = jd.get("learner_voice") if isinstance(jd.get("learner_voice"), dict) else {}
+    mt = jd.get("mentor") if isinstance(jd.get("mentor"), dict) else {}
+    rows = lambda v: [x for x in v if isinstance(x, dict)] if isinstance(v, list) else []
     return {
         "teacher_system": str(jd.get("teacher_system") or "").strip()[:500],
         "signature": str(jd.get("signature") or "").strip()[:300],
@@ -401,7 +452,12 @@ def normalise_method(jd):
         "pace": {"talk_vs_move": pc.get("talk_vs_move") if pc.get("talk_vs_move") in ("mostly_talk", "balanced", "mostly_move") else None,
                  "seconds_before_first_movement": pc.get("seconds_before_first_movement") if isinstance(pc.get("seconds_before_first_movement"), int) and 0 <= pc["seconds_before_first_movement"] <= METHOD_SECONDS else None,
                  "pieces_taught": pc.get("pieces_taught") if isinstance(pc.get("pieces_taught"), int) and 0 < pc["pieces_taught"] < 60 else None},
-        "learner_voice": {k: _voice(lv.get(k)) for k in ("struggles", "clicked", "requests")},
+        "mentor": {"voice": _enum(mt.get("voice"), VOICE),
+                   "beliefs": [{"t": str(b.get("t"))[:8], "belief": str(b.get("belief") or "").strip()[:220]}
+                               for b in rows(mt.get("beliefs")) if _secs(b.get("t")) is not None and str(b.get("belief") or "").strip()][:4],
+                   "feelings": [{"t": str(f.get("t"))[:8], "feeling": f.get("feeling"), "response": str(f.get("response") or "").strip()[:220]}
+                                for f in rows(mt.get("feelings")) if f.get("feeling") in FEELINGS and _secs(f.get("t")) is not None and str(f.get("response") or "").strip()][:6]},
+        "learner_voice": {k: _voice(lv.get(k)) for k in ("struggles", "clicked", "requests", "meant")},
         "limits": str(jd.get("limits") or "").strip()[:300]}
 
 def study(teacher, lesson, dance_name, llm, comments=()):
@@ -409,16 +465,17 @@ def study(teacher, lesson, dance_name, llm, comments=()):
     url = f"https://www.youtube.com/watch?v={yid}"
     user = (f"DANCE OR TOPIC: {dance_name}\nVIDEO TITLE: {lesson.get('title')}\nTEACHER (channel): {teacher['teacher']}\n\n"
             f"LEARNER COMMENTS ({len(comments)} supplied):\n" + ("\n".join("- " + c for c in comments) if comments else "(none supplied)"))
-    jd = llm.json(METHOD_SYSTEM, user, strong=False, temperature=0.1, max_tokens=3500, video_url=url, video_seconds=METHOD_SECONDS)
+    jd = llm.json(METHOD_SYSTEM, user, strong=False, temperature=0.1, max_tokens=4500, video_url=url, video_seconds=METHOD_SECONDS)
     rec = {"youtube_id": yid, "slug": lesson.get("slug"), "dance": dance_name, "title": lesson.get("title"), "teacher": teacher["teacher"],
            "teacher_key": teacher["key"], "teacher_score": teacher["score"], "analysed_at": now_iso(), "url": url, "comments_read": len(comments),
-           "window": {"start_s": 0, "end_s": METHOD_SECONDS, "resolution": "low", "human_verified": False}}
+           "schema": SCHEMA, "window": {"start_s": 0, "end_s": METHOD_SECONDS, "resolution": "low", "human_verified": False}}
     if not isinstance(jd, dict):
         rec["status"] = "failed"
     elif jd.get("is_lesson") is False:
         rec["status"] = "not_a_lesson"
     else:
         rec["method"] = normalise_method(jd)
+        rec["kind"] = "teacher_talk" if jd.get("kind") == "teacher_talk" else "lesson"
         rec["status"] = "ok" if (rec["method"]["practices"] or rec["method"]["teacher_system"]) else "failed"
     return rec
 
@@ -559,7 +616,9 @@ def fuse(teachers, methods, notes, family_of=None, today=None):
                     seen.add(m["teacher"])
                     examples.append({"teacher": m["teacher"], "dance": m.get("dance"), "t": p["t"], "what": p["what"], "url": _link(m, p["t"])})
         share = lambda group: (round(sum(1 for m in group if any(p["tag"] == tag for p in m["method"]["practices"])) / len(group), 2) if group else None)
-        practices.append({"tag": tag, "meaning": meaning, "do": PRACTICE[tag][1], "lessons": len(using), "teachers": len(who), "families": len({fam(m) for m in using}),
+        shown, said = [m for m in using if m.get("kind") != "teacher_talk"], [m for m in using if m.get("kind") == "teacher_talk"]
+        practices.append({"tag": tag, "meaning": meaning, "do": PRACTICE[tag][1], "lessons": len(shown), "talks": len(said), "teachers": len(who),
+                          "show_it": len({m["teacher_key"] for m in shown}), "say_it": len({m["teacher_key"] for m in said}), "families": len({fam(m) for m in using}),
                           "share_of_lessons": share(oks),
                           "share_best_ranked": share([m for m in oks if m["teacher_key"] in top]) if top else None,
                           "share_others": share([m for m in oks if m["teacher_key"] not in top]) if top else None,
@@ -580,6 +639,39 @@ def fuse(teachers, methods, notes, family_of=None, today=None):
     for m in oks:
         for v in m["method"]["learner_voice"]["struggles"]:
             struggles[(v["tag"], v["theme"].lower())] += v["count"]
+    # the mentor: who is teaching and how the learner is met as a person
+    block = lambda m: m["method"].get("mentor") or {}
+    voice = Counter(v for m in oks for v in block(m).get("voice") or [])
+    beliefs, said_before, feelings, meant, clicked = [], set(), {}, Counter(), Counter()
+    for m in oks:   # best-ranked teachers first
+        for b in block(m).get("beliefs") or []:
+            k = re.sub(r"\W+", " ", b["belief"].lower()).strip()
+            if k not in said_before:
+                said_before.add(k)
+                beliefs.append({"belief": b["belief"], "teacher": m["teacher"], "dance": m.get("dance"), "url": _link(m, b["t"])})
+        for f in block(m).get("feelings") or []:
+            feelings.setdefault(f["feeling"], []).append({"response": f["response"], "teacher": m["teacher"], "dance": m.get("dance"), "url": _link(m, f["t"])})
+        for v in m["method"]["learner_voice"].get("meant") or []:
+            meant[v["theme"].lower()] += v["count"]
+        for v in m["method"]["learner_voice"]["clicked"]:
+            if v["tag"] in PRACTICES:
+                clicked[v["tag"]] += v["count"]
+    felt = [{"feeling": k, "seen": len(v), "responses": v[:5], "research": [x for n in sci if "names_the_feeling" in (n.get("tags") or []) for x in (n.get("for_the_teacher") or [])[:1]][:1]}
+            for k, v in sorted(feelings.items(), key=lambda kv: (-len(kv[1]), kv[0]))]
+    mentor = {"voice": voice.most_common(), "beliefs": beliefs[:40], "feelings": felt, "meant_to_learners": [{"theme": t, "count": c} for t, c in meant.most_common(15)]}
+    hard = Counter()
+    for (tag, _), c in struggles.items():
+        if tag in PRACTICES:
+            hard[tag] += c
+    limits = Counter(a["kind"] for a in adapt if a["kind"] in ("different_body", "no_partner", "small_space"))
+    # what a teacher who stays with one learner for years would keep in mind about them; the numbers say how often the evidence shows it
+    learner_model = [
+        {"remember": "what this learner finds hard", "seen_most": hard.most_common(5)},
+        {"remember": "what made a step click for them", "seen_most": clicked.most_common(5)},
+        {"remember": "which feeling comes up, and what answered it", "seen_most": [[f["feeling"], f["seen"]] for f in felt[:5]]},
+        {"remember": "the way into a dance that works for them", "seen_most": Counter(x for m in oks for x in m["method"]["entry_points"]).most_common(4)},
+        {"remember": "how much talk and how much movement they like", "seen_most": Counter(m["method"]["pace"]["talk_vs_move"] for m in oks if m["method"]["pace"]["talk_vs_move"]).most_common(3)},
+        {"remember": "their body, their room and whether they have a partner", "seen_most": limits.most_common(3)}]
     # how BDF adjusts: what learners say is hard → what the teachers offer for it → what the research adds
     adjust = []
     weight = lambda tag: sum(c for (x, _), c in struggles.items() if x == tag)
@@ -605,13 +697,20 @@ def fuse(teachers, methods, notes, family_of=None, today=None):
                        "basics_lessons_studied": sum(1 for m in oks if str(m.get("slug") or "").startswith(BASICS)),
                        "families_covered": len({fam(m) for m in oks}), "adaptations_seen": len(adapt),
                        "comments_read": sum(int(m.get("comments_read") or 0) for m in oks),
+                       "talks_studied": sum(1 for m in oks if m.get("kind") == "teacher_talk"), "beliefs_recorded": len(beliefs),
+                       "feelings_answered": sum(f["seen"] for f in felt), "lessons_with_mentor_reading": sum(1 for m in oks if int(m.get("schema") or 1) >= SCHEMA),
                        "science_notes": len(topics), "science_topics_total": len(SCIENCE), "paper_notes": len(papers),
                        "science_findings_checked": sum(len(n.get("findings") or []) for n in sci),
                        "practices_total": len(PRACTICES), "practices_with_two_or_more_kinds": sum(1 for p in practices if p["evidence_kinds"] >= 2),
                        "practices_with_all_three": sum(1 for p in practices if p["evidence_kinds"] == 3)},
             "new_in_7_days": {"lessons": len(week), "teachers": sorted({m["teacher"] for m in week})[:12],
                               "research_notes": sum(1 for n in sci if _days_since(n.get("written_at"), today) < 7)},
-            "dna": dna, "adjustments": adjust, "practices": practices, "adaptations": adapt[:400],
+            "how_to_use": ["dna: what the teacher does by default; a rule appears only where two or more kinds of evidence agree, and evidence_kinds says how strong it is",
+                           "adjustments: when a learner says something is hard, what teachers offer for it and what the research adds",
+                           "mentor.feelings: when a learner shows a feeling, how teachers have answered it; mentor.voice and mentor.beliefs: who the teacher is",
+                           "learner_model: what to keep in mind about one learner over time, so that the teaching fits them better the longer they stay",
+                           "practices, adaptations, science, papers: the evidence behind every line, each with a link to the video moment or the source"],
+            "dna": dna, "adjustments": adjust, "mentor": mentor, "learner_model": learner_model, "practices": practices, "adaptations": adapt[:400],
             "struggles": [{"tag": t, "theme": th, "count": c} for (t, th), c in struggles.most_common(40)],
             "screen": {"views": count("views", VIEWS), "on_screen": count("on_screen", ON_SCREEN), "editing": count("editing", EDITING)},
             "entry_points": count("entry_points", ENTRY),
@@ -627,7 +726,7 @@ def render(s):
     name = lambda tag: tag.replace("_", " ").capitalize()
     pl = lambda n, one, many=None: f"{n:,} {one if n == 1 else (many or one + 's')}"
     L += ["# How to teach anyone to dance — the evidence behind the Best Dance Friend", "",
-          f"_Rebuilt {s['generated_at'][:10]} by `pipeline/teaching.py`. It grows every night at no cost. These are machine readings, not yet reviewed by a person: every line links to the moment in the video or to the source. The first three sections are the summary; everything after them is the evidence._", "",
+          f"_Rebuilt {s['generated_at'][:10]} by `pipeline/teaching.py`. It grows every night at no cost. These are machine readings, not yet reviewed by a person: every line links to the moment in the video or to the source. Everything above the heading *The evidence* is the summary; everything below it is the proof._", "",
           "## Where the research stands", "", "| | |", "|---|---:|",
           f"| Teachers ranked by what learners wrote under their lessons | {c['teachers_ranked']:,} |",
           f"| Teachers whose method has been studied | {c['teachers_studied']:,} |",
@@ -658,13 +757,25 @@ def render(s):
         L += [f"- A teacher's answer: {(o['difficulty'] + ' → ') if o['difficulty'] else ''}{o['adjustment']} ([{o['teacher']}, {o['dance']}]({o['url']}))" for o in a["teachers_offer"][:2]]
         L += [f"- Research: {x}" for x in a["research"][:1]]
         L.append("")
-    L += ["## The teaching practices, strongest evidence first", ""]
+    mt, show = s["mentor"], (lambda rows: ", ".join(f"{str(k).replace('_', ' ')} {n}" for k, n in rows) or "not seen yet")
+    L += ["## The mentor: voice, beliefs and how feelings are met", "",
+          "Who is teaching, beyond what is taught. " + (f"Read so far in {c['lessons_with_mentor_reading']} of {c['lessons_studied_for_method']} lessons studied; the earlier ones are watched once more for this." if c["lessons_with_mentor_reading"] < c["lessons_studied_for_method"] else f"Read in all {c['lessons_studied_for_method']} lessons and talks studied."), "",
+          f"- The voice of the teachers studied: {show(mt['voice'])}"]
+    for f in mt["feelings"][:8]:
+        L.append(f"- When the learner feels **{f['feeling'].replace('_', ' ')}** (met {pl(f['seen'], 'time')}): " + "; ".join(f"{r['response']} ([{r['teacher']}]({r['url']}))" for r in f["responses"][:2]))
+    L += [f"- A teacher's belief: {b['belief']} ([{b['teacher']}]({b['url']}))" for b in mt["beliefs"][:6]]
+    if mt["meant_to_learners"]:
+        L.append("- What the lessons meant to learners: " + "; ".join(f"{x['theme']} ({x['count']})" for x in mt["meant_to_learners"][:6]))
+    L += ["", "## What the Best Dance Friend should remember about each learner", "",
+          "A teacher who stays with one learner for years adjusts through what they have learned about that person. The evidence so far says these are the things to keep; the numbers say how often each was seen.", ""]
+    L += [f"- {x['remember'].capitalize()}: {show(x['seen_most'])}" for x in s["learner_model"]]
+    L += ["", "---", "", "# The evidence", "", "## The teaching practices, strongest evidence first", ""]
     for p in s["practices"]:
         if not (p["lessons"] or p["science"] or sum(p["learner_voice"].values())):
             continue
         L.append(f"### {name(p['tag'])} {stars[p['evidence_kinds']]}")
         L.append(f"_{p['meaning']}._")
-        bits = [f"{pl(p['teachers'], 'teacher')} in {pl(p['lessons'], 'lesson')} and {pl(p['families'], 'dance family', 'dance families')}" + (f" ({p['share_of_lessons']:.0%} of lessons studied)" if p["share_of_lessons"] is not None else "")]
+        bits = [f"{pl(p['show_it'], 'teacher')} show it in {pl(p['lessons'], 'lesson')} across {pl(p['families'], 'dance family', 'dance families')}" + (f", {pl(p['say_it'], 'teacher')} say it in talks" if p["say_it"] else "") + (f" ({p['share_of_lessons']:.0%} of lessons studied)" if p["share_of_lessons"] is not None else "")]
         if p["share_best_ranked"] is not None:
             bits.append(f"best-ranked third {p['share_best_ranked']:.0%}, the others {p['share_others']:.0%}")
         v = p["learner_voice"]
