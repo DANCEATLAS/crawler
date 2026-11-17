@@ -1,55 +1,62 @@
 # LEDGER — start here (any AI, any platform)
 
-_Last written 16 November 2026 by Claude. Keep this file under two pages. Read this, `STATUS.md` and `ACTIVE_READY.md`; open the long documents only for the section you need. That is the token rule: the owner pays for every page you read._
+_Last written 17 November 2026 by Claude. Keep this file under two pages. Read this, `STATUS.md`, `ACTIVE_READY.md` and the top of `BDF_TEACHING_SYSTEM.md`; open the long documents only for the section you need. That is the token rule: the owner pays for every page you read._
 
-## The mission now (owner, 16 November 2026)
+## The two missions now (owner, 16 and 17 November 2026)
 
-Reach the **starting line**: many thousands of **active-ready** profiles, built by the machine alone while the owner is away for months. A profile is active-ready when everything an AI teaching service needs to write the lesson for that dance has been gathered and source-checked (`pipeline/readiness.py`, fifteen items, measured daily, no model calls). After the line come the things a machine cannot grant: human review, music rights, platform tests (`ACTIVE_PROFILE_STANDARD.md`). The long vision is unchanged: BDF, the best dance teacher in the world, a search engine for dance, a social tool that matches dancers, AR (`PRODUCT_VISION.md`, V01–V18).
+1. **The starting line.** Many thousands of **active-ready** profiles, built by the machine alone while the owner is away for months. A profile is active-ready when everything an AI teaching service needs to write the lesson for that dance has been gathered and source-checked (`pipeline/readiness.py`, fifteen items, measured daily, no model calls). After the line come the things a machine cannot grant: human review, music rights, platform tests (`ACTIVE_PROFILE_STANDARD.md`).
+2. **Teaching research for the Best Dance Friend (BDF).** A standing, endless study of how the best online dance classes teach: the teachers learners praise most, their screen and sequence, their encouragement, what they offer when a learner struggles, what learners themselves say, and what research on learning movement says. Three kinds of evidence are joined per teaching practice in `BDF_TEACHING_SYSTEM.md` (`pipeline/teaching.py`).
 
-## State on 16 November 2026 (measured)
+The long vision is unchanged: BDF, the best dance teacher in the world, a search engine for dance, a social tool that matches dancers, AR (`PRODUCT_VISION.md`, V01–V18).
 
-- 1,140 dances in the atlas, 345 published deep profiles (+128 in the last week), **1 active-ready**, 16 within two items, 75 within five. What holds pages back most: steps with counts, a studied video, a checked hero video.
-- The other AI's 14 November spending pause went live on 16 November and switched the writing engine off. It was lifted the same day on the owner's direction: the engine runs on **Google Gemini's free tier only**. Checked in Google AI Studio: billing tier Free, no billing attached, so it cannot charge. OpenAI is off and its key is not passed to any workflow.
-- Free limits seen that day: flash models 20 requests a day each (kept for the writer), flash-lite 500 a day each (judges and video). Budgets are sized to that.
-- Proven live the same day in two small test runs: run 33 wrote three profiles (every claim quote-checked, nothing unanswered); run 34 studied two lessons and observed two hero performances. The first full nightly run with the new budgets had not happened when this was written.
+## State on 17 November 2026 (measured after the first full night)
+
+- 1,155 dances in the atlas, 359 published deep profiles, **5 active-ready** (1 the day before), 26 within two items, 74 within five. What holds pages back most: steps with counts, a studied video, a checked hero video.
+- First full night on the free lane (run 35, 16 November, 2 h 44 min, no stage error): 47 profiles written of 70 tried, 50 judged, 120 hero videos checked, 22 lessons studied (91 in all). The wider lesson search took the list from 303 lessons on 164 dances to 427 on 228.
+- That night 71 of 312 model questions went unanswered and no performance was observed. One flash-lite model carried most of the work, answered "overloaded" 46 times, and each question that arrived while it rested was dropped; one unreadable video put a strike on six models. Fixed 17 November: a question waits for a resting model (at most 40 minutes a run), rests are short, an unusable answer is the question's fault. Each stage writes `model trouble: …` into `pipeline_state/runs.json`: no log reading needed.
+- Engine: **Google Gemini's free tier only** (AI Studio, 16 November: tier Free, no billing attached). OpenAI is off; its key is not passed to any workflow. Free limits seen: flash 20 requests a day per model; only the newest flash-lite model has a large day quota.
+- Database jobs, proven live 16 November: 16 rows written where the old jobs wrote 1,191 a day.
+- Teaching research: 270 teachers ranked from 423 lessons at the first build; method study and research notes grow nightly from 17 November.
 
 ## What runs by itself (GitHub Actions, no Claude, no Lovable, $0)
 
-| When (UTC) | Job | Does |
+| Set for (UTC) | Job | Does |
 |---|---|---|
 | 08:15 daily | `crawl` | hero videos; lessons searched in English and the tradition's own language, retried every 45 days |
 | 08:45–08:55 | `push_*` | mirror to Supabase, only rows that changed |
-| 09:20 daily | `atlas_daily` | audit → discover (60) → research (40 new + 30 deeper) → QC → hero check (120) → build → video study (24 lessons + 30 performances) → scripts → translate → activation → **readiness** → sync → report |
+| 09:20 daily | `atlas_daily` | audit → discover (60) → research (40 new + 30 deeper) → QC → hero check (120) → build → video study (24 lessons + 30 performances) → **teaching research** (10 lessons for method + 3 research notes) → scripts → translate → activation → **readiness** → sync → report |
 | every 6 h | `watchdog` | restarts a schedule GitHub dropped |
-| Sunday 23:23 | `weekly_report` | the owner's e-mail: active-ready first, engine status, one action at most |
+| Sunday 23:23 | `weekly_report` | the owner's e-mail: active-ready first, engine status, teaching research, one action at most |
 | 1st of month | `monthly_snapshot` | a dated safety copy of everything |
 
-Everything the site shows comes from `public/catalog/` in this repository. Lovable is only the shell.
+GitHub starts these hours late (on 16 November: crawl 18:28, pushes 18:56, nightly 19:40 to 22:24 UTC). The order holds, so nothing depends on the clock. Everything the site shows comes from `public/catalog/` in this repository. Lovable is only the shell.
 
 ## Rules that bind
 
 1. **Money.** Free tiers only. No purchases, subscriptions, billing, paid models or Lovable builds without the owner's explicit yes. If billing is ever attached to the Google project, switch `llm_enabled` off first (`pipeline_state/spending_policy.json`).
 2. **Truth over volume.** Every claim carries a quote checked against the fetched source, in any script. Never loosen a QC gate to publish more. A model's observation of a video is a candidate, never a verified fact, and a performance never supplies counts.
 3. **Respect.** Sacred or restricted dances are never taught: story only. A bare keyword ("ceremony") is not a restriction; it is recorded as ritual context.
-4. **Nothing is lost.** A failed or switched-off writer never replaces a written profile. No doubles: one identity, variants inside it. Atlas and Viral stay separate.
-5. **No launch.** The site is a private demonstration.
-6. **The owner.** Not a developer. Do everything yourself. Ask only for what truly needs him, one simple action, large plain words. Never ask for secrets.
-7. **Publish** through the signed-in GitHub web editor (or git when access exists), on a branch, tests green (`python -m pipeline.run selftest`, Python 3.11), then merge. Never run scripts that send network calls from inside a page.
+4. **Nothing is lost.** A failed or switched-off writer never replaces a written profile, a studied video or a research note. No doubles: one identity, variants inside it. Atlas and Viral stay separate.
+5. **Teaching research is evidence, not a verdict.** Teachers are ranked by learners' comments only, never by views. Comments are kept as themes: no names, no quotations. Every observation carries a timestamp; every research finding carries a quote checked against its source. Nothing there has been tested on learners by Dance Atlas.
+6. **No launch.** The site is a private demonstration.
+7. **The owner.** Not a developer. Do everything yourself. When something truly needs him, prepare it fully in his browser first, then give one simple step in large plain words and wait for his word before the next. Never ask for secrets.
+8. **Publish** through the signed-in GitHub web editor (or git when access exists), on a branch, tests green (`python -m pipeline.run selftest`, Python 3.11), then merge. Never run scripts that send network calls from inside a page.
 
 ## Where things are
 
-`pipeline/` code · `research_results/`, `qc_results/` profiles and verdicts · `pedagogy/videos/`, `pedagogy/performances/` video study · `pipeline_state/` state (`spending_policy.json`, `active_ready.json`, `runs.json`) · `public/catalog/` what the site reads · `STATUS.md` daily page · `ACTIVE_READY.md` the line · `IMPLEMENTATION_LEDGER.md` dated record of every change · `AI_BRIEF.md` system detail · `PRODUCT_VISION.md` the whole vision.
+`pipeline/` code · `research_results/`, `qc_results/` profiles and verdicts · `pedagogy/videos/`, `pedagogy/performances/` video study of each dance · `pedagogy/teachers.json`, `pedagogy/methods/`, `pedagogy/science/`, `pedagogy/bdf_system.json` teaching research · `pipeline_state/` state (`spending_policy.json`, `active_ready.json`, `runs.json`) · `public/catalog/` what the site and a teaching service read (`active_ready.json`, `bdf_teaching_system.json`) · `STATUS.md` daily page · `ACTIVE_READY.md` the line · `BDF_TEACHING_SYSTEM.md` how the best classes teach · `IMPLEMENTATION_LEDGER.md` dated record of every change · `AI_BRIEF.md` system detail · `PRODUCT_VISION.md` the whole vision.
 Platforms: GitHub `DANCEATLAS/crawler` (source of truth) · Lovable project `f79f3666-564d-4799-befe-8b48d1f0a007` (UI and an instructions mirror) · Supabase project `maojpsywvbksrwkrxmjx` (mirror, Viral, accounts) · site `dancingatlas.lovable.app`.
 
 ## Open, in order
 
-1. **Watch the first full runs after 16 November.** `STATUS.md` must say "Writing engine: on" and a non-zero number written. If it says OFF, read the research note in `pipeline_state/runs.json`. Google's models answered "high demand" several times in the test: a model now rests five minutes instead of leaving the run, and research stops taking new pages after 180 minutes so the judge, the build and the report always run.
-2. **Lessons are the lever.** Active-ready needs steps with counts, and those come from lessons. If the count stalls, improve lesson finding (`crawler.py`, `lesson_eval`) before anything else.
-3. **Sacred flags.** About half of the withheld pages are judgment calls by the writer. A second opinion from the QC judge, quoting the source sentence that restricts teaching, is the next refinement.
-4. **Database size.** The Supabase audit log held about 541 MB on 11 November (free limit 500 MB). The cause, daily rewrites of unchanged rows, is fixed. The old log still needs the owner's yes to clear, from the Supabase account that owns the project.
-5. **Viral chart.** It orders by date, not popularity (`IMPLEMENTATION_LEDGER.md`, Viral findings). Not on the path to the starting line.
-6. **Discovery breadth.** Present sources reach roughly 2,500 dances. Thousands more need dances that have no English article: harvest Wikidata items by their other-language articles (`pipeline/discover.py`).
-7. **Mirrors.** Lovable Project instructions carry a short copy of this file. The Supabase `ai_context` copy is from 11 November.
+1. **Watch the unanswered share** (`llm_unanswered` of `llm_requests` per stage in `runs.json`). It should fall well under the first night's 23 %, and performances should be observed. If `waited_seconds` reaches 2,400 night after night, the free lane is too small for the budgets: lower `HERO_QC_BUDGET` first.
+2. **Lessons are the lever.** Active-ready needs steps with counts, and those come from lessons. If the count stalls, improve lesson finding (`crawler.py`, `lesson_eval`) first.
+3. **Teaching research, next.** (a) Follow the best-ranked teachers to their other lessons; today only lessons found per dance are seen. (b) A person checks a sample of timestamps before the page is used to build BDF. (c) New research topics are one line each (`SCIENCE` in `pipeline/teaching.py`).
+4. **Sacred flags.** Half of the withheld pages are the writer's judgment calls; a second opinion from the QC judge, quoting the restricting sentence, is the next refinement.
+5. **Database size.** The Supabase audit log held about 541 MB on 11 November (free limit 500 MB); writes still worked on 16 November and the cause is fixed. Clearing the old log needs the owner's yes and the Supabase account that owns the project.
+6. **Discovery breadth.** Present sources reach roughly 2,500 dances; more need Wikidata items with no English article (`pipeline/discover.py`).
+7. **Viral chart** orders by date, not popularity (`IMPLEMENTATION_LEDGER.md`). Not on the path to the starting line.
+8. **Mirrors.** Lovable Project instructions hold a short copy of this file from 16 November; the Supabase `ai_context` copy is from 11 November.
 
 ## When you finish a session
 
