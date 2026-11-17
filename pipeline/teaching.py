@@ -143,7 +143,7 @@ steps are taught, but how the teacher makes a learner feel able to dance, keeps 
 Report only what is seen or heard in the VIDEO. Output a single JSON object:
 {"voice": [<up to four of: """ + ", ".join(VOICE) + """>],
  "moments": [{"t": "m:ss", "moment": "<one of: """ + ", ".join(MOMENTS) + """>",
-              "says": "<what the teacher says or does for the learner at that moment, at most 30 words; describe, do not transcribe>",
+              "says": "<what the teacher says or does for the learner at that moment: a description in the third person that starts with 'The teacher', at most 30 words; never the teacher's own words>",
               "tag": "<the one tag from the list below that it shows, or other>"}],
  "beliefs": [{"t": "m:ss", "about": "<one of: """ + ", ".join(ABOUT) + """, a_step_or_technique>",
               "belief": "<what the teacher says about it, in your own words, at most 25 words>"}],
@@ -156,7 +156,8 @@ Tags:
 """ + "\n".join(f"- {k}: {PRACTICES[k]}" for k in MENTOR_TAGS) + """
 Rules: at most 10 moments, 5 beliefs and 6 feelings, each with a real timestamp from the video; never invent a timestamp, and leave a list
 empty when the video shows nothing of the kind. A feeling is listed only when the teacher names it or plainly speaks to it; never guess what
-learners feel. Label a statement about how to do a step as a_step_or_technique. Do not judge how good the teacher is.
+learners feel. Label a statement about how to do a step as a_step_or_technique. Write every says, belief and response in the third person.
+Do not judge how good the teacher is.
 Only the first """ + str(METHOD_SECONDS) + """ seconds of the video are supplied."""
 
 SCIENCE_SYSTEM = """You are writing a research note for the designers of an AI dance teacher. Use ONLY the SOURCES given.
@@ -551,6 +552,12 @@ def save_method(rec):
     return rec["status"]
 
 # ------------------------------------------------------------------ 3b. the mentor look (a second, narrower question to a lesson already studied)
+FIRST_PERSON = re.compile(r"\bI\b|\bI'(?:m|ll|ve|d)\b|(?i:\b(?:my|we|our|let's)\b)")
+
+def _described(text):
+    """The study describes what a teacher does. A sentence in the first person is the teacher's own words, which are not kept."""
+    return bool(str(text or "").strip()) and not FIRST_PERSON.search(str(text))
+
 def _near(a, b, s=12):
     x, y = _secs(a), _secs(b)
     return x is not None and y is not None and abs(x - y) <= s
@@ -575,7 +582,7 @@ def normalise_look(jd):
     rows = jd.get("moments") if isinstance(jd.get("moments"), list) else []
     return {"voice": _enum(jd.get("voice"), VOICE)[:4],
             "moments": [{"t": str(x.get("t"))[:8], "moment": x["moment"], "says": str(x.get("says") or "").strip()[:240], "tag": x.get("tag") if x.get("tag") in PRACTICES else "other"}
-                        for x in rows if isinstance(x, dict) and x.get("moment") in MOMENTS and _secs(x.get("t")) is not None and str(x.get("says") or "").strip()][:10],
+                        for x in rows if isinstance(x, dict) and x.get("moment") in MOMENTS and _secs(x.get("t")) is not None and _described(x.get("says"))][:10],
             "beliefs": _beliefs(jd.get("beliefs"), 5), "feelings": _feelings(jd.get("feelings")),
             "what_stays": str(jd.get("what_stays") or "").strip()[:240]}
 
@@ -715,7 +722,7 @@ def _practices(m):
     that shows a practice is evidence for that practice: the same moment of the video counts once."""
     ps, mt = list(m["method"]["practices"]), m["method"].get("mentor") or {}
     more = [{"tag": "names_the_feeling", "t": f["t"], "what": f["response"]} for f in mt.get("feelings") or []]
-    more += [{"tag": x["tag"], "t": x["t"], "what": x["says"]} for x in mt.get("moments") or [] if x.get("tag") in PRACTICES]
+    more += [{"tag": x["tag"], "t": x["t"], "what": x["says"]} for x in mt.get("moments") or [] if x.get("tag") in PRACTICES and _described(x.get("says"))]
     for e in more:
         if not any(p["tag"] == e["tag"] and _near(p["t"], e["t"], 20) for p in ps):
             ps.append(e)
@@ -789,7 +796,7 @@ def fuse(teachers, methods, notes, family_of=None, today=None):
                 said_before.add(k)
                 beliefs.append({"belief": b["belief"], "about": b.get("about") if b.get("about") in ABOUT else None, "teacher": m["teacher"], "dance": m.get("dance"), "url": _link(m, b["t"])})
         for x in block(m).get("moments") or []:
-            if x.get("moment") in MOMENTS:
+            if x.get("moment") in MOMENTS and _described(x.get("says")):
                 moments[x["moment"]].append({"says": x["says"], "tag": x.get("tag"), "teacher": m["teacher"], "dance": m.get("dance"), "url": _link(m, x["t"])})
         if block(m).get("what_stays"):
             stays.append({"says": block(m)["what_stays"], "teacher": m["teacher"], "url": m["url"]})
@@ -1008,6 +1015,7 @@ def run(budget=8, science=None, only=None, looks=None):
     cat = (jload(os.path.join("public", "catalog", "dances.app.json"), {}) or {}).get("styles") or {}
     deadline = time.time() + 60 * env("TEACHING_MAX_MINUTES", "40")
     live = bool(llm.enabled and llm.gemini_key)
+    gone = lambda: sum((getattr(llm, "why", None) or {}).get(k, 0) for k in ("no_model_available", "day_quota_used_up"))   # the engine's trouble, not a video's
     if live and not only:
         try:
             rep.inc("basics_lessons_found", discover_foundations(store, state, env("FOUNDATION_SEARCHES", "3")))
@@ -1027,7 +1035,10 @@ def run(budget=8, science=None, only=None, looks=None):
             rep.inc("stopped_early"); break
         try:
             name = basics_name(l["slug"]) if l["slug"].startswith(BASICS) else ((cat.get(l["slug"]) or {}).get("name") or l["slug"].replace("-", " "))
+            before = gone()
             rec = study(t, l, name, llm, fetch_comments(l["youtube_id"]))
+            if rec["status"] == "failed" and gone() > before:   # no model could be asked: the lesson is not to blame, and asking on is pointless
+                rep.inc("stopped_early"); misses = 3; break
             rep.inc("method_" + save_method(rec))
             misses = misses + 1 if rec["status"] == "failed" else 0
             log(f"TEACHING {t['teacher']} / {l['slug']} {l['youtube_id']}: {rec['status']}" + (f" practices={len(rec['method']['practices'])} adaptations={len(rec['method']['adaptations'])}" if rec["status"] == "ok" else ""))
@@ -1040,7 +1051,10 @@ def run(budget=8, science=None, only=None, looks=None):
             if time.time() > deadline or misses >= 3:
                 rep.inc("stopped_early"); break
             try:
+                before = gone()
                 st = look(m, llm)
+                if st == "failed" and gone() > before:
+                    rep.inc("stopped_early"); misses = 3; break
                 jsave(os.path.join(METHODS_DIR, m["youtube_id"] + ".json"), m)
                 rep.inc("mentor_look_" + st)
                 misses = misses + 1 if st == "failed" else 0
@@ -1059,7 +1073,10 @@ def run(budget=8, science=None, only=None, looks=None):
         if time.time() > deadline:
             rep.inc("stopped_early"); break
         try:
+            before = gone()
             note = science_note(item, llm, sources=sources, topic=topic)
+            if note["status"] == "failed" and gone() > before:
+                rep.inc("stopped_early"); break
             prev = notes.get(item[0]) or {}
             if note["status"] != "ok" and prev.get("status") == "ok":   # a failed refresh never replaces a good note
                 rep.inc("science_kept"); continue
