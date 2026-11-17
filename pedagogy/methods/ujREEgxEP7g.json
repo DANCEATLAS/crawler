@@ -6,10 +6,10 @@
  "teacher": "MihranTV",
  "teacher_key": "mihrantv",
  "teacher_score": 66.9,
- "analysed_at": "2026-11-17T06:08:35Z",
+ "analysed_at": "2026-11-17T06:44:45Z",
  "url": "https://www.youtube.com/watch?v=ujREEgxEP7g",
  "comments_read": 60,
- "schema": 2,
+ "schema": 3,
  "window": {
   "start_s": 0,
   "end_s": 600,
@@ -17,74 +17,60 @@
   "human_verified": false
  },
  "method": {
-  "teacher_system": "The teacher introduces three basic hip-hop dance moves step-by-step, breaking down footwork and posture. He demonstrates counts and repetitions before combining the moves into a short routine.",
-  "signature": "Reminding learners to keep their knees bent and stay on their toes throughout the steps.",
+  "teacher_system": "The teacher demonstrates three basic hip hop moves step-by-step, breaking down the footwork and counts. He then combines the moves together and encourages repetition for practice.",
+  "signature": "He provides specific guidance on upper body posture and arm movement for beginners who usually feel stiff.",
   "screen": {
    "views": [
     "front",
     "feet_closeup",
     "side"
    ],
-   "on_screen": [
-    "captions"
-   ],
+   "on_screen": [],
    "editing": []
   },
   "practices": [
    {
-    "tag": "counts_and_rhythm",
-    "t": "0:29",
-    "what": "Teacher demonstrates step-touch counting from 1 to 8, moving side to side."
-   },
-   {
     "tag": "chunking",
-    "t": "1:33",
-    "what": "Teacher introduces the second move staying in place with leg extending out and in."
+    "t": "0:28",
+    "what": "Breaks down the first step counting to eight while demonstrating footwork and arm placement."
    },
    {
     "tag": "repetition",
-    "t": "2:39",
-    "what": "Teacher connects move one and move two together and repeats counts."
+    "t": "1:27",
+    "what": "Repeats the first step multiple times with counts to build muscle memory."
+   },
+   {
+    "tag": "chunking",
+    "t": "1:45",
+    "what": "Introduces the second step, focusing on staying in place and stepping out with one leg."
    },
    {
     "tag": "chunking",
     "t": "3:26",
-    "what": "Teacher introduces the third move involving a slide with the right leg stepping out."
+    "what": "Teaches the third step involving a slide and drag motion with the legs."
    },
    {
     "tag": "repetition",
-    "t": "4:28",
-    "what": "Teacher runs through all three steps together in sequence multiple times."
+    "t": "4:31",
+    "what": "Combines all three steps together sequentially into a full routine and repeats it."
    }
   ],
-  "adaptations": [
-   {
-    "t": "0:44",
-    "difficulty": "arms don't know what to do",
-    "adjustment": "clap to keep the beat until comfortable",
-    "kind": "easier"
-   },
-   {
-    "t": "4:08",
-    "difficulty": "arms feeling stiff",
-    "adjustment": "choose whatever arms you want, like pushing or clapping",
-    "kind": "easier"
-   }
-  ],
+  "adaptations": [],
   "entry_points": [
    "feet_first",
    "count_first"
   ],
   "pace": {
    "talk_vs_move": "balanced",
-   "seconds_before_first_movement": 28,
+   "seconds_before_first_movement": 9,
    "pieces_taught": 3
   },
   "mentor": {
    "voice": [
     "calm",
     "patient",
-    "direct"
+    "direct",
+    "warm"
    ],
    "beliefs": [
     {
@@ -101,56 +87,56 @@
   "learner_voice": {
    "struggles": [
     {
-     "theme": "Feeling awkward dancing in empty room or in front of mirror",
+     "theme": "Watching from bed and not actually doing the moves",
      "tag": "other",
      "count": 6
     },
     {
-     "theme": "Trying the moves in bed and never actually getting up",
+     "theme": "Feeling awkward or cringing while dancing alone",
      "tag": "other",
      "count": 5
     },
     {
-     "theme": "Struggling with coordination or feeling stiff",
+     "theme": "Feeling stiff and unable to dance naturally",
      "tag": "other",
      "count": 4
     }
    ],
    "clicked": [
     {
-     "theme": "Super simple and easy to follow step by step",
-     "tag": "chunking",
+     "theme": "Found the step-by-step instructions simple and easy to follow",
+     "tag": "other",
      "count": 4
     },
     {
-     "theme": "Learned a dance move for the first time with ease",
-     "tag": "quick_win",
+     "theme": "Learned a dance move easily despite thinking they had no rhythm",
+     "tag": "other",
      "count": 3
     }
    ],
    "requests": [
     {
-     "theme": "Make a complete beginner playlist from easy to complex",
+     "theme": "Ask for a complete playlist or series for beginners",
      "tag": "other",
      "count": 1
     }
    ],
    "meant": [
     {
-     "theme": "Never too old to start learning hip hop dance",
-     "tag": "dance_is_for_everyone",
+     "theme": "Gained pride and confidence in finally learning basic dance moves",
+     "tag": "other",
      "count": 3
     },
     {
-     "theme": "Proud of finally learning a dance routine",
+     "theme": "Older learners felt inspired that they are never too old to start",
      "tag": "other",
-     "count": 2
+     "count": 3
     }
    ]
   },
-  "limits": "Music is not played during the instructional breakdown."
+  "limits": "Audio does not feature background music during instruction, only verbal counts."
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 2
+ "attempts": 3
 }

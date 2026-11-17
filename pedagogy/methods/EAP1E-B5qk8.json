@@ -98,15 +98,62 @@
     "warm",
     "patient",
     "precise",
-    "energetic"
+    "energetic",
+    "playful"
    ],
    "beliefs": [
     {
-     "t": "0:29",
-     "belief": "This line dance is versatile because it works with nearly any song at a country club and can be danced individually or in a group."
+     "t": "0:30",
+     "belief": "The dance is simple and versatile, making it accessible for anyone to learn and perform to many songs.",
+     "about": "who_can_dance"
     }
    ],
-   "feelings": []
+   "feelings": [
+    {
+     "t": "2:18",
+     "feeling": "frustrated",
+     "response": "The teacher acknowledges the potential for confusion and offers to repeat the sequence to help the learner."
+    }
+   ],
+   "moments": [
+    {
+     "t": "0:24",
+     "moment": "opening",
+     "says": "The teacher introduces herself and the dance, emphasizing that it is very basic and can be done to almost any song.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "1:52",
+     "moment": "before_hard_part",
+     "says": "The teacher acknowledges that the next part can be confusing and suggests practicing it multiple times.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "2:18",
+     "moment": "after_mistake",
+     "says": "The teacher says it can get confusing if you don't do it lots of times, and then repeats the sequence.",
+     "tag": "normalise_mistakes"
+    },
+    {
+     "t": "3:35",
+     "moment": "after_success",
+     "says": "The teacher confirms the steps are taught and reminds the learner to add the quarter turn at the end.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "4:00",
+     "moment": "before_hard_part",
+     "says": "The teacher offers a choice between a more energetic hop or a simpler step-out-and-back.",
+     "tag": "autonomy"
+    },
+    {
+     "t": "6:15",
+     "moment": "closing",
+     "says": "The teacher encourages the learner to try the dance and watch the next demo to see what song to use.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable and encouraged to practice, knowing the dance is simple and fun."
   },
   "learner_voice": {
    "struggles": [
@@ -136,5 +183,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 3
+ "attempts": 3,
+ "mentor_look": {
+  "at": "2026-11-17T06:45:20Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 6,
+  "beliefs": 1,
+  "feelings": 1
+ }
 }

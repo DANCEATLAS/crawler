@@ -93,15 +93,86 @@
    "voice": [
     "warm",
     "patient",
-    "gentle"
+    "gentle",
+    "playful",
+    "calm"
    ],
    "beliefs": [
     {
      "t": "0:20",
      "belief": "Feeling like a trunk happens when you move your whole body in a single block instead of by parts."
+    },
+    {
+     "t": "0:35",
+     "belief": "The teacher believes that breaking movements down into smaller parts is the key to overcoming stiffness and learning to dance.",
+     "about": "how_people_learn"
+    },
+    {
+     "t": "1:05",
+     "belief": "The teacher believes that dancing is a great way for anyone, especially those who spend a lot of time sitting, to relax.",
+     "about": "who_can_dance"
+    },
+    {
+     "t": "3:08",
+     "belief": "The teacher believes that the best way to learn is by choosing music that the learner personally enjoys.",
+     "about": "what_dancing_is_for"
     }
    ],
-   "feelings": []
+   "feelings": [
+    {
+     "t": "0:00",
+     "feeling": "awkward",
+     "response": "The teacher validates the feeling of being a \"trunk\" and offers a solution to help the learner feel more fluid."
+    },
+    {
+     "t": "1:05",
+     "feeling": "tired",
+     "response": "The teacher suggests that these movements are a perfect way to relax after a long day of work or study."
+    },
+    {
+     "t": "3:26",
+     "feeling": "tired",
+     "response": "The teacher gives permission to relax and breathe before starting again."
+    },
+    {
+     "t": "5:56",
+     "feeling": "frustrated",
+     "response": "The teacher addresses the feeling of pain in the legs by suggesting a modification to the movement."
+    }
+   ],
+   "moments": [
+    {
+     "t": "0:00",
+     "moment": "opening",
+     "says": "The teacher acknowledges the learner's feeling of being stiff and promises three simple movements to help them loosen up and start dancing.",
+     "tag": "names_the_feeling"
+    },
+    {
+     "t": "1:11",
+     "moment": "before_hard_part",
+     "says": "The teacher advises the learner not to tense their muscles and to only move as far as their shoulder allows, emphasizing comfort.",
+     "tag": "rest_and_kindness"
+    },
+    {
+     "t": "3:26",
+     "moment": "after_mistake",
+     "says": "The teacher encourages the learner to relax, breathe, and start again if they feel tired while practicing the movements with music.",
+     "tag": "rest_and_kindness"
+    },
+    {
+     "t": "5:56",
+     "moment": "after_mistake",
+     "says": "The teacher explains that if the learner feels pain in their legs, they should focus more on moving their hips and less on the knee bend.",
+     "tag": "error_correction"
+    },
+    {
+     "t": "9:34",
+     "moment": "after_success",
+     "says": "The teacher reminds the learner to keep the movements gentle and not to hurt themselves while practicing.",
+     "tag": "praise_and_expectancy"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable of loosening up their body and finding their own rhythm through simple, manageable steps."
   },
   "learner_voice": {
    "struggles": [
@@ -152,5 +223,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 2
+ "attempts": 2,
+ "mentor_look": {
+  "at": "2026-11-17T06:46:05Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 5,
+  "beliefs": 3,
+  "feelings": 4
+ }
 }

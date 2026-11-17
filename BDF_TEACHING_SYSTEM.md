@@ -6,32 +6,33 @@ _Rebuilt 2026-11-17 by `pipeline/teaching.py`. It grows every night at no cost. 
 
 | | |
 |---|---:|
-| Teachers ranked by what learners wrote under their lessons | 288 |
-| Teachers whose method has been studied | 11 |
-| Lessons watched for teaching method | 13 (8 of them teach the basics every dance shares) |
+| Teachers ranked by what learners wrote under their lessons | 291 |
+| Teachers whose method has been studied | 12 |
+| Lessons watched for teaching method | 14 (9 of them teach the basics every dance shares) |
 | Dances and dance families those lessons cover | 5 dances, 4 families |
-| Learner comments read (kept as themes, no names) | 780 |
-| Moments where a teacher adapts to a difficulty | 14 |
+| Learner comments read (kept as themes, no names) | 840 |
+| Moments where a teacher adapts to a difficulty | 12 |
 | Research notes with checked quotes | 12 of 66 topics, and 5 papers from the open search (53 findings) |
-| Teaching practices backed by two or more kinds of evidence | 6 of 34 (1 by all three) |
+| Teaching practices backed by two or more kinds of evidence | 7 of 34 (2 by all three) |
 
 Three kinds of evidence are joined for every practice: **teachers** (at least three ranked teachers do it), **learners** (their comments speak of it) and **research** (a note with checked quotes). ●●● means all three.
 
-New in the last seven days: 13 lessons studied (AGAVIK999, Baila Facilito, BodyKinect by Kendall, Country Dance X, FitLara Dance, Line Dance with Coral, MihranTV, Oleg Astakhov), 17 research notes.
+New in the last seven days: 14 lessons studied (AGAVIK999, Baila Facilito, BodyKinect by Kendall, Country Dance X, FitLara Dance, Line Dance with Coral, MihranTV, Oleg Astakhov), 17 research notes.
 
 ## The teaching DNA so far
 
 What a teacher does, wherever two or more kinds of evidence agree. This list grows and changes as the evidence does.
 
 **Build it**
-- Teach one small piece at a time and practise it before adding the next. ●●● (11 teachers in 4 dance families; 13 learner comments; 1 research note)
+- Teach one small piece at a time and practise it before adding the next. ●●● (11 teachers in 4 dance families; 9 learner comments; 1 research note)
 - Feet first; add arms, styling and turns only when the feet are steady. ●● (5 teachers in 3 dance families; 0 learner comments; 1 research note)
 - Bring in the music early, not only at the end. ●● (7 teachers in 3 dance families; 2 learner comments; 1 research note)
 - Repeat more than feels necessary, with follow-along rounds. ●● (8 teachers in 4 dance families; 0 learner comments; 1 research note)
 
 **Stay with it**
-- Get the learner dancing something real in the first minutes. ●● (0 teachers in 0 dance families; 3 learner comments; 2 research notes)
-- Give a reason to come back: the next step, a series, a routine. ●● (0 teachers in 0 dance families; 3 learner comments; 4 research notes)
+- Tell learners they can do it, and name each small win. ●● (7 teachers in 3 dance families; 0 learner comments; 5 research notes)
+- Treat mistakes as normal, and show your own. ●● (3 teachers in 3 dance families; 0 learner comments; 1 research note)
+- Give a reason to come back: the next step, a series, a routine. ●●● (3 teachers in 3 dance families; 3 learner comments; 4 research notes)
 
 ## How the Best Dance Friend adjusts
 
@@ -44,16 +45,29 @@ What learners say is hard, what the teachers offer for it, and what the research
 
 ## The mentor: voice, beliefs and how feelings are met
 
-Who is teaching, beyond what is taught. Read so far in 11 of 13 lessons studied; the earlier ones are watched once more for this.
+Who is teaching, beyond what is taught. Read so far in 12 of 14 lessons studied; the earlier ones are watched once more for this. A second, narrower look at the mentor alone has been taken at 10 lessons.
 
-- The voice of the teachers studied: patient 11, warm 9, calm 4, playful 4, precise 3, gentle 3, direct 3, energetic 3, humorous 1
-- When the learner feels **frustrated** (met 1 time): Acknowledge that à la seconde turns are complicated, but encourage learners not to give up on them. ([BodyKinect by Kendall](https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=354s))
-- A teacher's belief: Dancing is accessible to everyone, regardless of age or physical limitations, if taught with the right approach. ([АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ](https://www.youtube.com/watch?v=7VbynFspxsM&t=5s))
+- The voice of the teachers studied: patient 12, warm 12, energetic 8, calm 7, playful 7, precise 5, direct 4, gentle 3, humorous 1
+- **How they open** (seen 10 times with 10 teachers): Greets the viewers and introduces shuffle dance basics specifically tailored for older adults and those finding it difficult to train. ([АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ](https://www.youtube.com/watch?v=7VbynFspxsM)); Greets the viewers, introduces himself as a professional dancer working with Russian stars, and sets the goal of looking confident at parties. ([Rianna Bartuli](https://www.youtube.com/watch?v=Rs9j8ovR5ME&t=11s)); The teacher introduces tap dance basics as the bread and butter of the form, getting started right now. ([The Dance Prof](https://www.youtube.com/watch?v=HZruz8wO0g8&t=1s))
+- **Before a hard part** (seen 13 times with 9 teachers): Explains that hands are both the simplest and most complex part of dancing, warning against aggressive movements that push people away. ([Rianna Bartuli](https://www.youtube.com/watch?v=Rs9j8ovR5ME&t=67s)); Teacher advises shaking out ankles to release tension before learning brushes. ([The Dance Prof](https://www.youtube.com/watch?v=HZruz8wO0g8&t=63s)); These movements are mostly large and exaggerated, and I will mirror these movements for you, which means my left leg is your right leg. ([FitLara Dance](https://www.youtube.com/watch?v=uuxFumbQ3WM&t=44s))
+- **After a mistake** (seen 9 times with 7 teachers): Tells learners not to worry if something doesn't work out at first, emphasizing practice, diligence, and persistence. ([Rianna Bartuli](https://www.youtube.com/watch?v=Rs9j8ovR5ME&t=347s)); Teacher names a common student confusion between shuffle and flap steps and demonstrates the correct execution. ([The Dance Prof](https://www.youtube.com/watch?v=HZruz8wO0g8&t=272s)); The teacher says it can get confusing if you don't do it lots of times, and then repeats the sequence. ([Line Dance with Coral](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=138s))
+- **After a success** (seen 7 times with 6 teachers): Yes, great! Okay, one more time slowly. ([FitLara Dance](https://www.youtube.com/watch?v=uuxFumbQ3WM&t=412s)); The teacher confirms the steps are taught and reminds the learner to add the quarter turn at the end. ([Line Dance with Coral](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=215s)); The teacher praises the learner for their effort and encourages them to continue with the next part of the dance. ([AGAVIK999](https://www.youtube.com/watch?v=VO1HD_VRCvs&t=495s))
+- **Checking in** (seen 5 times with 4 teachers): Maybe pause this video, put yourself some music on and practice this first movement. ([FitLara Dance](https://www.youtube.com/watch?v=uuxFumbQ3WM&t=501s)); The teacher asks the learner if they are managing to follow the steps and encourages them to keep going. ([AGAVIK999](https://www.youtube.com/watch?v=VO1HD_VRCvs&t=586s)); The teacher encourages the learner to return to the basics if they feel lost or overwhelmed during the turn breakdown. ([BodyKinect by Kendall](https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=371s))
+- **How they close** (seen 4 times with 4 teachers): Teacher asks viewers to like, share, subscribe, and leave comments for future videos. ([The Dance Prof](https://www.youtube.com/watch?v=HZruz8wO0g8&t=542s)); The teacher encourages the learner to try the dance and watch the next demo to see what song to use. ([Line Dance with Coral](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=375s)); The teacher invites the learner to check out their website for more in-depth dancing programs if they want to learn more technique. ([Oleg Astakhov](https://www.youtube.com/watch?v=RUCbV8C9CVE&t=553s))
+- **Who can dance** (6 teachers): Anyone can look cool and confident at a party, even if they do not know how to dance initially. ([Rianna Bartuli](https://www.youtube.com/watch?v=Rs9j8ovR5ME&t=23s)); The dance is simple and versatile, making it accessible for anyone to learn and perform to many songs. ([Line Dance with Coral](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=30s)); The teacher believes that this dance is for everyone, regardless of their skill level or experience. ([AGAVIK999](https://www.youtube.com/watch?v=VO1HD_VRCvs&t=34s))
+- **What dancing is for** (3 teachers): Dancing is personal expression, creativity, and following your inner feeling rather than strict rules. ([Rianna Bartuli](https://www.youtube.com/watch?v=Rs9j8ovR5ME&t=227s)); Dancing is for social situations, like weddings and parties, where you can have fun with others. ([Oleg Astakhov](https://www.youtube.com/watch?v=RUCbV8C9CVE&t=39s)); The teacher believes that the best way to learn is by choosing music that the learner personally enjoys. ([Baila Facilito](https://www.youtube.com/watch?v=WEiSsx3JOOM&t=188s))
+- **How people learn** (2 teachers): The teacher believes that breaking movements down into smaller parts is the key to overcoming stiffness and learning to dance. ([Baila Facilito](https://www.youtube.com/watch?v=WEiSsx3JOOM&t=35s)); Complex moves should be broken down into 'real simple' individual components before being combined. ([MihranTV](https://www.youtube.com/watch?v=fMEBZ59AQLk&t=35s))
+- **What a teacher is for** (1 teacher): A teacher is there to help you learn how to dance in the most simple way, not just to teach technique. ([Oleg Astakhov](https://www.youtube.com/watch?v=RUCbV8C9CVE&t=96s))
+- When the learner feels **frustrated** (met 4 times): The teacher acknowledges the potential for confusion and offers to repeat the sequence to help the learner. ([Line Dance with Coral](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=138s)); The teacher validates the feeling by sharing her own past struggle with the same concept. ([BodyKinect by Kendall](https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=101s))
+- When the learner feels **awkward** (met 2 times): The teacher encourages the learner to have fun and add as much body sway as they want, making it easier to change weight. ([Oleg Astakhov](https://www.youtube.com/watch?v=RUCbV8C9CVE&t=182s)); The teacher validates the feeling of being a "trunk" and offers a solution to help the learner feel more fluid. ([Baila Facilito](https://www.youtube.com/watch?v=WEiSsx3JOOM))
+- When the learner feels **self doubt** (met 2 times): The teacher asks the learners how they are feeling and encourages them to share their thoughts and experiences. ([AGAVIK999](https://www.youtube.com/watch?v=VO1HD_VRCvs&t=363s)); The teacher acknowledges the feeling of being on the sidelines and offers to help the learner join in. ([Oleg Astakhov](https://www.youtube.com/watch?v=RUCbV8C9CVE&t=34s))
+- When the learner feels **tired** (met 2 times): The teacher suggests that these movements are a perfect way to relax after a long day of work or study. ([Baila Facilito](https://www.youtube.com/watch?v=WEiSsx3JOOM&t=65s)); The teacher gives permission to relax and breathe before starting again. ([Baila Facilito](https://www.youtube.com/watch?v=WEiSsx3JOOM&t=206s))
+- When the learner feels **joyful** (met 1 time): Encourages the learner to find the 'vibe' of the dance, focusing on the feeling of jumping within oneself. ([MihranTV](https://www.youtube.com/watch?v=fMEBZ59AQLk&t=188s))
+- When the learner feels **overwhelmed** (met 1 time): The teacher advises the learner to bring it back to the basics to regain focus and confidence. ([BodyKinect by Kendall](https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=369s))
 - A teacher's belief: Dancing is accessible to any person regardless of zero level or age. ([АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ](https://www.youtube.com/watch?v=iIZTgea3lZI&t=5s))
-- A teacher's belief: Dancing allows for personal creativity and internal feeling regardless of strict rules. ([Rianna Bartuli](https://www.youtube.com/watch?v=Rs9j8ovR5ME&t=226s))
-- A teacher's belief: Locking relies on fast, distinct arm and hand movements combined with relaxed hips and legs. ([FitLara Dance](https://www.youtube.com/watch?v=uuxFumbQ3WM&t=36s))
-- A teacher's belief: This line dance is versatile because it works with nearly any song at a country club and can be danced individually or in a group. ([Line Dance with Coral](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=29s))
-- A teacher's belief: Dancing is for everyone and brings joy to life. ([AGAVIK999](https://www.youtube.com/watch?v=VO1HD_VRCvs&t=34s))
+- A teacher's belief: dancing is all about your attitude, bending your knees, and giving it flavor ([MihranTV](https://www.youtube.com/watch?v=ujREEgxEP7g&t=21s))
+- A teacher's belief: repeating steps over and over is key until you get comfortable ([MihranTV](https://www.youtube.com/watch?v=ujREEgxEP7g&t=317s))
+- How a learner is left feeling: The teacher leaves the learner feeling capable, creative, and confident that anyone can dance at any party. ([Rianna Bartuli](https://www.youtube.com/watch?v=Rs9j8ovR5ME)); The teacher leaves the learner feeling equipped and encouraged to master fundamental tap dance steps at their own pace. ([The Dance Prof](https://www.youtube.com/watch?v=HZruz8wO0g8)); The teacher leaves the learner feeling encouraged, capable, and ready to groove step-by-step at their own pace. ([FitLara Dance](https://www.youtube.com/watch?v=uuxFumbQ3WM))
 - What the lessons meant to learners: brought joy, positive energy, and motivated older adults to dance (25); hope and inspiration for learning to dance at an older age (15); bringing back fond memories and providing accessible therapy or exercise (12); brought immense joy, energy, and improved well-being (10); felt inspired to dance again after many decades or at an older age (8); fulfilling a lifelong childhood dream of learning how to tap dance (8)
 
 ## What the Best Dance Friend should remember about each learner
@@ -61,10 +75,10 @@ Who is teaching, beyond what is taught. Read so far in 11 of 13 lessons studied;
 A teacher who stays with one learner for years adjusts through what they have learned about that person. The evidence so far says these are the things to keep; the numbers say how often each was seen.
 
 - What this learner finds hard: counts and rhythm 2
-- What made a step click for them: chunking 13, quick win 3
-- Which feeling comes up, and what answered it: frustrated 1
-- The way into a dance that works for them: feet first 12, rhythm first 9, count first 2, feel first 1
-- How much talk and how much movement they like: balanced 13
+- What made a step click for them: chunking 9
+- Which feeling comes up, and what answered it: frustrated 4, awkward 2, self doubt 2, tired 2, joyful 1
+- The way into a dance that works for them: feet first 12, rhythm first 9, watch first 2, count first 2
+- How much talk and how much movement they like: balanced 13, mostly talk 1
 - Their body, their room and whether they have a partner: small space 1, different body 1
 
 ---
@@ -75,7 +89,7 @@ A teacher who stays with one learner for years adjusts through what they have le
 
 ### Chunking ●●●
 _small pieces, each practised before the next one is added._
-- Evidence: 11 teachers show it in 13 lessons across 4 dance families (100% of lessons studied); best-ranked third 100%, the others 100%; learners: 13 say it made the lesson work, 0 struggle here, 0 ask for it.
+- Evidence: 11 teachers show it in 13 lessons across 4 dance families (93% of lessons studied); best-ranked third 100%, the others 89%; learners: 9 say it made the lesson work, 0 struggle here, 0 ask for it.
 - АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ (First steps (basics), [2:16](https://www.youtube.com/watch?v=7VbynFspxsM&t=136s)): The teacher breaks down the movement by focusing on rotating the hip, practicing it on one leg before switching to the other.
 - Rianna Bartuli (First steps (basics), [2:57](https://www.youtube.com/watch?v=Rs9j8ovR5ME&t=177s)): The teacher introduces the second variation by adding a second step in one direction.
 - The Dance Prof (How teachers teach (basics), [0:12](https://www.youtube.com/watch?v=HZruz8wO0g8&t=12s)): Teaches the ball and heel step by lifting and dropping the ball of the foot while keeping the heel lifted.
@@ -83,9 +97,19 @@ _small pieces, each practised before the next one is added._
 - Learners (say it clicked, 4): broken down into small, simple steps
 - Research (chunking): When learning a new sequence, breaking movements into smaller clusters or chunks reduces working memory load and improves retention and performance. → Break down long movement sequences into smaller groups of three to four elements to match optimal memory chunk sizes.
 
+### Reason to return ●●●
+_a reason to come back: the next lesson, a series, a challenge, a daily routine._
+- Evidence: 3 teachers show it in 3 lessons across 3 dance families (21% of lessons studied); best-ranked third 20%, the others 22%; learners: 0 say it made the lesson work, 0 struggle here, 3 ask for it.
+- The Dance Prof (How teachers teach (basics), [9:02](https://www.youtube.com/watch?v=HZruz8wO0g8&t=542s)): Teacher asks viewers to like, share, subscribe, and leave comments for future videos.
+- Line Dance with Coral (Hustle, [6:15](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=375s)): The teacher encourages the learner to try the dance and watch the next demo to see what song to use.
+- Oleg Astakhov (swing dance, [9:13](https://www.youtube.com/watch?v=RUCbV8C9CVE&t=553s)): The teacher invites the learner to check out their website for more in-depth dancing programs if they want to learn more technique.
+- Learners (ask for, 3): ask the teacher to hold a dance academy or be their ongoing teacher
+- Research (habit formation): Behaviors transform into automatic habits through regular repetition within a consistent context, supported by preparation cues and positive rewards. → Establish a consistent routine and preparation cue at the start of every session to trigger automatic practice habits.
+- Research (enjoyment and staying with it): Exercise enjoyment, which heavily drives continued participation, is strongly boosted by music satisfaction, positive instructor interactions, and supportive social or partner dynamics. → Play music that learners genuinely enjoy to maximize their overall satisfaction and motivation.
+
 ### Repetition ●●
 _many repetitions, loops and follow-along rounds._
-- Evidence: 8 teachers show it in 9 lessons across 4 dance families (69% of lessons studied); best-ranked third 25%, the others 89%.
+- Evidence: 8 teachers show it in 9 lessons across 4 dance families (64% of lessons studied); best-ranked third 40%, the others 78%.
 - АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ (First steps (basics), [4:07](https://www.youtube.com/watch?v=7VbynFspxsM&t=247s)): The teacher practices a cross-step movement, moving forward and backward to build coordination.
 - FitLara Dance (Locking, [6:42](https://www.youtube.com/watch?v=uuxFumbQ3WM&t=402s)): Repeats the first eight counts slowly and then faster with the music multiple times.
 - Line Dance with Coral (Hustle, [1:41](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=101s)): Reviews the first part of the dance from the top before adding new movement.
@@ -93,75 +117,138 @@ _many repetitions, loops and follow-along rounds._
 
 ### Music early ●●
 _practice with the music early and often._
-- Evidence: 7 teachers show it in 7 lessons across 3 dance families (54% of lessons studied); best-ranked third 75%, the others 44%; learners: 0 say it made the lesson work, 0 struggle here, 2 ask for it.
+- Evidence: 7 teachers show it in 7 lessons across 3 dance families (50% of lessons studied); best-ranked third 80%, the others 33%; learners: 0 say it made the lesson work, 0 struggle here, 2 ask for it.
 - АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ (First steps (basics), [8:27](https://www.youtube.com/watch?v=iIZTgea3lZI&t=507s)): Transitions to practicing the full combination along with music.
 - Rianna Bartuli (First steps (basics), [2:23](https://www.youtube.com/watch?v=Rs9j8ovR5ME&t=143s)): The teacher demonstrates the first movement sequence to music.
 - The Dance Prof (How teachers teach (basics), [6:41](https://www.youtube.com/watch?v=HZruz8wO0g8&t=401s)): Puts all the learned steps together into a warm-up drill with music.
 - Learners (ask for, 2): demonstration with music
 - Research (music and reward): Music acts as a powerful abstract reward that triggers dopamine release, which in turn drives motivation and the pleasure experienced during movement. → Incorporate music early in the learning process to leverage its role as a natural reward system.
 
+### Praise and expectancy ●●
+_telling learners they can do it and celebrating small wins._
+- Evidence: 7 teachers show it in 7 lessons across 3 dance families (50% of lessons studied); best-ranked third 40%, the others 56%.
+- Rianna Bartuli (First steps (basics), [5:47](https://www.youtube.com/watch?v=Rs9j8ovR5ME&t=347s)): Tells learners not to worry if something doesn't work out at first, emphasizing practice, diligence, and persistence.
+- FitLara Dance (Locking, [0:44](https://www.youtube.com/watch?v=uuxFumbQ3WM&t=44s)): These movements are mostly large and exaggerated, and I will mirror these movements for you, which means my left leg is your right leg.
+- Line Dance with Coral (Hustle, [1:52](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=112s)): The teacher acknowledges that the next part can be confusing and suggests practicing it multiple times.
+- Research (expectancies and autonomy): Enhanced performance expectancies and autonomy support both improve motor learning and performance, and their benefits can be additive when combined. → Provide learners with small choices during practice, such as selecting the color of a practice tool, to support their autonomy.
+- Research (early success): Enhancing learner expectancies for successful performance and providing early positive experiences help build motivation and support motor learning. → Design early exercises to ensure learners achieve immediate successful outcomes to boost confidence and expectancy.
+
 ### Layering ●●
 _feet first, then arms, styling, turns or a partner on top._
-- Evidence: 5 teachers show it in 5 lessons across 3 dance families (38% of lessons studied); best-ranked third 50%, the others 33%.
+- Evidence: 5 teachers show it in 5 lessons across 3 dance families (36% of lessons studied); best-ranked third 40%, the others 33%.
 - АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ (First steps (basics), [3:18](https://www.youtube.com/watch?v=7VbynFspxsM&t=198s)): The teacher introduces a basic shuffle step, starting with the heels and then moving to the toes.
 - Rianna Bartuli (First steps (basics), [1:07](https://www.youtube.com/watch?v=Rs9j8ovR5ME&t=67s)): The teacher explains arm movements separately before combining them with the steps.
 - Line Dance with Coral (Hustle, [1:14](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=74s)): Adds two heels forward and two toes back with the right foot following the initial steps.
 - Research (chunking): When learning a new sequence, breaking movements into smaller clusters or chunks reduces working memory load and improves retention and performance. → Break down long movement sequences into smaller groups of three to four elements to match optimal memory chunk sizes.
 
-### Quick win ●●
-_the learner is dancing something real within the first minutes._
-- Evidence: 0 teachers show it in 0 lessons across 0 dance families (0% of lessons studied); best-ranked third 0%, the others 0%; learners: 3 say it made the lesson work, 0 struggle here, 0 ask for it.
-- Learners (say it clicked, 3): learned a dance move for the first time with ease
-- Research (music and reward): Music acts as a powerful abstract reward that triggers dopamine release, which in turn drives motivation and the pleasure experienced during movement. → Incorporate music early in the learning process to leverage its role as a natural reward system.
-- Research (early success): Enhancing learner expectancies for successful performance and providing early positive experiences help build motivation and support motor learning. → Design early exercises to ensure learners achieve immediate successful outcomes to boost confidence and expectancy.
-
-### Reason to return ●●
-_a reason to come back: the next lesson, a series, a challenge, a daily routine._
-- Evidence: 0 teachers show it in 0 lessons across 0 dance families (0% of lessons studied); best-ranked third 0%, the others 0%; learners: 0 say it made the lesson work, 0 struggle here, 3 ask for it.
-- Learners (ask for, 3): ask the teacher to hold a dance academy or be their ongoing teacher
-- Research (habit formation): Behaviors transform into automatic habits through regular repetition within a consistent context, supported by preparation cues and positive rewards. → Establish a consistent routine and preparation cue at the start of every session to trigger automatic practice habits.
-- Research (enjoyment and staying with it): Exercise enjoyment, which heavily drives continued participation, is strongly boosted by music satisfaction, positive instructor interactions, and supportive social or partner dynamics. → Play music that learners genuinely enjoy to maximize their overall satisfaction and motivation.
+### Normalise mistakes ●●
+_mistakes are expected; the teacher makes light of them or shows their own._
+- Evidence: 3 teachers show it in 3 lessons across 3 dance families (21% of lessons studied); best-ranked third 0%, the others 33%.
+- Line Dance with Coral (Hustle, [2:18](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=138s)): The teacher says it can get confusing if you don't do it lots of times, and then repeats the sequence.
+- Oleg Astakhov (swing dance, [1:30](https://www.youtube.com/watch?v=RUCbV8C9CVE&t=90s)): The teacher tells the learner to lift their legs to see the steps more clearly, framing the adjustment as a way to make the learning process easier.
+- BodyKinect by Kendall (Fouetté, [2:34](https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=154s)): The teacher laughs at her own demonstration of a wrong turn, showing that mistakes are a normal part of learning.
+- Research (self efficacy): Belief in one's ability to succeed, supported by choice and positive expectations, directly improves the learning of motor skills. → Give learners small choices during practice, such as picking the practice speed or song variation, to support their sense of autonomy.
 
 ### Counts and rhythm ●
 _counting, or the rhythm spoken or clapped (quick-quick-slow, boom-cha)._
-- Evidence: 6 teachers show it in 7 lessons across 3 dance families (54% of lessons studied); best-ranked third 25%, the others 67%; learners: 0 say it made the lesson work, 2 struggle here, 0 ask for it.
+- Evidence: 6 teachers show it in 6 lessons across 3 dance families (43% of lessons studied); best-ranked third 20%, the others 56%; learners: 0 say it made the lesson work, 2 struggle here, 0 ask for it.
 - АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ (First steps (basics), [0:18](https://www.youtube.com/watch?v=iIZTgea3lZI&t=18s)): Explains the first element called Kach, bending and rising with knees without straightening them completely.
 - Line Dance with Coral (Hustle, [1:09](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=69s)): Counts out loud 1, 2, 3, 4 for the initial foot movement pattern.
 - AGAVIK999 (First steps (basics), [7:43](https://www.youtube.com/watch?v=VO1HD_VRCvs&t=463s)): The teacher adds a double clap at the end of the step sequence and counts aloud.
 - Learners (find hard, 2): difficulty with the rhythm and counting
 
+### Names the feeling ●
+_the teacher says out loud what the learner may be feeling (awkward, lost, frustrated) and answers it._
+- Evidence: 6 teachers show it in 6 lessons across 4 dance families (43% of lessons studied); best-ranked third 0%, the others 67%.
+- Line Dance with Coral (Hustle, [2:18](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=138s)): The teacher acknowledges the potential for confusion and offers to repeat the sequence to help the learner.
+- AGAVIK999 (First steps (basics), [6:03](https://www.youtube.com/watch?v=VO1HD_VRCvs&t=363s)): The teacher asks the learners how they are feeling and encourages them to share their thoughts and experiences.
+- Oleg Astakhov (swing dance, [0:34](https://www.youtube.com/watch?v=RUCbV8C9CVE&t=34s)): The teacher acknowledges the feeling of being on the sidelines and offers to help the learner join in.
+
+### Dance is for everyone ●
+_anyone can dance: any body, any age, no talent needed._
+- Evidence: 5 teachers show it in 5 lessons across 3 dance families (36% of lessons studied); best-ranked third 60%, the others 22%.
+- АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ (First steps (basics), [0:00](https://www.youtube.com/watch?v=7VbynFspxsM)): Greets the viewers and introduces shuffle dance basics specifically tailored for older adults and those finding it difficult to train.
+- Rianna Bartuli (First steps (basics), [0:11](https://www.youtube.com/watch?v=Rs9j8ovR5ME&t=11s)): Greets the viewers, introduces himself as a professional dancer working with Russian stars, and sets the goal of looking confident at parties.
+- FitLara Dance (Locking, [0:20](https://www.youtube.com/watch?v=uuxFumbQ3WM&t=20s)): Welcome back on my channel, my name is Lara and I'm your expert for fitness, sports and dance, and I'm super excited to share my first dance tutorial for beginners with you today.
+
+### Error correction ●
+_the common mistake is named and its fix is shown._
+- Evidence: 4 teachers show it in 4 lessons across 2 dance families (29% of lessons studied); best-ranked third 20%, the others 33%.
+- The Dance Prof (How teachers teach (basics), [4:32](https://www.youtube.com/watch?v=HZruz8wO0g8&t=272s)): Teacher names a common student confusion between shuffle and flap steps and demonstrates the correct execution.
+- AGAVIK999 (First steps (basics), [7:17](https://www.youtube.com/watch?v=VO1HD_VRCvs&t=437s)): The teacher breaks down the step into smaller, manageable parts and repeats the sequence to ensure the learner understands.
+- BodyKinect by Kendall (Fouetté, [1:06](https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=66s)): The teacher explains the correct knee alignment for a plié, emphasizing the importance of not overextending.
+
 ### Tempo ramp ●
 _slow first, then faster, then full speed._
-- Evidence: 4 teachers show it in 4 lessons across 2 dance families (31% of lessons studied); best-ranked third 0%, the others 44%.
+- Evidence: 4 teachers show it in 4 lessons across 2 dance families (29% of lessons studied); best-ranked third 20%, the others 33%.
 - FitLara Dance (Locking, [3:18](https://www.youtube.com/watch?v=uuxFumbQ3WM&t=198s)): Practices the first sequence of movements slightly faster while counting out loud.
 - Line Dance with Coral (Hustle, [1:23](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=83s)): Introduces alternating heels and toes in a sequence and then combines all heel and toe movements together.
 - Oleg Astakhov (swing dance, [8:22](https://www.youtube.com/watch?v=RUCbV8C9CVE&t=502s)): Speed up counts and practice with faster tempo.
 
+### Autonomy ●
+_the learner chooses: pause, pick a tempo, pick a variation, own style._
+- Evidence: 2 teachers show it in 2 lessons across 2 dance families (14% of lessons studied); best-ranked third 20%, the others 11%.
+- FitLara Dance (Locking, [8:21](https://www.youtube.com/watch?v=uuxFumbQ3WM&t=501s)): Maybe pause this video, put yourself some music on and practice this first movement.
+- Line Dance with Coral (Hustle, [4:00](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=240s)): The teacher offers a choice between a more energetic hop or a simpler step-out-and-back.
+- Research (expectancies and autonomy): Enhanced performance expectancies and autonomy support both improve motor learning and performance, and their benefits can be additive when combined. → Provide learners with small choices during practice, such as selecting the color of a practice tool, to support their autonomy.
+- Research (autonomy support): Supporting a learner's autonomy through small choices improves skill acquisition and retention, even when those choices are entirely unrelated to the physical task. → Allow learners to make small choices during the lesson, such as selecting the color of a virtual prop or the order of practice routines.
+
 ### Body adaptation ●
 _options for knees, balance, age, a small room or no partner._
-- Evidence: 1 teacher show it in 1 lesson across 1 dance family (8% of lessons studied); best-ranked third 0%, the others 11%.
+- Evidence: 2 teachers show it in 2 lessons across 2 dance families (14% of lessons studied); best-ranked third 20%, the others 11%.
+- The Dance Prof (How teachers teach (basics), [1:03](https://www.youtube.com/watch?v=HZruz8wO0g8&t=63s)): Teacher advises shaking out ankles to release tension before learning brushes.
 - BodyKinect by Kendall (Fouetté, [9:12](https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=552s)): Suggests using a chair, bar, or stable household object as a support when practicing fouettés at home.
 - Research (Active video game play in children with cerebral palsy: potential for ): Active video games can provide an enjoyable way for children with cerebral palsy to engage in moderate physical activity and support motor learning goals. → Select specific dance movements or games that encourage the use of both limbs to support bilateral coordination.
 
+### Fun and energy ●
+_humour, play and the teacher's own visible joy._
+- Evidence: 2 teachers show it in 2 lessons across 2 dance families (14% of lessons studied); best-ranked third 0%, the others 22%.
+- BodyKinect by Kendall (Fouetté, [0:06](https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=6s)): The teacher introduces the lesson, listing the turns to be covered and inviting the learner to find a space to move.
+- MihranTV (The Jerk, [0:04](https://www.youtube.com/watch?v=fMEBZ59AQLk&t=4s)): Welcomes the learner back and introduces the 'Reject' step, also known as the 'Jerk' step, promising to break it down after a music demonstration.
+- Research (music and reward): Music acts as a powerful abstract reward that triggers dopamine release, which in turn drives motivation and the pleasure experienced during movement. → Incorporate music early in the learning process to leverage its role as a natural reward system.
+- Research (enjoyment and staying with it): Exercise enjoyment, which heavily drives continued participation, is strongly boosted by music satisfaction, positive instructor interactions, and supportive social or partner dynamics. → Play music that learners genuinely enjoy to maximize their overall satisfaction and motivation.
+
+### Quick win ●
+_the learner is dancing something real within the first minutes._
+- Evidence: 2 teachers show it in 2 lessons across 2 dance families (14% of lessons studied); best-ranked third 20%, the others 11%.
+- The Dance Prof (How teachers teach (basics), [0:01](https://www.youtube.com/watch?v=HZruz8wO0g8&t=1s)): The teacher introduces tap dance basics as the bread and butter of the form, getting started right now.
+- MihranTV (The Jerk, [4:07](https://www.youtube.com/watch?v=fMEBZ59AQLk&t=247s)): Transitions to practicing with music, starting slow to help the learner find the beat.
+- Research (music and reward): Music acts as a powerful abstract reward that triggers dopamine release, which in turn drives motivation and the pleasure experienced during movement. → Incorporate music early in the learning process to leverage its role as a natural reward system.
+- Research (early success): Enhancing learner expectancies for successful performance and providing early positive experiences help build motivation and support motor learning. → Design early exercises to ensure learners achieve immediate successful outcomes to boost confidence and expectancy.
+
 ### Demo first ●
 _the whole step or phrase shown once at speed before it is broken down._
-- Evidence: 1 teacher show it in 1 lesson across 1 dance family (8% of lessons studied); best-ranked third 0%, the others 11%.
+- Evidence: 1 teacher show it in 1 lesson across 1 dance family (7% of lessons studied); best-ranked third 0%, the others 11%.
 - MihranTV (The Jerk, [0:21](https://www.youtube.com/watch?v=fMEBZ59AQLk&t=21s)): Demonstrates the reject step once to music from a side profile view.
 - Research (action observation in dance): When people observe actions they already know or have seen before, their brain's mirror and motor areas simulate those movements more strongly. → Let learners watch dance sequences repeatedly to build visual familiarity and engage their motor simulation networks before they try to execute the movements.
 - Research (observational learning): Watching a model perform helps learners acquire motor skills, and guiding their visual attention to key features further accelerates this learning. → Show the movement demonstration clearly before letting learners practice physically.
 
+### Imagery ●
+_an image or comparison instead of anatomy ("paint the floor with your toe")._
+- Evidence: 0 teachers show it in 0 lessons across 1 dance family, 1 teacher say it in talks (7% of lessons studied); best-ranked third 0%, the others 11%.
+- STEEZY (How teachers teach (basics), [3:30](https://www.youtube.com/watch?v=nHZmIW6l4FM&t=210s)): Use a balloon analogy to demonstrate how a move starts fast, then moves slow and floaty.
+- Research (external focus): Directing a learner's attention to the external effects of their movements rather than to the body movements themselves enhances motor learning and performance. → Instruct users to focus on the external effects of their movements rather than on how their body parts are moving.
+
 ### Mirror view ●
 _a mirrored or back view, so the learner copies without flipping left and right._
-- Evidence: 1 teacher show it in 1 lesson across 1 dance family (8% of lessons studied); best-ranked third 0%, the others 11%.
+- Evidence: 1 teacher show it in 1 lesson across 1 dance family (7% of lessons studied); best-ranked third 20%, the others 0%.
 - FitLara Dance (Locking, [6:00](https://www.youtube.com/watch?v=uuxFumbQ3WM&t=360s)): Turns around to face the back so learners can mirror her movements while facing the same direction.
 - Research (action observation in dance): When people observe actions they already know or have seen before, their brain's mirror and motor areas simulate those movements more strongly. → Let learners watch dance sequences repeatedly to build visual familiarity and engage their motor simulation networks before they try to execute the movements.
 - Research (observational learning): Watching a model perform helps learners acquire motor skills, and guiding their visual attention to key features further accelerates this learning. → Show the movement demonstration clearly before letting learners practice physically.
 
-### Autonomy ●
-_the learner chooses: pause, pick a tempo, pick a variation, own style._
-- Evidence: 0 teachers show it in 0 lessons across 0 dance families (0% of lessons studied); best-ranked third 0%, the others 0%.
-- Research (expectancies and autonomy): Enhanced performance expectancies and autonomy support both improve motor learning and performance, and their benefits can be additive when combined. → Provide learners with small choices during practice, such as selecting the color of a practice tool, to support their autonomy.
-- Research (autonomy support): Supporting a learner's autonomy through small choices improves skill acquisition and retention, even when those choices are entirely unrelated to the physical task. → Allow learners to make small choices during the lesson, such as selecting the color of a virtual prop or the order of practice routines.
+### Recap and practice plan ●
+_a recap, homework or a practice routine to take away._
+- Evidence: 1 teacher show it in 1 lesson across 1 dance family (7% of lessons studied); best-ranked third 0%, the others 11%.
+- MihranTV (The Jerk, [4:45](https://www.youtube.com/watch?v=fMEBZ59AQLk&t=285s)): Leads the final practice at full tempo with music, repeating the move multiple times to solidify the learning.
+- Research (habit formation): Behaviors transform into automatic habits through regular repetition within a consistent context, supported by preparation cues and positive rewards. → Establish a consistent routine and preparation cue at the start of every session to trigger automatic practice habits.
+- Research (Educating Students for a Lifetime of Physical Activity: Enhancing Mind): To foster lifelong physical activity, teachers should create a nurturing environment that emphasizes personal meaning, cognitive decision-making, and self-motivation. → Ask students to reflect on what personal meaning they find in a specific dance style to increase their connection to the movement.
+
+### Social connection ●
+_community, challenges, dancing with others, sharing._
+- Evidence: 1 teacher show it in 1 lesson across 1 dance family (7% of lessons studied); best-ranked third 0%, the others 11%.
+- AGAVIK999 (First steps (basics), [0:05](https://www.youtube.com/watch?v=VO1HD_VRCvs&t=5s)): The teacher greets the learners, asks how they are doing, and introduces the special training session for them.
+- Research (basic needs): Satisfying learners' basic psychological needs for autonomy, competence, and relatedness fosters motivation and sustained participation. → Give learners choices in their practice to support their sense of autonomy.
+- Research (Active video game play in children with cerebral palsy: potential for ): Active video games can provide an enjoyable way for children with cerebral palsy to engage in moderate physical activity and support motor learning goals. → Select specific dance movements or games that encourage the use of both limbs to support bilateral coordination.
 
 ### Culture and meaning ●
 _where the dance comes from and what it means, inside the lesson._
@@ -169,74 +256,60 @@ _where the dance comes from and what it means, inside the lesson._
 - Research (Educating Students for a Lifetime of Physical Activity: Enhancing Mind): To foster lifelong physical activity, teachers should create a nurturing environment that emphasizes personal meaning, cognitive decision-making, and self-motivation. → Ask students to reflect on what personal meaning they find in a specific dance style to increase their connection to the movement.
 - Research (Culture X: addressing barriers to physical activity in Samoa): Integrating local cultural elements into movement programs significantly improves participant engagement and helps overcome personal and social barriers to physical activity. → Incorporate traditional music and movement styles relevant to the learner's cultural background into the lesson.
 
-### Fun and energy ●
-_humour, play and the teacher's own visible joy._
-- Evidence: 0 teachers show it in 0 lessons across 0 dance families (0% of lessons studied); best-ranked third 0%, the others 0%.
-- Research (music and reward): Music acts as a powerful abstract reward that triggers dopamine release, which in turn drives motivation and the pleasure experienced during movement. → Incorporate music early in the learning process to leverage its role as a natural reward system.
-- Research (enjoyment and staying with it): Exercise enjoyment, which heavily drives continued participation, is strongly boosted by music satisfaction, positive instructor interactions, and supportive social or partner dynamics. → Play music that learners genuinely enjoy to maximize their overall satisfaction and motivation.
-
-### Imagery ●
-_an image or comparison instead of anatomy ("paint the floor with your toe")._
-- Evidence: 0 teachers show it in 0 lessons across 0 dance families (0% of lessons studied); best-ranked third 0%, the others 0%.
-- Research (external focus): Directing a learner's attention to the external effects of their movements rather than to the body movements themselves enhances motor learning and performance. → Instruct users to focus on the external effects of their movements rather than on how their body parts are moving.
-
-### Normalise mistakes ●
-_mistakes are expected; the teacher makes light of them or shows their own._
-- Evidence: 0 teachers show it in 0 lessons across 0 dance families (0% of lessons studied); best-ranked third 0%, the others 0%.
-- Research (self efficacy): Belief in one's ability to succeed, supported by choice and positive expectations, directly improves the learning of motor skills. → Give learners small choices during practice, such as picking the practice speed or song variation, to support their sense of autonomy.
-
 ### Play and variation ●
 _improvise, vary, make it yours._
 - Evidence: 0 teachers show it in 0 lessons across 0 dance families (0% of lessons studied); best-ranked third 0%, the others 0%.
 - Research (Evolution of Neuroplasticity in Response to Physical Activity in Old A): Dance programs that prioritize the continuous learning of new movement patterns are more effective at promoting brain health in older adults than repetitive physical exercise. → Prioritize teaching new, varied movement patterns rather than relying on repetitive drills.
 
-### Praise and expectancy ●
-_telling learners they can do it and celebrating small wins._
-- Evidence: 0 teachers show it in 0 lessons across 0 dance families (0% of lessons studied); best-ranked third 0%, the others 0%.
-- Research (expectancies and autonomy): Enhanced performance expectancies and autonomy support both improve motor learning and performance, and their benefits can be additive when combined. → Provide learners with small choices during practice, such as selecting the color of a practice tool, to support their autonomy.
-- Research (early success): Enhancing learner expectancies for successful performance and providing early positive experiences help build motivation and support motor learning. → Design early exercises to ensure learners achieve immediate successful outcomes to boost confidence and expectancy.
-
-### Recap and practice plan ●
-_a recap, homework or a practice routine to take away._
-- Evidence: 0 teachers show it in 0 lessons across 0 dance families (0% of lessons studied); best-ranked third 0%, the others 0%.
-- Research (habit formation): Behaviors transform into automatic habits through regular repetition within a consistent context, supported by preparation cues and positive rewards. → Establish a consistent routine and preparation cue at the start of every session to trigger automatic practice habits.
-- Research (Educating Students for a Lifetime of Physical Activity: Enhancing Mind): To foster lifelong physical activity, teachers should create a nurturing environment that emphasizes personal meaning, cognitive decision-making, and self-motivation. → Ask students to reflect on what personal meaning they find in a specific dance style to increase their connection to the movement.
-
-### Social connection ●
-_community, challenges, dancing with others, sharing._
-- Evidence: 0 teachers show it in 0 lessons across 0 dance families (0% of lessons studied); best-ranked third 0%, the others 0%.
-- Research (basic needs): Satisfying learners' basic psychological needs for autonomy, competence, and relatedness fosters motivation and sustained participation. → Give learners choices in their practice to support their sense of autonomy.
-- Research (Active video game play in children with cerebral palsy: potential for ): Active video games can provide an enjoyable way for children with cerebral palsy to engage in moderate physical activity and support motor learning goals. → Select specific dance movements or games that encourage the use of both limbs to support bilateral coordination.
-
 ### Feel and groove —
 _the feeling, bounce, weight and musicality before precision._
-- Evidence: 2 teachers show it in 2 lessons across 1 dance family (15% of lessons studied); best-ranked third 25%, the others 11%.
+- Evidence: 2 teachers show it in 2 lessons across 1 dance family (14% of lessons studied); best-ranked third 20%, the others 11%.
 - АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ (First steps (basics), [1:42](https://www.youtube.com/watch?v=7VbynFspxsM&t=102s)): The teacher demonstrates circular hip rotations, starting with a small amplitude and gradually increasing it based on the learner's comfort.
 - AGAVIK999 (First steps (basics), [1:58](https://www.youtube.com/watch?v=VO1HD_VRCvs&t=118s)): The teacher starts the warm-up by stretching and moving arms to the sides.
 
-### Names the feeling —
-_the teacher says out loud what the learner may be feeling (awkward, lost, frustrated) and answers it._
-- Evidence: 1 teacher show it in 1 lesson across 1 dance family (8% of lessons studied); best-ranked third 0%, the others 11%.
-- BodyKinect by Kendall (Fouetté, [5:54](https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=354s)): Acknowledge that à la seconde turns are complicated, but encourage learners not to give up on them.
+### Rest and kindness —
+_permission to pause, breathe or stop for today; kindness to oneself._
+- Evidence: 2 teachers show it in 2 lessons across 2 dance families (14% of lessons studied); best-ranked third 0%, the others 22%.
+- BodyKinect by Kendall (Fouetté, [6:11](https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=371s)): The teacher encourages the learner to return to the basics if they feel lost or overwhelmed during the turn breakdown.
+- Baila Facilito (First steps (basics), [1:11](https://www.youtube.com/watch?v=WEiSsx3JOOM&t=71s)): The teacher advises the learner not to tense their muscles and to only move as far as their shoulder allows, emphasizing comfort.
+
+### Checks in —
+_the learner is asked to notice: how did that feel, where is your weight, what changed._
+- Evidence: 1 teacher show it in 1 lesson across 1 dance family (7% of lessons studied); best-ranked third 0%, the others 11%.
+- AGAVIK999 (First steps (basics), [9:46](https://www.youtube.com/watch?v=VO1HD_VRCvs&t=586s)): The teacher asks the learner if they are managing to follow the steps and encourages them to keep going.
+
+### Own story —
+_the teacher shares their own beginnings, struggles or mistakes._
+- Evidence: 1 teacher show it in 1 lesson across 1 dance family (7% of lessons studied); best-ranked third 0%, the others 11%.
+- BodyKinect by Kendall (Fouetté, [1:36](https://www.youtube.com/watch?v=Rq0ovsiB4MQ&t=96s)): The teacher shares her own past confusion about the term 'close your ribcage' to make the concept relatable and less intimidating.
+
+### Progression —
+_a harder version, styling or speed for those who are ready._
+- Evidence: 1 teacher show it in 1 lesson across 1 dance family (7% of lessons studied); best-ranked third 0%, the others 11%.
+- AGAVIK999 (First steps (basics), [1:33](https://www.youtube.com/watch?v=VO1HD_VRCvs&t=93s)): The teacher announces that they will start with a warm-up before moving on to the actual dance instruction.
 
 ### Regression —
 _an easier version is offered when the step is hard._
-- Evidence: 1 teacher show it in 1 lesson across 1 dance family (8% of lessons studied); best-ranked third 0%, the others 11%.
+- Evidence: 1 teacher show it in 1 lesson across 1 dance family (7% of lessons studied); best-ranked third 20%, the others 0%.
 - FitLara Dance (Locking, [7:51](https://www.youtube.com/watch?v=uuxFumbQ3WM&t=471s)): Offers a simpler alternative for arm movements if the full version is too much.
+
+### Self check —
+_how to check yourself: a mirror, filming, landmarks, questions to ask._
+- Evidence: 1 teacher show it in 1 lesson across 1 dance family (7% of lessons studied); best-ranked third 0%, the others 11%.
+- MihranTV (The Jerk, [1:03](https://www.youtube.com/watch?v=fMEBZ59AQLk&t=63s)): Uses a close-up shot of the feet to ensure the learner can see the weight distribution and foot placement clearly.
 
 ## When a learner struggles: what the teachers offer
 
 Only what a teacher actually says or shows as an alternative; the link opens the video at that moment.
 
-**Easier** (9 seen)
+**Easier** (7 seen)
 - When: Large hip rotations might be too much for some learners. → Start with a smaller amplitude and increase it as the learner feels more comfortable. ([АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ, First steps (basics)](https://www.youtube.com/watch?v=7VbynFspxsM&t=105s))
 - When: Knee rotations can be challenging for some. → The teacher advises the learner to adjust the movement based on their own physical condition. ([АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ, First steps (basics)](https://www.youtube.com/watch?v=7VbynFspxsM&t=156s))
 - When: The shuffle step with jumps can be difficult for some. → The teacher advises practicing the movement without jumps first. ([АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ, First steps (basics)](https://www.youtube.com/watch?v=7VbynFspxsM&t=400s))
 - When: If the steps are hard at first → Start by doing them in place ([АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ, First steps (basics)](https://www.youtube.com/watch?v=iIZTgea3lZI&t=194s))
 - When: The arm movements combined with the locking motion might be too much. → Just straighten your arms up and down, it's also all right. ([FitLara Dance, Locking](https://www.youtube.com/watch?v=uuxFumbQ3WM&t=317s))
 - When: the footwork sequence can feel challenging or fast → you can hop together and hop back, or you can take it easy and just step out and back ([Line Dance with Coral, Hustle](https://www.youtube.com/watch?v=EAP1E-B5qk8&t=239s))
-- When: arms don't know what to do → clap to keep the beat until comfortable ([MihranTV, First steps (basics)](https://www.youtube.com/watch?v=ujREEgxEP7g&t=44s))
-- When: arms feeling stiff → choose whatever arms you want, like pushing or clapping ([MihranTV, First steps (basics)](https://www.youtube.com/watch?v=ujREEgxEP7g&t=248s))
+- When: The leader is afraid of stepping on the follower's feet. → The teacher advises the leader to keep knees and ankles close to each other as they pass through. ([Country Dance X, First steps for people who believe they cannot dance (dance basics)](https://www.youtube.com/watch?v=lgMy5Gn84_c&t=225s))
 
 **Slower** (1 seen)
 - When: Amplitude of movement → Start by making small amplitude steps to get used to the movement ([АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ, First steps (basics)](https://www.youtube.com/watch?v=iIZTgea3lZI&t=214s))
@@ -256,10 +329,10 @@ Only what a teacher actually says or shows as an alternative; the link opens the
 - feeling like a wooden trunk or lacking rhythm (14 comments; other)
 - feeling embarrassed or uncoordinated while trying to learn (6 comments; other)
 - struggling with lack of coordination or clumsiness (6 comments; other)
-- feeling awkward dancing in empty room or in front of mirror (6 comments; other)
+- watching from bed and not actually doing the moves (6 comments; other)
 - difficulty with coordination and physical limitations (5 comments; other)
-- trying the moves in bed and never actually getting up (5 comments; other)
-- struggling with coordination or feeling stiff (4 comments; other)
+- feeling awkward or cringing while dancing alone (5 comments; other)
+- feeling stiff and unable to dance naturally (4 comments; other)
 - stiff body and feeling uncoordinated (3 comments; other)
 - à la seconde turns were very difficult and exhausting (3 comments; other)
 - feeling too old or restricted by depression (3 comments; other)
@@ -276,17 +349,17 @@ Only what a teacher actually says or shows as an alternative; the link opens the
 
 ## The screen and the way in
 
-- Views used (lessons): front 12, back 4, feet closeup 3, side 3
-- Written on screen: step names 4, captions 4, counts 1
+- Views used (lessons): front 13, back 4, feet closeup 3, side 3, split screen 1
+- Written on screen: step names 5, captions 4, counts 1
 - Editing: nothing recorded yet
-- Ways into the dance: feet first 12, rhythm first 9, count first 2, feel first 1, watch first 1
-- Typical wait before the learner first moves: 21 seconds; talk and movement: balanced 13
+- Ways into the dance: feet first 12, rhythm first 9, watch first 2, count first 2, feel first 1
+- Typical wait before the learner first moves: 18 seconds; talk and movement: balanced 13, mostly talk 1
 
 ## The teachers studied so far, by learners' praise
 
 The score is how sure and how plentiful the praise in the comments is (0 to 100). It ranks who to study next; it is not a verdict.
 
-**1. АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ** (score 97.4; 2 lessons found; basics: first steps)
+**1. АНТОН АСТАФЬЕВ УЧИТЕЛЬ ТАНЦЕВ** (score 97.9; 4 lessons found; basics: first steps)
 - System: The teacher introduces a beginner-friendly dance combination, breaks it down step-by-step with counts and imagery, and then guides learners through practicing with and without music.
 - What stands out: The teacher uses his cat as a 'barometer' for the quality of his movements, suggesting that if the cat is calm, the movements are smooth and correct.
 
@@ -318,12 +391,16 @@ The score is how sure and how plentiful the praise in the comments is (0 to 100)
 - What stands out: Focusing specifically on overcoming the feeling of being a 'trunk' by isolating upper body, hips, and knees one by one.
 
 **10. MihranTV** (score 66.9; 6 lessons found; basics: first steps, hip hop, hip hop dance, rabbit dance)
-- System: The teacher introduces three basic hip-hop dance moves step-by-step, breaking down footwork and posture. He demonstrates counts and repetitions before combining the moves into a short routine.
-- What stands out: Reminding learners to keep their knees bent and stay on their toes throughout the steps.
+- System: The teacher demonstrates three basic hip hop moves step-by-step, breaking down the footwork and counts. He then combines the moves together and encourages repetition for practice.
+- What stands out: He provides specific guidance on upper body posture and arm movement for beginners who usually feel stiff.
 
 **16. Country Dance X** (score 63.9; 6 lessons found; basics: first steps, english country dance, step dance, west coast swing)
 - System: The teacher introduces the basic step by having the learner walk in a straight line. He then adds the rhythm of two quick steps and two slow steps, while emphasizing the importance of maintaining a consistent body speed. Finally, he explains the dance position and the importance of maintaining distance between partners to avoid stepping on each other's feet.
 - What stands out: The teacher explicitly frames the responsibility for not stepping on feet as the follower's job to maintain distance and stay in sync with the leader's body movement.
+
+**64. STEEZY** (score 40.0; 3 lessons found; basics: first steps, basics: how teachers teach)
+- System: The teacher breaks down advanced dance execution into foundational components such as initiations, finishes, textures, and dynamics. She demonstrates how modifying these elements allows dancers to develop personal style and match specific choreography.
+- What stands out: Using varied physical analogies and objects (like balloons, honey, and clocks) to visually explain abstract dance textures.
 
 ## What the research says
 

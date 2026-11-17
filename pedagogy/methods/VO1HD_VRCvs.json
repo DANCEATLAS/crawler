@@ -98,10 +98,50 @@
    "beliefs": [
     {
      "t": "0:34",
-     "belief": "Dancing is for everyone and brings joy to life."
+     "belief": "The teacher believes that this dance is for everyone, regardless of their skill level or experience.",
+     "about": "who_can_dance"
     }
    ],
-   "feelings": []
+   "feelings": [
+    {
+     "t": "6:03",
+     "feeling": "self_doubt",
+     "response": "The teacher asks the learners how they are feeling and encourages them to share their thoughts and experiences."
+    }
+   ],
+   "moments": [
+    {
+     "t": "0:05",
+     "moment": "opening",
+     "says": "The teacher greets the learners, asks how they are doing, and introduces the special training session for them.",
+     "tag": "social_connection"
+    },
+    {
+     "t": "1:33",
+     "moment": "before_hard_part",
+     "says": "The teacher announces that they will start with a warm-up before moving on to the actual dance instruction.",
+     "tag": "progression"
+    },
+    {
+     "t": "7:17",
+     "moment": "after_mistake",
+     "says": "The teacher breaks down the step into smaller, manageable parts and repeats the sequence to ensure the learner understands.",
+     "tag": "error_correction"
+    },
+    {
+     "t": "8:15",
+     "moment": "after_success",
+     "says": "The teacher praises the learner for their effort and encourages them to continue with the next part of the dance.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "9:46",
+     "moment": "check_in",
+     "says": "The teacher asks the learner if they are managing to follow the steps and encourages them to keep going.",
+     "tag": "checks_in"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable and encouraged to continue their dance journey."
   },
   "learner_voice": {
    "struggles": [
@@ -147,5 +187,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-17T06:45:34Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 5,
+  "beliefs": 1,
+  "feelings": 1
+ }
 }

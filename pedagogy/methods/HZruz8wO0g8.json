@@ -82,10 +82,38 @@
     "warm",
     "patient",
     "precise",
-    "playful"
+    "playful",
+    "energetic"
    ],
    "beliefs": [],
-   "feelings": []
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:01",
+     "moment": "opening",
+     "says": "The teacher introduces tap dance basics as the bread and butter of the form, getting started right now.",
+     "tag": "quick_win"
+    },
+    {
+     "t": "1:03",
+     "moment": "before_hard_part",
+     "says": "Teacher advises shaking out ankles to release tension before learning brushes.",
+     "tag": "body_adaptation"
+    },
+    {
+     "t": "4:32",
+     "moment": "after_mistake",
+     "says": "Teacher names a common student confusion between shuffle and flap steps and demonstrates the correct execution.",
+     "tag": "error_correction"
+    },
+    {
+     "t": "9:02",
+     "moment": "closing",
+     "says": "Teacher asks viewers to like, share, subscribe, and leave comments for future videos.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling equipped and encouraged to master fundamental tap dance steps at their own pace."
   },
   "learner_voice": {
    "struggles": [
@@ -136,5 +164,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-17T06:45:05Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 4,
+  "beliefs": 0,
+  "feelings": 0
+ }
 }

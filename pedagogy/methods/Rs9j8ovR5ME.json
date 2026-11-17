@@ -78,15 +78,49 @@
     "warm",
     "playful",
     "calm",
-    "patient"
+    "patient",
+    "energetic"
    ],
    "beliefs": [
     {
-     "t": "3:46",
-     "belief": "Dancing allows for personal creativity and internal feeling regardless of strict rules."
+     "t": "0:23",
+     "belief": "Anyone can look cool and confident at a party, even if they do not know how to dance initially.",
+     "about": "who_can_dance"
+    },
+    {
+     "t": "3:47",
+     "belief": "Dancing is personal expression, creativity, and following your inner feeling rather than strict rules.",
+     "about": "what_dancing_is_for"
     }
    ],
-   "feelings": []
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:11",
+     "moment": "opening",
+     "says": "Greets the viewers, introduces himself as a professional dancer working with Russian stars, and sets the goal of looking confident at parties.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "1:07",
+     "moment": "before_hard_part",
+     "says": "Explains that hands are both the simplest and most complex part of dancing, warning against aggressive movements that push people away.",
+     "tag": "other"
+    },
+    {
+     "t": "5:47",
+     "moment": "after_mistake",
+     "says": "Tells learners not to worry if something doesn't work out at first, emphasizing practice, diligence, and persistence.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "6:27",
+     "moment": "before_hard_part",
+     "says": "Instructs learners to maintain consistency in their rotation direction once they start turning, to avoid losing the rhythm.",
+     "tag": "other"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable, creative, and confident that anyone can dance at any party."
   },
   "learner_voice": {
    "struggles": [
@@ -122,5 +156,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-17T06:44:59Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 4,
+  "beliefs": 2,
+  "feelings": 0
+ }
 }

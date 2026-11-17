@@ -4676,5 +4676,29 @@
   ],
   "errors": [],
   "version": "v3.3"
+ },
+ {
+  "stage": "teaching",
+  "started": "2026-11-17T06:44:13Z",
+  "finished": "2026-11-17T06:54:42Z",
+  "counters": {
+   "basics_lessons_found": 5,
+   "method_ok": 2,
+   "mentor_look_ok": 10,
+   "mentor_look_failed": 2,
+   "science_failed": 3,
+   "paper_failed": 2,
+   "llm_calls": 26,
+   "llm_failures": 13,
+   "llm_requests": 19,
+   "llm_unanswered": 7
+  },
+  "notes": [
+   "teachers ranked: 291; lessons to study for method: 2 (budget 2, 2 on the basics, 1 of them a teacher's talk); engine on",
+   "model trouble: day_quota_used_up 6, no_model_available 5, timeout_or_network 4, model_gone 2, overloaded 1",
+   "teaching research: 14 lessons of 12 teachers studied (10 with the mentor look), 12 topic notes and 5 paper notes, 7 practices with two or more kinds of evidence"
+  ],
+  "errors": [],
+  "version": "v3.3"
  }
 ]

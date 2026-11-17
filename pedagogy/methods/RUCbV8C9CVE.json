@@ -68,10 +68,71 @@
    "voice": [
     "warm",
     "patient",
-    "direct"
+    "direct",
+    "energetic"
    ],
-   "beliefs": [],
-   "feelings": []
+   "beliefs": [
+    {
+     "t": "0:22",
+     "belief": "Anyone can dance; it is super simple and a great way to start a dancing journey.",
+     "about": "who_can_dance"
+    },
+    {
+     "t": "0:39",
+     "belief": "Dancing is for social situations, like weddings and parties, where you can have fun with others.",
+     "about": "what_dancing_is_for"
+    },
+    {
+     "t": "1:36",
+     "belief": "A teacher is there to help you learn how to dance in the most simple way, not just to teach technique.",
+     "about": "what_a_teacher_is_for"
+    }
+   ],
+   "feelings": [
+    {
+     "t": "0:34",
+     "feeling": "self_doubt",
+     "response": "The teacher acknowledges the feeling of being on the sidelines and offers to help the learner join in."
+    },
+    {
+     "t": "3:02",
+     "feeling": "awkward",
+     "response": "The teacher encourages the learner to have fun and add as much body sway as they want, making it easier to change weight."
+    }
+   ],
+   "moments": [
+    {
+     "t": "0:04",
+     "moment": "opening",
+     "says": "The teacher introduces the lesson as a social dance session, emphasizing that it is not about technique but about learning how to dance simply and easily.",
+     "tag": "dance_is_for_everyone"
+    },
+    {
+     "t": "0:34",
+     "moment": "before_hard_part",
+     "says": "The teacher asks the learner to imagine being in a social situation where everyone is dancing, and they are watching, wishing they could join in.",
+     "tag": "names_the_feeling"
+    },
+    {
+     "t": "1:30",
+     "moment": "after_mistake",
+     "says": "The teacher tells the learner to lift their legs to see the steps more clearly, framing the adjustment as a way to make the learning process easier.",
+     "tag": "normalise_mistakes"
+    },
+    {
+     "t": "3:17",
+     "moment": "after_success",
+     "says": "The teacher tells the learner they are doing great and that if they can do this, they can definitely dance.",
+     "tag": "praise_and_expectancy"
+    },
+    {
+     "t": "9:13",
+     "moment": "closing",
+     "says": "The teacher invites the learner to check out their website for more in-depth dancing programs if they want to learn more technique.",
+     "tag": "reason_to_return"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable and confident that they can dance socially, regardless of their experience level."
   },
   "learner_voice": {
    "struggles": [
@@ -116,5 +177,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 3
+ "attempts": 3,
+ "mentor_look": {
+  "at": "2026-11-17T06:45:44Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 5,
+  "beliefs": 3,
+  "feelings": 2
+ }
 }

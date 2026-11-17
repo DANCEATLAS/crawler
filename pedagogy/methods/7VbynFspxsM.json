@@ -110,7 +110,9 @@
    "voice": [
     "precise",
     "patient",
-    "gentle"
+    "gentle",
+    "warm",
+    "calm"
    ],
    "beliefs": [
     {
@@ -118,7 +120,15 @@
      "belief": "Dancing is accessible to everyone, regardless of age or physical limitations, if taught with the right approach."
     }
    ],
-   "feelings": []
+   "feelings": [],
+   "moments": [
+    {
+     "t": "0:00",
+     "moment": "opening",
+     "says": "Greets the viewers and introduces shuffle dance basics specifically tailored for older adults and those finding it difficult to train.",
+     "tag": "dance_is_for_everyone"
+    }
+   ]
   },
   "learner_voice": {
    "struggles": [
@@ -148,5 +158,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 1
+ "attempts": 1,
+ "mentor_look": {
+  "at": "2026-11-17T06:44:52Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 1,
+  "beliefs": 0,
+  "feelings": 0
+ }
 }

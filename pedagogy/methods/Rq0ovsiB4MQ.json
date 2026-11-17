@@ -105,7 +105,8 @@
     "playful",
     "calm",
     "patient",
-    "humorous"
+    "humorous",
+    "energetic"
    ],
    "beliefs": [
     {
@@ -115,11 +116,60 @@
    ],
    "feelings": [
     {
+     "t": "1:41",
+     "feeling": "frustrated",
+     "response": "The teacher validates the feeling by sharing her own past struggle with the same concept."
+    },
+    {
      "t": "5:54",
      "feeling": "frustrated",
      "response": "Acknowledge that à la seconde turns are complicated, but encourage learners not to give up on them."
+    },
+    {
+     "t": "6:09",
+     "feeling": "overwhelmed",
+     "response": "The teacher advises the learner to bring it back to the basics to regain focus and confidence."
     }
-   ]
+   ],
+   "moments": [
+    {
+     "t": "0:06",
+     "moment": "opening",
+     "says": "The teacher introduces the lesson, listing the turns to be covered and inviting the learner to find a space to move.",
+     "tag": "fun_and_energy"
+    },
+    {
+     "t": "1:06",
+     "moment": "before_hard_part",
+     "says": "The teacher explains the correct knee alignment for a plié, emphasizing the importance of not overextending.",
+     "tag": "error_correction"
+    },
+    {
+     "t": "1:36",
+     "moment": "after_mistake",
+     "says": "The teacher shares her own past confusion about the term 'close your ribcage' to make the concept relatable and less intimidating.",
+     "tag": "own_story"
+    },
+    {
+     "t": "2:34",
+     "moment": "after_mistake",
+     "says": "The teacher laughs at her own demonstration of a wrong turn, showing that mistakes are a normal part of learning.",
+     "tag": "normalise_mistakes"
+    },
+    {
+     "t": "6:11",
+     "moment": "check_in",
+     "says": "The teacher encourages the learner to return to the basics if they feel lost or overwhelmed during the turn breakdown.",
+     "tag": "rest_and_kindness"
+    },
+    {
+     "t": "9:03",
+     "moment": "before_hard_part",
+     "says": "The teacher suggests using a chair or a barre for support, making the exercise accessible for home practice.",
+     "tag": "body_adaptation"
+    }
+   ],
+   "what_stays": "The teacher leaves the learner feeling capable and encouraged, emphasizing that persistence and understanding the basics are key to mastering turns."
   },
   "learner_voice": {
    "struggles": [
@@ -175,5 +225,13 @@
  },
  "kind": "lesson",
  "status": "ok",
- "attempts": 3
+ "attempts": 3,
+ "mentor_look": {
+  "at": "2026-11-17T06:45:53Z",
+  "attempts": 1,
+  "status": "ok",
+  "moments": 6,
+  "beliefs": 0,
+  "feelings": 2
+ }
 }
