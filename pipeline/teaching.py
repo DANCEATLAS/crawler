@@ -1,0 +1,583 @@
+"""Teaching research — how the best online dance classes teach, for the Best Dance Friend (BDF).
+
+A standing research mission, separate from the atlas of dances (owner direction, 17 November 2026). Every night, on the
+free model allowance only:
+
+1. TEACHERS (no model)   every lesson the crawler found is grouped by teacher (YouTube channel) and ranked by what learners
+                         wrote under the lessons — crowd wisdom, not views                     → pedagogy/teachers.json
+2. METHOD STUDY (video)  the best lessons of the best-ranked teachers are watched with one question: HOW does this teacher
+                         teach — screen, sequence, cues, encouragement, and what they offer when a step is hard. The public
+                         comments are read in the same call for what learners struggled with, what made it click and
+                         what they ask for                                                    → pedagogy/methods/<video>.json
+3. SCIENCE (text)        what research on learning movement says about each teaching practice, from open sources; every
+                         finding is carried by a verbatim quote that is checked against the source → pedagogy/science/<key>.json
+4. FUSION (no model)     the three kinds of evidence are joined per teaching practice         → BDF_TEACHING_SYSTEM.md,
+                         pedagogy/bdf_system.json, public/catalog/bdf_teaching_system.json (for the AI teaching service)
+
+Breadth first (one lesson from every ranked teacher), then depth (up to METHOD_PER_TEACHER lessons of the best), so the
+mission never runs out: the crawler finds new lessons every day. Every observation is an unreviewed machine reading with
+a timestamp, so a person can check it; the ranking counts learners' own words and is not a verdict on a teacher.
+"""
+import os, re, glob, json, math, time, datetime as dt, urllib.parse
+from collections import Counter
+from .common import jload, jsave, log, warn, now_iso, slugify, get_json, LLM, Report
+
+PED = "pedagogy"
+TEACHERS = os.path.join(PED, "teachers.json")
+METHODS_DIR = os.path.join(PED, "methods")
+SCIENCE_DIR = os.path.join(PED, "science")
+SYSTEM_JSON = os.path.join(PED, "bdf_system.json")
+PUBLIC_JSON = os.path.join("public", "catalog", "bdf_teaching_system.json")
+DOC = "BDF_TEACHING_SYSTEM.md"
+LESSONS = "tutorial_results.json"
+METHOD_SECONDS = 600
+RETRY_DAYS, SCIENCE_REFRESH_DAYS = 30, 180
+
+# One vocabulary for all three kinds of evidence (teachers, learners, science): the fusion is a join on these keys.
+PRACTICES = {
+    "mirror_view": "a mirrored or back view, so the learner copies without flipping left and right",
+    "split_screen": "two views at once: feet and whole body, front and back, or two speeds",
+    "on_screen_counts": "counts, step names or arrows written on the screen",
+    "demo_first": "the whole step or phrase shown once at speed before it is broken down",
+    "chunking": "small pieces, each practised before the next one is added",
+    "layering": "feet first, then arms, styling, turns or a partner on top",
+    "tempo_ramp": "slow first, then faster, then full speed",
+    "counts_and_rhythm": "counting, or the rhythm spoken or clapped (quick-quick-slow, boom-cha)",
+    "music_early": "practice with the music early and often",
+    "imagery": "an image or comparison instead of anatomy (\"paint the floor with your toe\")",
+    "repetition": "many repetitions, loops and follow-along rounds",
+    "recap_and_practice_plan": "a recap, homework or a practice routine to take away",
+    "praise_and_expectancy": "telling learners they can do it and celebrating small wins",
+    "normalise_mistakes": "mistakes are expected; the teacher makes light of them or shows their own",
+    "autonomy": "the learner chooses: pause, pick a tempo, pick a variation, own style",
+    "error_correction": "the common mistake is named and its fix is shown",
+    "regression": "an easier version is offered when the step is hard",
+    "progression": "a harder version, styling or speed for those who are ready",
+    "body_adaptation": "options for knees, balance, age, a small room or no partner",
+    "feel_and_groove": "the feeling, bounce, weight and musicality before precision",
+    "culture_and_meaning": "where the dance comes from and what it means, inside the lesson",
+    "social_connection": "community, challenges, dancing with others, sharing",
+    "self_check": "how to check yourself: a mirror, filming, landmarks, questions to ask",
+    "play_and_variation": "improvise, vary, make it yours",
+}
+VIEWS = ("front", "back", "mirror", "side", "overhead", "feet_closeup", "split_screen", "picture_in_picture")
+ON_SCREEN = ("counts", "step_names", "arrows_or_diagrams", "captions", "timer_or_progress")
+EDITING = ("slow_motion", "loop_replay", "freeze_frame", "speed_labels")
+ENTRY = ("watch_first", "count_first", "rhythm_first", "feet_first", "feel_first", "story_first")
+ADAPT_KINDS = {"easier": "regression", "harder": "progression", "slower": "tempo_ramp", "different_body": "body_adaptation",
+               "no_partner": "body_adaptation", "small_space": "body_adaptation", "mindset": "normalise_mistakes", "other": None}
+
+METHOD_SYSTEM = """You are studying HOW an online dance class teaches, for the design of an AI dance teacher. Two sources, kept apart:
+(A) the VIDEO: report only what is seen or heard in it. (B) the LEARNER COMMENTS written under it: report only what the comments say.
+Output a single JSON object:
+{"is_lesson": true|false  (false for performances, vlogs, music videos, trailers),
+ "teacher_system": "<two or three sentences: what this teacher does, in order, to get a beginner dancing>",
+ "signature": "<the one thing this teacher does that most teachers do not; empty if nothing stands out>",
+ "screen": {"views": [<any of: """ + ", ".join(VIEWS) + """>], "on_screen": [<any of: """ + ", ".join(ON_SCREEN) + """>], "editing": [<any of: """ + ", ".join(EDITING) + """>]},
+ "practices": [{"tag": "<one tag from the list below>", "t": "m:ss", "what": "<what the teacher does, at most 25 words; describe, do not transcribe>"}],
+ "adaptations": [{"t": "m:ss", "difficulty": "<what a learner may find hard, as the teacher frames it>", "adjustment": "<what the teacher offers instead>",
+                  "kind": "<one of: """ + ", ".join(ADAPT_KINDS) + """>"}],
+ "entry_points": [<any of: """ + ", ".join(ENTRY) + """>],
+ "pace": {"talk_vs_move": "mostly_talk|balanced|mostly_move", "seconds_before_first_movement": <integer or null>, "pieces_taught": <integer or null>},
+ "learner_voice": {"struggles": [{"theme": "<what learners say they find hard, at most 12 words>", "tag": "<a tag from the list, or other>", "count": <comments saying it>}],
+                   "clicked": [{"theme": "<what learners say made it work for them>", "tag": "<tag or other>", "count": <integer>}],
+                   "requests": [{"theme": "<what learners ask the teacher for>", "tag": "<tag or other>", "count": <integer>}]},
+ "limits": "<what the video cannot show, or what you could not tell>"}
+Tags:
+""" + "\n".join(f"- {k}: {v}" for k, v in PRACTICES.items()) + """
+Rules: at most 12 practices and 6 adaptations, each with a real timestamp from the video; never invent a timestamp.
+An adaptation is only what the teacher actually offers ("if this is hard, do this", "you can also"), never your own advice.
+learner_voice comes ONLY from the comments: no names, no quotations, themes in your own words; empty lists when the comments
+say nothing of the kind or none are supplied. Do not judge how good the teacher is. If is_lesson is false, keep every list empty.
+Only the first """ + str(METHOD_SECONDS) + """ seconds of the video are supplied."""
+
+SCIENCE_SYSTEM = """You are writing a research note for the designers of an AI dance teacher. Use ONLY the SOURCES given.
+Output a single JSON object:
+{"relevant": true|false  (false when the sources are not about learning or teaching movement, music or motivation to practise),
+ "principle": "<one sentence: what the research says, in plain words>",
+ "findings": [{"finding": "<one plain sentence>", "quote": "<words copied exactly from the source, 8 to 30 words>", "source": "<that source's url, exactly as given>"}],
+ "for_the_teacher": ["<one concrete instruction for an online dance teacher that follows from the findings>"],
+ "when_it_does_not_apply": "<limits, populations or disagreement stated in the sources; empty if none>"}
+Rules: 3 to 6 findings; every quote is copied character for character from the source it cites; nothing from memory.
+Most sources study movement learning in general: never write that they studied dance unless the source says so.
+At most 4 instructions, each one something a teacher can do in a lesson."""
+
+# key, English Wikipedia title ("" = none), Europe PMC query ("" = none), the practices it bears on
+SCIENCE = [
+    ("external_focus", "", 'ABSTRACT:"external focus" AND ABSTRACT:"motor learning"', ["imagery"]),
+    ("expectancies_and_autonomy", "", 'ABSTRACT:"enhanced expectancies" AND ABSTRACT:"motor learning"', ["praise_and_expectancy", "autonomy"]),
+    ("autonomy_support", "Self-determination theory", 'ABSTRACT:"autonomy support" AND ABSTRACT:"motor learning"', ["autonomy"]),
+    ("self_efficacy", "Self-efficacy", 'ABSTRACT:"self-efficacy" AND ABSTRACT:"motor skill" AND ABSTRACT:feedback', ["praise_and_expectancy", "normalise_mistakes"]),
+    ("observational_learning", "Observational learning", 'ABSTRACT:"observational learning" AND ABSTRACT:"motor skill"', ["demo_first", "mirror_view"]),
+    ("action_observation_in_dance", "Mirror neuron", 'ABSTRACT:"action observation" AND ABSTRACT:dance', ["demo_first", "mirror_view"]),
+    ("chunking", "Chunking (psychology)", 'ABSTRACT:chunking AND ABSTRACT:"motor sequence"', ["chunking", "layering"]),
+    ("part_and_whole_practice", "", 'ABSTRACT:"part practice" AND ABSTRACT:"motor"', ["chunking", "layering", "demo_first"]),
+    ("spacing", "Distributed practice", 'ABSTRACT:"distributed practice" AND ABSTRACT:"motor"', ["recap_and_practice_plan", "repetition"]),
+    ("varied_practice", "Varied practice", 'ABSTRACT:"contextual interference" AND ABSTRACT:"motor learning"', ["play_and_variation", "repetition"]),
+    ("challenge_point", "Desirable difficulty", 'ABSTRACT:"challenge point" AND ABSTRACT:"motor"', ["regression", "progression"]),
+    ("errorless_learning", "Errorless learning", 'ABSTRACT:"errorless learning" AND ABSTRACT:motor', ["regression", "normalise_mistakes"]),
+    ("feedback", "Knowledge of results", 'ABSTRACT:"augmented feedback" AND ABSTRACT:"motor learning"', ["error_correction", "self_check"]),
+    ("self_controlled_practice", "", 'ABSTRACT:"self-controlled" AND ABSTRACT:"motor learning"', ["autonomy", "self_check"]),
+    ("video_feedback", "", 'ABSTRACT:"video feedback" AND ABSTRACT:"motor skill"', ["self_check", "split_screen"]),
+    ("motor_imagery", "Motor imagery", 'ABSTRACT:"motor imagery" AND ABSTRACT:dance', ["imagery", "recap_and_practice_plan"]),
+    ("analogy_learning", "Implicit learning", 'ABSTRACT:"analogy learning" AND ABSTRACT:motor', ["imagery"]),
+    ("rhythm_entrainment", "Entrainment (biomusicology)", 'ABSTRACT:"sensorimotor synchronization" AND ABSTRACT:rhythm', ["counts_and_rhythm", "music_early", "feel_and_groove"]),
+    ("groove", "", 'ABSTRACT:groove AND ABSTRACT:music AND ABSTRACT:movement', ["music_early", "feel_and_groove"]),
+    ("speed_and_accuracy", "", 'ABSTRACT:"speed-accuracy" AND ABSTRACT:"motor learning"', ["tempo_ramp"]),
+    ("cognitive_load", "Cognitive load", 'ABSTRACT:"cognitive load" AND ABSTRACT:"motor learning"', ["chunking", "on_screen_counts", "split_screen"]),
+    ("words_and_pictures", "Dual-coding theory", 'ABSTRACT:"multimedia learning" AND ABSTRACT:"motor skill"', ["on_screen_counts", "split_screen"]),
+    ("mirrors_in_dance", "", 'ABSTRACT:mirror AND ABSTRACT:dance AND ABSTRACT:learning', ["mirror_view", "self_check"]),
+    ("online_dance_learning", "", 'ABSTRACT:online AND ABSTRACT:dance AND ABSTRACT:teaching', ["split_screen", "mirror_view", "social_connection"]),
+    ("dance_pedagogy", "Dance education", 'ABSTRACT:"dance education" AND ABSTRACT:pedagogy', ["culture_and_meaning", "play_and_variation"]),
+    ("scaffolding", "Instructional scaffolding", 'ABSTRACT:scaffolding AND ABSTRACT:"motor skill"', ["regression", "progression", "layering"]),
+    ("zone_of_proximal_development", "Zone of proximal development", "", ["regression", "progression"]),
+    ("mastery_learning", "Mastery learning", "", ["repetition", "progression"]),
+    ("growth_mindset", "Mindset", 'ABSTRACT:"growth mindset" AND ABSTRACT:sport', ["normalise_mistakes", "praise_and_expectancy"]),
+    ("flow", "Flow (psychology)", 'ABSTRACT:flow AND ABSTRACT:dance AND ABSTRACT:experience', ["feel_and_groove", "progression"]),
+    ("overlearning", "Overlearning", "", ["repetition"]),
+    ("retrieval_practice", "Testing effect", "", ["self_check", "recap_and_practice_plan"]),
+    ("moving_together", "Social learning theory", 'ABSTRACT:dance AND ABSTRACT:synchrony AND ABSTRACT:"social bonding"', ["social_connection"]),
+    ("older_learners", "", 'ABSTRACT:dance AND ABSTRACT:"older adults" AND ABSTRACT:balance AND ABSTRACT:intervention', ["body_adaptation"]),
+    ("children", "", 'ABSTRACT:dance AND ABSTRACT:children AND ABSTRACT:"motor skill"', ["body_adaptation", "play_and_variation"]),
+    ("embodied_cognition", "Embodied cognition", "", ["feel_and_groove", "culture_and_meaning"]),
+    ("gamification", "Gamification of learning", 'ABSTRACT:gamification AND ABSTRACT:"physical activity" AND ABSTRACT:motivation', ["social_connection", "progression"]),
+]
+
+# ------------------------------------------------------------------ 1. teachers (crowd wisdom, no model)
+def channel_key(name):
+    return slugify(name or "") or "unknown"
+
+def wilson(pos, n, z=1.64):
+    """Lower bound of the share of praise: 9 of 10 counts for less than 90 of 100."""
+    if n <= 0:
+        return 0.0
+    p = pos / n
+    return max(0.0, (p + z * z / (2 * n) - z * math.sqrt((p * (1 - p) + z * z / (4 * n)) / n)) / (1 + z * z / n))
+
+def _records(folder):
+    return {os.path.basename(f)[:-5]: (jload(f, {}) or {}) for f in glob.glob(os.path.join(folder, "*.json"))}
+
+def build_teachers(lessons, studied=None, methods=None):
+    """lessons: tutorial_results.json; studied: pedagogy/videos records; methods: pedagogy/methods records (both by video id)."""
+    studied, methods, by = studied or {}, methods or {}, {}
+    for slug, v in sorted((lessons or {}).items()):
+        for l in (v or {}).get("lessons") or []:
+            ch, yid = str(l.get("channel") or "").strip(), l.get("youtube_id")
+            if not ch or not yid or (studied.get(yid) or {}).get("status") == "not_a_lesson":
+                continue
+            t = by.setdefault(channel_key(ch), {"key": channel_key(ch), "teacher": ch, "lessons": [], "dances": set(), "praise": 0, "complaints": 0})
+            pos, neg = int(l.get("pos") or 0), int(l.get("neg") or 0)
+            t["lessons"].append({"youtube_id": yid, "slug": slug, "title": str(l.get("title") or "")[:140], "pos": pos, "neg": neg})
+            t["dances"].add(slug); t["praise"] += pos; t["complaints"] += neg
+    out = []
+    for t in by.values():
+        n = t["praise"] + t["complaints"]
+        # how sure the praise is, times how much of it there is (100 praising comments = full weight)
+        score = round(100 * wilson(t["praise"], n) * min(1.0, math.log10(1 + t["praise"]) / 2), 1)
+        ok = sorted((m for m in methods.values() if m.get("teacher_key") == t["key"] and m.get("status") == "ok"), key=lambda m: m.get("analysed_at") or "")
+        t["lessons"].sort(key=lambda l: (-l["pos"], l["youtube_id"]))
+        out.append({"key": t["key"], "teacher": t["teacher"], "score": score, "praise": t["praise"], "complaints": t["complaints"],
+                    "lessons_found": len(t["lessons"]), "dances": sorted(t["dances"]), "lessons": t["lessons"][:12],
+                    "methods_studied": len(ok), "system": (ok[-1]["method"].get("teacher_system") if ok else ""),
+                    "signature": next((m["method"]["signature"] for m in reversed(ok) if m["method"].get("signature")), "")})
+    out.sort(key=lambda t: (-t["score"], -t["lessons_found"], t["key"]))
+    for i, t in enumerate(out):
+        t["rank"] = i + 1
+    return out
+
+# ------------------------------------------------------------------ 2. method study (video + comments, one call)
+def _due(rec, today=None):
+    """A studied video is done; a failed read waits two days (twice), then a month."""
+    if not rec:
+        return True
+    if rec.get("status") in ("ok", "not_a_lesson"):
+        return False
+    wait = 2 if (rec.get("status") == "failed" and int(rec.get("attempts") or 1) < 3) else RETRY_DAYS
+    when = (rec.get("attempted_at") or rec.get("analysed_at") or "")[:10]
+    try:
+        return (today or dt.date.today()) - dt.date.fromisoformat(when) >= dt.timedelta(days=wait)
+    except Exception:
+        return True
+
+def pick_methods(teachers, methods, budget, per_teacher=3, today=None):
+    """Breadth before depth: the best unstudied lesson of every teacher in rank order, then a second, then a third."""
+    picked, taken = [], Counter()
+    for depth in range(per_teacher):
+        for t in teachers:
+            if len(picked) >= budget:
+                return picked
+            if t["methods_studied"] + taken[t["key"]] != depth:
+                continue
+            for l in t["lessons"]:
+                if _due(methods.get(l["youtube_id"]), today) and all(l["youtube_id"] != p[1]["youtube_id"] for p in picked):
+                    picked.append((t, l)); taken[t["key"]] += 1
+                    break
+    return picked
+
+def fetch_comments(yid, n=60):
+    """The public comments under a lesson (YouTube Data API, one quota unit). Text only: no author is read or kept."""
+    try:
+        from .hero_qc import _api, YT_KEYS
+        if not YT_KEYS:
+            return []
+        j = _api("commentThreads", {"part": "snippet", "videoId": yid, "order": "relevance", "maxResults": "100", "textFormat": "plainText"})
+        out = [re.sub(r"\s+", " ", (((it.get("snippet") or {}).get("topLevelComment") or {}).get("snippet") or {}).get("textDisplay") or "")[:240] for it in j.get("items") or []]
+        return [c for c in out if len(c) > 15][:n]
+    except Exception as e:
+        warn("comments", yid, type(e).__name__)
+        return []
+
+def _secs(t):
+    m = re.match(r"^(?:(\d+):)?(\d{1,2}):(\d{2})$", str(t or "").strip())
+    return (int(m.group(1) or 0) * 3600 + int(m.group(2)) * 60 + int(m.group(3))) if m else None
+
+def _enum(v, allowed):
+    return [x for x in dict.fromkeys(v or []) if x in allowed] if isinstance(v, list) else []
+
+def _voice(v):
+    out = []
+    for x in (v or []) if isinstance(v, list) else []:
+        if isinstance(x, dict) and str(x.get("theme") or "").strip():
+            try:
+                c = max(1, min(60, int(x.get("count") or 1)))
+            except Exception:
+                c = 1
+            out.append({"theme": str(x["theme"]).strip()[:120], "tag": x.get("tag") if x.get("tag") in PRACTICES else "other", "count": c})
+    return out[:8]
+
+def normalise_method(jd):
+    """Keep only what fits the vocabulary; an item without a real timestamp or a known tag is dropped, not guessed."""
+    sc = jd.get("screen") if isinstance(jd.get("screen"), dict) else {}
+    pc = jd.get("pace") if isinstance(jd.get("pace"), dict) else {}
+    lv = jd.get("learner_voice") if isinstance(jd.get("learner_voice"), dict) else {}
+    return {
+        "teacher_system": str(jd.get("teacher_system") or "").strip()[:500],
+        "signature": str(jd.get("signature") or "").strip()[:300],
+        "screen": {"views": _enum(sc.get("views"), VIEWS), "on_screen": _enum(sc.get("on_screen"), ON_SCREEN), "editing": _enum(sc.get("editing"), EDITING)},
+        "practices": [{"tag": p["tag"], "t": str(p.get("t"))[:8], "what": str(p.get("what") or "").strip()[:220]}
+                      for p in (jd.get("practices") or []) if isinstance(p, dict) and p.get("tag") in PRACTICES and _secs(p.get("t")) is not None and str(p.get("what") or "").strip()][:12],
+        "adaptations": [{"t": str(a.get("t"))[:8], "difficulty": str(a.get("difficulty") or "").strip()[:200], "adjustment": str(a.get("adjustment") or "").strip()[:240],
+                         "kind": a.get("kind") if a.get("kind") in ADAPT_KINDS else "other"}
+                        for a in (jd.get("adaptations") or []) if isinstance(a, dict) and _secs(a.get("t")) is not None and str(a.get("difficulty") or "").strip() and str(a.get("adjustment") or "").strip()][:6],
+        "entry_points": _enum(jd.get("entry_points"), ENTRY),
+        "pace": {"talk_vs_move": pc.get("talk_vs_move") if pc.get("talk_vs_move") in ("mostly_talk", "balanced", "mostly_move") else None,
+                 "seconds_before_first_movement": pc.get("seconds_before_first_movement") if isinstance(pc.get("seconds_before_first_movement"), int) and 0 <= pc["seconds_before_first_movement"] <= METHOD_SECONDS else None,
+                 "pieces_taught": pc.get("pieces_taught") if isinstance(pc.get("pieces_taught"), int) and 0 < pc["pieces_taught"] < 60 else None},
+        "learner_voice": {k: _voice(lv.get(k)) for k in ("struggles", "clicked", "requests")},
+        "limits": str(jd.get("limits") or "").strip()[:300]}
+
+def study(teacher, lesson, dance_name, llm, comments=()):
+    yid = lesson["youtube_id"]
+    url = f"https://www.youtube.com/watch?v={yid}"
+    user = (f"DANCE: {dance_name}\nVIDEO TITLE: {lesson.get('title')}\nTEACHER (channel): {teacher['teacher']}\n\n"
+            f"LEARNER COMMENTS ({len(comments)} supplied):\n" + ("\n".join("- " + c for c in comments) if comments else "(none supplied)"))
+    jd = llm.json(METHOD_SYSTEM, user, strong=False, temperature=0.1, max_tokens=3500, video_url=url, video_seconds=METHOD_SECONDS)
+    rec = {"youtube_id": yid, "slug": lesson.get("slug"), "dance": dance_name, "title": lesson.get("title"), "teacher": teacher["teacher"],
+           "teacher_key": teacher["key"], "teacher_score": teacher["score"], "analysed_at": now_iso(), "url": url, "comments_read": len(comments),
+           "window": {"start_s": 0, "end_s": METHOD_SECONDS, "resolution": "low", "human_verified": False}}
+    if not isinstance(jd, dict):
+        rec["status"] = "failed"
+    elif jd.get("is_lesson") is False:
+        rec["status"] = "not_a_lesson"
+    else:
+        rec["method"] = normalise_method(jd)
+        rec["status"] = "ok" if (rec["method"]["practices"] or rec["method"]["teacher_system"]) else "failed"
+    return rec
+
+def save_method(rec):
+    """A failed read never replaces a studied one (the same rule as the lesson study)."""
+    path = os.path.join(METHODS_DIR, rec["youtube_id"] + ".json")
+    prev = jload(path, {}) or {}
+    rec["attempts"] = int(prev.get("attempts") or (1 if prev else 0)) + 1
+    if rec["status"] != "ok" and prev.get("status") == "ok":
+        prev["attempted_at"], prev["attempts"] = rec["analysed_at"], rec["attempts"]
+        jsave(path, prev)
+        return "kept"
+    jsave(path, rec)
+    return rec["status"]
+
+# ------------------------------------------------------------------ 3. science (open sources, checked quotes)
+def europe_pmc(query, n=4):
+    """The most cited papers whose ABSTRACT matches — abstracts are open to read. No key, no cost."""
+    if not query:
+        return []
+    u = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?" + urllib.parse.urlencode(
+        {"query": query + " AND HAS_ABSTRACT:y", "format": "json", "resultType": "core", "pageSize": "12", "sort": "CITED desc"})
+    out = []
+    for r in ((get_json(u, timeout=60, retries=2) or {}).get("resultList") or {}).get("result") or []:
+        ab = re.sub(r"<[^>]+>", " ", r.get("abstractText") or "")
+        ab = re.sub(r"\s+", " ", ab).strip()
+        if len(ab) < 400 or not r.get("id"):
+            continue
+        out.append({"url": f"https://europepmc.org/article/{r.get('source') or 'MED'}/{r['id']}", "kind": "paper",
+                    "title": str(r.get("title") or "").strip().rstrip("."), "authors": str(r.get("authorString") or "")[:160], "year": str(r.get("pubYear") or ""),
+                    "journal": (((r.get("journalInfo") or {}).get("journal") or {}).get("title") or ""), "cited_by": int(r.get("citedByCount") or 0), "text": ab[:4000]})
+        if len(out) >= n:
+            break
+    return out
+
+def science_sources(item):
+    key, wiki, query, _ = item
+    src = []
+    if wiki:
+        try:
+            from .sources import wiki_page
+            wp = wiki_page(wiki)
+            if wp and not wp.get("disambiguation") and len(wp.get("text") or "") > 800:
+                src.append({"url": wp["url"], "kind": "encyclopedia", "title": wp["title"], "authors": "Wikipedia contributors", "year": "", "journal": "Wikipedia", "cited_by": 0, "text": wp["text"][:9000]})
+        except Exception as e:
+            warn("science wiki", key, type(e).__name__)
+    try:
+        src += europe_pmc(query)
+    except Exception as e:
+        warn("science europe pmc", key, type(e).__name__)
+    return src
+
+def science_note(item, llm, sources=None):
+    from .research import _vnorm, _quote_in
+    key, _, _, tags = item
+    src = science_sources(item) if sources is None else sources
+    rec = {"key": key, "topic": key.replace("_", " "), "tags": [t for t in tags if t in PRACTICES], "written_at": now_iso(),
+           "sources": [{k: s[k] for k in ("url", "kind", "title", "authors", "year", "journal", "cited_by")} for s in src]}
+    if not src:
+        rec["status"] = "no_sources"; return rec
+    user = f"TOPIC: {rec['topic']}\n\nSOURCES:\n" + "\n\n".join(f"[{s['url']}] {s['title']} ({s['authors']}, {s['year']}) {s['journal']}\n{s['text']}" for s in src)
+    jd = llm.json(SCIENCE_SYSTEM, user, strong=False, temperature=0.1, max_tokens=2500)
+    if not isinstance(jd, dict):
+        rec["status"] = "failed"; return rec
+    texts = {s["url"]: _vnorm(s["text"]) for s in src}
+    good = []
+    for f in (jd.get("findings") or []) if isinstance(jd.get("findings"), list) else []:
+        if not isinstance(f, dict):
+            continue
+        q, u = _vnorm(f.get("quote")), str(f.get("source") or "").strip()
+        if u in texts and len(q.split()) >= 6 and _quote_in(q, texts[u]) and str(f.get("finding") or "").strip():
+            good.append({"finding": str(f["finding"]).strip()[:300], "quote": str(f["quote"]).strip()[:320], "source": u})
+    rec["quotes_offered"], rec["findings"] = len(jd.get("findings") or []), good[:6]
+    rec["principle"] = str(jd.get("principle") or "").strip()[:400]
+    rec["for_the_teacher"] = [str(x).strip()[:260] for x in (jd.get("for_the_teacher") or []) if isinstance(x, str) and x.strip()][:4]
+    rec["when_it_does_not_apply"] = str(jd.get("when_it_does_not_apply") or "").strip()[:400]
+    # a note stands only on quotes that are really in the sources: fewer than two, and it is not used
+    rec["status"] = "ok" if (jd.get("relevant") is not False and len(good) >= 2 and rec["principle"]) else "thin"
+    return rec
+
+def pick_science(notes, n, today=None):
+    today = today or dt.date.today()
+    def age(rec):
+        try:
+            return (today - dt.date.fromisoformat((rec.get("written_at") or "")[:10])).days
+        except Exception:
+            return 10 ** 6
+    due = []
+    for item in SCIENCE:
+        rec = notes.get(item[0])
+        if not rec:
+            due.append((0, item))
+        elif age(rec) >= (SCIENCE_REFRESH_DAYS if rec.get("status") == "ok" else RETRY_DAYS):
+            due.append((1, item))
+    due.sort(key=lambda x: x[0])
+    return [item for _, item in due[:max(0, n)]]
+
+# ------------------------------------------------------------------ 4. fusion (no model)
+def _link(m, t):
+    s = _secs(t)
+    return m["url"] + (f"&t={s}s" if s else "")
+
+def fuse(teachers, methods, notes):
+    oks = sorted((m for m in methods.values() if m.get("status") == "ok" and m.get("method")), key=lambda m: (-(m.get("teacher_score") or 0), m["youtube_id"]))
+    score = {t["key"]: t["score"] for t in teachers}
+    keys = sorted({m["teacher_key"] for m in oks}, key=lambda k: (-score.get(k, 0), k))
+    top = set(keys[:len(keys) // 3]) if len(keys) >= 6 else set()   # the best-ranked third, once there are enough to compare
+    sci = [n for n in notes.values() if n.get("status") == "ok"]
+    practices = []
+    for tag, meaning in PRACTICES.items():
+        using = [m for m in oks if any(p["tag"] == tag for p in m["method"]["practices"])]
+        who = sorted({m["teacher_key"] for m in using})
+        voice = {k: sum(v["count"] for m in oks for v in m["method"]["learner_voice"][k] if v["tag"] == tag) for k in ("struggles", "clicked", "requests")}
+        themes = Counter()
+        for m in oks:
+            for k in ("struggles", "clicked", "requests"):
+                for v in m["method"]["learner_voice"][k]:
+                    if v["tag"] == tag:
+                        themes[(k, v["theme"].lower())] += v["count"]
+        ns = sorted((n for n in sci if tag in (n.get("tags") or [])), key=lambda n: (-len(n.get("findings") or []), n["key"]))
+        ex = [{"teacher": m["teacher"], "dance": m.get("dance"), "t": p["t"], "what": p["what"], "url": _link(m, p["t"])}
+              for m in using for p in m["method"]["practices"] if p["tag"] == tag]
+        seen, examples = set(), []
+        for e in ex:   # one example per teacher, best-ranked first
+            if e["teacher"] not in seen:
+                seen.add(e["teacher"]); examples.append(e)
+        share = lambda group: (round(sum(1 for m in group if any(p["tag"] == tag for p in m["method"]["practices"])) / len(group), 2) if group else None)
+        practices.append({"tag": tag, "meaning": meaning, "lessons": len(using), "teachers": len(who), "share_of_lessons": share(oks),
+                          "share_best_ranked": share([m for m in oks if m["teacher_key"] in top]) if top else None,
+                          "share_others": share([m for m in oks if m["teacher_key"] not in top]) if top else None,
+                          "learner_voice": voice, "learner_themes": [{"kind": k, "theme": th, "count": c} for (k, th), c in themes.most_common(4)],
+                          "science": [{"key": n["key"], "principle": n.get("principle"), "for_the_teacher": n.get("for_the_teacher") or [], "sources": [s["url"] for s in n.get("sources") or []][:4]} for n in ns[:3]],
+                          "examples": examples[:4],
+                          # three kinds of evidence: several teachers do it, learners talk about it, research supports it
+                          "evidence_kinds": int(len(who) >= 3) + int(sum(voice.values()) >= 3) + int(bool(ns))})
+    practices.sort(key=lambda p: (-p["evidence_kinds"], -p["teachers"], -sum(p["learner_voice"].values()), p["tag"]))
+    adapt = []
+    for m in oks:
+        for a in m["method"]["adaptations"]:
+            adapt.append({"kind": a["kind"], "tag": ADAPT_KINDS.get(a["kind"]), "difficulty": a["difficulty"], "adjustment": a["adjustment"],
+                          "teacher": m["teacher"], "dance": m.get("dance"), "url": _link(m, a["t"])})
+    count = lambda field, allowed: [[k, c] for k, c in Counter(x for m in oks for x in (m["method"]["screen"][field] if field in ("views", "on_screen", "editing") else m["method"][field])).most_common() if k in allowed]
+    waits = sorted(m["method"]["pace"]["seconds_before_first_movement"] for m in oks if m["method"]["pace"]["seconds_before_first_movement"] is not None)
+    struggles = Counter()
+    for m in oks:
+        for v in m["method"]["learner_voice"]["struggles"]:
+            struggles[(v["tag"], v["theme"].lower())] += v["count"]
+    return {"contract": "da_bdf_teaching_v1", "generated_at": now_iso(),
+            "counts": {"teachers_ranked": len(teachers), "teachers_studied": len(keys), "lessons_studied_for_method": len(oks),
+                       "dances_covered": len({m.get("slug") for m in oks}), "adaptations_seen": len(adapt),
+                       "comments_read": sum(int(m.get("comments_read") or 0) for m in oks),
+                       "science_notes": len(sci), "science_findings_checked": sum(len(n.get("findings") or []) for n in sci),
+                       "science_topics_total": len(SCIENCE), "practices_with_two_or_more_kinds": sum(1 for p in practices if p["evidence_kinds"] >= 2)},
+            "practices": practices, "adaptations": adapt[:400],
+            "struggles": [{"tag": t, "theme": th, "count": c} for (t, th), c in struggles.most_common(40)],
+            "screen": {"views": count("views", VIEWS), "on_screen": count("on_screen", ON_SCREEN), "editing": count("editing", EDITING)},
+            "entry_points": count("entry_points", ENTRY),
+            "pace": {"median_seconds_before_first_movement": waits[len(waits) // 2] if waits else None,
+                     "talk_vs_move": Counter(m["method"]["pace"]["talk_vs_move"] for m in oks if m["method"]["pace"]["talk_vs_move"]).most_common()},
+            "teachers": [{k: t[k] for k in ("rank", "teacher", "score", "praise", "complaints", "lessons_found", "methods_studied", "system", "signature")} | {"dances": t["dances"][:8]}
+                         for t in teachers if t["methods_studied"]][:60],
+            "science": [{"key": n["key"], "topic": n.get("topic"), "tags": n.get("tags"), "principle": n.get("principle"), "findings": n.get("findings"),
+                         "for_the_teacher": n.get("for_the_teacher"), "when_it_does_not_apply": n.get("when_it_does_not_apply"),
+                         "sources": [{k: s.get(k) for k in ("url", "title", "authors", "year", "journal")} for s in n.get("sources") or []]} for n in sorted(sci, key=lambda n: n["key"])]}
+
+def render(s):
+    c, L = s["counts"], []
+    stars = {0: "—", 1: "●", 2: "●●", 3: "●●●"}
+    L += ["# How the best online dance classes teach — evidence for the Best Dance Friend", "",
+          f"_Rebuilt {s['generated_at'][:10]} by `pipeline/teaching.py`; it grows every night at no cost. Machine readings, not yet reviewed by a person: every line links to the moment in the video or to the source._", "",
+          "## Where the research stands", "", "| | |", "|---|---:|",
+          f"| Teachers ranked by what learners wrote under their lessons | {c['teachers_ranked']:,} |",
+          f"| Teachers whose method has been studied | {c['teachers_studied']:,} |",
+          f"| Lessons watched for teaching method | {c['lessons_studied_for_method']:,} |",
+          f"| Dances those lessons cover | {c['dances_covered']:,} |",
+          f"| Learner comments read (themes only, no names) | {c['comments_read']:,} |",
+          f"| Moments where a teacher adapts to a difficulty | {c['adaptations_seen']:,} |",
+          f"| Research notes with checked quotes | {c['science_notes']} of {c['science_topics_total']} topics ({c['science_findings_checked']} findings) |",
+          f"| Teaching practices backed by two or more kinds of evidence | {c['practices_with_two_or_more_kinds']} of {len(PRACTICES)} |", "",
+          "Three kinds of evidence are joined for every practice: **teachers** (at least three ranked teachers do it), **learners** (comments mention it) and **research** (a note with checked quotes). ●●● means all three.", ""]
+    L += ["## The teaching practices, strongest evidence first", ""]
+    for p in s["practices"]:
+        if not (p["lessons"] or p["science"] or sum(p["learner_voice"].values())):
+            continue
+        L.append(f"### {p['tag'].replace('_', ' ').capitalize()} {stars[p['evidence_kinds']]}")
+        L.append(f"_{p['meaning']}._")
+        bits = [f"{p['teachers']} teachers in {p['lessons']} lessons" + (f" ({p['share_of_lessons']:.0%} of lessons studied)" if p["share_of_lessons"] is not None else "")]
+        if p["share_best_ranked"] is not None:
+            bits.append(f"best-ranked third {p['share_best_ranked']:.0%}, the others {p['share_others']:.0%}")
+        v = p["learner_voice"]
+        if sum(v.values()):
+            bits.append(f"learners: {v['clicked']} say it made the lesson work, {v['struggles']} struggle here, {v['requests']} ask for it")
+        L.append("- Evidence: " + "; ".join(bits) + ".")
+        for e in p["examples"][:3]:
+            L.append(f"- {e['teacher']} ({e['dance']}, [{e['t']}]({e['url']})): {e['what']}")
+        for th in p["learner_themes"][:2]:
+            L.append(f"- Learners ({ {'struggles': 'find hard', 'clicked': 'say it clicked', 'requests': 'ask for'}[th['kind']] }, {th['count']}): {th['theme']}")
+        for n in p["science"][:2]:
+            L.append(f"- Research ({n['key'].replace('_', ' ')}): {n['principle']}" + (" → " + n["for_the_teacher"][0] if n["for_the_teacher"] else ""))
+        L.append("")
+    L += ["## When a learner struggles: what the teachers offer", "",
+          "Only what a teacher actually says or shows as an alternative; the link opens the video at that moment.", ""]
+    by = {}
+    for a in s["adaptations"]:
+        by.setdefault(a["kind"], []).append(a)
+    for kind in ADAPT_KINDS:
+        if by.get(kind):
+            L.append(f"**{kind.replace('_', ' ').capitalize()}** ({len(by[kind])} seen)")
+            L += [f"- When: {a['difficulty']} → {a['adjustment']} ([{a['teacher']}, {a['dance']}]({a['url']}))" for a in by[kind][:8]]
+            L.append("")
+    if s["struggles"]:
+        L += ["## What learners say they find hard", ""] + [f"- {x['theme']} ({x['count']} comments; {x['tag'].replace('_', ' ')})" for x in s["struggles"][:20]] + [""]
+    sc = s["screen"]
+    if sc["views"] or s["entry_points"]:
+        fmt = lambda rows: ", ".join(f"{k.replace('_', ' ')} {n}" for k, n in rows) or "nothing recorded yet"
+        L += ["## The screen and the way in", "", f"- Views used (lessons): {fmt(sc['views'])}", f"- Written on screen: {fmt(sc['on_screen'])}", f"- Editing: {fmt(sc['editing'])}",
+              f"- Ways into the dance: {fmt(s['entry_points'])}"]
+        if s["pace"]["median_seconds_before_first_movement"] is not None:
+            L.append(f"- Typical wait before the learner first moves: {s['pace']['median_seconds_before_first_movement']} seconds; talk and movement: {fmt(s['pace']['talk_vs_move'])}")
+        L.append("")
+    if s["teachers"]:
+        L += ["## The teachers studied so far, by learners' praise", "", "The score is how sure and how plentiful the praise in the comments is (0 to 100). It ranks who to study next; it is not a verdict.", ""]
+        for t in s["teachers"][:30]:
+            L.append(f"**{t['rank']}. {t['teacher']}** (score {t['score']}; {t['lessons_found']} lessons found; {', '.join(d.replace('-', ' ') for d in t['dances'][:4])})")
+            if t["system"]:
+                L.append(f"- System: {t['system']}")
+            if t["signature"]:
+                L.append(f"- What stands out: {t['signature']}")
+            L.append("")
+    if s["science"]:
+        L += ["## What the research says", "", "Each finding stands on words copied from the source and checked against it. Most studies are about learning movement in general, not dance.", ""]
+        for n in s["science"]:
+            L.append(f"### {n['topic'].capitalize()}")
+            L.append(n["principle"] or "")
+            L += [f"- {f['finding']} — \"{f['quote']}\" ([source]({f['source']}))" for f in (n["findings"] or [])[:4]]
+            L += [f"- For the teacher: {x}" for x in (n["for_the_teacher"] or [])[:3]]
+            if n["when_it_does_not_apply"]:
+                L.append(f"- Limits: {n['when_it_does_not_apply']}")
+            L.append("")
+    L += ["## How to read this", "",
+          "- The ranking uses learners' comments only. Views and likes are not used.",
+          "- A machine watched the first ten minutes of each lesson at low resolution. It can miss or misread a moment: open the link before relying on a line.",
+          "- Nothing here is medical or safety advice, and nothing here has been tested on learners by Dance Atlas yet.", ""]
+    return "\n".join(L)
+
+# ------------------------------------------------------------------ the stage
+def run(budget=8, science=None, only=None):
+    rep = Report("teaching")
+    for d in (METHODS_DIR, SCIENCE_DIR):
+        os.makedirs(d, exist_ok=True)
+    lessons = jload(LESSONS, {}) or {}
+    studied, methods, notes = _records(os.path.join(PED, "videos")), _records(METHODS_DIR), _records(SCIENCE_DIR)
+    teachers = build_teachers(lessons, studied, methods)
+    llm = LLM()
+    cat = (jload(os.path.join("public", "catalog", "dances.app.json"), {}) or {}).get("styles") or {}
+    deadline = time.time() + 60 * int(os.environ.get("TEACHING_MAX_MINUTES", "30"))
+    live = bool(llm.enabled and llm.gemini_key)
+    targets = pick_methods(teachers, methods, budget if live else 0, per_teacher=int(os.environ.get("METHOD_PER_TEACHER", "3")))
+    if only:
+        targets = [(t, l) for t, l in targets if l["slug"] in only or l["youtube_id"] in only]
+    rep.note(f"teachers ranked: {len(teachers)}; lessons to study for method: {len(targets)} (budget {budget}); engine {'on' if live else 'off: tables only'}")
+    misses = 0
+    for t, l in targets:
+        if time.time() > deadline or misses >= 3:   # three unreadable videos in a row: the model or the day's quota is gone
+            rep.inc("stopped_early"); break
+        try:
+            name = (cat.get(l["slug"]) or {}).get("name") or l["slug"].replace("-", " ")
+            rec = study(t, l, name, llm, fetch_comments(l["youtube_id"]))
+            rep.inc("method_" + save_method(rec))
+            misses = misses + 1 if rec["status"] == "failed" else 0
+            log(f"TEACHING {t['teacher']} / {l['slug']} {l['youtube_id']}: {rec['status']}" + (f" practices={len(rec['method']['practices'])} adaptations={len(rec['method']['adaptations'])}" if rec["status"] == "ok" else ""))
+        except Exception as e:
+            rep.error(f"teaching {l.get('youtube_id')}: {e}")
+    want = int(os.environ.get("SCIENCE_BUDGET", "3")) if science is None else science
+    for item in (pick_science(notes, want) if live and misses < 3 else []):
+        if time.time() > deadline:
+            rep.inc("stopped_early"); break
+        try:
+            note = science_note(item, llm)
+            prev = notes.get(item[0]) or {}
+            if note["status"] != "ok" and prev.get("status") == "ok":   # a failed refresh never replaces a good note
+                rep.inc("science_kept"); continue
+            jsave(os.path.join(SCIENCE_DIR, item[0] + ".json"), note)
+            rep.inc("science_" + note["status"])
+            log(f"SCIENCE {item[0]}: {note['status']} ({len(note.get('findings') or [])} checked of {note.get('quotes_offered', 0)} quotes)")
+        except Exception as e:
+            rep.error(f"science {item[0]}: {e}")
+    methods, notes = _records(METHODS_DIR), _records(SCIENCE_DIR)
+    teachers = build_teachers(lessons, studied, methods)
+    jsave(TEACHERS, {"generated_at": now_iso(), "ranked_by": "learners' comments under the lessons (praise and complaints counted by the crawler)", "teachers": teachers[:400]})
+    s = fuse(teachers, methods, notes)
+    jsave(SYSTEM_JSON, s)
+    os.makedirs(os.path.dirname(PUBLIC_JSON), exist_ok=True)
+    jsave(PUBLIC_JSON, s)
+    with open(DOC, "w", encoding="utf-8") as f:
+        f.write(render(s))
+    llm.record(rep)
+    c = s["counts"]
+    rep.note(f"teaching research: {c['lessons_studied_for_method']} lessons of {c['teachers_studied']} teachers studied, {c['science_notes']} research notes, {c['practices_with_two_or_more_kinds']} practices with two or more kinds of evidence")
+    return rep.finish()
